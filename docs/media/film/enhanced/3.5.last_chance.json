@@ -1,0 +1,60 @@
+{
+  "source_file_name": "3.5.last_chance.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "20/20",
+    "creator_name": null,
+    "publication_or_release_year": 2018,
+    "publisher_or_network": "ABC News",
+    "focus_or_theme": "Post-conviction DNA testing, challenges in obtaining testing, successful exonerations via DNA",
+    "summaryNotes": "Examines challenges of obtaining post-conviction DNA testing and profiles several successful exonerations.",
+    "availabilityNotes": "Available via ABC.",
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "New DNA Analysis in a Murder",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Post-conviction DNA testing leading to exoneration.",
+    "summary_notes": "This episode potentially focuses on a 1985 murder case where post-conviction DNA testing led to a man's exoneration. It highlights the challenges in obtaining post-conviction DNA testing and the role of the Innocence Project.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Examines challenges of obtaining post-conviction DNA testing; profiles several successful exonerations. Available via ABC.",
+      "research_findings": "The title \"Last Chance\" is too generic to definitively identify a specific 20/20 episode about DNA testing challenges via search. A 2018 episode titled \"New DNA Analysis in a Murder\" fits the theme, featuring a 1985 case and the Innocence Project, and could possibly be the segment referred to, but this is unconfirmed."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Man convicted in 1985",
+      "first_name": "Man",
+      "middle_name": null,
+      "last_name": "convicted",
+      "status": "CONVICTION_OVERTURNED",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": "Murdering girlfriend's parents",
+      "case_location_city": null,
+      "case_location_state": null,
+      "narrative_summary": "Convicted in 1985 for murdering his girlfriend's parents. His conviction was later overturned due to post-conviction DNA testing.",
+      "contributing_factors_raw": [
+        "Original conviction despite lack of DNA or based on flawed evidence",
+        "Overturned by post-conviction DNA"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": "The title \"Last Chance\" is too generic to definitively identify a specific 20/20 episode about DNA testing challenges via search. A 2018 episode titled \"New DNA Analysis in a Murder\" fits the theme, featuring a 1985 case and the Innocence Project, and could possibly be the segment referred to, but this is unconfirmed.",
+  "research_notes_raw": "Examines challenges of obtaining post-conviction DNA testing; profiles several successful exonerations."
+}

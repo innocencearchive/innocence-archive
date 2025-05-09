@@ -1,0 +1,80 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified, but episode features Jeffrey Holman and is guest-hosted by Beth Shelburne.
+-   **Host(s)**: Jason Flom (original host), Beth Shelburne (guest host for this episode)
+-   **Release Year(s)**: Not explicitly stated in the transcript, but likely around 2022 based on the mention of a future podcast in early 2023. Assuming 2022.
+-   **Production Company(ies)/Network**: Lava for Good Podcasts in association with Signal Company No. 1
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, criminal justice system flaws, eyewitness misidentification, impact of wrongful conviction, stories of exonerees.
+-   **Key Statistics/Information**: Not explicitly statistical, but highlights the frequency of wrongful convictions and the devastating impact even in cases not involving murder.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction, guest-hosted by investigative reporter Beth Shelburne, tells the story of Jeffrey Holman's wrongful conviction for rape in Tuscaloosa, Alabama in 1987.  Despite maintaining his innocence and the lack of physical evidence, Holman was convicted based on eyewitness identification and sentenced to life in prison.  The podcast details his difficult childhood, his admission to other crimes like burglary and check forgery which may have prejudiced the jury, and the deficiencies of his court-appointed lawyer. Holman spent 12 years in prison before DNA evidence from a rediscovered rape kit exonerated him in 1998.  The episode explores the emotional toll of wrongful conviction and Holman's eventual work in ministry to help others re-entering society after incarceration, highlighting his resilience and forgiveness.
+
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Jeffrey Holman
+-   **Case Location**: Tuscaloosa, Alabama, USA
+-   **Conviction Year**: 1988
+-   **Exoneration Year**: 1999
+-   **Crime Convicted Of**: First-degree rape, first-degree burglary, stealing a vehicle, stealing a bank card, and using a bank card.
+-   **Sentence**: Life in prison
+-   **Time Served**: 12 years
+-   **Contributing Factors**: Eyewitness misidentification, possibly prejudiced by admission of guilt in separate burglary and check forgery cases, inadequate defense counsel.
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**: Not explicitly mentioned in the transcript, but Rule 32 motion and DNA testing were key to his exoneration.
+-   **Innocence Lawyer Details**:  Court-appointed trial lawyer named "Miller" (first name not fully clear in transcript - possibly "Wynn Miller" or similar).  Described as ill-prepared and ineffective by Holman. Filed an Anders brief after conviction, stating she found no errors in the transcript, and did not pursue ineffective assistance of counsel appeal.
+-   **Cross-Reference**: Not explicitly stated if in an exoneree database, but highly likely given the nature of the podcast.
+-   **Narrative of Original Crime**: A female student at the University of Alabama was attacked in her apartment by a masked man. She was raped, and the attacker stole her car keys and bank card after forcing her to reveal her access code.
+-   **Key Evidence at Trial (Prosecution)**: Eyewitness identification by a male student who saw someone leaving the victim's car after the attack.  No physical evidence linked Holman to the crime.  Guilty plea in separate burglary and check forgery cases was likely used to suggest criminal propensity.
+-   **Trial Defender Notes**: Court-appointed lawyer advised Holman not to testify due to his past criminal activity.  Seemed unprepared and did not effectively challenge the eyewitness identification or lack of physical evidence.  Holman felt she did not provide the best defense.
+-   **Key Evidence for Exoneration/Change in Legal Status**:  DNA testing of a rape kit, initially reported as lost but later found, excluded Jeffrey Holman as the source of the semen. This DNA evidence led to his exoneration by Judge England.
+-   **Actual Perpetrator Details**: Not mentioned or identified in the transcript.
+
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Attorney's sentencing remark: "Don't worry, it's just life." - Highlights the disconnect and lack of empathy.
+    -   Holman: "I knew I never raped anybody." -  Emphasizes his consistent claim of innocence.
+    -   Warden's phone call and DNA results: Moment of emotional relief and physical weakness upon hearing he was excluded by DNA.
+    -   Holman on release: "They want to know, are you bitter? No, I just, I thank God that I'm furry." -  Illustrates his positive attitude despite injustice.
+    -   Holman: "I projected innocence the whole time." -  Highlights his steadfastness in maintaining his innocence.
+
+-   **Systemic Issues Identified**:
+    -   Eyewitness misidentification and its fallibility.
+    -   Potential for prejudice based on past minor offenses in unrelated serious crime cases.
+    -   Inadequate resources and potential ineffectiveness of court-appointed defense counsel.
+    -   Issues with evidence storage and handling (lost rape kit).
+    -   Bureaucratic delays and miscommunication within the parole system even after exoneration.
+    -   Challenges faced by exonerees upon release, including societal stigma and lack of support.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Implicit call for criminal justice reform to address issues leading to wrongful convictions.
+    -   Need for better support systems for exonerees upon release.
+    -   Importance of DNA testing and access to post-conviction DNA testing.
+    -   Potential need for improved standards for court-appointed defense attorneys.
+    -   Raises questions about the impact of prior convictions on jury perception.
+
+-   **Personal Narrative/Impact**:
+    -   Holman's personal narrative emphasizes resilience, faith, and forgiveness after wrongful conviction.
+    -   Despite the trauma, he focused on helping others through ministry.
+    -   He expresses gratitude for his life back despite lack of compensation for time served.
+    -   The experience profoundly shaped his life and led him to a life of service.
+    -   Final thoughts: Stay true to yourself, don't bow to a system you know is wrong, and have faith.
+
+-   **Additional Resources**:
+    -   Beth Shelburne's substack "Moth to Flame" about criminal justice in Alabama.
+    -   Mention of an upcoming investigative podcast by Beth Shelburne for Lava about the wrongful conviction of Toforest Johnson.
+    -   Reference to Kyros ministry and its positive impact in prisons.
+    -   Mention of next week's episode featuring Amanda Knox and Heidi Goodwin discussing shaken baby syndrome.
+```

@@ -1,0 +1,109 @@
+{
+  "source_file_name": "08.tested.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Tested: How Twelve Wrongly Imprisoned Men Held Onto Hope",
+    "creator_name": "Peyton Budd and Dorothy Budd",
+    "publication_or_release_year": 2010,
+    "publisher_or_network": "Brown Books Publishing Group (Dallas, TX)",
+    "format": "Hardcover, Paperback (130 pages)",
+    "focus_or_theme": "Psychological resilience of wrongfully convicted individuals, personal journeys of hope, faith, and redemption",
+    "key_statistics": "12 innocent men, 189 lost years, 68,985 lost days, 1,655,640 lost hours"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "\"These innocent men illuminate both the failures of the justice system and the resilience of the human spirit. Their surprising stories teach us that no matter how we are tested in our lives, it is never wrong to have hope.\"",
+      "\"In Reverend Dorothy Budd's words, the book is 'an inquiry into how twelve human beings, trapped in impossible and unfair situations, somehow made a way where there was no way.'\"",
+      "\"12 innocent men, 189 lost years, 68,985 lost days, 1,655,640 lost hours\""
+    ],
+    "systemic_issues_raw": [
+      "Eyewitness misidentification",
+      "Flaws in the criminal justice system",
+      "Racial bias (implied in the research)",
+      "Lack of adequate legal representation",
+      "Procedural issues in trials"
+    ],
+    "policy_recommendations_raw": [
+      "The book advocates for an \"honest conversation about our justice system, the new tools available, and the hurdles the poor face once they are drawn into that system\" (Craig Watkins, Dallas County District Attorney)",
+      "Supports the use of DNA testing and post-conviction review"
+    ],
+    "additional_resources_raw": [
+      "Actual Innocence Clinic at The University of Texas at Austin School of Law",
+      "University of Texas at Arlington's Innocence Network",
+      "Dallas County District Attorney's Office (under Craig Watkins)",
+      "Innocence Project of Texas"
+    ],
+    "research_notes_other": {
+      "this_book_is_valuable_for_our_project_as_it": "1. Focuses on multiple cases (twelve wrongfully convicted men) to maximize data collection\n2. Provides insight into the psychological aspects of wrongful conviction and how individuals maintain hope during incarceration\n3. Highlights systemic issues in the criminal justice system that contribute to wrongful convictions\n4. Features cases from Dallas County, Texas, which has had a significant number of exonerations\n5. Includes personal narratives based on one-on-one interviews with the exonerees\nThe book appears to be unique in its focus on the psychological and emotional aspects of wrongful conviction, making it a valuable complement to more legally-focused resources in our research."
+    },
+    "item_title": "Book Content: Tested: How Twelve Wrongly Imprisoned Men Held Onto Hope",
+    "focus_or_theme": "Psychological resilience of wrongfully convicted individuals, personal journeys of hope, faith, and redemption",
+    "summary_notes": "This book profiles twelve men wrongfully imprisoned in Texas, focusing on their psychological resilience and journeys of hope and redemption. It highlights systemic issues leading to wrongful convictions and advocates for improved justice system practices.",
+    "case_details_raw": "The book profiles twelve men who were wrongfully imprisoned in Texas and later exonerated.  Detailed information was only available for two: Christopher Scott and Claude Simmons Jr., both convicted in 1997 and exonerated in 2009.  Their cases involved eyewitness misidentification by the victim's wife."
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Christopher Scott",
+      "first_name": "Christopher",
+      "middle_name": null,
+      "last_name": "Scott",
+      "case_location": "Dallas, Texas",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2009,
+      "crime_convicted_of": "Murder",
+      "sentence": null,
+      "time_served": "12-13 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [
+        "Dallas County Public Defender's Office",
+        "Actual Innocence Clinic at UT Austin"
+      ],
+      "cross_reference": null,
+      "individual_notes": null
+    },
+    {
+      "full_name": "Claude Simmons Jr.",
+      "first_name": "Claude",
+      "middle_name": null,
+      "last_name": "Simmons Jr.",
+      "case_location": "Dallas, Texas",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2009,
+      "crime_convicted_of": "Murder",
+      "sentence": null,
+      "time_served": "12 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [
+        "Actual Innocence Clinic at UT Austin",
+        "University of Texas at Arlington's Innocence Network"
+      ],
+      "cross_reference": null,
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Peyton Budd",
+      "role": "AUTHOR",
+      "first_name": "Peyton",
+      "middle_name": null,
+      "last_name": "Budd"
+    },
+    {
+      "full_name": "Dorothy Budd",
+      "role": "AUTHOR",
+      "first_name": "Dorothy",
+      "middle_name": null,
+      "last_name": "Budd"
+    }
+  ],
+  "research_strategy_notes_raw": "This book is valuable for our project as it:\n1. Focuses on multiple cases (twelve wrongfully convicted men) to maximize data collection\n2. Provides insight into the psychological aspects of wrongful conviction and how individuals maintain hope during incarceration\n3. Highlights systemic issues in the criminal justice system that contribute to wrongful convictions\n4. Features cases from Dallas County, Texas, which has had a significant number of exonerations\n5. Includes personal narratives based on one-on-one interviews with the exonerees\n\nThe book appears to be unique in its focus on the psychological and emotional aspects of wrongful conviction, making it a valuable complement to more legally-focused resources in our research.",
+  "research_notes_raw": null
+}

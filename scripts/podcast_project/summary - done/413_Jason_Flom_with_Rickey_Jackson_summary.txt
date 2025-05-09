@@ -1,0 +1,114 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but episode focuses on Ricky Jackson, Wiley Bridgman, and Ronnie Bridgman case.
+-   **Host(s)**: Jason Flom (mentioned as interviewer "Jason")
+-   **Release Year(s)**: Not specified in transcript, but mentions 2023 Innocence Network Conference, suggesting release around or after 2023.
+-   **Production Company(ies)/Network**: Not specified in transcript, but likely part of the "Wrongful Conviction" podcast series.
+-   **Series Type**: Episodic Series (based on description of each episode being a standalone story).
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, eyewitness misidentification, police coercion, systemic issues in the justice system, death penalty abolition.
+-   **Key Statistics/Information**:
+    - Ricky Jackson served 39 years, 3 months, and 9 days for a crime he did not commit.
+    - He was the longest-serving defendant exonerated in US history at the time of his release.
+    - The wrongful conviction was based on the false testimony of a 12-year-old eyewitness who was coerced by police.
+    - Evidence pointing to other suspects was ignored by police.
+    - All-white jury in 1975 convicted three black men based on flimsy evidence.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features Ricky Jackson, who was wrongfully convicted along with Wiley Bridgman and Ronnie Bridgman for a 1975 murder in Cleveland, Ohio.  Their conviction rested solely on the coerced testimony of a 12-year-old boy, Eddie Vernon, while evidence pointing to other suspects was ignored by police. Ricky, Wiley, and Ronnie were initially sentenced to death, later commuted to life.  The podcast details the crime, the flawed investigation, the trial, and Ricky's decades-long fight for exoneration.  Ricky describes the devastating impact of wrongful conviction, the systemic issues within the justice system, and his eventual exoneration in 2014 after Eddie Vernon recanted his testimony.  The episode highlights the importance of abolishing the death penalty and the enduring trauma of wrongful conviction.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Ricky Jackson
+    -   **Case Location**: Cleveland, Ohio, USA (Cuyahoga County)
+    -   **Conviction Year**: 1975
+    -   **Exoneration Year**: 2014
+    -   **Crime Convicted Of**: Aggravated murder, aggravated attempted murder, aggravated robbery
+    -   **Sentence**: Death (commuted to life in prison)
+    -   **Time Served**: 39 years, 3 months, 9 days
+    -   **Contributing Factors**: Eyewitness misidentification (false testimony coerced by police), police misconduct (tunnel vision, ignoring other leads, coercion, withholding evidence), racial bias in the justice system.
+    -   **Legal Status**: Exonerated
+    -   **Organizations Involved**: Ohio Innocence Project
+    -   **Innocence Lawyer Details**: Brian Howe and Mark Godsey of the Ohio Innocence Project. They reinvestigated the case, uncovered the recantation, and filed petitions for a new trial.
+    -   **Cross-Reference**: Yes (exoneree database implied, given focus on wrongful convictions).
+    -   **Narrative of Original Crime**:  Harold Franks, a 59-year-old money order salesman, was attacked outside a grocery store by two men who demanded his briefcase. He was clubbed with a pipe, had acid splashed in his face, and was shot twice in the chest, resulting in his death. A co-owner, Anne Robinson, was also shot but survived. The perpetrators fled with $425 and blank money orders in a green car.
+    -   **Key Evidence at Trial (Prosecution)**: The sole key evidence was the testimony of 12-year-old Eddie Vernon, who claimed to have witnessed the crime and identified Ricky Jackson and the Bridgman brothers as the perpetrators.
+    -   **Trial Defender Notes**:  Defense presented alibi witnesses (mother, friends) and testimony from Vernon's classmates and bus driver that Vernon could not have seen the crime from the bus. A 16-year-old girl testified seeing only two men, none of whom were the defendants. The judge privately expressed disbelief in Vernon's testimony but did not intervene.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Recantation of testimony by Eddie Vernon in 2013. Vernon confessed to his pastor and later in court that his original testimony was a lie coerced by police. Police reports obtained by the Ohio Innocence Project also corroborated that police had ignored other viable suspects (Gardenshire and Hickson) and leads (license plate of escape car).
+    -   **Actual Perpetrator Details**:  Transcript mentions Ishmael Hickson and Paul Gardenshire as viable suspects considered by police initially. Hickson owned a green convertible matching the description of the escape car and had a criminal record including robbery and shooting. Gardenshire's mother reported him to police as having a gun of the same caliber as the murder weapon and believing he was involved.  Hickson later pleaded guilty to multiple counts of aggravated robbery. The actual perpetrators of the Frank's murder are not definitively identified in the transcript, but evidence strongly pointed away from Jackson and towards Hickson and Gardenshire.
+
+-   **Name**: Wiley Bridgman (referred to as Wylie Bridgeman in transcript)
+    -   **Case Location**: Cleveland, Ohio, USA (Cuyahoga County)
+    -   **Conviction Year**: 1975
+    -   **Exoneration Year**: 2014 (implied, as petitions were filed for both Ricky and Wiley at the same time and exonerated together)
+    -   **Crime Convicted Of**: Aggravated murder, aggravated attempted murder, aggravated robbery
+    -   **Sentence**: Death (commuted to life in prison)
+    -   **Time Served**: 39 years (implied, same as Ricky Jackson)
+    -   **Contributing Factors**: Same as Ricky Jackson
+    -   **Legal Status**: Exonerated
+    -   **Organizations Involved**: Ohio Innocence Project
+    -   **Innocence Lawyer Details**: Same as Ricky Jackson
+    -   **Cross-Reference**: Yes (exoneree database implied)
+    -   **Narrative of Original Crime**: Same as Ricky Jackson
+    -   **Key Evidence at Trial (Prosecution)**: Same as Ricky Jackson
+    -   **Trial Defender Notes**: Same as Ricky Jackson
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Same as Ricky Jackson
+    -   **Actual Perpetrator Details**: Same as Ricky Jackson
+
+-   **Name**: Ronnie Bridgman (referred to as Ronnie Bridgitt and Ronnie Brisbane in transcript)
+    -   **Case Location**: Cleveland, Ohio, USA (Cuyahoga County)
+    -   **Conviction Year**: 1975 (September, according to transcript)
+    -   **Exoneration Year**: 2014 (later vacated, implied same timeframe as Ricky and Wiley)
+    -   **Crime Convicted Of**: Aggravated murder, aggravated attempted murder, aggravated robbery
+    -   **Sentence**: Death (commuted to life in prison)
+    -   **Time Served**: 39 years (implied, same as Ricky Jackson)
+    -   **Contributing Factors**: Same as Ricky Jackson
+    -   **Legal Status**: Exonerated
+    -   **Organizations Involved**: Ohio Innocence Project
+    -   **Innocence Lawyer Details**: Same as Ricky Jackson
+    -   **Cross-Reference**: Yes (exoneree database implied)
+    -   **Narrative of Original Crime**: Same as Ricky Jackson
+    -   **Key Evidence at Trial (Prosecution)**: Same as Ricky Jackson
+    -   **Trial Defender Notes**: Same as Ricky Jackson
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Same as Ricky Jackson
+    -   **Actual Perpetrator Details**: Same as Ricky Jackson
+
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Ricky Jackson: "It affects not only individuals and victims, it affects our entire society." (About wrongful convictions)
+    -   Ricky Jackson: "I taught him myself as being a professional dad. You know, that's my number one primary concern." (Describing life after exoneration)
+    -   Ricky Jackson: "When it's you against the state, guess what? You're going to lose every time." (Highlighting power imbalance in the justice system)
+    -   Ricky Jackson: "I'm innocent. I came too far. At this point, I ain't got nothing to lose. I'm gonna stay with the hand I was dealt." (Describing his decision to reject plea deal at exoneration hearing)
+    -   Eddie Vernon (recantation): "Everything was a lie. They were all lies." (Confessing to false testimony)
+    -   Prosecutor Timothy McGinty: "The state concedes the obvious." (Acknowledging wrongful conviction)
+-   **Systemic Issues Identified**:
+    -   Police coercion and misconduct in obtaining eyewitness testimony.
+    -   Tunnel vision in police investigations, ignoring exculpatory evidence and viable alternative suspects.
+    -   Racial bias in the justice system, particularly in cases involving Black defendants and white victims.
+    -   Ineffective defense in the original trial (implied by judge's private disbelief in witness yet inaction).
+    -   Lack of accountability for prosecutorial and police misconduct.
+    -   Difficulty of overturning wrongful convictions, even with recanted testimony.
+-   **Policy Recommendations/Calls to Action**:
+    -   Abolish the death penalty (explicitly mentioned at the beginning).
+    -   Criminal justice reform to address systemic issues leading to wrongful convictions.
+    -   Improved police investigation practices to prevent tunnel vision and coercion.
+    -   Greater scrutiny of eyewitness testimony, especially from children.
+    -   Increased accountability for police and prosecutors who engage in misconduct.
+-   **Personal Narrative/Impact**:
+    -   Ricky Jackson emphasizes the profound personal impact of wrongful conviction, including lost time, emotional trauma, and the struggle to rebuild life after decades in prison. He focuses on his role as a father and entrepreneur after exoneration, showing resilience and determination. He also expresses empathy for Eddie Vernon, acknowledging him as also being a victim of the system.
+    -   The interview format allows Ricky to share his story in his own words, conveying the emotional weight of his experience and the injustice he suffered.
+-   **Additional Resources**:
+    -   Documentary "Lovely Jackson" (mentioned as a movie about Ricky Jackson's case).
+    -   Innocence Network Conference (mentioned as location of the interview).
+    -   Cleveland Scene magazine article from 2011 (mentioned as a detailed examination of the case).
+    -   Ohio Innocence Project (organization that helped exonerate Ricky Jackson).
+```

@@ -1,0 +1,74 @@
+{
+    "sourceFileName": "115_False_Confessions_Origin_Story_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction, False Confessions",
+    "mediaItem": {
+        "hosts": "Lauren Eyreider, Steve Drizen",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts in association with Signal Company No. 1",
+        "seriesType": "Ongoing Series (implied by \"first story we're going to tell in this podcast\" and \"next week\")",
+        "format": "Podcast",
+        "focusTheme_Work": "False confessions, wrongful convictions, psychological interrogation techniques, systemic issues in the justice system.",
+        "keyStats": "-   The Center on Wrongful Convictions at Northwestern University has freed more than 40 innocent people in 20 years.\n-   Hundreds of false confession cases are known where DNA evidence proved innocence.\n-   26 states in the US now require video or audio recording of interrogations.\n-   24 states still don't require real-time documentation of interrogations.",
+        "itemNumber": "115",
+        "itemTitle": "False Confessions Origin Story",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This podcast episode introduces the series \"Wrongful Conviction, False Confessions\" hosted by Lauren Eyreider and Steve Drizen, directors at the Center on Wrongful Convictions.  They aim to explore the phenomenon of false confessions, explaining how innocent people can confess to crimes they didn't commit due to psychological interrogation tactics.  The hosts discuss the power of isolation and manipulation in interrogation rooms, highlighting how police can construct narratives and erode a suspect's confidence. They use the case of Brendan Dassey, whom they both represented, as a prime example of a false confession leading to wrongful conviction.  The episode emphasizes systemic failures within the justice system that allow false confessions to stand, and concludes by announcing the first case they will feature in detail: Robert Davis. The hosts aim to educate the public and advocate for reforms to prevent future wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Robert Davis (mentioned as next episode's focus)",
+        "caseLocation": "Virginia, USA (mentioned as a \"Virginia man\")",
+        "convictionYear": "Not mentioned in this transcript.",
+        "exonerationYear": "Not mentioned in this transcript.",
+        "crimeConvictedOf": "\"Equally serious heinous crime\" - similar to Brendan Dassey's case, but specific crime not detailed.",
+        "sentence": "Not mentioned in this transcript.",
+        "timeServed": "Not mentioned in this transcript.",
+        "contributingFactorsRaw": [
+            "False confession due to interrogation tactics (implied as parallel to Brendan Dassey's case)."
+        ],
+        "status": "Not mentioned in this transcript.",
+        "organizationsInvolvedRaw": [
+            "Center on Wrongful Convictions at Northwestern University (implied as case being discussed by them)."
+        ],
+        "innocenceLawyersRaw": [
+            "Laura Nirider analyzed his case tapes as an expert."
+        ],
+        "crossReference": "Unknown from transcript.",
+        "narrativeOriginalCrime": "Not detailed in this transcript, described as \"serious heinous crime\".",
+        "keyEvidenceProsecutionRaw": [
+            "False confession (implied as focus of the episode will be on the confession)."
+        ],
+        "trialDefenderNotes": "Not detailed in this transcript.",
+        "keyEvidenceExonerationRaw": [
+            "Interrogation tapes (implied as Laura Nirider analyzed these)."
+        ],
+        "actualPerpetratorDetails": "Not discussed in transcript."
+    },
+    "keyQuotesRaw": [
+        "\"Every one of us has a breaking point. And what you see in these false confession cases is the power of the interrogation room, which is focused on identifying that breaking point for the person being interrogated.\" - Steve Drizen",
+        "\"When people see what happens inside the interrogation room, they're horrified. The techniques that are used, sure they're psychological. Very few cops use physical abuse any longer. But these psychological techniques distort the world so much that suddenly it starts to make sense that you should confess even if you're innocent.\" - Steve Drizen",
+        "\"So literally when you're watching these videos at the interrogation room, you're watching acts of legal suicide. And in the worst cases, you're watching acts of psychological torture.\" - Steve Drizen",
+        "\"False confession stories are life-changing to hear. I mean, literally, it was a story of a false confession that changed the course of my life transformed my own personal trajectory, and that's what I want to do with this podcast.\" - Laura Nirider"
+    ],
+    "systemicIssuesRaw": [
+        "Lack of video recording of interrogations in many states.",
+        "Failure of checks and balances within the justice system (police, prosecutors, judges, juries) to recognize and prevent wrongful convictions based on false confessions.",
+        "Police feeding facts to suspects and constructing narratives.",
+        "Psychological manipulation and coercion used in interrogations."
+    ],
+    "policyRecommendationsRaw": [
+        "Implied call for systematic reform to address false confessions.",
+        "Need for public awareness and education about false confessions to drive change.",
+        "Mention of reforms happening due to increased awareness, suggesting continued advocacy is needed."
+    ],
+    "personalNarrativeRaw": [
+        "Laura Nirider's life was changed after watching Brendan Dassey's interrogation video, leading her to dedicate her career to wrongful conviction work.",
+        "Steve Drizen has been working on wrongful conviction cases for 20-25 years, driven by a passion for justice and preventing suffering.",
+        "Both hosts find the victories of exonerating innocent people to be the most rewarding and motivating aspect of their work."
+    ],
+    "additionalResourcesRaw": [
+        "Netflix show \"Making a Murderer\" mentioned as raising public awareness.",
+        "Podcast \"Wrongful Conviction with Jason Flom\" mentioned as previous platform for Brendan Dassey's story.",
+        "Website: Wrongfulconvictionpodcast.com",
+        "Social Media: Instagram (@LauraNyrider, @WrongfulConviction), Twitter (@SDrizzen, @Wrongconviction), Facebook (Wrongful Conviction Podcast)."
+    ]
+}

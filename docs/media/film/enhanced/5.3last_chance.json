@@ -1,0 +1,89 @@
+{
+  "source_file_name": "5.3last_chance.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "48 Hours",
+    "creator_name": null,
+    "publication_or_release_year": 2017,
+    "publisher_or_network": "CBS News",
+    "focus_or_theme": "DNA exoneration after decades, innovative DNA testing (distinguishing mixtures)",
+    "summaryNotes": "Highlighted exoneration after 25 years.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Guilty Until Proven Innocent",
+    "item_number": "Season 30, Episode 24",
+    "release_date": "2017-02-04",
+    "hostOrNarrator": null,
+    "focus_or_theme": "DNA exoneration after decades, innovative DNA testing (distinguishing mixtures)",
+    "summary_notes": "Details the conviction of Pinkins and Roosevelt Glenn for a 1989 rape based on questionable identification and clothing evidence. Advanced DNA testing excluded both men and led to their exonerations, highlighting advancements in DNA technology.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Features innovative DNA technology distinguishing contributors in mixtures, clearing Pinkins after 25 years. Available via CBS/Paramount+.",
+      "research_findings": "The 48 Hours episode covering Darryl Pinkins appears to be titled \"Guilty Until Proven Innocent\" (aired 2017). It details the conviction of Pinkins and Roosevelt Glenn for a 1989 rape based on questionable identification and clothing evidence. Advanced DNA testing performed years later on the clothing excluded both men and led to their exonerations, highlighting advancements in DNA technology as noted in the list."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Darryl Pinkins",
+      "first_name": "Darryl",
+      "middle_name": null,
+      "last_name": "Pinkins",
+      "status": "EXONERATED",
+      "conviction_year": 1991,
+      "exoneration_or_release_year": 2016,
+      "time_served": "25 years",
+      "sentence": "65 years",
+      "crime_convicted_of_raw": "Rape, Robbery, Burglary",
+      "case_location_city": "Hammond",
+      "case_location_state": "Lake County, Indiana",
+      "narrative_summary": "Convicted of rape, robbery, and burglary in 1991 and sentenced to 65 years. He was exonerated in 2016 after serving 25 years, based on advanced DNA testing. His case highlights issues with eyewitness misidentification and flawed forensic comparison.",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification",
+        "Flawed forensic comparison (overalls)",
+        "Initial DNA testing was inconclusive or limited"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project",
+        "The Wrong Man (book/advocacy)"
+      ]
+    },
+    {
+      "full_name": "Roosevelt Glenn",
+      "first_name": "Roosevelt",
+      "middle_name": null,
+      "last_name": "Glenn",
+      "status": "EXONERATED",
+      "conviction_year": 1991,
+      "exoneration_or_release_year": 2009,
+      "time_served": "~17 years",
+      "sentence": "35 years (Pleaded guilty mid-trial)",
+      "crime_convicted_of_raw": "Rape, Robbery, Burglary",
+      "case_location_city": "Hammond",
+      "case_location_state": "Lake County, Indiana",
+      "narrative_summary": "Convicted of rape, robbery, and burglary in 1991 and sentenced to 35 years after pleading guilty mid-trial. He was released on parole in 2009, after serving approximately 17 years, and later exonerated alongside Pinkins based on DNA evidence.",
+      "contributing_factors_raw": [
+        "Took plea deal during trial"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project",
+        "The Wrong Man (book/advocacy)"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": [
+    "Features innovative DNA technology distinguishing contributors in mixtures, clearing Pinkins after 25 years. Available via CBS/Paramount+.",
+    "The 48 Hours episode covering Darryl Pinkins appears to be titled \"Guilty Until Proven Innocent\" (aired 2017).",
+    "It details the conviction of Pinkins and Roosevelt Glenn for a 1989 rape based on questionable identification and clothing evidence.",
+    "Advanced DNA testing performed years later on the clothing excluded both men and led to their exonerations, highlighting advancements in DNA technology."
+  ]
+}

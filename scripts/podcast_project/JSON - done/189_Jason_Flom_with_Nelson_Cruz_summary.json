@@ -1,0 +1,86 @@
+{
+    "sourceFileName": "189_Jason_Flom_with_Nelson_Cruz_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcasts in association with Signal Company No. 1.",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, police misconduct, legal injustice, fight for exoneration.",
+        "keyStats": "Mention of NYPD detectives Luis Carcella and Stephen Camille's notorious history of wrongful convictions, 22 years Nelson Cruz has been incarcerated as of the podcast recording,  Officer Piattie witnessed Eduardo Rodriguez with the gun.",
+        "itemNumber": "189",
+        "itemTitle": "Jason Flom with Nelson Cruz",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the deeply troubling case of Nelson Cruz, who has been imprisoned for 22 years for a murder he did not commit.  Despite clear eyewitness testimony from a police officer identifying Eduardo Rodriguez as the shooter and arresting him at the scene, and despite Nelson having alibi,  detectives Scarcella and Camille from the corrupt 75th precinct built a case against Nelson using unreliable witness testimony and fabricated evidence.  Nelson was convicted based on the testimony of Andre Bellinger, who later admitted to being influenced by police.  Despite new exculpatory evidence and a hearing that revealed the weakness of the prosecution's case,  Nelson remains incarcerated due to a series of legal setbacks, including a judge suffering from early-onset Alzheimer's who presided over his appeal.  The episode highlights systemic issues of police misconduct, flawed eyewitness identification, and the immense personal toll of wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Nelson Cruz",
+        "caseLocation": "East New York, Brooklyn, New York, USA",
+        "convictionYear": "1998",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "Murder of Trevor Vieira",
+        "sentence": "25 years to life",
+        "timeServed": "22 years (as of podcast recording, now longer)",
+        "contributingFactorsRaw": [
+            "Police misconduct (Detectives Luis Carcella and Stephen Camille fabricating evidence and coercing witnesses)",
+            "False eyewitness testimony (Andre Bellinger's unreliable and coerced testimony)",
+            "Ineffective assistance of counsel (Trial defender notes section suggests potential issues)",
+            "Systemic issues within the 75th precinct (history of corruption and wrongful convictions)"
+        ],
+        "status": "Currently incarcerated, pursuing legal avenues for exoneration, motion to compel written decision and appeal filed.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (implied through the podcast's general advocacy and the \"support your local Innocence Projects\" call)",
+            "Action Innocent Team (A.I.A. Team - prison support group founded by Nelson Cruz, Derek Hamilton, Shabakas, and Danny Rincon)"
+        ],
+        "innocenceLawyersRaw": [
+            "Justin Bonas, criminal defense attorney, working on Nelson Cruz's case. No other details provided in transcript."
+        ],
+        "crossReference": "Not specified if in exoneree database mentioned in transcript.",
+        "narrativeOriginalCrime": "Trevor Vieira was shot and killed on March 28, 1998, in East New York, Brooklyn. Police responded immediately.  Eduardo Rodriguez was seen with a gun at the scene and arrested by Officer Piattie.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness testimony of Andre Bellinger, who claimed Nelson Cruz was the shooter and provided a narrative of events where Nelson argued with the victim and shot him. Bellinger claimed Nelson accused the victim of giving Shaq a gun and then killed the victim."
+        ],
+        "trialDefenderNotes": "Transcript does not provide details on the original trial defense lawyer's strategy or effectiveness beyond the fact that they presented the uniformed officer's testimony that exonerated Nelson.  The focus of the podcast is on post-conviction and the fight for exoneration, suggesting the original defense may have been inadequate, but this is not explicitly stated or detailed in the transcript.",
+        "keyEvidenceExonerationRaw": [
+            "Testimony of Officer William Piattie, who witnessed Eduardo Rodriguez with the gun and did not see Nelson Cruz at the scene.",
+            "Testimony of William Harden, eyewitness who saw Rodriguez shoot the victim and did not see Nelson Cruz.",
+            "Testimony of William Johnson, eyewitness arrested at the scene, knew Nelson and did not see him there.",
+            "Alibi witnesses: Ralph Johnson and Bonnie Cooper.",
+            "Recantation/undermining of Andre Bellinger's testimony by Bonnie Cooper and inconsistencies highlighted by private investigator Jay Salpeter.",
+            "Testimony of Jermaine Frazier (Shaq) refuting Bellinger's narrative of a prior argument with Nelson.",
+            "Evidence of Detectives Scarcella and Camille's involvement and history of misconduct.",
+            "Judge Shondiah Simpson initially acknowledging unreliability of Bellinger and Scarcella's involvement."
+        ],
+        "actualPerpetratorDetails": "Eduardo Rodriguez was identified by a uniformed police officer at the scene with a gun and arrested. Ballistics matched Rodriguez's gun to the shell casings at the crime scene. Rodriguez initially named Nelson as the shooter, potentially to deflect blame. Rodriguez had prior arrests and was on parole at the time."
+    },
+    "keyQuotesRaw": [
+        "Nelson Cruz: \"I never said any of this to these detectives, never, never said any of this.\" (Regarding fabricated confession)",
+        "Officer William Piattie Testimony: \"Did you ever see Nelson Cruz on the scene? No. Did you ever see Nelson Cruz with a nine millimeter handgun in his hand? No. You did see Eduardo Rodriguez with a nine millimeter handgun in your hand, correct? Yes.\" (Powerful exonerating testimony at hearing)",
+        "Justin Bonas: \"If ever there was a case that was presented in court where clear and convincing evidence was presented that a man was actually innocent, it was Nelson Cruz's case.\" (Closing argument highlighting strength of exoneration evidence)",
+        "Nelson Cruz: \"Enough is enough... It's been hard for me, you know, sometimes I get frustrated and, you know, lose hope. But I'll fight against it. I'll move forward.\" (Personal impact and resilience)"
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct and corruption within the NYPD's 75th precinct, specifically Detectives Luis Carcella and Stephen Camille's pattern of framing innocent individuals.",
+        "Flawed eyewitness testimony and the dangers of relying on unreliable witnesses, especially when influenced by police.",
+        "Ineffectiveness of the legal system in rectifying wrongful convictions, demonstrated by the lengthy appeals process, judicial errors (Judge Simpson's Alzheimer's), and lack of accountability for prosecutorial misconduct.",
+        "Racial bias and targeting of individuals in marginalized communities (East New York)."
+    ],
+    "policyRecommendationsRaw": [
+        "Call to sign a petition on change.org to bring attention to Nelson Cruz's case and urge the Brooklyn DA's office and judges to intervene.",
+        "General call to support local Innocence Projects.",
+        "Implied need for greater accountability for police misconduct and wrongful convictions.",
+        "Implied need for stronger conviction review processes and mechanisms to address judicial incapacity."
+    ],
+    "personalNarrativeRaw": [
+        "Nelson Cruz's personal narrative highlights the devastating impact of wrongful conviction, including loss of freedom, emotional distress, and the death of his parents while incarcerated.",
+        "Despite facing immense injustice and setbacks, Nelson demonstrates remarkable resilience, self-education in law, and proactive efforts to fight for his exoneration, including forming the Action Innocent Team with fellow inmates.",
+        "His final thoughts express frustration, pain, but also continued hope and determination to fight for his freedom."
+    ],
+    "additionalResourcesRaw": [
+        "Change.org petition (link to be in the bio of the podcast episode - not provided in transcript but mentioned).",
+        "Local Innocence Projects (general resource for listeners to support).",
+        "Website KISQALI.com and Don'tSleepOnOSA.com for advertised products (less relevant to wrongful conviction, but noted as per transcript).",
+        "trialblazerspodcast.com (Clinical Trial Blazers Podcast mentioned in ad - less relevant to wrongful conviction, but noted as per transcript)."
+    ]
+}

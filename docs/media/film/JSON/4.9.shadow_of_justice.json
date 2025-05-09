@@ -1,0 +1,57 @@
+{
+  "source_file_name": "4.9.shadow_of_justice.md",
+  "media_work": {
+    "work_type": "UNKNOWN",
+    "title": "In the Shadow of Justice (Dateline NBC) (Appears to be a series/theme title)",
+    "publication_or_release_year": 2015,
+    "publisher_or_network": "NBC News (assumed for Dateline)",
+    "focus_or_theme": "Potential wrongful conviction, false confession (specifically for \"The Confession\" episode)",
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "UNKNOWN",
+    "item_title": "Possibly \"In the Shadow of Justice: The Confession\" (S24.E6) or another episode under this theme.",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Potential wrongful conviction, false confession (specifically for \"The Confession\" episode)",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Title suggests exploration of a potential wrongful conviction case; list notes further research needed. Available via NBC/Peacock.",
+      "research_findings": "\"In the Shadow of Justice\" appears to be a recurring theme or title prefix for Dateline episodes focusing on potential miscarriages of justice. One specific episode identified is \"In the Shadow of Justice: The Confession\" (Oct 2015) featuring Daniel Villegas, who confessed as a teenager to a double murder he maintained he didn't commit and was eventually acquitted after years of effort by supporters. Another episode under this banner is \"A Bronx Tale\" (Entry 4.10)."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Daniel Villegas (Featured in \"The Confession\" episode)",
+      "case_location_city": "El Paso",
+      "case_location_state": "Texas (Villegas case - external knowledge)",
+      "conviction_year": 1995,
+      "exoneration_or_release_year": 2018,
+      "crime_convicted_of_raw": "Capital Murder (double homicide)",
+      "sentence": "Life (external knowledge)",
+      "time_served": "~18+ years before conviction overturned",
+      "contributing_factors_raw": [
+        "False confession (age 16), lengthy legal battle for exoneration"
+      ],
+      "status_raw": "Exonerated (Acquitted at retrial)",
+      "organizations_involved_raw": [
+        "Supporter John Mimbella heavily involved in freeing him"
+      ],
+      "first_name": "Daniel",
+      "middle_name": "Villegas (Featured in \"The Confession\"",
+      "last_name": "episode)"
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

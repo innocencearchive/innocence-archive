@@ -1,0 +1,99 @@
+{
+  "source_file_name": "9.21.murder_in_the_park.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "A Murder in the Park",
+    "creator_name": null,
+    "publication_or_release_year": 2015,
+    "publisher_or_network": "Transition Studios, Whole Truth Films",
+    "focus_or_theme": "Argues that Anthony Porter, famously exonerated from death row in Illinois, was actually guilty, and that Alstory Simon was wrongfully coerced into confessing to the crime by journalism professor David Protess, PI Paul Ciolino, and Northwestern University students, leading to Simon's wrongful conviction. Investigates potential \"wrongful exoneration.\"",
+    "summaryNotes": "Anthony Porter was released in 1999, 50 hours before execution. Alstory Simon served 15 years before his conviction was vacated in 2014. Porter's exoneration contributed to Illinois Governor George Ryan's moratorium on the death penalty.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "A Murder in the Park",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Argues that Anthony Porter, famously exonerated from death row in Illinois, was actually guilty, and that Alstory Simon was wrongfully coerced into confessing to the crime by journalism professor David Protess, PI Paul Ciolino, and Northwestern University students, leading to Simon's wrongful conviction. Investigates potential \"wrongful exoneration.\"",
+    "summary_notes": "The film depicts the original 1982 crime, the methods used by Protess's team to investigate Porter's case, the videotaped confession obtained from Simon, Simon's eventual exoneration, and interviews detailing the alleged ethical breaches.",
+    "key_quotes_raw": [
+      "Specific quotes not found in search results.",
+      "Key moments include the depiction of the original 1982 crime",
+      "the methods used by Protess's team to investigate Porter's case",
+      "the videotaped confession obtained from Simon",
+      "Simon's eventual exoneration",
+      "and interviews detailing the alleged ethical breaches."
+    ],
+    "systemic_issues_raw": [
+      "Potential for wrongful exonerations",
+      "unethical conduct within innocence projects/journalism investigations",
+      "coercive interrogation/confession tactics",
+      "politicization of justice (using cases to argue against death penalty)",
+      "the fallibility of reinvestigations."
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for greater scrutiny of innocence project methods",
+      "ethical standards in journalism investigations",
+      "and caution regarding celebrated exonerations."
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://casetext.com/case/simon-v-nw-univ-10",
+        "description": "Legal documents from Simon v. Nw. Univ."
+      },
+      {
+        "url": null,
+        "description": "articles covering the case controversy"
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Alstory Simon",
+      "first_name": "Alstory",
+      "middle_name": null,
+      "last_name": "Simon",
+      "status": "EXONERATED",
+      "conviction_year": 1999,
+      "exoneration_or_release_year": 2014,
+      "time_served": "Approximately 15 years",
+      "sentence": "37 years",
+      "crime_convicted_of_raw": "Double murder (of Jerry Hillard and Marilyn Green in 1982)",
+      "case_location_city": "Chicago",
+      "case_location_state": "Illinois",
+      "narrative_summary": "Alstory Simon was convicted of double murder in 1999 and sentenced to 37 years. He served approximately 15 years before his conviction was vacated in 2014. The film argues he was wrongfully coerced into confessing to the crime.",
+      "contributing_factors_raw": [
+        "Coerced confession (manipulated by PI Paul Ciolino)",
+        "unethical investigative tactics by journalism professor/students (including allegedly fabricating evidence and manipulating witnesses)",
+        "potential ineffective assistance of counsel (Simon's own lawyer allegedly conspired with Protess team)."
+      ],
+      "organizations_involved_raw": [
+        "Northwestern University's Medill Innocence Project (implicated in wrongdoing)",
+        "Cook County State's Attorney's Office (involved in both Porter's release and Simon's exoneration)."
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Christopher S. Rech",
+      "first_name": "Christopher",
+      "middle_name": "S.",
+      "last_name": "Rech",
+      "role": "DIRECTOR"
+    },
+    {
+      "full_name": "Brandon Kimber",
+      "first_name": "Brandon",
+      "middle_name": null,
+      "last_name": "Kimber",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

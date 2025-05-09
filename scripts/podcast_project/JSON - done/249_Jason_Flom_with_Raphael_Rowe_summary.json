@@ -1,0 +1,89 @@
+{
+    "sourceFileName": "249_Jason_Flom_with_Raphael_Rowe_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "Lava For Good podcasts in association with Signal Company No. 1",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, investigative journalism, criminal justice system, exoneration, life after wrongful conviction.",
+        "keyStats": "-   Raphael Rowe was sentenced to life plus 50 years.\n-   He served 12 years in prison before exoneration.\n-   Reward money in the case was not disclosed, which was a factor in the European Court of Human Rights ruling.\n-   European Court of Human Rights unanimously ruled in 1999 that Raphael Rowe had been denied a fair trial.\n-   Convictions overturned on July 17, 2000.",
+        "itemNumber": "249",
+        "itemTitle": "Jason Flom with Raphael Rowe",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Raphael Rowe, who shares his harrowing story of being wrongfully convicted for a series of violent robberies and a murder in 1988 in Southeast England, known as the \"M25 crimes\". Despite consistent witness descriptions of two white and one black assailant and strong alibis, Raphael and two other black men were convicted based on flawed witness testimonies, incentivized informants, and police misconduct.  Raphael details the racial bias, fabricated evidence, and pressure on victims to change their statements. He spent 12 years in brutal prison conditions, during which he educated himself in law and journalism.  Through persistent efforts and media attention, his case reached the European Court of Human Rights, leading to his exoneration in 2000.  Raphael now works as a journalist and advocate for criminal justice reform, highlighting systemic issues and the devastating impact of wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Raphael Rowe",
+        "caseLocation": "South London, Southeast England",
+        "convictionYear": "1989 (approximately, after December 1988 crimes and trial)",
+        "exonerationYear": "2000",
+        "crimeConvictedOf": "Murder, attempted murder, and three serious robberies",
+        "sentence": "Life imprisonment plus 50 years",
+        "timeServed": "12 years",
+        "contributingFactorsRaw": [
+            "Racial bias in investigation and prosecution.",
+            "Eyewitness misidentification (victims initially described two white men and one black man, but three black men were charged).",
+            "Fabricated evidence and coerced witness statements by police.",
+            "Incentivized informant.",
+            "Non-disclosure of reward money, leading to unfair trial."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "European Court of Human Rights (ultimately ruled in his favor).",
+            "Amnesty International (implied through mention of human rights lawyer)."
+        ],
+        "innocenceLawyersRaw": [
+            "Eminent human rights lawyer (unnamed in transcript) took his case to the European Court of Human Rights, focusing on the non-disclosure of reward money and other factors leading to unfair trial."
+        ],
+        "crossReference": "Not mentioned if in a specific exoneree database, but he is a well-known wrongful conviction case.",
+        "narrativeOriginalCrime": "A series of four violent incidents in December 1988: two car thefts and two home invasions across South London and surrounding areas.  These crimes involved robbery, severe injury of one victim, and the brutal murder of Peter Herberg during a car robbery. The perpetrators were described as three assailants: two white men and one black man.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony from an incentivized informant involved in the crimes.",
+            "Victim and witness testimonies that shifted from initial descriptions to align with the prosecution's case against Raphael and his co-defendants.",
+            "Fabricated evidence from Raphael's girlfriend, who falsely claimed he gave her stolen jewelry."
+        ],
+        "trialDefenderNotes": "Multiple alibi witnesses testified that Raphael was with them at the time of the crimes, placing him miles away. This alibi was undermined by changing crime times and discrediting witnesses by the prosecution.  The original defense lawyer's effectiveness is not explicitly discussed in detail, but the focus is on the overwhelming evidence of innocence ignored at trial.",
+        "keyEvidenceExonerationRaw": [
+            "Ruling from the European Court of Human Rights that Raphael was denied a fair trial due to non-disclosure of reward money and other irregularities.",
+            "Media attention and public support questioning the safety of the convictions.",
+            "Re-examination of the case leading to the Court of Appeal overturning the convictions as unsafe."
+        ],
+        "actualPerpetratorDetails": "Not explicitly detailed in the transcript, but implied that the actual perpetrators matched the initial descriptions (two white men and one black man), and forensic evidence (fingerprints) pointed to a white man fitting the victim's description, which was suppressed or redirected by police."
+    },
+    "keyQuotesRaw": [
+        "\"It rocks my world.\" - Jason Flom, describing Raphael Rowe's storytelling.",
+        "\"They're changing the times, they're changing the races of the perpetrators. They're coercing, well, threatening eye witnesses and alibi witnesses. It's a whirlwind.\" - Jason Flom, summarizing the trial.",
+        "\"I am who I've always been. I'm the same person that I was when I was a kid. I'm the same person that I was when I was in prison, and I'm definitely the same person now that I'm free. And that person is an honest, direct, with morals and values where I believe, not just in myself, but in other people.\" - Raphael Rowe, final thoughts."
+    ],
+    "systemicIssuesRaw": [
+        "Racial bias in the criminal justice system.",
+        "Police misconduct, including fabrication of evidence and coercion of witnesses.",
+        "Pressure on law enforcement due to media and public outcry leading to tunnel vision and targeting of innocent individuals.",
+        "Flaws in eyewitness identification procedures.",
+        "Lack of transparency regarding incentivized informants and reward money.",
+        "Inadequacy of legal representation (implicitly suggested by the need for later human rights lawyer intervention, though not explicitly stated as a failing of original counsel in the transcript)."
+    ],
+    "policyRecommendationsRaw": [
+        "Recording of police interrogations (mentioned in the context of the US, but applicable globally).",
+        "Need for criminal justice reform to prevent wrongful convictions.",
+        "Importance of media scrutiny and public awareness in correcting miscarriages of justice.",
+        "Support for organizations like the Raphael Rowe Foundation to improve prison conditions and rehabilitation.",
+        "Encouragement for individuals to question their own identities and values, as per Raphael Rowe's closing remarks."
+    ],
+    "personalNarrativeRaw": [
+        "Raphael Rowe's personal narrative highlights immense resilience and determination in the face of wrongful conviction and brutal imprisonment.",
+        "His story showcases the devastating impact of wrongful conviction on an individual's life, including lost years and brutal treatment within the prison system.",
+        "Despite the trauma, Raphael transformed his experience into a catalyst for positive change, becoming a journalist, advocate, and founder of a foundation dedicated to prison reform.",
+        "His final thoughts emphasize self-reflection, maintaining core values, and giving others a chance, demonstrating a profound personal philosophy developed through his ordeal."
+    ],
+    "additionalResourcesRaw": [
+        "Raphael Rowe's podcast \"Second Chance\".",
+        "Raphael Rowe's autobiography \"Notorious\".",
+        "Raphael Rowe Foundation.",
+        "Netflix series \"Inside the World's Toughest Prisons\" featuring Raphael Rowe.",
+        "Social media: Instagram and Twitter (@raphaelrowe_reporter).",
+        "Website (not explicitly mentioned, but likely exists)."
+    ]
+}

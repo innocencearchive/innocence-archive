@@ -1,0 +1,117 @@
+{
+    "sourceFileName": "068_Jason_Flom_with_Raymond_Santana_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2018",
+        "network": "Lava for Good podcasts, signal company number one, iHeart Media (mentioned as network)",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, Criminal Justice System, False Confessions, Racial Bias",
+        "keyStats": "-   Raymond Santana was 14 years old at the time of arrest.\n-   Raymond Santana was held for 15-30 hours without food, water, or lawyer access before confessing.\n-   40 out of the first 250 DNA exonerations involved false confessions.\n-   Raymond Santana served 7 years in prison.\n-   The bail was initially set at $250,000 and later reduced to $25,000.\n-   400 articles were written about the case in the first two weeks after the arrest.\n-   Donald Trump took out ads calling for the death penalty for the accused.\n-   Matthias Reyes, the actual perpetrator, committed a murder and four additional rapes after the Central Park Jogger case.",
+        "itemNumber": "068",
+        "itemTitle": "Jason Flom with Raymond Santana",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features Raymond Santana, one of the wrongfully convicted Central Park Five. Santana recounts his arrest at age 14, the coercive interrogation tactics leading to his false confession, and the subsequent trial and conviction despite lack of physical evidence. He describes the immense public pressure and racial prejudice surrounding the case, fueled by media sensationalism and figures like Donald Trump. Santana details his seven years of incarceration, the challenges faced post-release including difficulty finding employment and PTSD, and his eventual exoneration after Matthias Reyes, the actual perpetrator, confessed while in prison. The episode underscores the systemic issues within the criminal justice system that contribute to wrongful convictions, such as police coercion, false confessions, prosecutorial misconduct, and racial bias. Santana's story highlights the devastating personal impact of wrongful conviction and his journey toward healing and advocacy."
+    },
+    "featuredIndividual": {
+        "fullName": "Korey Wise (mentioned as Corey Wise)",
+        "caseLocation": "New York City, New York, USA",
+        "convictionYear": "1990 (approximately)",
+        "exonerationYear": "2002",
+        "crimeConvictedOf": "Rape and assault of the Central Park Jogger",
+        "sentence": "Not specified (adult system, older than others)",
+        "timeServed": "Not specified (part of \"Central Park Five\", longer sentence than juveniles)",
+        "contributingFactorsRaw": [
+            "False confession, police coercion"
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (mentioned as a cause Jason Flom supports)"
+        ],
+        "innocenceLawyersRaw": [
+            "Not explicitly named in transcript."
+        ],
+        "narrativeOriginalCrime": "Same as Raymond Santana.",
+        "keyEvidenceProsecutionRaw": [
+            "False confession."
+        ],
+        "trialDefenderNotes": "Not detailed in transcript.",
+        "keyEvidenceExonerationRaw": [
+            "Same as Raymond Santana."
+        ],
+        "actualPerpetratorDetails": "Matthias Reyes."
+    },
+    "keyQuotesRaw": [
+        "\"Cops came out with guns drawn and I never saw freedom ever ever since after that. It's like Roach Mode Tower once you get in, you're not getting out.\" - Raymond Santana describing his arrest.",
+        "\"You were like the face of evil.\" - Jason Flom to Raymond Santana, describing public perception at the time.",
+        "\"How could anybody confess for a crime they didn't commit? It seems crazy.\" - Jason Flom questioning false confessions.",
+        "\"You have to place yourself at the scene. You have to be right there watching it.\" - Detective Hardigan coercing Raymond Santana to change his story.",
+        "\"At this point, you just have to sell it.\" - Raymond Santana reflecting on the pressure to confess.",
+        "\"This fight was fixed from the beginning.\" - Jason Flom on the trial.",
+        "\"When we lock up the wrong guy, by definition, we stop looking for the right guy.\" - Jason Flom highlighting the consequence of wrongful convictions.",
+        "\"Raymond, you deserve all the success and more...\" - Introduction by host about Raymond Santana's current positive activities."
+    ],
+    "systemicIssuesRaw": [
+        "Police coercion and manipulative interrogation tactics (e.g., Reid method, good cop/bad cop).",
+        "False confessions, especially from juveniles under duress.",
+        "Racial bias in the justice system and media portrayal.",
+        "Ineffective defense counsel (divorce lawyer).",
+        "Prosecutorial misconduct (presenting false evidence, ignoring exculpatory evidence).",
+        "Media sensationalism and trial by media.",
+        "Public pressure on law enforcement to quickly solve high-profile cases."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for the Innocence Project (Jason Flom encourages donations and involvement).",
+        "Implied need for interrogation reform to prevent false confessions, especially for juveniles.",
+        "Need for greater scrutiny of prosecutorial conduct and accountability for misconduct.",
+        "Need for public awareness and education about wrongful convictions and systemic issues in the justice system.",
+        "**Personal Narrative/Impact: A summary of the personal experience or impact described by the exoneree. A focus from Wrongful Conviction might be to summarize the final thoughts of the individual.**",
+        "Raymond Santana describes the profound and lasting impact of wrongful conviction on his life. He lost his teenage years, experienced violence and trauma in prison, and faced significant challenges upon release, including difficulty finding employment, PTSD symptoms, and involvement with drugs. Despite these hardships, Santana expresses resilience and a positive attitude. He has become an activist and public speaker, using his experience to raise awareness about wrongful convictions and systemic issues. He has also found personal fulfillment in family life and his clothing company, Park Madison NYC. Santana's final thoughts are not explicitly summarized, but his overall narrative conveys a message of survival, hope, and the importance of fighting for justice."
+    ],
+    "additionalResourcesRaw": [
+        "Netflix show \"When They See Us\" featuring Raymond Santana.",
+        "The Tuckett project speech featuring Raymond Santana and Jason Flom (available on Google/YouTube).",
+        "Innocence Project website (InnocenceProject.org).",
+        "Movie \"Central Park Five\" (mentioned by Jason Flom).",
+        "Nancy Ryan report (DA's office report on the reinvestigation)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Donald Trump",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Matthias Reyes",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Detective Hardigan",
+                "role_guess": "Police Officer",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Prosecutorial misconduct",
+            "Racial bias",
+            "Media sensationalism"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Coerced Confessions",
+                "Racial Prejudice",
+                "Incarceration Impact",
+                "Exoneration",
+                "Systemic Injustice"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

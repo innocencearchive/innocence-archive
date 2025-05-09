@@ -1,0 +1,85 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction, False Confessions
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but can be inferred as an episode about Matt Livers and Nick Sampson case.
+-   **Host(s)**: Lauren Eyreider and Steve Drizen
+-   **Release Year(s)**: Not specified in transcript, but the case is about events in 2006 and later.
+-   **Production Company(ies)/Network**: Lava for Good podcasts in association with Signal Company No. 1
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: False confessions, wrongful convictions, investigative journalism, criminal justice system issues.
+-   **Key Statistics/Information**: False confessions can happen anywhere and anytime; a confession is only as good as the evidence that corroborates it; police are allowed to lie during interrogations; intellectual disabilities can make individuals more vulnerable to false confessions.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction, False Confessions, tells the story of Matt Livers and Nick Sampson, who were wrongfully accused of murdering Wayne and Sherman Stoke in Murdoch, Nebraska, on Easter Sunday 2006.  Matt Livers, despite having intellectual disabilities, was subjected to a coercive 11-hour interrogation where he falsely confessed to the crime after being threatened with the death penalty and lied to about polygraph results.  Although there was no physical evidence linking them to the crime and a planted blood sample was later discovered, Matt and Nick were initially charged.  Good police work tracing a ring found at the crime scene eventually led to the actual perpetrators, Greg Fester and Jessica Reed, who confessed and were convicted. Matt Livers was exonerated after spending months in jail, highlighting the dangers of false confessions and the importance of ethical police investigation. The case also exposes issues with "hero" police officers who cut corners and fabricate evidence.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Matt Livers
+    -   **Case Location**: Murdoch, Nebraska, USA
+    -   **Conviction Year**:  Charged with murder, but not formally convicted in court due to exoneration.
+    -   **Exoneration Year**: Released after actual perpetrators were identified, though transcript does not state a formal exoneration year.
+    -   **Crime Convicted Of**: Murder of Wayne and Sherman Stoke (wrongfully accused)
+    -   **Sentence**: N/A - initially held without bail.
+    -   **Time Served**: Months (not specified exactly in transcript)
+    -   **Contributing Factors**: False confession due to coercive interrogation tactics, intellectual disabilities, police deception (polygraph lie, death penalty threat), planted evidence (blood in car).
+    -   **Legal Status**: Released, civil suit settlement with the state.
+    -   **Organizations Involved**: Not explicitly mentioned in transcript, but Julie Bear (attorney) and Scott Bresler (psychologist) are mentioned as part of the defense team.
+    -   **Innocence Lawyer Details**: Julie Bear, attorney, hired by Matt Livers to defend him. Successfully defended Matt Livers and brought in psychologist Scott Bresler.
+    -   **Cross-Reference**: Not explicitly stated if in exoneree database.
+    -   **Narrative of Original Crime**: Wayne and Sherman Stoke were found murdered in their farmhouse on Easter Monday, April 17, 2006. Wayne was found in the hallway with a gunshot wound to the head, and Sherman was in the bedroom, also shot in the head.
+    -   **Key Evidence at Trial (Prosecution)**: Matt Livers' confession, initially believed to be corroborated by planted blood evidence in cousin Will Sampson's car (later revealed to be false).
+    -   **Trial Defender Notes**: Defense attorney Julie Bear hired psychologist Scott Bresler to evaluate Matt Livers' confession. Bresler's report highlighted Matt's vulnerabilities due to intellectual disabilities and susceptibility to coercion. This contributed to the case unraveling.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Discovery of a golden ring at the crime scene led to tracing it to Wisconsin, connecting it to Greg Fester and Jessica Reed. DNA evidence from the ring and marijuana pipe at the crime scene matched Fester and Reed, not Livers or Sampson. Jessica Reed and Greg Fester confessed to the murders.
+    -   **Actual Perpetrator Details**: Greg Fester and Jessica Reed confessed to the murders.
+
+-   **Name**: Nick Sampson
+    -   **Case Location**: Murdoch, Nebraska, USA
+    -   **Conviction Year**: Charged with murder, but not formally convicted in court due to exoneration.
+    -   **Exoneration Year**: Released after actual perpetrators were identified, though transcript does not state a formal exoneration year.
+    -   **Crime Convicted Of**: Murder of Wayne and Sherman Stoke (wrongfully accused)
+    -   **Sentence**: N/A - initially held without bail.
+    -   **Time Served**: Months (not specified exactly in transcript)
+    -   **Contributing Factors**: False implication by Matt Livers in his coerced confession. Lack of physical evidence.
+    -   **Legal Status**: Released, civil suit settlement with the state.
+    -   **Organizations Involved**: Not explicitly mentioned in transcript.
+    -   **Innocence Lawyer Details**: Not detailed in transcript if Nick Sampson had a separate lawyer.
+    -   **Cross-Reference**: Not explicitly stated if in exoneree database.
+    -   **Narrative of Original Crime**: Same as Matt Livers - Wayne and Sherman Stoke murders.
+    -   **Key Evidence at Trial (Prosecution)**: Matt Livers' confession implicating Nick Sampson.
+    -   **Trial Defender Notes**:  Not detailed in transcript for Nick Sampson's defense team specifically.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Same as Matt Livers - exonerated due to evidence implicating Greg Fester and Jessica Reed.
+    -   **Actual Perpetrator Details**: Greg Fester and Jessica Reed confessed to the murders.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "I'm going to do my lower best to hang your ass from the highest tree. I'm going to do my level best to hang your ass from the highest tree. You're done. You are done. I'll go after the death penalty. I will go after the death penalty." - Cass County Investigator threatening Matt Livers.
+    -   "I'm dumb as a brick." - Matt Livers describing himself during interrogation.
+    -   "I killed someone, she wrote. I loved it. I wish I could do it all the time." - Jessica Reed's diary entry.
+    -   "This is what happens when someone believes the end that they're pursuing is just and that, therefore, they can cut corners and do unethical things in service of the just goal." - Steve Drizen on David Kofode's actions.
+    -   "The only reason we're settling this civil suit is because of David Kofode's criminal activity. My investigators did nothing wrong. Here they acted honorably." - Nebraska Attorney General John Bruning (statement criticized by hosts).
+-   **Systemic Issues Identified**:
+    -   Coercive interrogation tactics leading to false confessions, particularly with vulnerable individuals with intellectual disabilities.
+    -   Police deception during interrogations (lying about polygraph results, death penalty threats).
+    -   "Tunnel vision" in investigations, focusing on a suspect and ignoring contradictory evidence.
+    -   Problem of "hero" police officers fabricating evidence to close cases.
+    -   Lack of accountability for police misconduct (Attorney General's statement downplaying investigator wrongdoing).
+-   **Policy Recommendations/Calls to Action**:
+    -   Implicit call for reform of interrogation practices, especially when dealing with vulnerable individuals.
+    -   Need for greater accountability for police misconduct, including fabrication of evidence and coercive interrogation tactics.
+    -   Emphasis on corroborating confessions with independent evidence.
+-   **Personal Narrative/Impact**:
+    -   Matt Livers' life was significantly disrupted, moved to Texas, relationship with family strained, particularly with cousin Nick Sampson.
+    -   Nick Sampson's relationship with Matt Livers damaged due to false implication.
+    -   Both Matt and Nick suffered emotional and psychological harm from the wrongful accusation and imprisonment, even after financial compensation.
+-   **Additional Resources**:
+    -   Mention of exoneree database (though not specified if Matt Livers is in it).
+    -   Website: Wrongfulconvictionpodcast.com and social media links for the podcast are provided for more information.
+```

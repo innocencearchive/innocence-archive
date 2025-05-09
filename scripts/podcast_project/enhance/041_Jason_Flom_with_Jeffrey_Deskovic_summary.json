@@ -1,0 +1,132 @@
+{
+    "sourceFileName": "041_Jason_Flom_with_Jeffrey_Deskovic_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2017",
+        "network": "Lava for Good podcast in association with signal company number one",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, false confessions, prosecutorial misconduct, ineffective defense, DNA evidence, exoneree stories, criminal justice reform.",
+        "keyStats": "- Jeff Deskavic spent 16 years in prison for a crime DNA evidence proved he did not commit.\n- He was 16 years old at the time of arrest and falsely confessed after a coercive police interrogation.\n- DNA evidence excluded him as the perpetrator but was initially disregarded at trial.\n- Prosecutorial misconduct included fraudulent medical examiner testimony to explain away the DNA evidence.\n- The actual perpetrator, Stephen Cunningham, was later identified by DNA and confessed to this and another murder committed while Deskavic was imprisoned.",
+        "itemNumber": "041",
+        "itemTitle": "Jason Flom with Jeffrey Deskovic",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features Jeff Deskavic, who recounts his harrowing experience of being wrongfully convicted of rape and murder as a 16-year-old.  Despite DNA evidence excluding him, Deskavic was coerced into a false confession during a grueling police interrogation and subsequently convicted in 1990.  The podcast details the egregious failures of the justice system, including prosecutorial misconduct, an ineffective defense attorney, and the dismissal of crucial DNA evidence at trial.  Deskavic served 16 years before being exonerated in 2006 thanks to the Innocence Project.  The episode highlights the devastating personal impact of wrongful conviction, the systemic issues that contribute to such injustices, and Deskavic's inspiring journey to freedom and his current work advocating for criminal justice reform and helping other exonerees through his foundation."
+    },
+    "featuredIndividual": {
+        "fullName": "Jeffrey Deskavic",
+        "caseLocation": "White Plains, Westchester County, New York, USA",
+        "convictionYear": "1990",
+        "exonerationYear": "2006",
+        "crimeConvictedOf": "Rape and murder of Angela Correa",
+        "sentence": "15 years to life",
+        "timeServed": "16 years",
+        "contributingFactorsRaw": [
+            "False confession, prosecutorial misconduct, ineffective defense counsel, ignoring DNA evidence, pressure on law enforcement to solve high-profile case."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project, Jeffrey Daskovic Foundation for Justice"
+        ],
+        "innocenceLawyersRaw": [
+            "Innocence Project lawyers convinced prosecutors to re-examine DNA evidence in 2006, leading to exoneration. Initial trial lawyer was a public defender from legal aid, described as \"inept\" and \"terrible.\""
+        ],
+        "crossReference": "Yes (should be in exoneree database)",
+        "narrativeOriginalCrime": "15-year-old Angela Correa was brutally beaten, raped, and strangled after going out alone to take photographs for a school assignment.",
+        "keyEvidenceProsecutionRaw": [
+            "False confession obtained after a lengthy and coercive interrogation, including deceptive tactics, threats, and false promises.",
+            "Fraudulent testimony from the medical examiner to suggest the victim may have had consensual sex to explain away the lack of Deskavic's DNA at the crime scene."
+        ],
+        "trialDefenderNotes": "- Public defender was ineffective and did not adequately defend Deskavic.\n- Failed to highlight the significance of the DNA evidence not matching Deskavic.\n- Did not effectively cross-examine the medical examiner regarding the fraudulent testimony.\n- Did not present Deskavic's alibi or allow Deskavic to testify about the coerced confession at a pretrial hearing.\n- Had a conflict of interest due to representing another youth also implicated by the prosecution's theories.",
+        "keyEvidenceExonerationRaw": [
+            "New DNA testing technology in January 2006 allowed for re-examination of evidence.",
+            "This new testing definitively excluded Deskavic and identified Stephen Cunningham as the actual perpetrator through DNA match."
+        ],
+        "actualPerpetratorDetails": "- Stephen Cunningham was identified as the actual perpetrator through DNA evidence.\n- Cunningham was later caught and incarcerated for a second murder (Patricia Morrison, 3.5 years after Angela Correa).\n- Cunningham confessed to both murders, including Angela Correa's rape and murder, on video.\n- Cunningham's crimes were committed while Deskavic was wrongfully imprisoned for his crime."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom’s shock at Deskavic’s conviction despite DNA evidence: \"There is no way on God's green earth that you could have been the perpetrator, and yet you were convicted anyway. And that's what makes it just, I want to shake up the whole justice system and go, wait, that's not possible. It can't happen.\"",
+        "Deskavic describing the coercive interrogation tactics: \"He invaded my personal space. He raised his voice at me. He kept asking me the same questions over and over again.\"",
+        "Deskavic's lawyer's shocking statement: \"One time he told me he didn't care if I was guilty or innocent.\"",
+        "Judge's concession at sentencing: \"maybe you are innocent, conceding that there's a doubt, but the DNA doesn't match me.\"",
+        "Deskavic's description of prison as \"every day a living hell without a doubt.\"",
+        "Deskavic's mission in life: \"My mission in life is to fight wrongful convictions and that's how it makes sense out of what happened to me.\""
+    ],
+    "systemicIssuesRaw": [],
+    "false_confessions": "Highlighted the dangers of coercive interrogation tactics and how they can lead to innocent people confessing to crimes they did not commit.",
+    "prosecutorial_misconduct": "Exposed the willingness of prosecutors to engage in unethical behavior, including using fraudulent testimony, to secure convictions, even when evidence of innocence exists.",
+    "ineffective_assistance_of_counsel": "Demonstrated the severe consequences of inadequate legal representation for defendants, particularly in wrongful conviction cases.",
+    "ignoring_scientific_evidence": "Showcased the alarming tendency of the justice system to disregard or manipulate scientific evidence, like DNA, when it contradicts a preferred narrative of guilt.",
+    "pressure_to_solve_cases": "Indicated how community pressure and media attention can lead law enforcement to focus on suspects prematurely and overlook crucial evidence.",
+    "policyRecommendationsRaw": [
+        "Support the Jeffrey Daskovic Foundation for Justice through donations and volunteering to help exonerate innocent people and advocate for criminal justice reform.",
+        "Advocate for further reforms in interrogation techniques and eyewitness identification procedures.",
+        "Support the creation of independent oversight bodies for prosecutors to ensure accountability and prevent misconduct.",
+        "Raise awareness about wrongful convictions and the systemic issues within the criminal justice system."
+    ],
+    "personalNarrativeRaw": [
+        "Deskavic's personal narrative powerfully illustrates the devastating psychological, social, and emotional impact of wrongful conviction and imprisonment on an individual, starting from adolescence and extending into post-exoneration life.",
+        "His resilience and determination to survive prison, educate himself, and dedicate his life to helping others are highlighted as an inspiring example of overcoming adversity.",
+        "The episode emphasizes the long-term challenges exonerees face upon release, including social reintegration, financial instability, and psychological trauma."
+    ],
+    "additionalResourcesRaw": [
+        "Jeffrey Daskovic Foundation for Justice: [deskevic.org](deskevic.org)",
+        "Patreon for Jeffrey Daskovic Foundation (search \"Daskyvik Foundation patreon\" on Google)",
+        "Innocence Project: [anesysproject.org](anesysproject.org)",
+        "Mention of \"Spotlight Snitch City\" podcast as another gripping investigative series."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Jeffrey Deskovic",
+                "role_guess": "Wrongfully Convicted Individual, Activist",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Jason Flom",
+                "role_guess": "Podcast Host",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Judge",
+                "role_guess": "Judge",
+                "is_likely_wc_suggestion": "uncertain"
+            },
+            {
+                "name": "Prosecutor",
+                "role_guess": "Prosecutor",
+                "is_likely_wc_suggestion": "uncertain"
+            },
+            {
+                "name": "Deskavic's lawyer",
+                "role_guess": "Defense Attorney",
+                "is_likely_wc_suggestion": "uncertain"
+            },
+            {
+                "name": "Police Interrogator",
+                "role_guess": "Police Officer",
+                "is_likely_wc_suggestion": "uncertain"
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "coercion during interrogation",
+            "grueling police interrogation",
+            "pressure on law enforcement to solve high-profile case"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "wrongful conviction",
+                "failures of the justice system",
+                "prosecutorial misconduct",
+                "ineffective defense counsel",
+                "impact of wrongful conviction on individuals",
+                "criminal justice reform"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

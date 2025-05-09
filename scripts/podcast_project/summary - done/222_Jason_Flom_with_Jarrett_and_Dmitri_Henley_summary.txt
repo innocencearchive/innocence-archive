@@ -1,0 +1,123 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in the transcript
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in the transcript (likely recent, based on current events and guests' activities)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts in association with Company No. 1
+-   **Series Type**: Episodic Series (based on the general format of "Wrongful Conviction" podcasts)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, Racial Bias in the Justice System, Ineffective Counsel, Systemic Issues in Criminal Justice
+-   **Key Statistics/Information**:
+    -   Three young black men, in the same case, same evidence, received three radically different legal outcomes.
+    -   Jared Adams and Demetri Henley served nearly a decade each in prison for a crime that "never happened".
+    -   Sean Demane's corroborating statement was initially withheld by police.
+    -   Demetri Henley remains convicted despite the exoneration of his co-defendant Jared Adams and dismissal of charges against the third co-defendant Rovon Hill.
+    -   Defense attorneys for Jared and Demetri employed a "no defense defense" strategy at trial.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom details the harrowing story of Jared Adams and Demetri Henley, two men wrongfully convicted of sexual assault in 1998.  Along with a third man, Rovon Hill, they were accused after a consensual encounter was misconstrued following a roommate's intervention.  The podcast highlights the profound racial bias that permeated their case, leading to convictions despite a lack of force or threats, and the accuser's own inconsistent statements.  Shockingly, the three men faced vastly different legal outcomes: Rovon's charges were dismissed, Jared was eventually exonerated after nearly a decade, and Demetri remains convicted, even though all three were involved in the same incident with identical evidence.  The episode underscores systemic failures, ineffective legal counsel, and the devastating and lasting impacts of wrongful convictions, particularly on individuals of color. It also showcases the crucial work of innocence projects and the ongoing fight for justice and reform.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Jared Adams
+    -   **Case Location**: University of Wisconsin White Water, Wisconsin, USA
+    -   **Conviction Year**: 1999 (inferred from the timeline, incident in 1998, trial likely in 1999)
+    -   **Exoneration Year**: 2007 (released in January 2007, conviction vacated in June 2006)
+    -   **Crime Convicted Of**: First-degree sexual assault
+    -   **Sentence**: Not explicitly stated, but implied to be significant prison time initially, later enhanced due to outburst in court.
+    -   **Time Served**: Nearly 10 years
+    -   **Contributing Factors**: Racial bias, ineffective assistance of counsel (no defense defense), possibly initial withholding of exculpatory evidence (Sean Demane's statement).
+    -   **Legal Status**: Exonerated
+    -   **Organizations Involved**: Wisconsin Innocence Project, Innocence Network
+    -   **Innocence Lawyer Details**: Keith Finley, Professor at the University of Wisconsin Law School, co-founder of the Wisconsin Innocence Project. Supervised law students who worked on the case.
+    -   **Cross-Reference**: Yes, likely in exoneree database (Innocence Project client)
+    -   **Narrative of Original Crime**: Accused of sexually assaulting a female student in her dorm room at UW-Whitewater.
+    -   **Key Evidence at Trial (Prosecution)**: Accuser's testimony claiming fear and non-consent, despite admitting no force or threats.
+    -   **Trial Defender Notes**: Employed a "no defense defense" strategy, calling no witnesses and arguing the prosecution failed to prove guilt beyond a reasonable doubt.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Ineffective assistance of counsel was successfully argued. Federal court of appeals vacated the conviction.
+    -   **Actual Perpetrator Details**: Not applicable, crime was deemed not to have occurred as alleged (consensual encounter).
+
+-   **Name**: Demetri Henley
+    -   **Case Location**: University of Wisconsin White Water, Wisconsin, USA
+    -   **Conviction Year**: 1999 (inferred from the timeline, same trial as Jared)
+    -   **Exoneration Year**: Not exonerated
+    -   **Crime Convicted Of**: First-degree sexual assault
+    -   **Sentence**: 20 years
+    -   **Time Served**: Almost 10 years (sentence modified to time served, released)
+    -   **Contributing Factors**: Racial bias, ineffective assistance of counsel (no defense defense), procedural barriers (AEDPA statute of limitations), Wisconsin Supreme Court decision limiting judges' power to grant new trials in the interest of justice.
+    -   **Legal Status**: Convicted felon, released after sentence modification, sex offender registry. Not exonerated.
+    -   **Organizations Involved**: Wisconsin Innocence Project, Innocence Network
+    -   **Innocence Lawyer Details**: Keith Finley, Professor at the University of Wisconsin Law School, co-founder of the Wisconsin Innocence Project. Supervised law students who worked on the case.
+    -   **Cross-Reference**: Yes, likely in exoneree database (Innocence Project client, though not exonerated)
+    -   **Narrative of Original Crime**: Accused of sexually assaulting a female student in her dorm room at UW-Whitewater.
+    -   **Key Evidence at Trial (Prosecution)**: Accuser's testimony claiming fear and non-consent, despite admitting no force or threats.
+    -   **Trial Defender Notes**: Employed a "no defense defense" strategy, calling no witnesses and arguing the prosecution failed to prove guilt beyond a reasonable doubt.
+    -   **Key Evidence for Exoneration/Change in Legal Status**:  Trial judge initially overturned conviction in the interest of justice, but this was appealed and reversed by the Wisconsin Supreme Court. Sentence was later modified to time served by the trial judge, leading to release, but conviction stands.
+    -   **Actual Perpetrator Details**: Not applicable, crime was deemed not to have occurred as alleged (consensual encounter).
+
+-   **Name**: Rovon Hill
+    -   **Case Location**: University of Wisconsin White Water, Wisconsin, USA
+    -   **Conviction Year**: Never convicted
+    -   **Exoneration Year**: N/A (charges dismissed)
+    -   **Crime Convicted Of**: Initially charged with First-degree sexual assault, charges dismissed.
+    -   **Sentence**: N/A
+    -   **Time Served**: 0 days
+    -   **Contributing Factors**: Better legal representation at his retrial, presentation of Sean Demane's testimony and statement, initial mistrial due to prosecution amending charges.
+    -   **Legal Status**: Charges dismissed.
+    -   **Organizations Involved**: Not specified in transcript.
+    -   **Innocence Lawyer Details**: Gerald Boyle (mentioned as his defense attorney, implied to be better than Jared and Demetri's lawyers).
+    -   **Cross-Reference**: No (never convicted)
+    -   **Narrative of Original Crime**: Accused of sexually assaulting a female student in her dorm room at UW-Whitewater.
+    -   **Key Evidence at Trial (Prosecution)**: Initial trial was a mistrial. For his retrial, the prosecution would have likely used the same evidence as in Jared and Demetri's case.
+    -   **Trial Defender Notes**: Successfully argued for mistrial to stand based on prosecution error. In retrial, presented Sean Demane's testimony.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Sean Demane's testimony and previously withheld 3-page statement, jury deadlock at retrial, charges ultimately dismissed.
+    -   **Actual Perpetrator Details**: Not applicable, crime was deemed not to have occurred as alleged (consensual encounter).
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "This is wrongful conviction with Jason Flom."
+    -   Keith Finley: "This case is just a reminder of so many of the things that are wrong with our criminal justice system, beginning with the baked in racism..."
+    -   Jared Adams: "For many people, me and Dimitri included, this platform gives people for the very first time to be the author of their own story..."
+    -   Demetri Henley: "My whole point of view from the day I got out, even when I went in, you know, was to have some hope and I'm going to make the best of situations regardless of what I was going to do."
+    -   Roommate's quote: "I told her to go back to doing whatever she was doing, but not on my bed."
+    -   Jared Adams: "Thurgood Marshall said that sometimes you got to just do what is right and let the law catch up."
+
+-   **Systemic Issues Identified**:
+    -   Racial bias in the criminal justice system.
+    -   Ineffective assistance of counsel for indigent defendants.
+    -   Procedural barriers to post-conviction relief (AEDPA, limitations on state court authority).
+    -   Lack of accountability for prosecutors or police misconduct (withholding evidence).
+    -   Disparate outcomes in the justice system even with identical facts and evidence.
+    -   Lack of compensation for wrongfully convicted individuals.
+    -   Stigma and ongoing consequences for those convicted, even after release (sex offender registry).
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Systemic reform of the criminal justice system to address racial bias.
+    -   Improved standards and oversight for defense counsel, especially in indigent cases.
+    -   Reform of AEDPA and other procedural barriers to post-conviction relief.
+    -   Accountability for prosecutorial and police misconduct, including withholding evidence.
+    -   Compensation for wrongfully convicted individuals.
+    -   Support for organizations like Innocence Projects and Center for Integrity in Forensic Sciences.
+    -   Legislative action to address unjust laws and court decisions (like the Wisconsin Supreme Court decision in Demetri's case).
+    -   Use your voice to advocate for justice and reform.
+
+-   **Personal Narrative/Impact**:
+    -   Jared Adams: Turned his experience into a career in law, fighting for justice for others. Wrote a book "Redeeming Justice" to share his story and inspire change. Emphasizes the importance of community support.
+    -   Demetri Henley: Continues to live with the stigma of wrongful conviction, but maintains hope and determination to live the best life possible and clear his name. Emphasizes the emotional toll and difficulty of reliving the story.
+    -   Rovon Hill:  Joined the army after his charges were dismissed, seeking to escape the trauma, which significantly changed his personality.
+    -   Keith Finley: Expresses sadness about the injustice faced by Demetri and the systemic issues highlighted by the case. Dedicated his career to fighting for the wrongfully convicted.
+
+-   **Additional Resources**:
+    -   Wisconsin Innocence Project (mentioned and will be linked in bio)
+    -   Life After Justice (nonprofit mentioned by Jared Adams)
+    -   Center for Integrity and Forensic Sciences (SIFS) (mentioned by Jared Adams and Keith Finley, will be linked in bio)
+    -   Book: "Redeeming Justice" by Jared Adams (will be linked in episode bio)
+```

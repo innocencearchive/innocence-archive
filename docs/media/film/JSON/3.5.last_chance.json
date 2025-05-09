@@ -1,0 +1,57 @@
+{
+  "source_file_name": "3.5.last_chance.md",
+  "media_work": {
+    "work_type": "UNKNOWN",
+    "title": "Last Chance (20/20) (Title unconfirmed by search)",
+    "publication_or_release_year": 2018,
+    "publisher_or_network": "ABC News",
+    "focus_or_theme": "Post-conviction DNA testing, challenges in obtaining testing, successful exonerations via DNA",
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "UNKNOWN",
+    "item_title": "Information Unavailable (Generic title prevents specific identification; Possibly \"New DNA Analysis in a Murder\" from Feb 2018?)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Post-conviction DNA testing, challenges in obtaining testing, successful exonerations via DNA",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Examines challenges of obtaining post-conviction DNA testing; profiles several successful exonerations. Available via ABC.",
+      "research_findings": "The title \"Last Chance\" is too generic to definitively identify a specific 20/20 episode about DNA testing challenges via search. A 2018 episode titled \"New DNA Analysis in a Murder\" fits the theme, featuring a 1985 case and the Innocence Project, and could possibly be the segment referred to, but this is unconfirmed."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Multiple cases (Specific cases not identified with certainty)",
+      "*_*potential_case_based_on_search_[cite": "6.1]: Man convicted in 1985 for murdering girlfriend's parents, featured in 2018 episode \"New DNA Analysis in a Murder\". Name not provided in search result snippet)*",
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of_raw": null,
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [
+        "Original conviction despite lack of DNA or based on flawed evidence; Overturned by post-conviction DNA."
+      ],
+      "status_raw": null,
+      "organizations_involved_raw": [
+        "Innocence Project (Mentioned in potential episode)"
+      ],
+      "first_name": "Multiple",
+      "middle_name": "cases (Specific cases not identified with",
+      "last_name": "certainty)"
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

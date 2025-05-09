@@ -1,0 +1,56 @@
+{
+  "source_file_name": "2.5.what_jennifer_saw.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "What Jennifer Saw (FRONTLINE)",
+    "publication_or_release_year": null,
+    "publisher_or_network": "FRONTLINE (likely WGBH)",
+    "focus_or_theme": "Reliability of eyewitness testimony, specifically Jennifer Thompson's misidentification of Ronald Cotton",
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Information Unavailable (Searches did not return specific episode details)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Reliability of eyewitness testimony, specifically Jennifer Thompson's misidentification of Ronald Cotton",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Detailed exploration of the Cotton/Thompson case; Thompson later became an advocate; Available via PBS.",
+      "research_findings": "Despite searches, specific details about this FRONTLINE episode (director, exact air date) could not be confirmed. The focus is clearly the well-known Cotton/Thompson case, highlighting the fallibility of eyewitness memory and Thompson's journey post-realization."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Ronald Cotton",
+      "case_location_city": "Burlington",
+      "case_location_state": "North Carolina (Based on general case knowledge, not search results)",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 1995,
+      "crime_convicted_of_raw": "Rape and Burglary (Based on general case knowledge)",
+      "sentence": "Life plus 50+ years (Based on general case knowledge)",
+      "time_served": "~11 years (Based on general case knowledge)",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification"
+      ],
+      "status_raw": "Exonerated by DNA evidence (Based on general case knowledge)",
+      "organizations_involved_raw": [],
+      "featured_victim_witness": "Jennifer Thompson",
+      "first_name": "Ronald",
+      "middle_name": null,
+      "last_name": "Cotton"
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

@@ -1,0 +1,123 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Episode on Robert Jean Will (Episode title not explicitly mentioned, inferred from content)
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Likely 2020s (based on context of current legal fight and website references)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, in association with Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, criminal justice reform, investigative journalism, death penalty cases.
+-   **Key Statistics/Information**: Mention of potential executions of innocent people in Texas, issues with forensic evidence (gunshot residue), prosecutorial misconduct, ineffective defense counsel.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Jason Flom" features the case of Robert Jean Will, who has been on death row in Texas for the murder of Deputy Barrett Hill in 2000. Despite physical evidence suggesting his innocence and pointing towards Michael Allen Rosario, the son of a Houston cop, as the actual perpetrator, Will was convicted. The episode highlights critical pieces of evidence suppressed at trial, including the lack of gunshot residue on Will's hand, the absence of Deputy Hill's blood on his clothing, dispatch records proving Rosario had ample time to commit the murder, and bloodhound tracking evidence.  It also details Rosario's confessions to multiple individuals and attempts to hire a hitman to silence Will. The podcast underscores systemic issues such as ineffective defense counsel, prosecutorial misconduct in concealing evidence, and the prejudicial atmosphere created by the "wall of blue" at Will's trial.  Despite these overwhelming issues, Will remains on death row, fighting for a new trial and maintaining his innocence while advocating for broader criminal justice reform.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Robert Jean Will
+-   **Case Location**: North Houston, Harris County, Texas, USA
+-   **Conviction Year**: 2001 (Arrested December 2000, trial and conviction followed)
+-   **Exoneration Year**: Not yet exonerated
+-   **Crime Convicted Of**: Capital Murder of Deputy Barrett Hill
+-   **Sentence**: Death Sentence
+-   **Time Served**: Approximately 20 years (as of podcast recording)
+-   **Contributing Factors**:
+    -   False narrative by prosecution
+    -   Suppression of exculpatory evidence by prosecution
+    -   Ineffective assistance of trial counsel
+    -   "Wall of blue" prejudice at trial
+    -   Misinterpretation of dispatch records and timeline
+-   **Legal Status**: Currently incarcerated on death row, seeking a new trial and exoneration. Case remanded back to Judge Ellison by the Fifth Circuit Court of Appeals.
+-   **Organizations Involved**:
+    -   Arnold & Porter (law firm, legal team including Jay Ewart and Karen Otto)
+    -   Texas Defender Service (Sammy Khalil is a board member)
+    -   Federal Bar Association (Sammy Khalil is a member)
+    -   National Association of Criminal Defense Lawyers (Sammy Khalil is a member)
+    -   Harris County Criminal Lawyers Association (Sammy Khalil is a member)
+    -   Texas Bar Foundation (Sammy Khalil is a fellow)
+-   **Innocence Lawyer Details**:
+    -   **Sammy Khalil**: Former assistant federal public defender, member of multiple bar associations, fellow of the Texas Bar Foundation, board member of the Texas Defender Service. Appointed in 2012 to represent Rob Will in federal court.
+    -   **Jay Ewart, Karen Otto, Chad Flores, Adam Denal**: Part of the legal team from Arnold & Porter and local Houston attorneys, working with Sammy Khalil.
+-   **Narrative of Original Crime**: Rob Will and Michael Allen Rosario were stripping hubcaps when approached by deputies Hill and Kelly. A chase ensued. Deputy Hill apprehended Rob, while Deputy Kelly pursued Rosario. Gunshots were heard shortly after Deputy Kelly lost sight of Rosario. Deputy Hill was killed, and Rob was wounded in the hand and freed from handcuffs. Both fled the scene separately.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Implied Rob was the only possible culprit at the scene after Deputy Hill was murdered, despite timeline and physical evidence inconsistencies.
+    -   Narrative suggesting Rosario did not have enough time to return to the scene and commit the murder based on a flawed interpretation of dispatch records.
+    -   "Wall of blue" – presence of numerous uniformed deputies in court to influence the jury.
+-   **Trial Defender Notes**:
+    -   Ineffective assistance of counsel. Failed to adequately investigate and present crucial exculpatory evidence.
+    -   Failed to properly analyze dispatch records and timeline.
+    -   Did not present bloodhound tracking evidence or witness testimonies about Rosario's confessions and suspicious behavior.
+    -   State habeas appeal lawyer was grossly incompetent, submitting a cut-and-paste brief from another case.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   **No gunshot residue on Rob's right hand or glove**: Proves he did not fire a gun.
+    -   **No Deputy Hill's blood on Rob or his clothing**: Contradicts the close-range shooting scenario if Rob was the shooter.
+    -   **Dispatch records analysis**: Shows Rosario had ample time (44 seconds to 1 minute 26 seconds) to return to the crime scene.
+    -   **Bloodhound tracking evidence**: Traced Rosario's scent directly towards the crime scene, not east as the state initially suggested.
+    -   **Confessions of Rosario**: Multiple witnesses signed affidavits stating Rosario confessed to the murder.
+    -   **Natasha Haleyan's testimony**: Rosario admitted to washing blood off his clothes after the murder.
+    -   **Rosario's lies to police**: Inconsistencies and denials about his presence, knowledge of Rob, and handling of the gun.
+    -   **Concealed police records**: Evidence that Rosario attempted to hire a gang member (David Cruz) to kill Rob, the eyewitness. Deputy Strickland falsely denied having information about Rob's case.
+    -   **Fifth Circuit Court of Appeals ruling (2020)**: Sent the case back to Judge Ellison, acknowledging "disturbing uncertainties" and "considerable evidence supporting Will's innocence," and stating it is "reasonably likely" a jury would have reasonable doubt with the new evidence.
+-   **Actual Perpetrator Details**:
+    -   **Name**: Michael Allen Rosario (Nickname "Rocky")
+    -   Son of a Houston cop.
+    -   Was with Rob stripping hubcaps.
+    -   Fled from police and was pursued by Deputy Kelly.
+    -   Deputy Kelly lost sight of him shortly before gunshots were heard.
+    -   Eyewitness accounts state he returned to Rob's girlfriend's apartment immediately after the murder with blood on his clothes and washed up in the sink.
+    -   Confessed to multiple individuals (who signed affidavits).
+    -   Washed, bleached, and folded his clothes after the murder (suspicious behavior).
+    -   Made statements to jailers suggesting he believed his father would protect him from prosecution.
+    -   Attempted to hire a gang member, David Cruz, to kill Rob Will post-crime.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Rob Will: "I truly am innocent."
+    -   Rob Will: "It's not okay. It is not okay." (referring to executing innocent people)
+    -   Rob Will: "Live life, man. Live life."
+    -   Judge Ellison described a case containing "disturbing uncertainties" and expressed "deeply felt concerns about the substantial evidence of actual innocence."
+    -   Fifth Circuit Court of Appeals: "There were disturbing uncertainties of Will's culpability even before the introduction of the withheld evidence. Now with the new evidence in hand the uncertainties are even more disturbed."
+    -   Fifth Circuit Court of Appeals: "Rob Will has now demonstrated that it is reasonably likely that after hearing the new evidence alongside the old evidence every reasonable juror would have some level of reasonable doubt."
+-   **Systemic Issues Identified**:
+    -   Prosecutorial misconduct (concealing exculpatory evidence - Brady violation).
+    -   Ineffective assistance of counsel at trial and in state habeas appeal.
+    -   "Wall of blue" effect creating prejudice and intimidation of the jury.
+    -   Potential for wrongful convictions in capital cases, especially when police officers are victims.
+    -   Difficulties in overturning wrongful convictions in the appellate process.
+    -   Flaws in the application of the death penalty.
+-   **Policy Recommendations/Calls to Action**:
+    -   Criminal justice reform to prevent wrongful convictions.
+    -   Increased transparency and accountability for prosecutors regarding disclosure of evidence.
+    -   Improved standards for effective defense counsel, especially in capital cases.
+    -   Re-evaluation of the death penalty system.
+    -   Support for organizations like the Innocence Project.
+    -   Call to action for listeners to sign a petition for a new trial for Rob Will (change.org and freerobwill.org).
+-   **Personal Narrative/Impact**:
+    -   Rob Will's resilience and positive attitude despite wrongful conviction and death row sentence.
+    -   Focus on self-improvement and personal growth through reading, yoga, meditation, and art.
+    -   Dedication to criminal justice reform and advocacy for other wrongfully convicted individuals.
+    -   Desire to reconnect with his son and family after years of incarceration.
+    -   Finding meaning and purpose despite his circumstances.
+-   **Additional Resources**:
+    -   freerobwill.org (website for Rob Will's case)
+    -   change.org (petition for a new trial for Rob Will)
+    -   Rolling Stone article (details about the case, not specified in title but mentioned)
+    -   InnocenceProject.org (organization to support)
+    -   Music of John Coltrane (mentioned by Rob as a source of inspiration and positivity)
+    -   don'tsleeponosa.com (Sponsor related to sleep apnea)
+    -   KISQALI.com (Sponsor related to breast cancer treatment)
+    -   AAA.com/member (Sponsor for roadside assistance)
+    -   Target.com/circle (Sponsor for Target Circle 360)
+    -   FergusonHome.com (Sponsor for Ferguson Home)
+    -   Intuit.com/enterprise (Sponsor for Intuit Enterprise Suite)
+    -   Amtrak.com (Sponsor for Amtrak)
+    -   mycomputercareer.edu/cwp (Sponsor for My Computer Career)
+```

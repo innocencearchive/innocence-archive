@@ -1,0 +1,85 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Guest Host: Jimmy Dennis with Chester Holman III and Attorney Alan Tauber
+-   **Host(s)**: Jason Flom (original host), Jimmy Dennis (guest host)
+-   **Release Year(s)**: 2024 (assuming current year as no release year explicitly mentioned, but episode is recent based on content)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, police misconduct, prosecutorial misconduct, tunnel vision, exoneration, the Philadelphia criminal justice system.
+-   **Key Statistics/Information**:
+    - Chester Holman III served 28 years for a crime he did not commit.
+    - He was exonerated in 2019.
+    - The case highlights patterns of misconduct in the Philadelphia criminal justice system, including witness coercion, evidence suppression, and prosecutorial misconduct.
+    - Roger King, the prosecutor, had a reputation for winning at all costs, sometimes employing unethical tactics.
+    - Chester Holman was offered a plea deal of 5-10 years but refused it, maintaining his innocence.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction is guest-hosted by exoneree Jimmy Dennis, featuring Chester Holman III, another exoneree, and his attorney Alan Tauber.  Chester recounts his wrongful conviction for a 1991 Philadelphia murder, a case of mistaken identity exacerbated by a remarkable coincidence involving similar vehicles and license plates.  The episode details the flawed police investigation marked by tunnel vision, coercive interrogation of a key witness (Deirdre Jones), and reliance on a questionable eyewitness (Andre Dawkins) who later recanted.  Prosecutorial misconduct by Roger King, including withholding crucial evidence, further solidified the wrongful conviction.  Chester served 28 years before being exonerated in 2019 thanks to the efforts of his attorney and the newly elected District Attorney Larry Krasner's Conviction Integrity Unit. The podcast underscores systemic issues within the Philadelphia justice system and the profound personal impact of wrongful convictions.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Chester Holman III
+-   **Case Location**: Philadelphia, Pennsylvania, USA
+-   **Conviction Year**: May 1993
+-   **Exoneration Year**: 2019
+-   **Crime Convicted Of**: Murder of Tate Jung Ho and robbery
+-   **Sentence**: Life in prison without the possibility of parole
+-   **Time Served**: 28 years
+-   **Contributing Factors**:
+    - Mistaken Identity due to vehicle similarity and partial license plate match.
+    - Eyewitness misidentification (initially not identified, later coerced).
+    - Coerced statement from Deirdre Jones.
+    - Withholding of exculpatory evidence (anonymous tip identifying Denise Combs).
+    - Tunnel vision in police investigation.
+    - Prosecutorial misconduct.
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**: Conviction Integrity Unit of the Philadelphia District Attorney's Office, Greenberg Traurek (pro bono legal services mentioned in advertisement)
+-   **Innocence Lawyer Details**: Alan Tauber, criminal defense and civil rights attorney, represented Chester for 15 years leading to exoneration.
+-   **Cross-Reference**: Not explicitly stated if in an exoneree database within the podcast.
+-   **Narrative of Original Crime**: Tate Jung Ho was robbed and shot while walking with a friend in Philadelphia in August 1991.  Two men emerged from a white Chevy Blazer with four occupants, robbed him, and shot him. He died from his injuries.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Cab driver's partial license plate identification (YCA) leading to Chester's similar vehicle.
+    - Coerced statement from Deirdre Jones implicating Chester.
+    - Eyewitness identification from Andre Dawkins, who was later revealed to be incentivized and unreliable.
+-   **Trial Defender Notes**: Chester's trial lawyer, Gerald Stein, advised him not to testify, believing it was too risky. Stein cross-examined Andre Dawkins effectively with the limited information he had at the time. Chester felt his lawyer did the best he could with the information available but differed on the decision for Chester to testify.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - Discovery of a hidden memo in the homicide file detailing an anonymous tip identifying Denise Combs as the driver of the getaway car.
+    - Re-evaluation of the case by the Conviction Integrity Unit under Larry Krasner and Patricia Cummins.
+-   **Actual Perpetrator Details**: Denise Combs was identified in an anonymous tip as potentially being involved as the driver.  The podcast mentions she made incriminating statements but did not explicitly confess to being the perpetrator. The actual shooters and other individuals in the Blazer are not definitively identified in the podcast.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - Jimmy Dennis: "And every single one of us exoneraries in Philadelphia said no [to plea deals]. And that's what you did, Chester. Once again, this speaks to his innocence, but it speaks strongly to his character."
+    - Alan Tauber: "At some point, the police stopped becoming detectives. They stopped trying to discern the truth and they start becoming advocates."
+    - Chester Holman III: "My mom had always told me, I taught my mom every day...and she always told me every day at the end of the phone call, do not lose yourself."
+    - Chester Holman III: "It wasn't so much about being free. It was just about, I mean, that's the main thing, but I'm finally hearing my voice and believing me, you know, right?"
+-   **Systemic Issues Identified**:
+    - Tunnel vision in police investigations.
+    - Coercive interrogation tactics.
+    - Withholding of exculpatory evidence by prosecutors.
+    - Culture within police departments that prioritizes conviction over truth.
+    - Inadequate legal representation in some cases (though not explicitly stated as a fault of Chester's trial lawyer, but the limitations of available information are highlighted).
+    - Difficulty for innocent individuals to navigate the criminal justice system.
+-   **Policy Recommendations/Calls to Action**:
+    - Vote for progressive prosecutors who support conviction integrity and criminal justice reform.
+    - Increase awareness of wrongful convictions and systemic issues within the justice system.
+    - Hold police officers and prosecutors accountable for misconduct.
+    - Support organizations like innocence projects.
+-   **Personal Narrative/Impact**: Chester Holman III describes the devastating impact of wrongful conviction, including the loss of 28 years of his life, the emotional toll on himself and his family (especially his mother), and the difficulty of re-entering society after such a long incarceration. He emphasizes the importance of maintaining hope and inner strength during wrongful imprisonment and the challenges of adjusting to freedom and dealing with the aftermath of a settlement. He expresses gratitude for his attorney, family, and even his dog "Journey" for helping him through this ordeal. His final thoughts are focused on bringing awareness to wrongful convictions and advocating for accountability within the justice system.
+-   **Additional Resources**:
+    - Greenberg Traurek (global law firm mentioned as underwriter, providing pro bono legal services).
+    - Innocence Project (mentioned as an organization to get involved with).
+    - MyFICO.com (advertiser, unrelated to wrongful conviction, but mentioned in the transcript).
+    - Walsh College, Trinity Health, Berger Chevrolet, Pro-tech heating and cooling, Service Professor (other advertisers, unrelated).
+    - Lava for Good Podcasts, Signal Company Number One (production companies).
+    - Mention of Gilbert King's podcast "Bone Valley" and Robert Dubois's story in the next episode preview.
+```

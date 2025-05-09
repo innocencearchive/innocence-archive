@@ -1,0 +1,77 @@
+{
+  "source_file_name": "4.4.state_of_texas.md",
+  "media_work": {
+    "work_type": "UNKNOWN",
+    "title": "The State of Texas vs. Darlie Routier (Dateline NBC) (Title unconfirmed by search)",
+    "publication_or_release_year": 2015,
+    "publisher_or_network": "NBC News (assumed for Dateline)",
+    "focus_or_theme": "In-depth reinvestigation of Darlie Routier case, new evidence/forensic analysis",
+    "summaryNotes": "Focus on ongoing forensic testing (DNA) results still pending as of 2024.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "UNKNOWN",
+    "item_title": "Information Unavailable (Likely a multi-hour special or specific update episode)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "In-depth reinvestigation of Darlie Routier case, new evidence/forensic analysis",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Multi-hour special examining new evidence and forensic analysis in Routier case; more detailed than previous coverage. Available via NBC/Peacock.",
+      "research_findings": "While a specific Dateline episode with this exact title wasn't confirmed, the description points to a deeper investigation into the Routier case. The most significant update is the ongoing, court-ordered DNA testing on key pieces of evidence, the results of which are still pending after several years. A 2015 book, \"Dateline Purgatory,\" also examined the case controversies."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "Rowlett",
+      "case_location_state": "Texas",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of_raw": "Capital Murder",
+      "sentence": "Death Penalty",
+      "time_served": "~27 years (as of 2024)",
+      "contributing_factors_raw": [
+        "Focus on re-analysis of disputed forensic evidence (blood spatter, fingerprint, sock), potential alternative suspects."
+      ],
+      "status_raw": "On death row; results of multiple rounds of court-ordered DNA testing (since 2018) are still pending",
+      "organizations_involved_raw": [
+        "Legal teams pursuing appeals and DNA testing."
+      ],
+      "full_name": "Darlie Routier [cite: 38",
+      "first_name": "Darlie",
+      "middle_name": "Routier [cite:",
+      "last_name": "38"
+    },
+    {
+      "case_location_city": "Rowlett",
+      "case_location_state": "Texas",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of_raw": "Capital Murder",
+      "sentence": "Death Penalty",
+      "time_served": "~27 years (as of 2024)",
+      "contributing_factors_raw": [
+        "Focus on re-analysis of disputed forensic evidence (blood spatter, fingerprint, sock), potential alternative suspects."
+      ],
+      "status_raw": "On death row; results of multiple rounds of court-ordered DNA testing (since 2018) are still pending",
+      "organizations_involved_raw": [
+        "Legal teams pursuing appeals and DNA testing."
+      ],
+      "full_name": "10.1]",
+      "first_name": "1]",
+      "middle_name": null,
+      "last_name": null
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

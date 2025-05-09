@@ -1,0 +1,84 @@
+{
+    "sourceFileName": "283_Maggie_Freleng_with_Marni_Yang_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Maggie Freeling",
+    "mediaItem": {
+        "hosts": "Maggie Freeling",
+        "releaseYear": "2022",
+        "network": "Lava for Good",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction Stories, Criminal Justice System Issues",
+        "keyStats": "Lake County, Illinois, is mentioned as the epicenter of wrongful convictions in the United States.",
+        "itemNumber": "283",
+        "itemTitle": "Maggie Freleng with Marni Yang",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Maggie Freeling tells the story of Marnie Yang, wrongfully convicted for the 2007 murder of Ronnie Ryder and her unborn child. Despite a lack of forensic evidence, Marnie was convicted based on circumstantial evidence including a coerced false confession, questionable address labels, and misidentified rental car footage. The prosecution painted Marnie as a jealous girlfriend of Ronnie's boyfriend, NFL star Sean Gale.  Marnie's children were also heavily interrogated and manipulated.  Post-conviction efforts by Jed Stone and his team have uncovered significant flaws in the original investigation and trial, pointing to Marnie's innocence and a pattern of wrongful convictions in Lake County, Illinois. Marnie has served 13 years of a life sentence and maintains her innocence, hoping for justice and reunification with her family."
+    },
+    "featuredIndividual": {
+        "fullName": "Marnie Yang",
+        "caseLocation": "Deerfield, Illinois, USA (Lake County, Illinois mentioned as jurisdiction)",
+        "convictionYear": "2011",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "First-degree murder of Ronnie Ryder and intentional homicide of an unborn child",
+        "sentence": "Two concurrent terms of imprisonment for natural life without the possibility of parole",
+        "timeServed": "13 years (as of podcast release)",
+        "contributingFactorsRaw": [
+            "False confession (coerced), Circumstantial evidence, Ineffective defense, Possible prosecutorial misconduct, Police misconduct (manipulation and coercion during interrogation), Misidentification of evidence (rental car)."
+        ],
+        "status": "Currently incarcerated, petition for review ongoing.",
+        "organizationsInvolvedRaw": [
+            "Stone and Associates (Jed Stone's legal team), AIG Pro Bono Program (underwriter of the podcast mentioned)."
+        ],
+        "innocenceLawyersRaw": [
+            "Jed Stone of Stone and Associates. He is presented as a lawyer working on Marnie's post-conviction case, highlighting flaws in the original trial and investigation, focusing on the false confession and lack of evidence."
+        ],
+        "crossReference": "Not specified if in exoneree database, needs to be checked.",
+        "narrativeOriginalCrime": "Ronnie Ryder was found murdered in her apartment, shot multiple times, including a fatal shot to the back of the head. A threatening letter found in her purse mentioned her boyfriend, Sean Gale, and his alleged affairs, including with Marnie Yang.",
+        "keyEvidenceProsecutionRaw": [
+            "Marnie's alleged false confession.",
+            "Video from a gas station supposedly showing Marnie's rental car near the crime scene.",
+            "Claimed homemade silencer made from items bought at Home Depot.",
+            "Background checks Marnie conducted on women named in the letters.",
+            "Unsent letters and address labels claimed to be found in Marnie's home office, similar to the threatening letter.",
+            "Testimony from Marnie's daughter, Emily, coerced by the prosecutor."
+        ],
+        "trialDefenderNotes": "Defense attorneys were Jeffrey Lerner and William Hedrick. Their defense was weak, mainly focused on casting doubt on the credibility of a witness (Christie) and arguing the investigation was not thorough, focusing too quickly on Marnie. They did not effectively challenge the state's circumstantial evidence or the confession.",
+        "keyEvidenceExonerationRaw": [
+            "Expert analysis of Marnie's confession showing it to be false due to factual inaccuracies regarding crime scene details.",
+            "Video expert analysis proving the car in the gas station video was not Marnie's rental car.",
+            "Firearms expert proving it was impossible to create a working silencer with the materials and method claimed by the prosecution.",
+            "Developed crime scene photos showing bullet trajectory inconsistencies with the prosecution's theory.",
+            "Witness descriptions of a tall black man at the crime scene, conflicting with Marnie's description as a white woman of five feet tall.",
+            "Timeline discrepancies regarding Sean Gale's alibi, suggesting he arrived at the barbershop later than initially claimed.",
+            "A new witness who came forward in December 2021 with information supporting Marnie's innocence."
+        ],
+        "actualPerpetratorDetails": "Not identified in the podcast transcript. The podcast highlights inconsistencies and lack of evidence against Marnie and points towards the possibility of the actual perpetrator not being investigated properly due to the focus on Marnie.  Witness descriptions point towards a tall black man, but no further information is given about potential suspects."
+    },
+    "keyQuotesRaw": [
+        "Marnie: \"I had reached a point where I felt so beaten down... I had just decided I'm just going to tell them whatever they want to hear.\" (Regarding her false confession)",
+        "Emily (Marnie's daughter): \"They really got into my head and they made me believe it.\" (About police manipulation during interrogation)",
+        "Jed Stone: \"Lake County was the epicenter of wrongful convictions in the United States.\"",
+        "Jed Stone: \"Those immutable mistakes of fact are evidence of a false confession.\"",
+        "Marnie: \"I did not commit this crime. I'm horrified by this crime... I want justice in this case for me, for Rani and for everybody involved.\""
+    ],
+    "systemicIssuesRaw": [
+        "False confessions and their impact on wrongful convictions.",
+        "Police coercion and manipulation during interrogations, especially of vulnerable individuals and minors.",
+        "Prosecutorial misconduct and presentation of misleading or fabricated evidence.",
+        "Ineffective defense representation.",
+        "Potential systemic issues within the Lake County, Illinois justice system leading to wrongful convictions.",
+        "The impact of circumstantial evidence in the absence of forensic evidence."
+    ],
+    "policyRecommendationsRaw": [
+        "Support local innocence organizations.",
+        "Raise awareness about wrongful convictions and the factors contributing to them.",
+        "Encourage further scrutiny of cases originating from Lake County, Illinois, due to the identified pattern of wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Marnie's wrongful conviction has caused immense suffering for her and her family. She lost 13 years of her life, and her children suffered mental breakdowns and trauma due to police interrogation and the situation. Marnie expresses resilience and a desire for justice, not just for herself but for Ronnie Ryder and everyone affected. Her daughter Emily expresses hope for reunification and healing as a family. The children wrote a book to raise awareness and support their mother's case."
+    ],
+    "additionalResourcesRaw": [
+        "Book mentioned: \"My Mom, Marnie\" by Emily, Andrew, and Brandon Yang.",
+        "Website/links in podcast bio for supporting local innocence organizations (not specified in transcript but mentioned as a general call to action in the outro)."
+    ]
+}

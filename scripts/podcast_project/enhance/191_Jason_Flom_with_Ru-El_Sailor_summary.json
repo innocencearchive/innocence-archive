@@ -1,0 +1,127 @@
+{
+    "sourceFileName": "191_Jason_Flom_with_Ru-El_Sailor_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system failures, police misconduct, witness coercion, fight for exoneration.",
+        "keyStats": "Ruel Saylor served 15 years for a crime he did not commit. Cuyahoga County mentioned as having recurring wrongful conviction cases.",
+        "itemNumber": "191",
+        "itemTitle": "Jason Flom with Ru-El Sailor",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom details the story of Ruel Saylor, wrongfully convicted of murder, kidnapping, and assault in Cuyahoga County, Ohio.  Despite being innocent and having a strong alibi, Ruel was convicted based on a corrupt vice detective's false informant claim and coerced witness testimonies.  The real shooter, Cordell Hubbard, confessed multiple times, including in court, but Ruel's appeals were repeatedly denied by the same judge.  After 15 years of incarceration, the Ohio Innocence Project and private attorney Kim Carole took on his case.  Key evidence, including recantations and new affidavits, eventually led to the vacating of his conviction, although he had to plead guilty to perjury to secure his release.  Ruel’s case highlights systemic issues of police misconduct, prosecutorial overreach, and the immense personal toll of wrongful convictions. He was finally freed but not fully exonerated and continues to fight for full legal recognition of his innocence and compensation."
+    },
+    "featuredIndividual": {
+        "fullName": "Ruel Saylor",
+        "caseLocation": "Cleveland, Cuyahoga County, Ohio, USA",
+        "convictionYear": "2003",
+        "exonerationYear": "2018 (conviction vacated, released, but pleaded guilty to perjury for release)",
+        "crimeConvictedOf": "Murder, kidnapping, assault",
+        "sentence": "28 years to life",
+        "timeServed": "15 years",
+        "contributingFactorsRaw": [
+            "False informant testimony, police coercion of alibi witnesses, eyewitness misidentification influenced by police assumptions, ineffective defense due to rushed trial and witness intimidation."
+        ],
+        "status": "Released, conviction vacated, pleaded guilty to perjury to secure release, seeking full exoneration and compensation.",
+        "organizationsInvolvedRaw": [
+            "Ohio Innocence Project (OIP), Kim Carole (private attorney), Kyle Swenson (Scene Magazine), Stand Together, AIG Pro Bono Program (podcast sponsors)."
+        ],
+        "innocenceLawyersRaw": [
+            "Jennifer Passion Bergeron: Deputy Director of the Ohio Innocence Project. Instrumental in Ruel's release.",
+            "Kim Carole: Private attorney who worked with the OIP, described as going \"10 times more than what I paid her for.\""
+        ],
+        "crossReference": "To be determined (check exoneree database)",
+        "narrativeOriginalCrime": "Cordell Hubbard shot Omar Clark in self-defense during a confrontation about a drug deal involving Cordell's sister, Nicole. Clark Lamar Williams was also injured while fleeing. Ruel Saylor was not present at the scene.",
+        "keyEvidenceProsecutionRaw": [
+            "Unnamed confidential informant claimed Ruel was the driver and shooter.",
+            "Eyewitness misidentification, witnesses initially confused driver and passenger, and later descriptions of suspects did not match Ruel's complexion."
+        ],
+        "trialDefenderNotes": "- Rushed trial preparation (less than two months from arrest to trial).\n- Alibi witnesses were threatened by the investigating detective and did not testify.\n- Defense was unable to effectively counter the prosecution's narrative due to lack of time and witness intimidation.",
+        "keyEvidenceExonerationRaw": [
+            "Cordell Hubbard's sworn affidavit and testimony confessing to the shooting and stating Ruel was not present.",
+            "William Sizemore's confession confirming he was with Cordell and Ruel was not involved.",
+            "Omar Clark's brother, Umar Clark, came forward with information that William Sizemore confessed shortly after the trial.",
+            "Affidavits from alibi witnesses and Nicole Hubbard.",
+            "Conviction Integrity Unit review of the case."
+        ],
+        "actualPerpetratorDetails": "Cordell Hubbard - Identified as the shooter, acted in self-defense according to his testimony."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"This case was built on so many different layers of lies, so many different people had to tell in order to convict an innocent man named Ruel Saylor of murder...\"",
+        "Ruel Saylor: \"It was a moment of clarity because before you go through those things, you feel like nobody goes to jail that didn't do anything unless you know somebody that's actually innocent.\" (Describing his guilty verdict)",
+        "Ruel Saylor:  \"...my story is not over no one's story is ever over as long as you get up and continue to fight...\" (Regarding his clothing line and life philosophy)",
+        "Jennifer Passion Bergeron: \"I don't know how you could hear that testimony and not try to fix this wrong\" (Regarding Judge denying new trial after Cordell's confession).",
+        "Jennifer Passion Bergeron: \"There was really nothing to crack I mean by the time we got the case we knew exactly what it happened because everybody had already explained that Cordell admitted he was the shooter we knew William Sizemore admitted he was the second person there and so there really wasn't anything to solve we knew from the get-go that Ruel wasn't there and had nothing to do with it...\" (Describing the Ohio Innocence Project's entry into the case)."
+    ],
+    "systemicIssuesRaw": [
+        "Police corruption: Vice detective fabricating evidence and threatening witnesses.",
+        "Witness coercion and intimidation by police.",
+        "Ineffective assistance of counsel due to rushed trial preparation and external pressures.",
+        "Judicial bias: Judge repeatedly denied new trials despite compelling evidence of innocence and confession from the actual perpetrator.",
+        "Prosecutorial tactics: Offering a \"deal\" requiring a perjury plea even when evidence of innocence was overwhelming.",
+        "Racial bias in jury selection and perception.",
+        "Difficulties in challenging convictions even with strong evidence of innocence."
+    ],
+    "policyRecommendationsRaw": [
+        "Jury duty: Jennifer Bergeron encourages listeners to serve on juries and be skeptical, seeking the truth.",
+        "Support for innocence projects: Podcast encourages listeners to support local innocence projects and provides a link in the bio for how to help.",
+        "Support for incarcerated individuals: Ruel encourages people to contact and support those in prison, emphasizing the large number of innocent people incarcerated.",
+        "Awareness and education about wrongful convictions: Sharing stories to raise public awareness and understanding of the issue."
+    ],
+    "personalNarrativeRaw": [
+        "Ruel's resilience and perseverance through 15 years of wrongful imprisonment.",
+        "The devastating impact of wrongful conviction on Ruel's life and family.",
+        "Ruel's determination to share his story and advocate for others.",
+        "Ruel's post-release life: marriage, daughter, starting a clothing line \"Common Club Clothing\" with a message of perseverance.",
+        "Ruel's experience with despair in solitary confinement and the hope brought by the news of his impending release."
+    ],
+    "additionalResourcesRaw": [
+        "Ohio Innocence Project",
+        "Scene Magazine article by Kyle Swenson",
+        "Instagram for Ruel's clothing line: @comma_underscore_club_underscore_clothing",
+        "Stand Together (standtogether.org/conviction)",
+        "My Computer Career (mycomputercareer.edu/cwp)",
+        "AAA (AAA.com)",
+        "Lowe's (Lowes.com)",
+        "don't sleep on osa.com (for obstructive sleep apnea)",
+        "kisqai.com (for breast cancer medication)",
+        "Prime Video (for movie G20)",
+        "culvers.com",
+        "expinity on Instagram and TikTok"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Cordell Hubbard",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "William Sizemore",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Prosecutorial overreach",
+            "Racial bias in jury selection and perception"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Police Misconduct",
+                "Injustice",
+                "Perjury",
+                "Exoneration",
+                "Systemic Issues"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

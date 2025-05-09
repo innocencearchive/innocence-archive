@@ -1,0 +1,82 @@
+{
+  "source_file_name": "51. Justice_Failed.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Justice Failed: How \"Legal Ethics\" Kept Me in Prison for 26 Years",
+    "creator_name": "Alton Logan and Berl Falbaum",
+    "publication_or_release_year": 2017,
+    "publisher_or_network": "Counterpoint",
+    "format": "Hardcover, paperback, e-book",
+    "focus_or_theme": "Wrongful conviction, attorney-client privilege, legal ethics, criminal justice system failures",
+    "key_statistics": "26 years of wrongful imprisonment; $10.25 million settlement from the City of Chicago in 2013"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "\"A shocking tale of wrongful conviction... that brings general conditions into cruelly sharp focus.\" —Kirkus Reviews",
+      "\"Justice Failed explores the sharp divide that exists between commonsense morality—an innocent man should be free—and the rigid ethics of the law that superseded that morality.\""
+    ],
+    "systemic_issues_raw": [
+      "The absolutism of attorney-client privilege and its ethical implications",
+      "Reliance on eyewitness testimony despite its unreliability",
+      "Neglect of exculpatory evidence",
+      "Lack of mechanisms to address known wrongful convictions when bound by legal ethics",
+      "Racial disparities in the criminal justice system (Logan is African American)"
+    ],
+    "policy_recommendations_raw": [
+      "Reform of attorney-client privilege rules to allow for disclosure in cases of wrongful conviction",
+      "Better procedures for evaluating eyewitness testimony",
+      "More responsive, sensitive, and humane legal system",
+      "Mechanisms for attorneys to report wrongful convictions without violating ethical codes"
+    ],
+    "additional_resources_raw": [],
+    "research_notes_other": {
+      "national_registry_of_exonerations_https": "//www.law.umich.edu/special/exoneration/Pages/casedetail.aspx?caseid=3389)\n- Northwestern University Law School's Center on Wrongful Convictions\n- CBS News \"60 Minutes\" coverage of the case\n- The Marshall Project article \"I Served 26 Years for Murder Even Though the Killer Confessed\""
+    },
+    "item_title": "Book Content: Justice Failed: How \"Legal Ethics\" Kept Me in Prison for 26 Years",
+    "focus_or_theme": "Wrongful conviction, attorney-client privilege, legal ethics, criminal justice system failures"
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Alton Logan",
+      "case_location": "Chicago, Illinois",
+      "conviction_year": 1983,
+      "exoneration_or_release_year": 2008,
+      "crime_convicted_of": "Murder of Lloyd M. Wickliffe, an off-duty Cook County corrections officer",
+      "sentence": "Life imprisonment",
+      "time_served": "26 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification, prioritizing eyewitness testimony over forensic evidence, attorney-client privilege preventing disclosure of the true killer's confession"
+      ],
+      "status_raw": [
+        "Exonerated, received $10.25 million settlement"
+      ],
+      "organizations_involved_raw": [
+        "Northwestern University Law School's Center on Wrongful Convictions"
+      ],
+      "cross_reference": "Yes, appears in the National Registry of Exonerations",
+      "first_name": "Alton",
+      "middle_name": null,
+      "last_name": "Logan"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Alton Logan",
+      "role": "AUTHOR",
+      "first_name": "Alton",
+      "middle_name": null,
+      "last_name": "Logan"
+    },
+    {
+      "full_name": "Berl Falbaum",
+      "role": "AUTHOR",
+      "first_name": "Berl",
+      "middle_name": null,
+      "last_name": "Falbaum"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "This book tells the extraordinary story of Alton Logan, who was wrongfully convicted of murdering Lloyd Wickliffe at a Chicago McDonald's in 1982. The true killer, Andrew Wilson, confessed to his attorneys Dale Coventry and Jamie Kunz shortly after Logan's conviction. However, bound by attorney-client privilege, these attorneys could not disclose this information.\n\nInstead, they took the unusual step of creating a signed affidavit documenting Wilson's confession and locked it in a strong box, with the agreement that they could only reveal its contents after Wilson's death. Wilson died in 2007, allowing the attorneys to finally come forward with the truth, leading to Logan's exoneration in 2008 after 26 years of wrongful imprisonment.\n\nThe book explores the profound ethical dilemma faced by the attorneys who knew an innocent man was in prison but were bound by legal ethics not to reveal their client's confession. It raises important questions about the balance between attorney-client privilege and justice, particularly when an innocent person's freedom is at stake.\n\nIn January 2013, the City of Chicago agreed to pay Logan $10.25 million to settle a federal wrongful conviction lawsuit.",
+  "unhandled_section_justice_failed:_how_\"legal_ethics\"_kept_me_in_prison_for_26_years": "### Basic Book Information\n- **Title**: Justice Failed: How \"Legal Ethics\" Kept Me in Prison for 26 Years\n- **Author(s)**: Alton Logan and Berl Falbaum\n- **Publication Year**: 2017 (October 10, 2017)\n- **Publisher**: Counterpoint\n- **Format**: Hardcover, paperback, e-book\n- **Focus/Theme**: Wrongful conviction, attorney-client privilege, legal ethics, criminal justice system failures\n- **Key Statistics**: 26 years of wrongful imprisonment; $10.25 million settlement from the City of Chicago in 2013\n\n### Wrongfully Convicted Individuals Featured\n- **Name**: Alton Logan\n- **Case Location**: Chicago, Illinois\n- **Conviction Year**: 1983\n- **Exoneration Year**: 2008\n- **Crime Convicted Of**: Murder of Lloyd M. Wickliffe, an off-duty Cook County corrections officer\n- **Sentence**: Life imprisonment\n- **Time Served**: 26 years\n- **Contributing Factors**: Eyewitness misidentification, prioritizing eyewitness testimony over forensic evidence, attorney-client privilege preventing disclosure of the true killer's confession\n- **Legal Status**: Exonerated, received $10.25 million settlement\n- **Organizations Involved**: Northwestern University Law School's Center on Wrongful Convictions\n- **Cross-Reference**: Yes, appears in the National Registry of Exonerations\n\n### Book Research Notes\n- **Key Quotes**: \n  - \"A shocking tale of wrongful conviction... that brings general conditions into cruelly sharp focus.\" —Kirkus Reviews\n  - \"Justice Failed explores the sharp divide that exists between commonsense morality—an innocent man should be free—and the rigid ethics of the law that superseded that morality.\"\n\n- **Systemic Issues Identified**:\n  - The absolutism of attorney-client privilege and its ethical implications\n  - Reliance on eyewitness testimony despite its unreliability\n  - Neglect of exculpatory evidence\n  - Lack of mechanisms to address known wrongful convictions when bound by legal ethics\n  - Racial disparities in the criminal justice system (Logan is African American)\n\n- **Policy Recommendations**:\n  - Reform of attorney-client privilege rules to allow for disclosure in cases of wrongful conviction\n  - Better procedures for evaluating eyewitness testimony\n  - More responsive, sensitive, and humane legal system\n  - Mechanisms for attorneys to report wrongful convictions without violating ethical codes\n\n- **Additional Resources**:\n  - National Registry of Exonerations (https://www.law.umich.edu/special/exoneration/Pages/casedetail.aspx?caseid=3389)\n  - Northwestern University Law School's Center on Wrongful Convictions\n  - CBS News \"60 Minutes\" coverage of the case\n  - The Marshall Project article \"I Served 26 Years for Murder Even Though the Killer Confessed\"\n\n### Research Notes\nThis book tells the extraordinary story of Alton Logan, who was wrongfully convicted of murdering Lloyd Wickliffe at a Chicago McDonald's in 1982. The true killer, Andrew Wilson, confessed to his attorneys Dale Coventry and Jamie Kunz shortly after Logan's conviction. However, bound by attorney-client privilege, these attorneys could not disclose this information.\n\nInstead, they took the unusual step of creating a signed affidavit documenting Wilson's confession and locked it in a strong box, with the agreement that they could only reveal its contents after Wilson's death. Wilson died in 2007, allowing the attorneys to finally come forward with the truth, leading to Logan's exoneration in 2008 after 26 years of wrongful imprisonment.\n\nThe book explores the profound ethical dilemma faced by the attorneys who knew an innocent man was in prison but were bound by legal ethics not to reveal their client's confession. It raises important questions about the balance between attorney-client privilege and justice, particularly when an innocent person's freedom is at stake.\n\nIn January 2013, the City of Chicago agreed to pay Logan $10.25 million to settle a federal wrongful conviction lawsuit."
+}

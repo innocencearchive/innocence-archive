@@ -1,0 +1,70 @@
+#   Podcast Research: Wrongful Conviction Media Sources
+
+##   Research Template for Each Podcast
+
+For each podcast on wrongful convictions, we'll collect the following information:
+
+###   Basic Podcast Information
+
+-   **Title**: Full title of the podcast
+-   **Episode # & Title (if applicable)**: Episode number and title within a series
+-   **Host(s)**: All hosts
+-   **Release Year(s)**: Year(s) of release (e.g., 2020 or 2020-2022)
+-   **Production Company(ies)/Network**: Companies or networks involved in production
+-   **Series Type**:
+    -   Ongoing Series
+    -   Limited Series (specify number of episodes: e.g., 6 episodes)
+    -   Episodic Series (each episode is generally a standalone story)
+    -   Seasonal Series (specify if a particular season has a focus: e.g., Season 2 - Focus on Eyewitness Misidentification)
+-   **Format**: Podcast
+-   **Focus/Theme**: Main topics covered (e.g., investigative journalism, legal analysis)
+-   **Key Statistics/Information**: Notable statistics or key information presented
+
+###   Basic Podcast Information
+
+-   **Executive Summary**: Executive Summary of the podcast episode as a whole. 1 paragraph, at most 8 sentences.
+
+###   Wrongfully Convicted Individuals Featured
+
+For each individual mentioned or featured:
+
+-   **Name**: Full name of the wrongfully convicted person
+-   **Case Location**: City, state, country
+-   **Conviction Year**: When they were convicted
+-   **Exoneration Year**: When they were exonerated (if applicable)
+-   **Crime Convicted Of**: What they were wrongfully convicted of
+-   **Sentence**: Original sentence received
+-   **Time Served**: How long they were incarcerated
+-   **Contributing Factors**: Factors that led to wrongful conviction (false confession, eyewitness misidentification, etc.)
+-   **Legal Status**: Current legal status (exonerated, released, pardoned, etc.)
+-   **Organizations Involved**: Any organizations that assisted with their case
+-   **Innocence Lawyer Details: if given and available, a summary of facts about the individual(s) who assisted with their case.
+-   **Cross-Reference**: Whether they appear in the exoneree database
+-   **Narrative of Original Crime: a summary description of the crime for which the person was convicted.
+-   **Key Evidence at Trial (Prosecution): a description of the main evidence used to convict the individual.
+-   **Trial Defender Notes: a summary description of attempts or lack thereof to prove innocence by the original trial defense lawyer
+-   **Key Evidence for Exoneration/Change in Legal Status: details of the specific evidence that led to exoneration or, if not fully exonerated, the path towards it.
+-   **Actual Perpetrator Details: if given and available, a summary of the facts about the actual perpetrator of the crime. 
+
+
+
+###   Podcast Research Notes
+
+-   **Key Quotes/Moments**: Important quotes or pivotal moments in the podcast
+-   **Systemic Issues Identified**: Broader issues in the justice system discussed or depicted
+-   **Policy Recommendations/Calls to Action**: Any suggested reforms, policy changes, or calls to action presented
+-   **Personal Narrative/Impact: A summary of the personal experience or impact described by the exoneree. A focus from Wrongful Conviction might be to summarize the final thoughts of the individual.
+-   **Additional Resources**: Other sources mentioned or shown that could be valuable
+
+##   Research Strategy
+
+1.  Begin with podcasts that focus on multiple cases to maximize data collection
+2.  Prioritize recent releases for current information and perspectives
+3.  Cross-reference individuals with the exoneree database
+4.  Document timestamps or relevant segments for key information to enable verification
+
+##   Integration Plan
+
+-   Create a structured CSV file for each podcast (or series episode) with all individuals mentioned/featured
+-   Develop a master cross-reference spreadsheet linking exonerees to podcast mentions
+-   Prepare database schema updates if needed to accommodate podcast references

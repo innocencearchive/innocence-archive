@@ -1,0 +1,128 @@
+{
+  "source_file_name": "11. barred_research.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Barred: Why the Innocent Can't Get Out of Prison",
+    "creator_name": "Daniel S. Medwed",
+    "publication_or_release_year": 2022,
+    "publisher_or_network": "Basic Books",
+    "format": "Hardcover, paperback, e-book",
+    "focus_or_theme": "Legal barriers to exoneration, procedural obstacles in post-conviction relief",
+    "key_statistics": "Examines the procedural barriers that prevent innocent people from being exonerated even when evidence supports their innocence"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "summary_notes": "\"Barred\" examines the procedural and institutional barriers that prevent innocent people from being exonerated after they have been wrongfully convicted. Medwed argues that the American criminal justice system is structured to prioritize finality over accuracy, making it extraordinarily difficult for wrongfully convicted individuals to overturn their convictions even when compelling evidence of their innocence emerges.\n\nThe book walks readers through the various procedural hurdles that wrongfully convicted people face at each stage of the post-conviction process, including strict filing deadlines, restrictive standards of review, limited access to evidence, and deference to lower court decisions. Medwed demonstrates how these procedural rules, which were designed to promote efficiency and finality, often function as insurmountable barriers for innocent people seeking justice.\n\nThrough case studies and legal analysis, Medwed reveals how the system's emphasis on procedural rules over substantive justice creates a situation where courts may acknowledge a person's likely innocence but still deny relief due to procedural technicalities. The book makes a compelling case for reform of the post-conviction process to better balance the interests of finality with the imperative to correct wrongful convictions.",
+    "systemic_issues_raw": [
+      "Procedural barriers to post-conviction relief",
+      "Strict filing deadlines that prevent consideration of new evidence",
+      "Limited access to DNA testing and other forensic evidence",
+      "Restrictive standards of review in appellate courts",
+      "Deference to lower court decisions even when flawed",
+      "Emphasis on finality over accuracy in the justice system",
+      "Lack of effective counsel for post-conviction proceedings",
+      "Resistance from prosecutors to acknowledge wrongful convictions",
+      "Harmless error doctrine that excuses constitutional violations"
+    ],
+    "policy_recommendations_raw": [
+      "Reform or eliminate procedural barriers to post-conviction relief",
+      "Create \"innocence tracks\" in the appeals process for compelling claims of actual innocence",
+      "Expand access to DNA testing and other forensic evidence",
+      "Establish conviction integrity units in all prosecutors' offices",
+      "Provide adequate funding for post-conviction counsel",
+      "Implement \"open file\" discovery policies for post-conviction proceedings",
+      "Reform harmless error doctrine to better protect constitutional rights",
+      "Create compensation systems for wrongfully convicted individuals",
+      "Establish independent commissions to review claims of innocence"
+    ],
+    "item_title": "Book Content: Barred: Why the Innocent Can't Get Out of Prison",
+    "focus_or_theme": "Legal barriers to exoneration, procedural obstacles in post-conviction relief"
+  },
+  "featured_individuals": [
+    {
+      "case_location": "Pennsylvania",
+      "conviction_year": 1996,
+      "crime_convicted_of": "Murder",
+      "sentence": "Life imprisonment without parole",
+      "contributing_factors_raw": [
+        "Prosecutorial misconduct, unreliable witness testimony"
+      ],
+      "status_raw": [
+        "Released in 2017 after serving over 20 years"
+      ],
+      "individual_notes": "- Won federal appeal but was returned to prison when Supreme Court reversed without hearing arguments\n- Case demonstrates how procedural barriers can trump substantive justice\n- Eventually released after evidence of prosecutorial misconduct emerged",
+      "full_name": "Lorenzo Johnson",
+      "first_name": "Lorenzo",
+      "middle_name": null,
+      "last_name": "Johnson"
+    },
+    {
+      "case_location": "Tennessee",
+      "conviction_year": 1988,
+      "crime_convicted_of": "Murder",
+      "sentence": "Death sentence",
+      "contributing_factors_raw": [
+        "Racial bias, withheld evidence, intellectual disability"
+      ],
+      "status_raw": [
+        "Death sentence commuted to life due to intellectual disability"
+      ],
+      "individual_notes": "- DNA evidence that could potentially exonerate him was not tested for decades\n- Case illustrates barriers to accessing DNA testing and other evidence post-conviction",
+      "full_name": "Pervis Payne",
+      "first_name": "Pervis",
+      "middle_name": null,
+      "last_name": "Payne"
+    },
+    {
+      "case_location": "Tennessee",
+      "conviction_year": 2009,
+      "crime_convicted_of": "Murder of her mother",
+      "sentence": "20 years and 9 months",
+      "contributing_factors_raw": [
+        "Prosecutorial misconduct, withheld evidence"
+      ],
+      "status_raw": [
+        "Conviction overturned, accepted Alford plea for time served"
+      ],
+      "individual_notes": "- Prosecutor withheld witness statement that contradicted the state's timeline\n- Despite misconduct, procedural rules made it difficult to obtain relief\n- Case demonstrates how plea bargains can be coercive even after misconduct is revealed",
+      "full_name": "Noura Jackson",
+      "first_name": "Noura",
+      "middle_name": null,
+      "last_name": "Jackson"
+    },
+    {
+      "case_location": "Virginia",
+      "conviction_year": 1983,
+      "exoneration_or_release_year": 2016,
+      "crime_convicted_of": "Murder and rape",
+      "sentence": "Life imprisonment",
+      "time_served": "33 years",
+      "contributing_factors_raw": [
+        "Flawed forensic evidence (bite mark analysis)"
+      ],
+      "status_raw": [
+        "Exonerated through DNA evidence"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project"
+      ],
+      "cross_reference": "Also featured in \"Junk Science and the American Criminal Justice System\" by M. Chris Fabricant",
+      "individual_notes": "- Case demonstrates the difficulty of challenging forensic evidence post-conviction\n- Virginia's restrictive post-conviction rules nearly prevented his exoneration",
+      "full_name": "Keith Harward",
+      "first_name": "Keith",
+      "middle_name": null,
+      "last_name": "Harward"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Daniel S. Medwed",
+      "role": "AUTHOR",
+      "first_name": "Daniel",
+      "middle_name": "S.",
+      "last_name": "Medwed"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "- The book focuses on legal and procedural aspects of wrongful convictions rather than the causes of initial errors\n- Medwed argues that the true culprit in perpetuating wrongful convictions is the system's fixation on finality\n- The book connects to broader discussions about the values that should guide our criminal justice system\n- Many of the cases featured involve individuals who were eventually exonerated but only after overcoming enormous procedural hurdles\n- The book highlights how judges may recognize a person's likely innocence but feel constrained by procedural rules"
+}

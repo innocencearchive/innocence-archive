@@ -1,0 +1,79 @@
+{
+    "sourceFileName": "413_Jason_Flom_with_Rickey_Jackson_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom (mentioned as interviewer \"Jason\")",
+        "releaseYear": "2023",
+        "network": "Not specified in transcript, but likely part of the \"Wrongful Conviction\" podcast series.",
+        "seriesType": "Episodic Series (based on description of each episode being a standalone story).",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, eyewitness misidentification, police coercion, systemic issues in the justice system, death penalty abolition.",
+        "keyStats": "- Ricky Jackson served 39 years, 3 months, and 9 days for a crime he did not commit.\n- He was the longest-serving defendant exonerated in US history at the time of his release.\n- The wrongful conviction was based on the false testimony of a 12-year-old eyewitness who was coerced by police.\n- Evidence pointing to other suspects was ignored by police.\n- All-white jury in 1975 convicted three black men based on flimsy evidence.",
+        "itemNumber": "413",
+        "itemTitle": "Jason Flom with Rickey Jackson",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Ricky Jackson, who was wrongfully convicted along with Wiley Bridgman and Ronnie Bridgman for a 1975 murder in Cleveland, Ohio.  Their conviction rested solely on the coerced testimony of a 12-year-old boy, Eddie Vernon, while evidence pointing to other suspects was ignored by police. Ricky, Wiley, and Ronnie were initially sentenced to death, later commuted to life.  The podcast details the crime, the flawed investigation, the trial, and Ricky's decades-long fight for exoneration.  Ricky describes the devastating impact of wrongful conviction, the systemic issues within the justice system, and his eventual exoneration in 2014 after Eddie Vernon recanted his testimony.  The episode highlights the importance of abolishing the death penalty and the enduring trauma of wrongful conviction."
+    },
+    "featuredIndividual": {
+        "fullName": "Ronnie Bridgman (referred to as Ronnie Bridgitt and Ronnie Brisbane in transcript)",
+        "caseLocation": "Cleveland, Ohio, USA (Cuyahoga County)",
+        "convictionYear": "1975 (September, according to transcript)",
+        "exonerationYear": "2014 (later vacated, implied same timeframe as Ricky and Wiley)",
+        "crimeConvictedOf": "Aggravated murder, aggravated attempted murder, aggravated robbery",
+        "sentence": "Death (commuted to life in prison)",
+        "timeServed": "39 years (implied, same as Ricky Jackson)",
+        "contributingFactorsRaw": [
+            "Same as Ricky Jackson"
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Ohio Innocence Project"
+        ],
+        "innocenceLawyersRaw": [
+            "Same as Ricky Jackson"
+        ],
+        "crossReference": "Yes (exoneree database implied)",
+        "narrativeOriginalCrime": "Same as Ricky Jackson",
+        "keyEvidenceProsecutionRaw": [
+            "Same as Ricky Jackson"
+        ],
+        "trialDefenderNotes": "Same as Ricky Jackson",
+        "keyEvidenceExonerationRaw": [
+            "Same as Ricky Jackson"
+        ],
+        "actualPerpetratorDetails": "Same as Ricky Jackson"
+    },
+    "keyQuotesRaw": [
+        "Ricky Jackson: \"It affects not only individuals and victims, it affects our entire society.\" (About wrongful convictions)",
+        "Ricky Jackson: \"I taught him myself as being a professional dad. You know, that's my number one primary concern.\" (Describing life after exoneration)",
+        "Ricky Jackson: \"When it's you against the state, guess what? You're going to lose every time.\" (Highlighting power imbalance in the justice system)",
+        "Ricky Jackson: \"I'm innocent. I came too far. At this point, I ain't got nothing to lose. I'm gonna stay with the hand I was dealt.\" (Describing his decision to reject plea deal at exoneration hearing)",
+        "Eddie Vernon (recantation): \"Everything was a lie. They were all lies.\" (Confessing to false testimony)",
+        "Prosecutor Timothy McGinty: \"The state concedes the obvious.\" (Acknowledging wrongful conviction)"
+    ],
+    "systemicIssuesRaw": [
+        "Police coercion and misconduct in obtaining eyewitness testimony.",
+        "Tunnel vision in police investigations, ignoring exculpatory evidence and viable alternative suspects.",
+        "Racial bias in the justice system, particularly in cases involving Black defendants and white victims.",
+        "Ineffective defense in the original trial (implied by judge's private disbelief in witness yet inaction).",
+        "Lack of accountability for prosecutorial and police misconduct.",
+        "Difficulty of overturning wrongful convictions, even with recanted testimony."
+    ],
+    "policyRecommendationsRaw": [
+        "Abolish the death penalty (explicitly mentioned at the beginning).",
+        "Criminal justice reform to address systemic issues leading to wrongful convictions.",
+        "Improved police investigation practices to prevent tunnel vision and coercion.",
+        "Greater scrutiny of eyewitness testimony, especially from children.",
+        "Increased accountability for police and prosecutors who engage in misconduct."
+    ],
+    "personalNarrativeRaw": [
+        "Ricky Jackson emphasizes the profound personal impact of wrongful conviction, including lost time, emotional trauma, and the struggle to rebuild life after decades in prison. He focuses on his role as a father and entrepreneur after exoneration, showing resilience and determination. He also expresses empathy for Eddie Vernon, acknowledging him as also being a victim of the system.",
+        "The interview format allows Ricky to share his story in his own words, conveying the emotional weight of his experience and the injustice he suffered."
+    ],
+    "additionalResourcesRaw": [
+        "Documentary \"Lovely Jackson\" (mentioned as a movie about Ricky Jackson's case).",
+        "Innocence Network Conference (mentioned as location of the interview).",
+        "Cleveland Scene magazine article from 2011 (mentioned as a detailed examination of the case).",
+        "Ohio Innocence Project (organization that helped exonerate Ricky Jackson)."
+    ]
+}

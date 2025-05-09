@@ -1,0 +1,78 @@
+{
+  "source_file_name": "4.7.twisted.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Twisted (Dateline NBC) (Title unconfirmed by search)",
+    "publication_or_release_year": 2004,
+    "publisher_or_network": "NBC News (assumed for Dateline)",
+    "focus_or_theme": "Wrongful conviction (rape/murder), DNA exoneration, racial dynamics, jailhouse informants, eyewitness misidentification",
+    "summaryNotes": "Case involved a 19-year fight for freedom.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Twisted (Dateline NBC) (Title unconfirmed by search)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction (rape/murder), DNA exoneration, racial dynamics, jailhouse informants, eyewitness misidentification",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Chronicles Hunt's 19-year fight for freedom; racial dynamics contributing to conviction. Available via NBC/Peacock.",
+      "research_findings": "While the specific Dateline episode title \"Twisted\" wasn't confirmed via search, Darryl Hunt's case is a significant wrongful conviction story involving racial bias, flawed eyewitness accounts, jailhouse informants, and ultimately, exoneration through DNA after nearly two decades. Dateline likely covered this high-profile case."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "Winston-Salem",
+      "case_location_state": "North Carolina",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 2004,
+      "crime_convicted_of_raw": "Rape and Murder (of Deborah Sykes in 1984)",
+      "sentence": "Life in prison",
+      "time_served": "19 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification, jailhouse informants, recanted witness statements, racial bias (convicted by all-white jury in second trial)"
+      ],
+      "status_raw": "Exonerated by DNA evidence (which identified actual perpetrator Willard E. Brown); Received settlement; Died 2016",
+      "organizations_involved_raw": [
+        "Darryl Hunt Project for Freedom and Justice (founded by him); Innocence Project (assisted with DNA efforts)"
+      ],
+      "full_name": "Darryl Hunt [cite: 41",
+      "first_name": "Darryl",
+      "middle_name": "Hunt [cite:",
+      "last_name": "41"
+    },
+    {
+      "case_location_city": "Winston-Salem",
+      "case_location_state": "North Carolina",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 2004,
+      "crime_convicted_of_raw": "Rape and Murder (of Deborah Sykes in 1984)",
+      "sentence": "Life in prison",
+      "time_served": "19 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification, jailhouse informants, recanted witness statements, racial bias (convicted by all-white jury in second trial)"
+      ],
+      "status_raw": "Exonerated by DNA evidence (which identified actual perpetrator Willard E. Brown); Received settlement; Died 2016",
+      "organizations_involved_raw": [
+        "Darryl Hunt Project for Freedom and Justice (founded by him); Innocence Project (assisted with DNA efforts)"
+      ],
+      "full_name": "5.1]",
+      "first_name": "1]",
+      "middle_name": null,
+      "last_name": null
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

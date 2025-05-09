@@ -1,0 +1,95 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Jerome Curry
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2024
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, police misconduct, false confessions, flawed eyewitness identification, systemic issues in the justice system.
+-   **Key Statistics/Information**:
+    -   Jerome Curry was incarcerated for almost three decades for crimes he did not commit.
+    -   Detective B.A. De Leon has a history of misconduct, including substantiated use of force allegations and fabricating evidence in other cases.
+    -   Ballistics evidence contradicts the prosecution's narrative in Reginald Myers' murder case.
+    -   Eyewitness Reginald Frazier's identification of Jerome Curry is questionable due to potential incentives and inconsistent descriptions.
+    -   Miguel Enriquez, a co-defendant, has stated in an affidavit that Jerome Curry was not involved in the murder of Reginald Myers.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction tells the story of Jerome Curry, who was wrongfully convicted for multiple shootings in New York City in 1996, including the murder of Reginald Myers.  The episode highlights the coercive interrogation tactics used by Detective De Leon to obtain a false confession from Curry, despite contradictory physical evidence and alibi.  Key issues include fabricated witness statements, unreliable eyewitness identification by Reginald Frazier, and ineffective defense counsel.  The podcast emphasizes the systemic problems within the NYPD during the crack epidemic era, where clearing cases was prioritized over justice.  New evidence, including expert forensic analysis and a recantation from a co-defendant, strongly suggests Curry's innocence.  His attorney, Justin Bonus, is currently working on a 440 motion seeking to overturn Curry's conviction, focusing on the murder case of Reginald Myers.  Jerome Curry spent almost 30 years in prison for these wrongful convictions and continues to fight for exoneration.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Jerome Curry
+-   **Case Location**: Upper Manhattan & Bronx, New York, USA
+-   **Conviction Year**: 1998 (for assault of Frazier and attempted murder of Long), 1998 (for murder of Myers)
+-   **Exoneration Year**: Not yet exonerated, currently fighting conviction.
+-   **Crime Convicted Of**:
+    -   Assault of Reginald Frazier (July 15th shooting)
+    -   Attempted murder of Thomas Joe Long (September 20th shooting)
+    -   Murder of Reginald Myers (August 30th murder)
+-   **Sentence**:
+    -   Assault & Attempted Murder: Two consecutive terms, totaling 35 years (25 years and 10 years)
+    -   Murder: 25 years to life (initially combined to 60 to life with previous sentences)
+-   **Time Served**: Almost 30 years (as of podcast release in 2024)
+-   **Contributing Factors**:
+    -   False confession (coerced by Detective De Leon during prolonged interrogation and physical abuse)
+    -   Fabricated witness statements (from Pedro Guzman and Miguel Enriquez, likely influenced by detectives)
+    -   Suggestive eyewitness identification (Reginald Frazier's changing story and potential incentives)
+    -   Ineffective assistance of counsel (failure to investigate alibi witnesses, ballistics evidence, and witness descriptions)
+    -   Police misconduct (Detective De Leon's history of coercive tactics and evidence fabrication)
+-   **Legal Status**: Currently incarcerated, seeking exoneration through a 440 motion.
+-   **Organizations Involved**:
+    -   Innocence Project (mentioned in relation to Jabar Walker case involving Detective De Leon)
+-   **Innocence Lawyer Details**: Justin Bonus, attorney, re-investigated the case, obtained new evidence, and is representing Jerome Curry in his current legal proceedings.
+-   **Cross-Reference**: Not specified if in exoneree database, but case is a clear example of wrongful conviction.
+-   **Narrative of Original Crime**:
+    -   July 15th Assault: Reginald Frazier was shot in the buttocks during an argument on 159th Street.
+    -   August 30th Murder: Reginald Myers was killed during a robbery attempt on 145th Street.
+    -   September 20th Attempted Murder: Thomas Joe Long was shot during a shootout over a crack spot on 158th Street.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Jerome Curry's confession (later recanted as coerced)
+    -   Testimony of Pedro Guzman and Miguel Enriquez (co-defendants whose statements were highly similar and contradicted by physical evidence)
+    -   Eyewitness identification by Reginald Frazier.
+-   **Trial Defender Notes**:  Defense attorney did not conduct independent investigation, failed to interview alibi witnesses or challenge ballistics evidence effectively. Relied mainly on cross-examination of Guzman and pointing out the 38 caliber gun was not the murder weapon (but failed to fully leverage ballistics inconsistencies).
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Affidavit from Miguel Enriquez stating Jerome Curry was not involved in the Myers murder.
+    -   Expert forensic analysis (Drs. Wecht and Kubic) demonstrating the state's narrative and Guzman/Enriquez's statements are physically impossible based on ballistics and autopsy report (stippling, bullet trajectory, 9mm bullet vs. alleged .38).
+    -   Alibi witnesses (mother, girlfriend, Eduardo Figueroa) placing Jerome Curry in Trenton, New Jersey at the time of the Myers murder.
+    -   Evidence of Detective De Leon's misconduct and pattern of fabricating evidence in other cases (Jabar Walker case, prior use of force allegation).
+    -   Inconsistencies and questionable credibility of Reginald Frazier (changing descriptions, potential incentives, rape charge).
+-   **Actual Perpetrator Details**:
+    -   Miguel Enriquez and Pedro Guzman admitted to being involved in the robbery of Reginald Myers. Enriquez indicated that "Marcoos" nicknamed "Boas" (Marker Laboa) was the one who fired the fatal shot.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Jerome Curry: "It got so bad that I just wanted to end. I ended up incriminating myself in this crime. Even though I was innocent..."
+    -   Justin Bonus: "There's not one piece of evidence that's used to convict Jerome Curry in the Reginald Myers case that's reliable, not one."
+    -   Jerome Curry: "Just like Jabar Walker, I am also 100% innocent. And I'm just requesting for justice to deliver in my favor and for the application of a law through the facts of my case to be implemented."
+-   **Systemic Issues Identified**:
+    -   Police misconduct and coercive interrogation tactics, particularly by Detective B.A. De Leon.
+    -   "Clear the books" mentality in policing during the crack epidemic era, leading to rushed and flawed investigations.
+    -   Ineffective assistance of counsel and lack of resources for indigent defendants.
+    -   Prosecutorial suppression of exculpatory evidence (failure to disclose Frazier's inconsistent descriptions).
+    -   Flawed eyewitness identification procedures and suggestive lineups.
+    -   Racial bias and assumptions in law enforcement and the justice system.
+-   **Policy Recommendations/Calls to Action**:
+    -   Urgent re-examination of Jerome Curry's case by the Manhattan DA's office.
+    -   Investigation into Detective B.A. De Leon's past cases and practices due to pattern of misconduct.
+    -   Review and reform of police interrogation techniques to prevent false confessions.
+    -   Improvement of eyewitness identification procedures to ensure fairness and accuracy.
+    -   Increased accountability for police and prosecutors in wrongful conviction cases.
+-   **Personal Narrative/Impact**:
+    -   Jerome Curry's life has been devastated by wrongful conviction, spending almost three decades in prison for crimes he did not commit. He describes the horrific conditions of New York state prisons and the emotional toll of fighting for his freedom.  His final thoughts are a plea for justice, emphasizing his innocence and the need for the law to be applied fairly to the facts of his case.
+-   **Additional Resources**:
+    -   Mention of Rothy Martinez case (linked in episode description) as another example of wrongful conviction in the same era and precinct.
+    -   Reference to Jabar Walker exoneration, also involving Detective De Leon.
+    -   The Innocence Project (mentioned generally in relation to Jabar Walker's case).
+```

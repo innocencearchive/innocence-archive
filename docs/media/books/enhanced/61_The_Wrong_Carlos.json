@@ -1,0 +1,110 @@
+{
+  "source_file_name": "61_The_Wrong_Carlos.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "The Wrong Carlos: Anatomy of a Wrongful Execution",
+    "creator_name": "James S. Liebman and the Columbia DeLuna Project",
+    "publication_or_release_year": 2014,
+    "publisher_or_network": "Columbia University Press",
+    "format": "Hardcover and Paperback, 448 pages",
+    "isbn": "9780231167222 (hardcover), 9780231167239 (paperback)",
+    "focus_or_theme": "Wrongful execution, criminal justice system failures, death penalty critique, mistaken identity",
+    "key_statistics": "Documents a six-year investigation by Columbia Law School professor and students into the case of Carlos DeLuna"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "research_notes_other": {
+      "additional_notes": "The Wrong Carlos: Anatomy of a Wrongful Execution represents one of the most comprehensive investigations into a potential wrongful execution ever conducted. The book is the result of a six-year investigation by Columbia Law School professor James Liebman and his students, who meticulously documented the case of Carlos DeLuna. The investigation compiled an extraordinary collection of primary documents and evidence..."
+    },
+    "item_title": "Book Content: The Wrong Carlos: Anatomy of a Wrongful Execution",
+    "focus_or_theme": "Wrongful execution, criminal justice system failures, death penalty critique, mistaken identity",
+    "summary_notes": "This book details a six-year investigation into the wrongful execution of Carlos DeLuna.  It presents a meticulous compilation of evidence, including police and court files, crime scene photos, audiotapes, and witness interviews, to argue DeLuna's innocence. The book serves as both a case study and a critique of the US death penalty system, highlighting how systemic failures can lead to irreversible injustice.",
+    "case_details_raw": "On February 4, 1983, Wanda Lopez was stabbed to death.  Carlos DeLuna was arrested 40 minutes later, and identified by a single eyewitness. No physical evidence linked DeLuna to the crime. DeLuna claimed another man, Carlos Hernandez, committed the murder.  The Columbia DeLuna Project's investigation revealed Hernandez's existence and history of similar crimes, a suppressed police audiotape showing a different suspect, and Hernandez's boasts of committing the murder.  Despite mounting evidence, DeLuna was executed on December 7, 1989.",
+    "key_quotes_raw": [
+      "\"No one cared enough about the defendant or the victim to make sure they caught the right guy.\" - James Liebman",
+      "\"Everything that could go wrong in a death penalty case did go wrong for DeLuna.\" - James Liebman",
+      "\"The very same factors that sent DeLuna to his death—faulty eyewitness testimony, shoddy legal representation, and prosecutorial misfeasance—continue to put innocent people at risk of execution today.\" - James Liebman",
+      "\"Sadly, DeLuna's story is not unique.\" - James Liebman",
+      "\"An infuriating yet engrossing book on wrongful conviction... An extraordinary and necessary book.\" - Publisher's description"
+    ],
+    "systemic_issues_raw": [
+      "Unreliability of eyewitness identification, particularly cross-ethnic identifications",
+      "Inadequate police investigation procedures",
+      "Prosecutorial misconduct, including suppression of exculpatory evidence",
+      "Inadequate legal representation for indigent defendants",
+      "Failure of courts to properly review evidence of innocence",
+      "Racial and socioeconomic bias in the criminal justice system",
+      "Finality of the death penalty, which prevents correction of wrongful convictions",
+      "Lack of accountability for prosecutors and police who contribute to wrongful convictions",
+      "Systemic pressures to solve high-profile cases quickly",
+      "Failure to properly preserve and test forensic evidence"
+    ],
+    "policy_recommendations_raw": [
+      "Reform of eyewitness identification procedures",
+      "Increased funding for public defenders and court-appointed attorneys",
+      "Enhanced disclosure requirements for prosecutors",
+      "Videotaping of police investigations and interrogations",
+      "Improved preservation of crime scene evidence",
+      "More rigorous standards for admissibility of forensic evidence",
+      "Enhanced review procedures for capital cases",
+      "Reforms to allow for consideration of new evidence of innocence",
+      "Accountability measures for prosecutors who engage in misconduct",
+      "Abolition or moratorium on the death penalty"
+    ],
+    "additional_resources_raw": [
+      "\"Los Tocayos Carlos: An Anatomy of a Wrongful Execution\" - The original Columbia Human Rights Law Review article",
+      "thewrongcarlos.net - Website created by the Columbia DeLuna Project with comprehensive case materials",
+      "\"The Phantom\" (2021) - Documentary film about the Carlos DeLuna case",
+      "National Registry of Exonerations",
+      "Innocence Project resources on eyewitness misidentification",
+      "Columbia Law School's investigation archives"
+    ]
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Carlos DeLuna",
+      "first_name": "Carlos",
+      "middle_name": null,
+      "last_name": "DeLuna",
+      "case_location": "Corpus Christi, Texas",
+      "conviction_year": 1983,
+      "exoneration_or_release_year": 1989,
+      "crime_convicted_of": "Murder of Wanda Lopez, a convenience store clerk",
+      "sentence": "Death",
+      "time_served": "6 years on death row",
+      "contributing_factors_raw": [
+        "Single, nighttime, cross-ethnic eyewitness identification",
+        "No corroborating forensic evidence",
+        "Inadequate legal representation",
+        "Prosecutorial misconduct (suppression of evidence)",
+        "Police failure to investigate alternative suspects",
+        "Mistaken identity with another man named Carlos Hernandez"
+      ],
+      "status_raw": "Executed",
+      "organizations_involved_raw": [
+        "Columbia Law School",
+        "Columbia Human Rights Law Review"
+      ],
+      "cross_reference": "Case was the subject of a documentary film \"The Phantom\" (2021)",
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "James S. Liebman",
+      "role": "AUTHOR",
+      "first_name": "James",
+      "middle_name": "S.",
+      "last_name": "Liebman"
+    },
+    {
+      "full_name": "the Columbia DeLuna Project",
+      "role": "AUTHOR",
+      "first_name": "the",
+      "middle_name": "Columbia DeLuna",
+      "last_name": "Project"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

@@ -1,0 +1,56 @@
+{
+  "source_file_name": "5.1.reasonable_doubt.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Reasonable Doubt (48 Hours) (Title unconfirmed by search)",
+    "publication_or_release_year": 1999,
+    "publisher_or_network": "CBS News (assumed for 48 Hours)",
+    "focus_or_theme": "Questionable spousal murder conviction, prosecutorial misconduct, overturned conviction followed by reconviction.",
+    "summaryNotes": "Case highlights how prosecutorial misconduct can overturn a conviction, but does not preclude retrial.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Reasonable Doubt (48 Hours) (Title unconfirmed by search)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Questionable spousal murder conviction, prosecutorial misconduct, overturned conviction followed by reconviction.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Investigation into the controversial conviction that was later overturned due to prosecutorial misconduct, though Temple was later reconvicted at a new trial. Available via CBS/Paramount+.",
+      "research_findings": "While searches didn't confirm a 48 Hours episode titled \"Reasonable Doubt\" specifically about David Temple, the details in the list entry accurately reflect his well-known case involving the murder of his wife, an overturned conviction due to prosecutorial misconduct (withholding evidence), and a subsequent reconviction in a later trial."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "David Temple",
+      "case_location_city": "Katy",
+      "case_location_state": "Texas (Harris County) (Based on case knowledge)",
+      "conviction_year": 2007,
+      "exoneration_or_release_year": 2016,
+      "crime_convicted_of_raw": "Murder (of wife Belinda Temple in 1999)",
+      "sentence": "Life in prison (both times)",
+      "time_served": "Served ~9 years before first conviction overturned; currently incarcerated since 2019 reconviction.",
+      "contributing_factors_raw": [
+        "Alleged prosecutorial misconduct (withholding favorable evidence - *Brady* violation) led to first conviction being overturned; circumstantial evidence debated across trials."
+      ],
+      "status_raw": "Currently incarcerated serving life sentence after 2019 reconviction.",
+      "organizations_involved_raw": [],
+      "first_name": "David",
+      "middle_name": null,
+      "last_name": "Temple"
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

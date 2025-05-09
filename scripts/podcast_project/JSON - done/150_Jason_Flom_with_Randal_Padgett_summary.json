@@ -1,0 +1,84 @@
+{
+    "sourceFileName": "150_Jason_Flom_with_Randal_Padgett_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, prosecutorial misconduct, flawed investigations, DNA evidence, exoneration.",
+        "keyStats": "-   Randall Padgett was stabbed 46 times.\n-   The initial jury recommended life without parole, but the judge overrode it to a death sentence.\n-   The initial jury vote in the retrial was 8-4 for guilty, but ultimately ended in a not guilty verdict.",
+        "itemNumber": "150",
+        "itemTitle": "Jason Flom with Randal Padgett",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom details the harrowing story of Randall Padgett, a poultry farmer wrongfully convicted of murdering his wife, Cathy, in 1990. Despite a lack of solid evidence and compelling alibi from his children, Padgett was convicted and sentenced to death based largely on DNA evidence of his semen found in his deceased wife, amidst an affair he was having.  The episode highlights prosecutorial misconduct, including withholding exculpatory blood evidence from the defense in the first trial.  Attorney Richard S. Jaffe took on Padgett's case for the retrial, uncovering crucial evidence pointing to Judy Smith, Padgett's former coworker and mistress, as a potential alternative suspect.  Judy Smith's bizarre behavior and admissions on the stand, combined with the previously withheld blood evidence, led to Padgett's exoneration after six years on death row.  The story underscores systemic issues in the justice system, including tunnel vision in investigations and the potential for juries to be swayed by circumstantial evidence despite exculpatory facts."
+    },
+    "featuredIndividual": {
+        "fullName": "Randall Padgett",
+        "caseLocation": "A-Rab, Alabama, USA",
+        "convictionYear": "1992 (initial conviction)",
+        "exonerationYear": "Not explicitly stated, but implied to be shortly after the retrial mentioned in the podcast, which occurred after 1995 (when Richard Jaffe got involved after the case reversal).",
+        "crimeConvictedOf": "Capital Murder of his wife, Cathy Padgett",
+        "sentence": "Death Penalty (overridden from jury recommendation of life without parole in the first trial)",
+        "timeServed": "Approximately 6 years on death row.",
+        "contributingFactorsRaw": [
+            "Circumstantial evidence (affair, DNA of semen)",
+            "Prosecutorial misconduct (withholding exculpatory blood evidence)",
+            "Tunnel vision in investigation (focusing solely on the spouse)"
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Not explicitly mentioned in transcript. Richard S. Jaffe (attorney) played a crucial role.  AIG Pro Bono program and Paul Weiss, Rifkin, Wharton and Garrison are sponsors of the podcast and mentioned in relation to criminal justice reform."
+        ],
+        "innocenceLawyersRaw": [
+            "Richard S. Jaffe, criminal defense attorney, author of \"Quest for Justice, Defending the Damned\".  He took on Randall's case after the initial conviction was reversed due to prosecutorial misconduct. Jaffe and his team, including investigator Rick Blake, uncovered crucial evidence that led to Randall's exoneration in the retrial."
+        ],
+        "crossReference": "Not explicitly mentioned in transcript if he appears in an exoneree database.",
+        "narrativeOriginalCrime": "Cathy Padgett was found murdered in her bed with 46 stab wounds. Semen was found inside her, although there was no sign of rape. The prosecution argued Randall killed his wife for life insurance, though the policy was only $10,000.",
+        "keyEvidenceProsecutionRaw": [
+            "Semen found in Cathy Padgett matched Randall's DNA.",
+            "Randall had an affair with Judy Smith, providing a motive.",
+            "Randall and Judy Smith went to Florida the day after the murder, suggesting flight."
+        ],
+        "trialDefenderNotes": "Initial defense team were competent but were hampered by withheld evidence.  Richard Jaffe in the retrial:\n-   Highlighted the staged nature of the \"rape\" and that Cathy was dead before semen was introduced.\n-   Emphasized the defensive wounds indicating a struggle against someone stronger than Cathy, contrasting with Randall's size.\n-   Presented evidence of blood at the crime scene that did not match Cathy or Randall (which had been withheld by prosecution in first trial).\n-   Investigated and presented evidence of Judy Smith's obsession with Randall, including the milkshake semen story and her scratch marks.\n-   Called Judy Smith to the stand, leading to her damaging admissions.",
+        "keyEvidenceExonerationRaw": [
+            "Prosecutorial misconduct in withholding blood evidence led to retrial.",
+            "Evidence of Judy Smith's possible involvement, including:",
+            "Scratch marks on her arms.",
+            "Truck driver seeing a car matching hers leaving Cathy's house.",
+            "Her obsession with Randall and bizarre behavior (semen milkshakes).",
+            "Her admission that Randall's DNA in Cathy could have come from her.",
+            "Her knowledge of the hidden key to Cathy's house."
+        ],
+        "actualPerpetratorDetails": "Judy Smith is strongly implied as the actual perpetrator but was never prosecuted. The transcript details circumstantial evidence and Judy's own testimony that strongly suggests her involvement in Cathy's murder, fueled by her obsession with Randall and jealousy of Cathy."
+    },
+    "keyQuotesRaw": [
+        "Randall: \"I made probably the biggest mistake in my life. I had an extra miracle of fire.\" (Referring to his affair)",
+        "Richard Jaffe about Judy Smith's testimony: \"Her testimony was the most powerful and bizarre testimony anyone could envision.\"",
+        "Judy Smith on the stand: \"If that was Randall's DNA, then it had to have come from me.\"",
+        "Juror to Richard Jaffe after the trial: \"You know, only a woman would know you can't have sex in that position.\"",
+        "Randall after acquittal: \"And the not guilty verdict just pulls me up in the air. I can breathe again.\""
+    ],
+    "systemicIssuesRaw": [
+        "Prosecutorial misconduct: Withholding exculpatory evidence.",
+        "Tunnel vision in law enforcement investigations: Focusing on a single suspect (spouse) and ignoring other leads.",
+        "Potential for circumstantial evidence (like DNA in this case) to overshadow other exculpatory evidence if not properly contextualized.",
+        "The override statute in Alabama allowing judges to overrule jury sentencing recommendations."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call for more thorough and unbiased police investigations that consider all possible suspects and evidence.",
+        "Implicit call for greater accountability for prosecutorial misconduct.",
+        "Randall's plea to jury members to demand concrete proof from the prosecution and not assume guilt based on accusation alone.",
+        "Call to support The Innocence Project to help prevent future wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Randall's emotional recounting of the arrest, time on death row, and the impact on his children. He describes feeling helpless and isolated, but finding strength through faith.  His final thoughts emphasize the relief and joy of exoneration and being reunited with his family.",
+        "Richard Jaffe's description of the emotional weight of death penalty cases and the immense relief of a \"not guilty\" verdict."
+    ],
+    "additionalResourcesRaw": [
+        "Richard S. Jaffe's book: \"Quest for Justice, Defending the Damned\" (and second edition).",
+        "The Innocence Project (innocenceproject.org).",
+        "Podcast sponsors: AIG Pro Bono program and Paul Weiss, Rifkin, Wharton and Garrison (for their work in criminal justice reform)."
+    ]
+}

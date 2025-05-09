@@ -1,0 +1,78 @@
+{
+  "source_file_name": "3.8.perfect_lie.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "The Perfect Lie (20/20) (Title unconfirmed by search)",
+    "publication_or_release_year": 2008,
+    "publisher_or_network": "ABC News",
+    "focus_or_theme": "False confession induced by police deception/fabrication",
+    "summaryNotes": "Case involved police falsely telling suspect his father implicated him.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "The Perfect Lie (20/20) (Title unconfirmed by search)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "False confession induced by police deception/fabrication",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Examines how police convinced Tankleff his father implicated him (a fabrication) leading to false confession. Available via ABC.",
+      "research_findings": "Searches did not confirm a specific 20/20 episode with this title. However, the details precisely match the well-known Martin Tankleff case. CBS's 48 Hours program covered the case. The police tactic of lying about evidence (the father's \"statement\") to secure a confession is the central, unique element of this case."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "Long Island",
+      "case_location_state": "New York",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2008,
+      "crime_convicted_of_raw": "Murder (of parents, Seymour and Arlene Tankleff)",
+      "sentence": "50 years to life (Information from external knowledge)",
+      "time_served": "17+ years",
+      "contributing_factors_raw": [
+        "Coerced false confession (obtained after police falsely claimed his father, before dying, implicated him); Tunnel vision; Ignoring evidence pointing to other suspects"
+      ],
+      "status_raw": "Exonerated (Conviction overturned, charges dismissed); Settled civil lawsuit.",
+      "organizations_involved_raw": [
+        "Innocence Project (involved in later stages); Pro bono legal teams."
+      ],
+      "full_name": "Martin (Marty) Tankleff [cite: 33",
+      "first_name": "Martin",
+      "middle_name": "(Marty) Tankleff [cite:",
+      "last_name": "33"
+    },
+    {
+      "case_location_city": "Long Island",
+      "case_location_state": "New York",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2008,
+      "crime_convicted_of_raw": "Murder (of parents, Seymour and Arlene Tankleff)",
+      "sentence": "50 years to life (Information from external knowledge)",
+      "time_served": "17+ years",
+      "contributing_factors_raw": [
+        "Coerced false confession (obtained after police falsely claimed his father, before dying, implicated him); Tunnel vision; Ignoring evidence pointing to other suspects"
+      ],
+      "status_raw": "Exonerated (Conviction overturned, charges dismissed); Settled civil lawsuit.",
+      "organizations_involved_raw": [
+        "Innocence Project (involved in later stages); Pro bono legal teams."
+      ],
+      "full_name": "12.1]",
+      "first_name": "1]",
+      "middle_name": null,
+      "last_name": null
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

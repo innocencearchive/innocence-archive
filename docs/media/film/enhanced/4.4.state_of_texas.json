@@ -1,0 +1,60 @@
+{
+  "source_file_name": "4.4.state_of_texas.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "The State of Texas vs. Darlie Routier (Dateline NBC)",
+    "creator_name": null,
+    "publication_or_release_year": 2015,
+    "publisher_or_network": "NBC News",
+    "focus_or_theme": "In-depth reinvestigation of Darlie Routier case, new evidence/forensic analysis",
+    "summaryNotes": "Focus on ongoing forensic testing (DNA) results still pending as of 2024.",
+    "availabilityNotes": "Available via NBC/Peacock.",
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Information Unavailable",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "In-depth reinvestigation of Darlie Routier case, new evidence/forensic analysis",
+    "summary_notes": "A multi-hour special examining new evidence and forensic analysis in the Darlie Routier case. Ongoing, court-ordered DNA testing on key pieces of evidence, the results of which are still pending.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Multi-hour special examining new evidence and forensic analysis in Routier case; more detailed than previous coverage. Available via NBC/Peacock.",
+      "research_findings": "While a specific Dateline episode with this exact title wasn't confirmed, the description points to a deeper investigation into the Routier case. The most significant update is the ongoing, court-ordered DNA testing on key pieces of evidence, the results of which are still pending after several years. A 2015 book, \"Dateline Purgatory,\" also examined the case controversies."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Darlie Routier",
+      "first_name": "Darlie",
+      "middle_name": null,
+      "last_name": "Routier",
+      "status": "CONVICTED",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": null,
+      "time_served": "~27 years (as of 2024)",
+      "sentence": "Death Penalty",
+      "crime_convicted_of_raw": "Capital Murder",
+      "case_location_city": "Rowlett",
+      "case_location_state": "Texas",
+      "narrative_summary": "Convicted of capital murder in 1997 and sentenced to death. The case focuses on the re-analysis of disputed forensic evidence, with results of court-ordered DNA testing still pending as of 2024.",
+      "contributing_factors_raw": [
+        "Focus on re-analysis of disputed forensic evidence (blood spatter, fingerprint, sock)",
+        "Potential alternative suspects"
+      ],
+      "organizations_involved_raw": [
+        "Legal teams pursuing appeals and DNA testing"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "While a specific Dateline episode with this exact title wasn't confirmed, the description points to a deeper investigation into the Routier case. The most significant update is the ongoing, court-ordered DNA testing on key pieces of evidence, the results of which are still pending after several years. A 2015 book, \"Dateline Purgatory,\" also examined the case controversies."
+}

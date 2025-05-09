@@ -1,0 +1,143 @@
+{
+  "sourceFileName": "4.1.carrollton_plot.md",
+  "mediaWork": {
+    "title": "The Carrollton Plot (Dateline NBC)",
+    "workType": "TV_SERIES",
+    "creatorName": "Information Unavailable",
+    "publicationOrReleaseYear": null,
+    "publisherOrNetwork": "NBC News",
+    "focusOrTheme": "Disputed forensic evidence (blood spatter), potential staging of crime scene, possible financial motive in a murder case",
+    "summaryNotes": "Investigation into controversial conviction of Darlie Routier; disputed blood evidence; media portrayal; maintains innocence on death row. Available via NBC/Peacock.",
+    "availabilityNotes": null,
+    "sourceUrl": null
+  },
+  "mediaItem": {
+    "itemTitle": "The Carrollton Plot (Dateline NBC)",
+    "itemNumber": null,
+    "itemMediaType": "TV_EPISODE",
+    "releaseDate": null,
+    "hostOrNarrator": null,
+    "focusOrTheme": "Disputed forensic evidence (blood spatter), potential staging of crime scene, possible financial motive in a murder case",
+    "summaryNotes": "While the specific episode title \"The Carrollton Plot\" wasn't confirmed [cite: 1.1], the Darlie Routier case has received significant media coverage, including likely by Dateline. Key points of contention include the interpretation of forensic evidence like blood spatter, the plausibility of the intruder story versus staging, and the debated financial motive [cite: 2.1, 10.1]. Ongoing DNA testing highlights the persistent questions surrounding the case [cite: 10.1].",
+    "keyQuotes": null,
+    "sourceUrl": null,
+    "individualsFeaturedNames": [
+      {
+        "firstName": "Darlie",
+        "lastName": "Routier"
+      }
+    ],
+    "organizationsMentionedNames": [
+      {
+        "name": "Darlie's Army"
+      }
+    ],
+    "involvedPersonsMentionedNames": [],
+    "contributingFactorsMentionedNames": [
+      {
+        "name": "Interpretation of blood spatter evidence"
+      },
+      {
+        "name": "questions about self-inflicted wounds vs. attack"
+      },
+      {
+        "name": "alleged financial motive"
+      },
+      {
+        "name": "unidentified fingerprint"
+      },
+      {
+        "name": "sock with victims' blood found outside home"
+      }
+    ]
+  },
+  "individuals": [
+    {
+      "firstName": "Darlie",
+      "lastName": "Routier",
+      "status": "CONVICTED",
+      "convictionYear": 1997,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": 27,
+      "sentence": "Death Penalty",
+      "caseLocationCity": "Rowlett",
+      "caseLocationCounty": null,
+      "caseLocationState": "TX",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Remains on death row; Appeals denied but DNA testing ordered multiple times since 2018, results still pending as of 2024",
+      "contributingFactorNames": [
+        {
+          "name": "Interpretation of blood spatter evidence"
+        },
+        {
+          "name": "questions about self-inflicted wounds vs. attack"
+        },
+        {
+          "name": "alleged financial motive"
+        },
+        {
+          "name": "unidentified fingerprint"
+        },
+        {
+          "name": "sock with victims' blood found outside home"
+        }
+      ],
+      "organizationsInvolvedNames": [
+        {
+          "name": "Darlie's Army"
+        }
+      ],
+      "involvedPersonsNames": [],
+      "crimeCategoryName": "Capital Murder"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Darlie's Army",
+      "type": "SUPPORT_GROUP",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Various advocacy groups"
+    },
+    {
+      "name": "NBC News",
+      "type": "MEDIA_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "assumed for Dateline"
+    }
+  ],
+  "contributingFactors": [
+    {
+      "name": "Interpretation of blood spatter evidence",
+      "description": null
+    },
+    {
+      "name": "questions about self-inflicted wounds vs. attack",
+      "description": null
+    },
+    {
+      "name": "alleged financial motive",
+      "description": null
+    },
+    {
+      "name": "unidentified fingerprint",
+      "description": null
+    },
+    {
+      "name": "sock with victims' blood found outside home",
+      "description": null
+    }
+  ],
+  "involvedPersons": [],
+  "crimeCategories": [
+    {
+      "crime_name": "Capital Murder",
+      "severity_order": null
+    }
+  ]
+}

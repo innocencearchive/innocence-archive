@@ -1,0 +1,87 @@
+{
+  "source_file_name": "9.8.40_years.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "40 Years a Prisoner",
+    "publication_or_release_year": 2020,
+    "publisher_or_network": "Confluential Films, Freedom Road Productions, Get Lifted Film Company",
+    "focus_or_theme": "MOVE organization history, 1978 Philadelphia police raid, conviction of the MOVE 9, racial justice, police brutality, long-term incarceration, family impact.",
+    "summaryNotes": "Documents the decades-long effort by Mike Africa Jr. to free his parents.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "40 Years a Prisoner",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "MOVE organization history, 1978 Philadelphia police raid, conviction of the MOVE 9, racial justice, police brutality, long-term incarceration, family impact.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Themes include racial justice, police brutality, activism. Available via HBO Max.",
+      "research_findings": "Directed by Tommy Oliver, this documentary uses archival footage and interviews to explore the controversial 1978 confrontation between Philadelphia police and the Black liberation group MOVE, the resulting death of an officer, and the subsequent conviction and long imprisonment of nine MOVE members. It centers on the perspective of Mike Africa Jr., born in prison, and his lifelong quest to free his parents, raising questions about the justice of their convictions."
+    }
+  },
+  "featured_individuals": [
+    {
+      "note_on_wrongful_conviction_focus": "The film follows Mike Africa Jr.'s fight to exonerate/free his parents, Debbie and Mike Africa Sr., convicted along with 7 other MOVE members for the 1978 death of Officer James Ramp during a police siege of their Philadelphia home. While not a typical \"innocence\" case based on DNA, the film questions the fairness of the trial, the circumstances of the raid, the lengthy sentences (30-100 years), and frames the convictions as unjust, stemming from police aggression and systemic bias against the radical group. Supporters often view them as political prisoners wrongfully convicted under questionable circumstances.",
+      "full_name": "The MOVE 9 (Including Debbie Africa & Mike Africa Sr.",
+      "case_location_city": "Philadelphia",
+      "case_location_state": "Pennsylvania",
+      "conviction_year": 1980,
+      "exoneration_or_release_year": 2018,
+      "crime_convicted_of_raw": "Third-degree murder, conspiracy, etc.",
+      "sentence": "30-100 years",
+      "time_served": "~40 years",
+      "contributing_factors_raw": [
+        "See Debbie Africa."
+      ],
+      "status_raw": "Released on Parole",
+      "organizations_involved_raw": [
+        "MOVE Organization, supporters."
+      ],
+      "first_name": "The",
+      "middle_name": "MOVE 9 (Including Debbie Africa & Mike Africa",
+      "last_name": "Sr."
+    },
+    {
+      "note_on_wrongful_conviction_focus": "The film follows Mike Africa Jr.'s fight to exonerate/free his parents, Debbie and Mike Africa Sr., convicted along with 7 other MOVE members for the 1978 death of Officer James Ramp during a police siege of their Philadelphia home. While not a typical \"innocence\" case based on DNA, the film questions the fairness of the trial, the circumstances of the raid, the lengthy sentences (30-100 years), and frames the convictions as unjust, stemming from police aggression and systemic bias against the radical group. Supporters often view them as political prisoners wrongfully convicted under questionable circumstances.",
+      "full_name": "parents of Mike Africa Jr.)",
+      "case_location_city": "Philadelphia",
+      "case_location_state": "Pennsylvania",
+      "conviction_year": 1980,
+      "exoneration_or_release_year": 2018,
+      "crime_convicted_of_raw": "Third-degree murder, conspiracy, etc.",
+      "sentence": "30-100 years",
+      "time_served": "~40 years",
+      "contributing_factors_raw": [
+        "See Debbie Africa."
+      ],
+      "status_raw": "Released on Parole",
+      "organizations_involved_raw": [
+        "MOVE Organization, supporters."
+      ],
+      "first_name": "parents",
+      "middle_name": "of Mike Africa",
+      "last_name": "Jr.)"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Tommy Oliver",
+      "role": "DIRECTOR",
+      "first_name": "Tommy",
+      "middle_name": null,
+      "last_name": "Oliver"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

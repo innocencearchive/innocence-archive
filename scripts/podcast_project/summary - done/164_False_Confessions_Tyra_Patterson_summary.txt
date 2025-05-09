@@ -1,0 +1,92 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction, False Confessions
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but can be inferred as an episode about Tyra Patterson
+-   **Host(s)**: Laura Nyreiter, Steve Drizen
+-   **Release Year(s)**: 2023 (inferred from context of "last season" and current episode)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts in association with Signal Company No. 1
+-   **Series Type**: Ongoing Series
+-   **Format**: Podcast
+-   **Focus/Theme**: False Confessions, Felony Murder Rule, Wrongful Conviction, Systemic Issues in Criminal Justice
+-   **Key Statistics/Information**:
+    -   Tyra Patterson was sentenced to 43 years to life, 13 more years than the actual shooter.
+    -   Felony Murder Rule: felony + death = first-degree murder.
+    -   Tyra served 21 years in prison before being granted parole.
+    -   DNA evidence is only present in about 10% of cases, highlighting the importance of reinvestigation and advocacy in non-DNA cases.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction, False Confessions, tells the story of Tyra Patterson, a 19-year-old wrongfully convicted of murder in Dayton, Ohio due to a false confession and the felony murder rule.  Tyra was interrogated and coerced into confessing to robbery for picking up a necklace, which was then used to charge her with murder when another member of her group shot and killed Michelle Lay during an altercation.  Despite not being involved in the violence and even attempting to de-escalate the situation, Tyra was convicted and sentenced to a longer prison term than the shooter. The podcast details the failures of her legal representation, the eventual uncovering of evidence supporting her innocence, and the public campaign that led to her parole after 21 years, although she is still fighting for full exoneration.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Tyra Patterson
+-   **Case Location**: Dayton, Ohio, USA
+-   **Conviction Year**: 1995
+-   **Exoneration Year**: Not fully exonerated, but granted parole in 2017
+-   **Crime Convicted Of**: Aggravated Murder and four counts of Aggravated Robbery
+-   **Sentence**: 43 years to life
+-   **Time Served**: 21 years
+-   **Contributing Factors**:
+    -   False Confession (coerced due to police tactics and misunderstanding of felony murder rule)
+    -   Ineffective Assistance of Counsel (lawyers advised her not to testify, didn't present key evidence like 911 call or Rebecca's testimony)
+    -   Felony Murder Rule (obscure law that equated robbery with murder in this case)
+-   **Legal Status**: Released on Parole, seeking exoneration
+-   **Organizations Involved**:
+    -   Ohio Justice and Policy Center (David Singleton, Steve Drizen)
+    -   AIG Pro Bono program
+    -   Paul Weiss, Rifkin, Wharton, and Garrison law firm
+-   **Innocence Lawyer Details**:
+    -   David Singleton: Director of the Ohio Justice and Policy Center, represented Tyra for 8 years, instrumental in reinvestigating her case and advocating for her release.
+    -   Steve Drizen: Co-host of the podcast, legal expert, assisted David Singleton in Tyra's case.
+-   **Cross-Reference**: Not specified in transcript if in exoneree database, but highly likely given the nature of the case and podcast.
+-   **Narrative of Original Crime**: An altercation occurred between two groups of teenagers. One group from Wrightview confronted a group from another part of town who were attempting to steal from garages. During the confrontation, a member of the Wrightview group, Lashana Keeney, shot and killed Michelle Lay, one of the girls from the other group. Tyra Patterson was present but not involved in the violence and was walking away when the shooting occurred.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Tyra's videotaped confession to robbery (snatching a necklace, though coerced and false).
+    -   Testimony from Holly Lay and other girls from the Chevy claiming they saw Tyra reach into the car and take the necklace.
+-   **Trial Defender Notes**:
+    -   Ineffective defense: Lawyers advised Tyra not to testify.
+    -   Failed to challenge the confession as coerced.
+    -   Did not present crucial exculpatory evidence like Tyra's 911 call or Rebecca's potential testimony.
+    -   Justification for poor defense: Lawyers believed Tyra would not be a good witness due to being "unsophisticated" and speaking in a way that prosecutors could exploit.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Retraction of testimony by Holly Lay, the victim's sister, who originally testified against Tyra but later realized Tyra was not the one who took the necklace and supported her release.
+    -   Early police statements from the girls in the Chevy, which did not prominently feature Tyra as involved in the robbery.
+    -   Affidavits from other members of the Wrightview group, including Lashana Keeney, confirming Tyra's lack of involvement and attempts to de-escalate.
+    -   Governor's commutation of sentence due to unfair disparity between Tyra's sentence and the shooter's.
+-   **Actual Perpetrator Details**:
+    -   Lashana Keeney: Member of the Wrightview group who pulled the trigger and shot Michelle Lay. Sentenced to 30 years in prison, a shorter sentence than Tyra's original sentence.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "Felony murder leads to people going down for murders who never killed anyone." - Steve Drizen
+    -   "We just meant to punk them out." - Angie, member of the right-view group, highlighting the unintended escalation of events.
+    -   "But I didn't do it!" - Tyra Patterson's reaction to the guilty verdict.
+    -   "Tyra is a hero here. She's not a murderer." - Steve Drizen
+    -   "Do I get to go home now?" - Tyra's question after giving the false confession, showing her misunderstanding of the situation and the felony murder rule.
+-   **Systemic Issues Identified**:
+    -   Felony Murder Rule: Highlighted as an archaic and unjust law that can lead to wrongful convictions.
+    -   Police Coercion and False Confessions: Demonstrated how interrogation tactics can lead to innocent people confessing to crimes they did not commit, especially when they are vulnerable or misunderstand the legal implications.
+    -   Ineffective Assistance of Counsel: Showcased the detrimental impact of inadequate legal representation, particularly for marginalized individuals.
+    -   Racial and Socioeconomic Bias: Implicitly suggested by the setting in a lower-income, mixed-race neighborhood and the dismissal of Tyra as "unsophisticated."
+-   **Policy Recommendations/Calls to Action**:
+    -   Reform or abolish the Felony Murder Rule.
+    -   Mandate recording of entire interrogations to prevent coercion and ensure transparency.
+    -   Improve access to quality legal representation for all, especially indigent defendants.
+    -   Educate the public about the dangers of false confessions and the complexities of the legal system.
+-   **Personal Narrative/Impact**:
+    -   Tyra's personal narrative emphasizes her transformation in prison, from an illiterate dropout to an advocate for justice.
+    -   Her story highlights the devastating impact of wrongful conviction on an individual's life, including loss of freedom, trauma, and missed opportunities.
+    -   Despite the injustice, Tyra's resilience and positive contributions to society after release are inspiring. Her final thoughts, as shared in the podcast, emphasize her journey towards healing and advocacy.
+-   **Additional Resources**:
+    -   Ohio Justice and Policy Center (organization where Tyra works and that advocated for her).
+    -   Instagram: @Tyra.imani.777 (Tyra's Instagram for updates and support).
+    -   wrongfulconvictionpodcast.com (Podcast website for more information).
+    -   AIG Pro Bono program and Paul Weiss, Rifkin, Wharton, and Garrison (sponsors supporting criminal justice reform).
+```

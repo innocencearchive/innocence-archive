@@ -1,0 +1,114 @@
+{
+    "sourceFileName": "354_Wrongful_Conviction_False_Confessions_-_Tommy_Ward_Pt_2_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: False Confessions",
+    "mediaItem": {
+        "hosts": "Lauren Nyreiter and Steve Drizen",
+        "releaseYear": "2023",
+        "network": "Lava for Good podcasts in association with Signal Company Number One",
+        "seriesType": "Episodic Series (part of an ongoing series, each episode appears to be a standalone or multi-part story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions due to false confessions, flaws in the justice system, investigative journalism.",
+        "keyStats": "- Tommy Ward and Carl Fontenot were convicted based on dream confessions.\n- They were convicted twice despite contradictory evidence and the discovery of the victim's body revealing inconsistencies with their confessions.\n- Key evidence (missing person report detailing the victim's blouse) was withheld by the prosecution.\n- Carl Fontenot's conviction was overturned in 2019 after 34 years.\n- Tommy Ward is still waiting for his release at the time of recording.\n- Two dream confession cases originated from Ada, Oklahoma.",
+        "itemNumber": "354",
+        "itemTitle": "Wrongful Conviction False Confessions - Tommy Ward Pt 2",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction: False Confessions\" continues the story of Tommy Ward and Carl Fontenot, wrongfully convicted in Ada, Oklahoma, for the murder of Denise Haraway based on false confessions derived from Tommy's dream. Despite the discovery of Denise's body revealing inconsistencies with their confessions (location, cause of death), they were convicted again based on a detail about the victim's blouse that was seemingly corroborated by their confessions.  However, newly discovered evidence, withheld by the prosecution, revealed that police knew about the blouse description before the interrogations.  This suppressed evidence, along with Carl Fontenot's recantation and inconsistencies in witness testimonies, ultimately led to Carl's release after 34 years. Tommy Ward remains incarcerated, awaiting a decision in his case, highlighting the egregious miscarriage of justice and the devastating impact of false confessions."
+    },
+    "featuredIndividual": {
+        "fullName": "Carl Fontenot",
+        "caseLocation": "Ada, Oklahoma, USA",
+        "convictionYear": "Original conviction and second conviction both mentioned, but specific years not stated in this episode. Previous episode likely clarified.",
+        "exonerationYear": "2019 (conviction overturned)",
+        "crimeConvictedOf": "Murder of Denise Haraway",
+        "sentence": "Life in prison (after second trial, initially death row)",
+        "timeServed": "34 years",
+        "contributingFactorsRaw": [
+            "False confession (influenced by police and Tommy's dream confession), withheld exculpatory evidence, reliance on the blouse detail."
+        ],
+        "status": "Exonerated, released on bond in 2019.",
+        "organizationsInvolvedRaw": [
+            "Center on Wrongful Convictions at Northwestern University Pritzker School of Law, new legal representation (name not specified in transcript)."
+        ],
+        "innocenceLawyersRaw": [
+            "New legal representation obtained, name not specified in transcript."
+        ],
+        "crossReference": "Likely appears in exoneree databases.",
+        "narrativeOriginalCrime": "Same as Tommy Ward.",
+        "keyEvidenceProsecutionRaw": [
+            "Same as Tommy Ward."
+        ],
+        "trialDefenderNotes": "Same as Tommy Ward.",
+        "keyEvidenceExonerationRaw": [
+            "Same withheld evidence as Tommy Ward, plus Carl's recantation was specifically highlighted as part of the discovered evidence. Federal judge acted on his case first."
+        ],
+        "actualPerpetratorDetails": "Not mentioned or available in this transcript."
+    },
+    "keyQuotesRaw": [
+        "\"Police turned Tommy's bad dream into a murder confession.\"",
+        "\"These confessions were obviously, obviously false.\"",
+        "\"Imagine you're a prosecutor and you have to stand up in front of a jury and present them with a confession. They can't tell you what happened to Denise, who did it, or even where the crime occurred.\"",
+        "\"Confessions are hard to get by. People still believe that, why did you confess if you didn't do it?\"",
+        "\"It was the one unanswerable fact. And now it's answerable.\" (Referring to the blouse detail).",
+        "\"When you put this all together, there is just no question that Tommy Ward and Carl Fontano are absolutely innocent of this crime and have been the victims of one of the most egregious miscarriages of justice in the history of the United States.\"",
+        "\"Tommy praised for me while I prayed for him. I would say Tommy relaxed. I'm okay. Worry about yourself. That's not the kind of guy he is.\" (John Grisham on Tommy Ward's character).",
+        "\"Your dream of freedom is our dream, too.\" (Hosts' closing statement)."
+    ],
+    "systemicIssuesRaw": [
+        "False confessions induced by police interrogation tactics.",
+        "Confirmation bias and tunnel vision by law enforcement and prosecutors focusing on confessions despite contradictory evidence.",
+        "Withholding of exculpatory evidence by prosecution (Brady violation).",
+        "Jury's reliance on confession evidence even when objectively flawed and contradicted by physical evidence.",
+        "Potential for \"dream confessions\" in specific locations/interrogation environments (Ada, Oklahoma as a \"cancer cluster\")."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call for Tommy Ward's release and exoneration.",
+        "Broader implication for the need for reform in interrogation techniques to prevent false confessions.",
+        "Need for greater prosecutorial accountability regarding disclosure of evidence.",
+        "Highlighting the importance of organizations like the Center on Wrongful Convictions in rectifying miscarriages of justice, particularly in non-DNA cases."
+    ],
+    "personalNarrativeRaw": [
+        "Tommy Ward's and Carl Fontenot's decades lost in prison due to false confessions.",
+        "Tommy's brother Melvin's tireless advocacy for Tommy's innocence.",
+        "Tommy's positive character described by his brother and John Grisham (kindness to animals, helpfulness, Christian faith, concern for others even in prison).",
+        "Carl Fontenot's release and welcome into the exoneree community, but the irreversible damage caused by wrongful conviction.",
+        "Tommy's dream of opening a woodworking shop and helping elderly people upon release, showcasing his resilience and desire to contribute positively despite his ordeal."
+    ],
+    "additionalResourcesRaw": [
+        "Netflix series \"The Innocent Man\" (2018) based on John Grisham's book.",
+        "Book \"Dreams of Ada\" by Robert Mayer (1987).",
+        "Book \"The Innocent Man\" by John Grisham (2006).",
+        "Center on Wrongful Convictions at Northwestern University Pritzker School of Law."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Denise Haraway",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "John Grisham",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Confirmation bias",
+            "Tunnel vision",
+            "Brady violation",
+            "Jury's reliance on confession evidence"
+        ],
+        "llm_media_relationships": {
+            "part_number": 2,
+            "is_update_of": "case of Tommy Ward and Carl Fontenot",
+            "related_themes": [
+                "False confessions",
+                "Miscarriage of justice",
+                "Suppressed evidence",
+                "Wrongful conviction"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

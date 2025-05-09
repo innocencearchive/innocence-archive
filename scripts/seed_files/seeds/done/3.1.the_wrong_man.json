@@ -1,0 +1,94 @@
+{
+  "sourceFileName": "3.1.the_wrong_man.md",
+  "mediaWork": {
+    "title": "Wrong Man (20/20)",
+    "workType": "TV_SERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": null,
+    "publisherOrNetwork": "ABC News",
+    "focusOrTheme": "DNA exoneration in murder case; Misidentification",
+    "summaryNotes": null,
+    "availabilityNotes": "Available via ABC",
+    "sourceUrl": null
+  },
+  "mediaItem": {
+    "itemTitle": "Wrong Man (20/20)",
+    "itemNumber": null,
+    "itemMediaType": "TV_EPISODE",
+    "releaseDate": null,
+    "hostOrNarrator": null,
+    "focusOrTheme": "DNA exoneration in murder case; Misidentification",
+    "summaryNotes": null,
+    "keyQuotes": null,
+    "sourceUrl": null,
+    "individualsFeaturedNames": [
+      {
+        "firstName": "Ray",
+        "lastName": "Krone"
+      }
+    ],
+    "organizationsMentionedNames": [
+      {
+        "name": "ABC News"
+      }
+    ],
+    "involvedPersonsMentionedNames": [],
+    "contributingFactorsMentionedNames": [
+      {
+        "name": "Bite mark analysis"
+      },
+      {
+        "name": "eyewitness testimony"
+      }
+    ]
+  },
+  "individuals": [
+    {
+      "firstName": "Ray",
+      "lastName": "Krone",
+      "status": "EXONERATED",
+      "convictionYear": 1992,
+      "exonerationOrReleaseYear": 2002,
+      "timeServedYears": 10,
+      "sentence": "Death penalty initially, later life",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Arizona",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Known as \"Snaggletooth Killer\" due to dental evidence; 100th person exonerated from death row",
+      "crimeCategoryName": "Murder",
+      "contributingFactorNames": [
+        "Bite mark analysis",
+        "eyewitness testimony"
+      ],
+      "organizationNames": []
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ABC News",
+      "type": "MEDIA_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": null
+    }
+  ],
+  "contributingFactors": [
+    {
+      "name": "Bite mark analysis",
+      "description": null
+    },
+    {
+      "name": "eyewitness testimony",
+      "description": null
+    }
+  ],
+  "involvedPersons": [],
+  "crimeCategories": [
+    {
+      "crime_name": "Murder"
+    }
+  ]
+}

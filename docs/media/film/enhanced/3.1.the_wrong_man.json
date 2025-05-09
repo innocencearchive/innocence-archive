@@ -1,0 +1,54 @@
+{
+  "source_file_name": "3.1.the_wrong_man.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "Wrong Man (20/20)",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "ABC News",
+    "focus_or_theme": "DNA exoneration in murder case; Misidentification",
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Information Unavailable",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "DNA exoneration in murder case; Misidentification",
+    "summary_notes": "A 20/20 episode focusing on a wrongful conviction case involving DNA exoneration and misidentification. Due to the generic title, specific details are difficult to confirm, but information is primarily based on the case of Ray Krone.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Ray Krone",
+      "first_name": "Ray",
+      "middle_name": null,
+      "last_name": "Krone",
+      "status": "EXONERATED",
+      "conviction_year": 1992,
+      "exoneration_or_release_year": 2002,
+      "time_served": "~10 years",
+      "sentence": "Death penalty initially, later life",
+      "crime_convicted_of_raw": "Murder",
+      "case_location_city": "Arizona",
+      "case_location_state": null,
+      "narrative_summary": "Ray Krone was wrongfully convicted of murder in Arizona in 1992 and sentenced to death, later life imprisonment. His conviction was based on bite mark analysis and eyewitness testimony, but he was exonerated by DNA evidence in 2002 after serving approximately 10 years.",
+      "contributing_factors_raw": [
+        "Bite mark analysis (later discredited/excluded by DNA)",
+        "eyewitness testimony"
+      ],
+      "organizations_involved_raw": []
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": "- **Notes from `film_list.txt`**: Features Ray Krone, known as \"Snaggletooth Killer\" due to dental evidence; 100th person exonerated from death row; Available via ABC.\n-   **Research Findings**: The title \"Wrong Man\" is too generic to definitively identify a specific 20/20 episode via search. The `film_list.txt` entry [cite: 22] specifically names Ray Krone. Details above rely heavily on the `film_list.txt` description and general knowledge of the Krone case, as searches for a 20/20 episode with this title were inconclusive [cite: 10.1, 11.1, 12.1].",
+  "research_notes_raw": "The title \"Wrong Man\" is too generic to definitively identify a specific 20/20 episode via search. The `film_list.txt` entry specifically names Ray Krone. Details above rely heavily on the `film_list.txt` description and general knowledge of the Krone case, as searches for a 20/20 episode with this title were inconclusive."
+}

@@ -1,0 +1,78 @@
+{
+  "source_file_name": "9.17.david_and_me.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "David & Me",
+    "creator_name": "Ray Klonsky, Marc Lamy",
+    "publication_or_release_year": 2014,
+    "publisher_or_network": "Markham Street Films",
+    "focus_or_theme": "Wrongful conviction, juvenile conviction, friendship between filmmaker and inmate, advocacy leading to exoneration.",
+    "summaryNotes": "Highlights the role of personal connection and persistent advocacy in overturning a conviction.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "David & Me",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction, juvenile conviction, friendship between filmmaker and inmate, advocacy leading to exoneration.",
+    "summary_notes": "The documentary follows Ray Klonsky's journey, documenting his friendship with David McCallum and their efforts to investigate McCallum's wrongful conviction. It highlights coerced confessions and weak evidence, culminating in McCallum's exoneration in 2014.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Chronicles filmmaker Ray Klonsky's efforts to help free David McCallum, wrongfully convicted of murder at age 16. Directed by Ray Klonsky & Marc Lamy. Available via Amazon Prime, DVD, Festivals.",
+      "research_findings": "This documentary follows the personal journey of Ray Klonsky, who began corresponding with David McCallum as a teenager. Their friendship evolved into an effort, documented by Klonsky and co-director Marc Lamy, to investigate McCallum's decades-old conviction, highlighting coerced confessions and weak evidence. The film captures the long fight involving lawyers and advocates like Rubin Carter, culminating in McCallum's exoneration in 2014."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "David McCallum",
+      "first_name": "David",
+      "middle_name": null,
+      "last_name": "McCallum",
+      "status": "EXONERATED",
+      "conviction_year": 1986,
+      "exoneration_or_release_year": 2014,
+      "time_served": "29 years",
+      "sentence": "25 years to life",
+      "crime_convicted_of_raw": "Kidnapping and Murder (of Nathan Blenner)",
+      "case_location_city": "Queens",
+      "case_location_state": "New York City",
+      "narrative_summary": "David McCallum was wrongfully convicted of kidnapping and murder in Queens, New York City. He was convicted in 1986 and exonerated in 2014 after serving 29 years. His conviction was based on a coerced false confession and inconsistent evidence, with advocacy highlighting the case flaws.",
+      "contributing_factors_raw": [
+        "Coerced false confession (obtained at age 16)",
+        "Inconsistent evidence",
+        "Advocacy highlighting case flaws"
+      ],
+      "organizations_involved_raw": [
+        "Filmmakers Ray Klonsky & Marc Lamy",
+        "Pro-bono legal team",
+        "Rubin \"Hurricane\" Carter (advocate)"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Ray Klonsky",
+      "first_name": "Ray",
+      "middle_name": null,
+      "last_name": "Klonsky",
+      "role": "DIRECTOR"
+    },
+    {
+      "full_name": "Marc Lamy",
+      "first_name": "Marc",
+      "middle_name": null,
+      "last_name": "Lamy",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "Notes from `film_list.txt`: Chronicles filmmaker Ray Klonsky's efforts to help free David McCallum, wrongfully convicted of murder at age 16. Directed by Ray Klonsky & Marc Lamy. Available via Amazon Prime, DVD, Festivals.\nResearch Findings: This documentary follows the personal journey of Ray Klonsky, who began corresponding with David McCallum as a teenager. Their friendship evolved into an effort, documented by Klonsky and co-director Marc Lamy, to investigate McCallum's decades-old conviction, highlighting coerced confessions and weak evidence. The film captures the long fight involving lawyers and advocates like Rubin Carter, culminating in McCallum's exoneration in 2014."
+}

@@ -1,0 +1,84 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but features Tony Wright and Peter Neufeld
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2017 (original air date mentioned)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts in association with Signal Company Number One
+-   **Series Type**: Episodic Series (based on description and episode content)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, police and prosecutorial misconduct, the Innocence Project, exoneration, DNA evidence.
+-   **Key Statistics/Information**:
+    -   Tony Wright received a settlement of almost 10 million dollars from the state of Pennsylvania in 2018.
+    -   This was the first case in the 25-year history of the Innocence Project where prosecutors decided to retry the case after DNA evidence exonerated the individual.
+    -   Tony Wright was initially convicted by a non-unanimous jury (7-5 vote for death penalty, spared due to Pennsylvania law requiring unanimity for capital punishment).
+    -   The jury in the retrial deliberated for a very short time (5-10 minutes) before reaching a not guilty verdict.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features Jason Flom interviewing Peter Neufeld, co-founder of the Innocence Project, and Tony Wright, recently exonerated after serving 24 years for a crime he did not commit.  Tony Wright's case is highlighted as an egregious example of police and prosecutorial misconduct in Philadelphia in the 1990s. Despite DNA evidence clearly exonerating Wright and pointing to the actual perpetrator, Rani Bird, the Philadelphia District Attorney's office insisted on retrying him, even fabricating an absurd theory to maintain their initial conviction.  The episode details the systemic issues within the Philadelphia justice system at the time, including police brutality and corruption, and emphasizes the long and arduous journey Wright endured to finally achieve exoneration and freedom with the help of the Innocence Project. The episode concludes with the emotional aftermath of Wright's release and the powerful support from the jury in his retrial.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Anthony "Tony" Wright
+-   **Case Location**: Philadelphia, Pennsylvania, USA
+-   **Conviction Year**: 1993
+-   **Exoneration Year**: 2017
+-   **Crime Convicted Of**: Rape and murder of Luis Tally (should be Louise Tally based on later transcript detail)
+-   **Sentence**: Initially faced the death penalty, but sentenced to life imprisonment after jury vote was not unanimous for capital punishment.
+-   **Time Served**: 24 years
+-   **Contributing Factors**:
+    -   False confession coerced through threats and intimidation by police.
+    -   Police and prosecutorial misconduct, including fabricating evidence and ignoring exculpatory DNA evidence.
+    -   Systemic issues within the Philadelphia justice system, including a culture of securing convictions at all costs.
+-   **Legal Status**: Exonerated, declared actually innocent.
+-   **Organizations Involved**: The Innocence Project
+-   **Innocence Lawyer Details**:
+    -   Peter Neufeld: Co-founder and co-director of the Innocence Project, co-counsel in retrial.
+    -   Nina Morrison: Senior staff attorney at the Innocence Project, worked on Tony's case for 8 years to get DNA testing.
+    -   Sam and Rebecca (Schneider firm in Philadelphia): Local lawyers who teamed up with the Innocence Project team for the retrial.
+-   **Cross-Reference**: Appears in exoneree database (likely, given Innocence Project involvement and high profile case, but not explicitly confirmed in transcript)
+-   **Narrative of Original Crime**: 77-year-old Louise Tally was raped and murdered in her home in North Philadelphia.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   False confession allegedly given by Tony Wright shortly after being brought to the police station.
+    -   Fabricated evidence such as wrong-sized shoes, claims of victim's clothing and TV set being in Tony's house (later proven false/untrue).
+-   **Trial Defender Notes**: Not detailed in transcript regarding original trial defense. The focus is on the lack of proper defense and the overwhelming prosecutorial misconduct and fabricated evidence.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   DNA testing of semen from the rape kit excluded Tony Wright as the source.
+    -   DNA profile matched Rani Bird, a known crack addict who lived near the victim's home.
+-   **Actual Perpetrator Details**:
+    -   Rani Bird: Identified by DNA evidence as the source of semen in the rape kit.
+    -   Crack addict and squatter who lived near Louise Tally's home.
+    -   Friends seen selling TV set similar to victim's the day after the murder.
+    -   Philadelphia DA's office initially attempted to concoct a theory that Rani Bird was a "necrophiliac" who violated the corpse after Tony Wright committed the initial rape and murder, to maintain their conviction of Tony Wright.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Tony Wright: "Cops came out with guns drawn, and I never saw freedom ever ever since after that."
+    -   Peter Neufeld: "This was the first case in the 25-year history of the Innocence Project where after the overwhelming evidence of innocence produced by the DNA testing was certainly enough to get the conviction vacated. Whereas in almost every other case, the prosecutors would then dismiss the charges. Here, the Philadelphia DA said, no way. We're going to back up our detectives, frankly, who framed Tony and make you go through another trial."
+    -   Detective's threat to Tony Wright during interrogation: "Oh, he said he was going to put my eye out and skull fucked me."
+    -   Jurors' reaction after not guilty verdict: Crying and wanting to meet Tony and his family.
+    -   Jail inmates' reaction to Tony's exoneration: Cheering, banging pots and pans, celebrating his release.
+-   **Systemic Issues Identified**:
+    -   Police misconduct: Coercing false confessions, fabricating evidence, targeting individuals based on prior police encounters and race.
+    -   Prosecutorial misconduct:  Refusing to acknowledge DNA evidence of innocence, defending corrupt police actions, prioritizing convictions over justice, and wasting resources on retrying an innocent person.
+    -   Racial bias in the justice system: Implied in the Rolling Stone quote about justice for Black men in Philadelphia compared to Philadelphia, Mississippi.
+    -   Culture of brutality and corruption in the Philadelphia Police Department during the relevant period (Rizzo era and 39th precinct corruption).
+-   **Policy Recommendations/Calls to Action**:
+    -   Supporting the Innocence Project to help prevent future wrongful convictions.
+    -   Donating to the Innocence Project.
+    -   Improving police interrogation techniques to prevent false confessions.
+    -   District Attorney's offices should prioritize truth and justice over defending convictions.
+    -   Conviction Integrity Units should genuinely seek truth and not just defend past convictions.
+-   **Personal Narrative/Impact**:
+    -   Tony Wright's wrongful conviction led to 24 years of lost freedom, separation from his son and family, and immense emotional distress. Despite this, he maintained hope and worked towards his exoneration from prison. His eventual release was met with overwhelming joy and support from his family, legal team, and even the jury and fellow inmates.  His story highlights resilience and the profound impact of wrongful conviction on an individual's life.
+-   **Additional Resources**:
+    -   Rolling Stone magazine article on Tony Wright's case (mentioned).
+    -   InnocenceProject.org (website for donations and involvement).
+```

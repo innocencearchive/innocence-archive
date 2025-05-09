@@ -1,0 +1,85 @@
+{
+    "sourceFileName": "125_False_Confessions_Billy_Wayne_Cope_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction, False Confessions",
+    "mediaItem": {
+        "hosts": "Lauren Eyreider, Steve Drizen",
+        "releaseYear": "2020",
+        "network": "Lava for Good podcasts in association with Signal Company No. 1",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, false confessions, DNA evidence, police tunnel vision, justice system failure.",
+        "keyStats": "DNA evidence excluded Billy Wayne Cope and pointed to James Sanders; Billy Wayne Cope falsely confessed after police interrogation; Billy Wayne Cope died in prison without exoneration.",
+        "itemNumber": "125",
+        "itemTitle": "False Confessions Billy Wayne Cope",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction, False Confessions tells the tragic story of Billy Wayne Cope, wrongfully convicted of murdering his 12-year-old daughter Amanda. Despite maintaining his innocence and DNA evidence identifying James Sanders as the perpetrator, police focused solely on Billy, extracting a false confession through coercive interrogation tactics after an unreliable polygraph test.  Prosecutors then fabricated a theory of joint involvement with Sanders, even after Sanders himself denied knowing Billy.  Key defense evidence was excluded at trial, and Billy was convicted and sentenced to life alongside Sanders.  Despite initial hope during appeals, his conviction was ultimately upheld, and Billy Wayne Cope died in prison still maintaining his innocence. The episode highlights the devastating consequences of police tunnel vision, false confessions, and the justice system's failure to rectify evident wrongful convictions, even in the face of contradictory DNA evidence."
+    },
+    "featuredIndividual": {
+        "fullName": "Billy Wayne Cope",
+        "caseLocation": "Rock Hill, South Carolina, USA",
+        "convictionYear": "Approximately 2002/2003 (inferred from the timeline)",
+        "exonerationYear": "N/A (Died in prison in 2017, never exonerated)",
+        "crimeConvictedOf": "Murder of his daughter, Amanda Cope",
+        "sentence": "Life in prison",
+        "timeServed": "Approximately 14 years (from conviction to death in 2017)",
+        "contributingFactorsRaw": [
+            "False confession: Coerced through lengthy interrogation and suggestive tactics after a failed polygraph.",
+            "Police Tunnel Vision: Immediate suspicion and focus on Billy, ignoring other evidence like the wife's pocketbook and a flashlight not belonging to the family.",
+            "Ignoring DNA Evidence: DNA evidence excluded Billy and identified James Sanders, yet police did not redirect investigation.",
+            "Prosecutorial Misconduct: Fabricated theory of joint crime with Sanders, lied to Billy's wife about DNA results, and proceeded with trial despite lack of evidence against Billy.",
+            "Ineffective Trial: Judge excluded crucial defense evidence, preventing the jury from understanding Sanders' criminal history and lack of connection to Billy."
+        ],
+        "status": "Wrongfully convicted, died in prison. Posthumous exoneration efforts not mentioned in transcript.",
+        "organizationsInvolvedRaw": [
+            "Legal Team: Steve Drizen, David Bruck, Alison Flom (Appeal Team)"
+        ],
+        "innocenceLawyersRaw": [
+            "Steve Drizen: Host of the podcast, experienced lawyer, deeply affected by the case, joined the appeal team.",
+            "David Bruck: Legendary lawyer, part of Billy's appeal team.",
+            "Alison Flom: Part of Billy's appeal team."
+        ],
+        "narrativeOriginalCrime": "Amanda Cope, 12 years old, was found dead in her bed, having been sexually assaulted, beaten, and strangled.",
+        "keyEvidenceProsecutionRaw": [
+            "Billy Wayne Cope's false confession.",
+            "Prosecution's theory that Billy and James Sanders acted together in the crime."
+        ],
+        "trialDefenderNotes": "-   Defense lawyers attempted to present evidence of James Sanders' crime spree and his letter stating he didn't know Billy Wayne Cope.\n-   Judge blocked the admission of Sanders' other crimes as evidence, deeming them irrelevant because they didn't involve a 12-year-old girl.\n-   Judge also rejected Sanders' letter as evidence.",
+        "keyEvidenceExonerationRaw": [
+            "DNA evidence found at the crime scene (semen and saliva) excluded Billy Wayne Cope and matched James Sanders.",
+            "Appellate court initially ruled that there was insufficient evidence of Billy and Sanders working together, suggesting a potential overturning of the conviction, but this was reversed by the South Carolina Supreme Court."
+        ],
+        "actualPerpetratorDetails": "-   Name: James Sanders\n-   Description: Career burglar, serial rapist, drug addict from North Carolina.\n-   Connection to Case: DNA at crime scene matched Sanders. Lived two blocks from the Cope family.\n-   Criminal Activity:  On a crime spree in Rock Hill around the time of Amanda's murder, committing burglaries and sexual assaults in the same neighborhood, including against women in their homes.\n-   Trial: Tried and convicted alongside Billy Wayne Cope for Amanda's murder."
+    },
+    "keyQuotesRaw": [
+        "Steve Drizen: \"This is the most disappointing loss in my career, at least.\"",
+        "Saul Kassen: \"At every step of the way, it was clear that Billy Wayne Cope's innocence didn't matter.\"",
+        "Billy Wayne Cope (in court): \"I hate you! I hate you for what you did... I hate him. I hate him so bad I can't stand him.\""
+    ],
+    "systemicIssuesRaw": [
+        "Police tunnel vision and confirmation bias.",
+        "Over-reliance on and misrepresentation of polygraph results.",
+        "Coercive interrogation tactics leading to false confessions.",
+        "Prosecutorial misconduct in maintaining a case despite contradictory DNA evidence and fabricating a narrative.",
+        "Judicial bias in excluding key defense evidence that could have demonstrated reasonable doubt.",
+        "Failure of higher courts to rectify a clear wrongful conviction.",
+        "Dehumanization of individuals from lower socio-economic backgrounds within the justice system."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call for reform in police interrogation practices to prevent false confessions.",
+        "Need for greater scrutiny of forensic evidence and less reliance on unreliable methods like polygraphs.",
+        "Highlighting the importance of judicial independence and willingness to overturn wrongful convictions even when inconvenient.",
+        "Advocacy for the wrongfully convicted and raising awareness of systemic failures within the justice system."
+    ],
+    "personalNarrativeRaw": [
+        "Billy Wayne Cope's unwavering faith and hope despite his wrongful conviction.",
+        "His dedication to serving others in prison, acting as a hospice minister and teaching Hebrew.",
+        "The profound personal impact on Steve Drizen, highlighting the emotional toll of fighting for justice and witnessing systemic failures.",
+        "The tragic death of Mary Sue Cope, Billy's wife, who died believing her husband was guilty due to misinformation from authorities."
+    ],
+    "additionalResourcesRaw": [
+        "Wrongfulconvictionpodcast.com (Podcast website)",
+        "Instagram: LauraNyrighter, wrongfulconviction",
+        "Twitter: S. Drizan, wrongconviction",
+        "Facebook: wrongfulconvictionpodcast"
+    ]
+}

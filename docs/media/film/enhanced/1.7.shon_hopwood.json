@@ -1,0 +1,89 @@
+{
+  "source_file_name": "1.7.shon_hopwood.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "60 Minutes",
+    "creator_name": null,
+    "publication_or_release_year": 2017,
+    "publisher_or_network": "CBS News",
+    "focus_or_theme": "Redemption, prison education, legal self-advocacy, systemic barriers after incarceration.",
+    "summaryNotes": "Profiled an individual who developed exceptional legal skills while incarcerated and successfully petitioned the Supreme Court.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "From bank robber to law professor",
+    "item_number": null,
+    "release_date": "October 15, 2017",
+    "hostOrNarrator": "Steve Kroft",
+    "focus_or_theme": "Redemption, prison education, legal self-advocacy, systemic barriers after incarceration.",
+    "summary_notes": "This 60 Minutes segment profiles Shon Hopwood, who developed exceptional legal skills while incarcerated and successfully petitioned the Supreme Court on behalf of another inmate. It examines his journey from bank robber to law professor.",
+    "key_quotes_raw": [
+      "Hopwood attributing his success to \"people that helped, that went out of their way to provide grace\"",
+      "Seth Waxman discussing his surprise at the quality of Hopwood's legal writing from prison."
+    ],
+    "systemic_issues_raw": [
+      "The potential for rehabilitation within the prison system",
+      "The importance of education and skill development for incarcerated individuals",
+      "The barriers faced by formerly incarcerated individuals seeking professional careers (like law)",
+      "The role of mentorship (Seth Waxman)."
+    ],
+    "policy_recommendations_raw": [
+      "Implied support for prison education programs",
+      "Implied support for second chances for formerly incarcerated individuals."
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://www.cbsnews.com/news/from-bank-robber-to-law-professor-a-story-of-redemption/",
+        "description": "CBS News article about the segment"
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Shon Hopwood",
+      "first_name": "Shon",
+      "middle_name": null,
+      "last_name": "Hopwood",
+      "status": "OTHER",
+      "conviction_year": 1999,
+      "exoneration_or_release_year": null,
+      "time_served": "Approximately 11 years",
+      "sentence": "Approximately 12 years",
+      "crime_convicted_of_raw": "Armed bank robbery",
+      "case_location_city": null,
+      "case_location_state": null,
+      "narrative_summary": "Convicted of armed bank robbery and sentenced to approximately 12 years. He developed legal skills while incarcerated, became a lawyer and law professor after completing his sentence. His case is not one of wrongful conviction.",
+      "contributing_factors_raw": [
+        "N/A (His case wasn't one of wrongful conviction)."
+      ],
+      "organizations_involved_raw": [
+        "N/A (for his own case)",
+        "later worked with legal clinics/organizations."
+      ]
+    },
+    {
+      "full_name": "Unknown Prisoner",
+      "first_name": "Unknown",
+      "middle_name": null,
+      "last_name": "Prisoner",
+      "status": "UNKNOWN",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": null,
+      "case_location_state": null,
+      "narrative_summary": "A fellow prisoner for whom Hopwood prepared a cert petition that was granted by the U.S. Supreme Court. Specific details and name not provided in search results for the 60 Minutes segment.",
+      "contributing_factors_raw": [],
+      "organizations_involved_raw": []
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

@@ -1,0 +1,177 @@
+{
+  "source_file_name": "2.7.the_confessions_revisited.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "The Confessions Revisited (FRONTLINE)",
+    "publication_or_release_year": 2009,
+    "publisher_or_network": "FRONTLINE (likely WGBH)",
+    "focus_or_theme": "Update on the Norfolk Four case, false confessions",
+    "summaryNotes": "Updates on legal status post-original documentary, culminating in full pardons.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Information Unavailable (Searches did not return specific episode details, likely an update segment)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Update on the Norfolk Four case, false confessions",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Update on Norfolk Four case after original \"The Confessions\" episode. Available via PBS.",
+      "research_findings": "While specific production details for a \"Revisited\" episode weren't found, extensive information confirms the significant developments in the Norfolk Four case after the original documentary, culminating in full pardons in 2017. A \"Revisited\" episode would likely cover these events. FRONTLINE did feature the case again in 2013."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2009,
+      "crime_convicted_of_raw": "Rape and Murder of Michelle Moore-Bosko (1997)",
+      "sentence": "Varied, included life sentences",
+      "time_served": "Varied, significant prison time for Tice, Williams, Dick; Wilson served full sentence",
+      "contributing_factors_raw": [
+        "Coerced false confessions, threats (death penalty), questionable polygraphs, ignoring exculpatory DNA pointing to actual perpetrator Omar Ballard"
+      ],
+      "status_raw": "Fully pardoned and declared innocent",
+      "organizations_involved_raw": [
+        "Mid-Atlantic Innocence Project (MAIP), Skadden Arps, Squire Sanders"
+      ],
+      "full_name": "The Norfolk Four: Derek Tice",
+      "first_name": "The",
+      "middle_name": "Norfolk Four: Derek",
+      "last_name": "Tice"
+    },
+    {
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2009,
+      "crime_convicted_of_raw": "Rape and Murder of Michelle Moore-Bosko (1997)",
+      "sentence": "Varied, included life sentences",
+      "time_served": "Varied, significant prison time for Tice, Williams, Dick; Wilson served full sentence",
+      "contributing_factors_raw": [
+        "Coerced false confessions, threats (death penalty), questionable polygraphs, ignoring exculpatory DNA pointing to actual perpetrator Omar Ballard"
+      ],
+      "status_raw": "Fully pardoned and declared innocent",
+      "organizations_involved_raw": [
+        "Mid-Atlantic Innocence Project (MAIP), Skadden Arps, Squire Sanders"
+      ],
+      "full_name": "Danial Williams",
+      "first_name": "Danial",
+      "middle_name": null,
+      "last_name": "Williams"
+    },
+    {
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2009,
+      "crime_convicted_of_raw": "Rape and Murder of Michelle Moore-Bosko (1997)",
+      "sentence": "Varied, included life sentences",
+      "time_served": "Varied, significant prison time for Tice, Williams, Dick; Wilson served full sentence",
+      "contributing_factors_raw": [
+        "Coerced false confessions, threats (death penalty), questionable polygraphs, ignoring exculpatory DNA pointing to actual perpetrator Omar Ballard"
+      ],
+      "status_raw": "Fully pardoned and declared innocent",
+      "organizations_involved_raw": [
+        "Mid-Atlantic Innocence Project (MAIP), Skadden Arps, Squire Sanders"
+      ],
+      "full_name": "Joseph Dick",
+      "first_name": "Joseph",
+      "middle_name": null,
+      "last_name": "Dick"
+    },
+    {
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2009,
+      "crime_convicted_of_raw": "Rape and Murder of Michelle Moore-Bosko (1997)",
+      "sentence": "Varied, included life sentences",
+      "time_served": "Varied, significant prison time for Tice, Williams, Dick; Wilson served full sentence",
+      "contributing_factors_raw": [
+        "Coerced false confessions, threats (death penalty), questionable polygraphs, ignoring exculpatory DNA pointing to actual perpetrator Omar Ballard"
+      ],
+      "status_raw": "Fully pardoned and declared innocent",
+      "organizations_involved_raw": [
+        "Mid-Atlantic Innocence Project (MAIP), Skadden Arps, Squire Sanders"
+      ],
+      "full_name": "Jr.",
+      "first_name": "Jr.",
+      "middle_name": null,
+      "last_name": null
+    },
+    {
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2009,
+      "crime_convicted_of_raw": "Rape and Murder of Michelle Moore-Bosko (1997)",
+      "sentence": "Varied, included life sentences",
+      "time_served": "Varied, significant prison time for Tice, Williams, Dick; Wilson served full sentence",
+      "contributing_factors_raw": [
+        "Coerced false confessions, threats (death penalty), questionable polygraphs, ignoring exculpatory DNA pointing to actual perpetrator Omar Ballard"
+      ],
+      "status_raw": "Fully pardoned and declared innocent",
+      "organizations_involved_raw": [
+        "Mid-Atlantic Innocence Project (MAIP), Skadden Arps, Squire Sanders"
+      ],
+      "full_name": "Eric Wilson [cite: 13",
+      "first_name": "Eric",
+      "middle_name": "Wilson [cite:",
+      "last_name": "13"
+    },
+    {
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2009,
+      "crime_convicted_of_raw": "Rape and Murder of Michelle Moore-Bosko (1997)",
+      "sentence": "Varied, included life sentences",
+      "time_served": "Varied, significant prison time for Tice, Williams, Dick; Wilson served full sentence",
+      "contributing_factors_raw": [
+        "Coerced false confessions, threats (death penalty), questionable polygraphs, ignoring exculpatory DNA pointing to actual perpetrator Omar Ballard"
+      ],
+      "status_raw": "Fully pardoned and declared innocent",
+      "organizations_involved_raw": [
+        "Mid-Atlantic Innocence Project (MAIP), Skadden Arps, Squire Sanders"
+      ],
+      "full_name": "21",
+      "first_name": "21",
+      "middle_name": null,
+      "last_name": null
+    },
+    {
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2009,
+      "crime_convicted_of_raw": "Rape and Murder of Michelle Moore-Bosko (1997)",
+      "sentence": "Varied, included life sentences",
+      "time_served": "Varied, significant prison time for Tice, Williams, Dick; Wilson served full sentence",
+      "contributing_factors_raw": [
+        "Coerced false confessions, threats (death penalty), questionable polygraphs, ignoring exculpatory DNA pointing to actual perpetrator Omar Ballard"
+      ],
+      "status_raw": "Fully pardoned and declared innocent",
+      "organizations_involved_raw": [
+        "Mid-Atlantic Innocence Project (MAIP), Skadden Arps, Squire Sanders"
+      ],
+      "full_name": "8.1]",
+      "first_name": "1]",
+      "middle_name": null,
+      "last_name": null
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

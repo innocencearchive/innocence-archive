@@ -1,0 +1,98 @@
+{
+  "source_file_name": "7.1.sole_survivor.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Sole Survivor (CNN Special Report) (Title based on list entry, unconfirmed by search)",
+    "publication_or_release_year": 1993,
+    "publisher_or_network": "CNN / WarnerMedia",
+    "focus_or_theme": "First US death row exoneration by DNA, wrongful conviction, advocacy against death penalty.",
+    "summaryNotes": "First DNA exoneration from death row in the US.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Sole Survivor (CNN Special Report) (Title based on list entry, unconfirmed by search)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "First US death row exoneration by DNA, wrongful conviction, advocacy against death penalty.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Follows Bloodsworth's journey from death row to exoneration to becoming an advocate for criminal justice reform. Available via CNN/Max.",
+      "research_findings": "Kirk Bloodsworth's case is landmark as the first US death row DNA exoneration. He was convicted based on eyewitness accounts despite lack of physical evidence, had his first conviction overturned due to prosecutorial misconduct (withheld evidence), was reconvicted, and finally freed by DNA testing in 1993. While a specific CNN Special Report titled \"Sole Survivor\" wasn't confirmed via search, his story has been widely covered, including in the 2015 documentary \"Bloodsworth: An Innocent Man\"."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "Baltimore County",
+      "case_location_state": "Maryland",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 1993,
+      "crime_convicted_of_raw": "Rape and Murder (of 9-year-old Dawn Hamilton in 1984)",
+      "sentence": "Death Penalty (first trial), Two Life Terms (second trial)",
+      "time_served": "Nearly 9 years (mostly on death row)",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification (multiple witnesses), withheld exculpatory evidence (led to first conviction being overturned)"
+      ],
+      "status_raw": "Exonerated by DNA evidence; Pardoned; Actual perpetrator identified via DNA in 2003",
+      "organizations_involved_raw": [
+        "Innocence Project (assisted with DNA); Became advocate with Witness to Innocence."
+      ],
+      "full_name": "Kirk Bloodsworth [cite: 55",
+      "first_name": "Kirk",
+      "middle_name": "Bloodsworth [cite:",
+      "last_name": "55"
+    },
+    {
+      "case_location_city": "Baltimore County",
+      "case_location_state": "Maryland",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 1993,
+      "crime_convicted_of_raw": "Rape and Murder (of 9-year-old Dawn Hamilton in 1984)",
+      "sentence": "Death Penalty (first trial), Two Life Terms (second trial)",
+      "time_served": "Nearly 9 years (mostly on death row)",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification (multiple witnesses), withheld exculpatory evidence (led to first conviction being overturned)"
+      ],
+      "status_raw": "Exonerated by DNA evidence; Pardoned; Actual perpetrator identified via DNA in 2003",
+      "organizations_involved_raw": [
+        "Innocence Project (assisted with DNA); Became advocate with Witness to Innocence."
+      ],
+      "full_name": "7.1",
+      "first_name": "1",
+      "middle_name": null,
+      "last_name": null
+    },
+    {
+      "case_location_city": "Baltimore County",
+      "case_location_state": "Maryland",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 1993,
+      "crime_convicted_of_raw": "Rape and Murder (of 9-year-old Dawn Hamilton in 1984)",
+      "sentence": "Death Penalty (first trial), Two Life Terms (second trial)",
+      "time_served": "Nearly 9 years (mostly on death row)",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification (multiple witnesses), withheld exculpatory evidence (led to first conviction being overturned)"
+      ],
+      "status_raw": "Exonerated by DNA evidence; Pardoned; Actual perpetrator identified via DNA in 2003",
+      "organizations_involved_raw": [
+        "Innocence Project (assisted with DNA); Became advocate with Witness to Innocence."
+      ],
+      "full_name": "8.1]",
+      "first_name": "1]",
+      "middle_name": null,
+      "last_name": null
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

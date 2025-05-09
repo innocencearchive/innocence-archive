@@ -1,0 +1,91 @@
+{
+    "sourceFileName": "037_Jason_Flom_with_Ryan_Ferguson_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2017",
+        "network": "lava for good podcast in association with signal company number one",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, flaws in the criminal justice system, exoneree stories.",
+        "keyStats": "- Ryan Ferguson was wrongly convicted at 19 years old and served nearly a decade in prison.\n- His bail was set at $20 million, reportedly the highest in Missouri history for the charge.\n- Physical evidence at the crime scene (bloody footprints, fingerprints, hair) did not match Ryan Ferguson.\n- Two key prosecution witnesses recanted their testimony after his 2005 conviction.\n- Kathleen Zellner took on his case pro bono and has more exonerations than any other individual attorney in the country.",
+        "itemNumber": "037",
+        "itemTitle": "Jason Flom with Ryan Ferguson",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features Ryan Ferguson, who was wrongly convicted of murder at age 19 and spent nearly ten years in prison. Ferguson recounts the horrific details of his case, highlighting the lack of physical evidence, the false confession of a friend driven by police pressure, and the unreliable testimony of an incentivized witness. He describes the dehumanizing conditions of county jail and maximum-security prison, the devastating trial, and the years of appeals.  Ferguson emphasizes the systemic failures within the justice system, including prosecutorial and judicial misconduct, and the profound personal impact of wrongful conviction.  Despite the trauma, Ferguson expresses gratitude for his family, legal support, and the people who helped raise awareness of his case, and calls for greater public awareness and action to address wrongful convictions. He also discusses his book \"Stronger, Faster, Smarter\" as a way to help others improve their lives."
+    },
+    "featuredIndividual": {
+        "fullName": "Ryan Ferguson",
+        "caseLocation": "Columbia, Missouri, USA",
+        "convictionYear": "2005",
+        "exonerationYear": "Not explicitly stated but implied to be around 2013 based on \"served nearly a decade\" and \"I've been out less than four\" (interview likely a few years after exoneration).",
+        "crimeConvictedOf": "Murder of Kent Hightholt and second-degree robbery",
+        "sentence": "40 years",
+        "timeServed": "Nearly 10 years",
+        "contributingFactorsRaw": [
+            "False confession (of Charles Erickson, pressured by police)",
+            "Recanted testimony (Charles Erickson and Jerry Trump)",
+            "Lack of credible evidence",
+            "Prosecutorial misconduct (allowing false testimony, knowing innocence)",
+            "High bail seen as prejudicial"
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Kathleen Zellner (attorney)",
+            "Innocence Project (mentioned as a cause Jason Flom supports)"
+        ],
+        "innocenceLawyersRaw": [
+            "Kathleen Zellner is highlighted as a key attorney who took his case pro bono and is known for having more exonerations than any other individual attorney in the nation. She is described as a ray of hope and a friend."
+        ],
+        "narrativeOriginalCrime": "Journalist Kent Hightholt was brutally murdered outside his workplace, beaten to death with a heavy metal object. The crime scene had physical evidence, but none matched Ryan Ferguson.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of Charles Erickson, a friend, who claimed dreamlike visions of committing the crime with Ryan. Erickson confessed under police pressure and fear of the death penalty, implicating Ryan.",
+            "Testimony of Jerry Trump, a janitor, who identified Ryan as one of two men seen at the crime scene."
+        ],
+        "trialDefenderNotes": "Not explicitly detailed in the transcript, but implied to be ineffective as Ryan was convicted despite lack of evidence and later exonerated.  Ryan mentions feeling like he was \"going down current\" and had no opportunity to speak or present his innocence until sentencing.",
+        "keyEvidenceExonerationRaw": [
+            "Newly discovered evidence (mentioned by appellate court).",
+            "Both key prosecution witnesses (Erickson and Trump) recanted their testimony.",
+            "Appellate court overturned the conviction, finding \"newly discovered evidence clearly and convincingly establishes that he's actually innocent.\"",
+            "Missouri Attorney General's office decided not to retry him."
+        ],
+        "actualPerpetratorDetails": "Not mentioned or available in the provided transcript. The police did not pursue other leads or test remaining physical evidence after Ryan's conviction was overturned."
+    },
+    "keyQuotesRaw": [
+        "\"The prosecution from day one knew I was innocent and let false testimony go uncorrected from the lower courts all the way up to the United States Supreme Court.\" - Ryan Ferguson highlighting prosecutorial misconduct.",
+        "\"Based on that, I lost 10 years of my life. I was put into prison for a crime I had nothing to do with.\" - Ryan Ferguson on the impact of Erickson's statement.",
+        "\"County jail... is far worse than being in prison... It is a very, very poor existence.\" - Ryan Ferguson describing jail conditions.",
+        "\"I fundamentally hated people outside of my family, I pretty much just hated human existence to human race for a good three or four years.\" - Ryan Ferguson expressing the emotional impact of wrongful conviction and betrayal by the system.",
+        "\"Don't take anyone's word as the truth. Don't take it as gospel, whether it's your police, your prosecutors, your local newspaper, whatever, look into it yourself.\" - Ryan Ferguson's advice to listeners."
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct (failure to investigate other leads, pressuring witnesses, exploiting informants as mentioned in ad for \"Snitch City\").",
+        "Prosecutorial misconduct (allowing false testimony, pursuing conviction despite innocence).",
+        "Judicial misconduct (excessive bail as a \"political statement,\" judge not listening at sentencing).",
+        "Flawed eyewitness testimony and incentivized witness testimony (child molester witness).",
+        "Dangers of false confessions and the impact of police pressure.",
+        "Dehumanizing conditions of county jails and prisons.",
+        "Media portrayal and potential bias.",
+        "Racial disparities in the justice system."
+    ],
+    "policyRecommendationsRaw": [
+        "Be active and get involved in wrongful conviction cases.",
+        "Write to wrongfully convicted individuals and their families to offer support.",
+        "Create awareness about wrongful conviction cases among friends, family, and community.",
+        "Contact local politicians and demand accountability in the justice system.",
+        "Support organizations like the Innocence Project.",
+        "Critically evaluate media and official accounts of criminal cases."
+    ],
+    "personalNarrativeRaw": [
+        "Ryan's personal narrative highlights the devastating impact of wrongful conviction on his life, including loss of freedom, horrific jail and prison conditions, emotional trauma, and loss of faith in humanity.",
+        "He describes developing a survival mentality in prison, including physical training to defend himself.",
+        "Despite the trauma, Ryan emphasizes the importance of family support and the positive impact of those who helped him.",
+        "He expresses ongoing struggles with the psychological effects of wrongful conviction, including a sense of fear and a diminished capacity for experiencing joy to the same degree as before.",
+        "His focus on giving back and helping others is presented as a way to cope and find purpose."
+    ],
+    "additionalResourcesRaw": [
+        "Podcast: Spotlight Snitch City (promotional advertisement within the podcast).",
+        "Book: \"Stronger, Faster, Smarter\" by Ryan Ferguson.",
+        "Organization: Innocence Project (InnocenceProject.org)."
+    ]
+}

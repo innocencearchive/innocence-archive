@@ -1,0 +1,63 @@
+{
+  "source_file_name": "3.3confession_at_gunpoint.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "20/20",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "ABC News",
+    "focus_or_theme": "Coerced false confessions, juvenile suspects, DNA exoneration",
+    "summaryNotes": "Case highlights conviction despite pre-trial DNA exclusion.",
+    "availabilityNotes": "Available via ABC.",
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Confession at Gunpoint",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Coerced false confessions, juvenile suspects, DNA exoneration",
+    "summary_notes": "The episode explores Jeffrey Deskovic's case, who falsely confessed after a lengthy interrogation as a teen and was exonerated by DNA after 16 years. The case highlights conviction despite pre-trial DNA exclusion and is a prominent example of a coerced false confession from a juvenile, despite exculpatory DNA evidence.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Explores Deskovic falsely confessing after lengthy interrogation as a teen; Exonerated by DNA after 16 years; Established foundation. Available via ABC.",
+      "research_findings": "While a specific 20/20 episode titled \"Confession at Gunpoint\" wasn't confirmed, the details of Jeffrey Deskovic's case match the description perfectly. His case is a prominent example of a coerced false confession from a juvenile, despite exculpatory DNA evidence being available even before trial."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Jeffrey Deskovic",
+      "first_name": "Jeffrey",
+      "middle_name": null,
+      "last_name": "Deskovic",
+      "status": "EXONERATED",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2006,
+      "time_served": "Nearly 16 years",
+      "sentence": "15 years to life",
+      "crime_convicted_of_raw": "Rape and Murder (of 15-year-old classmate Angela Correa in 1989)",
+      "case_location_city": "Peekskill",
+      "case_location_state": "New York",
+      "narrative_summary": "Jeffrey Deskovic was wrongfully convicted of rape and murder in 1990. He was interrogated at 16 for over 6 hours without a parent or lawyer and coerced into a false confession. He was exonerated by DNA evidence in 2006 after serving nearly 16 years.",
+      "contributing_factors_raw": [
+        "Coerced false confession (interrogated at 16 for 6+ hours, polygraphs, no parent/lawyer)",
+        "Police pressure",
+        "Ignoring exculpatory DNA evidence pre-trial"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project",
+        "Jeffrey Deskovic Foundation for Justice"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

@@ -1,0 +1,83 @@
+{
+    "sourceFileName": "013_Jason_Flom_with_Everton_Wagstaffe_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2017",
+        "network": "Lava for Good podcast in association with signal company number one",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction stories, injustice within the legal system, exoneree experiences, hope and resilience.",
+        "keyStats": "- Everton Wagstaff received a $14.6 million settlement in June 2017 after his exoneration.\n- Everton Wagstaff served almost 23 years in prison for a crime he did not commit.\n- Brunilda Capella, the key witness against Wagstaff, was a heroin addict used in up to 20 cases to testify.\n- The judge initially dismissed the murder charge against Wagstaff due to lack of evidence, but he was still convicted of kidnapping.\n- Evidence proving Wagstaff's innocence (car owner's statement about headband) was withheld and destroyed.\n- Education programs in prison are highlighted as being crucial for rehabilitation and hope.",
+        "itemNumber": "013",
+        "itemTitle": "Jason Flom with Everton Wagstaffe",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Everton Wagstaff, who was wrongfully convicted of kidnapping, rape, and murder in 1992 and spent nearly 23 years in prison. The episode details his arrest based on unreliable eyewitness testimony from a heroin addict, the lack of physical evidence, and withheld exculpatory evidence. Wagstaff recounts the trial, his experiences in Rikers Island and prison, and his unwavering commitment to proving his innocence.  He emphasizes the importance of maintaining a positive attitude and seeking education while incarcerated.  The podcast also highlights the systemic issues that led to his wrongful conviction and celebrates his eventual exoneration in 2014 and subsequent marriage to Kim, a former correctional officer who supported him. Wagstaff's story is presented as an inspiration, focusing on resilience, the fight for justice, and the power of hope in the face of wrongful imprisonment."
+    },
+    "featuredIndividual": {
+        "fullName": "Reginald Connor (referred to as Reginald Kana and Reginald Cotton in the transcript, assumed to be Reginald Connor)",
+        "caseLocation": "Brooklyn, New York, USA (same case as Wagstaff)",
+        "convictionYear": "1992 (same trial as Wagstaff)",
+        "exonerationYear": "2004 (Conditional Release mentioned in transcript, not full exoneration in 2004 based on details provided)",
+        "crimeConvictedOf": "Kidnapping, Rape and Murder (same as Wagstaff, though murder charge dismissal for Wagstaff is mentioned, Connor's status on murder charge isn't explicitly stated, but implied to be similar given joint trial)",
+        "sentence": "Not explicitly stated, but implied to be similar to Wagstaff's, likely contributing to conditional release eligibility.",
+        "timeServed": "Approximately 12 years (released in 2004, convicted in 1992)",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification (Brunilda Capella)",
+            "Lack of physical evidence",
+            "Police and prosecutorial misconduct"
+        ],
+        "status": "Conditionally released in 2004, required to register as a sex offender (suggesting not fully exonerated at that time).  Legal status after conditional release isn't specified in transcript.",
+        "organizationsInvolvedRaw": [
+            "Not mentioned in transcript."
+        ],
+        "innocenceLawyersRaw": [
+            "Lawyer wrote paperwork to parole board professing his innocence."
+        ],
+        "crossReference": "Not specified if in exoneree database.",
+        "narrativeOriginalCrime": "Same as Everton Wagstaff's case.",
+        "keyEvidenceProsecutionRaw": [
+            "Same as Everton Wagstaff's case, relying on Brunilda Capella's testimony."
+        ],
+        "trialDefenderNotes": "Not detailed in transcript beyond being tried jointly with Wagstaff and also convicted.",
+        "keyEvidenceExonerationRaw": [
+            "Lawyer's paperwork to the parole board professing innocence.",
+            "Conditional release granted in 2004, but not a full exoneration based on the details."
+        ],
+        "actualPerpetratorDetails": "Not mentioned in the transcript."
+    },
+    "keyQuotesRaw": [
+        "\"The choice to be in that lineup was the last choice I made as a free man.\" - Everton Wagstaff, highlighting the pivotal moment of his wrongful identification.",
+        "\"I'm going to be one of those people who everyone in the world is going to think is a monster or suspect is a monster for the rest of my life and I'm going to have to come to peace with that.\" - Everton Wagstaff, expressing the psychological burden of wrongful conviction.",
+        "\"I know I was innocent of this crime. I know I had truth on my side.\" - Everton Wagstaff, emphasizing his unwavering belief in his innocence as a source of strength.",
+        "\"It wasn't a condition that kills him, but the lack of hope.\" - Referencing Viktor Frankl, highlighting the importance of hope in survival and resilience in prison.",
+        "\"It don't matter what we are going through. We must always understand that there is always a way out.\" - Everton Wagstaff's closing message of hope and resilience."
+    ],
+    "systemicIssuesRaw": [],
+    "eyewitness_misidentification": "The case heavily relied on unreliable eyewitness testimony.",
+    "police_and_prosecutorial_misconduct": "Fabrication of evidence, withholding exculpatory evidence, using unreliable witnesses, and focusing on conviction over truth.",
+    "ineffective_assistance_of_counsel": "Poor legal representation for indigent defendants.",
+    "use_of_jailhouse_informants_unreliable_witnesses": "Brunilda Capella's history of being used in multiple cases as a questionable witness is a major systemic issue.",
+    "parole_system_&_remorse": "The dilemma faced by innocent prisoners who must express remorse (admit guilt) for parole, creating a barrier to freedom for those who maintain their innocence.",
+    "lack_of_accountability": "Detectives and prosecutors who engaged in misconduct were not held accountable in the transcript.",
+    "policyRecommendationsRaw": [
+        "Supporting organizations like the Innocence Project to help exonerate the wrongfully convicted and prevent future cases.",
+        "Highlighting the importance of funding and supporting education programs in prisons for rehabilitation and hope.",
+        "Implicit call for reform in police and prosecutorial practices to ensure ethical conduct and prevent wrongful convictions.",
+        "Encouraging listeners to give positive reviews to the podcast to increase its reach and awareness of wrongful convictions.",
+        "Encouraging donations to the Innocence Project."
+    ],
+    "personalNarrativeRaw": [
+        "Everton Wagstaff's personal narrative is one of incredible resilience, positivity, and spiritual strength in the face of extreme injustice.",
+        "Despite nearly 23 years of wrongful imprisonment, he maintained hope, educated himself, and helped others in prison.",
+        "His story emphasizes the importance of inner strength, faith, and the pursuit of truth and justice.",
+        "His marriage to Kim is presented as a testament to hope and finding love after trauma.",
+        "His post-exoneration work with at-risk youth and public speaking demonstrates his commitment to making a positive impact and sharing his wisdom."
+    ],
+    "additionalResourcesRaw": [
+        "InnocenceProject.org (website to donate and get involved).",
+        "Email address for Everton Wagstaff for speaking engagements: makeadifferenceandlive@gmail.com",
+        "Mention of Jim Dwyer's investigative reporting on DNA evidence and wrongful convictions.",
+        "Viktor Frankl's book \"Man's Search for Meaning\" is referenced as a source of inspiration."
+    ]
+}

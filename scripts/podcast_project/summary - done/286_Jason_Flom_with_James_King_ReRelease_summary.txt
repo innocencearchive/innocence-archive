@@ -1,0 +1,82 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but implied to be about James King's case update.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2024 (Assuming current year based on task context)
+-   **Production Company(ies)/Network**: Lava for Good podcasts in association with Signal Company No. 1
+-   **Series Type**: Ongoing Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, legal injustice, flaws in the justice system, false accusations, ineffective counsel, false evidence.
+-   **Key Statistics/Information**: James King has served 24 years for a crime he maintains he did not commit. His initial conviction was overturned on a federal habeas petition due to ineffective counsel, but he was retried and convicted again. The California Supreme Court denied his habeas petition.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom revisits the case of James King, who remains imprisoned despite compelling evidence of his innocence in a sexual assault case.  King was initially convicted based on the testimony of a 13-year-old girl, Jamie, whose story was riddled with inconsistencies and demonstrably false claims, including fabricated physical evidence and refuted medical testimony.  Despite a federal judge overturning his first conviction due to ineffective counsel for failing to challenge the flawed medical expert testimony, King was retried and again wrongfully convicted.  His attorney, Ian Graham, discusses the egregious errors in the case, the devastating impact on King and his family, and the ongoing fight for his exoneration, now focused on clemency from the governor after the California Supreme Court denied his habeas petition. The episode highlights systemic failures in the justice system, the devastating consequences of false accusations, and the urgent need for reform.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: James King
+-   **Case Location**: Salinas, California, USA
+-   **Conviction Year**: Original conviction in 1998 (approx.), Second conviction after retrial (approx. 2011 based on 2009 overturn and 2010 retrial offer)
+-   **Exoneration Year**: Not yet exonerated
+-   **Crime Convicted Of**: Aggravated sexual assault on a child and lewd conduct with a child
+-   **Sentence**: 35 years to life
+-   **Time Served**: 24 years (as of podcast release)
+-   **Contributing Factors**:
+    -   False accusation by a child
+    -   Inconsistent and fabricated testimony from the accuser
+    -   Lack of physical evidence (semen test negative)
+    -   False or misleading medical expert testimony
+    -   Ineffective assistance of trial counsel (initially)
+    -   Prosecutorial persistence despite weak and contradictory evidence
+-   **Legal Status**: Currently incarcerated, seeking clemency from the governor after California Supreme Court denied habeas petition.
+-   **Organizations Involved**: Cravis Graham and Zucker (Ian Graham's law firm), Paul Weiss, Rifkin, Orton, and Garrison (pro bono support mentioned in advertisement)
+-   **Innocence Lawyer Details**: Ian Graham, civil rights attorney with Cravis Graham and Zucker in California, is currently representing James King and seeking clemency.  He is described as dedicated and believing strongly in King's innocence.
+-   **Cross-Reference**: Not specified in transcript, needs to be checked against exoneree database.
+-   **Narrative of Original Crime**: James King was accused of sexually assaulting 13-year-old Jamie in the garage of Doug Dobell's house on August 1, 1997. Jamie claimed the assault involved oral copulation and rape, and that King ejaculated on a tan carpet.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Testimony of Jamie, the 13-year-old accuser.
+    -   Testimony of Dr. Valerie Barnes, medical expert, claiming to find physical evidence consistent with sexual assault (later refuted).
+-   **Trial Defender Notes**: Initially, James King had a public defender who did not call a medical expert to refute Dr. Barnes's testimony.  This was deemed ineffective assistance of counsel in the federal habeas petition. For the retrial, details of the defense are not extensively discussed in this transcript.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Negative semen test on the carpet Jamie claimed was stained.
+    -   Inconsistencies and changes in Jamie's story (carpet color, dog eating carpet).
+    -   Diary entries of Jamie suggesting sexual interactions with Eli Roman around the time of the alleged assault.
+    -   Expert medical testimony from Dr. Crawford and Dr. Coleman refuting Dr. Barnes's findings as "medically absurd" and not indicative of recent assault.
+    -   Federal judge overturning the first conviction due to ineffective assistance of counsel.
+-   **Actual Perpetrator Details**:  Not definitively identified as convicted, but the transcript strongly suggests Eli Roman, who was living in the house, as a more likely perpetrator based on Jamie's diary entries and later admission to DA investigators that Eli had assaulted her.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Jason Flom: "This story is the story of a man who's been in prison for a quarter century for a crime that never happened."
+    -   Ian Graham: "James King is innocent. I think any fair minded person looking at the facts of this case and the history of this case would agree with."
+    -   James King: "I'm just afraid that somebody will please, took a look at my case and see the evidence that I'm a totally innocent of this crime."
+    -   Jamie's changing stories about the carpet (tan/brown to blue, dog ate it).
+    -   The plea deal offered to King which he rejected to maintain his innocence.
+-   **Systemic Issues Identified**:
+    -   Failure of the justice system to recognize and act upon clear inconsistencies and lack of evidence.
+    -   Over-reliance on child testimony without sufficient corroboration, even when contradictory.
+    -   Potential for biased or flawed expert testimony to sway juries.
+    -   Difficulty in overturning wrongful convictions, even with federal habeas petitions.
+    -   Impact of "strike" laws on sentencing severity.
+    -   Challenges faced by incarcerated individuals, especially those accused of sex crimes, including violence in prison.
+-   **Policy Recommendations/Calls to Action**:
+    -   Sign the Change.org petition for James King's clemency.
+    -   Implied call for greater scrutiny of child testimony in sexual assault cases.
+    -   Implied call for more rigorous standards for expert witness testimony in court.
+    -   Call for Governor Gavin Newsom to grant clemency to James King.
+-   **Personal Narrative/Impact**:
+    -   James King describes the devastating impact of wrongful conviction on his life, including violence in prison and the emotional toll. He expresses fear, desperation, and hope for freedom and to see his mother again outside of prison.
+    -   Ian Graham expresses the personal and professional weight of the case, highlighting the potential for failure and the dire consequences for James and his mother if clemency is not granted. He questions the value of his work if they are unsuccessful in freeing an innocent man.
+-   **Additional Resources**:
+    -   Change.org petition for James King (link to be provided in podcast bio).
+    -   Mention of exoneree database (implied, for cross-referencing James King's case).
+    -   Lava for Good podcasts and social media platforms for further information and engagement.
+```

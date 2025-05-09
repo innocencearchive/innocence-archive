@@ -1,0 +1,120 @@
+{
+    "sourceFileName": "473_Jason_Flom_with_Robert_Roberson_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2024",
+        "network": "Lava for Good podcast and Signal Company No. 1.",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, junk science (Shaken Baby Syndrome), legal injustice, death penalty.",
+        "keyStats": "- Discover is accepted at 99% of places that take credit cards nationwide (advertisement at the start, likely unrelated to podcast content).\n- Ritual prenatal vitamins are advertised (advertisement at the start, likely unrelated to podcast content).\n- Shaken Baby Syndrome (SBS) as a diagnosis is now debunked by original scientists and medical communities.\n- Over 80 medical conditions can cause the triad of findings (brain swelling, bleeding inside the skull, and bleeding behind the eyes) initially attributed to SBS.\n- Biomechanical studies show violent shaking unlikely to cause the triad without spinal injury.\n- Up to 72 hours can pass before a child succumbs to conditions causing the triad.\n- Finergan (promethazine) has an FDA black box warning against use in children under 10, especially with respiratory issues, as it can cause death.\n- Robert Robertson was scheduled for execution on October 17, 2024.",
+        "itemNumber": "473",
+        "itemTitle": "Jason Flom with Robert Roberson",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction focuses on the case of Robert Robertson, a Texas man on death row for the alleged Shaken Baby Syndrome (SBS) death of his two-year-old daughter Nikki in 2002. The podcast highlights the now-debunked SBS diagnosis as junk science and presents evidence suggesting Nikki's death was likely due to undiagnosed medical issues, including viral pneumonia and the harmful prescription drug Finergan, coupled with a possible fall from bed.  Despite new scientific understanding and exculpatory evidence like missing CAT scans showing only one impact site on Nikki's head, lower courts have denied Robert a new trial. His appellate attorney Gretchen Swen and host Jason Flom argue that Robert's original trial was a farce, tainted by false accusations of sexual abuse, and that systemic issues and outdated medical beliefs led to his wrongful conviction and death sentence.  They call for public awareness and action to support Robert and reform the justice system to prevent similar tragedies."
+    },
+    "featuredIndividual": {
+        "fullName": "Robert Robertson",
+        "caseLocation": "Texas, USA (Polonsky unit outside Houston, Livingston, Anderson County, Palestine, Winsborough mentioned)",
+        "convictionYear": "2002",
+        "exonerationYear": "Not exonerated as of the podcast recording (scheduled for execution October 17, 2024)",
+        "crimeConvictedOf": "Murder of his two-year-old daughter, Nikki Bowman (based on Shaken Baby Syndrome theory)",
+        "sentence": "Death penalty",
+        "timeServed": "Over 20 years (as of podcast recording, locked up since January 31, 2002)",
+        "contributingFactorsRaw": [
+            "Junk Science: Shaken Baby Syndrome (SBS) diagnosis.",
+            "Misinterpretation of medical findings: Brain swelling, intracranial and retinal bleeding attributed to shaking instead of other possible causes.",
+            "Failure to consider pre-existing medical conditions and drug interactions.",
+            "Ineffective trial defense: Attorneys conceded it was a shaken baby case.",
+            "Prejudicial tactics by prosecution: False accusations of sexual abuse to taint the jury.",
+            "Societal biases: Judging Robert based on his social awkwardness and demeanor."
+        ],
+        "status": "On death row, seeking new trial through court of criminal appeals.",
+        "organizationsInvolvedRaw": [
+            "Skadden Arps (pro bono legal support)",
+            "State Public Defender's Office (previous legal representation)",
+            "Center for Integrity and Forensic Sciences (submitted advocacy brief)"
+        ],
+        "innocenceLawyersRaw": [
+            "Gretchen Swen (appellate attorney) -  From a civil background, shocked and outraged by the criminal justice system. Working to get a new trial based on changed scientific understanding and new evidence."
+        ],
+        "crossReference": "Not mentioned if in an exoneree database in the transcript.",
+        "narrativeOriginalCrime": "Robert Robertson reported that his daughter Nikki fell out of bed, and later found her unresponsive. Medical findings of brain swelling, bleeding inside the skull, and bleeding behind the eyes were interpreted as Shaken Baby Syndrome, leading to his accusation of violently shaking her to death.",
+        "keyEvidenceProsecutionRaw": [
+            "Medical testimony based on Shaken Baby Syndrome hypothesis.",
+            "Testimony from medical examiner Dr. Jill Urban claiming multiple impact sites on Nikki's head.",
+            "Nurse's (uncertified for sexual assault exams) claim of anal tearing, suggesting sexual abuse as a motive to cover up.",
+            "Assertions that Robert did not show appropriate emotional response at the hospital."
+        ],
+        "trialDefenderNotes": "- Steve Evans and John Van Meter (trial attorneys) conceded in opening statements that it was a shaken baby case.\n- Focused on preventing a death sentence rather than challenging the shaken baby diagnosis, due to limited knowledge and expert availability at the time (2002).\n- Cross-examined the nurse on sexual assault allegations but did not present a strong counter-narrative.",
+        "keyEvidenceExonerationRaw": [
+            "Debunked Shaken Baby Syndrome science.",
+            "Discovery of missing CAT scans showing only one impact site on Nikki's head, contradicting medical examiner's claim of multiple impacts.",
+            "Evidence of Nikki's pre-existing medical conditions: Chronic illness since birth, viral pneumonia, lethal dosage of Finergan.",
+            "Biomechanical evidence that shaking would have caused neck injuries, which Nikki did not have.",
+            "Recanted testimony of child abuse expert Dr. Squires in other SBS cases (mentioned by Gretchen Swen)."
+        ],
+        "actualPerpetratorDetails": "Not applicable, case argues no crime occurred, and cause of death was likely medical and accidental, not intentional harm."
+    },
+    "keyQuotesRaw": [
+        "\"Okay, this is as serious as it gets. Another victim of the junk science of Shakin' Baby Syndrome, Robert Robertson is scheduled for execution in the state of Texas on October 17, 2024.\" - Jason Flom, opening the episode, highlighting the urgency of the situation.",
+        "Gretchen Swen: \"And it is a complicated puzzle, but every single piece points away from a crime and towards a tragic story of a young child who was sick from the moment she was born into unfortunate circumstances and then not given the fair shake that she deserved.\" - Summarizing the core argument of Robert's innocence.",
+        "Robert Robertson: \"I don't wish you something about my worst enemy and stuff, you know, because being in a place like you said, like in that mirror and stuff, you know, especially when you hadn't done nothing to being in the first place, you know.\" - Expressing the pain of wrongful conviction.",
+        "Jason Flom: \"Your trial was a farce. I mean, they pulled dirty tricks, accusing you of sexually abusing the child when they knew that that was not the case...\" - Directly criticizing the trial process."
+    ],
+    "systemicIssuesRaw": [
+        "Use of junk science in the legal system (Shaken Baby Syndrome).",
+        "Confirmation bias and tunnel vision by medical and legal professionals.",
+        "Inadequate legal representation for indigent defendants.",
+        "Prosecutorial misconduct (raising unsubstantiated sexual abuse allegations).",
+        "Difficulty in overturning wrongful convictions even with new scientific evidence.",
+        "Potential for rural, small-town justice systems to be less informed and more prone to biases."
+    ],
+    "policyRecommendationsRaw": [
+        "Public awareness and education about the flaws of Shaken Baby Syndrome diagnosis.",
+        "Re-evaluation of past SBS convictions in light of current scientific understanding.",
+        "Reform of the criminal justice system to be more receptive to new scientific evidence and claims of actual innocence.",
+        "Increased scrutiny of forensic testimony and expert witnesses.",
+        "Support for organizations fighting wrongful convictions.",
+        "Website mentioned to support Robert Robertson and access court filings."
+    ],
+    "personalNarrativeRaw": [
+        "Robert Robertson's life has been destroyed by wrongful conviction, losing over 20 years of freedom, missing his parents' deaths and his children's upbringing. He expresses deep emotional pain and disbelief at being convicted for a crime he did not commit.",
+        "Gretchen Swen, as a civil lawyer, expresses shock and outrage at the injustices she has witnessed in the criminal justice system through Robert's case."
+    ],
+    "additionalResourcesRaw": [
+        "Wrongful Conviction: Junk Science episode on Shaken Baby Syndrome (linked in episode description).",
+        "Website created by Robert's supporter with court filings (link to be in bio).",
+        "Spotlight Snitch City podcast (advertised in the episode).",
+        "TalkSpace (advertiser for mental health services).",
+        "Under Yazoo Clay podcast (advertised in the episode)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Nikki",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Viral pneumonia",
+            "Harmful prescription drug Finergan",
+            "Possible fall from bed"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": "case of Robert Robertson",
+            "related_themes": [
+                "Wrongful Conviction",
+                "Junk Science",
+                "Injustice",
+                "Death Penalty",
+                "Justice Reform"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

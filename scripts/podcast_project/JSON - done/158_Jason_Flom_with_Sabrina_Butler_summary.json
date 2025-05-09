@@ -1,0 +1,95 @@
+{
+    "sourceFileName": "158_Jason_Flom_with_Sabrina_Butler_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcast in association with signal company number one",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, false confessions, faulty medical diagnosis, ineffective counsel, death penalty, exoneree stories.",
+        "keyStats": "- Sabrina Butler-Smith is the first woman exonerated from death row in the United States.\n- False confessions play a role in approximately 25% of wrongful convictions.\n- In Mississippi (and all 50 states), medical staff are immune from liability if they report suspected child abuse, creating pressure to diagnose abuse.\n- Medical misdiagnosis (chronic nephrotic syndrome brought on by polycystic kidney disease) was the actual cause of death in Sabrina's son's case.\n- Defense lawyers in capital cases in Mississippi were historically poorly compensated, impacting the quality of representation.\n- Jurors have the right to disagree and cause a hung jury if they believe the defendant is not guilty.",
+        "itemNumber": "158",
+        "itemTitle": "Jason Flom with Sabrina Butler",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Sabrina Butler-Smith, the first woman exonerated from death row in the US.  Sabrina recounts her harrowing experience of being wrongfully convicted of murdering her infant son in 1989 after he died from undiagnosed polycystic kidney disease.  Fueled by a coerced false confession obtained through aggressive interrogation while grieving and sleep-deprived, and compounded by inadequate legal representation, Sabrina was sentenced to death.  Civil rights attorney Clive Stafford-Smith intervened, uncovering the medical truth and exposing the flaws in the prosecution's case and the initial medical assessment.  Sabrina was eventually exonerated after spending years on death row. The episode highlights systemic issues including pressure on medical professionals to diagnose child abuse, the dangers of false confessions, the impact of ineffective counsel, and the psychological torture of death row, while also showcasing Sabrina’s resilience and advocacy for justice reform."
+    },
+    "featuredIndividual": {
+        "fullName": "Sabrina Butler-Smith",
+        "caseLocation": "Columbus, Mississippi, USA",
+        "convictionYear": "1990 (approximately, based on death row entry in 1990 after 1989 incident)",
+        "exonerationYear": "Not explicitly stated in transcript, but implied to be before podcast recording.",
+        "crimeConvictedOf": "Murder of her nine-month-old son, Walter Dean Butler",
+        "sentence": "Death Penalty",
+        "timeServed": "Approximately 5 years on death row and in jail awaiting trial. (A year awaiting trial and then time on death row before retrial and exoneration - though specific years not given in transcript.)",
+        "contributingFactorsRaw": [
+            "False Confession: Coerced and fabricated statement during interrogation.",
+            "Faulty Medical Diagnosis: Misinterpretation of CPR-related injuries as child abuse and failure to diagnose underlying kidney disease.",
+            "Ineffective Counsel: Drunk and inexperienced defense attorneys who failed to investigate or present key evidence and prevented Sabrina from testifying."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Clive Stafford-Smith's legal team (implied, no specific organization mentioned)",
+            "Witness to Innocence (Sabrina is involved with this organization post-exoneration)",
+            "Innocence Project (Podcast host encourages listeners to donate)"
+        ],
+        "innocenceLawyersRaw": [
+            "Clive Stafford-Smith: British civil rights attorney and death penalty activist, specialized in overturning death penalty cases in the U.S. Investigated and uncovered the medical evidence that led to Sabrina's exoneration.",
+            "Rob McDuff:  Another attorney who worked with Clive Stafford-Smith on Sabrina's case. (mentioned by Sabrina as helping her)."
+        ],
+        "crossReference": "Not specified if in exoneree database, but highly likely given the nature of the case and its prominence.",
+        "narrativeOriginalCrime": "Sabrina Butler-Smith was accused of murdering her nine-month-old son, Walter Dean Butler.  The prosecution alleged she inflicted internal injuries through abuse, leading to his death.",
+        "keyEvidenceProsecutionRaw": [
+            "Hospital staff's initial assessment of child abuse based on internal injuries.",
+            "Sabrina's coerced confession stating she punched her son.",
+            "Medical professionals testifying that injuries were indicative of abuse, presented as definitive."
+        ],
+        "trialDefenderNotes": "- Ineffective and under-resourced defense team.\n- One attorney was reportedly drunk during the trial.\n- Attorneys prevented Sabrina from testifying in her own defense.\n- Failed to challenge prosecution's medical evidence or present alternative explanations.",
+        "keyEvidenceExonerationRaw": [
+            "Discovery of chronic nephrotic syndrome brought on by polycystic kidney disease as the actual cause of Walter's death.",
+            "Medical evidence demonstrating that the injuries were consistent with adult CPR on an infant.",
+            "Exposure of the coercive interrogation tactics used to obtain Sabrina's false confession.",
+            "Testimony from neighbors corroborating Sabrina's panicked attempts to get help.",
+            "Re-evaluation of the initial medical opinions by medical professionals."
+        ],
+        "actualPerpetratorDetails": "Not applicable, as the death was due to natural causes (medical condition), not a crime."
+    },
+    "keyQuotesRaw": [
+        "Sabrina Butler-Smith:  \"I didn't sign where he told me to, I sign under the line hoping that that was my way of saying, look, I didn't do this and that someone would see that.\" (Describing signing the false confession).",
+        "Clive Stafford-Smith: \"And I've thought to myself, my God, did that really make the world a better place? And you know, the bottom line is it sure didn't and I'm so glad that in Sabrina's case, not only did she not end up on the leaf injection gurney, but she ended up getting her life back and making so much of it.\" (Reflecting on the death penalty and Sabrina's case).",
+        "Sabrina Butler-Smith: \"I feel that as long as God has me here, I am going to fight until I can't fight anymore because that's what I'm here for.\" (Expressing her commitment to advocacy).",
+        "Jason Flom: \"...if you're on a jury, you have that right, you can just basically say, hey, this, this is going to end in a hung jury or an acquittal because I'm not voting guilty. And if that's how you feel, don't be bullied.\" (Highlighting juror rights)."
+    ],
+    "systemicIssuesRaw": [
+        "Pressure on medical professionals to report child abuse, potentially leading to misdiagnosis and wrongful accusations.",
+        "Dangers of coerced and false confessions, particularly with vulnerable individuals.",
+        "Inadequate legal representation for indigent defendants, especially in capital cases.",
+        "Psychological trauma inflicted by death row conditions and the death penalty system itself.",
+        "Difficulty in correcting wrongful convictions even after exoneration (e.g., death certificate issue)."
+    ],
+    "policyRecommendationsRaw": [
+        "Reform interrogation practices to prevent false confessions.",
+        "Improve funding and resources for public defenders, especially in capital cases.",
+        "Promote education and awareness about medical conditions that can mimic child abuse.",
+        "Encourage jurors to understand their rights and responsibilities, including the right to disagree.",
+        "Support organizations like the Innocence Project and Witness to Innocence.",
+        "Abolish the death penalty."
+    ],
+    "personalNarrativeRaw": [
+        "Sabrina's personal narrative is one of immense trauma, resilience, and eventual advocacy.  She describes the terror of interrogation, the dehumanizing experience of death row, and the ongoing struggles even after exoneration (fighting for her son's death certificate to be corrected, dealing with her daughter's similar medical condition).  Her final thoughts emphasize her commitment to fighting for justice and helping others to prevent similar tragedies."
+    ],
+    "additionalResourcesRaw": [
+        "Witness to Innocence website: witness to innocence.org",
+        "Innocence Project website: InnocenceProject.org",
+        "Last Mile organization: thelastmile.org",
+        "Pacers Foundation website: PacersFoundation.org",
+        "KISQALI.com (advertisement mentioned in transcript)",
+        "don'tsleeponosa.com (advertisement mentioned in transcript)",
+        "AAA.com/member (advertisement mentioned in transcript)",
+        "FergusonHome.com (advertisement mentioned in transcript)",
+        "Target.com/circle (advertisement mentioned in transcript)",
+        "mycomputercareer.edu/CWP (advertisement mentioned in transcript)",
+        "Stello.com (advertisement mentioned in transcript)",
+        "Lowe's (advertisement mentioned in transcript and implied website lowes.com)"
+    ]
+}

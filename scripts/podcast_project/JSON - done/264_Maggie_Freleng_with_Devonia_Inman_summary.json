@@ -1,0 +1,63 @@
+{
+    "sourceFileName": "264_Maggie_Freleng_with_Devonia_Inman_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Maggie Freeling",
+    "mediaItem": {
+        "hosts": "Maggie Freeling",
+        "releaseYear": "2022",
+        "network": "Lava For Good, Signal Company No. 1",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction stories, impact of wrongful incarceration, justice system failures.",
+        "keyStats": "23 years of wrongful incarceration, DNA exoneration, key witnesses recanted testimonies, prosecutorial issues in related cases.",
+        "itemNumber": "264",
+        "itemTitle": "Maggie Freleng with Devonia Inman",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Maggie Freeling\" tells the story of Devanya Inman, wrongfully convicted of the 1998 murder of Donna Brown in Adele, Georgia. Despite having an alibi, flawed witness testimonies and a jailhouse informant led to his conviction and a life sentence. DNA evidence found years later on a mask from the crime scene exonerated Inman and pointed to Hercules Brown, a Taco Bell employee, as the actual perpetrator. However, Inman faced years of legal battles before his release in 2021, after serving 23 years. The podcast highlights the devastating impact of wrongful conviction on Inman's life and the systemic failures within the justice system, including reliance on unreliable witnesses and resistance to exonerating evidence. It also touches on the challenges exonerees face upon release and the need for better support for reintegration. The episode ends with a call to support Devanya Inman and local innocence organizations."
+    },
+    "featuredIndividual": {
+        "fullName": "Devanya Taron Inman",
+        "caseLocation": "Adele, Georgia, USA",
+        "convictionYear": "2001",
+        "exonerationYear": "2021",
+        "crimeConvictedOf": "Murder of Donna Brown, armed robbery, theft, illegal possession of firearm",
+        "sentence": "Life without opportunity for parole",
+        "timeServed": "23 years",
+        "contributingFactorsRaw": [
+            "False/Recanted Witness Testimony, Jailhouse Informant, Lack of Physical Evidence initially considered, Initial Police focus on wrong suspect."
+        ],
+        "status": "Exonerated, charges dismissed",
+        "organizationsInvolvedRaw": [
+            "Georgia Innocence Project"
+        ],
+        "innocenceLawyersRaw": [
+            "Jessica Sino, attorney and advocate, came across the case in 2015 and involved Georgia State University College of Law students. Lawyers from the Georgia Innocence Project later represented him and requested DNA testing."
+        ],
+        "crossReference": "",
+        "narrativeOriginalCrime": "Donna Brown was robbed and shot dead while closing up a Taco Bell in Adele, Georgia in the early morning of September 19, 1998, carrying cash to deposit.",
+        "keyEvidenceProsecutionRaw": [
+            "Witness testimony from Marquetta Thomas (later recanted), Larissa Chapman (later recanted), Virginia Tatum (eyewitness identification of driver), jailhouse informant Kwame Spalding (confession)."
+        ],
+        "trialDefenderNotes": "Melinda Riles, Devonya's attorney, presented an alibi that he was with family at the time of the murder, but it was not deemed sufficient by the jury.",
+        "keyEvidenceExonerationRaw": [
+            "DNA evidence from a mask found in victim's car matched Hercules Brown. Witness testimonies also existed suggesting Hercules Brown admitted to the murder and had a scheme to rob Taco Bell."
+        ],
+        "actualPerpetratorDetails": "Hercules Brown, a Taco Bell employee who worked with Donna Brown, had a scheme to rob Taco Bell, confessed to the murder to witnesses, and whose DNA matched the mask from the crime scene. He later committed another double murder and is linked to a third unsolved murder."
+    },
+    "keyQuotesRaw": [
+        "\"It's a lot more to it than just being free because the prison part, it was hard, but it's not harder than being thrown back into a big old ocean and you don't know what's in it or what's there no more.\" - Devanya Inman on post-incarceration challenges.",
+        "Jurors expressed doubt about Devonya's guilt even at the time of conviction, explaining why they didn't impose the death penalty.",
+        "Justice David Namias expressed significant concern that \"an innocent person remains convicted and sentenced to serve the rest of his life in prison.\""
+    ],
+    "systemicIssuesRaw": [
+        "Reliance on unreliable witness testimony, use of jailhouse informants, prosecutorial resistance to exonerating evidence, difficulties in overturning wrongful convictions, and the profound impact of wrongful incarceration on mental health and societal reintegration. Flaws in initial police investigation."
+    ],
+    "policyRecommendationsRaw": [
+        "The podcast calls for support for Devanya Inman's recovery fund at mightycause.com and encourages listeners to support local innocence organizations. It implicitly calls for broader justice system reform to prevent wrongful convictions and better support exonerees upon release."
+    ],
+    "personalNarrativeRaw": [
+        "Devanya describes post-incarceration life as more challenging than prison itself, citing feelings of being lost, struggling to trust, sleeplessness, flashbacks, and an inability to experience happiness despite his freedom. He emphasizes the critical need for society to understand and support the complex reintegration process for exonerees."
+    ],
+    "additionalResourcesRaw": [
+        "mightycause.com (Devanya Inman's fund), local innocence organizations.\n```"
+    ]
+}

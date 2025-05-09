@@ -1,0 +1,43 @@
+{
+  "source_file_name": "61_The_Wrong_Carlos.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "The Wrong Carlos: Anatomy of a Wrongful Execution",
+    "creator_name": "James S. Liebman and the Columbia DeLuna Project",
+    "publication_or_release_year": 2014,
+    "publisher_or_network": "Columbia University Press",
+    "format": "Hardcover and Paperback, 448 pages",
+    "isbn": "9780231167222 (hardcover), 9780231167239 (paperback)",
+    "focus_or_theme": "Wrongful execution, criminal justice system failures, death penalty critique, mistaken identity",
+    "key_statistics": "Documents a six-year investigation by Columbia Law School professor and students into the case of Carlos DeLuna"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "research_notes_other": {
+      "\"los_tocayos_carlos": "An Anatomy of a Wrongful Execution\" - The original Columbia Human Rights Law Review article\n- thewrongcarlos.net - Website created by the Columbia DeLuna Project with comprehensive case materials\n- \"The Phantom\" (2021) - Documentary film about the Carlos DeLuna case\n- National Registry of Exonerations\n- Innocence Project resources on eyewitness misidentification\n- Columbia Law School's investigation archives",
+      "\"the_wrong_carlos": "Anatomy of a Wrongful Execution\" represents one of the most comprehensive investigations into a potential wrongful execution ever conducted. The book is the result of a six-year investigation by Columbia Law School professor James Liebman and his students, who meticulously documented the case of Carlos DeLuna.\nThe investigation compiled an extraordinary collection of primary documents and evidence, including complete police and court files, enhanced crime scene photos that revealed evidence never recognized by police (including bloody footprints), a police audiotape of the manhunt, full criminal records of key actors, television news clips, newspaper articles, and notes from hundreds of witness interviews.\nWhat makes this book particularly significant is that it documents a case where an execution has already occurred, making it impossible to exonerate the defendant through traditional legal means. Instead, the authors present the evidence they've gathered and invite readers to come to their own conclusions about DeLuna's guilt or innocence.\nThe book serves as both a detailed case study of a specific wrongful execution and a broader critique of the death penalty system in the United States. It highlights how common factors in wrongful convictions—faulty eyewitness testimony, inadequate legal representation, and prosecutorial misconduct—can lead to irreversible injustice when the death penalty is involved.\nThe case of Carlos DeLuna has become one of the most compelling examples used by death penalty opponents to illustrate the risk of executing innocent people. The thoroughness of the investigation and the strength of the evidence suggesting DeLuna's innocence make it difficult to dismiss as an anomaly or an acceptable risk in the administration of capital punishment."
+    },
+    "item_title": "Book Content: The Wrong Carlos: Anatomy of a Wrongful Execution",
+    "focus_or_theme": "Wrongful execution, criminal justice system failures, death penalty critique, mistaken identity"
+  },
+  "featured_individuals": [],
+  "involved_persons": [
+    {
+      "full_name": "James S. Liebman",
+      "role": "AUTHOR",
+      "first_name": "James",
+      "middle_name": "S.",
+      "last_name": "Liebman"
+    },
+    {
+      "full_name": "the Columbia DeLuna Project",
+      "role": "AUTHOR",
+      "first_name": "the",
+      "middle_name": "Columbia DeLuna",
+      "last_name": "Project"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null,
+  "unhandled_section_wrongfully_convicted_individual_featured": "### Carlos DeLuna\n- **Case Location**: Corpus Christi, Texas\n- **Conviction Year**: 1983\n- **Execution Year**: 1989\n- **Crime Convicted Of**: Murder of Wanda Lopez, a convenience store clerk\n- **Sentence**: Death\n- **Time Served**: 6 years on death row\n- **Contributing Factors**: \n  - Single, nighttime, cross-ethnic eyewitness identification\n  - No corroborating forensic evidence\n  - Inadequate legal representation\n  - Prosecutorial misconduct (suppression of evidence)\n  - Police failure to investigate alternative suspects\n  - Mistaken identity with another man named Carlos Hernandez\n- **Legal Status**: Executed despite significant evidence of innocence uncovered later\n- **Organizations Involved**: \n  - Columbia Law School\n  - Columbia Human Rights Law Review\n- **Cross-Reference**: Case was the subject of a documentary film \"The Phantom\" (2021)"
+}

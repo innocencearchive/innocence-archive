@@ -1,0 +1,74 @@
+{
+  "source_file_name": "4.5.girl_with_blue_mustang.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "The Girl with the Blue Mustang (Dateline NBC) (Title unconfirmed by search)",
+    "publication_or_release_year": 2013,
+    "publisher_or_network": "NBC News (assumed for Dateline)",
+    "focus_or_theme": "Wrongful conviction based on recanted testimony, lack of physical evidence.",
+    "summaryNotes": "Case highlights conviction based solely on testimony later proven unreliable/false.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "The Girl with the Blue Mustang (Dateline NBC) (Title unconfirmed by search)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction based on recanted testimony, lack of physical evidence.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Details how Ferguson's conviction based entirely on later-recanted testimony; no physical evidence. Available via NBC/Peacock.",
+      "research_findings": "While the specific episode title \"The Girl with the Blue Mustang\" wasn't confirmed via search, the details match the Ryan Ferguson case. The case hinged on Charles Erickson's testimony, which he later recanted. Ferguson's conviction was ultimately overturned due to the prosecution withholding evidence (Brady violation)."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "Columbia",
+      "case_location_state": "Missouri",
+      "conviction_year": 2004,
+      "exoneration_or_release_year": "N/A (Sentence potentially reviewed after recantation)",
+      "crime_convicted_of_raw": "Murder (pleaded guilty)",
+      "sentence": "25 years (Information from external knowledge)",
+      "time_served": "Ongoing (subject to parole/review)",
+      "contributing_factors_raw": [
+        "His testimony, later recanted, was primary evidence against Ferguson."
+      ],
+      "status_raw": "Serving sentence based on plea deal",
+      "organizations_involved_raw": [],
+      "full_name": "Ryan Ferguson [cite: 39",
+      "first_name": "Ryan",
+      "middle_name": "Ferguson [cite:",
+      "last_name": "39"
+    },
+    {
+      "case_location_city": "Columbia",
+      "case_location_state": "Missouri",
+      "conviction_year": 2004,
+      "exoneration_or_release_year": "N/A (Sentence potentially reviewed after recantation)",
+      "crime_convicted_of_raw": "Murder (pleaded guilty)",
+      "sentence": "25 years (Information from external knowledge)",
+      "time_served": "Ongoing (subject to parole/review)",
+      "contributing_factors_raw": [
+        "His testimony, later recanted, was primary evidence against Ferguson."
+      ],
+      "status_raw": "Serving sentence based on plea deal",
+      "organizations_involved_raw": [],
+      "full_name": "13.1]",
+      "first_name": "1]",
+      "middle_name": null,
+      "last_name": null
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

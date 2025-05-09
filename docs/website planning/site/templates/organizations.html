@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+
+{% block title %}Organizations - Wrongfully Convicted Americans{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="container">
+        <h1>Organizations</h1>
+        <p>Discover organizations working to address wrongful convictions and support exonerees.</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Search organizations...">
+            <button type="submit"><i class="fas fa-search"></i> Search</button>
+        </div>
+    </div>
+</section>
+
+<section class="resources-page">
+    <div class="container">
+        <div class="filter-panel">
+            <div class="filter-section">
+                <h3>Organization Type</h3>
+                <div class="filter-options">
+                    {% for org_type in organization_types %}
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="type-{{ org_type.id }}" name="org-type" value="{{ org_type.id }}">
+                        <label for="type-{{ org_type.id }}">{{ org_type.name }}</label>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>Location</h3>
+                <div class="filter-options">
+                    {% for state in states %}
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="state-{{ state.id }}" name="state" value="{{ state.id }}">
+                        <label for="state-{{ state.id }}">{{ state.name }}</label>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>Services Offered</h3>
+                <div class="filter-options">
+                    {% for service in services %}
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="service-{{ service.id }}" name="service" value="{{ service.id }}">
+                        <label for="service-{{ service.id }}">{{ service.name }}</label>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            
+            <div class="filter-actions">
+                <button class="clear-filters">Clear All Filters</button>
+                <button class="apply-filters">Apply Filters</button>
+            </div>
+        </div>
+        
+        <div class="resources-container">
+            <div class="results-header">
+                <div class="results-count">
+                    <p>Showing <span id="results-shown">{{ organizations|length }}</span> of <span id="results-total">{{ organization_count }}</span> organizations</p>
+                </div>
+                <div class="results-sort">
+                    <label for="sort-by">Sort by:</label>
+                    <select id="sort-by" name="sort-by">
+                        <option value="name">Name (A-Z)</option>
+                        <option value="name-desc">Name (Z-A)</option>
+                        <option value="state">State (A-Z)</option>
+                        <option value="type">Organization Type</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="resources-grid">
+                {% for organization in organizations %}
+                <div class="resource-card">
+                    <div class="resource-content">
+                        <div class="resource-type">{{ organization.org_type }}</div>
+                        <h3 class="resource-title">{{ organization.name }}</h3>
+                        <p class="resource-location">{{ organization.city }}, {{ organization.state }}</p>
+                        <p class="resource-description">{{ organization.description }}</p>
+                        <div class="resource-services">
+                            {% for service in organization.services %}
+                            <span class="service-tag">{{ service }}</span>
+                            {% endfor %}
+                        </div>
+                        {% if organization.url %}
+                        <a href="{{ organization.url }}" target="_blank" class="resource-link">Visit Website <i class="fas fa-external-link-alt"></i></a>
+                        {% endif %}
+                        {% if organization.phone %}
+                        <p class="resource-contact">{{ organization.phone }}</p>
+                        {% endif %}
+                        {% if organization.email %}
+                        <p class="resource-contact">{{ organization.email }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <div class="pagination">
+                <button class="pagination-prev" {% if current_page == 1 %}disabled{% endif %}>
+                    <i class="fas fa-chevron-left"></i> Previous
+                </button>
+                <div class="pagination-pages">
+                    {% for page in pages %}
+                    <a href="?page={{ page }}" class="pagination-page {% if page == current_page %}active{% endif %}">{{ page }}</a>
+                    {% endfor %}
+                </div>
+                <button class="pagination-next" {% if current_page == total_pages %}disabled{% endif %}>
+                    Next <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="featured-resources">
+    <div class="container">
+        <h2 class="section-title">Featured Organizations</h2>
+        <div class="featured-resources-grid">
+            {% for featured in featured_organizations %}
+            <div class="featured-resource-card">
+                <div class="resource-icon">
+                    <i class="fas {% if featured.org_type == 'Legal Advocacy' %}fa-gavel{% elif featured.org_type == 'Support Services' %}fa-hands-helping{% elif featured.org_type == 'Research' %}fa-search{% elif featured.org_type == 'Policy Reform' %}fa-landmark{% elif featured.org_type == 'Education' %}fa-graduation-cap{% else %}fa-building{% endif %}"></i>
+                </div>
+                <div class="resource-content">
+                    <div class="resource-type">{{ featured.org_type }}</div>
+                    <h3 class="resource-title">{{ featured.name }}</h3>
+                    <p class="resource-location">{{ featured.city }}, {{ featured.state }}</p>
+                    <p class="resource-description">{{ featured.description }}</p>
+                    <div class="resource-services">
+                        {% for service in featured.services %}
+                        <span class="service-tag">{{ service }}</span>
+                        {% endfor %}
+                    </div>
+                    {% if featured.url %}
+                    <a href="{{ featured.url }}" target="_blank" class="resource-link">Visit Website <i class="fas fa-external-link-alt"></i></a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="map-section">
+    <div class="container">
+        <h2 class="section-title">Organizations Map</h2>
+        <p class="section-description">Explore organizations working on wrongful convictions across the United States.</p>
+        <div class="map-container" id="organizations-map">
+            <!-- Map will be rendered here by JavaScript -->
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/organizations.js"></script>
+{% endblock %}

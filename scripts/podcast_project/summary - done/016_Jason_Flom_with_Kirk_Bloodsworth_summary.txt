@@ -1,0 +1,93 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified (Interview with Kirk Bloodsworth, originally aired March 20th, 2017)
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2017 (originally aired)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, DNA Exoneration, Death Penalty, Systemic Issues in Criminal Justice
+-   **Key Statistics/Information**:
+    -   Kirk Bloodsworth was the first DNA death row exoneree in America.
+    -   Eyewitness misidentification is a factor in 75% of wrongful conviction cases (mentioned generally, not specifically in this episode, but relevant to the discussion).
+    -   Kirk Bloodsworth received $300,000 in compensation for almost nine years of imprisonment.
+    -   The Kirk Bloodsworth Post-Conviction DNA Testing Program is a federal grant program assisting states with post-conviction DNA testing costs.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Jason Flom" features an interview with Kirk Bloodsworth, the first DNA exoneree from death row in the United States. Bloodsworth recounts his wrongful conviction in 1984 for the murder and sexual assault of a nine-year-old girl, a crime he did not commit. He details the flawed investigation, including eyewitness misidentification and ineffective defense counsel, which led to his initial death sentence and subsequent double life sentence after a retrial.  After nearly nine years in prison, DNA testing, unavailable at the time of his trial, exonerated him in 1993.  Bloodsworth discusses the horrors of prison, the fight for his freedom, and his eventual exoneration thanks to DNA evidence.  Since his release, he has become a prominent activist against wrongful convictions and the death penalty, and instrumental in establishing the Kirk Bloodsworth Post-Conviction DNA Testing Program.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Kirk Noble Bloodsworth
+-   **Case Location**: Baltimore County, Maryland, USA
+-   **Conviction Year**: 1985 (first trial), then again after retrial (year not explicitly stated but after case was overturned on discovery evidence, before DNA exoneration in 1993)
+-   **Exoneration Year**: 1993
+-   **Crime Convicted Of**: Murder and sexual assault of nine-year-old Dawn Hamilton
+-   **Sentence**: Death Penalty (first trial), Double Life Sentence (second trial)
+-   **Time Served**: Nearly 9 years (8 years, 10 months, and 19 days mentioned)
+-   **Contributing Factors**:
+    -   Eyewitness Misidentification: Five eyewitnesses, including two young boys, initially misidentified Bloodsworth.
+    -   Ineffective Assistance of Counsel: Court-appointed lawyer was incompetent and provided minimal support.
+    -   Police Focus on a Single Suspect:  Police seemed to fixate on Bloodsworth, overlooking other potential suspects and tips, including a known suspect with a prior history of similar offenses in the area.
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**:
+    -   Innocence Project (mentioned as where Jason Flom does work and connection to wrongful convictions)
+    -   Witness to Innocence (Kirk Bloodsworth was interim executive director in 2019, advocating against the death penalty)
+-   **Innocence Lawyer Details**: Bob Moore -  Lawyer who helped with DNA testing and exoneration. Described as "lawyer of some record," "smart as he could be," and was chief judge in Washington DC Superior Court.  Contrasted with the initial court-appointed lawyer who was highly incompetent.
+-   **Cross-Reference**: Yes (exoneree database – assumed, given he is the "first DNA death row exoneree")
+-   **Narrative of Original Crime**: Nine-year-old Dawn Hamilton was murdered and sexually assaulted in a wooded area near Beth Geese Pond in Baltimore County, Maryland, on July 25, 1984. She was found face down in leaves, nude from the waist down, with her head crushed and evidence of assault with a stick.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Eyewitness testimony: Five eyewitnesses identified Bloodsworth as being the last person seen with Dawn Hamilton.
+    -   Circumstantial evidence:  Bloodsworth was in the area visiting his estranged wife at the time.
+-   **Trial Defender Notes**:
+    -   Ineffective counsel: Court-appointed lawyer was incompetent and provided inadequate defense.
+    -   Lack of challenge to eyewitness testimony:  The defense lawyer seemingly did not effectively challenge the unreliable eyewitness identifications, despite inconsistencies in descriptions and the suggestive lineup procedures.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   DNA Testing: Semen found on Dawn Hamilton's body was tested and excluded Kirk Bloodsworth as the source. This DNA evidence was crucial to proving his innocence.
+    -   Discovery of Evidence:  Evidence related to another suspect was initially withheld, which contributed to overturning the first conviction and was a factor in pursuing further investigation and DNA testing.
+-   **Actual Perpetrator Details**:
+    -   Name: Kimberly Shea Ruffner
+    -   Description: 5'6", 160 pounds, not matching the initial eyewitness description of the suspect (6'5", curly blonde hair, bushy mustache, tan skin, skinny).
+    -   Prior History:  Suspect in attempted rapes of two girls prior to Dawn Hamilton's murder; released due to lack of child testimony.
+    -   Subsequent Crime: Arrested three weeks after Bloodsworth for attempted rape and murder of another woman in Fells Point, Maryland, for which he was convicted and sentenced to 45 years.
+    -   Imprisonment:  Ended up in the same prison as Kirk Bloodsworth, unknown to Bloodsworth initially, but Ruffner was aware of Bloodsworth's case. Convicted of Dawn Hamilton's murder later (after Bloodsworth's exoneration), sentenced to life.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "The choice to be in that lineup was the last choice I made as a free man." - Kirk Bloodsworth, highlighting the pivotal moment of his arrest.
+    -   Describing his court-appointed lawyer: "I'd struck the lottery of incompetence." - Kirk Bloodsworth, expressing his frustration with ineffective counsel.
+    -   Recalling the moment of exoneration: "Kirk, you're innocent, man, you're innocent!" - Bob Moore, Kirk's lawyer, conveying the life-changing news.
+    -   Blue's suicide and its impact: Story of fellow inmate Blue's self-harm and Kirk's realization "How was I going to do it? Blue was guilty. He knew it...but I hadn't done anything." - Reflecting on maintaining hope in the face of despair.
+    -   Eating toast after release: "I'm eating a piece of toast...you never realized how important a piece of toast is to you." -  Symbolizing the simple freedoms lost during wrongful imprisonment.
+-   **Systemic Issues Identified**:
+    -   Eyewitness Misidentification: Highlighted as a major cause of wrongful convictions.
+    -   Ineffective Assistance of Counsel:  The severe inadequacy of court-appointed lawyers in some cases.
+    -   Police Tunnel Vision:  Premature focus on a suspect leading to overlooked evidence and other potential leads.
+    -   Lack of Compensation for Exonerees:  Difficult and insufficient compensation systems for wrongfully convicted individuals.
+    -   Death Penalty Concerns:  Risk of executing innocent people, highlighted by Kirk Bloodsworth's case and advocacy against the death penalty.
+    -   Withholding of Evidence by Prosecution: Mentioned in the context of the first trial being overturned due to withheld evidence about another suspect.
+-   **Policy Recommendations/Calls to Action**:
+    -   Support for Post-Conviction DNA Testing: Advocated for by the Kirk Bloodsworth Post-Conviction DNA Testing Program.
+    -   Criminal Justice Reform:  General call to action to address systemic issues leading to wrongful convictions.
+    -   Abolition of the Death Penalty:  Strong stance against the death penalty due to the risk of executing innocent people.
+    -   Support for Innocence Organizations:  Encouragement to donate to and get involved with organizations like the Innocence Project and Witness to Innocence.
+    -   Federal Compensation for Wrongfully Convicted:  Call for federal compensation for those wrongfully convicted.
+-   **Personal Narrative/Impact**:
+    -   Kirk Bloodsworth's wrongful conviction led to nearly nine years of imprisonment, including time on death row, and profound personal suffering, including the inability to see his mother before she passed away as a free man.
+    -   His experience transformed him into a passionate advocate against wrongful convictions and the death penalty.
+    -   He found purpose in helping others and working to reform the justice system, exemplified by his activism, public speaking, and jewelry making (exoneree rings).
+    -   Final thoughts of individual: Kirk Bloodsworth's work and advocacy are his way of turning his tragic experience into a force for positive change, honoring the memory of Dawn Hamilton by striving for justice and preventing similar injustices from happening to others.
+-   **Additional Resources**:
+    -   Witness to Innocence website: witnessinnocence.org
+    -   Innocence Project website: innocenceproject.org
+    -   Kirk Bloodsworth's Jewelry Website: bloodstones.com (BL O O D S S T O N E S dot com)
+    -   Documentary Film: "Bloodsworth: An Innocent Man" (available on iTunes and on demand)
+```

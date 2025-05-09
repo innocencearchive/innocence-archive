@@ -1,0 +1,65 @@
+{
+  "source_file_name": "44.American_Apartheid.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "American Apartheid: Segregation and the Making of the Underclass",
+    "creator_name": "Douglas S. Massey and Nancy A. Denton",
+    "publication_or_release_year": 1998,
+    "publisher_or_network": "Harvard University Press",
+    "format": "Paperback, eBook",
+    "focus_or_theme": "Racial segregation, housing discrimination, urban poverty, creation of the underclass",
+    "key_statistics": "The book documents how residential segregation leads to concentrated poverty in Black neighborhoods and the creation of an urban underclass"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "\"This powerful and disturbing book clearly links persistent poverty among blacks in the United States to the unparalleled degree of deliberate segregation they experience in American cities.\"",
+      "\"American Apartheid shows how the black ghetto was created by whites during the first half of the twentieth century in order to isolate growing urban black populations.\"",
+      "\"The authors demonstrate that this systematic segregation of African Americans leads to the creation of underclass communities during periods of economic downturn.\""
+    ],
+    "systemic_issues_raw": [
+      "Residential segregation as a fundamental cause of racial inequality",
+      "Housing discrimination through practices like restrictive covenants, blockbusting, redlining, and steering",
+      "The role of federal government policies in creating and maintaining segregation",
+      "The failure of the Fair Housing Act of 1968 to effectively address housing discrimination",
+      "The concept of \"hypersegregation\" where segregation occurs across multiple dimensions simultaneously",
+      "How segregation concentrates poverty and leads to deterioration of Black neighborhoods",
+      "The creation of an urban underclass through systematic isolation and disinvestment"
+    ],
+    "policy_recommendations_raw": [
+      "The federal government takes a more active role in guaranteeing open housing markets",
+      "Discrimination is eliminated from public life",
+      "Housing policies are reformed to promote integration",
+      "Investment is directed to previously redlined and disinvested communities",
+      "The Fair Housing Act is strengthened and properly enforced"
+    ],
+    "research_notes_other": {},
+    "additional_resources_raw": [
+      "The book builds on the findings of the Kerner Commission (1968), which identified residential segregation as a primary cause of racial inequality and urban violence",
+      "The authors challenge William Julius Wilson's emphasis on class over race, arguing that racial segregation is crucial to explaining the emergence of the urban underclass",
+      "The book provides historical context for understanding how housing discrimination was institutionalized through federal programs like the Home Owners' Loan Corporation (HOLC)"
+    ],
+    "item_title": "Book Content: American Apartheid: Segregation and the Making of the Underclass",
+    "focus_or_theme": "Racial segregation, housing discrimination, urban poverty, creation of the underclass",
+    "summary_notes": "This book examines how racial segregation in the United States creates conditions that lead to higher crime rates in predominantly Black neighborhoods, concentrated poverty, deterioration of community institutions, increased targeting by law enforcement, and systemic bias affecting perceptions of Black Americans in the criminal justice system.  It argues that structural racism in housing policy makes Black Americans more vulnerable to wrongful convictions."
+  },
+  "featured_individuals": [],
+  "involved_persons": [
+    {
+      "full_name": "Douglas S. Massey",
+      "role": "AUTHOR",
+      "first_name": "Douglas",
+      "middle_name": "S.",
+      "last_name": "Massey"
+    },
+    {
+      "full_name": "Nancy A. Denton",
+      "role": "AUTHOR",
+      "first_name": "Nancy",
+      "middle_name": "A.",
+      "last_name": "Denton"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "While not directly focused on wrongful convictions, this book provides essential context for understanding:\n\n1. How structural racism creates conditions that make certain communities more vulnerable to over-policing and wrongful convictions\n2. How residential segregation leads to concentrated poverty, which correlates with higher rates of wrongful convictions\n3. How racial bias operates at a systemic level, affecting every aspect of the criminal justice system\n4. How historical policies continue to shape present-day racial disparities in the criminal justice system\n\nThe book would be valuable for researchers examining patterns of wrongful convictions across geographic areas, particularly in understanding why wrongful convictions disproportionately affect Black Americans and residents of highly segregated urban areas."
+}

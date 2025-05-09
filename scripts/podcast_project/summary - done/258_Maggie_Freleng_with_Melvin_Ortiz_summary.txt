@@ -1,0 +1,90 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Maggie Freeling
+-   **Episode # & Title (if applicable)**: Melvin Ortiz
+-   **Host(s)**: Maggie Freeling
+-   **Release Year(s)**: 2023 (based on "2023 Triple-A U.S. Market Track National Survey" mentioned in the transcript)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company No. 1
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction stories, investigative journalism
+-   **Key Statistics/Information**:
+    - Melvin Ortiz was incarcerated for 24 years for a crime he did not commit.
+    - He had 19 alibi witnesses, but only 4 were called to testify at trial.
+    - The star witness against him, John Calte Jerome, had a hidden criminal record and later his girlfriend recanted her testimony, admitting they lied under pressure.
+    - Melvin was a juvenile (17) at the time of the crime and was resentenced in 2018 after a Supreme Court ruling regarding juvenile life sentences.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Maggie Freeling" tells the story of Melvin Ortiz, who was wrongfully convicted of second-degree murder in the 1997 robbery and killing of George Clouser. Despite having a strong alibi supported by 19 witnesses, and no physical evidence linking him to the crime, Ortiz was convicted based on the testimony of a man named John Calte Jerome and his girlfriend, Tina Valentine.  The podcast highlights the lack of effective defense, the influence of a politically connected witness, and the subsequent recantation of testimony that could have exonerated Ortiz.  It explores the devastating impact of wrongful conviction on Ortiz and his family, including his relationship with Victoria Blanco, who remained a steadfast supporter. The episode underscores systemic issues within the justice system, including time-barred evidence rules and prosecutorial misconduct, while advocating for a re-evaluation of Ortiz's case and similar wrongful convictions.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Melvin Ortiz
+-   **Case Location**: Reading, Pennsylvania, USA
+-   **Conviction Year**: 1999
+-   **Exoneration Year**: Not yet exonerated
+-   **Crime Convicted Of**: Second-degree murder, robbery, aggravated assault, reckless endangerment, possession of an instrument of a crime, and attempted theft by unlawful taking.
+-   **Sentence**: Life without parole (originally), resentenced to 35 years to life in 2018.
+-   **Time Served**: 24 years (as of the podcast recording)
+-   **Contributing Factors**:
+    - False testimony from a supposed witness (John Calte Jerome) and his girlfriend (Tina Valentine).
+    - Inadequate legal representation (court-appointed lawyers recused themselves, late appointment of defense attorney).
+    - Jury bias due to publicity and potentially the perceived credibility of the star witness's father, a politician.
+    - Suppression of information about the star witness's criminal history.
+    - Time-barred rules preventing the consideration of recanted testimony.
+-   **Legal Status**: Currently incarcerated, appealing resentencing decision, eligible for parole in 2032.
+-   **Organizations Involved**:
+    - Georgetown University's "Making an Exonary" class (investigated and advocated for his case).
+    - AIG Pro Bono program (mentioned as underwriter, supports pro bono legal assistance).
+-   **Innocence Lawyer Details**:
+    - Bill Bespels: Court-appointed attorney who took the case shortly before trial, limited preparation time, denied change of venue and jury requests.
+    - Mark Howard (Professor at Georgetown):  Professor and advocate for Melvin’s exoneration, co-teaches "Making an Exonary" class.
+-   **Cross-Reference**: Not explicitly stated in the transcript if he appears in an exoneree database, but highly likely given the nature of the podcast and the case details.
+-   **Narrative of Original Crime**: Two masked gunmen attempted to rob Effie's Pizza Village. During the robbery, the owner, George Clouser, was shot and killed. The gunmen fled without taking anything.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Testimony of John Calte Jerome claiming Melvin confessed to the murder.
+    - Testimony of Tina Valentine corroborating John's confession.
+    - Suggestion that Melvin changing from khaki pants to black pants was an attempt to avoid recognition.
+-   **Trial Defender Notes**:
+    - Called only 4 out of 19 alibi witnesses, potentially weakening the alibi defense in the jury's eyes.
+    - Requested change of venue and jury, but denied.
+    - Presented testimony from Cynthia Jacques suggesting John Calte Jerome was planning to frame someone and collect the reward money.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - Recantation of testimony by Tina Valentine in 2005, stating she lied and John pressured her. She claimed John confessed to her that he committed the murder.
+    - Previously hidden criminal record of John Calte Jerome.
+    - Lack of physical evidence linking Melvin to the crime and strong alibi.
+    - District Attorney Mark Baldwin's history of prosecutorial misconduct in another wrongful conviction case (Roddy Johnson).
+-   **Actual Perpetrator Details**:
+    - John Calte Jerome is implied to be the actual perpetrator based on Tina Valentine's recantation and Cynthia Jacques' testimony. However, he has never been charged or officially identified as the perpetrator in the podcast.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - Victoria Blanco: "When I saw that with that resentencing, he would only have 14 years left, Maggie. I thought to myself, well, I can wait for 15 years for him. That's what my gut, my heart, was telling me." (Illustrates her unwavering support and love).
+    - Melvin Ortiz: "I am innocent." (Repeated assertion of innocence).
+    - Mark Howard: "To me, I mean, it's frankly a screaming case of a wrongful conviction." (Expert opinion on the case).
+    - Tina Valentine (recanted testimony): "...John started opening up a little bit more to me. He's like, look, you are going to have to say this and say this and say this to get them off my ass. They think it's Melbourne that let them think that." (Reveals pressure and fabrication of testimony).
+-   **Systemic Issues Identified**:
+    - Ineffective assistance of counsel (limited preparation, potential conflicts).
+    - Influence of political connections on the justice system (John Calte Jerome's father's position).
+    - Reliance on unreliable witness testimony and discounting of alibi evidence.
+    - Time-barred rules hindering the consideration of new evidence like recanted testimony.
+    - Potential prosecutorial misconduct (highlighted by the mention of Mark Baldwin's other case).
+-   **Policy Recommendations/Calls to Action**:
+    - Implicit call for review of Melvin Ortiz's case and similar cases with hallmarks of wrongful conviction.
+    - Suggestion to re-examine cases handled by prosecutors with a history of misconduct.
+    - Advocacy for reform of time-barred evidence rules to allow for consideration of credible new evidence, especially in wrongful conviction cases.
+-   **Personal Narrative/Impact**:
+    - Melvin's personal narrative focuses on the injustice of his conviction, the loss of his youth and freedom, and the strain on his family. He expresses longing for peace and simple pleasures like his mother's cooking.
+    - Victoria's narrative highlights unwavering loyalty and love, waiting for Melvin and becoming an advocate for his exoneration.
+    - The family's financial and emotional struggles due to legal fees and the long-term incarceration are emphasized.
+-   **Additional Resources**:
+    - Mentions Georgetown University's "Making an Exonary" class as a resource and involved party.
+    - Suggests supporting local innocence organizations and provides links in the podcast bio for further help (though not explicitly detailed in the transcript itself).
+```

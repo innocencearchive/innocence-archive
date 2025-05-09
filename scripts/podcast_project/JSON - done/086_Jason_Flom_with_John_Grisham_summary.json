@@ -1,0 +1,91 @@
+{
+    "sourceFileName": "086_Jason_Flom_with_John_Grisham_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "guest(s)": "John Grisham",
+        "releaseYear": "2019",
+        "network": "Lava for Good Podcasts and Association with signal company number one. iHeartRadio (mentioned in ads for other podcasts)",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, flaws in the criminal justice system, importance of jury education, death penalty, false confessions, junk science.",
+        "keyStats": "-   FBI found 95% of its hair analysts got it wrong in cases, and in 100% of those cases, the mistake favored prosecution.\n-   Innocence Project has had 370 DNA exonerations in the past 25 years, 25% involving false confessions.\n-   Support for the death penalty in America is at an all-time low, with more than half of Americans opposed.\n-   Social scientists estimate around 5% of people in prison in America are innocent, which is close to 100,000 people.\n-   Ada, Oklahoma had six wrongful convictions in five years, four of which were exonerated by DNA.",
+        "itemNumber": "086",
+        "itemTitle": "Jason Flom with John Grisham",
+        "itemMediaType": "PODCAST_EPISODE"
+    },
+    "featuredIndividual": {
+        "fullName": "Carl Fontenot",
+        "caseLocation": "Ada, Oklahoma, USA",
+        "convictionYear": "1987 (1994 mentioned as case year, likely conviction year shortly after, same case as Tommy Ward)",
+        "exonerationYear": "Not exonerated (still imprisoned as per transcript)",
+        "crimeConvictedOf": "Rape and Capital Murder of Denise Haraway (same case as Tommy Ward)",
+        "sentence": "Death Row (not explicitly stated but implied as co-defendant in capital murder case, same case as Tommy Ward)",
+        "timeServed": "Approximately same as Tommy Ward (around 33-34 years mentioned in transcript)",
+        "contributingFactorsRaw": [
+            "False confession (coerced, implied to be easily led due to mental issues), tunnel vision by police, incompetent investigation, lack of physical evidence."
+        ],
+        "status": "Still Imprisoned (Wrongfully Convicted)",
+        "organizationsInvolvedRaw": [
+            "Not mentioned in transcript."
+        ],
+        "innocenceLawyersRaw": [
+            "Not mentioned in transcript."
+        ],
+        "crossReference": "No (Not mentioned in transcript as being in exoneree database, needs verification).",
+        "narrativeOriginalCrime": "Same as Tommy Ward - Denise Haraway abduction and murder.",
+        "keyEvidenceProsecutionRaw": [
+            "False confession (implied, similar circumstances to Tommy Ward), no physical evidence."
+        ],
+        "trialDefenderNotes": "Not detailed in transcript, but implied to be inadequate, similar to Tommy Ward's case.",
+        "keyEvidenceExonerationRaw": [
+            "Same as Tommy Ward - Discovery of body contradicted confession details, evidence disregarded in Ada."
+        ],
+        "actualPerpetratorDetails": "Same as Tommy Ward - Not definitively identified or brought to justice."
+    },
+    "keyQuotesRaw": [
+        "\"Eleven thousand, nine hundred and forty-five days I've been in here.\" (Opening quote from wrongfully convicted individual, likely Ron Williamson or Dennis Fritz, highlighting time served).",
+        "\"That is what happens in so many cases. The cops have a hunch... And once they act on that hunch, they sort of develop tunnel vision. And they take off marching in the wrong direction.\" (John Grisham describing a systemic issue in wrongful convictions).",
+        "\"If it is something like hair analysis, or bite mark analysis, or boot print analysis... it's junk science, it's unreliable.\" (John Grisham on unreliable forensic evidence).",
+        "\"Snitches should not be allowed, period, okay?\" (John Grisham expressing strong opinion against jailhouse snitch testimony).",
+        "\"How many innocent people is it okay to execute?\" (John Grisham's question to those who support the death penalty).",
+        "\"Jurors today are far more skeptical about the abusive tactics used by police and prosecutors to get convictions.\" (John Grisham on positive shift in juror behavior).",
+        "\"I would never... If they want to interrogate you, yeah, I'll be happy to talk, but let me get my lawyer involved. You don't ever trust, have a, have a healthy distrust for people who show up and want to talk or search.\" (Jason Flom and John Grisham's advice on police interactions)."
+    ],
+    "systemicIssuesRaw": [
+        "Tunnel vision in police investigations.",
+        "Incompetent police work.",
+        "Use of junk science in trials (hair analysis, etc.).",
+        "Unreliable jailhouse snitch testimony.",
+        "False confessions due to coercive interrogation tactics.",
+        "Lack of adequate defense lawyers.",
+        "Flaws in the death penalty system.",
+        "Police allowed to lie during interrogations.",
+        "Prosecutorial misconduct (implied).",
+        "Resistance to admitting mistakes within the justice system, even with contradictory evidence."
+    ],
+    "policyRecommendationsRaw": [
+        "Juror education to be more skeptical of evidence, especially non-physical and \"junk science.\"",
+        "Questioning the reliability of confessions, especially without lawyers present and after lengthy interrogations.",
+        "Eliminating or heavily scrutinizing jailhouse snitch testimony.",
+        "Re-evaluating the death penalty given the risk of executing innocent people.",
+        "Encouraging people to seek legal counsel when questioned by police, even if innocent.",
+        "Supporting organizations like the Innocence Project.",
+        "Raising awareness about wrongful convictions by talking about cases and supporting media like podcasts and documentaries."
+    ],
+    "personalNarrativeRaw": [
+        "Ron Williamson's tragic life story from baseball prospect to death row inmate, losing his mental health and dying soon after release.",
+        "Tommy Ward's decades of imprisonment for a crime he didn't commit, losing his youth and life opportunities, but maintaining a positive attitude and becoming a spiritual leader in prison.",
+        "John Grisham's personal shift in views on the death penalty and criminal justice system after researching and writing \"The Innocent Man.\"",
+        "Jason Flom's dedication to educating the public about wrongful convictions through the podcast and advocating for reform."
+    ],
+    "additionalResourcesRaw": [
+        "Book: \"The Innocent Man\" by John Grisham",
+        "Netflix Series: \"The Innocent Man\" (based on Grisham's book)",
+        "Podcast: Spotlight Snitch City (recommended in advertisement during podcast)",
+        "Podcast: Chiquis & Chill (recommended in advertisement during podcast)",
+        "Website: innocenceproject.org (for donations and involvement)",
+        "Movie: \"False Confessions\" (mentioned by Jason Flom)",
+        "Book: \"Defending the Damned\" by Richard Jaffe (mentioned by John Grisham)"
+    ]
+}

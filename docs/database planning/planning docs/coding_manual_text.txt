@@ -1,0 +1,250 @@
+CODE MANUAL  FOR PUBLIC SPREADSH EET  
+ 
+In general, an exoneration  occurs when a person who has been convicted of a crime is officially 
+cleared based on new evidence of innocence.  
+ 
+A more precise definition follows.  
+ 
+Exoneration —A person has been exonerated if he or she was convicted of a crime and later was 
+either: (1) declared to be factually innocent by a government official or agency with the authority 
+to make that declaration; or (2) relieved of all the consequences of the criminal conviction by a 
+govern ment official or body with the authority to take that action. The official action may be: (i) 
+a complete pardon by a governor or other competent authority, whether or not the pardon is 
+designated as based on innocence; (ii) an acquittal of all charges fact ually related to the crime for 
+which the person was originally convicted; or (iii) a dismissal of all charges related to the crime 
+for which the person was originally convicted, by a court or by a prosecutor with the authority to 
+enter that dismissal. The pardon, acquittal, or dismissal must have been the result, at least in part, 
+of evidence of innocence that either (i) was not presented at the trial at which the person was 
+convicted; or (ii) if the person pled guilty, was not known to the defendant, the d efense attorney 
+and the court at the time the plea was entered. The evidence of innocence need not be an explicit 
+basis for the official action that exonerated the person.  
+ 
+Exoneree —A person who was convicted of a crime and later officially declared innoce nt of that 
+crime, or relieved of all legal consequences of the conviction because evidence of innocence that 
+was not presented at trial required reconsideration of the case.  
+ 
+ 
+LAST NAME 
+Last name of exoneree, as exoneree identified at the time of exoneration  
+ 
+FIRST NAME 
+First name of exoneree, as exoneree identified at the time of exoneration  
+ 
+AGE AT CRIME YRS 
+The age of the exoneree at the time of the crime in years  
+ 
+RACE 
+Race of ex oneree, as exoneree identifies.  
+Black  
+Hispanic  
+Native  American  : includes Alaska Native  
+Other  : this includes native Hawaiians and Pacific Islanders  
+Caucasian  : refers to white Americans  
+Asian  : includes all peoples on the Asian continent (including Indian , Filipinos, and Indonesians ) 
+except Russians  
+Don’t  Know  
+
+ 
+SEX 
+Sex of exoneree, as exoneree identified at the time of the crime . 
+ 
+STATE  
+The state in which the crime was committed. For federal cases, the value will be in  the form Fed -
+XX where XX is the postal abbreviation for the state in which the crime was committed (e.g., 
+“Fed -MA” for a federal case in Massachusetts).   
+ 
+COUNTY OF CRIME   
+The county in which the crime was committed. Do es not include the words "County" or "Parish." 
+For "independent cities" that are separately governed and not a part of the counties that surround 
+them, the county will be named as, e.g.,  "Norfolk City." For contiguous city/county units that 
+have the same geographic borders, or for combined  city/county political units, we just give the 
+name  (e.g., "San Francisco" or "Philadelphia").  
+ 
+If the conviction was in a federal court, the district where the trial occurred  is indicated  in 
+parentheses (e.g. (Southern)). If there is only one federal dis trict in that state, the field will be 
+blank.  
+ 
+TAGS 
+A : Arson cases   
+The exoneree was convicted of arson or the exoneration depended at least in part on 
+evidence that the exoneree did not commit arson . 
+ 
+CDC  : Codefendant confession  
+A codefendant of the exoneree, or a person who might have been charged as a 
+codefendant, gave a pre -conviction confession that also implicated the exoneree. This 
+does not apply if the only “confession” is a guilty plea from the co -Defendant . 
+ 
+CIU : Convicti on Integrity Unit  
+A Conviction Integrity Unit in the prosecutorial office that prosecuted the exoneree 
+helped secure th e exoneration.  
+ 
+CSH  : Child sex abuse hysteria or satanic ritual hysteria  
+The exoneree was convicted of child sex abuse as part of a wave of child sex abuse 
+prosecutions in the 1980s and 1990s based on aggressive and suggestive interviews of 
+children who were thought to be victims. These cases generally included bizarre and 
+implaus ible claims by the supposed victims, frequently featuring satanic rituals.  
+ 
+CV : Child victim  
+At least one victim is under 18.  
+ 
+F : Female exoneree  
+ The exoneree is female  
+ 
+
+FED  : Federal court prosecution  
+ The trial court was a federal court  
+ 
+H : Homic ide  
+ The exoneree was convicted of either murder or manslaughter.  
+ 
+JI : Jailhouse Informant  
+A witness who was incarcerated with the exoneree testified or reported that the exoneree 
+confessed to him or her.  
+ 
+M : Misdemeanor  
+ The worst crime for which the  exoneree was convicted was a misdemeanor.  
+ 
+NC : No crime occurred  
+The exoneree was convicted of a crime that did not occur, either because an accident, act 
+of self -defense, or a suicide was mistaken for a crime, or the exoneree was accused of a 
+fabricate d crime that never happened.  
+ 
+P : Plea 
+Exoneree pled guilty at 1st or 2nd trial  
+ 
+PH : Posthumous exoneration  
+The exoneration occurred after the person died, including cases in which a living 
+codefendant was exonerated under circumstances that clearly indicate that the deceased 
+person would have been exonerated if he or she were alive.  
+ 
+SBS : Shaken baby syndrome  
+The exoneree was convicted of injuring or killing an infant by violent shaking, based on a 
+medical diagnosis that is now highly controversial.  
+ 
+WORST CRIME DISPLAY  
+Choose the description of the single worst crime —from the top of the list down — for which the 
+exoneree was convicted of or pled guilty to.   
+ 
+Murder  
+Manslaughter  
+Attempted Murder  
+Accessory to Murder  
+Sexual Assault  
+Child Sex Abuse  
+Child Abuse  
+Robbery  
+Assault  
+Arson  
+Kidnapping  
+Terrorism  
+
+Supporting Terrorism  
+Attempt, Violent  
+Other Violent Felony  
+Burglary/Unlawful Entry  
+Theft  
+Forgery  
+Possession of Stolen Property  
+Destruction of Property  
+Drug Possession or Sale  
+Gun Possession or Sale  
+Other Weapon Possession or Sale  
+Sex Offender Registration  
+Tax Evasion/Fraud  
+Immigration  
+Fraud  
+Bribery  
+Perjury  
+Official Misconduct  
+Traffic Offense  
+Conspiracy  
+Solicitation  
+Obstruction of Justice  
+Failure to Pay Child Support  
+Dependent Adult Abuse  
+Attempt, Nonviolent  
+Other Nonviolent Felony  
+Military Justice Offense  
+Menacing  
+Stalking  
+Harassment  
+Threats  
+Filing a  False Report  
+Other  
+ 
+LIST ADD'L CRIMES RECODE   
+Additional crimes for which the exoneree was convicted by trial or guilty plea, and for which 
+s/he was later exonerated.  
+ 
+OCCURRED  
+The year the crime was committed. If the crime occurred over a range of dates that includes more 
+than one year, this will be the  year of the last known date.  
+ 
+CONVICTED  
+The year of the conviction of the crime(s) for which the exoneree was exonerated.   
+ 
+ 
+
+SENTENCE  
+The exoneree’s original sentence, even if later reduced on appeal (if convicted more than once, 
+this is  the first sentence ).  
+The order of severity is:  
+ 
+• Death  
+• Life without parole  
+• Life 
+• Any indeterminate term -of-years with a Life top (e.g., “10 to Life”)  
+• Any determinate or indeterminate term -of-years without a Life top (e.g., “10 to 20 
+years”)  
+• Any determinate term of years (e.g., “25 years”)  
+• Probation  
+• Community service  
+• Fine  
+• Not sentenced  
+• Unknown  
+ 
+DNA   
+DNA evidence was a substantial factor in the fac tual basis of the exoneration.  
+ 
+* 
+The factual basis for the exoneration included DNA evidence, but the DNA evidence was not a 
+substantial factor i n the basis for the exoneration .  
+ 
+FC 
+False Confession  : the exoneree made a  statement to law enforcement at any point during the 
+proceedings  which was interpreted or presented by law enforcement as an admission of 
+participation in or presence at the crime, even if the statement was not presented at trial. A 
+statement is not a con fession if it was made to someone other than law enforcement. A statement 
+that is not at odds with the defense is not a confession. A guilty plea is not a confession . 
+ 
+MWID   
+Mistaken Witness ID  : at least one eyewitness affirmatively AND MIST AKENLY said th at he 
+or she saw the exoneree commit the crime, or saw the exoneree  under circumstances that suggest 
+that the exoneree  participated in the crime (e.g. W itness claims he saw Exoneree  flee from the 
+scene).  
+ 
+F/MFE  
+False or Misleading Forensic Evidence  : Exoneree's conviction was based at least in part on 
+forensic information that was (1) caused by errors in forensic testing, (2) based on unreliable or 
+unproven methods, (3) expressed with exaggerated and misleading confidence, or (4) fraudulent.  
+ 
+ 
+ 
+ 
+
+P/FA  
+Perjury or False Accusation  : A person other than the exoneree committed perjury by making a 
+false statement under oath that incriminated the exoneree in the crime for which the exoneree 
+was later exonerated, or made a similar unsworn statement that would h ave been perjury if made 
+under oath.  
+ 
+OM 
+Official Misconduct  : Police, prosecutors, or other government officials significantly abused 
+their authority or the judicial process in a manner that contributed to the exoneree's conviction.  
+ 
+ILD 
+Inadequate Legal Defense  : The exonoree's lawyer at trial provided obviously and grossly 
+inadequate representation.  
+ 
+POSTING DATE 
+Date the case was posted to the Exoneration database   

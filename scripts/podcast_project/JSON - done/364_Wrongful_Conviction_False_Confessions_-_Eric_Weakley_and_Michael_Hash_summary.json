@@ -1,0 +1,80 @@
+{
+    "sourceFileName": "364_Wrongful_Conviction_False_Confessions_-_Eric_Weakley_and_Michael_Hash_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: False Confessions",
+    "mediaItem": {
+        "hosts": "Lauren Nye-Rider, Steve Drizen",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, false confessions, criminal justice system reform",
+        "keyStats": "-   In 2022, Governor Ralph Northam pardoned Eric Weekly on the basis of actual innocence.\n-   12% of exonerations in the DNA database involve people who pled guilty to crimes they didn't commit.\n-   Michael Hash was sentenced to life without the possibility of parole and served nearly 12 years before exoneration.\n-   Paul Carter, a jailhouse informant, received a \"get out of jail free card\" (time served on a 15-year federal drug charge) for testimony against Michael Hash.\n-   A federal judge threw out Michael's conviction on February 28th, 2012.\n-   The prosecutor who secured the convictions was reprimanded by the Virginia bar for lying about the deal with Paul Carter.",
+        "itemNumber": "364",
+        "itemTitle": "Wrongful Conviction False Confessions - Eric Weakley and Michael Hash",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction: False Confessions details the wrongful convictions of Eric Weekly and Michael Hash for the murder of Thelma Scroggins in Culpepper County, Virginia in 1996.  Fueled by a coerced false confession from Eric Weekly and the manufactured testimony of a jailhouse informant, Michael Hash was wrongly convicted and sentenced to life.  The episode highlights the relentless efforts of Michael's mother, Pam Hash, who uncovered crucial evidence of prosecutorial misconduct and the jailhouse informant's deal.  Eric Weekly eventually recanted his false confession, and with the help of the Mid-Atlantic Innocence Project, Michael Hash was exonerated after serving nearly 12 years.  The podcast emphasizes the devastating impact of false confessions, the importance of family advocacy, and the long fight for justice in wrongful conviction cases, culminating in Eric Weekly's pardon in 2022."
+    },
+    "featuredIndividual": {
+        "fullName": "Jason Klobe",
+        "caseLocation": "Culpepper County, Virginia, USA",
+        "convictionYear": "N/A - Acquitted",
+        "exonerationYear": "N/A - Acquitted",
+        "crimeConvictedOf": "Initially charged with capital murder, acquitted at trial.",
+        "sentence": "N/A - Acquitted",
+        "timeServed": "Briefly arrested and detained before trial and acquittal.",
+        "contributingFactorsRaw": [
+            "False confession of co-defendant (Eric Weekly)."
+        ],
+        "status": "Acquitted",
+        "organizationsInvolvedRaw": [
+            "Not specified"
+        ],
+        "innocenceLawyersRaw": [
+            "Defense lawyers presented alibi evidence."
+        ],
+        "crossReference": "Not applicable as acquitted.",
+        "narrativeOriginalCrime": "Murder of Thelma Scroggins, a 74-year-old woman, in her home in 1996.",
+        "keyEvidenceProsecutionRaw": [
+            "Eric Weekly's false confession implicating Jason Klobe."
+        ],
+        "trialDefenderNotes": "Presented a strong alibi defense, proving Jason was in Pennsylvania at the time of the murder.",
+        "keyEvidenceExonerationRaw": [
+            "Alibi evidence proving Jason was out of state at the time of the murder, leading to acquittal."
+        ],
+        "actualPerpetratorDetails": "Not identified in the transcript."
+    },
+    "keyQuotesRaw": [
+        "\"One of the most incredible things about wrongful convictions work is that you encounter these pockets of grace in the most unexpected places. Some of the most unbelievable humans you'll ever meet are people like Pam Hash...\"",
+        "Eric Weekly: \"I'm just telling you what you want to hear so I can go the hell home.\"",
+        "Pam Hash: \"It's a sound that I think I'll hear for the rest of my life when they came back and said that they found him guilty. It's almost like you hear guilty, guilty, guilty, just echoing.\"",
+        "Clerk of the federal court: \"Paul Carter, she said, oh, he got the deal of the century.\"",
+        "Michael Hash: \"We were friends then. We're still friends now. Why shouldn't I invite him to my wedding?\" (referring to Eric Weekly)",
+        "Eric Weekly about pardon: \"I mean, I might just break down and cry like a little girl, you know, and he never knows.\"",
+        "Michael Hash about Eric Weekly: \"Absolutely. I think the governor's reporting, Eric. I think he was made to do what he did. And he's still a part of this ordeal just as I am. So he deserves just as much as anybody else does in this case to have them self-indicated.\""
+    ],
+    "systemicIssuesRaw": [
+        "False confessions coerced through prolonged interrogation and deceptive tactics.",
+        "Use of jailhouse informants and prosecutorial misconduct in failing to disclose deals with informants.",
+        "Pressure to plead guilty even when innocent due to the risk of harsher sentences at trial.",
+        "Difficulty in recanting confessions and the skepticism of courts and prosecutors towards recantations.",
+        "Impact of wrongful convictions on families and the long fight for exoneration."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call for pardon for Eric Weekly to fully exonerate him.",
+        "General call for reform of interrogation practices to prevent false confessions.",
+        "Increased scrutiny of jailhouse informant testimony and greater transparency regarding deals with informants."
+    ],
+    "personalNarrativeRaw": [
+        "Pam Hash's relentless dedication and investigation as a mother to free her son.  Her transformation from floral designer to legal advocate.",
+        "Michael Hash's years in prison, loss of freedom, but maintaining innocence and rebuilding life after exoneration.  His forgiveness and friendship with Eric Weekly.",
+        "Eric Weekly's internal struggle with guilt and eventual courageous decision to recant and help exonerate Michael, despite personal risk.  His ongoing struggle with the murder conviction until pardon.",
+        "The lasting emotional impact of wrongful conviction on individuals and families."
+    ],
+    "additionalResourcesRaw": [
+        "Mid-Atlantic Innocence Project",
+        "University of Virginia Innocence Project",
+        "Mention of exonaries like Beverly Monroe as part of a support network.",
+        "Wrongfulconvictionpodcast.com (podcast website)",
+        "Social media handles for hosts and podcast."
+    ]
+}

@@ -1,0 +1,58 @@
+{
+  "source_file_name": "5.5.curtis_flowers.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "The Trials of Curtis Flowers (48 Hours) (Title unconfirmed by search)",
+    "publication_or_release_year": 1996,
+    "publisher_or_network": "CBS News (assumed for 48 Hours)",
+    "focus_or_theme": "Multiple trials for the same crime, prosecutorial misconduct (racial bias in jury selection), impact of investigative journalism (podcast).",
+    "summaryNotes": "Case involved six trials by the same prosecutor, multiple overturned convictions.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "The Trials of Curtis Flowers (48 Hours) (Title unconfirmed by search)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Multiple trials for the same crime, prosecutorial misconduct (racial bias in jury selection), impact of investigative journalism (podcast).",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Television coverage related to the award-winning \"In the Dark\" podcast investigation which helped lead to Flowers' eventual release after being tried six times for same crime. Available via CBS/Paramount+.",
+      "research_findings": "Searches didn't confirm a 48 Hours episode specifically titled \"The Trials of Curtis Flowers\". However, Curtis Flowers' case is exceptionally well-known due to the six trials, the Supreme Court ruling on racial bias in jury selection (*Flowers v. Mississippi*), and the critical role of the \"In the Dark\" podcast in exposing flaws. It is highly likely 48 Hours covered this case, focusing on the repeated trials and eventual release, fitting the description in the list."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Curtis Flowers",
+      "case_location_city": "Winona",
+      "case_location_state": "Mississippi",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2020,
+      "crime_convicted_of_raw": "Capital Murder (quadruple homicide at Tardy Furniture store in 1996)",
+      "sentence": "Death Penalty (in trials resulting in conviction)",
+      "time_served": "Nearly 23 years (incarcerated from 1997-2020, mostly on death row)",
+      "contributing_factors_raw": [
+        "Persistent prosecutorial misconduct (esp. racially biased jury selection documented by SCOTUS), unreliable informant testimony, questionable forensic evidence, focus of \"In the Dark\" podcast investigation highlighting flaws."
+      ],
+      "status_raw": "Exonerated (Charges dropped by state after SCOTUS overturned 6th conviction)",
+      "organizations_involved_raw": [
+        "NAACP Legal Defense Fund, Hogan Lovells (pro bono), Cornell Law School clinic; Investigated by APM Reports (\"In the Dark\")."
+      ],
+      "first_name": "Curtis",
+      "middle_name": null,
+      "last_name": "Flowers"
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

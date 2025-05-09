@@ -1,0 +1,111 @@
+{
+    "sourceFileName": "303_Jason_Flom_with_Billie_Allen_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "Lava For Good Podcast in association with Signal Company No. 1.",
+        "seriesType": "Episodic Series (based on description of covering different cases each episode).",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, specifically focusing on individual cases of wrongful conviction and the systemic issues that contribute to them.",
+        "keyStats": "-   In 2021 and 2022, there were 173 exonerations recognized by the National Register of Exonerations each year.\n-   Racial disparity in death penalty cases in the federal system:  13% of the US population is Black, but over 50% of federal death penalty cases are against Black individuals.",
+        "itemNumber": "303",
+        "itemTitle": "Jason Flom with Billie Allen",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction delves into the case of Billy Allen, who has been on federal death row for a quarter of a century for a bank robbery and murder he maintains he did not commit.  The podcast features interviews with Billy Allen, Professor Mark Howard, and Marty Tankliff, highlighting the egregious flaws in his case, including fabricated witness identifications, a coerced confession, and ignored alibi evidence.  Despite DNA and gasoline residue tests clearing Allen, and significant discrepancies in witness testimonies revealed in dispatch recordings, his defense attorney failed to present crucial evidence at trial.  The episode exposes systemic issues within the justice system, including racial bias in the death penalty and ineffective assistance of counsel, urging listeners to support Billy Allen's fight for exoneration and sign a petition for presidential pardon."
+    },
+    "featuredIndividual": {
+        "fullName": "Billy Allen",
+        "caseLocation": "St. Louis, Missouri",
+        "convictionYear": "1997",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "Bank robbery in which a killing occurs and using a firearm during and in relation to a federal crime of violence, which resulted in murder.",
+        "sentence": "Originally sentenced to death for the firearm charge and life for bank robbery. Death sentence was appealed, reinstated, and he remains on death row.",
+        "timeServed": "Approximately 25 years (as of the podcast recording).",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification (suggestive lineup, witnesses changing stories, witnesses admitting inability to identify).",
+            "False confession (alleged confession with no evidence, contradicted by timeline and circumstances).",
+            "Ineffective assistance of counsel (failure to present alibi evidence, negative DNA and gasoline tests, dispatch recordings contradicting witness testimonies).",
+            "Possible racial bias (disproportionate number of Black individuals on federal death row, jury composition)."
+        ],
+        "status": "On death row, seeking exoneration and presidential pardon.",
+        "organizationsInvolvedRaw": [
+            "Georgetown's Making an Exonerate Program (Professor Mark Howard and Marty Tankliff are involved).",
+            "AIG Pro Bono Program (underwriter of the podcast, committed to pro bono legal assistance and criminal justice reform)."
+        ],
+        "innocenceLawyersRaw": [
+            "Original trial defense was a public defender who provided ineffective counsel by failing to investigate and present exculpatory evidence. Current legal assistance is implied through Georgetown's Making an Exonerate Program, led by Professor Mark Howard and Marty Tankliff, but specific lawyer details are not provided in transcript."
+        ],
+        "crossReference": "Not mentioned if in an exoneree database, but should be considered given the focus of the podcast and evidence presented.",
+        "narrativeOriginalCrime": "Two masked and armed men robbed Lindell Bank and Trust in St. Louis, Missouri on March 17, 1997. During the robbery, security guard Richard Hefflin was fatally shot. The robbers planned to escape in a getaway van pre-soaked with gasoline, but it caught fire prematurely in Forest Park. One robber, Norris Holder, was arrested at the scene, while the second escaped.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony from Norris Holder identifying Billy Allen as the second assailant.",
+            "Eyewitness identifications from four witnesses (later revealed to be highly questionable and contradictory).",
+            "Alleged confession by Billy Allen (no corroborating evidence)."
+        ],
+        "trialDefenderNotes": "The trial defense attorney failed to present significant exculpatory evidence, including:\n-   Billy Allen's alibi: receipts, disinterested witness testimonies, and potential surveillance footage placing him at the mall at the time of the robbery.\n-   Negative DNA and gasoline residue tests on Billy Allen's clothing.\n-   Dispatch recordings contradicting the testimonies of park worker witnesses and revealing inconsistencies in eyewitness accounts.\n-   Suggestive and flawed lineup procedures.",
+        "keyEvidenceExonerationRaw": [
+            "Alibi evidence: receipts, disinterested witness testimonies (Chris Chicago, mall store employees), potential surveillance footage (though allegedly \"lost\").",
+            "Negative DNA results excluding Billy Allen from DNA found on a bloody strap from a bulletproof vest.",
+            "Negative gasoline residue test on Billy Allen's clothing, contrasting with gasoline found on co-defendant Norris Holder's clothing.",
+            "Dispatch recordings contradicting the testimonies of park workers and revealing inconsistencies in eyewitness accounts.",
+            "Flawed and suggestive lineup procedures and witness identifications.",
+            "Lack of evidence for the alleged confession."
+        ],
+        "actualPerpetratorDetails": "Not definitively identified in the transcript.  Mention of \"John\" initially named by Holder, and \"JB\" (possibly Holder's cousin) and \"DM\" mentioned as potential alternative suspects that were not investigated."
+    },
+    "keyQuotesRaw": [
+        "\"Did I mention they sent them to death?\" - Jason Flom highlighting the severity of Billy Allen's case.",
+        "Billy Allen: \"I'm not just somebody who's saying they're innocent. I'm somebody who can show you that I'm innocent.\" - Emphasizing the strength of his evidence.",
+        "Marty Tankliff: \"Wrongful convictions is an epidemic.\" - Highlighting the systemic issue.",
+        "Professor Mark Howard describing Billy Allen: \"Billy is an extraordinary person. He is warm. He is caring. He is funny. He is compassionate. He is dedicated, hardworking, and he's incredibly talented.\" - Personalizing Billy Allen beyond his case."
+    ],
+    "systemicIssuesRaw": [
+        "Ineffective assistance of counsel.",
+        "Eyewitness misidentification.",
+        "Police and prosecutorial misconduct (fabrication of confession, suggestive lineups, withholding evidence, perjury).",
+        "Racial bias in the justice system and death penalty.",
+        "Difficulty in accessing post-conviction relief and re-examining evidence."
+    ],
+    "policyRecommendationsRaw": [
+        "Sign the petition for presidential pardon for Billy Allen.",
+        "Support organizations fighting wrongful convictions (implied through promotion of Georgetown project and AIG's pro bono work).",
+        "Raise awareness about Billy Allen's case and wrongful convictions in general (social media campaign, DC rally).",
+        "Advocate for re-examining evidence and DNA testing in Billy Allen's case."
+    ],
+    "personalNarrativeRaw": [
+        "Billy Allen's resilience and determination to prove his innocence despite decades on death row.",
+        "The emotional toll on Billy Allen and his family, including his mother's reaction to the guilty verdict.",
+        "Billy Allen's focus on evidence and truth, moving beyond just claiming innocence.",
+        "His poem \"Lone Soldier\" expressing his fight for justice within the legal system."
+    ],
+    "additionalResourcesRaw": [
+        "Making an Exonerate video by Georgetown students.",
+        "Free Billy Allen Instagram account (@freebillyallen).",
+        "Spotlight Snitch City podcast (promotional mention for another investigative podcast).",
+        "Petition for Billy Allen (link in podcast bio).",
+        "Rally in Washington D.C. in November to support Billy Allen."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Public defender",
+                "role_guess": "Lawyer",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Death Penalty",
+                "Racial Bias",
+                "Ineffective Counsel"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

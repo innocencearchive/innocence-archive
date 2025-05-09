@@ -1,0 +1,87 @@
+{
+    "sourceFileName": "034_Jason_Flom_with_Lamonte_McIntyre_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2017",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Investigative journalism, wrongful convictions, police corruption, legal injustice.",
+        "keyStats": "- Momont McIntyre was 17 in 1994 and has been imprisoned for 24 years (as of podcast recording).\n- He was convicted of a double homicide despite no physical evidence, motive, or connection to victims.\n- Victims' families believe in his innocence.\n- Key eyewitness testimony is questioned and potentially coerced/manipulated.\n- The investigating detective, Roger Golubsky, was allegedly corrupt and under investigation for various misconducts including sexual extortion and drug-related corruption.\n- Lomont McIntyre's trial lawyer was incompetent and later disbarred.\n- The prosecutor in the case, Tara Moore, allegedly had a conflict of interest and is now a federal prosecutor.",
+        "itemNumber": "034",
+        "itemTitle": "Jason Flom with Lamonte McIntyre",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" delves into the case of Lomont McIntyre, wrongfully convicted at age 17 for a double homicide in 1994. Despite a lack of physical evidence and the victims' families believing in his innocence, McIntyre has served 24 years in prison. The episode highlights potential police corruption by detective Roger Golubsky, suggesting McIntyre was targeted due to Golubsky's personal vendetta.  Eyewitness testimony is questioned, and the incompetence of McIntyre's trial lawyer further undermined his defense.  The podcast features interviews with McIntyre's attorney, Cheryl Pilate, retired FBI agent Al Generich, and Lomont McIntyre himself from prison, painting a disturbing picture of systemic injustice and the devastating impact of wrongful convictions.  An evidentiary hearing is scheduled, offering a glimmer of hope for McIntyre's exoneration."
+    },
+    "featuredIndividual": {
+        "fullName": "Lomont McIntyre",
+        "caseLocation": "Kansas City, Kansas, USA",
+        "convictionYear": "1994",
+        "exonerationYear": "Not yet exonerated (as of podcast recording), evidentiary hearing scheduled.",
+        "crimeConvictedOf": "Double homicide (murder of Don Yell Quinn and Donald Ewing)",
+        "sentence": "Two consecutive life sentences",
+        "timeServed": "Approximately 24 years (as of podcast recording)",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification (potentially manipulated/coerced)",
+            "Police corruption (targeting by detective Roger Golubsky)",
+            "Ineffective counsel (disbarred trial attorney Gary Long)",
+            "Lack of physical evidence",
+            "Withheld exculpatory evidence (implied, not explicitly stated but suggested)"
+        ],
+        "status": "Incarcerated, seeking exoneration through a successive petition with an upcoming evidentiary hearing.",
+        "organizationsInvolvedRaw": [
+            "Centurion Ministries (assisted with the case)",
+            "(Implied) Innocence Project (general reference to Innocence Projects and their work)"
+        ],
+        "innocenceLawyersRaw": [],
+        "cheryl_pilate": "Lomont McIntyre's attorney, actively working on his exoneration. No further details provided.",
+        "crossReference": "Not explicitly stated if in exoneree database, but highly likely given the focus of the podcast and the case details.",
+        "narrativeOriginalCrime": "Two men, Don Yell Quinn and Donald Ewing, were shot and killed in a Cadillac in Kansas City, Kansas.  Police quickly arrested Lomont McIntyre within six hours of the murders.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness testimony from two individuals (one never testified in court, the other two gave brief taped interviews).",
+            "No physical evidence, motive, weapon, fingerprints, or connection between McIntyre and victims presented by the prosecution."
+        ],
+        "trialDefenderNotes": "- Trial defense attorney was Gary Long, described as incompetent and later disbarred.\n- Failed to adequately investigate or challenge the prosecution's case.\n- Did not interview key witnesses effectively or challenge the eyewitness identifications.",
+        "keyEvidenceExonerationRaw": [
+            "Recantations and admissions from eyewitnesses (or questioning of their testimony).",
+            "Evidence of police misconduct and corruption by detective Roger Golubsky.",
+            "Lack of original evidence supporting conviction.",
+            "Support from victims' families who believe in McIntyre's innocence."
+        ],
+        "actualPerpetratorDetails": "Not discussed in the transcript.  Implied that the crime may have been drug-related and that the victims may have been involved in drug activity, suggesting other potential suspects within that context, but no specific perpetrator identified."
+    },
+    "keyQuotesRaw": [
+        "\"The prosecution from day one knew I was innocent and let false testimony go uncorrected from the lower courts or we up to United States Supreme Court.\" - Speaker at the beginning of the podcast (likely Lomont McIntyre or related to his case).",
+        "Juror Greg Lauber:  \"They didn't care about anything. They just had their man.\" and \"Maybe I had an opportunity to, you know, do something good on that jury, but I sure didn't do it. I took a coward's way out.\"",
+        "Retired FBI Special Agent, Al Generich:  Describing police corruption in Kansas City, Kansas, and the lack of accountability. \"They don't give a shit.\" and his personal fear of the Kansas City, Kansas police department even as an FBI agent.",
+        "Lomont McIntyre:  Describing his shock at the guilty verdict and his emotional resilience through faith and family support. \"When they read the verdict, they said guilty. It's like I see my whole life last before me.\" and \"Being angry doesn't help me so I just wanted to help myself because I knew. I always knew I was going to be here forever. I knew that eventually the truth was the surface and I would have a life outside of this wall.\""
+    ],
+    "systemicIssuesRaw": [
+        "Police corruption and lack of accountability.",
+        "Inadequate investigation and prosecution processes.",
+        "Ineffective assistance of counsel (incompetent and disbarred lawyers).",
+        "Eyewitness misidentification and manipulation.",
+        "Racial bias and targeting of minorities by law enforcement.",
+        "Prosecutorial misconduct and conflict of interest.",
+        "Difficulty in investigating police corruption within law enforcement."
+    ],
+    "policyRecommendationsRaw": [
+        "Support honest policing and report police misconduct.",
+        "Call for a full investigation into the activities of detective Roger Golubsky.",
+        "Support organizations like Innocence Project and Centurion Ministries.",
+        "Audience encouraged to write to Lomont McIntyre to offer support.",
+        "General call for awareness and action to prevent wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Lomont McIntyre's personal narrative highlights the devastating impact of wrongful conviction on an individual and their family. He expresses the initial shock and disbelief, the emotional toll of incarceration, but also his resilience, faith, and determination to maintain a positive outlook and help others upon release. He emphasizes the ripple effect of wrongful conviction on his family and community. His final thoughts express the profound injustice and the need for systemic change within the criminal justice system to prevent similar tragedies."
+    ],
+    "additionalResourcesRaw": [
+        "Spotlight Snitch City Podcast (recommended as another investigative series)",
+        "Negotiate Anything Podcast (mentioned in an advertisement break)",
+        "Eating Wild Broke Podcast (mentioned in an advertisement break)",
+        "This Is Working Podcast (mentioned in an advertisement break)",
+        "The Setup Podcast (mentioned in an advertisement break)",
+        "InnocenceProject.org (website to donate and get involved with the Innocence Project)"
+    ]
+}

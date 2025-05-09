@@ -1,0 +1,85 @@
+{
+    "sourceFileName": "288_Jason_Flom_with_Ken_Middleton_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Pham",
+        "releaseYear": "2022",
+        "network": "Lava for Good Podcasts, in association with Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, ineffective assistance of counsel, prosecutorial misconduct, evidence tampering, jurisdictional technicalities, fight for exoneration.",
+        "keyStats": "- Ken Middleton has been in prison for over 30 years.\n- Ken Middleton's conviction was overturned in 2004 but remained in legal limbo due to jurisdictional technicalities.\n- A new Missouri statute (SB-53) remedies the technicality, but the current prosecutor is not acting.\n- Key evidence, the gunshot residue test on Kathy Middleton's left hand, was possibly tampered with (whited out from crime lab document).\n- Ken Middleton refused an Alford plea deal even when all appeals were exhausted.\n- Former Missouri Governor Joseph P. Tisdale testified that this was the worst case of constitutional violations he had ever witnessed and would have pardoned Mr. Middleton.",
+        "itemNumber": "288",
+        "itemTitle": "Jason Flom with Ken Middleton",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of the Wrongful Conviction podcast, hosted by Jason Pham, delves into the case of Ken Middleton, who has spent over 30 years in prison for the death of his wife, Kathy.  Despite evidence suggesting a tragic accident and serious flaws in the investigation and trial, including potential evidence tampering, ineffective counsel, and prosecutorial conflicts of interest, Middleton remains incarcerated. The podcast highlights the mishandling of the crime scene, altered gunshot residue evidence, and the failure of Middleton's defense attorney to present crucial evidence.  Even after his conviction was overturned in 2004 due to ineffective counsel, a jurisdictional technicality kept him in legal limbo. A new Missouri law offers hope, but the current prosecutor has yet to act, leaving Middleton and his son, Cliff, in a continued fight for justice and exoneration. The episode calls for public support to pressure the prosecutor to review the case and apply the new statute to finally grant Middleton a new trial and freedom."
+    },
+    "featuredIndividual": {
+        "fullName": "Ken Middleton",
+        "caseLocation": "Blue Springs, Missouri, USA (Jackson County)",
+        "convictionYear": "1991",
+        "exonerationYear": "2004 (conviction overturned, but not fully exonerated due to jurisdictional issues, still fighting for exoneration as of podcast release in 2022)",
+        "crimeConvictedOf": "Murder of his wife, Kathy Middleton",
+        "sentence": "Life without parole plus 200 years",
+        "timeServed": "Over 30 years (as of March 2022)",
+        "contributingFactorsRaw": [
+            "Ineffective assistance of counsel (Bob Duncan)",
+            "Possible evidence tampering (gunshot residue test alteration)",
+            "False expert testimony (blood spatter expert with limited training)",
+            "Prosecutorial misconduct and conflict of interest (civil suit by victim's family linked to prosecutor's father's law firm)",
+            "Botched investigation (mishandled crime scene, re-staging, missing photos, improper evidence collection)",
+            "Jurisdictional technicality after conviction overturned"
+        ],
+        "status": "Conviction overturned in 2004, but not fully exonerated. Still fighting for a new trial and exoneration as of 2022.",
+        "organizationsInvolvedRaw": [
+            "Not explicitly mentioned in transcript, but implied support from wrongful conviction advocacy groups and media (podcast itself). Website: free-kenmiddleton.com"
+        ],
+        "innocenceLawyersRaw": [],
+        "bob_duncan": "Original trial attorney, deemed ineffective. Failed to investigate, examine evidence, interview witnesses, and make an opening statement.",
+        "gerald_handley": "Appellate attorney for 2915 appeal, also ineffective, procedurally defaulted issues, did not meet with client, filed inadequate motion.",
+        "jonathan_lawrence": "New attorney in 2000s, successfully reopened case and secured overturning of conviction in 2004.",
+        "narrativeOriginalCrime": "Ken Middleton was accused of murdering his wife, Kathy, in their home on February 12, 1990. The prosecution alleged Ken held Kathy against a wall and shot her in the face. Ken maintained it was a tragic accident, stating Kathy was upset about news of a past affair, picked up a gun he had laid down to clean, and accidentally shot herself in the head while going to call the alleged mistress.",
+        "keyEvidenceProsecutionRaw": [
+            "Expert testimony (blood spatter) claiming Kathy was held against the wall and shot at close range by Ken.",
+            "Implied motive of marital discord and possibly secret assets (later shown to be false testimony).",
+            "Claimed boot print on the wall, purported to be Ken's (later shown to be pre-existing and physically improbable).",
+            "Suggestion Ken attempted to wash gunshot residue from his hands."
+        ],
+        "trialDefenderNotes": "- Bob Duncan was ineffective and unprepared.\n- Failed to investigate crime scene evidence, including the gun and gunshot residue tests.\n- Did not present expert witnesses to counter prosecution's claims.\n- Reserved opening statement but forgot to give it.\n- Failed to highlight inconsistencies and potential evidence tampering.\n- Did not impeach false testimony effectively.",
+        "keyEvidenceExonerationRaw": [],
+        "expert_testimony_(bob_tressel,_forensic_investigator)": "Demonstrated the state's scenario was physically impossible based on ballistics and crime scene analysis. Showed the shooter would have had to be under the table to achieve the trajectory and wound. No blood or GSR on Ken, despite close range shooting.",
+        "expert_testimony_(chuck_gay,_crime_scene_investigation)": "Highlighted improper crime scene handling, restaging, and evidence mishandling by police.",
+        "gunshot_residue_document_examination": "Revealed alteration of the crime lab document, suggesting a cover-up regarding the left-hand GSR test on Kathy.",
+        "testimony_of_former_governor_joseph_p._tisdale": "Condemned the constitutional violations and ineffective counsel, stating he would pardon Ken Middleton.",
+        "judge_messina's_2004_ruling": "Overturned conviction based on eight points of ineffective assistance of counsel.",
+        "actualPerpetratorDetails": "Not applicable, case is presented as a tragic accident, not a murder by another perpetrator."
+    },
+    "keyQuotesRaw": [
+        "Jason Pham: \"Ken Middleton has been in prison for over 30 years for being present during what they may well have known all along was just a tragic accident...\"",
+        "Cliff Middleton (on altered GSR document): \"You really have to see this to believe it. And we're going to link pictures of this in our episode, because I'm looking at it right now and I still can't believe that I'm actually looking at what I'm looking at.\"",
+        "Former Governor Joseph P. Tisdale: \"...this was the worst case of constitutional violations that he had ever witnessed in 41 years of practicing law. And that he... would clearly have pardoned Mr. Middleton of all wrongdoing...\"",
+        "Ken Middleton (on impact of imprisonment): \"Well, I don't know how to describe it, but I was in chalk and until this happened, I'd never spent a day in jail in my life and take you from being free in the country and working all my life to tell you in a cage is unbelievable.\""
+    ],
+    "systemicIssuesRaw": [
+        "Ineffective assistance of counsel is a major factor in wrongful convictions.",
+        "Prosecutorial misconduct and conflicts of interest can undermine justice.",
+        "Tunnel vision in police investigations and failure to properly investigate alternative scenarios.",
+        "Crime lab document alteration and potential evidence tampering.",
+        "Jurisdictional technicalities can prolong wrongful imprisonment even after legal victories.",
+        "Difficulty in overturning convictions even with strong evidence of innocence."
+    ],
+    "policyRecommendationsRaw": [
+        "Public pressure on Jackson County Prosecutor Gene Peters Baker to file a motion conceding jurisdiction and re-examine Ken Middleton's case under the new Missouri statute.",
+        "Support for Ken Middleton by signing the petition on free-kenmiddleton.com.",
+        "General awareness and advocacy for wrongful conviction cases and criminal justice reform."
+    ],
+    "personalNarrativeRaw": [
+        "Ken Middleton's emotional recounting of the tragedy, trial, and decades of imprisonment.  His steadfast claim of innocence and refusal of an Alford plea despite dire circumstances. The devastating impact on him and his family.",
+        "Cliff Middleton's passionate advocacy for his father, highlighting the emotional toll and relentless fight for justice."
+    ],
+    "additionalResourcesRaw": [
+        "Website: free-kenmiddleton.com (petition and case documents)",
+        "Silver Creek Entertainment film (in production about Ken Middleton's case)",
+        "Exoneree Database (Cross-reference mentioned but not explicitly confirmed in transcript)"
+    ]
+}

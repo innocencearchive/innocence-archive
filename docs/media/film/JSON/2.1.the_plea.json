@@ -1,0 +1,87 @@
+{
+  "source_file_name": "2.1.the_plea.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "FRONTLINE",
+    "publication_or_release_year": 2004,
+    "publisher_or_network": "FRONTLINE, WGBH, Ofra Bikel Productions",
+    "focus_or_theme": "Plea bargaining system, innocent defendants pleading guilty, prosecutorial pressure, inadequate defense counsel, impact of poverty on justice outcomes.",
+    "summaryNotes": "Highlights how the vast majority of cases are resolved through pleas, often pressuring innocent individuals.",
+    "availabilityNotes": null,
+    "sourceUrl": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "\"The Plea\"",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Plea bargaining system, innocent defendants pleading guilty, prosecutorial pressure, inadequate defense counsel, impact of poverty on justice outcomes.",
+    "summary_notes": null,
+    "key_quotes_raw": [
+      "Stewart describing the pressure to take the plea to care for her children; Kelly discussing the inadequate time/advice from court-appointed counsel; Discussion of the informant's unreliability coming out later."
+    ],
+    "systemic_issues_raw": [
+      "The overwhelming pressure of the plea bargain system, particularly on poor defendants; inadequate resources and potential conflicts of interest for court-appointed attorneys; the devastating collateral consequences of a felony conviction (even via plea); the potential for unreliable informants to cause widespread injustice; racial disparities in drug enforcement."
+    ],
+    "policy_recommendations_raw": [
+      "Implied need for reform in the plea bargaining process, better funding and oversight of indigent defense, scrutiny of informant use, addressing collateral consequences."
+    ],
+    "external_links_raw": [],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Erma Faye Stewart",
+      "case_location_city": "Hearne",
+      "case_location_state": "Texas",
+      "conviction_year": 2000,
+      "exoneration_or_release_year": "N/A (Plea stood, though cases against others were dismissed)",
+      "crime_convicted_of_raw": "Felony drug distribution (pleaded guilty, maintained innocence)",
+      "sentence": "10 years probation, fines.",
+      "time_served": "Jailed pre-plea (approx. 1 month).",
+      "contributing_factors_raw": [
+        "Coercive plea bargaining, pressure to get out of jail for children, inadequate legal counsel, unreliable confidential informant, poverty."
+      ],
+      "status_raw": "Conviction stood due to plea, faced collateral consequences (loss of benefits).",
+      "organizations_involved_raw": [
+        "ACLU (represented co-defendant Kelly in subsequent lawsuit)."
+      ],
+      "first_name": "Erma",
+      "middle_name": "Faye",
+      "last_name": "Stewart"
+    },
+    {
+      "full_name": "Regina Kelly",
+      "case_location_city": "Hearne",
+      "case_location_state": "Texas",
+      "conviction_year": "N/A (Arrested, charges later dismissed)",
+      "exoneration_or_release_year": 2001,
+      "crime_convicted_of_raw": "Accused of felony drug distribution.",
+      "sentence": null,
+      "time_served": "Jailed pre-trial (approx. 3 weeks).",
+      "contributing_factors_raw": [
+        "Arrest based on unreliable confidential informant, racial bias alleged in drug sweep, pressure to plead guilty."
+      ],
+      "status_raw": "Charges dismissed; lead plaintiff in ACLU class-action lawsuit.",
+      "organizations_involved_raw": [
+        "ACLU."
+      ],
+      "**also_mentioned": "** Others arrested in the Hearne, Texas drug sweep (27 total, mostly African American).",
+      "first_name": "Regina",
+      "middle_name": null,
+      "last_name": "Kelly"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Ofra Bikel",
+      "role": "DIRECTOR",
+      "first_name": "Ofra",
+      "middle_name": null,
+      "last_name": "Bikel"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

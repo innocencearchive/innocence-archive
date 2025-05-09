@@ -1,0 +1,74 @@
+{
+    "sourceFileName": "119_False_Confessions_Matt_Livers_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction, False Confessions",
+    "mediaItem": {
+        "hosts": "Lauren Eyreider and Steve Drizen",
+        "releaseYear": "2020",
+        "network": "Lava for Good podcasts in association with Signal Company No. 1",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "False confessions, wrongful convictions, investigative journalism, criminal justice system issues.",
+        "keyStats": "False confessions can happen anywhere and anytime; a confession is only as good as the evidence that corroborates it; police are allowed to lie during interrogations; intellectual disabilities can make individuals more vulnerable to false confessions.",
+        "itemNumber": "119",
+        "itemTitle": "False Confessions Matt Livers",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction, False Confessions, tells the story of Matt Livers and Nick Sampson, who were wrongfully accused of murdering Wayne and Sherman Stoke in Murdoch, Nebraska, on Easter Sunday 2006.  Matt Livers, despite having intellectual disabilities, was subjected to a coercive 11-hour interrogation where he falsely confessed to the crime after being threatened with the death penalty and lied to about polygraph results.  Although there was no physical evidence linking them to the crime and a planted blood sample was later discovered, Matt and Nick were initially charged.  Good police work tracing a ring found at the crime scene eventually led to the actual perpetrators, Greg Fester and Jessica Reed, who confessed and were convicted. Matt Livers was exonerated after spending months in jail, highlighting the dangers of false confessions and the importance of ethical police investigation. The case also exposes issues with \"hero\" police officers who cut corners and fabricate evidence."
+    },
+    "featuredIndividual": {
+        "fullName": "Nick Sampson",
+        "caseLocation": "Murdoch, Nebraska, USA",
+        "convictionYear": "Charged with murder, but not formally convicted in court due to exoneration.",
+        "exonerationYear": "Released after actual perpetrators were identified, though transcript does not state a formal exoneration year.",
+        "crimeConvictedOf": "Murder of Wayne and Sherman Stoke (wrongfully accused)",
+        "sentence": "N/A - initially held without bail.",
+        "timeServed": "Months (not specified exactly in transcript)",
+        "contributingFactorsRaw": [
+            "False implication by Matt Livers in his coerced confession. Lack of physical evidence."
+        ],
+        "status": "Released, civil suit settlement with the state.",
+        "organizationsInvolvedRaw": [
+            "Not explicitly mentioned in transcript."
+        ],
+        "innocenceLawyersRaw": [
+            "Not detailed in transcript if Nick Sampson had a separate lawyer."
+        ],
+        "crossReference": "Not explicitly stated if in exoneree database.",
+        "narrativeOriginalCrime": "Same as Matt Livers - Wayne and Sherman Stoke murders.",
+        "keyEvidenceProsecutionRaw": [
+            "Matt Livers' confession implicating Nick Sampson."
+        ],
+        "trialDefenderNotes": "Not detailed in transcript for Nick Sampson's defense team specifically.",
+        "keyEvidenceExonerationRaw": [
+            "Same as Matt Livers - exonerated due to evidence implicating Greg Fester and Jessica Reed."
+        ],
+        "actualPerpetratorDetails": "Greg Fester and Jessica Reed confessed to the murders."
+    },
+    "keyQuotesRaw": [
+        "\"I'm going to do my lower best to hang your ass from the highest tree. I'm going to do my level best to hang your ass from the highest tree. You're done. You are done. I'll go after the death penalty. I will go after the death penalty.\" - Cass County Investigator threatening Matt Livers.",
+        "\"I'm dumb as a brick.\" - Matt Livers describing himself during interrogation.",
+        "\"I killed someone, she wrote. I loved it. I wish I could do it all the time.\" - Jessica Reed's diary entry.",
+        "\"This is what happens when someone believes the end that they're pursuing is just and that, therefore, they can cut corners and do unethical things in service of the just goal.\" - Steve Drizen on David Kofode's actions.",
+        "\"The only reason we're settling this civil suit is because of David Kofode's criminal activity. My investigators did nothing wrong. Here they acted honorably.\" - Nebraska Attorney General John Bruning (statement criticized by hosts)."
+    ],
+    "systemicIssuesRaw": [
+        "Coercive interrogation tactics leading to false confessions, particularly with vulnerable individuals with intellectual disabilities.",
+        "Police deception during interrogations (lying about polygraph results, death penalty threats).",
+        "\"Tunnel vision\" in investigations, focusing on a suspect and ignoring contradictory evidence.",
+        "Problem of \"hero\" police officers fabricating evidence to close cases.",
+        "Lack of accountability for police misconduct (Attorney General's statement downplaying investigator wrongdoing)."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call for reform of interrogation practices, especially when dealing with vulnerable individuals.",
+        "Need for greater accountability for police misconduct, including fabrication of evidence and coercive interrogation tactics.",
+        "Emphasis on corroborating confessions with independent evidence."
+    ],
+    "personalNarrativeRaw": [
+        "Matt Livers' life was significantly disrupted, moved to Texas, relationship with family strained, particularly with cousin Nick Sampson.",
+        "Nick Sampson's relationship with Matt Livers damaged due to false implication.",
+        "Both Matt and Nick suffered emotional and psychological harm from the wrongful accusation and imprisonment, even after financial compensation."
+    ],
+    "additionalResourcesRaw": [
+        "Mention of exoneree database (though not specified if Matt Livers is in it).",
+        "Website: Wrongfulconvictionpodcast.com and social media links for the podcast are provided for more information."
+    ]
+}

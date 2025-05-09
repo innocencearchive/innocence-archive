@@ -1,0 +1,89 @@
+{
+  "source_file_name": "19.convicting_the_innocent.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Convicting the Innocent: Where Criminal Prosecutions Go Wrong",
+    "creator_name": "Brandon L. Garrett",
+    "publication_or_release_year": 2011,
+    "publisher_or_network": "Harvard University Press",
+    "format": "Academic non-fiction",
+    "focus_or_theme": "Systematic analysis of DNA exonerations, patterns in wrongful convictions",
+    "key_statistics": "Examines the first 250 DNA exonerations in the United States"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "\"In this unsettling in-depth analysis, Brandon Garrett examines what went wrong in the cases of the first 250 wrongfully convicted people to be exonerated by DNA testing.\"",
+      "\"DNA exonerations have shattered confidence in the criminal justice system by exposing how often we have convicted the innocent and let the guilty walk free.\""
+    ],
+    "systemic_issues_raw": [
+      "Flawed eyewitness identification procedures",
+      "Coercive interrogation techniques leading to false confessions",
+      "Unreliable forensic science practices",
+      "Inadequate defense representation",
+      "Prosecutorial misconduct and Brady violations",
+      "Difficulties in post-conviction remedies",
+      "Systemic racial and socioeconomic biases"
+    ],
+    "policy_recommendations_raw": [
+      "Reforms to eyewitness identification procedures",
+      "Mandatory recording of interrogations",
+      "Improved forensic science standards and oversight",
+      "Better funding for public defenders",
+      "Enhanced disclosure requirements for prosecutors",
+      "Expanded access to post-conviction DNA testing",
+      "Creation of conviction integrity units"
+    ],
+    "additional_resources_raw": [
+      "Convicting the Innocent website (convictingtheinnocent.com)",
+      "DNA Exonerations Database maintained by the author",
+      "Follow-up academic papers by Brandon Garrett, including \"Convicting the Innocent Redux\""
+    ],
+    "research_notes_other": {
+      "this_book_is_particularly_valuable_for_our_project_as_it": "1. Provides a comprehensive academic analysis of a large sample of DNA exonerations\n2. Identifies patterns and systemic issues across multiple cases rather than focusing on individual stories\n3. Is written by a leading legal scholar in the field of wrongful convictions (Brandon L. Garrett, L. Neil Williams, Jr. Professor of Law at Duke University School of Law)\n4. Uses empirical data and trial records to document exactly what went wrong in each case\n5. Offers evidence-based policy recommendations for preventing wrongful convictions\n6. Has been influential in shaping legal scholarship and policy discussions around wrongful convictions\nThe book stands out from others in our research as it takes a more academic, data-driven approach to analyzing wrongful convictions rather than focusing primarily on personal narratives. It examines the systemic patterns across hundreds of cases, providing a broader perspective on the factors that contribute to wrongful convictions in the American criminal justice system."
+    },
+    "item_title": "Book Content: Convicting the Innocent: Where Criminal Prosecutions Go Wrong",
+    "focus_or_theme": "Systematic analysis of DNA exonerations, patterns in wrongful convictions",
+    "summary_notes": "This book systematically analyzes the first 250 DNA exonerations in the US, identifying patterns and systemic issues contributing to wrongful convictions.  It uses empirical data and trial records to document the failures in each case, offering evidence-based policy recommendations for prevention.",
+    "case_details_raw": "Multiple individuals (250 DNA exonerees) across various locations in the United States were wrongfully convicted of primarily serious violent crimes (murder, rape).  Their convictions spanned various years, and their exonerations occurred prior to 2011. Sentences varied, including death sentences, and time served also varied."
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Multiple individuals (250 DNA exonerees)",
+      "first_name": "Multiple",
+      "middle_name": null,
+      "last_name": "individuals",
+      "case_location": "Various locations across the United States",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": "Primarily serious violent crimes (murder, rape)",
+      "sentence": "Various, including death sentences",
+      "time_served": "Various",
+      "contributing_factors_raw": [
+        "False confessions",
+        "Eyewitness misidentifications",
+        "Flawed forensic evidence",
+        "Jailhouse informant testimony",
+        "Inadequate legal representation",
+        "Prosecutorial misconduct"
+      ],
+      "status_raw": "All exonerated through DNA evidence",
+      "organizations_involved_raw": [
+        "The Innocence Project"
+      ],
+      "cross_reference": "Book 4: \"Actual Innocence\" by Jim Dwyer, Peter Neufeld & Barry Scheck",
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Brandon L. Garrett",
+      "role": "AUTHOR",
+      "first_name": "Brandon",
+      "middle_name": "L.",
+      "last_name": "Garrett"
+    }
+  ],
+  "research_strategy_notes_raw": "This book is particularly valuable for our project as it:\n1. Provides a comprehensive academic analysis of a large sample of DNA exonerations\n2. Identifies patterns and systemic issues across multiple cases rather than focusing on individual stories\n3. Is written by a leading legal scholar in the field of wrongful convictions (Brandon L. Garrett, L. Neil Williams, Jr. Professor of Law at Duke University School of Law)\n4. Uses empirical data and trial records to document exactly what went wrong in each case\n5. Offers evidence-based policy recommendations for preventing wrongful convictions\n6. Has been influential in shaping legal scholarship and policy discussions around wrongful convictions\n\nThe book stands out from others in our research as it takes a more academic, data-driven approach to analyzing wrongful convictions rather than focusing primarily on personal narratives. It examines the systemic patterns across hundreds of cases, providing a broader perspective on the factors that contribute to wrongful convictions in the American criminal justice system.",
+  "research_notes_raw": null
+}

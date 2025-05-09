@@ -1,0 +1,94 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not applicable (Episode title can be inferred as Calvin Boari & Steve Fishman)
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2024 (Inferred from "364 days as the recording this podcast, as we're sitting here now, you haven't even been out a year.")
+-   **Production Company(ies)/Network**: Lava for Good Podcast and Association with signal company number one.
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, prosecutorial misconduct, systemic issues in the justice system, exoneration, resilience.
+-   **Key Statistics/Information**:
+    -   Calvin Boari served over two decades for a double murder he did not commit.
+    -   The Bronx had the most Brady violation and prosecutorial misconduct violations under District Attorney Robert Johnson's tenure.
+    -   Prosecutors offered Calvin Boari a plea deal of 3 years, despite him being charged with double homicide.
+    -   The prosecution used "trial by ambush" tactics, withholding witness information from the defense.
+    -   Dwight Robinson, a key witness against Boari, had previously attempted to murder him and later confessed to the crime for which Boari was convicted, then recanted.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom features Calvin Boari and journalist Steve Fishman discussing Boari's wrongful conviction for a 1992 double homicide in the Bronx. Boari, a former drug dealer, was targeted by police and prosecutors who were determined to convict him, even with flimsy evidence and incentivized witnesses. The episode details the systemic issues that contributed to his wrongful conviction, including prosecutorial misconduct, trial by ambush tactics, and the use of jailhouse informants.  Boari spent over two decades in prison, maintaining his innocence and fighting for exoneration.  The conversation highlights his resilience, his eventual exoneration after new witnesses came forward, and his efforts to rebuild his life and advocate for justice reform upon release.  The episode underscores the devastating impact of wrongful convictions and the urgent need for systemic change within the criminal justice system.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Calvin Boari
+-   **Case Location**: Bronx, New York, USA
+-   **Conviction Year**: 1995
+-   **Exoneration Year**: 2017 (Conviction vacated in 2017, released May 8th, inferred from "May 8th, which is tomorrow. That's my second birthday, my rebirth day." and recording date being close to a year after release)
+-   **Crime Convicted Of**: Double homicide of Elijah and Saladin Harris
+-   **Sentence**: 50 years to life
+-   **Time Served**: Over 22 years
+-   **Contributing Factors**:
+    -   False accusation by Algebraic Griffin (initially).
+    -   Incentivized witnesses, including Dwight Robinson, who had motives to lie.
+    -   Prosecutorial misconduct, including withholding exculpatory evidence and "trial by ambush" tactics.
+    -   Media propaganda associating Boari with "black magic" to prejudice the jury.
+-   **Legal Status**: Exonerated (conviction vacated)
+-   **Organizations Involved**:
+    -   Innocence Project (initially corresponded, but case didn't fit DNA criteria at the time).
+    -   Pro bono attorneys, including Myron Beldock and Oscar Mitchell.
+-   **Innocence Lawyer Details**:
+    -   **Myron Beldock**:  Renowned lawyer who took on Boari's case, despite health issues, seeing it as a crucial fight for justice. Described as the "greatest lawyer on the planet Earth".  His dedication and belief in Boari were pivotal.  Passed away during the case, which was a major blow to Boari.
+    -   **Oscar Mitchell**: Attorney who assisted after Myron Beldock and played a key role in the courtroom during the hearing with new witnesses.
+-   **Cross-Reference**: To be checked against exoneree database.
+-   **Narrative of Original Crime**: Two brothers, Elijah and Saladin Harris, were murdered in cold blood while sitting in a car eating food on September 10th, 1992.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Testimony from six incentivized witnesses, including Dwight Robinson, who claimed Boari was the perpetrator.
+    -   Media portrayal of Boari as a dangerous drug dealer involved in "black magic" to prejudice the jury.
+-   **Trial Defender Notes**:  Transcript mentions Boari's lawyer was surprised by "surprise witnesses" indicating a lack of preparation time and resources, possibly due to "trial by ambush" tactics. The defense was ambushed with witnesses unknown to them until they testified, hindering their ability to effectively cross-examine or investigate.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Recantation by Dwight Robinson (though initially unreliable due to subsequent recantation of recantation, it highlighted his questionable testimony).
+    -   Testimony from two new eyewitnesses, Kimberly and Nakia Clark, who lived near the crime scene and witnessed the actual perpetrator, identifying someone other than Calvin Boari. Their testimony was crucial in vacating the conviction.
+-   **Actual Perpetrator Details**:  The Clark sisters testified they saw a "white" person commit the crime. Dwight Robinson is implied to be the actual perpetrator based on the narrative and his confession, although he recanted. The podcast focuses on Boari's innocence rather than definitively naming and detailing the actual killer.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "I'm not innocent until proven guilty. I'm guilty until I prove my innocence. And that's absolutely what happened to me." - Calvin Boari, highlighting the reversed burden of proof he experienced.
+    -   "I totally lost trust in humanity after what happened to me." - Calvin Boari, expressing the profound personal impact of wrongful conviction.
+    -   "Dwight Robinson was a gift." - Prosecutor Alan Karen, highlighting the problematic reliance on a highly incentivized and potentially unreliable witness.
+    -   "You tell the truth, you're going to lose every time." - Dwight Robinson, reflecting a cynical view of the justice system he learned.
+    -   "This could be my last crusade." - Myron Beldock, demonstrating his dedication to Boari's case despite his health issues.
+    -   "In God, we trust." - Calvin Boari's mantra during his legal battles, emphasizing his faith as a source of strength.
+
+-   **Systemic Issues Identified**:
+    -   Prosecutorial Misconduct: Brady violations, withholding evidence, overzealous prosecution, and lack of accountability for misconduct.
+    -   Trial by Ambush: Withholding witness information from the defense, creating an unfair disadvantage.
+    -   Incentivized Witnesses/Jailhouse Informants: Use of unreliable testimony from individuals seeking personal gain, contributing to wrongful convictions.
+    -   Prosecutorial Immunity: Lack of accountability for prosecutors, allowing misconduct to go unpunished.
+    -   Racial Bias/Prejudice: Mention of "black magic" propaganda suggests racial prejudice may have played a role in the prosecution's zeal.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Eliminate or reform prosecutorial immunity to hold prosecutors accountable for misconduct.
+    -   Mandate open case files with full disclosure to defense attorneys to prevent "trial by ambush".
+    -   Reform the use of incentivized witnesses and jailhouse informants, implementing stricter rules and scrutiny.
+    -   Justice Reform: General call for justice reform to prevent future wrongful convictions.
+    -   Support organizations like the Innocence Project.
+
+-   **Personal Narrative/Impact**:
+    -   Calvin Boari's personal narrative emphasizes resilience, faith, and determination in the face of injustice. He describes the psychological toll of wrongful conviction, including loss of trust in humanity and the struggle to maintain hope.  His focus shifted from anger and despair to positive thinking and proactive legal efforts after reading "As a Man Thinketh."  His story highlights the importance of family support and the devastating impact of losing his dedicated lawyer, Myron Beldock.  Ultimately, his narrative is one of survival, exoneration, and rebuilding his life with a commitment to helping others and preventing future wrongful convictions through his van service and advocacy.  His final thoughts are a call for justice reform to prevent similar tragedies.
+
+-   **Additional Resources**:
+    -   Podcast "Empire on Blood" by Steve Fishman, which played a role in Boari's exoneration.
+    -   Innocence Project ([InnocenceProject.org](InnocenceProject.org)) - for donations and involvement.
+    -   Campaign to Close Rikers ([campaign-to-close-Rikers.org-slash-get-involved](campaign-to-close-Rikers.org-slash-get-involved)) and Freedom Agenda NY (social media) - for information on Rikers Island and criminal justice reform.
+    -   Mention of New York Times article on Nelson Cruz (further research needed to locate).
+    -   Mention of Meek Mill's involvement with Eric Riddick's case (further research needed to locate details).
+    -   Book "As a Man Thinketh" by James Allen - influential in Boari's mindset shift.
+    -   Ride Advanced Service (R-Y-D-E-R-Z van service, 845-204-5930) - Boari's van service to prisons.
+```

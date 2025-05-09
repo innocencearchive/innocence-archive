@@ -1,0 +1,158 @@
+{
+  "source_file_name": "2.2.the_confessions.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "FRONTLINE",
+    "creator_name": null,
+    "publication_or_release_year": 2010,
+    "publisher_or_network": "PBS/WGBH",
+    "focus_or_theme": "False confessions, coercive police interrogation tactics, tunnel vision.",
+    "summaryNotes": "Case involved four innocent men confessing to the same crime; DNA identified a different perpetrator who also confessed.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "*_**title**": "FRONTLINE",
+    "*_**episode__and_title_if_applicable**": "The Confessions",
+    "*_**directors**": null,
+    "*_**release_year**": "Information Unavailable (Original air date likely 2010 based on case timeline)",
+    "*_**production_companyies**": "FRONTLINE (PBS/WGBH)",
+    "*_**format**": "Documentary",
+    "*_**focus_theme**": "False confessions; Coercive police interrogation tactics; Tunnel vision.",
+    "*_**key_statistics_information**": "Case involved four innocent men confessing to the same crime; DNA identified a different perpetrator who also confessed."
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "The Confessions",
+    "item_number": "Season Unknown, Episode Unknown",
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "False confessions; Coercive police interrogation tactics; Tunnel vision.",
+    "summary_notes": "Documentary focusing on the Norfolk Four case, highlighting how psychological coercion in police interrogations led to false confessions and the failure to investigate contradictory evidence. It implicitly calls for reforms in police interrogation techniques, mandatory recording of interrogations, and better judicial scrutiny of confession evidence.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [
+      "Psychological coercion in police interrogations leading to false confessions",
+      "Reliability of confession evidence",
+      "Police and prosecutorial tunnel vision",
+      "Failure to investigate contradictory evidence"
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for reforms in police interrogation techniques",
+      "Mandatory recording of interrogations",
+      "Better judicial scrutiny of confession evidence"
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://www.pbs.org/wgbh/pages/frontline/website",
+        "description": "PBS FRONTLINE website"
+      }
+    ],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "unparsed_*_**key_quotes_moments**": null,
+      "unparsed_*_**systemic_issues_identified**": "Psychological coercion in police interrogations leading to false confessions; Reliability of confession evidence; Police and prosecutorial tunnel vision; Failure to investigate contradictory evidence.",
+      "unparsed_*_**policy_recommendations_calls_to_action**": "Implicitly calls for reforms in police interrogation techniques, mandatory recording of interrogations, and better judicial scrutiny of confession evidence.",
+      "unparsed_*_**additional_resources**": null,
+      "unparsed_*_pbs_frontline_website_[cite": "8]\n* Innocence Project case files on the Norfolk Four."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Danial Williams",
+      "first_name": "Danial",
+      "middle_name": null,
+      "last_name": "Williams",
+      "status": "OTHER",
+      "conviction_year": 1998,
+      "exoneration_or_release_year": 2017,
+      "time_served": "Varied significantly among the four.",
+      "sentence": "Varied, including life sentences.",
+      "crime_convicted_of_raw": "Rape and Murder (of Michelle Moore-Bosko)",
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "narrative_summary": "One of the Norfolk Four, wrongfully convicted of the rape and murder of Michelle Moore-Bosko. His conviction was based on a coerced false confession resulting from lengthy, high-pressure police interrogations. He was eventually pardoned in 2017.",
+      "contributing_factors_raw": [
+        "Coerced false confessions resulting from lengthy, high-pressure police interrogations (threats, deception)",
+        "Police tunnel vision",
+        "Ignoring evidence pointing to the actual perpetrator"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project",
+        "Various pro bono attorneys and law firms"
+      ]
+    },
+    {
+      "full_name": "Joseph Dick Jr.",
+      "first_name": "Joseph",
+      "middle_name": null,
+      "last_name": "Dick Jr.",
+      "status": "OTHER",
+      "conviction_year": 1998,
+      "exoneration_or_release_year": 2017,
+      "time_served": "Varied significantly among the four.",
+      "sentence": "Varied, including life sentences.",
+      "crime_convicted_of_raw": "Rape and Murder (of Michelle Moore-Bosko)",
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "narrative_summary": "One of the Norfolk Four, wrongfully convicted of the rape and murder of Michelle Moore-Bosko. His conviction was based on a coerced false confession resulting from lengthy, high-pressure police interrogations. He was eventually pardoned in 2017.",
+      "contributing_factors_raw": [
+        "Coerced false confessions resulting from lengthy, high-pressure police interrogations (threats, deception)",
+        "Police tunnel vision",
+        "Ignoring evidence pointing to the actual perpetrator"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project",
+        "Various pro bono attorneys and law firms"
+      ]
+    },
+    {
+      "full_name": "Derek Tice",
+      "first_name": "Derek",
+      "middle_name": null,
+      "last_name": "Tice",
+      "status": "OTHER",
+      "conviction_year": 1998,
+      "exoneration_or_release_year": 2017,
+      "time_served": "Varied significantly among the four.",
+      "sentence": "Varied, including life sentences.",
+      "crime_convicted_of_raw": "Rape and Murder (of Michelle Moore-Bosko)",
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "narrative_summary": "One of the Norfolk Four, wrongfully convicted of the rape and murder of Michelle Moore-Bosko. His conviction was based on a coerced false confession resulting from lengthy, high-pressure police interrogations. He was eventually pardoned in 2017.",
+      "contributing_factors_raw": [
+        "Coerced false confessions resulting from lengthy, high-pressure police interrogations (threats, deception)",
+        "Police tunnel vision",
+        "Ignoring evidence pointing to the actual perpetrator"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project",
+        "Various pro bono attorneys and law firms"
+      ]
+    },
+    {
+      "full_name": "Eric C. Wilson",
+      "first_name": "Eric",
+      "middle_name": null,
+      "last_name": "Wilson",
+      "status": "OTHER",
+      "conviction_year": 2000,
+      "exoneration_or_release_year": 2017,
+      "time_served": "Varied significantly among the four.",
+      "sentence": "Varied, including life sentences.",
+      "crime_convicted_of_raw": "Rape and Murder (of Michelle Moore-Bosko)",
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "narrative_summary": "One of the Norfolk Four, wrongfully convicted of the rape and murder of Michelle Moore-Bosko. His conviction was based on a coerced false confession resulting from lengthy, high-pressure police interrogations. He was eventually pardoned in 2017.",
+      "contributing_factors_raw": [
+        "Coerced false confessions resulting from lengthy, high-pressure police interrogations (threats, deception)",
+        "Police tunnel vision",
+        "Ignoring evidence pointing to the actual perpetrator"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project",
+        "Various pro bono attorneys and law firms"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

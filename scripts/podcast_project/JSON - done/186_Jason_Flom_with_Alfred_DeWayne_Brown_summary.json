@@ -1,0 +1,83 @@
+{
+    "sourceFileName": "186_Jason_Flom_with_Alfred_DeWayne_Brown_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava For Good Podcast, Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Criminal Justice System Corruption, Witness Coercion, Prosecutorial Misconduct, Exoneration",
+        "keyStats": "-   Dwayne Brown was wrongfully convicted and spent 12 years on death row.\n-   Texas statute provides $80,000 per year of wrongful incarceration plus annuity.\n-   Over 500 executions in Texas, Dwayne Brown and Anthony Graves are considered \"living unicorns\" as exonerees from death row.",
+        "itemNumber": "186",
+        "itemTitle": "Jason Flom with Alfred DeWayne Brown",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom features the harrowing story of Dwayne Brown, who was wrongfully convicted and sentenced to death for the murder of a police officer during a check-cashing store robbery in Houston in 2003. Despite having an alibi, Dwayne was convicted based on coerced witness testimony and suppressed evidence.  His girlfriend, Erika Dockery, was pressured into recanting her alibi testimony after being charged with perjury and jailed.  Brian Stollars, Dwayne's habeas corpus lawyer, recounts the systemic failures in the justice system, including witness intimidation, prosecutorial misconduct by Dan Rizzo, and ineffective trial defense.  Ultimately, phone records proving Dwayne's alibi were miraculously discovered, leading to his exoneration after 12 years on death row. The episode underscores the resilience of Dwayne Brown and the critical need for accountability within the criminal justice system."
+    },
+    "featuredIndividual": {
+        "fullName": "Dwayne Brown",
+        "caseLocation": "Houston, Texas, USA",
+        "convictionYear": "2004 (inferred from transcript - after 2003 crime and year in jail before trial)",
+        "exonerationYear": "2015",
+        "crimeConvictedOf": "Capital Murder of Police Officer Charles Clark",
+        "sentence": "Death Penalty",
+        "timeServed": "12 years (on death row)",
+        "contributingFactorsRaw": [
+            "Coerced Witness Testimony (Shronda Simon and Erika Dockery)",
+            "Prosecutorial Misconduct (Dan Rizzo suppressing exculpatory phone records, coercing Erika Dockery)",
+            "Ineffective Trial Defense (Failure to subpoena phone records, inadequate investigation)",
+            "False accusation by co-defendants (Deshawn Claspian and Elijah Joubert)"
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "K&L Gates (Brian Stollars' law firm, provided pro bono legal services)",
+            "Innocence Project (mentioned as an organization to donate to)"
+        ],
+        "innocenceLawyersRaw": [
+            "Brian Stollars, habeas corpus lawyer, worked pro bono. Associated with K&L Gates law firm.  Persisted for years, discovered crucial phone records, and secured Dwayne's release and exoneration."
+        ],
+        "crossReference": "Featured in \"The Innocence Files\" on Netflix.",
+        "narrativeOriginalCrime": "Three men robbed an Ace America's Cash Express store in Houston. During the robbery, the clerk, Alfredia Jones, and responding police officer, Charles Clark, were shot and killed. Two of the robbers, Deshawn Claspian and Elijah Joubert, were quickly apprehended and identified Dwayne Brown as the third participant, despite his alibi.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of Deshawn Claspian (co-defendant who cut a deal)",
+            "Coerced testimony of Shronda Simon (eyewitness who initially said she didn't see Dwayne at the housing project).",
+            "Fabricated testimony of Erika Dockery (due to perjury charges and coercion by prosecutor)."
+        ],
+        "trialDefenderNotes": "Dwayne's trial attorney, Lauren Emoljo, failed to subpoena phone records that would have corroborated his alibi. Jurors questioned the lack of phone record evidence. Did not present alibi witness Reginald Jones.",
+        "keyEvidenceExonerationRaw": [
+            "Phone records proving Dwayne Brown was at his girlfriend Erika Dockery's apartment at the time of the crime, showing a call from her apartment landline to her workplace at the relevant time.",
+            "Recantation of Erika Dockery's trial testimony in an affidavit, detailing the coercion and threats by prosecutor Dan Rizzo.",
+            "Affidavit from Shronda Simon recanting her coerced testimony.",
+            "Report from Special Counsel John Rayleigh declaring Dwayne actually innocent."
+        ],
+        "actualPerpetratorDetails": "Not explicitly detailed in the transcript beyond Deshawn Claspian and Elijah Joubert being identified as two of the robbers. The transcript mentions investigation into a potential third perpetrator but does not give details beyond that the DA was informed and did not act, and that this individual later committed another murder."
+    },
+    "keyQuotesRaw": [
+        "\"This case involves an innocent man's sentence to death, a district attorney who knew he was innocent before he prosecuted him, and witnesses that were coerced.\" - Jason Flom's intro.",
+        "Erika Dockery: \"Brian, I chose my kids over Dwayne and I'm sorry.\"",
+        "Dwayne Brown (upon release): \"Trust no one but love everybody.\"",
+        "Brian Stollars about DA: \"They knew, they always knew, and they deliberately suppressed with held, lied, and conspired to send an innocent man to death row.\""
+    ],
+    "systemicIssuesRaw": [
+        "Prosecutorial Misconduct (withholding evidence, witness coercion, perjury charges to force false testimony).",
+        "Ineffective Assistance of Counsel (trial lawyer failing to pursue crucial alibi evidence).",
+        "Witness Intimidation and Coercion by police and prosecutors.",
+        "Flawed Grand Jury process (\"pick a pal\" system, potential bias).",
+        "Lack of accountability for prosecutorial misconduct."
+    ],
+    "policyRecommendationsRaw": [
+        "Accountability for prosecutors who commit misconduct (disbarment for Dan Rizzo mentioned).",
+        "Support for organizations like the Innocence Project to prevent future wrongful convictions.",
+        "Need for systemic reform to prevent witness coercion and ensure fair trials."
+    ],
+    "personalNarrativeRaw": [
+        "Dwayne Brown's resilience and forgiveness despite wrongful conviction and 12 years on death row.  His ability to maintain peace and even offer comfort to his lawyer Brian Stollars.",
+        "Erika Dockery's immense guilt and eventual decision to recant her false testimony, highlighting the devastating impact of coercion on individuals and their families.",
+        "Brian Stollars' dedication and emotional investment in Dwayne's case, showcasing the profound impact of wrongful conviction cases on those fighting for justice."
+    ],
+    "additionalResourcesRaw": [
+        "Netflix documentary \"The Innocence Files\" (covers Dwayne's case).",
+        "Book \"Grace and Justice on Death Row\" by Brian Stolar.",
+        "Innocence Project (InnocenceProject.org)."
+    ]
+}

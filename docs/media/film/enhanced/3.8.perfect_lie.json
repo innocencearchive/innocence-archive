@@ -1,0 +1,63 @@
+{
+  "source_file_name": "3.8.perfect_lie.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "20/20",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "ABC News",
+    "focus_or_theme": "False confessions, police deception, wrongful convictions.",
+    "summaryNotes": "Case involved police falsely telling suspect his father implicated him.",
+    "availabilityNotes": "Available via ABC.",
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "The Perfect Lie",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "False confession induced by police deception/fabrication in the Martin Tankleff case.",
+    "summary_notes": "Examines how police convinced Martin Tankleff his father implicated him (a fabrication), leading to a false confession. The police tactic of lying about evidence to secure a confession is the central element.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Examines how police convinced Tankleff his father implicated him (a fabrication) leading to false confession. Available via ABC.",
+      "research_findings": "Searches did not confirm a specific 20/20 episode with this title. However, the details precisely match the well-known Martin Tankleff case. CBS's 48 Hours program covered the case. The police tactic of lying about evidence (the father's \"statement\") to secure a confession is the central, unique element of this case."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Martin Tankleff",
+      "first_name": "Martin",
+      "middle_name": "Marty",
+      "last_name": "Tankleff",
+      "status": "EXONERATED",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2008,
+      "time_served": "17+ years",
+      "sentence": "50 years to life",
+      "crime_convicted_of_raw": "Murder (of parents, Seymour and Arlene Tankleff)",
+      "case_location_city": "Long Island",
+      "case_location_state": "New York",
+      "narrative_summary": "Wrongfully convicted of murdering his parents based on a coerced false confession. Police falsely claimed his father implicated him before dying. He was exonerated after serving over 17 years and settled a civil lawsuit.",
+      "contributing_factors_raw": [
+        "Coerced false confession (obtained after police falsely claimed his father, before dying, implicated him)",
+        "Tunnel vision",
+        "Ignoring evidence pointing to other suspects"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project (involved in later stages)",
+        "Pro bono legal teams"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "Searches did not confirm a specific 20/20 episode with this title. However, the details precisely match the well-known Martin Tankleff case. CBS's 48 Hours program covered the case."
+}

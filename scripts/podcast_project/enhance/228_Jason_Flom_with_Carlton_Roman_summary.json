@@ -1,0 +1,120 @@
+{
+    "sourceFileName": "228_Jason_Flom_with_Carlton_Roman_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flamin",
+        "releaseYear": "2021",
+        "network": "Lava for Good podcast in association with Signal Company No. 1",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system failures, exoneree stories",
+        "keyStats": "Carlton Roman served 32 years for a crime he did not commit.",
+        "itemNumber": "228",
+        "itemTitle": "Jason Flom with Carlton Roman",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction details the harrowing story of Carlton Roman, wrongfully convicted in 1990 for a murder he did not commit and subsequently exonerated in 2021 after serving 32 years. The case unfolded in Queens, New York, amidst the backdrop of the late 1980s drug epidemic and alleged police corruption. Roman's conviction hinged on the unreliable and changing testimonies of Paul Anderson and Jomo Kenyatta, and the questionable conduct of Detective Peppy, despite no physical evidence linking him to the crime.  His original defense was ineffective, failing to adequately challenge the prosecution's narrative.  Years of appeals were denied until a new District Attorney's office and conviction integrity unit reinvestigated, leading to Anderson's recantation and the eventual overturning of Roman's conviction.  The episode highlights systemic failures within the justice system, the importance of accountability, and the immense personal toll of wrongful convictions, as well as the challenges exonerees face upon release."
+    },
+    "featuredIndividual": {
+        "fullName": "Carlton Roman",
+        "caseLocation": "Queens, New York, USA",
+        "convictionYear": "1990",
+        "exonerationYear": "2021",
+        "crimeConvictedOf": "Secondary Murder and other counts",
+        "sentence": "43 and a half years",
+        "timeServed": "32 years",
+        "contributingFactorsRaw": [
+            "False testimony, unreliable witnesses, police misconduct, ineffective defense counsel."
+        ],
+        "status": "Exonerated, charges dismissed.",
+        "organizationsInvolvedRaw": [
+            "Queens District Attorney's Conviction Integrity Unit"
+        ],
+        "innocenceLawyersRaw": [
+            "James Henning served as Carlton Roman's attorney, becoming lead counsel and playing a crucial role in his exoneration, joining the case in 2017."
+        ],
+        "narrativeOriginalCrime": "A shooting occurred at a drug house in Jamaica, Queens, on March 16, 1989, resulting in the death of Lloyd Whitter and Jomo Kenyatta being critically injured. Carlton Roman was accused of being one of the shooters.",
+        "keyEvidenceProsecutionRaw": [
+            "The prosecution's case relied primarily on the testimonies of Paul Anderson and Jomo Kenyatta, who provided inconsistent and later proven false accounts, along with the testimony of Detective Peppy. There was no physical or forensic evidence linking Carlton Roman to the crime."
+        ],
+        "trialDefenderNotes": "Carlton Roman's original trial defense lawyer, Mr. Greenberg, was described as ineffective. He failed to adequately present alibi witnesses and evidence, and did not effectively counter the prosecution's insinuations and false narratives, such as the implication that Carlton was a drug dealer. He also failed to challenge the unreliable witness testimonies sufficiently.",
+        "keyEvidenceExonerationRaw": [
+            "Key evidence for exoneration included Paul Anderson's recantation of his original testimony, admitting it was fabricated under pressure from Detective Peppy.  The reinvestigation by the Queens District Attorney's Conviction Integrity Unit uncovered the inconsistencies and falsehoods in the original testimonies of Anderson and Kenyatta and the questionable conduct of Detective Peppy, which collectively undermined the basis of Carlton Roman's conviction."
+        ],
+        "actualPerpetratorDetails": "The actual perpetrator is not explicitly named in the transcript. However, the transcript suggests that the crime was likely related to drug activity at the house operated by Jomo Kenyatta and that there were other potential suspects linked to the drug trade, including possibly Paul Anderson himself or others involved in the drug operation. Jomo Kenyatta himself was also described as a violent individual with multiple aliases and wanted for another murder."
+    },
+    "keyQuotesRaw": [
+        "Jason Flamin: \"Carlton, you were a 26-year-old man who was a father, boyfriend, going to college, living in Queens, New York, no criminal record whatsoever. So if a guy like you can get caught up in something like this, then the uncomfortable fact is that nobody's safe, right?\"",
+        "Carlton Roman describing Kenyatta's testimony: \"I'm sitting there like a train hit me listening to this stuff.\"",
+        "Carlton Roman upon exoneration: \"The justice system, everybody knows is broken... but I'm here now, but there's a lot of people in there who need your attention now. There's people in there who have been fighting for justice longer than I have.\"",
+        "James Henning: \"Carlton absolutely refused to let his life be taken. And I think that should be a message to everybody in whatever situation they're in. This guy was in the darkest of places and he just never gave up.\"",
+        "Carlton Roman on judicial accountability: \"From my point of view, if my case had landed in front of a fear judge, even say 25 years ago, this should have been over then... there needs to be a spotlight on what judges are doing, how they're coming to the conclusions that they're coming to. And when they're shirking their duties, man, they got to get out of there.\""
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct and fabrication of evidence.",
+        "Ineffective assistance of counsel.",
+        "Reliance on unreliable and coerced witness testimony.",
+        "Prosecutorial misconduct, including withholding evidence and promoting false narratives.",
+        "Lack of accountability within the justice system.",
+        "Challenges faced by exonerees in reintegrating into society post-release, particularly regarding documentation and basic services."
+    ],
+    "policyRecommendationsRaw": [
+        "Hold public officials, including judges and district attorneys, accountable for their roles in wrongful convictions.",
+        "Support local Innocence Organizations to aid in the fight against wrongful convictions.",
+        "Implement systemic reforms to prevent wrongful convictions, such as improving police investigation procedures, ensuring effective legal representation, and addressing prosecutorial misconduct.",
+        "Establish better systems for reintegrating exonerees into society, including assistance with obtaining documentation, housing, employment, and social services."
+    ],
+    "personalNarrativeRaw": [
+        "Carlton Roman's personal narrative underscores the devastating impact of wrongful conviction, highlighting the loss of 32 years of his life and the immense emotional toll on him and his family. Despite this, his unwavering determination to prove his innocence and his compassionate focus on others still wrongfully imprisoned after his own release are profoundly impactful. His story emphasizes the urgent need for systemic change and continued advocacy for justice."
+    ],
+    "additionalResourcesRaw": [
+        "The podcast encourages listeners to support local Innocence Organizations and provides links in the show's bio for further engagement and assistance.\n```"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Paul Anderson",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Jomo Kenyatta",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Detective Peppy",
+                "role_guess": "Police Officer",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "District Attorney",
+                "role_guess": "Prosecutor",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "fear judge",
+                "role_guess": "Judge",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [
+            "District Attorney's office"
+        ],
+        "llm_extracted_factors": [
+            "changing testimonies",
+            "judicial accountability"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "wrongful conviction",
+                "systemic failures in the justice system",
+                "accountability",
+                "personal toll of wrongful convictions",
+                "challenges faced by exonerees"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

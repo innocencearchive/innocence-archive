@@ -1,0 +1,64 @@
+{
+  "source_file_name": "4.7.twisted.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "Twisted (Dateline NBC)",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "NBC News",
+    "focus_or_theme": "Wrongful conviction (rape/murder), DNA exoneration, racial dynamics, jailhouse informants, eyewitness misidentification",
+    "summaryNotes": "Case involved a 19-year fight for freedom.",
+    "availabilityNotes": "Available via NBC/Peacock.",
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Twisted (Dateline NBC)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction (rape/murder), DNA exoneration, racial dynamics, jailhouse informants, eyewitness misidentification",
+    "summary_notes": "Darryl Hunt's case is a significant wrongful conviction story involving racial bias, flawed eyewitness accounts, jailhouse informants, and ultimately, exoneration through DNA after nearly two decades. Dateline likely covered this high-profile case.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Chronicles Hunt's 19-year fight for freedom; racial dynamics contributing to conviction. Available via NBC/Peacock.",
+      "research_findings": "While the specific Dateline episode title \"Twisted\" wasn't confirmed via search, Darryl Hunt's case is a significant wrongful conviction story involving racial bias, flawed eyewitness accounts, jailhouse informants, and ultimately, exoneration through DNA after nearly two decades. Dateline likely covered this high-profile case."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Darryl Hunt",
+      "first_name": "Darryl",
+      "middle_name": null,
+      "last_name": "Hunt",
+      "status": "EXONERATED",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 2004,
+      "time_served": "19 years",
+      "sentence": "Life in prison",
+      "crime_convicted_of_raw": "Rape and Murder (of Deborah Sykes in 1984)",
+      "case_location_city": "Winston-Salem",
+      "case_location_state": "North Carolina",
+      "narrative_summary": "Darryl Hunt was wrongfully convicted of the rape and murder of Deborah Sykes in Winston-Salem, North Carolina. He was convicted in 1985 and exonerated in 2004 after serving 19 years in prison. DNA evidence identified the actual perpetrator, Willard E. Brown.",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification",
+        "Jailhouse informants",
+        "Recanted witness statements",
+        "Racial bias (convicted by all-white jury in second trial)"
+      ],
+      "organizations_involved_raw": [
+        "Darryl Hunt Project for Freedom and Justice (founded by him)",
+        "Innocence Project (assisted with DNA efforts)"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

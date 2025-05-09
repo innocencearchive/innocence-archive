@@ -1,0 +1,90 @@
+{
+  "source_file_name": "60_The_Death_of_Innocents.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "The Death of Innocents: An Eyewitness Account of Wrongful Executions",
+    "creator_name": "Helen Prejean (Sister Helen Prejean)",
+    "publication_or_release_year": 2005,
+    "publisher_or_network": "Random House (Vintage Books paperback)",
+    "format": "Hardcover and Paperback, 310 pages",
+    "isbn": "9780679759485 (paperback)",
+    "focus_or_theme": "Capital punishment, wrongful executions, criminal justice system failures, death penalty critique",
+    "key_statistics": "Examines two cases of men executed despite significant doubts about their guilt"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "research_notes_other": {
+      "o'dell's_case_gained_international_attention,_particularly_in_italy,_where_advocates_including_the_pope_and_mother_teresa_called_for_clemency._his_cause_was_championed_by_lori_st._john,_who_later_wrote_a_book_about_his_case_titled_\"the_corruption_of_innocence": "A Journey to Justice.\" Hours before his execution, O'Dell married St. John.\nDespite worldwide pleas for clemency and serious questions about the evidence used to convict him, O'Dell was executed by lethal injection on July 23, 1997. In his final statement, he maintained his innocence and reportedly claimed that another prisoner executed in 1993 was the actual killer.\n### Key Quotes",
+      "\"from_the_author_of_the_national_bestseller_dead_man_walking_comes_a_brave_and_fiercely_argued_new_book_that_tests_the_moral_edge_of_the_debate_on_capital_punishment": "What if we're executing innocent men?\"\n- \"As she recounts these men's cases and takes us through their terrible last moments, Prejean brilliantly dismantles the legal and religious arguments that have been used to justify the death penalty.\"\n- \"Luminous, unnerving, angry and very moving... [It] tests our conception of human decency.\" - The New York Times Book Review\n- \"Riveting, moving, and ultimately damning, The Death of Innocents is a book we dare not ignore.\"\n### Systemic Issues Identified\n1. Inadequate legal representation for poor defendants\n2. Racial and economic disparities in the application of the death penalty\n3. Overreliance on flawed forensic evidence\n4. Barriers to introducing new evidence after conviction\n5. Use of testimony from jailhouse informants with incentives to lie\n6. Execution of individuals with intellectual disabilities\n7. Political pressure on judges and prosecutors in capital cases\n8. Lack of transparency in the clemency process\n9. Finality of execution, which prevents correction of wrongful convictions\n10. Religious and moral justifications used to support the death penalty\n### Policy Recommendations\n1. Abolition of the death penalty\n2. Moratorium on executions pending comprehensive review of the system\n3. Improved access to DNA testing for death row inmates\n4. Enhanced standards for legal representation in capital cases\n5. Reforms to prevent execution of individuals with intellectual disabilities\n6. Greater scrutiny of forensic evidence in capital cases\n7. Elimination of barriers to introducing new evidence of innocence\n8. Reforms to the clemency process to provide meaningful review\n9. Restrictions on the use of jailhouse informant testimony\n10. Greater transparency in the capital punishment system\n### Additional Resources\n- \"Dead Man Walking\" - Sister Helen Prejean's earlier book on capital punishment\n- The Innocence Project's work on wrongful convictions",
+      "\"the_corruption_of_innocence": "A Journey to Justice\" by Lori St. John (about O'Dell's case)\n- PBS Frontline documentary \"The Case for Innocence\" featuring O'Dell's case\n- Supreme Court decision in Atkins v. Virginia on executing individuals with intellectual disabilities"
+    },
+    "item_title": "Book Content: The Death of Innocents: An Eyewitness Account of Wrongful Executions",
+    "focus_or_theme": "Capital punishment, wrongful executions, criminal justice system failures, death penalty critique"
+  },
+  "featured_individuals": [
+    {
+      "case_location": "Sabine Parish, Louisiana",
+      "conviction_year": 1985,
+      "execution_year": "1999 (January 8)",
+      "crime_convicted_of": "Murder of Sonja Knippers, who was stabbed to death in her bathroom",
+      "sentence": "Death",
+      "time_served": "14 years on death row",
+      "contributing_factors_raw": [
+        "Mental disability (IQ of 65)",
+        "Inadequate legal representation",
+        "Questionable blood evidence",
+        "Racial bias in the criminal justice system",
+        "Poverty and inability to mount an effective defense"
+      ],
+      "status_raw": [
+        "Executed despite significant doubts about his guilt"
+      ],
+      "organizations_involved_raw": [
+        "Louisiana Supreme Court (upheld conviction)",
+        "Sister Helen Prejean's advocacy team"
+      ],
+      "cross_reference": "Less than two years after Williams's execution, the Supreme Court ruled it unconstitutional to execute individuals with similar levels of mental disability",
+      "full_name": "Dobie Gillis Williams",
+      "first_name": "Dobie",
+      "middle_name": "Gillis",
+      "last_name": "Williams"
+    },
+    {
+      "case_location": "Virginia Beach, Virginia",
+      "conviction_year": 1986,
+      "execution_year": "1997 (July 23)",
+      "crime_convicted_of": "Murder, rape, and sodomy of Helen Schartner in 1985",
+      "sentence": "Death by electrocution (later changed to lethal injection)",
+      "time_served": "12 years on death row",
+      "contributing_factors_raw": [
+        "Flimsy evidence",
+        "Jailhouse informant testimony (later recanted)",
+        "Denied access to DNA testing that could have proven innocence",
+        "Inadequate legal representation"
+      ],
+      "status_raw": [
+        "Executed despite claims of innocence and requests for DNA testing"
+      ],
+      "organizations_involved_raw": [
+        "U.S. Court of Appeals for the 4th Circuit (rejected claims)",
+        "Various international advocacy groups"
+      ],
+      "cross_reference": "Married his advocate Lori St. John hours before his execution",
+      "full_name": "Joseph Roger O'Dell",
+      "first_name": "Joseph",
+      "middle_name": "Roger",
+      "last_name": "O'Dell"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Helen Prejean (Sister Helen Prejean)",
+      "role": "AUTHOR",
+      "first_name": "Helen",
+      "middle_name": "Prejean (Sister Helen",
+      "last_name": "Prejean)"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "\"The Death of Innocents\" is a powerful follow-up to Sister Helen Prejean's acclaimed book \"Dead Man Walking.\" While her earlier work focused on her ministry to death row inmates regardless of guilt, this book specifically addresses the issue of innocence and the risk of executing innocent people. Through the detailed examination of the cases of Dobie Gillis Williams and Joseph Roger O'Dell, Prejean argues that the American capital punishment system is fundamentally flawed and prone to irreversible error.\n\nThe book combines personal narrative with legal analysis, as Prejean recounts her experiences accompanying both men to their executions while also dissecting the legal proceedings that led to their convictions. She details the systemic problems that contributed to these potentially wrongful executions, including inadequate defense counsel, questionable forensic evidence, racial bias, and procedural barriers that prevented full consideration of evidence of innocence.\n\nBeyond the specific cases, Prejean also examines the broader moral, religious, and legal arguments used to justify capital punishment, challenging readers to consider whether any system run by fallible humans should have the power to impose an irreversible punishment. The book serves as both a memoir of Prejean's experiences and a call to action for death penalty reform or abolition."
+}

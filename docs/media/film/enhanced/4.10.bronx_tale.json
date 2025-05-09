@@ -1,0 +1,130 @@
+{
+  "source_file_name": "4.10.bronx_tale.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "A Bronx Tale (Dateline NBC)",
+    "creator_name": null,
+    "publication_or_release_year": 2016,
+    "publisher_or_network": "NBC News",
+    "focus_or_theme": "Wrongful conviction based on unreliable eyewitness testimony",
+    "summaryNotes": "Case involved 6 men convicted based largely on one witness.",
+    "availabilityNotes": "Available via NBC/Peacock.",
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "In the Shadow of Justice: A Bronx Tale",
+    "item_number": null,
+    "release_date": "2016-01-24",
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction based on unreliable eyewitness testimony",
+    "summary_notes": "This episode focuses on Eric Glisson and five others convicted for a 1995 murder in the Bronx. The convictions rested heavily on a single eyewitness who was later deemed unreliable, leading to the exonerations after nearly two decades. Dateline followed the story, including Glisson's life after release.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Investigates a wrongful conviction case set in the Bronx; May involve local community dynamics. Available via NBC/Peacock.",
+      "research_findings": "This episode focuses on Eric Glisson and five others convicted for a 1995 murder in the Bronx. The convictions rested heavily on a single eyewitness who was later deemed unreliable, leading to the exonerations after nearly two decades. Dateline followed the story, including Glisson's life after release. The episode title appears to be \"In the Shadow of Justice: A Bronx Tale\"."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Eric Glisson",
+      "first_name": "Eric",
+      "middle_name": null,
+      "last_name": "Glisson",
+      "status": "EXONERATED",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2012,
+      "time_served": "18 years",
+      "sentence": "25 years to life",
+      "crime_convicted_of_raw": "Murder (of livery cab driver Baithe Diop)",
+      "case_location_city": "The Bronx",
+      "case_location_state": "New York City",
+      "narrative_summary": "Eric Glisson was wrongfully convicted of the murder of Baithe Diop in 1997 and sentenced to 25 years to life. He served 18 years before being exonerated in 2012 after the sole eyewitness was deemed unreliable. He pursued a civil lawsuit after his release.",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification",
+        "Sole witness found unreliable",
+        "Potential witness coercion/perjury"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project"
+      ]
+    },
+    {
+      "full_name": "Michael Cosme",
+      "first_name": "Michael",
+      "middle_name": null,
+      "last_name": "Cosme",
+      "status": "EXONERATED",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2012,
+      "time_served": "18 years",
+      "sentence": "25 years to life",
+      "crime_convicted_of_raw": "Murder (of livery cab driver Baithe Diop)",
+      "case_location_city": "The Bronx",
+      "case_location_state": "New York City",
+      "narrative_summary": "Michael Cosme was wrongfully convicted of the murder of Baithe Diop in 1997 and sentenced to 25 years to life. He served 18 years before being exonerated in 2012 after the sole eyewitness was deemed unreliable. He pursued a civil lawsuit after his release.",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification",
+        "Sole witness found unreliable",
+        "Potential witness coercion/perjury"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project"
+      ]
+    },
+    {
+      "full_name": "Carlos Perez",
+      "first_name": "Carlos",
+      "middle_name": null,
+      "last_name": "Perez",
+      "status": "EXONERATED",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2012,
+      "time_served": "18 years",
+      "sentence": "25 years to life",
+      "crime_convicted_of_raw": "Murder (of livery cab driver Baithe Diop)",
+      "case_location_city": "The Bronx",
+      "case_location_state": "New York City",
+      "narrative_summary": "Carlos Perez was wrongfully convicted of the murder of Baithe Diop in 1997 and sentenced to 25 years to life. He served 18 years before being exonerated in 2012 after the sole eyewitness was deemed unreliable. He pursued a civil lawsuit after his release.",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification",
+        "Sole witness found unreliable",
+        "Potential witness coercion/perjury"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project"
+      ]
+    },
+    {
+      "full_name": "Devon Ayers",
+      "first_name": "Devon",
+      "middle_name": null,
+      "last_name": "Ayers",
+      "status": "EXONERATED",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2012,
+      "time_served": "18 years",
+      "sentence": "25 years to life",
+      "crime_convicted_of_raw": "Murder (of livery cab driver Baithe Diop)",
+      "case_location_city": "The Bronx",
+      "case_location_state": "New York City",
+      "narrative_summary": "Devon Ayers was wrongfully convicted of the murder of Baithe Diop in 1997 and sentenced to 25 years to life. He served 18 years before being exonerated in 2012 after the sole eyewitness was deemed unreliable. He pursued a civil lawsuit after his release.",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification",
+        "Sole witness found unreliable",
+        "Potential witness coercion/perjury"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "This episode focuses on Eric Glisson and five others convicted for a 1995 murder in the Bronx. The convictions rested heavily on a single eyewitness who was later deemed unreliable, leading to the exonerations after nearly two decades. Dateline followed the story, including Glisson's life after release. The episode title appears to be \"In the Shadow of Justice: A Bronx Tale\". May involve local community dynamics."
+}

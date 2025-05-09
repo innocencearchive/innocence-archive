@@ -1,0 +1,88 @@
+{
+    "sourceFileName": "359_Guest_Host_Susan_Simpson_with_Jeff_Titus_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom (original host), Susan Simpson (guest host for this episode)",
+        "releaseYear": "2023",
+        "network": "Lava for Good podcast in association with Signal Company No. 1.",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, investigative journalism, legal analysis, exoneree stories.",
+        "keyStats": "- Discover is accepted at 99% of places that take credit cards nationwide (advertisement).\n- 16.5 billion dollars in tax refunds flagged for possible identity fraud by the IRS last year (advertisement).\n- 20% overall increase in identity theft related to tax fraud in 2024 alone (advertisement).",
+        "itemNumber": "359",
+        "itemTitle": "Guest Host Susan Simpson with Jeff Titus",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction, guest-hosted by Susan Simpson, tells the story of Jeff Titus, wrongfully convicted for the 1990 murders of two hunters in Michigan. Despite a strong alibi and initial clearance by investigators, Titus was convicted in 2002 based on circumstantial evidence and questionable witness testimony after a cold case reinvestigation.  The podcast details the failures of his defense attorney, the \"tunnel vision\" of the cold case unit, and the emergence of serial killer Thomas Dillon as a compelling alternate suspect. After 20 years of wrongful imprisonment, the Michigan Innocence Clinic, along with original investigators who believed in his innocence, fought for Titus's release.  He was finally exonerated in 2023 thanks to the efforts of the Michigan Innocence Clinic and the revelation of critical evidence pointing to Dillon, highlighting the systemic issues within the justice system that lead to wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Jeff Titus",
+        "caseLocation": "Fulton game area near Kalamazoo, Michigan, USA",
+        "convictionYear": "2002",
+        "exonerationYear": "2023",
+        "crimeConvictedOf": "Murder of two hunters (Doug Estes and Jim Bennett)",
+        "sentence": "Life in prison without parole",
+        "timeServed": "20 years",
+        "contributingFactorsRaw": [
+            "Flawed Cold Case Investigation: Tunnel vision, pressure to solve, ignoring initial investigation.",
+            "\"Awakened Memory\" Testimony: Bonnie Huffman's changed timeline.",
+            "Ineffective Defense Counsel: Failure to interview original detectives and utilize key evidence.",
+            "Circumstantial Evidence: Misinterpretation of Jeff's personality and conversations."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Michigan Innocence Clinic, Redmarble Media (initially investigated for \"Killer in Question\" TV show)."
+        ],
+        "innocenceLawyersRaw": [
+            "Dave Moran, co-director of the Michigan Innocence Clinic."
+        ],
+        "crossReference": "Yes (Appears in the exoneree database - assumption based on podcast focus)",
+        "narrativeOriginalCrime": "On November 17, 1990, during deer season, two hunters, Doug Estes and Jim Bennett, were found fatally shot in the Fulton game area near Jeff Titus's property. Both were shot in the back with different types of shotgun ammunition.",
+        "keyEvidenceProsecutionRaw": [
+            "Bonnie Huffman's \"awakened memory\" testimony placing Jeff at her house around 5:30 PM, closer to the time of the murders.",
+            "Testimony from coworkers at the VA Hospital portraying Jeff as \"obsessed\" with the case and making statements interpreted as incriminating or disturbing.",
+            "The fact that Jeff found the shotgun, implying he planted it after the crime.",
+            "Newspaper articles and videos of Jeff as a Marine sniper found at his home, suggested as evidence of inclination to violence."
+        ],
+        "trialDefenderNotes": "- Hired a detective who did not effectively contact original detectives.\n- Did not call original detectives (Wierzema and Ballot) to testify about clearing Jeff initially and the Shepherd's alibi statement.\n- Failed to effectively challenge Bonnie Huffman's changed testimony with her original statement and her mother's consistent timeline.\n- Presented Stan Driscoll as an alibi witness, who was unhelpful and perceived negatively by the jury.\n- Did not adequately explore or present the alternate suspect, \"ditch guy,\" beyond a weak theory.",
+        "keyEvidenceExonerationRaw": [
+            "Re-examination of the timeline and alibi, highlighting the cold case team's flawed assumptions.",
+            "Discovery of Thomas Dillon, a serial killer of hunters, who matched the \"ditch guy\" description and had killed hunters in a similar timeframe.",
+            "Eyewitness identifications from 1993 where Helen Noss and her son identified Thomas Dillon as the \"ditch guy.\"",
+            "Dillon's wife's car matching the description of the \"ditch guy's\" car.",
+            "Dillon borrowing shotguns around the time of the murders and later boasting about a \"double header\" killing to a cellmate.",
+            "Re-evaluation of the travel time calculations, showing Dillon could have been at the crime scene.",
+            "Support from original investigators (Wierzema and Ballot) and dissenting cold case team member (Rich Madison)."
+        ],
+        "actualPerpetratorDetails": "- Name: Thomas Dillon\n- Serial killer of hunters in Ohio and suspected in other states.\n- Active around the time of the Fulton game area murders.\n- Matched the composite sketch of the \"ditch guy.\"\n- Identified in a lineup by witnesses as the \"ditch guy\" in 1993.\n- Wife owned a car matching the description of the \"ditch guy's\" car.\n- Borrowed shotguns around the time of the murders.\n- Confessed to a cellmate about a \"double header\" killing of two hunters."
+    },
+    "keyQuotesRaw": [
+        "Detective Workima's \"waking a memory\" investigative technique.",
+        "Dave Moran: \"detectives Wierzema and Ballot contacted me and told me that there was a double murder in Kalamazoo County and that the wrong man was in prison. And they knew the wrong man was in prison because they had cleared him.\"",
+        "Jeff Titus's emotional reaction to his exoneration news and release.",
+        "Dave Moran: \"This is one of the craziest cases that we've ever handled in the Michigan Innocence Clinic. There just aren't too many cases like this where you have such a ludicrous theory as to how and why the alleged perpetrator committed the crime.\"",
+        "Jeff Titus: \"What happened to me was truly a miscarriage by my defense attorneys, by the cops, and so on and so forth, because the stuff was there and it was ignored.\""
+    ],
+    "systemicIssuesRaw": [
+        "Cold case unit tunnel vision and pressure to secure convictions.",
+        "Ineffective assistance of counsel significantly hindering the defense.",
+        "Flawed eyewitness testimony and suggestive interview techniques.",
+        "The justice system's resistance to admitting error and rectifying wrongful convictions."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for conviction integrity units to review and address potential wrongful convictions.",
+        "Systemic reforms within law enforcement and prosecution to prevent tunnel vision in investigations.",
+        "Improved standards for defense counsel, particularly in serious felony cases.",
+        "Advocacy for improved eyewitness identification procedures and forensic science practices."
+    ],
+    "personalNarrativeRaw": [
+        "Jeff Titus spent 20 years in prison for a crime he did not commit, experiencing the culture shock and hardship of incarceration.",
+        "He maintained his innocence throughout and focused on self-improvement and helping others in prison through tutoring and creating greeting cards.",
+        "The wrongful conviction profoundly impacted his life, family, and sense of justice.",
+        "Despite the ordeal, Jeff expresses a lack of anger and a desire to move forward and heal, focusing on his love for the outdoors and sharing his story."
+    ],
+    "additionalResourcesRaw": [
+        "Michigan Innocence Clinic (link to be included in podcast bio).",
+        "The Proof Podcast and Undisclosed Podcast (Susan Simpson's podcasts).",
+        "Lava for Good podcast and Signal Company No. 1."
+    ]
+}

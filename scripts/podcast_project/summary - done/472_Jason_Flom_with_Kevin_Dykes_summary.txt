@@ -1,0 +1,88 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**:  Kevin Dykes' Story (Episode number not specified, inferred title based on content)
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2020, 2021, 2024 (Initial release in 2020, update in 2021, and mention of 2024 release from prison)
+-   **Production Company(ies)/Network**: Lava for Good Podcast, in association with Signal Company No. 1
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, jailhouse snitch testimony, systemic issues in the justice system, perseverance, hope, and the fight for exoneration.
+-   **Key Statistics/Information**:
+    -   Kevin Dykes served 38 years in prison for crimes he did not commit.
+    -   His conviction was based solely on the testimony of three jailhouse snitches who later recanted or were discredited.
+    -   A new law requiring corroboration of snitch testimony was passed in California, partly due to this case, but was not initially applied retroactively.
+    -   Kevin Dykes was re-sentenced, paroled, and released from prison in February 2024 due to the efforts of his lawyer and the new District Attorney's office.
+    -   He is still seeking full exoneration.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom tells the harrowing story of Kevin Dykes, who was wrongfully convicted in 1986 based on the unreliable testimony of jailhouse snitches.  Despite being initially a witness and even a victim in related events, Kevin was accused of murder and attempted murder, crimes actually committed by two drug dealers, Slim and Hondo.  His conviction rested solely on the accounts of three snitches, all of whom had incentives to lie for leniency in their own cases.  The episode details the systemic failures that led to his wrongful conviction and the decades-long fight for his freedom.  It highlights the devastating impact of jailhouse snitch testimony and the slow progress towards justice, even with recantations and legal reforms.  Ultimately, after 38 years, Kevin was released on parole in 2024, offering a glimmer of hope while underscoring the urgent need for systemic change to prevent similar injustices.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Kevin Dykes
+    -   **Case Location**: Compton, California, USA
+    -   **Conviction Year**: 1986 (for crimes committed in 1986, conviction year not explicitly stated but implied to be shortly after)
+    -   **Exoneration Year**: Paroled 2024 (seeking full exoneration)
+    -   **Crime Convicted Of**: Murder of Otis Perry, Attempted Murder of Ephraim, Attempted Murder of Mrs. Bradley
+    -   **Sentence**: 24 years to life
+    -   **Time Served**: 38 years
+    -   **Contributing Factors**:
+        -   Jailhouse snitch testimony (Willie Battle, Jesse Williams, Leslie White)
+        -   Misinterpretation of Kevin's statement to police
+        -   Systemic issues with the use of incentivized jailhouse informants
+    -   **Legal Status**: Paroled, Released, Seeking Exoneration
+    -   **Organizations Involved**:
+        -   Los Angeles District Attorney's Office (initially under Jackie Lacey, later under George Gascon who facilitated re-sentencing)
+        -   Conviction Integrity Unit (of the LA DA's office under George Gascon)
+        -   Innocence Projects (mentioned generally in outro)
+    -   **Innocence Lawyer Details**: Stephen K. Hauser, criminal defense attorney who represented Kevin Dykes and persistently fought for his release and justice. Gigi Gordon, deceased defense lawyer whose investigation into snitch cases helped bring about legislative change.
+    -   **Cross-Reference**: Yes (should be in exoneree databases given the focus of the podcast)
+    -   **Narrative of Original Crime**: Slim and Hondo, drug dealers Kevin was associated with, stabbed Ephraim and Mrs. Bradley at a party and later murdered Otis Perry after accusing him of stealing a gun. Kevin was present during these events, initially intervened to stop the stabbing of Ephraim and Mrs. Bradley, and was later coerced into helping dispose of Otis's body out of fear for his own life.
+    -   **Key Evidence at Trial (Prosecution)**:
+        -   Testimony of three jailhouse snitches: Willie Battle, Jesse Williams, and Leslie White, claiming Kevin confessed to the crimes.
+        -   Kevin's initial statement to Sergeant Preston, likely misconstrued to suggest guilt or intent.
+    -   **Trial Defender Notes**: Original trial defense was likely ineffective as they could not prevent conviction based on snitch testimony. Stephen K. Hauser became involved post-conviction and focused on discrediting the snitch testimony and highlighting the lack of evidence.
+    -   **Key Evidence for Exoneration/Change in Legal Status**:
+        -   Recantation of testimony by Leslie White (via affidavit and 60 Minutes interview) and Jesse Williams (via letter).
+        -   Gigi Gordon's independent investigation into snitch cases, exposing systemic issues.
+        -   Election of George Gascon as DA, leading to a more progressive approach from the Conviction Integrity Unit.
+        -   Motion for re-sentencing based on the lack of criminal intent and the unreliability of snitch testimony under current legal standards.
+    -   **Actual Perpetrator Details**:
+        -   Slim and Hondo: Mid-level drug dealers for whom Kevin was selling drugs. They committed the stabbings of Ephraim and Mrs. Bradley and the murder of Otis Perry. They are described as violent and intimidating figures.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "Kevin Dykes is serving life in prison on the word of three notorious jailhouse snitches." -  Emphasizes the injustice of the conviction.
+    -   Stephen K. Hauser: "It is nuts, but it's true." -  Highlights the unbelievable nature of the case.
+    -   Leslie White: "Well, man's gotta do what he's gotta do." -  Reveals the self-serving and cynical nature of jailhouse snitches.
+    -   Kevin Dykes: "I'm free. You know, inside, I'm at peace. And even if I die in here, I'll be at peace, Lord. I do for the truth and the one. I need the right thing as would as though some of my parents were proud of." -  Demonstrates his resilience and spiritual strength despite wrongful imprisonment.
+-   **Systemic Issues Identified**:
+    -   Over-reliance on and incentivization of jailhouse snitch testimony.
+    -   Lack of corroboration requirements for snitch testimony at the time of Kevin's trial.
+    -   Difficulties in overturning wrongful convictions even with recanted testimony and new evidence.
+    -   Non-retroactivity of legal reforms that could have prevented or rectified wrongful convictions like Kevin's.
+    -   Potential for prosecutorial tunnel vision and resistance to admitting error.
+-   **Policy Recommendations/Calls to Action**:
+    -   Support local Innocence Projects (general call to action in outro).
+    -   Petition to George Gascon (specific call to action mentioned in the episode to support Kevin's case).
+    -   Implicitly advocates for:
+        -   Stronger legal safeguards against the use of unreliable snitch testimony.
+        -   Retroactive application of laws designed to prevent wrongful convictions.
+        -   Increased scrutiny and accountability within prosecutor's offices regarding potential wrongful convictions.
+-   **Personal Narrative/Impact**:
+    -   Kevin's narrative powerfully illustrates the devastating personal impact of wrongful conviction, including the loss of decades of his life, separation from family, and the emotional toll of injustice.
+    -   His story highlights his resilience, his eventual inner peace, and his commitment to truth despite the immense hardship he endured.
+    -   The episode emphasizes the human cost of systemic failures within the justice system.
+-   **Additional Resources**:
+    -   Link to Kevin Dykes' Cash App (mentioned in episode description to support him post-release).
+    -   Petition to George Gascon (link in bio of podcast episode, aimed at urging the DA to support Kevin's exoneration).
+    -   Mention of Leslie White's 60 Minutes interview (as a resource for understanding the snitch system).
+```

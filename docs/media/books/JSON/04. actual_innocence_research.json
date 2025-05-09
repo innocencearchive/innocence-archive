@@ -1,0 +1,174 @@
+{
+  "source_file_name": "04. actual_innocence_research.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Actual Innocence: Five Days to Execution, and Other Dispatches from the Wrongly Convicted",
+    "creator_name": "Jim Dwyer, Peter Neufeld, Barry Scheck",
+    "publication_or_release_year": 2000,
+    "publisher_or_network": "Doubleday (Original), NAL Trade (Updated edition)",
+    "format": "Hardcover, paperback, e-book",
+    "focus_or_theme": "DNA exonerations, systemic causes of wrongful convictions, Innocence Project cases",
+    "key_statistics": "Documents some of the first 67 DNA exonerations in the United States"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "summary_notes": "\"Actual Innocence\" examines the cases of innocent people who were wrongfully convicted and later exonerated through DNA evidence. The book explores the systemic flaws in the American criminal justice system that lead to wrongful convictions, including eyewitness misidentification, false confessions, forensic science misconduct, prosecutorial misconduct, inadequate defense counsel, and the use of jailhouse informants.\n\nEach chapter focuses on a specific cause of wrongful conviction, illustrated through the stories of exonerees. The book not only documents these miscarriages of justice but also proposes reforms to prevent future wrongful convictions.",
+    "systemic_issues_raw": [
+      "Eyewitness misidentification",
+      "False confessions",
+      "Forensic science misconduct",
+      "Prosecutorial misconduct",
+      "Inadequate defense counsel",
+      "Use of jailhouse informants",
+      "Racial bias in the criminal justice system",
+      "Resistance to post-conviction DNA testing"
+    ],
+    "policy_recommendations_raw": [
+      "Improved eyewitness identification procedures",
+      "Mandatory recording of interrogations",
+      "Independent forensic laboratories",
+      "Increased funding for public defenders",
+      "Open file discovery policies for prosecutors",
+      "Preservation of biological evidence",
+      "Access to post-conviction DNA testing",
+      "Compensation for the wrongfully convicted"
+    ],
+    "item_title": "Book Content: Actual Innocence: Five Days to Execution, and Other Dispatches from the Wrongly Convicted",
+    "focus_or_theme": "DNA exonerations, systemic causes of wrongful convictions, Innocence Project cases"
+  },
+  "featured_individuals": [
+    {
+      "case_location": "New York",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 1987,
+      "crime_convicted_of": "Rape",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification, forensic errors"
+      ],
+      "status_raw": [
+        "Exonerated"
+      ],
+      "notes": "Described as \"mentally retarded and a very angry individual\" in the book",
+      "full_name": "Marion Coakley",
+      "first_name": "Marion",
+      "middle_name": null,
+      "last_name": "Coakley"
+    },
+    {
+      "case_location": "Maryland",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 1993,
+      "crime_convicted_of": "Rape and murder of a 9-year-old girl",
+      "sentence": "Death sentence, later commuted to life imprisonment",
+      "time_served": "8 years, including 2 years on death row",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification"
+      ],
+      "status_raw": [
+        "Exonerated through DNA evidence"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project"
+      ],
+      "cross_reference": "Listed in National Registry of Exonerations",
+      "individual_notes": "First death row inmate in the United States to be exonerated by DNA evidence",
+      "full_name": "Kirk Bloodsworth",
+      "first_name": "Kirk",
+      "middle_name": null,
+      "last_name": "Bloodsworth"
+    },
+    {
+      "case_location": "Monroeville, Alabama",
+      "conviction_year": 1988,
+      "exoneration_or_release_year": 1993,
+      "crime_convicted_of": "Murder of a white woman",
+      "sentence": "Death sentence",
+      "time_served": "6 years on death row",
+      "contributing_factors_raw": [
+        "Perjured testimony, prosecutorial misconduct, racial bias"
+      ],
+      "status_raw": [
+        "Exonerated"
+      ],
+      "organizations_involved_raw": [
+        "Equal Justice Initiative (Bryan Stevenson)"
+      ],
+      "cross_reference": "Listed in National Registry of Exonerations",
+      "individual_notes": "Also featured prominently in Bryan Stevenson's book \"Just Mercy\"",
+      "full_name": "Walter McMillian",
+      "first_name": "Walter",
+      "middle_name": null,
+      "last_name": "McMillian"
+    },
+    {
+      "case_location": "Ada, Oklahoma",
+      "conviction_year": 1988,
+      "exoneration_or_release_year": 1999,
+      "crime_convicted_of": "Rape and murder of Debbie Carter",
+      "sentence": "Fritz: Life imprisonment; Williamson: Death sentence",
+      "time_served": "11 years",
+      "contributing_factors_raw": [
+        "Jailhouse informant testimony, prosecutorial misconduct, forensic errors"
+      ],
+      "status_raw": [
+        "Exonerated through DNA evidence"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project"
+      ],
+      "cross_reference": "Listed in National Registry of Exonerations",
+      "individual_notes": "Their case was later featured in John Grisham's non-fiction book \"The Innocent Man\"",
+      "full_name": "Dennis Fritz and Ron Williamson",
+      "first_name": "Dennis",
+      "middle_name": "Fritz and Ron",
+      "last_name": "Williamson"
+    },
+    {
+      "case_location": "Georgia",
+      "conviction_year": 1983,
+      "exoneration_or_release_year": 1999,
+      "crime_convicted_of": "Rape",
+      "sentence": "Life imprisonment",
+      "time_served": "16 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification"
+      ],
+      "status_raw": [
+        "Exonerated through DNA evidence"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project"
+      ],
+      "cross_reference": "Listed in National Registry of Exonerations",
+      "full_name": "Calvin Johnson",
+      "first_name": "Calvin",
+      "middle_name": null,
+      "last_name": "Johnson"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Jim Dwyer",
+      "role": "AUTHOR",
+      "first_name": "Jim",
+      "middle_name": null,
+      "last_name": "Dwyer"
+    },
+    {
+      "full_name": "Peter Neufeld",
+      "role": "AUTHOR",
+      "first_name": "Peter",
+      "middle_name": null,
+      "last_name": "Neufeld"
+    },
+    {
+      "full_name": "Barry Scheck",
+      "role": "AUTHOR",
+      "first_name": "Barry",
+      "middle_name": null,
+      "last_name": "Scheck"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "- This book is considered a foundational text in the wrongful conviction literature\n- Written by Innocence Project co-founders, providing authoritative perspective\n- Documents early cases of DNA exonerations, showing the beginning of this movement\n- Provides detailed analysis of systemic issues that remain relevant today\n- Many of the cases featured have been further documented in subsequent books and documentaries"
+}

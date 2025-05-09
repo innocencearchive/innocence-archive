@@ -1,0 +1,92 @@
+{
+    "sourceFileName": "235_Jason_Flom_with_Amanda_Brumfield_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good podcast and association with signal company number one",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, shaken baby syndrome, forensic science, flaws in the justice system.",
+        "keyStats": "- Medical examiner incorrectly opined playpen fall inconsistent with Olivia's injuries.\n- Amanda Bromfield was convicted of manslaughter and sentenced to 20 years, served 9 years.\n- Expert witnesses barred from testifying due to untimely disclosure.\n- Medical examiner did not preserve bone fracture for further analysis.\n- US Consumer Product Safety Commission warned about lethal danger of short falls from playpens.\n- Study showed children frequently fall from playpens and cribs.",
+        "itemNumber": "235",
+        "itemTitle": "Jason Flom with Amanda Brumfield",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the story of Amanda Brumfield, wrongfully convicted of manslaughter in the death of her goddaughter Olivia.  Olivia died from a skull fracture after falling from a playpen while in Amanda's care. Despite it being an accident, the medical examiner incorrectly deemed the injuries inconsistent with a fall, leading to Amanda's charge and conviction.  Key factors contributing to the wrongful conviction included the flawed \"shaken baby syndrome\" theory, the barring of defense expert testimony, and national media attention due to Amanda's famous father, Billy Bob Thornton.  The Innocence Project of Florida and the Center for Integrity and Forensic Sciences (CIFS) took on her case, highlighting the flaws in the medical evidence and presenting studies on playpen fall dangers.  After years of fighting, Amanda was offered a plea deal for immediate release, choosing to prioritize her family over full exoneration. Amanda and Kate Judson from CIFS discuss the systemic issues and the ongoing misdiagnosis of child abuse, emphasizing the need for critical re-evaluation of forensic science in such cases."
+    },
+    "featuredIndividual": {
+        "fullName": "Amanda Brumfield",
+        "caseLocation": "Bromfield, Florida (inferred, mentioned as small town in Florida just outside of Orlando)",
+        "convictionYear": "2009 (approximately, 6 months after October 2008 death)",
+        "exonerationYear": "2020 (released after plea deal, not fully exonerated in legal terms but conviction effectively overturned)",
+        "crimeConvictedOf": "Manslaughter (originally charged with first-degree murder)",
+        "sentence": "20 years",
+        "timeServed": "9 years",
+        "contributingFactorsRaw": [
+            "Misinterpretation of medical evidence (skull fracture deemed inconsistent with playpen fall by medical examiner).",
+            "\"Shaken Baby Syndrome\"/Abusive Head Trauma theory applied incorrectly.",
+            "Barred defense expert testimony.",
+            "Media attention due to family connection.",
+            "Ineffective original defense (multiple attorney changes, late addition of final attorney, disclosure issues)."
+        ],
+        "status": "Released after accepting a plea deal (not fully exonerated, but conviction was vacated for release).",
+        "organizationsInvolvedRaw": [
+            "Innocence Project of Florida",
+            "Center for Integrity and Forensic Sciences (CIFS)"
+        ],
+        "innocenceLawyersRaw": [
+            "Seth Miller (Innocence Project of Florida)",
+            "Kate Judson (Center for Integrity and Forensic Sciences, Director)",
+            "Krista and Melissa mentioned as involved in the beginning."
+        ],
+        "crossReference": "Not specified if appears in exoneree database within transcript.",
+        "narrativeOriginalCrime": "One-year-old Olivia died from a skull fracture and brain bleed after falling head-first out of a playpen at Amanda Brumfield's house, where Amanda was babysitting her goddaughter.",
+        "keyEvidenceProsecutionRaw": [
+            "Medical examiner Jan Garabalia's autopsy and testimony stating Olivia's death was a homicide and the skull fracture was inconsistent with an accidental fall, requiring force like a car accident or slamming against a wall.",
+            "State claimed Olivia was too young to climb out of a playpen."
+        ],
+        "trialDefenderNotes": "- Defense presented two experts, but their testimony was significantly limited due to untimely disclosure of evidence to the prosecution.\n- Multiple attorney changes and a very short trial preparation time for the final attorney.\n- Initial attorneys moved out of state.",
+        "keyEvidenceExonerationRaw": [
+            "CIFS and Innocence Project presented expert opinions and studies showing short falls can cause serious injury/death in children, including from playpens.",
+            "Evidence that the medical examiner did not preserve the bone fracture, preventing age determination.",
+            "Evidence suggesting the fracture might have been older, potentially pre-existing.",
+            "Study showing frequency of children falling from playpens and cribs."
+        ],
+        "actualPerpetratorDetails": "Not applicable, case is presented as accidental death, not a crime."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"If this could happen to Amanda, it could happen to anyone.\"",
+        "Kate Judson on shaken baby syndrome origins: \"He [Dr. Guthkelch] wasn't saying that these findings were exclusively diagnostic of shaking. And he wasn't saying any of the stuff that emerged later, like that the last person with the child must have shaken the child or that these findings could only come from child abuse. He was just wondering about one possible mechanism.\"",
+        "Amanda Brumfield on verdict: \"My entire world crumbled right then because what I knew is a working system failed, not just me, but my children right then.\"",
+        "Amanda Brumfield on plea deal: \"It was no longer about right or wrong. It was all about making sure that I was doing what was right for my family, even if it meant that I had to just accept the deal and go home.\""
+    ],
+    "systemicIssuesRaw": [
+        "Flawed forensic science (\"shaken baby syndrome\").",
+        "Confirmation bias in accidental child death investigations leading to automatic assumption of abuse.",
+        "Overreliance on medical examiner testimony without sufficient scrutiny or preservation of evidence.",
+        "Inadequate legal defense due to public defender system issues (attorney changes, resource limitations, disclosure problems).",
+        "Impact of media attention and public perception on jury impartiality.",
+        "Pressure to resolve cases quickly, potentially compromising justice (prosecutor wanting to finish trial before Memorial Day weekend)."
+    ],
+    "policyRecommendationsRaw": [
+        "Re-examine the way child injury cases are investigated and diagnosed.",
+        "Critical evaluation of \"shaken baby syndrome\" diagnoses and reliance on triad of injuries.",
+        "Improved standards for forensic evidence preservation and analysis.",
+        "Better resources and support for public defenders to ensure adequate defense.",
+        "Public awareness to avoid premature judgment and reliance on media narratives in legal cases."
+    ],
+    "personalNarrativeRaw": [
+        "Amanda's wrongful conviction led to 9 years of imprisonment, separation from her children, and immense personal suffering.",
+        "She initially lost hope but found strength to improve herself through education and helping others in prison.",
+        "Despite release, she still carries the burden of not being fully exonerated and the trauma of the experience.",
+        "Her story highlights the devastating impact of wrongful convictions on individuals and families.",
+        "Amanda expresses a desire to help others avoid similar situations and be a voice for the wrongfully convicted."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project of Florida",
+        "Center for Integrity and Forensic Sciences (CIFS)",
+        "Wrongful Conviction podcast series on drug science and shaken baby syndrome (mentioned within the episode).",
+        "US Consumer Product Safety Commission warnings about playpen fall dangers.",
+        "2011 study on injuries associated with cribs, playpens, and bassinets."
+    ]
+}

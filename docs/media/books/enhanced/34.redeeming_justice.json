@@ -1,0 +1,123 @@
+{
+  "source_file_name": "34.redeeming_justice.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Redeeming Justice: From Defendant to Defender, My Fight for Equity on Both Sides of a Broken System",
+    "creator_name": "Jarrett Adams",
+    "publication_or_release_year": 2021,
+    "publisher_or_network": "Convergent Books",
+    "format": "Hardcover, 304 pages",
+    "focus_or_theme": "Wrongful conviction, personal memoir, criminal justice reform, racial bias in the justice system",
+    "key_statistics": "The author was one of thousands of wrongfully convicted individuals in the United States; served nearly 10 years of a 28-year sentence"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "The book recounts \"the many ways the justice system not only failed him but acted as an adversary to Adams\"",
+      "\"It's a book that will make everyone think about how America's systems govern our citizens and how injustice all too often masquerades as justice\""
+    ],
+    "systemic_issues_raw": [
+      "Racial bias in the criminal justice system",
+      "Inadequate legal representation for defendants",
+      "Procedural barriers to proving innocence after conviction",
+      "All-white juries in cases involving Black defendants",
+      "Prosecutorial misconduct and false testimony",
+      "Difficulty of life after exoneration"
+    ],
+    "policy_recommendations_raw": [
+      "Reform of legal defense systems to ensure adequate representation",
+      "Addressing racial bias in jury selection and throughout the justice system",
+      "Creating better support systems for exonerees after release",
+      "Establishing more robust review processes for potential wrongful convictions"
+    ],
+    "additional_resources_raw": [
+      "Life After Justice (non-profit co-founded by Adams)",
+      "The Innocence Project",
+      "National Registry of Exonerations",
+      "Wisconsin Innocence Project"
+    ],
+    "item_title": "Book Content: Redeeming Justice: From Defendant to Defender, My Fight for Equity on Both Sides of a Broken System",
+    "focus_or_theme": "Wrongful conviction, personal memoir, criminal justice reform, racial bias in the justice system",
+    "summary_notes": "The book is a personal memoir by Jarrett Adams, recounting his wrongful conviction and subsequent fight for justice.  It details the systemic issues within the American criminal justice system, particularly racial bias, inadequate legal representation, and the challenges faced by exonerees after release. Adams' journey from defendant to defender is highlighted, along with his work to prevent future wrongful convictions.",
+    "case_details_raw": "The book details Jarrett Adams' wrongful conviction for sexual assault in Whitewater, Wisconsin in 2000, his nearly 10-year incarceration, and his eventual exoneration in 2007. It also mentions the cases of Dimitri Henley, who was also convicted in the same case, and Richard Beranek, whom Adams later represented.",
+    "research_notes_other": {
+      "post_exoneration_career": "After his exoneration, Jarrett Adams earned a law degree from Loyola University Chicago School of Law in 2015, worked with Judge Ann Claire Williams, joined the Innocence Project, co-founded Life After Justice, and established law offices in New York, Chicago, and Milwaukee."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Jarrett M. Adams",
+      "first_name": "Jarrett",
+      "middle_name": "M.",
+      "last_name": "Adams",
+      "case_location": "Whitewater, Wisconsin (Jefferson County)",
+      "conviction_year": 2000,
+      "exoneration_or_release_year": 2007,
+      "crime_convicted_of": "Sexual Assault",
+      "sentence": "28 years",
+      "time_served": "Nearly 10 years (released January 28, 2007)",
+      "contributing_factors_raw": [
+        "Perjury/False Accusation: The alleged victim's testimony was contradicted by other witnesses",
+        "Inadequate Legal Defense: Defense attorney failed to call a key witness who could have established consent",
+        "Racial Bias: Adams and his co-defendants (Black) were tried by an all-white jury for an alleged crime against a white woman"
+      ],
+      "status_raw": "Exonerated (charges dismissed February 9, 2007)",
+      "organizations_involved_raw": [
+        "Wisconsin Innocence Project"
+      ],
+      "cross_reference": "Listed in the National Registry of Exonerations",
+      "individual_notes": null
+    },
+    {
+      "full_name": "Dimitri Henley",
+      "first_name": "Dimitri",
+      "middle_name": null,
+      "last_name": "Henley",
+      "case_location": "Whitewater, Wisconsin",
+      "conviction_year": 2000,
+      "exoneration_or_release_year": "Conviction overturned but later reinstated by Wisconsin Supreme Court",
+      "crime_convicted_of": "Sexual Assault",
+      "sentence": "20 years",
+      "time_served": "Information not fully available",
+      "contributing_factors_raw": [
+        "Same case as Jarrett Adams"
+      ],
+      "status_raw": "Conviction reinstated by Wisconsin Supreme Court",
+      "organizations_involved_raw": [
+        "Wisconsin Innocence Project"
+      ],
+      "cross_reference": "Mentioned in National Registry of Exonerations",
+      "individual_notes": null
+    },
+    {
+      "full_name": "Richard Beranek",
+      "first_name": "Richard",
+      "middle_name": null,
+      "last_name": "Beranek",
+      "case_location": "Wisconsin",
+      "conviction_year": null,
+      "exoneration_or_release_year": 2018,
+      "crime_convicted_of": null,
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [],
+      "status_raw": "Exonerated (case dismissed in 2018)",
+      "organizations_involved_raw": [
+        "Jarrett Adams was part of his legal team"
+      ],
+      "cross_reference": "Mentioned in National Registry of Exonerations",
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Jarrett Adams",
+      "role": "AUTHOR",
+      "first_name": "Jarrett",
+      "middle_name": null,
+      "last_name": "Adams"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

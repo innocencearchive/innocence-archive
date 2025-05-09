@@ -1,0 +1,84 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Maggie Freeling
+-   **Episode # & Title (if applicable)**: Ashley Jordan
+-   **Host(s)**: Maggie Freeling
+-   **Release Year(s)**: 2023
+-   **Production Company(ies)/Network**: Lava for Good Podcasts
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, stories of exonerees, flaws in the justice system, legal reform.
+-   **Key Statistics/Information**: Over 190,000 people on parole and over 19,000 people on probation in Georgia are not allowed to vote.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: Ashley Jordan recounts the horrific experience of being wrongfully convicted, along with her husband Albert, for the murder of their infant daughter Mackenzie.  Days after bringing Mackenzie home, she tragically passed away, leading to immediate suspicion from law enforcement. Despite a lack of evidence and maintaining their innocence, Ashley and Albert were interrogated, arrested, and ultimately convicted based on flawed medical testimony claiming blunt force trauma and the unreliable testimony of a jailhouse informant.  The podcast details the devastating trial, the misrepresentation of 'reasonable doubt' by the prosecution, and the subsequent years of wrongful imprisonment.  After serving over twelve years, their convictions were finally vacated due to ineffective assistance of counsel, highlighting the critical failures within the legal system and Ashley's journey towards healing and advocacy post-exoneration.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Ashley Jordan
+-   **Case Location**: Fort Benning & Columbus, Georgia, USA
+-   **Conviction Year**: 2009
+-   **Exoneration Year**: 2020
+-   **Crime Convicted Of**: Malice murder, felony murder, and cruelty to children in the first degree.
+-   **Sentence**: Life in prison
+-   **Time Served**: 12 years and 2 months
+-   **Contributing Factors**:
+    -   Flawed Medical Evidence: Initial autopsy conclusions of blunt force trauma later questioned.
+    -   Ineffective Assistance of Counsel: Failure of defense to adequately challenge medical evidence.
+    -   Prosecutorial Misconduct: Misrepresentation of "reasonable doubt" during closing arguments.
+    -   Jailhouse Informant: Unreliable testimony from Melvin Tarver.
+-   **Legal Status**: Exonerated (convictions vacated by Georgia Supreme Court)
+-   **Organizations Involved**:
+    -   Defense attorneys: Sandy Callahan (Ashley's initial private attorney), Bill Mason (Albert's appointed attorney), Jiminique Rogers (Attorney who later took on Ashley's case and argued ineffective assistance of counsel)
+-   **Innocence Lawyer Details**:
+    -   **Jiminique Rogers**: Criminal defense attorney and doctoral student in criminal justice and criminology.  Took on Ashley's case in 2014 and successfully argued for the vacating of her conviction based on ineffective assistance of counsel.
+    -   **Sandy Callahan**: Ashley's initial private attorney during the original trial.
+    -   **Bill Mason**: Albert's court-appointed attorney during the original trial.
+-   **Narrative of Original Crime**: Ashley and Albert Doublebot's infant daughter, Mackenzie, died suddenly a few days after birth.  After noticing a lump on her head and breathing difficulties, they rushed her to the hospital where she passed away.  Medical professionals initially suspected foul play due to perceived injuries.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Testimony of Dr. Laura Daris (medical examiner) stating Mackenzie died from blunt force trauma to the head with multiple skull fractures, concluding homicide.
+    -   Testimony of jailhouse informant Melvin Tarver, claiming Albert confessed that Ashley harmed Mackenzie.
+    -   Prosecution's portrayal of Ashley as emotionally cold and lacking appropriate grief.
+-   **Trial Defender Notes**:
+    -   **Ashley's Defense (Sandy Callahan)**: Initially intended to challenge medical evidence with expert John Plunkett on shaken baby syndrome but was hindered by lack of access to prosecution's medical evidence and denial of continuance. Ultimately presented a weak defense.
+    -   **Albert's Defense (Bill Mason)**: Strategy was not to challenge the medical evidence presented by the prosecution.
+    -   Both defense teams failed to object to significant misrepresentations and inaccuracies by the prosecution during closing arguments, including the mischaracterization of "reasonable doubt."
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   New medical expert testimonies presented in 2015 during post-conviction hearings, suggesting Mackenzie's injuries were likely pre-natal or occurred during birth, contradicting the original blunt force trauma diagnosis.
+    -   Georgia Supreme Court vacated convictions in 2020 based on ineffective assistance of counsel, specifically the failure of trial counsel to adequately challenge the state's medical evidence.
+-   **Actual Perpetrator Details**: Not applicable. The case was a wrongful conviction; no other perpetrator was identified.  The likely cause of Mackenzie's death was natural or due to pre-existing conditions, not homicide.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Ashley Jordan: "And then Columbus police department showed up. And that's when everything pretty much went to hell." -  Highlights the moment their lives took a drastic turn towards wrongful accusation.
+    -   Ashley Jordan (about Detective Tiner): "I would never forget him because he called me a monster." -  Illustrates the dehumanizing experience during interrogation.
+    -   Prosecutor Sedana Daily's misrepresentation of reasonable doubt: "You don't have to be 90% sure. You don't have to be 80% sure. You don't have to be 51% sure." - Demonstrates prosecutorial misconduct and lowering the burden of proof.
+    -   Ashley Jordan's call to action: "So if you don't vote for anybody else, vote for those who can't vote for themselves and that's all I gotta say." -  Emphasizes the importance of voting rights for ex-offenders.
+-   **Systemic Issues Identified**:
+    -   **Junk Science in Court**: Reliance on initially flawed medical interpretations of infant injuries as definitive proof of abuse.
+    -   **Ineffective Assistance of Counsel**: Deficient legal representation that failed to challenge key prosecution evidence, hindering a fair trial.
+    -   **Prosecutorial Misconduct**: Misleading statements about the burden of proof and reasonable doubt, creating an unfair advantage for the prosecution.
+    -   **Unreliable Jailhouse Informants**: Use of testimony from individuals seeking leniency, lacking credibility and potentially fabricating evidence.
+    -   **Impact of Racial Bias**: Suggestion of racial undertones in the prosecution's strategy to portray Ashley negatively.
+    -   **Voting Rights Disenfranchisement**:  Ex-offenders in Georgia unable to vote, even after completing sentences and paying taxes, highlighting systemic civic exclusion.
+-   **Policy Recommendations/Calls to Action**:
+    -   Advocate for voting rights restoration for ex-offenders.
+    -   Support organizations working on criminal justice reform, such as Women on the Rise GA and the Southern Center for Human Rights.
+    -   Promote awareness of the dangers of junk science in the courtroom and the need for robust legal defense in complex cases.
+-   **Personal Narrative/Impact**:
+    -   **Emotional Trauma**: Ashley's description of shock, denial, grief, and despair following her daughter's death and wrongful accusation, including suicidal ideation in prison.
+    -   **Marital Strain**: The wrongful conviction led to the dissolution of Ashley's marriage with Albert due to the immense pressure and trauma.
+    -   **Resilience and Advocacy**:  Ashley's journey of finding strength and purpose after exoneration, pursuing education, building new relationships, and becoming an advocate for prison reform and voting rights.
+    -   **Loss of Prime Years**: The irreversible loss of over a decade of Ashley and Albert's lives spent incarcerated for a crime they did not commit, impacting their personal and professional development.
+-   **Additional Resources**:
+    -   womenontherisega.org (Women on the Rise GA)
+    -   schr.org (Southern Center for Human Rights)
+    -   Mention of podcast production team and music composer as credits.
+```

@@ -1,0 +1,93 @@
+{
+    "sourceFileName": "201_Jason_Flom_with_Dewey_Bozella_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One.",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, Criminal Justice System, Exoneration, Personal Stories of the Wrongfully Convicted.",
+        "keyStats": "- Dewey Bozella was wrongfully incarcerated for over 26 years.\n- He was convicted twice despite lack of evidence.\n- Prosecutorial misconduct and incentivized witnesses played a key role in his wrongful conviction.\n- He won a professional boxing match in his 50s after exoneration.\n- He received the Arthur Ashe Courage Award.",
+        "itemNumber": "201",
+        "itemTitle": "Jason Flom with Dewey Bozella",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features Dewey Bozella, who was wrongfully convicted for the murder of Emma Crapser and spent over 26 years in prison. The episode details Dewey's traumatic childhood, his boxing journey, and the events leading to his wrongful conviction in 1983, despite a lack of evidence and the presence of evidence pointing to other perpetrators.  It highlights the prosecutorial misconduct, reliance on coerced and incentivized witness testimony, and racial bias that contributed to his conviction.  Despite two trials and offers of plea deals, Dewey maintained his innocence.  The podcast further explores his incredible transformation in prison, becoming a boxing champion and earning multiple degrees.  Ultimately, new evidence and the admission of the arresting officer led to his exoneration in 2009, after which he achieved his dream of becoming a professional boxer at age 52 and received the Arthur Ashe Courage Award. Dewey's story is a powerful testament to resilience, forgiveness, and the fight for justice against a flawed system."
+    },
+    "featuredIndividual": {
+        "fullName": "Dewey Bozella",
+        "caseLocation": "Poughkeepsie, New York, USA",
+        "convictionYear": "1983 (initially arrested in 1977, first trial and conviction in 1983, second conviction after retrial in 1990)",
+        "exonerationYear": "2009",
+        "crimeConvictedOf": "Murder of Emma Crapser",
+        "sentence": "20 years to life",
+        "timeServed": "Over 26 years",
+        "contributingFactorsRaw": [
+            "False accusations by Lamar and Stanley Smith (incentivized witnesses/coerced testimony)",
+            "Prosecutorial misconduct (withholding exculpatory evidence, presenting false narrative)",
+            "Ineffective trial defense (not explicitly stated but implied by the focus on prosecutorial misconduct and later exoneration based on existing evidence)",
+            "Racial bias in jury selection (systematically removed black jurors in retrial)"
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (initially, then passed case on)",
+            "Wilmer Cutler Hale (pro bono legal representation for exoneration)",
+            "Pacers Foundation & Last Mile Organization (Sponsors of the podcast episode)"
+        ],
+        "innocenceLawyersRaw": [
+            "Wilmer Cutler Hale (law firm) took the case pro bono. Lawyer names not specifically mentioned."
+        ],
+        "crossReference": "Yes, should be in exoneree databases.",
+        "narrativeOriginalCrime": "92-year-old Emma Crapser was found bound, tied up, and suffocated in her apartment on June 14, 1977. Police theorized it was a burglary gone wrong.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of Lamar and Stanley Smith claiming Dewey Bozella and Wayne Mosley were trying to break into Emma Crapser's apartment.",
+            "Testimony of Stanley Smith collaborating Lamar Smith's account in the second trial.",
+            "No physical evidence linking Dewey Bozella to the crime scene."
+        ],
+        "trialDefenderNotes": "Not detailed in the transcript, but implied to be ineffective as Dewey was convicted twice despite lack of evidence, and exculpatory evidence was available.",
+        "keyEvidenceExonerationRaw": [
+            "Testimony of Madeleine Dixon South identifying Donald and Anthony Wise near the crime scene and their confession to a similar crime.",
+            "Fingerprint of Donald Wise found at the crime scene.",
+            "Files kept by arresting officer Arthur Rehla containing exculpatory evidence:",
+            "Witness statements placing Wayne Mosley and Lamar Smith elsewhere during the crime.",
+            "Witness statement from two ladies who were sitting outside and did not see Mosley and others in front of the house.",
+            "A taped statement indicating Dewey's innocence (statement details not fully elaborated in transcript)."
+        ],
+        "actualPerpetratorDetails": "Donald and Anthony Wise (brothers). Anthony Wise's girlfriend, Madeleine Dixon South, witnessed them and they confessed to a similar crime. Donald Wise's fingerprint was found at Emma Crapser's apartment. They were implicated in eerily similar crimes around the same time."
+    },
+    "keyQuotesRaw": [
+        "\"This is wrongful conviction with Jason Flom.\" (Podcast intro)",
+        "\"If I was going to write a book about your life, I would probably call it unbreakable because you have been through experiences even beyond your wrongful incarceration that would have broken almost any mere mortal.\" (Jason Flom to Dewey)",
+        "Dewey on prison transformation: \"I looked at the cigarette and I looked at my life. And I said, look at you, man, this fucking look at you. You became the fucking savage that they were talking about. You became exactly the person they were fucking talking about.\"",
+        "Dewey on forgiveness to Stanley Jackson: \"I walked to him and I said, young man, I talked to you for a minute... And then why you murder my brother?... I looked him down the face and I looked him up and down. The first thing that came to my mind was, they let this shit go and they move on with your life. And I reached home and I shook his hand. I do young man, young man. I forgive you.\"",
+        "President Obama's call to Dewey: \"I heard a lot about you. I heard that, you know, you do a lot of things. You know, giving back to the community and everything. He said, I just want to wish you well on your fight.\"",
+        "Dewey's closing thoughts: \"Don't give up on yourself. Don't let nobody tell you what you can't do. Don't give up on yourself. Don't make yourself feel like, you know, you're not worthy.\""
+    ],
+    "systemicIssuesRaw": [
+        "Prosecutorial misconduct (withholding evidence, coercion, tunnel vision)",
+        "False and incentivized witness testimony",
+        "Inadequate legal defense",
+        "Racial bias in jury selection",
+        "Pressure on police to solve crimes quickly leading to flawed investigations."
+    ],
+    "policyRecommendationsRaw": [
+        "Support local innocence projects.",
+        "Raise awareness about wrongful convictions.",
+        "Advocate for criminal justice reform.",
+        "Improve police and prosecutorial accountability."
+    ],
+    "personalNarrativeRaw": [
+        "Dewey's narrative is one of extreme hardship, wrongful incarceration, and incredible resilience and transformation.",
+        "He emphasizes the importance of personal choice, forgiveness, and never giving up.",
+        "His story aims to inspire hope and encourage others facing adversity.",
+        "Final thoughts focused on encouraging listeners to believe in themselves and their potential regardless of past hardships."
+    ],
+    "additionalResourcesRaw": [
+        "Dewey Bozella's book (title not specified in transcript, but mentioned)",
+        "ESPN film \"26 Years: The Dewey Bozella Story\"",
+        "PacersFoundation.org",
+        "thelastmile.org",
+        "Instagram at wrongful conviction",
+        "Facebook at wrongful conviction podcast"
+    ]
+}

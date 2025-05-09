@@ -1,0 +1,68 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: N/A
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Unknown
+-   **Production Company(ies)/Network**: Lava for Good podcast in association with signal company number one
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Investigative journalism, wrongful convictions, criminal justice system failures, eyewitness testimony, ineffective defense counsel, prosecutorial misconduct, police misconduct.
+-   **Key Statistics/Information**: 1% of the 2.2 million people incarcerated in America are wrongfully convicted, equating to 22,000 individuals. Andre Hatchet served 25 years in prison for a crime he did not commit.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Jason Flom" tells the harrowing story of Andre Hatchet, who was wrongfully convicted of murder in 1992 and spent 25 years in prison.  The podcast features Andre, his brother Jerry, and Sima Safie from the Innocence Project, detailing the gruesome crime and the egregious failures of the justice system that led to Andre's conviction.  Despite being physically disabled at the time of the murder and having a solid alibi, Andre was convicted based solely on the unreliable testimony of a crack-addicted informant. The episode highlights the ineffective assistance of his defense attorneys, the withholding of crucial evidence by the prosecution, and the systemic biases that contribute to wrongful convictions. After years of fighting, the Innocence Project and the Brooklyn District Attorney's Conviction Review Unit uncovered evidence of undisclosed information proving the informant's unreliability, leading to Andre's exoneration in 2016. Andre's story exemplifies the devastating impact of wrongful convictions and the arduous journey to freedom and justice.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Andre Hatchet
+-   **Case Location**: Brooklyn, New York, USA (Bedford-Stuyvesant park)
+-   **Conviction Year**: 1992
+-   **Exoneration Year**: 2016
+-   **Crime Convicted Of**: Murder (beating death of Netta May Carter)
+-   **Sentence**: 25 years to life
+-   **Time Served**: 26 years (25 years in prison, 1 year in jail awaiting trial)
+-   **Contributing Factors**: Eyewitness misidentification (unreliable informant testimony), ineffective defense counsel, prosecutorial misconduct (Brady violation - failure to disclose exculpatory evidence).
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**: Innocence Project, Brooklyn District Attorney's Conviction Integrity Unit, Paul Weiss (law firm - pro bono assistance)
+-   **Innocence Lawyer Details**: Sima Safie (Innocence Project attorney featured in the podcast), Jason Craig (predecessor at Innocence Project who initially worked on the case), Barry Shek (mentioned in relation to witness questioning legislation, associated with Innocence Project generally), Paul Weiss law firm (provided legal resources).
+-   **Narrative of Original Crime**: Netta May Carter, a 38-year-old woman, was brutally murdered in a Brooklyn park. Her body was found bludgeoned, skull exposed, teeth knocked out, dragged, and sexually violated. Metal pipes were found near the body, believed to be the murder weapon.
+-   **Key Evidence at Trial (Prosecution)**: The sole key evidence was the eyewitness testimony of Jerry Williams, a crack-addicted informant with a lengthy criminal record (30 prior arrests, 20 convictions). Williams claimed to have witnessed Andre committing the murder from 40 feet away on a rainy night, recognizing him by voice despite never having spoken to him before.
+-   **Trial Defender Notes**: Andre had two defense attorneys. The first was deemed ineffective by the judge for failing to present an alibi or cross-examine witnesses. The second, though ordered to present medical records proving Andre's physical inability to commit the crime due to recent gunshot wounds and mobility limitations, also failed to present this crucial evidence to the jury. Both were described as providing "unconscionable" defense.
+-   **Key Evidence for Exoneration/Change in Legal Status**:  The Brooklyn Conviction Review Unit uncovered two critical pieces of undisclosed evidence: 1) A memo showing that Jerry Williams initially identified a different man, James Pringle, as the perpetrator (who had an alibi), undermining Williams' reliability. 2) Evidence that Jerry Williams admitted to being on crack cocaine on the night of the murder, contradicting his trial testimony and further damaging his credibility. These undisclosed facts constituted Brady violations, leading to the overturning of Andre's conviction.
+-   **Actual Perpetrator Details**: While not definitively named, the podcast strongly implies Jerry Williams as a potential actual perpetrator. He knew the victim, was a crack addict (and the victim exchanged sex for drugs), and had a history of violence (including throwing a woman in a dumpster). The podcast suggests the extreme violence of the crime indicated a personal motive, raising further suspicion about Williams's possible involvement. James Pringle, initially identified by Williams, was ruled out due to an alibi.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Andre Hatchet: "Having to hear those people say that I was guilty of a crime that I did not commit, and then hear my family break down behind me and not be able to do anything about it, I can't describe the crushing weight that was."
+    -   Andre Hatchet: (Referring to the Judge at sentencing) "And the judge looked at him and said, I didn't do it neither."
+    -   Sima Safie: "The fact that they did not order and present his medical records was unconscionable." (Referring to Andre's defense attorneys).
+    -   Sima Safie: "You shouldn't have to pull your hair out and kick and scream to get an innocent person out of prison in this country."
+    -   Jerry Hatchet (Brother): "My mother knew, and before my mother passed away, she said, look out for Andre because God knows he didn't commit that crime."
+
+-   **Systemic Issues Identified**:
+    -   **Ineffective Assistance of Counsel**: Both of Andre's defense attorneys failed to adequately represent him, neglecting to present crucial alibi and medical evidence.
+    -   **Unreliable Eyewitness Testimony**: Reliance on the testimony of a highly incentivized and unreliable informant with a criminal history and potential motive to lie.
+    -   **Prosecutorial Misconduct/Brady Violations**: Failure by the prosecution to disclose exculpatory evidence that would have impeached the credibility of the key witness, Jerry Williams.
+    -   **Police Misconduct**: Possible coercion or suggestive tactics in obtaining witness testimony.
+    -   **Socioeconomic and Racial Bias**:  Implied systemic issues related to race and class influencing the outcome of the case, as highlighted by Sima Safie referencing Barry Scheck's statement about systemic bias.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Mention of pending legislation on witness questioning (referenced by attorney Barry Shek, though specifics not detailed in the transcript).
+    -   Call to support the Innocence Project through donations and involvement to help prevent future wrongful convictions (explicitly stated by Jason Flom at the end).
+
+-   **Personal Narrative/Impact**:
+    -   **Andre Hatchet**: Experienced significant personal trauma before and during his wrongful conviction, including being shot prior to arrest, suffering physical disabilities, and enduring the loss of his mother, father, brother, and son while incarcerated. Despite these hardships and brutal treatment in prison, Andre maintained his innocence, positive spirit, and forgiveness. He expresses ongoing PTSD and struggles with the loss of time and family.
+    -   **Jerry Hatchet (Brother)**:  Took on a protective role for his brother and family, facing immense stress and responsibility in supporting Andre and their mother throughout the ordeal. He highlights the emotional and practical burdens on families of the wrongfully convicted.
+
+-   **Additional Resources**:
+    -   Innocence Project (InnocenceProject.org) - Recommended for donations and involvement.
+    -   Spotlight Snitch City Podcast - Advertised in the podcast as another investigative series focusing on police informants and misconduct.
+```

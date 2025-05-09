@@ -1,0 +1,91 @@
+{
+    "sourceFileName": "058_Jason_Flom_with_Calvin_Buari_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2018",
+        "network": "Lava for Good podcast in association with signal company number one",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system, prosecutorial misconduct, exoneration, personal stories of exonerees.",
+        "keyStats": "-   Calvin Boari served over two decades for a double murder he did not commit.\n-   Dwight Robinson, a key witness, later confessed to the crime and then recanted.\n-   Prosecutorial misconduct and Brady violations in the Bronx DA's office are highlighted.\n-   The concept of \"Trial by Ambush\" and lack of open case files for defense attorneys are discussed.\n-   Recidivism rates are mentioned in the context of family visits to incarcerated individuals.",
+        "itemNumber": "058",
+        "itemTitle": "Jason Flom with Calvin Buari",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Calvin Boari, who was wrongfully convicted of a double homicide in 1995 and spent over two decades in prison, and Steve Fishman, a journalist whose work aided in Boari's eventual release.  The podcast details Boari's upbringing, his involvement in the drug trade, and the events leading to his wrongful conviction, highlighting prosecutorial misconduct, incentivized witnesses, and trial by ambush tactics. Despite maintaining his innocence and even receiving a confession from another individual who later recanted, Boari persevered.  Key to his eventual exoneration were new eyewitness testimonies that corroborated his innocence.  The episode explores the systemic failures within the justice system, the personal impact of wrongful conviction, and Boari's resilience and entrepreneurial spirit post-release, where he now runs a van service for prison visits and advocates for justice reform."
+    },
+    "featuredIndividual": {
+        "fullName": "Calvin Boari",
+        "caseLocation": "Bronx, New York, USA",
+        "convictionYear": "1995",
+        "exonerationYear": "2017 (conviction vacated)",
+        "crimeConvictedOf": "Double homicide",
+        "sentence": "50 years to life",
+        "timeServed": "Over 22 years",
+        "contributingFactorsRaw": [
+            "False accusation by an informant (Algebraic Griffin).",
+            "Incentivized and unreliable witnesses, including Dwight Robinson.",
+            "Prosecutorial misconduct, including \"Trial by Ambush\" tactics and withholding information.",
+            "Negative media propaganda influencing potential jurors."
+        ],
+        "status": "Exonerated (conviction vacated)",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (initially corresponded, but case didn't fit DNA criteria at the time).",
+            "Potentially mentioned pro bono attorneys and investigators."
+        ],
+        "innocenceLawyersRaw": [
+            "Myron Beldock (lead attorney, described as \"greatest lawyer on the planet Earth\", represented Hurricane Carter), Joe Rudin (initially considered, later co-counsel possibility, but not ultimately needed), Oscar Michelin (attorney who helped with witness testimony in court)."
+        ],
+        "crossReference": "Not specified if in exoneree database in the transcript.",
+        "narrativeOriginalCrime": "Two brothers, Elijah and Saladin Harris, were murdered in cold blood while sitting in a car eating food in the Bronx on September 10, 1992. Calvin Boari was later convicted of this crime.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony from Algebraic Griffin (initially, though his credibility was questioned).",
+            "Testimony from Dwight Robinson, who claimed to be an eyewitness and organized other witnesses.",
+            "Testimonies from other incentivized witnesses, some of whom Boari did not know."
+        ],
+        "trialDefenderNotes": "Original defense lawyer not mentioned in detail. The transcript focuses on the lack of information provided to the defense (\"Trial by Ambush\") and the missing file folders of evidence.",
+        "keyEvidenceExonerationRaw": [
+            "Recantation letter and initial confession from Dwight Robinson (though later recanted in court during the 440 hearing in 2003).",
+            "New eyewitness testimonies from Kimberly and Nakia Clark (the \"Clock sisters\") who witnessed the murders and identified someone else as the perpetrator, not Calvin Boari."
+        ],
+        "actualPerpetratorDetails": "According to the Clark sisters' testimony, Dwight Robinson was implied to be the actual perpetrator, as they witnessed him commit the crime. However, Dwight Robinson was never formally charged for the Harris murders and his confession was recanted."
+    },
+    "keyQuotesRaw": [
+        "Calvin Boari: \"I'm not innocent to approve and guilty, I'm guilty until I approve my innocence and that's absolutely what happened to me.\"",
+        "Calvin Boari: \"I totally lost trust in humanity after what happened to it.\"",
+        "Dwight Robinson (recounted by Steve Fishman): \"You tell the truth, you're going to lose every time.\"",
+        "Steve Fishman (quoting prosecutor Alan Cameron): \"I was bluffing. I was going to take this as far as I could and then dismiss it.\" (regarding initial lack of evidence).",
+        "Nakia Clark (Evilina) (recounted by Steve Fishman):  Under her breath during cross-examination, and then aloud \"I saw who did it and it wasn't Calvin Boari.\""
+    ],
+    "systemicIssuesRaw": [
+        "Prosecutorial misconduct and Brady violations.",
+        "\"Trial by Ambush\" tactics and lack of open discovery.",
+        "Incentivized witness testimony and deals for cooperation.",
+        "Prosecutorial immunity and lack of accountability.",
+        "Media influence and propaganda affecting jury pools.",
+        "Racial bias in the justice system (implied through \"witch hunt\" and focus on Boari)."
+    ],
+    "policyRecommendationsRaw": [
+        "Justice reform to prevent wrongful convictions.",
+        "Elimination of prosecutorial immunity.",
+        "Open case files and mandatory discovery for defense attorneys.",
+        "Support for organizations like the Innocence Project."
+    ],
+    "personalNarrativeRaw": [
+        "Calvin Boari's loss of trust in humanity and the justice system.",
+        "Boari's resilience and determination to fight for his freedom despite immense obstacles.",
+        "The emotional toll of wrongful conviction and imprisonment, including anger, fear, and adaptation to a violent prison environment.",
+        "Boari's post-exoneration focus on building a legitimate business and giving back to the community, especially families visiting incarcerated individuals.",
+        "The importance of family support and visits in reducing recidivism."
+    ],
+    "additionalResourcesRaw": [
+        "Podcast \"Spotlight Snitch City\" (investigative series on police informants).",
+        "Podcast \"The Setup\" (new podcast from producers of \"Princess of South Beach\").",
+        "Berger Chevrolet (advertiser).",
+        "AdoptUSKids.org (resource for teen adoption).",
+        "Horror anthology podcast (advertisement, title unclear \"You feel in this, too.\").",
+        "Empire on Blood (podcast series by Steve Fishman about Calvin Boari's case).",
+        "InnocenceProject.org (website for donations and involvement).",
+        "Names of other potentially wrongfully convicted individuals mentioned by Calvin Boari: Nelson Cruz, Paul Clark, Kyrie Fry, Anthony Reed, Eric Riddick."
+    ]
+}

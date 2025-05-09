@@ -1,0 +1,79 @@
+{
+    "sourceFileName": "462_Lauren_Bright_Pacheco_with_Greg_Bright_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Lauren Bright-Pacheco",
+        "releaseYear": "2024",
+        "network": "Lava for Good podcasts in association with Signal Company No. 1",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, stories of exonerees, systemic issues in the justice system.",
+        "keyStats": "-   Tens of thousands of people in the US wrongfully convicted.\n-   Gregory Bright served 27.5 years for a crime he did not commit.\n-   Gregory Bright's jury deliberated for 13 minutes.\n-   Gregory Bright received a $10 check from the state upon release.",
+        "itemNumber": "462",
+        "itemTitle": "Lauren Bright Pacheco with Greg Bright",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Gregory Bright, who was wrongfully convicted of second-degree murder in 1975 and spent 27 and a half years in Louisiana State Penitentiary at Angola.  The episode details his arrest, the flawed trial based on the testimony of a drug addict for reward money, and the subsequent decades of incarceration.  Despite illiteracy upon entering prison, Bright taught himself to read and the law, eventually leading to the Innocence Project of New Orleans stepping in and securing his exoneration in 2003.  The conversation explores the profound impact of wrongful conviction, his resilience, and his collaboration with writer Lara Naughton to create a one-man play, \"Never Fight a Shark in Water,\" based on his experiences.  The episode highlights systemic issues within the justice system and the enduring human spirit in the face of injustice."
+    },
+    "featuredIndividual": {
+        "fullName": "Gregory Bright",
+        "caseLocation": "New Orleans, Louisiana, USA",
+        "convictionYear": "1976",
+        "exonerationYear": "2003",
+        "crimeConvictedOf": "Second-degree murder of Elliot Porter",
+        "sentence": "Life without the possibility of parole",
+        "timeServed": "27 years, 7 months, 10 days (approximately 27.5 years)",
+        "contributingFactorsRaw": [
+            "False testimony of a state's witness (Sheila, a known drug addict) who implicated Gregory Bright for reward money.",
+            "Inadequate legal defense; public defender met with Gregory Bright only once before trial and did not call alibi witnesses."
+        ],
+        "status": "Exonerated; conviction overturned, charges dismissed.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project of New Orleans (IPNO)"
+        ],
+        "innocenceLawyersRaw": [
+            "Innocence Project of New Orleans intervened and assisted with his case, leading to his exoneration. Specific lawyer details not provided in transcript."
+        ],
+        "crossReference": "Not explicitly stated if he appears in a specific exoneree database within the transcript.",
+        "narrativeOriginalCrime": "15-year-old Elliot Porter was shot and killed in a housing project in New Orleans in October 1975.",
+        "keyEvidenceProsecutionRaw": [
+            "The primary evidence was the testimony of Sheila, a known drug addict, who claimed Gregory Bright and a co-defendant were responsible. This testimony was given in exchange for reward money. No physical evidence or murder weapon was presented."
+        ],
+        "trialDefenderNotes": "Gregory Bright's public defender met with him only once before the trial and rested the defense without calling any alibi witnesses. The defender believed that calling witnesses would aggravate the judge due to the state witness's emotional testimony.",
+        "keyEvidenceExonerationRaw": [
+            "The Innocence Project of New Orleans intervened, leading to the court overturning his conviction. This decision was upheld by the Louisiana Supreme Court, and subsequently, the Orleans Parish District Attorney dismissed all charges."
+        ],
+        "actualPerpetratorDetails": "Details of the actual perpetrator are not provided in the transcript."
+    },
+    "keyQuotesRaw": [
+        "\"jury deliberated for all of 13 minutes before convicting them.\"",
+        "Describing prison visit: \"it's the smell...it had totally and completely consumed me.\"",
+        "Gregory Bright's mother's unwavering belief in his innocence.",
+        "\"mockery of a trial lasts for all of a day.\"",
+        "\"$10 check from the state and garbage bags full of your legal paperwork\" upon release.",
+        "Wing Dang's advice: \"Never Fight a Shark in Water.\"",
+        "Lara Naughton: \"hurt people end up hurting other people.\""
+    ],
+    "systemicIssuesRaw": [
+        "Use of unreliable witness testimony in exchange for incentives (financial reward).",
+        "Inadequate public defense and lack of resources for defendants.",
+        "Racial and socioeconomic disparities within the justice system are implied.",
+        "The immense difficulty faced by exonerees upon release, including lack of financial support and societal reintegration challenges."
+    ],
+    "policyRecommendationsRaw": [
+        "Support local innocence organizations.",
+        "Listeners are encouraged to follow links in the episode description to find ways to help."
+    ],
+    "personalNarrativeRaw": [
+        "Gregory Bright's personal transformation from illiterate inmate to self-taught legal advocate and actor.",
+        "The profound emotional impact of wrongful conviction, particularly the loss of time and the death of his mother while incarcerated.",
+        "The healing power of storytelling and creative expression through the play \"Never Fight a Shark in Water.\"",
+        "The development of a deep and healing friendship between Gregory Bright and Lara Naughton.",
+        "Lara Naughton’s personal journey of trauma and compassion leading her to work with exonerees and in prisons."
+    ],
+    "additionalResourcesRaw": [
+        "One-man documentary stage play: \"Never Fight a Shark in Water, the wrongful conviction of Gregory Bright\" by Lara Naughton.",
+        "Filmed excerpt of \"Never Fight a Shark in Water\" (link in show description).",
+        "Lara Naughton's memoir, \"The Jaguar Man\" (link in show description).",
+        "New Orleans Historic Collection exhibition on incarceration in Louisiana, featuring performances of the play in September (middle of September, 3 performances)."
+    ]
+}

@@ -1,0 +1,90 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, assume episodic.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript, assume ongoing series.
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company No. 1, in association with Law and Crime and Twist (mentioned for Luigi podcast ad, but Wrongful Conviction produced by Lava for Good and Signal Company No. 1)
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, legal system failures, personal stories of exonerees.
+-   **Key Statistics/Information**: No specific statistics mentioned in this episode, but the general theme of wrongful convictions is statistically significant.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features the story of Ronnie Miller, wrongfully convicted in Illinois of sexually assaulting his young daughter amidst a contentious custody battle.  The accusation surfaced after Ronnie threatened to sue for full custody due to concerns about his daughter's safety in her mother's home.  Despite the daughter recanting her accusation multiple times, and the lack of physical evidence, a nurse practitioner's testimony about suspicious medical history led to Ronnie's conviction and a 20-year sentence.  Ineffective counsel, failure to present exculpatory evidence including the mother's history of weaponizing family court and the daughter's recantations, and questionable expert testimony contributed to the wrongful conviction. Ronnie maintains his innocence, and his post-conviction appeals are ongoing, highlighting systemic issues within the justice system and the devastating impact on families.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Ronnie Miller
+-   **Case Location**: Rockford, Illinois, USA
+-   **Conviction Year**: 2017
+-   **Exoneration Year**: Not yet exonerated (as of podcast recording). Case is pending federal habeas review.
+-   **Crime Convicted Of**: Criminal sexual assault of a minor (daughter)
+-   **Sentence**: 20 years
+-   **Time Served**:  Served since 2017 (as of podcast recording)
+-   **Contributing Factors**:
+    -   False accusation (weaponized by mother in custody battle)
+    -   Child Protective Services involvement (DCFS)
+    -   Questionable expert testimony (Nurse Krueger)
+    -   Ineffective defense counsel (failure to hire expert, present exculpatory evidence - family court history, false allegations)
+    -   Recanted testimony of alleged victim ignored
+    -   Systemic bias towards sex abuse allegations
+-   **Legal Status**:  Currently incarcerated, post-conviction appeals ongoing at the federal level (habeas corpus).
+-   **Organizations Involved**: Not explicitly mentioned in transcript regarding organizations assisting with the case, but Leonard Goodman is his post-conviction attorney.
+-   **Innocence Lawyer Details**: Leonard Goodman is Ronnie Miller's post-conviction attorney. He is working to prove ineffective counsel and present new evidence, including expert medical testimony and family court records, to overturn the wrongful conviction.
+-   **Cross-Reference**: Not specified if in exoneree database, needs to be checked.
+-   **Narrative of Original Crime**: Ronnie Miller was accused of sexually assaulting his young daughter, GM, during a period when he was seeking increased custody due to concerns about her safety in her mother's household, particularly regarding her half-brother, Tristan. The accusation arose shortly after Ronnie threatened to sue for full custody.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Video statement of the daughter making allegations (despite inconsistencies and coaching).
+    -   Testimony of Nurse Practitioner Shannon Krueger, who claimed the daughter's medical history (UTIs, redness) was suspicious for sexual abuse, despite pediatrician's opinion attributing it to hygiene or irritants.
+    -   Daughter's vague and limited testimony at trial, referencing touching of "cuckoo" but without sexual context or details.
+-   **Trial Defender Notes**:
+    -   Ineffective counsel: Lawyer Jayford failed to hire a defense expert to counter Nurse Krueger's testimony.
+    -   Lawyer failed to introduce evidence of Ms. Johnson's history of weaponizing family court and making false allegations against the father of her other child.
+    -   Lawyer failed to get in recantation statements to therapist and prosecutors.
+    -   Judge disallowed testimony about false allegations made during grandparent visitations and recantation to therapist.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Expert medical report from Dr. Jack McCubbin refuting Nurse Krueger's testimony and stating no medical evidence of sexual abuse.
+    -   Family court documents and DCFS records demonstrating Ms. Johnson's pattern of weaponizing the system and making false allegations.
+    -   Evidence of daughter's recantations to her mother, therapist, and prosecutors.
+    -   Evidence of ineffective assistance of counsel at trial.
+-   **Actual Perpetrator Details**: Not applicable, as the case is about wrongful conviction due to false accusation, not misidentification of perpetrator.  However, the transcript mentions concerns about the safety of the daughter in the mother's home, including her half-brother Tristan's past behavior and recent arrest for domestic issues.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Ronnie Miller: "Prison is tough, man. Every day I wake up and it's a nightmare, man. Prison is designed to break you down every single day. And I refuse to let them do that."
+    -   Ronnie Miller: "Now this is what haunts me every day is that my daughter has been left in her abuser's hands and continued to be used by the state and Lori and I'm fearful every day for her safety."
+    -   Leonard Goodman: "I always had the feeling that deep down people want to do the right thing. And one of the things that they don't teach you in law school is that you can be right on the facts and the law and still lose if you have judges that have a different agenda."
+    -   Deborah (Ronnie's sister): "Our justice system is broken from the foundation to the top. All the checks and balances that are supposed to protect an innocent man like myself fails."
+    -   Ronnie Miller: "When it comes to sex abuse allegations, I have learned that no evidence is needed for a conviction."
+-   **Systemic Issues Identified**:
+    -   Weaponization of Child Protective Services and family court in custody battles.
+    -   Ineffective assistance of counsel.
+    -   Judicial bias and potential corruption (judge congratulating losing defense attorney, appointing her to judgeship).
+    -   Overreliance on questionable expert testimony in sex abuse cases.
+    -   Ignoring recanted testimony of children in sex abuse cases.
+    -   Difficulty in challenging convictions in post-conviction appeals, especially when involving judicial colleagues.
+    -   Public fear and sensitivity surrounding sex abuse allegations leading to convictions with insufficient evidence.
+-   **Policy Recommendations/Calls to Action**:
+    -   Increased scrutiny of expert testimony in sex abuse cases, especially when based on limited or questionable medical evidence.
+    -   Greater emphasis on the importance of effective defense counsel in all cases, particularly in complex cases like sex abuse allegations.
+    -   Reform of family court and DCFS procedures to prevent weaponization in custody disputes.
+    -   Increased awareness of the potential for false accusations and wrongful convictions in sex abuse cases.
+    -   Public support for exonerees and organizations working on wrongful conviction cases.
+    -   Listeners are urged to share Ronnie's story to raise awareness and exert public pressure.
+-   **Personal Narrative/Impact**:
+    -   Ronnie's life was destroyed, losing his freedom and contact with his daughter. He expresses constant fear for his daughter's safety and deep emotional pain.
+    -   Family is deeply affected, witnessing injustice and fighting for Ronnie's freedom.
+    -   Daughter is potentially traumatized by being used in the legal process and separated from her father, potentially facing ongoing issues in her home environment.
+-   **Additional Resources**:
+    -   Lava for Good podcast network.
+    -   Wrongful Conviction podcast social media platforms (@LavaForGood, @WrongfulConviction, @ItsJasonFlom).
+    -   Mention of "Lava for Good Plus" subscription on Apple Podcasts for ad-free listening.
+```

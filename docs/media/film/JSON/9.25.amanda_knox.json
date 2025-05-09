@@ -1,0 +1,81 @@
+{
+  "source_file_name": "9.25.amanda_knox.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "Amanda Knox",
+    "publication_or_release_year": 2016,
+    "publisher_or_network": "Plus Pictures (Distributed by Netflix)",
+    "focus_or_theme": "The case of Amanda Knox, an American student accused, convicted, and ultimately exonerated for the 2007 murder of her roommate Meredith Kercher in Perugia, Italy. Explores the intense media scrutiny, controversial evidence, and complexities of the Italian justice system.",
+    "summaryNotes": "Knox spent nearly four years in an Italian prison before her final acquittal in 2015.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Amanda Knox",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "The case of Amanda Knox, an American student accused, convicted, and ultimately exonerated for the 2007 murder of her roommate Meredith Kercher in Perugia, Italy. Explores the intense media scrutiny, controversial evidence, and complexities of the Italian justice system.",
+    "summary_notes": null,
+    "key_quotes_raw": [
+      "Likely features interviews with Knox, co-defendant Raffaele Sollecito, prosecutors, journalists, and archival footage of the media frenzy and trials. Knox reflecting on being seen as either a \"psychopath in sheep's clothing\" or \"you.\""
+    ],
+    "systemic_issues_raw": [
+      "Trial by media/media sensationalism's impact on justice, unreliability of forensic evidence/DNA contamination issues, challenges navigating foreign legal systems, prosecutorial tunnel vision, the psychological toll of wrongful accusation and imprisonment."
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for responsible media coverage of criminal cases, rigorous standards for forensic evidence, and scrutiny of prosecutorial conduct."
+    ],
+    "external_links_raw": [
+      {
+        "url": null,
+        "description": "Amanda Knox's own writings and podcast (\"Labyrinths\"), various books on the case."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Amanda Knox",
+      "case_location_city": "Perugia",
+      "case_location_state": "Italy",
+      "conviction_year": 2009,
+      "exoneration_or_release_year": 2015,
+      "crime_convicted_of_raw": "Murder of Meredith Kercher (Exonerated) (Note: A related slander conviction was also recently examined/overturned regarding statements made during initial interrogations).",
+      "sentence": "Initially 26 years.",
+      "time_served": "Nearly 4 years.",
+      "contributing_factors_raw": [
+        "Intense media sensationalism and negative portrayal (\"Foxy Knoxy\"), disputed and potentially contaminated DNA evidence, questionable interrogation tactics, cultural misunderstandings, possible confirmation bias by investigators/prosecutors."
+      ],
+      "status_raw": "Exonerated of murder by Italy's Court of Cassation (2015).",
+      "organizations_involved_raw": [
+        "Innocence Project (Knox is now affiliated), various legal teams in Italy and supporters in the US."
+      ],
+      "cross_reference": "Yes, often cited in discussions of wrongful convictions, though case specifics differ from typical US exoneration database entries due to the international context.",
+      "first_name": "Amanda",
+      "middle_name": null,
+      "last_name": "Knox"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Rod Blackhurst",
+      "role": "DIRECTOR",
+      "first_name": "Rod",
+      "middle_name": null,
+      "last_name": "Blackhurst"
+    },
+    {
+      "full_name": "Brian McGinn",
+      "role": "DIRECTOR",
+      "first_name": "Brian",
+      "middle_name": null,
+      "last_name": "McGinn"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "---",
+  "unhandled_section_research_for:_amanda_knox_(film_list_item_9.25)": "### Basic Film/Documentary Information\n\n-   **Title**: Amanda Knox\n-   **Episode # & Title (if applicable)**: N/A\n-   **Director(s)**: Rod Blackhurst, Brian McGinn\n-   **Release Year**: 2016\n-   **Production Company(ies)**: Plus Pictures (Distributed by Netflix)\n-   **Format**: Documentary\n-   **Focus/Theme**: The case of Amanda Knox, an American student accused, convicted, and ultimately exonerated for the 2007 murder of her roommate Meredith Kercher in Perugia, Italy. Explores the intense media scrutiny, controversial evidence, and complexities of the Italian justice system.\n-   **Key Statistics/Information**: Knox spent nearly four years in an Italian prison before her final acquittal in 2015.\n\n### Wrongfully Convicted Individuals Featured\n\n-   **Name**: Amanda Knox\n-   **Case Location**: Perugia, Italy\n-   **Conviction Year**: Initially convicted 2009 (overturned 2011, reinstated 2014, definitively overturned 2015).\n-   **Exoneration Year**: 2015 (by Italy's highest court, the Court of Cassation)\n-   **Crime Convicted Of**: Murder of Meredith Kercher (Exonerated) (Note: A related slander conviction was also recently examined/overturned regarding statements made during initial interrogations).\n-   **Sentence**: Initially 26 years.\n-   **Time Served**: Nearly 4 years.\n-   **Contributing Factors**: Intense media sensationalism and negative portrayal (\"Foxy Knoxy\"), disputed and potentially contaminated DNA evidence, questionable interrogation tactics, cultural misunderstandings, possible confirmation bias by investigators/prosecutors.\n-   **Legal Status**: Exonerated of murder by Italy's Court of Cassation (2015).\n-   **Organizations Involved**: Innocence Project (Knox is now affiliated), various legal teams in Italy and supporters in the US.\n-   **Cross-Reference**: Yes, often cited in discussions of wrongful convictions, though case specifics differ from typical US exoneration database entries due to the international context.\n\n### Film/Documentary Research Notes\n\n-   **Key Quotes/Moments**: Likely features interviews with Knox, co-defendant Raffaele Sollecito, prosecutors, journalists, and archival footage of the media frenzy and trials. Knox reflecting on being seen as either a \"psychopath in sheep's clothing\" or \"you.\"\n-   **Systemic Issues Identified**: Trial by media/media sensationalism's impact on justice, unreliability of forensic evidence/DNA contamination issues, challenges navigating foreign legal systems, prosecutorial tunnel vision, the psychological toll of wrongful accusation and imprisonment.\n-   **Policy Recommendations/Calls to Action**: Implicitly calls for responsible media coverage of criminal cases, rigorous standards for forensic evidence, and scrutiny of prosecutorial conduct.\n-   **Additional Resources**: Amanda Knox's own writings and podcast (\"Labyrinths\"), various books on the case.\n\n---"
+}

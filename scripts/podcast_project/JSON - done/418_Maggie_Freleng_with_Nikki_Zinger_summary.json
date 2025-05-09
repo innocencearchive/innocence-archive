@@ -1,0 +1,81 @@
+{
+    "sourceFileName": "418_Maggie_Freleng_with_Nikki_Zinger_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Maggie Freeling",
+    "mediaItem": {
+        "hosts": "Maggie Freeling",
+        "releaseYear": "2024",
+        "network": "Lava for Good podcasts in association with Signal Company number one",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, investigative journalism, personal stories of exonerees, flaws in the justice system.",
+        "keyStats": "Nikki Zinger was incarcerated for 31 years for the murder of her mother, Linda Holly, despite maintaining her innocence. DNA testing later showed that blood evidence used against her co-defendant was not definitively human blood. The parole board recommended parole, but it was denied by the governor.",
+        "itemNumber": "418",
+        "itemTitle": "Maggie Freleng with Nikki Zinger",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Maggie Freeling\" tells the story of Nikki Zinger, who was wrongfully convicted of the first-degree murder of her mother, Linda Holly, in 1991.  Nikki and her boyfriend, Daniel Risher, became primary suspects shortly after Linda's body was discovered. The prosecution's case heavily relied on circumstantial evidence, including life insurance policies and flawed luminol testing suggesting blood on Daniel's jacket was Linda's.  Despite maintaining her innocence and the lack of concrete evidence, Nikki was convicted and sentenced to life in prison. The podcast highlights the inadequate investigation, the prosecution's focus on a financial motive, and the impact of \"Satanic Panic\" era biases on the case.  After 31 years of incarceration, new DNA evidence and the work of Proclaim Justice offer a glimmer of hope for Nikki's exoneration, though she remains imprisoned and longs for freedom and justice."
+    },
+    "featuredIndividual": {
+        "fullName": "Nikki Zinger",
+        "caseLocation": "Magnolia, Arkansas, USA",
+        "convictionYear": "1992",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "First-degree murder",
+        "sentence": "Life in prison",
+        "timeServed": "31 years (as of the podcast recording)",
+        "contributingFactorsRaw": [
+            "Circumstantial evidence, focus on life insurance policy as motive, flawed forensic testimony (luminol testing), inadequate original investigation, potential biases related to \"Satanic Panic\" era."
+        ],
+        "status": "Incarcerated, seeking exoneration, parole denied.",
+        "organizationsInvolvedRaw": [
+            "Proclaim Justice (formerly), Innocence Project (DNA testing), currently seeking new legal team after Proclaim Justice disbanded."
+        ],
+        "innocenceLawyersRaw": [
+            "John Hardin of Proclaim Justice investigated her case and is mentioned as continuing to support her. Jason Baldwin (from West Memphis Three, co-founder of Proclaim Justice) is also mentioned in relation to Proclaim Justice's work."
+        ],
+        "crossReference": "Not explicitly stated if in an exoneree database in the transcript.",
+        "narrativeOriginalCrime": "Linda Holly was found murdered in her trailer, having been stabbed and bludgeoned to death. Nikki and her boyfriend, Daniel Risher, were quickly suspected.",
+        "keyEvidenceProsecutionRaw": [
+            "Life insurance policies on Linda Holly, with Nikki as the primary beneficiary.",
+            "Luminol testing on Daniel's jacket and boots, implying the presence of Linda Holly's blood (later questioned).",
+            "Testimony suggesting Nikki and Daniel were seen gathering insurance papers after the murder."
+        ],
+        "trialDefenderNotes": "Defense attempted to introduce alternate suspects, including a police officer Linda was dating and other individuals seen around her property. They also tried to highlight the similarity to another murder case nearby with different suspects.  The defense also pointed out the lack of concrete evidence and questioned the motive given Linda's terminal cancer.",
+        "keyEvidenceExonerationRaw": [
+            "DNA testing on the blood found on Daniel's jacket indicated it was not definitively human blood, supporting Daniel's claim it was deer blood from hunting.",
+            "Lack of a clear motive, especially considering Linda's declining health due to cancer.",
+            "Parole board unanimously recommended parole in 2016 based on new DNA findings, but it was denied by the governor.",
+            "Continued legal efforts are underway, focusing on further DNA testing of other evidence."
+        ],
+        "actualPerpetratorDetails": "Not identified in the podcast. The podcast raises possibilities of other individuals who may have been involved in Linda's life, including potentially \"shady people\" due to Linda's rumored prescription pad activities and people her neighbor and another witness saw around her property."
+    },
+    "keyQuotesRaw": [
+        "Nikki Zinger: \"My name is Nikki Zinger and I've been locked up for 31 years.\"",
+        "Nikki Zinger: \"She [Linda] was my, she was my playmate. She was my everything.\"",
+        "Nikki Zinger: \"Who does that? Who who who thinks that they would kill their mom?\"",
+        "John Hardin: \"That crime scene was not secured at all.\"",
+        "John Hardin regarding luminol test: \"It doesn't tell you even if it's blood number one number two it doesn't tell you what species of animal the blood comes from much less whose blood it is if it's human's blood.\"",
+        "Nikki Zinger: \"You, Maggie.\" (When asked what gives her hope)."
+    ],
+    "systemicIssuesRaw": [
+        "Flawed initial crime scene investigation and evidence handling.",
+        "Premature focus on suspects closest to the victim (Nikki and Daniel).",
+        "Over-reliance on circumstantial evidence and potentially flawed forensic testing.",
+        "Possible influence of societal biases (\"Satanic Panic\") on the investigation.",
+        "Difficulty in overturning wrongful convictions even with new evidence and parole board recommendations."
+    ],
+    "policyRecommendationsRaw": [
+        "The podcast implicitly calls for greater scrutiny of forensic evidence and investigative practices.",
+        "It highlights the need for innocence organizations and legal support for wrongfully convicted individuals.",
+        "Explicit call for listeners to support Nikki Zinger through donations and letters of support, and to reach out to help with her case legally."
+    ],
+    "personalNarrativeRaw": [
+        "Nikki's deep love for her mother and the devastating impact of her loss and wrongful conviction.",
+        "The horrific conditions and mistreatment experienced in jail while awaiting trial.",
+        "Nikki's resilience and personal growth in prison, becoming a mentor to others.",
+        "Her longing for freedom, to tell her story, and to experience life outside prison after decades of wrongful incarceration."
+    ],
+    "additionalResourcesRaw": [
+        "Links to support Nikki Zinger are mentioned in the episode description (not provided in the transcript itself, but referenced).",
+        "Local innocence organizations are recommended for support."
+    ]
+}

@@ -1,0 +1,102 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Episode Title: David McCollum & Eric Gonzalez & Oscar Michelen
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2016 (based on context of Ken Thompson's DA tenure ending in 2016 due to passing)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, in association with Signal Company Number One
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, false confessions, prosecutorial and police misconduct, systemic issues in the criminal justice system, exoneration, and the impact of wrongful imprisonment.
+-   **Key Statistics/Information**:
+    -   David McCollum served 29 years for a crime he did not commit.
+    -   Willie Stuckey, McCollum's co-defendant, died in prison.
+    -   Confessions were the only evidence linking McCollum and Stuckey to the crime, which they claim were coerced.
+    -   The Brooklyn District Attorney's Conviction Review Unit, under Ken Thompson, overturned McCollum's conviction.
+    -   25% of DNA exonerations involve false confessions.
+    -   Brooklyn DA's office has vacated 23 wrongful conviction cases (as of the podcast recording).
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features David McCollum, who spent 29 years in prison for a murder he did not commit, alongside Brooklyn District Attorney Eric Gonzalez and attorney Oscar Michelen, who helped exonerate him. McCollum and Willie Stuckey, as teenagers, were convicted based solely on coerced videotaped confessions. The episode details the flawed investigation, ineffective defense counsel, and the devastating impact of the wrongful conviction on McCollum and Stuckey.  It highlights systemic failures in the justice system, including the dangers of false confessions, inadequate legal representation, and potential racial bias.  The conversation underscores the importance of conviction review units, prosecutorial accountability, and the need for ongoing reforms to prevent future wrongful convictions. McCollum's eventual exoneration, thanks to the Brooklyn DA's Conviction Review Unit, offers a glimmer of hope amidst the tragic circumstances, while also lamenting the death of Willie Stuckey in prison.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: David McCollum
+    -   **Case Location**: Brooklyn, New York, USA
+    -   **Conviction Year**: 1986
+    -   **Exoneration Year**: 2015
+    -   **Crime Convicted Of**: Kidnapping and Murder of Nathan Blender
+    -   **Sentence**: 25 years to life
+    -   **Time Served**: 29 years
+    -   **Contributing Factors**: False confession (coerced), ineffective defense counsel, potentially racial bias.
+    -   **Legal Status**: Exonerated
+    -   **Organizations Involved**: Brooklyn District Attorney's Conviction Review Unit, Innocence Project (implied through podcast promotion), Ruben "Hurricane" Carter, Rutgers University (Laura Cohen and students).
+    -   **Innocence Lawyer Details**: Oscar Michelen, a lawyer responsible for six exonerations including David McCollum's, worked on McCollum's case for 10 years. He is described as a "wonderful lawyer" and "dapper gentleman" by the host.
+    -   **Cross-Reference**: Yes (Appears in the exoneree database - implied by nature of podcast).
+    -   **Narrative of Original Crime**: Nathan Blender was abducted from his car in front of his home by two young African-American men and found murdered the next day in Aberdeen Park with a gunshot wound to the back of the head. McCollum and Stuckey were accused of this crime.
+    -   **Key Evidence at Trial (Prosecution)**: Videotaped confessions from David McCollum and Willie Stuckey. There was no physical evidence, DNA evidence, or testimonial evidence linking them to the crime other than these confessions.
+    -   **Trial Defender Notes**: David McCollum's trial attorney was described as providing "disgusting, disgusting, terrible representation." He reportedly did not visit McCollum in Rikers Island, never interviewed witnesses, did not make an opening statement, and had a drinking problem, possibly being intoxicated during the trial.  He did minimal work on the case.
+    -   **Key Evidence for Exoneration/Change in Legal Status**:  The Brooklyn District Attorney's Conviction Review Unit reinvestigated the case. They reviewed the confessions and found them to be performatory and lacking in detail, inconsistent with evidence, and likely coerced. They also noted the lack of any other evidence linking McCollum to the crime and the existence of other potential suspects initially overlooked.
+    -   **Actual Perpetrator Details**: The podcast mentions that two other individuals initially matched the description of the perpetrators and had connections to the crime (car type, hardware store kerosene can purchase). They became informants and pointed the police towards Stuckey and McCollum. The podcast strongly suggests these initial suspects were the actual perpetrators, though not explicitly stated as fact or named. Eric Gonzalez states they "believe that we know who did this crime."
+
+-   **Name**: Willie Stuckey (Co-defendant)
+    -   **Case Location**: Brooklyn, New York, USA
+    -   **Conviction Year**: 1986
+    -   **Exoneration Year**: N/A (Died in prison in 2001)
+    -   **Crime Convicted Of**: Kidnapping and Murder of Nathan Blender
+    -   **Sentence**: 25 years to life
+    -   **Time Served**: Died in prison after serving approximately 15 years (convicted 1986, died 2001).
+    -   **Contributing Factors**: False confession (coerced), ineffective defense counsel, potentially racial bias.
+    -   **Legal Status**: Wrongfully Convicted, Deceased (conviction posthumously vacated along with McCollum's)
+    -   **Organizations Involved**: Brooklyn District Attorney's Conviction Review Unit, Innocence Project (implied), Ruben "Hurricane" Carter.
+    -   **Innocence Lawyer Details**: Same as David McCollum - Oscar Michelen, though posthumously.
+    -   **Cross-Reference**: Yes (Appears in the exoneree database - implied).
+    -   **Narrative of Original Crime**: Same as David McCollum.
+    -   **Key Evidence at Trial (Prosecution)**: Videotaped confession, same issues as McCollum's confession.
+    -   **Trial Defender Notes**: Likely similar issues to McCollum's lawyer, though not detailed in the transcript as specifically.
+    -   **Key Evidence for Exoneration/Change in Legal Status**:  Brooklyn DA's Conviction Review Unit review, same findings as McCollum's case regarding confession and lack of evidence. Conviction vacated posthumously.
+    -   **Actual Perpetrator Details**: Same as David McCollum.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "The prosecution from day one knew I was innocent and let false testimony go uncorrected from the lower courts all the way up to the United States Supreme Court." - David McCollum
+    -   "Don't presume that people are guilty when you see them on TV because it may just be a dirty D.A. that is trying to rise upward." - Opening quote of the podcast episode.
+    -   "We concluded that there was no physical evidence, no DNA evidence, no testimonial evidence." - Ken Thompson (Describing the findings of the Conviction Review Unit)
+    -   "It was the most performatory confession ever." - Eric Gonzalez (describing David McCollum's confession)
+    -   "It starts to sound like a lynching. It was a travesty is what it was. It was a total travesty." - Oscar Michelen (describing the trial)
+    -   "Every other prosecutor before Ken was tough on crime, I'm gonna lock him up, I'm gonna stay streets, war on drugs, and this was the first guy who said, I'm gonna try to reform the system, and he put his money where his mouth is." - Jason Flom on Ken Thompson.
+    -   "We have an obligation to do justice and not just to try to secure convictions." - Eric Gonzalez
+    -   "Ken Thompson is the reason why I have my daughter." - David McCollum (speaking at Ken Thompson's funeral)
+    -   "You're my son now" - Willie Stuckey's mother to David McCollum in the courtroom.
+
+-   **Systemic Issues Identified**:
+    -   **False Confessions**: Highlighted as a major contributing factor to wrongful convictions, with pressure, deception, and coercion tactics used during interrogations, particularly on juveniles.
+    -   **Ineffective Defense Counsel**: Grossly inadequate legal representation deprived McCollum of a fair trial, including lack of investigation, preparation, and advocacy.
+    -   **Prosecutorial Tunnel Vision**:  The initial prosecutor and potentially subsequent ones, may have been overly focused on the confessions and disregarded other exculpatory evidence and inconsistencies.
+    -   **Racial Bias**:  Implied as a potential factor, as two young Black men were convicted of murdering a white victim, with questionable evidence.
+    -   **Lack of Accountability**:  Previous DA's office refused to reinvestigate the case despite clear issues.
+    -   **"Let the jury decide" mentality**:  Prosecutors in the past, as described by Eric Gonzalez, sometimes abdicated their responsibility to ensure justice and relied too heavily on juries to sort out complex cases, even with weak evidence.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   **Support Conviction Review Units**:  Emphasized as crucial for identifying and rectifying wrongful convictions. Encourage establishment and funding of such units in prosecutor's offices nationwide.
+    -   **Prosecutorial Reform**:  Prosecutors should prioritize justice over convictions, thoroughly investigate cases, and be willing to reconsider past convictions when evidence of innocence emerges. Training for prosecutors on false confessions, eyewitness misidentification, and other causes of wrongful convictions is vital.
+    -   **Defense Attorney Reform**:  Improve standards and oversight of defense attorneys, particularly in cases involving indigent defendants. Ensure adequate funding for defense resources.
+    -   **End Deceptive Interrogation Tactics**:  Advocate for reforms to interrogation techniques to prevent coerced confessions, including mandatory video recording of entire interrogations and restrictions on deceptive tactics, especially when questioning juveniles.
+    -   **Vote for Reform-minded DAs**:  Encourage listeners to vote for District Attorneys who prioritize justice, fairness, and are committed to reviewing and rectifying wrongful convictions.
+    -   **Support Innocence Project**:  Promoted as an organization working to prevent wrongful convictions and exonerate the innocent; listeners are encouraged to donate and get involved.
+
+-   **Personal Narrative/Impact**:
+    -   David McCollum's personal narrative emphasizes resilience, hope, and the importance of family support during wrongful imprisonment. He describes the fear and disorientation of being a 16-year-old interrogated by police, the disbelief at the guilty verdict, and the emotional toll of 29 years of wrongful incarceration. He highlights the crucial role of Ruben "Hurricane" Carter and Oscar Michelen in his exoneration and expresses gratitude to Ken Thompson and Eric Gonzalez for their commitment to justice.  His story underscores the profound and lasting damage caused by wrongful convictions, not only to the exoneree but also to their families and communities, and the tragic loss of life and potential experienced by Willie Stuckey.  Despite the immense injustice, McCollum expresses forgiveness and a desire to contribute to positive change in the criminal justice system.
+
+-   **Additional Resources**:
+    -   Spotlight Snitch City Podcast:  Promoted during the episode as another investigative series focusing on police informant misconduct.
+    -   Innocence Project:  Recommended as an organization to support for those interested in preventing wrongful convictions.
+    -   Mention of exoneree database (implied as a resource for further information and stories of wrongful conviction).
+```

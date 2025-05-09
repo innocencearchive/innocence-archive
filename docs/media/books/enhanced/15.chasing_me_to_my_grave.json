@@ -1,0 +1,93 @@
+{
+  "source_file_name": "15.chasing_me_to_my_grave.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Chasing Me to My Grave: An Artist's Memoir of the Jim Crow South",
+    "creator_name": "Winfred Rembert with Erin I. Kelly",
+    "publication_or_release_year": 2021,
+    "publisher_or_network": "Bloomsbury Publishing",
+    "format": "Hardcover, paperback, ebook, 304 pages with 4-color images throughout",
+    "focus_or_theme": "Memoir of survival and artistry during the Jim Crow era, including wrongful arrest and incarceration",
+    "key_statistics": "Won the Pulitzer Prize in 2022",
+    "recognition_notes": "Won the Pulitzer Prize in 2022"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "\"Vivid, confrontational, revelatory, and complex, Chasing Me to My Grave is a searing memoir in prose and painted leather that celebrates Black life and summons readers to confront painful and urgent realities at the heart of American society.\"",
+      "\"He was arrested and incarcerated in the local jail for more than a year, without charges being filed against him.\""
+    ],
+    "systemic_issues_raw": [
+      "Arbitrary arrest and detention without charges",
+      "Racial discrimination in the criminal justice system",
+      "Police brutality and misconduct",
+      "Lack of due process for Black Americans in the Jim Crow South",
+      "Systemic racism embedded in legal institutions",
+      "Extrajudicial punishment including attempted lynching",
+      "Dehumanization of incarcerated individuals"
+    ],
+    "policy_recommendations_raw": [
+      "Need for stronger protections against arbitrary detention",
+      "Reforms to ensure due process for all defendants",
+      "Addressing systemic racism in the criminal justice system",
+      "Accountability for law enforcement misconduct",
+      "Recognition and redress for historical injustices"
+    ],
+    "additional_resources_raw": [
+      "Rembert's artwork depicting his experiences in the Jim Crow South",
+      "Rembert's survival of a near-fatal lynching attempt",
+      "His experiences in Georgia's prison system",
+      "His development as an artist who documented his experiences through leather tooling"
+    ],
+    "research_notes_other": {
+      "this_book_is_particularly_valuable_for_our_project_as_it": "1. Provides a first-person account of wrongful incarceration during the Jim Crow era\n2. Illustrates how racial discrimination led to arbitrary detention without formal charges\n3. Documents survival through an unjust criminal justice system\n4. Shows the intersection of art and memoir as a means of processing trauma from wrongful incarceration\n5. Highlights historical patterns of injustice that continue to influence the modern criminal justice system\nThe book stands out from others in our research as it combines memoir with visual art (Rembert's leather tooling artwork) to tell the story of wrongful incarceration. It also provides historical context for understanding contemporary issues of wrongful conviction by examining the Jim Crow era's legal system. The Pulitzer Prize recognition underscores the significance and quality of this work in documenting this important aspect of American history."
+    },
+    "item_title": "Book Content: Chasing Me to My Grave: An Artist's Memoir of the Jim Crow South",
+    "focus_or_theme": "Memoir of survival and artistry during the Jim Crow era, including wrongful arrest and incarceration",
+    "summary_notes": "A memoir combining prose and painted leather, this book recounts the author's survival and artistic journey during the Jim Crow era.  It details his wrongful arrest and incarceration, highlighting systemic racism and lack of due process within the legal system. The book offers a first-person account of enduring an unjust system,  combining personal narrative with visual art to process trauma and historical injustice.",
+    "case_details_raw": "Winfred Rembert, the author, was arrested and incarcerated in Georgia during the 1960s for over a year without formal charges. His imprisonment stemmed from racial discrimination, lack of due process, police misconduct, and systemic racism prevalent in the Jim Crow South. He was eventually released but never formally exonerated."
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Winfred Rembert",
+      "first_name": "Winfred",
+      "middle_name": null,
+      "last_name": "Rembert",
+      "case_location": "Georgia",
+      "conviction_year": 1960,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": "No formal charges filed",
+      "sentence": "Illegally detained for more than a year without charges",
+      "time_served": "More than a year",
+      "contributing_factors_raw": [
+        "Racial discrimination in the Jim Crow South",
+        "Civil rights activism",
+        "Lack of due process",
+        "Police misconduct",
+        "Systemic racism in the criminal justice system"
+      ],
+      "status_raw": "Was eventually released but not formally exonerated",
+      "organizations_involved_raw": [],
+      "cross_reference": null,
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Winfred Rembert",
+      "role": "AUTHOR",
+      "first_name": "Winfred",
+      "middle_name": null,
+      "last_name": "Rembert"
+    },
+    {
+      "full_name": "Erin I. Kelly",
+      "role": "AUTHOR",
+      "first_name": "Erin",
+      "middle_name": "I.",
+      "last_name": "Kelly"
+    }
+  ],
+  "research_strategy_notes_raw": "This book is particularly valuable for our project as it:\n1. Provides a first-person account of wrongful incarceration during the Jim Crow era\n2. Illustrates how racial discrimination led to arbitrary detention without formal charges\n3. Documents survival through an unjust criminal justice system\n4. Shows the intersection of art and memoir as a means of processing trauma from wrongful incarceration\n5. Highlights historical patterns of injustice that continue to influence the modern criminal justice system\n\nThe book stands out from others in our research as it combines memoir with visual art (Rembert's leather tooling artwork) to tell the story of wrongful incarceration. It also provides historical context for understanding contemporary issues of wrongful conviction by examining the Jim Crow era's legal system. The Pulitzer Prize recognition underscores the significance and quality of this work in documenting this important aspect of American history.",
+  "research_notes_raw": null
+}

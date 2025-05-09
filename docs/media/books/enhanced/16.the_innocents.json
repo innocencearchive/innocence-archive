@@ -1,0 +1,110 @@
+{
+  "source_file_name": "16.the_innocents.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "The Innocents",
+    "creator_name": "Taryn Simon",
+    "publication_or_release_year": 2022,
+    "publisher_or_network": "MoMA Publications (2022 reissue)",
+    "format": "Photography book with text",
+    "focus_or_theme": "Photography's role in wrongful convictions, particularly through eyewitness misidentification",
+    "key_statistics": "Documents 46 wrongfully convicted individuals"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "The Innocents documents the stories of individuals who served time in prison for violent crimes they did not commit. At issue is the question of photography's function as a credible eyewitness and arbiter of justice.",
+      "A primary cause of wrongful conviction is mistaken identification. A victim or eyewitness identifies a suspect through law enforcement's use of photographs and lineups. These identifications rely on the assumption of precise visual memory. But through exposure to composite sketches, mugshots, Polaroids, and lineups, eyewitness memory can change.",
+      "Simon photographed each person at a site that came to assume particular significance following their wrongful conviction: the scene of misidentification, the scene of arrest, the alibi location, the scene of the crime."
+    ],
+    "research_notes_other": {},
+    "systemic_issues_raw": [
+      "Flawed eyewitness identification procedures",
+      "Over-reliance on visual memory in criminal proceedings",
+      "Photography's dual role as both evidence and potential source of error",
+      "Racial bias in the criminal justice system",
+      "Systemic flaws in the American legal system",
+      "Disproportionate impact on poor, Black, and Brown individuals"
+    ],
+    "policy_recommendations_raw": [
+      "Reform of eyewitness identification procedures",
+      "Critical examination of photographic evidence in criminal cases",
+      "Broader criminal justice system reform",
+      "Addressing systemic racism in the legal system"
+    ],
+    "additional_resources_raw": [
+      "Original exhibition at MoMA PS1 in 2003",
+      "Expanded edition published by MoMA in 2022",
+      "Introduction by Innocence Project co-founders Peter J. Neufeld and Barry C. Scheck",
+      "Connection to the Innocence Network, which has grown to include 56 organizations in the US and a dozen internationally",
+      "Book 4: \"Actual Innocence\" by Jim Dwyer, Peter Neufeld & Barry Scheck (2000)"
+    ],
+    "item_title": "Book Content: The Innocents",
+    "focus_or_theme": "Photography's role in wrongful convictions, particularly through eyewitness misidentification",
+    "summary_notes": "This photography book documents 46 cases of wrongful conviction, focusing on the role of photography and eyewitness misidentification in these cases.  It features photographs of each individual at a significant site related to their case, alongside narratives of their experiences. The book highlights systemic issues within the criminal justice system and offers policy recommendations for reform.",
+    "case_details_raw": "The book features 46 cases of wrongful convictions across the United States.  Examples include Troy Webb, who served 7 years of a 47-year sentence, and Charles Irvin Fain, who served 18 years of a death sentence.  The cases involved violent crimes, and convictions were overturned through DNA evidence, often due to mistaken eyewitness identification and flawed photographic lineup procedures."
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Troy Webb",
+      "first_name": "Troy",
+      "middle_name": null,
+      "last_name": "Webb",
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": "Violent crimes",
+      "sentence": "47-year sentence",
+      "time_served": "7 years",
+      "contributing_factors_raw": [
+        "Mistaken eyewitness identification",
+        "Flawed photographic lineup procedures",
+        "Unreliable visual memory",
+        "Racial bias in the criminal justice system",
+        "Flawed forensic evidence"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [
+        "The Innocence Project"
+      ],
+      "cross_reference": null,
+      "individual_notes": null
+    },
+    {
+      "full_name": "Charles Irvin Fain",
+      "first_name": "Charles",
+      "middle_name": "Irvin",
+      "last_name": "Fain",
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": "Violent crimes",
+      "sentence": "Death sentence",
+      "time_served": "18 years",
+      "contributing_factors_raw": [
+        "Mistaken eyewitness identification",
+        "Flawed photographic lineup procedures",
+        "Unreliable visual memory",
+        "Racial bias in the criminal justice system",
+        "Flawed forensic evidence"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [
+        "The Innocence Project"
+      ],
+      "cross_reference": null,
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Taryn Simon",
+      "role": "AUTHOR",
+      "first_name": "Taryn",
+      "middle_name": null,
+      "last_name": "Simon"
+    }
+  ],
+  "research_strategy_notes_raw": "This book is particularly valuable for our project as it:\n1. Uses visual art (photography) to document wrongful convictions, offering a unique perspective\n2. Focuses specifically on how visual evidence and eyewitness identification can lead to wrongful convictions\n3. Documents 46 cases of wrongful conviction, providing a substantial dataset\n4. Connects directly to the work of the Innocence Project, a leading organization in exonerating the wrongfully convicted\n5. Has been recognized by major cultural institutions (MoMA) for its significance\n6. Provides a visual record of individuals who were exonerated through DNA evidence in the early days of such exonerations\n\nThe 2022 reissue of this book, originally published in 2003, demonstrates its enduring relevance to understanding wrongful convictions and the systemic issues in the criminal justice system that contribute to them.",
+  "research_notes_raw": null
+}

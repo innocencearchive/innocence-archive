@@ -1,0 +1,85 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but it's an episode featuring Mark Denny
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript, likely after 2017 (Mark Denny's exoneration year)
+-   **Production Company(ies)/Network**: Lava for Good podcasts in association with Signal Company No. 1
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, criminal justice system reform, eyewitness misidentification, false confessions, police misconduct
+-   **Key Statistics/Information**:
+    -   Mark Denny served 30 years for a crime he did not commit.
+    -   The crime occurred on December 20, 1987, and Denny was exonerated on December 20, 2017, exactly 30 years later.
+    -   The wrongful conviction was attributed to a corrupt identification process, suggestive lineups, and a false statement from a co-defendant.
+    -   Victim initially reported 3 assailants, later changed to 4 after suggestive lineup involving Mark Denny.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction" features Mark Denny, who was wrongfully convicted and served 30 years in prison for a brutal rape and robbery at a Burger King in Brooklyn in 1987.  Denny, just 16 at the time of the crime, was implicated by his cousin out of spite after being arrested with him on an unrelated charge. Despite the victim initially identifying three other individuals and maintaining there were only three assailants, detectives used suggestive lineup techniques to pressure her into identifying Denny as a fourth assailant.  Key evidence against Denny was a false statement from his cousin, which was later recanted.  The podcast details the flawed investigation, the trauma Denny endured in prison, and his eventual exoneration in 2017 thanks to the Brooklyn Conviction Review Unit and the Innocence Project. Denny reflects on the systemic issues within the justice system and the importance of truth.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Mark Denny
+-   **Case Location**: Brooklyn, New York, USA
+-   **Conviction Year**: 1988 (approximately, based on timeline in transcript)
+-   **Exoneration Year**: 2017
+-   **Crime Convicted Of**: Rape, robbery (at Burger King)
+-   **Sentence**: 19 to 57 years
+-   **Time Served**: 30 years
+-   **Contributing Factors**:
+    -   False accusation/statement from co-defendant (cousin Raphael James)
+    -   Suggestive lineup procedures/eyewitness misidentification
+    -   Ineffective defense counsel
+    -   Police pressure on victim to change her account
+-   **Legal Status**: Exonerated, conviction dismissed
+-   **Organizations Involved**:
+    -   Brooklyn Conviction Review Unit (CRU)
+    -   Innocence Project (specifically Nina Morrison)
+    -   Immigration Justice Clinic (to prevent deportation)
+-   **Innocence Lawyer Details**: Nina Morrison from the Innocence Project is mentioned as being instrumental in his exoneration. Barry Shek is also mentioned in relation to his release.
+-   **Cross-Reference**: Yes (should be added to exoneree database)
+-   **Narrative of Original Crime**: On December 20, 1987, three men robbed a Burger King late at night. They blindfolded and raped a female employee and forced a male employee to participate in the assault. They stole $3,000 in cash.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Victim's identification of Mark Denny in a live lineup (after suggestive photo lineup)
+    -   False statement from co-defendant Raphael James implicating Mark Denny
+-   **Trial Defender Notes**: Mark Denny's lawyer, Harry Dozenberry, was described as incompetent and ineffective. He did not visit Denny in prison to prepare, appeared unprofessional, and focused on payment issues.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Recantation from Raphael James excluding Mark Denny from the crime.
+    -   Investigation by the Brooklyn CRU highlighting the flawed and suggestive identification process.
+    -   Statements from the actual perpetrators (Raphael James, Eddie Vieira, Mark Smith) confirming Denny's innocence.
+-   **Actual Perpetrator Details**:
+    -   Raphael James (Mark Denny's cousin)
+    -   Eddie Vieira
+    -   Mark Smith
+    -   All three were initially identified by the victim and eventually served time for the crime.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Mark Denny: "I was really like an empty vessel at that moment that was just being done with whatever that authority felt was appropriate to try to resolve a nasty case. And that became my nightmare." (Describing his experience being processed by police)
+    -   Mark Denny: "I wish I was the hero to save that girl because on that day, you know, she really needed one. But I wasn't there and I couldn't help out." (Reflecting on the crime and victim at his exoneration)
+    -   Mark Denny: "So now the world is at a point where they need that in order to benefit. I thought about this while I was in prison. No crime, no cops, no officers, no facility, all the different contracts that's connected to that. There's tons and tons of family that will become impoverished if there was to remove the element of crime." (Reflecting on systemic issues and the prison system)
+-   **Systemic Issues Identified**:
+    -   Eyewitness misidentification due to suggestive police procedures.
+    -   Ineffective assistance of counsel.
+    -   Pressure on victims to conform to police narratives.
+    -   The justice system's slow response to evidence of innocence.
+    -   The dehumanizing nature of the prison system and its impact on wrongfully convicted individuals.
+    -   The parole system's demand for admission of guilt, even for innocent individuals.
+-   **Policy Recommendations/Calls to Action**:
+    -   Criminal justice reform to address systemic issues.
+    -   Improved procedures for eyewitness identification to prevent misidentification.
+    -   Greater sensitivity and focus on truth within the justice system.
+    -   Reevaluation of sentencing practices to avoid excessively long sentences.
+-   **Personal Narrative/Impact**: Mark Denny's personal narrative highlights the devastating impact of wrongful conviction. He describes the abuse in prison, the psychological toll of being labeled a sex offender, and the struggle to maintain hope. His story underscores the importance of fighting for innocence and the long-lasting trauma experienced by exonerees, even after release. His final thoughts emphasize the need for truth and sensitivity within the justice system to prevent future injustices.
+-   **Additional Resources**:
+    -   Mention of Mark Denny's book "The Awakening Process, a self-empowerment journey."
+    -   Innocence Project and Brooklyn Conviction Review Unit as organizations working on wrongful conviction cases.
+    -   AIG and Accenture's pro bono legal services mentioned as episode sponsors supporting criminal justice reform.
+```

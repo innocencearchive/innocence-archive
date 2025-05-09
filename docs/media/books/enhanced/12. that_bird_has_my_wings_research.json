@@ -1,0 +1,77 @@
+{
+  "source_file_name": "12. that_bird_has_my_wings_research.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "That Bird Has My Wings: The Autobiography of an Innocent Man on Death Row",
+    "creator_name": "Jarvis Jay Masters",
+    "publication_or_release_year": 2009,
+    "publisher_or_network": "HarperOne",
+    "format": "Hardcover, paperback, e-book, audiobook",
+    "focus_or_theme": "Memoir, wrongful conviction, Buddhism, personal transformation",
+    "recognition_notes": "Oprah's Book Club selection (2022)"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "summary_notes": "\"That Bird Has My Wings\" is Jarvis Jay Masters' memoir chronicling his difficult childhood, his path to incarceration, and his spiritual transformation while on death row at San Quentin. The book begins with Masters' early years, marked by poverty, foster care, abuse, and neglect after his mother's drug addiction led to the separation of their family. He recounts his experiences in various foster homes and juvenile detention facilities, where he experienced further abuse and began a path toward criminal behavior.\n\nThe memoir details Masters' eventual incarceration at San Quentin for armed robbery at age 19, and his subsequent conviction for participating in the 1985 murder of a prison guard, Sergeant Howell Burchfield—a crime for which he maintains his innocence. Masters describes how he was in his cell at the time of the murder but was implicated and sentenced to death.\n\nThe book also explores Masters' spiritual journey and his embrace of Buddhism while in prison, which helped him find meaning and purpose despite his circumstances. Through his practice and writing, Masters transformed his life within the confines of death row, developing compassion and mindfulness that allowed him to transcend his surroundings.",
+    "systemic_issues_raw": [
+      "Use of unreliable jailhouse informant testimony",
+      "Racial disparities in the criminal justice system",
+      "Inadequate legal representation for poor defendants",
+      "Childhood trauma and its relationship to incarceration",
+      "Foster care system failures",
+      "Juvenile justice system problems",
+      "Prison conditions and violence",
+      "Limited avenues for post-conviction relief",
+      "Death penalty application issues"
+    ],
+    "policy_recommendations_raw": [
+      "Reform of jailhouse informant testimony use",
+      "Improved support systems for children in foster care",
+      "Better rehabilitation programs in juvenile facilities",
+      "Addressing childhood trauma as a preventive measure",
+      "Reform of death penalty procedures",
+      "Enhanced post-conviction review processes",
+      "Improved prison conditions and programming",
+      "Greater scrutiny of cases relying primarily on informant testimony"
+    ],
+    "research_notes_other": {
+      "masters_has_written_another_book,_\"finding_freedom": "Writings from Death Row\"\n- His case continues to be appealed in the federal courts\n- The book provides important insights into how childhood trauma can lead to incarceration\n- Masters' Buddhist practice has been central to his ability to maintain hope and purpose"
+    },
+    "item_title": "Book Content: That Bird Has My Wings: The Autobiography of an Innocent Man on Death Row",
+    "focus_or_theme": "Memoir, wrongful conviction, Buddhism, personal transformation"
+  },
+  "featured_individuals": [
+    {
+      "case_location": "California",
+      "conviction_year": 1990,
+      "crime_convicted_of": "Conspiracy to murder prison guard Sergeant Howell Burchfield",
+      "sentence": "Death sentence",
+      "time_served": "Over 30 years on death row (as of 2022)",
+      "contributing_factors_raw": [
+        "Jailhouse informant testimony, circumstantial evidence"
+      ],
+      "status_raw": [
+        "Still on death row, continuing to appeal his conviction"
+      ],
+      "organizations_involved_raw": [
+        "Free Jarvis campaign, Buddhist Peace Fellowship"
+      ],
+      "individual_notes": "- Masters maintains he was in his cell at the time of the murder\n- No physical evidence linked him to the crime\n- Case relied heavily on testimony from jailhouse informants who received benefits for their testimony\n- Has gained significant support from Buddhist leaders, including Pema Chödrön\n- His case has received renewed attention after Oprah selected his book for her book club",
+      "full_name": "Jarvis Jay Masters",
+      "first_name": "Jarvis",
+      "middle_name": "Jay",
+      "last_name": "Masters"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Jarvis Jay Masters",
+      "role": "AUTHOR",
+      "first_name": "Jarvis",
+      "middle_name": "Jay",
+      "last_name": "Masters"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

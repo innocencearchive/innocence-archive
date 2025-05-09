@@ -1,0 +1,95 @@
+{
+    "sourceFileName": "380_Jason_Flom_with_Keith_LaMar_Pt_2_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2023",
+        "network": "Lava for Good podcasts",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Legal System Issues, Prison Riot, Exculpatory Evidence Withholding, Inmate Witness Testimony, Capital Punishment",
+        "keyStats": "-   Keith Lamar was offered a plea deal to plead guilty to 5 out of 10 murders for a concurrent sentence but refused to maintain his innocence.\n-   Seven inmate witnesses testified against Keith Lamar, many of whom received preferential treatment or reduced charges.\n-   Exculpatory evidence, including initial witness statements contradicting trial testimonies and evidence of mental illness of key witnesses, was withheld from the defense.\n-   All physical evidence, including potentially crucial clothing, was burned by the state.\n-   Keith Lamar was convicted by an all-white jury in a 96% white county.\n-   Prosecutors used a narrow definition of exculpatory evidence, deeming statements not exculpatory if they didn't explicitly exclude Keith Lamar.\n-   Despite evidentiary hearings and appeals, state and federal courts upheld the conviction.\n-   Governor DeWine granted Keith Lamar a reprieve from his scheduled execution.",
+        "itemNumber": "380",
+        "itemTitle": "Jason Flom with Keith LaMar Pt 2",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction, part two of Keith Lamar's story, delves into the deeply flawed trial and conviction of Keith Lamar for murders during the Lucasville prison riot in 1993.  Despite maintaining his innocence and refusing a plea deal, Lamar was convicted based on the testimonies of incentivized inmate witnesses whose stories drastically changed over time. The prosecution, led by Mark Peepmeyer and Seth Teager, withheld crucial exculpatory evidence and employed questionable tactics, including presenting statement summaries without names to the defense.  The podcast highlights the systemic issues of coerced testimonies, prosecutorial misconduct, and racial bias in the justice system that contributed to Lamar's wrongful conviction and death sentence.  It emphasizes the ongoing fight for his exoneration and the urgent need for judicial review of the suppressed evidence.  The episode ends with a call to action for listeners to support Keith Lamar's case and advocate for justice."
+    },
+    "featuredIndividual": {
+        "fullName": "Keith Lamar",
+        "caseLocation": "Lucasville, Ohio",
+        "convictionYear": "1995 (Implied, 1993 riot, trial followed)",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "Four murders from El Block and one murder from K-Block during the Lucasville prison riot.",
+        "sentence": "Death Penalty",
+        "timeServed": "Approximately 30 years in solitary confinement (as of podcast recording)",
+        "contributingFactorsRaw": [
+            "Incentivized inmate witness testimony (changed and inconsistent stories)",
+            "Withholding of exculpatory evidence (Brady violation)",
+            "Prosecutorial misconduct (narrow definition of exculpatory evidence, destroyed evidence)",
+            "Racial bias (all-white jury in a predominantly white county)"
+        ],
+        "status": "Convicted, on death row, currently seeking exoneration through appeals and newly discovered evidence. Reprieve granted from scheduled execution.",
+        "organizationsInvolvedRaw": [
+            "Ohio Justice and Policy Center (OJPC)",
+            "Bell Doc Levine and Hoffman",
+            "Joshua Jack Jones at Northwestern Law School",
+            "Tennessee Federal Defenders (previously)"
+        ],
+        "innocenceLawyersRaw": [
+            "Stefan (from Bell Doc Levine and Hoffman) - Leading current appellate effort.",
+            "David Singleton (Ohio Justice and Policy Center) - Local counsel.",
+            "Kate McGarry and David Dotten - Attorneys who handled federal appeal and discovered withheld evidence."
+        ],
+        "crossReference": "Not explicitly mentioned if in exoneree database in the transcript.",
+        "narrativeOriginalCrime": "During the 1993 Lucasville prison riot, ten people were murdered. Keith Lamar was accused of leading or ordering the murders of five inmates perceived as snitches. The prosecution alleged he was the leader of a \"death squad.\"",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of seven inmate witnesses (Robert Bass, Anthony Walker, Thomas Taylor, Stacey Gordon, Lewis Jones, Ricky Rutherford, and Michael Childers) who claimed Keith Lamar ordered or led the murders."
+        ],
+        "trialDefenderNotes": "-   Presented alibi witnesses who testified Keith Lamar was in the yard during the murders.\n-   Defense was severely hampered by the prosecution's withholding of exculpatory evidence and providing statement summaries without names.",
+        "keyEvidenceExonerationRaw": [
+            "Initial witness statements contradicting trial testimonies, specifically from Lewis Jones, Anthony Walker, and Stacey Gordon, which excluded Keith Lamar's involvement and implicated others.",
+            "Confession of Eric Curty in the murder of William Spetti, stating Keith Lamar was not involved.",
+            "Affidavit from Abdul Muhammad Sadik regarding Dennis Weaver's murder, suggesting blame shifting to Keith Lamar.",
+            "Evidence of mental illness and credibility issues of key prosecution witnesses (Rutherford and Childers), withheld from the defense."
+        ],
+        "actualPerpetratorDetails": "-   Mention of Anthony Lavelle and Stacey Gordon (Black Gangster Disciples leaders) potentially being more responsible for the killings, but avoided accountability by cooperating with prosecutors.\n-   Eric Curty confessed to the murder of William Spetti.\n-   Aaron Jefferson and Louis Jones implicated in Darryl DePina's murder.\n-   Two other incarcerated individuals implicated in Bruce Vitaly's murder.\n-   S Gridge, Frakes, Snodgrass, and Gertie mentioned in connection to Svete's death (S Gridge specifically named in a withheld statement summary).\n-   Thomas Taylor admitted to murdering Albert Stiano."
+    },
+    "keyQuotesRaw": [
+        "\"I would have gotten off easier had I killed five people.\" - Keith Lamar, highlighting the pressure to plead guilty despite innocence.",
+        "\"They took that piece of evidence, probably the most crucial piece of evidence in this case, and burned it.\" - Regarding the destruction of Keith Lamar's clothing.",
+        "\"They went through this very one-way discovery... The prosecutors objected, saying, you know, it's going to be hard to satisfy their constitutional requirement to find all of the exculpatory material in their mountains of evidence.\" - Describing the flawed pre-trial discovery process.",
+        "\"They said it wasn't material under Brady. And material under Brady is effectively if it wouldn't have changed the outcome of trial, then it's not material.\" - Explaining the court's dismissal of Brady violation claims.",
+        "\"One thing for sure, they won't be able to call this justice.\" - Keith Lamar's powerful statement on the injustice of his situation.",
+        "\"Keith is innocent and at minimum, he did not receive a fair trial.\" - Keegan's closing argument."
+    ],
+    "systemicIssuesRaw": [
+        "Prosecutorial misconduct and overzealousness to secure convictions.",
+        "Use of unreliable and incentivized inmate witnesses.",
+        "Withholding of exculpatory evidence (Brady violations).",
+        "Racial bias in jury selection and the justice system.",
+        "Flawed legal definition and application of \"exculpatory evidence.\"",
+        "Inadequate legal representation and resources for defendants.",
+        "Challenges in appealing wrongful convictions, even with substantial evidence of innocence and procedural violations."
+    ],
+    "policyRecommendationsRaw": [
+        "Listeners are encouraged to visit Keith Lamar's website (keithlamar.org) and social media to sign petitions and learn more.",
+        "Support for organizations like Ohio Justice and Policy Center (OHIOJPC.org) to aid in wrongful conviction cases.",
+        "Call for greater transparency and accountability in prosecutorial practices and pre-trial discovery.",
+        "Demand for a fair judicial review of Keith Lamar's case, considering the withheld exculpatory evidence.",
+        "Broader systemic reforms to address racial bias and improve fairness in the criminal justice system."
+    ],
+    "personalNarrativeRaw": [
+        "Keith Lamar's resilience and intellectual growth despite 30 years in solitary confinement.",
+        "His focus on self-improvement through reading, writing, meditation, and yoga.",
+        "Founding the Native Sons literacy program to help inner-city youth, reflecting a commitment to positive change and redemption.",
+        "His perspective on time in prison as a \"gift\" in a paradoxical sense, allowing for introspection and personal development, while still fighting for his freedom.",
+        "His understanding of his situation within a historical context of racial injustice and lynching in America."
+    ],
+    "additionalResourcesRaw": [
+        "Website: keithlamar.org",
+        "Facebook page for Keith Lamar (Justice will keep you more)",
+        "Real Killer podcast Season 2 with journalist Lee Eroftman.",
+        "Keith Lamar's book \"Condemned\".",
+        "Ohio Justice and Policy Center (ohiojpc.org)."
+    ]
+}

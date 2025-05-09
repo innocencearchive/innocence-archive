@@ -1,0 +1,85 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, assume it's an episode featuring Felipe Rodriguez
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2023 (based on AAA ad mentioning 2023 survey)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction stories, criminal justice system flaws, exoneration
+-   **Key Statistics/Information**:
+    -   Felipe Rodriguez served 26 years and 9 months in prison for a crime he did not commit.
+    -   He was exonerated after commutation and further legal work by the Innocence Project.
+    -   Key issues highlighted: Eyewitness misidentification, coerced testimony, withheld evidence by prosecution.
+    -   New York State's discovery reform law is mentioned as a positive change to prevent similar wrongful convictions.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom features the story of Felipe Rodriguez, who was wrongfully convicted of murder and spent over 26 years in prison. The episode details the flawed investigation, relying on coerced testimony and dubious eyewitness identification, that led to his conviction despite evidence pointing away from him.  It highlights the crucial role of the Innocence Project, particularly Nina Morrison, in securing his commutation and eventual exoneration.  Felipe recounts his harrowing experience in prison and his journey towards forgiveness and self-improvement. The discussion underscores systemic issues within the criminal justice system, including prosecutorial misconduct and the impact of inadequate legal representation. The episode concludes with a call to support the Innocence Project and advocates for criminal justice reform, emphasizing the importance of pretrial discovery and acknowledging Felipe's resilience and positive outlook despite his wrongful conviction.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Felipe Rodriguez
+-   **Case Location**: Queens, New York, USA
+-   **Conviction Year**: April 1990
+-   **Exoneration Year**: December 30, 2019
+-   **Crime Convicted Of**: Second-degree murder of Maureen Fernandez
+-   **Sentence**: 25 years to life in prison
+-   **Time Served**: 26 years and 9 months
+-   **Contributing Factors**:
+    -   Coerced testimony (Javier Ramos)
+    -   Dubious eyewitness identification (Robert Thompson, Bartender)
+    -   Withheld evidence by prosecution (tape of Ramos recanting original story)
+    -   Ineffective trial defense (lack of access to key evidence)
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**:
+    -   Innocence Project
+    -   Legal Aid Society (initial appeals)
+-   **Innocence Lawyer Details**: Nina Morrison, Senior Litigation Attorney at the Innocence Project, played a crucial role. She is described as diligent, persistent, and deeply committed to Felipe's case, working for years to uncover evidence and navigate the legal process leading to his commutation and exoneration. Zach Margulies Onema, law school classmate of Nina Morrison, also assisted with the case. Martin Lucente of the Legal Aid Society worked on initial appeals.
+-   **Cross-Reference**: Not specified if he appears in a specific exoneree database, but he is a client of the Innocence Project.
+-   **Narrative of Original Crime**: Maureen Fernandez was found stabbed to death in an empty lot in Queens on Thanksgiving morning 1987. She had been seen at bars the previous night with an unfamiliar man.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Testimony of Javier Ramos, claiming Felipe borrowed his white car and confessed to the murder.
+    -   Dubious eyewitness identification from Robert Thompson, who was intoxicated and gave inconsistent descriptions.
+    -   Testimony from a bartender who initially didn't identify Felipe in a lineup but later did in court.
+    -   Witnesses claiming to have seen writing on Felipe's hands.
+    -   Police theory that a white car was involved, linking it to Ramos's car.
+-   **Trial Defender Notes**:  Initial lawyer Kenneth Litwack was replaced by Jennifer Myolo. Myolo was described as being at a disadvantage due to withheld evidence by the prosecution.  She was cross-examining Ramos, but seemingly without knowledge of the crucial tape recording where Ramos recanted his initial story.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Tape recording of Javier Ramos recanting his story, admitting he fabricated it under police pressure. This tape was discovered by Felipe's appellate lawyers but initially not considered sufficient for a new trial.
+    -   Statement from Long Island Railroad detective revealing Ramos said Felipe was with a black man when returning the car (contradicting his trial testimony).
+    -   Recantation by Ramos in front of Robert Masters (DA's office), blaming police pressure.
+    -   Statement from bar patron William Perry stating the couple arrived in a black Monte Carlo, undermining the white car theory.
+    -   Discovery that Detective Beisel sought to arrest Felipe *before* Ramos changed his story to implicate Felipe.
+-   **Actual Perpetrator Details**: Not mentioned or identified in the podcast transcript. The focus is on Felipe's wrongful conviction and the flawed investigation.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Ramos (on tape): "the cops were coming at me and coming at me. It was going to be me or you and I had to give them somebody or else I was going to go to prison for the rest of my life."
+    -   Felipe: "I am willing to die in prison if they're not going to recognize that I'm an innocent man."
+    -   Nina Morrison about Felipe's case in their office: "Everybody Loves Felipe because if I so much as suggested that we might close his case, I was going to have five law students in my office telling me I was insane or worse."
+    -   Felipe on freedom: "Freedom is a gift. It's the greatest gift any human being ever has."
+-   **Systemic Issues Identified**:
+    -   Police coercion and suggestive interrogation techniques leading to false testimony.
+    -   Prosecutorial misconduct through withholding of exculpatory evidence (Brady violation).
+    -   Weak eyewitness identification procedures and reliance on unreliable witnesses.
+    -   Potential for racial bias in investigations (focus shifting from white suspect to Puerto Rican man).
+    -   Juror bias and presumption of guilt.
+    -   Challenges in overturning wrongful convictions even with strong evidence of innocence.
+-   **Policy Recommendations/Calls to Action**:
+    -   Support for pretrial discovery reform to ensure defense access to all evidence.
+    -   Support for the Innocence Project to help free wrongfully convicted individuals and advocate for systemic change.
+    -   Call for listeners to donate to and get involved with the Innocence Project.
+    -   Encouragement to give the podcast a positive review to increase its reach.
+-   **Personal Narrative/Impact**: Felipe emphasizes forgiveness and finding positivity even in the darkest circumstances like prison and the COVID-19 pandemic. He describes his deep gratitude to Nina Morrison and the Innocence Project for their unwavering support and dedication to his case.  He transformed his prison experience into a period of self-reflection, spiritual growth, and service to others. He expresses the profound value of freedom and the importance of human connection and community.
+-   **Additional Resources**:
+    -   Innocence Project (InnocenceProject.org)
+    -   Stand Together (StandTogether.org/conviction)
+```

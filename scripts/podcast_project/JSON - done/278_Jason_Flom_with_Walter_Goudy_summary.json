@@ -1,0 +1,89 @@
+{
+    "sourceFileName": "278_Jason_Flom_with_Walter_Goudy_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction stories, investigative journalism, legal analysis, systemic issues in the justice system.",
+        "keyStats": "- Walter Goudy served 16 and a half years for a crime he did not commit.\n- Rodney Cummings, the detective who investigated the case, later became the prosecutor who re-indicted Goudy.\n- Key exculpatory evidence (witness identifications of Kaidi Harvel as the driver's side shooter and Romeo Lee's confession) was withheld from the defense during Walter Goudy's trial.\n- Indiana's \"work product\" rule allowed police reports containing exculpatory evidence to be withheld from the defense.",
+        "itemNumber": "278",
+        "itemTitle": "Jason Flom with Walter Goudy",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction tells the harrowing story of Walter Goudy, wrongfully convicted of murder and attempted murder in Indiana.  Despite having 16 alibi witnesses, Goudy was misidentified and prosecuted largely due to the zealous actions of Detective Rodney Cummings, who later became the prosecutor.  Key exculpatory evidence, including witness identifications of another suspect, Kaidi Harvel, and a confession from Goudy's half-brother, Romeo Lee, was withheld from the defense.  Goudy was sentenced to 110 years and spent 16 and a half years in prison fighting to prove his innocence.  His conviction was eventually overturned by the Seventh Circuit Court of Appeals due to Brady violations and ineffective assistance of counsel, highlighting severe systemic failures within the Indiana justice system. The episode underscores the devastating personal impact of wrongful convictions and the long fight for exoneration."
+    },
+    "featuredIndividual": {
+        "fullName": "Walter Goudy",
+        "caseLocation": "Anderson, Indiana, USA",
+        "convictionYear": "1995",
+        "exonerationYear": "2012 (Charges dismissed in January 2012, ruling came in May 2010)",
+        "crimeConvictedOf": "Murder, Attempted Murder, Attempted Carjacking, Attempted Robbery",
+        "sentence": "110 years",
+        "timeServed": "16 and a half years",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification, suggestive lineup procedures, withholding of exculpatory evidence (Brady violations), ineffective assistance of counsel, prosecutorial misconduct,  systemic issues with Indiana's legal system."
+        ],
+        "status": "Exonerated, charges dismissed.",
+        "organizationsInvolvedRaw": [
+            "Seventh Circuit Court of Appeals, Civil Attorney Richard de Vorac, Attorney Andrew Caritas, Public Defender Sharon Faye."
+        ],
+        "innocenceLawyersRaw": [],
+        "richard_de_vorac": "Civil attorney who took Walter's case and filed a lawsuit, believing in his innocence even before full exoneration.",
+        "andrew_caritas": "Lawyer at the time of the Seventh Circuit ruling that overturned the conviction. Appointed by the Seventh Circuit from a big law firm.",
+        "sharon_faye": "Public defender appointed for post-conviction petition.",
+        "mark_maynard": "Original trial attorney, deemed ineffective in retrospect for not getting crucial evidence admitted.",
+        "crossReference": "Not specified if in exoneree database in the transcript.",
+        "narrativeOriginalCrime": "A shooting occurred outside the OASIS club in Anderson, Indiana, on October 3rd, 1993. Two shooters approached a car, resulting in the death of the driver, Marvin McLeod, and injury to the passenger, Damon Nun.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness testimony from Jill Barkley identifying Walter Goudy as the taller, passenger-side shooter.",
+            "Testimony of Kaidi Harvel identifying Walter Goudy as the driver-side shooter and Romeo Lee as the passenger-side shooter."
+        ],
+        "trialDefenderNotes": "- Mark Maynard, Walter's trial attorney, presented 16 alibi witnesses placing Walter at a party in Indianapolis.\n- Maynard was unaware of crucial police reports that identified Kaidi Harvel as the driver-side shooter and Romeo Lee's confession.\n- Maynard was deemed ineffective for not getting Romeo Lee's confession and the witness identifications of Kaidi Harvel into evidence.",
+        "keyEvidenceExonerationRaw": [
+            "Romeo Lee's confession stating he and Kaidi Harvel were the shooters and that Walter was not involved.",
+            "Police reports and videotaped lineups showing three state witnesses (Jill Barkley, Jackie Barclay, Latanya Young) identifying Kaidi Harvel as the driver-side shooter.",
+            "Damon Nunn, the surviving victim, identified a filler in a lineup with Kaidi Harvel, undermining his earlier identification of Walter.",
+            "The Seventh Circuit Court of Appeals ruled that Brady violations occurred (withholding of exculpatory evidence) and that Walter received ineffective assistance of counsel."
+        ],
+        "actualPerpetratorDetails": "",
+        "romeo_lee": "Walter Goudy's half-brother, confessed to being the passenger-side shooter. He was convicted and sentenced to 110 years.",
+        "kaidi_harvel_(coyote_harveyll)": "Identified by multiple witnesses as the driver-side shooter and named by Romeo Lee as the other shooter. He initially snitched on Walter to save himself, falsely placing Walter as the driver-side shooter.  Legal status after Romeo's confession is not explicitly stated in the transcript."
+    },
+    "keyQuotesRaw": [
+        "Host: \"You just got gonna believe the way this case unfolded and how the system, I'm gonna be generous and say made mistake after mistake and then compounded their mistakes, and then even when the mistakes were corrected, they made sure to correct the correction to make sure the mistakes, I mean, it's, I'm not a loss for words on this one.\" (Highlights the egregious nature of the case)",
+        "Walter Goudy: \"I don't care how much time you give me, I'ma spend every day of it, prove my innocence.\" (Demonstrates his determination)",
+        "Richard de Vorac: \"We shouldn't have to rely on the second highest court in the land, a federal court, to right these wrongs. These should be corrected immediately in the lower courts, but they're not, unfortunately.\" (Critiques the systemic failure of lower courts and Indiana's justice system)",
+        "Walter Goudy: \"I wake up appreciating my freedom. And I'm free. I'm still free. I don't care if I ain't got, right now I ain't got to die in my pocket, I am free.\" (Expresses gratitude for freedom despite hardships)"
+    ],
+    "systemicIssuesRaw": [],
+    "brady_violations": "Withholding of exculpatory evidence by the prosecution.",
+    "ineffective_assistance_of_counsel": "Original trial attorney's failure to present key evidence.",
+    "suggestive_lineup_procedures": "Initial one-man show-up and subsequent lineups compromised by witness familiarity with fillers.",
+    "prosecutorial_misconduct_zeal": "Rodney Cummings's personal vendetta and actions as both detective and prosecutor.",
+    "indiana_\"work_product\"_rule": "Legal loophole allowing police reports with exculpatory evidence to be withheld.",
+    "judicial_system_failures": "Repeated failures by judges and appellate courts at various levels to correct the wrongful conviction.",
+    "lack_of_accountability": "Rodney Cummings continues to serve as prosecutor despite his role in the wrongful conviction.",
+    "limited_compensation": "Indiana's initial lack of compensation statute and subsequent statute that requires waiver of civil litigation rights upon accepting compensation.",
+    "policyRecommendationsRaw": [
+        "Reform of Indiana's \"work product\" rule to ensure access to police reports and exculpatory evidence for the defense.",
+        "Strengthening Brady compliance and accountability for prosecutors and law enforcement.",
+        "Review and reform of eyewitness identification procedures to minimize suggestiveness.",
+        "Reconsideration of Indiana's compensation statute to remove the waiver of civil litigation rights.",
+        "Call for citizens in Madison County to consider alternative candidates for prosecutor to replace Rodney Cummings."
+    ],
+    "personalNarrativeRaw": [],
+    "walter_goudy": "Lost 16 and a half years of his life, including crucial time with his children.  Experienced the profound injustice of the system and the struggle to prove his innocence. Despite the settlement, monetary compensation cannot replace lost time and the emotional impact on him and his family. He expresses deep appreciation for his freedom and focuses on securing his children's future.  He maintained his innocence throughout his incarceration and dedicated his time to legal research.",
+    "romeo_lee": "Confessed to the crime to exonerate his brother and received a 110-year sentence.  Demonstrates loyalty to his brother but remains incarcerated.",
+    "lamont": "Walter's brother, coerced into a plea bargain that corroborated Kaidi Harvel's false statement, likely impacting family relationships and carrying personal guilt.",
+    "family_impact": "The wrongful conviction deeply affected Walter's family, including his children who grew up without him and his brothers who were also caught up in the case's fallout.",
+    "additionalResourcesRaw": [
+        "PacersFoundation.org",
+        "TheLastMile.org",
+        "Walter Goudy's podcast (link to be provided in bio)",
+        "Wrongful Conviction Podcast social media accounts (Instagram, Facebook, Twitter)",
+        "Lava for Good Podcasts social media accounts (Instagram, Facebook, Twitter)",
+        "Jason Flom's social media accounts (TikTok, Instagram)"
+    ]
+}

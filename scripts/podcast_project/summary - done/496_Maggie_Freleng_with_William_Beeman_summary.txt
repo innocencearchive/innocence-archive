@@ -1,0 +1,82 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Maggie Freeling
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but focuses on William Beaman's case.
+-   **Host(s)**: Maggie Freeling
+-   **Release Year(s)**: 2024 (assuming based on "all-new 2025 Chevrolet Equinox" ad at the start, and current year context)
+-   **Production Company(ies)/Network**: Lava for Good
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, investigative journalism
+-   **Key Statistics/Information**: William Beaman has been incarcerated for 44 years for a crime he maintains he did not commit.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Maggie Freeling" delves into the case of William "Drifty" Beaman, who has been imprisoned for 44 years for the 1980 murder of Michelle Winkle in Muscatine, Iowa.  The podcast presents evidence suggesting Beaman's innocence, highlighting inconsistencies in the original investigation, including a potentially coerced confession, lack of physical evidence linking him to the crime, and alibi witnesses.  The episode explores failures in the initial investigation, focusing on alternative suspects and disregarded timelines. It details the ongoing efforts of Erica Nichols-Cook and the Iowa Public Defender's Office to exonerate Beaman, facing challenges in the Iowa legal system.  The personal toll of wrongful conviction is emphasized through the narrative of Beaman and his devoted mother, Donna, who tirelessly advocates for his freedom. The episode concludes with a call to action to support innocence organizations and contact the Muscatine County Attorney to raise awareness about Beaman's case.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: William "Drifty" Beaman
+-   **Case Location**: Muscatine, Iowa, USA
+-   **Conviction Year**: 1980
+-   **Exoneration Year**: Not yet exonerated (as of podcast episode)
+-   **Crime Convicted Of**: First-degree murder of Michelle Winkle
+-   **Sentence**: Life sentence
+-   **Time Served**: 44 years (as of podcast episode)
+-   **Contributing Factors**:
+    -   Potentially coerced confession (signed while on painkillers and confused)
+    -   Ineffective defense at trial (despite alibi witnesses and contradictory evidence)
+    -   Tunnel vision by investigators (focused on Beaman, ignoring other suspects and evidence)
+    -   Withholding of exculpatory evidence (Brady violation - list of witnesses seeing victim alive after alleged murder date)
+-   **Legal Status**: Currently incarcerated, petition pending in court.
+-   **Organizations Involved**:
+    -   Iowa Public Defender's Office (Wrongful Conviction Unit, led by Erica Nichols-Cook)
+-   **Innocence Lawyer Details**: Erica Nichols-Cook, Director of the Wrongful Conviction Unit at the Iowa Public Defender's Office, is leading the effort to exonerate William Beaman. She is presented as dedicated and thorough in her investigation, uncovering crucial evidence overlooked in the original case, and pursuing legal avenues for Beaman's release.
+-   **Cross-Reference**: Not specified in transcript if in exoneree database.
+-   **Narrative of Original Crime**: Michelle Winkle, 22, was found dead in Wildcat Den State Park campground, naked, beaten, and stabbed 17 times. She was last seen on Monday, April 21, 1980, leaving a spa and getting into a brown car with a white man. The prosecution argued Beaman picked her up, took her to the park, and killed her after a failed sexual encounter.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Alleged confession signed by Beaman (later argued to be coerced and unreliable).
+    -   Claim that Michelle was seen at Baker's Front Street Disco, where Beaman was a DJ.
+    -   Inference that Beaman, with a reputation with women, might have been involved.
+-   **Trial Defender Notes**: The defense presented:
+    -   Alibi witnesses placing Beaman elsewhere on the night of the murder (April 21st).
+    -   Testimony from a witness who saw Michelle alive on April 22nd at the mall with another man.
+    -   Argument that Beaman's alleged confession was coerced and unreliable due to his mental state and the circumstances of the interrogation.
+    -   Pointed out inconsistencies, like Michelle being seen getting into a brown car while Beaman primarily used a motorcycle.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   **Alibi evidence**: Multiple witnesses placed Michelle alive after the date the prosecution claimed she was murdered by Beaman, including one witness who testified at trial and a list of others not disclosed to the defense (Brady violation).
+    -   **Entomology evidence**: An entomologist determined that the maggot infestation on Michelle's body indicated she died on Wednesday, April 23rd, not Monday, April 21st, the only day the prosecution could place Beaman at the scene.
+    -   **Alternative suspects**:  Larry Dan's, who had a similar encounter with Michelle involving a rejected sexual advance, and Michelle's own father, Francis Winkle, who was reportedly abusive. Both were on the initial suspect list but seemingly dismissed without thorough investigation.
+    -   **Missing evidence**:  The victim's clothing and the sexual assault kit, potentially containing DNA evidence, are missing and presumed destroyed, raising questions about due process (Youngblood claim).
+-   **Actual Perpetrator Details**: Not identified in the podcast. Larry Dan's and Michelle's father were mentioned as potential alternative suspects considered and then dismissed by the original investigators.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Donna (Bill's mother): "I just want him home. I'd like to know I have a son for a while. I just sometimes feel like I've never had a son. And then there's times I feel like, you know, I've had him and he's just gone for a while." (Emotional impact of wrongful conviction on family)
+    -   Bill Beaman: "Every time we turn around we prove I didn't do it and nobody seems to give a shit. There's no justice in Iowa." (Frustration and despair with the legal system)
+    -   Erica Nichols-Cook: "That the investigation, you know, that it had all of the features of a wrongful conviction that investigators focused on the player, right, the DJ, the guy that had multiple girlfriends. They ignored all these other legit credible alibis or motives for murdering her." (Systemic issues leading to wrongful conviction)
+-   **Systemic Issues Identified**:
+    -   Tunnel vision in investigations: Focusing on a suspect early on and ignoring contradictory evidence or alternative leads.
+    -   Coercive interrogation tactics leading to false confessions.
+    -   Ineffective assistance of counsel (potentially, though not explicitly stated, implied by the focus on failures of the trial).
+    -   Brady violations: Withholding exculpatory evidence from the defense.
+    -   Challenges in post-conviction litigation in Iowa: Perceived bias and resistance to overturning convictions.
+    -   Destruction or loss of crucial evidence (sexual assault kit and victim's clothing).
+-   **Policy Recommendations/Calls to Action**:
+    -   Support local innocence organizations.
+    -   Contact Muscatine County Attorney Jim Berry to raise awareness about William Beaman's case and advocate for review and potential exoneration.
+-   **Personal Narrative/Impact**:
+    -   **William Beaman**:  Spent 44 years in prison for a crime he didn't commit, experiencing rage, loneliness, and loss of relationships.  His hope dwindles with ongoing legal setbacks, but his desire for freedom and simple joys (motorcycle, companionship) remains.  He expresses deep concern for his aging mother.
+    -   **Donna (Mother)**:  Dedicated her life to supporting Bill and fighting for his release.  Experiences emotional distress, financial hardship, and declining health while tirelessly advocating for her son.  Her dream is to see Bill free before she dies.
+-   **Additional Resources**:
+    -   Local innocence organizations (general recommendation)
+    -   Contact information for Muscatine Iowa County Attorney Jim Berry (specific call to action)
+    -   Links in the episode description (not provided in transcript, but mentioned as a place for further information and support).
+
+```

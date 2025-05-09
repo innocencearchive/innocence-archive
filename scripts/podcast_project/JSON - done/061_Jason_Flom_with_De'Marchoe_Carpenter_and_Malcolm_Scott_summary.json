@@ -1,0 +1,82 @@
+{
+    "sourceFileName": "061_Jason_Flom_with_De'Marchoe_Carpenter_and_Malcolm_Scott_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2018",
+        "network": "Lava for Good Podcasts, in association with Signal Company Number One",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, investigative journalism, personal stories of exonerees, systemic issues in the justice system.",
+        "keyStats": "- Oklahoma is the incarceration capital of the United States.\n- Tulsa, Oklahoma was the site of the Black Wall Street massacre in 1921.\n- Over half of exonerations involve police and prosecutorial misconduct.\n- Oklahoma's compensation cap for exonerees is $175,000.",
+        "itemNumber": "061",
+        "itemTitle": "Jason Flom with De'Marchoe Carpenter and Malcolm Scott",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom features DiMarco Carpenter and Malcolm Scott, two men wrongfully convicted of murder in Tulsa, Oklahoma in 1994 and exonerated after serving 22 years.  The episode details their upbringing in a tough neighborhood, the flawed police investigation that focused on them despite evidence pointing to Michael Wilson (the actual killer), and the failures of their public defenders.  It highlights the racial injustices within the justice system, the impact of police misconduct and the devastating consequences of wrongful convictions on the individuals and society.  The exoneration came after years of appeals, witness recantations, and ultimately, a confession from Michael Wilson before his execution for a different crime. Carpenter and Scott share their harrowing experiences in prison, the importance of family support and faith, and their efforts to rebuild their lives post-exoneration, advocating for justice and reform."
+    },
+    "featuredIndividual": {
+        "fullName": "Malcolm Scott",
+        "caseLocation": "Tulsa, Oklahoma, USA",
+        "convictionYear": "1994",
+        "exonerationYear": "2016",
+        "crimeConvictedOf": "Murder of Karen Summers",
+        "sentence": "Life in prison plus 170 years",
+        "timeServed": "22 years",
+        "contributingFactorsRaw": [
+            "Police misconduct, ineffective counsel, false witness testimony, racial bias."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Oklahoma Innocence Project"
+        ],
+        "innocenceLawyersRaw": [
+            "Oklahoma Innocence Project provided legal representation leading to exoneration."
+        ],
+        "crossReference": "Likely appears in exoneree databases given the high-profile nature of the case and podcast feature.",
+        "narrativeOriginalCrime": "Karen Summers was fatally shot in a drive-by shooting. Two other young men, Alonzo Johnson and Kenneth Price, were also injured.",
+        "keyEvidenceProsecutionRaw": [
+            "False eyewitness testimony from Alonzo Johnson and Kenneth Price identifying Carpenter and Scott as being in the car. The murder weapon and car belonged to Michael Wilson, but this was downplayed."
+        ],
+        "trialDefenderNotes": "Public defender Michael Harris was described as \"trash\" and ineffective, failing to call alibi witnesses.",
+        "keyEvidenceExonerationRaw": [
+            "Recantations from Alonzo Johnson and Kenneth Price stating police coerced their false testimony. Confession from Michael Wilson, before his execution, admitting he was the sole perpetrator and Carpenter and Scott were innocent."
+        ],
+        "actualPerpetratorDetails": "Michael Wilson confessed to the murder of Karen Summers and stated Scott and Carpenter were not involved. He was also convicted and sentenced to death for the unrelated murder of Richard Yoast, a convenience store clerk, and was eventually executed."
+    },
+    "keyQuotesRaw": [
+        "DiMarco: \"I'm not innocent to approve and guilty. I'm guilty until I approve my innocence and that's absolutely what happened to me.\"",
+        "DiMarco: \"I totally lost trust in humanity after what happened to it.\"",
+        "Malcolm: \"This isn't supposed to happen this way. I'm innocent. I know I'm innocent. I know I had nothing to do with this. How is this possible?\"",
+        "Malcolm's mother's encouragement: \"God helps those who help themselves. And if, and if you want some change for yourself, you got to start doing the things that you need to do to help yourself...\"",
+        "Michael Wilson's last words: \"Malcolm Scott and DeMarco Carpenter are innocent.\""
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct: Fabricating evidence, coercing witnesses, ignoring evidence pointing to the actual perpetrator.",
+        "Prosecutorial misconduct: Pursuing a case despite weak evidence and obvious alternative suspect, lack of accountability.",
+        "Ineffective defense counsel: Public defenders failing to adequately represent clients, investigate alibis, and challenge prosecution's case.",
+        "Racial bias: Case occurring in Tulsa with historical racial tensions, death penalty disparities mentioned, and the victims being black and white in different crimes influencing the case.",
+        "Lack of compensation and support for exonerees: Inadequate financial compensation and lack of support for reintegration into society.",
+        "Jury selection issues: Juror who volunteered for police service was on the jury."
+    ],
+    "policyRecommendationsRaw": [
+        "Call to jury duty awareness:  Listeners urged to remember the podcast when on jury duty, to be critical and aware of potential injustices.",
+        "Call for public awareness and action:  Listeners encouraged to be \"woke\" and aware of wrongful convictions, to support organizations like the Innocence Project, and to advocate for systemic change."
+    ],
+    "personalNarrativeRaw": [
+        "DiMarco: Described the devastating emotional impact of wrongful conviction, loss of trust in humanity and the system, the horror of prison, and the long journey to rebuild his life. He focuses on his faith and future goals like his book \"Buried to Live\" and motivational speaking.",
+        "Malcolm: Emphasized the importance of family support and faith in maintaining hope during wrongful imprisonment. He highlights the resilience of the human spirit and his desire to help others and advocate for change. He is focused on personal training as a career."
+    ],
+    "additionalResourcesRaw": [
+        "Buried Alive podcast (featuring DiMarco Carpenter's writings)",
+        "Spotlight Snitch City podcast (mentioned advertisement)",
+        "The Setup podcast (mentioned advertisement)",
+        "Chikis and Chill podcast (mentioned advertisement)",
+        "Look at Thought Our Radio Season 10 podcast (mentioned advertisement)",
+        "Actual Innocence podcast (co-hosted by DiMarco Carpenter)",
+        "Book: \"Buried to Live\" by DiMarco Carpenter (manuscript mentioned)",
+        "Instagram: Buried to Live, 22 (DiMarco Carpenter)",
+        "Facebook: DeMarco Carpenter, Malcolm Scott",
+        "YouTube video: 22 DeMarco",
+        "Innocence Project (InnocenceProject.org)"
+    ]
+}

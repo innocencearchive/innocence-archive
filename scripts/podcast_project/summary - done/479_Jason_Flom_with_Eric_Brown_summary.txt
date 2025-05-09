@@ -1,0 +1,107 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but episode focuses on Eric Brown's case.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript, likely recent given the mention of 2023 conference.
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company No. 1, Black Effect Podcast Network, iHeartRadio, Apple Podcasts, Spotify. (Note: Black Effect Podcast Network, iHeartRadio, Apple Podcasts, Spotify are mentioned in ads within the transcript,  Lava for Good Podcasts and Signal Company No. 1 are mentioned at the end as production companies of "Wrongful Conviction" podcast.)
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, flaws in the justice system, non-unanimous jury verdicts in Louisiana, juvenile sentencing, prison conditions, exoneration, and the impact of wrongful conviction on individuals.
+-   **Key Statistics/Information**:
+    -   Louisiana and Oregon were the only two states allowing non-unanimous jury verdicts until recently.
+    -   Non-unanimous jury verdicts in Louisiana were enacted to perpetuate slavery.
+    -   Eric Brown was convicted by a non-unanimous jury.
+    -   Eric Brown served 25 years (9,125 days) for a crime he did not commit.
+    -   Juveniles in Louisiana were often tried as adults.
+    -   Louisiana prisons are described as "honey holes" due to tax breaks and guaranteed occupancy.
+    -   Brain development in juveniles is not complete until age 25, impacting judgment and decision-making.
+    -   Supreme Court cases (Roper v. Simmons, Graham v. Florida, Miller v. Alabama) impacted juvenile sentencing.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features the harrowing story of Eric Brown, wrongfully convicted in Louisiana at age 16 for a murder he did not commit.  The podcast highlights the systemic issues within the Louisiana justice system, including non-unanimous jury verdicts and the treatment of juveniles.  Eric recounts his arrest based on flimsy witness testimony and circumstantial evidence, his unfair trial with an ineffective defense attorney, and the subsequent 25 years he spent incarcerated in Angola prison. Despite facing immense challenges and the loss of his brother while imprisoned, Eric dedicated himself to legal study, eventually contributing to the legal fight against juvenile life sentences.  The episode details his journey through the legal system, the support he received from Brian Stevenson and the Innocence Project, and his eventual release on parole.  Eric emphasizes the plague of wrongful convictions and the need for systemic reform, concluding with a message of resilience and hope for his fellow exonerees.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Eric Brown
+-   **Case Location**: New Orleans, Louisiana, USA
+-   **Conviction Year**: 1996
+-   **Exoneration Year**: Not fully exonerated, released on parole in 2019. Still fighting for full exoneration.
+-   **Crime Convicted Of**: Second-degree murder
+-   **Sentence**: Life sentence
+-   **Time Served**: 25 years (9,125 days)
+-   **Contributing Factors**:
+    -   Eyewitness misidentification (Valencia Peabody)
+    -   False implication by other individuals (Charles Pitts and William Griffin)
+    -   Ineffective defense counsel
+    -   Non-unanimous jury verdict
+    -   Possibly racial bias in the justice system.
+-   **Legal Status**: Released on parole, seeking full exoneration.
+-   **Organizations Involved**:
+    -   Innocence Project (implicitly through Jason Flom and mention of Innocence Network Conference)
+    -   Brian Stevenson (Equal Justice Initiative, although not explicitly mentioned by name of organization)
+    -   Lifeless Association (prison organization)
+    -   Angola Special Civics Project (prison organization)
+    -   Toastmasters (prison organization)
+-   **Innocence Lawyer Details**: Not explicitly named in transcript, but attorney assisted with parole hearing and is currently helping with exoneration efforts. Described as "my lawyer" in the transcript.  State-appointed attorney at trial was Sabina, who was ineffective.
+-   **Cross-Reference**: Not specified if in exoneree database, but highly likely given the nature of the podcast and Eric's story.
+-   **Narrative of Original Crime**: Carmelo Salminen was found murdered in his apartment. Valencia Peabody, a friend and associate, claimed to have discovered the body and implicated Eric Brown, who was also present at the apartment the previous night. A safe was reported stolen from the apartment.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Testimony of Valencia Peabody, who claimed Eric was at the apartment and implied he had the opportunity.
+    -   Testimony of Ruth McKinnis, a neighbor with low IQ, who changed her initial statement to say she saw Eric leaving the apartment after speaking with Valencia Peabody.
+    -   Testimony of Charles Pitts and William Griffin, who claimed to have received the stolen safe from Eric.
+    -   Lack of explicit factual evidence directly linking Eric to the murder, as acknowledged by the DA in closing arguments.
+-   **Trial Defender Notes**: Eric's state-appointed attorney was ineffective, primarily focused on plea deals (30-40 years) instead of building a defense. Failed to effectively cross-examine witnesses, highlight inconsistencies in their testimonies, or adequately present evidence of Eric's innocence (e.g., height discrepancy related to the shooting angle, lack of powder burns).
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Supreme Court rulings on juvenile sentencing (Roper v. Simmons, Graham v. Florida, Miller v. Alabama) made life sentences for juveniles unconstitutional or restricted, paving the way for re-sentencing.
+    -   Eric's persistent legal work and self-education in law while incarcerated.
+    -   Support from Brian Stevenson and potentially other legal advocates.
+    -   Focus on Eric's rehabilitation and accomplishments in prison during parole hearing.
+-   **Actual Perpetrator Details**: Not identified in the transcript. Valencia Peabody, Charles Pitts, and William Griffin are implied to be potentially involved or at least colluding to implicate Eric, but no actual perpetrator is named or investigated in the podcast narrative.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "Prisoners is a big business, especially in Louisiana. As one of the sheriffs said, they called prisons their honey holes." - Eric Brown, highlighting the profit motive in incarceration.
+    -   "That non unanimous jury verdict law was only enacted in the 1800s, explicitly asserted to perpetuate slavery." - Host, explaining the racist origins of the law.
+    -   "We don't have no evidence against Mr. Brown, but y'all gotta use common sense." - DA's closing argument, demonstrating the lack of concrete evidence and reliance on prejudice/speculation.
+    -   "The experience of imprisonment would undo a lifetime of learning. Human values can be suspended. Human concepts will be challenged. And the most ugliest of these pathological side of human nature can surface." - Eric Brown, reflecting on the dehumanizing impact of prison.
+    -   "Wrongful convictions is a plague. It's a disease." - Eric Brown, emphasizing the severity of wrongful convictions as a societal problem.
+-   **Systemic Issues Identified**:
+    -   Non-unanimous jury verdicts contributing to wrongful convictions, particularly impacting minority groups in Louisiana.
+    -   Racial bias in the justice system, evident in the historical context of non-unanimous juries and Eric's case.
+    -   Ineffective assistance of counsel for indigent defendants.
+    -   Over-sentencing of juveniles and lack of consideration for youth and brain development.
+    -   Profit motives in the prison system incentivizing high incarceration rates.
+    -   Reliance on flimsy witness testimony and circumstantial evidence in convictions.
+    -   Procedural hurdles and time bars hindering post-conviction relief and appeals.
+-   **Policy Recommendations/Calls to Action**:
+    -   Abolition of non-unanimous jury verdicts (already achieved in Louisiana by 2018/later).
+    -   Criminal justice reform to address racial bias and ensure fair trials.
+    -   Improved access to effective legal counsel for indigent defendants.
+    -   Reforms in juvenile sentencing, recognizing the developmental differences of youth.
+    -   Further investigation into Eric Brown's case for full exoneration.
+    -   Raising awareness about wrongful convictions and supporting organizations like the Innocence Project.
+-   **Personal Narrative/Impact**:
+    -   Eric Brown's personal narrative highlights resilience, self-education, and dedication to justice despite wrongful conviction and prolonged incarceration.
+    -   He transformed his prison experience into an opportunity for learning and advocacy, helping himself and other inmates.
+    -   His story underscores the devastating impact of wrongful conviction on individuals and families, including the loss of time, opportunities, and the emotional toll of imprisonment.
+    -   Eric's final thoughts emphasize using his experience to promote positive change and demonstrate the potential for rehabilitation and contribution to society even after wrongful imprisonment.
+-   **Additional Resources**:
+    -   Mention of George TOCA's case (another episode of Wrongful Conviction).
+    -   Mention of Innocence Network Conference.
+    -   Eric Brown's Instagram (linked in episode description).
+    -   Eric Brown's book "Crimes for Dummies, The Embarrassing Side of Crime and Punishment" and memoirs/autobiography (forthcoming).
+    -   Lava for Good Plus on Apple Podcasts for ad-free early access to podcasts.
+    -   Spotlight Snitch City podcast (mentioned in ad).
+    -   Under Yazoo Clay podcast (mentioned in ad).
+    -   Eating While Broke podcast (mentioned in ad).
+    -   The Puzzle Earth podcast (mentioned in ad).
+    -   Look at Thought Our Radio Season 10 podcast (mentioned in ad).
+```

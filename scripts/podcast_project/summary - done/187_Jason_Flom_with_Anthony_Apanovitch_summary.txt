@@ -1,0 +1,95 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**:  Anthony Apponovich
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2023
+-   **Production Company(ies)/Network**: Lava for Good podcast in association with signal company number one
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, criminal justice system flaws, stories of exonerees.
+-   **Key Statistics/Information**: Tony Aponovich spent 32 years on death row for a crime he did not commit, was exonerated of rape charges through DNA evidence, released, and then sent back to death row due to a legal technicality.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Jason Flom" tells the harrowing story of Tony Aponovich, who was wrongfully convicted of the 1984 rape and murder of Marianne Flynn in Cleveland, Ohio. Despite a lack of concrete evidence and a solid alibi, Aponovich was convicted and sentenced to death, largely due to circumstantial evidence, misleading testimony, and a corrupt local crime lab.  The podcast details the numerous injustices in his case, including withheld evidence and flawed forensic analysis.  After decades of appeals and the eventual use of DNA testing, Aponovich was exonerated of rape charges and released in 2016 after 32 years on death row.  However, in a shocking turn of events, the Ohio Supreme Court sent him back to death row on a technicality, highlighting severe systemic issues within the legal system and the ongoing fight for his complete exoneration.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Anthony (Tony) Apponovich
+-   **Case Location**: Cleveland, Ohio, USA
+-   **Conviction Year**: 1984
+-   **Exoneration Year**: 2016 (for rape charges, but conviction and death sentence for murder remain, currently back on death row)
+-   **Crime Convicted Of**: Aggravated Murder, Aggravated Burglary, two counts of Rape
+-   **Sentence**: Death sentence for Aggravated Murder, 15 to 25 years for Burglary and each Rape count (45 to 75 years total for those counts)
+-   **Time Served**: 32 years (initial incarceration)
+-   **Contributing Factors**:
+    -   Circumstantial evidence
+    -   Misleading testimony by detective
+    -   Withheld evidence by the state (victim's blood type, hair evidence manipulation)
+    -   Ineffective original trial defense
+    -   Pressure on police to solve a high-profile case
+    -   Dubious work and potential corruption within the Cuyahoga County crime lab and prosecutor's office
+-   **Legal Status**:  Currently on death row in Ohio.  Conviction for rape overturned, but murder conviction and death sentence remain.
+-   **Organizations Involved**:
+    -   Federal Public Defender's Office (Dale Bech)
+    -   George Town Law (Mark Howard and students)
+    -   Law firm of parole and mooring (mentioned by Dale Bech as part of the team)
+-   **Innocence Lawyer Details**:
+    -   **Dale Bech**: Federal Public Defender, lead lawyer and advocate for Tony Aponovich since 1991.  Instrumental in pursuing DNA testing and uncovering withheld evidence.
+-   **Cross-Reference**: Not explicitly stated in the transcript whether he appears in a specific exoneree database, but highly likely given the nature of the case and podcast.
+-   **Narrative of Original Crime**: Marianne Flynn was found beaten and strangled to death in her bedroom on August 23, 1984. Semen was found at the scene.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Tony Aponovich was a type A secretor, matching the blood type of semen found at the scene (withheld that victim was also type A secretor).
+    -   Circumstantial evidence of him having painted the victim's house earlier that summer.
+    -   Misleading testimony from Detective Zaller about a statement Tony allegedly made ("when I'm indicted").
+-   **Trial Defender Notes**:
+    -   Insufficient investigation and preparation for trial.
+    -   Did not hire experts to analyze forensics.
+    -   Cursory interview with coroner's office.
+    -   Failed to effectively challenge the prosecution's evidence and misleading statements.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   DNA testing in 2014 excluded Tony Aponovich as a contributor to the vaginal fluid found on the victim. Two unknown male contributors were identified.
+    -   This DNA evidence led to the overturning of the rape convictions in 2016 and his release from prison.
+    -   However, the Ohio Supreme Court later reversed the decision regarding the evidentiary hearing, sending him back to death row based on a technicality that he hadn't personally requested the DNA testing in question.
+-   **Actual Perpetrator Details**:
+    -   Ronnie Shelton, known as the "West Side Raper," was mentioned as active in the same area around the time of the murder and had physical characteristics that police initially investigated in Tony Aponovich (scabs on penis).  However, the transcript does not definitively state Shelton was the actual perpetrator in Flynn's murder, only that he was active and considered as a potential suspect profile at the time.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Detective Zaller: "well, Tony, you said, you know, this is a high profile case. And there's a lot of pressure on us to get somebody. You know, all your alibi witnesses are drunk and you look worse than anybody else."
+    -   Tony Aponovich: "I'm innocent. Come on. Here I am 36 years later after being sent home, being found innocent and sent home. I'm back on death row on a technicality, amazing as it is, and I'm still innocent. I didn't do this."
+    -   Dale Bech: "What we have here is a wrongful conviction. How do we know that? It's because Tony is excluded from a rape in a case where the state's theory is that there was a single assailant. This doesn't make sense to me as a lawyer and may not make sense, but people need to understand that the system is constructed this way. The system needs to be fixed and we need to right this wrong in Tony's case."
+
+-   **Systemic Issues Identified**:
+    -   Flawed and potentially corrupt practices in the Cuyahoga County justice system (crime lab, prosecutor's office, police).
+    -   Withholding of exculpatory evidence by the prosecution.
+    -   Misleading testimony and potential perjury by law enforcement.
+    -   Ineffective assistance of counsel at the original trial.
+    -   Technicalities in legal procedure overriding substantive justice, particularly in death penalty cases.
+    -   Pressure to solve high-profile cases leading to tunnel vision and potential wrongful convictions.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   "The system needs to be fixed and we need to right this wrong in Tony's case." (Dale Bech)
+    -   Support local innocence projects.
+    -   Visit justiceforappanabitch.com and sign the petition for Tony Aponovich's justice.
+
+-   **Personal Narrative/Impact**:
+    -   Tony Aponovich describes the devastating impact of wrongful conviction, spending decades on death row for a crime he didn't commit.
+    -   He emphasizes his cooperation with police from the beginning, believing in his innocence.
+    -   The emotional rollercoaster of exoneration and release followed by re-incarceration on death row.
+    -   His resilience and continued fight for justice and freedom.
+    -   The personal joy of marrying his long-time love, Beth, and building a life after release, contrasted with the sudden return to death row.
+
+-   **Additional Resources**:
+    -   justiceforappanabitch.com (website and petition for Tony Aponovich)
+    -   Documentary about Tony Aponovich's case by Georgetown Law students.
+    -   Mention of Liliana Segura's reporting on misconduct in Cuyahoga County prosecutor's office in The Intercept.
+    -   Reference to Serial podcast Season 3 featuring Cuyahoga County justice system issues.
+```

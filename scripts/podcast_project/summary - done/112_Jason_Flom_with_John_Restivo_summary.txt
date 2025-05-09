@@ -1,0 +1,124 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, assume episodic series.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2023 (based on AAA survey mention)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts in association with Signal Company Number One
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, stories of exonerees, systemic issues in the justice system, police misconduct, false confessions, DNA exoneration.
+-   **Key Statistics/Information**:
+    -   John Restivo, John Cogut, and Dennis Halsted spent over half a century in prison combined for a crime they did not commit.
+    -   John Restivo was sentenced to 33 and a half years to life.
+    -   False confession from John Cogut after 12 hours of aggressive interrogation.
+    -   Planted hairs from the victim's corpse found in John Restivo's van.
+    -   DNA testing in 2003 excluded all three men as perpetrators.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Jason Flom" features John Restivo, who was wrongfully convicted along with two other men for the rape and murder of a 16-year-old girl in Long Island in 1984.  The episode details the coerced false confession of John Cogut, the planting of fabricated evidence by police, and the lack of credible evidence against Restivo and Dennis Halsted. Despite having alibis and early DNA tests that were inconclusive but pointed away from them, they were convicted and spent decades in prison.  The episode highlights the systemic issues of guilt-presumptive interrogation, police misconduct in fabricating evidence, and the initial resistance to DNA evidence by the justice system. Through the persistent efforts of legal teams and organizations like the Innocence Project and Centurion Ministries, DNA testing of preserved evidence in 2003 finally exonerated all three men after they collectively served over 50 years for a crime they did not commit.  The conversation also touches upon Restivo's resilience, his work in prison, and his post-exoneration life advocating for justice.
+
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: John Restivo
+    -   **Case Location**: Lindbrook, Long Island, New York, USA
+    -   **Conviction Year**: 1986
+    -   **Exoneration Year**: 2003
+    -   **Crime Convicted Of**: Rape and Murder
+    -   **Sentence**: 33 and a half years to life
+    -   **Time Served**: 18 years (approximately, based on conviction in 1986 and exoneration in 2003)
+    -   **Contributing Factors**: Police misconduct (fabrication of evidence - planted hairs),  false confession used to implicate him.
+    -   **Legal Status**: Exonerated
+    -   **Organizations Involved**: Centurion Ministries, Pace Law School's post-conviction clinic, Innocence Project, Atlanta Innocence Network Conference (where he spoke).
+    -   **Innocence Lawyer Details**: Nina Morrison, Senior Staff Attorney at the Innocence Project. Terry Moroni (law school classmate of Nina Morrison).
+    -   **Cross-Reference**: Yes (exoneree database implied by the nature of the podcast)
+    -   **Narrative of Original Crime**: 16-year-old girl found murdered after disappearing from her job at a roller rink. Cause of death: ligature strangulation and evidence of rape.
+    -   **Key Evidence at Trial (Prosecution)**: False confession of John Cogut implicating Restivo and Halsted, and planted hairs in Restivo's van said to match the victim.
+    -   **Trial Defender Notes**:  Had an alibi supported by receipts, phone records, and a witness, but the witness was coerced by police to change testimony. Judge in bench trial concluded hairs were not originally in van.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: DNA testing of vaginal swabs in 2003 excluded Restivo, Cogut, and Halsted. Discovery of intact vaginal swab evidence after initial claims of no remaining samples.
+    -   **Actual Perpetrator Details**: Unknown, DNA profile from semen did not match Restivo, Cogut, or Halsted and did not get a CODIS hit at the time of the podcast.
+
+-   **Name**: John Cogut
+    -   **Case Location**: Lindbrook, Long Island, New York, USA
+    -   **Conviction Year**: 1986
+    -   **Exoneration Year**: 2003
+    -   **Crime Convicted Of**: Rape and Murder
+    -   **Sentence**: Not explicitly mentioned in transcript.
+    -   **Time Served**: Over 17 years (approximately, based on conviction in 1986 and exoneration in 2003)
+    -   **Contributing Factors**: False confession coerced after 12 hours of aggressive interrogation, police deception (lied about polygraph results).
+    -   **Legal Status**: Exonerated
+    -   **Organizations Involved**: Centurion Ministries, Pace Law School's post-conviction clinic, Innocence Project.
+    -   **Innocence Lawyer Details**: Not explicitly mentioned in transcript, but implied to have been supported by the same legal efforts as Restivo and Halsted.
+    -   **Cross-Reference**: Yes (exoneree database implied by the nature of the podcast)
+    -   **Narrative of Original Crime**: Same as John Restivo's case.
+    -   **Key Evidence at Trial (Prosecution)**: His own false confession, despite containing only information already known to police.
+    -   **Trial Defender Notes**:  False confession was central to his conviction, experts argued it was unreliable due to incorporated police knowledge and inherent coercion.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: DNA testing of vaginal swabs in 2003 excluded Cogut, Restivo, and Halsted.
+    -   **Actual Perpetrator Details**: Unknown, DNA profile from semen did not match Cogut, Restivo, or Halsted and did not get a CODIS hit at the time of the podcast.
+
+-   **Name**: Dennis Halsted
+    -   **Case Location**: Lindbrook, Long Island, New York, USA
+    -   **Conviction Year**: 1986
+    -   **Exoneration Year**: 2003
+    -   **Crime Convicted Of**: Rape and Murder
+    -   **Sentence**: Not explicitly mentioned in transcript.
+    -   **Time Served**: Over 17 years (approximately, based on conviction in 1986 and exoneration in 2003)
+    -   **Contributing Factors**: False confession of John Cogut implicated him, lack of credible evidence.
+    -   **Legal Status**: Exonerated
+    -   **Organizations Involved**: Centurion Ministries, Pace Law School's post-conviction clinic, Innocence Project.
+    -   **Innocence Lawyer Details**: Not explicitly mentioned in transcript, but implied to have been supported by the same legal efforts as Restivo and Cogut.
+    -   **Cross-Reference**: Yes (exoneree database implied by the nature of the podcast)
+    -   **Narrative of Original Crime**: Same as John Restivo's case.
+    -   **Key Evidence at Trial (Prosecution)**: False confession of John Cogut implicating Halsted, planted hairs attributed to Restivo's van.
+    -   **Trial Defender Notes**: Had an alibi, but details not extensively discussed in transcript beyond being mentioned alongside Restivo and Cogut.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: DNA testing of vaginal swabs in 2003 excluded Halsted, Restivo, and Cogut.
+    -   **Actual Perpetrator Details**: Unknown, DNA profile from semen did not match Halsted, Restivo, or Cogut and did not get a CODIS hit at the time of the podcast.
+
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "Together, they spent over half a century in prison for a crime they did not commit." (Podcast intro)
+    -   John Restivo: "I knew that not only was I innocent, that I was framed because I watched the evidence come out during the course of the trial, right? So I knew that I was framed. Now it was up to me to prove all it is."
+    -   Nina Morrison on false confession: "...classic false confession in that it had no information that the police didn't already know..."
+    -   Nina Morrison on planted hairs: "...Detective Volpe...lied under oath and said that these hairs came from the van and it's physically impossible because she had been decomposing for several weeks when these hairs were collected. They were from her autopsy, not from the van."
+    -   John Restivo: "I put it all in perspective of, you know, a POW in the Philippines or a POW in Vietnam. And I got it in my brain. Well, at the end of the day, I don't belong here, but it could be worse."
+    -   John Restivo: "Being wrongfully convicted can happen to anybody, anybody. And it doesn't have anything to do with race, gender, anything."
+-   **Systemic Issues Identified**:
+    -   False confessions due to coercive interrogation tactics (police lying, guilt-presumptive interrogation).
+    -   Police misconduct: Fabrication and planting of evidence.
+    -   Prosecutorial resistance to DNA evidence and attempts to discredit it even when exculpatory.
+    -   Judicial deference to prosecution arguments and initial skepticism towards DNA evidence.
+    -   Hidden exculpatory evidence within police files not disclosed to the defense.
+-   **Policy Recommendations/Calls to Action**:
+    -   Implicit call for police accountability and holding officers like Detective Volpe responsible for misconduct.
+    -   Implicit need for reforms in interrogation practices to prevent false confessions.
+    -   Implicit need for improved evidence handling and disclosure procedures.
+    -   Call to support organizations like the Innocence Project to help prevent future wrongful convictions (explicitly mentioned at the end).
+-   **Personal Narrative/Impact**:
+    -   John Restivo describes the devastating impact of wrongful conviction on his life and family.
+    -   He highlights his resilience and determination to prove his innocence through legal work and self-education in law while incarcerated.
+    -   He emphasizes the long-lasting trauma of wrongful conviction even after exoneration.
+    -   His post-exoneration work includes community service, voter registration drives, and helping the homeless.
+    -   He shares a perspective of finding strength and purpose even in the face of extreme adversity by comparing his situation to POWs and others facing even worse conditions.
+-   **Additional Resources**:
+    -   New Yorker magazine article by Ariel Levy titled "The Price of a Life" about John Restivo's story.
+    -   Innocence Project (innocenceproject.org) - for donations and involvement.
+    -   Atlanta Innocence Network Conference (mentioned as location of interview).
+    -   Centurion Ministries (organization that assisted with the case).
+    -   PurdueGlobal.edu (advertisement in podcast, unrelated to wrongful conviction topic).
+    -   don'tsleeponosa.com (advertisement in podcast, unrelated to wrongful conviction topic).
+    -   Target.com/circle (advertisement in podcast, unrelated to wrongful conviction topic).
+    -   iHeartCountryTrip.com (advertisement in podcast, unrelated to wrongful conviction topic).
+    -   mycomputercareer.edu/cwp (advertisement in podcast, unrelated to wrongful conviction topic).
+    -   Culver's (advertisement in podcast, unrelated to wrongful conviction topic).
+
+Summary:
+```

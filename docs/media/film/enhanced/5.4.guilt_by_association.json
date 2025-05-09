@@ -1,0 +1,63 @@
+{
+  "source_file_name": "5.4.guilt_by_association.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "48 Hours",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "CBS News",
+    "focus_or_theme": "Wrongful conviction despite alibis, DNA exoneration after long imprisonment, coerced confession.",
+    "summaryNotes": "Case involved exoneration after 25 years.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Guilt by Association",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction despite alibis, DNA exoneration after long imprisonment, coerced confession.",
+    "summary_notes": "Anthony Wright was convicted based on a coerced confession for a 1991 rape/murder in Philadelphia and served nearly 25 years before DNA proved his innocence, leading to acquittal at a 2016 retrial. The case gained further notoriety when detectives involved faced perjury charges related to their testimony at the retrial.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Examines how Wright was convicted of rape/murder despite multiple alibis, later exonerated through DNA after 25 years. Available via CBS/Paramount+.",
+      "research_findings": "While searches didn't confirm a 48 Hours episode titled \"Guilt by Association\" about Anthony Wright, his case fits the description in the list. Wright was convicted based on a coerced confession for a 1991 rape/murder in Philadelphia and served nearly 25 years before DNA proved his innocence, leading to acquittal at a 2016 retrial. The case gained further notoriety when detectives involved faced perjury charges related to their testimony at the retrial."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Anthony Wright",
+      "first_name": "Anthony",
+      "middle_name": null,
+      "last_name": "Wright",
+      "status": "EXONERATED",
+      "conviction_year": 1993,
+      "exoneration_or_release_year": 2016,
+      "time_served": "Nearly 25 years",
+      "sentence": "Life without parole",
+      "crime_convicted_of_raw": "Rape and Murder (of 77-year-old neighbor Louise Talley)",
+      "case_location_city": "Philadelphia",
+      "case_location_state": "Pennsylvania",
+      "narrative_summary": "Anthony Wright was wrongfully convicted of rape and murder in Philadelphia in 1993 and served nearly 25 years. His conviction was based on a coerced false confession, and he was later exonerated in 2016 after DNA evidence proved his innocence. Detectives involved in the case later faced perjury charges.",
+      "contributing_factors_raw": [
+        "Coerced false confession",
+        "Alleged police misconduct (planting evidence, perjury by detectives later charged)",
+        "Conviction despite alibi claims",
+        "Overturned by DNA evidence"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "Examines how Wright was convicted of rape/murder despite multiple alibis, later exonerated through DNA after 25 years. Available via CBS/Paramount+."
+}

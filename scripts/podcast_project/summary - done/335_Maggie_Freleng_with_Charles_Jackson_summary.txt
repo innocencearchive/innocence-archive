@@ -1,0 +1,63 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Maggie Freeling
+-   **Episode # & Title (if applicable)**: Charles Jackson
+-   **Host(s)**: Maggie Freeling
+-   **Release Year(s)**: 2023
+-   **Production Company(ies)/Network**: Lava for Good podcasts in association with Signal Company number one
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, criminal justice system failures, eyewitness misidentification, prosecutorial misconduct, exoneration.
+-   **Key Statistics/Information**: Charles Jackson served 27 years, 6 months, and 20 days for a crime he did not commit.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Maggie Freeling" tells the story of Charles Jackson, who was wrongfully convicted of murder in 1991 and spent nearly 28 years in prison.  The prosecution's case relied solely on eyewitness testimony, which was later proven unreliable.  Key evidence that could have exonerated Charles was withheld by the prosecution, constituting Brady violations.  The Ohio Innocence Project took on his case, uncovered this withheld evidence, and helped secure his release in 2018.  After exoneration, Charles donated a kidney to his nephew, highlighting a life-saving act following years of injustice.  He now resides at an Exonoree home, advocating for others who have been wrongfully convicted and working towards a new future as a chef.  The episode underscores the devastating impact of wrongful convictions and the importance of innocence projects in rectifying these injustices.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Charles Jackson
+-   **Case Location**: Cleveland, Ohio, USA
+-   **Conviction Year**: 1991
+-   **Exoneration Year**: 2018
+-   **Crime Convicted Of**: Murder of Joe Travis and Attempted Murder
+-   **Sentence**: 20 years to life for murder, 7 to 25 years for attempted murder, and 3 years for firearm possession.
+-   **Time Served**: 27 years, 6 months, 20 days
+-   **Contributing Factors**: Eyewitness misidentification, Brady violations (withholding of exculpatory evidence by the prosecution).
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**: Ohio Innocence Project
+-   **Innocence Lawyer Details**: Donald Castor, Professor of Clinical Law with the Ohio Innocence Project at the University of Cincinnati, served as Charles' attorney.
+-   **Narrative of Original Crime**: Joe Travis was fatally shot in the hallway of his apartment complex following an altercation between rival drug dealers. Charles Jackson was later accused of being the shooter based on eyewitness identification.
+-   **Key Evidence at Trial (Prosecution)**: The prosecution primarily relied on the eyewitness testimonies of Ronald Lacey and Amelia Tucker, who identified Charles Jackson as the shooter. Ronald Lacey identified Charles from a single mugshot. Amelia Tucker claimed to have seen Charles' face as the shooter, despite initial statements to police indicating she could not identify the shooter.
+-   **Trial Defender Notes**: Charles was represented by public defenders Edward Wade and Howard Manager. They presented an alibi and argued mistaken identity, even showing Ronald Lacey a picture of James Morris (who resembled Charles), and Lacey mistakenly identified James as Charles. However, they did not call Vincent (who claimed to know the real shooter) as a witness and were unaware of the key inconsistencies in eyewitness testimonies and other undisclosed evidence.
+-   **Key Evidence for Exoneration/Change in Legal Status**: The Ohio Innocence Project uncovered previously undisclosed police reports that revealed significant Brady violations. These reports showed:
+    -   Amelia Tucker initially told police twice that she could not identify the shooter and did not see the shooter's face, directly contradicting her trial testimony.
+    -   Ronald Lacey gave inconsistent statements about the direction of the gunshot wound.
+    -   Another eyewitness, Thomas Salvano, who was never called to testify, saw the event and confirmed it was not Charles.
+    -   Ronald Lacey eventually recanted his trial testimony, admitting he did not see the fatal shot.
+-   **Actual Perpetrator Details**: While not definitively named as the actual perpetrator in the podcast, James Morris, nephew of Charlie Dogg Davis, is strongly suggested as a more plausible suspect. This theory aligns with a motive of retaliation against Omelea Tucker (who had an altercation with Charlie Dogg Davis earlier that night) and places Joe Travis as potentially being caught in the crossfire.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Charles Jackson: "My name is Charles Jackson. I served 27 years, six months and 20 days for a crime I didn't commit."
+    -   Ronald Lacey, when shown a picture of James Morris: "This is a picture of Sweet Man." (Charles's nickname), demonstrating misidentification even with a different person resembling Charles.
+    -   Houston Foster, Charles's nephew, on Charles donating a kidney: "He was like a hero because even though he said he took a life, when he did take a life, he helped save a life."
+-   **Systemic Issues Identified**:
+    -   **Eyewitness Misidentification**: The case heavily relied on flawed eyewitness testimony, highlighting the dangers of its unreliability.
+    -   **Brady Violations**: The prosecution failed to disclose exculpatory evidence, a significant breach of legal and ethical obligations.
+    -   **Ineffective Assistance of Counsel**: While not explicitly stated, the defense's failure to uncover and utilize key pieces of evidence raises questions about the effectiveness of the original legal representation.
+    -   **Flawed Police Procedures**: The use of a single mugshot for identification instead of a proper lineup contributed to the misidentification.
+-   **Policy Recommendations/Calls to Action**:
+    -   Support local Innocence Organizations to help them continue their work of exonerating the wrongfully convicted.
+    -   Donate to the Exonoree Home (x-freedomstudio.org) to support exonerees as they rebuild their lives after wrongful imprisonment.
+-   **Personal Narrative/Impact**: Charles Jackson described his transformation in prison, initially becoming hardened and angry to survive, then realizing the need to change and seek help to prove his innocence. His story emphasizes the immense personal toll of wrongful conviction, the loss of years, and the struggle to readjust to freedom. His act of donating a kidney to his nephew after release represents a powerful turn from injustice to life-giving generosity.
+-   **Additional Resources**:
+    -   x-freedomstudio.org (website to donate to the Exonoree Home)
+    -   Local Innocence Organizations (mentioned as needing support)
+```

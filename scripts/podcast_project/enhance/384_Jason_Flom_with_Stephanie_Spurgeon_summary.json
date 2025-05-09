@@ -1,0 +1,129 @@
+{
+    "sourceFileName": "384_Jason_Flom_with_Stephanie_Spurgeon_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, shaken baby syndrome, junk science, legal reform, personal stories of exonerees.",
+        "keyStats": "-   Shaken Baby Syndrome (SBS) originally hypothesized by Dr. Norman Guthkelch, but not proven.\n-   Over 80 different pre-existing conditions can mimic SBS triad symptoms.\n-   Defense attorney in Stephanie Spurgeon's case focused on SBS defense even when the prosecution shifted to \"soft impact theory\".\n-   Stephanie Spurgeon served 9 years in prison before exoneration.\n-   Mention of Michael Giovo, also potentially wrongfully convicted in Florida with Dr. Sally Smith as an expert.\n-   Reference to Amanda Brumfield, another exoneree who was in prison with Stephanie.",
+        "itemNumber": "384",
+        "itemTitle": "Jason Flom with Stephanie Spurgeon",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction revisits the story of Stephanie Spurgeon, a daycare provider wrongfully convicted of manslaughter in the death of a child in her care due to the now-debunked \"shaken baby syndrome\" theory. The episode features Stephanie, her attorney Allison Miller, and Seth Miller from the Innocence Project of Florida.  It details the flawed medical assumptions, ineffective defense at trial, and the eventual exoneration after nine years of imprisonment thanks to the Innocence Project. Stephanie recounts her terrifying experience in prison and her advocacy work for Michael Giovo, who faces a similar wrongful conviction.  The podcast highlights systemic issues within the legal and medical communities regarding SBS and emphasizes the importance of reliable forensic evidence and the need for legal reform to prevent future wrongful convictions. It also showcases Stephanie's resilience and her ongoing fight for justice."
+    },
+    "featuredIndividual": {
+        "fullName": "Stephanie Spurgeon",
+        "caseLocation": "Pinellas County, Florida, USA",
+        "convictionYear": "2009 (approximately, based on arrest dates in 2008 and trial/conviction following)",
+        "exonerationYear": "Mentioned being home for a year at the time of the 2023 interview, implying exoneration around 2022.",
+        "crimeConvictedOf": "Manslaughter (originally charged with Capitol Felony Murder, reduced to manslaughter)",
+        "sentence": "15 years in prison",
+        "timeServed": "9 years",
+        "contributingFactorsRaw": [
+            "Junk science of shaken baby syndrome/abusive head trauma.",
+            "Misinterpretation of medical findings (brain bleed, swelling, retinal hemorrhages) as abuse instead of considering underlying medical conditions.",
+            "Ineffective assistance of counsel: defense attorney focused on shaken baby syndrome defense when the prosecution shifted to a \"soft impact\" theory and failed to adequately challenge the state's expert or present alternative medical explanations.",
+            "\"Soft impact theory\" - a dubious prosecution theory concocted to explain lack of external injuries.",
+            "Testimony of a \"child abuse pediatrician\" (Dr. Sally Smith, implied but not explicitly named in this segment of the transcript, but contextually likely from other parts of the full podcast episode if available)."
+        ],
+        "status": "Exonerated (Alfred plea was mentioned as part of the resolution, implying release but not full legal exoneration in the purest sense, however, for the purpose of this database, we can consider it as achieving freedom after wrongful conviction)",
+        "organizationsInvolvedRaw": [
+            "Innocence Project of Florida",
+            "Innocence Project of Wisconsin (Kate Judson)",
+            "Exoneration Project (Chicago, Josh Tepper)",
+            "Center for Integrity and Forensic Science (Kate Judson's current organization)",
+            "Ripley Wise and Hunt (Allison Miller's firm)"
+        ],
+        "innocenceLawyersRaw": [
+            "Seth Miller: Executive Director of the Innocence Project of Florida.",
+            "Allison Miller: Attorney with Ripley Wise and Hunt, ran for Florida State Attorney. Trial attorney in Stephanie's post-conviction phase.",
+            "Kate Judson:  Formerly with Innocence Project of Wisconsin, now with the Center for Integrity and Forensic Science. Post-conviction work.",
+            "Josh Tepper: Exoneration Project (Chicago). Post-conviction work."
+        ],
+        "crossReference": "Yes, should be added to the exoneree database.",
+        "narrativeOriginalCrime": "One-year-old Maria Harris was at Stephanie's in-home daycare for her first day.  Maria was picked up by her grandmother seemingly asleep but later became unresponsive.  Medical professionals attributed brain injuries to child abuse, leading to accusations against Stephanie.",
+        "keyEvidenceProsecutionRaw": [
+            "Medical testimony diagnosing \"shaken baby syndrome\" and later \"soft impact\" trauma as the cause of Maria's injuries and death, despite lack of external injuries.",
+            "Testimony from a \"child abuse pediatrician\" concluding abusive trauma."
+        ],
+        "trialDefenderNotes": "-   Initial attorney hired was expensive but not experienced in capital cases.\n-   Second attorney focused defense on refuting \"shaken baby syndrome\" theory, even after the prosecution shifted to \"soft impact theory.\"\n-   Defense failed to effectively use biomechanical expert to challenge \"soft impact theory\" or present alternative medical explanations for Maria's condition.",
+        "keyEvidenceExonerationRaw": [
+            "Post-conviction investigation by Innocence Project revealed ineffective assistance of counsel.",
+            "Biomechanical expert testimony demonstrating \"soft impact\" could not cause the injuries without external signs of trauma.",
+            "Medical experts (pediatric endocrinologists, geneticists, pathologists, neuroadiologist) presented evidence that Maria's condition was likely due to a blood clot in the brain, possibly related to an undiagnosed diabetic situation, not trauma.",
+            "Second District Court of Appeal overturned the denial of post-conviction motion, finding ineffective counsel.",
+            "State eventually agreed to an Alfred plea to resolve the case, leading to Stephanie's release."
+        ],
+        "actualPerpetratorDetails": "Not applicable, case argued to be a medical tragedy, not a crime. Underlying medical condition, potentially related to diabetes, believed to be the cause of Maria's death, not abuse."
+    },
+    "keyQuotesRaw": [
+        "Stephanie: \"I'm absolutely enjoying freedom. It's been a lot of time trying to just reconnect with everybody. It's been a lot of years that were lost, so it's been really good to kind of really make up family time.\"",
+        "Seth Miller on initial medical response: \"Instead of treating the child for what looked like a diabetic situation...they immediately assumed that this was an abusive situation.\"",
+        "Seth Miller on defense attorney's mistake: \"The defense attorney was very focused on shaky baby syndrome...he simply failed to learn his own case well enough to know that he could not simply employ the same formula...\"",
+        "Allison Miller: \"If people like us don't do this type of work, then nothing will ever change. People have to be more involved in their local down ballot elections...\"",
+        "Stephanie urging law enforcement and medical staff: \"to not assume abuse when they see a triad of injuries, to not race in emotionally charged and be more diligent.\""
+    ],
+    "systemicIssuesRaw": [
+        "Flaws in the criminal justice system's reliance on \"shaken baby syndrome\" and \"abusive head trauma\" diagnoses.",
+        "Over-reliance on certain medical experts (\"child abuse pediatricians\") with potential biases and misapplication of science.",
+        "Ineffective assistance of counsel in wrongful conviction cases.",
+        "Difficulty in challenging established medical narratives in court, especially when presented by seemingly credible experts.",
+        "Lack of understanding and consideration of alternative medical explanations for infant injuries and deaths.",
+        "Potential for confirmation bias in investigations, leading to premature conclusions of abuse."
+    ],
+    "policyRecommendationsRaw": [
+        "Call for reform in medical training to address the limitations and misapplications of SBS/AHT diagnoses.",
+        "Urge law enforcement and medical professionals to be more diligent and less emotionally charged in investigations of child injuries, avoiding premature assumptions of abuse.",
+        "Encourage public involvement in local elections, particularly for positions like state attorney, to promote prosecutorial accountability and reform.",
+        "Support organizations like Innocence Projects to help those wrongfully convicted and advocate for systemic change."
+    ],
+    "personalNarrativeRaw": [
+        "Stephanie's life and family were devastated by the wrongful conviction, including divorce and years of separation from her children.",
+        "She experienced terrifying conditions in maximum security prison.",
+        "Despite the trauma, Stephanie showed incredible resilience, becoming a law clerk in prison and dedicating herself to helping others, including advocating for Michael Giovo.",
+        "She expressed gratitude for her support system and the Innocence Project teams who helped her gain freedom.",
+        "Stephanie's story highlights the profound personal cost of wrongful convictions and the long journey to rebuild life after exoneration."
+    ],
+    "additionalResourcesRaw": [
+        "Justice for Trey Clay Instagram account (linked in podcast notes).",
+        "Information about Michael Giovo's case (linked in podcast notes).",
+        "Stephanie Spurgeon's podcast \"Freedom Fighters\" (linked in podcast notes).",
+        "Stephanie Spurgeon's GoFundMe (mentioned in podcast, link to be added to episode bio).",
+        "AIG Pro Bono program and Accenture's legal access program (mentioned as underwriters supporting criminal justice reform)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Michael Giovo",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": true
+            },
+            {
+                "name": "Dr. Sally Smith",
+                "role_guess": "Medical Expert",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Alternative medical explanations for infant injuries and deaths",
+            "Confirmation bias in investigations, leading to premature conclusions of abuse."
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Shaken Baby Syndrome",
+                "Forensic Evidence",
+                "Legal Reform",
+                "Systemic Issues in Criminal Justice",
+                "Advocacy for the Wrongfully Convicted"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

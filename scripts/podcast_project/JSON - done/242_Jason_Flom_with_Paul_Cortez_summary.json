@@ -1,0 +1,81 @@
+{
+    "sourceFileName": "242_Jason_Flom_with_Paul_Cortez_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "Lava for Good podcasts in association with Signal Company No. 1.",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction stories, injustice, legal system failings.",
+        "keyStats": "Paul Cortez was convicted based on a fingerprint mistakenly believed to be in blood, despite surveillance footage placing another suspect at the scene. His defense attorneys were ineffective, failing to present crucial exculpatory evidence like surveillance footage and DNA evidence.",
+        "itemNumber": "242",
+        "itemTitle": "Jason Flom with Paul Cortez",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the story of Paul Cortez, wrongfully convicted in 2005 for the murder of Katherine Woods in New York City.  Despite evidence pointing towards David Hahn, Woods' ex-boyfriend, including surveillance footage and DNA evidence, Cortez was convicted largely due to a misinterpreted fingerprint and ineffective defense counsel. The podcast highlights systemic issues such as junk science, prosecutorial misconduct, and incompetent legal representation.  The episode features interviews with Paul Cortez and his current attorney, Tony Marie Angeli, who details the egregious errors in the original trial and ongoing efforts to exonerate Cortez. The narrative underscores the devastating impact of wrongful convictions and calls for listeners to support Paul Cortez's case and advocate for justice system reform.  Key pieces of evidence overlooked include surveillance video of Hahn at the scene and untested DNA from the victim's fingernails.  The episode emphasizes the urgent need for legal reform and support for the wrongfully convicted."
+    },
+    "featuredIndividual": {
+        "fullName": "Paul Cortez",
+        "caseLocation": "New York City, New York, USA",
+        "convictionYear": "2005",
+        "exonerationYear": "Not yet exonerated (as of podcast recording)",
+        "crimeConvictedOf": "Murder of Katherine Woods",
+        "sentence": "25 years to life",
+        "timeServed": "16 years (as of podcast recording)",
+        "contributingFactorsRaw": [
+            "Ineffective Assistance of Counsel: Defense attorneys failed to present key exculpatory evidence (surveillance footage, DNA), and had conflicts of interest.",
+            "Junk Science/Misinterpreted Evidence: Fingerprint evidence was misinterpreted as being in blood and given undue weight.",
+            "Prosecutorial Misconduct: Prosecution presented misleading information and argued against video evidence and knowingly untrue assertions.",
+            "Media Bias/Racial Bias: Media narratives focused on racial stereotypes and created a false narrative of guilt."
+        ],
+        "status": "Currently incarcerated, seeking exoneration through federal court.",
+        "organizationsInvolvedRaw": [
+            "Angeli Law Firm (pro bono representation)"
+        ],
+        "innocenceLawyersRaw": [
+            "Tony Marie Angeli of Angeli Law Firm, providing pro bono legal representation. Described as a \"pit bull\" and dedicated to uncovering the truth and fighting for Paul's exoneration.  She meticulously reviewed the case, contacted experts, and is currently pursuing federal litigation."
+        ],
+        "crossReference": "Not specified in transcript if in exoneree database.",
+        "narrativeOriginalCrime": "Katherine Woods was brutally stabbed to death in her Manhattan apartment on November 27, 2005. The crime occurred between 6:20 and 6:25 pm.",
+        "keyEvidenceProsecutionRaw": [
+            "Fingerprint evidence: A fingerprint of Paul Cortez found in Katherine's apartment, mistakenly believed to be in blood and from the crime scene.",
+            "Cell phone records: Presented to suggest Paul was a jilted lover filled with rage, though evidence was weak.",
+            "Diary entries and song lyrics from Paul's past, used to portray him as violent."
+        ],
+        "trialDefenderNotes": "Defense attorneys Don Florio and Laura Miranda were demonstrably ineffective. They failed to:\n-   Appear for the first three days of the trial.\n-   Hire experts to challenge the fingerprint evidence.\n-   Visit the crime scene or interview witnesses.\n-   Present exculpatory surveillance footage showing David Hahn leaving the apartment shortly after the murder.\n-   Investigate or present DNA evidence from under the victim's fingernails.\n-   They were also under indictment during the trial, creating a conflict of interest.",
+        "keyEvidenceExonerationRaw": [
+            "Surveillance Video: Shows David Hahn leaving Katherine's apartment building at 6:37 pm, just minutes after the estimated time of the murder (6:20-6:25 pm), contradicting the prosecution's timeline and placing Hahn at the scene during and immediately after the crime.",
+            "Latent Fingerprint Evidence: The fingerprint was not in blood and was likely an old print predating the crime, undermining the prosecution's key physical evidence.",
+            "DNA Evidence: DNA from under Katherine Woods' fingernails and hands, which was never tested against David Hahn or presented at trial.",
+            "Witness Testimony: Earwitness testimony placing the crime between 6:20 and 6:25 pm, aligning with Hahn's presence and contradicting the prosecution's timeline for Paul Cortez."
+        ],
+        "actualPerpetratorDetails": "David Hahn, Katherine Woods' ex-boyfriend who was living with her at the time of the murder.\n-   Was present in the apartment building according to surveillance footage.\n-   Called 911 from the apartment after the murder.\n-   Initially named Paul Cortez as the murderer upon police arrival.\n-   Had a history of drug addiction and financial instability, providing a potential motive.\n-   His initial statements to police were deceptive and inaccurate, according to Tony Marie Angeli.\n-   Witnesses placed the time of the crime within the window Hahn was admittedly in the apartment."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"This case, it has racism, it has incompetence on official levels, it has junk science, but it also has attorneys representing the defendant who themselves were committing numerous crimes before or during and probably after the trial.\"",
+        "Paul Cortez: \"I just believe that the truth would prevail. And that's why I took the stand, and I tried to be as forthcoming as I could, to understand I completely expected that they would acquit me because they would know that what I was saying was the truth.\"",
+        "Tony Marie Angeli: \"I think if you play the video and watch it and see someone else leaving the scene after the homicide, that is key. And you show that to the jury. That would have changed the day.\"",
+        "Paul Cortez: \"I have been incarcerated for 16 years for a comedy and commit. I have been fighting since day one to prove my innocence to the court system. I haven't given up and it is a terrible injustice not only for me and my family, but it's also been a terrible injustice for Catherine and for her family.\"",
+        "Paul Cortez's message to listeners: \"Don't give up. Continue to fight. Continue to believe. Just know there are people who care about you. There's a better way than what you're living through right now. Just keep continuing on.\""
+    ],
+    "systemicIssuesRaw": [
+        "Ineffective assistance of counsel.",
+        "Prosecutorial misconduct and withholding of exculpatory evidence.",
+        "Misuse and misinterpretation of forensic evidence (\"junk science\").",
+        "Media bias and sensationalism, including racial bias.",
+        "Lack of proper conflict of interest inquiry for defense attorneys."
+    ],
+    "policyRecommendationsRaw": [
+        "Listeners are encouraged to visit www.freepaulcortes.com to learn more and sign petitions for clemency.",
+        "New Yorkers are urged to contact their state assembly members and senators to advocate for Paul Cortez's case and for broader justice reform.",
+        "Implicit call for greater scrutiny of forensic evidence and stronger standards for defense attorney competence and ethical conduct."
+    ],
+    "personalNarrativeRaw": [
+        "Paul Cortez's personal narrative focuses on the shock of wrongful conviction, the horrors of prison life, and his ongoing struggle to maintain hope and fight for justice. Despite immense suffering, he emphasizes resilience, faith, and a desire to help others. He expresses gratitude for his supporters and lawyer Tony Marie Angeli. His final thoughts are a message of hope and perseverance for anyone facing injustice or hardship."
+    ],
+    "additionalResourcesRaw": [
+        "Website: www.freepaulcortes.com",
+        "Change.org petition for clemency (link to be found on website or via podcast episode bio).",
+        "Contacting New York State Assembly members and Senators."
+    ]
+}

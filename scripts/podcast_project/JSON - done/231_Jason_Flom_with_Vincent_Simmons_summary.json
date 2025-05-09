@@ -1,0 +1,82 @@
+{
+    "sourceFileName": "231_Jason_Flom_with_Vincent_Simmons_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, legal injustice, racism, and the fight for exoneration.",
+        "keyStats": "Vincent Simmons has been incarcerated for over 44 years; 27 of those in solitary confinement; convicted based on testimony from alleged victims with no physical evidence and withheld exculpatory evidence.",
+        "itemNumber": "231",
+        "itemTitle": "Jason Flom with Vincent Simmons",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the harrowing story of Vincent Simmons, who has been imprisoned for over 44 years for a rape he did not commit.  The case, dating back to 1977 in Louisiana, is riddled with small-town racism, false accusations, and a complete lack of evidence. Simmons, a Black man, was accused by two White twin sisters and their cousin.  Despite conflicting accounts, no physical evidence, and a suggestive police lineup, Simmons was convicted and sentenced to 100 years.  Exculpatory evidence was withheld at trial, and Simmons endured decades of injustice, including assaults in prison and solitary confinement.  The episode highlights systemic issues of racial bias, prosecutorial misconduct, and the arduous fight for exoneration, featuring attorney Justin Bonus who is currently working pro bono on Simmons's case."
+    },
+    "featuredIndividual": {
+        "fullName": "Vincent Simmons",
+        "caseLocation": "Voles Parish, Louisiana, USA",
+        "convictionYear": "1977",
+        "exonerationYear": "Not yet exonerated (as of podcast recording)",
+        "crimeConvictedOf": "Rape",
+        "sentence": "100 years",
+        "timeServed": "Over 44 years (as of podcast recording)",
+        "contributingFactorsRaw": [
+            "Racial bias",
+            "False accusations",
+            "Withheld exculpatory evidence",
+            "Suggestive police lineup",
+            "Ineffective trial defense",
+            "Perjury by witnesses"
+        ],
+        "status": "Incarcerated, seeking post-conviction relief.",
+        "organizationsInvolvedRaw": [
+            "Friends and Family of the Wrongfully Convicted (organization at Derek Hamilton started), Change.org petition."
+        ],
+        "innocenceLawyersRaw": [
+            "Justin Bonus, attorney from New York, working pro bono on Vincent Simmons's case. Previously involved in the cases of Nelson Cruz, Brooklyn and Marcus Wiggins in Chicago."
+        ],
+        "crossReference": "Not explicitly stated if in exoneree database in transcript.",
+        "narrativeOriginalCrime": "Twin sisters Karen and Sharon Sanders and their cousin Keith LeBord claimed they were accosted by a Black hitchhiker. They alleged the hitchhiker forced Keith and Karen into the trunk while he raped Sharon, then put Sharon in the trunk and raped Karen. They claimed this occurred on May 9, 1977.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of Karen and Sharon Sanders and Keith LeBord identifying Vincent Simmons as the perpetrator."
+        ],
+        "trialDefenderNotes": "Trial attorney Mike Kelly reportedly received no discovery and was unaware of crucial exculpatory evidence, including inconsistent statements, conflicting descriptions, the suggestive lineup, and Sharon Sanders's intact hymen. The defense presented alibi witnesses, but they were discredited using petty offenses.",
+        "keyEvidenceExonerationRaw": [
+            "Discovery of withheld exculpatory evidence in 1993, including initial inconsistent statements from the accusers and evidence contradicting their claims.",
+            "Testimony from a family member of the LeBords in 2020 stating Keith LeBord admitted in 2011/2012 there was no Black assailant and that the story was fabricated.",
+            "Facebook messages between Keith LeBord's cousin and Karen Sanders where Karen admitted Keith LeBord raped her.",
+            "Admission from Charles Riddle, the district attorney, that Vincent Simmons's trial attorney did not receive discovery.",
+            "Recusal of Judge Kerry Sproul and District Attorney Charles Riddle due to conflicts of interest and condoning constitutional violations."
+        ],
+        "actualPerpetratorDetails": "Implied to be Keith LeBord, cousin of the twin sisters.  He is alleged to have had a sexual relationship with Karen Sanders.  While Keith claims it was consensual, Karen suggests it was rape.  Regardless, Keith's initial false report of a Black assailant set the wrongful conviction of Vincent Simmons in motion."
+    },
+    "keyQuotesRaw": [
+        "\"everybody involved basically is white except for Mr. Simmons, who's black, and now that's just the freakin beginning.\" - Host Jason Flom, highlighting racial dynamics.",
+        "\"Robert LeBord, he raised up from a seat where he would write your confession and pull his weapon and shot me. He shot me in the chair.\" - Vincent Simmons recounting being shot by a police officer.",
+        "\"This is simple. They could give him a new trial right now, but they know that they can't retry him because the people that testified against him will never testify against him again because they lied.\" - Justin Bonus on the current legal situation.",
+        "\"When I got to Angola and they slammed the doors behind me, it was like a shot for me... I would have a nightmare to be a shot and be open over again.\" - Vincent Simmons describing the impact of his conviction."
+    ],
+    "systemicIssuesRaw": [
+        "Racial bias in the criminal justice system.",
+        "Police misconduct (shooting an innocent suspect, suggestive lineup).",
+        "Prosecutorial misconduct (withholding exculpatory evidence,  prosecutors interchanging roles at trial).",
+        "Ineffective defense counsel in the original trial (due to lack of discovery).",
+        "Difficulties in overturning wrongful convictions, even with overwhelming evidence of innocence.",
+        "Flaws in jury system and non-unanimous verdicts (at the time)."
+    ],
+    "policyRecommendationsRaw": [
+        "Listeners are encouraged to write to Judge William Bennett, the Attorney General's office, the Governor of Louisiana, and District Attorney Charles Riddle to demand action in Vincent Simmons's case.",
+        "Support local Innocence Organizations.",
+        "Sign petitions and raise awareness about wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Vincent Simmons describes enduring horrific prison conditions, including assaults, solitary confinement, and the constant trauma of his wrongful conviction. He expresses faith in God and justice despite his long ordeal. His resilience and continued fight for freedom are highlighted as remarkable."
+    ],
+    "additionalResourcesRaw": [
+        "Documentaries: \"The Farm\" and \"Shadows of a Doubt\" (linked in podcast bio).",
+        "Friends and Family of the Wrongfully Convicted website (page for Vincent Simmons).",
+        "Change.org petition for Vincent Simmons."
+    ]
+}

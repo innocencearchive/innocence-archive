@@ -1,0 +1,103 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but the episode is about Tim Cole.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript.
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, eyewitness misidentification, flawed investigation, systemic issues in the justice system.
+-   **Key Statistics/Information**:
+    -   Cross-racial identifications are less accurate than guessing.
+    -   Double-blind procedures drastically reduce wrongful identifications without reducing correct identifications.
+    -   Texas Prosecutor County DA's Association estimates up to 10% of inmates in Texas prisons may be innocent.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction tells the tragic story of Tim Cole, a young Black man wrongfully convicted of rape in 1986 in Lubbock, Texas.  Despite having a solid alibi and evidence pointing to another perpetrator, flawed eyewitness identification, and a biased investigation led to his conviction.  Even after the actual rapist confessed and DNA evidence later confirmed Tim's innocence, he died in prison after serving 13 years for a crime he did not commit.  The episode features interviews with Tim's brother, Corey Session, and sister, Karen, who detail their fight for his posthumous exoneration.  The story highlights the devastating consequences of systemic failures in the justice system, the importance of eyewitness identification reform, and the long-lasting impact of wrongful convictions on individuals and their families.  Ultimately, Tim Cole was posthumously exonerated and pardoned, leading to the Timothy Cole Act in Texas to prevent future wrongful convictions and compensate exonerees and their families.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Tim Cole
+-   **Case Location**: Lubbock, Texas, USA
+-   **Conviction Year**: 1986
+-   **Exoneration Year**: 2009 (posthumously)
+-   **Crime Convicted Of**: Aggravated Sexual Assault
+-   **Sentence**: 25 years
+-   **Time Served**: 13 years (died in prison)
+-   **Contributing Factors**:
+    -   Eyewitness misidentification (shaky testimony, suggestive photo lineup)
+    -   Flawed police investigation (ignoring alibi, focusing on a suspect who resembled a composite sketch based on a flawed cross-racial identification, ignoring evidence of serial rapist and differing MO details like smoking)
+    -   Ineffective trial (judge refused to admit exculpatory evidence about serial rapes and other suspect)
+-   **Legal Status**: Posthumously exonerated and pardoned
+-   **Organizations Involved**:
+    -   Innocence Project of Texas
+    -   Innocence Project of New York
+-   **Innocence Lawyer Details**:
+    -   Mike Brown (original trial lawyer, hired by family, did a good job investigating but limited by court rulings)
+    -   Jeff Blackburn (Innocence Project of Texas, instrumental in posthumous exoneration)
+    -   Barry Scheck (Innocence Project of New York, co-counsel for exoneration)
+-   **Cross-Reference**: Yes (exoneree database implied but not explicitly stated if in a specific database in transcript)
+-   **Narrative of Original Crime**: A series of rapes occurred on the Texas Tech campus. The perpetrator would approach women in parking lots, force them into their cars, drive them to desolate areas, and rape them. The perpetrator smoked cigarettes during the assaults and fled on foot. Tim Cole was wrongfully accused of the fifth rape in this series.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Eyewitness identification by the fifth victim, Michelle Mallon, who said, "I think that's him." (Detective wrote "that's him" near photo).
+    -   Similar characteristics of pubic hair (inconclusive serology).
+    -   Yellow shirt found in Tim's possession (not terry cloth as described by victim).
+-   **Trial Defender Notes**:
+    -   Presented five alibi witnesses who testified Tim was at a card game at the time of the rape.
+    -   Highlighted inconsistencies: victim's description of perpetrator as smoker vs. Tim's asthma, lack of bite marks on Tim despite victim biting attacker's thumb.
+    -   Attempted to introduce evidence of other similar rapes and another suspect (Jerry Wayne Johnson), but this evidence was denied by the judge.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Confession from Jerry Wayne Johnson in 1995 (initially ignored).
+    -   Further confession from Jerry Wayne Johnson in 2007, reaching the Innocence Project of Texas.
+    -   Posthumous DNA testing in 2008 excluded Tim Cole and matched Jerry Wayne Johnson to the rape kit from Michelle Mallon's case.
+    -   Court of Inquiry in 2009 where Jerry Wayne Johnson confessed again in court.
+-   **Actual Perpetrator Details**:
+    -   Name: Jerry Wayne Johnson
+    -   Confessed to the rape Tim Cole was convicted of, and was serving a life sentence for other similar sexual assaults.
+    -   Was in custody near Tim Cole after Tim's sentencing and may have heard Tim's cries of innocence.
+    -   Confessed in writing in 1995 and 2007 and in court in 2009.
+    -   DNA matched him to the rape in Tim Cole's case.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Michelle Mallon's initial eyewitness identification: "I think that's him." and detective's notation "that's him."
+    -   Tim Cole's statement when offered probation: "I'd rather spend 25 years in prison before I ever admit to something I did not do."
+    -   Prosecutor's smug reply: "Well, we aim to make sure that happens."
+    -   Tim's brother Reggie's recollection of Tim's warning: "They got me. Don't let them get you."
+    -   Michelle Mallon's quote on exoneration: "I was positive at the time that it was him. I was shocked when I found out it wasn't him. I joined Tim's family and working to exonerate him because it was the right thing to do. Timothy didn't deserve what he got."
+    -   Tim Cole's mother's statement: "What I want no man can give. And what I need is for them to never forget."
+    -   Corey Session's description of Tim giving away his army back pay to charities while in prison.
+    -   Tim Cole's simple life philosophy: "Just do right."
+-   **Systemic Issues Identified**:
+    -   Flawed eyewitness identification procedures (suggestive photo lineups, lack of double-blind procedures).
+    -   Racial bias in the justice system (black man accused of raping a white woman).
+    -   Tunnel vision in police investigations (focusing on a suspect based on flimsy resemblance, ignoring exculpatory evidence and alternative suspects).
+    -   Prosecutorial misconduct (pursuing conviction despite evidence of innocence, ignoring confession of actual perpetrator).
+    -   Judicial bias (refusing to admit exculpatory evidence).
+    -   Lack of compensation for wrongfully convicted individuals and their families (initially, before Timothy Cole Act).
+-   **Policy Recommendations/Calls to Action**:
+    -   Institute double-blind procedures for eyewitness identification lineups nationwide.
+    -   Support the Innocence Project of Texas and similar organizations working to exonerate the wrongfully convicted.
+    -   Advocate for criminal justice reform to prevent wrongful convictions.
+    -   Donate to InnocenceTexas.org.
+-   **Personal Narrative/Impact**:
+    -   Tim Cole's unwavering commitment to his innocence and his positive actions even in prison (giving away his money to charity).
+    -   The devastating impact of wrongful conviction on Tim Cole and his family, including his premature death in prison.
+    -   The long-term emotional toll on Tim's brother Reggie who felt responsible.
+    -   The extraordinary strength and advocacy of Tim's mother and siblings in fighting for his exoneration and systemic change.
+    -   Michelle Mallon's courage and remorse, becoming an advocate for wrongful conviction awareness and joining Tim's family in their fight.
+-   **Additional Resources**:
+    -   Innocence Project of Texas (InnocenceTexas.org)
+    -   Innocence Project of New York
+    -   Timothy Cole Advisory Panel on wrongful convictions in Texas
+    -   Timothy Cole Act in Texas
+    -   Lubbock Avalanche Journal (for Elliot Blackburn's reporting)
+```

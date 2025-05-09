@@ -1,0 +1,95 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in the transcript
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in the transcript (but mentioned as ongoing and referencing past cases).
+-   **Production Company(ies)/Network**: Lava for Good Podcast in association with signal company number one.
+-   **Series Type**: Ongoing Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, investigative journalism, legal analysis, criminal justice system issues.
+-   **Key Statistics/Information**:
+    -   Jo De Ambrosio is the 6th person exonerated from Ohio's death row and the 140th in America.
+    -   Involved corrupt cops in Cleveland (44 charged with taking money and protecting cocaine operations).
+    -   Trial lasted only two and three-quarter days from start to sentencing to death.
+    -   Exoneration based on withheld exculpatory evidence.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom tells the harrowing story of Jo De Ambrosio's wrongful conviction for the murder of Anthony Clann in Cleveland, Ohio, in 1988.  The narrative was built upon false eyewitness testimony from Edward Espinosa, a man with a motive and a history of violence, and supported by Paul Stoney Lewis, a drug dealer and rapist who had a strong reason to implicate others.  Despite a lack of physical evidence and a shifting timeline of events presented by the prosecution, Jo De Ambrosio and his co-defendant Michael Keenan were initially sentenced to death row.  Key to De Ambrosio's exoneration years later was the relentless work of Neil Kukute, a nurse, lawyer, and priest, who uncovered crucial exculpatory evidence, including alibi witnesses and evidence pointing to Stoney Lewis as a more likely suspect. This evidence, suppressed at the original trial, ultimately led to De Ambrosio's release and exoneration after years on death row. The episode highlights systemic issues within the justice system, including prosecutorial misconduct, ineffective defense counsel, and the dangers of relying on incentivized and unreliable witnesses.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Jo De Ambrosio
+    -   **Case Location**: Cleveland, Ohio, USA
+    -   **Conviction Year**: 1989
+    -   **Exoneration Year**: 2006 (Vacated in 2006, case dismissed after appeal denial)
+    -   **Crime Convicted Of**: Murder of Anthony Clann
+    -   **Sentence**: Death Row
+    -   **Time Served**: Approximately 17 years
+    -   **Contributing Factors**:
+        -   False eyewitness testimony (Edward Espinosa)
+        -   Prosecutorial misconduct (withholding exculpatory evidence)
+        -   Ineffective defense counsel (lack of investigation, poor trial strategy)
+    -   **Legal Status**: Exonerated, case dismissed.
+    -   **Organizations Involved**: Not explicitly mentioned in transcript, but implied legal teams and potentially innocence organizations worked on his case for exoneration.
+    -   **Innocence Lawyer Details**: Neil Kukute - Nurse, lawyer, and priest who played a critical role in uncovering exculpatory evidence and advocating for De Ambrosio's release. He was not the original lawyer but became instrumental post-conviction. Original lawyers were criticized for lack of effort and belief in De Ambrosio's innocence.
+    -   **Cross-Reference**: Not specified if in a particular exoneree database from the transcript.
+    -   **Narrative of Original Crime**: Jo De Ambrosio was accused of murdering Anthony Clann, allegedly during a search for Paul Stoney Lewis after a bar fight on Thursday, September 22, 1988. The prosecution claimed De Ambrosio, along with Michael Keenan and Edward Espinosa, confronted Clann, interrogated him about Stoney Lewis's whereabouts, and then De Ambrosio stabbed Clann to death.
+    -   **Key Evidence at Trial (Prosecution)**:
+        -   Eyewitness testimony of Edward Espinosa claiming to have seen De Ambrosio and Keenan murder Clann.
+        -   Testimony from Paul Stoney Lewis and supporting witnesses (James Russell, Adam Flannick, Carolyn Rosel) corroborating a narrative of events on Thursday night (though the murder happened Friday).
+        -   De Ambrosio's hunting knives presented as murder weapons, despite testing negative for blood.
+    -   **Trial Defender Notes**:
+        -   Defense lawyers advised De Ambrosio to opt for a three-judge panel trial.
+        -   Lawyers were criticized for not believing De Ambrosio, not conducting proper investigation, and not effectively cross-examining prosecution witnesses or presenting alibi evidence.
+        -   Lawyers did not object to the prosecutor's tactics and failed to adequately prepare De Ambrosio for testimony.
+    -   **Key Evidence for Exoneration/Change in Legal Status**:
+        -   Alibi witnesses who testified De Ambrosio was at an eviction party on Friday night, the actual night of the murder.
+        -   Witness Linda de Blasio, a barmaid at Coconut Joe's, testified that she saw Anthony Clann alive on Friday night and gave him cab fare.
+        -   Evidence of Paul Stoney Lewis's motive to kill Clann because Clann was a witness in a rape case against him.
+        -   Withheld police reports indicating disturbed ground at the crime scene was inconsistent with body location.
+        -   Withheld police reports indicating another man, Angelo Cremini, implicated others in the murder.
+        -   Medical impossibility of Clann screaming and running after sustaining the described throat and chest wounds, contradicting Espinosa's testimony.
+        -   Teresa Farinachi's testimony about hearing a commotion at Paul Stoney Lewis's apartment Friday night/Saturday morning and seeing Anthony Clann in Keenan's truck Saturday morning.
+    -   **Actual Perpetrator Details**: Paul Stoney Lewis and Edward Espinosa are strongly implicated as potential actual perpetrators.
+        -   Paul Stoney Lewis: Convicted rapist and drug dealer, had motive to kill Anthony Clann who was witness against him in a rape case. Lived next door to where commotion was heard on Friday night/Saturday morning.
+        -   Edward Espinosa: Had a motive related to jealousy/romantic triangle with Anthony Clann and his girlfriend.  Gave contradictory affidavits, and received leniency (manslaughter plea) for his testimony against De Ambrosio and Keenan. Espinosa died one day before a key ruling in De Ambrosio's case.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Jason Flom: "This involves a date that was changed in order to make the case fit the facts instead of the other way around."
+    -   Jo De Ambrosio: "Truly, all it takes is one person, no other evidence, one person to point their finger at you and say, they stood there and watched why you killed this person. And there you go."
+    -   Neil Kukute: "I didn't do anything for Joe, the evidence freed Joe. And we just needed to find it and we just needed somebody to present it."
+    -   Neil Kukute: "Do we really want to give our government the power and the authority to take someone's life from them when the system is so screwed up?"
+    -   Jo De Ambrosio: "People need to stand up and say that you don't kill in my name and to stop this stupidity that's going on with the death penalty."
+-   **Systemic Issues Identified**:
+    -   Prosecutorial misconduct (withholding exculpatory evidence, coaching witnesses).
+    -   Ineffective defense counsel (lack of resources, competence, and belief in client).
+    -   Reliance on unreliable eyewitness testimony and incentivized witnesses.
+    -   Potential police corruption (implying pressure to close the case quickly and potentially overlooking other suspects).
+    -   Flaws in the three-judge panel system in capital cases.
+    -   The inherent risk of wrongful convictions in the death penalty system.
+-   **Policy Recommendations/Calls to Action**:
+    -   Abolish the death penalty (explicitly called for by Jo De Ambrosio and Father Neil).
+    -   Support innocence organizations.
+    -   Call to action for listeners to contact Ohio legislators regarding bills to abolish the death penalty.
+    -   Emphasis on the need for careful consideration and thorough investigation in capital cases.
+-   **Personal Narrative/Impact**:
+    -   Jo De Ambrosio endured nearly 17 years of wrongful imprisonment, including time on death row, impacting his life and family.
+    -   He highlights the arbitrary nature of wrongful convictions, stating it could happen to anyone.
+    -   He expresses gratitude for Neil Kukute's help and emphasizes the importance of evidence in his exoneration.
+    -   His final thoughts are a call to action to abolish the death penalty and prevent similar injustices.
+-   **Additional Resources**:
+    -   Innocence organizations (links in podcast bio mentioned).
+    -   Mention of exoneree database (though not specified which one).
+    -   Ohio bills aiming to abolish the death penalty are mentioned as a current issue.
+
+Summary:
+```

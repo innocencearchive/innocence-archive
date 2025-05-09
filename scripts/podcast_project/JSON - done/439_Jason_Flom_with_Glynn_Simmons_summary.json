@@ -1,0 +1,89 @@
+{
+    "sourceFileName": "439_Jason_Flom_with_Glynn_Simmons_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2024",
+        "network": "Lava for Good Podcasts, Signal Company No. 1",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Robbery Homicide, Eyewitness Misidentification, Police Misconduct, Alibi Neglect, Prosecutorial Conduct",
+        "keyStats": "-   Glenn Simmons served over 48 years for a crime he did not commit, one of the longest wrongful convictions in US history.\n-   Oklahoma was under a mandatory death penalty statute at the time of Glenn's conviction.\n-   Eyewitness Belinda Brown initially described assailants as over 6 feet tall and 200 pounds, while Glenn Simmons was 5'8\" and 150 pounds.\n-   Alibi witnesses from Louisiana testified to Glenn's presence there at the time of the crime.\n-   A hidden police report revealed Belinda Brown actually identified Delbert Patterson in the lineup, not Glenn Simmons.\n-   Leonard and Delbert Patterson, who fit Belinda Brown's initial description, were suspects in another robbery homicide and likely perpetrators of the crime Glenn was convicted for.\n-   Oklahoma is number one in the world for the incarceration of women.\n-   Recidivism rate is consistently high (71-72%) due to lack of reintegration support.",
+        "itemNumber": "439",
+        "itemTitle": "Jason Flom with Glynn Simmons",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction tells the harrowing story of Glenn Simmons, who was wrongfully convicted of a 1974 robbery homicide in Edmond, Oklahoma, and spent over 48 years in prison. Despite being in Louisiana at the time of the crime and significantly differing in description from the eyewitness account, Glenn was convicted based on a questionable eyewitness identification.  Crucially, a hidden police report surfaced decades later, revealing the eyewitness actually identified different suspects, Leonard and Delbert Patterson, who matched her initial description and were known criminals.  The podcast details the failures of his defense attorney, the suppression of exculpatory evidence, and the long arduous journey to Glenn's exoneration in December 2023.  The episode underscores systemic issues within the criminal justice system, including eyewitness misidentification, police misconduct, and the devastating impact of wrongful convictions, highlighting Glenn's resilience and his future advocacy for reintegration support for exonerees."
+    },
+    "featuredIndividual": {
+        "fullName": "Don Roberts (Wrongfully Convicted alongside Glenn Simmons)",
+        "caseLocation": "Edmond, Oklahoma",
+        "convictionYear": "1975",
+        "exonerationYear": "2005 (Paroled, though innocence implied in the podcast through shared trial and evidence)",
+        "crimeConvictedOf": "Capital Murder",
+        "sentence": "Death Penalty (commuted to life with possibility of parole)",
+        "timeServed": "Approx. 30 years (Paroled in 2005, according to transcript)",
+        "contributingFactorsRaw": [
+            "Eyewitness Misidentification (Same as Glenn Simmons)",
+            "Police Misconduct (Same as Glenn Simmons)",
+            "Ineffective Assistance of Counsel (Shared with Glenn Simmons)",
+            "Racial Bias (Same as Glenn Simmons)"
+        ],
+        "status": "Paroled (Wrongfully Convicted, though legal status at time of parole is 'released')",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (Implied)"
+        ],
+        "innocenceLawyersRaw": [
+            "Joe Norwood (Likely assisted in highlighting the shared evidence, though transcript focuses on Glenn)"
+        ],
+        "crossReference": "Yes (Should be added to exoneree database)",
+        "narrativeOriginalCrime": "Same as Glenn Simmons",
+        "keyEvidenceProsecutionRaw": [
+            "Same as Glenn Simmons, plus teenage boy's testimony."
+        ],
+        "trialDefenderNotes": "Shared with Glenn Simmons",
+        "keyEvidenceExonerationRaw": [
+            "Shared evidence as Glenn Simmons, led to parole in 2005."
+        ],
+        "actualPerpetratorDetails": "Same as Glenn Simmons"
+    },
+    "keyQuotesRaw": [
+        "Belinda Brown's initial description: \"shooters as black men over six feet tall and 200 pounds.\"",
+        "Norma Hankins' initial statement: \"I was busy looking at that gun, I don't know that I'll be able to give a good accurate description.\"",
+        "Belinda Brown's statement after second lineup ID: \"the more I think about it, the more positive I am that it was number 6.\"",
+        "Bob Mildfelt's quote about the verdict: \"it was one of the few cases I've been involved in that the verdict a week later could easily have been different.\"",
+        "Bob Mildfelt's description of Belinda Brown's initial description vs. Glenn's stature: \"a physical description, greatly different from Glenn's stature at the time.\"",
+        "Glenn Simmons on his innocence being a burden: \"I stayed in for 48 years because my innocence was my burden. It was more of a luxury to be guilty.\"",
+        "Glenn Simmons on Oklahoma's women's incarceration rate: \"Oklahoma is number one in incarceration of women. And they have held that dubious distinction for 30 years or more. And I'm not just talking about the number one in the United States, I'm talking about the world over.\""
+    ],
+    "systemicIssuesRaw": [
+        "Eyewitness Misidentification and its impact on wrongful convictions.",
+        "Police Misconduct: Hiding exculpatory evidence, suggestive lineup procedures.",
+        "Ineffective Assistance of Counsel: Lack of investigation, poor trial strategy.",
+        "Racial Bias in the Criminal Justice System, particularly in \"sundown towns.\"",
+        "Mandatory Death Penalty statutes and their potential for injustice.",
+        "Parole system's challenges for innocent individuals who cannot express remorse for crimes they didn't commit.",
+        "High recidivism rates and lack of reintegration support for released inmates.",
+        "Disproportionate incarceration rates for women in Oklahoma."
+    ],
+    "policyRecommendationsRaw": [
+        "Criminal justice reform to address eyewitness identification procedures.",
+        "Increased accountability for police and prosecutors regarding evidence disclosure.",
+        "Improved public defender systems to ensure effective legal representation.",
+        "Reforms to parole systems to consider innocence claims more seriously.",
+        "Investment in reintegration programs and wraparound support for exonerees and released inmates to reduce recidivism.",
+        "Addressing the root causes of women's incarceration in Oklahoma and globally."
+    ],
+    "personalNarrativeRaw": [
+        "Glenn Simmons' decades-long struggle to prove his innocence and the immense personal toll of wrongful conviction.",
+        "His resilience and determination to fight for justice despite numerous setbacks.",
+        "His focus on creating a nonprofit to support reintegration for formerly incarcerated individuals, demonstrating a desire to turn his experience into positive change.",
+        "The emotional impact on Belinda Brown, the eyewitness, who, according to the podcast, correctly identified the Patterson brothers, highlighting her role as a victim of the same systemic failures."
+    ],
+    "additionalResourcesRaw": [
+        "GoFundMe for Glenn Simmons (link in episode description).",
+        "Reference to Julius Jones case in Oklahoma.",
+        "Mention of exoneree database (implied objective of the podcast research project).",
+        "Lava for Good Plus on Apple Podcasts (for early access to podcasts).",
+        "Social media platforms: Lava for Good and Wrongful Conviction on social media; Jason Flom on Instagram."
+    ]
+}

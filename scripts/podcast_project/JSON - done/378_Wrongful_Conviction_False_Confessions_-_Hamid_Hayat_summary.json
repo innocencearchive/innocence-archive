@@ -1,0 +1,71 @@
+{
+    "sourceFileName": "378_Wrongful_Conviction_False_Confessions_-_Hamid_Hayat_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: False Confessions",
+    "mediaItem": {
+        "hosts": "Lauren Eyreider, Steve Drizen",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, false confessions, post-9/11 terrorism accusations, systemic issues in the justice system, FBI investigations, interrogation tactics.",
+        "keyStats": "Hamad Hayat served 14 years in prison before exoneration. He was the first post-9/11 terrorism defendant to be exonerated. The FBI paid informant Naseem Khan hundreds of thousands of dollars despite his unreliable information.",
+        "itemNumber": "378",
+        "itemTitle": "Wrongful Conviction False Confessions - Hamid Hayat",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction: False Confessions details the wrongful conviction of Hamad Hayat, a U.S. citizen accused of terrorism after 9/11.  Fueled by post-9/11 panic, the FBI relied on a paid informant with a history of lies who targeted Hayat.  Despite a lack of credible evidence, Hayat was interrogated for hours, leading to a coerced and nonsensical false confession about attending a terrorist training camp and ninja turtle pole-vaulters.  His trial lawyer provided inadequate defense, and he was convicted and sentenced to 24 years.  Years later, new lawyers and alibi witnesses from Pakistan proved his innocence.  After serving 14 years, his conviction was overturned due to ineffective counsel, and he was exonerated, highlighting the dangers of fear-driven investigations and false confessions in the justice system."
+    },
+    "featuredIndividual": {
+        "fullName": "Hamad Hayat",
+        "caseLocation": "Lodi, California, USA",
+        "convictionYear": "2007",
+        "exonerationYear": "2020",
+        "crimeConvictedOf": "Lending material support to terrorism",
+        "sentence": "24 years in prison",
+        "timeServed": "14 years",
+        "contributingFactorsRaw": [
+            "False confession, ineffective trial counsel, post-9/11 panic and prejudice, unreliable informant testimony, jury misconduct."
+        ],
+        "status": "Exonerated, charges dismissed.",
+        "organizationsInvolvedRaw": [
+            "Dennis Riordan (new lawyer), Council on American Islamic Relations (CAIR) (support after release), Innocence Project likely involved indirectly through hosts and general topic."
+        ],
+        "innocenceLawyersRaw": [
+            "Dennis Riordan is mentioned as a \"great lawyer\" and one of the leading lawyers on the West Memphis Three case. He investigated Hamad's time in Pakistan, found alibi witnesses, and presented them in court, along with a false confession expert. He is credited with securing Hamad's exoneration."
+        ],
+        "crossReference": "Not explicitly stated if in exoneree database, but highly likely given the nature of the podcast and case.",
+        "narrativeOriginalCrime": "Hamad was accused of attending a terrorist training camp in Pakistan for 3-6 months between 2003 and 2005 and planning to attack buildings in the US after 9/11.",
+        "keyEvidenceProsecutionRaw": [
+            "Hamad's false confession obtained during hours of interrogation, a \"jihadi prayer\" (actually a standard Muslim prayer for health) found in his wallet, and the testimony of FBI agents."
+        ],
+        "trialDefenderNotes": "Hamad's original trial lawyer was a novice who had never been before a jury. She was meant to imitate Umar Hyatt's lawyer but didn't provide an adequate defense for Hamad's specific case.  She failed to call false confession experts or properly explain the nature of the prayer found in Hamad's wallet.",
+        "keyEvidenceExonerationRaw": [
+            "Alibi witnesses from Pakistan (18 in total) who testified that Hamad was with family and friends throughout the period he was alleged to be in a training camp. Testimony from false confession expert Dr. Richard Leo discrediting Hamad's confession."
+        ],
+        "actualPerpetratorDetails": "No actual perpetrator for terrorism existed in this case. The \"crime\" itself was fabricated based on a false confession."
+    },
+    "keyQuotesRaw": [
+        "\"A thousand pole-volting terrorists all dressed up like ninja turtles.\" - Describing Umar Hyatt's fabricated story, highlighting the absurdity of the case.",
+        "\"It's ludicrous. Absolutely ludicrous that Osama bin Laden's number two person would make it into the United States without detection, and of all places, settle in Lodi, California.\" - Adam Osk commenting on the initial, flawed tip.",
+        "Hamad: \"I still think this is a dream. I wake up and I still think I'm in prison.\" -  Expressing the lasting psychological impact of wrongful conviction even after release.",
+        "Hamad: \"I'm your servant until the day of judgment.\" - Expressing gratitude to his supporters."
+    ],
+    "systemicIssuesRaw": [
+        "Post-9/11 panic and fear leading to compromised judgment in law enforcement and the justice system.",
+        "Pressure on the FBI to produce results, potentially leading to the use of unreliable informants and coerced confessions.",
+        "Ineffective assistance of counsel, particularly for defendants in complex federal cases.",
+        "Jury misconduct and potential prejudice against Muslim defendants in terrorism cases.",
+        "The use of lengthy interrogations without recording (initially in Hamad's case) and suggestive interrogation techniques that can lead to false confessions."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call for greater scrutiny of evidence in terrorism cases, especially in the context of post-9/11 investigations.  Implicit need for better legal representation for defendants, especially in complex federal cases.  Implicit need for reforms in interrogation practices to prevent false confessions."
+    ],
+    "personalNarrativeRaw": [
+        "Hamad's personal narrative highlights the devastating impact of wrongful conviction on an individual's life, including loss of freedom, trauma, difficulty reintegrating into society, and long-term psychological effects.  Despite the ordeal, Hamad expresses a desire to rebuild his life, get an education, and move forward, showing resilience.  The emotional impact on his family, particularly his mother who couldn't visit him for 14 years, is also emphasized."
+    ],
+    "additionalResourcesRaw": [
+        "Hassan Minaj's Netflix Special Patriot Act (featured Hamad's story).",
+        "PBS Frontline episode (questioned Hamad's conviction).",
+        "The Intercept article (questioned Hamad's conviction).",
+        "Netflix series The Confession Tapes (episode pointed to Hamad's innocence)."
+    ]
+}

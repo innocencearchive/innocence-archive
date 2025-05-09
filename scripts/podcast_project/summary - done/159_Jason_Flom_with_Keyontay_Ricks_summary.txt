@@ -1,0 +1,87 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+- **Title**: Wrongful Conviction with Jason Flom
+- **Episode # & Title (if applicable)**: Kiante Ricks' Story (No episode number explicitly given)
+- **Host(s)**: Jason Flom
+- **Release Year(s)**: Ongoing
+- **Production Company(ies)/Network**: Lava for Good Podcast in association with signal company number one
+- **Series Type**: Episodic Series (each episode is generally a standalone story)
+- **Format**: Podcast
+- **Focus/Theme**: Wrongful convictions, investigative journalism, personal stories of exonerees, systemic issues in the justice system.
+- **Key Statistics/Information**: Kiante Ricks was wrongfully arrested three times, wrongfully convicted twice, and spent a total of approximately 18 years incarcerated for crimes he did not commit (5 years as a juvenile, almost 13 years as an adult).
+
+### Basic Podcast Information
+
+- **Executive Summary**: This episode of "Wrongful Conviction with Jason Flom" tells the devastating story of Kiante Ricks, who suffered two wrongful convictions.  As a 14-year-old, he was wrongly convicted of robbery and assault, exacerbated by an intoxicated defense attorney.  Years later, while on parole and working to mentor youth, Kiante was again wrongfully convicted of robbery and possession of stolen property. This second conviction stemmed from a staged robbery orchestrated by an acquaintance, Kirtel Walker, and a store manager, with Kiante unknowingly present.  Despite overwhelming evidence of his innocence, including coerced statements and recanted testimonies, Kiante was sentenced to 20 years.  After serving almost 13 years, new legal representation and persistent advocacy, highlighting fabricated evidence and prosecutorial misconduct, led to the dismissal of the robbery charge and his release.  Kiante's story exemplifies systemic failures within the justice system and his ongoing fight for full exoneration and accountability.
+
+### Wrongfully Convicted Individuals Featured
+
+- **Name**: Kiante Ricks
+- **Case Location**: Buffalo, Amherst, New York, USA
+- **Conviction Year**: First wrongful conviction as a juvenile (year not specified in transcript), Second wrongful conviction: June 2005
+- **Exoneration Year**: February 3, 2017 (robbery charge dismissed)
+- **Crime Convicted Of**: First wrongful conviction: Robbery and Assault (victim claimed stabbing, which was untrue). Second wrongful conviction: Robbery and Criminal Possession of Stolen Property.
+- **Sentence**: First wrongful conviction: 3 1/3 to 10 years in a juvenile maximum-security facility. Second wrongful conviction: 20 years.
+- **Time Served**: First wrongful conviction: 5 years (from age 14 to 19). Second wrongful conviction: Almost 13 years (12 years and 10 months).
+- **Contributing Factors**:
+    - First wrongful conviction: Eyewitness misidentification (despite being significantly shorter than the suspect description), ineffective counsel (public defender was allegedly drunk at trial).
+    - Second wrongful conviction: Police misconduct (fabrication of evidence, perjury by Officer Thomas Brown, racist motivations suspected), coerced statement from Kirtel Walker, prosecutorial misconduct (withholding evidence, witness intimidation), ineffective trial counsel (Michael D'Amico - while later provided affidavit for exoneration, initially deemed ineffective at trial), Brady violation (withholding police report).
+- **Legal Status**: Released on February 3, 2017, robbery conviction dismissed. Still fighting to overturn the conviction for possession of stolen property.
+- **Organizations Involved**: Not explicitly mentioned in the transcript regarding organizations assisting *during* the wrongful conviction period, but attorney Robert Gosney and Stephen Metcalf assisted with his release and ongoing legal battles. Mentions working with exonerees Marty Tankliff and Jeffrey Deskovic post-release and organizations like Citizens Action.
+- **Innocence Lawyer Details**:
+    - **Michael D'Amico**: Trial attorney for the second wrongful conviction, initially described as ineffective during trial. Later provided an affidavit supporting Kiante's innocence, stating the alleged victim confessed to him before trial that there was no robbery.
+    - **Robert Gosney**: Attorney who helped secure Kiante's release by presenting new evidence at a 440 hearing.
+    - **Stephen Metcalf**: Current attorney assisting with the appeal to overturn the possession of stolen property conviction and pursuing perjury charges against Officer Brown.
+- **Narrative of Original Crime**:
+    - First wrongful conviction: Alleged robbery and stabbing of an individual for $40. The victim described assailants much taller than Kiante, and the stabbing was fabricated or exaggerated.
+    - Second wrongful conviction: Staged robbery at a rent-to-own store. A store manager, owing Kirtel Walker money for marijuana, devised a plan to pay his debt using the store's bank deposit. The manager pretended to be robbed by Kirtel. Kiante was unknowingly present in a car nearby with Kirtel and two women, on their way to celebrate his birthday, and was implicated due to proximity and a passerby's observation of Kirtel's behavior.
+- **Key Evidence at Trial (Prosecution)**:
+    - First wrongful conviction: Eyewitness identification (despite discrepancies in description).
+    - Second wrongful conviction: Fabricated verbal statements attributed to Kiante by Officer Brown, claiming Kiante confessed to receiving and hiding stolen money; manipulated evidence suggesting the total value of stolen items exceeded $3,000 (felony threshold),  Officer Brown's inconsistent and perjured testimonies across different hearings and the trial.
+- **Trial Defender Notes**:
+    - First wrongful conviction: Public defender was allegedly drunk, undermining the defense. Despite mentioning discrepancies in height and the exaggeration of the stabbing, the defense was ineffective.
+    - Second wrongful conviction: Michael D'Amico, while eventually helpful in post-conviction, was initially deemed ineffective at trial.  He reportedly did not call key witnesses, possibly believing the case would be dismissed due to lack of victim and eyewitness testimony.
+- **Key Evidence for Exoneration/Change in Legal Status**:
+    - Second wrongful conviction: Recantation and confession from the alleged victim (store manager) and Kirtel Walker, admitting the robbery was staged and Kiante was not involved. Affidavits from multiple witnesses including the victim, Kirtel Walker, trial attorney D'Amico, subsequent attorney Grasso, and others present during events. Discovery of police reports contradicting Officer Brown's testimony, including a report showing $1400 of the "stolen" money was from the women's purses and booking reports showing nothing was recovered from Kiante. Judge acknowledged Brady violation (withholding of police report) and found new evidence would lead a reasonable jury to doubt guilt on robbery charge.
+- **Actual Perpetrator Details**:
+    - Second wrongful conviction:
+        - **Kirtel Walker**: Weed dealer who participated in the staged robbery to receive payment for a debt.
+        - **Store Manager (Name not provided)**: Orchestrated the staged robbery to cover up using store deposit money to pay his debt to Kirtel Walker.
+
+### Podcast Research Notes
+
+- **Key Quotes/Moments**:
+    - Kiante Ricks: "Even though I was victimized, I don't live a victim because I know that you re-victimized yourself every day if you allow your thoughts to stay there."
+    - Kiante Ricks: "It's not just the police that's killing people in the streets, they're killing people in courts, it's the district attorneys, and it's the judges, too. It's a demonic system."
+    - Judge Burns: "In this court's view, the new evidence is sufficient to establish that, quote, no juror acting reasonably would have voted to find the defendant guilty beyond a reasonable doubt with regards to the robbery charge."
+    - Kiante Ricks on judges saying "get it on appeal": "What that means is I know that it's constitutional and procedural violations in your case, but I'm not going to give you the relief that I know I'm supposed to be given to you. Let another judge give it to you because I'm not doing it."
+- **Systemic Issues Identified**:
+    - Police misconduct: Fabrication of evidence, perjury, racial bias, coercive interrogation tactics.
+    - Prosecutorial misconduct: Withholding exculpatory evidence (Brady violation), witness intimidation, pursuing charges despite clear evidence of innocence.
+    - Ineffective counsel: Inadequate representation due to incompetence (allegedly drunk lawyer) and potentially strategic but ultimately detrimental trial strategy in the second case.
+    - Judicial misconduct/failure: Ignoring blatant inconsistencies and perjury, upholding convictions despite lack of credible evidence, and acknowledging Brady violation without dismissing charges.
+    - Racial bias: Suspected racist motivation of Officer Brown in targeting Kiante.
+    - Socioeconomic disparity:  Mentioned system disproportionately affects lower classes who cannot afford adequate legal representation.
+- **Policy Recommendations/Calls to Action**:
+    - Creation of a "motion review committee" to oversee judicial conduct and address constitutional/procedural violations, holding judges accountable.
+    - Systemic reform of the criminal justice system to address police, prosecutorial, and judicial misconduct.
+    - Increased focus on judicial accountability and addressing judicial misconduct.
+    - Support for organizations like the Innocence Project.
+    - Public involvement and awareness to combat systemic injustices.
+- **Personal Narrative/Impact**:
+    - Kiante's resilience, forgiveness, and positive attitude despite immense suffering from wrongful convictions.
+    - Personal transformation through legal self-education and faith in prison.
+    - Dedication to helping others post-exoneration, working with youth and other exonerees, and advocating for systemic change.
+    - Emphasis on community involvement and collective action to address systemic injustice.
+- **Additional Resources**:
+    - Innocence Project (InnocenceProject.org)
+    - Keontay Ricks' social media: Facebook, Instagram, YouTube, SoundCloud (search for "Keontay Ricks").
+    - My Computer Career (mycomputercareer.edu/CWP) - mentioned as sponsor, but not directly related to wrongful conviction resources.
+    - Stello (Stello.com) - mentioned as sponsor, glucose biosensor, not directly related.
+    - KISQALI (KISQALI.com) - mentioned as sponsor, medication, not directly related.
+```

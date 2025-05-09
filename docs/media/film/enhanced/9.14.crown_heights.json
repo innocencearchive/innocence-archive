@@ -1,0 +1,75 @@
+{
+  "source_file_name": "9.14.crown_heights.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Crown Heights",
+    "creator_name": "Matt Ruskin",
+    "publication_or_release_year": 2017,
+    "publisher_or_network": "Amazon Studios/IFC Films",
+    "focus_or_theme": "Wrongful conviction, perseverance of friendship/advocacy, flaws in eyewitness testimony.",
+    "summaryNotes": "Won Audience Award at Sundance Film Festival. Based on a *This American Life* podcast episode.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Crown Heights",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction, perseverance of friendship/advocacy, flaws in eyewitness testimony.",
+    "summary_notes": "This film dramatizes the true story of Colin Warner's wrongful conviction based largely on faulty eyewitness testimony. It particularly highlights the extraordinary dedication of his friend, Carl King, who spent years learning the legal system, tracking down witnesses, and fighting to prove Warner's innocence, eventually succeeding.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Based on true story of Colin Warner, wrongfully convicted and spending 21 years; Focuses on friend Carl King's efforts. Directed by Matt Ruskin. Available via Amazon Prime, Digital rental.",
+      "research_findings": "This film dramatizes the true story of Colin Warner's wrongful conviction based largely on faulty eyewitness testimony. It particularly highlights the extraordinary dedication of his friend, Carl King, who spent years learning the legal system, tracking down witnesses, and fighting to prove Warner's innocence, eventually succeeding."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Colin Warner",
+      "first_name": "Colin",
+      "middle_name": null,
+      "last_name": "Warner",
+      "status": "EXONERATED",
+      "conviction_year": 1982,
+      "exoneration_or_release_year": 2001,
+      "time_served": "21 years",
+      "sentence": "15 years to life",
+      "crime_convicted_of_raw": "Murder",
+      "case_location_city": "Crown Heights",
+      "case_location_state": "Brooklyn, New York",
+      "narrative_summary": "Wrongfully convicted of murder in 1982 and exonerated in 2001 after serving 21 years. His conviction was vacated after a key witness recanted. The case occurred in Crown Heights, Brooklyn, New York.",
+      "contributing_factors_raw": [
+        "False/mistaken eyewitness identification",
+        "Perjury by witness"
+      ],
+      "organizations_involved_raw": [
+        "Advocacy by Carl King"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Matt Ruskin",
+      "first_name": "Matt",
+      "middle_name": null,
+      "last_name": "Ruskin",
+      "role": "DIRECTOR"
+    },
+    {
+      "full_name": "Carl King",
+      "first_name": "Carl",
+      "middle_name": null,
+      "last_name": "King",
+      "role": "OTHER"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

@@ -1,0 +1,52 @@
+#   Film & Documentary Research: Wrongful Conviction Media Sources
+
+##   Research Template for Each Film/Documentary
+
+For each film or documentary on wrongful convictions, we'll collect the following information:
+
+###   Basic Film/Documentary Information
+
+-   **Title**: Full title of the film or documentary (or Series Title, if applicable)
+-   **Episode # & Title (if applicable)**: Episode number and title within a series
+-   **Director(s)**: All directors
+-   **Release Year**: Year of release
+-   **Production Company(ies)**: Companies involved in production
+-   **Format**: Film, Documentary, TV Movie, Series Episode
+-   **Focus/Theme**: Main topics covered (e.g., eyewitness misidentification, prosecutorial misconduct)
+-   **Key Statistics/Information**: Notable statistics or key information presented
+
+###   Wrongfully Convicted Individuals Featured
+
+For each individual mentioned or featured:
+
+-   **Name**: Full name of the wrongfully convicted person
+-   **Case Location**: City, state, country
+-   **Conviction Year**: When they were convicted
+-   **Exoneration Year**: When they were exonerated (if applicable)
+-   **Crime Convicted Of**: What they were wrongfully convicted of
+-   **Sentence**: Original sentence received
+-   **Time Served**: How long they were incarcerated
+-   **Contributing Factors**: Factors that led to wrongful conviction (false confession, eyewitness misidentification, etc.)
+-   **Legal Status**: Current legal status (exonerated, released, pardoned, etc.)
+-   **Organizations Involved**: Any organizations that assisted with their case
+-   **Cross-Reference**: Whether they appear in the exoneree database
+
+###   Film/Documentary Research Notes
+
+-   **Key Quotes/Moments**: Important quotes or pivotal moments in the film
+-   **Systemic Issues Identified**: Broader issues in the justice system discussed or depicted
+-   **Policy Recommendations/Calls to Action**: Any suggested reforms, policy changes, or calls to action presented
+-   **Additional Resources**: Other sources mentioned or shown that could be valuable
+
+##   Research Strategy
+
+1.  Begin with films/documentaries that focus on multiple cases to maximize data collection
+2.  Prioritize recent releases for current information and perspectives
+3.  Cross-reference individuals with the exoneree database
+4.  Document timestamps or relevant segments for key information to enable verification
+
+##   Integration Plan
+
+-   Create a structured CSV file for each film/documentary (or series episode) with all individuals mentioned/featured
+-   Develop a master cross-reference spreadsheet linking exonerees to film/documentary mentions
+-   Prepare database schema updates if needed to accommodate film/documentary references

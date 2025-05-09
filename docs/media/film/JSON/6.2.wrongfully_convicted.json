@@ -1,0 +1,98 @@
+{
+  "source_file_name": "6.2.wrongfully_convicted.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Wrongfully Convicted (Nightline) (Title unconfirmed by search)",
+    "publication_or_release_year": 2014,
+    "publisher_or_network": "ABC News (assumed for Nightline)",
+    "focus_or_theme": "Exoneration after decades based on recanted witness testimony.",
+    "summaryNotes": "Combined 100+ years served by the three men.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Wrongfully Convicted (Nightline) (Title unconfirmed by search)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Exoneration after decades based on recanted witness testimony.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Profiles case of three men spending combined 100+ years based on false testimony of 12-year-old boy who later recanted. Available via ABC/Hulu.",
+      "research_findings": "While searches didn't confirm a specific Nightline episode with this title, the details match the high-profile exoneration of Ricky Jackson, Wiley Bridgeman, and Kwame Ajamu in Cleveland. Their convictions rested almost entirely on the testimony of a young boy, Eddie Vernon, who recanted decades later, stating police coerced him. Jackson's 39 years served was the longest known US wrongful imprisonment at the time of his release. Case details above rely on list info and public knowledge consistent with the list description."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Ricky Jackson",
+      "case_location_city": "Cleveland",
+      "case_location_state": "Ohio",
+      "conviction_year": 1975,
+      "exoneration_or_release_year": 2014,
+      "crime_convicted_of_raw": "Murder (of Harold Franks)",
+      "sentence": "Death Penalty (later commuted to life)",
+      "time_served": "Nearly 39 years",
+      "contributing_factors_raw": [
+        "False witness testimony (by 12-year-old Eddie Vernon, who recanted years later), no physical evidence."
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [
+        "Ohio Innocence Project"
+      ],
+      "first_name": "Ricky",
+      "middle_name": null,
+      "last_name": "Jackson"
+    },
+    {
+      "full_name": "Wiley Bridgeman",
+      "case_location_city": "Cleveland",
+      "case_location_state": "Ohio",
+      "conviction_year": 1975,
+      "exoneration_or_release_year": 2014,
+      "crime_convicted_of_raw": "Murder (of Harold Franks)",
+      "sentence": "Death Penalty (later commuted to life)",
+      "time_served": "Nearly 39 years (released briefly 2002-2003 due to appeal issue)",
+      "contributing_factors_raw": [
+        "See Jackson."
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [
+        "Ohio Innocence Project"
+      ],
+      "first_name": "Wiley",
+      "middle_name": null,
+      "last_name": "Bridgeman"
+    },
+    {
+      "full_name": "Kwame Ajamu (formerly Ronnie Bridgeman)",
+      "case_location_city": "Cleveland",
+      "case_location_state": "Ohio",
+      "conviction_year": 1975,
+      "exoneration_or_release_year": 2014,
+      "crime_convicted_of_raw": "Murder (of Harold Franks)",
+      "sentence": "Death Penalty (later commuted to life)",
+      "time_served": "~27 years (in prison)",
+      "contributing_factors_raw": [
+        "See Jackson."
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [
+        "Ohio Innocence Project"
+      ],
+      "first_name": "Kwame",
+      "middle_name": "Ajamu (formerly Ronnie",
+      "last_name": "Bridgeman)"
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

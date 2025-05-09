@@ -1,0 +1,116 @@
+{
+  "source_file_name": "9.37.west_of_memphis.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "West of Memphis",
+    "publication_or_release_year": 2012,
+    "publisher_or_network": "WingNut Films (Peter Jackson's company), Disarming Films *[Inferred, specific search failed]*",
+    "focus_or_theme": "An in-depth investigation into the case of the West Memphis Three (Damien Echols, Jason Baldwin, Jessie Misskelley Jr.), arguing their innocence in the 1993 murders of three young boys in West Memphis, Arkansas. Presents new evidence and theories about the actual killer, going beyond the scope of the earlier \"Paradise Lost\" trilogy. Produced by Peter Jackson and Fran Walsh, who funded further investigation into the case.",
+    "summaryNotes": "The West Memphis Three spent over 18 years in prison before being released.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "West of Memphis",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "An in-depth investigation into the case of the West Memphis Three (Damien Echols, Jason Baldwin, Jessie Misskelley Jr.), arguing their innocence in the 1993 murders of three young boys in West Memphis, Arkansas. Presents new evidence and theories about the actual killer, going beyond the scope of the earlier \"Paradise Lost\" trilogy. Produced by Peter Jackson and Fran Walsh, who funded further investigation into the case.",
+    "summary_notes": null,
+    "key_quotes_raw": [
+      "Likely features interviews with Echols, Baldwin, Misskelley Jr., their families, lawyers, supporters (like Peter Jackson, Eddie Vedder), forensic experts. Presentation of new DNA evidence found at the scene (not matching the WM3) and evidence pointing towards Terry Hobbs (stepfather of one victim) as a potential suspect. Contrasts with the narrative presented in the initial trials and the \"Paradise Lost\" films."
+    ],
+    "systemic_issues_raw": [
+      "Dangers of moral panic (\"Satanic Panic\"), reliability of confessions (especially from juveniles or those with intellectual disabilities), junk science in forensics, police/prosecutorial misconduct, inadequate defense representation, difficulty in introducing new evidence post-conviction, limitations of the Alford Plea compromise."
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for reforms regarding interrogation techniques, forensic science standards, prosecutorial accountability, and better mechanisms for reviewing potential wrongful convictions based on new evidence."
+    ],
+    "external_links_raw": [
+      {
+        "url": null,
+        "description": "Books by Damien Echols (\"Life After Death\"), Mara Leveritt (\"Devil's Knot\"), the \"Paradise Lost\" documentary trilogy."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "West Memphis",
+      "case_location_state": "Arkansas, USA",
+      "conviction_year": 1994,
+      "exoneration_or_release_year": 2011,
+      "crime_convicted_of_raw": "Capital Murder (Echols), First-Degree Murder (Baldwin, Misskelley).",
+      "sentence": "Death (Echols), Life imprisonment (Baldwin, Misskelley).",
+      "time_served": "Over 18 years.",
+      "contributing_factors_raw": [
+        "False/coerced confession (Misskelley), \"Satanic Panic\" moral hysteria influencing investigation and trial, faulty/misleading forensic evidence (e.g., bite mark analysis), alleged prosecutorial and police misconduct, ineffective assistance of counsel (initial trials)."
+      ],
+      "status_raw": "Released from prison in 2011 after entering an Alford Plea, which allowed them to maintain their innocence while acknowledging prosecutors had enough evidence to potentially secure a conviction. They are legally considered convicted felons but are free.",
+      "organizations_involved_raw": [
+        "Numerous supporters and legal teams over the years; efforts funded by Peter Jackson & Fran Walsh significantly contributed to new investigations presented in the film."
+      ],
+      "cross_reference": "Listed in the National Registry of Exonerations (categorized under Alford Plea/maintained innocence).",
+      "full_name": "Damien Echols",
+      "first_name": "Damien",
+      "middle_name": null,
+      "last_name": "Echols"
+    },
+    {
+      "case_location_city": "West Memphis",
+      "case_location_state": "Arkansas, USA",
+      "conviction_year": 1994,
+      "exoneration_or_release_year": 2011,
+      "crime_convicted_of_raw": "Capital Murder (Echols), First-Degree Murder (Baldwin, Misskelley).",
+      "sentence": "Death (Echols), Life imprisonment (Baldwin, Misskelley).",
+      "time_served": "Over 18 years.",
+      "contributing_factors_raw": [
+        "False/coerced confession (Misskelley), \"Satanic Panic\" moral hysteria influencing investigation and trial, faulty/misleading forensic evidence (e.g., bite mark analysis), alleged prosecutorial and police misconduct, ineffective assistance of counsel (initial trials)."
+      ],
+      "status_raw": "Released from prison in 2011 after entering an Alford Plea, which allowed them to maintain their innocence while acknowledging prosecutors had enough evidence to potentially secure a conviction. They are legally considered convicted felons but are free.",
+      "organizations_involved_raw": [
+        "Numerous supporters and legal teams over the years; efforts funded by Peter Jackson & Fran Walsh significantly contributed to new investigations presented in the film."
+      ],
+      "cross_reference": "Listed in the National Registry of Exonerations (categorized under Alford Plea/maintained innocence).",
+      "full_name": "Jason Baldwin",
+      "first_name": "Jason",
+      "middle_name": null,
+      "last_name": "Baldwin"
+    },
+    {
+      "case_location_city": "West Memphis",
+      "case_location_state": "Arkansas, USA",
+      "conviction_year": 1994,
+      "exoneration_or_release_year": 2011,
+      "crime_convicted_of_raw": "Capital Murder (Echols), First-Degree Murder (Baldwin, Misskelley).",
+      "sentence": "Death (Echols), Life imprisonment (Baldwin, Misskelley).",
+      "time_served": "Over 18 years.",
+      "contributing_factors_raw": [
+        "False/coerced confession (Misskelley), \"Satanic Panic\" moral hysteria influencing investigation and trial, faulty/misleading forensic evidence (e.g., bite mark analysis), alleged prosecutorial and police misconduct, ineffective assistance of counsel (initial trials)."
+      ],
+      "status_raw": "Released from prison in 2011 after entering an Alford Plea, which allowed them to maintain their innocence while acknowledging prosecutors had enough evidence to potentially secure a conviction. They are legally considered convicted felons but are free.",
+      "organizations_involved_raw": [
+        "Numerous supporters and legal teams over the years; efforts funded by Peter Jackson & Fran Walsh significantly contributed to new investigations presented in the film."
+      ],
+      "cross_reference": "Listed in the National Registry of Exonerations (categorized under Alford Plea/maintained innocence).",
+      "full_name": "Jessie Misskelley Jr. (Collectively known as The West Memphis Three)",
+      "first_name": "Jessie",
+      "middle_name": "Misskelley Jr. (Collectively known as The West Memphis",
+      "last_name": "Three)"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Amy Berg",
+      "role": "DIRECTOR",
+      "first_name": "Amy",
+      "middle_name": null,
+      "last_name": "Berg"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "---\n---",
+  "unhandled_section_research_for:_west_of_memphis_(film_list_item_9.37)": "### Basic Film/Documentary Information\n\n-   **Title**: West of Memphis\n-   **Episode # & Title (if applicable)**: N/A\n-   **Director(s)**: Amy Berg\n-   **Release Year**: 2012 *[Inferred from festival screenings/general knowledge, specific search failed]*\n-   **Production Company(ies)**: WingNut Films (Peter Jackson's company), Disarming Films *[Inferred, specific search failed]*\n-   **Format**: Documentary Film\n-   **Focus/Theme**: An in-depth investigation into the case of the West Memphis Three (Damien Echols, Jason Baldwin, Jessie Misskelley Jr.), arguing their innocence in the 1993 murders of three young boys in West Memphis, Arkansas. Presents new evidence and theories about the actual killer, going beyond the scope of the earlier \"Paradise Lost\" trilogy. Produced by Peter Jackson and Fran Walsh, who funded further investigation into the case.\n-   **Key Statistics/Information**: The West Memphis Three spent over 18 years in prison before being released.\n\n### Wrongfully Convicted Individuals Featured\n\n-   **Name**: Damien Echols, Jason Baldwin, Jessie Misskelley Jr. (Collectively known as The West Memphis Three)\n-   **Case Location**: West Memphis, Arkansas, USA\n-   **Conviction Year**: 1994 (Crime occurred 1993)\n-   **Exoneration Year**: Not formally exonerated; released in 2011 via Alford Plea.\n-   **Crime Convicted Of**: Capital Murder (Echols), First-Degree Murder (Baldwin, Misskelley).\n-   **Sentence**: Death (Echols), Life imprisonment (Baldwin, Misskelley).\n-   **Time Served**: Over 18 years.\n-   **Contributing Factors**: False/coerced confession (Misskelley), \"Satanic Panic\" moral hysteria influencing investigation and trial, faulty/misleading forensic evidence (e.g., bite mark analysis), alleged prosecutorial and police misconduct, ineffective assistance of counsel (initial trials).\n-   **Legal Status**: Released from prison in 2011 after entering an Alford Plea, which allowed them to maintain their innocence while acknowledging prosecutors had enough evidence to potentially secure a conviction. They are legally considered convicted felons but are free.\n-   **Organizations Involved**: Numerous supporters and legal teams over the years; efforts funded by Peter Jackson & Fran Walsh significantly contributed to new investigations presented in the film.\n-   **Cross-Reference**: Listed in the National Registry of Exonerations (categorized under Alford Plea/maintained innocence).\n\n### Film/Documentary Research Notes\n\n-   **Key Quotes/Moments**: Likely features interviews with Echols, Baldwin, Misskelley Jr., their families, lawyers, supporters (like Peter Jackson, Eddie Vedder), forensic experts. Presentation of new DNA evidence found at the scene (not matching the WM3) and evidence pointing towards Terry Hobbs (stepfather of one victim) as a potential suspect. Contrasts with the narrative presented in the initial trials and the \"Paradise Lost\" films.\n-   **Systemic Issues Identified**: Dangers of moral panic (\"Satanic Panic\"), reliability of confessions (especially from juveniles or those with intellectual disabilities), junk science in forensics, police/prosecutorial misconduct, inadequate defense representation, difficulty in introducing new evidence post-conviction, limitations of the Alford Plea compromise.\n-   **Policy Recommendations/Calls to Action**: Implicitly calls for reforms regarding interrogation techniques, forensic science standards, prosecutorial accountability, and better mechanisms for reviewing potential wrongful convictions based on new evidence.\n-   **Additional Resources**: Books by Damien Echols (\"Life After Death\"), Mara Leveritt (\"Devil's Knot\"), the \"Paradise Lost\" documentary trilogy.\n\n---\n---"
+}

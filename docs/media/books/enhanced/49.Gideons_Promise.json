@@ -1,0 +1,70 @@
+{
+  "source_file_name": "49.Gideons_Promise.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Gideon's Promise: A Public Defender Movement to Transform Criminal Justice",
+    "creator_name": "Jonathan Rapping",
+    "publication_or_release_year": 2020,
+    "publisher_or_network": "Beacon Press",
+    "focus_or_theme": "The broken public defender system in America and a vision for reform.",
+    "key_statistics": "Public defenders represent over 80% of those who interact with the court system; approximately 95% of criminal cases end in guilty pleas."
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "summary_notes": "\"Gideon's Promise\" is both a memoir and a call to action that explores the broken public defender system in America and presents a vision for reform. Jonathan Rapping, a MacArthur \"Genius\" Fellow and founder of the Gideon's Promise organization, draws from his extensive experience as a public defender and trainer to illustrate how the criminal justice system fails marginalized communities, particularly people of color and those living in poverty.\n\nThe book details Rapping's journey from his early exposure to activism through his parents to his career as a public defender and eventually founding Gideon's Promise, an organization dedicated to training and supporting public defenders across the United States. Through personal stories, case studies, and systemic analysis, Rapping argues for a \"fiercely client-based ethos\" in public defense and a cultural shift in how public defenders approach their work.\n\nRapping proposes a model for transforming the criminal justice system by building a movement of committed public defenders who can stand up against the pressures of an often callous and assembly-line approach to justice. The book emphasizes that public defenders represent over 80% of those who interact with the court system, a disproportionate number of whom are poor, non-white citizens who rely on these attorneys to navigate the law on their behalf.",
+    "additional_resources_raw": [
+      "Gideon's Promise organization website: https://www.gideonspromise.org/",
+      "\"Gideon's Army\" (2013) - A documentary film that follows three public defenders trained by Rapping's organization",
+      "Jonathan Rapping's MacArthur Foundation profile: https://www.macfound.org/fellows/class-of-2014/jonathan-rapping"
+    ],
+    "item_title": "Book Content: Gideon's Promise: A Public Defender Movement to Transform Criminal Justice",
+    "focus_or_theme": "The broken public defender system in America and a vision for reform.",
+    "case_details_raw": "1. **Shakir Askia's Story**: The book opens with the story of Shakir Askia (formerly Donald Brown), who was arrested for crimes committed years earlier and assigned a public defender who \"did not seem to care.\" Without adequate representation to tell his story, he was convicted and sent to Attica state prison for ten years, devastating his family, including his daughter Ilham (who later became Rapping's wife).\n\n2. **New Orleans Post-Katrina**: Rapping describes his work helping to rebuild the public defender system in New Orleans after Hurricane Katrina, revealing how catastrophically the system had failed defendants even before the natural disaster.\n\n3. **Southern Public Defender Experiences**: The book shares stories from public defenders in the South who faced overwhelming caseloads and systemic pressures to process cases quickly rather than provide meaningful representation.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [
+      "Systemic Inequalities: Underfunding and overwhelming caseloads of public defender offices contribute to inadequate representation, increasing the risk of wrongful convictions.",
+      "Racial Disparities: Racial bias within the criminal justice system disproportionately affects communities of color, increasing the likelihood of wrongful convictions.",
+      "Plea Bargaining Pressure: The prevalence of plea bargaining can lead innocent people to plead guilty to avoid harsher sentences.",
+      "Cultural Problems in Public Defense: The culture within many public defender offices prioritizes speed over zealous advocacy.",
+      "Reform Through Training: Inadequate training of public defenders contributes to the problem."
+    ],
+    "policy_recommendations_raw": [
+      "Building a movement of committed public defenders.",
+      "Improving training and support for public defenders.",
+      "Addressing systemic issues like underfunding and overwhelming caseloads."
+    ],
+    "research_notes_other": {}
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Shakir Askia (formerly Donald Brown)",
+      "first_name": "Shakir",
+      "middle_name": null,
+      "last_name": "Askia",
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": null,
+      "sentence": "Ten years in Attica state prison",
+      "time_served": null,
+      "contributing_factors_raw": [
+        "Inadequate defense representation"
+      ],
+      "status_raw": null,
+      "organizations_involved_raw": [],
+      "cross_reference": null,
+      "individual_notes": "His daughter Ilham later married Jonathan Rapping."
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Jonathan Rapping",
+      "role": "AUTHOR",
+      "first_name": "Jonathan",
+      "middle_name": null,
+      "last_name": "Rapping"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "This book differs from many others in the wrongful conviction literature in that it focuses primarily on prevention through systemic reform of public defense rather than on exonerations or post-conviction work. It emphasizes that a strong public defender system is a crucial safeguard against wrongful convictions, particularly for marginalized communities who are most vulnerable to miscarriages of justice.\n\nThe book's approach aligns with a growing recognition in the field that preventing wrongful convictions requires addressing systemic issues in addition to correcting individual cases after they occur."
+}

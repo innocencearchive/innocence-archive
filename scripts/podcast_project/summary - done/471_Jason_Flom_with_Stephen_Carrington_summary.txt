@@ -1,0 +1,87 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**:  Stefan Carrington: Finally Free
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2020
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Convictions, Criminal Justice System, Exoneration
+-   **Key Statistics/Information**:
+    - Stefan Carrington served 23 years in prison for a crime he did not commit.
+    - The conviction was based on shaky eyewitness identification and no physical evidence.
+    - Detective Calabris claimed he recognized Stefan's walk from a grainy security tape.
+    - Stefan had a strong alibi supported by multiple witnesses and hospital records.
+    - Stefan's brother was involved in the crime but did not testify at trial due to lawyer's actions.
+    - The King's County Conviction Review Unit eventually supported vacating Stefan's conviction.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom features the story of Stefan Carrington, who was wrongfully convicted in 1995 for a lumberyard robbery and murder and served 23 years in prison. The conviction was based on a questionable eyewitness identification and the detective's "gut feeling," despite a solid alibi and no physical evidence linking Stefan to the crime.  His brother was involved, but Stefan became the target due to a prior criminal record and being on parole.  The episode details the flawed trial, ineffective counsel, and the eventual fight for exoneration.  After years of struggle, the King’s County Conviction Review Unit reviewed his case, leading to the vacating of his conviction and dismissal of all charges, finally proving Stefan's innocence.  This episode highlights the devastating impact of wrongful convictions and the long fight for justice.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Stefan Carrington
+-   **Case Location**: Brooklyn, New York, USA
+-   **Conviction Year**: 1995
+-   **Exoneration Year**: 2024 (motion to vacate conviction supported and charges dismissed)
+-   **Crime Convicted Of**: Robbery and Murder
+-   **Sentence**: Not explicitly stated in the transcript but referred to as a "life sentence" and serving 23 years.
+-   **Time Served**: 23 years
+-   **Contributing Factors**:
+    - Eyewitness Misidentification (shaky and unreliable)
+    - Ineffective Assistance of Counsel (lawyer did not call brother to testify, potential conflict of interest)
+    - Detective Bias ("gut feeling" and focusing on parolee with prior record)
+    - Lack of Physical Evidence
+-   **Legal Status**: Exonerated (conviction vacated and charges dismissed)
+-   **Organizations Involved**: King's County Conviction Review Unit
+-   **Innocence Lawyer Details**: Not detailed in the transcript, but mentioned involvement of the King's County Conviction Review Unit.
+-   **Cross-Reference**: Not specified if in exoneree database in the transcript.
+-   **Narrative of Original Crime**: A robbery at a lumberyard in Brooklyn on January 2nd, 1995, during which a clerk, Lloyd Campbell, was shot and killed. Two men robbed the store while a third acted as a lookout.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Eyewitness identification by Hugh Keys (later recanted in court, stating he never made a positive ID prior to arrest).
+    - Detective Calabris's testimony that he recognized Stefan's walk on a grainy security tape and his "gut feeling" Stefan was involved.
+-   **Trial Defender Notes**:
+    - Lawyer failed to put Stefan's brother, Mark Carrington, on the witness list, preventing him from testifying.
+    - Potential conflict of interest as the lawyer was paid by Stefan's parents and seemed to prioritize the case of Stefan's brother, Mark.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - Review by the King's County Conviction Review Unit.
+    - Re-evaluation of the shaky eyewitness identification and lack of physical evidence.
+    - Implicit acknowledgement of the weakness of the case by the District Attorney in supporting the motion to vacate the conviction.
+-   **Actual Perpetrator Details**: Shannon France was identified as the trigger man (fingerprints on the cash box). Stefan's brother, Mark Carrington, was identified as the lookout. Eddie West was mentioned as being present but his role is unclear. The transcript mentions Shannon France's girlfriend providing his name to the police.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - Jason Flom: "Detective Calabries claimed that he could recognize you from a security tape because he could recognize your walk."
+    - Stefan Carrington: "And I had four or five alibi witnesses that testified. The one person that testified against me, Mr. Yuki's. And I feel for him because I know that he's been duped."
+    - Stefan Carrington about his parole hearing: "I'm going in there and I'm going to tell them what I've been telling them since the beginning. I didn't commit the crime..."
+    - Stefan Carrington's closing argument: "But as a juror, it's your job to discern the truth, to find the truth. And sometimes I guess they get more clouded by what took place as opposed to what is the truth."
+-   **Systemic Issues Identified**:
+    - Eyewitness misidentification as a leading cause of wrongful convictions.
+    - Ineffective assistance of counsel.
+    - Police bias and tunnel vision in investigations, focusing on individuals with prior records.
+    - The fallibility and potential corruption within the criminal justice system (e.g., officers falsifying reports, hearing officer bias).
+    - Challenges faced by innocent individuals in parole hearings when maintaining innocence.
+-   **Policy Recommendations/Calls to Action**:
+    - Support for organizations like the Innocence Project.
+    - Call for jurors to focus on rationale and truth in trials, rather than emotions.
+    - Implicit call for conviction review units to continue their work in identifying and rectifying wrongful convictions.
+-   **Personal Narrative/Impact**:
+    - Stefan Carrington's life was derailed, spending 23 years in prison, missing his daughter's childhood.
+    - He maintained his innocence throughout and focused on self-improvement and helping others in prison.
+    - The experience highlighted the devastating impact of wrongful convictions on individuals and families.
+    - Stefan’s parole despite maintaining innocence shows a potential shift in understanding or a recognition of flaws in the original case by the parole board, or simply that time served was sufficient regardless of guilt.
+-   **Additional Resources**:
+    - Innocence Project (mentioned at the end of the podcast).
+    - Lava for Good Plus on Apple Podcasts (for ad-free early access to podcasts).
+    - Murder on Songbird Road podcast (promoted in the episode as another wrongful conviction case investigation).
+    - Under Yazoo Clay podcast (promoted in the episode - unrelated to wrongful conviction, but from iHeartRadio).
+
+```

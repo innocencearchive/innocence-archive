@@ -1,0 +1,62 @@
+{
+  "source_file_name": "42.Psychology_of_Interrogations_and_Confessions.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "The Psychology of Interrogations and Confessions: A Handbook",
+    "creator_name": "Gisli H. Gudjonsson",
+    "publication_or_release_year": 2003,
+    "publisher_or_network": "John Wiley & Sons, Ltd",
+    "format": "Hardcover, Paperback",
+    "focus_or_theme": "False confessions, police interrogation techniques, psychological vulnerability, miscarriages of justice",
+    "key_statistics": "The book examines numerous cases of wrongful convictions resulting from false confessions across multiple jurisdictions"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "\"The influence of a stronger mind upon the weaker often produces, by persuasion or suggestion, the desired result\" (Borchard, cited in the book)",
+      "\"All judicial systems, whether adversarial or inquisitorial, are inherently fallible\"",
+      "\"Too often people have a misguided faith in the infallibility of the criminal justice system\""
+    ],
+    "systemic_issues_raw": [
+      "Police pressure and coercive interrogation techniques",
+      "Prosecutorial misconduct and abuse of power",
+      "Psychological vulnerability of suspects",
+      "Memory distrust syndrome - where individuals lack confidence in their memory or have their confidence undermined during questioning",
+      "Imagination inflation - where false beliefs can be created through suggestion",
+      "Public pressure for conviction in high-profile cases",
+      "Overreliance on confession evidence in court proceedings"
+    ],
+    "policy_recommendations_raw": [
+      "Recognition of the inherent fallibility of judicial systems",
+      "Better understanding of psychological factors that contribute to false confessions",
+      "Improved interrogation practices that reduce the risk of false confessions",
+      "Greater awareness of psychological vulnerability in suspects"
+    ],
+    "research_notes_other": {
+      "discrepancy_note": "There appears to be a discrepancy in the book list provided. Book #44 was listed as \"The Psychology of Interrogations and Confessions: A Handbook of Issues, Research, and Controversies\" by David C. Raskin, Charles E. Honts, and John C. Yuille. However, the actual book with this title is authored by Gisli H. Gudjonsson. The book by Gudjonsson is a comprehensive handbook on interrogations and confessions that examines psychological factors, case studies, and legal implications of false confessions."
+    },
+    "additional_resources_raw": [
+      "Borchard's studies on wrongful convictions",
+      "Radin's (1964) examination of reasons for wrongful convictions in 25 American States",
+      "Research on memory distrust syndrome by Gudjonsson and MacKeith (1982)",
+      "Studies on imagination inflation and false beliefs (Loftus, 2001)",
+      "Research on confidence in memory (Saucier & Gaudette, 2000)"
+    ],
+    "item_title": "Book Content: The Psychology of Interrogations and Confessions: A Handbook",
+    "focus_or_theme": "False confessions, police interrogation techniques, psychological vulnerability, miscarriages of justice",
+    "summary_notes": "This book examines numerous cases of wrongful convictions resulting from false confessions, exploring the psychological factors contributing to these confessions and the systemic issues involved.  It details various case studies, including those involving police pressure, low intelligence, Munchausen syndrome, and individuals protecting others. The book analyzes interrogation techniques and their impact, proposing improvements to reduce the risk of false confessions and emphasizes the inherent fallibility of judicial systems.",
+    "case_details_raw": "Various individuals from Borchard's study who falsely confessed due to police pressure or psychological factors; Cases where defendants' low intelligence was a factor in false confessions; A 19-year-old woman whose voluntary false confessions were linked to Munchausen syndrome; Cases where people confessed to protect the real criminal; British cases of wrongful conviction resulting from false confessions."
+  },
+  "featured_individuals": [],
+  "involved_persons": [
+    {
+      "full_name": "Gisli H. Gudjonsson",
+      "role": "AUTHOR",
+      "first_name": "Gisli",
+      "middle_name": "H.",
+      "last_name": "Gudjonsson"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "This book provides valuable theoretical frameworks for understanding false confessions, which is a significant contributing factor to wrongful convictions. While it doesn't focus exclusively on individual cases with complete details that could be directly added to an exoneree database, it offers:\n\n1. Psychological explanations for why false confessions occur\n2. Categorization of different types of false confessions\n3. Analysis of systemic issues that contribute to wrongful convictions\n4. Case illustrations that demonstrate how psychological vulnerability interacts with interrogation techniques\n\nThe book would be most valuable for understanding the psychological mechanisms behind false confessions and for developing preventative measures to reduce wrongful convictions resulting from this factor."
+}

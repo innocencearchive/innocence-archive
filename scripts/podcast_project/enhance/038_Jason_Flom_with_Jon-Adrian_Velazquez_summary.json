@@ -1,0 +1,143 @@
+{
+    "sourceFileName": "038_Jason_Flom_with_Jon-Adrian_Velazquez_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2017",
+        "network": "Lava for Good podcasts, Signal Company Number One, Revolver Productions",
+        "seriesType": "-   Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, criminal justice system, personal stories of exonerees, systemic issues in the justice system.",
+        "keyStats": "-   John Adrian Velasquez has been incarcerated for over two decades for a crime he maintains he did not commit.\n-   His motion for a new trial based on a Brady violation was denied.\n-   The podcast highlights the flaws in eyewitness identification, particularly lineup procedures, and the pressure on witnesses in criminal cases.\n-   It mentions the potential for systemic issues within the justice system, leading to wrongful convictions, especially for people of color in poor neighborhoods.\n-   The podcast also touches upon the devastating impact of wrongful convictions on the individual and their family.\n-   The episode mentions the high number of people cycling through the US penal system and the potential for wrongful convictions even with a high accuracy rate.\n-   Several examples of exonerees are mentioned, highlighting the long time served for crimes they did not commit and the post-release challenges they faced.",
+        "itemNumber": "038",
+        "itemTitle": "Jason Flom with Jon-Adrian Velazquez",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction: Behind Bars features John Adrian Velasquez, an inmate at Sing Sing Correctional Facility, who maintains his innocence in the murder of a retired police officer.  Recorded inside Sing Sing, the episode details Velasquez's background, his wrongful conviction based on a flawed lineup and pressured witness testimony, and the lack of physical evidence in his case.  Despite a denied motion for a new trial, Velasquez has dedicated his time in prison to positive initiatives like education programs and reentry preparation.  He describes the devastating impact of his wrongful conviction on his family, including his children and mother.  The episode underscores systemic issues in the justice system, particularly concerning eyewitness identification and the immense pressure on individuals in marginalized communities, and calls for support for Velasquez's exoneration.  Listeners are encouraged to visit freejohnadriavolaskets.org to learn more and offer support."
+    },
+    "featuredIndividual": {
+        "fullName": "John Adrian Velasquez (also referred to as JJ)",
+        "caseLocation": "Harlem, New York City, New York",
+        "convictionYear": "1999 (Trial in October 1999, turned himself in Feb 2, 1998)",
+        "exonerationYear": "Not yet exonerated (as of podcast recording)",
+        "crimeConvictedOf": "Second-degree murder, robbery, attempted murder (multiple charges related to the same crime)",
+        "sentence": "25 years to life",
+        "timeServed": "Over 20 years (as of podcast recording in 2019, already served over 2 decades)",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification: Flawed lineup procedure and manipulation.",
+            "Suggestive police procedures: Lineup was arguably suggestive and biased.",
+            "Unreliable Witness Testimony: Testimony from a drug dealer (Augustus Brown) who was facing charges and potentially pressured by police to identify Velasquez.",
+            "Lack of Physical Evidence: No physical evidence linking Velasquez to the crime."
+        ],
+        "status": "Currently incarcerated, motion for a new trial denied (based on Brady violation). Seeking clemency and appeal.",
+        "organizationsInvolvedRaw": [
+            "Hudson Link for Higher Education in Prison",
+            "Columbia University (Teacher Fellow)",
+            "NYCHEPs (New York Consortium for Higher Education in Prison)",
+            "Choices program at Sing Sing Correctional Facility",
+            "Freedom Agenda (mentioned in advertisement, not directly linked to JJ's case but related to justice reform)",
+            "Innocence Project (mentioned as a cause Jason Flom supports)"
+        ],
+        "innocenceLawyersRaw": [
+            "Frank Gould (original trial attorney, now deceased) -  Described as a \"smooth talker\" who made JJ feel comfortable initially.",
+            "Susan Walsh (original trial attorney, worked with Frank Gould) - Witness to the lineup and attested to its manipulation.",
+            "Norman Rima (attorney at arraignment) - Informed JJ about capital murder charges.",
+            "Goldstein (initial lawyer contacted, before Gould) -  Advised JJ to turn himself in and requested fees upfront, perceived negatively by JJ."
+        ],
+        "crossReference": "Not explicitly stated in the transcript if he appears in a specific exoneree database, but the podcast itself serves to highlight his case.",
+        "narrativeOriginalCrime": "A robbery at an illegal gambling establishment in Harlem led to the shooting death of a retired NYC police officer, Albert Ward, who owned the establishment.  Two perpetrators described as black males, one light-skinned with dreads or braids, entered the establishment. An exchange of gunfire occurred during the robbery, resulting in Ward's death.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness identification from three individuals (Philip Jones, Robert Jones, and Augustus Brown) who were present at the gambling establishment during the robbery.",
+            "Lineup identification where Velasquez was picked out."
+        ],
+        "trialDefenderNotes": "-   Defense attorneys were Frank Gould and Susan Walsh.\n-   Defense argued flawed lineup and unreliable witness testimony, particularly highlighting Augustus Brown's potential motivation to falsely identify someone to avoid charges.\n-   Lack of resources for proper investigation was mentioned as a potential hampering factor for the defense.",
+        "keyEvidenceExonerationRaw": [
+            "Brady Violation: Mentioned in the podcast as the basis for a motion for a new trial, but was denied by a judge. Details of the Brady violation are not elaborated upon in the transcript.",
+            "Flawed Lineup: Testimony and affidavit from attorney Susan Walsh suggesting the lineup was manipulated and suggestive.",
+            "Unreliable Witness: Augustus Brown's criminal background, potential coercion by police, and initial description of perpetrator not matching Velasquez.",
+            "Lack of Physical Evidence: Absence of any physical evidence linking Velasquez to the crime."
+        ],
+        "actualPerpetratorDetails": "-   The transcript mentions the initial description of the suspect being a light-skinned black male with dreads or braids, and the street name \"Mustafa\" was associated with the suspect. This description does not match John Adrian Velasquez, who is not light-skinned and has never had dreads.  However, no specific actual perpetrator is named or identified in the transcript."
+    },
+    "keyQuotesRaw": [
+        "\"The choice to be in that lineup was the last choice I made as a free man.\" - John Adrian Velasquez, highlighting the pivotal and tragic nature of his decision to participate in the lineup.",
+        "\"Somebody was able to look at my picture in a database and say that I was somewhere where I definitely wasn't.\" - John Adrian Velasquez, illustrating the database identification that initiated his wrongful accusation.",
+        "\"If you get picked in that lineup, your life is going to change forever. You're going to jail.\" - Attorney warning to Velasquez, foreshadowing the consequences of a potentially flawed identification.",
+        "\"I'm going to be one of those people who everyone in the world is going to think is a monster or suspect is a monster for the rest of my life, and I'm just going to have to come to peace with that.\" - John Adrian Velasquez, expressing the profound societal impact of wrongful conviction.",
+        "\"I raised my children in prison. That wasn't easy.\" - John Adrian Velasquez, emphasizing the personal and familial toll of his incarceration.",
+        "\"Life is priceless and why it's time priceless because our lives as humans are being measured by the time that we spend alive on this earth.\" - John Adrian Velasquez, reflecting on the value of time lost due to wrongful conviction."
+    ],
+    "systemicIssuesRaw": [
+        "Flawed Eyewitness Identification Procedures: Emphasis on the suggestiveness and potential manipulation of lineups, contributing to misidentification.",
+        "Pressure on Witnesses: Highlighted the pressure on individuals involved in illegal activities to cooperate with police, potentially leading to false identifications.",
+        "Lack of Resources for Defense: Mentioned the defense team being \"hamstrung by the fact that they didn't have the money to do the proper investigations.\"",
+        "Racial Bias and Policing in Poor Neighborhoods: Implied through the discussion of police sweeps and arrests for minor offenses in poor, predominantly minority neighborhoods.",
+        "Impact of \"tough on crime\" response:  Pressure to solve high-profile crimes, like the murder of a police officer, leading to potentially rushed or flawed investigations."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for John Adrian Velasquez's exoneration: Direct call to action to visit freejohnadriavolaskets.org and sign the petition, write letters of support.",
+        "Support for Innocence Project: Jason Flom encourages listeners to donate to and get involved with the Innocence Project.",
+        "General call for justice system reform to prevent wrongful convictions.",
+        "Close Rikers Island: Advertisement for Freedom Agenda advocating for closing Rikers Island."
+    ],
+    "personalNarrativeRaw": [],
+    "personal_experience": "John Adrian Velasquez recounts his traumatic experience of wrongful conviction, the emotional toll of incarceration, and the challenges of maintaining hope and purpose in prison. He emphasizes the psychological impact of facing the death penalty and life imprisonment for a crime he did not commit. He describes his efforts to create a meaningful life in prison through education and helping others.",
+    "impact_on_family": "The devastating impact on Velasquez's family, particularly his children and mother, is a central theme. He describes his children growing up visiting him in prison and the trauma they endured. He highlights his mother's unwavering support and sacrifice. He also expresses regret and pain over his son's subsequent incarceration, feeling responsible due to his absence as a father figure.",
+    "final_thoughts_of_the_individual": "Velasquez expresses a resilient spirit and determination to continue fighting for his freedom and helping others. He emphasizes the importance of hope and community support. He shares his concerns about the long-term health consequences for exonerees and the urgency of addressing wrongful convictions. He ends with a call for collective action and belief in the power of people to effect change.",
+    "additionalResourcesRaw": [
+        "Website: freejohnadriavolaskets.org (for supporting John Adrian Velasquez)",
+        "Website: InnocenceProject.org (for donating and getting involved in the fight against wrongful convictions)",
+        "Website: campaign-to-close-Rikers.org (Freedom Agenda campaign)",
+        "Podcast: Spotlight Snitch City (mentioned in advertisement)",
+        "Documentary: Conviction (by Dan Sleppian, NBC)",
+        "Documentary: about Hudson Link (HBO)",
+        "Organization: Voices from Within (prison program)"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Augustus Brown",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Retired police officer",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "John Adrian Velasquez's children",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "John Adrian Velasquez's mother",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Lack of physical evidence",
+            "Pressure on witnesses",
+            "Flawed eyewitness identification procedures"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful conviction",
+                "Eyewitness misidentification",
+                "Pressure on witnesses",
+                "Systemic issues in the justice system",
+                "Impact of wrongful conviction on families",
+                "Importance of exoneration"
+            ],
+            "mentions_other_media": [
+                {
+                    "title": "freejohnadriavolaskets.org",
+                    "type_guess": "website"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "sourceFileName": "107_Jason_Flom_with_Nick_Yarris_Pt_2_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2019",
+        "network": "Lava for Good podcast in association with signal company number one",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, exoneration, prison reform, resilience, and the human impact of wrongful imprisonment.",
+        "keyStats": "Nick Yaris was the 140th DNA exoneration in America and the 13th from death row.",
+        "itemNumber": "107",
+        "itemTitle": "Jason Flom with Nick Yarris Pt 2",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode, part two of Nick Yaris's story on Wrongful Conviction, continues Nick's harrowing account of wrongful imprisonment.  It details his experiences on death row in Florida alongside Jesse Tefaro and Ted Bundy, his return to Pennsylvania, and the despair he faced. The narrative highlights his groundbreaking petition for DNA testing from death row and the agonizing wait as he watched others gain freedom before him.  Despite facing severe health issues and emotional lows, Nick found purpose in helping fellow inmate Walter O. Grodd.  The episode culminates in Nick's exoneration in 2003, the bureaucratic hurdles delaying his release, and his eventual freedom.  Since exoneration, Nick has become an advocate for justice and prison reform, emphasizing kindness, resilience, and neuroplasticity as paths to healing and positive change."
+    },
+    "featuredIndividual": {
+        "fullName": "Kurt Bloodworth",
+        "caseLocation": "Not stated",
+        "convictionYear": "Not stated",
+        "exonerationYear": "Before Nick Yaris's",
+        "crimeConvictedOf": "Not stated",
+        "sentence": "Death Row (initially)",
+        "timeServed": "Not stated",
+        "contributingFactorsRaw": [
+            "DNA exoneration."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Not stated, but related to DNA exoneration movement."
+        ],
+        "innocenceLawyersRaw": [
+            "Not mentioned in the transcript."
+        ],
+        "crossReference": "Likely appears in exoneree database (needs verification).",
+        "narrativeOriginalCrime": "Not stated in the transcript.",
+        "keyEvidenceProsecutionRaw": [
+            "Not detailed in the transcript."
+        ],
+        "trialDefenderNotes": "Not detailed in the transcript.",
+        "keyEvidenceExonerationRaw": [
+            "DNA exoneration."
+        ],
+        "actualPerpetratorDetails": "Not mentioned in the transcript."
+    },
+    "keyQuotesRaw": [
+        "\"seriously, what the actual fuck, and we're still just halfway.\" (Host's reaction to Nick's story's intensity)",
+        "\"I told a lie to get out of a cop's lie, but that's only half the story. I told a lie about a woman's murder, man, and shamed her family, disrespected mine. I got to live with that, man.\" (Nick's deep regret for his false confession and its impact.)",
+        "\"I was the very first man in history to seek DNA testing from death row in March of 1988.\" (Highlighting Nick's pioneering role in utilizing DNA testing for exoneration.)",
+        "\"I decided I was going to fulfill my efforts. The only reason I ever learned how to speak with any modicum of decency was after the escape when they beat my face and broke my teeth and I couldn't look at myself without flinching.\" (Nick's transformative self-improvement journey spurred by adversity.)",
+        "\"I am a human experiment of endurance and for some magical reason I'm built for it.\" (Nick's profound self-awareness and resilience.)",
+        "\"There's no place I'd rather be and nothing I'd rather be doing.\" (Host Jason Flom's statement about his dedication to wrongful conviction advocacy.)",
+        "\"it's just begun.\" (Nick's optimistic outlook on his life post-exoneration and ongoing mission.)"
+    ],
+    "systemicIssuesRaw": [
+        "Botched executions and the cruelty of the death penalty (Jesse Tefaro).",
+        "Inhumane prison conditions: medical neglect, lack of basic necessities like air conditioning, mold, overcrowding contributing to disease (Dale Carter, general prison conditions).",
+        "Bureaucratic obstacles and delays in the exoneration process and release even after legal exoneration (Nick Yaris's delayed release).",
+        "Potential for reinstatement of vacated convictions post-exoneration, creating further legal jeopardy (Nick Yaris's Florida case).",
+        "Lack of adequate psychological training and support for prison officers, leading to high stress, mortality, and potential for abuse."
+    ],
+    "policyRecommendationsRaw": [
+        "Moratorium on the death penalty (Nick's call to action upon release).",
+        "Need for improved training and psychological support for prison officers.",
+        "Decarceration and reduction of the prison population in the US.",
+        "Improvement of prison conditions to meet basic human rights standards, including healthcare and living conditions.",
+        "Support for organizations like the Innocence Project to prevent wrongful convictions and aid exonerees.",
+        "Public awareness and support for individuals like Walter O. Grodd and Ernie Simmons who may be wrongfully convicted and still incarcerated."
+    ],
+    "personalNarrativeRaw": [
+        "Nick Yaris's personal transformation from despair and anger in prison to a life of purpose and advocacy after exoneration. His story emphasizes resilience, self-education, and the power of kindness.",
+        "The impact of wrongful conviction on individuals' mental and physical health, as well as their sense of self and humanity.",
+        "The podcast host's personal fulfillment and sense of purpose derived from working to correct wrongful convictions, highlighting the rewarding nature of altruistic endeavors.",
+        "Nick's emphasis on \"neuroplasticity healing\" through kindness and polite behavior as a method for overcoming trauma and PTSD, and improving well-being."
+    ],
+    "additionalResourcesRaw": [
+        "Podcast series: \"Death Row Stories,\" Season 3, Episode 4, featuring Walter O. Grodd's case.",
+        "Organization: Innocence Project (InnocenceProject.org).",
+        "Podcast: \"Wrongful Conviction\" - available wherever podcasts are found.",
+        "Nick Yaris's website: Nickyarris.org.",
+        "Nick Yaris's social media: Nick Yaris on Facebook, Twitter, and Instagram."
+    ]
+}

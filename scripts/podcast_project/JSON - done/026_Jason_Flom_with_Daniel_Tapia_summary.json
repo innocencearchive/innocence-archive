@@ -1,0 +1,78 @@
+{
+    "sourceFileName": "026_Jason_Flom_with_Daniel_Tapia_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2017",
+        "network": "Lava for Good Podcasts, signal company number one",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction stories, criminal justice system issues",
+        "keyStats": "-   America locks up more people per capita than any place in the world, five times as many as the rest of the Western world and fourteen times as many as Japan.\n-   Louisiana locks up twice as many people per capita as the rest of the United States.\n-   New Orleans locks up more people than any other county or city in Louisiana.\n-   95% of felony convictions in the United States are obtained through guilty pleas.",
+        "itemNumber": "026",
+        "itemTitle": "Jason Flom with Daniel Tapia",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Daniel Tapia, a man wrongfully convicted in New Orleans, Louisiana, a city with a notoriously high incarceration rate. Daniel recounts his harrowing experience of being arrested for a murder he did not commit, despite being a bystander to a shootout. He details the corrupt police tactics, including fabricated witness statements and racial bias, that led to his conviction for second-degree murder and a life sentence.  Daniel also vividly describes the inhumane conditions he and other inmates endured during Hurricane Katrina at Orleans Parish Prison, where they were abandoned without food, water, or assistance. Despite facing seemingly insurmountable odds, including overturned appeals and pressure to accept a plea deal, Daniel's relentless pursuit of justice and a crucial legal article he recalled during prayer ultimately led to a new trial.  Facing the risk of another wrongful conviction, he was coerced into taking a plea deal for manslaughter to secure his release after serving years in prison for a crime he did not commit.  Daniel's story highlights the deep flaws within the American criminal justice system, particularly the coercive nature of plea bargains and the dire consequences of wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Daniel Tapia",
+        "caseLocation": "New Orleans, Louisiana, USA",
+        "convictionYear": "2003",
+        "exonerationYear": "N/A (Pled guilty to manslaughter to secure release)",
+        "crimeConvictedOf": "Originally Second Degree Murder, later Manslaughter (plea deal)",
+        "sentence": "Originally Life Sentence for Murder, later 15 years for Manslaughter (plea deal)",
+        "timeServed": "Approximately 7 years (initially for murder, then manslaughter sentence led to release due to time served)",
+        "contributingFactorsRaw": [
+            "Eyewitness Misidentification (fabricated police officer testimony)",
+            "Police Misconduct (physical abuse, coercion, ignoring exculpatory evidence)",
+            "Ineffective Assistance of Counsel (pressure to take plea deal)",
+            "Systemic Corruption (pressure to close cases, even wrongly)"
+        ],
+        "status": "Released after pleading guilty to manslaughter and serving time; technically not exonerated.",
+        "organizationsInvolvedRaw": [
+            "Not explicitly mentioned in transcript."
+        ],
+        "innocenceLawyersRaw": [
+            "Lori White, defense attorney who helped Daniel get his conviction overturned and negotiated the plea deal. She is now Chief Judge of criminal court."
+        ],
+        "crossReference": "Not specified if in exoneree database.",
+        "narrativeOriginalCrime": "A shootout occurred in the Cali O-Projects. Daniel was present nearby in his car and picked up friends running from the scene as shots were fired. He was accused of being involved in the murder of one individual during this shootout, despite being a bystander.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of a police officer claiming to have witnessed the events and identifying Daniel as involved (later proven inconsistent and likely fabricated).",
+            "Circumstantial presence at the scene."
+        ],
+        "trialDefenderNotes": "Original defense lawyer not described as effective; fired after conviction. Second lawyer, Lori White, worked on appeal and subsequent legal challenges, eventually advising the plea deal.",
+        "keyEvidenceExonerationRaw": [
+            "Co-defendant's confession stating Daniel was not involved.",
+            "Article 851.5 of the Louisiana Code of Criminal Procedure, which allowed for a new trial based on new evidence (co-defendant's confession).",
+            "Despite new trial orders, facing continued prosecution and risk of wrongful conviction again, plea deal was taken."
+        ],
+        "actualPerpetratorDetails": "Co-defendant confessed to being involved in the shootout and that Daniel was not involved and had no prior knowledge of any conflict. The transcript implies the co-defendant and the victim were engaged in a shootout, and another individual, a friend of the victim, was also shooting."
+    },
+    "keyQuotesRaw": [
+        "\"They give a guy a life sentence and go home and eat spaghetti like it was nothing.\" - Daniel Tapia, highlighting the dehumanization in the justice system.",
+        "\"Why wouldn't you confess when somebody's threatening to kill your life?\" - Daniel Tapia, explaining the pressure to confess even when innocent.",
+        "Description of Hurricane Katrina experience in Orleans Parish Prison, showcasing inhumane treatment of inmates.",
+        "Daniel's perseverance in studying law and finding Article 851.5, demonstrating self-advocacy and resilience."
+    ],
+    "systemicIssuesRaw": [
+        "Racial bias in policing and prosecution.",
+        "Corruption within the New Orleans Police Department.",
+        "Coercive plea bargain system.",
+        "Inadequate public defender system.",
+        "Dehumanizing prison conditions, especially during crises like Hurricane Katrina.",
+        "Lack of accountability for wrongful convictions."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for organizations like the Innocence Project.",
+        "Criminal justice reform, particularly regarding plea bargaining and public defense.",
+        "Increased accountability for police and prosecutors.",
+        "Review of sentencing practices, especially for non-violent offenses."
+    ],
+    "personalNarrativeRaw": [
+        "Daniel Tapia's narrative is one of extreme resilience and perseverance in the face of systemic injustice and unimaginable hardship. Despite being wrongfully convicted and enduring horrific prison conditions, including the Katrina disaster, he maintained hope and fought for his freedom.  Even though not fully exonerated, his release represents a victory against a deeply flawed system. His final thought emphasizes resilience: \"No matter what's going on in your life... If you still have breath in your body, you can still fight it, and you can still win. Don't give up on yourself.\""
+    ],
+    "additionalResourcesRaw": [
+        "InnocenceProject.org is mentioned as a resource for donation and involvement in preventing wrongful convictions.\n```"
+    ]
+}

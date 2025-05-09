@@ -1,0 +1,92 @@
+{
+  "source_file_name": "9.29.scenes_of_crime.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "Scenes of a Crime",
+    "creator_name": "Grover Babcock, Blue Hadaegh",
+    "publication_or_release_year": 2011,
+    "publisher_or_network": null,
+    "focus_or_theme": "Examines the lengthy police interrogation of Adrian Thomas in Troy, New York, which resulted in a disputed confession regarding the death of his infant son. Critiques interrogation techniques and explores the phenomenon of false confessions.",
+    "summaryNotes": "Thomas's confession was the sole basis for his conviction, despite autopsy evidence indicating the baby died from sepsis (infection), not trauma. His conviction was later overturned because the confession was deemed coerced.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Scenes of a Crime",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Examines the lengthy police interrogation of Adrian Thomas in Troy, New York, which resulted in a disputed confession regarding the death of his infant son. Critiques interrogation techniques and explores the phenomenon of false confessions.",
+    "summary_notes": "The documentary features extensive footage from Adrian Thomas's actual videotaped interrogation, interviews with Thomas, his family, lawyers, and jurors. It analyzes the specific techniques used by police during the 10-hour questioning.",
+    "key_quotes_raw": [
+      "Extensive footage from Adrian Thomas's actual videotaped interrogation",
+      "Interviews with Thomas, his family, lawyers, jurors, and potentially interrogation experts",
+      "Analysis of the specific techniques used by police during the 10-hour questioning"
+    ],
+    "systemic_issues_raw": [
+      "Coercive police interrogation methods (implicitly critiques Reid technique elements)",
+      "Psychological factors leading to false confessions (especially under duress/stress)",
+      "Unreliability of confessions as sole evidence",
+      "Importance of allowing expert testimony on false confession research in court",
+      "Difficulty for jurors to understand why someone would falsely confess without expert context"
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for reform of police interrogation practices",
+      "Mandatory recording of entire interrogations",
+      "Ensuring courts allow relevant expert testimony on psychological factors influencing confessions"
+    ],
+    "external_links_raw": [
+      {
+        "url": null,
+        "description": "NY Court of Appeals decision in People v. Thomas (2014), APA amicus brief, resources on false confessions (e.g., from the Innocence Project)"
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Adrian P. Thomas",
+      "first_name": "Adrian",
+      "middle_name": "P.",
+      "last_name": "Thomas",
+      "status": "EXONERATED",
+      "conviction_year": 2009,
+      "exoneration_or_release_year": 2014,
+      "time_served": "Approximately 5-6 years",
+      "sentence": "25 years to life",
+      "crime_convicted_of_raw": "Second-degree murder (of his infant son, Matthew)",
+      "case_location_city": "Troy",
+      "case_location_state": "New York",
+      "narrative_summary": "Adrian Thomas was wrongfully convicted of second-degree murder in the death of his infant son. His conviction was based on a false confession obtained through coercive interrogation techniques. He was exonerated in 2014 after his confession was suppressed and his conviction was overturned.",
+      "contributing_factors_raw": [
+        "False confession obtained through coercive interrogation techniques (prolonged interrogation, minimization, false suggestion of leniency/help, factual misrepresentations by police, exploiting defendant's emotional distress)"
+      ],
+      "organizations_involved_raw": [
+        "New York State Defenders Association",
+        "Lawyers",
+        "Potentially false confession experts (like Richard Ofshe or Saul Kassin, though not explicitly named in provided search snippets)",
+        "APA filed amicus brief supporting admissibility of expert testimony"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Grover Babcock",
+      "first_name": "Grover",
+      "middle_name": null,
+      "last_name": "Babcock",
+      "role": "DIRECTOR"
+    },
+    {
+      "full_name": "Blue Hadaegh",
+      "first_name": "Blue",
+      "middle_name": null,
+      "last_name": "Hadaegh",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

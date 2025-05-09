@@ -1,0 +1,59 @@
+{
+  "source_file_name": "9.32.strong_island.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "Strong Island",
+    "creator_name": "Yance Ford",
+    "publication_or_release_year": 2017,
+    "publisher_or_network": "Netflix Original",
+    "focus_or_theme": "Director Yance Ford investigates the 1992 murder of his older brother, William Ford Jr., a young Black man, and the failure of the justice system (an all-white grand jury) to indict the white man who shot him, Mark Reilly, despite evidence suggesting a lack of justification for self-defense. Explores themes of race, grief, trauma, and injustice within the legal system.",
+    "summaryNotes": "Nominated for the Academy Award for Best Documentary Feature. Highlights the specific details of William Ford Jr.'s death and the subsequent grand jury process.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Strong Island",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Director Yance Ford investigates the 1992 murder of his older brother, William Ford Jr., a young Black man, and the failure of the justice system (an all-white grand jury) to indict the white man who shot him, Mark Reilly, despite evidence suggesting a lack of justification for self-defense. Explores themes of race, grief, trauma, and injustice within the legal system.",
+    "summary_notes": "The film investigates the failure to indict the shooter of William Ford Jr., exploring systemic issues and racial bias that may have prevented accountability. The central figure is the victim, William Ford Jr., and the family seeking answers.",
+    "key_quotes_raw": [
+      "Deeply personal narration and interviews conducted by Yance Ford with family members.",
+      "Examination of case files and evidence.",
+      "Confronts the silence and lack of accountability surrounding William Ford Jr.'s death."
+    ],
+    "systemic_issues_raw": [
+      "Racial bias in the criminal justice system (policing, grand jury process)",
+      "Disparate treatment based on race",
+      "The impact of grief and unresolved trauma on families",
+      "Failures in holding individuals accountable for violence, particularly across racial lines."
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for addressing racial bias in the justice system",
+      "Reforming grand jury processes",
+      "Ensuring accountability for violent crimes regardless of race."
+    ],
+    "external_links_raw": [
+      {
+        "url": null,
+        "description": "News articles and discussions surrounding the film and the issues it raises."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [],
+  "involved_persons": [
+    {
+      "full_name": "Yance Ford",
+      "first_name": "Yance",
+      "middle_name": null,
+      "last_name": "Ford",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

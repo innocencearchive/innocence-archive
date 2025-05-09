@@ -1,0 +1,113 @@
+{
+    "sourceFileName": "177_Jason_Flom_with_Justin_Moore_and_Crystal_Trevino_on_Zephi_Trevino_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good podcasts in association with signal company number one.",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, sex trafficking, criminal justice system, victim blaming.",
+        "keyStats": "-   57 million drivers go with AAA (from advertisement).\n-   Cybersecurity specialists are in high demand (from advertisement).\n-   Mention of George Stinney Jr.'s case (14-year-old executed in 1944, later exonerated).",
+        "itemNumber": "177",
+        "itemTitle": "Jason Flom with Justin Moore and Crystal Trevino on Zephi Trevino",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom tells the story of Zephi Trevino, a teenage girl from Texas who was sex trafficked by 19-year-old Philip Baldineggro. After being manipulated and abused, Zephi was present when Baldineggro robbed and fatally shot one of two men who came to her apartment for sex.  Despite not being the shooter, Zephi is being charged with her trafficker's crime and potentially tried as an adult, facing life in prison. The episode features interviews with Zephi's lawyer, Justin Moore, and her mother, Crystal Trevino, who share the details of Zephi's ordeal and advocate for her release and for the recognition of sex trafficking victims within the criminal justice system. They highlight the injustice of victim-blaming and the need for systemic change to protect vulnerable individuals like Zephi. The episode concludes with calls to action, urging listeners to support Zephi's legal defense and advocate for victims of sex trafficking."
+    },
+    "featuredIndividual": {
+        "fullName": "Zephi Trevino",
+        "caseLocation": "Grand Prairie, Texas, USA",
+        "convictionYear": "Not yet convicted (awaiting trial at the time of podcast).",
+        "exonerationYear": "Not yet exonerated (awaiting trial at the time of podcast).",
+        "crimeConvictedOf": "Potentially Capital Murder (charged for her sex trafficker's crime).",
+        "sentence": "Potentially life in prison if tried and convicted as an adult.",
+        "timeServed": "Was in pretrial custody in a juvenile facility for a year. Currently out of juvie awaiting trial.",
+        "contributingFactorsRaw": [
+            "Sex trafficking",
+            "Victim blaming by the criminal justice system",
+            "Potential to be tried as an adult despite being a minor victim."
+        ],
+        "status": "Awaiting trial, facing potential certification as an adult.",
+        "organizationsInvolvedRaw": [
+            "Not explicitly mentioned in transcript, but Justin Moore is her defense attorney."
+        ],
+        "innocenceLawyersRaw": [
+            "Justin Moore is Zephi's lawyer, described as an \"emerging giant in the defense community\" and a \"Social Justice Advocate\". He is working to defend Zephi and argues that she is a victim of sex trafficking, not a perpetrator."
+        ],
+        "crossReference": "Not specified if in exoneree database.",
+        "narrativeOriginalCrime": "Two men were lured to an apartment for sex with Zephi. Baldineggro and an accomplice robbed them. A fight ensued, and Baldineggro shot and killed one of the men. Zephi was present during the incident but did not participate in the robbery or shooting.",
+        "keyEvidenceProsecutionRaw": [
+            "The transcript does not detail specific prosecution evidence but implies the prosecution is attempting to charge Zephi with capital murder based on her presence at the scene of a crime committed by her trafficker."
+        ],
+        "trialDefenderNotes": "Justin Moore argues that Zephi is a victim of sex trafficking and was not a participant in the robbery or shooting. He emphasizes that she was a child being exploited and should not be held responsible for the actions of her trafficker. He highlights the injustice of trying to certify her as an adult.",
+        "keyEvidenceExonerationRaw": [
+            "The defense argues that Zephi is a sex trafficking victim and should be treated as such by the legal system.  They emphasize that she did not commit the murder and was present under duress. Public advocacy and awareness of her case are mentioned as important factors."
+        ],
+        "actualPerpetratorDetails": "Philip Baldineggro, 19 years old at the time of the incident, is identified as Zephi's sex trafficker and the shooter in the robbery and murder. He has reportedly admitted to being the shooter. Jesse Martinez is mentioned as an accomplice in the robbery."
+    },
+    "keyQuotesRaw": [
+        "Justin Moore: \"Here's a young girl in a place that she's not in of her own free will. And then a dispute breaks out in the middle of a robbery that results in a murder. So what was she supposed to do, put on some sort of superhero cape and try to stop them?\"",
+        "Crystal Trevino: \"Dallas County, the legal system in general, has not even acknowledged that my child was a victim and she continues to be victimized.\"",
+        "Jason Flom: \"When you're 16, you don't know shit about anything. The world is still a mystery.\"",
+        "Crystal Trevino: \"My prayer would be that the legal system recognized my daughter as a sex trafficked victim and they change the law because she's not the only one.\""
+    ],
+    "systemicIssuesRaw": [
+        "Victim blaming within the criminal justice system, particularly towards sex trafficking victims.",
+        "The policy of trying children as adults, especially in cases where the child is a victim of exploitation.",
+        "Lack of understanding and recognition of sex trafficking and its impact on victims.",
+        "Potential racial bias in the application of laws allowing children to be tried as adults."
+    ],
+    "policyRecommendationsRaw": [
+        "Criminal justice system reform to have compassion and nuance when dealing with sex trafficking victims.",
+        "Eradication of policies that allow children to be tried as adults.",
+        "Increased resources and support for parents to recognize and address potential sex trafficking situations.",
+        "Urge Dallas County DA to drop charges against Zephi Trevino."
+    ],
+    "personalNarrativeRaw": [
+        "Zephi's life revolved around family, church, and softball before being introduced to drugs and then sex trafficking.",
+        "Her family experienced significant distress and changes in Zephi's behavior as she was being trafficked.",
+        "Crystal Trevino emphasizes the heartbreak and ongoing battle to free her daughter and heal from the trauma. She highlights the importance of faith in coping with the situation.",
+        "Zephi's case is presented as representative of many unseen victims and the need for systemic change."
+    ],
+    "additionalResourcesRaw": [
+        "DirectlyTo.org (for legal defense donations)",
+        "Change.org (petition to sign)",
+        "Action Network.org (form letter to the DA)",
+        "Instagram hashtag #FreeZephyr",
+        "Host's Instagram: @ItsJasonFlom",
+        "InnocenceProject.org (to donate and get involved)"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Philip Baldineggro",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Two men",
+                "role_guess": "Victims",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [
+            "Dallas County"
+        ],
+        "llm_extracted_factors": [
+            "Injustice of victim-blaming",
+            "Systemic change to protect vulnerable individuals"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Sex Trafficking",
+                "Victim Blaming",
+                "Criminal Justice Reform",
+                "Juvenile Justice",
+                "Wrongful Conviction"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

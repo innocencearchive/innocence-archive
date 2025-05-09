@@ -1,0 +1,66 @@
+{
+  "source_file_name": "8.1.broken_justice.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "Broken Justice (PBS NewsHour Report)",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "NewsHour Productions LLC",
+    "focus_or_theme": "Structural flaws in the US criminal justice system leading to wrongful convictions (underfunded defense, prosecutorial misconduct, flawed forensics).",
+    "summaryNotes": null,
+    "availabilityNotes": "Available via PBS.",
+    "sourceUrl": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Information Unavailable",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Structural flaws in the US criminal justice system leading to wrongful convictions (underfunded defense, prosecutorial misconduct, flawed forensics).",
+    "summary_notes": "This multi-part series examines various systemic aspects contributing to wrongful convictions. Searches did not identify a specific PBS NewsHour series titled \"Broken Justice\" covering wrongful convictions, but PBS NewsHour covers criminal justice issues frequently.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Series examines various systemic aspects contributing to wrongful convictions. Available via PBS.",
+      "research_findings": "Searches did not identify a specific PBS NewsHour series titled \"Broken Justice\" covering wrongful convictions. PBS NewsHour covers criminal justice issues frequently, but this specific multi-part series title wasn't confirmed. Details rely on the `film_list.txt` entry."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Various exonerees",
+      "first_name": "Various",
+      "middle_name": null,
+      "last_name": "exonerees",
+      "status": "UNKNOWN",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": null,
+      "case_location_state": null,
+      "narrative_summary": "Various exonerees are featured in this series, highlighting the impact of underfunded public defenders, prosecutorial misconduct, and flawed forensic science on wrongful convictions.",
+      "contributing_factors_raw": [
+        "Underfunded public defenders",
+        "prosecutorial misconduct",
+        "flawed forensic science"
+      ],
+      "organizations_involved_raw": []
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Information Unavailable",
+      "first_name": "Information",
+      "middle_name": null,
+      "last_name": "Unavailable",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

@@ -1,0 +1,65 @@
+**AI Task: Transform Markdown Research Notes into Schema-Compliant JSON**
+
+**Goal:**
+Your primary goal is to act as a data transformation engine. You will analyze the provided Markdown content, which contains research notes about a specific media work (book, film, podcast episode, etc.) related to wrongful convictions. Based *only* on the information present in this *single* Markdown file, you must generate a structured JSON object. This JSON object must strictly conform to the provided Prisma Schema definition and follow the example JSON structure discussed previously.
+
+**Inputs:**
+1.  **Prisma Schema:** The complete text of the Prisma schema definition. This defines the data models, fields, types, enums, and relationships the output JSON must adhere to. '{{PRISMA_SCHEMA}}' is attached to this script as schema.txt.
+2.  **Markdown Content:** The full text content of a single research note file. attached to this script. '{{MARKDOWN_CONTENT}}' is attached to this script as an .md file.
+
+**Output:**
+A single, valid JSON object. Do NOT include any explanatory text, greetings, or markdown formatting before or after the JSON object itself.
+
+**Core Instructions:**
+
+1.  **Schema Adherence is Paramount:**
+    * Thoroughly analyze the provided `{{PRISMA_SCHEMA}}`. Identify all models (e.g., `MediaWork`, `MediaItem`, `Individual`, `Organization`, `ContributingFactor`, `InvolvedPerson`, `CrimeCategory`), their fields, data types (String, Int, Float, DateTime, Boolean), enums, and relationships.
+    * The generated JSON *must* strictly follow this schema.
+    * **Required Fields:** Ensure *all* fields marked as required (i.e., not optional '?') in the schema are present in the corresponding JSON objects. If data for a required field cannot be found in the `{{MARKDOWN_CONTENT}}`, use a sensible default (e.g., "Unknown" for String, handle based on type/defaults) BUT DO NOT OMIT THE FIELD. If a critical identifier (like an Individual's name) is missing, this might indicate an issue with the source data.
+    * **Optional Fields:** Include fields marked as optional ('?') in the schema *only if* corresponding data is explicitly found in the `{{MARKDOWN_CONTENT}}`. Do not invent data for optional fields.
+    * **Data Types:** Ensure JSON values match the schema field types. Convert extracted text to Int, Float, or Boolean where appropriate. Represent dates/years as Int or ISO 8601 DateTime strings if possible.
+    * **Enums:** All values used for enum fields in the JSON *must* exactly match one of the defined values in the corresponding enum definition within the `{{PRISMA_SCHEMA}}`. Infer the correct enum value based on the text context. Use `UNKNOWN` if determination is impossible, or `OTHER` if the concept exists but doesn't fit predefined categories.
+
+2.  **Data Extraction:**
+    * Carefully parse the `{{MARKDOWN_CONTENT}}`. Identify the main `MediaWork` and the specific `MediaItem` being described.
+    * Identify all `Individuals` (especially wrongfully convicted persons), `Organizations`, `ContributingFactors` (to wrongful conviction), `InvolvedPersons` (lawyers, witnesses, etc.), and `CrimeCategories` mentioned *in this specific file*.
+    * Extract relevant attributes for each identified entity (e.g., names, dates, locations, roles, descriptions, quotes, summaries).
+
+3.  **JSON Structure:**
+    * Generate a JSON object following the model structure provided in our previous discussion:
+        * Top-level keys: `sourceFileName` (the name of the input markdown file), `mediaWork` (object), `mediaItem` (object), `individuals` (array of objects).
+        * Also include top-level arrays for related entities to facilitate `upsert` operations in the consuming script: `contributingFactors` (array of objects), `organizations` (array of objects), `involvedPersons` (array of objects), `crimeCategories` (array of objects). Populate these arrays *only* with data extracted from the *current* `{{MARKDOWN_CONTENT}}`.
+    * Within the `mediaWork`, `mediaItem`, and `individual` objects, represent relationships by including arrays of names or simple identifier objects (e.g., `contributingFactorNames: ["Factor A", "Factor B"]`, `involvedPersonsNames: [{"firstName": "John", "lastName": "Doe"}]`). The consuming script will use these references for database linking.
+
+4.  **Adaptability:**
+    * Do not treat the previous JSON example as a rigid template. The structure serves as a model, but the *content* (which fields are present beyond required ones, which entities are included, how many items are in arrays) must be based *solely* on the data found in the *current* `{{MARKDOWN_CONTENT}}`. If the markdown describes 3 individuals, the `individuals` array in the JSON should contain 3 objects. If it mentions no organizations, the `organizations` array should be empty or omitted if appropriate.
+
+5.  **Accuracy:** Prioritize extracting information accurately and mapping it to the correct schema fields and enums. If ambiguity exists in the markdown, make the most reasonable interpretation based on the schema context.
+
+**Example Placeholder Usage:**
+```json
+// Input Schema (Partial Example)
+model Individual {
+  id        Int      @id @default(autoincrement())
+  firstName String
+  lastName  String
+  status    IndividualStatus? // Optional Enum
+}
+
+// Input Markdown Snippet
+// ### Wrongfully Convicted Individual Featured
+// - **Name**: Jane Doe
+// - **Legal Status**: Exonerated
+
+// Expected JSON Snippet Output
+{
+  // ... other parts of JSON ...
+  "individuals": [
+    {
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "status": "EXONERATED" // Correctly mapped optional field
+    }
+  ],
+  // ...
+}

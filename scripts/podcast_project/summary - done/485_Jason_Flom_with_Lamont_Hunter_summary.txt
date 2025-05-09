@@ -1,0 +1,92 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not explicitly mentioned in the transcript, but can be inferred as an episode focusing on Lamont Hunter's case.
+-   **Host(s)**: Jason Flom (and Connor Hall as producer introducing the episode)
+-   **Release Year(s)**: Not explicitly mentioned in the transcript, likely 2023 based on the context of Lamont Hunter's release in June 2023.
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company No. 1.
+-   **Series Type**: Episodic Series (each episode is generally a standalone story focusing on a wrongful conviction case)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, Shaken Baby Syndrome (Abusive Head Trauma) as junk science, ineffective counsel, prosecutorial misconduct, fight for exoneration, and the personal impact of wrongful conviction.
+-   **Key Statistics/Information**:
+    - Hamilton County, Ohio, is in the 2% of counties in the US that account for more than half of people on death row and executions.
+    - Shaken Baby Syndrome (Abusive Head Trauma) is a debunked hypothesis that has led to wrongful convictions.
+    - There are at least 81 pre-existing medical conditions that can mimic the "triad" of symptoms associated with Shaken Baby Syndrome.
+    - Innocence is not enough to be set free based on Herrera v. Collins (1993) Supreme Court case.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction tells the harrowing story of Lamont Hunter, who was wrongfully convicted and sentenced to death in Ohio for the death of his girlfriend's son, Tristan. The case hinged on the now-discredited Shaken Baby Syndrome and allegations of sexual assault.  Despite maintaining his innocence and evidence suggesting Tristan's injuries were from a fall and medical intervention, Lamont spent 16 years incarcerated, many on death row.  His trial was marred by ineffective counsel and the prosecution presented flawed medical testimony and withheld crucial evidence.  After years of legal battles and new evidence uncovered by his post-conviction legal team, including a recantation from the coroner and biomechanical evidence supporting a fall, Lamont was finally released after taking a plea for time served in 2023.  The episode highlights systemic issues within the justice system, the dangers of junk science, and the long-lasting impact of wrongful convictions on individuals and their families.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Lamont Hunter
+-   **Case Location**: Cincinnati, Hamilton County, Ohio, USA
+-   **Conviction Year**: 2007
+-   **Exoneration Year**: 2023 (released after plea for time served, not fully exonerated in a legal sense but conviction is recognized as wrongful)
+-   **Crime Convicted Of**: Death penalty for the death of Tristan Milda, including allegations of rape and child abuse.
+-   **Sentence**: Death penalty
+-   **Time Served**: 16 years
+-   **Contributing Factors**:
+    - Junk Science: Shaken Baby Syndrome (Abusive Head Trauma) theory.
+    - Ineffective Assistance of Counsel: Trial attorney failed to consult experts, investigate medical records, or effectively cross-examine state experts.
+    - Prosecutorial Misconduct: Withholding exculpatory evidence (Brady violation), pushing for severe charges despite weak evidence, and pressuring for a plea deal even after acknowledging issues with the case.
+    - Misinterpretation of Medical Evidence: Anal/rectal injuries misattributed to sexual assault, when likely caused by medical thermometer.
+-   **Legal Status**: Released after taking a plea agreement for time served. Not formally exonerated, but conviction is widely understood to be wrongful.
+-   **Organizations Involved**:
+    - Southern Ohio Federal Public Defender Capital Habeas Unit (Aaron Barnhart and team)
+    - Ohio Public Defender's office (post-conviction attorneys Melissa Jackson and Kim Rigby)
+    - Center for Integrity of Forensic Sciences (Kate Jutson)
+-   **Innocence Lawyer Details**: Aaron Barnhart, Assistant Public Defender at the Southern Ohio Federal Public Defender Capital Habeas Unit, is highlighted as instrumental in Lamont's release.  She and her team pursued federal habeas petition, uncovered crucial evidence, and effectively challenged the state's narrative.  She is described as taking time to explain the legal process to Lamont and his family, building trust and a strong working relationship.
+-   **Cross-Reference**: Not explicitly stated if in an exoneree database, but likely given the nature of the podcast.
+-   **Narrative of Original Crime**: Lamont Hunter was accused of causing fatal injuries to Tristan Milda, his girlfriend's three-year-old son, while Tristan was in his care.  The prosecution alleged that Tristan's injuries, including subdural hematoma, retinal hemorrhages, and cerebral edema, were indicative of violent shaking and impact, consistent with Shaken Baby Syndrome.  They also alleged sexual assault based on anal/rectal injuries.  Lamont maintained that Tristan fell down the stairs.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Medical expert testimony (child abuse pediatrician and coroner initially) attributing Tristan's injuries to abusive head trauma (Shaken Baby Syndrome) and not a fall.
+    - Testimony suggesting anal/rectal injuries were consistent with sexual assault by an adult.
+    - Past incident of Tristan's broken tibia in 2004, and 2004 hospital visit for unexplained injuries, presented to suggest a pattern of abuse, despite Lamont not being implicated in the 2004 incidents.
+-   **Trial Defender Notes**: Lamont's trial attorney, Clyde Bennett, failed to:
+    - Consult or hire medical experts to challenge the state's Shaken Baby Syndrome theory.
+    - Adequately investigate medical records.
+    - Effectively cross-examine state experts, relying on irrelevant lines of questioning.
+    - Advise Lamont against a bench trial despite judicial warning of likely loss.
+    - He was also distracted by his own federal criminal investigation during Lamont's trial.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - Deposition testimony from the coroner, Dr. Stevens, recanting her initial opinion after reviewing photographs of the staircase, biomechanical expert analysis, and medical records revealing rectal thermometer attempts. She changed her opinion to accidental death and medically inflicted rectal injuries.
+    - Biomechanical expert testimony demonstrating that a fall down the stairs could generate forces sufficient to cause Tristan's injuries.
+    - Medical records showing hospital staff's unsuccessful attempts to take Tristan's temperature rectally and subsequent notation of blood in rectum, providing innocent explanation for anal/rectal injuries.
+    - Evidence of Brady violation (withheld evidence of coroner's consideration of temperature probe as cause of rectal injuries).
+-   **Actual Perpetrator Details**: Not applicable, as the case is about wrongful conviction and accidental death, not identifying a different perpetrator for a crime that occurred.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - Dr. Norman Guthkelch (developer of Shaken Baby Syndrome theory, before death in 2016): "I am frankly quite disturbed that what I intended as a friendly suggestion for avoiding injury to children has become an excuse for imprisoning innocent parents."
+    - Lamont Hunter describing his emotional state upon release: "Imagine feeling all of the emotions, anger, stress, joy, relief, frustration, all of those emotions at the same time."
+    - Judge Norbert Natal's statement to Clyde Bennett: "it wouldn't be wise for him to bring me in front of him on a bench trial because I lose."
+-   **Systemic Issues Identified**:
+    - Junk Science in the courtroom (Shaken Baby Syndrome/Abusive Head Trauma).
+    - Ineffective assistance of counsel.
+    - Prosecutorial misconduct (Brady violations, tunnel vision).
+    - Over-reliance on expert testimony without critical evaluation.
+    - Pressure to accept plea deals even when innocent to gain immediate freedom.
+    - Difficulty in overturning wrongful convictions even with strong evidence of innocence.
+    - The power imbalance between the state and the accused, where "innocence is not enough."
+-   **Policy Recommendations/Calls to Action**:
+    - Call to listeners to support Lamont Hunter's GoFundMe and public speaking engagements.
+    - Implicit call for justice system reform to address junk science, ensure effective counsel, and prevent wrongful convictions.
+    - Encouragement for listeners to engage with the issue, even through simple actions like sharing stories on social media and telling friends.
+-   **Personal Narrative/Impact**: Lamont Hunter describes the immense trauma of wrongful conviction, the loss of time with family (including missing his father's death before release and not meeting grandchildren for years), and the ongoing emotional and physical struggles (knee surgery). He emphasizes the importance of family support and the village of people who helped him fight for freedom.  His final thoughts are about the overwhelming mix of emotions upon release and the long road to recovery.
+-   **Additional Resources**:
+    - GoFundMe page for Lamont Hunter (linked in episode description).
+    - Lamont Hunter's LinkedIn page (linked in episode description).
+    - Wrongful Conviction "Shaken Baby Syndrome" episode (linked for listeners).
+    - Death Penalty Information Center "2% report" (referenced in the episode).
+    - Herrera v. Collins (1993) Supreme Court case (referenced in the episode).
+    - Spotlight Snitch City podcast (promotional advertisement within the episode).
+    - Under Yazoo Clay podcast (promotional advertisement within the episode).
+```

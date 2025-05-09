@@ -1,0 +1,97 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+- **Title**: Wrongful Conviction
+- **Episode # & Title (if applicable)**: Episode Title not explicitly stated, but can be inferred as "Robert McClendon's Story" or based on guest "Robert McClendon and Jennifer Berger"
+- **Host(s)**: Jason Flom
+- **Release Year(s)**: 2024 (Inferred from context within the transcript, mentioning 2024 statistics, but could be earlier like 2022 or 2023 as well. Let's assume 2024 for now based on "2024 alone" context in transcript.)
+- **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+- **Series Type**: Episodic Series (each episode is generally a standalone story)
+- **Format**: Podcast
+- **Focus/Theme**: Wrongful convictions, criminal justice system failures, DNA exoneration, eyewitness testimony issues, unreliable evidence (polygraph), post-incarceration support for exonerees, legislative reforms.
+- **Key Statistics/Information**:
+    - Polygraph tests are only approximately 70% accurate and are not admissible as evidence in court.
+    - DNA testing advancements played a crucial role in exonerating Robert McClendon.
+    - Ohio House Bill 77 brought reforms to DNA post-conviction statutes, evidence preservation, recording interrogations, and photo lineup procedures in Ohio.
+
+### Basic Podcast Information
+
+- **Executive Summary**: This episode of Wrongful Conviction features the harrowing story of Robert McClendon, wrongfully convicted in 1990 for the rape and kidnapping of his 10-year-old daughter in Ohio. Despite his innocence, McClendon was convicted based on his daughter's testimony and an inconclusive polygraph test, leading to a 15-year-to-life sentence. After serving nearly 17 years, the Ohio Innocence Project and the Columbus Dispatch re-examined his case, leading to DNA testing that exonerated him and identified another individual. The podcast explores the systemic failures in his case, including reliance on flawed polygraph evidence and the impact of child testimony.  McClendon and Jennifer Berger from the Ohio Innocence Project discuss his journey to freedom, the legislative reforms enacted in Ohio, and his current advocacy for other exonerees. A shocking revelation is made that the actual perpetrator was the victim's stepbrother, who was not prosecuted due to a complex situation involving a later consensual relationship. McClendon’s story highlights the devastating impact of wrongful convictions and the importance of organizations like the Ohio Innocence Project.
+
+### Wrongfully Convicted Individuals Featured
+
+- **Name**: Robert McClendon
+- **Case Location**: Columbus, Ohio, USA
+- **Conviction Year**: 1990
+- **Exoneration Year**: 2008 (approximately)
+- **Crime Convicted Of**: Kidnapping and Rape of his biological daughter
+- **Sentence**: 15 years to life
+- **Time Served**: Almost 17 years
+- **Contributing Factors**:
+    - Testimony of a child victim
+    - Inconclusive polygraph test results presented as evidence of deception
+    - Prior association with drug dealing (though he was not dealing at the time of arrest)
+    - Ineffective trial defense in challenging polygraph evidence
+- **Legal Status**: Exonerated
+- **Organizations Involved**:
+    - Ohio Innocence Project
+    - Columbus Dispatch
+    - Franklin County Prosecutor's Office (eventually cooperated with DNA testing)
+- **Innocence Lawyer Details**:
+    - Jennifer Berger: Professor of Clinical Law, Director of Operations at the Ohio Innocence Project. This was her first case with the OIP.
+- **Cross-Reference**: Yes, he should appear in exoneree databases.
+- **Narrative of Original Crime**: A 10-year-old girl was allegedly abducted from her backyard on April 25, 1990, blindfolded, driven to an abandoned house, and raped. She later escaped from the assailant's car at a convenience store.
+- **Key Evidence at Trial (Prosecution)**:
+    - Testimony of the 10-year-old victim identifying Robert McClendon as the attacker.
+    - Inconclusive polygraph test results presented by the prosecution, suggesting deception.
+- **Trial Defender Notes**:
+    - Opted for a bench trial instead of a jury trial due to the sensitive nature of the crime and the anticipated strong emotional impact of the child's testimony on jurors.
+    - Presented alibi witnesses (cable guy and a friend named Laverne).
+    - Criticized for not effectively challenging the inconclusive polygraph results and their presentation to the judge.
+- **Key Evidence for Exoneration/Change in Legal Status**:
+    - DNA testing of the victim's underwear, conducted by the Ohio Innocence Project and the Columbus Dispatch.
+    - YSTR testing revealed a male DNA profile that was not Robert McClendon's, thus excluding him as the perpetrator.
+    - Subsequent DNA testing by the prosecutor's office identified a known suspect.
+- **Actual Perpetrator Details**:
+    - Stepbrother of the victim (mother's son from another relationship), identified through DNA.
+    - He was 17 years old at the time of the crime.
+    - He later had a consensual relationship with the victim starting when she was a teenager and continuing into adulthood.
+    - He was not prosecuted because the victim was unwilling to testify against him due to their ongoing consensual relationship.
+
+### Podcast Research Notes
+
+- **Key Quotes/Moments**:
+    - Robert McClendon: "Hello, truth." (Upon receiving DNA results and upon release).
+    - Judge Johnson: "The testimony of the child was powerful. I believe that you're guilty... son, I think you're guilty."
+    - Robert McClendon (to Judge Johnson): "I did not do this."
+    - Jennifer Berger: "It was one of the most memorable days of my life [Robert's release]."
+- **Systemic Issues Identified**:
+    - Unreliability and misuse of polygraph tests in criminal investigations and trials.
+    - The powerful and potentially biasing impact of child witness testimony, even when unintentional or influenced.
+    - Potential for "dirty cops" to manipulate evidence and target individuals based on past history (Officer Nardella planting drugs).
+    - Lack of standardized evidence preservation procedures leading to potential loss or misplacement of crucial evidence.
+    - Inadequacy of compensation and support systems for exonerees upon release, particularly concerning Social Security benefits.
+- **Policy Recommendations/Calls to Action**:
+    - Support the Ohio Innocence Project and similar organizations.
+    - Advocate for legislative reforms to prevent wrongful convictions, such as:
+        - Mandatory recording of interrogations.
+        - Improved and standardized evidence preservation protocols.
+        - Reforms in eyewitness identification procedures (folder method for photo lineups).
+        - Addressing the issue of Social Security benefits for exonerees.
+        - Discussing the need to amend the 13th Amendment to fully abolish slavery.
+- **Personal Narrative/Impact**:
+    - Robert McClendon's story exemplifies resilience and commitment to justice after wrongful conviction.
+    - He adapted to prison life, helped other inmates, and emerged as a strong advocate for exonerees.
+    - He experiences PTSD and financial difficulties post-release, common challenges for exonerees.
+    - His dedication to the Ohio Innocence Project and helping others highlights the importance of peer support and advocacy work within the exoneree community.
+- **Additional Resources**:
+    - Ohio Innocence Project (link to be provided in podcast bio).
+    - Columbus Dispatch "Test of Convictions" series (mentioned in podcast).
+    - Dean Gillespie (another exoneree and fellow advocate with Robert McClendon).
+    - Donna Mayerson (provides counseling and mental health support to exonerees).
+
+```

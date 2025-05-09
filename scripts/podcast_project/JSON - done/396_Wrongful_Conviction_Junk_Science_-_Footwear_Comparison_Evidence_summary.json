@@ -1,0 +1,86 @@
+{
+    "sourceFileName": "396_Wrongful_Conviction_Junk_Science_-_Footwear_Comparison_Evidence_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: Junk Science",
+    "mediaItem": {
+        "hosts": "Kate Judson, Josh Dubin",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Junk Science, Footwear Analysis, Wrongful Conviction, Forensic Science Criticism, Systemic Issues in Justice System.",
+        "keyStats": "-   FBI and others found that hair comparison analysts overstated conclusions more than 95% of the time.\n-   Anthropologist Louise Robbins testified in over 20 cases, and 12 people, some later proven innocent, were imprisoned based on her testimony.\n-   Dale Johnston was wrongfully convicted and sentenced to death based on footwear analysis by Louise Robbins.\n-   Dale Johnston spent four years on death row.\n-   A panel of 135 experts concluded Robbins' methodology had no scientific basis.",
+        "itemNumber": "396",
+        "itemTitle": "Wrongful Conviction Junk Science - Footwear Comparison Evidence",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction: Junk Science\" examines the case of Dale Johnson, who was wrongfully convicted of murdering his stepdaughter and her boyfriend in 1984. The episode highlights the flawed forensic science of footwear analysis, specifically the testimony of anthropologist Louise Robbins, whose unvalidated methods led to Johnson's conviction and death sentence. Despite an FBI analyst finding the footprint evidence inconclusive, Robbins claimed with \"scientific certainty\" that a footprint at the crime scene matched Johnson's boot based on wear patterns inside the boot.  The podcast reveals how public opinion, prosecutorial misconduct, and the acceptance of \"fantasy forensics\" contributed to this miscarriage of justice. Johnson was eventually exonerated in 1990 due to inadmissible hypnotized witness testimony, and later, the actual perpetrator confessed. The episode underscores the dangers of subjective forensic analysis and the devastating impact of wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Dale Johnston",
+        "caseLocation": "Logan, Ohio, USA",
+        "convictionYear": "1984",
+        "exonerationYear": "1990",
+        "crimeConvictedOf": "Murder of stepdaughter Annette Cooper Johnston and her boyfriend Todd Schultz.",
+        "sentence": "Death Sentence",
+        "timeServed": "4 years on death row",
+        "contributingFactorsRaw": [
+            "Junk Science: Faulty footwear analysis by anthropologist Louise Robbins.",
+            "Lack of reliable evidence at the crime scene.",
+            "Public opinion and community pressure for conviction.",
+            "Prosecutorial misconduct (allegations of molestation without evidence, \"fantasy\" closing arguments).",
+            "Inadequate defense (waived jury trial in a biased environment, though appeals lawyers were effective)."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (mentioned as a general resource and support for exonerees)."
+        ],
+        "innocenceLawyersRaw": [
+            "Not detailed in the transcript, but mentioned that his lawyers stayed on his case pro bono for appeals and were successful in getting him released based on inadmissible witness testimony (hypnotized witness)."
+        ],
+        "crossReference": "Not explicitly stated if in exoneree database, but highly likely given the nature of the case and podcast focus.",
+        "narrativeOriginalCrime": "Annette Cooper Johnston and Todd Schultz were found dismembered near the Hocking River in Logan, Ohio.  The prosecution alleged Dale Johnston kidnapped them in town, argued with them at his trailer about a car, murdered them in a jealous rage with an unfound gun, butchered their bodies, and then returned to town to bury body parts in a cornfield.",
+        "keyEvidenceProsecutionRaw": [
+            "Footwear impression evidence analyzed by anthropologist Louise Robbins, who claimed a match to Dale Johnston's boots based on interior wear patterns. This was presented as \"scientific certainty.\"",
+            "Circumstantial evidence and community bias against Dale Johnston as an outsider.",
+            "Testimony from a hypnotized witness (later deemed inadmissible)."
+        ],
+        "trialDefenderNotes": "Waived jury trial due to presumed community bias, opted for a three-judge panel.  Defense lawyer presented FBI analyst testimony that the footprint mold was \"unsuitable\" and could be a barefoot print, challenging the footwear evidence. However, they were unable to effectively counter Robbins' testimony at the time.",
+        "keyEvidenceExonerationRaw": [
+            "Inadmissible testimony from a hypnotized witness was successfully challenged on appeal. This was the legal basis for Dale Johnston's release, not the debunking of the footwear evidence at that time.",
+            "Later confession of Chester McKnight to the murders, detailing the actual events and involvement of Kenny Lynn Scott."
+        ],
+        "actualPerpetratorDetails": "",
+        "chester_mcknight_(aka_\"chester_the_molester\")": "Habitual criminal, ritual drunk, history of assaults against women. Confessed to shooting Todd Schultz after a disagreement and then killing Annette.  He and Kenny Lynn Scott dismembered the bodies and buried them.",
+        "kenny_lynn_scott": "Local drug dealer, drinking buddy of Chester McKnight.  Helped dismember and bury the bodies.  Made a suspicious call to police asking if bodies had been found before they were discovered, and exhibited strange behavior after the murders, but was initially dismissed as a suspect by police."
+    },
+    "keyQuotesRaw": [
+        "Detective: \"We found your boot print down by the riverbank. Once we match that boot to the print that was left at that riverbank, it'll prove you were there. You killed your stepdaughter and then you sick bastard. You cut off her arms, her legs, her head. You better confess because I'll tell you right now. It's going to get worse for you if you don't.\"",
+        "Anthropology Professor (Louise Robbins): \"No person's footprints are the same as another. They're as unique as a fingerprint... I've analyzed the wear patterns on the inside of the defendant's boot and I can say with certainty, scientific certainty, that the footprint found by the riverbank was made by the defendant.\"",
+        "Bill Osinski (Journalist): \"Everything that was presented in that trial was a lie.\"",
+        "Bill Osinski (Journalist): \"I have summed up this case as a total collapse of a local justice system.\"",
+        "Judge (25 years later, reflecting on Robbins' testimony): \"Well, we had Dr. Robin's testimony before us, and that was very convincing.\""
+    ],
+    "systemicIssuesRaw": [
+        "Acceptance of unvalidated forensic science in courtrooms.",
+        "Overreliance on subjective expert testimony.",
+        "Lack of proper crime scene investigation and evidence handling (contamination).",
+        "Community bias and pressure influencing the justice process.",
+        "Prosecutorial misconduct and focus on conviction over truth.",
+        "Initial failure of police to investigate obvious alternative suspects (Kenny Lynn Scott)."
+    ],
+    "policyRecommendationsRaw": [
+        "Increased scrutiny and validation of forensic science methodologies used in court.",
+        "Stricter standards for expert witness testimony and qualifications, particularly in pattern-matching disciplines.",
+        "Greater awareness among judges, juries, and the public about the limitations and potential for error in forensic science.",
+        "Reform of police and prosecutorial practices to prevent tunnel vision and ensure thorough investigations of all leads.",
+        "Support for organizations like the Innocence Project that work to exonerate the wrongfully convicted and address systemic issues."
+    ],
+    "personalNarrativeRaw": [
+        "Dale Johnston: Lost his stepdaughter, endured false accusations, was subjected to brutal interrogation, faced death row, lost his property and wife, and suffered immense psychological trauma. Even after exoneration, the community continued to believe in his guilt.  Finally received compensation in his 80s."
+    ],
+    "additionalResourcesRaw": [
+        "Book: \"Guilty by Popular Demand\" by Bill Osinski about the Dale Johnston case.",
+        "Innocence Project (www.innocenceproject.org) - mentioned as a resource for support and donations.",
+        "The Last Mile organization (thelastmile.org) - provides business and tech training to incarcerated individuals.",
+        "Pacers Foundation (PacersFoundation.org) - supports organizations helping young people and students in Indiana."
+    ]
+}

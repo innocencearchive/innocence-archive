@@ -1,0 +1,107 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, assume it is a standalone episode featuring Alexis Martin.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2023 (based on "2023 AAA US Market Track National Survey" mentioned in ad, and podcast intro "Welcome back to wrongful conviction with Jason Flom. That's me. I'm your host. And today...")
+-   **Production Company(ies)/Network**: Lava for Good Podcast in association with Signal Company No. 1
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, human trafficking, Safe Harbor Law, criminal justice reform, survivor story.
+-   **Key Statistics/Information**:
+    -   Alexis Martin was 14 when she was trafficked and 15 when arrested.
+    -   Ohio's Safe Harbor Law was designed for victims like Alexis but was not initially applied in her case.
+    -   Alexis was sentenced to 21 years to life in adult court.
+    -   She served 7 years before clemency was granted by Governor DeWine.
+    -   The Ohio Supreme Court acknowledged she was a trafficking victim but upheld the conviction due to the initial lawyer not linking the crime to trafficking.
+    -   8-to-2 vote by the pro board in favor of clemency.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features the harrowing story of Alexis Chiarica Martin, a survivor of child sex trafficking who was wrongfully convicted of felony murder.  At 14, Alexis was groomed and trafficked.  During a robbery orchestrated as an escape attempt, her trafficker was killed, leading to Alexis's arrest at 15. Despite Ohio's Safe Harbor Law designed to protect trafficking victims, Alexis was tried as an adult and sentenced to 21 years to life. The podcast details the failures of the legal system to recognize her victimization, her eventual fight for clemency, and her release after seven years.  Alexis, with her lawyer Sasha Naaman, shares her journey of resilience, highlighting systemic issues and advocating for justice and support for survivors. She now focuses on helping at-risk youth and other survivors, aiming to prevent others from experiencing similar tragedies.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Alexis Keyerica Martin (also referred to as Chiarica and Alexis Martin)
+-   **Case Location**: Akron, Ohio, USA
+-   **Conviction Year**: 2015 (pleaded guilty in February 17, 2015)
+-   **Exoneration Year**: 2020 (Clemency granted and released in April 2020)
+-   **Crime Convicted Of**: Murder (Felony Murder – Polonius assault and murder, pleaded guilty)
+-   **Sentence**: 21 years to life
+-   **Time Served**: 7 years
+-   **Contributing Factors**:
+    -   Victim of child sex trafficking.
+    -   Safe Harbor Law not initially applied.
+    -   Inadequate legal representation initially (lawyer unaware/didn't understand Safe Harbor Law).
+    -   Plea deal strategy backfired.
+    -   Systemic failure to recognize her as a victim.
+-   **Legal Status**: Clemency granted, released, but not fully exonerated (conviction remains, sentence commuted).
+-   **Organizations Involved**:
+    -   Ohio Justice and Policy Center (Sasha Naaman - lawyer)
+    -   Tapestry program (program for clemency condition)
+-   **Innocence Lawyer Details**:
+    -   **Sasha Naaman (Ohio Justice and Policy Center):**  Extraordinary lawyer who took on Alexis's case.  Advocated for her clemency and highlighted the failures of the system in her case.  Worked to get her released.
+    -   **Jennifer Kinsley (New Attorney):** Took on the case pro bono and appealed to the Ohio Supreme Court, arguing for Safe Harbor Law protection.
+    -   **Initial Attorney (Noah - name not fully stated):**  Unaware or did not understand Safe Harbor Law; advised pleading guilty as a strategy to return to juvenile court, which was unsuccessful.
+-   **Cross-Reference**: Not specified in the transcript if she is in an exoneree database. (Needs external verification)
+-   **Narrative of Original Crime**: Alexis Martin, a 14-year-old trafficking victim, was present during a robbery orchestrated by her ex-boyfriend Deshawn Spear and his friend Travaski Jackson at the home of her trafficker, Angelo Kearney. The robbery was intended as an opportunity for Alexis to escape trafficking. During the robbery, Kearney was killed, and his brother Alesio Samuel was shot but survived. Alexis was charged with felony murder due to her awareness of the robbery, even though she did not participate in the violence and was a victim herself.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Alexis was present at the scene of the crime.
+    -   She was aware of the robbery plan.
+    -   Under Ohio's felony murder rule, her awareness and presence made her culpable for the death during the commission of a felony.
+    -   Her initial confession to police where she admitted involvement, although she didn't understand human trafficking at the time and was a minor without proper legal counsel and parental presence during interrogation.
+-   **Trial Defender Notes**:
+    -   Initial lawyer was ineffective, failing to invoke Ohio's Safe Harbor Law, designed to protect child trafficking victims.
+    -   Plea strategy to return to juvenile court failed.
+    -   Did not effectively argue the connection between Alexis's trafficking and the crime.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Focus on Ohio's Safe Harbor Law and its intended protection for victims like Alexis.
+    -   Recognition of Alexis as a child sex trafficking victim by the Ohio Supreme Court (though they did not overturn the conviction based on initial trial strategy).
+    -   Public advocacy and legal efforts by Sasha Naaman and Jennifer Kinsley.
+    -   Petition for clemency to Governor DeWine highlighting the injustice of her conviction and her victim status.
+    -   Governor DeWine granted clemency after review and completion of the Tapestry program.
+-   **Actual Perpetrator Details**:
+    -   **Angelo Kearney (Deceased):** Alexis's trafficker. Killed during the robbery.
+    -   **Deshawn Spear:** Alexis's ex-boyfriend, orchestrated the robbery. Sentenced to 41 years to life.
+    -   **Travaski Jackson:** Friend of Deshawn Spear, participated in the robbery.  Sentence not mentioned.
+    -   **Alesio Samuel (Survivor):** Angelo Kearney's brother, was raping Alexis when the robbery occurred.  Mentioned other people present at the party but initially didn't mention Alexis or the rape to police.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Sasha Naaman: "Ohio's brand new Safe Harbor Law was written for situations just like this, but neither her lawyer nor the state invoked it before she was tried in an adult court for the murder of the man that held her captive in child sex slavery."
+    -   Alexis Martin: "I was 15 and I feel like it was the first time in life that anybody was actually like listening to me."
+    -   Judge Teodosia: "And we take a second in pause, and I want to ask you, Noah, my attorney and the prosecutor, what do we do about this 15 year old's trafficking? She admits out her mouth that I'm traffic, not only was I sex traffic, but labor traffic. She admits this."
+    -   Alexis Martin: "So if I gave up fighting, I gave up fighting for her life. If I gave up fighting, everything that happened to me, every time a man abused me, hit me, sex with me, everything that I have ever done to protect her was ultimately for nothing."
+    -   Alexis Martin (on name change): "Chiarika is something that my grandmother named me and that's really the only good of a lot of my past. So I believe I have a new life, a new start, a new home, a new dream. So why not a new name?"
+    -   Alexis Martin: "Anybody can be a victim... but it takes love in the community to make that victim into a survivor."
+-   **Systemic Issues Identified**:
+    -   Failure to apply Safe Harbor Laws designed to protect child trafficking victims.
+    -   Inadequate legal representation for vulnerable youth.
+    -   Adultification of child victims in the justice system.
+    -   Lack of understanding and recognition of human trafficking by legal professionals and the courts.
+    -   Flaws in felony murder laws when applied to victims of crime.
+    -   Racial and socio-economic disparities in the justice system are implied but not explicitly stated.
+-   **Policy Recommendations/Calls to Action**:
+    -   Increased awareness and proper implementation of Safe Harbor Laws.
+    -   Better training for lawyers, judges, and law enforcement on human trafficking and victim identification.
+    -   Reform of felony murder laws to consider the culpability and victim status of individuals involved.
+    -   Support for organizations like Ohio Justice and Policy Center that work on wrongful conviction and criminal justice reform.
+    -   Donations to Alexis Martin's GoFundMe to support her education and future non-profit.
+-   **Personal Narrative/Impact**:
+    -   Alexis's story highlights incredible resilience and strength in the face of horrific trauma and injustice.
+    -   Her experience underscores the long-lasting impact of wrongful conviction and the importance of support for exonerees and survivors.
+    -   Her commitment to helping other at-risk youth and survivors demonstrates a powerful transformation from victim to advocate.
+    -   Her reclaiming of her name "Chiarika" signifies a new beginning and ownership of her identity beyond her past trauma.
+-   **Additional Resources**:
+    -   Ohio Justice and Policy Center website: OhioJPC.org
+    -   Alexis Kiricomarten Support Fund GoFundMe (link to be provided in episode guide).
+    -   Alexis Martin's upcoming poetry book (release in 2021, details to be announced).
+    -   Stand Together (StandTogether.org/conviction) and AIG Pro Bono Program mentioned as sponsors, indicating their involvement in criminal justice reform.
+
+```

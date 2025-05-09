@@ -1,0 +1,101 @@
+{
+  "source_file_name": "9.8.40_years.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "40 Years a Prisoner",
+    "creator_name": "Tommy Oliver",
+    "publication_or_release_year": 2020,
+    "publisher_or_network": "Confluential Films, Freedom Road Productions, Get Lifted Film Company",
+    "focus_or_theme": "MOVE organization history, 1978 Philadelphia police raid, conviction of the MOVE 9, racial justice, police brutality, long-term incarceration, family impact.",
+    "summaryNotes": "Documents the decades-long effort by Mike Africa Jr. to free his parents.",
+    "availabilityNotes": "Available via HBO Max.",
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "40 Years a Prisoner",
+    "item_number": null,
+    "release_date": "2020-12-08",
+    "hostOrNarrator": null,
+    "focus_or_theme": "MOVE organization history, 1978 Philadelphia police raid, conviction of the MOVE 9, racial justice, police brutality, long-term incarceration, family impact.",
+    "summary_notes": "Directed by Tommy Oliver, this documentary explores the 1978 confrontation between Philadelphia police and the MOVE organization, the death of an officer, and the long imprisonment of nine MOVE members. It focuses on Mike Africa Jr.'s quest to free his parents, raising questions about the justice of their convictions.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [
+      "Racial justice",
+      "Police brutality",
+      "Long-term incarceration",
+      "Controversial police raid circumstances",
+      "Collective conviction",
+      "Perceived anti-MOVE bias"
+    ],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Themes include racial justice, police brutality, activism. Available via HBO Max.",
+      "research_findings": "Directed by Tommy Oliver, this documentary uses archival footage and interviews to explore the controversial 1978 confrontation between Philadelphia police and the Black liberation group MOVE, the resulting death of an officer, and the subsequent conviction and long imprisonment of nine MOVE members. It centers on the perspective of Mike Africa Jr., born in prison, and his lifelong quest to free his parents, raising questions about the justice of their convictions."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Debbie Sims Africa",
+      "first_name": "Debbie",
+      "middle_name": "Sims",
+      "last_name": "Africa",
+      "status": "OTHER",
+      "conviction_year": 1980,
+      "exoneration_or_release_year": 2018,
+      "time_served": "~40 years",
+      "sentence": "30-100 years",
+      "crime_convicted_of_raw": "Third-degree murder, conspiracy, etc.",
+      "case_location_city": "Philadelphia",
+      "case_location_state": "Pennsylvania",
+      "narrative_summary": "Debbie Africa, a member of the MOVE 9, was convicted in 1980 and sentenced to 30-100 years for third-degree murder and conspiracy related to the 1978 police raid. She served approximately 40 years and was released on parole in 2018. The film questions the fairness of her trial and conviction.",
+      "contributing_factors_raw": [
+        "Controversial police raid circumstances",
+        "Collective conviction",
+        "Perceived anti-MOVE bias"
+      ],
+      "organizations_involved_raw": [
+        "MOVE Organization",
+        "Supporters"
+      ]
+    },
+    {
+      "full_name": "Mike Africa Sr.",
+      "first_name": "Mike",
+      "middle_name": null,
+      "last_name": "Africa",
+      "status": "OTHER",
+      "conviction_year": 1980,
+      "exoneration_or_release_year": 2018,
+      "time_served": "~40 years",
+      "sentence": "30-100 years",
+      "crime_convicted_of_raw": "Third-degree murder, conspiracy, etc.",
+      "case_location_city": "Philadelphia",
+      "case_location_state": "Pennsylvania",
+      "narrative_summary": "Mike Africa Sr., a member of the MOVE 9, was convicted in 1980 and sentenced to 30-100 years for third-degree murder and conspiracy related to the 1978 police raid. He served approximately 40 years and was released on parole in 2018. The film documents his son's efforts to secure his release.",
+      "contributing_factors_raw": [
+        "Controversial police raid circumstances",
+        "Collective conviction",
+        "Perceived anti-MOVE bias"
+      ],
+      "organizations_involved_raw": [
+        "MOVE Organization",
+        "Supporters"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Tommy Oliver",
+      "first_name": "Tommy",
+      "middle_name": null,
+      "last_name": "Oliver",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

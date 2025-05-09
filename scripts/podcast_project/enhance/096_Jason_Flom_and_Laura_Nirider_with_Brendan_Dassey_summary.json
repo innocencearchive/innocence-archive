@@ -1,0 +1,123 @@
+{
+    "sourceFileName": "096_Jason_Flom_and_Laura_Nirider_with_Brendan_Dassey_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2019",
+        "network": "Lava for Good Podcasts, sakto company number one",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, False Confessions, Interrogation Techniques, Justice System Reform, Brendan Dassey Case",
+        "keyStats": "-   85% of people waive their Miranda rights during police interrogations.\n-   Federal court review of state court decisions requires proving the state court was \"unreasonably wrong\" due to the Anti-Terrorism and Effective Death Penalty Act.\n-   The Reid Technique of interrogation, developed at Northwestern University in the 1940s, is still in use and can lead to false confessions.\n-   Police are legally allowed to lie during interrogations in the US.",
+        "itemNumber": "096",
+        "itemTitle": "Jason Flom and Laura Nirider with Brendan Dassey",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features an exclusive interview with Brendan Dassey, alongside his appellate attorney Laura Nirider.  The episode delves into the details of Dassey's case, made famous by the Netflix series \"Making a Murderer,\" focusing on his false confession at age 16 to the murder of Teresa Hallback.  Nirider explains the coercive interrogation tactics used, highlighting how Brendan's intellectual limitations and the pressure of the interrogation led to a confession filled with inaccuracies. The podcast emphasizes the lack of physical evidence corroborating the confession and discusses the arduous legal battle for Dassey's release, including state and federal appeals, and a current petition for clemency with the Wisconsin governor.  Brendan's gentle nature and resilience are highlighted, alongside calls to action for listeners to support him and advocate for justice system reform, particularly concerning interrogation practices and the rights of vulnerable individuals."
+    },
+    "featuredIndividual": {
+        "fullName": "Stephen Avery",
+        "caseLocation": "Manitoba, Wisconsin, USA",
+        "convictionYear": "2005 (for Teresa Hallback murder, and previously 1985 for sexual assault - later overturned)",
+        "exonerationYear": "2003 (for the 1985 sexual assault conviction)",
+        "crimeConvictedOf": "Murder of Teresa Hallback (wrongfully convicted of sexual assault in 1985, later exonerated)",
+        "sentence": "Not explicitly stated in transcript for Hallback case.",
+        "timeServed": "Currently imprisoned for Hallback murder. Served 18 years for the wrongful sexual assault conviction.",
+        "contributingFactorsRaw": [
+            "Controversial investigation by Manitoba County (conflict of interest due to Avery's civil suit against them), potential evidence tampering, focus of investigation on Avery due to prior wrongful conviction and civil suit."
+        ],
+        "status": "Imprisoned, appealing conviction for Teresa Hallback murder, considered wrongfully convicted by the podcast hosts.",
+        "organizationsInvolvedRaw": [
+            "Not detailed in this transcript."
+        ],
+        "innocenceLawyersRaw": [
+            "Not detailed in this transcript."
+        ],
+        "narrativeOriginalCrime": "Murder of Teresa Hallback on the Avery family's auto salvage yard property.",
+        "keyEvidenceProsecutionRaw": [
+            "Not detailed in this transcript, but Brendan Dassey's confession was a significant factor linking Avery to the crime in the public narrative."
+        ],
+        "trialDefenderNotes": "Not detailed in this transcript.",
+        "keyEvidenceExonerationRaw": [
+            "DNA evidence led to exoneration in the 1985 sexual assault case. Lack of forensic evidence in Avery's bedroom to corroborate Brendan's confession in the Hallback case is presented as evidence of potential wrongful conviction."
+        ],
+        "actualPerpetratorDetails": "DNA evidence in the 1985 case matched another man, not Stephen Avery. Actual perpetrator of Teresa Hallback murder is not identified in the podcast, but the podcast argues for Avery's innocence."
+    },
+    "keyQuotesRaw": [
+        "Brendan Dassey: \"I just wanted it all over with so I said whatever they wanted to hear.\"",
+        "Brendan Dassey (recounting to his mother during interrogation): \"they got into my head they got me to say whatever they wanted.\"",
+        "Laura Nirider (on interrogation tactics): \"...interrogation is a carefully orchestrated set of psychological tactics that are designed to get people off their belief in their own innocence and designed to actually make them believe that it will help them that it will improve their situation that it will benefit them to say they did these things that the officers think right...\"",
+        "Jason Flom (advice to listeners): \"if you're picked up for a crime that you didn't commit... i want a lawyer that's it that's what you say right.\"",
+        "Brendan Dassey (on his superpower wish): \"I would want to have the power to heal the illnesses and diseases all over the world... I just like helping people so I wanted to help other people in the world.\""
+    ],
+    "systemicIssuesRaw": [
+        "False confessions elicited through coercive interrogation techniques (specifically the Reid Technique).",
+        "Vulnerability of individuals with intellectual disabilities to false confessions.",
+        "Legal permissibility of police deception during interrogations in the US.",
+        "Ineffective assistance of counsel (highlighted by Brendan's initial lawyer).",
+        "High rate of Miranda rights waivers and lack of understanding of their importance.",
+        "Difficult legal standards for federal review of state court decisions in habeas corpus cases."
+    ],
+    "policyRecommendationsRaw": [
+        "Assert the right to counsel immediately when questioned by police: \"I want a lawyer.\"",
+        "Support organizations working on wrongful conviction cases, such as the Center on Wrongful Convictions and the Innocence Project.",
+        "Write letters of support to Brendan Dassey at Oshkosh Correctional Institution.",
+        "Contact the Governor of Wisconsin to advocate for clemency for Brendan Dassey.",
+        "Educate oneself about wrongful convictions through books, films, and podcasts."
+    ],
+    "personalNarrativeRaw": [
+        "Brendan Dassey is portrayed as a gentle, kind, and simple individual with no malice or bitterness despite his wrongful conviction.",
+        "The podcast highlights the devastating personal impact of false confessions and wrongful convictions on individuals and their families.",
+        "Brendan's resilience and continued hope, fueled by family support and letters from around the world, are emphasized.",
+        "His dream of healing people and his love for Pokemon illustrate his innocent and hopeful nature."
+    ],
+    "additionalResourcesRaw": [
+        "Center on Wrongful Convictions of Youth (CCWY): cwcy.org",
+        "Innocence Project: innocenceproject.org",
+        "Laura Nirider's social media: Instagram and Twitter @lauraanirider",
+        "Films and series mentioned: \"When They See Us,\" \"Paradise Lost,\" \"West of Memphis,\" \"Murder on a Sunday Morning,\" \"The Confession Tapes.\"",
+        "Wisconsin Department of Corrections website (for Brendan Dassey's address to send letters)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Teresa Hallback",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Brendan's mother",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Brendan Dassey's initial lawyer",
+                "role_guess": "Lawyer",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "coercive interrogation techniques",
+            "intellectual limitations",
+            "lack of physical evidence",
+            "ineffective assistance of counsel",
+            "Miranda rights waivers"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "false confessions",
+                "interrogation tactics",
+                "justice system reform",
+                "rights of vulnerable individuals"
+            ],
+            "mentions_other_media": [
+                {
+                    "title": "Making a Murderer",
+                    "type_guess": "tv_series"
+                }
+            ]
+        }
+    }
+}

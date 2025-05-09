@@ -1,0 +1,65 @@
+{
+  "source_file_name": "8.2.life_after_exoneration.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "Life After Exoneration (PBS NewsHour Report)",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "NewsHour Productions LLC",
+    "focus_or_theme": "Challenges faced by exonerees after release (reintegration, lack of support/compensation, psychological impact).",
+    "summaryNotes": "Explores lack of support systems and difficulties exonerees face rebuilding lives. Available via PBS.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Life After Exoneration (PBS NewsHour Report)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Challenges faced by exonerees after release (reintegration, lack of support/compensation, psychological impact).",
+    "summary_notes": "Searches did not identify specific PBS NewsHour segments titled \"Life After Exoneration\" featuring multiple exonerees discussing reintegration. While NewsHour has certainly covered the topic of post-exoneration challenges, this specific segment title wasn't confirmed. Details rely on the `film_list.txt` entry and explores lack of support systems and difficulties exonerees face rebuilding lives.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Explores lack of support systems and difficulties exonerees face rebuilding lives. Available via PBS.",
+      "research_findings": "Searches did not identify specific PBS NewsHour segments titled \"Life After Exoneration\" featuring multiple exonerees discussing reintegration. While NewsHour has certainly covered the topic of post-exoneration challenges, this specific segment title wasn't confirmed. Details rely on the `film_list.txt` entry."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Multiple exonerees",
+      "first_name": "Multiple",
+      "middle_name": null,
+      "last_name": "exonerees",
+      "status": "EXONERATED",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": null,
+      "case_location_state": null,
+      "narrative_summary": "The segment features multiple exonerees. Their cases and time served are not specified in the provided research notes. The focus is on their post-exoneration challenges.",
+      "contributing_factors_raw": [
+        "N/A (Focus is post-exoneration)"
+      ],
+      "organizations_involved_raw": []
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Information Unavailable",
+      "first_name": "Information",
+      "middle_name": null,
+      "last_name": "Unavailable",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

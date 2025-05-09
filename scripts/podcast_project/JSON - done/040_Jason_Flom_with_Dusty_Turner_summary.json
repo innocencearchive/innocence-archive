@@ -1,0 +1,83 @@
+{
+    "sourceFileName": "040_Jason_Flom_with_Dusty_Turner_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2017",
+        "network": "Lava for Good Podcast in association with signal company number one",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, criminal justice system, personal stories of exonerees.",
+        "keyStats": "In Virginia, hiding a body after a murder is a misdemeanor punishable by up to 12 months in jail, but Dusty Turner was convicted of murder and abduction. Virginia abolished parole in 1995, the same year Dusty was convicted.",
+        "itemNumber": "040",
+        "itemTitle": "Jason Flom with Dusty Turner",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features an interview with Dusty Turner, a former Navy Seal trainee wrongfully convicted of the murder of Jennifer Evans in 1995.  Dusty recounts the tragic events of that night, emphasizing the role of his fellow trainee, Billy Brown, who later confessed to the murder.  Despite Brown's confession and lack of physical evidence against Dusty for murder, Dusty remains incarcerated due to a controversial legal interpretation regarding abduction. The episode highlights systemic issues within the justice system, including the restrictive \"river of innocence\" appeal process in Virginia and the abolition of parole. Dusty discusses the devastating impact of wrongful conviction on his life and family, as well as his efforts to find meaning and contribute positively while in prison through dog training and restorative justice programs. The podcast advocates for Dusty's clemency and highlights the injustice of his continued imprisonment."
+    },
+    "featuredIndividual": {
+        "fullName": "Dusty Turner",
+        "caseLocation": "Virginia Beach, Virginia, USA; Newport News, Virginia (body found)",
+        "convictionYear": "1995",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "Abduction and Murder of Jennifer Evans",
+        "sentence": "82 years",
+        "timeServed": "22+ years (as of podcast recording)",
+        "contributingFactorsRaw": [
+            "Allegedly,  prosecutorial overreach, flawed legal interpretation, and possibly ineffective original defense (not explicitly stated but implied)."
+        ],
+        "status": "Incarcerated, seeking clemency/pardon. Initial conviction vacated by appeals court but reinstated by the Supreme Court of Virginia.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (Jason Flom is a proud donor), Free Dusty Turner campaign (website and social media mentioned)."
+        ],
+        "innocenceLawyersRaw": [
+            "Not detailed in transcript, but implied to be involved in ongoing efforts for clemency."
+        ],
+        "crossReference": "Not explicitly stated if in exoneree database, but highly likely given the nature of the podcast.",
+        "narrativeOriginalCrime": "Jennifer Evans was found strangled in a wooded area of Newport News nine days after going missing from a nightclub in Virginia Beach.  Dusty Turner and Billy Brown, both Navy Seal trainees, were present the night she disappeared.",
+        "keyEvidenceProsecutionRaw": [
+            "Conflicting accounts initially;  prosecution seemingly focused on Dusty's presence and actions after the murder (hiding the body), interpreting his leaving the club with Jennifer as \"abduction by deception\" after the fact."
+        ],
+        "trialDefenderNotes": "Not detailed in transcript. Implied to be inadequate as Dusty was convicted despite lack of direct evidence for murder.",
+        "keyEvidenceExonerationRaw": [
+            "Billy Brown's confession in 2002 admitting sole responsibility for Jennifer Evans' murder. Appeals court initially vacated Dusty's murder conviction based on this and lack of evidence, but Virginia Supreme Court reinstated it based on the \"abduction by deception\" theory."
+        ],
+        "actualPerpetratorDetails": "Billy Brown, Navy Seal trainee with a history of violent behavior and alcohol abuse. Confessed in 2002 to being solely responsible for the murder of Jennifer Evans."
+    },
+    "keyQuotesRaw": [
+        "Dusty Turner: \"The prosecution from day one knew I was innocent and let false testimony go uncorrected from the lower courts all the way up to the United States Supreme Court.\"",
+        "Dusty Turner on his reaction after the murder: \"I was in complete, chaotic, shocking, and I didn't know what I was doing, but I didn't know what else to do...\"",
+        "Jason Flom on Virginia law: \"In Virginia, hiding a body after a murder is a misdemeanor, punishable by up to 12 months in jail, and that's not what you got convicted of, that's not what they wanted you for... but that's the only thing that you were guilty of...\"",
+        "Dusty Turner on Virginia parole: \"The year that you were convicted, 1995 was the same year that Virginia abolished parole...\"",
+        "Dusty Turner on hope: \"I do have tremendous hope that [the governor] will take action in my case.\"",
+        "Dusty Turner quoting Victor Frankl: \"Everything can be taken from a man but one thing, the last of the human freedoms -- to choose one's attitude in any given set of circumstances, to choose one's own way.\""
+    ],
+    "systemicIssuesRaw": [
+        "Restrictive \"river of innocence\" standard for appeals in Virginia.",
+        "Abolition of parole in Virginia, limiting options for release even in cases of potential wrongful conviction.",
+        "Potential for prosecutorial overreach and flawed legal interpretations.",
+        "Difficulties in overturning wrongful convictions even with new evidence and confessions."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for Dusty Turner's clemency/pardon.",
+        "Listeners encouraged to contact the Governor of Virginia.",
+        "Listeners encouraged to watch the film \"Target of Opportunity\" and visit freedusty.org for more information and ways to help.",
+        "Support for the Innocence Project.",
+        "Implied need for reform of Virginia's \"river of innocence\" standard and consideration of parole reinstatement.",
+        "Promotion of restorative justice as a beneficial philosophy."
+    ],
+    "personalNarrativeRaw": [
+        "Dusty's life was completely derailed at age 21, losing his Navy Seal career and spending over two decades in prison for a crime he maintains he did not commit.",
+        "He describes the shock, confusion, and fear he experienced after witnessing the murder and his subsequent actions.",
+        "He expresses the psychological toll of wrongful conviction and the harsh prison environment.",
+        "Despite his circumstances, he has found ways to contribute positively through dog training and restorative justice programs, demonstrating resilience and a desire to help others.",
+        "His story highlights the devastating ripple effects of wrongful conviction, impacting not only the exoneree but also victims' families, his own family, and the broader community."
+    ],
+    "additionalResourcesRaw": [
+        "Podcast: Spotlight Snitch City (mentioned as another investigative series).",
+        "Website: freedusty.org",
+        "Social Media: Twitter and Instagram - Free Dusty Turner",
+        "Film: Target of Opportunity",
+        "Organization: Innocence Project (InnocenceProject.org)",
+        "Organization: BARC (Abandoned and Rescued Canines) in Virginia"
+    ]
+}

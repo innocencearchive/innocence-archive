@@ -1,0 +1,110 @@
+{
+    "sourceFileName": "442_Maggie_Freleng_with_Amer_Zada_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Maggie Freeling",
+    "mediaItem": {
+        "hosts": "Maggie Freeling",
+        "releaseYear": "2024",
+        "network": "Lava For Good",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction stories, investigative journalism",
+        "keyStats": "Amir Zeta served 41 years in prison for a crime he did not commit. Key evidence against him was a knife supposedly found in a police car days after his arrest and a false testimony from an informant. Evidence withheld by the prosecution included information discrediting the knife source and inconsistencies in police reports. Crime scene photos analyzed by an expert suggest the victim was moved in a car that was not Amir's.",
+        "itemNumber": "442",
+        "itemTitle": "Maggie Freleng with Amer Zada",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Maggie Freeling\" tells the harrowing story of Amir Zeta, who was wrongfully convicted of murder and sexual assault in 1979 and spent 41 years in prison.  The episode details the night of the crime, Amir's discovery of the victim, and his immediate arrest. It highlights the flimsy and fabricated evidence used against him, including a knife that mysteriously appeared in a police car and the unreliable testimony of a drug dealer. The podcast exposes police and prosecutorial misconduct, including Brady violations for withholding crucial evidence that could have exonerated Amir.  Despite multiple appeals, Amir was only granted parole in 2021 and remains a registered sex offender.  Currently, his post-conviction attorney is seeking to fully exonerate him based on new evidence, including crime scene analysis that contradicts the prosecution's narrative and further exposes the injustice he suffered. Amir and his childhood sweetheart, Bonnie, who remained by his side, hope for full exoneration so they can finally live their lives freely."
+    },
+    "featuredIndividual": {
+        "fullName": "Amir Zeta",
+        "caseLocation": "Nayak, New York, USA",
+        "convictionYear": "1980",
+        "exonerationYear": "Not yet exonerated, paroled in 2021",
+        "crimeConvictedOf": "Second-degree murder, first-degree attempted sodomy, aggravated criminal sexual abuse",
+        "sentence": "25 years to life",
+        "timeServed": "41 years",
+        "contributingFactorsRaw": [
+            "Police misconduct (fabrication of evidence, withholding evidence)",
+            "False testimony (informant and potentially coerced witness)",
+            "Ineffective assistance of counsel (not explicitly stated but implied due to withheld evidence)",
+            "Systemic bias against his family (mentioned history of police targeting his family)"
+        ],
+        "status": "Paroled, seeking exoneration, still registered sex offender",
+        "organizationsInvolvedRaw": [
+            "Jeffrey Deskovic Foundation for Justice, Hale and Monaco (law firm)"
+        ],
+        "innocenceLawyersRaw": [
+            "Arthur Larkin of Hale and Monaco is Amir's post-conviction attorney. He is working with the Jeffrey Deskovic Foundation for Justice and utilizing new evidence and FOIL requests to uncover withheld information and fight for Amir's exoneration."
+        ],
+        "crossReference": "To be determined by database cross-reference.",
+        "narrativeOriginalCrime": "Shirley Smith was found sexually assaulted and stabbed to death behind a dumpster in the Windjammer parking lot in Nayak, NY.",
+        "keyEvidenceProsecutionRaw": [
+            "Amir was found at the scene of the crime.",
+            "A knife, allegedly purchased by Amir and the murder weapon, was found in the police car days after his arrest.",
+            "Testimony from Joe Lenti, a drug dealer, claiming he sold a similar knife to Amir.",
+            "Testimony from Donald Lewis claiming he saw Amir and Shirley together before the murder (later recanted but then reinstated).",
+            "Blood on Amir's underwear and pocket matching the victim's blood."
+        ],
+        "trialDefenderNotes": "Amir's defense attorney, William Counselor, presented alibi witnesses (friend John Nash and his mother) and phone records to support Amir's version of events. However, the jury did not believe the defense and convicted Amir.",
+        "keyEvidenceExonerationRaw": [
+            "Investigation memorandum from DA investigator James Stewart indicating the Bronx terminal market does not sell knives, contradicting Joe Lenti's testimony.",
+            "Daily activity reports of officers McCord and Thurston showing inconsistencies in their account of finding the knife.",
+            "Crime scene photos analyzed by expert Brent Turvey, indicating the victim was moved in a car that was not Amir's and that the alleged murder weapon knife was likely not used in the crime."
+        ],
+        "actualPerpetratorDetails": "Not mentioned or available in the transcript. The podcast focuses on Amir's innocence and does not discuss other suspects or potential perpetrators."
+    },
+    "keyQuotesRaw": [
+        "Amir Zeta: \"I did 41 years in prison for a crime that I didn't commit.\"",
+        "Bonnie McKenna: \"He was the most gentlest kindest person I ever met.\"",
+        "Arthur Larkin: \"What we have now is affirmative evidence that Amir had nothing to do with this.\"",
+        "Amir Zeta: \"I just want to go on with my life and be able to live my life like a human being, not like a trapped animal...\""
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct: Fabricating evidence, withholding exculpatory evidence (Brady violations), potential coercion of witnesses.",
+        "Prosecutorial misconduct: Utilizing unreliable witnesses and evidence, withholding evidence.",
+        "Ineffective legal representation (implied, not explicitly stated).",
+        "Parole system challenges for wrongfully convicted individuals, even after release (housing restrictions, sex offender registry).",
+        "Impact of wrongful conviction on the individual and their family (PTSD, strained relationships, social stigma)."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for Innocence Organizations and the Jeffrey Deskovic Foundation for Justice.",
+        "Call to action to review Amir's case and grant him full exoneration.",
+        "General call for justice system reform to prevent wrongful convictions and address police and prosecutorial misconduct."
+    ],
+    "personalNarrativeRaw": [
+        "Amir describes the devastating impact of wrongful conviction on his life, including the loss of freedom, abuse in prison, and the emotional toll on him and his family. Bonnie shares her unwavering belief in his innocence and the challenges they faced, including divorce and raising their children while Amir was incarcerated. The podcast emphasizes their enduring love and hope for the future, despite the immense hardship they have endured. Amir's final thoughts express his desire for justice, peace for his deceased parents, and a chance to live a normal life as a grandfather, free from the stigma of wrongful conviction."
+    ],
+    "additionalResourcesRaw": [
+        "Jeffrey Deskovic Foundation for Justice (link in episode description)",
+        "Amir's GoFundMe campaign (link in episode description)",
+        "Local Innocence Organizations (general recommendation to support)"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Bonnie McKenna",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "drug dealer",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Ineffective legal representation"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Injustice in the justice system",
+                "Post-conviction challenges",
+                "Exoneration"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

@@ -1,0 +1,107 @@
+{
+  "source_file_name": "2.1.the_plea.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "FRONTLINE",
+    "creator_name": "Ofra Bikel",
+    "publication_or_release_year": 2004,
+    "publisher_or_network": "WGBH/FRONTLINE",
+    "focus_or_theme": "Plea bargaining system, innocent defendants pleading guilty, prosecutorial pressure, inadequate defense counsel, impact of poverty on justice outcomes.",
+    "summaryNotes": "Highlights how the vast majority of cases are resolved through pleas, often pressuring innocent individuals.",
+    "availabilityNotes": null,
+    "sourceUrl": "https://www.pbs.org/wgbh/pages/frontline/shows/plea/"
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "The Plea",
+    "item_number": "Season Unknown, Episode Unknown",
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Examination of the plea bargain system through cases like the Hearne, Texas drug sweep.",
+    "summary_notes": "Focuses on Erma Faye Stewart and Regina Kelly, wrongly implicated in a drug sweep in Hearne, Texas, highlighting the pressures of the plea system, inadequate counsel, and unreliable informants. Stewart pleaded guilty despite innocence to care for her children, while Kelly fought the charges which were eventually dismissed.",
+    "key_quotes_raw": [
+      "Stewart describing the pressure to take the plea to care for her children",
+      "Kelly discussing the inadequate time/advice from court-appointed counsel",
+      "Discussion of the informant's unreliability coming out later."
+    ],
+    "systemic_issues_raw": [
+        "The overwhelming pressure of the plea bargain system, particularly on poor defendants",
+        "Inadequate resources and potential conflicts of interest for court-appointed attorneys",
+        "The devastating collateral consequences of a felony conviction (even via plea)",
+        "The potential for unreliable informants to cause widespread injustice",
+        "Racial disparities in drug enforcement."
+    ],
+    "policy_recommendations_raw": [
+        "Implied need for reform in the plea bargaining process",
+        "Better funding and oversight of indigent defense",
+        "Scrutiny of informant use",
+        "Addressing collateral consequences."
+    ],
+    "external_links_raw": [
+        { "url": "https://www.pbs.org/wgbh/pages/frontline/shows/plea/etc/synopsis.html", "description": "FRONTLINE Synopsis" },
+        { "url": "https://www.pbs.org/wgbh/pages/frontline/shows/plea/four/stewart.html", "description": "Story of Stewart and Kelly" }
+    ],
+    "sourceUrl": "https://www.pbs.org/wgbh/pages/frontline/shows/plea/etc/synopsis.html"
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Erma Faye Stewart",
+      "first_name": "Erma",
+      "middle_name": "Faye",
+      "last_name": "Stewart",
+      "status": "OTHER",
+      "conviction_year": 2000,
+      "exoneration_or_release_year": null,
+      "time_served": "approx. 1 month (pre-plea jail)",
+      "sentence": "10 years probation, fines",
+      "crime_convicted_of_raw": "Felony drug distribution (pleaded guilty, maintained innocence)",
+      "case_location_city": "Hearne",
+      "case_location_state": "Texas",
+      "narrative_summary": "Wrongfully implicated in Hearne, Texas drug sweep based on unreliable informant. Pressured into pleading guilty to felony drug distribution despite innocence, primarily to be released from jail to care for her children. Received probation but faced collateral consequences.",
+      "contributing_factors_raw": [
+        "Coercive plea bargaining",
+        "Pressure to get out of jail for children",
+        "Inadequate legal counsel",
+        "Unreliable confidential informant",
+        "Poverty"
+      ],
+      "organizations_involved_raw": [
+         "ACLU (represented co-defendant Kelly in subsequent lawsuit)"
+      ]
+    },
+    {
+      "full_name": "Regina Kelly",
+      "first_name": "Regina",
+      "middle_name": null,
+      "last_name": "Kelly",
+      "status": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": 2001,
+      "time_served": "approx. 3 weeks (pre-trial jail)",
+      "sentence": null,
+      "crime_convicted_of_raw": "Accused of felony drug distribution",
+      "case_location_city": "Hearne",
+      "case_location_state": "Texas",
+      "narrative_summary": "Wrongfully implicated in Hearne, Texas drug sweep based on unreliable informant. Arrested and jailed pre-trial, refused to plead guilty, and charges were eventually dismissed. Lead plaintiff in subsequent ACLU class-action lawsuit.",
+      "contributing_factors_raw": [
+        "Arrest based on unreliable confidential informant",
+        "Racial bias alleged in drug sweep",
+        "Pressure to plead guilty"
+      ],
+      "organizations_involved_raw": [
+        "ACLU"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Ofra Bikel",
+      "first_name": "Ofra",
+      "middle_name": null,
+      "last_name": "Bikel",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

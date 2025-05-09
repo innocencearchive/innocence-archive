@@ -1,0 +1,142 @@
+{
+  "source_file_name": "9.37.west_of_memphis.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "West of Memphis",
+    "creator_name": "Amy Berg",
+    "publication_or_release_year": 2012,
+    "publisher_or_network": "WingNut Films, Disarming Films",
+    "focus_or_theme": "An in-depth investigation into the case of the West Memphis Three (Damien Echols, Jason Baldwin, Jessie Misskelley Jr.), arguing their innocence in the 1993 murders of three young boys in West Memphis, Arkansas. Presents new evidence and theories about the actual killer, going beyond the scope of the earlier \"Paradise Lost\" trilogy. Produced by Peter Jackson and Fran Walsh, who funded further investigation into the case.",
+    "summaryNotes": "The West Memphis Three spent over 18 years in prison before being released.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "West of Memphis",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "An in-depth investigation into the case of the West Memphis Three (Damien Echols, Jason Baldwin, Jessie Misskelley Jr.), arguing their innocence in the 1993 murders of three young boys in West Memphis, Arkansas. Presents new evidence and theories about the actual killer, going beyond the scope of the earlier \"Paradise Lost\" trilogy. Produced by Peter Jackson and Fran Walsh, who funded further investigation into the case.",
+    "summary_notes": "The documentary investigates the wrongful convictions of Damien Echols, Jason Baldwin, and Jessie Misskelley Jr., known as the West Memphis Three, for the 1993 murders of three young boys. It presents new evidence and theories, contrasting with the initial trials and the 'Paradise Lost' films.",
+    "key_quotes_raw": [
+      "Likely features interviews with Echols, Baldwin, Misskelley Jr., their families, lawyers, supporters (like Peter Jackson, Eddie Vedder), forensic experts.",
+      "Presentation of new DNA evidence found at the scene (not matching the WM3) and evidence pointing towards Terry Hobbs (stepfather of one victim) as a potential suspect.",
+      "Contrasts with the narrative presented in the initial trials and the \"Paradise Lost\" films."
+    ],
+    "systemic_issues_raw": [
+      "Dangers of moral panic (\"Satanic Panic\")",
+      "Reliability of confessions (especially from juveniles or those with intellectual disabilities)",
+      "Junk science in forensics",
+      "Police/prosecutorial misconduct",
+      "Inadequate defense representation",
+      "Difficulty in introducing new evidence post-conviction",
+      "Limitations of the Alford Plea compromise."
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for reforms regarding interrogation techniques",
+      "Forensic science standards",
+      "Prosecutorial accountability",
+      "Better mechanisms for reviewing potential wrongful convictions based on new evidence."
+    ],
+    "external_links_raw": [
+      {
+        "url": null,
+        "description": "Books by Damien Echols (\"Life After Death\"), Mara Leveritt (\"Devil's Knot\"), the \"Paradise Lost\" documentary trilogy."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Damien Echols",
+      "first_name": "Damien",
+      "middle_name": null,
+      "last_name": "Echols",
+      "status": "RELEASED_ALFORD_PLEA",
+      "conviction_year": 1994,
+      "exoneration_or_release_year": 2011,
+      "time_served": "Over 18 years.",
+      "sentence": "Death",
+      "crime_convicted_of_raw": "Capital Murder",
+      "case_location_city": "West Memphis",
+      "case_location_state": "Arkansas",
+      "narrative_summary": "Convicted of capital murder in 1994 and sentenced to death, he was released in 2011 after serving over 18 years via an Alford Plea. The case was influenced by 'Satanic Panic' and alleged misconduct. Supporters and legal teams, funded by Peter Jackson & Fran Walsh, contributed to new investigations.",
+      "contributing_factors_raw": [
+        "False/coerced confession (Misskelley)",
+        "\"Satanic Panic\" moral hysteria influencing investigation and trial",
+        "Faulty/misleading forensic evidence (e.g., bite mark analysis)",
+        "Alleged prosecutorial and police misconduct",
+        "Ineffective assistance of counsel (initial trials)."
+      ],
+      "organizations_involved_raw": [
+        "Numerous supporters and legal teams over the years",
+        "Efforts funded by Peter Jackson & Fran Walsh significantly contributed to new investigations presented in the film."
+      ]
+    },
+    {
+      "full_name": "Jason Baldwin",
+      "first_name": "Jason",
+      "middle_name": null,
+      "last_name": "Baldwin",
+      "status": "RELEASED_ALFORD_PLEA",
+      "conviction_year": 1994,
+      "exoneration_or_release_year": 2011,
+      "time_served": "Over 18 years.",
+      "sentence": "Life imprisonment",
+      "crime_convicted_of_raw": "First-Degree Murder",
+      "case_location_city": "West Memphis",
+      "case_location_state": "Arkansas",
+      "narrative_summary": "Convicted of first-degree murder in 1994 and sentenced to life imprisonment, he was released in 2011 after serving over 18 years via an Alford Plea. The case was influenced by 'Satanic Panic' and alleged misconduct. Supporters and legal teams, funded by Peter Jackson & Fran Walsh, contributed to new investigations.",
+      "contributing_factors_raw": [
+        "False/coerced confession (Misskelley)",
+        "\"Satanic Panic\" moral hysteria influencing investigation and trial",
+        "Faulty/misleading forensic evidence (e.g., bite mark analysis)",
+        "Alleged prosecutorial and police misconduct",
+        "Ineffective assistance of counsel (initial trials)."
+      ],
+      "organizations_involved_raw": [
+        "Numerous supporters and legal teams over the years",
+        "Efforts funded by Peter Jackson & Fran Walsh significantly contributed to new investigations presented in the film."
+      ]
+    },
+    {
+      "full_name": "Jessie Misskelley Jr.",
+      "first_name": "Jessie",
+      "middle_name": null,
+      "last_name": "Misskelley",
+      "status": "RELEASED_ALFORD_PLEA",
+      "conviction_year": 1994,
+      "exoneration_or_release_year": 2011,
+      "time_served": "Over 18 years.",
+      "sentence": "Life imprisonment",
+      "crime_convicted_of_raw": "First-Degree Murder",
+      "case_location_city": "West Memphis",
+      "case_location_state": "Arkansas",
+      "narrative_summary": "Convicted of first-degree murder in 1994 and sentenced to life imprisonment, he was released in 2011 after serving over 18 years via an Alford Plea. The case was influenced by 'Satanic Panic' and alleged misconduct. Supporters and legal teams, funded by Peter Jackson & Fran Walsh, contributed to new investigations.",
+      "contributing_factors_raw": [
+        "False/coerced confession (Misskelley)",
+        "\"Satanic Panic\" moral hysteria influencing investigation and trial",
+        "Faulty/misleading forensic evidence (e.g., bite mark analysis)",
+        "Alleged prosecutorial and police misconduct",
+        "Ineffective assistance of counsel (initial trials)."
+      ],
+      "organizations_involved_raw": [
+        "Numerous supporters and legal teams over the years",
+        "Efforts funded by Peter Jackson & Fran Walsh significantly contributed to new investigations presented in the film."
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Amy Berg",
+      "first_name": "Amy",
+      "middle_name": null,
+      "last_name": "Berg",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

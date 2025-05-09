@@ -1,0 +1,63 @@
+{
+  "source_file_name": "6.1.conviction.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "Conviction (Nightline)",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "ABC News",
+    "focus_or_theme": "Adnan Syed case, investigation popularized by \"Serial\" podcast, questions about original conviction.",
+    "summaryNotes": "Examines weaknesses in the case against Adnan Syed and the podcast's impact.",
+    "availabilityNotes": "Available via ABC/Hulu.",
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Conviction (Nightline)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Adnan Syed case, investigation popularized by \"Serial\" podcast, questions about original conviction.",
+    "summary_notes": "Examines weaknesses in the case against Adnan Syed, popularized by the \"Serial\" podcast. The case involves significant debate about the evidence, alibi witnesses, and legal procedures, leading to Syed's release in 2022 followed by ongoing legal complexities.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Builds on the popular \"Serial\" podcast, examining weaknesses in the case against Syed and the podcast's impact. Available via ABC/Hulu.",
+      "research_findings": "While a specific Nightline episode titled \"Conviction\" about Adnan Syed wasn't confirmed via search, his case, heavily popularized by the \"Serial\" podcast, fits the description. The case involves significant debate about the evidence, alibi witnesses, and legal procedures, leading to Syed's release in 2022 followed by ongoing legal complexities. HBO produced a docuseries \"The Case Against Adnan Syed\"."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Adnan Syed",
+      "first_name": "Adnan",
+      "middle_name": null,
+      "last_name": "Syed",
+      "status": "OTHER",
+      "conviction_year": 2000,
+      "exoneration_or_release_year": 2022,
+      "time_served": "~22 years",
+      "sentence": "Life plus 30 years",
+      "crime_convicted_of_raw": "Murder (of ex-girlfriend Hae Min Lee in 1999)",
+      "case_location_city": "Baltimore County",
+      "case_location_state": "Maryland",
+      "narrative_summary": "Convicted in 2000 for the murder of Hae Min Lee. His conviction was vacated in 2022, but later reinstated by an appellate court. He is currently free pending further appeals.",
+      "contributing_factors_raw": [
+        "Questions about effectiveness of original defense counsel (failure to investigate alibi witness Asia McClain)",
+        "Reliability of cell tower location data used by prosecution",
+        "Potential Brady violations (undisclosed alternative suspects)"
+      ],
+      "organizations_involved_raw": [
+        "University of Baltimore Innocence Project Clinic",
+        "Undisclosed LLC (Serial/Rabia Chaudry)"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

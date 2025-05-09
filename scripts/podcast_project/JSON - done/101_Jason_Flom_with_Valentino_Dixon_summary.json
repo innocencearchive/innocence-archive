@@ -1,0 +1,86 @@
+{
+    "sourceFileName": "101_Jason_Flom_with_Valentino_Dixon_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2019",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction Stories, Justice System Reform",
+        "keyStats": "- Valentino Dixon served 27 years for a crime he did not commit.\n- The actual killer confessed on video shortly after the crime.\n- There were approximately 70 witnesses at the scene.\n- Valentino's public defender provided inadequate representation, failing to present key evidence.\n- Georgetown University students played a crucial role in uncovering evidence that led to his exoneration.",
+        "itemNumber": "101",
+        "itemTitle": "Jason Flom with Valentino Dixon",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Valentino Dixon, who was exonerated after serving 27 years for a murder he did not commit in Buffalo, New York.  Despite the actual perpetrator confessing on video shortly after the incident and numerous witnesses attesting to Valentino's innocence, he was wrongfully convicted.  The episode highlights the egregious failures of the justice system in his case, including an incompetent public defender who failed to present critical evidence like the confession and exculpatory witness statements.  Valentino recounts the devastating trial, his time in Attica prison, and how he found solace and purpose through art, specifically drawing golf courses.  Ultimately, it was the reinvestigation by Georgetown University students that uncovered a crucial Brady violation - withheld negative gun residue test results - which paved the way for his exoneration in 2018.  Valentino's story is a stark example of systemic failures and the long fight for justice, emphasizing the urgent need for prison and sentencing reform."
+    },
+    "featuredIndividual": {
+        "fullName": "Valentino Dixon",
+        "caseLocation": "Buffalo, New York, USA",
+        "convictionYear": "1992 (approximately)",
+        "exonerationYear": "2018",
+        "crimeConvictedOf": "Murder",
+        "sentence": "39 years to life",
+        "timeServed": "27 years",
+        "contributingFactorsRaw": [
+            "Incompetent Defense",
+            "Prosecutorial Misconduct (withholding evidence, ignoring confession)",
+            "Ignoring Confession of Actual Perpetrator",
+            "Withheld Exculpatory Evidence (Negative Gun Residue Test)"
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Georgetown University students, Innocence Project (mentioned as a cause to support)"
+        ],
+        "innocenceLawyersRaw": [],
+        "original_public_defender": "Described as grossly incompetent, visited Valentino for approximately 15-20 minutes in 10 months, failed to interview witnesses, gave no opening statement, called no witnesses, presented no exhibits, and did not use the confession video. Accused by Valentino of conspiring with the prosecutor during trial.",
+        "crossReference": "Not specified if in exoneree database in transcript.",
+        "narrativeOriginalCrime": "A shooting incident occurred in East Buffalo, NY, in the early morning hours. Toriano Jackson was killed, and two others were injured. Valentino Dixon was present nearby but not involved in the shooting.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness testimony identifying Valentino as the shooter.  These witnesses later proved to be unreliable and contradicted prior statements."
+        ],
+        "trialDefenderNotes": "Failed to challenge eyewitness accounts effectively, did not present alibi or witness testimonies supporting Valentino's innocence, and crucially, did not introduce the video confession of the actual perpetrator or negative gun residue evidence.  Judge disregarded Valentino's concerns about his lawyer's incompetence.",
+        "keyEvidenceExonerationRaw": [
+            "Georgetown University students uncovered that gun residue tests on Valentino's clothing were negative, and this evidence was withheld by the prosecution (Brady violation). This, combined with the existing confession video and witness accounts of his innocence, formed the basis for overturning the conviction."
+        ],
+        "actualPerpetratorDetails": "Lamora confessed multiple times, including on video shortly after the crime. He stated he acted in self-defense/defense of a friend because the deceased, Toriano Jackson, had shot another individual first.  Police initially dismissed his confession and did not arrest him. Lamora later committed another murder, reinforcing his violent tendencies and confession in the Dixon case."
+    },
+    "keyQuotesRaw": [
+        "\"He had alibis. I mean, it's crazy.\" - Host emphasizing the absurdity of the prosecution.",
+        "\"the actual killer confessed on video.\" -  Highlighting a central, ignored fact.",
+        "\"They kicked him out of the police station.\" - Describing the police dismissal of the confession.",
+        "\"Go home sleep well, don't worry about it.\" - Judge's dismissive response to jury foreman's concerns post-verdict.",
+        "\"I always had faith and I always had the hope that that day will come.\" - Valentino's statement about his enduring hope.",
+        "\"Reduce the sentencing laws. That's it.\" - Valentino's direct policy recommendation."
+    ],
+    "systemicIssuesRaw": [
+        "Incompetent Public Defenders",
+        "Prosecutorial Misconduct and Withholding of Evidence",
+        "Ignoring Confessions",
+        "Racial Bias in the Justice System",
+        "Harsh Sentencing Laws",
+        "Lack of Accountability",
+        "Systemic failures leading to wrongful convictions of poor and minority individuals."
+    ],
+    "policyRecommendationsRaw": [
+        "Prison Reform",
+        "Sentencing Reform (reduction of harsh sentencing laws)",
+        "Increased government funding and resources for underserved communities to address root causes of crime (jobs, schooling, housing).",
+        "Support for organizations like FAMM (Families Against Mandatory Minimums) and Innocence Project.",
+        "Urge prosecutors, judges, and politicians to show compassion and consider individual circumstances."
+    ],
+    "personalNarrativeRaw": [
+        "Art (drawing golf courses) as an escape, coping mechanism, and eventual path to freedom through media attention and connection with Georgetown students.",
+        "Strong faith and spirituality as a source of strength during incarceration.",
+        "Forgiveness towards the actual perpetrator.",
+        "Emphasis on family support and its importance.",
+        "Post-exoneration focus on prison reform advocacy and helping others, rather than personal bitterness.",
+        "Highlighted the disproportionate impact of the justice system on minority communities and the need for systemic change."
+    ],
+    "additionalResourcesRaw": [
+        "innocenceproject.org (website for donation and involvement mentioned at end)",
+        "famm.org (Families Against Mandatory Minimums website mentioned)",
+        "Gideon's Promise (movie about public defenders, recommended)",
+        "Dr. Death (podcast about medical malpractice, mentioned in context of varying quality in professions)"
+    ]
+}

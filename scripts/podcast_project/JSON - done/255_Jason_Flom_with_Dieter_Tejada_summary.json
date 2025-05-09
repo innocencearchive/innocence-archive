@@ -1,0 +1,92 @@
+{
+    "sourceFileName": "255_Jason_Flom_with_Dieter_Tejada_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "Lava for Good Podcasts and Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, flaws in the justice system, plea deals, prosecutorial misconduct, impact of wrongful conviction on individuals.",
+        "keyStats": "95% of cases are determined by plea deals.",
+        "itemNumber": "255",
+        "itemTitle": "Jason Flom with Dieter Tejada",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Dieter Tejada, who shares his story of being wrongfully convicted of assault.  Dieter recounts a physical altercation that started when he was threatened and attacked with a baseball bat by Nick Schwartz. Despite acting in self-defense, Dieter and his friends faced charges due to the influence of Schwartz's family and an ambitious prosecutor.  He was pressured into taking a plea deal to avoid a potentially severe sentence, even though he was innocent.  Dieter served nine months in prison and highlights the systemic issues within the justice system, including prosecutorial misconduct, ineffective counsel, and the pressure to accept plea deals.  The episode also touches on the long-term consequences of wrongful convictions and Dieter's journey towards becoming a lawyer and advocate for justice reform through the National Justice Impact Bar Association and the Justice Impact Alliance.  The conversation underscores how easily individuals, even from seemingly normal backgrounds, can be ensnared by the flaws of the legal system."
+    },
+    "featuredIndividual": {
+        "fullName": "Dieter Tejada",
+        "caseLocation": "Norwalk & Westport, Connecticut, USA",
+        "convictionYear": "2009",
+        "exonerationYear": "Not formally exonerated; took a plea deal.",
+        "crimeConvictedOf": "Assault in the third degree (via plea deal, originally charged with Assault in the first degree)",
+        "sentence": "Nine months in prison",
+        "timeServed": "Nine months",
+        "contributingFactorsRaw": [
+            "Prosecutorial misconduct (withholding evidence, prioritizing career advancement over justice).",
+            "Influence of the victim's family (victim's parents were attorneys).",
+            "Pressure to take a plea deal to avoid a harsher sentence.",
+            "Ineffective assistance of counsel (in the sense that the lawyer focused on the prosecutor's motivations rather than the facts).",
+            "Withholding of exculpatory evidence (medical records, witness statements contradicting the prosecution's narrative, evidence of victim's drug use and mental health history)."
+        ],
+        "status": "Convicted (plea deal), served sentence, but considers himself wrongfully convicted.",
+        "organizationsInvolvedRaw": [
+            "National Justice Impact Bar Association (founded by Dieter Tejada), Justice Impact Alliance (founded by Dieter Tejada). Greenberg Traurek (underwriter of the podcast)."
+        ],
+        "innocenceLawyersRaw": [
+            "Original trial attorney is mentioned as advising on the prosecutor's motivations (\"Who do you know?\") rather than focusing on the facts of the case.  No innocence project or specific lawyer mentioned as assisting with uncovering new evidence; Dieter himself seems to have spearheaded this effort later."
+        ],
+        "crossReference": "Not specified if in a specific exoneree database, but his case is discussed on the Wrongful Conviction podcast.",
+        "narrativeOriginalCrime": "Dieter went to Avery Acevedo's house after receiving threatening calls from Nick Schwartz, Avery's friend.  Upon arrival, Nick and his friends confronted Dieter and his friends with baseball bats. Nick attacked Dieter with a bat, and in self-defense, Dieter wrestled the bat away and hit Nick a few times.",
+        "keyEvidenceProsecutionRaw": [
+            "Alleged severe injuries to Nick Schwartz (fractured skull, ICU stay, cognitive rehabilitation - later proven exaggerated or false based on new evidence). Witness testimonies (later shown to be inconsistent and potentially coerced or fabricated)."
+        ],
+        "trialDefenderNotes": "The defense strategy was hampered by the prosecutor's influence and willingness to disregard facts. The attorney recognized the prosecutor's focus on connections and power dynamics (\"Who do you know?\"). The defense was limited by the withheld evidence.",
+        "keyEvidenceExonerationRaw": [
+            "Newly discovered police report with 23 additional pages containing exculpatory evidence.",
+            "Evidence of Nick Schwartz's drug use on the night of the incident.",
+            "Diagnosis of conduct disorder for Nick Schwartz, indicating violent tendencies.",
+            "Witness statements contradicting the prosecution's case and casting doubt on key witnesses' credibility.",
+            "Social media post from Nick Schwartz from the time he was supposedly severely injured, depicting him on vacation in Africa and stating \"best time of my life,\" contradicting claims of serious, lasting injuries.",
+            "Resignation and disgrace of the prosecutor, Richard Colangelo, due to corruption charges, undermining his credibility."
+        ],
+        "actualPerpetratorDetails": "Nick Schwartz -  instigated the fight, used a bat, had a history of violence and a psychiatric diagnosis (conduct disorder), was under the influence of drugs that night."
+    },
+    "keyQuotesRaw": [
+        "\"For anyone who's listening to this, if you're a parent, if you happen to be middle class and you think that the justice system that it only affects other people, you're going to want to stay tuned because your kids are not safe.\" - Dieter Tejada, highlighting the universality of the risk of wrongful conviction.",
+        "\"Facts, evidence, that was not part of the case. Basically, they decided from beginning who they were going to go after and what the facts were going to mean, that I was guilty of assault.\" - Dieter Tejada, emphasizing the disregard for evidence in his case.",
+        "\"He will wrongfully convict you if it helps him. He will also do justice if it helps him. That's how this guy operated.\" - Dieter Tejada, describing the prosecutor's motivations.",
+        "\"Yes, you would. Yes, you would. And you would hate it. And you would pry as your kid goes in. And he will be hurt. And he might not make it out. I'm well aware that I was lucky.\" - Dieter Tejada, on the pressure to take a plea deal.",
+        "\"Prison was not a very long sentence for me, but it was a massive period of change I committed to doing something about it.\" - Dieter Tejada, on the transformative impact of his prison experience.",
+        "\"The future is bright. The future is super bright. And that's because there's a lot of people coming up that want to do the right thing.\" - Dieter Tejada, expressing optimism for justice reform."
+    ],
+    "systemicIssuesRaw": [
+        "Prosecutorial misconduct and abuse of power.",
+        "Pressure to take plea deals, even when innocent, due to fear of harsher sentences.",
+        "Inequality in the justice system based on socioeconomic status and connections (\"Who do you know?\").",
+        "Withholding of exculpatory evidence by the prosecution.",
+        "Ineffective assistance of counsel (in some cases - implied criticism of lawyers who prioritize plea deals over fighting for innocence).",
+        "Lack of understanding and empathy for incarcerated individuals within the legal system.",
+        "Guilty plea problem - innocent people pleading guilty."
+    ],
+    "policyRecommendationsRaw": [
+        "Focus on systemic reform of the justice system.",
+        "Increase awareness about the \"guilty plea problem.\"",
+        "Encourage people to get involved in justice reform.",
+        "Support organizations like the National Justice Impact Bar Association and Justice Impact Alliance.",
+        "Highlight the importance of including impacted people in the process of making the system better.",
+        "For impacted people: \"If you want to be a lawyer, do it.\""
+    ],
+    "personalNarrativeRaw": [
+        "Dieter's wrongful conviction became a defining and transformative experience. Despite the injustice, he used it as motivation to pursue law, advocate for justice reform, and create organizations to support other impacted individuals.  He describes his time in prison as a period of awakening and commitment to change. His final thoughts emphasize resilience, action, and the potential for collective effort to improve the system, urging both impacted people and allies to get involved."
+    ],
+    "additionalResourcesRaw": [
+        "Global Law firm, Greenberg Traurek (podcast underwriter).",
+        "National Justice Impact Bar Association (link in bio).",
+        "Justice Impact Alliance (link in bio: justiceimpactalliance.org).",
+        "GoFundMe for Cesar Cordero (link in bio).",
+        "Hashtag #guiltypleaproblem.",
+        "Social media for Wrongful Conviction podcast: Instagram (@wrongfulconviction), Facebook (wrongful conviction podcast), Twitter (@wrongconviction), TikTok and Instagram (@itsjasonflom).",
+        "Lava for Good Podcasts and Signal Company Number One."
+    ]
+}

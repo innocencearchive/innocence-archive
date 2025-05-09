@@ -1,0 +1,98 @@
+{
+  "source_file_name": "4.8.window_of_hope.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Window of Hope (Dateline NBC) (Title unconfirmed by search)",
+    "publication_or_release_year": 2003,
+    "publisher_or_network": "NBC News (assumed for Dateline)",
+    "focus_or_theme": "Cold case DNA testing leading to exoneration, eyewitness misidentification",
+    "summaryNotes": "Highlighted exoneration after 19 years through DNA testing of long-lost evidence.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Window of Hope (Dateline NBC) (Title unconfirmed by search)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Cold case DNA testing leading to exoneration, eyewitness misidentification",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Highlights the work of the Innocence Project in securing DNA testing that proved Maher's innocence in multiple sexual assault cases after 19 years. Available via NBC/Peacock.",
+      "research_findings": "Dennis Maher, a US Army sergeant, was convicted based on misidentifications by multiple victims. The New England Innocence Project took his case, and crucial biological evidence, previously thought lost, was discovered in a courthouse basement in 2001. DNA testing excluded Maher, leading to his exoneration in 2003. His case also involved allegations of police misconduct regarding a deal with a witness. While the specific Dateline episode \"Window of Hope\" wasn't confirmed, the details align with the description."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "Lowell / Ayer",
+      "case_location_state": "Middlesex County, Massachusetts",
+      "conviction_year": 1984,
+      "exoneration_or_release_year": 2003,
+      "crime_convicted_of_raw": "Rape and Assault (multiple attacks in 1983)",
+      "sentence": "Life",
+      "time_served": "19+ years",
+      "contributing_factors_raw": [
+        "Mistaken eyewitness identification (by multiple victims), failure to test biological evidence pre-trial, alleged police misconduct (withholding evidence about a deal with one victim/witness)"
+      ],
+      "status_raw": "Exonerated by DNA evidence found years later; Received state compensation and settled federal civil rights lawsuit",
+      "organizations_involved_raw": [
+        "New England Innocence Project (NEIP); Innocence Project (initial contact)"
+      ],
+      "full_name": "Dennis Maher [cite: 42",
+      "first_name": "Dennis",
+      "middle_name": "Maher [cite:",
+      "last_name": "42"
+    },
+    {
+      "case_location_city": "Lowell / Ayer",
+      "case_location_state": "Middlesex County, Massachusetts",
+      "conviction_year": 1984,
+      "exoneration_or_release_year": 2003,
+      "crime_convicted_of_raw": "Rape and Assault (multiple attacks in 1983)",
+      "sentence": "Life",
+      "time_served": "19+ years",
+      "contributing_factors_raw": [
+        "Mistaken eyewitness identification (by multiple victims), failure to test biological evidence pre-trial, alleged police misconduct (withholding evidence about a deal with one victim/witness)"
+      ],
+      "status_raw": "Exonerated by DNA evidence found years later; Received state compensation and settled federal civil rights lawsuit",
+      "organizations_involved_raw": [
+        "New England Innocence Project (NEIP); Innocence Project (initial contact)"
+      ],
+      "full_name": "1.1",
+      "first_name": "1",
+      "middle_name": null,
+      "last_name": null
+    },
+    {
+      "case_location_city": "Lowell / Ayer",
+      "case_location_state": "Middlesex County, Massachusetts",
+      "conviction_year": 1984,
+      "exoneration_or_release_year": 2003,
+      "crime_convicted_of_raw": "Rape and Assault (multiple attacks in 1983)",
+      "sentence": "Life",
+      "time_served": "19+ years",
+      "contributing_factors_raw": [
+        "Mistaken eyewitness identification (by multiple victims), failure to test biological evidence pre-trial, alleged police misconduct (withholding evidence about a deal with one victim/witness)"
+      ],
+      "status_raw": "Exonerated by DNA evidence found years later; Received state compensation and settled federal civil rights lawsuit",
+      "organizations_involved_raw": [
+        "New England Innocence Project (NEIP); Innocence Project (initial contact)"
+      ],
+      "full_name": "1.3]",
+      "first_name": "3]",
+      "middle_name": null,
+      "last_name": null
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

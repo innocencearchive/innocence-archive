@@ -1,0 +1,80 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Episode featuring Keith Allen Harward
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript
+-   **Production Company(ies)/Network**: Lava for Good Podcast in association with signal company number one
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, investigative journalism, criminal justice system flaws.
+-   **Key Statistics/Information**:
+    -   Bite mark evidence error rate: 91% (recent study of forensic dentists and odontologists)
+    -   25 people exonerated based on bite mark evidence (including Keith Harward)
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Jason Flom" tells the harrowing story of Keith Allen Harward, a Navy sailor wrongfully convicted of murder and rape in 1983.  Despite lacking matching the victim's description and initial dental exclusions, flawed bite mark evidence and suggestive hypnosis techniques led to his conviction and 33 years of imprisonment. The podcast details the "junk science" of bite mark analysis and the devastating impact of misidentification and potential prosecutorial misconduct in his case.  Through the efforts of the Innocence Project and pro bono lawyers, DNA evidence ultimately exonerated Keith, identifying the true perpetrator, Jerry Crotty, a fellow sailor who had since died in prison for other crimes.  Keith's resilience and spiritual strength are highlighted, as is the re-victimization of the rape survivor upon learning the truth after decades. The episode underscores the critical need for justice system reform and support for organizations like the Innocence Project.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Keith Allen Harward
+-   **Case Location**: Newport News, Virginia, USA
+-   **Conviction Year**: 1986 (second trial)
+-   **Exoneration Year**: Exonerated after DNA evidence analysis, timeframe inferred to be around 2016 based on context in the episode.
+-   **Crime Convicted Of**: Murder and Rape
+-   **Sentence**: Not explicitly stated (implied to be life or capital murder related given time served and mention of capital murder case)
+-   **Time Served**: 33 years
+-   **Contributing Factors**:
+    -   Junk science: Bite mark evidence
+    -   Misidentification: Hypnosis-influenced witness testimony from a security guard, victim's initial description not matching Keith.
+    -   Potential Prosecutorial/Police Misconduct: Withholding exculpatory blood type evidence.
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**:
+    -   Innocence Project
+    -   Skadden (law firm, represented by Don Salzman)
+-   **Innocence Lawyer Details**: Don Salzman of the law firm Skadden, worked pro bono in collaboration with the Innocence Project to secure Keith Harward's exoneration.
+-   **Narrative of Original Crime**: A home invasion where a husband was murdered with a crowbar and his wife was sexually assaulted for several hours.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Bite mark evidence presented by forensic odontologists claiming a high probability match to Keith Harward.
+    -   Hypnotized shipyard security guard's testimony identifying Keith after initially vague description and composite sketch without a mustache.
+-   **Trial Defender Notes**: Implied to be inadequate representation as highlighted by the "trifecta" of issues in wrongful conviction cases, although specific details are not provided in the transcript.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   DNA testing of rape kit evidence (semen samples from victim's thigh, vaginal swabs, clothing, towel, diaper).
+    -   DNA evidence excluded Keith Harward and matched Jerry Crotty.
+    -   Lab notes revealed serologist found blood type O on critical swabs, inconsistent with Keith's blood type A, which was not disclosed at trial.
+-   **Actual Perpetrator Details**:
+    -   Name: Jerry Crotty
+    -   Sailor on the USS Carl Vinson at the time of the crime.
+    -   Later convicted of abduction and burglary in Ohio.
+    -   Died in prison in Ohio in 2006.
+    -   DNA matched evidence from the rape kit, definitively linking him to the crime.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Keith Harward: "I wasn't going to let them exact another second for me. They had me, but they weren't going to get my mind." - Demonstrates resilience and mental fortitude during wrongful imprisonment.
+    -   Discussion of bite mark evidence as "junk science" and its unreliability in court.
+    -   Highlighting the "trifecta" of wrongful conviction factors present in Keith's case: junk science, misidentification, and potential prosecutorial/police misconduct.
+-   **Systemic Issues Identified**:
+    -   Use of unreliable forensic science (bite mark evidence).
+    -   Eyewitness misidentification, exacerbated by suggestive techniques like hypnosis.
+    -   Potential for prosecutorial and police misconduct, including withholding of exculpatory evidence.
+    -   Inadequate legal representation for defendants.
+-   **Policy Recommendations/Calls to Action**:
+    -   Support organizations like the Innocence Project to help exonerate the wrongfully convicted and advocate for criminal justice reform.
+    -   Raise public awareness about the flaws in the justice system that lead to wrongful convictions.
+    -   Encourage donations to the Innocence Project to support their work.
+-   **Personal Narrative/Impact**:
+    -   Keith Harward's 33 years of life stolen due to wrongful conviction, emphasizing the immense personal toll.
+    -   His spiritual and mental strength in coping with imprisonment while maintaining innocence.
+    -   Re-victimization of the rape survivor as she must relive the trauma upon learning the truth and realizing the actual perpetrator was not imprisoned for decades.
+-   **Additional Resources**:
+    -   InnocenceProject.org (website for donations and information)
+
+```

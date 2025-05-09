@@ -1,0 +1,78 @@
+{
+    "sourceFileName": "188_Jason_Flom_with_Paul_Hildwin_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system failures, junk science, ineffective counsel, exoneree stories, legal battles for freedom.",
+        "keyStats": "Paul Hildwin served 35 years on death row for a crime he did not commit. DNA evidence exonerated him in 2003, but he was not released until 2020.",
+        "itemNumber": "188",
+        "itemTitle": "Jason Flom with Paul Hildwin",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features the harrowing story of Paul Hildwin, who spent 35 years on death row in Florida for a murder he did not commit.  Wrongfully convicted in 1986 based on circumstantial evidence, junk science, and ineffective counsel, Hildwin's case highlights systemic failures in the justice system. Despite DNA evidence in 2003 proving his innocence and pointing to the victim's boyfriend, William Haverty, as the actual perpetrator, Hildwin's legal battle for freedom continued for 17 more years.  Defense attorney Leanne Gaudy, a guest on the podcast, details the legal fight and the egregious errors that led to Hildwin's wrongful conviction.  Hildwin shares his personal experiences of enduring death row, battling cancer, and finally tasting freedom after accepting a plea deal in 2020. The episode emphasizes the importance of organizations like the Innocence Project and the Sunny Center in supporting exonerees."
+    },
+    "featuredIndividual": {
+        "fullName": "Paul Hildwin",
+        "caseLocation": "Hernando County, Florida, USA",
+        "convictionYear": "1986",
+        "exonerationYear": "2020 (released, not fully exonerated in legal terms, but functionally exonerated by DNA evidence)",
+        "crimeConvictedOf": "First-degree murder",
+        "sentence": "Death penalty",
+        "timeServed": "35 years",
+        "contributingFactorsRaw": [
+            "Ineffective trial counsel, junk science (false serology evidence), misleading testimony by experts, prosecutorial misconduct (withholding evidence), tunnel vision in police investigation, reliance on circumstantial evidence."
+        ],
+        "status": "Released after pleading no contest to second-degree murder with time served and lifetime probation. Functionally exonerated due to DNA evidence identifying the actual perpetrator.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project, Innocence Project of Florida, Capital Collateral Representative (CCRC), Sunny Center."
+        ],
+        "innocenceLawyersRaw": [],
+        "leanne_gaudy": "Renowned defense attorney, took on Paul's case pro bono in 2014, ultimately secured his release. Elected as Judge to the 13th Circuit Court during the timeframe of the podcast.",
+        "marty_mclean": "Previous lawyer who investigated Paul's case and initially uncovered undisclosed evidence and challenged the conviction through a 3850 motion. Worked for CCRC.",
+        "nina_morrison": "From the Innocence Project, initially involved in Paul's case and persuaded Leanne Gaudy to take it on.",
+        "crossReference": "Not specified if he appears in a specific exoneree database within the transcript.",
+        "narrativeOriginalCrime": "Franz Eddie Cox was found murdered, nude, and stuffed in the trunk of her car.",
+        "keyEvidenceProsecutionRaw": [
+            "Paul Hildwin cashed a stolen check from the victim's checkbook.",
+            "Stolen items from the victim's car were found at Paul's residence.",
+            "False serology evidence from an FBI expert claimed bodily fluids found on the victim's underwear and a washcloth matched Paul Hildwin and could not have come from the victim's boyfriend."
+        ],
+        "trialDefenderNotes": "",
+        "dan_lewin": "Inexperienced lawyer, recently graduated from law school, had never handled a murder case before. Appointed counsel, conducted no independent investigation, and was unprepared to challenge the prosecution's serology evidence effectively.  Objected to the serology evidence but was overruled and given insufficient time to prepare a defense against it.",
+        "keyEvidenceExonerationRaw": [],
+        "dna_testing_(2003)": "Independent DNA testing revealed that the bodily fluids on the victim's underwear and washcloth did not belong to Paul Hildwin. The DNA profile matched William Haverty, the victim's live-in boyfriend.",
+        "undisclosed_evidence": "Marty McLean discovered withheld police reports and witness statements, including a nephew who saw the victim alive after the time the prosecution alleged she was murdered.",
+        "florida_supreme_court_ruling_(2014)": "Based on the newly discovered DNA evidence, the Florida Supreme Court granted Paul Hildwin a new trial.",
+        "plea_deal_(2020)": "To ensure his release, Paul accepted a plea deal to second-degree murder with time served and lifetime probation.",
+        "actualPerpetratorDetails": "",
+        "william_haverty": "Victim's live-in boyfriend, initially considered a suspect. DNA evidence from the crime scene matched his profile.  At the time of the podcast, he was incarcerated for 16 counts of sexual battery against his stepdaughter, highlighting a pattern of violent behavior."
+    },
+    "keyQuotesRaw": [
+        "Paul Hildwin describing death row: \"When they sentenced me to death, I just, I don't know, I think my mind just shut down after that, what I call the real living hell started.\"",
+        "Paul Hildwin on freedom: \"The freedom is so sweet. You know, you gave me back my life. And I thank you with all my heart.\" (to Leanne Gaudy)",
+        "Leanne Gaudy on representing Paul: \"It was my privilege to represent Paul... I'm just very, very grateful to God, frankly, that I was able to deliver on Paul's request to be able to let him feel grass underneath his feet before he died.\""
+    ],
+    "systemicIssuesRaw": [],
+    "ineffective_assistance_of_counsel": "Paul's original trial lawyer was inexperienced and unprepared, failing to investigate or challenge key prosecution evidence.",
+    "junk_science": "False serology evidence from an FBI expert played a crucial role in Paul's conviction.",
+    "prosecutorial_misconduct_brady_violations": "Withholding of exculpatory evidence, including witness statements and a threatening note from the boyfriend, undermined the fairness of the trial.",
+    "tunnel_vision": "Law enforcement fixated on Paul Hildwin as the suspect after discovering he cashed a stolen check, ignoring other potential suspects and exculpatory evidence.",
+    "lengthy_appeals_process": "Despite DNA evidence of innocence in 2003, it took 17 years for Paul to be released, illustrating the slow pace of justice in wrongful conviction cases.",
+    "policyRecommendationsRaw": [
+        "Support local Innocence Projects and organizations like the Sunny Center through donations to aid exonerees and fight wrongful convictions.",
+        "Implicit call for broader criminal justice reform to address issues like ineffective counsel, junk science in court, and prosecutorial accountability to prevent wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Paul Hildwin's story powerfully illustrates the devastating personal impact of wrongful conviction, including the trauma of death row, the loss of decades of life, and the ongoing struggle for justice and reintegration into society after release. His experience highlights the resilience required to survive wrongful imprisonment and the importance of faith and support networks. His simple act of walking barefoot on grass upon release emphasizes the profound loss of basic freedoms endured during his incarceration."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project",
+        "Innocence Project of Florida",
+        "Sunny Center",
+        "Stand Together (sponsor of the podcast)",
+        "AIG Pro Bono program (underwriter of the episode)"
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "sourceFileName": "133_Jason_Flom_and_Kim_Kardashian_on_Julius_Jones_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good podcasts in association with sector company number one",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Criminal Justice Reform, Death Penalty, Ineffective Counsel, Racial Bias",
+        "keyStats": "- African-American males convicted of killing white males are three times more likely to receive the death penalty in Oklahoma (based on a study from 1995-2012).\n- Julius Jones has been on death row for over 20 years for a crime he maintains he did not commit.",
+        "itemNumber": "133",
+        "itemTitle": "Jason Flom and Kim Kardashian on Julius Jones",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" focuses on the case of Julius Jones, who has been on death row in Oklahoma for over 20 years for a murder he insists he didn't commit. The episode features Kim Kardashian West, Julius's attorney Dale Baich, his mother Madeline, and his sister Antoinette, all advocating for his exoneration.  The discussion highlights significant flaws in the original trial, including a confession from a co-defendant, Chris Jordan, riddled with inconsistencies, Jordan’s admission to planting the murder weapon in Julius's home, and a failure by Julius's defense team to present crucial alibi evidence or challenge the prosecution's case effectively.  Eyewitness testimony, incentivized witnesses, and potential racial bias in the jury and legal system are also examined as contributing factors to this potential wrongful conviction. The episode serves as a call to action, urging listeners to support Julius Jones's clemency petition and advocate for broader criminal justice reform."
+    },
+    "featuredIndividual": {
+        "fullName": "Julius Jones",
+        "caseLocation": "Edmund, Oklahoma, USA",
+        "convictionYear": "1999",
+        "exonerationYear": "Not yet exonerated (as of podcast episode)",
+        "crimeConvictedOf": "Murder of Paul Howell",
+        "sentence": "Death Row",
+        "timeServed": "Over 20 years (as of podcast episode)",
+        "contributingFactorsRaw": [
+            "False Confession (of co-defendant implicating Julius Jones)",
+            "Ineffective Counsel (at trial)",
+            "Eyewitness Misidentification (description mismatched Julius Jones)",
+            "Incentivized Witnesses (testimony from individuals seeking leniency)",
+            "Racial Bias (mentioned in the context of death penalty statistics in Oklahoma)"
+        ],
+        "status": "On death row, seeking clemency.",
+        "organizationsInvolvedRaw": [
+            "Not explicitly mentioned in the transcript, but implied involvement of legal teams and advocacy groups supporting clemency."
+        ],
+        "innocenceLawyersRaw": [
+            "Dale Baich, Assistant Federal Public Defender, representing Julius Jones in clemency proceedings since 2016."
+        ],
+        "narrativeOriginalCrime": "Paul Howell was fatally shot on July 28, 1999, in front of his parents' home in Edmund, Oklahoma, after returning from shopping with his sister and daughters. The motive was reportedly the theft of his GMC Suburban.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of co-defendant Chris Jordan implicating Julius Jones as the shooter.",
+            "Murder weapon (gun) found in a crawl space in Julius Jones's parents' home.",
+            "Testimony from Liddell King and Kermit Lottie, confidential informants reportedly involved in stolen car trade, who pointed towards Julius Jones."
+        ],
+        "trialDefenderNotes": "- Original defense attorney Barry Albert passed away shortly before the trial.\n- New public defenders took over and presented no defense.\n- They did not call Julius's family to testify regarding his alibi.\n- They failed to present evidence from jailhouse informants who claimed Chris Jordan confessed to framing Julius Jones.\n- They did not effectively cross-examine Chris Jordan on inconsistencies in his statements.",
+        "keyEvidenceExonerationRaw": [
+            "Inconsistencies in Chris Jordan's multiple statements to police.",
+            "Chris Jordan admitted to planting the murder weapon in Julius's home.",
+            "Eyewitness description of the shooter (by Paul Howell's sister) did not match Julius Jones (short hair) but more closely resembled Chris Jordan (braids). A police photo of Julius Jones taken 10 days prior to the murder confirmed his short hair, but this was not presented at trial.",
+            "Julius Jones had an alibi, being at home with his family at the time of the murder.",
+            "No saliva DNA found on the red bandana associated with the crime, despite eyewitness testimony that the shooter yelled.",
+            "Evidence of racial bias in death penalty cases in Oklahoma.",
+            "Juror misconduct indicating pre-judgment and racial bias."
+        ],
+        "actualPerpetratorDetails": "- Chris Jordan is strongly suggested to be the actual perpetrator.\n- Jordan confessed to being present during the crime and implicated Julius but his confession had inconsistencies.\n- Jordan admitted to planting the murder weapon.\n- Eyewitness description matched Jordan more closely than Julius.\n- Jailhouse informants reported that Jordan bragged about framing Julius.\n- Chris Jordan received a reduced sentence for his testimony and was released from prison in 2014."
+    },
+    "keyQuotesRaw": [
+        "Kim Kardashian West: \"What if that was my son, what would I do if my son got set up like this? So we got to fight for this guy, we got to help him get his life back.\"",
+        "Dale Baich (Attorney): \"The lawyers did not put on testimony from the family who would have presented an alibi. The lawyers did not investigate and present evidence from two people who were in jail who didn't know each other and independently came forward and said that Chris Jordan told them that he set Julius up.\"",
+        "Antoinette Jones (Sister): \"I'm asking you to look at all of the key points in this case. I'm asking you to understand that my brother never got a fair defense.\"",
+        "Madeline Jones (Mother): \"Justice for all, not just for some of us. And freedom is worth more than money.\"",
+        "Jason Flom (Host): \"How can that be? How can that stand? And by the way, is that why you're taking the bar?\" (referring to ineffective counsel)."
+    ],
+    "systemicIssuesRaw": [
+        "Ineffective Assistance of Counsel: Julius Jones's trial lawyers provided no defense.",
+        "Racial Bias in the Justice System: Evidenced by statistics on death penalty sentencing in Oklahoma and juror misconduct with racial undertones.",
+        "Incentivized Witnesses/Informants: Testimony from individuals with criminal backgrounds who received leniency in exchange for their statements.",
+        "Police Tunnel Vision: Focus on Julius Jones despite inconsistencies in the co-defendant's statements and other contradictory evidence.",
+        "Death Penalty Injustice: Questioning the fairness and morality of the death penalty, especially in cases with doubts about guilt."
+    ],
+    "policyRecommendationsRaw": [
+        "Call the Oklahoma Governor's office and elected officials to advocate for Julius Jones.",
+        "Visit JusticeForJuliusJones.com to sign the petition and learn more.",
+        "Email the parole board to express support for clemency.",
+        "Support criminal justice reform.",
+        "Donate to the Innocence Project (InnocenceProject.org)."
+    ],
+    "personalNarrativeRaw": [
+        "Julius Jones: Despite being on death row for over 20 years, he maintains grace and inspires advocates with his resilience and lack of anger.",
+        "Jones Family: Experienced profound shock and devastation, transitioning from the \"American dream to the American nightmare.\"  They have been fighting for Julius's freedom for over two decades.",
+        "Kim Kardashian West: Expresses deep empathy and commitment to fighting for Julius's release, motivated by the injustice and the thought of her own children facing a similar situation."
+    ],
+    "additionalResourcesRaw": [
+        "Documentary: \"The Last Defense\" (produced by Viola Davis and Julius Tennant)",
+        "Website: JusticeForJuliusJones.com",
+        "Organization: Innocence Project (InnocenceProject.org)"
+    ]
+}

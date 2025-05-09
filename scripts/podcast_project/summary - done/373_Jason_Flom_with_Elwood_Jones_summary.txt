@@ -1,0 +1,105 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**:  Not explicitly stated in the transcript, but Episode likely related to Elwood Jones's case.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Likely 2024 based on mentions of "February 2024 Nielsen report" in ads and the trial potentially in "February 2024".
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Convictions, flaws in the criminal justice system, prosecutorial misconduct, ineffective assistance of counsel, exoneration.
+-   **Key Statistics/Information**:
+    -   Hamilton County, Ohio is second only to Cuyahoga County in Ohio for wrongful convictions.
+    -   Hamilton County by zip code has more people on death row than anywhere else in the country.
+    -   37 hotel employees at Embassy Suites had criminal records.
+    -   Initial police discovery was 286 pages, while federal habeas discovery yielded over 4,200 pages, highlighting withheld evidence.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction details the case of Elwood Jones, wrongfully convicted and sentenced to death in Ohio for the 1994 murder of Rhoda Nathan. The podcast reveals numerous flaws in the prosecution's case, including fabricated evidence like a planted pendant and junk science regarding a hand infection.  It highlights withheld Brady material, including witness statements pointing to other suspects and evidence contradicting the state's narrative.  Despite compelling evidence of innocence and prosecutorial misconduct by Mark Peepmeyer and Seth Teager, Elwood Jones spent years on death row.  The episode culminates in the granting of a new trial in 2022 and Elwood's release, but emphasizes the ongoing fight for full exoneration and accountability for the prosecutors involved. The systemic issues of tunnel vision, confirmation bias, and lack of accountability within the Hamilton County justice system are strongly emphasized. Listeners are urged to contact the Hamilton County prosecutor to demand justice for Elwood Jones.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Elwood Jones
+-   **Case Location**: Blue Ash, Ohio (Hamilton County, Cincinnati suburb)
+-   **Conviction Year**: 1996
+-   **Exoneration Year**: New trial granted in 2022, released in 2023, but not fully exonerated as of the podcast recording.
+-   **Crime Convicted Of**: Murder of Rhoda Nathan
+-   **Sentence**: Death Penalty
+-   **Time Served**: Approximately 27 years
+-   **Contributing Factors**:
+    -   Circumstantial Evidence
+    -   Prosecutorial Misconduct (withholding evidence, fabricated evidence)
+    -   Junk Science/False Forensics (bacteria in hand, bruise matching walkie-talkie)
+    -   Ineffective Assistance of Counsel (original trial attorney)
+    -   Tunnel Vision/Confirmation Bias by Police and Prosecutors
+-   **Legal Status**: New trial granted, released on bond, conviction not overturned as of podcast recording.
+-   **Organizations Involved**:
+    -   Ohio Justice and Policy Center (OJPC) (mentioned as podcast sponsor)
+    -   Federal Public Defenders (Capital Habeas Unit)
+    -   Vorys Law Firm
+-   **Innocence Lawyer Details**:
+    -   David Hine (Vorys Law Firm)
+    -   Jay Clark (Federal Public Defenders, Capital Habeas Unit previously)
+    -   Julia Sykes (original trial attorney - ineffective)
+    -   Aaron Barnhart, Brigitte Kennedy, T.C. Chansky (Federal Public Defenders, Capital Habeas Unit)
+-   **Cross-Reference**: Not explicitly stated if in an exoneree database, but highly likely given the nature of the podcast.
+-   **Narrative of Original Crime**: Rhoda Nathan was found murdered in her hotel room at the Embassy Suites in Blue Ash, Ohio. She was in town for a bar mitzvah. She was found naked and covered in blood, with blunt force trauma. $500 and jewelry were missing.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Elwood Jones was a hotel employee with a prior criminal record (theft, burglary).
+    -   Elwood had access to a master key and walkie-talkie (though many employees did).
+    -   Elwood injured his hand at work on the day of the murder and developed an infection.
+    -   A doctor testified (erroneously) that the infection was from human mouth bacteria, implying it came from punching Rhoda Nathan's teeth out.
+    -   Police claimed to find Rhoda Nathan's pendant in Elwood's car (evidence strongly suggests it was planted and not even the correct pendant).
+    -   Door chain found in Elwood's car was presented as a potential weapon.
+-   **Trial Defender Notes**:
+    -   Ineffective assistance of counsel.
+    -   Defense attorney brought up Elwood's criminal record, harming his case.
+    -   Expert witness testimony was presented via video, weakening its impact and preventing real-time rebuttal of prosecution claims.
+    -   Failed to effectively impeach the junk science and fabricated evidence presented by the prosecution.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   **Withheld Brady Material:** Thousands of pages of documents revealed in federal habeas corpus discovery.
+        -   Statements from two hotel employees who saw two other men leaving Rhoda Nathan's room with a walkie-talkie.
+        -   Information about Anthony Lackey, another hotel employee with a violent criminal record who was flush with cash after the murder and initially lied about being at work.
+        -   Evidence that the pendant was not Rhoda Nathan's and likely planted.
+        -   Evidence that Rhoda Nathan had Hepatitis B, and Elwood tested negative, making it highly unlikely he was the assailant who would have been exposed to her blood.
+        -   Tip from Dolores Suggs about Linda Reed's husband, Earl Reed, confessing to the murder and framing a black man.
+    -   **Hepatitis B Test:** Scientific evidence showing Elwood did not have Hepatitis B, strongly contradicting the prosecution's infection theory.
+    -   **Recantation of Pendant Evidence:** Family members indicated the pendant was not the unique family heirloom claimed by the prosecution and raised serious doubts about its authenticity and discovery in Elwood's car.
+-   **Actual Perpetrator Details**:
+    -   **Anthony Lackey:** Hotel employee with a violent criminal record, was at the hotel parking lot the morning of the murder (contradicting initial statements), and became suddenly wealthy afterwards.
+    -   **Earl Reed:** Husband of Linda Reed, reportedly confessed to framing a black man for the murder.  Witness Robin Bud saw a man matching his description fleeing the hotel around the time of the murder.  Reportedly had connections with the Blue Ash Police Department.
+    -   **Two Unidentified Men:** Hotel employees Demetrius Williams and Norman Ryan reported seeing two men leaving Rhoda Nathan's room shortly after the estimated time of the murder, one carrying a walkie-talkie.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "Well, it appears that they knew that Elwood Jones was innocent, but sent him to death row anyway." - Jason Flom, highlighting alleged prosecutorial misconduct.
+    -   "He didn't bite." - Police officer Stokes, after showing Elwood the pendant, suggesting they were trying to elicit a confession with fabricated evidence.
+    -   "Prosecutors in robes is the daily norm down here for us." - David Hine, describing the perceived pro-prosecution bias in Hamilton County courts.
+    -   "You can guarantee that you will never commit a crime. In no way guarantee you won't be accused of committing a crime." - Jay Clark, emphasizing the vulnerability of anyone to wrongful accusation.
+-   **Systemic Issues Identified**:
+    -   Prosecutorial Misconduct: Withholding evidence (Brady violations), fabrication of evidence, knowingly pursuing a false narrative.
+    -   Police Tunnel Vision and Confirmation Bias: Ignoring alternative suspects and evidence that contradicted their theory.
+    -   Junk Science and Misleading Forensics: Reliance on flawed medical testimony and manipulated photographic evidence.
+    -   Ineffective Assistance of Counsel: Poor representation at trial hindering the defense.
+    -   Lack of Accountability for Prosecutors: Immunity and lack of consequences for misconduct.
+    -   Pro-Prosecution Bias in the Judiciary: Suggestion of judges favoring prosecutors, especially in Hamilton County.
+-   **Policy Recommendations/Calls to Action**:
+    -   Listeners are urged to contact Hamilton County Prosecutor Melissa Powers to demand dismissal of the case against Elwood Jones and to seek accountability for past prosecutorial misconduct.
+    -   Implicit call for greater scrutiny and accountability for prosecutors to prevent wrongful convictions.
+    -   Need for reform in the criminal justice system to ensure fair trials, proper investigation, and disclosure of all evidence.
+-   **Personal Narrative/Impact**:
+    -   Elwood Jones describes the immense personal toll of wrongful conviction: loss of family, friends, and decades of his life spent in prison, including on death row.
+    -   He expresses determination to clear his name and regain his life, highlighting his resilience and hope for justice.
+    -   Emphasis on the emotional and psychological trauma of wrongful conviction, even after release, with ongoing fear and struggle to rebuild his life.
+-   **Additional Resources**:
+    -   Ohio Justice and Policy Center (OhioJPC.org) - mentioned as a resource for supporting their work.
+    -   Contact information for Hamilton County Prosecutor Melissa Powers is implicitly suggested as an action step for listeners.
+
+```

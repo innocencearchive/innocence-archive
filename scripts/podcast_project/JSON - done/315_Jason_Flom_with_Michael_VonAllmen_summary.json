@@ -1,0 +1,91 @@
+{
+    "sourceFileName": "315_Jason_Flom_with_Michael_VonAllmen_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "guest_host(s)": "Ted Shouse",
+        "releaseYear": "2022",
+        "network": "Lava for Good podcasts in association with Signal Company No. 1.",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction stories, systemic issues in the justice system, stories of exonerees.",
+        "keyStats": "-   Michael von Alman served 11 years in prison for a rape he did not commit.\n-   Misidentification and composite sketch were driving forces behind the conviction.\n-   Early parole consideration is almost unheard of in Kentucky.\n-   DNA evidence was destroyed in Michael's case.\n-   Exoneration was achieved through old-fashioned detective and lawyer work.\n-   The actual perpetrator was Ronald Tackett, who died in a car crash in 1983.\n-   Michael von Alman became a board member of the coalition to abolish the death penalty in Kentucky.",
+        "itemNumber": "315",
+        "itemTitle": "Jason Flom with Michael VonAllmen",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction tells the story of Michael von Alman, wrongfully convicted of rape in 1981 in Louisville, Kentucky. Despite an alibi and discrepancies in the victim's description (eye and car color), a composite sketch closely resembling Michael and a subsequent misidentification led to his conviction and 30-year sentence.  He served 11 years before being paroled, maintaining his innocence throughout.  Years later, through the Kentucky Innocence Project led by Ted Shouse and investigator Gary Simkins, and crucial information from a woman connected to the actual perpetrator, Michael was exonerated. The case highlights the dangers of eyewitness misidentification, inadequate defense, and the arduous process of proving innocence post-conviction without DNA evidence. Michael's story underscores the flaws in the justice system and his journey led him to advocate for abolishing the death penalty."
+    },
+    "featuredIndividual": {
+        "fullName": "Michael von Alman",
+        "caseLocation": "Louisville, Kentucky, USA",
+        "convictionYear": "1982 (after crime in October 1981, trial and conviction mentioned after being out on bond for 16 months)",
+        "exonerationYear": "2009 (16 years after parole in 1994, and roughly one year after contacting Ted Shouse)",
+        "crimeConvictedOf": "Rape, Robbery, Sodomy",
+        "sentence": "30 years",
+        "timeServed": "11 years",
+        "contributingFactorsRaw": [
+            "Eyewitness Misidentification: Victim misidentified Michael von Alman in a photo array.",
+            "Composite Sketch: Composite sketch resembled Michael von Alman.",
+            "Coincidental Circumstances: Michael went to the same bar, parked near a green car, license plate similarity.",
+            "Inadequate Legal Defense: Lawyer did not effectively present alibi witnesses or challenge misidentification."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Kentucky Innocence Project"
+        ],
+        "innocenceLawyersRaw": [
+            "Ted Shouse, former director of the Kentucky Innocence Project, and retired Louisville police lieutenant Gary Simkins (investigator for the Innocence Project). Ted Shouse is a Louisville defense attorney and former director of the Kentucky Innocence Project."
+        ],
+        "crossReference": "Not explicitly stated in the transcript whether he appears in a specific exoneree database, but likely should be included given his exoneration and story.",
+        "narrativeOriginalCrime": "A 22-year-old woman was abducted at gunpoint from outside a bar, taken to Iroquois Park, and was beaten, robbed, and raped.",
+        "keyEvidenceProsecutionRaw": [
+            "Victim's identification of Michael von Alman from a photo pack.",
+            "Victim's description and composite sketch resembling Michael.",
+            "Coincidental presence at the bar and near a green car similar to the assailant's.",
+            "Partial license plate number similarity."
+        ],
+        "trialDefenderNotes": "Defense lawyer presented alibi witnesses and pointed out discrepancies (eye color, car color), but failed to create a cogent defense or adequately prepare witnesses, leading to ineffective defense against strong misidentification evidence.",
+        "keyEvidenceExonerationRaw": [
+            "Affidavit from a woman who was previously married to Ronald Tackett, the actual perpetrator, detailing his crimes and matching descriptions.",
+            "Police reports from 1983 car crash death of Ronald Tackett, driving a green car with a similar license plate, during a police chase.",
+            "Signature crime committed by Ronald Tackett in 1978, with similar MO and location (Iroquois Park).",
+            "Investigative work by Gary Simkins (retired police lieutenant) for the Kentucky Innocence Project, lending credibility to the reinvestigation."
+        ],
+        "actualPerpetratorDetails": "-   Name: Ronald Tackett (deceased)\n-   Description: Big, curly-headed man with blue eyes.\n-   Crimes: Committed a signature sexual assault in 1978 and was believed to be the perpetrator in Michael von Alman's case (1981). Also abused his wife.\n-   Demise: Died in a car crash in 1983 while being chased by police in a green car matching the description from Michael's case."
+    },
+    "keyQuotesRaw": [
+        "\"Sometimes our guests are victims of a direct evil actor or systemic injustice, but this time in Louisville, Kentucky. Not to say there wasn't plenty of blame to go around...\" - Host introducing the complexity of Michael's case.",
+        "\"[About the composite sketch] It looked identical to me. Except for one very important feature. Mike has brown eyes, not blue.\" - Michael von Alman highlighting a key discrepancy.",
+        "\"Total disbelief. My family in behind me, my head of sister, who was eight and a half months pregnant in behind me, and she just began. When she started wailing, I just couldn't look back, and they just carried me off and took me away, and I couldn't look back at my family.\" - Michael von Alman describing the moment of his conviction.",
+        "\"[Parole board asked] Are you guilty? And I just shrunk and said, no, man, I never saw that girl before in my life. I don't know her.\" - Michael von Alman recounting his parole hearing.",
+        "\"Mike stuck to his guns. He stuck to the truth. He told those people the truth. He took an incredible risk.\" - Ted Shouse praising Michael's courage at the parole hearing.",
+        "\"[Exoneration felt like] ...that iconic photo of the great Muhammad Ali, a Louisville native by the way, where Muhammad is standing over the body of Sonny Liston who he's just knocked down in the ring.\" - Michael von Alman describing the feeling of exoneration.",
+        "\"Allow for mistakes to be corrected. Work some kind of way into the system that mistakes can be corrected...\" - Michael von Alman's closing thought on systemic improvements."
+    ],
+    "systemicIssuesRaw": [
+        "Eyewitness Misidentification: The fallibility of eyewitness testimony, especially under stress and trauma.",
+        "Ineffective Assistance of Counsel: Deficiencies in legal representation and trial strategy.",
+        "Confirmation Bias: Initial focus on Michael due to resemblance to sketch and coincidences overshadowed contradictory evidence.",
+        "Lack of DNA Evidence at the Time: Limitations of justice system before widespread DNA testing.",
+        "Parole System Issues: Pressure on parole boards due to public perception and media coverage of crimes by parolees, making it harder for potentially innocent individuals to get released.",
+        "Difficulty in Proving Actual Innocence Post-Conviction: High burden of proof and flipped power dynamics in post-conviction relief."
+    ],
+    "policyRecommendationsRaw": [
+        "Abolish the Death Penalty: Michael von Alman advocates for abolishing the death penalty in Kentucky.",
+        "Systemic Reforms: Need for mechanisms to correct wrongful convictions and address systemic flaws in the justice system.",
+        "Improved Legal Representation: Emphasize the importance of effective and well-prepared legal defense.",
+        "Awareness of Eyewitness Misidentification: Educate the public and legal professionals about the dangers of eyewitness misidentification and best practices for identification procedures."
+    ],
+    "personalNarrativeRaw": [
+        "Michael von Alman's faith journey: Found and lost religion during incarceration but redefined it.",
+        "Resilience and perseverance: Maintained innocence and fought for exoneration for decades.",
+        "Friendship with Ted Shouse: Developed a deep and lasting friendship with his lawyer, highlighting the personal impact of wrongful conviction cases on both the exoneree and legal team.",
+        "Advocacy for systemic change: Turned personal tragedy into a mission to prevent wrongful convictions and abolish the death penalty.",
+        "Final thoughts: Emphasizes the human element of the justice system and the necessity for error correction mechanisms, advocating for compassion and understanding in judging others."
+    ],
+    "additionalResourcesRaw": [
+        "KCADP.org (Coalition to Abolish the Death Penalty in Kentucky) - Website mentioned for action steps related to abolishing the death penalty.",
+        "Instagram at wrongful conviction, Facebook at wrongful conviction podcast, Twitter at wrong conviction, and Lava for Good on all three platforms - Social media for the podcast.",
+        "TikTok and Instagram at It's Jason Flom - Host Jason Flom's social media."
+    ]
+}

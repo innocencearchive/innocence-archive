@@ -1,0 +1,154 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: 403: Jason Flom with Louis Castilla & The Cleveland Four (*Note: Title uses "Cleveland Four" likely erroneously, as the content is definitively about the "Toledo Five"*)
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2024 (Estimated based on ad content from 2023 and mention of post-recording events occurring in early 2024/late 2023, although a reference to Jan 2025 parole termination likely contains a typo for 2024)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts in association with Signal Company Number One
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Individual stories of wrongful conviction, police and prosecutorial misconduct, coerced confessions, hidden evidence (Brady violations), the impact of wrongful incarceration, and the process of exoneration/release.
+-   **Key Statistics/Information**: Five young men wrongfully convicted in Toledo, OH; Served sentences ranging from ~22 to 27 years before parole; Convictions ultimately vacated decades later.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode details the wrongful conviction of five young men in Toledo, Ohio – Louis Castilla, Joseph Ricard, Eric Mish, and Ismael and Lorenzo Vasquez – for the 1992 murder of Vernon Huggins. Initially investigated with leads pointing towards the victim's girlfriend's family, the case was reassigned, and detectives pursued an unsubstantiated theory involving a non-existent white supremacist gang. Based on coerced statements from unreliable witnesses (including a minor, Eric Mish, who immediately recanted) and ignoring contradictory evidence and a lack of physical proof, all five were convicted or took Alford pleas. Decades later, post-conviction efforts led by attorney Joanna Sanchez uncovered hidden police files from the original investigation and secured DNA testing, which excluded the five men and pointed to another suspect. These revelations ultimately led to the vacating of all five convictions, highlighting severe police misconduct, Brady violations, and the devastating personal cost of wrongful imprisonment.
+
+### Wrongfully Convicted Individuals Featured
+
+**(1) Louis Castilla**
+
+-   **Name**: Louis Castilla
+-   **Case Location**: Toledo, Ohio, USA
+-   **Conviction Year**: 1993
+-   **Exoneration Year**: Conviction Vacated / Charges Dismissed (Nolle Prosequi) ~2022-2023 (Order signed after prosecution dropped appeal of new trial decision).
+-   **Crime Convicted Of**: Murder (Initially), Aggravated Murder, Aggravated Robbery (Re-indicted)
+-   **Sentence**: 15 years to life (Original Murder conviction)
+-   **Time Served**: Approx. 27 years (Convicted 1993, Paroled April 2020)
+-   **Contributing Factors**: Police Misconduct (feeding info to witnesses, ignoring leads, hiding evidence), Prosecutorial Misconduct (hiding Berks' files/Brady violation), Coerced/False Witness Statements (Michelle Parker, Joey Hall, John Urbina), False Confession (Eric Mish's coerced statement used against group), Tunnel Vision, Lack of Physical Evidence.
+-   **Legal Status**: Conviction Vacated, Charges Dismissed. Initially remained on parole supervision after dismissal, which was later terminated.
+-   **Organizations Involved**: Ohio Public Defender's Office (Wrongful Conviction Project - primarily initiated by Eric Mish's case).
+-   **Innocence Lawyer Details**: Don Malarcik (Post-conviction attorney for Louis Castilla, Partner with Ohio Defense Firm). Joanna Sanchez (Ohio Public Defender's Office, led effort for Eric Mish, uncovered hidden files, fought for DNA testing, secured new trial order).
+-   **Cross-Reference**: Unknown based on transcript.
+-   **Narrative of Original Crime**: Vernon Huggins, 31, was found beaten to death in Woodrow Wilson Park on the north side of Toledo, OH, on the morning of August 4, 1992.
+-   **Key Evidence at Trial (Prosecution)**: Testimony of Michelle Parker (claiming presence at Urbina's house when group bragged about beating a Black man, inconsistent dates/times provided, later recanted citing police threats). Testimony of Joey Hall (claiming to witness the beating, inconsistent statements, couldn't identify crime scene location at trial). Eric Mish's coerced/recanted confession (used implicitly against others). A wooden club presented by Rosemary Nell (allegedly from CJ Ricard), noted as *not* the murder weapon but an *example* of what *might* have been used. Explicitly noted *lack* of any physical evidence linking the accused to the crime.
+-   **Trial Defender Notes**: Castilla felt his attorney presented little defense, relying on the belief that the state hadn't proven its case. Attorneys were described as "fighting with two hands tied behind their back" due to the hidden exculpatory evidence (Berks' files).
+-   **Key Evidence for Exoneration/Change in Legal Status**: Discovery (in 2018) of original Detective Berks' 114 pages of hidden investigation files from Aug-Dec 1992, detailing alternate suspects (victim's girlfriend Emma's family, motive related to violent relationship), victim seen alive later than state's timeline (after 3 AM on East Side), confrontation with different suspects (4 Black males w/ chair leg, gray station wagon). Recantation affidavit (2016) from Michelle Parker detailing police threats and coercion. DNA testing results from a bloody bottle found near the victim excluded the five convicted men and identified an unknown local male with a felony record who knew the victim. Eric Mish's successful motion for a new trial based on this new evidence. Prosecution ultimately dropping appeal and filing motion to Nolle Prosequi (dismiss) charges for all five.
+-   **Actual Perpetrator Details**: Unknown. Original investigation (Berks) pointed strongly toward the victim's girlfriend's (Emma's) brothers/family due to a volatile relationship, recent violent altercations, and threats made against Huggins shortly before his death. One brother was reportedly seen with a club-like weapon. Separately, DNA from the crime scene bottle matched a different local man with a felony record who knew Huggins. The actual killer(s) remain unidentified, and the prosecution showed no motivation to reinvestigate after vacating the convictions.
+
+**(2) Joseph "CJ" Ricard**
+
+-   **Name**: Joseph Ricard (aka CJ)
+-   **Case Location**: Toledo, Ohio, USA
+-   **Conviction Year**: 1993 (Tried alongside Louis Castilla)
+-   **Exoneration Year**: Conviction Vacated / Charges Dismissed ~2022-2023
+-   **Crime Convicted Of**: Murder (Initially), Aggravated Murder, Aggravated Robbery (Re-indicted)
+-   **Sentence**: 15 years to life (Assumed same as Castilla initially, faced same re-indictment)
+-   **Time Served**: Approx. 27 years (Paroled April 2020)
+-   **Contributing Factors**: Same as Louis Castilla.
+-   **Legal Status**: Conviction Vacated, Charges Dismissed.
+-   **Organizations Involved**: Same as Louis Castilla.
+-   **Innocence Lawyer Details**: Represented alongside Castilla post-conviction implicitly by Don Malarcik's efforts following Joanna Sanchez's work.
+-   **Cross-Reference**: Unknown based on transcript.
+-   **Narrative of Original Crime**: Same as Louis Castilla.
+-   **Key Evidence at Trial (Prosecution)**: Same as Louis Castilla (tried together). Allegedly left the wooden club (not murder weapon) at Rosemary Nell's house.
+-   **Trial Defender Notes**: Same circumstances as Louis Castilla.
+-   **Key Evidence for Exoneration/Change in Legal Status**: Same as Louis Castilla.
+-   **Actual Perpetrator Details**: Same as Louis Castilla.
+
+**(3) Eric Mish**
+
+-   **Name**: Eric Mish
+-   **Case Location**: Toledo, Ohio, USA
+-   **Conviction Year**: ~1993 (Tried separately after Castilla/Ricard)
+-   **Exoneration Year**: Conviction Vacated / Charges Dismissed ~2022-2023
+-   **Crime Convicted Of**: Aggravated Murder, Aggravated Robbery
+-   **Sentence**: 20 years to life
+-   **Time Served**: Approx. 27 years (Paroled April 2020)
+-   **Contributing Factors**: Same as Louis Castilla, with specific emphasis on his own Coerced False Confession (as a 16-year-old, interrogated for hours, fed details, threatened, immediately recanted but confession was used against him at trial).
+-   **Legal Status**: Conviction Vacated, Charges Dismissed.
+-   **Organizations Involved**: Ohio Public Defender's Office (Wrongful Conviction Project).
+-   **Innocence Lawyer Details**: Joanna Sanchez (Ohio Public Defender's Office) spearheaded his post-conviction efforts, which were pivotal for all five.
+-   **Cross-Reference**: Unknown based on transcript.
+-   **Narrative of Original Crime**: Same as Louis Castilla.
+-   **Key Evidence at Trial (Prosecution)**: His own coerced (and immediately recanted) confession. Testimony from Parker/Hall likely used. Lack of physical evidence.
+-   **Trial Defender Notes**: Details not specified, but conviction occurred despite recantation.
+-   **Key Evidence for Exoneration/Change in Legal Status**: Same as Louis Castilla; his case was the vehicle through which the hidden evidence was uncovered and DNA testing ordered, leading to the successful motion for a new trial.
+-   **Actual Perpetrator Details**: Same as Louis Castilla.
+
+**(4) Ismael Vasquez**
+
+-   **Name**: Ismael Vasquez
+-   **Case Location**: Toledo, Ohio, USA
+-   **Conviction Year**: ~1993 (Took Alford Plea after Castilla/Ricard/Mish convictions)
+-   **Exoneration Year**: Plea Withdrawn / Charges Dismissed ~2022-2023
+-   **Crime Convicted Of**: Pled guilty via Alford Plea to avoid trial on Aggravated Murder/Robbery charges (likely to a lesser included offense like Involuntary Manslaughter, similar to the initial deal offered to Castilla).
+-   **Sentence**: 15 years to life
+-   **Time Served**: Approx. 27 years (Paroled June 2020). Had a parole violation shortly after release, sending him back temporarily.
+-   **Contributing Factors**: Same factors led to charges; took plea due to seeing others convicted despite innocence claims (lack of faith in system).
+-   **Legal Status**: Alford Plea Withdrawn, Charges Dismissed.
+-   **Organizations Involved**: Benefited from OPDO efforts via Mish's case.
+-   **Innocence Lawyer Details**: Lawyer advised taking the plea; post-conviction benefit from Sanchez/Malarcik work.
+-   **Cross-Reference**: Unknown based on transcript.
+-   **Narrative of Original Crime**: Same as Louis Castilla.
+-   **Key Evidence at Trial (Prosecution)**: N/A - Took Alford Plea.
+-   **Trial Defender Notes**: N/A - Took Alford Plea based on observing other trials.
+-   **Key Evidence for Exoneration/Change in Legal Status**: Same as Louis Castilla; prosecution agreed not to contest withdrawal of his Alford plea following the new evidence.
+-   **Actual Perpetrator Details**: Same as Louis Castilla.
+
+**(5) Lorenzo Vasquez**
+
+-   **Name**: Lorenzo Vasquez
+-   **Case Location**: Toledo, Ohio, USA
+-   **Conviction Year**: ~1993 (Took Alford Plea with brother Ismael)
+-   **Exoneration Year**: Plea Withdrawn / Charges Dismissed ~2022-2023
+-   **Crime Convicted Of**: Pled guilty via Alford Plea (same circumstances as Ismael).
+-   **Sentence**: 15 years to life
+-   **Time Served**: Approx. 22 years (Paroled May 2015 - first of the five released).
+-   **Contributing Factors**: Same as Ismael Vasquez.
+-   **Legal Status**: Alford Plea Withdrawn, Charges Dismissed.
+-   **Organizations Involved**: Benefited from OPDO efforts via Mish's case.
+-   **Innocence Lawyer Details**: Same as Ismael Vasquez.
+-   **Cross-Reference**: Unknown based on transcript.
+-   **Narrative of Original Crime**: Same as Louis Castilla.
+-   **Key Evidence at Trial (Prosecution)**: N/A - Took Alford Plea.
+-   **Trial Defender Notes**: N/A - Took Alford Plea.
+-   **Key Evidence for Exoneration/Change in Legal Status**: Same as Louis Castilla; prosecution agreed not to contest withdrawal of his Alford plea.
+-   **Actual Perpetrator Details**: Same as Louis Castilla.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    *   Louis Castilla: "Trust me, if the Toledo police had to describe me, the last thing they would describe me as was a white supremacist."
+    *   Louis Castilla on Eric Mish's confession: "You can hear him trying to make this shit up as he's going along. And they're having him correct his story as he's making it up."
+    *   Don Malarcik on hidden evidence: "The defense attorneys were kind of fighting with two hands tied behind their back."
+    *   Don Malarcik on post-conviction fight: "The state is fighting this... upholding this wrongful conviction... making this kind of weak ass argument that [the new evidence] wasn't really relevant."
+    *   Don Malarcik on systemic issues: "This is the bigger problem here. The system is designed to protect itself... The system is designed to perpetuate a guilty verdict at all costs, despite physical evidence... despite new evidence of innocence..."
+    *   Don Malarcik's call to action: "Raise your voice, say something when you see something. This was wrong."
+    *   Louis Castilla's final thoughts: "Nobody thought about my kids. The choices them two cops made affected a lot of people... for anybody out there who's going through what I'm going through, it's gonna get better... I'm grateful, man, that I was blessed enough to meet the people that I met... Because if it wasn't for them, I probably would have lost my shit a long time ago."
+-   **Systemic Issues Identified**:
+    *   Police Misconduct (Coercion of witnesses, feeding information, threats, ignoring viable leads, potential evidence planting/manipulation - e.g., suggesting the Nova).
+    *   Prosecutorial Misconduct (Brady violations - hiding exculpatory evidence from Detective Berks' initial investigation).
+    *   Coerced False Confessions (Especially from minors like 16-year-old Eric Mish).
+    *   Tunnel Vision (Focusing solely on the unsupported white supremacist gang theory).
+    *   Reliance on Unreliable Witnesses/Informants (Individuals with credibility issues like Urbina, Hall, Parker, possibly motivated by deals or avoiding charges).
+    *   Lack of Accountability (Detectives/prosecutors facing no apparent consequences for misconduct).
+    *   Systemic Self-Protection (Justice system prioritizing upholding convictions over correcting errors, fighting exoneration efforts).
+    *   Difficulties with Re-entry (Finding jobs, dealing with trauma/PTSD, reconnecting with family).
+    *   Post-Exoneration Bureaucratic Issues (Remaining under parole supervision even after conviction vacated).
+-   **Policy Recommendations/Calls to Action**:
+    *   Implicit calls for greater police and prosecutor accountability.
+    *   Need for proper procedures during interrogations, especially with minors, to prevent coercion.
+    *   Importance of open-file discovery laws to prevent Brady violations.
+    *   Urging those within the system (judges, prosecutors, police) to act with integrity and prioritize truth over conviction rates ("make the right fucking decisions").
+    *   A call for people to speak out against injustice when they see it ("Raise your voice, say something when you see something").
+-   **Personal Narrative/Impact**: Louis Castilla described a difficult youth, running the streets but denying involvement in violence or supremacist groups. He felt targeted by police due to his name. He expressed shock and disbelief upon arrest, initially trusting the system. Prison involved adapting to survive, losing appeals, dealing with the parole board repeatedly ("flops"). He highlighted the crucial emotional support he received from a woman named Fabiola for 25 years, and later from his current wife (whom he initially met as a CO). Re-entry involved struggles finding work, dealing with PTSD-like symptoms (noise sensitivity, needing to confront uncomfortable situations), and rebuilding relationships with his children. He expressed immense frustration with the injustice, the decades lost, and the lack of accountability for the officials involved, but also gratitude for the support system that helped him survive and eventually gain freedom. His final message was one of hope for others wrongly convicted and underscored the far-reaching impact of wrongful convictions on families.
+-   **Additional Resources**:
+    *   Ohio Public Defender's Office (Wrongful Conviction Project).
+    *   Court Records (Mention of motions for new trial, DNA testing requests, appeals, motion to Nolle Prosequi, judge's order vacating conviction).
+```

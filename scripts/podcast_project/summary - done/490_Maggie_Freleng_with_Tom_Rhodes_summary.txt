@@ -1,0 +1,65 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Maggie Freeling
+-   **Episode # & Title (if applicable)**:  Tom Rhodes
+-   **Host(s)**: Maggie Freeling
+-   **Release Year(s)**: 2024
+-   **Production Company(ies)/Network**: Lava for Good podcasts, Signal Company No. 1
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, forensic pathology, legal process, exoneration
+-   **Key Statistics/Information**: Tom Rhodes was wrongly incarcerated for 8,932 days (about 24.5 years).  Nine expert opinions refuted the original forensic pathologist's findings in Tom Rhodes' case. Tom Rhodes was the first person released under the partnership between the Minnesota Conviction Review Unit and the Great North Innocence Project.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Maggie Freeling" tells the story of Tom Rhodes, who was wrongly convicted of the first-degree premeditated murder of his wife, Jane, in 1998.  The podcast details Tom's life before and during his 24.5 years of incarceration, focusing on the flawed forensic evidence presented at his trial.  Suspicion arose around financial difficulties and marital problems, leading to a changed medical examiner's report concluding homicide.  The Great North Innocence Project took on his case, finding new expert opinions contradicting the original pathologist and uncovering a Brady violation.  After decades of fighting, Tom's conviction was vacated in 2023, and he was released after accepting an Alfred plea to manslaughter to expedite his freedom, though he maintains his innocence. He is now working to rebuild his life, focusing on his art and family, highlighting the devastating impact of wrongful convictions and the importance of organizations fighting for justice.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Tom Rhodes
+-   **Case Location**: Green Lake, Minnesota, USA
+-   **Conviction Year**: 1998
+-   **Exoneration Year**: 2023 (conviction vacated, Alfred plea accepted)
+-   **Crime Convicted Of**: First-degree premeditated murder (originally), Manslaughter (Alfred plea)
+-   **Sentence**: Mandatory life in prison (originally)
+-   **Time Served**: 24.5 years (8,932 days)
+-   **Contributing Factors**: Flawed forensic pathology,  suspicions based on marital and financial difficulties,  prosecution theory built on circumstantial evidence and a changed medical examiner's opinion.
+-   **Legal Status**: Conviction vacated, accepted Alfred plea to manslaughter (felony conviction remains but innocence maintained).
+-   **Organizations Involved**: Great North Innocence Project, Minnesota Conviction Review Unit
+-   **Innocence Lawyer Details**: Jim Mayer, legal director at the Great North Innocence Project.  Dr. Lindsey Thomas, forensic pathologist, provided expert testimony and support.
+-   **Cross-Reference**: Not explicitly mentioned in the transcript if in a specific exoneree database, but case is discussed within the context of wrongful convictions and innocence projects.
+-   **Narrative of Original Crime**: Jane Rhodes fell off a boat into Green Lake on August 2, 1996, during a late-night ride with her husband, Tom. Tom reported it as an accidental drowning.
+-   **Key Evidence at Trial (Prosecution)**: Testimony of Dr. Michael McGee, the forensic pathologist, who changed his initial undetermined ruling to homicide. McGee claimed injuries on Jane's body indicated a struggle and being struck by the boat multiple times after falling in the water. A clay model depicting severe bruising was used to illustrate this.  Financial and marital difficulties were presented as motive.
+-   **Trial Defender Notes**: Tom's defense attorney, Michael College, is described as unprepared to handle Dr. McGee's testimony.  He did call Dr. Lindsey Thomas as an expert who refuted Dr. McGee's findings, stating the injuries were consistent with drowning and blood pooling due to gravity, not multiple blows.
+-   **Key Evidence for Exoneration/Change in Legal Status**:  New expert opinions from nine forensic pathologists refuted Dr. McGee's findings, supported by recent studies on drowning victims.  They concluded Jane's injuries were consistent with accidental drowning and potentially being struck by the boat unintentionally during the search.  A Brady violation was uncovered: a memo where Dr. McGee admitted uncertainty about multiple blows, contradicting the prosecution's trial argument. The Minnesota Conviction Review Unit re-investigated the case, leading to the vacating of the murder conviction.
+-   **Actual Perpetrator Details**:  The case is presented as an accidental drowning; no actual perpetrator of murder, as the podcast argues for Tom Rhodes' innocence.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - Tom Rhodes: "My name is Tom Rhodes. And I was wrongly incarcerated for 8,932 days, about 24 and a half years."
+    - Ron Rhodes (Tom's brother): "I just never felt that Tom, no one has loved for Jane and for the boys. I never felt that he would have intentionally hurt her or done anything harmful."
+    - Jim Mayer: "What Dr. McGee testified to was that he could tell from the condition of Jane's body that there had been a struggle on the boat."
+    - Dr. Lindsey Thomas: "Anyone who knows about pathology will tell you where you have a drowning victim who has been floating face down for 13 hours or however long it was. You're going to have the pooling of blood in certain areas and so this doesn't reflect that she was beaten all over her face and head."
+    - Keith Ellison, Attorney General for Minnesota: "Every criminal case has room for error because the justice system is run by human beings and human beings make mistakes do the wrong thing and don't always get it right."
+-   **Systemic Issues Identified**:
+    - Flawed forensic science and the impact of a medical examiner changing their opinion based on police suspicion rather than scientific evidence.
+    - "Confirmation bias" in forensic pathology, where initial suspicions can influence findings.
+    - The difficulty of overturning wrongful convictions, particularly in circumstantial cases, and the high burden of proof required to present new evidence.
+    - The devastating impact of wrongful convictions on individuals and families.
+    - Potential for Brady violations (withholding of exculpatory evidence by the prosecution).
+-   **Policy Recommendations/Calls to Action**:
+    - Support for Innocence Organizations and Conviction Review Units.
+    - Calls to check out Tom Rhodes' art gallery to support his transition to freedom.
+    - Implicit call for critical evaluation of forensic evidence in criminal cases.
+-   **Personal Narrative/Impact**:
+    - Tom Rhodes' personal narrative highlights the immense hardship of wrongful incarceration, including depression and suicidal thoughts.  His resilience is shown through his dog program involvement and art creation in prison, and his focus on rebuilding his life and relationships post-release.  His final thoughts are of gratitude to those who supported him and joy at being free and with his family.
+-   **Additional Resources**:
+    - Thomas D. Galleries (ThomasDGalleries.com) - Tom Rhodes' art website.
+    - Links to Innocence organizations mentioned in the episode description (not provided in transcript but referenced).
+```

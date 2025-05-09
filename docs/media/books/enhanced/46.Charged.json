@@ -1,0 +1,71 @@
+{
+  "source_file_name": "46.Charged.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Charged: The New Movement to Transform American Prosecution and End Mass Incarceration",
+    "creator_name": "Emily Bazelon",
+    "publication_or_release_year": 2019,
+    "publisher_or_network": "Random House",
+    "focus_or_theme": "The enormous power of American prosecutors and its contribution to mass incarceration; a new movement of reform-minded prosecutors; challenges and limitations of prosecutorial reform."
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "summary_notes": "\"Charged\" examines the enormous power of American prosecutors in the criminal justice system and how this power has contributed to mass incarceration. Emily Bazelon, a staff writer for The New York Times Magazine and lecturer at Yale Law School, argues that over the past 40 years, prosecutors have amassed more power than the system was designed for, largely using it to put more people in prison. The book follows two main case studies: Kevin, a young man from Brooklyn who was arrested for gun possession but given a second chance through a diversion program, and Noura, who was wrongfully convicted of murdering her mother and spent 11 years incarcerated before eventually being released. Through these stories, Bazelon illustrates both the destructive potential of prosecutorial power and the promise of reform-minded approaches.\n\nThe book also documents a new movement of reform-minded prosecutors who are working to transform the system by prioritizing diversion instead of jail or prison, minimizing the use of cash bail, and addressing racial disparities. Bazelon argues that electing reform-minded district attorneys represents one of the most promising paths to reducing mass incarceration, though she acknowledges the challenges and limitations of this approach.",
+    "item_title": "Book Content: Charged: The New Movement to Transform American Prosecution and End Mass Incarceration",
+    "focus_or_theme": "The enormous power of American prosecutors and its contribution to mass incarceration; a new movement of reform-minded prosecutors; challenges and limitations of prosecutorial reform.",
+    "case_details_raw": "The primary wrongful conviction case featured in the book is that of Noura Jackson, who was convicted of murdering her mother in Tennessee. Key aspects of her case include:\n\n1. **Prosecutorial Misconduct**: Days after Noura's conviction, prosecutors filed a motion to submit previously omitted evidence that called into question the testimony of the only witness who had placed her at the scene of the crime.\n\n2. **Improper Closing Arguments**: The prosecutor's behavior during closing arguments was later deemed improper by the Tennessee Supreme Court.\n\n3. **Supreme Court Reversal**: After more than five years following her conviction, the Tennessee Supreme Court unanimously decided to overturn the conviction and grant Noura a new trial.\n\n4. **Alford Plea**: Rather than face another trial, Noura ultimately took an Alford plea, which allowed her to maintain her innocence while acknowledging that the state had enough evidence to convict her.\n\n5. **Release After 11 Years**: After spending a total of 11 years incarcerated, Noura was eventually released.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [
+      "Unchecked Prosecutorial Power",
+      "Coercive Plea Bargaining",
+      "Withholding of Evidence",
+      "Systemic Pressures",
+      "Inadequate Defense Resources"
+    ],
+    "policy_recommendations_raw": [
+      "Electing Reform-Minded Prosecutors",
+      "Diversion Programs",
+      "Reducing Cash Bail",
+      "Addressing Racial Disparities",
+      "Transparency and Accountability"
+    ],
+    "additional_resources_raw": [
+      "NPR Fresh Air interview with Emily Bazelon (April 10, 2019): https://www.npr.org/transcripts/711654831",
+      "Criminal Law and Criminal Justice Book Review: https://clcjbooks.rutgers.edu/books/charged-the-new-movement-to-transform-american-prosecution-and-end-mass-incarceration/"
+    ],
+    "research_notes_other": {}
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Noura Jackson",
+      "first_name": "Noura",
+      "middle_name": null,
+      "last_name": "Jackson",
+      "case_location": "Tennessee",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": "Murdering her mother",
+      "sentence": null,
+      "time_served": "11 years",
+      "contributing_factors_raw": [
+        "Prosecutorial Misconduct",
+        "Improper Closing Arguments"
+      ],
+      "status_raw": "Released after Alford Plea",
+      "organizations_involved_raw": [],
+      "cross_reference": null,
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Emily Bazelon",
+      "role": "AUTHOR",
+      "first_name": "Emily",
+      "middle_name": null,
+      "last_name": "Bazelon"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

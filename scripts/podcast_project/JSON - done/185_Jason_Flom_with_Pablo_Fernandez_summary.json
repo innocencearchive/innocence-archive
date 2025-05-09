@@ -1,0 +1,65 @@
+{
+    "sourceFileName": "185_Jason_Flom_with_Pablo_Fernandez_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava For Good Podcast in association with signal company number one",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, police corruption, eyewitness misidentification, false testimony.",
+        "keyStats": "Pablo Fernandez served 25 years for a crime he did not commit due to police corruption and flawed eyewitness identification.",
+        "itemNumber": "185",
+        "itemTitle": "Jason Flom with Pablo Fernandez",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom features the story of Pablo Fernandez, who was wrongfully convicted for a 1993 murder in Harlem and served 25 years in prison.  His conviction stemmed from fabricated testimony by members of a rival gang and coerced eyewitness identifications orchestrated by corrupt NYPD officers.  Despite multiple recantations from key witnesses over the years, and evidence of police misconduct, the legal process was lengthy and arduous.  The Paul Weiss law firm took on his case pro bono and persevered for 14 years, ultimately leading to the overturning of his conviction in 2019.  The episode highlights systemic issues in the justice system, including police corruption, flawed eyewitness procedures, and the challenges faced by innocent individuals fighting for their freedom.  It underscores the importance of pro bono legal work and organizations like the Innocence Project in rectifying wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Pablo Fernandez",
+        "caseLocation": "Harlem, New York City, USA",
+        "convictionYear": "1996",
+        "exonerationYear": "2019",
+        "crimeConvictedOf": "Murder of Manny Quintero and wounding of Henry Gomez",
+        "sentence": "25 years to life",
+        "timeServed": "25 years",
+        "contributingFactorsRaw": [
+            "False testimony, eyewitness misidentification, police corruption."
+        ],
+        "status": "Exonerated, case dismissed.",
+        "organizationsInvolvedRaw": [
+            "Paul Weiss (law firm)"
+        ],
+        "innocenceLawyersRaw": [
+            "Dave Brown from Paul Weiss, and Andrew Goldstein (Yale Law student who initiated the case at Paul Weiss). Dave Brown is described as a legal giant and from a top law firm in the world. Andrew Goldstein was a Yale Law student who brought the case to Paul Weiss and worked on it as a summer associate and later as an associate before becoming a prosecutor."
+        ],
+        "crossReference": "Not mentioned in transcript",
+        "narrativeOriginalCrime": "Drive-by shooting on June 10, 1993, where a shooter exited a car and fired shots, killing Manny Quintero and wounding Henry Gomez. Shooter described by initial witnesses as light-skinned, 30s or 40s, tall, thin, with grey ponytail.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony from Yellowtop crew members (Mejias and Rivera) claiming Pablo was hired by Redtop to commit the shooting and eyewitness identification from Hickliff and George Rosario and Hase's Canella."
+        ],
+        "trialDefenderNotes": "Not explicitly detailed in the transcript other than the fact that the initial defense was unsuccessful and Pablo was convicted.",
+        "keyEvidenceExonerationRaw": [
+            "Recantations from Hickliff and George Rosario (2002), Henry Gomez (2003), Jesus Canella (2010), and admissions of perjury and police misconduct from Martin Mejias and Raymond Rivera revealed in 2019 by DA's office. US Court of Appeals for the Second District overturned the conviction in 2019."
+        ],
+        "actualPerpetratorDetails": "Not identified in the transcript."
+    },
+    "keyQuotesRaw": [
+        "\"Pablo spent the most 25 years behind bars, and it took nearly a decade and a half of pro bono work from legal giant Paul Weiss to win his freedom.\"",
+        "Pablo: \"When it told me that I'm guilty, I thought I was going to die.\"",
+        "Dave Brown on Canella's recantation denial: \"...he was trying too hard to be convincing when he recanted, which is just such a ridiculous and bizarre thing to say...\"",
+        "Pablo: \"From the beginning, I was fired for my freedom. So after all this G8 working in my K8 and trying to be free to prove my innocent, I'm not going to take nothing for this people, nothing.\" (referring to refusing a manslaughter plea deal).",
+        "Pablo: \"Wow, it was an amazing day. It was my day that every day I was thinking in that day. Again, I know that one day you're going to come. That was the day.\" (on the day of exoneration)."
+    ],
+    "systemicIssuesRaw": [
+        "Police corruption (fabricating evidence, witness coercion), flawed eyewitness identification procedures, prosecutorial inaction, appellate court delays."
+    ],
+    "policyRecommendationsRaw": [
+        "Mandatory videotaping of interrogations and eyewitness identification procedures, criminal justice reform work for lawyers, support for organizations like the Innocence Project."
+    ],
+    "personalNarrativeRaw": [
+        "Pablo's 25 years in prison, impact on family, finding love during imprisonment, resilience, gratitude to Paul Weiss."
+    ],
+    "additionalResourcesRaw": [
+        "InnocenceProject.org (for donations and involvement).\n\nSummary:\n```"
+    ]
+}

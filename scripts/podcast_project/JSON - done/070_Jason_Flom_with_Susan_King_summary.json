@@ -1,0 +1,87 @@
+{
+    "sourceFileName": "070_Jason_Flom_with_Susan_King_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2018",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, investigative journalism, personal stories of exonerees, systemic issues in the justice system.",
+        "keyStats": "-   Susan King served six and a half years in prison for a crime she did not commit.\n-   A Kentucky State Police investigator fabricated evidence and lied to a grand jury.\n-   A serial killer confessed to the crime for which Susan King was convicted.\n-   Detective Barron Morgan was demoted for uncovering the true perpetrator.\n-   91% of midi patients get relief from menopause symptoms within just two months (This is an advertisement within the podcast, not directly related to wrongful convictions, but is part of the transcript).",
+        "itemNumber": "070",
+        "itemTitle": "Jason Flom with Susan King",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom features Susan King, who recounts her horrific experience of being wrongfully convicted for the 1998 murder of Kyle Breden.  Despite being physically incapable due to having one leg and weighing under 100 pounds, Susan was targeted by Kentucky State Police investigator Todd Harwood, who fabricated evidence and misled a grand jury.  She served six and a half years in prison after taking an Alford plea due to ineffective counsel.  Years later, a serial killer confessed to the crime, providing irrefutable details.  Even with this confession, Susan faced further legal hurdles and continued imprisonment.  The episode highlights the devastating impact of police misconduct, prosecutorial overreach, and the failures of the justice system, while also showcasing the resilience of Susan King and the crucial work of the Kentucky Innocence Project in her exoneration."
+    },
+    "featuredIndividual": {
+        "fullName": "Susan Jean King",
+        "caseLocation": "Shelbyville, Kentucky, USA",
+        "convictionYear": "Not explicitly stated in transcript, but implied to be around 2005-2006 based on time served and 2012 confession.",
+        "exonerationYear": "2014 (charges dismissed)",
+        "crimeConvictedOf": "Manslaughter (via Alford plea, originally charged with murder)",
+        "sentence": "Not explicitly stated in transcript, but implied to be around 10 years given time served and discussion of sentence length.",
+        "timeServed": "Six and a half years",
+        "contributingFactorsRaw": [
+            "Police misconduct (fabrication of evidence, lying to grand jury)",
+            "Ineffective assistance of counsel",
+            "Focus on a vulnerable suspect",
+            "Cold case pressure"
+        ],
+        "status": "Exonerated (charges dismissed)",
+        "organizationsInvolvedRaw": [
+            "Kentucky Innocence Project"
+        ],
+        "innocenceLawyersRaw": [
+            "Linda Smith and other lawyers from the Kentucky Innocence Project are mentioned as being instrumental in her exoneration. Specific details about individual lawyers beyond Linda Smith are not provided in the transcript."
+        ],
+        "crossReference": "Not specified if she appears in a specific exoneree database within the transcript.",
+        "narrativeOriginalCrime": "Kyle Breden was found dead in the Kentucky River, shot twice in the head with .22 caliber bullets, and his legs were bound with guitar amplifier cord and concrete blocks.",
+        "keyEvidenceProsecutionRaw": [
+            "Fabricated evidence of bullet holes and drag marks in Susan King's kitchen.",
+            "False claims about ballistics matching bullets from her home to the murder weapon.",
+            "False claims about blood evidence.",
+            "Omission of Susan King's disability (one leg, small stature) to the grand jury."
+        ],
+        "trialDefenderNotes": "Rebecca Morrell, court-appointed attorney, was ineffective and reportedly told Susan she didn't believe her innocence. She seemingly worked against Susan, advising her poorly and not challenging the prosecution's case effectively.",
+        "keyEvidenceExonerationRaw": [
+            "Confession from serial killer Richard Jarrell Jr., who provided detailed and accurate information about the crime, including details not publicly known.",
+            "Jarrell's confession was corroborated by evidence and his knowledge of details only the perpetrator would know.",
+            "Detective Barron Morgan's investigation and bringing Jarrell's confession to light.",
+            "Kentucky Innocence Project's legal efforts, presenting evidence of actual innocence and police misconduct."
+        ],
+        "actualPerpetratorDetails": "Richard Jarrell Jr., a serial killer, confessed to the murder of Kyle Breden. He provided specific details about the crime, including the location of the body, the method of disposal, and details about the victim's drug use and the motive (stolen money for crack cocaine). He knew details that were consistent with the autopsy and crime scene, and even directed police to the location of discarded weapons."
+    },
+    "keyQuotesRaw": [
+        "Susan King: \"I'm not innocent to approve and guilty, I'm guilty until I approve my innocence and that's absolutely what happened to me.\"",
+        "Susan King: \"I totally lost trust in humanity after what happened to me.\"",
+        "Susan King describing Todd Harwood: \"He kind on me, like a snake, started riding and, oh, he scared me so bad so many times, yelling and screaming and riding me around in his car like a crazy person going real fast and slamming on the brakes, he scared me death that day, I thought he was going to kill me.\"",
+        "Susan King on her court-appointed lawyer: \"And they may as well have appointed my dog to be my lawyer. Wow. It would have been better.\"",
+        "Jason Flom: \"Susan, if somebody put your story in a Hollywood script, nobody would believe it. Like people would be like, no, no, you can't even, go back and rewrite that. I could picture somebody saying rewrite that, no one's going to believe this, it's ridiculous. But it's true.\"",
+        "Susan King's desire for justice: \"I'd like for Officer Harwood to be arrested, and take him to the hospital and hand cuffs to the bed with his feet and his arms, and tortured all night long, and fell in county jail for 19 months, and then thrown in a state prison for four more years, which would be a total of six and a half years. That's what I'd like to see happen to him. He needs to be done just the way he had me done, and nothing less is gonna make me happy.\""
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct and fabrication of evidence.",
+        "Prosecutorial overreach and reliance on flawed evidence.",
+        "Ineffective assistance of counsel for indigent defendants.",
+        "Flaws in the grand jury process, where crucial exculpatory information can be omitted.",
+        "Resistance within the system to admit errors, even in the face of overwhelming evidence of innocence.",
+        "Lack of accountability for officials who perpetrate wrongful convictions.",
+        "The \"cold case\" grant system potentially incentivizing rushed and flawed investigations."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for Innocence Projects to help those wrongfully convicted.",
+        "Increased accountability for police and prosecutors who engage in misconduct.",
+        "Reforms to the grand jury process to ensure transparency and consideration of all evidence.",
+        "Improved systems for providing effective legal representation to indigent defendants.",
+        "Review and reform of cold case investigation practices to prevent tunnel vision and fabricated evidence."
+    ],
+    "personalNarrativeRaw": [
+        "Susan King describes the profound and lasting trauma of her wrongful conviction, including the loss of her home, business, pets, and years of her life. She speaks about the emotional and psychological toll of imprisonment, including nightmares, fear, and distrust. She highlights the physical toll of prison on her health, including dental damage.  Despite her suffering, she expresses resilience and gratitude for her church community and the Kentucky Innocence Project. Her final thoughts emphasize the hope that her story will prevent similar injustices from happening to others."
+    ],
+    "additionalResourcesRaw": [
+        "The Marshall Project (mentioned as a source where Jason Flom first read about Susan King's case)",
+        "ID Channel investigation discovery channel show about Susan King's case (mentioned by Susan King)",
+        "Kentucky Innocence Project (InnocenceProject.org - mentioned as a place to donate and get involved)"
+    ]
+}

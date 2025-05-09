@@ -1,0 +1,87 @@
+{
+    "sourceFileName": "227_Jason_Flom_with_Keith_Washington_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcasts and Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system, police misconduct, prosecutorial misconduct, exoneration.",
+        "keyStats": "- Keith Washington was sentenced to 45 years, exceeding the maximum recommended sentence by over 100% and minimum by 900%.\n- Robert White, the alleged victim, had 12 previous convictions and over 20 arrests, including for violent and sexual offenses.\n- Prosecutors made 31 false and misleading statements during the trial.\n- Keith Washington served 13 years before being released.",
+        "itemNumber": "227",
+        "itemTitle": "Jason Flom with Keith Washington",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the harrowing story of Keith Washington, a decorated Army Lieutenant Colonel, police officer, and Homeland Security official, who was wrongfully convicted of involuntary manslaughter and sentenced to 45 years in prison for defending himself, his wife, and daughter during a home invasion in 2007.  Despite overwhelming evidence supporting self-defense and contradicting the account of Robert White, a 12-time convicted felon involved in the incident, Washington was prosecuted and convicted due to prosecutorial misconduct and ambition.  The prosecution team allegedly suppressed evidence, lied to the jury, and ignored White's extensive criminal history and inconsistent statements to secure a conviction. After serving 13 years, Washington was released thanks to the efforts of his legal team and Georgetown University's Making an Exoneree program, but continues to fight for full exoneration. The episode highlights systemic issues within the criminal justice system, including prosecutorial overreach, media influence, and the devastating impact of wrongful convictions on individuals and their families, emphasizing the urgent need for reform and support for exonerees."
+    },
+    "featuredIndividual": {
+        "fullName": "Keith Washington",
+        "caseLocation": "Prince George's County, Maryland, USA",
+        "convictionYear": "2008",
+        "exonerationYear": "2021 (released in 2021, fighting for exoneration)",
+        "crimeConvictedOf": "Involuntary Manslaughter",
+        "sentence": "45 years",
+        "timeServed": "13 years",
+        "contributingFactorsRaw": [
+            "Prosecutorial misconduct: Falsifying evidence, misleading statements, withholding exculpatory evidence (Robert White's criminal history, toxicology report).",
+            "Media frenzy and public pressure.",
+            "Perjury by Robert White.",
+            "Possible political ambition of prosecutors."
+        ],
+        "status": "Released, fighting for exoneration.",
+        "organizationsInvolvedRaw": [
+            "Georgetown University's Making an Exoneree program.",
+            "Legal team (Marty Tankleff)."
+        ],
+        "innocenceLawyersRaw": [
+            "Marty Tankleff, practicing attorney and co-professor at Georgetown University, teacher of the Making an Exoneree class. He was himself wrongfully convicted of murder and served 17 years."
+        ],
+        "crossReference": "Not specified if in exoneree database in transcript.",
+        "narrativeOriginalCrime": "Keith Washington was at home with his wife and daughter when two furniture delivery men, Brandon Clark and Robert White, arrived. Washington found White snooping in his daughter's bedroom and asked them to leave.  He was then attacked by both men. In self-defense, Washington shot both men, resulting in Clark's death and White's survival.",
+        "keyEvidenceProsecutionRaw": [
+            "Robert White's testimony, presented as a credible victim, despite his criminal history and inconsistent statements. The prosecution downplayed or ignored evidence of self-defense."
+        ],
+        "trialDefenderNotes": "Not detailed in the transcript. The transcript focuses on the failures of the prosecution and the evidence for innocence, rather than the trial defense strategy.",
+        "keyEvidenceExonerationRaw": [
+            "Work of Georgetown University's Making an Exoneree program and Marty Tankleff.",
+            "Review by a retired judge leading to modification of sentence based on totality of evidence.",
+            "Arrest warrant for Robert White for perjury in Keith Washington's criminal trial issued after Keith's release."
+        ],
+        "actualPerpetratorDetails": "Brandon Clark (deceased) and Robert White were the aggressors in the home invasion and assault on Keith Washington. Robert White, a 12-time convicted felon with a history of burglary and other crimes, fabricated his account of events. He was later arrested twice more for home invasion and assault after Washington's conviction, and subsequently charged with perjury related to Washington's trial."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"If this happened to Keith Washington, who is the very definition of an American hero, then it can happen to anyone.\"",
+        "Marty Tankleff: \"Keith defended himself, his wife and daughter, and tragically, instead of being labeled a hero, he was treated like a criminal.\"",
+        "Keith Washington (on his sentence): \"And I don't think anyone's ever received a 45 year sentence for involuntary manslaughter.\"",
+        "Keith Washington (closing argument): \"Never give up... There are people who will fight for you because they believe in what's right.\"",
+        "Marty Tankleff (closing argument): \"I get to have the opportunity to pay it forward and give people back their lives.\"",
+        "Keith Washington (on prosecutors' actions): \"They willingly manipulated, lied, falsified the evidence and that Mr. White is not telling the truth on any of the issues according to the physical, forensic and the scientific evidence.\""
+    ],
+    "systemicIssuesRaw": [
+        "Prosecutorial misconduct and overreach driven by political ambition.",
+        "Ineffective checks and balances within the justice system.",
+        "Media influence and public pressure affecting legal proceedings.",
+        "Disregard for evidence and focus on conviction rates.",
+        "Racial and class bias not explicitly stated but implied given the circumstances of a decorated black officer being prosecuted based on the word of a white career criminal.",
+        "Lack of support and resources for exonerees upon release."
+    ],
+    "policyRecommendationsRaw": [
+        "Demand for Aisha Braveboy, the current state's attorney, to meet with Keith Washington and his team to fully exonerate him and dismiss the conviction.",
+        "Support for innocence organizations, specifically Georgetown University's Making an Exoneree program.",
+        "Increased societal and corporate support for exonerees re-acclimating to life after wrongful imprisonment.",
+        "Calls for accountability for prosecutorial misconduct, referencing the conviction of Joseph Wright for perjury in a separate case as a partial step, but not directly related to Keith's case perjury."
+    ],
+    "personalNarrativeRaw": [
+        "Keith Washington's life story of overcoming adversity, military and police service, contrasted with the injustice of his wrongful conviction.",
+        "The devastating impact of wrongful conviction on Keith and his family (wife Stacy and daughter Kayla).",
+        "Keith's resilience, determination to fight for justice, and lack of bitterness despite his ordeal.",
+        "Emphasis on faith, courage, and the importance of family support during wrongful imprisonment.",
+        "Keith's desire to use his experience to help others and advocate for justice system reform."
+    ],
+    "additionalResourcesRaw": [
+        "One Innocent Man website (oneinnocentman.org), created by Georgetown students, containing case details and evidence.",
+        "GoFundMe page linked on the website to support Keith Washington.",
+        "Georgetown University's Making an Exoneree program.",
+        "Mention of a short documentary about Keith's case created by Georgetown students (link to be included in podcast bio)."
+    ]
+}

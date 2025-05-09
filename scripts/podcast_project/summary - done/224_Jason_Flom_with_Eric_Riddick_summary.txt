@@ -1,0 +1,95 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but the episode is about Eric Riddick.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript, but likely recent given the content.
+-   **Production Company(ies)/Network**: Lava for Good podcast in association with signal company number one
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, criminal justice reform, police misconduct, ineffective defense, eyewitness testimony, recantation, post-conviction litigation, exoneration.
+-   **Key Statistics/Information**:
+    -   Eric Riddick was wrongfully convicted and served 30 years in prison.
+    -   Original eyewitness testimony was coerced and later recanted.
+    -   Alibi witnesses were not called by the defense attorney.
+    -   Exculpatory ballistic evidence was not presented at trial.
+    -   A statute (PCRA) with a 60-day time limit obstructed the admissibility of recanted testimony.
+    -   Affidavits from multiple individuals, including the actual perpetrator's father, confirmed Eric Riddick's innocence.
+    -   The Philadelphia District Attorney's Conviction Integrity Unit, under Larry Krasner and Patricia Cummins, played a role in Eric Riddick's exoneration.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom tells the harrowing story of Eric Riddick's wrongful conviction for the murder of his friend, William Catlett, in Philadelphia in 1991. Despite a strong alibi and eyewitness accounts pointing to another individual, Edward Pina Johnson, Riddick was convicted based on a coerced statement and ineffective defense.  Key evidence, including ballistic reports and alibi witnesses, were ignored or suppressed.  Even after the coerced witness recanted and new evidence emerged, Riddick spent decades fighting for his freedom due to restrictive post-conviction laws.  Ultimately, through persistent legal efforts, support from various organizations, and the intervention of the Conviction Integrity Unit, Eric Riddick was exonerated after serving 30 years.  The episode highlights systemic issues of police misconduct, prosecutorial overreach, and the urgent need for criminal justice reform.  Riddick’s resilience and dedication to helping others after exoneration are also emphasized.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Eric Riddick
+-   **Case Location**: West Philadelphia, Pennsylvania, USA
+-   **Conviction Year**: 1992 (approximately, based on arrest in January 1992 and trial after)
+-   **Exoneration Year**: 2022 (approximately, based on being home for three months at the time of the interview)
+-   **Crime Convicted Of**: Murder of William Catlett
+-   **Sentence**: Life in prison
+-   **Time Served**: 30 years
+-   **Contributing Factors**:
+    -   Coerced statement/False testimony (Sean Stevenson)
+    -   Ineffective assistance of counsel (failure to present alibi witnesses and ballistic evidence)
+    -   Official misconduct (police ignored other suspects, prosecutor's office pressured witness and withheld exculpatory evidence)
+    -   Faulty eyewitness testimony (though ultimately recanted, initial testimony was used)
+-   **Legal Status**: Exonerated, released
+-   **Organizations Involved**:
+    -   Georgetown University students and Professor Mark Howard
+    -   Rock Nation (Desiree Perez, Jordan Seve)
+    -   Reed Firm
+    -   Philadelphia District Attorney's Conviction Integrity Unit (Larry Krasner, Patricia Cummins)
+    -   Emergency Response Foundation (ER Foundation) - founded by Eric Riddick
+-   **Innocence Lawyer Details**: Emekah Igui is mentioned as Eric Riddick's lawyer who came on board later and worked with Georgetown and others to achieve exoneration.  Dan Slepeon is mentioned as part of the "A team" that eventually helped Eric, implying he was also a lawyer involved in the later stages.
+-   **Cross-Reference**: Not specified in the transcript if he appears in a specific exoneree database.
+-   **Narrative of Original Crime**: William Catlett was fatally shot in West Philadelphia in November 1991, believed to be related to a drug dispute. Eyewitnesses initially pointed to Edward Pina Johnson as the shooter.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Eyewitness testimony from Sean Stevenson, who initially claimed to see Eric Riddick shoot William Catlett from a fire escape.
+-   **Trial Defender Notes**: The defense lawyer was ineffective, failing to present alibi witnesses who could confirm Eric Riddick's location at the time of the murder. He also failed to effectively use the ballistic evidence to counter Stevenson's testimony. He promised to present alibi witnesses in his opening statement but then rested his case without calling them.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Recantation of testimony by Sean Stevenson in 1999, stating coercion by victim's friends and the DA's office.
+    -   Affidavit from Bruce Reese, father of Edward Pina Johnson, in 2005, confessing his son's responsibility for the murder and expressing regret for Riddick's wrongful conviction.
+    -   Affidavits from two other witnesses in 2019 confirming they saw Pina Johnson shoot William Catlett.
+    -   Discovery of withheld evidence: a rifle found at the scene, tested by the DA and found not to be the murder weapon, but this information was not disclosed to the defense.
+-   **Actual Perpetrator Details**: Edward "Pina" Johnson was identified by multiple eyewitnesses and his own father as the actual perpetrator. He was reportedly involved in drug activities and was believed to be involved in a dispute with the victim.  Edward Pina Johnson was murdered in 1997.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Detective Paul Rich: "I don't care about the individual that got like, he said, I just need a body for a body."
+    -   Eric Riddick about his lawyer resting the case: "He literally just sent you down the river, just processed you in like your life didn't matter at all."
+    -   Eric Riddick about prison education: "I turned my incarceration into like a university, right? I was educated by a lot of powerful lifers that have rehabilitated reform themselves and they taught me the law..."
+    -   Bruce Reese's affidavit: "My son had always expressed regret that Mr. Riddick has satted prison for a crime that he had nothing to do with."
+    -   Eric Riddick on his mother's face upon release: "That was the greatest moment seeing her face. That felt greater than the actual feeling of me going home."
+    -   Eric Riddick about justice being in season: "My freedom is a further testimony that justice is in season. Me being on this show is testimony that justice is in season."
+-   **Systemic Issues Identified**:
+    -   Police misconduct: Coercion of witnesses, ignoring evidence pointing to other suspects, withholding exculpatory evidence.
+    -   Prosecutorial misconduct: Pressuring witnesses to implicate innocent individuals, prioritizing convictions over finding the truth.
+    -   Ineffective defense counsel: Incompetence in presenting evidence and alibi witnesses.
+    -   Flaws in post-conviction relief system: Restrictive time limits (PCRA - 60 days in Pennsylvania) that obstruct justice and prevent review of new evidence.
+    -   Culture of corruption within the criminal justice system.
+-   **Policy Recommendations/Calls to Action**:
+    -   Reform of Post-Conviction Relief Act statutes to allow for consideration of new evidence of innocence regardless of time limits.
+    -   Addressing police and prosecutorial misconduct through accountability and training.
+    -   Improving the quality of defense counsel, particularly for indigent defendants.
+    -   Supporting organizations working on wrongful conviction and criminal justice reform, like Innocence Projects and the ER Foundation.
+-   **Personal Narrative/Impact**:
+    -   Eric Riddick's 30 years of wrongful incarceration deeply impacted his life and family, contributing to his father's death.
+    -   Despite the immense hardship, Riddick transformed his prison experience into a form of education and self-improvement, learning the law and becoming an advocate for himself and others.
+    -   His resilience and determination to fight for justice are highlighted, along with his commitment to helping other wrongfully convicted individuals through the ER Foundation.
+    -   He expresses gratitude for the support he received and emphasizes the importance of grassroots movements and collective action in achieving justice.
+-   **Additional Resources**:
+    -   ER Foundation website: erfoundation19.com
+    -   Local Innocence Organizations (mentioned to be supported)
+    -   Meek Mill's advocacy and case (mentioned as related)
+    -   Troy Coleman's case (mentioned as another case Eric Riddick worked on)
+    -   Rolling Stone article about Tony Wright's wrongful conviction case (mentioned for context on Philadelphia justice system in the 90s).
+
+```

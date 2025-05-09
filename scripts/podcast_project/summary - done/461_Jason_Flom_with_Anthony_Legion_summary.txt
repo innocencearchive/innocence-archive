@@ -1,0 +1,133 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+For each podcast on wrongful convictions, we'll collect the following information:
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but can be inferred as an episode focusing on Anthony Legion's case.
+-   **Host(s)**: Jason Flom (inferred from intro/outro "it's Jason Flam")
+-   **Release Year(s)**: Not specified in transcript, likely recent given 2024 Innocence Network Conference mention and 2020 exoneration.
+-   **Production Company(ies)/Network**: Lava for Good Podcasts and Signal Company Number One (mentioned at the end)
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, Police Misconduct, Jailhouse Informants, Eyewitness Misidentification, Prosecutorial Gamesmanship, Detroit Justice System.
+-   **Key Statistics/Information**:
+    -   Detroit Police Department homicide section in late 1980s-early 2000s used jailhouse snitches regularly.
+    -   Jailhouse snitches on the "ninth floor" of Detroit jail received benefits for fabricated testimony.
+    -   Anthony Legion served approximately 19 years for a crime he did not commit.
+    -   Eyewitness Kenny Lockhart changed his story and misidentified Anthony Legion.
+    -   Jailhouse informant Ellis Frazier fabricated confession testimony.
+    -   Prosecution hid exculpatory evidence related to Devontae Parks' alibi and misidentification by Lockhart.
+    -   Conviction Integrity Unit in Wayne County Prosecutor's office played a crucial role in Anthony Legion's exoneration.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction details the case of Anthony Legion, wrongfully convicted of first-degree murder in Detroit in 2001.  Legion, along with Marvin Cotton and Devontae Parks, was accused of killing Juman McIntyre in a drug house related incident. The case was built on unreliable eyewitness testimony from Kenny Lockhart, who initially claimed to see nothing, and fabricated jailhouse informant testimony from Ellis Frazier.  Key exculpatory evidence, including Parks' alibi and Lockhart's misidentification of Parks, was suppressed.  Police misconduct and prosecutorial gamesmanship are highlighted as major contributing factors to the wrongful conviction.  After nearly 19 years in prison, Legion's conviction was finally overturned in 2020 due to the efforts of the Conviction Integrity Unit and new evidence of police misconduct and witness recantations. Legion is now working in law and advocating for others who are wrongfully convicted.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Anthony Legion
+    -   **Case Location**: Detroit, Michigan, USA
+    -   **Conviction Year**: 2001
+    -   **Exoneration Year**: 2020 (charges dismissed October 1, 2020, paroled from other sentence December 15, 2020)
+    -   **Crime Convicted Of**: First-degree murder
+    -   **Sentence**: Life without parole
+    -   **Time Served**: Approximately 19 years
+    -   **Contributing Factors**: Eyewitness misidentification, jailhouse informant testimony, police misconduct (fabrication of evidence, coercion, hiding evidence), prosecutorial misconduct (gamesmanship, hiding evidence), ineffective assistance of counsel (initially, later addressed).
+    -   **Legal Status**: Exonerated, charges dismissed.
+    -   **Organizations Involved**: Wayne County Conviction Integrity Unit, State Appellate Defender's Office, Wolf Law Firm, Innocence Network (mentioned in context of conference), Organization of Exonerations, Safe and Just Michigan.
+    -   **Innocence Lawyer Details**: Wolf Muller, civil rights attorney, assisted with the case and is interviewed in the podcast. Rachel Wolf, of Wolf Law Firm, is mentioned as Anthony Legion works in her appellate division.
+    -   **Cross-Reference**: Not explicitly stated if in exoneree database, but highly likely given the nature of the podcast.
+    -   **Narrative of Original Crime**: Juman McIntyre was shot and killed in front of a house in Detroit, allegedly a drug house. Anthony Legion, Marvin Cotton, and Devontae Parks were accused of being the assailants.
+    -   **Key Evidence at Trial (Prosecution)**:
+        -   Eyewitness identification by Kenny Lockhart, who initially said he saw nothing, later identified Cotton and Legion in a photo array and in court.
+        -   Jailhouse informant testimony from Ellis Frazier, claiming Marvin Cotton confessed and implicated "Anthony" (mistakenly identified Parks in court).
+    -   **Trial Defender Notes**: Defense attorney argued against the jailhouse informant testimony as trial by ambush and violation of right to confront Cotton. They also highlighted inconsistencies in Lockhart's testimony and presented alibi witnesses. However, they were unable to call co-defendants Parks and Cotton to testify due to their right to remain silent.
+    -   **Key Evidence for Exoneration/Change in Legal Status**:
+        -   Recantation of jailhouse informant Ellis Frazier in 2010 and 2014, stating his testimony was fabricated by police.
+        -   Affidavit from Kurt Nard about Kenny Lockhart admitting he was offered money to implicate Cotton and Legion.
+        -   Tape recording of Detective Hughes admitting the house was a drug house, Lockhart did not make initial identification, and police were protecting the house (and Officer Santonian Adams).
+        -   Testimony from Lockhart's girlfriend, Renee Tate, confirming they saw nothing and she was pressured to support Lockhart's story.
+        -   Work of Wayne County Conviction Integrity Unit.
+    -   **Actual Perpetrator Details**: Not definitively identified in the podcast.  Implied that individuals related to the Johnson crime family, possibly Santonian Adams, may have been involved or orchestrated the crime, potentially setting up McIntyre and targeting Cotton.
+
+-   **Name**: Marvin Cotton
+    -   **Case Location**: Detroit, Michigan, USA
+    -   **Conviction Year**: 2001 (same trial as Anthony Legion)
+    -   **Exoneration Year**: 2020 (charges dismissed, same as Anthony Legion)
+    -   **Crime Convicted Of**: First-degree murder (same trial as Anthony Legion)
+    -   **Sentence**: Life without parole (same trial as Anthony Legion)
+    -   **Time Served**: Approximately 19 years (same trial as Anthony Legion)
+    -   **Contributing Factors**: Same as Anthony Legion - Eyewitness misidentification, jailhouse informant testimony, police misconduct, prosecutorial misconduct, ineffective assistance of counsel (initially).
+    -   **Legal Status**: Exonerated, charges dismissed.
+    -   **Organizations Involved**: Wayne County Conviction Integrity Unit, State Appellate Defender's Office, Wolf Law Firm, Innocence Network (mentioned in context of conference).
+    -   **Innocence Lawyer Details**: Wolf Muller, civil rights attorney, assisted with the case and is interviewed in the podcast.
+    -   **Cross-Reference**: Not explicitly stated if in exoneree database, but highly likely given the nature of the podcast.
+    -   **Narrative of Original Crime**: Same as Anthony Legion.
+    -   **Key Evidence at Trial (Prosecution)**: Same as Anthony Legion.
+    -   **Trial Defender Notes**: Same as Anthony Legion.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Same as Anthony Legion.
+    -   **Actual Perpetrator Details**: Same as Anthony Legion.
+
+-   **Name**: Devontae Parks
+    -   **Case Location**: Detroit, Michigan, USA
+    -   **Conviction Year**: Never convicted (charges dismissed before trial)
+    -   **Exoneration Year**: N/A (never convicted)
+    -   **Crime Convicted Of**: Initially charged with First-degree murder
+    -   **Sentence**: N/A (never sentenced)
+    -   **Time Served**:  Not explicitly stated, but held until his case was severed right before Anthony Legion and Marvin Cotton's trial.
+    -   **Contributing Factors**: Eyewitness misidentification (initially by Lockhart), police and prosecutorial gamesmanship in hiding his alibi and misidentification.
+    -   **Legal Status**: Charges dismissed.
+    -   **Organizations Involved**: Not explicitly mentioned, but likely involved legal counsel to establish his alibi.
+    -   **Innocence Lawyer Details**: Not mentioned.
+    -   **Cross-Reference**: Not applicable as never wrongfully convicted but was wrongfully accused and initially charged.
+    -   **Narrative of Original Crime**: Same as Anthony Legion and Marvin Cotton.
+    -   **Key Evidence at Trial (Prosecution)**: Initially included in Lockhart's identification, but this was undermined by his alibi.
+    -   **Trial Defender Notes**: His lawyer was crucial in establishing his alibi, leading to the dismissal of charges before trial for Legion and Cotton.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Airtight alibi for the time of the murder, which undermined Lockhart's identification.
+    -   **Actual Perpetrator Details**: Same as Anthony Legion and Marvin Cotton.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Wolf Muller describing Detroit PD's snitch program: "Detroit Police Department, and particularly the homicide section, in the late 1980s, all through the 1990s and extending the early 2000s, if they had a weak case, they would recruit some snitch..."
+    -   Anthony Legion on his conviction: "But walking out the courtroom, I walked out of that courtroom and said, I'm getting out of prison and I'm about to go in prison and learn everything about this system that did this to me."
+    -   Anthony Legion on finding inner peace in prison: "when I went to prison, the first thing I said after I got processed, where's the light ring? And so I bought a black slaw dictionary... I wanted to learn that language that they were speaking in the courtroom that I didn't know and then learn what they knew in order to fight this case."
+    -   Anthony Legion on his release: "it was definitely um a breath of fresh air when when i got that news"
+    -   Anthony Legion's advice: "don't give up the road may seem long gloomy and dark but you got to stay focused you know you got to stay fighting... move like you want to get out of prison act talk walk sleep everything like you want to get out of prison"
+
+-   **Systemic Issues Identified**:
+    -   Police misconduct: Fabrication of witness testimony, coercion of witnesses, hiding evidence, protecting criminal informants (like Santonian Adams).
+    -   Use of unreliable jailhouse informants: Incentivized false testimony for personal gain.
+    -   Eyewitness misidentification:  Lockhart's shifting story and misidentification of Parks.
+    -   Prosecutorial misconduct: Gamesmanship, hiding exculpatory evidence, pushing a weak case forward, potentially involved in miscarriage of justice by preventing Parks from testifying.
+    -   Flaws in the legal system: Difficulty in overturning wrongful convictions even with new evidence, focus on procedure over innocence.
+    -   Impact of crime families and street influence on the justice system.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Implied need for stronger oversight and accountability for police and prosecutors.
+    -   Need for reform regarding the use of jailhouse informant testimony.
+    -   Importance of Conviction Integrity Units in reviewing and rectifying wrongful convictions.
+    -   Call to support organizations working on wrongful conviction and exoneration.
+    -   Anthony Legion's work to expose falsehood of jailhouse snitch testimony and support for Safe and Just Michigan and DJST Task Force.
+
+-   **Personal Narrative/Impact**:
+    -   Anthony Legion's personal journey from a normal childhood to wrongful conviction, imprisonment, self-education in law, and eventual exoneration.
+    -   His dedication to helping others facing wrongful convictions after his release.
+    -   The immense personal toll of wrongful conviction – loss of freedom, family separation, trauma.
+    -   Wolf Muller's frustration with the slow pace of civil litigation and its impact on exonerees.
+    -   Anthony's resilience and determination to fight for justice despite facing immense adversity.
+
+-   **Additional Resources**:
+    -   Larry Smith Jr. case (linked in episode description - not provided here)
+    -   Daryl Siggers' story (previous Wrongful Conviction episode featuring Wolf Muller)
+    -   AnthonyLegion.com (website with his story)
+    -   Safe and Just Michigan (organization Anthony is on the board of)
+    -   DJST Task Force (organization Anthony supports, djsttaskforce.com)
+    -   Organization of Exonerations (Anthony is a member)
+    -   Wolf Law Firm (where Anthony works in the appellate division)
+```

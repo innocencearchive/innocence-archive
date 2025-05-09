@@ -1,0 +1,79 @@
+{
+    "sourceFileName": "197_Jason_Flom_with_Enes_Kanter_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava For Good Podcast in association with Signal Company No. 1",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, political persecution, authoritarianism, international human rights, activism.",
+        "keyStats": "- Over 50,000 members of the Gulen movement have been arrested in Turkey.\n- Over 100,000 Gulen followers purged from civil service jobs.\n- Turkey is described as the number one country in the world for jailing journalists.",
+        "itemNumber": "197",
+        "itemTitle": "Jason Flom with Enes Kanter",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction\" features NBA player Ennis Cantor, who shares his harrowing story of political persecution by the Turkish government under President Erdogan. Cantor discusses how his criticism of Erdogan’s regime led to his being charged with terrorism in absentia and the wrongful imprisonment of his father, Dr. Mehmet Cantor.  The episode details the political backdrop of the Gulen movement and Erdogan's shift towards authoritarianism, highlighting the false charges and sham trials used to silence dissent. Ennis recounts his efforts to raise international awareness, working with politicians and media to advocate for his father's release.  Ultimately, his father was freed in 2020 due to sustained pressure. Ennis emphasizes that his fight is not over and calls for continued action to free all political prisoners in Turkey, urging listeners to support his \"You Are My Hope\" campaign and to educate themselves against authoritarian regimes."
+    },
+    "featuredIndividual": {
+        "fullName": "Dr. Mehmet Cantor",
+        "caseLocation": "Turkey",
+        "convictionYear": "2018 (June 2018)",
+        "exonerationYear": "2020 (June 2020)",
+        "crimeConvictedOf": "Terrorism (false charges)",
+        "sentence": "15 years",
+        "timeServed": "Approximately 2 years",
+        "contributingFactorsRaw": [
+            "Political persecution due to his son Ennis Cantor's public criticism of Turkish President Erdogan and activism against the regime.",
+            "False charges of terrorism based on association with the Gulen movement and as retaliation against Ennis Cantor."
+        ],
+        "status": "Released after appeal went \"nowhere,\" but international pressure and media attention led to his freedom. Legal status implied to be changed due to political pressure, not necessarily full exoneration in the legal sense as described in the transcript.",
+        "organizationsInvolvedRaw": [
+            "Not specified in transcript regarding legal organizations, but Ennis Cantor worked with US politicians (congressmen, senators) and media outlets to raise awareness."
+        ],
+        "innocenceLawyersRaw": [
+            "Not mentioned in the transcript."
+        ],
+        "narrativeOriginalCrime": "There was no actual crime committed by Dr. Mehmet Cantor. The charges of terrorism were fabricated by the Turkish government as a means of silencing and punishing Ennis Cantor and his family for Ennis's political opposition to President Erdogan.",
+        "keyEvidenceProsecutionRaw": [
+            "The transcript refers to the trial as a \"sham trial\" and does not detail specific evidence. The charges were described as \"gaslighting bullshit\" and politically motivated, implying a lack of credible evidence and due process."
+        ],
+        "trialDefenderNotes": "Not detailed in the transcript. Described as a \"sham trial,\" suggesting inadequate or ineffective defense due to the political nature of the proceedings.",
+        "keyEvidenceExonerationRaw": [
+            "Ennis Cantor using his platform as an NBA player to bring international attention to his father's case and the broader political situation in Turkey.",
+            "Working with US politicians and media to exert pressure on the Turkish government.",
+            "Public awareness campaigns highlighting the injustice of Dr. Cantor's imprisonment and the human rights abuses in Turkey."
+        ],
+        "actualPerpetratorDetails": "Not applicable as Dr. Cantor was wrongfully convicted of a politically motivated charge, not related to a specific crime with an actual perpetrator. The \"perpetrator\" in this context is the Turkish government and President Erdogan's regime for politically motivated persecution."
+    },
+    "keyQuotesRaw": [
+        "Ennis Cantor quoting Fatula Gulin: \"It doesn't matter what your background is. It doesn't matter what your belief, your religion, your skin color is. The most important thing in life is live your differences on the table and try to find what we have in common.\"",
+        "Ennis Cantor on his decision to speak out: \"If you are fighting against education, I'm going to say something.\"",
+        "Ennis Cantor's mother's supportive words: \"If you are, you know, standing up for something good, something right, then we are with you. If not, then we are not with you.\"",
+        "Ennis Cantor's resolve after his father's release: \"My fight is just getting started. ... We are not going to stop till every innocent person in those prisons are free.\""
+    ],
+    "systemicIssuesRaw": [
+        "Authoritarianism and erosion of democracy in Turkey under President Erdogan.",
+        "Political persecution and suppression of dissent.",
+        "Abuse of power and corruption within the Turkish government.",
+        "Use of false terrorism charges to silence political opponents and critics.",
+        "Sham trials and lack of due process in the Turkish judicial system.",
+        "Targeting of family members of political dissidents.",
+        "Restrictions on freedom of speech and media."
+    ],
+    "policyRecommendationsRaw": [
+        "Support the \"You Are My Hope\" campaign by signing the initiative at youaremyhope.org to raise awareness about human rights abuses in Turkey and advocate for political prisoners.",
+        "Educate oneself about authoritarian regimes and the importance of standing up for human rights and democracy.",
+        "Support organizations like Innocence Projects working to combat wrongful convictions globally."
+    ],
+    "personalNarrativeRaw": [
+        "Ennis Cantor's personal narrative highlights the devastating impact of political persecution on individuals and families.",
+        "He shares the emotional toll of being separated from his family and the constant fear for their safety.",
+        "His story demonstrates the power of using one's platform to fight injustice and advocate for change.",
+        "Ennis's continued activism despite personal risk underscores his courage and commitment to human rights."
+    ],
+    "additionalResourcesRaw": [
+        "YouAreMyHope.org (campaign website mentioned by Ennis Cantor)",
+        "Innocence Projects (mentioned by Jason Flom at the end of the podcast)",
+        "Wrongful Conviction Podcast social media (Instagram and Facebook mentioned in outro)."
+    ]
+}

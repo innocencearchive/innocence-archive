@@ -1,0 +1,106 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but implied to be a standalone episode about Stephanie Spurgeon's case.
+-   **Host(s)**: Jason Flom
+-   **Guest(s)**: Stephanie Spurgeon, Seth Miller, Allison Miller
+-   **Release Year(s)**: Not specified in transcript, likely recent given Allison Miller's current campaign.
+-   **Production Company(ies)/Network**: Lava for Good Podcasts and Signal Company Number One
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, shaken baby syndrome/abusive head trauma, junk science in the legal system, failures of the justice system, the importance of innocence projects, prosecutorial reform.
+-   **Key Statistics/Information**:
+    -   Over 80 different pre-existing conditions can mimic shaken baby syndrome symptoms.
+    -   Shaken baby syndrome theory has been "bastardized" in the criminal legal system.
+    -   Medical doctors are still being trained in outdated shaken baby syndrome theories.
+    -   Wrongful convictions related to alleged child abuse, particularly in women, are a significant issue.
+
+### Executive Summary
+
+This episode of Wrongful Conviction features Stephanie Spurgeon, a daycare provider wrongfully convicted of manslaughter in the death of a child in her care.  The episode details how the junk science of shaken baby syndrome, later morphed into a "soft impact theory," led to Stephanie's conviction despite a lack of external injuries on the child.  Experts initially misdiagnosed the child's symptoms, ignoring signs of a diabetic medical emergency.  Stephanie spent nine years in prison before being exonerated with the help of the Innocence Project of Florida and other legal teams.  The podcast highlights the failures of her original defense attorney, the dangers of relying on biased medical testimony, and the devastating impact of wrongful convictions on individuals and families. The episode underscores the systemic issues within the justice system and calls for medical and legal reform to prevent similar tragedies.  It also features Allison Miller, a state attorney candidate, who discusses the need for prosecutorial reform to prevent wrongful convictions.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Stephanie Spurgeon
+-   **Case Location**: Florida (Pinellas County mentioned, Pasco County also mentioned in relation to expert witness)
+-   **Conviction Year**: 2009 (released after 89 days in solitary before trial, convicted sometime after)
+-   **Exoneration Year**: Not explicitly stated, but implied to be around 2018 based on "nine long years" served and release being "a year ago" from the podcast recording.
+-   **Crime Convicted Of**: Manslaughter (originally charged with Capitol felony murder and aggravated child abuse)
+-   **Sentence**: 15 years in prison
+-   **Time Served**: 9 years
+-   **Contributing Factors**:
+    -   Junk science of shaken baby syndrome/abusive head trauma.
+    -   Misinterpretation of medical evidence by doctors.
+    -   Focus on abuse instead of considering medical conditions (diabetes).
+    -   Ineffective assistance of counsel (original defense attorney).
+    -   State changing its theory mid-trial (from shaken baby to soft impact).
+    -   Preconceived biases against the defendant.
+    -   Persuasive but flawed expert testimony from state pediatrician.
+-   **Legal Status**: Exonerated via Alfred Plea (pleaded guilty while asserting innocence to secure release and avoid retrial).
+-   **Organizations Involved**:
+    -   Innocence Project of Florida
+    -   Innocence Project of Wisconsin (Kate Judson - now Center for Integrity and Forensic Science)
+    -   Exoneration Project (Josh Tepper)
+    -   Ripley Wise and Hunt (Allison Miller's firm at the time)
+-   **Innocence Lawyer Details**:
+    -   **Seth Miller (Innocence Project of Florida)**: Executive Director, instrumental in post-conviction relief and bringing new evidence to light.
+    -   **Kate Judson (Center for Integrity and Forensic Science, formerly Innocence Project of Wisconsin)**: Worked on the case with Seth Miller, expertise in forensic science and wrongful convictions.
+    -   **Josh Tepper (Exoneration Project)**: Part of the legal team that assisted with Stephanie's case.
+    -   **Allison Miller (Ripley Wise and Hunt, currently candidate for State Attorney)**: Trial attorney appointed for retrial, negotiated the Alfred Plea, emphasized trial expertise.
+-   **Narrative of Original Crime**: One-year-old Maria Harris was in Stephanie Spurgeon's daycare for her first day. Maria was picked up by her grandmother seemingly asleep, but later became unresponsive and was taken to the hospital. Doctors, focusing on brain bleed, swelling, and retinal hemorrhages, diagnosed abusive head trauma. Stephanie was accused of causing these injuries at her daycare, leading to charges and conviction after Maria's death.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Medical testimony from a "child abuse pediatrician" asserting that Maria's injuries were caused by abusive trauma, initially attributed to shaken baby syndrome, then revised to "soft impact" trauma (slamming against a soft surface like a crib mattress).
+    -   Lack of external injuries was explained away by the "soft impact" theory.
+-   **Trial Defender Notes**:
+    -   Original defense attorney focused on a shaken baby syndrome defense, even after the state shifted to a "soft impact" theory.
+    -   Defense attorney used a biomechanical expert but failed to adequately prepare him for the state's actual theory, leading to a damaging moment at trial when the expert was questioned about shaken baby syndrome.
+    -   Defense failed to present evidence of alternative medical explanations for Maria's condition, specifically ignoring signs of a diabetic emergency.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Post-conviction investigation by Innocence Project revealed ineffective assistance of counsel.
+    -   New expert testimony (biomechanical, pediatric endocrinologist, pediatric geneticist, forensic pathologist, neuroadiologist, clinical pathologist) demonstrated:
+        -   "Soft impact" theory was scientifically implausible to cause the injuries without external signs of trauma.
+        -   Maria's injuries were consistent with a blood clot in the brain caused by a diabetic condition and metabolic distress, leading to brain swelling and retinal hemorrhages.
+-   **Actual Perpetrator Details**: Not applicable, as the exoneration was based on the conclusion that no crime occurred and Maria's death was due to undiagnosed medical issues, likely related to diabetes.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Jason Flom: "This is a story that is both unique and also somehow not uncommon, and it involves an innocent woman working at a daycare center who got caught up in the criminal legal system for no reason of her own making."
+    -   Seth Miller: "Instead of treating the child for what looked like a diabetic situation... they assumed it was abuse, and we were often running, taking a medical situation and elevating it to the crime."
+    -   Stephanie Spurgeon: "I just kept thinking that eventually they would realize that there's no way that I did this, that nobody hurt Maria. There had to have been something else."
+    -   Allison Miller: "People have to be more involved in their local downbound elections whether it's called the district attorney or the state attorney. We have to take ownership in what prosecution looks like in our jurisdictions or this sort of thing will continue to perpetuate."
+-   **Systemic Issues Identified**:
+    -   Overreliance on flawed or outdated medical theories like shaken baby syndrome.
+    -   Bias and tunnel vision in child death investigations, leading to premature accusations of abuse.
+    -   Lack of understanding of complex medical evidence by jurors.
+    -   "Cottage industry of medical fabrication" where certain medical experts consistently provide biased testimony.
+    -   Ineffective assistance of counsel as a significant factor in wrongful convictions.
+    -   Challenges in overturning wrongful convictions even with strong evidence of innocence.
+-   **Policy Recommendations/Calls to Action**:
+    -   Medical community needs to update training and recognize the limitations of shaken baby syndrome diagnosis and consider alternative medical explanations.
+    -   Law enforcement and medical professionals should be more diligent and avoid assumptions of abuse in child injury cases.
+    -   Need for prosecutorial reform to ensure reliable forensic evidence is used and biased expert testimony is challenged.
+    -   Importance of supporting innocence projects and organizations working on criminal justice reform.
+    -   Call to action for listeners to donate to Stephanie Spurgeon's GoFundMe and Allison Miller's campaign for State Attorney.
+-   **Personal Narrative/Impact**:
+    -   Stephanie's wrongful conviction devastated her family, leading to divorce and her children growing up without her.
+    -   She experienced trauma and fear in prison, including solitary confinement and a dangerous environment.
+    -   Despite the ordeal, Stephanie showed incredible resilience, becoming a law clerk in prison and helping others.
+    -   Her story highlights the profound personal impact of wrongful convictions and the long road to recovery even after exoneration.
+    -   Stephanie hopes her story will raise awareness about shaken baby syndrome and prevent similar injustices.
+-   **Additional Resources**:
+    -   GoFundMe for Stephanie Spurgeon (link to be provided in episode bio).
+    -   Website for Allison Miller's State Attorney campaign: millerforstateattorney.com.
+    -   Social media for Allison Miller (platforms not specified but mentioned as being on "pretty much every social media platform").
+    -   Innocence Project of Florida.
+    -   Center for Integrity and Forensic Science.
+    -   Exoneration Project.
+    -   Lava for Good Podcasts.
+    -   Signal Company Number One.
+    -   Netflix series (implied to be documenting Stephanie's story).
+```

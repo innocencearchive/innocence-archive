@@ -1,0 +1,199 @@
+{
+  "source_file_name": "22.the_exonerated.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "The Exonerated",
+    "creator_name": "Jessica Blank and Erik Jensen",
+    "publication_or_release_year": 2002,
+    "publisher_or_network": "Dramatists Play Service, Inc.",
+    "format": "Play (later adapted into a film in 2005)",
+    "focus_or_theme": "Collection of stories of exonerated individuals, death row experiences, wrongful convictions",
+    "key_statistics": "The six individuals featured collectively spent over 100 years on death row for crimes they did not commit"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "The play uses the actual words of the exonerees, taken from interviews, letters, transcripts, case files and public records"
+    ],
+    "systemic_issues_raw": [
+      "Racial bias in the criminal justice system",
+      "Coerced confessions",
+      "Eyewitness misidentification",
+      "Prosecutorial misconduct",
+      "Inadequate legal representation",
+      "Systemic flaws in death penalty cases"
+    ],
+    "policy_recommendations_raw": [
+      "The play implicitly advocates for abolition of the death penalty",
+      "Highlights need for reforms in police interrogation techniques",
+      "Suggests improvements in handling of evidence and witness testimony"
+    ],
+    "additional_resources_raw": [
+      "The play was adapted into a film in 2005"
+    ],
+    "research_notes_other": {
+      "jessica_blank_and_erik_jensen_published_a_memoir_about_creating_the_play_called_\"living_justice": "Love, Freedom and the Making of The Exonerated\" (2005)\n- The play has been performed widely, including a special performance for Illinois Governor George Ryan, who subsequently commuted all death sentences in Illinois"
+    },
+    "item_title": "Book Content: The Exonerated",
+    "focus_or_theme": "Collection of stories of exonerated individuals, death row experiences, wrongful convictions"
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Delbert Tibbs",
+      "case_location": "Florida",
+      "conviction_year": 1974,
+      "exoneration_or_release_year": 1977,
+      "crime_convicted_of": "Murder and rape",
+      "sentence": "Death",
+      "time_served": "2-3 years on death row",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification, racial bias (African American man in the Deep South)"
+      ],
+      "status_raw": [
+        "Exonerated when evidence surfaced showing he was not even in the town when the crime occurred"
+      ],
+      "organizations_involved_raw": [
+        "Florida Supreme Court (overturned his conviction in a 5-4 decision)"
+      ],
+      "cross_reference": "His story is featured in multiple wrongful conviction resources",
+      "individual_notes": "After exoneration, Tibbs became a writer and anti-death penalty activist until his death in 2013",
+      "first_name": "Delbert",
+      "middle_name": null,
+      "last_name": "Tibbs"
+    },
+    {
+      "full_name": "Kerry Max Cook",
+      "case_location": "Tyler, Texas",
+      "conviction_year": 1978,
+      "exoneration_or_release_year": 2016,
+      "crime_convicted_of": "Rape and murder of Linda Jo Edwards",
+      "sentence": "Death",
+      "time_served": "20 years on death row",
+      "contributing_factors_raw": [
+        "Prosecutorial misconduct, false testimony, Brady violations (withholding of evidence)"
+      ],
+      "status_raw": [
+        "Exonerated, declared actually innocent by Texas Court of Criminal Appeals in 2024"
+      ],
+      "organizations_involved_raw": [
+        "Texas Court of Criminal Appeals"
+      ],
+      "cross_reference": "His case is well-documented in wrongful conviction literature",
+      "individual_notes": "Described as \"a sensitive Texan brutalized on death row for twenty-two years before being exonerated by DNA evidence\"",
+      "first_name": "Kerry",
+      "middle_name": "Max",
+      "last_name": "Cook"
+    },
+    {
+      "full_name": "Gary Gauger",
+      "case_location": "Illinois",
+      "conviction_year": "Early 1990s",
+      "exoneration_or_release_year": "Mid-1990s",
+      "crime_convicted_of": "Murder of his own parents",
+      "sentence": "Death",
+      "time_served": "Several years on death row",
+      "contributing_factors_raw": [
+        "False confession (was bullied into confessing), police misconduct"
+      ],
+      "status_raw": [
+        "Exonerated when two motorcycle-gang members confessed to the murders"
+      ],
+      "organizations_involved_raw": [
+        "Illinois courts"
+      ],
+      "cross_reference": "His case is documented in wrongful conviction resources",
+      "individual_notes": "Described as \"a Midwestern organic farmer condemned for the murder of his own parents\"",
+      "first_name": "Gary",
+      "middle_name": null,
+      "last_name": "Gauger"
+    },
+    {
+      "full_name": "David Keaton",
+      "case_location": "Florida",
+      "conviction_year": "Early 1970s",
+      "exoneration_or_release_year": "Mid-1970s",
+      "crime_convicted_of": "Murder and robbery",
+      "sentence": "Death",
+      "time_served": "Several years on death row",
+      "contributing_factors_raw": [
+        "False confession (bullied into confessing at age 18)"
+      ],
+      "status_raw": [
+        "Exonerated"
+      ],
+      "organizations_involved_raw": [
+        "Florida courts"
+      ],
+      "cross_reference": "His case appears in wrongful conviction databases",
+      "individual_notes": "Described as \"a shy man with aspirations to the ministry, bullied into confessing at eighteen to a robbery/murder he had nothing to do with, scarred from a youth spent in prison and struggling to regain his faith\"",
+      "first_name": "David",
+      "middle_name": null,
+      "last_name": "Keaton"
+    },
+    {
+      "full_name": "Robert Earl Hayes",
+      "case_location": "Florida",
+      "conviction_year": "Late 1980s/early 1990s",
+      "exoneration_or_release_year": "Mid-1990s",
+      "crime_convicted_of": "Murder of a white woman",
+      "sentence": "Death",
+      "time_served": "7 years on death row",
+      "contributing_factors_raw": [
+        "Racial bias, forensic errors"
+      ],
+      "status_raw": [
+        "Exonerated when evidence emerged that the victim was found clutching hair from a Caucasian attacker"
+      ],
+      "organizations_involved_raw": [
+        "Florida courts"
+      ],
+      "cross_reference": "His case is documented in wrongful conviction resources",
+      "individual_notes": "Described as \"an African-American horse groomer who spent seven years on death row for the murder of a white woman\"",
+      "first_name": "Robert",
+      "middle_name": "Earl",
+      "last_name": "Hayes"
+    },
+    {
+      "full_name": "Sonia \"Sunny\" Jacobs",
+      "case_location": "Florida",
+      "conviction_year": 1976,
+      "exoneration_or_release_year": 1992,
+      "crime_convicted_of": "Murder of two police officers",
+      "sentence": "Death (later commuted to life)",
+      "time_served": "17 years in prison (5 years on death row)",
+      "contributing_factors_raw": [
+        "False testimony, prosecutorial misconduct"
+      ],
+      "status_raw": [
+        "Exonerated when another man confessed to the crime"
+      ],
+      "organizations_involved_raw": [
+        "Florida courts"
+      ],
+      "cross_reference": "Her case is well-documented in wrongful conviction literature",
+      "individual_notes": "After exoneration, she founded the Sunny Center, a sanctuary for the wrongfully convicted. Her husband, Jesse Tafero, was executed for the same crime in 1990 before evidence of their innocence came to light.",
+      "first_name": "Sonia",
+      "middle_name": "\"Sunny\"",
+      "last_name": "Jacobs"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Jessica Blank",
+      "role": "AUTHOR",
+      "first_name": "Jessica",
+      "middle_name": null,
+      "last_name": "Blank"
+    },
+    {
+      "full_name": "Erik Jensen",
+      "role": "AUTHOR",
+      "first_name": "Erik",
+      "middle_name": null,
+      "last_name": "Jensen"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "This play is particularly significant in the study of wrongful convictions as it uses the actual words of exonerees to tell their stories, creating a powerful first-person narrative of the experience of being wrongfully convicted and sentenced to death. The play combines first-person monologues with scenes set in courtrooms and prisons, creating a comprehensive picture of the American criminal justice system's failures.\n\nThe play has had significant cultural and political impact, including a special performance for Illinois Governor George Ryan in December 2002, shortly before he commuted all death sentences in Illinois to life imprisonment due to concerns about wrongful convictions.\n\nThe original Off-Broadway production featured notable actors including Richard Dreyfuss, Jill Clayburgh, and Jay O. Sanders, and ran for over 600 performances. It won numerous awards including the Lucille Lortel Award for Unique Theatrical Experience, the Drama Desk Award for Unique Theatrical Experience, and the Outer Critics Circle Award for Outstanding Off-Broadway Play.",
+  "unhandled_section_the_exonerated": "### Basic Book Information\n- **Title**: The Exonerated\n- **Author(s)**: Jessica Blank and Erik Jensen\n- **Publication Year**: 2002\n- **Publisher**: Dramatists Play Service, Inc.\n- **Format**: Play (later adapted into a film in 2005)\n- **Focus/Theme**: Collection of stories of exonerated individuals, death row experiences, wrongful convictions\n- **Key Statistics**: The six individuals featured collectively spent over 100 years on death row for crimes they did not commit\n\n### Wrongfully Convicted Individuals Featured\n\n#### 1. Delbert Tibbs\n- **Name**: Delbert Tibbs\n- **Case Location**: Florida\n- **Conviction Year**: 1974\n- **Exoneration Year**: 1977\n- **Crime Convicted Of**: Murder and rape\n- **Sentence**: Death\n- **Time Served**: 2-3 years on death row\n- **Contributing Factors**: Eyewitness misidentification, racial bias (African American man in the Deep South)\n- **Legal Status**: Exonerated when evidence surfaced showing he was not even in the town when the crime occurred\n- **Organizations Involved**: Florida Supreme Court (overturned his conviction in a 5-4 decision)\n- **Cross-Reference**: His story is featured in multiple wrongful conviction resources\n- **Additional Notes**: After exoneration, Tibbs became a writer and anti-death penalty activist until his death in 2013\n\n#### 2. Kerry Max Cook\n- **Name**: Kerry Max Cook\n- **Case Location**: Tyler, Texas\n- **Conviction Year**: 1978\n- **Exoneration Year**: 2016 (formally declared innocent in 2024)\n- **Crime Convicted Of**: Rape and murder of Linda Jo Edwards\n- **Sentence**: Death\n- **Time Served**: 20 years on death row\n- **Contributing Factors**: Prosecutorial misconduct, false testimony, Brady violations (withholding of evidence)\n- **Legal Status**: Exonerated, declared actually innocent by Texas Court of Criminal Appeals in 2024\n- **Organizations Involved**: Texas Court of Criminal Appeals\n- **Cross-Reference**: His case is well-documented in wrongful conviction literature\n- **Additional Notes**: Described as \"a sensitive Texan brutalized on death row for twenty-two years before being exonerated by DNA evidence\"\n\n#### 3. Gary Gauger\n- **Name**: Gary Gauger\n- **Case Location**: Illinois\n- **Conviction Year**: Early 1990s\n- **Exoneration Year**: Mid-1990s\n- **Crime Convicted Of**: Murder of his own parents\n- **Sentence**: Death\n- **Time Served**: Several years on death row\n- **Contributing Factors**: False confession (was bullied into confessing), police misconduct\n- **Legal Status**: Exonerated when two motorcycle-gang members confessed to the murders\n- **Organizations Involved**: Illinois courts\n- **Cross-Reference**: His case is documented in wrongful conviction resources\n- **Additional Notes**: Described as \"a Midwestern organic farmer condemned for the murder of his own parents\"\n\n#### 4. David Keaton\n- **Name**: David Keaton\n- **Case Location**: Florida\n- **Conviction Year**: Early 1970s\n- **Exoneration Year**: Mid-1970s\n- **Crime Convicted Of**: Murder and robbery\n- **Sentence**: Death\n- **Time Served**: Several years on death row\n- **Contributing Factors**: False confession (bullied into confessing at age 18)\n- **Legal Status**: Exonerated\n- **Organizations Involved**: Florida courts\n- **Cross-Reference**: His case appears in wrongful conviction databases\n- **Additional Notes**: Described as \"a shy man with aspirations to the ministry, bullied into confessing at eighteen to a robbery/murder he had nothing to do with, scarred from a youth spent in prison and struggling to regain his faith\"\n\n#### 5. Robert Earl Hayes\n- **Name**: Robert Earl Hayes\n- **Case Location**: Florida\n- **Conviction Year**: Late 1980s/early 1990s\n- **Exoneration Year**: Mid-1990s\n- **Crime Convicted Of**: Murder of a white woman\n- **Sentence**: Death\n- **Time Served**: 7 years on death row\n- **Contributing Factors**: Racial bias, forensic errors\n- **Legal Status**: Exonerated when evidence emerged that the victim was found clutching hair from a Caucasian attacker\n- **Organizations Involved**: Florida courts\n- **Cross-Reference**: His case is documented in wrongful conviction resources\n- **Additional Notes**: Described as \"an African-American horse groomer who spent seven years on death row for the murder of a white woman\"\n\n#### 6. Sunny Jacobs\n- **Name**: Sonia \"Sunny\" Jacobs\n- **Case Location**: Florida\n- **Conviction Year**: 1976\n- **Exoneration Year**: 1992\n- **Crime Convicted Of**: Murder of two police officers\n- **Sentence**: Death (later commuted to life)\n- **Time Served**: 17 years in prison (5 years on death row)\n- **Contributing Factors**: False testimony, prosecutorial misconduct\n- **Legal Status**: Exonerated when another man confessed to the crime\n- **Organizations Involved**: Florida courts\n- **Cross-Reference**: Her case is well-documented in wrongful conviction literature\n- **Additional Notes**: After exoneration, she founded the Sunny Center, a sanctuary for the wrongfully convicted. Her husband, Jesse Tafero, was executed for the same crime in 1990 before evidence of their innocence came to light.\n\n### Book Research Notes\n- **Key Quotes**: The play uses the actual words of the exonerees, taken from interviews, letters, transcripts, case files and public records\n- **Systemic Issues Identified**: \n  - Racial bias in the criminal justice system\n  - Coerced confessions\n  - Eyewitness misidentification\n  - Prosecutorial misconduct\n  - Inadequate legal representation\n  - Systemic flaws in death penalty cases\n- **Policy Recommendations**: \n  - The play implicitly advocates for abolition of the death penalty\n  - Highlights need for reforms in police interrogation techniques\n  - Suggests improvements in handling of evidence and witness testimony\n- **Additional Resources**: \n  - The play was adapted into a film in 2005\n  - Jessica Blank and Erik Jensen published a memoir about creating the play called \"Living Justice: Love, Freedom and the Making of The Exonerated\" (2005)\n  - The play has been performed widely, including a special performance for Illinois Governor George Ryan, who subsequently commuted all death sentences in Illinois\n\n### Research Notes\nThis play is particularly significant in the study of wrongful convictions as it uses the actual words of exonerees to tell their stories, creating a powerful first-person narrative of the experience of being wrongfully convicted and sentenced to death. The play combines first-person monologues with scenes set in courtrooms and prisons, creating a comprehensive picture of the American criminal justice system's failures.\n\nThe play has had significant cultural and political impact, including a special performance for Illinois Governor George Ryan in December 2002, shortly before he commuted all death sentences in Illinois to life imprisonment due to concerns about wrongful convictions.\n\nThe original Off-Broadway production featured notable actors including Richard Dreyfuss, Jill Clayburgh, and Jay O. Sanders, and ran for over 600 performances. It won numerous awards including the Lucille Lortel Award for Unique Theatrical Experience, the Drama Desk Award for Unique Theatrical Experience, and the Outer Critics Circle Award for Outstanding Off-Broadway Play."
+}

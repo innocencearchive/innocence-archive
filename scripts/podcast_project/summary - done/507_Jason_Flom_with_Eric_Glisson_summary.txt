@@ -1,0 +1,135 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Episode 403: Eric Glissen & Dan Slepian (Based on filename and guests)
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company No. 1
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, investigative journalism, police and prosecutorial misconduct, eyewitness misidentification, personal narratives of exonerees.
+-   **Key Statistics/Information**:
+    -   Two separate murders in the Bronx, Jan 1995 (Denise Raymond, Bath Diop).
+    -   Seven people initially charged in connection with one or both murders.
+    -   Six individuals wrongfully convicted.
+    -   Convictions heavily reliant on testimony from one primary witness (Miriam Tavares) and her teenage translator (Kathy Gomez).
+    -   Two members of the Sex Money Murder gang confessed to the Diop murder in 2003, nine years before this information led to the exonerations.
+    -   NYPD failed to connect the 2003 confessions to the existing convictions due to record-keeping errors.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode details the wrongful conviction of Eric Glissen and five others for two separate 1995 Bronx murders they did not commit. Relying on shaky eyewitness testimony from Miriam Tavares and her young translator Kathy Gomez, police linked the unrelated murders of FedEx executive Denise Raymond and cab driver Bath Diop. Glissen was convicted for the Diop murder and sentenced to 25-to-life, ultimately serving over 17 years. While incarcerated, Glissen's persistent investigation uncovered phone records from Diop's stolen phone implicating members of the Sex Money Murder gang. This information reached US Attorney investigator John O'Malley, who realized two gang members had confessed to the Diop murder years prior in 2003, a fact missed due to an NYPD error stating the crime didn't exist in their records. This revelation led to Glissen's release in 2012 and the eventual exoneration of all six individuals.
+
+### Wrongfully Convicted Individuals Featured
+
+*(Information pertains to Eric Glissen primarily, with details on others as provided in the transcript)*
+
+**Individual 1: Eric Glissen**
+
+-   **Name**: Eric Glissen
+-   **Case Location**: Bronx, New York City, USA
+-   **Conviction Year**: 1997 (September)
+-   **Exoneration Year**: Released October 2012 (conditional), exoneration followed (exact date not specified).
+-   **Crime Convicted Of**: Murder (Bath Diop)
+-   **Sentence**: 25 years to life
+-   **Time Served**: 17 years, 9 months
+-   **Contributing Factors**: Eyewitness misidentification (Tavares), Police misconduct (Donnelly's investigation, failure to check witness vantage point), False/Coerced witness statement (Kathy Gomez), Tunnel vision, Reliance on unreliable witness testimony.
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**: US Attorney's Office (Investigator John O'Malley), Sister Joanna Chan (Advocacy), Rehabilitation Through the Arts (RTA Program - prison support). Mentioned writing to Innocence Project, but no confirmed involvement stated.
+-   **Innocence Lawyer Details**: Peter Cross (Corporate attorney who took the case pro bono later), Charmaine (Peter Cross's assistant, provided crucial support).
+-   **Cross-Reference**: Requires database check
+-   **Narrative of Original Crime**: Bath Diop, a livery cab driver, was found fatally shot on a Bronx street on January 19, 1995, in an apparent robbery.
+-   **Key Evidence at Trial (Prosecution)**: Primarily the testimony of Miriam Tavares, who claimed she saw the group fleeing Diop's car after hearing gunshots. Kathy Watkins was implicated by Tavares in a later statement and a voice identification by the cab dispatcher.
+-   **Trial Defender Notes**: Glissen's attorney argued Tavares could not have seen what she claimed from her window and requested a jury site visit, which the judge denied as unnecessary based on photos/videos presented by the prosecution.
+-   **Key Evidence for Exoneration/Change in Legal Status**: FOIA results showing calls made from victim Bath Diop's cell phone post-mortem; Glissen tracing these calls to Sex Money Murder gang members; Investigator John O'Malley linking this to 2003 confessions by Gilbert Vega and Joey Rodriguez for the Diop murder; Kathy Gomez's recantation stating Detective Donnelly wrote her statement and coerced her.
+-   **Actual Perpetrator Details**: Gilbert Vega and Joey Rodriguez, members of the Sex Money Murder gang. Confessed in federal court in 2003 to shooting a cab driver (Diop) during a robbery. They were sentenced for federal charges (shooting a gun in commission of a robbery) because the NYPD incorrectly told the US Attorney's office they had no record of the Diop murder at that time.
+
+**Individuals 2-5: Israel Vasquez, Devin Ayers, Michael Cosme, Carlos Perez**
+
+-   **Name**: Israel Vasquez (17), Devin Ayers (18), Michael Cosme (19), Carlos Perez (25)
+-   **Case Location**: Bronx, New York City, USA
+-   **Conviction Year**: 1997 (May)
+-   **Exoneration Year**: Released approx. 5-6 months after Eric Glissen (Spring 2013), exoneration followed.
+-   **Crime Convicted Of**: Murder (Tried together, implicated by Kathy Gomez in planning related to both Denise Raymond and Bath Diop). Likely convicted in relation to both or primarily the Raymond murder.
+-   **Sentence**: 50 years each
+-   **Time Served**: Approximately 17-18 years
+-   **Contributing Factors**: Eyewitness misidentification/False Testimony (Tavares, Gomez), Police misconduct (Donnelly), Prosecutorial misconduct (Lost evidence), Tunnel vision, False/Coerced witness statement (Gomez).
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**: (Same as Glissen, implicated in the group exoneration process).
+-   **Innocence Lawyer Details**: Not specified for these individuals.
+-   **Cross-Reference**: Requires database check
+-   **Narrative of Original Crime**: Denise Raymond, a FedEx executive, was found gagged, blindfolded, and shot twice in the head in her Bronx apartment on January 18, 1995. Also linked to the Bath Diop murder investigation.
+-   **Key Evidence at Trial (Prosecution)**: Testimony of Kathy Gomez (overhearing planning for "robbing a taxi and a girl"), Testimony of Miriam Tavares (overhearing discussions about Raymond murder). Physical evidence (bullets etc.) was reportedly lost by the prosecutor.
+-   **Trial Defender Notes**: Not detailed, beyond the general issues of witness credibility and lost evidence.
+-   **Key Evidence for Exoneration/Change in Legal Status**: Same as Eric Glissen, primarily the discovery of the actual perpetrators' confessions and Gomez's recantation.
+-   **Actual Perpetrator Details**: Raymond Murder: Not specified if Vega/Rodriguez were involved or if it remains unsolved/attributed to others. Diop Murder: Gilbert Vega and Joey Rodriguez.
+
+**Individual 6: Kathy Watkins**
+
+-   **Name**: Kathy Watkins
+-   **Case Location**: Bronx, New York City, USA
+-   **Conviction Year**: 1997 (September, tried with Glissen)
+-   **Exoneration Year**: Released approx. 5-6 months after Eric Glissen (Spring 2013), exoneration followed.
+-   **Crime Convicted Of**: Murder (Bath Diop)
+-   **Sentence**: 25 years to life
+-   **Time Served**: Approximately 17-18 years
+-   **Contributing Factors**: Eyewitness misidentification (Tavares added her implication late), Questionable voice identification process, Police misconduct (Donnelly failing to verify if she actually called the cab service), Tunnel vision.
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**: (Same as Glissen, implicated in the group exoneration process).
+-   **Innocence Lawyer Details**: Not specified for Watkins.
+-   **Cross-Reference**: Requires database check
+-   **Narrative of Original Crime**: Bath Diop murder (see Glissen entry). Watkins was accused of being involved based on a theory she called the cab, which was later found to be untrue.
+-   **Key Evidence at Trial (Prosecution)**: Testimony of Miriam Tavares (claiming Watkins was present, urging others on); Cab dispatcher voice identification (conducted under questionable circumstances).
+-   **Trial Defender Notes**: Not detailed. Key defense point would be lack of connection to others and the unverified claim she called the cab.
+-   **Key Evidence for Exoneration/Change in Legal Status**: Same as Eric Glissen, primarily the discovery of the actual perpetrators' confessions. The fact she didn't call the cab service was also noted as discovered later, though timing relative to exoneration isn't specified.
+-   **Actual Perpetrator Details**: Gilbert Vega and Joey Rodriguez (for the Diop murder).
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Eric Glissen during interrogation: "I don't know what you're talking about. I have no idea. I didn't do anything. I just want to go home and see my daughter."
+    -   Eric Glissen on survival: "I died on my feet, not on my knees... Every problem has an expiration date."
+    -   Eric Glissen on empowering his daughters: "On their room doors, I wrote in big letters, girls can do anything."
+    -   Investigator John O'Malley upon reading Glissen's letter: "Holy shit... a cab driver, sound view section of the Bronx 1995. I knew who did that."
+    -   Dan Slepian on systemic issues: "...a system that is so pathological and irrational."
+    -   Dan Slepian on solutions: "What is our true genuine safeguard against injustice? And the answer is educating people..."
+    -   Eric Glissen on prison system: "Prisons in America is really a for profit entity... the prosecutor's budgets got bigger."
+
+-   **Systemic Issues Identified**:
+    -   Reliance on unreliable eyewitness testimony (especially single witness).
+    -   Police tunnel vision and confirmation bias.
+    -   Coercion and manipulation of witnesses (especially vulnerable ones like minors).
+    -   Failure to conduct thorough investigations (e.g., checking witness vantage points, verifying phone logs).
+    -   Mishandling or loss of physical evidence by prosecution.
+    -   Lack of communication and information sharing between different law enforcement agencies (NYPD and US Attorney's Office).
+    -   Prosecutorial resistance to admitting error and delaying exonerations.
+    -   Absolute prosecutorial immunity shielding misconduct.
+    -   Impact of poverty on obtaining adequate legal defense.
+    -   Profit motive within the prison-industrial complex.
+    -   Decline of vocational and educational programs in prisons.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Implement reforms for eyewitness identification procedures.
+    -   Increase accountability for police and prosecutorial misconduct (revisiting immunity).
+    -   Ensure better evidence handling protocols.
+    -   Mandate improved information sharing between agencies.
+    -   Establish/strengthen conviction integrity units within DA offices.
+    -   Promote public education about wrongful conviction causes (jury awareness).
+    -   Reinstate and fund robust vocational and educational programs in prisons to aid rehabilitation and reduce recidivism.
+    -   Address the financial incentives within the justice and prison systems.
+
+-   **Personal Narrative/Impact**: Eric Glissen described the profound trauma of being arrested just after his daughter's birth, feeling his life crumble. He emphasized his unwavering belief in his innocence and relentless fight from prison, utilizing the law library and writing countless letters. He found strength in support networks like RTA and fellow innocent inmates. Post-exoneration, he dedicates himself to advocacy, stressing the importance of inner strength, positivity, and holding onto hope. His final thoughts focus critically on the prison system's profit motives and the detrimental removal of rehabilitative programs, arguing for systemic change and accountability.
+
+-   **Additional Resources**:
+    -   Dan Slepian's investigative reporting (mentioned he played a key role).
+    -   Dan Slepian's book (mentioned indirectly).
+    -   WNBC News Report on Eric Glissen's case (August 2012).
+    -   Freedom of Information Act (FOIA) requests (used by Glissen).
+    -   US Attorney's Office case files on Sex Money Murder gang (containing Vega/Rodriguez confessions).
+    -   Court records from the trials and exoneration proceedings.
+```

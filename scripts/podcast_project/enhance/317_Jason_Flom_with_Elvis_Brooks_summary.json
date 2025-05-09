@@ -1,0 +1,113 @@
+{
+    "sourceFileName": "317_Jason_Flom_with_Elvis_Brooks_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "Lava for Good Podcasts and Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, cross-racial misidentification, systemic issues in the justice system, prosecutorial misconduct, racism in the legal system.",
+        "keyStats": "Cross-racial identification is less accurate than guessing; Elvis Brooks served over 42 years in prison for a crime he didn't commit; Fingerprint evidence exonerating Elvis Brooks was withheld by the prosecution; 13 alibi witnesses for Elvis Brooks were ignored at trial.",
+        "itemNumber": "317",
+        "itemTitle": "Jason Flom with Elvis Brooks",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction details the story of Elvis Brooks, wrongfully convicted in 1977 for a robbery and murder in New Orleans.  The episode highlights the role of cross-racial misidentification and prosecutorial misconduct in his conviction. Despite fingerprint evidence at the crime scene not matching Brooks and thirteen alibi witnesses, he was convicted based on eyewitness testimony from traumatized, intoxicated white witnesses.  The prosecution withheld the exculpatory fingerprint evidence from the defense. Brooks spent over 42 years in Angola prison before being released after a plea deal and later fully exonerated. The podcast underscores systemic racism and the failures within the criminal justice system, particularly in Orleans Parish during the Harry Connick Sr. era."
+    },
+    "featuredIndividual": {
+        "fullName": "Elvis Brooks",
+        "caseLocation": "New Orleans, Louisiana, USA (Orleans Parish, 9th Ward)",
+        "convictionYear": "1977",
+        "exonerationYear": "2023 (full exoneration after initial release in 2019 via plea deal)",
+        "crimeConvictedOf": "Robbery and murder (of Cecil Lloyd)",
+        "sentence": "Life in prison",
+        "timeServed": "Over 42 years",
+        "contributingFactorsRaw": [
+            "Cross-racial misidentification",
+            "Prosecutorial misconduct (withholding exculpatory fingerprint evidence)",
+            "Ineffective assistance of counsel (original lawyer not informed of fingerprint evidence)",
+            "Systemic racism in the criminal justice system",
+            "Prior wrongful arrest and mugshot contributing to misidentification"
+        ],
+        "status": "Fully exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project New Orleans (IPNO)",
+            "AIG Pro Bono Program (mentioned as underwriter, supporting pro bono legal assistance)"
+        ],
+        "innocenceLawyersRaw": [
+            "Cheryl Arnold, supervising attorney for case development at Innocence Project New Orleans (IPNO), represented Elvis Brooks in his post-conviction efforts."
+        ],
+        "crossReference": "Likely appears in exoneree databases (not explicitly stated in transcript, but typical for cases featured on \"Wrongful Conviction\").",
+        "narrativeOriginalCrime": "Two black men robbed the Welcome-In bar in New Orleans. During the robbery, one of the robbers fatally shot Cecil Lloyd, a patron. The robbers left beer cans at the scene.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness identifications from three white bar patrons (bar owner, and two patrons) who identified Elvis Brooks as the shorter of the two robbers and the shooter, despite inconsistencies in descriptions and cross-racial identification issues."
+        ],
+        "trialDefenderNotes": "Elvis Brooks's lawyer presented 13 alibi witnesses, including family members, who testified that Elvis was at home at the time of the crime. Elvis Brooks also testified in his own defense, asserting his innocence. The defense was not informed of the exculpatory fingerprint evidence.",
+        "keyEvidenceExonerationRaw": [
+            "Fingerprint evidence from beer cans at the crime scene that did not match Elvis Brooks. This evidence was withheld by the prosecution at the original trial.",
+            "Discovery of notes in the DA file indicating the prosecution was aware the fingerprints were not a match.",
+            "Continued legal efforts by IPNO, leading to a plea deal for release in 2019 and full exoneration in 2023 after Jason Williams became District Attorney."
+        ],
+        "actualPerpetratorDetails": "Unknown. The fingerprint evidence indicated the perpetrators were not Elvis Brooks, but their identities were not determined due to evidence retention practices of the time and loss of the physical fingerprint evidence."
+    },
+    "keyQuotesRaw": [
+        "\"Cross-racial misidentification, which, as you know, in study after study has been found and proven to be even less accurate than guessing.\" - Jason Flom highlighting the central issue.",
+        "\"They knew that the fingerprints on those beer cans didn't match Elvis Brooks. We don't know who they were, but we know they didn't belong to Mr. Brooks. So they got these fingerprints. They knew that they didn't match Elvis. But yet they decided to go ahead and pursue the death penalty anyway.\" - Jason Flom emphasizing prosecutorial misconduct.",
+        "\"I learned the hard way just how much people hate other people. You want to get somebody to get the right person that's done it, you know? Don't come just snatched on anybody.\" - Elvis Brooks reflecting on his wrongful conviction and systemic racism.",
+        "\"They took my whole youth from me. It took the best years of my life, you know. And nothing could ever replace it.\" - Elvis Brooks expressing the impact of his wrongful conviction.",
+        "\"They did it because they could. And it's a system where could they do it again today? Sure. I think I think they could.\" - Cheryl Arnold on the systemic nature of wrongful convictions."
+    ],
+    "systemicIssuesRaw": [
+        "Racism in the criminal justice system, particularly in Orleans Parish.",
+        "Prosecutorial misconduct and withholding of exculpatory evidence.",
+        "Flaws and biases in eyewitness identification, especially cross-racial identification.",
+        "Inadequate defense for indigent defendants.",
+        "Lack of accountability for wrongful convictions.",
+        "Issues with evidence retention and documentation by law enforcement.",
+        "The legacy of slavery and its continuation in the prison system (Angola Penitentiary as former plantation)."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for organizations like Innocence Project New Orleans (IPNO) to help free wrongfully convicted individuals.",
+        "Criminal justice reform, particularly in Orleans Parish and Louisiana.",
+        "Focus on local elections and electing reform-minded prosecutors like Jason Williams.",
+        "Need for better evidence handling and retention procedures.",
+        "Addressing systemic racism within the legal system.",
+        "Audience encouraged to donate to Elvis Brooks's Amazon Wish List and Freedom Fund (mentioned at the end of the episode, though details not in transcript)."
+    ],
+    "personalNarrativeRaw": [
+        "Elvis Brooks lost over 42 years of his life to wrongful imprisonment, missing out on family milestones and opportunities.",
+        "He endured hard labor and harsh conditions in Angola prison.",
+        "His brother was killed while incarcerated in Angola.",
+        "He expresses the profound impact of experiencing injustice and racism, changing his view of people.",
+        "Despite the hardship, he expresses gratitude for being free and reunited with his family."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project New Orleans (IPNO) - link to donate mentioned in podcast.",
+        "Jason Williams's other podcast, \"Righteous Convictions\" - episode featuring Jason Williams mentioned.",
+        "Elvis Brooks's Amazon Wish List and Freedom Fund - mentioned as action steps for listeners.",
+        "AAA.com, mycomputercareer.edu/CWP, Target.com/circle, culvers.com, protechgr.com, lifeEMS.com, trinityhealthmi.org/spine - Advertisers mentioned in the transcript, not directly related to wrongful conviction research."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Harry Connick Sr.",
+                "role_guess": "Prosecutor",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "wrongful conviction",
+                "racial bias in the justice system",
+                "prosecutorial misconduct",
+                "eyewitness misidentification",
+                "systemic racism"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

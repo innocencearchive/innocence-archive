@@ -1,0 +1,84 @@
+{
+    "sourceFileName": "395_Jason_Flom_with_Sullivan_Walter_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, forensic evidence error, eyewitness misidentification, prosecutorial misconduct, ineffective defense counsel, systemic issues in the justice system.",
+        "keyStats": "- Sullivan Walter served 36 years for a rape he did not commit.\n- In 1986, New Orleans, under DA Harry Connick Sr., was the most incarcerated city in the most incarcerated state in the most incarcerated country.\n- Initial serology tests on rape kit and victim's undergarments could not detect blood type activity in seminal stains, indicating a non-secretor perpetrator.\n- Sullivan Walter is blood type B and a secretor, making it impossible for him to be the perpetrator based on the forensic evidence.\n- Despite evidence of innocence emerging in 1988, it took until 2022 for Sullivan Walter to be exonerated.",
+        "itemNumber": "395",
+        "itemTitle": "Jason Flom with Sullivan Walter",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the harrowing story of Sullivan Walter, who was wrongfully convicted of rape in New Orleans in 1986 and served 36 years in prison. Despite lacking a Jerry curl and facial hair as described by the victim, and crucially, despite forensic evidence proving the perpetrator was a non-secretor while Sullivan is a secretor, he was convicted based on a questionable eyewitness identification.  The podcast details the egregious errors and systemic failures, including altered testimony by a criminalist and ineffective legal representation, that kept Sullivan imprisoned for decades after his innocence was scientifically demonstrable.  It highlights the devastating impact of wrongful conviction, the lengthy fight for exoneration, and the urgent need for systemic reform within the criminal justice system, ultimately culminating in Sullivan's release in 2022 thanks to the work of Innocence Project New Orleans."
+    },
+    "featuredIndividual": {
+        "fullName": "Sullivan Walter",
+        "caseLocation": "New Orleans, Louisiana, USA",
+        "convictionYear": "1986",
+        "exonerationYear": "2022",
+        "crimeConvictedOf": "Rape, two counts of crime against nature",
+        "sentence": "35 years",
+        "timeServed": "36 years",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification (cross-racial identification)",
+            "Forensic error/misinterpretation (initially, later revealed as deliberate misrepresentation of secretor status evidence)",
+            "Ineffective assistance of counsel (at trial and during appeals)",
+            "Prosecutorial misconduct (non-disclosure of exculpatory evidence, allowing false testimony)"
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project New Orleans (IPNO), The Anderson Project (client services post-release)"
+        ],
+        "innocenceLawyersRaw": [
+            "Richard Davis, Legal Director of Innocence Project New Orleans (IPNO), played a crucial role in Sullivan's exoneration. He researched the case, identified legal avenues for review, and presented the evidence of innocence to the Civil Rights Division of the District Attorney's Office."
+        ],
+        "crossReference": "Not mentioned if in a specific exoneree database, but case is a clear example of wrongful conviction.",
+        "narrativeOriginalCrime": "On May 9, 1986, a masked, knife-wielding man broke into a woman's apartment in the Garden District of New Orleans, attacked her in the bathroom, put a t-shirt over her head, forced her to perform oral sex, and raped her twice.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness identification by the victim from a photo array, including Polaroids of Sullivan wearing a baseball cap.",
+            "Implicit suggestion that Sullivan matched a composite sketch, despite discrepancies."
+        ],
+        "trialDefenderNotes": "Defense lawyer did not present any evidence on Sullivan's behalf. The trial lasted only about an hour. The defense lawyer raised the late disclosure of the blood typing report in an initial appeal, but the brief was short and insufficient.  At a later hearing for a new trial, the defense lawyer did not challenge the criminalist's altered testimony or present independent expert testimony.",
+        "keyEvidenceExonerationRaw": [
+            "Scientific evidence: Serology testing revealed the perpetrator was a non-secretor. Sullivan Walter is a secretor (blood type B), making it impossible for him to be the perpetrator. This was confirmed in January 1988.",
+            "Recantation/Inconsistency of Criminalist's Testimony: Criminalist Harry O'Neill initially testified at trial that the assailant was a non-secretor. At a later hearing for a new trial, he altered his testimony, claiming uncertainty about the secretor status, which was scientifically refuted by serologist Alan Keel.",
+            "New DA's Office:  Jason Williams elected as District Attorney in 2020, ushering in a more reform-minded era, and the Civil Rights Division under Melissa Montel recognized the injustice in Sullivan's case."
+        ],
+        "actualPerpetratorDetails": "Not mentioned in the transcript. The actual perpetrator of the rape was never identified or brought to justice."
+    },
+    "keyQuotesRaw": [
+        "Sullivan Walter: \"My biggest fear in prison was that I didn't want to die in prison for something I didn't do.\"",
+        "Sullivan Walter: \"I just was denied a chance to live life. And I believe that I'm, I know, I don't believe it. I know it. Without a doubt, I'm a good person. I'm a good man.\"",
+        "Richard Davis: \"I wish we had a system that treated his life as important enough that it was dealt with just like competent conscientious professionals long before I was even doing this work.\"",
+        "Judge Darryl Durbany:  \"...to say that this was unconscionable would be an understatement.\""
+    ],
+    "systemicIssuesRaw": [
+        "Flawed eyewitness identification procedures, especially cross-racial identifications.",
+        "Misuse and misrepresentation of forensic evidence, including potential perjury by forensic analysts.",
+        "Ineffective assistance of counsel at trial and during appeals.",
+        "Prosecutorial misconduct, including Brady violations (non-disclosure of exculpatory evidence).",
+        "Judicial inaction and resistance to correcting wrongful convictions, even with clear evidence of innocence.",
+        "The devastating impact of \"tough on crime\" eras and the influence of figures like DA Harry Connick Sr. on creating a system prone to wrongful convictions.",
+        "The lengthy and arduous process for exoneration, even with compelling evidence of innocence."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for organizations like Innocence Project New Orleans (IPNO).",
+        "Reforming eyewitness identification procedures to minimize suggestiveness and cross-racial misidentification.",
+        "Ensuring proper handling and interpretation of forensic evidence, and accountability for forensic analysts.",
+        "Improving access to effective legal counsel for indigent defendants, including post-conviction.",
+        "Strengthening Brady rules and ensuring accountability for prosecutorial misconduct.",
+        "Creating mechanisms for quicker and more effective review of potential wrongful conviction cases."
+    ],
+    "personalNarrativeRaw": [
+        "Sullivan Walter describes the profound personal impact of wrongful conviction, including the trauma of prison as a sex offender, the loss of family relationships (mother, father, sister), and the loss of his youth and life opportunities. He emphasizes the psychological toll and his struggle to survive and maintain hope despite decades of injustice. He also highlights the victim's secondary victimization by the failure to find the actual perpetrator and bring them to justice."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project New Orleans (IPNO)",
+        "The Anderson Project (post-release support)",
+        "GoFundMe page for Sullivan Walter (link to be included in podcast bio)",
+        "Lava for Good Plus on Apple Podcasts (for early access to Wrongful Conviction episodes)"
+    ]
+}

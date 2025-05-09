@@ -1,0 +1,86 @@
+{
+    "sourceFileName": "239_Jason_Flom_with_Johnny_Berry_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "Lava for Good Podcasts, in association with Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, flaws in the justice system, juvenile justice, prosecutorial misconduct, exoneration.",
+        "keyStats": "-   Recidivism rate for individuals released after serving life sentences is less than 1%.\n-   Cost to house an inmate annually is approximately $37,000 to $40,000, potentially hundreds of thousands for geriatric or assisted inmates.\n-   Pennsylvania does not have a compensation statute for wrongfully convicted individuals.\n-   Supreme Court rulings (Roper v. Simmons, Graham v. Florida, Miller v. Alabama, Montgomery v. Louisiana) have significantly impacted juvenile justice, particularly regarding life sentences.",
+        "itemNumber": "239",
+        "itemTitle": "Jason Flom with Johnny Berry",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Johnny Berry, who was wrongfully convicted as a juvenile in Philadelphia for a 1994 murder he did not commit.  Berry recounts his life before and after his arrest, detailing the flawed investigation, false testimony from a co-defendant, and ineffective defense that led to his life sentence.  Despite a recantation from the co-defendant and evidence of his innocence, Berry spent nearly 25 years in prison due to prosecutorial misconduct and systemic issues.  The episode highlights the impact of Supreme Court rulings on juvenile life sentences which eventually led to Berry's release and subsequent exoneration thanks to a conviction integrity unit.  Berry emphasizes the need for parole eligibility for life sentences in Pennsylvania and discusses the lack of compensation for exonerees, while also sharing his positive life changes post-exoneration."
+    },
+    "featuredIndividual": {
+        "fullName": "Johnny Berry",
+        "caseLocation": "Philadelphia, Pennsylvania, USA",
+        "convictionYear": "1995",
+        "exonerationYear": "2019",
+        "crimeConvictedOf": "Murder, robbery, conspiracy, possessing instruments of crime",
+        "sentence": "Life in prison without parole",
+        "timeServed": "Nearly 25 years",
+        "contributingFactorsRaw": [
+            "False testimony/perjury (Tahid Lloyd)",
+            "Shaky eyewitness testimony (Michelle Brooks, initially recanted then changed story)",
+            "Police focus on a known individual due to pressure to solve crimes",
+            "Prosecutorial misconduct (threatening witness recantation)"
+        ],
+        "status": "Exonerated, charges dismissed",
+        "organizationsInvolvedRaw": [
+            "Philadelphia's Conviction Integrity Unit (District Attorney Larry Krasner and Patricia Cummings)",
+            "Innocence Project (mentioned generally regarding compensation statutes)"
+        ],
+        "innocenceLawyersRaw": [
+            "Donald Michael Padova (Court-appointed trial attorney, described as overworked and underpaid, did his best)",
+            "Robert Gamburg (Post-conviction attorney, filed petition for new trial, gathered evidence, mentioned by name Dan in transcript but likely misspoken by host as Robert Gamburg is known to be involved in the case)"
+        ],
+        "crossReference": "Not specified in transcript, but likely should be added to an exoneree database.",
+        "narrativeOriginalCrime": "Leonard Jones, 78, and Michelle Brooks, 27, were in a parked car when two young men approached. One blocked Brooks' door, and the other demanded Jones get out before shooting and killing him. The two men fled the scene.",
+        "keyEvidenceProsecutionRaw": [
+            "Michelle Brooks' testimony (initially identified Berry in photo lineup, recanted, then gave conflicting testimony at trial, identifying Berry as both door blocker and gunman).",
+            "Tahid Lloyd's testimony (falsely implicated Berry as his accomplice and the shooter)."
+        ],
+        "trialDefenderNotes": "Court-appointed attorney Donald Michael Padova was described as overworked and underpaid, and limited in what he could do against a co-defendant's testimony.  The defense was seemingly unable to effectively counter the false testimony and shaky eyewitness account.",
+        "keyEvidenceExonerationRaw": [
+            "Recantation letter and affidavit from Tahid Lloyd admitting his false testimony.",
+            "Statements from individuals in juvenile detention who overheard Lloyd admitting he was going to falsely accuse Berry.",
+            "Statement from prison inmate Bryant Miles about Russell Q. Wilson admitting he and Lloyd committed the crime and Lloyd was the gunman.",
+            "Supreme Court rulings on juvenile life sentences (Miller v. Alabama, Montgomery v. Louisiana) made Berry eligible for parole.",
+            "Review by Philadelphia's Conviction Integrity Unit under Larry Krasner and Patricia Cummings."
+        ],
+        "actualPerpetratorDetails": "-   Tahid Lloyd confessed to being one of the attackers and later admitted to being the gunman in his recantation.\n-   Russell Q. Wilson was identified by a prison inmate (Bryant Miles) as the other perpetrator, who confessed to Lloyd being the gunman. Wilson was not charged in place of Berry, and remained free while Berry was imprisoned."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"This episode is probably going to mess with your perceptions of justice. I mean, there are so many things wrong with this case. You're going to feel like you need a chiropractor from your head spinning around.\" (Highlights the extreme injustice of the case.)",
+        "Johnny Berry: \"Tears came down my eyes like a baby. I looked back at my mother at the time I was living and I cried because I couldn't believe that the system had felt my family and my community and me. And at that point, I just felt absolutely helpless.\" (Expresses the devastating emotional impact of wrongful conviction.)",
+        "Johnny Berry regarding exoneration day: \"And I'm like, wow, 23 years and some change versus 15 minutes. And I walked out of the courtroom, a free man. I just felt like I've got me back. I have felt empowered. And I felt like I could then begin my new life.\" (Highlights the stark contrast between the length of wrongful imprisonment and the brevity of exoneration, and his sense of regaining his life.)",
+        "Johnny Berry: \"Support a bill for parole eligibility.\" (Call to action and key takeaway message.)"
+    ],
+    "systemicIssuesRaw": [
+        "Police focus on known individuals under pressure to solve crimes, potentially leading to tunnel vision and neglect of exculpatory evidence.",
+        "Use of unreliable eyewitness testimony and its impact on convictions.",
+        "False testimony from co-defendants seeking reduced sentences.",
+        "Prosecutorial misconduct, including threatening witnesses to maintain wrongful convictions.",
+        "Lack of adequate defense for indigent defendants (overworked, underpaid court-appointed attorneys).",
+        "Absence of compensation statutes in some states for wrongfully convicted individuals.",
+        "Issues with juvenile justice and life sentences."
+    ],
+    "policyRecommendationsRaw": [
+        "Enact parole eligibility legislation for individuals serving life sentences in Pennsylvania.",
+        "Support organizations working on criminal justice reform and wrongful conviction cases (implicitly suggested by the podcast content and host).",
+        "Advocate for compensation statutes for wrongfully convicted individuals in states that lack them."
+    ],
+    "personalNarrativeRaw": [
+        "Johnny Berry describes the devastating impact of wrongful conviction on his life, family, and mental state. He lost his mother while incarcerated and missed out on significant life events.",
+        "Despite the trauma, Berry demonstrates resilience, forgiveness, and a desire to contribute positively to society through his business and advocacy for criminal justice reform.",
+        "His final thoughts focus on systemic change and advocating for parole eligibility, showcasing his focus on broader issues beyond his personal experience."
+    ],
+    "additionalResourcesRaw": [
+        "Contact information for Johnny Berry's cleaning business and speaking engagements (BarryJohnny1111@gmail.com).",
+        "Mention of AIG and Accenture's pro bono legal services for criminal justice reform, suggesting listeners can learn more about these initiatives.",
+        "Social media handles for Wrongful Conviction podcast and Lava for Good, encouraging further engagement and information."
+    ]
+}

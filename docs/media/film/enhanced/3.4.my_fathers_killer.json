@@ -1,0 +1,61 @@
+{
+  "source_file_name": "3.4.my_fathers_killer.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "20/20",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "ABC News",
+    "focus_or_theme": "Wrongful arson conviction, flawed fire science, death penalty case",
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "My Father's Killer",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful arson conviction, flawed fire science, death penalty case",
+    "summary_notes": "The program investigates Madison Hobley's conviction, which was based on discredited fire investigation techniques. He was sentenced to death before receiving a pardon.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Investigation into Hobley's conviction based on now-discredited fire investigation techniques; sentenced to death before pardon. Available via ABC.",
+      "research_findings": "Searches did not confirm a 20/20 episode titled \"My Father's Killer\" featuring Madison Hobley. However, the details provided in `film_list.txt` accurately describe the high-profile Hobley case, which involved flawed arson science and Hobley's eventual pardon as part of Gov. Ryan's blanket commutations/pardons related to concerns about the death penalty system in Illinois. Details above rely on `film_list.txt` and general case knowledge."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Madison Hobley",
+      "first_name": "Madison",
+      "middle_name": null,
+      "last_name": "Hobley",
+      "status": "RELEASED_CLEMENCY",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2003,
+      "time_served": "~13 years on death row",
+      "sentence": "Death Penalty",
+      "crime_convicted_of_raw": "Arson and Murder (of wife and infant son in 1987 fire)",
+      "case_location_city": "Chicago",
+      "case_location_state": "Illinois",
+      "narrative_summary": "Madison Hobley was wrongfully convicted of arson and the murder of his wife and son in a 1987 fire. His conviction was based on discredited fire investigation techniques. He was sentenced to death but later pardoned based on innocence by Gov. George Ryan.",
+      "contributing_factors_raw": [
+        "Discredited fire investigation techniques",
+        "Alleged police misconduct/coerced confession (part of Chicago PD torture scandal context)"
+      ],
+      "organizations_involved_raw": [
+        "Center on Wrongful Convictions (Northwestern Law)"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "Searches did not confirm a 20/20 episode titled \"My Father's Killer\" featuring Madison Hobley. However, the details provided in `film_list.txt` accurately describe the high-profile Hobley case, which involved flawed arson science and Hobley's eventual pardon as part of Gov. Ryan's blanket commutations/pardons related to concerns about the death penalty system in Illinois. Details above rely on `film_list.txt` and general case knowledge."
+}

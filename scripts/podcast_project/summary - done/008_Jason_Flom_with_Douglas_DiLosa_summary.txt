@@ -1,0 +1,82 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, assume episodic series.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript, assume ongoing.
+-   **Production Company(ies)/Network**: Lava for Good podcast in association with signal company number one.
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, criminal justice system failures, prosecutorial misconduct, exoneration, post-prison life.
+-   **Key Statistics/Information**:
+    - Louisiana has a three times higher rate of incarceration than the rest of the country per capita.
+    - America has a five times higher rate of incarceration than the rest of the world.
+    - Louisiana's compensation statute allows for $25,000 a year for a maximum of 10 years of wrongful incarceration, often falling short of actual expenses.
+    - 20 states have no compensation statutes for wrongful conviction.
+    - There have been 46 exonerations in Louisiana since 1989, with a quarter occurring in Jefferson County.
+    - Brady violations are common and difficult to uncover and rectify, often requiring proof of 'materiality' to overturn convictions.
+    - Prosecutors have immunity from civil suits in most cases of misconduct.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features Doug Delosa, who recounts his horrific experience of wrongful conviction for the murder of his wife. Delosa describes the home invasion, his brutalization, and the subsequent police investigation that shockingly turned against him.  Despite clear evidence of other perpetrators (fingerprints, taxi driver testimony), the prosecution withheld crucial information, leading to Delosa's wrongful conviction and 14-year imprisonment in Angola, a notoriously harsh prison.  He details the brutal conditions of Angola, his fight for survival, and how he eventually learned law and successfully appealed his case pro se.  The episode also features Nina Morrison from the Innocence Project, discussing Brady violations, prosecutorial misconduct, and systemic issues within the justice system that enable wrongful convictions like Delosa's, highlighting the lack of accountability and need for reform.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Doug Delosa
+-   **Case Location**: Kenner, Louisiana, USA (Jefferson County)
+-   **Conviction Year**: Not explicitly stated in transcript, but approximately 3 months after September 27th and before December 29th.
+-   **Exoneration Year**: Not explicitly stated in transcript, but after serving 14 years.
+-   **Crime Convicted Of**: Murder of his wife, Glinda Delosa
+-   **Sentence**: Life in prison
+-   **Time Served**: 14 years
+-   **Contributing Factors**:
+    - Prosecutorial misconduct (Brady violation - withholding exculpatory evidence: fingerprints, taxi driver testimony).
+    - Perjury by fingerprint expert.
+    - Pressure on police to solve the case quickly.
+    - Lack of proper investigation into alternative suspects.
+-   **Legal Status**: Exonerated after federal writ of habeas corpus was granted.
+-   **Organizations Involved**: Innocence Project (Doug Delosa now works with rising foundation, helping other exonerees, and is an advocate for the Innocence Project)
+-   **Innocence Lawyer Details**: Doug Delosa acted as his own lawyer in his successful federal appeal (pro se), after having multiple lawyers previously who were unsuccessful. He learned law and worked as an inmate council substitute/prison lawyer in Angola's law library.
+-   **Cross-Reference**: Not specified if in exoneree database, but highly likely given Innocence Project involvement and podcast focus.
+-   **Narrative of Original Crime**: Doug Delosa reported a home invasion where he was attacked and hog-tied by two individuals. He found his wife unresponsive upstairs and called 911 through his son. Police arrived and later determined his wife was murdered.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Circumstantial case based on theory of how and why Doug Delosa committed the murder.
+    - Argument that Delosa had no evidence to support his story of a home invasion by two black men.
+-   **Trial Defender Notes**:  Defense was unable to present key exculpatory evidence because it was withheld by the prosecution (Brady violation).
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - Federal writ of habeas corpus citing Brady violations (withholding of fingerprint evidence and taxi driver testimony).
+    - Magistrate judge recommended conviction be set aside.
+-   **Actual Perpetrator Details**: Description provided by taxi driver of two black men leaving the vicinity of the Delosa home around the time of the murder, carrying items possibly taken from the house, and fleeing in a silver van.  Police did not investigate this lead and withheld this information.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - Doug Delosa: "Cops came out with guns drawn and I never saw freedom ever ever since after that. It's like Roach Motel once you get in, you know, I can't mount."
+    - Doug Delosa (describing police officer): "man, fuck you, fuck your children and fuck that dead wife of yours. I didn't ask that stupid bitch to die in my city."
+    - Doug Delosa (on receiving news of exoneration): "For the first time since my wife's funeral, I cried. I started crying almost uncontrollably when I read that the magistrate judge recommended that my conviction be set aside and that I'll be, um, you know, freed."
+    - Nina Morrison (on Brady violations): "It's basically anything that helps the defense. And it's a strange system when you think about it because prosecutors and defense lawyers go into court, they're fighting hard in these big murder cases... And the way the law is set up is the prosecutor has to give the other side something voluntarily that might make them lose and we trust them in most places to turn it over."
+-   **Systemic Issues Identified**:
+    - Prosecutorial misconduct and Brady violations are prevalent and difficult to rectify.
+    - Lack of accountability for prosecutors who commit misconduct.
+    - Inadequate compensation for wrongfully convicted individuals.
+    - Racial bias potentially evident in the initial dismissal of the taxi driver's testimony about black men in a white neighborhood.
+    - Harsh and inhumane prison conditions, exemplified by Angola.
+-   **Policy Recommendations/Calls to Action**:
+    - Judges to take a more active role in ensuring Brady compliance by prosecutors through pre-trial orders and conferences.
+    - State bars to hold prosecutors accountable for Brady violations, similar to other forms of lawyer misconduct.
+    - Reforming prosecutorial immunity to allow for civil suits in cases of egregious misconduct.
+    - Increase compensation for exonerees to adequately address the harm they have suffered.
+    - Support organizations like the Innocence Project to help prevent and rectify wrongful convictions.
+-   **Personal Narrative/Impact**: Doug Delosa's narrative highlights the devastating personal impact of wrongful conviction, including loss of freedom, brutal prison conditions, emotional trauma, and financial hardship.  Despite these immense challenges, he demonstrated resilience by learning law, fighting for his own exoneration, and dedicating his post-exoneration life to helping others who have been wrongfully convicted.  His final thoughts emphasize the injustice of the system and the need for continued advocacy for exonerees.
+-   **Additional Resources**:
+    - Innocence Project (InnocenceProject.org) - website mentioned for donations and involvement.
+    - Rising Foundation (where Doug Delosa works, mentioned by Jason Flom) -  implied resource for exoneree support.
+    - National Registry of Exonerations (mentioned regarding Louisiana exoneration statistics).
+
+```

@@ -1,0 +1,51 @@
+{
+  "source_file_name": "2.3.death_by_fire.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Film & Documentary Research: Wrongful Conviction Media Sources",
+    "publication_or_release_year": null,
+    "publisher_or_network": null,
+    "focus_or_theme": null,
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "*_**title**": "FRONTLINE",
+    "*_**episode__and_title_if_applicable**": "Death by Fire",
+    "*_**directors**": null,
+    "*_**release_year**": null,
+    "*_**production_companyies**": "FRONTLINE (PBS/WGBH)",
+    "*_**format**": "Documentary",
+    "*_**focus_theme**": "Flawed arson science; Questionable forensic evidence; Potential wrongful execution.",
+    "*_**key_statistics_information**": "Highlighted expert reviews questioning original arson findings post-execution."
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Film & Documentary Research: Wrongful Conviction Media Sources",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": null,
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "unparsed_*_**key_quotes_moments**": null,
+      "unparsed_*_mention_of_informant_johnny_webb_questioning_if_the_statute_of_limitations_had_run_out_on_perjury_[cite": "13.1].",
+      "unparsed_*_the_conflict_between_original_investigators_defending_their_findings_and_later_expert_reports_debunking_the_arson_science_used_[cite": "13.1].",
+      "unparsed_*_**systemic_issues_identified**": "Unreliability and evolution of forensic science (specifically arson investigation); Use and potential unreliability of jailhouse informant testimony; Risk of executing innocent individuals.",
+      "unparsed_*_**policy_recommendations_calls_to_action**": "Implicitly calls for rigorous review of forensic science standards used in courts, protocols for informant testimony, and extreme caution in capital cases.",
+      "unparsed_*_**additional_resources**": null,
+      "unparsed_*_[cameron_todd_willingham_-_wikipedia]https": "//en.wikipedia.org/wiki/Cameron_Todd_Willingham)",
+      "unparsed_*_the_new_yorker_and_chicago_tribune_investigative_reports_[cite": "13.1]",
+      "unparsed_*_texas_forensic_science_commission_reports_on_the_case_[cite": "13.1]"
+    }
+  },
+  "featured_individuals": [],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null,
+  "unhandled_section_research_file:_frontline_-_death_by_fire": "### Basic Film/Documentary Information\n\n* **Title**: FRONTLINE\n* **Episode # & Title (if applicable)**: Death by Fire\n* **Director(s)**: Information Unavailable\n* **Release Year**: Information Unavailable\n* **Production Company(ies)**: FRONTLINE (PBS/WGBH)\n* **Format**: Documentary\n* **Focus/Theme**: Flawed arson science; Questionable forensic evidence; Potential wrongful execution.\n* **Key Statistics/Information**: Highlighted expert reviews questioning original arson findings post-execution.\n\n### Wrongfully Convicted Individuals Featured\n\n*(Note: This case involves a potential wrongful execution, with guilt heavily disputed after execution)*\n\n* **Name**: Cameron Todd Willingham\n    * **Case Location**: Corsicana, Texas, USA\n    * **Conviction Year**: Circa 1992 (Fire occurred Dec 1991)\n    * **Exoneration Year**: N/A (Executed February 17, 2004)\n    * **Crime Convicted Of**: Murder (by arson, killing his three young daughters)\n    * **Sentence**: Death\n    * **Time Served**: Approx. 12 years [Calculated from conviction ~1992 to execution 2004]\n    * **Contributing Factors**: Flawed/outdated arson science interpretation (char patterns, accelerant tests); Contested jailhouse informant testimony (Johnny Webb - potential deal, recantation issues).\n    * **Legal Status**: Executed; Significant doubt raised posthumously about his guilt by independent reviews and forensic experts.\n    * **Organizations Involved**: Texas Forensic Science Commission (investigated case post-execution); Innocence Project (involved in posthumous investigation).\n\n### Film/Documentary Research Notes\n\n* **Key Quotes/Moments**:\n    * Mention of informant Johnny Webb questioning if the statute of limitations had run out on perjury.\n    * The conflict between original investigators defending their findings and later expert reports debunking the arson science used.\n* **Systemic Issues Identified**: Unreliability and evolution of forensic science (specifically arson investigation); Use and potential unreliability of jailhouse informant testimony; Risk of executing innocent individuals.\n* **Policy Recommendations/Calls to Action**: Implicitly calls for rigorous review of forensic science standards used in courts, protocols for informant testimony, and extreme caution in capital cases.\n* **Additional Resources**:\n    * [Cameron Todd Willingham - Wikipedia](https://en.wikipedia.org/wiki/Cameron_Todd_Willingham)\n    * The New Yorker and Chicago Tribune investigative reports\n    * Texas Forensic Science Commission reports on the case"
+}

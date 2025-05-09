@@ -1,0 +1,111 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but features Sunny Jacobs, Peter Frankel, and Christina Tefaro.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript (assuming recent as it mentions current events).
+-   **Production Company(ies)/Network**: Lava for Good Podcast
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction stories, injustice in the legal system.
+-   **Key Statistics/Information**:
+    -   Jailhouse snitch testimony was a deciding factor in almost 46% of overturned capital cases.
+    -   Judicial override was a factor in 50% of overturned death sentences (in states where it was legal).
+    -   Florida's electric chair malfunctioned during Jesse Tafero's execution, taking 13.5 minutes to die and reportedly catching fire.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Jason Flom" features the harrowing story of Sunny Jacobs, wrongfully convicted in 1976 for the murder of two police officers. Sunny recounts the unbelievable series of events that led to her arrest, conviction, death sentence, and 17 years of imprisonment, including 5 years in solitary confinement on death row.  The episode details the role of a jailhouse snitch, a biased judge, and judicial override in her case.  The tragic execution of her husband, Jesse Tafero, and its horrific malfunction are also discussed.  Sunny shares her journey of survival through yoga, meditation, and prayer, and her eventual exoneration after 17 years.  The episode concludes with Sunny and her husband Peter describing their current work at the Sonny Sanctuary, helping other exonerees heal.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Sunny Jacobs
+    -   **Case Location**: Florida, USA
+    -   **Conviction Year**: 1976
+    -   **Exoneration Year**: After 17 years of incarceration (approximately 1993 based on 1976 conviction and 17 years served).
+    -   **Crime Convicted Of**: Murder of two police officers
+    -   **Sentence**: Death penalty (originally life sentence by jury, overridden by judge)
+    -   **Time Served**: 17 years
+    -   **Contributing Factors**:
+        -   Plea bargain of actual perpetrator in exchange for testimony against Sunny and Jesse.
+        -   False testimony of a jailhouse snitch.
+        -   Biased judge (former Highway Patrolman nicknamed "Maximum Dan") who overrode jury's life sentence to impose death penalty.
+        -   Ineffective defense counsel (public defender).
+        -   False polygraph report used to justify plea bargain with actual killer.
+    -   **Legal Status**: Exonerated
+    -   **Organizations Involved**: Amnesty International (mentioned in context of meeting her current husband, Peter).
+    -   **Innocence Lawyer Details**: Two young lawyers mentored under her original appeals lawyer who passed away, took on her case and eventually helped in her exoneration by using a private investigator.
+    -   **Cross-Reference**: Not explicitly mentioned if in exoneree database, but highly likely given profile.
+    -   **Narrative of Original Crime**: Two police officers were shot and killed at a rest stop in Florida. Sunny, her husband Jesse Tafero, and a friend were sleeping in a car at the rest stop. The friend was found with a handgun, leading to the initial police interaction. The friend then shot the officers and took Sunny and Jesse hostage.
+    -   **Key Evidence at Trial (Prosecution)**:
+        -   Testimony of the actual perpetrator who received a plea bargain in exchange for testifying against Sunny and Jesse.
+        -   False testimony of a jailhouse snitch who claimed Sunny confessed to her and enjoyed the crime.
+    -   **Trial Defender Notes**:  Lawyer advised against putting up a defense, believing lack of evidence against Sunny would be sufficient for acquittal. This strategy backfired when the jury was swayed by false testimony and judicial instructions.
+    -   **Key Evidence for Exoneration/Change in Legal Status**:
+        -   Recantation of testimony by the jailhouse snitch, who confessed she was coerced by the prosecutor.
+        -   Discovery of the falsified polygraph report, which revealed the actual killer failed the polygraph test despite reports stating he passed.
+    -   **Actual Perpetrator Details**:  The driver of the car (friend of Jesse) was the actual shooter. He received a plea bargain of three life sentences in exchange for testifying against Sunny and Jesse.  He is mentioned to have bragged about the killings in prison and later got out of prison but then returned. (Details are limited).
+
+-   **Name**: Jesse Tafero (Sunny Jacobs' husband)
+    -   **Case Location**: Florida, USA
+    -   **Conviction Year**: 1976
+    -   **Exoneration Year**: N/A (Executed) - Wrongfully executed.
+    -   **Crime Convicted Of**: Murder of two police officers
+    -   **Sentence**: Death penalty
+    -   **Time Served**: Approximately 15 years (until execution)
+    -   **Contributing Factors**:
+        -   Plea bargain of actual perpetrator in exchange for testimony against Jesse and Sunny.
+        -   False testimony of a jailhouse snitch.
+        -   Biased judge (former Highway Patrolman nicknamed "Maximum Dan").
+        -   Ineffective defense counsel (public defender).
+        -   False polygraph report used to justify plea bargain with actual killer.
+    -   **Legal Status**: Wrongfully executed.
+    -   **Organizations Involved**: Not specified in transcript.
+    -   **Innocence Lawyer Details**: Same as Sunny Jacobs.
+    -   **Cross-Reference**: Not explicitly mentioned if in exoneree database, but highly likely given profile.
+    -   **Narrative of Original Crime**: Same as Sunny Jacobs -  Two police officers were shot and killed at a rest stop in Florida. Jesse, Sunny, and a friend were sleeping in a car at the rest stop. The friend was found with a handgun, leading to the initial police interaction. The friend then shot the officers and took Jesse and Sunny hostage.
+    -   **Key Evidence at Trial (Prosecution)**: Same as Sunny Jacobs.
+    -   **Trial Defender Notes**: Similar to Sunny Jacobs - lawyer likely ineffective and potentially followed a similar 'no defense' strategy, though not explicitly detailed for Jesse.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Evidence for Jesse's innocence emerged later and was crucial for Sunny's exoneration, including recantation of jailhouse snitch and falsified polygraph. However, this evidence came too late for Jesse, who was executed.
+    -   **Actual Perpetrator Details**: Same as Sunny Jacobs.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Sunny: "I woke up and my life was never the same again. Cops came out with guns drawn and I never saw freedom ever ever since after that."
+    -   Sunny about the judge with the electric chair model: "And he kept a little miniature electric chair on his desk that he used to do zzzzzzzz, you know."
+    -   Sunny about integrity: "They took everything from me. They took my whole life from me. They took everything from, but my integrity. And it was like, I felt like I was, it was like dealing with the devil. Now they wanted that last thing. They wanted my very soul, and I wasn't going to do it."
+    -   Christina about her father's last words: "He said to be brave."
+    -   Sunny about yoga, meditation, and prayer: "yoga and meditation and prayer is what saved me while I was on death row."
+    -   Jason Flom to Sunny: "I wasn't sure there was anything that could make me love you more than I already did."
+    -   Jesse Tafero's last words (recounted by Sunny): "Jesse said they will remember my name."
+
+-   **Systemic Issues Identified**:
+    -   Plea bargains offered to actual perpetrators in exchange for testimony against others, incentivizing false testimony.
+    -   Use of jailhouse snitches and their unreliable and often coerced testimony.
+    -   Judicial override of jury decisions, particularly in death penalty cases.
+    -   Potential bias of judges, especially in cases involving law enforcement.
+    -   Inadequate legal representation for indigent defendants (public defenders).
+    -   Prosecutorial misconduct, including coercion of witnesses and presentation of false evidence (falsified polygraph report).
+    -   The fallibility and potential inhumanity of the death penalty system, highlighted by the execution of innocent individuals and the malfunction of the electric chair.
+    -   Lack of support for families of wrongfully convicted and executed individuals.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Implicit call to abolish the death penalty due to the risk of executing innocent people.
+    -   Support for organizations like the Innocence Project to help prevent wrongful convictions.
+    -   Need for reform in the justice system to address issues like prosecutorial misconduct, reliance on jailhouse snitches, and judicial bias.
+    -   Need for better support systems for exonerees and their families, as well as families of those wrongfully executed.
+
+-   **Personal Narrative/Impact**:
+    -   Sunny's story highlights the devastating personal impact of wrongful conviction, including loss of freedom, family separation, and psychological trauma.  She emphasizes the importance of maintaining integrity and finding inner strength through spiritual practices. Her final thoughts focus on her journey to healing and helping others through the Sonny Sanctuary.
+    -   Christina's narrative reveals the profound and lasting impact of her parents' wrongful conviction and execution on her childhood, emotional well-being, and family life.  She expresses the deep emotional scars and the lack of support for children in her situation.
+
+-   **Additional Resources**:
+    -   The Sonny Center website: thesonnycenter.com (S-U-N-N-Y-C-E-N-T-E-R.com) for donations and information about their work with exonerees.
+    -   Innocence Project: InnocenceProject.org for donations and involvement.
+```

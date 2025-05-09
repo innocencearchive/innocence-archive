@@ -1,0 +1,74 @@
+{
+  "source_file_name": "1.6.forced_confession.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "60 Minutes",
+    "creator_name": null,
+    "publication_or_release_year": 2005,
+    "publisher_or_network": "CBS News",
+    "focus_or_theme": "Coerced false confessions, police interrogation techniques, impact on families.",
+    "summaryNotes": "Highlighted a case where intense interrogation led a grieving father to falsely confess.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Forced Confession",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Coerced false confessions, police interrogation techniques, impact on families.",
+    "summary_notes": "The segment focuses on the case of Kevin Fox, who was wrongly accused of murdering his daughter. It highlights the coercive interrogation techniques used by police and the impact on Fox and his family.",
+    "key_quotes_raw": [
+      "Likely includes interviews with Kevin and Melissa Fox discussing the interrogation and ordeal."
+    ],
+    "systemic_issues_raw": [
+      "Police tunnel vision",
+      "Coercive interrogation tactics used on vulnerable individuals (like a grieving parent)",
+      "The unreliability of polygraphs",
+      "The trauma inflicted by false accusations and wrongful incarceration."
+    ],
+    "policy_recommendations_raw": [
+      "Implied need for mandatory recording of interrogations",
+      "Better training for detectives on avoiding coercion",
+      "Less reliance on confessions obtained under duress."
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://caselaw.findlaw.com/court/us-7th-circuit/1520903.html",
+        "description": "FindLaw case summary of civil suit FOX v. HAYES (Provides detailed background)."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Kevin Fox",
+      "first_name": "Kevin",
+      "middle_name": null,
+      "last_name": "Fox",
+      "status": "OTHER",
+      "conviction_year": null,
+      "exoneration_or_release_year": 2005,
+      "time_served": "8 months in jail.",
+      "sentence": "Faced potential death penalty.",
+      "crime_convicted_of_raw": "Accused of murdering his daughter, Riley Fox.",
+      "case_location_city": "Wilmington",
+      "case_location_state": "Will County, Illinois",
+      "narrative_summary": "Kevin Fox was wrongly accused of murdering his daughter. He was subjected to a lengthy and coercive interrogation, leading to a false confession. Charges were dropped after DNA evidence excluded him as the perpetrator, and he later won a civil rights lawsuit.",
+      "contributing_factors_raw": [
+        "Coerced false confession",
+        "Lengthy interrogation (approx. 14 hours)",
+        "Police pressure",
+        "Failed polygraph used to increase pressure."
+      ],
+      "organizations_involved_raw": [
+        "Information Unavailable from search results."
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

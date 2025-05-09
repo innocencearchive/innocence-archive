@@ -1,0 +1,84 @@
+{
+    "sourceFileName": "017_Jason_Flom_and_Barry_Scheck_with_Jason_Baldwin_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2017",
+        "network": "lava for good podcasts and signal company number one",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, the case of the West Memphis 3, false confessions, failures of the justice system, importance of innocence projects, criminal justice reform.",
+        "keyStats": "-   Jason Baldwin was wrongfully convicted at 16 and spent 18 years in maximum security prison.\n-   Jesse Miss Kelly had an IQ of 72 and gave a false confession.\n-   80% of DNA exoneration cases with false confessions involve confessing to details only police and the perpetrator would know.\n-   Defense lawyers in the West Memphis 3 case were underfunded.\n-   Videotaping of interrogations is crucial to prevent false confessions.",
+        "itemNumber": "017",
+        "itemTitle": "Jason Flom and Barry Scheck with Jason Baldwin",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom features Jason Baldwin of the West Memphis 3 and Barry Scheck of the Innocence Project. Baldwin recounts his wrongful conviction at age 16 for the murder of three boys, highlighting the lack of evidence and the role of community panic and \"satanic ritual\" accusations in the trial. The discussion delves into the coerced false confession of Jesse Miss Kelly due to his low IQ and police interrogation tactics.  Scheck emphasizes systemic issues like inadequate defense funding and the power of false confessions in court. Baldwin describes the horrific conditions in maximum security prison and the Sophie's Choice of taking an Alford plea to free himself and Damien Echols, despite maintaining innocence.  The episode concludes with a call to action to support innocence organizations and advocate for criminal justice reform, emphasizing the importance of education to combat the \"they all say that\" dismissal of innocence claims."
+    },
+    "featuredIndividual": {
+        "fullName": "Damien Echols",
+        "caseLocation": "West Memphis, Arkansas, USA",
+        "convictionYear": "1994 (inferred from transcript)",
+        "exonerationYear": "2011 (via Alford plea, not full exoneration, but release from prison)",
+        "crimeConvictedOf": "Murder of Stevie Branch, Christopher Byers, and Michael Moore",
+        "sentence": "Death penalty",
+        "timeServed": "18 years",
+        "contributingFactorsRaw": [
+            "Prejudice and targeting due to \"goth\" appearance, interest in occult, and heavy metal music.",
+            "Community panic and \"satanic ritual\" accusations.",
+            "Lack of physical evidence linking him to the crime.",
+            "Inadequate defense representation and funding."
+        ],
+        "status": "Released via Alford plea. Still has a conviction on record but is free from death row.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project, legal teams, celebrity support."
+        ],
+        "innocenceLawyersRaw": [
+            "Not detailed in transcript beyond mention of attorneys and Barry Scheck's involvement."
+        ],
+        "narrativeOriginalCrime": "Same as Jason Baldwin.",
+        "keyEvidenceProsecutionRaw": [
+            "Association with Jason Baldwin and Jesse Miss Kelly.",
+            "\"Expert\" testimony on Satanism and witchcraft.",
+            "Misinterpretation of crime scene and injuries as satanic ritualistic acts."
+        ],
+        "trialDefenderNotes": "-   Underfunded and potentially inadequate.",
+        "keyEvidenceExonerationRaw": [
+            "New DNA evidence (not explicitly detailed).",
+            "Public and legal pressure.",
+            "International celebrity support raising awareness of the case."
+        ],
+        "actualPerpetratorDetails": "Not identified or discussed in the transcript."
+    },
+    "keyQuotesRaw": [
+        "Jason Baldwin: \"The choice to be in that lineup was the last choice I made as a free man.\"",
+        "Jason Baldwin: \"I'm going to be one of those people who everyone in the world is going to think is a monster or suspect is a monster for the rest of my life and I'm just going to have to come to peace with that.\"",
+        "Jason Baldwin recalling prison: \"I overheard three of the jailers discussing what parts they might have to play in my hanging.\"",
+        "Barry Scheck on false confessions: \"You can convince an adolescent that he actually did the crime that he didn't do and get them to confess that way.\"",
+        "Jason Baldwin on Alford Plea: \"I had to say, what is most important? Is it my reputation or is it an innocent man's life?\""
+    ],
+    "systemicIssuesRaw": [
+        "False confessions, particularly from juveniles and individuals with low IQs.",
+        "Inadequate funding for public defenders.",
+        "Prejudice and bias in the justice system based on appearance and subculture.",
+        "Use of unreliable \"expert\" testimony.",
+        "Pressure to secure convictions over finding the truth.",
+        "Coercive interrogation tactics."
+    ],
+    "policyRecommendationsRaw": [
+        "Support innocence organizations and the Innocence Project (InnocenceProject.org).",
+        "Advocate for videotaping of interrogations.",
+        "Demand progressive district attorneys who prioritize justice.",
+        "Get involved in local and state level policy changes related to criminal justice.",
+        "Educate oneself about wrongful convictions and the flaws in the justice system."
+    ],
+    "personalNarrativeRaw": [
+        "Jason Baldwin describes the devastating impact of wrongful conviction on his life, family, and sense of self. He highlights the trauma of prison violence, the Sophie's Choice of the Alford Plea, and his current work to help others through Proclaim Justice. His final thoughts emphasize the importance of education and believing in innocence claims."
+    ],
+    "additionalResourcesRaw": [
+        "WM3.org (mentioned as a source of college funding for Jason Baldwin).",
+        "InnocenceProject.org (for donations and involvement).",
+        "Proclaimjustice.org (Jason Baldwin's organization).",
+        "Book \"Illusion of Justice\" by Jerry Buting (mentioned by Barry Scheck).",
+        "Instagram at wrongful conviction and on Facebook at wrongful conviction podcast (podcast social media)."
+    ]
+}

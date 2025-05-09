@@ -1,0 +1,55 @@
+{
+  "source_file_name": "47.Prosecutorial_Misconduct.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Prosecutorial Misconduct",
+    "creator_name": "Bennett L. Gershman",
+    "publication_or_release_year": 2001,
+    "publisher_or_network": "West Group/Thomson Reuters",
+    "focus_or_theme": "Prosecutorial misconduct and its contribution to wrongful convictions."
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "summary_notes": "\"Prosecutorial Misconduct\" is a comprehensive legal treatise that establishes systematic guidelines on prosecutorial behavior, citing thousands of precedential cases. The book has become a preeminent resource for scholars and practitioners seeking guidance on wrongful convictions. It contains an extensive discussion of various types of prosecutorial misconduct and their relationship to wrongful convictions.\n\nThe book examines how prosecutors, who are constitutionally and ethically mandated to promote justice as \"Ministers of Justice,\" sometimes deviate from these rules and engage in conduct that distorts the fact-finding process and produces erroneous convictions. Gershman argues that when prosecutors are motivated to zealously win convictions by any means and engage in conduct that either intentionally or carelessly undermines the integrity of the fact-finding process, they inevitably contribute to the conviction of innocent defendants.\n\nThe treatise covers various forms of prosecutorial misconduct, including investigative misconduct, misconduct in the grand jury, abuse of the charging function, selective and vindictive prosecution, suppression of evidence, misconduct in the plea bargaining process, misconduct in the presentation of evidence, prosecutorial-provoked mistrials, double jeopardy, misconduct at sentencing, and sanctions for misconduct.",
+    "item_title": "Book Content: Prosecutorial Misconduct",
+    "focus_or_theme": "Prosecutorial ethics, abuse of power, evidentiary misconduct, systemic failures, and accountability mechanisms in the context of wrongful convictions.",
+    "case_details_raw": "The DeShaney Case; Brady Violation Cases; Cases of False Testimony; Selective Prosecution Cases; Grand Jury Misconduct Cases.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [
+      "Prosecutorial Tunnel Vision",
+      "Suppression of Exculpatory Evidence",
+      "Presentation of False Evidence",
+      "Improper Argument and Rhetoric",
+      "Abuse of Discretionary Power"
+    ],
+    "policy_recommendations_raw": [
+      "Enhanced Ethical Standards",
+      "Increased Transparency",
+      "Improved Accountability Mechanisms",
+      "Judicial Oversight",
+      "Systemic Reforms"
+    ],
+    "additional_resources_raw": [
+      "Innocence Project Research",
+      "Studies on Brady Violations",
+      "Research on Prosecutorial Immunity",
+      "Wrongful Conviction Pattern Studies",
+      "Legal Ethics Scholarship",
+      "https://www.pace.edu/profile/bennett-l-gershman",
+      "Amazon.com book listing: Prosecutorial Misconduct by Bennett L. Gershman"
+    ],
+    "research_notes_other": {}
+  },
+  "featured_individuals": [],
+  "involved_persons": [
+    {
+      "full_name": "Bennett L. Gershman",
+      "role": "AUTHOR",
+      "first_name": "Bennett",
+      "middle_name": "L.",
+      "last_name": "Gershman"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

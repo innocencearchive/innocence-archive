@@ -1,0 +1,90 @@
+{
+    "sourceFileName": "363_Guest_Host_Susan_Simpson_with_Daryl_Lee_Clark_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom (original host), Susan Simpson (guest host for this episode)",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts, in association with Signal Company No. 1",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system failures, exoneree stories.",
+        "keyStats": "-   Discover is accepted at 99% of places that take credit cards nationwide. (Advertiser statistic)\n-   Chevrolet Equinox is number one for new vehicle quality among compact SUVs in 2024, according to J.D. Power. (Advertiser statistic)\n-   $16.5 billion in tax refunds flagged for possible identity fraud by the IRS last year. (Advertiser statistic)\n-   20% overall increase in identity theft related to tax fraud in 2024 alone. (Advertiser statistic)\n-   Lifelock monitors 100 million data points every second for identity theft. (Advertiser statistic)",
+        "itemNumber": "363",
+        "itemTitle": "Guest Host Susan Simpson with Daryl Lee Clark",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction, hosted by Susan Simpson, tells the story of Lee Clark's wrongful conviction for the murder of Brian Bowling in 1996.  Lee and his friend Kane Story were teenagers accused of a gang-related revenge killing, a theory fabricated by corrupt police officers. The prosecution relied on coerced testimonies, including Angela Bruce's false confession and misinterpreted testimony from a deaf witness, Charlie Childers.  Despite weak evidence and the recantation of key testimonies, Lee and Kane were convicted and sentenced to life.  After serving 25 years, new investigations, including from the Georgia Innocence Project and the podcast \"Undisclosed,\" revealed the extent of police misconduct and witness coercion, leading to their exoneration and release. Lee reflects on the devastating impact of wrongful conviction and emphasizes the importance of staying positive even in dire circumstances."
+    },
+    "featuredIndividual": {
+        "fullName": "Kane Story",
+        "caseLocation": "Rome, Georgia, Floyd County",
+        "convictionYear": "1998",
+        "exonerationYear": "2023",
+        "crimeConvictedOf": "Murder and conspiracy to commit murder",
+        "sentence": "Life sentence",
+        "timeServed": "25 years",
+        "contributingFactorsRaw": [
+            "Police misconduct, coerced confession, ineffective defense counsel, \"gang narrative\" fabrication."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Luke Martin and Ross Hamrick (attorneys)."
+        ],
+        "innocenceLawyersRaw": [
+            "Luke Martin (attorney from Floyd County)",
+            "Ross Hamrick (PD's office)"
+        ],
+        "crossReference": "Yes (likely in exoneree databases given exoneration)",
+        "narrativeOriginalCrime": "Same as Lee Clark.",
+        "keyEvidenceProsecutionRaw": [
+            "Same as Lee Clark."
+        ],
+        "trialDefenderNotes": "-   Larry J. Barkley (Kane Story's court-appointed attorney).\n-   Defense seemingly did not effectively challenge hearsay testimony or the admissibility of Kane's confession initially.",
+        "keyEvidenceExonerationRaw": [
+            "Same as Lee Clark."
+        ],
+        "actualPerpetratorDetails": "Not applicable, case was determined to be accidental death/not a murder. Original belief was suicide or accidental death by Brian Bowling."
+    },
+    "keyQuotesRaw": [
+        "Lee Clark: \"I was really dumbering a box of rocks is what my daddy used to tell me. He's probably right, too.\" (Describing his teenage self)",
+        "Susan Simpson: \"The theory was hairbrained. It defies logic and reason, but battles do it were committed to it and somehow need to drum up evidence to support it.\" (About the gang theory)",
+        "Lee Clark: \"When they read off that guilty verdict on both charges and found me guilty, I mean, I felt something, a feeling to come over me, it's difficult to explain it, but my heart was sitting in my chest. I was about to choke the death, sitting there watching at 18 years old and watching my life last before my eyes.\" (Describing the impact of the guilty verdict)",
+        "Lee Clark: \"To finally have my life back and have my freedom back. And I tell you, I plan on living all of it up to the fullest every day.\" (On his release)",
+        "Lee Clark: \"Anything in life, approach it from a positive angle and take the good from it. Even when there ain't much good to be found, well, pick what is good up and take it with you.\" (Closing advice)"
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct: Coercion of witnesses, fabrication of evidence, tunnel vision in investigation, corruption.",
+        "Ineffective defense counsel: Failure to object to hearsay, inadmissible confession, and challenge flawed witness testimonies.",
+        "Junk science (gunshot residue tests mentioned in other episodes, though not directly relevant to exoneration in this episode).",
+        "\"Gang panic\" influencing investigations and jury perception in the 1990s.",
+        "Prejudice against young defendants and those with prior minor offenses.",
+        "Impact of inadmissible evidence on jury despite judicial instructions to disregard.",
+        "Challenges for deaf individuals in the legal system (communication barriers, misinterpretation of testimony)."
+    ],
+    "policyRecommendationsRaw": [
+        "Increased accountability for police misconduct.",
+        "Reform of interrogation tactics to prevent coerced confessions.",
+        "Improved training and resources for defense attorneys, especially in cases with complex or fabricated evidence.",
+        "Enhanced protections for vulnerable witnesses and safeguards against coerced testimony.",
+        "Greater scrutiny of \"gang-related\" narratives in criminal cases.",
+        "Improved access to qualified interpreters and accommodations for deaf individuals in the legal system.",
+        "Support for innocence projects and organizations working on wrongful conviction cases."
+    ],
+    "personalNarrativeRaw": [
+        "Lee Clark describes the devastating impact of wrongful conviction, including the loss of 25 years of his life and the emotional toll of imprisonment. He highlights the shock and disbelief at the guilty verdict, the harsh realities of prison life, and the long road to rebuilding his life after release. Despite the immense injustice, Lee emphasizes resilience, maintaining a positive attitude, and gratitude for the support that led to his exoneration. He advises young people to make smart choices and approach life positively, drawing on his experience to illustrate the importance of perseverance and finding good even in difficult situations."
+    ],
+    "additionalResourcesRaw": [
+        "Proof Podcast (Susan Simpson's previous podcast mentioned)",
+        "Undisclosed Podcast (Susan Simpson's podcast where Joey Watkins' case was covered)",
+        "Wrongful Conviction: Junk Science Podcast (mentioned episode about gunshot residue tests)",
+        "Georgia Innocence Project (organization that helped with exoneration)",
+        "mightycause.com (link to support Lee Clark's rebuilding efforts)",
+        "Lava for Good Podcasts and Signal Company No. 1 websites/platforms.",
+        "J.D. Power (jdpower.com - for Chevy Equinox award information)",
+        "IBM Consulting (IBM.com/consulting - advertiser)",
+        "Discover Card (discover.com/creditcard - advertiser)",
+        "Chevrolet Equinox (chevy.com/equinox - advertiser)",
+        "Don't Sleep on OSA (dontsleeponosa.com - advertiser for Obstructive Sleep Apnea)",
+        "Lifelock (lifelock.com/iHeart - advertiser for identity theft protection)",
+        "My Computer Career (mycomputercareer.edu/CWP - advertiser for cybersecurity training)"
+    ]
+}

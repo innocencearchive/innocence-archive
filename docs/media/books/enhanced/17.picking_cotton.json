@@ -1,0 +1,100 @@
+{
+  "source_file_name": "17.picking_cotton.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Picking Cotton: Our Memoir of Injustice and Redemption",
+    "creator_name": "Jennifer Thompson-Cannino, Ronald Cotton, with Erin Torneo",
+    "publication_or_release_year": 2009,
+    "publisher_or_network": "St. Martin's Press",
+    "format": "Memoir",
+    "focus_or_theme": "Eyewitness misidentification, wrongful conviction, forgiveness, and reconciliation",
+    "key_statistics": "New York Times Bestseller, being adapted into a major motion picture"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "\"Jennifer Thompson was raped at knifepoint by a man who broke into her apartment while she slept. Wearing only a blanket, she escaped and told police she was certain she could identify the man who had been inches from her face.\"",
+      "\"Jennifer's misidentification of Ronald serves as a striking example of what is known technically as 'unconscious transference.' For Jennifer, this chain began when she attempted to translate her memories from that dark, traumatic summer night into concrete, usable information by working with police to assemble a composite sketch.\"",
+      "\"Many variables can contribute to mistaken identification—for example, a person is more likely to make a mistake when trying to identify someone from a different race than their own—and the complexity of the issue is part of the reason it is the leading factor in wrongful convictions.\""
+    ],
+    "systemic_issues_raw": [
+      "Flawed eyewitness identification procedures",
+      "Over-reliance on eyewitness testimony in criminal trials",
+      "Cross-racial identification challenges",
+      "Lack of proper safeguards in photographic and in-person lineups",
+      "Reinforcement of identifications by police and prosecutors",
+      "Psychological factors affecting memory and recall during traumatic events"
+    ],
+    "policy_recommendations_raw": [
+      "Reform of eyewitness identification procedures",
+      "Implementation of double-blind lineup procedures",
+      "Recording of confidence statements at the time of initial identification",
+      "Proper training for law enforcement on memory and identification issues",
+      "Greater scrutiny of eyewitness testimony in court proceedings"
+    ],
+    "additional_resources_raw": [
+      "The book's website (pickingcottonbook.com) contains case files, photos, and documents",
+      "The Innocence Project website provides additional information on eyewitness misidentification",
+      "The book is being adapted into a major motion picture"
+    ],
+    "research_notes_other": {
+      "this_book_is_particularly_valuable_for_our_project_as_it": "1. Provides a unique dual perspective from both the wrongfully convicted person and the victim/witness who misidentified him\n2. Focuses on eyewitness misidentification, the leading cause of wrongful convictions\n3. Explores the psychological aspects of memory and identification\n4. Documents the process of exoneration through DNA evidence\n5. Offers a powerful story of reconciliation and forgiveness between victim and wrongfully convicted person\n6. Has received widespread recognition (New York Times Bestseller) and is being adapted into a film, indicating its cultural impact\nThe book stands out from others in our research as it presents both sides of a wrongful conviction case, offering insights into the experiences of both the person wrongfully convicted and the victim whose testimony contributed to that conviction. It also explores the aftermath of exoneration and the unique relationship that developed between Thompson and Cotton, providing a perspective on healing and reconciliation that is rare in literature on wrongful convictions."
+    },
+    "item_title": "Book Content: Picking Cotton: Our Memoir of Injustice and Redemption",
+    "focus_or_theme": "Eyewitness misidentification, wrongful conviction, forgiveness, and reconciliation",
+    "summary_notes": "This memoir offers a dual perspective on a wrongful conviction case, detailing the experience of both the wrongfully convicted individual, Ronald Cotton, and the victim who misidentified him, Jennifer Thompson-Cannino. It explores the impact of eyewitness misidentification, the exoneration process through DNA evidence, and the subsequent reconciliation between the two individuals.  The book highlights systemic issues within the criminal justice system and offers policy recommendations for reform.",
+    "case_details_raw": "Ronald Cotton was wrongfully convicted of the rape of Jennifer Thompson in Burlington, North Carolina, in 1985.  His conviction was based largely on Thompson's eyewitness identification, despite the fact that she later identified another man as her assailant.   Cotton served 11 years of a life plus 54-year sentence before DNA evidence exonerated him in 1995. The book details the challenges of cross-racial identification and flawed lineup procedures that contributed to the misidentification."
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Ronald Cotton",
+      "first_name": "Ronald",
+      "middle_name": null,
+      "last_name": "Cotton",
+      "case_location": "Burlington, North Carolina",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 1995,
+      "crime_convicted_of": "Rape of Jennifer Thompson and another woman",
+      "sentence": "Life plus 54 years",
+      "time_served": "11 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification (primary factor)",
+        "Cross-racial identification",
+        "Flawed photographic lineup procedures",
+        "\"Unconscious transference\" where the composite sketch influenced later identification",
+        "Reinforcement of identification by police and court proceedings"
+      ],
+      "status_raw": "Exonerated by DNA evidence",
+      "organizations_involved_raw": [
+        "The Innocence Project"
+      ],
+      "cross_reference": "Book 16: \"The Innocents\" by Taryn Simon (features cases of eyewitness misidentification)",
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Jennifer Thompson-Cannino",
+      "role": "AUTHOR",
+      "first_name": "Jennifer",
+      "middle_name": null,
+      "last_name": "Thompson-Cannino"
+    },
+    {
+      "full_name": "Ronald Cotton",
+      "role": "AUTHOR",
+      "first_name": "Ronald",
+      "middle_name": null,
+      "last_name": "Cotton"
+    },
+    {
+      "full_name": "Erin Torneo",
+      "role": "AUTHOR",
+      "first_name": "Erin",
+      "middle_name": null,
+      "last_name": "Torneo"
+    }
+  ],
+  "research_strategy_notes_raw": "This book is particularly valuable for our project as it:\n1. Provides a unique dual perspective from both the wrongfully convicted person and the victim/witness who misidentified him\n2. Focuses on eyewitness misidentification, the leading cause of wrongful convictions\n3. Explores the psychological aspects of memory and identification\n4. Documents the process of exoneration through DNA evidence\n5. Offers a powerful story of reconciliation and forgiveness between victim and wrongfully convicted person\n6. Has received widespread recognition (New York Times Bestseller) and is being adapted into a film, indicating its cultural impact\n\nThe book stands out from others in our research as it presents both sides of a wrongful conviction case, offering insights into the experiences of both the person wrongfully convicted and the victim whose testimony contributed to that conviction. It also explores the aftermath of exoneration and the unique relationship that developed between Thompson and Cotton, providing a perspective on healing and reconciliation that is rare in literature on wrongful convictions.",
+  "research_notes_raw": null
+}

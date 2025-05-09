@@ -1,0 +1,75 @@
+{
+  "source_file_name": "3.1.the_wrong_man.md",
+  "media_work": {
+    "work_type": "UNKNOWN",
+    "title": "Wrong Man (20/20)",
+    "publication_or_release_year": null,
+    "publisher_or_network": "ABC News",
+    "focus_or_theme": "DNA exoneration in murder case; Misidentification",
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "UNKNOWN",
+    "item_title": "Information Unavailable (Generic title prevents specific identification)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "DNA exoneration in murder case; Misidentification",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "Arizona (Based on Krone case knowledge)",
+      "case_location_state": null,
+      "conviction_year": 1992,
+      "exoneration_or_release_year": 2002,
+      "crime_convicted_of_raw": "Murder",
+      "sentence": "Death penalty initially, later life (Based on Krone case knowledge)",
+      "time_served": "~10 years",
+      "contributing_factors_raw": [
+        "Bite mark analysis (later discredited/excluded by DNA), eyewitness testimony (Based on Krone case knowledge)"
+      ],
+      "status_raw": "Exonerated by DNA",
+      "organizations_involved_raw": [
+        "Information Unavailable\n### Film/Documentary Research Notes"
+      ],
+      "research_notes_other": "The title \"Wrong Man\" is too generic to definitively identify a specific 20/20 episode via search. The `film_list.txt` entry specifically names Ray Krone. Details above rely heavily on the `film_list.txt` description and general knowledge of the Krone case, as searches for a 20/20 episode with this title were inconclusive.",
+      "full_name": "Ray Krone (Identified from film_list.txt description",
+      "first_name": "Ray",
+      "middle_name": "Krone (Identified from film_list.txt",
+      "last_name": "description"
+    },
+    {
+      "case_location_city": "Arizona (Based on Krone case knowledge)",
+      "case_location_state": null,
+      "conviction_year": 1992,
+      "exoneration_or_release_year": 2002,
+      "crime_convicted_of_raw": "Murder",
+      "sentence": "Death penalty initially, later life (Based on Krone case knowledge)",
+      "time_served": "~10 years",
+      "contributing_factors_raw": [
+        "Bite mark analysis (later discredited/excluded by DNA), eyewitness testimony (Based on Krone case knowledge)"
+      ],
+      "status_raw": "Exonerated by DNA",
+      "organizations_involved_raw": [
+        "Information Unavailable\n### Film/Documentary Research Notes"
+      ],
+      "research_notes_other": "The title \"Wrong Man\" is too generic to definitively identify a specific 20/20 episode via search. The `film_list.txt` entry specifically names Ray Krone. Details above rely heavily on the `film_list.txt` description and general knowledge of the Krone case, as searches for a 20/20 episode with this title were inconclusive.",
+      "full_name": "not search results)",
+      "first_name": "not",
+      "middle_name": "search",
+      "last_name": "results)"
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

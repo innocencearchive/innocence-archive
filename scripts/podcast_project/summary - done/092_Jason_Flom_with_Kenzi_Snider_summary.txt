@@ -1,0 +1,81 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, general episode featuring Kenzie Snyder.
+-   **Host(s)**: Jason Flom (host is implied, but not explicitly stated by name, assumed from "Wrongful conviction with Jason Flom is a production of Lava for Good podcast in association with Signal Company No. 1.")
+-   **Host(s)**: Saul Cassin, Patty Sanchez (guests in this episode)
+-   **Release Year(s)**: Not specified in transcript.
+-   **Production Company(ies)/Network**: Lava for Good podcast in association with Signal Company No. 1.
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, false confessions, police interrogation tactics, systemic issues in the justice system.
+-   **Key Statistics/Information**: 95% of known false confessions contain accurate crime facts not known to the public. 70% of people can be manipulated into believing a false memory is real. In Korean law, a confession recanted and not reenacted to a prosecutor is considered invalid.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features Kenzie Snyder, a woman wrongfully accused of murdering her friend in South Korea after a coerced false confession. The podcast delves into the psychological tactics used by FBI agents during her interrogation in West Virginia, leading her to confess and even internalize guilt for a crime she did not commit.  Experts Saul Cassin and Patty Sanchez discuss the phenomenon of false confessions, highlighting the malleability of memory and the dangers of accusatorial interrogation techniques. Kenzie recounts her traumatic experience, including her arrest, extradition to Korea, and eventual acquittal in Korean courts across multiple appeals. The episode underscores the flaws in the justice system, particularly regarding the reliance on confessions and the lack of transparency in interrogations. It emphasizes the long-lasting personal impact of wrongful accusations and the importance of understanding the complexities of false confessions to prevent future injustices.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Kenzie Snyder Brown
+-   **Case Location**: South Korea (crime), West Virginia, USA (interrogation)
+-   **Conviction Year**: Not convicted (acquitted)
+-   **Exoneration Year**: 2006 (final Supreme Court acquittal)
+-   **Crime Convicted Of**: Murder of Jamie Pennich
+-   **Sentence**: N/A (not convicted)
+-   **Time Served**: 10 months in jail in the USA, 6 months in jail in South Korea
+-   **Contributing Factors**: False confession coerced through manipulative interrogation tactics (rapport building, lying about evidence, minimization, maximization, memory manipulation, isolation), vulnerability due to age and trauma.
+-   **Legal Status**: Fully acquitted/exonerated by the Supreme Court of Korea.
+-   **Organizations Involved**: Not specified in transcript.
+-   **Innocence Lawyer Details**: Not specified in transcript.
+-   **Cross-Reference**: Not specified in transcript, needs to be checked against exoneree database.
+-   **Narrative of Original Crime**: Jamie Pennich, an American exchange student in South Korea, was brutally murdered in her motel room after a night out. She was stomped to death and found nude with her face covered.
+-   **Key Evidence at Trial (Prosecution)**: Kenzie's confession obtained by FBI agents in West Virginia.
+-   **Trial Defender Notes**: Not detailed in transcript, but the defense in Korea successfully argued against the confession, leading to acquittals.
+-   **Key Evidence for Exoneration/Change in Legal Status**:  Lack of physical evidence linking Kenzie to the crime, inconsistencies between the confession and crime scene reality, Kenzie's recantation of the confession, and the Korean legal system's consideration of recanted confessions. Kenzie's realization in the hotel room in Korea that her confession was false was pivotal.
+-   **Actual Perpetrator Details**: Not mentioned in transcript. The actual perpetrator of Jamie Pennich's murder remains unknown according to the transcript.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Kenzie: "You know, because my life was discarded as if, you know, like I was a piece of trash or something. You know, a hundred years. Not had dreams. I wanted to do things. I wasn't committing crimes. You know, I was a very good young man." (This quote is from the intro, likely from another exoneree, not Kenzie Snyder)
+    -   Saul Cassin: "They gained her trust. And then they exploited that trust that they gained because when you have somebody's trust, you become a credible source. So when somebody you trust becomes credible, and that person of credibility starts to lie about the evidence, you almost have no choice but to believe the lie..."
+    -   Kenzie: "I walked into the hotel room, and at that point I knew 100% that confession was completely wrong, and I didn't do it, because none of the still images that I had in my head matched that hotel room."
+    -   Kenzie (about FBI agents): "Law enforcement agents, they're doing their job. They're not your friend. Don't trust them. Make sure you have a lawyer on your side."
+    -   Saul Cassin: "That is the sight and the sound of a false confession. And so it's very important for people to understand that absent, corroborating evidence taken independent of that confession and absent seeing the process by which that confession was taken, you are in no position to make a judgment."
+
+-   **Systemic Issues Identified**:
+    -   Flawed interrogation techniques leading to false confessions.
+    -   Tunnel vision in law enforcement, focusing on a suspect based on a hunch rather than evidence.
+    -   Lack of transparency and recording of interrogations.
+    -   Jury reliance on confessions even in the face of contradictory evidence.
+    -   Stigma and long-term consequences for individuals even after acquittal.
+    -   Potential for FBI overreach and flawed investigations.
+    -   Disparity in justice systems (Korean system's handling of recanted confessions vs. US system).
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Demand recording of all interrogations from start to finish.
+    -   Juries should be highly suspicious of confessions presented without full interrogation recordings.
+    -   Public awareness campaigns to educate about false confessions and the justice system's flaws.
+    -   Always invoke the right to silence and the right to an attorney when questioned by law enforcement.
+    -   Support organizations like the Innocence Project.
+
+-   **Personal Narrative/Impact**: Kenzie Snyder's personal narrative highlights the devastating impact of wrongful accusation and false confession.  Despite being acquitted, she continues to face stigma and social challenges 18 years later, impacting her relationships and even her son's social interactions.  She expresses anger at the injustice but chooses not to be bitter, focusing on rebuilding her life and hoping her story can prevent similar tragedies for others. Her experience demonstrates the long-lasting psychological and social consequences of false confessions beyond just the legal proceedings.
+
+-   **Additional Resources**:
+    -   Podcast: Spotlight Snitch City
+    -   Podcast: Look at Thought-R Radio Season 10
+    -   Website: Talkspace (therapy service)
+    -   Podcast: The Setup
+    -   Netflix Series: The Innocent Man
+    -   Movie: False Confessions
+    -   Book: Burned by Humes (about an arson case and memory manipulation)
+    -   Website: InnocenceProject.org
+    -   Movie Mentioned: Bottle Shock
+    -   New Yorker story about the brassica case (Beatrice Six case likely intended)
+```

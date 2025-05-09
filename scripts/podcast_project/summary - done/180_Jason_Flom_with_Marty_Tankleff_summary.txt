@@ -1,0 +1,105 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but it is a follow-up episode to a 2017 episode about Marty Tankliff.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2023 (mentioned AAA 2023 survey)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series (based on the description and focus on individual cases)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, false confessions, criminal justice system reform
+-   **Key Statistics/Information**:
+    -   Over 57 million drivers go with AAA roadside assistance.
+    -   Millions undiagnosed with moderate to severe obstructive sleep apnea (OSA) in adults with obesity.
+    -   Suffolk County homicide division in the 80s had shirts saying "99%" referring to confession and conviction rates.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom revisits the case of Marty Tankliff, who was wrongfully convicted of murdering his parents in 1988.  Marty and false confession expert Saul Cassin discuss the details of Marty's case, including the coercive interrogation tactics that led to a false confession and the systemic issues within the Suffolk County justice system that contributed to his wrongful conviction.  The episode details the reinvestigation that led to Marty's exoneration after serving 17.5 years in prison.  It highlights the role of false confessions in wrongful convictions and the immense personal impact of such injustices.  Marty shares his journey post-exoneration, including becoming a lawyer and professor, and his work helping other wrongfully convicted individuals through the "Making an Exoneree" program.  The episode concludes with a call to action to support organizations like the Innocence Project and to engage in efforts to reform the criminal justice system.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Marty Tankliff
+-   **Case Location**: Belton, Port Jefferson, Long Island, New York, USA
+-   **Conviction Year**: Not explicitly stated in this episode, but understood to be soon after 1988. (Based on outside knowledge, it was 1990)
+-   **Exoneration Year**: 2007
+-   **Crime Convicted Of**: Murder of his parents (intentional murder and depraved indifference murder)
+-   **Sentence**: Not explicitly stated in this episode. (Based on outside knowledge, it was two life sentences)
+-   **Time Served**: 6,338 days (approximately 17.5 years)
+-   **Contributing Factors**:
+    -   False confession due to coercive interrogation tactics (lies about evidence, false claim that father identified him as the perpetrator).
+    -   Tunnel vision by law enforcement focusing solely on Marty and ignoring other potential suspects.
+    -   Systemic corruption and misconduct in Suffolk County justice system.
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**:
+    -   Innocence Project (mentioned in closing arguments as an organization to support, though not explicitly stated as involved in Marty's case - based on outside knowledge they were not involved in his case)
+    -   Private investigators hired by Marty's defense team (Jason Peter mentioned).
+-   **Innocence Lawyer Details**:
+    -   Bruce Barket (lawyer who helped with his exoneration appeal, mentioned by name and that he told Marty "pack your shit, you're coming home").
+    -   Mark Howard (childhood friend, joined defense team, co-teaches "Making an Exoneree" class with Marty, mentioned his career changed to focus on prisons and justice after Marty's case).
+-   **Cross-Reference**: Yes (Marty Tankliff is a well-known exoneree).
+-   **Narrative of Original Crime**: Marty Tankliff awoke in his home to find his parents brutally attacked. His mother was dead, and his father was dying. The crime involved a bludgeon and a knife.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Marty's alleged confession, which was handwritten by a detective and unsigned by Marty. This was described as the *only* piece of evidence used to convict him.
+-   **Trial Defender Notes**:
+    -   Lawyers told Marty the system works and to believe in justice.
+    -   Marty testified on his own behalf.
+    -   It is implied that the original trial defense was inadequate as it did not prevent a wrongful conviction based on a dubious confession.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Re-investigation initiated by Marty and his defense team.
+    -   Emergence of new witnesses and evidence pointing to Jerry Sturman and his associates as the likely perpetrators.
+    -   Confession from Glenn Harris stating he drove hitmen (Joe Creeden and Peter Kent) to Marty's house on Sturman's orders.
+    -   Confession from Joseph Creeden to Carlene Kovacs and later to his son about involvement.
+    -   Discovery of a pipe on a property where Glenn Harris said it was discarded.
+    -   Forensic evidence of an exculpatory nature uncovered during the Attorney General's reinvestigation, which Suffolk County had possessed all along.
+-   **Actual Perpetrator Details**:
+    -   **Jerry Sturman**: Father's business partner with a motive (financial disputes, potential money laundering). Made threats against Marty's father. Fled to California, faked death, used aliases after the murders.
+    -   **Todd Sturman**: Jerry's son, involved in drug dealing. Potential motive related to father's business dealings and threats.
+    -   **Joseph Creden**: Enforcer for Todd Sturman, confessed involvement in the murders.
+    -   **Peter Kent**: Hitman, involved with Joseph Creden in the murders.
+    -   **Glenn Harris**: Drove the hitmen to and from the Tankliff house, provided key testimony.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Jason Flom: "Marty Tankliff is here today. Marty is an exonary who was wrongfully convicted of murdering his parents which I get the chills just hearing myself say that."
+    -   Saul Cassin on police tactics: "Police are allowed to bring in a suspect and lie about the evidence."
+    -   Marty Tankliff on prison survival advice: "Don't do drugs, don't get involved with drugs, don't get involved homosexuality, don't get involved in gambling gangs... and work your way into the college program or the law library. He said, one of the hardest things is once your innocent is getting out. He said, but you'll figure out a way to do it."
+    -   Bruce Barket to Marty after winning appeal: "Pack your shit. You're coming home and you'll never see the inside of a jail cell again."
+    -   William Hellerstein's description of Suffolk County justice system: "the wild, wild west of law enforcement and the court system."
+    -   Marty Tankliff on the impact of helping others: "Those who do this work are doing God's work. And he explained it was simply that when you fight to get somebody who's innocent out of prison, you're almost giving them an opportunity at new life."
+    -   Student response to spring break vs. prison visit: "Who cares about spring break? Let's go to prison."
+
+-   **Systemic Issues Identified**:
+    -   False confessions as a major contributing factor to wrongful convictions.
+    -   Coercive interrogation tactics and police deception.
+    -   Tunnel vision in investigations.
+    -   Corruption and misconduct within the Suffolk County justice system (police and DA's office).
+    -   Lack of accountability and failure to reinvestigate despite new evidence.
+    -   Difficulty for innocent individuals to navigate the legal system and prove their innocence.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Support organizations like the Innocence Project.
+    -   Reform interrogation practices to prevent false confessions.
+    -   Promote conviction integrity units within DA's offices to review potential wrongful convictions.
+    -   Encourage public engagement and advocacy for criminal justice reform.
+    -   Marty Tankliff is asking the Suffolk County District Attorney's Office to reopen the case and prosecute the actual perpetrators.
+
+-   **Personal Narrative/Impact**:
+    -   Marty's traumatic experience of losing his parents and being wrongfully convicted as a 17-year-old.
+    -   His resilience and determination to fight for his freedom and expose the truth.
+    -   His transformation from exoneree to lawyer and professor dedicated to helping others.
+    -   The profound impact of the "Making an Exoneree" program on students and the exonerated individuals they assist.
+    -   Marty emphasizes the importance of telling the stories of the wrongfully convicted and the power of collective action to make a difference.
+
+-   **Additional Resources**:
+    -   Book: "Criminal Injustice" (about Marty Tankliff's case)
+    -   Website: makinganexoneree.com (for information on Marty's program and student documentaries)
+    -   Innocence Project (innocenceproject.org)
+    -   Podcast episode on Terrell Barrows (mentioned as another case to listen to)
+```

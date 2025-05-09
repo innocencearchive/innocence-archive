@@ -1,0 +1,87 @@
+{
+    "sourceFileName": "139_Jason_Flom_with_Terrel_Barros_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good podcast in association with signal company number one",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, Criminal Justice System, Investigative Journalism",
+        "keyStats": "-   Stefan Bodden confessed to the shooting on the scene, but Terrell Barrows was convicted.\n-   Eyewitness testimony changed significantly just before trial, raising serious questions about its reliability.\n-   DNA evidence excluded Terrell Barrows from having handled the gun.",
+        "itemNumber": "139",
+        "itemTitle": "Jason Flom with Terrel Barros",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom discusses the case of Terrell Barros, who was wrongfully convicted for a shooting in Providence, Rhode Island in 2012. Despite Stefan Bodden confessing to the shooting at the scene and being caught with the gun, Terrell was charged and convicted of murder. Key issues in the case include a questionable dying declaration attributed to the deceased victim, a key eyewitness who drastically changed his testimony shortly before trial after being offered a deal, and DNA evidence that excluded Terrell from ever handling the weapon. The podcast emphasizes the systemic failures within the justice system and the profound, tragic impact on Terrell and his family. New evidence, including gunshot residue analysis and corroborating witness testimonies, is now being presented to push for a new trial and Terrell's exoneration. The episode features interviews with Terrell from prison and Nurgina Hendi, a Georgetown student investigating his case, underscoring the ongoing struggle for justice and the urgent need for public support."
+    },
+    "featuredIndividual": {
+        "fullName": "Terrell Barrows",
+        "caseLocation": "Providence, Rhode Island, USA",
+        "convictionYear": "Approximately 2013 (based on context)",
+        "exonerationYear": "Not yet exonerated (as of podcast recording)",
+        "crimeConvictedOf": "First Degree Murder and another charge (resulting in two consecutive life sentences plus 30 years)",
+        "sentence": "Two consecutive life sentences plus 30 years",
+        "timeServed": "Approximately 10-11 years (as of podcast release in 2023)",
+        "contributingFactorsRaw": [
+            "Eyewitness Misidentification (questionable \"dying declaration\")",
+            "Incentivized Witness Testimony (Gregory Zorabedian changing testimony after promise of no perjury charges)",
+            "Police Misconduct (Detective allegedly fabricated dying declaration, ignored confession)",
+            "Prosecutorial Misconduct (pursuing conviction despite confession and exculpatory evidence)",
+            "Ineffective Assistance of Counsel (implied, not explicitly detailed in transcript)"
+        ],
+        "status": "Wrongfully Convicted, currently incarcerated, motion for a new trial pending.",
+        "organizationsInvolvedRaw": [
+            "Georgetown University class led by Professor Mark Howard and Marty Tankliff",
+            "New Attorney: Bob Cando"
+        ],
+        "innocenceLawyersRaw": [
+            "Bob Cando - Terrell's current attorney, who is working on his case and pushing for a new trial based on new evidence."
+        ],
+        "crossReference": "Yes (should be added to exoneree database)",
+        "narrativeOriginalCrime": "A shooting occurred in the parking lot of Monet Lounge in Providence, Rhode Island, after a verbal disagreement inside the club. Jamal Cruz was fatally shot, and Rokim Henley was injured.",
+        "keyEvidenceProsecutionRaw": [
+            "Alleged \"dying declaration\" by Jamal Cruz, supposedly nodding towards Terrell in a show-up identification.",
+            "Testimony of Gregory Zorabedian, who initially claimed not to see the shooting but changed his story to implicate Terrell shortly before trial.",
+            "Misleading presentation of DNA evidence by the state's expert, suggesting Terrell's inclusion when he was actually excluded from the gun DNA."
+        ],
+        "trialDefenderNotes": "The transcript does not provide specific details about the trial defense lawyer's actions. However, it is implied that the defense was ineffective, failing to adequately challenge the questionable evidence, particularly the DNA report and the incentivized witness testimony.",
+        "keyEvidenceExonerationRaw": [
+            "New Gunshot Residue (GSR) evidence analysis showing significant GSR particles on Stefan Bodden's crotch and belt area, indicating he fired the gun from that position.",
+            "Trajectory analysis of the bullets supporting the new GSR findings.",
+            "Affidavits from new eyewitnesses and family members of Stefan Bodden stating that Stefan confessed to the shooting.",
+            "Rokim Henley's testimony confirming Stefan Bodden was the only person close to Jamal Cruz at the time of the shooting."
+        ],
+        "actualPerpetratorDetails": "Stefan Bodden confessed to the shooting at the scene and was found concealing the gun. New GSR evidence and witness testimonies further implicate him as the shooter. He died in 2017 in a car shooting."
+    },
+    "keyQuotesRaw": [
+        "Stefan Bodden's on-scene confession: \"It's me. It's all me. It's all mine.\"",
+        "Terrell Barrows: \"There were two lives lost that night, mine and Jamal Cruz.\"",
+        "Terrell Barrows on Detective Kavant laughing after guilty verdict: \"I seen detective Angelo Kavant laughing. So I said, yo, what do you think this is funny.\"",
+        "Terrell Barrows on systemic injustice: \"They're not just killing us in the streets. They're killing us in these courts and there's no consequences when they do it.\""
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct and fabrication of evidence (dying declaration).",
+        "Prosecutorial misconduct and tunnel vision (ignoring confession, pursuing wrongful conviction).",
+        "Unreliable eyewitness testimony and suggestive identification procedures (show-up).",
+        "Incentivized witness testimony and deals for testimony.",
+        "Pro-prosecution bias within the criminal justice system, including expert witnesses and judges.",
+        "Ineffective defense representation."
+    ],
+    "policyRecommendationsRaw": [
+        "Sign the change.org petition: change.org/freeTerrellBarrows to support Terrell's exoneration.",
+        "Watch the documentary \"Making an Exonary 2020 – The Story of Terrell Barrows\" on YouTube to learn more and raise awareness.",
+        "Support organizations like the Innocence Project to help prevent future wrongful convictions and advocate for systemic reform.",
+        "Demand accountability for police and prosecutors who engage in misconduct and contribute to wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Terrell Barrows has spent over a decade in prison for a crime he did not commit, enduring immense personal suffering and separation from his family.",
+        "The wrongful conviction has had a devastating impact on Terrell's mother and his loved ones, causing emotional distress and financial strain.",
+        "Terrell expresses a profound sense of injustice and loss, highlighting the dual tragedy of his wrongful conviction and the lack of justice for Jamal Cruz.",
+        "Despite his circumstances, Terrell demonstrates resilience, maintains his innocence, and expresses a desire to help others who are also wrongfully convicted upon his release."
+    ],
+    "additionalResourcesRaw": [
+        "Documentary: \"Making an Exonary 2020 – The Story of Terrell Barrows\" (YouTube)",
+        "Change.org Petition: change.org/freeTerrellBarrows",
+        "Innocence Project: InnocenceProject.org"
+    ]
+}

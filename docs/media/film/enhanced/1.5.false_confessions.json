@@ -1,0 +1,196 @@
+{
+  "source_file_name": "1.5.false_confessions.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "60 Minutes",
+    "creator_name": null,
+    "publication_or_release_year": 2012,
+    "publisher_or_network": "CBS News",
+    "focus_or_theme": "False confessions, police interrogation techniques, juvenile suspects, wrongful convictions in Chicago.",
+    "summaryNotes": "Chicago identified as having a high number of documented false confession cases (\"False Confession Capital\").",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "The False Confession Capital",
+    "item_number": null,
+    "release_date": "2012-12-09",
+    "hostOrNarrator": "Byron Pitts",
+    "focus_or_theme": "False confessions, police interrogation techniques, juvenile suspects, wrongful convictions in Chicago.",
+    "summary_notes": "This 60 Minutes segment focuses on false confessions, police interrogation techniques, and wrongful convictions, particularly in Chicago. It highlights the psychological vulnerability of suspects during interrogation and the potential for police tactics to induce false confessions.",
+    "key_quotes_raw": [
+      "Interviews with exonerated individuals describing interrogation experiences",
+      "Psychologist Saul Kassin explaining the psychology of false confessions",
+      "Cook County State's Attorney Anita Alvarez defending police actions at the time"
+    ],
+    "systemic_issues_raw": [
+      "Psychological vulnerability of suspects (especially juveniles) during intense interrogation",
+      "Police tactics leading to false confessions",
+      "Reliance on confessions over contradictory evidence (like DNA)",
+      "Difficulty in overturning convictions based on confessions"
+    ],
+    "policy_recommendations_raw": [
+      "Implied need for reforms in police interrogation practices (e.g., recording interrogations, time limits, special protections for juveniles)",
+      "Better evaluation of confession evidence by prosecutors and courts"
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://www.cbsnews.com/news/chicago-the-false-confession-capital/",
+        "description": "CBS News article on the segment"
+      },
+      {
+        "url": "https://peopleslawoffice.com/60-minutes-features-clients-wrongfully-convicted-based-on-false-confession/",
+        "description": "People's Law Office summary"
+      },
+      {
+        "url": "https://www.imdb.com/title/tt2569360/",
+        "description": "IMDb Episode Page"
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Terrill Swift",
+      "first_name": "Terrill",
+      "middle_name": null,
+      "last_name": "Swift",
+      "status": "EXONERATED",
+      "conviction_year": 1995,
+      "exoneration_or_release_year": 2012,
+      "time_served": "Approximately 15 years",
+      "sentence": "30 years",
+      "crime_convicted_of_raw": "Rape and Murder (of Nina Glover)",
+      "case_location_city": "Chicago",
+      "case_location_state": "IL",
+      "narrative_summary": "Terrill Swift, part of the \"Englewood Four\", was wrongfully convicted of rape and murder in Chicago. He was exonerated in 2012 after serving approximately 15 years. His false confession, given as a juvenile after a lengthy interrogation, was a contributing factor.",
+      "contributing_factors_raw": [
+        "Coerced false confession",
+        "Lengthy interrogation (12+ hours)",
+        "Juvenile suspect (17)",
+        "Alleged police pressure/feeding details"
+      ],
+      "organizations_involved_raw": [
+        "People's Law Office",
+        "MacArthur Justice Center",
+        "Northwestern University School of Law",
+        "Innocence Project"
+      ]
+    },
+    {
+      "full_name": "Jonathan Barr",
+      "first_name": "Jonathan",
+      "middle_name": null,
+      "last_name": "Barr",
+      "status": "EXONERATED",
+      "conviction_year": 1991,
+      "exoneration_or_release_year": 2011,
+      "time_served": "Approximately 20 years",
+      "sentence": "85 years",
+      "crime_convicted_of_raw": "Rape and Murder (of 14-year-old classmate)",
+      "case_location_city": "Dixmoor/Chicago",
+      "case_location_state": "IL",
+      "narrative_summary": "Jonathan Barr, part of the \"Dixmoor Five\", was wrongfully convicted of rape and murder in Dixmoor/Chicago. He was exonerated in 2011 after serving approximately 20 years. His coerced/fabricated false confession, given as a juvenile, was a contributing factor.",
+      "contributing_factors_raw": [
+        "Coerced/fabricated false confession",
+        "Juvenile suspect (14)",
+        "Alleged police misconduct"
+      ],
+      "organizations_involved_raw": [
+        "People's Law Office",
+        "Neufeld Scheck & Brustin",
+        "Innocence Project"
+      ]
+    },
+    {
+      "full_name": "Michael Saunders",
+      "first_name": "Michael",
+      "middle_name": null,
+      "last_name": "Saunders",
+      "status": "UNKNOWN",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": "Chicago",
+      "case_location_state": "IL",
+      "narrative_summary": "Michael Saunders was mentioned as part of the Englewood Four. Details regarding his conviction and exoneration status are not specified in the document.",
+      "contributing_factors_raw": [],
+      "organizations_involved_raw": []
+    },
+    {
+      "full_name": "Vincent Thames",
+      "first_name": "Vincent",
+      "middle_name": null,
+      "last_name": "Thames",
+      "status": "UNKNOWN",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": "Chicago",
+      "case_location_state": "IL",
+      "narrative_summary": "Vincent Thames was mentioned as part of the Englewood Four. Details regarding his conviction and exoneration status are not specified in the document.",
+      "contributing_factors_raw": [],
+      "organizations_involved_raw": []
+    },
+    {
+      "full_name": "Harold Richardson",
+      "first_name": "Harold",
+      "middle_name": null,
+      "last_name": "Richardson",
+      "status": "UNKNOWN",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": "Chicago",
+      "case_location_state": "IL",
+      "narrative_summary": "Harold Richardson was mentioned as part of the Englewood Four. Details regarding his conviction and exoneration status are not specified in the document.",
+      "contributing_factors_raw": [],
+      "organizations_involved_raw": []
+    },
+    {
+      "full_name": "James Harden",
+      "first_name": "James",
+      "middle_name": null,
+      "last_name": "Harden",
+      "status": "UNKNOWN",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": "Dixmoor/Chicago",
+      "case_location_state": "IL",
+      "narrative_summary": "James Harden was mentioned as part of the Dixmoor Five. Details regarding his conviction and exoneration status are not specified in the document.",
+      "contributing_factors_raw": [],
+      "organizations_involved_raw": []
+    },
+    {
+      "full_name": "Robert Taylor",
+      "first_name": "Robert",
+      "middle_name": null,
+      "last_name": "Taylor",
+      "status": "UNKNOWN",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": "Dixmoor/Chicago",
+      "case_location_state": "IL",
+      "narrative_summary": "Robert Taylor was mentioned as part of the Dixmoor Five. Details regarding his conviction and exoneration status are not specified in the document.",
+      "contributing_factors_raw": [],
+      "organizations_involved_raw": []
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

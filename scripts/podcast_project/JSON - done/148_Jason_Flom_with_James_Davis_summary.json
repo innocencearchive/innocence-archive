@@ -1,0 +1,81 @@
+{
+    "sourceFileName": "148_Jason_Flom_with_James_Davis_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts, Segno Company",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction stories, investigative journalism, criminal justice system issues",
+        "keyStats": "-   James J. Davis spent almost 20 years in prison for a crime he did not commit.\n-   His first trial resulted in an 11-1 hung jury in favor of acquittal.\n-   Key witness Jose Machicote was a drug dealer under FBI and NYPD investigation and was murdered after James's conviction.\n-   Brady violations occurred as information about Machicote's criminal activities was not disclosed to the defense.",
+        "itemNumber": "148",
+        "itemTitle": "Jason Flom with James Davis",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom features the story of James J. Davis, who was wrongfully convicted of murder and spent nearly 20 years in prison.  Davis and his lawyer, Elizabeth Felber from the Legal Aid Society, recount the events leading to his conviction, highlighting the flawed police investigation, unreliable eyewitness identification, and the prosecution's reliance on a key witness who was a dangerous drug dealer.  The episode details the initial crime, a party shooting, for which Davis was falsely accused based on spiteful hearsay and a sham lineup.  Despite compelling alibi evidence and inconsistencies in witness testimonies, Davis was convicted in a second trial after a hung jury in the first.  The podcast exposes systemic issues within the justice system, including tunnel vision in investigations, ineffective defense counsel, and prosecutorial misconduct through Brady violations.  It concludes with Davis's ongoing fight for exoneration and appeals to listeners for support."
+    },
+    "featuredIndividual": {
+        "fullName": "James J. Davis",
+        "caseLocation": "Brooklyn, New York, USA",
+        "convictionYear": "Not explicitly stated, but implied to be around 2006 (given 20 years served from 2004 incident)",
+        "exonerationYear": "Not yet exonerated (as of podcast recording)",
+        "crimeConvictedOf": "Murder (and potentially other related charges not specified)",
+        "sentence": "Life in prison",
+        "timeServed": "Almost 20 years (as of podcast recording)",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification (tainted lineup)",
+            "False accusation (spiteful ex-girlfriend's sister)",
+            "Ineffective assistance of counsel (at trial)",
+            "Prosecutorial misconduct (Brady violation, using unreliable witness)",
+            "Tunnel vision by police investigators"
+        ],
+        "status": "Convicted, currently incarcerated, appealing conviction.",
+        "organizationsInvolvedRaw": [
+            "Legal Aid Society (Wrongful Conviction Unit)"
+        ],
+        "innocenceLawyersRaw": [
+            "Elizabeth Felber, Supervising Attorney in the Wrongful Conviction Unit of the Legal Aid Society.  She is actively working on James's case, pursuing appeals and highlighting ineffective counsel and actual innocence. Susan Epstein is also mentioned as having done phenomenal investigation and brought witnesses to the Conviction Review Unit and handled the appeal prior to Elizabeth Felber."
+        ],
+        "crossReference": "Not explicitly stated if in exoneree database in the transcript.",
+        "narrativeOriginalCrime": "At a birthday party in Brooklyn, a fight broke out resulting in Jamil Black being stabbed and Blake Harper being shot and killed. James Davis was later accused of the shooting.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness identification from Jose Machicote in a lineup (later revealed to be unreliable).",
+            "Eyewitness identification from Harold Poe and Sean Belton (questionable and inconsistent testimonies).",
+            "False accusation from Tina Black (sister of Jamil Black, not present at the party)."
+        ],
+        "trialDefenderNotes": "Original trial defense was described as \"substandard\" and \"ineffective\".  The lawyer hired a chiropractor to review medical examiner work instead of investigating alibi, cab records, or witness inconsistencies.  Failed to adequately challenge eyewitness testimony or present a strong defense.",
+        "keyEvidenceExonerationRaw": [
+            "Alibi: James was with his girlfriend Kenine Johnson at her aunt's house hours before the shooting.",
+            "Recantation/Inconsistency of Eyewitnesses: Sean Belton recanted, Harold Poe's identification was weak.",
+            "Identification of Actual Shooter: Jamil Black identified Tay Hall as the shooter to police at the hospital and later in testimony.",
+            "Undisclosed Information about Key Witness: Jose Machicote was a major drug dealer under FBI/NYPD investigation at the time of the trial (Brady violation).",
+            "Testimony from multiple witnesses supporting James's alibi and innocence at the post-conviction hearing (girlfriend, party promoters, friend at party, mother of false accuser)."
+        ],
+        "actualPerpetratorDetails": "Tay Hall was identified by Jamil Black as the shooter at the scene.  Tay Hall's details beyond his name and involvement are not elaborated upon in the transcript."
+    },
+    "keyQuotesRaw": [
+        "James J. Davis: \"I think that our justice system really needs to be looked at on the outside and on the outside the treatment is really really no different and it's gone all the way starts at law enforcement with the investigation and the things that they may do if they make one bad mistake it may change somebody's life forever...\" (Reflects on systemic issues in justice system)",
+        "Elizabeth Felber: \"...there was from from the day he was arrested kind of kind of motion let me clear and convincing evidence of his innocence not just clear and convincing compelling evidence of his innocence...\" (Highlights strength of innocence evidence)",
+        "Jason Flom: \"What an unbelievably common gentle spirit he's got...and yet he is so focused, which makes me even more sad thinking about the lost potential...\" (Reflects on James's character and the tragedy of wrongful conviction)"
+    ],
+    "systemicIssuesRaw": [
+        "Tunnel vision in police investigations: Focusing on a suspect early and ignoring contradictory evidence.",
+        "Unreliable eyewitness identification procedures: Suggestive lineups, pressure on witnesses.",
+        "Ineffective assistance of counsel: Lack of resources and diligence from defense attorneys.",
+        "Prosecutorial misconduct/Brady violations: Withholding crucial information from the defense.",
+        "Flawed Conviction Review Process: Even with strong evidence of innocence, the system can fail to overturn wrongful convictions."
+    ],
+    "policyRecommendationsRaw": [
+        "Listeners are encouraged to sign a petition to support James Davis's exoneration (link to be in episode description).",
+        "Support for organizations like the Innocence Project to help prevent future wrongful convictions.",
+        "Call for greater scrutiny and reform of police investigation practices, eyewitness identification procedures, and prosecutorial accountability."
+    ],
+    "personalNarrativeRaw": [
+        "James's Personal Narrative/Impact:  James describes the devastating impact of wrongful conviction on his life and family, including the loss of his brother and missed time with his grandmother. He expresses resilience and hope, while also highlighting the harsh realities of the justice system and prison. He emphasizes the need for systemic change and fair treatment for all individuals within the justice system, whether innocent or guilty. His closing remarks emphasize the human cost of wrongful convictions and the need for a fairer system.",
+        "Final thoughts of the individual: James's final thoughts are about systemic reform and fairer treatment within the justice system, emphasizing the human cost of mistakes and the need for genuine justice."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project ([innocenceproject.org](http://innocenceproject.org)) is mentioned as a valuable resource and organization to support.",
+        "Petition for James Davis's exoneration (link to be in episode description)."
+    ]
+}

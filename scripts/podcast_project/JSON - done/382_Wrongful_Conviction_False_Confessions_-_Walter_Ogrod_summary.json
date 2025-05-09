@@ -1,0 +1,87 @@
+{
+    "sourceFileName": "382_Wrongful_Conviction_False_Confessions_-_Walter_Ogrod_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: False Confessions",
+    "mediaItem": {
+        "hosts": "Laura Nirider and Steve Drizen",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "False confessions, wrongful convictions, police misconduct, criminal justice reform.",
+        "keyStats": "-   Philadelphia CIU accomplished over 20 exonerations since 2018.\n-   India Spellman is the first black woman exonerated in Philadelphia.\n-   Walter O'Grod spent almost three decades in prison, including time on death row.\n-   Detective Perfect claimed a 95% success rate in getting confessions.\n-   $16.5 billion in refunds flagged by IRS for possible identity fraud last year (advertisement).\n-   20% overall increase in identity theft related to tax fraud in 2024 alone (advertisement).\n-   100 million data points LifeLock monitors every second (advertisement).",
+        "itemNumber": "382",
+        "itemTitle": "Wrongful Conviction False Confessions - Walter Ogrod",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction: False Confessions\" tells the story of Walter O'Grod, wrongfully convicted for the 1988 murder of Barbara Jean Horn in Philadelphia.  Despite lacking evidence, police coerced a false confession from O'Grod, a man with learning disabilities, after a grueling 14-hour interrogation.  He was initially acquitted in his first trial due to a hung jury, but subsequently convicted in a second trial based on jailhouse snitch testimony and sentenced to death.  After decades of appeals, the Philadelphia Conviction Integrity Unit under District Attorney Larry Krasner reinvestigated the case.  New evidence, including DNA exclusion and the recantation of snitch testimony, proved O'Grod's innocence.  He was exonerated in 2020 after serving 28 years, highlighting systemic issues of police misconduct, false confessions, and the importance of prosecutorial reform."
+    },
+    "featuredIndividual": {
+        "fullName": "Walter O'Grod",
+        "caseLocation": "Philadelphia, Pennsylvania, USA",
+        "convictionYear": "1996 (second trial)",
+        "exonerationYear": "2020",
+        "crimeConvictedOf": "Murder of Barbara Jean Horn",
+        "sentence": "Death penalty",
+        "timeServed": "28 years",
+        "contributingFactorsRaw": [
+            "False confession (coerced during a 14-hour interrogation, exploiting cognitive disabilities and sleep deprivation).",
+            "Jailhouse snitch testimony (fabricated by John Hall and J. Wolchansky).",
+            "Police misconduct (suggesting facts, threats, racist remarks, ignoring request for lawyer).",
+            "Prosecutorial misconduct (using unreliable snitch testimony, withholding evidence about cause of death)."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Federal Community Defender Office in Philadelphia",
+            "Local law firm (unspecified)",
+            "Philadelphia Conviction Integrity Unit (CIU) under District Attorney Larry Krasner"
+        ],
+        "innocenceLawyersRaw": [
+            "Lawyers from the Federal Community Defender Office and a local law firm reinvestigated his case and filed a post-conviction petition.",
+            "Carrie Wood from the Philadelphia CIU played a key role in reinvestigating and ultimately securing his exoneration."
+        ],
+        "crossReference": "Not explicitly stated in the transcript if he appears in a specific exoneree database, but highly likely given the nature of the podcast.",
+        "narrativeOriginalCrime": "Four-year-old Barbara Jean Horn went missing on July 12, 1988, in Northeast Philadelphia. Her body was found in a discarded TV box later that day. She was unclothed, her hair was wet, and she had been struck on the head.",
+        "keyEvidenceProsecutionRaw": [
+            "Walter O'Grod's confession (later proven false and coerced).",
+            "Jailhouse snitch testimony from J. Wolchansky, claiming O'Grod confessed to him in jail (later proven fabricated)."
+        ],
+        "trialDefenderNotes": "-   First trial: Defense argued the confession was not Walter's style of speaking, psychiatrist testified to his limitations, and no clothes were found in the crawl space as stated in the confession. The jury initially hung with 11 for acquittal and 1 for conviction.\n-   Second trial: Not detailed in transcript, but the defense was likely undermined by the snitch testimony, leading to conviction.",
+        "keyEvidenceExonerationRaw": [
+            "Recantation of jailhouse snitch testimony by John Hall (the \"Monsignor\") and his widow.",
+            "Autopsy review revealing Barbara Jean Horn was likely suffocated, contradicting the confession's description of a fatal blow with a weight bar.",
+            "DNA testing of fluid used to wash the victim's body excluded Walter O'Grod and revealed a full male DNA profile that did not match any database."
+        ],
+        "actualPerpetratorDetails": "Not identified in the podcast transcript. The episode focuses on O'Grod's wrongful conviction, not on finding the actual perpetrator."
+    },
+    "keyQuotesRaw": [
+        "\"Walter's story gives Stephen me hope that real reform is really possible.\" - Laura Nirider.",
+        "\"This is the city with an unbelievable history of injustice, mass incarceration, and corruption within the criminal justice system.\" - Steve Drizen about Philadelphia.",
+        "Quote from Tom Lowenstein: \"You know, having a 95 percent clearance rate for a homicide detective is kind of like Mark Maguire hitting 75 home runs. You got to ask, did he do it honestly?\"",
+        "Carrie Wood's apology: \"I'm sorry, it took 28 years for us to listen to what Barbara Jean was trying to tell us, that you are innocent and that the words on your statement of confession came from Philadelphia police detectives and not you.\"",
+        "\"The truth is the single most important thing a prosecutor needs to be concerned with because without truth there can be no justice.\" - Carrie Wood."
+    ],
+    "systemicIssuesRaw": [
+        "Police coercion and false confessions as a result of interrogation tactics.",
+        "Use of unreliable jailhouse snitch testimony.",
+        "Racial bias and misconduct within the Philadelphia Police Department, particularly during the Rizzo era.",
+        "Prosecutorial misconduct, including withholding evidence and prioritizing convictions over truth.",
+        "Ineffective legal representation in the original trial (implied).",
+        "Delays in justice system, exemplified by the judge's delay in Walter's exoneration hearing."
+    ],
+    "policyRecommendationsRaw": [
+        "Police reform, particularly regarding interrogation techniques and recording interrogations.",
+        "Prosecutorial accountability and emphasis on truth-seeking.",
+        "Conviction Integrity Units to review past cases and correct wrongful convictions.",
+        "Importance of voting for reform-minded officials like Larry Krasner."
+    ],
+    "personalNarrativeRaw": [
+        "Walter O'Grod spent 28 years of his life in prison, including time on death row, for a crime he did not commit. He suffered immense psychological distress and health issues during his incarceration.",
+        "Barbara Jean Horn's family suffered the tragedy of her murder and the prolonged uncertainty and injustice of the wrongful conviction.",
+        "Sharon Fehe, Barbara Jean's mother, had to grapple with the realization that the wrong person was convicted and the actual perpetrator remained at large."
+    ],
+    "additionalResourcesRaw": [
+        "Mention of Eastern State Penitentiary as a monument against mass incarceration.",
+        "Reference to the TV show \"Unsolved Mysteries.\"",
+        "Mention of journalist Tom Lowenstein's coverage of the case.",
+        "Website: wrongfulconvictionpodcast.com"
+    ]
+}

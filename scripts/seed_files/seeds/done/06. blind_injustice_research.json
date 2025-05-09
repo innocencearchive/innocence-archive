@@ -1,0 +1,267 @@
+{
+  "sourceFileName": "06. blind_injustice_research.md",
+  "mediaWork": {
+    "title": "Blind Injustice: A Former Prosecutor Exposes the Psychology and Politics of Wrongful Convictions",
+    "workType": "BOOK",
+    "creatorName": "Mark Godsey",
+    "publicationOrReleaseYear": 2017,
+    "publisherOrNetwork": "University of California Press",
+    "focusOrTheme": "Psychological factors contributing to wrongful convictions, cognitive biases in the justice system",
+    "summaryNotes": "\"Blind Injustice\" examines the psychological and institutional factors that contribute to wrongful convictions. Drawing on his unique perspective as both a former prosecutor and later an innocence advocate, Mark Godsey explores how cognitive biases, institutional pressures, and psychological phenomena lead well-intentioned professionals in the criminal justice system to convict innocent people.\n\nThe book identifies several psychological factors that contribute to wrongful convictions, including tunnel vision, confirmation bias, memory malleability, administrative evil, and dehumanization. Godsey argues that these psychological factors affect all human beings, including judges, police officers, prosecutors, and jurors, making the system vulnerable to error despite good intentions.\n\nThrough case studies from his work with the Ohio Innocence Project and his own experiences as a prosecutor, Godsey illustrates how these psychological factors play out in real cases. He also proposes reforms to address these issues and reduce the likelihood of wrongful convictions.",
+    "availabilityNotes": "Hardcover, paperback, e-book",
+    "sourceUrl": null
+  },
+  "mediaItem": {
+    "itemTitle": "Blind Injustice: A Former Prosecutor Exposes the Psychology and Politics of Wrongful Convictions",
+    "itemNumber": null,
+    "itemMediaType": "BOOK_CONTENT",
+    "releaseDate": null,
+    "hostOrNarrator": null,
+    "focusOrTheme": "Psychological factors contributing to wrongful convictions, cognitive biases in the justice system",
+    "summaryNotes": "\"Blind Injustice\" examines the psychological and institutional factors that contribute to wrongful convictions. Drawing on his unique perspective as both a former prosecutor and later an innocence advocate, Mark Godsey explores how cognitive biases, institutional pressures, and psychological phenomena lead well-intentioned professionals in the criminal justice system to convict innocent people.\n\nThe book identifies several psychological factors that contribute to wrongful convictions, including tunnel vision, confirmation bias, memory malleability, administrative evil, and dehumanization. Godsey argues that these psychological factors affect all human beings, including judges, police officers, prosecutors, and jurors, making the system vulnerable to error despite good intentions.\n\nThrough case studies from his work with the Ohio Innocence Project and his own experiences as a prosecutor, Godsey illustrates how these psychological factors play out in real cases. He also proposes reforms to address these issues and reduce the likelihood of wrongful convictions.",
+    "keyQuotes": null,
+    "sourceUrl": null,
+    "individualsFeaturedNames": [
+      {
+        "firstName": "Clarence",
+        "lastName": "Elkins"
+      },
+      {
+        "firstName": "Nancy",
+        "lastName": "Smith"
+      },
+      {
+        "firstName": "Joseph",
+        "lastName": "Allen"
+      },
+      {
+        "firstName": "Dean",
+        "lastName": "Gillispie"
+      },
+      {
+        "firstName": "David",
+        "lastName": "Ayers"
+      }
+    ],
+    "organizationsMentionedNames": [
+      "Ohio Innocence Project"
+    ],
+    "involvedPersonsMentionedNames": [],
+    "contributingFactorsMentionedNames": [
+      "Eyewitness misidentification",
+      "tunnel vision by investigators",
+      "Suggestive questioning of children",
+      "memory malleability",
+      "Police misconduct",
+      "withheld evidence",
+      "False testimony",
+      "tunnel vision",
+      "confirmation bias",
+      "memory malleability and eyewitness misidentification",
+      "institutional pressures to obtain convictions",
+      "dehumanization of defendants",
+      "administrative evil",
+      "resistance to acknowledging mistakes",
+      "lack of accountability for prosecutors and police",
+      "psychological phenomena that affect all human decision-making"
+    ]
+  },
+  "individuals": [
+    {
+      "firstName": "Clarence",
+      "lastName": "Elkins",
+      "status": "EXONERATED",
+      "convictionYear": 1999,
+      "exonerationOrReleaseYear": 2005,
+      "timeServedYears": 7.0,
+      "sentence": "Life imprisonment",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Ohio",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Elkins collected DNA evidence from the actual perpetrator (another inmate) while in prison\nCase demonstrates how tunnel vision can lead investigators to focus on the wrong suspect",
+      "contributingFactorNames": [
+        "Eyewitness misidentification",
+        "tunnel vision by investigators"
+      ],
+      "organizationsInvolvedNames": [
+        "Ohio Innocence Project"
+      ],
+      "involvedPersonsNames": []
+    },
+    {
+      "firstName": "Nancy",
+      "lastName": "Smith",
+      "status": "CONVICTION_OVERTURNED",
+      "convictionYear": 1994,
+      "exonerationOrReleaseYear": 2009,
+      "timeServedYears": null,
+      "sentence": "Long prison terms",
+      "caseLocationCity": "Lorain",
+      "caseLocationCounty": null,
+      "caseLocationState": "Ohio",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Case similar to other daycare panic cases of the era\nDemonstrates how children's memories can be influenced by suggestive questioning",
+      "contributingFactorNames": [
+        "Suggestive questioning of children",
+        "memory malleability"
+      ],
+      "organizationsInvolvedNames": [
+        "Ohio Innocence Project"
+      ],
+      "involvedPersonsNames": []
+    },
+    {
+      "firstName": "Joseph",
+      "lastName": "Allen",
+      "status": "CONVICTION_OVERTURNED",
+      "convictionYear": 1994,
+      "exonerationOrReleaseYear": 2009,
+      "timeServedYears": null,
+      "sentence": "Long prison terms",
+      "caseLocationCity": "Lorain",
+      "caseLocationCounty": null,
+      "caseLocationState": "Ohio",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Case similar to other daycare panic cases of the era\nDemonstrates how children's memories can be influenced by suggestive questioning",
+      "contributingFactorNames": [
+        "Suggestive questioning of children",
+        "memory malleability"
+      ],
+      "organizationsInvolvedNames": [
+        "Ohio Innocence Project"
+      ],
+      "involvedPersonsNames": []
+    },
+    {
+      "firstName": "Dean",
+      "lastName": "Gillispie",
+      "status": "EXONERATED",
+      "convictionYear": 1991,
+      "exonerationOrReleaseYear": 2011,
+      "timeServedYears": 20.0,
+      "sentence": "22-56 years",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Ohio",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Police withheld exculpatory evidence that would have proven his innocence\nCase demonstrates how tunnel vision can lead to misconduct",
+      "contributingFactorNames": [
+        "Police misconduct",
+        "withheld evidence"
+      ],
+      "organizationsInvolvedNames": [
+        "Ohio Innocence Project"
+      ],
+      "involvedPersonsNames": []
+    },
+    {
+      "firstName": "David",
+      "lastName": "Ayers",
+      "status": "EXONERATED",
+      "convictionYear": 2000,
+      "exonerationOrReleaseYear": 2011,
+      "timeServedYears": 11.0,
+      "sentence": "Life imprisonment",
+      "caseLocationCity": "Cleveland",
+      "caseLocationCounty": null,
+      "caseLocationState": "Ohio",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Won a civil judgment against the city of Cleveland\nCase demonstrates institutional resistance to acknowledging mistakes",
+      "contributingFactorNames": [
+        "Police misconduct",
+        "false testimony"
+      ],
+      "organizationsInvolvedNames": [
+        "Ohio Innocence Project"
+      ],
+      "involvedPersonsNames": []
+    }
+  ],
+  "contributingFactors": [
+    {
+      "name": "Eyewitness misidentification",
+      "description": null
+    },
+    {
+      "name": "tunnel vision by investigators",
+      "description": null
+    },
+    {
+      "name": "Suggestive questioning of children",
+      "description": null
+    },
+    {
+      "name": "memory malleability",
+      "description": null
+    },
+    {
+      "name": "Police misconduct",
+      "description": null
+    },
+    {
+      "name": "withheld evidence",
+      "description": null
+    },
+    {
+      "name": "False testimony",
+      "description": null
+    },
+    {
+      "name": "tunnel vision",
+      "description": null
+    },
+    {
+      "name": "confirmation bias",
+      "description": null
+    },
+    {
+      "name": "memory malleability and eyewitness misidentification",
+      "description": null
+    },
+    {
+      "name": "institutional pressures to obtain convictions",
+      "description": null
+    },
+    {
+      "name": "dehumanization of defendants",
+      "description": null
+    },
+    {
+      "name": "administrative evil",
+      "description": null
+    },
+    {
+      "name": "resistance to acknowledging mistakes",
+      "description": null
+    },
+    {
+      "name": "lack of accountability for prosecutors and police",
+      "description": null
+    },
+    {
+      "name": "psychological phenomena that affect all human decision-making",
+      "description": null
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ohio Innocence Project",
+      "type": "INNOCENCE_ORG",
+      "locationCity": null,
+      "locationState": "Ohio",
+      "locationCountry": "USA",
+      "website": null,
+      "notes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Mark",
+      "lastName": "Godsey",
+      "role": "AUTHOR",
+      "notes": "Former federal prosecutor turned innocence advocate, Professor of Law at the University of Cincinnati College of Law, Co-founder and Director of the Ohio Innocence Project, Transitioned from being a \"prosecutor's prosecutor\" who didn't believe innocent people were in prison to becoming a leading advocate for the wrongfully convicted"
+    }
+  ],
+  "crimeCategories": []
+}

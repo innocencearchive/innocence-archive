@@ -1,0 +1,97 @@
+{
+  "source_file_name": "9.25.amanda_knox.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "Amanda Knox",
+    "creator_name": null,
+    "publication_or_release_year": 2016,
+    "publisher_or_network": "Plus Pictures (Distributed by Netflix)",
+    "focus_or_theme": "The case of Amanda Knox, an American student accused, convicted, and ultimately exonerated for the 2007 murder of her roommate Meredith Kercher in Perugia, Italy. Explores the intense media scrutiny, controversial evidence, and complexities of the Italian justice system.",
+    "summaryNotes": "Knox spent nearly four years in an Italian prison before her final acquittal in 2015.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Amanda Knox",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "The case of Amanda Knox, an American student accused, convicted, and ultimately exonerated for the 2007 murder of her roommate Meredith Kercher in Perugia, Italy. Explores the intense media scrutiny, controversial evidence, and complexities of the Italian justice system.",
+    "summary_notes": "Documentary about Amanda Knox, an American student accused, convicted, and ultimately exonerated for the murder of Meredith Kercher in Italy. Explores media scrutiny, controversial evidence, and the Italian justice system.",
+    "key_quotes_raw": [
+      "Likely features interviews with Knox, co-defendant Raffaele Sollecito, prosecutors, journalists, and archival footage of the media frenzy and trials.",
+      "Knox reflecting on being seen as either a \"psychopath in sheep's clothing\" or \"you.\""
+    ],
+    "systemic_issues_raw": [
+      "Trial by media/media sensationalism's impact on justice",
+      "Unreliability of forensic evidence/DNA contamination issues",
+      "Challenges navigating foreign legal systems",
+      "Prosecutorial tunnel vision",
+      "The psychological toll of wrongful accusation and imprisonment"
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for responsible media coverage of criminal cases",
+      "Rigorous standards for forensic evidence",
+      "Scrutiny of prosecutorial conduct"
+    ],
+    "external_links_raw": [
+      {
+        "url": "Amanda Knox's own writings and podcast (\"Labyrinths\")",
+        "description": "Amanda Knox's own writings and podcast"
+      },
+      {
+        "url": "various books on the case.",
+        "description": "various books on the case."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Amanda Knox",
+      "first_name": "Amanda",
+      "middle_name": null,
+      "last_name": "Knox",
+      "status": "EXONERATED",
+      "conviction_year": 2009,
+      "exoneration_or_release_year": 2015,
+      "time_served": "Nearly 4 years.",
+      "sentence": "Initially 26 years.",
+      "crime_convicted_of_raw": "Murder of Meredith Kercher (Exonerated) (Note: A related slander conviction was also recently examined/overturned regarding statements made during initial interrogations).",
+      "case_location_city": "Perugia",
+      "case_location_state": "Italy",
+      "narrative_summary": "Amanda Knox was convicted of the murder of Meredith Kercher in Perugia, Italy, in 2009. Her conviction was overturned in 2011, reinstated in 2014, and definitively overturned in 2015. She spent nearly 4 years in prison before her final exoneration.",
+      "contributing_factors_raw": [
+        "Intense media sensationalism and negative portrayal (\"Foxy Knoxy\")",
+        "Disputed and potentially contaminated DNA evidence",
+        "Questionable interrogation tactics",
+        "Cultural misunderstandings",
+        "Possible confirmation bias by investigators/prosecutors"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project (Knox is now affiliated)",
+        "Various legal teams in Italy and supporters in the US"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Rod Blackhurst",
+      "first_name": "Rod",
+      "middle_name": null,
+      "last_name": "Blackhurst",
+      "role": "DIRECTOR"
+    },
+    {
+      "full_name": "Brian McGinn",
+      "first_name": "Brian",
+      "middle_name": null,
+      "last_name": "McGinn",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

@@ -1,0 +1,152 @@
+{
+  "sourceFileName": "9.1.the_farm.md",
+  "mediaWork": {
+    "title": "The Farm: Angola, USA",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Liz Garbus, Jonathan Stack, Wilbert Rideau",
+    "publicationOrReleaseYear": 1998,
+    "publisherOrNetwork": "Information Unavailable",
+    "focusOrTheme": "Life and death inside Louisiana State Penitentiary (Angola), perspectives of inmates serving long sentences (including life).",
+    "summaryNotes": "This highly regarded documentary offers a powerful look inside Angola. While the theme of potential innocence exists (particularly with Vincent Simmons), the film is more broadly about the human experience within the prison, covering parole hearings, the prison hospice, the execution process, and daily life.",
+    "availabilityNotes": "Available via YouTube, Amazon, DVD.",
+    "sourceUrl": null
+  },
+  "mediaItem": {
+    "itemTitle": "The Farm: Angola, USA",
+    "itemNumber": null,
+    "itemMediaType": "DOCUMENTARY_CONTENT",
+    "releaseDate": null,
+    "hostOrNarrator": null,
+    "focusOrTheme": "Life and death inside Louisiana State Penitentiary (Angola), perspectives of inmates serving long sentences (including life).",
+    "summaryNotes": "Follows stories of several inmates at Angola Prison, including some who maintain their innocence. Available via YouTube, Amazon, DVD. This highly regarded documentary offers a powerful look inside Angola. While the theme of potential innocence exists (particularly with Vincent Simmons), the film is more broadly about the human experience within the prison, covering parole hearings, the prison hospice, the execution process, and daily life.",
+    "keyQuotes": "Awarded Grand Jury Prize at Sundance Film Festival.",
+    "sourceUrl": null
+  },
+  "individuals": [
+    {
+      "firstName": "Vincent",
+      "lastName": "Simmons",
+      "status": "CONVICTED",
+      "convictionYear": 1977,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": 47.0,
+      "sentence": "100 years without parole",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Louisiana",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Maintained innocence; alleged inadequate defense, racial bias, flawed identification procedures; Appeals denied; Remains incarcerated as of recent reports."
+    },
+    {
+      "firstName": "George",
+      "lastName": "Crawford",
+      "status": "UNKNOWN",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": null,
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": null,
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null
+    },
+    {
+      "firstName": "Ashanti",
+      "lastName": "Witherspoon",
+      "status": "UNKNOWN",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": null,
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": null,
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null
+    },
+    {
+      "firstName": "Bishop Eugene",
+      "lastName": "Tanniehill",
+      "status": "UNKNOWN",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": null,
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": null,
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null
+    },
+    {
+      "firstName": "John",
+      "lastName": "Brown",
+      "status": "UNKNOWN",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": null,
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": null,
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null
+    },
+    {
+      "firstName": "Logan",
+      "lastName": "McGuinness",
+      "status": "UNKNOWN",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": null,
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": null,
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null
+    }
+  ],
+  "contributingFactors": [
+    {
+      "name": "Inadequate Defense",
+      "description": "Simmons alleged inadequate defense."
+    },
+    {
+      "name": "Racial Bias",
+      "description": "Simmons alleged racial bias."
+    },
+    {
+      "name": "Flawed Identification Procedures",
+      "description": "Simmons alleged flawed identification procedures."
+    }
+  ],
+  "organizations": [],
+  "involvedPersons": [
+    {
+      "firstName": "Liz",
+      "lastName": "Garbus",
+      "role": "DIRECTOR",
+      "notes": null
+    },
+    {
+      "firstName": "Jonathan",
+      "lastName": "Stack",
+      "role": "DIRECTOR",
+      "notes": null
+    },
+    {
+      "firstName": "Wilbert",
+      "lastName": "Rideau",
+      "role": "DIRECTOR",
+      "notes": null
+    }
+  ],
+  "crimeCategories": [
+    {
+      "crime_name": "Aggravated Rape",
+      "severity_order": null
+    }
+  ]
+}

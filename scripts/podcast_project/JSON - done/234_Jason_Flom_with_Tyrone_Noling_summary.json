@@ -1,0 +1,75 @@
+{
+    "sourceFileName": "234_Jason_Flom_with_Tyrone_Noling_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom (implied), Brian Howe (Guest Host), Tyrone Noling (Guest)",
+        "releaseYear": "2021",
+        "network": "Lava for Good podcasts and Signal Company No. 1",
+        "seriesType": "Episodic Series (each episode is generally a standalone story) - based on the format and title \"Wrongful Conviction\"",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, flaws in the justice system, coerced confessions, ineffective counsel, prosecutorial misconduct, fight for exoneration.",
+        "keyStats": "Tyrone Noling has been on death row for over 30 years. All prosecution witnesses recanted their testimonies. Ballistics tests initially excluded Tyrone's gun as the murder weapon.",
+        "itemNumber": "234",
+        "itemTitle": "Jason Flom with Tyrone Noling",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction delves into the egregious case of Tyrone Noling, who has spent over 30 years on death row in Ohio for a double murder he did not commit.  The podcast details how, in 1990, Noling and his friends, involved in minor robberies, became suspects in the Harding murders despite initial evidence excluding them.  Coerced testimonies from Noling's friends, obtained through aggressive interrogation and threats of the death penalty, formed the basis of his conviction.  The episode highlights multiple overlooked leads, including other potential suspects with stronger connections to the crime. Despite recantations from all prosecution witnesses and significant evidence of innocence uncovered by the Ohio Innocence Project, Noling remains on death row, underscoring profound systemic failures within the justice system and the ongoing fight for his exoneration."
+    },
+    "featuredIndividual": {
+        "fullName": "Tyrone Noling",
+        "caseLocation": "Atwater, Portage County, Ohio, USA",
+        "convictionYear": "1996",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "Aggravated Murder (of Bernhard and Cora Harding)",
+        "sentence": "Death Penalty",
+        "timeServed": "Over 30 years (as of podcast recording)",
+        "contributingFactorsRaw": [
+            "Coerced confessions/false testimonies, ineffective defense counsel (implied), prosecutorial misconduct (withholding evidence implied), tunnel vision in investigation, pressure to solve the case."
+        ],
+        "status": "Currently on death row, seeking exoneration through post-conviction litigation.",
+        "organizationsInvolvedRaw": [
+            "Ohio Innocence Project"
+        ],
+        "innocenceLawyersRaw": [
+            "Brian Howe, attorney with the Ohio Innocence Project, is interviewed in the podcast and is actively working on Tyrone Noling's case."
+        ],
+        "crossReference": "Appears to be in exoneree database (highly likely given the focus of the podcast and organization involved, but not explicitly confirmed in transcript).",
+        "narrativeOriginalCrime": "Bernhard and Cora Harding, an elderly couple, were found murdered in their home on April 5, 1990. They were shot with a 25-caliber gun, and their house appeared to have been rifled through, though Mr. Harding's wallet was untouched. There was no forced entry.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimonies from Tyrone Noling's friends (Joey Dallisandro, Butch Walcott, Gary St. Clair) stating that Tyrone and Gary St. Clair committed the murders. These testimonies were later recanted by all three."
+        ],
+        "trialDefenderNotes": "The transcript suggests ineffective defense.  Alternate suspects and exculpatory evidence (like the initial ballistics tests and other leads) were seemingly not presented or effectively argued. The defense was unable to counter the coerced testimonies effectively.",
+        "keyEvidenceExonerationRaw": [
+            "Recantations from all three prosecution witnesses (Dallisandro, Walcott, St. Clair). Initial ballistics test excluded Tyrone's gun.  Other viable suspects (Dennis van Steenberg, Lewis Lehman, Dan Wilson) were not adequately investigated or excluded.  Undisclosed evidence from original investigation files (Nathan Chesley tip, Marlene van Steenberg statement, Dan Wilson and cigarette butt)."
+        ],
+        "actualPerpetratorDetails": "Not definitively identified in the transcript, but strong alternative suspects are mentioned:",
+        "dennis_van_steenberg": "Owned a 25-caliber pistol, initially a suspect, but investigation dropped after a gun he turned in didn't match (later revealed to be potentially the wrong gun).",
+        "lewis_lehman": "Insurance salesman who owed money to Mr. Harding, owned a 25-caliber pistol matching the type used, acted suspiciously, refused to cooperate.",
+        "dan_wilson": "Foster brother of Nathan Chesley (who initially reported a foster brother's confession), lived close to the Hardings, later became a known murderer, and was not definitively excluded as a suspect in the Harding case."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom:  \"...one of the most twisted, entangled, nonsensical, and I'm going to say evil, Wrongful Convictions that I know of.\"",
+        "Brian Howe: \"...I wouldn't be surprised if he [Tyrone Noling] were the strongest case of innocence of anyone currently on death row.\"",
+        "Tyrone Noling: \"I'm an innocent person on Ohio's death row, and I don't belong here, and I need help.\""
+    ],
+    "systemicIssuesRaw": [
+        "Coercive interrogation techniques leading to false confessions.",
+        "Tunnel vision in police investigations.",
+        "Failure to disclose exculpatory evidence to the defense (Brady violations implied).",
+        "Ineffective assistance of counsel (implied).",
+        "Over-reliance on unreliable witness testimony.",
+        "The immense difficulty of overturning wrongful convictions, even with strong evidence of innocence."
+    ],
+    "policyRecommendationsRaw": [
+        "Listeners are encouraged to contact the governor and state/local politicians to advocate for Tyrone Noling.",
+        "Listeners are directed to Tyronolink.com and the Cincinnati Innocence Project for more information and ways to help.",
+        "Implied call for broader criminal justice reform to prevent wrongful convictions and facilitate exonerations."
+    ],
+    "personalNarrativeRaw": [
+        "Tyrone Noling describes the emotional toll of being wrongfully convicted, the betrayal by friends who gave false testimony, the despair of being on death row, and the ongoing fight for his freedom. He emphasizes the urgent need for help and a voice to advocate for his innocence."
+    ],
+    "additionalResourcesRaw": [
+        "Tyronolink.com (website for Tyrone Noling's case)",
+        "Cincinnati Innocence Project (organization assisting with his case)",
+        "\"Death Row Stories\" docu-series episode \"The Lost Boy\" about Tyrone Noling's case."
+    ]
+}

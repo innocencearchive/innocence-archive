@@ -1,0 +1,114 @@
+{
+  "source_file_name": "9.27.deadline.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "Deadline",
+    "creator_name": "Katy Chevigny, Kirsten Johnson",
+    "publication_or_release_year": 2004,
+    "publisher_or_network": "Big Mouth Productions",
+    "focus_or_theme": "Illinois Governor George Ryan's struggle with the state's flawed death penalty system, prompted by exonerations and Northwestern University investigations, culminating in his commutation of all death sentences.",
+    "summaryNotes": "Highlights the series of wrongful convictions uncovered on Illinois' death row and documents Governor Ryan's commutation of over 160 death sentences to life imprisonment in 2003.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Deadline",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Illinois Governor George Ryan's struggle with the state's flawed death penalty system, prompted by exonerations and Northwestern University investigations, culminating in his commutation of all death sentences.",
+    "summary_notes": "Documents Illinois Governor George Ryan's decision to commute all death sentences in Illinois after a series of wrongful convictions were uncovered. Features interviews with Governor Ryan, his staff, journalists, and lawyers.",
+    "key_quotes_raw": [
+      "Interviews with Governor Ryan, his staff, journalists, lawyers, potentially exonerees or their families.",
+      "Footage of the clemency hearings and Ryan's final announcement commuting the sentences."
+    ],
+    "systemic_issues_raw": [
+      "High rate of error and wrongful convictions in capital punishment cases",
+      "Systemic flaws in the criminal justice system (police/prosecutorial misconduct, inadequate defense)",
+      "The role of journalism and academic investigation in uncovering injustice",
+      "Political and moral dilemmas surrounding the death penalty."
+    ],
+    "policy_recommendations_raw": [
+      "The film documents a major policy action (blanket commutation) and implicitly supports moratoriums or abolition of the death penalty due to the risk of executing the innocent."
+    ],
+    "external_links_raw": [
+      {
+        "url": null,
+        "description": "Reports from Northwestern's Center on Wrongful Convictions, news archives covering the Illinois death penalty moratorium."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Several Illinois death row exonerees",
+      "first_name": "Several",
+      "middle_name": "Illinois death row",
+      "last_name": "exonerees",
+      "status": "OTHER",
+      "conviction_year": null,
+      "exoneration_or_release_year": 2003,
+      "time_served": "Various",
+      "sentence": "Death",
+      "crime_convicted_of_raw": "Primarily Murder (capital cases)",
+      "case_location_city": "Illinois",
+      "case_location_state": "USA",
+      "narrative_summary": "The documentary features several Illinois death row exonerees who were exonerated or had their sentences commuted by Gov. Ryan. Their cases highlight flaws in the criminal justice system.",
+      "contributing_factors_raw": [
+        "Faulty eyewitness ID",
+        "False confessions",
+        "Police/prosecutorial misconduct",
+        "Inadequate defense"
+      ],
+      "organizations_involved_raw": [
+        "Northwestern University's Center on Wrongful Convictions",
+        "Governor George Ryan's office"
+      ]
+    },
+    {
+      "full_name": "Anthony Porter",
+      "first_name": "Anthony",
+      "middle_name": null,
+      "last_name": "Porter",
+      "status": "OTHER",
+      "conviction_year": null,
+      "exoneration_or_release_year": 2003,
+      "time_served": "Various",
+      "sentence": "Death",
+      "crime_convicted_of_raw": "Primarily Murder (capital cases)",
+      "case_location_city": "Illinois",
+      "case_location_state": "USA",
+      "narrative_summary": "Anthony Porter is mentioned contextually as an example of a death row exoneree in Illinois whose case contributed to Governor Ryan's decision to commute all death sentences.",
+      "contributing_factors_raw": [
+        "Faulty eyewitness ID",
+        "False confessions",
+        "Police/prosecutorial misconduct",
+        "Inadequate defense"
+      ],
+      "organizations_involved_raw": [
+        "Northwestern University's Center on Wrongful Convictions",
+        "Governor George Ryan's office"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Katy Chevigny",
+      "first_name": "Katy",
+      "middle_name": null,
+      "last_name": "Chevigny",
+      "role": "DIRECTOR"
+    },
+    {
+      "full_name": "Kirsten Johnson",
+      "first_name": "Kirsten",
+      "middle_name": null,
+      "last_name": "Johnson",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

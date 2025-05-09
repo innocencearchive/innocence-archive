@@ -1,0 +1,94 @@
+{
+  "source_file_name": "9.18.fear_of_13.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "The Fear of 13",
+    "creator_name": "David Sington",
+    "publication_or_release_year": 2015,
+    "publisher_or_network": "Dox Productions",
+    "focus_or_theme": "The life story of Nick Yarris, focusing on his wrongful conviction, 21-22 years spent on death row in Pennsylvania, his eventual exoneration through DNA evidence, and reflections on the art of storytelling.",
+    "summaryNotes": "Nick Yarris spent over two decades on death row. He was the 140th person exonerated by postconviction DNA testing in the U.S. and the 13th DNA exoneree from death row.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "The Fear of 13",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "The life story of Nick Yarris, focusing on his wrongful conviction, 21-22 years spent on death row in Pennsylvania, his eventual exoneration through DNA evidence, and reflections on the art of storytelling.",
+    "summary_notes": "The film follows Nick Yarris, who spent over two decades on death row before being exonerated by DNA evidence. It explores his life, wrongful conviction, and reflections on storytelling and truth.",
+    "key_quotes_raw": [
+      "The film features only Nick Yarris speaking directly to the camera, narrating his life and experiences in a compelling, non-linear monologue format.",
+      "It's a strange phenomenon when you felt good for their leaving because you knew all along you had stole a lot of their life away.",
+      "...they do this not because they, like me, were wronged; they do it because it is the right thing to do—and it simply astounds me."
+    ],
+    "systemic_issues_raw": [
+      "The unreliability of eyewitness identification",
+      "The problematic use of jailhouse informants",
+      "Difficulties and delays in accessing postconviction DNA testing",
+      "Potential for misleading forensic science presentation",
+      "The immense psychological toll of long-term death row incarceration",
+      "The inherent risks associated with the death penalty",
+      "Themes of storytelling, memory, and truth"
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly advocates for improved access to postconviction DNA testing",
+      "Reforms regarding the use of eyewitness and informant testimony",
+      "Underscores the fallibility of the death penalty system"
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://innocenceproject.org/cases/nicholas-yarris/",
+        "description": "Innocence Project"
+      },
+      {
+        "url": "https://www.law.umich.edu/special/exoneration/Pages/casedetail.aspx?caseid=3771",
+        "description": "National Registry of Exonerations"
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Nicholas Yarris",
+      "first_name": "Nicholas",
+      "middle_name": null,
+      "last_name": "Yarris",
+      "status": "EXONERATED",
+      "conviction_year": 1982,
+      "exoneration_or_release_year": 2003,
+      "time_served": "Approximately 21-22 years",
+      "sentence": "Death",
+      "crime_convicted_of_raw": "Murder, Rape, Kidnapping/Abduction",
+      "case_location_city": "Delaware County",
+      "case_location_state": "Pennsylvania",
+      "narrative_summary": "Nicholas Yarris was wrongfully convicted of murder, rape, and kidnapping in 1982 and sentenced to death. He spent approximately 21-22 years on death row before his conviction was vacated in 2003 due to DNA evidence. He was released in 2004.",
+      "contributing_factors_raw": [
+        "Eyewitness Misidentification",
+        "Use of a Jailhouse Informant",
+        "False or Misleading Forensic Evidence",
+        "Perjury or False Accusation",
+        "Official Misconduct",
+        "Inadequate Legal Defense"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project",
+        "Dr. Edward Blake"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "David Sington",
+      "first_name": "David",
+      "middle_name": null,
+      "last_name": "Sington",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

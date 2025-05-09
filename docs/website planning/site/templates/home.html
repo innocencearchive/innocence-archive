@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{% block title %}Wrongfully Convicted Americans - Home{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="container">
+        <h1>Uncovering the Stories of the Wrongfully Convicted</h1>
+        <p>Explore the database of {{ exoneree_count }} individuals who were convicted of crimes they did not commit and later exonerated.</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Search by name, location, or crime type...">
+            <button type="submit"><i class="fas fa-search"></i> Search</button>
+        </div>
+    </div>
+</section>
+
+<section class="featured-stories">
+    <div class="container">
+        <h2 class="section-title">Featured Stories</h2>
+        <div class="stories-grid">
+            {% for exoneree in featured_exonerees %}
+            <div class="story-card">
+                <div class="story-card-content">
+                    <h3>{{ exoneree.first_name }} {{ exoneree.last_name }}</h3>
+                    <div class="story-card-meta">
+                        <div class="story-card-location">
+                            <i class="fas fa-map-marker-alt"></i> {{ exoneree.state }}, {{ exoneree.county }}
+                        </div>
+                        <div class="story-card-years">
+                            <i class="fas fa-calendar-alt"></i> {{ exoneree.years_to_exoneration }} years
+                        </div>
+                    </div>
+                    <div class="story-card-crime">{{ exoneree.worst_crime }}</div>
+                    <p class="story-card-summary">
+                        {{ exoneree.first_name }} {{ exoneree.last_name }} was wrongfully convicted in {{ exoneree.convicted_year }} and exonerated in {{ exoneree.exonerated_year }} after serving {{ exoneree.years_to_exoneration }} years.
+                    </p>
+                    <div class="story-card-factors">
+                        {% for factor in exoneree.factors %}
+                        <span class="factor-tag">{{ factor }}</span>
+                        {% endfor %}
+                    </div>
+                    <div class="story-card-footer">
+                        <div class="media-indicator {% if exoneree.has_media %}has-media{% else %}no-media{% endif %}">
+                            <i class="fas {% if exoneree.has_media %}fa-check-circle{% else %}fa-exclamation-circle{% endif %}"></i>
+                            {% if exoneree.has_media %}Media Coverage{% else %}No Media Coverage{% endif %}
+                        </div>
+                        <a href="/exoneree/{{ exoneree.id }}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section class="map-section">
+    <div class="container">
+        <h2 class="section-title">Geographic Patterns</h2>
+        <div class="map-container" id="map">
+            <!-- Map will be rendered here by JavaScript -->
+        </div>
+    </div>
+</section>
+
+<section class="untold-stories">
+    <div class="container">
+        <h2 class="section-title">Untold Stories</h2>
+        <p class="text-center mb-4">These cases have received little to no media attention. Help bring these stories to light.</p>
+        <div class="stories-grid">
+            {% for exoneree in untold_stories %}
+            <div class="story-card">
+                <div class="story-card-content">
+                    <h3>{{ exoneree.first_name }} {{ exoneree.last_name }}</h3>
+                    <div class="story-card-meta">
+                        <div class="story-card-location">
+                            <i class="fas fa-map-marker-alt"></i> {{ exoneree.state }}, {{ exoneree.county }}
+                        </div>
+                        <div class="story-card-years">
+                            <i class="fas fa-calendar-alt"></i> {{ exoneree.years_to_exoneration }} years
+                        </div>
+                    </div>
+                    <div class="story-card-crime">{{ exoneree.worst_crime }}</div>
+                    <p class="story-card-summary">
+                        {{ exoneree.first_name }} {{ exoneree.last_name }} was wrongfully convicted in {{ exoneree.convicted_year }} and exonerated in {{ exoneree.exonerated_year }} after serving {{ exoneree.years_to_exoneration }} years.
+                    </p>
+                    <div class="story-card-factors">
+                        {% for factor in exoneree.factors %}
+                        <span class="factor-tag">{{ factor }}</span>
+                        {% endfor %}
+                    </div>
+                    <div class="story-card-footer">
+                        <div class="media-indicator no-media">
+                            <i class="fas fa-exclamation-circle"></i> No Media Coverage
+                        </div>
+                        <a href="/exoneree/{{ exoneree.id }}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="text-center mt-4">
+            <a href="/untold" class="btn btn-primary">View All Untold Stories</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
+<script src="/static/js/map.js"></script>
+{% endblock %}

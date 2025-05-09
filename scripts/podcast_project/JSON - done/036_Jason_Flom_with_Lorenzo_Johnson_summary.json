@@ -1,0 +1,90 @@
+{
+    "sourceFileName": "036_Jason_Flom_with_Lorenzo_Johnson_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2017",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Criminal Justice System, Prosecutorial Misconduct, Police Corruption, Exoneration",
+        "keyStats": "-   Lorenzo Johnson served 22 years for a crime he did not commit.\n-   He was initially released in 2012 by a federal appeals court due to insufficient evidence but was sent back to prison after the Attorney General appealed to the Supreme Court.\n-   The Supreme Court reinstated his conviction in one day without allowing his legal team to brief arguments.\n-   Key exculpatory evidence (Brady violation) was withheld by the prosecution, including a discrediting statement from the key witness and police reports indicating the witness was a suspect.\n-   Life sentence in Pennsylvania is natural life with no parole board.\n-   Lorenzo Johnson represented himself for three years in prison and obtained his GED and college credits.\n-   The prosecution offered a plea deal to a lesser charge of third-degree murder for immediate parole after 22 years of incarceration.",
+        "itemNumber": "036",
+        "itemTitle": "Jason Flom with Lorenzo Johnson",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Lorenzo Johnson, who spent 22 years in prison for a murder he maintains he did not commit in Harrisburg, Pennsylvania in 1995.  Despite being in New York at the time of the crime, Johnson was convicted based on unreliable eyewitness testimony and prosecutorial misconduct.  Key exculpatory evidence, including statements discrediting the main witness and police reports identifying her as a suspect, was withheld from the defense.  Johnson was initially released in 2012 due to insufficient evidence, but the Supreme Court controversially reinstated his conviction.  After years of legal battles and facing the prospect of further appeals, Johnson accepted a plea deal to a lesser charge to secure his release in July 2017, although he maintains his innocence and expresses bitterness about the plea and the systemic injustices he endured.  He now advocates for criminal justice reform and supports other wrongfully convicted individuals."
+    },
+    "featuredIndividual": {
+        "fullName": "Lorenzo Johnson",
+        "caseLocation": "Harrisburg, Pennsylvania, USA",
+        "convictionYear": "1995 (original charge)",
+        "exonerationYear": "Not fully exonerated; released on parole in 2017 after accepting a no contest plea to a lesser charge.",
+        "crimeConvictedOf": "Murder (originally First Degree, later pleaded no contest to Third Degree)",
+        "sentence": "Original sentence was life imprisonment.",
+        "timeServed": "22 years",
+        "contributingFactorsRaw": [
+            "Prosecutorial Misconduct (Brady Violation - withholding exculpatory evidence)",
+            "Eyewitness Misidentification (unreliable witness, possibly incentivized and a suspect herself)",
+            "Police Corruption (corrupt detective targeting Johnson)",
+            "Ineffective Assistance of Counsel (implied - trial attorney was 'green')"
+        ],
+        "status": "Released on parole after accepting a no contest plea to third-degree murder. Not fully exonerated, has a felony conviction.",
+        "organizationsInvolvedRaw": [
+            "Jeffrey Deskovic Foundation (helped with reentry), Innocence Project (supported by podcast host)."
+        ],
+        "innocenceLawyersRaw": [
+            "Not explicitly detailed in transcript, but mentioned lead attorney was very emotional when informing Johnson about Supreme Court decision.  Johnson represented himself for three years."
+        ],
+        "crossReference": "Not specified if in exoneree database in the transcript.",
+        "narrativeOriginalCrime": "Teraje Williams was murdered outside a bar in Harrisburg, Pennsylvania, on December 15, 1995.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness testimony of Carla Brown, who claimed Johnson was involved.",
+            "Changed narrative of motive from stolen jacket to drug debt during trial."
+        ],
+        "trialDefenderNotes": "-   Trial attorney described as 'fresh out of school' and 'very green'.\n-   Alibi defense (Johnson was in New York) was not effectively presented or believed.\n-   Defense was not provided with key exculpatory evidence.",
+        "keyEvidenceExonerationRaw": [
+            "Withheld police report showing Carla Brown was a suspect.",
+            "Withheld statement discrediting Carla Brown's testimony.",
+            "Witness statements placing Carla Brown at the scene and suggesting her involvement.",
+            "Alibi evidence (though seemingly not fully considered in original trial/appeals).",
+            "Federal Appeals Court initially overturned conviction due to insufficient evidence.",
+            "Ultimately, plea deal to a lesser charge was offered after years of fighting and Supreme Court reinstatement of conviction."
+        ],
+        "actualPerpetratorDetails": "Not definitively identified in the transcript, but strong implication that Carla Brown may have been involved or had more information than she disclosed."
+    },
+    "keyQuotesRaw": [
+        "\"The prosecution from day one knew I was innocent and let false testimony go uncorrected from the lower courts all the way up to United States Supreme Court.\" - Lorenzo Johnson",
+        "\"I fell into the hands of a corrupt detective.\" - Lorenzo Johnson",
+        "\"In the back of your mind you say, well, when we go to a hearing or we go to court, the truth will come out.\" - Lorenzo Johnson on the naive belief in the justice system.",
+        "\"Wrongful convictions need to be fought not only inside the courtroom but outside of the courtroom.\" - Lorenzo Johnson emphasizing broader advocacy.",
+        "\"Don't presume that people are guilty when you see them on TV because it may just be a dirty DA that is trying to rise upward.\" - Jason Flom."
+    ],
+    "systemicIssuesRaw": [
+        "Prosecutorial Misconduct (Brady Violations, knowingly using false testimony).",
+        "Police Corruption (targeting individuals, coercing witnesses, withholding evidence).",
+        "Ineffective Assistance of Counsel (under-resourced or inexperienced defense attorneys).",
+        "Flaws in Eyewitness Testimony (reliance on unreliable witnesses).",
+        "Power imbalance between prosecution and defense, especially for indigent defendants.",
+        "Difficulties in overturning wrongful convictions even with exculpatory evidence.",
+        "Pressure on innocent individuals to accept plea deals to gain freedom.",
+        "Impact of wrongful convictions on families and communities.",
+        "Lack of accountability for prosecutors who commit misconduct."
+    ],
+    "policyRecommendationsRaw": [
+        "Review wrongful conviction cases, especially by law students.",
+        "Pay attention to exonerations and demand accountability for misconduct.",
+        "Vote in local District Attorney races to elect officials who believe in justice and rule of law.",
+        "Support innocence projects and pro bono lawyers.",
+        "Advocate against forcing innocent people to take plea bargains."
+    ],
+    "personalNarrativeRaw": [
+        "Lorenzo Johnson describes the psychological toll of wrongful conviction, including solitary confinement and the emotional impact on his family.",
+        "He maintains a positive attitude despite the injustice but expresses bitterness about the plea deal and the broken trust in the judicial system.",
+        "He is now dedicated to fighting injustice and advocating for other wrongfully convicted individuals."
+    ],
+    "additionalResourcesRaw": [
+        "Website: freelorenzojohnson.org",
+        "Innocence Project (InnocenceProject.org)",
+        "Jeffrey Deskovic Foundation (implied through mention of Jeffrey Deskovic and his foundation assisting Johnson)."
+    ]
+}

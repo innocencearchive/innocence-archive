@@ -1,0 +1,63 @@
+{
+  "source_file_name": "4.8.window_of_hope.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "Window of Hope (Dateline NBC)",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "NBC News",
+    "focus_or_theme": "Cold case DNA testing leading to exoneration, eyewitness misidentification",
+    "summaryNotes": "Highlighted exoneration after 19 years through DNA testing of long-lost evidence.",
+    "availabilityNotes": "Available via NBC/Peacock.",
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Window of Hope (Dateline NBC)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Cold case DNA testing leading to exoneration, eyewitness misidentification",
+    "summary_notes": "Dennis Maher was exonerated after 19 years due to DNA testing of evidence thought to be lost. The New England Innocence Project took his case. His conviction was based on misidentifications and allegations of police misconduct.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Highlights the work of the Innocence Project in securing DNA testing that proved Maher's innocence in multiple sexual assault cases after 19 years. Available via NBC/Peacock.",
+      "research_findings": "Dennis Maher, a US Army sergeant, was convicted based on misidentifications by multiple victims. The New England Innocence Project took his case, and crucial biological evidence, previously thought lost, was discovered in a courthouse basement in 2001. DNA testing excluded Maher, leading to his exoneration in 2003. His case also involved allegations of police misconduct regarding a deal with a witness. While the specific Dateline episode \"Window of Hope\" wasn't confirmed, the details align with the description."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Dennis Maher",
+      "first_name": "Dennis",
+      "middle_name": null,
+      "last_name": "Maher",
+      "status": "EXONERATED",
+      "conviction_year": 1984,
+      "exoneration_or_release_year": 2003,
+      "time_served": "19+ years",
+      "sentence": "Life",
+      "crime_convicted_of_raw": "Rape and Assault (multiple attacks in 1983)",
+      "case_location_city": "Lowell / Ayer",
+      "case_location_state": "Middlesex County, Massachusetts",
+      "narrative_summary": "Convicted in 1984 for rape and assault and sentenced to life. Exonerated in 2003 based on DNA evidence after 19+ years of imprisonment. His case involved mistaken eyewitness identification and allegations of police misconduct.",
+      "contributing_factors_raw": [
+        "Mistaken eyewitness identification (by multiple victims)",
+        "Failure to test biological evidence pre-trial",
+        "Alleged police misconduct (withholding evidence about a deal with one victim/witness)"
+      ],
+      "organizations_involved_raw": [
+        "New England Innocence Project (NEIP)",
+        "Innocence Project (initial contact)"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "Highlights the work of the Innocence Project in securing DNA testing that proved Maher's innocence in multiple sexual assault cases after 19 years. Available via NBC/Peacock. Dennis Maher, a US Army sergeant, was convicted based on misidentifications by multiple victims [cite: 1.3, 1.4]. The New England Innocence Project took his case, and crucial biological evidence, previously thought lost, was discovered in a courthouse basement in 2001 [cite: 1.1, 1.3]. DNA testing excluded Maher, leading to his exoneration in 2003 [cite: 1.1, 1.3]. His case also involved allegations of police misconduct regarding a deal with a witness [cite: 1.2]. While the specific Dateline episode \"Window of Hope\" wasn't confirmed [cite: 7.1, 9.1], the details align with the description."
+}

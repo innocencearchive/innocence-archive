@@ -1,0 +1,82 @@
+{
+  "source_file_name": "37.smoke_but_no_fire.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Smoke But No Fire: Convicting the Innocent of Crimes That Never Happened",
+    "creator_name": "Jessica S. Henry",
+    "publication_or_release_year": 2020,
+    "publisher_or_network": "University of California Press",
+    "format": "Hardcover, Paperback, eBook",
+    "focus_or_theme": "No-crime wrongful convictions - cases where people are convicted of crimes that never actually happened",
+    "key_statistics": "Over one-third of all exonerees were wrongly convicted of crimes that never happened",
+    "recognition_notes": "2020 Montaigne Medal award for most thought-provoking book and the INDIE forward Book of the Year Award (Silver, Political and Social Science)"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "\"The author's accumulation of evidence is revelatory. An eye-opening book that suggests how commonplace are miscarriages of justice in the U.S.\" — Kirkus Reviews",
+      "\"Jessica Henry provides a concise and even-handed account of no-crime convictions and the numerous, interdependent ways in which they are allowed to continue. Her ability to weave personal stories with the matter of (legal) fact writing beautifully illustrates a perfectly ugly scenario.\" — Crime, Law and Social Change"
+    ],
+    "systemic_issues_raw": [
+      "Forensic Error: Misclassified Murders and Mislabeled Crimes",
+      "False Accusations: When Lies Become Courtroom Truths",
+      "Police Misconduct: Crossing the \"Thin Blue Line\"",
+      "Prosecutorial Misconduct: Winning at All Costs",
+      "Defense Lawyers: Drowning in Cases",
+      "Judicial Bias: Tilting the Scales of Justice",
+      "Misdemeanors: Not Minor Matters"
+    ],
+    "research_notes_other": {
+      "types_of_no-crime_wrongful_convictions": "- Suicides misclassified as homicides\n- Accidental fires misclassified as arson\n- Natural deaths misclassified as murders\n- Drugs planted on innocent suspects\n- False allegations of assault invented to resolve custody disputes"
+    },
+    "policy_recommendations_raw": [
+      "Reforms to forensic science practices and standards",
+      "Greater accountability for police and prosecutorial misconduct",
+      "Improved resources for public defenders",
+      "Better judicial oversight of cases",
+      "Reforms to the misdemeanor system",
+      "Increased scrutiny of potential no-crime cases"
+    ],
+    "additional_resources_raw": [
+      "National Registry of Exonerations",
+      "Innocence Project",
+      "TEDx Talk by Jessica Henry: \"No-Crime Wrongful Convictions\""
+    ],
+    "item_title": "Book Content: Smoke But No Fire: Convicting the Innocent of Crimes That Never Happened",
+    "focus_or_theme": "No-crime wrongful convictions - cases where people are convicted of crimes that never actually happened",
+    "summary_notes": "The book examines the various factors contributing to no-crime wrongful convictions, from forensic errors to systemic issues within the criminal justice system. It highlights how innocent people are convicted of crimes that never occurred due to official misconduct, aggressive policing, forensic errors, false accusations, inadequate defense, and judicial bias.  Approximately one-third of all exonerations involve no-crime wrongful convictions.",
+    "case_details_raw": "Rodricus Crawford's case is featured as an example of a no-crime wrongful conviction where a natural death was misclassified as murder. He was convicted of murdering his baby boy by suffocation, but the baby actually died from an undiagnosed illness.  Crawford faced a death sentence and spent years on death row before exoneration."
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Rodricus Crawford",
+      "first_name": "Rodricus",
+      "middle_name": null,
+      "last_name": "Crawford",
+      "case_location": "Not specified in available sources",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": "Murder by suffocation of his baby boy",
+      "sentence": "Death row",
+      "time_served": "Years on death row",
+      "contributing_factors_raw": [
+        "Forensic error - baby actually died from an undiagnosed illness"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [],
+      "cross_reference": "Featured as an example of a no-crime wrongful conviction where a natural death was misclassified as murder",
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Jessica S. Henry",
+      "role": "AUTHOR",
+      "first_name": "Jessica",
+      "middle_name": "S.",
+      "last_name": "Henry"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

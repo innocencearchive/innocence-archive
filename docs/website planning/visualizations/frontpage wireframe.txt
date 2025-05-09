@@ -1,0 +1,71 @@
+Innocence Archive - Front Page Wireframe (Text-Based)This wireframe outlines a potential layout structure for the key content elements discussed.+--------------------------------------------------------------------------+
+| [Logo]  The Innocence Archive                                            |
+|         Stories of Wrongfully Convicted Americans                        |
++--------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------+
+| Search the Archive:                                                      |
+| [_________________________________________] [Search Button]              |
+| (e.g., Search by name, state, contributing factor...)                    |
++--------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------+
+| [Brief, 1-2 sentence mission statement summarizing the project's goal.]  |
++--------------------------------------------------------------------------+
+
+======================= Featured Story =====================================
+
++--------------------------------------------------------------------------+
+|                                                                          |
+|   **[Featured Story Title - e.g., The Case of John Doe]** |
+|                                                                          |
+|   [Brief introductory paragraph about the featured individual's story,   |
+|    highlighting key aspects without giving everything away.]             |
+|                                                                          |
+|   [Read More -> Link to full story/profile page]                         |
+|                                                                          |
++--------------------------------------------------------------------------+
+
+======================= Explore the Archive ================================
+(These modules could rotate or be presented in a 2x2 grid)
+
++----------------------------------+  +-------------------------------------+
+| **By the Numbers** |  | **Featured Organization** |
+|                                  |  |                                     |
+| - [Statistic 1: e.g., 3000+ Exon...] |  | [Org Logo/Name: Innocence Proj...]  |
+| - [Statistic 2: e.g., 65% Invol...] |  | [Brief description of the org.]     |
+| - [Statistic 3: e.g., Avg Time...] |  |                                     |
+|                                  |  | [Learn More -> Link to Org Profile] |
+| [See More Statistics -> Link]    |  |                                     |
++----------------------------------+  +-------------------------------------+
+
++----------------------------------+  +-------------------------------------+
+| **Featured Media** |  | **Contributing Factors** |
+|                                  |  |                                     |
+| - Book: [Book Title -> Link]     |  | - [Factor 1: Eyewitness ID -> Link] |
+| - Film: [Film Title -> Link]     |  | - [Factor 2: False Confession -> Link]|
+| - Podcast: [Podcast Ep -> Link]  |  | - [Factor 3: Official Misconduct->Link]|
+|                                  |  |                                     |
+| [More Media Resources -> Link]   |  | [Explore All Factors -> Link]       |
++----------------------------------+  +-------------------------------------+
+
+======================= Using the Archive ==================================
+
++--------------------------------------------------------------------------+
+| **How to Use This Archive** |
+| - For Journalists: [Brief description/link]                              |
+| - For Researchers: [Brief description/link]                              |
+| - For Students/Public: [Brief description/link]                          |
++--------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------+
+| **Recent Updates** |
+| - [Link to recently added Case Profile 1] - [Date]                       |
+| - [Link to recently added Media Analysis 1] - [Date]                     |
+| - [Link to recently added Case Profile 2] - [Date]                       |
++--------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------+
+| Footer Links: [About] [Contact] [Privacy Policy] [License]               |
++--------------------------------------------------------------------------+
+Notes:This is a conceptual layout. Actual spacing and alignment would be handled by CSS.The Explore the Archive section shows the rotating modules. They could appear one or two at a time randomly, or be laid out in a grid as shown conceptually here.[Placeholder -> Link] indicates where users would click to navigate deeper into the site.

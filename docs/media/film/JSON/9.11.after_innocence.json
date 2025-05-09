@@ -1,0 +1,94 @@
+{
+  "source_file_name": "9.11.after_innocence.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "After Innocence",
+    "publication_or_release_year": 2005,
+    "publisher_or_network": "American Film Foundation, Showtime Networks",
+    "focus_or_theme": "Challenges faced by exonerees after release from wrongful imprisonment (reintegration, psychological trauma, lack of support/compensation).",
+    "summaryNotes": "Won Special Jury Prize at Sundance Film Festival 2005.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "After Innocence",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Challenges faced by exonerees after release from wrongful imprisonment (reintegration, psychological trauma, lack of support/compensation).",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Follows stories of seven DNA exonerees adjusting to life after prison; Explores reintegration struggles. Directed by Jessica Sanders. Available via Amazon, DVD.",
+      "research_findings": "This documentary focuses on the often-overlooked difficulties faced by individuals *after* exoneration. It follows seven (list notes 7, Wikipedia lists 8) men exonerated by DNA, exploring their emotional journeys, struggles to find work, reconnect with family, access support, and obtain compensation for the years lost to wrongful imprisonment. It contrasts the public perception of exoneration as a happy ending with the often harsh realities faced by exonerees."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Dennis Maher\n*(Case details covered in entry 4.8)*",
+      "first_name": "Dennis",
+      "middle_name": "Maher *(Case details covered in entry",
+      "last_name": "4.8)*"
+    },
+    {
+      "full_name": "Calvin Willis\n*(Wrongfully convicted 1982 Louisiana rape, exonerated 2003 DNA, served 21+ years)*",
+      "first_name": "Calvin",
+      "middle_name": "Willis *(Wrongfully convicted 1982 Louisiana rape, exonerated 2003 DNA, served 21+",
+      "last_name": "years)*"
+    },
+    {
+      "full_name": "Scott Hornoff\n*(Wrongfully convicted 1996 Rhode Island murder, exonerated 2002 after actual killer confessed, served 6+ years)*",
+      "first_name": "Scott",
+      "middle_name": "Hornoff *(Wrongfully convicted 1996 Rhode Island murder, exonerated 2002 after actual killer confessed, served 6+",
+      "last_name": "years)*"
+    },
+    {
+      "full_name": "Wilton Dedge\n*(Wrongfully convicted 1982 Florida rape, exonerated 2004 DNA, served 22 years)*",
+      "first_name": "Wilton",
+      "middle_name": "Dedge *(Wrongfully convicted 1982 Florida rape, exonerated 2004 DNA, served 22",
+      "last_name": "years)*"
+    },
+    {
+      "full_name": "Vincent Moto\n*(Wrongfully convicted 1982 Pennsylvania rape, exonerated 2004 DNA, served 10+ years)*",
+      "first_name": "Vincent",
+      "middle_name": "Moto *(Wrongfully convicted 1982 Pennsylvania rape, exonerated 2004 DNA, served 10+",
+      "last_name": "years)*"
+    },
+    {
+      "full_name": "Nick Yarris\n*(Wrongfully convicted 1982 Pennsylvania kidnapping/rape/murder, sentenced to death, exonerated 2003/2004 DNA, served 21+ years)*",
+      "first_name": "Nick",
+      "middle_name": "Yarris *(Wrongfully convicted 1982 Pennsylvania kidnapping/rape/murder, sentenced to death, exonerated 2003/2004 DNA, served 21+",
+      "last_name": "years)*"
+    },
+    {
+      "full_name": "Ronald Cotton\n*(Case details covered in entries 1.1 / 2.5)*",
+      "first_name": "Ronald",
+      "middle_name": "Cotton *(Case details covered in entries 1.1 /",
+      "last_name": "2.5)*"
+    },
+    {
+      "full_name": "Herman Atkins\n*(Wrongfully convicted 1988 California rape, exonerated 2000 DNA, served 12 years)*",
+      "**also_featured": "** Barry Scheck, Peter Neufeld (Innocence Project), Lola Vollen (Life After Exoneration Program)",
+      "first_name": "Herman",
+      "middle_name": "Atkins *(Wrongfully convicted 1988 California rape, exonerated 2000 DNA, served 12",
+      "last_name": "years)*"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Jessica Sanders",
+      "role": "DIRECTOR",
+      "first_name": "Jessica",
+      "middle_name": null,
+      "last_name": "Sanders"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

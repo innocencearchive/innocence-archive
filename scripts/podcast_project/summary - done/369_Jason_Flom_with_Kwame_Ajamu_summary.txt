@@ -1,0 +1,118 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, assuming episode focuses on Kwame Ajamu, formerly Ronnie Bridgman, Wiley Bridgman, and Ricky Jackson case. Let's title it "Kwame Ajamu, Wiley Bridgman, and Ricky Jackson"
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Assuming released in 2024 based on the Discover ad referencing February 2024 Nielsen report.
+-   **Production Company(ies)/Network**: Lava For Good Podcasts, in association with Signal Company Number One
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, police misconduct, eyewitness misidentification, false testimony, death penalty abolition, systemic issues in the criminal justice system.
+-   **Key Statistics/Information**:
+    -   Cuyahoga County, Ohio, is described as arguably the epicenter of wrongful convictions.
+    -   In February 2021, Cuyahoga County ranked second in the US for exonerations of death row prisoners, tied with Philadelphia.
+    -   All wrongful convictions in Cuyahoga County involved police or prosecutorial misconduct or both.
+    -   Brian Stevenson estimates that about 10% of people on death row are innocent, suggesting innocent people are executed.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features Kwame Ajamu, formerly Ronnie Bridgman, who along with his brother Wiley Bridgman and friend Ricky Jackson, was wrongfully convicted in 1975 for the murder of Harold Frank in Cleveland, Ohio.  Their convictions were based on the false testimony of a 12-year-old boy, Eddie Vernon, who was coerced by police. Kwame, Wiley, and Ricky spent 39 years in prison, including time on death row, before being exonerated in 2014 after Eddie Vernon recanted his testimony.  The episode highlights the devastating impact of police misconduct, false eyewitness testimony, and systemic failures within the criminal justice system.  Kwame and attorney Terry Gilbert discuss the case details, the fight for exoneration, and the broader issues of wrongful convictions and the death penalty.  They advocate for criminal justice reform and death penalty abolition, emphasizing the importance of acknowledging and rectifying systemic flaws to prevent future tragedies. The episode concludes with a call to action to support organizations fighting wrongful convictions and advocating for justice.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Kwame Ajamu (formerly Ronnie Bridgman)
+    -   **Case Location**: Cleveland, Ohio, Cuyahoga County
+    -   **Conviction Year**: 1975
+    -   **Exoneration Year**: 2014
+    -   **Crime Convicted Of**: Murder of Harold Frank
+    -   **Sentence**: Death penalty, later commuted to life with the possibility of parole
+    -   **Time Served**: 39 years
+    -   **Contributing Factors**: False eyewitness testimony, police coercion and misconduct, systemic issues in the criminal justice system.
+    -   **Legal Status**: Exonerated
+    -   **Organizations Involved**: Ohio Justice and Policy Center (OJPC), Witness to Innocence, Ohioans to Stop Executions (OTSE).
+    -   **Innocence Lawyer Details**: Terry Gilbert, renowned criminal defense and civil rights attorney.
+    -   **Cross-Reference**: Yes, likely in exoneree databases given the high profile nature of the case.
+    -   **Narrative of Original Crime**: Harold Frank, a money-order salesman, was murdered during a robbery outside a convenience store in Cleveland, Ohio. Two men attacked him, clubbing him with a pipe, splashing acid in his face, and shooting him twice in the chest. Store co-owner Ann Robinson was also shot and wounded.
+    -   **Key Evidence at Trial (Prosecution)**: Testimony of 12-year-old Eddie Vernon, who claimed to have witnessed Ronnie Bridgman (Kwame Ajamu), Wiley Bridgman, and Ricky Jackson commit the crime.
+    -   **Trial Defender Notes**: Defense presented alibi witnesses for Kwame Ajamu, testimony from a 16-year-old girl who saw two men (not boys) at the scene who were not the defendants, and classmates of Eddie Vernon who contradicted his account. Ann Robinson, the store co-owner, also stated the defendants were not the perpetrators.  The defense efforts were undermined by the judge's instructions to the jury which seemingly discredited the defense witnesses and bolstered Eddie Vernon's testimony.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Recantation of testimony by Eddie Vernon in 2014, admitting he lied at the original trial due to police coercion and fear. Affidavit from Eddie Vernon and subsequent hearing led to a motion for a new trial, which prosecutors conceded, and murder indictments were dismissed.
+    -   **Actual Perpetrator Details**: Not identified in the podcast. The podcast mentions other viable suspects at the time, including older men with a green car and a history of similar crimes, were ignored by police.
+
+-   **Name**: Wiley Bridgman
+    -   **Case Location**: Cleveland, Ohio, Cuyahoga County
+    -   **Conviction Year**: 1975 (and again after retrial)
+    -   **Exoneration Year**: 2014
+    -   **Crime Convicted Of**: Murder of Harold Frank
+    -   **Sentence**: Death penalty, later commuted to life with the possibility of parole
+    -   **Time Served**: 39 years
+    -   **Contributing Factors**: False eyewitness testimony, police coercion and misconduct, systemic issues in the criminal justice system.
+    -   **Legal Status**: Exonerated (posthumously, as he passed away after exoneration but before this podcast presumably).
+    -   **Organizations Involved**: Ohio Justice and Policy Center (OJPC), Witness to Innocence, Ohioans to Stop Executions (OTSE).
+    -   **Innocence Lawyer Details**: Terry Gilbert, renowned criminal defense and civil rights attorney.
+    -   **Cross-Reference**: Yes, likely in exoneree databases.
+    -   **Narrative of Original Crime**: Same as Kwame Ajamu.
+    -   **Key Evidence at Trial (Prosecution)**: Same as Kwame Ajamu.
+    -   **Trial Defender Notes**: Same as Kwame Ajamu.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Same as Kwame Ajamu, Eddie Vernon's recantation.
+    -   **Actual Perpetrator Details**: Not identified in the podcast.
+
+-   **Name**: Ricky Jackson
+    -   **Case Location**: Cleveland, Ohio, Cuyahoga County
+    -   **Conviction Year**: 1975
+    -   **Exoneration Year**: 2014
+    -   **Crime Convicted Of**: Murder of Harold Frank
+    -   **Sentence**: Death penalty, later commuted to life with the possibility of parole
+    -   **Time Served**: 39 years
+    -   **Contributing Factors**: False eyewitness testimony, police coercion and misconduct, systemic issues in the criminal justice system.
+    -   **Legal Status**: Exonerated
+    -   **Organizations Involved**: Innocence Project, Ohio Justice and Policy Center (OJPC), Witness to Innocence, Ohioans to Stop Executions (OTSE).
+    -   **Innocence Lawyer Details**: Innocence Project lawyers, Terry Gilbert.
+    -   **Cross-Reference**: Yes, likely in exoneree databases.
+    -   **Narrative of Original Crime**: Same as Kwame Ajamu.
+    -   **Key Evidence at Trial (Prosecution)**: Same as Kwame Ajamu.
+    -   **Trial Defender Notes**: Same as Kwame Ajamu.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Same as Kwame Ajamu, Eddie Vernon's recantation.
+    -   **Actual Perpetrator Details**: Not identified in the podcast.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Kwame Ajamu: "Cleveland, Ohio is a cesspool... police force was indeed a faction to deal with it at that particular time. They were beyond corrupt. And as history will show, they're still corrupt to this day."
+    -   Kwame Ajamu (describing his death sentence): "And when I came back to the reality of what was happening to me, I heard him say, until you are dead. That's all I fucking heard, until you are dead."
+    -   Terry Gilbert: "The movement has grown against wrongful imprisonment. It's important for people to be aware that the system is flawed, that trials are not the end of justice, that things go wrong, and people need to understand the nature of the criminal system and fight for what is a better avenue to achieve justice."
+    -   Kwame Ajamu: "I am one who will stand in every corner that the fight is going on against capital punishment, wrongful incarceration, and the cohorts which institute that policy... we are survivors, and that just like Terry Gilbert, I will be here tomorrow to March."
+
+-   **Systemic Issues Identified**:
+    -   Police misconduct: Coercion of a child witness, tunnel vision in investigation, ignoring other viable suspects, violence and intimidation during arrests.
+    -   Flawed eyewitness testimony: Reliance on a child's coerced testimony over credible conflicting evidence from an adult victim and other witnesses.
+    -   Ineffective defense: Original trial defense seemingly unable to overcome the impact of the child witness's testimony despite presenting contradictory evidence.
+    -   Prosecutorial misconduct (implied):  Pursuing convictions based on weak and coerced evidence.
+    -   Judicial bias: Judge's instructions to the jury appeared to favor the prosecution's case.
+    -   Racial bias: Context of racial tensions and distrust of police in the black community in Cleveland in the 1970s, potentially influencing the case.
+    -   Death penalty flaws: Highlighted as a system where innocent people can be executed, reinforcing the call for abolition.
+    -   Lack of accountability: Difficulty in achieving justice and compensation for exonerees, even after decades of wrongful imprisonment.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Support organizations fighting wrongful convictions and advocating for criminal justice reform, specifically Ohio Justice and Policy Center, Witness to Innocence, and Ohioans to Stop Executions.
+    -   Advocate for death penalty abolition.
+    -   Promote awareness of systemic flaws in the criminal justice system and the need for reform.
+    -   Encourage young activists and lawyers to fight for people's rights and against wrongful imprisonment.
+    -   Establish more wrongful conviction clinics, like the one being started at Cleveland State University Law School, to address wrongful convictions locally.
+
+-   **Personal Narrative/Impact**:
+    -   Kwame Ajamu's personal account details the devastating impact of wrongful conviction: loss of youth, decades in prison including time on death row, and the emotional and psychological trauma.  He expresses survivor's guilt for having been paroled earlier than his brother and friend.  Despite the immense injustice, Kwame became an advocate for justice and death penalty abolition, demonstrating resilience and commitment to fighting for others. The story emphasizes the profound and irreversible damage caused by wrongful convictions on individuals and their families.
+    -   Terry Gilbert's dedication to fighting for justice over 50 years, highlighted through his book "Trying Times", showcasing a career devoted to civil rights and combating wrongful imprisonment.
+
+-   **Additional Resources**:
+    -   Ohio Justice and Policy Center (OhioJPC.org)
+    -   Ohioans to Stop Executions (OTSE/Aussie - Ohio Wants to Stop Executions)
+    -   Witness to Innocence
+    -   Movie: Lovely Jackson (about Ricky Jackson)
+    -   Book: Trying Times by Terry Gilbert
+    -   Ricky Jackson's Wrongful Conviction Podcast episode (mentioned, link to be in bio).
+```

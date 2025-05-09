@@ -1,0 +1,90 @@
+{
+    "sourceFileName": "409_Jason_Flom_with_Terry_Ceasor_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcast in Association with Signal Company No. 1",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, shaken baby syndrome, junk science, legal system failures",
+        "keyStats": "- Terry Caesar spent almost four years in prison due to a shaken baby syndrome diagnosis.\n- Michigan Innocence Clinic has exonerated six people (and counting) of shaken baby syndrome related convictions.\n- By 2004, challenges to shaken baby syndrome were emerging but not widely recognized in the medical and legal communities.\n- 81 non-traumatic medical conditions and short falls can cause the triad of symptoms previously attributed solely to shaken baby syndrome.\n- Terry Caesar's conviction was vacated by the Michigan Supreme Court in March 2021, and charges were dismissed in September 2021.\n- Michigan Child Protective Services maintains a central registry that can include individuals even if cleared in court.",
+        "itemNumber": "409",
+        "itemTitle": "Jason Flom with Terry Ceasor",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction hosted by Jason Flom features the story of Terry Caesar, who was wrongfully convicted of first-degree child abuse based on a misdiagnosis of shaken baby syndrome in 2005.  The podcast details the events leading to the conviction, including the faulty medical testimony of Dr. Gilmer Hill and the ineffective assistance of counsel.  It highlights the flaws in the shaken baby syndrome hypothesis and the long struggle Terry endured to prove his innocence, including years of incarceration and navigating a complex legal battle.  The Michigan Innocence Clinic at Michigan Law School, led by Dave Moran, played a crucial role in Terry's exoneration in 2021 after years of appeals and legal challenges. Even after exoneration, Terry faced further issues with the Michigan Central Registry. The episode emphasizes the devastating impact of junk science in the courtroom and the long road to justice for the wrongfully convicted."
+    },
+    "featuredIndividual": {
+        "fullName": "Terry Caesar",
+        "caseLocation": "Port Huron, Michigan, USA",
+        "convictionYear": "2005",
+        "exonerationYear": "2021",
+        "crimeConvictedOf": "First-degree child abuse",
+        "sentence": "2 to 15 years",
+        "timeServed": "Almost 4 years",
+        "contributingFactorsRaw": [
+            "Faulty diagnosis of shaken baby syndrome (SBS) based on the \"triad\" of brain bleed, brain swelling, and retinal hemorrhage.",
+            "Testimony of pediatric neurosurgeon Dr. Gilmer Hill who asserted injuries were from violent shaking, dismissing a short fall as a cause.",
+            "Ineffective assistance of trial counsel (Ken Lord) who failed to request funds for a defense expert witness due to a misunderstanding of constitutional rights.",
+            "Ineffective assistance of appellate counsel who initially failed to adequately argue the trial counsel's ineffectiveness.",
+            "Lack of recognition in 2004 of alternative causes for the \"triad\" beyond violent shaking."
+        ],
+        "status": "Exonerated, charges dismissed",
+        "organizationsInvolvedRaw": [
+            "Michigan Innocence Clinic at Michigan Law School",
+            "Greenberg Traureg (pro bono legal services mentioned generally for criminal justice work)"
+        ],
+        "innocenceLawyersRaw": [
+            "Dave Moran, co-founder and co-director of the Michigan Innocence Clinic at Michigan Law School, and student attorneys like Meredith Collier."
+        ],
+        "crossReference": "Not explicitly stated if in exoneree database, but highly likely given exoneration and Innocence Clinic involvement.",
+        "narrativeOriginalCrime": "Terry Caesar was caring for his girlfriend's 16-month-old son, Brendan, when Brendan fell from a couch. Terry reported the incident, but doctors diagnosed shaken baby syndrome, leading to charges of child abuse.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of Dr. Gilmer Hill, pediatric neurosurgeon, who diagnosed shaken baby syndrome based on brain bleed, brain swelling, and retinal hemorrhage. She stated these findings were indicative of violent shaking and not consistent with a short fall.",
+            "Absence of visible external injuries noted by Dr. Gilmer Hill in her report (though contradicted by others who saw a mark on Brendan's forehead)."
+        ],
+        "trialDefenderNotes": "- Terry's attorney, Ken Lord, cross-examined Dr. Gilmer Hill based on notes from a consulted expert (Dr. Bandek) but did not call a defense expert witness to testify.\n- Ken Lord mistakenly believed he could not request state funds for an expert witness because he was privately retained.\n- Character witnesses for Terry were not allowed at trial.",
+        "keyEvidenceExonerationRaw": [
+            "Expert testimony presented by the Michigan Innocence Clinic, including Dr. John Plunkett and others, demonstrating that short falls can cause the \"triad\" and that shaking alone is unlikely to cause these injuries without neck or spinal injury.",
+            "Evidence of ineffective assistance of both trial and appellate counsel.",
+            "Michigan Supreme Court ruling in March 2021 vacating the conviction based on ineffective assistance of appellate counsel.",
+            "Dismissal of charges by the prosecution in September 2021."
+        ],
+        "actualPerpetratorDetails": "Not applicable as the case is based on the assertion that no crime occurred and the injuries were accidental due to a fall."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"Welcome back to wrongful conviction. I'm Jason Flomm and today we're once again talking about a case that revolves around a hypothesis that has never been tested, but somehow, inexplicably became the accepted orthodoxy...of the medical community. Thankfully, it's long since been debunked, and of course, I'm talking about shaken baby syndrome or SBS.\"",
+        "Terry Caesar: \"I told him that I didn't hurt Brendan. You know, I've never even corrected him, and he wasn't a bad kid that needed corrections. Honestly, he was a good kid.\"",
+        "Dave Moran: \"It's a great example of how resistant the courts are to doing justice in these cases...these diagnoses that are made without sound science and made with far too much certainty wreck people's lives.\"",
+        "Terry Caesar (closing argument): \"Love your family, love your loved ones...I think that we just need to love our kids and teach our kids, you know, so they don't do our wrongs and make mistakes that, you know, that we've occurred in our life.\"",
+        "Terry Caesar (PSA): \"CPS cannot come in your house unless they're there with a police and a warrant. You do not have to talk to CPS. You do not have to let them in your house.\""
+    ],
+    "systemicIssuesRaw": [
+        "Use of \"junk science\" (shaken baby syndrome diagnosis) in court.",
+        "Ineffective assistance of counsel at trial and appellate levels.",
+        "Resistance of courts to overturn wrongful convictions, even with clear evidence of flawed science and legal errors.",
+        "Challenges faced by exonerees even after release, such as parole restrictions and central registries.",
+        "Potential for bias and \"good old boy\" networks within local legal systems (St. Clair County mentioned).",
+        "Difficulty in accessing expert witnesses for indigent defendants."
+    ],
+    "policyRecommendationsRaw": [
+        "Need to stop the use of shaken baby syndrome testimony in court.",
+        "Increased awareness and education about the flaws of shaken baby syndrome diagnosis and alternative causes for infant head injuries.",
+        "Reform of legal systems to be more responsive to claims of wrongful conviction, especially in cases involving junk science.",
+        "Improved access to qualified legal representation and expert witnesses for indigent defendants.",
+        "Review of central registries and their impact on individuals and families, even after exoneration or being cleared of charges.",
+        "Encouragement for families to mend bridges and support each other."
+    ],
+    "personalNarrativeRaw": [
+        "Terry Caesar's personal narrative highlights the devastating impact of wrongful conviction on his life, including separation from his son during formative years, loss of freedom, and ongoing struggles even after exoneration (central registry issue).",
+        "His experience underscores the emotional toll of fighting for innocence for over a decade and the challenges of reintegrating into society after wrongful imprisonment.",
+        "Terry's closing remarks emphasize the importance of family, love, and community, reflecting his personal journey and lessons learned through his ordeal."
+    ],
+    "additionalResourcesRaw": [
+        "Michigan Innocence Clinic at Michigan Law School (link in bio mentioned for support).",
+        "Wrongful Conviction Junk Science podcast episode with Josh Dubin and Kate Judson (mentioned within the episode).",
+        "Wrongful Conviction podcast episode about Tamu Jin Kenzu (mentioned within the episode and link to be provided).",
+        "Center for Integrity and Forensic Sciences (Kate Judson's organization).",
+        "Global law firm Greenberg Traureg and their pro bono work."
+    ]
+}

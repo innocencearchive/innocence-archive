@@ -1,0 +1,86 @@
+{
+    "sourceFileName": "343_Jason_Flom_with_Brian_Neirynck_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2023",
+        "network": "Lava for Good podcasts and association of signal company number one",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, child molestation allegations, ineffective counsel, custody battles, false accusations, exoneration.",
+        "keyStats": "- Brian Neringke was wrongfully convicted of child molestation based on fabricated allegations during a custody battle.\n- He served approximately 8 years in prison.\n- His original public defender was highly ineffective, failing to investigate evidence or cross-examine witnesses adequately.\n- Play therapy was used to groom the child to testify against his father, including leading questions and suggestive techniques.\n- Exoneration was achieved through post-conviction relief after new attorneys obtained and presented previously unexamined play therapy notes and expert testimony.",
+        "itemNumber": "343",
+        "itemTitle": "Jason Flom with Brian Neirynck",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the story of Brian Neringke, who was wrongfully convicted of child molestation in Indiana. The accusations arose during a bitter custody dispute with his son's mother, Roberta Smedley.  Despite initial investigations revealing inconsistencies and the child stating his father did nothing wrong, Roberta persisted, and the child was subjected to suggestive play therapy that heavily influenced his testimony. Brian's public defender provided ineffective counsel, failing to investigate crucial evidence like therapy notes and videos.  After years of wrongful imprisonment and tireless efforts, Brian was eventually exonerated thanks to the work of post-conviction attorney Cynthia Carter and the discovery of the play therapy records that proved the child was groomed to fabricate accusations. The case highlights the devastating impact of false allegations in custody battles and the critical failures within the justice system, including ineffective legal representation and the misuse of child therapy."
+    },
+    "featuredIndividual": {
+        "fullName": "Brian Neringke",
+        "caseLocation": "St. Joseph's County, Indiana, USA",
+        "convictionYear": "2003",
+        "exonerationYear": "2011",
+        "crimeConvictedOf": "Class A felony child molestation (oral sodomy)",
+        "sentence": "40 years in prison",
+        "timeServed": "Approximately 8 years",
+        "contributingFactorsRaw": [
+            "False accusations by the child's mother during a custody battle.",
+            "Suggestive and leading play therapy that groomed the child to fabricate accusations.",
+            "Ineffective assistance of counsel (public defender failed to investigate, cross-examine, or present key evidence).",
+            "Jury bias in cases of child molestation allegations."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "The Pacers Foundation (supporter of Wrongful Conviction podcast)",
+            "The Last Mile organization (mentioned as supported by Pacers Foundation)"
+        ],
+        "innocenceLawyersRaw": [
+            "Cynthia Carter, Indiana criminal defense attorney and recovering public defender.  Professor Henry Carlson (mentor to Cynthia Carter and criminal law professor) and Dr. Richard Lawler (attorney and psychologist) also played key roles in post-conviction relief."
+        ],
+        "crossReference": "Not specified in transcript if they appear in a database, needs further research.",
+        "narrativeOriginalCrime": "Brian Neringke was accused of child molestation against his young son, Michael Scott. The allegations surfaced after Michael Scott returned from a visit with Brian and told his mother, Roberta, that his father had \"done things to him.\" Initially, the child's statements were vague and innocuous (\"doggy, dad, grass\"). However, the allegations escalated over time, eventually becoming accusations of oral sodomy.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony from Roberta Smedley (mother).",
+            "Testimony from Linda Taylor, the second play therapist.",
+            "Testimony from a representative from the Casey Center (child abuse investigation center).",
+            "Testimony from Michael Scott (the child), who, by the time of trial, testified against his father, likely influenced by therapy."
+        ],
+        "trialDefenderNotes": "- Brian May, the public defender, provided ineffective assistance of counsel.\n- He failed to investigate the case, including obtaining play therapy notes and videos.\n- He did not cross-examine state witnesses, including the therapist.\n- He reportedly fell asleep multiple times during the trial.\n- He did not ask Brian directly if he was innocent during his testimony.",
+        "keyEvidenceExonerationRaw": [
+            "Play therapy notes obtained by Cynthia Carter after initial denials, revealed through a chance event involving a snowstorm and car keys.",
+            "Expert testimony from Dr. Richard Lawler, a psychologist, who analyzed the play therapy notes and explained the concept of confabulation and grooming.",
+            "Testimony from Kathy Steinman, the original play therapist, confirming that the notes were altered and suggestive.",
+            "Deposition from Professor Henry Carlson, Cynthia Carter's mentor, supporting the claim of ineffective counsel."
+        ],
+        "actualPerpetratorDetails": "Not applicable, as the podcast focuses on wrongful conviction and does not identify another perpetrator.  The accusation is presented as entirely fabricated."
+    },
+    "keyQuotesRaw": [
+        "Roberta (initially reporting): \"don't put your finger there. That hurts.\"",
+        "Michael Scott (initially): \"doggy, dad, and grass.\"",
+        "Michael Scott (later in therapy, according to notes): \"Michael Scott is finally saying what we wanted him to say.\"",
+        "Michael Scott (describing the alleged act): \"it tasted like green jello.\"",
+        "Brian Neringke: \"The justice system ain't a justice system. It's about as fucked up as it comes.\"",
+        "Cynthia Carter: \"freedom is too precious and too valuable for someone to have to sit in prison for something that they didn't do.\"",
+        "Brian Neringke: \"I'll never know what it's like to have a son.\""
+    ],
+    "systemicIssuesRaw": [
+        "Ineffective assistance of counsel in public defender systems.",
+        "The potential for misuse of child therapy in custody disputes to create false accusations.",
+        "Jury bias towards believing child testimony in sexual abuse cases, even when potentially coerced.",
+        "Difficulty in overturning wrongful convictions, even with clear evidence of innocence and legal errors."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call for greater scrutiny of child therapy techniques used in legal cases, particularly in custody disputes.",
+        "Implied need for better funding and oversight of public defender systems to ensure effective counsel.",
+        "Advocacy for judicial courage to overturn wrongful convictions when evidence of injustice is presented.",
+        "Encouragement for prosecutors to revisit potentially wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Brian's life was devastatingly impacted by the wrongful conviction, losing years of his life and his relationship with his son. He describes the trauma of prison and the difficulty of reintegrating into society. He expresses sadness about losing his son and the son living a \"life of lies.\"  Despite the hardship, Brian expresses a sense of being \"blessed\" and having found purpose through his prison experience and faith.",
+        "Cynthia Carter emphasizes the importance of fighting for justice and the personal fulfillment in helping to exonerate Brian."
+    ],
+    "additionalResourcesRaw": [
+        "Pacers Foundation (pacersfoundation.org)",
+        "The Last Mile (thelastmile.org)",
+        "Spotlight Snitch City Podcast (mentioned in advertisement within the podcast)"
+    ]
+}

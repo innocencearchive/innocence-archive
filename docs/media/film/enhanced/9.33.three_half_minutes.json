@@ -1,0 +1,59 @@
+{
+  "source_file_name": "9.33.three_half_minutes.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "3 ½ Minutes, 10 Bullets",
+    "creator_name": "Marc Silver",
+    "publication_or_release_year": 2015,
+    "publisher_or_network": "Participant Media/HBO",
+    "focus_or_theme": "Examines the 2012 shooting death of 17-year-old Jordan Davis by Michael Dunn, exploring the trial, \"Stand Your Ground\" law, and racial bias.",
+    "summaryNotes": "Dunn fired 10 bullets into the car occupied by Davis and three friends. Dunn was convicted of first-degree murder in a retrial.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "3 ½ Minutes, 10 Bullets",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Examines the 2012 shooting death of 17-year-old Jordan Davis by Michael Dunn, exploring the trial, \"Stand Your Ground\" law, and racial bias.",
+    "summary_notes": "Documentary examining the shooting death of Jordan Davis and the subsequent trial of Michael Dunn, highlighting issues of self-defense laws and racial bias.",
+    "key_quotes_raw": [
+      "Courtroom footage from Michael Dunn's trials",
+      "Interviews with Jordan Davis's parents",
+      "Analysis of the \"Stand Your Ground\" law",
+      "Recordings of Dunn's phone calls from jail"
+    ],
+    "systemic_issues_raw": [
+      "Controversial self-defense laws (\"Stand Your Ground\") and their application",
+      "Potential for racial bias in perceptions of threat and in the justice system",
+      "Disparate outcomes in interracial violence cases",
+      "The impact of gun violence on families and communities"
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for re-examination and reform of \"Stand Your Ground\" laws",
+      "Addressing racial bias within the justice system"
+    ],
+    "external_links_raw": [
+      {
+        "url": null,
+        "description": "Information from Everytown for Gun Safety, news archives covering the Jordan Davis case and Michael Dunn trials."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [],
+  "involved_persons": [
+    {
+      "full_name": "Marc Silver",
+      "first_name": "Marc",
+      "middle_name": null,
+      "last_name": "Silver",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

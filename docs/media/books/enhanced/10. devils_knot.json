@@ -1,0 +1,133 @@
+{
+  "source_file_name": "10. devils_knot.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Devil's Knot: The True Story of the West Memphis Three",
+    "creator_name": "Mara Leveritt",
+    "publication_or_release_year": 2002,
+    "publisher_or_network": "Atria Books (Simon & Schuster)",
+    "format": "Hardcover, paperback, 419 pages",
+    "focus_or_theme": "Case study of the West Memphis Three, wrongfully convicted of murdering three eight-year-old boys in a supposed satanic ritual",
+    "key_statistics": "Three teenagers spent 18 years in prison for crimes they did not commit"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "\"The prosecutor is the representative not of an ordinary party to a controversy, but of a sovereignty whose obligation to govern impartially is as compelling as its obligation to govern at all; and whose interest, therefore, in a criminal prosecution is not that it shall win a case, but that justice shall be done.\" - Justice Sutherland, quoted in the book",
+      "\"Mara Leveritt's book hits on two big issues that have affected U.S. criminal justice since forever: 1) the influence of religious hysteria and social ignorance on criminal proceedings, and 2) the unwillingness of the justice system to admit error.\" - Goodreads review"
+    ],
+    "research_notes_other": {},
+    "systemic_issues_raw": [
+      "Satanic panic and religious hysteria influencing criminal proceedings",
+      "Lack of physical evidence connecting defendants to crimes",
+      "Reliance on questionable confessions, especially from vulnerable individuals",
+      "Unwillingness of the justice system to admit error",
+      "Tunnel vision by investigators",
+      "Prejudice against social outsiders",
+      "Inadequate legal representation",
+      "Misuse of forensic evidence"
+    ],
+    "policy_recommendations_raw": [
+      "Need for more rigorous standards for confessions, especially from vulnerable individuals",
+      "Better oversight of police investigations",
+      "Reforms to prevent convictions based on religious or social prejudice",
+      "Improved mechanisms for reviewing potential wrongful convictions"
+    ],
+    "additional_resources_raw": [
+      "Paradise Lost documentary trilogy by Joe Berlinger and Bruce Sinofsky",
+      "West of Memphis documentary produced by Peter Jackson",
+      "DNA testing that eventually helped lead to the release of the West Memphis Three",
+      "Various celebrity-led campaigns and fundraisers to support the West Memphis Three"
+    ],
+    "item_title": "Book Content: Devil's Knot: The True Story of the West Memphis Three",
+    "focus_or_theme": "Case study of the West Memphis Three, wrongfully convicted of murdering three eight-year-old boys in a supposed satanic ritual",
+    "summary_notes": "A detailed account of the wrongful conviction of the West Memphis Three for the murder of three eight-year-old boys.  The book highlights the influence of satanic panic, lack of physical evidence, questionable confessions, and the justice system's reluctance to admit error. Published in 2002, it details the investigation, trials, and early appeals, before their release in 2011.",
+    "case_details_raw": "Detailed account of the investigation, trials, and early appeals process of the West Memphis Three case, focusing on the lack of physical evidence and reliance on questionable confessions and testimony influenced by satanic panic."
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Damien Echols",
+      "first_name": "Damien",
+      "middle_name": null,
+      "last_name": "Echols",
+      "case_location": "West Memphis, Arkansas",
+      "conviction_year": 1994,
+      "exoneration_or_release_year": 2011,
+      "crime_convicted_of": "Murder of three eight-year-old boys (Steve Branch, Michael Moore, and Christopher Byers)",
+      "sentence": "Death penalty",
+      "time_served": "18 years",
+      "contributing_factors_raw": [
+        "Satanic panic",
+        "religious hysteria",
+        "flimsy evidence",
+        "questionable forensic testimony",
+        "social prejudice against outsiders"
+      ],
+      "status_raw": "Released via Alford plea (technically still guilty on paper while maintaining innocence)",
+      "organizations_involved_raw": [
+        "Various defense teams",
+        "celebrity supporters including Metallica, Peter Jackson, and the Dixie Chicks"
+      ],
+      "cross_reference": "Not specified in research",
+      "individual_notes": null
+    },
+    {
+      "full_name": "Jason Baldwin",
+      "first_name": "Jason",
+      "middle_name": null,
+      "last_name": "Baldwin",
+      "case_location": "West Memphis, Arkansas",
+      "conviction_year": 1994,
+      "exoneration_or_release_year": 2011,
+      "crime_convicted_of": "Murder of three eight-year-old boys",
+      "sentence": "Life imprisonment",
+      "time_served": "18 years",
+      "contributing_factors_raw": [
+        "Association with Damien Echols",
+        "satanic panic",
+        "flimsy evidence"
+      ],
+      "status_raw": "Released via Alford plea",
+      "organizations_involved_raw": [
+        "Various defense teams",
+        "celebrity supporters"
+      ],
+      "cross_reference": "Not specified in research",
+      "individual_notes": null
+    },
+    {
+      "full_name": "Jessie Misskelley Jr.",
+      "first_name": "Jessie",
+      "middle_name": null,
+      "last_name": "Misskelley Jr.",
+      "case_location": "West Memphis, Arkansas",
+      "conviction_year": 1994,
+      "exoneration_or_release_year": 2011,
+      "crime_convicted_of": "Murder of three eight-year-old boys",
+      "sentence": "Life imprisonment plus two 20-year sentences",
+      "time_served": "18 years",
+      "contributing_factors_raw": [
+        "Questionable confession (developmentally disabled, interrogated without proper representation)",
+        "satanic panic"
+      ],
+      "status_raw": "Released via Alford plea",
+      "organizations_involved_raw": [
+        "Various defense teams",
+        "celebrity supporters"
+      ],
+      "cross_reference": "Not specified in research",
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Mara Leveritt",
+      "role": "AUTHOR",
+      "first_name": "Mara",
+      "middle_name": null,
+      "last_name": "Leveritt"
+    }
+  ],
+  "research_strategy_notes_raw": "This book is particularly valuable for our project as it:\n1. Provides a detailed account of one of the most high-profile wrongful conviction cases in recent American history\n2. Highlights how cultural factors like \"Satanic panic\" can influence criminal proceedings\n3. Demonstrates how lack of physical evidence and reliance on questionable testimony can lead to wrongful convictions\n4. Shows the power of media attention and advocacy in helping to overturn wrongful convictions\n5. Illustrates the reluctance of the justice system to fully exonerate individuals even when evidence points to their innocence (as shown by the Alford plea arrangement)\n\nThe book was published in 2002, before the West Memphis Three were released in 2011, so it doesn't cover the full resolution of the case. However, it provides valuable insight into the investigation, trials, and early appeals process.",
+  "research_notes_raw": null
+}

@@ -1,0 +1,78 @@
+{
+  "source_file_name": "3.3confession_at_gunpoint.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Confession at Gunpoint (20/20) (Title unconfirmed by search, but theme matches case)",
+    "publication_or_release_year": 2006,
+    "publisher_or_network": "ABC News",
+    "focus_or_theme": "Coerced false confessions, juvenile suspects, DNA exoneration",
+    "summaryNotes": "Case highlights conviction despite pre-trial DNA exclusion.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Confession at Gunpoint (20/20) (Title unconfirmed by search, but theme matches case)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Coerced false confessions, juvenile suspects, DNA exoneration",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Explores Deskovic falsely confessing after lengthy interrogation as a teen; Exonerated by DNA after 16 years; Established foundation. Available via ABC.",
+      "research_findings": "While a specific 20/20 episode titled \"Confession at Gunpoint\" wasn't confirmed, the details of Jeffrey Deskovic's case match the description perfectly. His case is a prominent example of a coerced false confession from a juvenile, despite exculpatory DNA evidence being available even before trial."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "Peekskill",
+      "case_location_state": "New York",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2006,
+      "crime_convicted_of_raw": "Rape and Murder (of 15-year-old classmate Angela Correa in 1989)",
+      "sentence": "15 years to life (Information from external knowledge, common case detail)",
+      "time_served": "Nearly 16 years",
+      "contributing_factors_raw": [
+        "Coerced false confession (interrogated at 16 for 6+ hours, polygraphs, no parent/lawyer), police pressure, ignoring exculpatory DNA evidence pre-trial"
+      ],
+      "status_raw": "Exonerated by DNA evidence (which identified the actual perpetrator, Steven Cunningham); Declared Actually Innocent",
+      "organizations_involved_raw": [
+        "Innocence Project; Founded the Jeffrey Deskovic Foundation for Justice"
+      ],
+      "full_name": "Jeffrey Deskovic [cite: 25",
+      "first_name": "Jeffrey",
+      "middle_name": "Deskovic [cite:",
+      "last_name": "25"
+    },
+    {
+      "case_location_city": "Peekskill",
+      "case_location_state": "New York",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2006,
+      "crime_convicted_of_raw": "Rape and Murder (of 15-year-old classmate Angela Correa in 1989)",
+      "sentence": "15 years to life (Information from external knowledge, common case detail)",
+      "time_served": "Nearly 16 years",
+      "contributing_factors_raw": [
+        "Coerced false confession (interrogated at 16 for 6+ hours, polygraphs, no parent/lawyer), police pressure, ignoring exculpatory DNA evidence pre-trial"
+      ],
+      "status_raw": "Exonerated by DNA evidence (which identified the actual perpetrator, Steven Cunningham); Declared Actually Innocent",
+      "organizations_involved_raw": [
+        "Innocence Project; Founded the Jeffrey Deskovic Foundation for Justice"
+      ],
+      "full_name": "1.1]",
+      "first_name": "1]",
+      "middle_name": null,
+      "last_name": null
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

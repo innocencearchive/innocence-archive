@@ -1,0 +1,103 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but episode features Lamar Johnson
+-   **Host(s)**: Lauren Bright-Pacheco (filling in for Jason Flom)
+-   **Release Year(s)**: Not specified in transcript, likely 2023 or 2024 given the exoneration date mentioned.
+-   **Production Company(ies)/Network**: Lava for Good podcasts in association with Signal Company No. 1
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, Criminal Justice System, Eyewitness Misidentification, Jailhouse Informants, Police Misconduct, Exoneration.
+-   **Key Statistics/Information**:
+    - Lamar Johnson was wrongfully convicted and served 28 years in prison.
+    - It took new legislation in Missouri ("Johnson fix") to allow for his exoneration after the prosecutor acknowledged his innocence.
+    - Eyewitness testimony, incentivized informant testimony, and flawed police investigation contributed to the wrongful conviction.
+    - Compensation was provided to the eyewitness, Greg Elking, which was not disclosed at trial.
+    - Actual perpetrators confessed to the crime multiple times.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction, hosted by Lauren Bright-Pacheco, tells the harrowing story of Lamar Johnson's wrongful conviction for a 1994 murder in St. Louis.  Despite maintaining his innocence and having a solid alibi, Johnson was convicted based on unreliable eyewitness testimony, incentivized jailhouse informant testimony, and questionable police tactics by Detective Joseph Nickerson.  The actual perpetrators confessed to the crime in letters and affidavits, but this evidence was initially ignored by the courts.  After years of legal battles and the passage of new Missouri legislation prompted by his case ("the Johnson fix"), Johnson was finally exonerated in 2023 after serving 28 years in prison.  The episode highlights systemic failures in the justice system, including prosecutorial misconduct, ineffective defense, and the challenges faced by wrongfully convicted individuals even with evidence of innocence.  Johnson's case ultimately led to positive change in Missouri law, offering hope for future exonerations.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Lamar Johnson
+-   **Case Location**: St. Louis, Missouri, USA
+-   **Conviction Year**: 1995
+-   **Exoneration Year**: 2023
+-   **Crime Convicted Of**: First-degree murder and armed criminal action
+-   **Sentence**: Life without parole
+-   **Time Served**: 28 years
+-   **Contributing Factors**:
+    - Eyewitness Misidentification (Greg Elking, later recanted and admitted to being incentivized)
+    - Jailhouse Informant Testimony (William Mock, incentivized and unreliable)
+    - Police Misconduct (Detective Joseph Nickerson, tunnel vision, suggestive lineup, fabricated evidence/testimony)
+    - Inadequate Legal Defense (Original trial defense lawyer not detailed in transcript)
+-   **Legal Status**: Exonerated, Factually Innocent (declared by Judge David Mason)
+-   **Organizations Involved**:
+    - Midwest Innocence Project
+    - Morgan Pilate (law firm)
+    - St. Louis Conviction Integrity Unit (Circuit Attorney Kimberly Gardner)
+    - Greenberg Traureg (pro bono legal services mentioned in advertisement, not explicitly linked to Lamar Johnson's case in transcript)
+-   **Innocence Lawyer Details**: Lindsay Runnels from Morgan Pilate, also on the board of the Midwest Innocence Project, is interviewed in the podcast and represents Lamar Johnson.
+-   **Cross-Reference**: Not specified if in exoneree database, needs to be checked against databases like the National Registry of Exonerations.
+-   **Narrative of Original Crime**: Marcus Boyd was shot and killed on his porch in St. Louis in 1994. Greg Elking, who was with Boyd, witnessed the shooting by two masked men.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Eyewitness identification by Greg Elking, who claimed to recognize Lamar Johnson's "lazy eye" despite masks.
+    - Jailhouse informant William Mock's testimony about overhearing Lamar confessing.
+    - Alleged confession to Detective Ralph Campbell (later shown to be fabricated).
+    - A ski mask found in Lamar's car two months prior to the murder, presented as evidence despite its irrelevance.
+-   **Trial Defender Notes**: Public defender David Bruns pointed out the ski mask was irrelevant and that Lamar did not have a lazy eye. Erica Barrow testified to Lamar's alibi. However, the defense was seemingly ineffective in countering the prosecution's case, especially Nickerson's rebuttal of the alibi and the incentivized testimonies.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - Confessions from the actual perpetrators, Philip Campbell and James Howard, in letters and affidavits.
+    - Greg Elking's recantation and admission of receiving compensation for his false testimony, documented through financial records discovered by the Conviction Integrity Unit.
+    - Evidence of William Mock's history as a jailhouse informant and racist motivations, along with the fabricated nature of his testimony about another supposed crime.
+    - Detective Nickerson's discredited testimony, including the false claim about the travel time to the crime scene and the "lazy eye" identification.
+    - The "Johnson fix" legislation which allowed for the prosecutor to petition for a new trial based on new evidence of innocence, even after standard appeals deadlines.
+-   **Actual Perpetrator Details**:
+    - Philip Campbell: Identified by name in transcript, confessed to the crime in letters and affidavits, and served a lesser sentence (7 years) after cutting a deal.
+    - James Howard (aka B.A.): Identified by name in transcript, confessed to the crime in affidavits on multiple occasions.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -  Lauren Bright-Pacheco: "In today's case, irrefutable evidence of innocence as well as an eventual confession from both of the actual assailants were not enough to receive a new trial. It took 28 years and new legislation for justice to finally be done in the Missouri appellate system."
+    - Lindsay Runnels on William Mock's testimony: "It's so absurd. It's so absurd."
+    - Judge Mason to Detective Nickerson: "That gentleman back there does too. You want to arrest him?" (Regarding height, weight and age matching description).
+    - Lamar Johnson: "The truth will find a way in the end... what I would add is that it's gratitude."
+    - Lindsay Runnels: "The things that freed Lamar Johnson existed in 1994 for him, the Sixth Amendment, the Fifth Amendment, the Fourteenth Amendment, all of those things that are just brilliant protectors... But the levers weren't working. The people in charge weren't doing their job. This case couldn't have gone worse at every single stop along the road. It failed."
+-   **Systemic Issues Identified**:
+    - Eyewitness misidentification and its impact on wrongful convictions.
+    - Use of unreliable and incentivized jailhouse informants.
+    - Police misconduct and tunnel vision in investigations.
+    - Prosecutorial misconduct (withholding evidence of witness compensation, using fabricated testimonies).
+    - Inadequacies of the legal system in addressing post-conviction claims of innocence, particularly prior to the "Johnson fix" legislation in Missouri.
+    - Racial bias within the criminal justice system, implied by the initial focus on young Black men as suspects and William Mock's racist comments.
+-   **Policy Recommendations/Calls to Action**:
+    -  The episode implicitly calls for criminal justice reform, specifically regarding:
+        -  Strengthening laws to address wrongful convictions and create pathways for exoneration even after standard appeals processes are exhausted. (The "Johnson fix" is an example of positive legislative change).
+        -  Reforming eyewitness identification procedures to minimize suggestiveness and improve accuracy.
+        -  Stricter regulation and scrutiny of jailhouse informant testimony, including mandatory disclosure of incentives and prior history.
+        -  Increased accountability for police and prosecutors to prevent misconduct and ensure fair trials.
+        -  Promoting the work of Innocence Projects and Conviction Integrity Units.
+        -  Encouraging voters to demand accountability from elected officials and those involved in the justice system.
+-   **Personal Narrative/Impact**:
+    - Lamar Johnson's personal narrative emphasizes the devastating impact of wrongful conviction, particularly the loss of time and relationships with his daughters. Despite this, he expresses gratitude and a desire to help others facing similar situations. His resilience and commitment to truth are highlighted. He sees his case as a testament to hope and the eventual triumph of truth.
+-   **Additional Resources**:
+    - Link to Billy Allen wrongful conviction episode (mentioned in podcast).
+    - Link to Ken Middleton case episode (mentioned in podcast).
+    - YouTube link to Judge Mason questioning Detective Nickerson (mentioned in podcast).
+    - GoFundMe page for Lamar Johnson through the Midwest Innocence Project (mentioned in podcast).
+    - Website: don'tsleeponosa.com (advertisement).
+    - Website: discover.com/creditcard (advertisement).
+    - Website: chevy.com/equinox (advertisement).
+    - Website: IBM.com/productivity (advertisement).
+    - Website: mycomputercareer.edu/cwp (advertisement).
+    - Website: jdpower.com/awards (advertisement).
+
+```

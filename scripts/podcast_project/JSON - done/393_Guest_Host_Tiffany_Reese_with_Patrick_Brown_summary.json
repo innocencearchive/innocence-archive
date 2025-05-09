@@ -1,0 +1,85 @@
+{
+    "sourceFileName": "393_Guest_Host_Tiffany_Reese_with_Patrick_Brown_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Tiffany Reese (sitting in for Jason Flom)",
+        "releaseYear": "2023",
+        "network": "Lava for Good podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, child sexual assault, systemic issues in the justice system, exoneration, survivor stories",
+        "keyStats": "-   In February 1994, a six-year-old girl in New Orleans reported pain and was suspected of sexual assault.\n-   Patrick Brown was convicted based solely on a doctor's notes after a day and a half trial.\n-   The Innocence Project of New Orleans estimates that during Harry Connick Sr.'s tenure as DA, favorable evidence was withheld in the trials of one in four men sent to death row.\n-   Mandatory sentence for aggravated rape in Louisiana at the time and still today is life without parole.\n-   Sarah first attempted to contact the DA's office in 2002 to report the wrongful conviction.\n-   In 2015, Sarah submitted an affidavit identifying the actual perpetrator.\n-   Two and a half perpetrators out of 100 that rape actually end up in prison (current statistics mentioned).",
+        "itemNumber": "393",
+        "itemTitle": "Guest Host Tiffany Reese with Patrick Brown",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the story of Patrick Brown, wrongfully convicted of aggravated rape in 1994 based on a child's statement to a doctor, despite his innocence and lack of corroborating evidence.  The host, Tiffany Reese, interviews Patrick and his attorney, Kelly Oryans, detailing the flawed trial, the victim Sarah's decades-long struggle to correct the injustice, and Patrick's eventual exoneration in 2023 after serving nearly 30 years. The episode highlights systemic issues including leading questions in child interviews, ineffective defense, prosecutorial misconduct under DA Harry Connick Sr.'s office, and the devastating impact of wrongful convictions on both the wrongfully accused and the original victim. It emphasizes the importance of listening to survivors and reforming the justice system. Both Patrick and Kelly provide closing arguments advocating for truth, systemic change, and a more compassionate approach to justice."
+    },
+    "featuredIndividual": {
+        "fullName": "Patrick Brown",
+        "caseLocation": "New Orleans, Louisiana, USA",
+        "convictionYear": "1994",
+        "exonerationYear": "2023",
+        "crimeConvictedOf": "Aggravated Rape",
+        "sentence": "Life without the possibility of parole",
+        "timeServed": "Approximately 29 years",
+        "contributingFactorsRaw": [
+            "Misinterpretation/misreporting of child's statement (alleged statement to doctor vs. child's actual account)",
+            "Reliance on doctor's notes as sole evidence",
+            "Ineffective assistance of counsel (lack of resources, failure to investigate key evidence)",
+            "Potential prosecutorial misconduct (withholding evidence of a man gloating about the crime)",
+            "Short trial duration and lack of trial transcript availability"
+        ],
+        "status": "Exonerated, charges dismissed",
+        "organizationsInvolvedRaw": [
+            "Decarceration and Community Reentry Clinic at the University of Virginia School of Law (represented by Kelly Oryans)",
+            "Orleans Parish District Attorney's Office (Civil Rights Division under Jason Williams)",
+            "Innocence Project of New Orleans (mentioned in context of Harry Connick Sr.'s era)"
+        ],
+        "innocenceLawyersRaw": [
+            "Kelly Oryans, Director of the Decarceration and Community Reentry Clinic at the University of Virginia School of Law. She was contacted by the DA's office and took on Patrick Brown's case, ultimately leading to his exoneration."
+        ],
+        "crossReference": "Not specified if in exoneree database, but highly likely given exoneration and podcast focus.",
+        "narrativeOriginalCrime": "A six-year-old girl, Sarah, reported abdominal pain. During a hospital examination, sexual assault was suspected. Sarah allegedly named Patrick Brown, her mother's boyfriend, as the perpetrator.",
+        "keyEvidenceProsecutionRaw": [
+            "The primary evidence was the notes taken by Dr. Wilcox, stating Sarah said \"Patrick put his penis in me down there.\"  Sarah did not testify directly due to emotional distress."
+        ],
+        "trialDefenderNotes": "Robert Jenkins from the Orleans Parish Indigent Defender Panel was appointed as Patrick Brown's attorney.  He was under-resourced and seemingly ineffective, failing to present key defense arguments or challenge the prosecution's case effectively, including not exploring the evidence of another man's admission.",
+        "keyEvidenceExonerationRaw": [
+            "Sarah's consistent and repeated statements over two decades that Patrick Brown was innocent and that she had been pressured and misunderstood at the time of the initial report.",
+            "Sarah's 2015 sworn affidavit naming the actual perpetrator.",
+            "Evidence of a fight where another man gloated about raping Sarah and stated Patrick Brown was doing time for his crime, which was known to prosecution but not effectively disclosed to the defense.",
+            "Re-investigation by the Orleans Parish DA's Civil Rights Division under Jason Williams, leading to their conclusion of factual innocence."
+        ],
+        "actualPerpetratorDetails": "The actual perpetrator is mentioned as a man who gloated about the rape during a fight and was named by Sarah in her 2015 affidavit, but his name is not explicitly stated in the transcript to protect the privacy of Sarah and potentially avoid defamation without further evidence presented in the podcast."
+    },
+    "keyQuotesRaw": [
+        "Sarah: (Testifying in court in 2023) \"She told the court about her 20 year effort to be able to sit where she was that day and tell the truth of what happened to her.\"",
+        "Judge Calvin Johnson: \"The state was complicit in the harm and horror that Sarah endured.\" (Before vacating conviction)",
+        "Patrick Brown (after exoneration): \"Once she hugged me in that courtroom, I felt her pain. She felt mine. She told me that she was sorry that I had to go do it. I told her that I was sorry too, but I wouldn't therefore, I got supposed to.\"",
+        "Kelly Oryans (Closing Arguments): \"This is the first exoneration that I have ever been involved in. And I am horrified by what I've learned through this process...is prison really an answer and an effective answer to the harm that's occurring in our community? It has been in my experience a 150 year experiment that has failed.\"",
+        "Patrick Brown (Closing Arguments): \"Be truthful to yourself and others. To the point to where we need to stop all the nonsense and be straightforward with ourselves. That's not putting no innocent person in jail.\""
+    ],
+    "systemicIssuesRaw": [
+        "Flawed child sexual assault investigations: Leading questions, lack of parental presence during questioning, misinterpretation of child statements, reliance on doctor's interpretations over direct child testimony.",
+        "Ineffective indigent defense system: Lack of resources for defense attorneys, contributing to inadequate representation.",
+        "Prosecutorial misconduct: Withholding of potentially exculpatory evidence, as exemplified by the DA's office under Harry Connick Sr.",
+        "Re-victimization of survivors: Sarah's decades-long struggle to be heard and correct the wrongful conviction highlights the system's failure to listen to and support victims.",
+        "Over-reliance on incarceration as a solution to crime: Questioning the effectiveness and justice of long prison sentences and advocating for alternative approaches to justice and community safety."
+    ],
+    "policyRecommendationsRaw": [
+        "Reimagine justice and safety in communities beyond imprisonment.",
+        "Reform the justice system to prioritize truth, survivor voices, and prevent wrongful convictions.",
+        "Improve investigation techniques in child sexual assault cases, ensuring accurate and sensitive questioning and proper consideration of child testimony.",
+        "Strengthen indigent defense systems to provide adequate legal representation.",
+        "Increase transparency and accountability within prosecutor's offices."
+    ],
+    "personalNarrativeRaw": [],
+    "patrick_brown": "Describes the immense personal toll of wrongful conviction: loss of family time, deaths of loved ones while incarcerated, suicidal thoughts, and the stigma and limitations placed upon him after release.  He emphasizes his resilience, self-education in prison, and desire for a better future. He expresses forgiveness towards Sarah and a desire for unity and truthfulness in society.",
+    "sarah": "Her narrative underscores the long-lasting trauma of the original assault compounded by the guilt and burden of knowing an innocent person was imprisoned for the crime she suffered. Her decades-long fight to correct the injustice highlights her strength and commitment to truth, despite systemic obstacles and personal emotional toll.",
+    "additionalResourcesRaw": [
+        "GoFundMe page for Patrick Brown (link in episode bio, search \"Patrick Brown on GoFundMe.com\")",
+        "Podcast \"Something Was Wrong\" hosted by Tiffany Reese (where she works with survivors of abuse and crime).",
+        "Lava for Good Plus on Apple Podcasts (for early access to Wrongful Conviction episodes).",
+        "Social media platforms: Lava for Good (@LavaForGood), Wrongful Conviction (@WrongfulConviction), Tiffany Reese (@Lookieboo)."
+    ]
+}

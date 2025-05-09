@@ -1,0 +1,82 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript - Subject: Stacey Larson
+-   **Host(s)**: Maggie Freeling
+-   **Release Year(s)**: Not specified in transcript
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company number one
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Stories of wrongful conviction, featuring interviews with the incarcerated, legal teams, and family; exploring case details and systemic issues.
+-   **Key Statistics/Information**:
+    *   Stacey Larson has been incarcerated for over 34 years.
+    *   His alibi suggests he would have needed to drive at an average speed of 135 mph, and potentially between 260-370 mph, to commit the crime within the state's proposed timeline, which is deemed physically impossible by his advocates.
+
+### Executive Summary
+
+This episode of Wrongful Conviction details the case of Stacey Larson, who has served over 34 years of a life sentence for the 1990 second-degree murder of Ronald Hylgenberg in South Dakota, a crime he insists he did not commit. The episode explores Stacey's seemingly ironclad alibi, based on gas station receipts and witness testimony placing him 43 miles away minutes after the murder occurred, making his involvement physically impossible without achieving incredible speeds. Despite this alibi evidence being presented at trial, Stacey was convicted based partly on an alleged incriminating statement made in a police car (after a coerced confession was suppressed) and jailhouse informant testimony. His two co-defendants were either acquitted or had charges dropped based on the same alibi evidence. The Great North Innocence Project has worked on his case for two decades but requires new evidence for post-conviction relief, making this podcast an appeal for information. The episode highlights the coercive interrogation tactics used, the impact on Stacey's family life, and his enduring hope, supported by his newly discovered cousin, Karen.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Stacey Larson
+-   **Case Location**: Crime occurred near Sioux Falls, South Dakota; Trial in McCook County, South Dakota, USA.
+-   **Conviction Year**: 1990 (November 21st)
+-   **Exoneration Year**: Not applicable (still incarcerated)
+-   **Crime Convicted Of**: Second-degree murder
+-   **Sentence**: Life in prison without the possibility of parole
+-   **Time Served**: Over 34 years (as stated in the podcast)
+-   **Contributing Factors**:
+    *   Coercive Interrogation (10 hours questioning, threats, emotional manipulation using family, failure to Mirandize initially; formal confession suppressed but later alleged admission in police car used at trial).
+    *   Jailhouse Informants (Testimony from two informants used by prosecution).
+    *   Eyewitness Misidentification (Tanya Ischel identified Stacey in a lineup related to a connected incident, though her car description differed from others; original tip connecting Stacey's car was anonymous).
+    *   Flawed Timeline Argument by Prosecution (State argued Stacey's history of speeding made the difficult timeline plausible, disputing defense claims about the gas station clock accuracy).
+    *   Inability to Present Third-Party Perpetrator Evidence (Defense was barred from introducing evidence of other similar shootings that same night).
+-   **Legal Status**: Incarcerated
+-   **Organizations Involved**: Great North Innocence Project
+-   **Innocence Lawyer Details**: Anna McGinn, Staff Attorney at the Great North Innocence Project. Believes strongly in Stacey's innocence due to the "ironclad alibi." Notes that despite 20 years of work, including DNA and fingerprint analysis on evidence (which yielded no matches to Stacey but no new leads), they lack the *new* evidence required for post-conviction relief as the alibi was already presented at trial. Views the podcast as a "Hail Mary" effort to uncover new information.
+-   **Cross-Reference**: Not specified in transcript
+-   **Narrative of Original Crime**: On the night of June 15th/16th, 1990, Ronald Hylgenberg was driving west on I-90 near Sioux Falls, SD, with his wife when a vehicle pulled alongside, and someone shot him once in the head around 11:42 PM. The same night, a nearby home was burglarized (Winchester 20-gauge shotgun stolen), and a neighboring home was vandalized (shot fired through a window). Ballistics suggested the same weapon was used. Another driver, Tanya Ischel, reported her car being shot at nearby around the same timeframe.
+-   **Key Evidence at Trial (Prosecution)**:
+    *   Testimony from a police officer alleging Stacey made incriminating statements while alone with him in a police vehicle (after the formal confession was suppressed).
+    *   Testimony from two jailhouse snitches.
+    *   Eyewitness identification of Stacey by Tanya Ischel (driver whose car was shot at, not the murder victim's wife) in a lineup.
+    *   Anonymous tip suggesting Stacey's car matched the description (light-colored, older model, possibly four-door, potentially white vinyl top - though descriptions varied).
+    *   Ballistics evidence linking the murder weapon (pellets/wads) to the nearby burglary/vandalism scenes.
+    *   Evidence of Stacey's prior history of speeding, used to counter the alibi timeline.
+-   **Trial Defender Notes**: The defense presented Stacey's alibi: He, Elmer Pickner, and Louis Medicine Horn were documented buying gas/beer at a Food and Fuel store in Mitchell, SD (43.2 miles from the murder scene). A receipt timestamped 12:02 AM (argued to be 10 minutes fast, making actual time 11:52 PM) and employee testimony corroborated this. This timeline required average speeds between 135 mph and potentially over 300 mph to cover the distance from the murder scene (around 11:42 PM) to the store, argued as physically impossible. The defense was not allowed to present evidence of other shootings that night suggesting a different perpetrator.
+-   **Key Evidence for Exoneration/Change in Legal Status**: The primary evidence remains the alibi presented at trial, suggesting physical impossibility. The Great North Innocence Project has conducted DNA and fingerprint tests on available evidence, finding nothing linking Stacey but also no definitive proof of innocence or an alternative perpetrator. They need *new* evidence not previously litigated, such as information identifying the actual shooter or corroborating the third-party perpetrator theory related to the other shootings that night.
+-   **Actual Perpetrator Details**: Not specified in transcript. The defense attempted to raise a third-party perpetrator defense related to other shootings that night, but no specific individual was identified or proven responsible according to the transcript.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    *   Stacey Larson: "I've been like up over 34 years and I'm doing a life sentence for a crime I did not do."
+    *   Anna McGinn (Great North Innocence Project): "...this podcast, I think, is sort of a Hail Mary or a last ditch effort and hoping that someone out there will listen... and provide us with new information."
+    *   Anna McGinn (on alibi): "...he probably would have had to drive about 260 to even 370 miles per hour, which was obviously impossible." / "You know, this is an ironclad alibi."
+    *   Stacey Larson (on interrogation): "Tell us what happened... and be done with? That was my understanding."
+    *   Karen Wheel-Dryer (Stacey's cousin): "I consider it a righteous anger because it was very evident that he was set up."
+    *   Stacey Larson: "I just want the whole world. No, I did not do this crime. I'm gonna."
+-   **Systemic Issues Identified**:
+    *   Coercive police interrogation tactics leading to potentially false/involuntary statements.
+    *   Failure to provide Miranda warnings during initial questioning.
+    *   Reliance on unreliable jailhouse informant testimony.
+    *   Potential for eyewitness misidentification and suggestive lineup procedures.
+    *   Difficulty admitting third-party perpetrator evidence at trial.
+    *   High bar for post-conviction relief, requiring *new* evidence even when trial evidence suggests innocence.
+    *   Potential loss or improper handling of physical evidence over time, hindering re-testing.
+    *   Disparate outcomes for co-defendants based on similar evidence (Stacey convicted, others acquitted/charges dropped on same alibi).
+-   **Policy Recommendations/Calls to Action**:
+    *   Direct appeal for anyone with information about the Ronald Hylgenberg murder, the related burglary/vandalism, other shootings on I-90 that night, or Stacey Larson's case to contact the Great North Innocence Project.
+    *   Encourages listeners in South Dakota to contact their elected officials.
+    *   General support for the work of local innocence organizations.
+-   **Personal Narrative/Impact**: Stacey describes the devastation of his conviction at age 20 and losing the chance to raise his infant son, Sonny. He recounts the pain of only interacting with his son and grandchildren through prison visitations and structured activities, missing key life moments. He mentions the initial lack of belief from his father and the difficult decision to end his relationship with his son's mother, Monica, from prison. He details his persistent efforts from prison (writing hundreds of letters) to prove his innocence. He highlights the vital emotional support provided by his newly found cousin, Karen, and his determination to maintain hope despite decades of setbacks, focusing on "one day at a time" towards freedom.
+-   **Additional Resources**:
+    *   Contact information for the Great North Innocence Project.
+    *   Podcast website links (mentioned for ways to help Stacey).
+    *   Suggestion to contact South Dakota elected officials.
+```

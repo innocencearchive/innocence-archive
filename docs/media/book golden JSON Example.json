@@ -1,0 +1,187 @@
+{
+  "source_file_name": "24.the_sing_sing_files.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "The Sing Sing Files: One Journalist, Six Innocent Men, and a Twenty-Year Fight for Justice",
+    "creator_name": "Dan Slepian",
+    "publication_or_release_year": 2024,
+    "publisher_or_network": "Celadon Books (Macmillan)",
+    "format": "Hardcover, eBook, Audio (224 pages)",
+    "focus_or_theme": "A journalist's two-decade journey investigating and helping to free six innocent men wrongfully convicted of murder in New York",
+    "key_statistics": "The book highlights that an estimated 100,000 of the nearly 2 million people incarcerated in America could be wrongfully convicted, while only 3,500 people have been exonerated in the past 30 years",
+    "recognition_notes": null
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "item_title": "Book Content: The Sing Sing Files: One Journalist, Six Innocent Men, and a Twenty-Year Fight for Justice",
+    "summary_notes": null,
+    "focus_or_theme": "A journalist's two-decade journey investigating and helping to free six innocent men wrongfully convicted of murder in New York",
+    "case_details_raw": "The book details Dan Slepian's journey as an NBC Dateline producer investigating these six wrongful conviction cases over a period of two decades. His investigation began in 2002 when a detective confided in him that two men (David Lemus and Olmedo Hidalgo) were wrongfully convicted of a 1990 murder.\n\nSlepian's investigations revealed various systemic issues in the criminal justice system that contributed to these wrongful convictions, including:\n\n1. **Unreliable eyewitness testimony**: Several cases, particularly those of Velazquez, Lemus, Hidalgo, and Rosario, were built primarily on eyewitness identification with little or no physical evidence.\n\n2. **False confessions**: Johnny Hincapie's case highlights how vulnerable individuals, especially juveniles, can be coerced into false confessions.\n\n3. **Failure to investigate exculpatory evidence**: In Richard Rosario's case, authorities failed to follow up with 13 alibi witnesses who could have proven his innocence.\n\n4. **Police and prosecutorial misconduct**: Several cases involved questionable tactics by law enforcement and prosecutors, including fabricated evidence and coercive methods.\n\n5. **Ineffective assistance of counsel**: Defense attorneys sometimes failed to adequately investigate cases or present exculpatory evidence.\n\nThe book also highlights the friendship that developed between Slepian and Jon-Adrian \"JJ\" Velazquez, who from his cell at Sing Sing directed Slepian to other innocent men until he, too, was finally released in 2021 after serving decades in prison.",
+    "key_quotes_raw": [
+      "\"This isn't a celebration. This is an indictment of the system.\" - JJ Velazquez upon his exoneration"
+    ],
+    "systemic_issues_raw": [
+      "Unreliable eyewitness testimony",
+      "False confessions, often extracted under duress",
+      "Ineffective defense attorneys",
+      "Witnesses with incentives to lie",
+      "Police and prosecutorial misconduct",
+      "Junk forensic science",
+      "Resistance of the system to acknowledge and rectify its mistakes",
+      "Inadequate support for exonerees after release"
+    ],
+    "policy_recommendations_raw": [
+      "Reform of eyewitness identification procedures",
+      "Recording of all police interrogations",
+      "Improved funding for public defenders",
+      "Greater accountability for prosecutorial misconduct",
+      "Better support systems for exonerees",
+      "Prison education programs to reduce recidivism",
+      "Reduction in the use of solitary confinement"
+    ],
+    "additional_resources_raw": [
+      "NBC News podcast \"Letters from Sing Sing\" about JJ Velazquez's case",
+      "NBC News Studios docuseries \"The Sing Sing Chronicles\" featuring the six men's cases",
+      "Innocence Project resources on wrongful convictions"
+    ],
+    "research_notes_other": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Jon-Adrian \"JJ\" Velazquez",
+      "first_name": "Jon-Adrian",
+      "middle_name": "\"JJ\"",
+      "last_name": "Velazquez",
+      "case_location": "Harlem, New York",
+      "conviction_year": 1998,
+      "exoneration_or_release_year": 2024,
+      "crime_convicted_of": "Murder of a retired police officer",
+      "sentence": "25 years to life",
+      "time_served": "Nearly 24 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification",
+        "No physical or forensic evidence linking him to the crime",
+        "Questionable police and prosecutorial tactics",
+        "Eyewitnesses who later recanted",
+        "Critical evidence his attorneys never saw before trial"
+      ],
+      "status_raw": "Fully exonerated in September 2024 based on DNA testing",
+      "organizations_involved_raw": null,
+      "cross_reference": null,
+      "individual_notes": "Velazquez directed Slepian to other innocent men from his cell at Sing Sing; received clemency in 2021 but remained on parole until his full exoneration"
+    },
+    {
+      "full_name": "David Lemus",
+      "first_name": "David",
+      "middle_name": null,
+      "last_name": "Lemus",
+      "case_location": "Manhattan, New York",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2005,
+      "crime_convicted_of": "Murder of a Manhattan nightclub bouncer",
+      "sentence": "25 years to life",
+      "time_served": "15 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification",
+        "No connection to co-defendant Olmedo Hidalgo (they had never met)",
+        "Police and prosecutorial misconduct"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": null,
+      "cross_reference": null,
+      "individual_notes": "Slepian's investigation began when a Bronx detective confided that he knew Lemus and Hidalgo were innocent because he knew who the real killers were"
+    },
+    {
+      "full_name": "Olmedo Hidalgo",
+      "first_name": "Olmedo",
+      "middle_name": null,
+      "last_name": "Hidalgo",
+      "case_location": "Manhattan, New York",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2005,
+      "crime_convicted_of": "Murder of a Manhattan nightclub bouncer",
+      "sentence": "25 years to life",
+      "time_served": "15 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification",
+        "No connection to co-defendant David Lemus (they had never met)",
+        "Police and prosecutorial misconduct"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": null,
+      "cross_reference": null,
+      "individual_notes": "Slepian interviewed the actual gunman, which caused key eyewitnesses to acknowledge they were wrong"
+    },
+    {
+      "full_name": "Eric Glisson",
+      "first_name": "Eric",
+      "middle_name": null,
+      "last_name": "Glisson",
+      "case_location": "Bronx, New York",
+      "conviction_year": 1995,
+      "exoneration_or_release_year": 2013,
+      "crime_convicted_of": "Murder of a cabdriver",
+      "sentence": "25 years to life",
+      "time_served": "Nearly 18 years",
+      "contributing_factors_raw": [
+        "Fabricated evidence",
+        "Coercive police tactics"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": null,
+      "cross_reference": null,
+      "individual_notes": "His case contributed to broader debates about police reform and the integrity of criminal investigations"
+    },
+    {
+      "full_name": "Johnny Hincapie",
+      "first_name": "Johnny",
+      "middle_name": null,
+      "last_name": "Hincapie",
+      "case_location": "Manhattan, New York",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2015,
+      "crime_convicted_of": "Robbery and murder of a tourist from Utah on a subway platform",
+      "sentence": "25 years to life",
+      "time_served": "25 years",
+      "contributing_factors_raw": [
+        "False confession (coerced when he was 17 years old)"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": null,
+      "cross_reference": null,
+      "individual_notes": "His case highlights the particular vulnerability of juveniles to coercive interrogation techniques"
+    },
+    {
+      "full_name": "Richard Rosario",
+      "first_name": "Richard",
+      "middle_name": null,
+      "last_name": "Rosario",
+      "case_location": "Bronx, New York",
+      "conviction_year": 1996,
+      "exoneration_or_release_year": 2016,
+      "crime_convicted_of": "Murder of a teenager",
+      "sentence": "25 years to life",
+      "time_served": "20 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification",
+        "Failure to investigate alibi witnesses (13 alibi witnesses who would swear he was in Florida at the time of the crime)",
+        "Ineffective assistance of counsel"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": null,
+      "cross_reference": null,
+      "individual_notes": "His alibi witnesses included a police officer, a federal corrections officer, and a pastor, but authorities and his trial attorneys didn't follow up with them"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Dan Slepian",
+      "role": "AUTHOR",
+      "first_name": "Dan",
+      "middle_name": null,
+      "last_name": "Slepian"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "This book is particularly significant as it documents the work of a journalist who became directly involved in investigating and helping to free wrongfully convicted individuals. Unlike many other books on wrongful convictions that focus on a single case or are written by legal professionals, \"The Sing Sing Files\" provides the unique perspective of a journalist who spent two decades navigating the criminal justice system to help free six innocent men.\n\nThe book also highlights the particular challenges of addressing wrongful convictions in New York City, as opposed to rural areas or the South where many other wrongful conviction narratives are set. It draws comparisons to Bryan Stevenson's \"Just Mercy,\" but in the context of the nation's largest city.\n\nThe publication of this book in September 2024 makes it one of the most recent and up-to-date accounts of wrongful convictions in the American justice system, with JJ Velazquez's full exoneration occurring the same month as the book's publication."
+}

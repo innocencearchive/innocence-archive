@@ -1,0 +1,98 @@
+{
+  "source_file_name": "3.2.innocence_lost.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Innocence Lost (20/20)",
+    "publication_or_release_year": 1993,
+    "publisher_or_network": "ABC News",
+    "focus_or_theme": "West Memphis Three case, \"Satanic Panic,\" questionable evidence, Alford plea",
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Innocence Lost (20/20)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "West Memphis Three case, \"Satanic Panic,\" questionable evidence, Alford plea",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Covers the controversial West Memphis Three case; Mentions \"Satanic Panic\" and questionable evidence; Notes release via Alford plea after public attention; Available via ABC.",
+      "research_findings": "Searches did not yield specific details for a 20/20 episode titled \"Innocence Lost.\" However, the case of the West Memphis Three is extremely well-documented. The details provided above are based on the `film_list.txt` description and widely available public information about this specific case. It's highly probable 20/20 covered this case, possibly under this title or another."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Damien Echols",
+      "case_location_city": "West Memphis",
+      "case_location_state": "Arkansas",
+      "conviction_year": 1994,
+      "exoneration_or_release_year": 2011,
+      "crime_convicted_of_raw": "Murder (of three young boys)",
+      "sentence": "Death Penalty",
+      "time_served": "~18 years",
+      "contributing_factors_raw": [
+        "Alleged coerced confession (Misskelley), questionable forensic evidence, \"Satanic Panic\" moral panic, public pressure."
+      ],
+      "status_raw": "Released via Alford Plea (Maintains innocence while acknowledging sufficient evidence for conviction)",
+      "organizations_involved_raw": [
+        "Numerous supporters, legal teams, documentary filmmakers."
+      ],
+      "first_name": "Damien",
+      "middle_name": null,
+      "last_name": "Echols"
+    },
+    {
+      "full_name": "Jason Baldwin",
+      "case_location_city": "West Memphis",
+      "case_location_state": "Arkansas",
+      "conviction_year": 1994,
+      "exoneration_or_release_year": 2011,
+      "crime_convicted_of_raw": "Murder",
+      "sentence": "Life without parole",
+      "time_served": "~18 years",
+      "contributing_factors_raw": [
+        "See Echols."
+      ],
+      "status_raw": "Released via Alford Plea",
+      "organizations_involved_raw": [
+        "See Echols."
+      ],
+      "first_name": "Jason",
+      "middle_name": null,
+      "last_name": "Baldwin"
+    },
+    {
+      "full_name": "Jessie Misskelley Jr.",
+      "case_location_city": "West Memphis",
+      "case_location_state": "Arkansas",
+      "conviction_year": 1994,
+      "exoneration_or_release_year": 2011,
+      "crime_convicted_of_raw": "Murder",
+      "sentence": "Life plus 40 years",
+      "time_served": "~18 years",
+      "contributing_factors_raw": [
+        "Coerced/false confession (primary evidence against him), limited mental capacity, see Echols."
+      ],
+      "status_raw": "Released via Alford Plea",
+      "organizations_involved_raw": [
+        "See Echols."
+      ],
+      "first_name": "Jessie",
+      "middle_name": "Misskelley",
+      "last_name": "Jr."
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

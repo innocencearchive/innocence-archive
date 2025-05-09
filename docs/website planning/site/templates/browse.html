@@ -1,0 +1,247 @@
+{% extends "base.html" %}
+
+{% block title %}Wrongfully Convicted Americans - Browse Stories{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="container">
+        <h1>Browse Stories</h1>
+        <p>Explore the database of {{ exoneree_count }} individuals who were wrongfully convicted and later exonerated.</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Search by name, location, or crime type...">
+            <button type="submit"><i class="fas fa-search"></i> Search</button>
+        </div>
+    </div>
+</section>
+
+<section class="browse-section">
+    <div class="container">
+        <div class="filter-panel">
+            <div class="filter-section">
+                <h3>Demographics</h3>
+                <div class="filter-options">
+                    <div class="filter-group">
+                        <h4>Race</h4>
+                        <div class="filter-checkbox">
+                            <input type="checkbox" id="race-black" name="race" value="Black">
+                            <label for="race-black">Black</label>
+                        </div>
+                        <div class="filter-checkbox">
+                            <input type="checkbox" id="race-white" name="race" value="White">
+                            <label for="race-white">White</label>
+                        </div>
+                        <div class="filter-checkbox">
+                            <input type="checkbox" id="race-hispanic" name="race" value="Hispanic">
+                            <label for="race-hispanic">Hispanic</label>
+                        </div>
+                        <div class="filter-checkbox">
+                            <input type="checkbox" id="race-asian" name="race" value="Asian">
+                            <label for="race-asian">Asian</label>
+                        </div>
+                        <div class="filter-checkbox">
+                            <input type="checkbox" id="race-native" name="race" value="Native American">
+                            <label for="race-native">Native American</label>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <h4>Sex</h4>
+                        <div class="filter-checkbox">
+                            <input type="checkbox" id="sex-male" name="sex" value="Male">
+                            <label for="sex-male">Male</label>
+                        </div>
+                        <div class="filter-checkbox">
+                            <input type="checkbox" id="sex-female" name="sex" value="Female">
+                            <label for="sex-female">Female</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>Crime Type</h3>
+                <div class="filter-options">
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="crime-murder" name="crime" value="Murder">
+                        <label for="crime-murder">Murder</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="crime-sexual-assault" name="crime" value="Sexual Assault">
+                        <label for="crime-sexual-assault">Sexual Assault</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="crime-child-sex-abuse" name="crime" value="Child Sex Abuse">
+                        <label for="crime-child-sex-abuse">Child Sex Abuse</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="crime-drugs" name="crime" value="Drug Possession or Sale">
+                        <label for="crime-drugs">Drug Possession or Sale</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="crime-robbery" name="crime" value="Robbery">
+                        <label for="crime-robbery">Robbery</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>Contributing Factors</h3>
+                <div class="filter-options">
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="factor-dna" name="factor" value="DNA">
+                        <label for="factor-dna">DNA Evidence</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="factor-mwid" name="factor" value="MWID">
+                        <label for="factor-mwid">Mistaken Witness ID</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="factor-fc" name="factor" value="FC">
+                        <label for="factor-fc">False Confession</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="factor-pfa" name="factor" value="P/FA">
+                        <label for="factor-pfa">Perjury/False Accusation</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="factor-fmfe" name="factor" value="F/MFE">
+                        <label for="factor-fmfe">False/Misleading Forensic Evidence</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="factor-om" name="factor" value="OM">
+                        <label for="factor-om">Official Misconduct</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="factor-ild" name="factor" value="ILD">
+                        <label for="factor-ild">Inadequate Legal Defense</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>Location</h3>
+                <div class="filter-options">
+                    <select id="state-filter" name="state">
+                        <option value="">All States</option>
+                        {% for state in states %}
+                        <option value="{{ state }}">{{ state }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>Time Period</h3>
+                <div class="filter-options">
+                    <div class="filter-range">
+                        <label for="convicted-from">Convicted From:</label>
+                        <input type="number" id="convicted-from" name="convicted-from" min="1970" max="2025">
+                        
+                        <label for="convicted-to">To:</label>
+                        <input type="number" id="convicted-to" name="convicted-to" min="1970" max="2025">
+                    </div>
+                    
+                    <div class="filter-range">
+                        <label for="exonerated-from">Exonerated From:</label>
+                        <input type="number" id="exonerated-from" name="exonerated-from" min="1970" max="2025">
+                        
+                        <label for="exonerated-to">To:</label>
+                        <input type="number" id="exonerated-to" name="exonerated-to" min="1970" max="2025">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>Media Coverage</h3>
+                <div class="filter-options">
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="media-yes" name="media" value="yes">
+                        <label for="media-yes">Has Media Coverage</label>
+                    </div>
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="media-no" name="media" value="no">
+                        <label for="media-no">No Media Coverage</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="filter-actions">
+                <button class="clear-filters">Clear All Filters</button>
+                <button class="apply-filters">Apply Filters</button>
+            </div>
+        </div>
+        
+        <div class="results-container">
+            <div class="results-header">
+                <div class="results-count">
+                    <p>Showing <span id="results-shown">{{ exonerees|length }}</span> of <span id="results-total">{{ exoneree_count }}</span> exonerees</p>
+                </div>
+                <div class="results-sort">
+                    <label for="sort-by">Sort by:</label>
+                    <select id="sort-by" name="sort-by">
+                        <option value="name">Name (A-Z)</option>
+                        <option value="convicted-desc">Conviction Date (Newest)</option>
+                        <option value="convicted-asc">Conviction Date (Oldest)</option>
+                        <option value="exonerated-desc">Exoneration Date (Newest)</option>
+                        <option value="exonerated-asc">Exoneration Date (Oldest)</option>
+                        <option value="years-desc">Years Served (Most)</option>
+                        <option value="years-asc">Years Served (Least)</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="stories-list">
+                {% for exoneree in exonerees %}
+                <div class="story-card">
+                    <div class="story-card-content">
+                        <h3>{{ exoneree.first_name }} {{ exoneree.last_name }}</h3>
+                        <div class="story-card-meta">
+                            <div class="story-card-location">
+                                <i class="fas fa-map-marker-alt"></i> {{ exoneree.state }}, {{ exoneree.county }}
+                            </div>
+                            <div class="story-card-years">
+                                <i class="fas fa-calendar-alt"></i> {{ exoneree.years_to_exoneration }} years
+                            </div>
+                        </div>
+                        <div class="story-card-crime">{{ exoneree.worst_crime }}</div>
+                        <p class="story-card-summary">
+                            {{ exoneree.first_name }} {{ exoneree.last_name }} was wrongfully convicted in {{ exoneree.convicted_year }} and exonerated in {{ exoneree.exonerated_year }} after serving {{ exoneree.years_to_exoneration }} years.
+                        </p>
+                        <div class="story-card-factors">
+                            {% for factor in exoneree.factors %}
+                            <span class="factor-tag">{{ factor }}</span>
+                            {% endfor %}
+                        </div>
+                        <div class="story-card-footer">
+                            <div class="media-indicator {% if exoneree.has_media %}has-media{% else %}no-media{% endif %}">
+                                <i class="fas {% if exoneree.has_media %}fa-check-circle{% else %}fa-exclamation-circle{% endif %}"></i>
+                                {% if exoneree.has_media %}Media Coverage{% else %}No Media Coverage{% endif %}
+                            </div>
+                            <a href="/exoneree/{{ exoneree.id }}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <div class="pagination">
+                <button class="pagination-prev" {% if current_page == 1 %}disabled{% endif %}>
+                    <i class="fas fa-chevron-left"></i> Previous
+                </button>
+                <div class="pagination-pages">
+                    {% for page in pages %}
+                    <a href="?page={{ page }}" class="pagination-page {% if page == current_page %}active{% endif %}">{{ page }}</a>
+                    {% endfor %}
+                </div>
+                <button class="pagination-next" {% if current_page == total_pages %}disabled{% endif %}>
+                    Next <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/browse.js"></script>
+{% endblock %}

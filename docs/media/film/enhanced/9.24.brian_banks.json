@@ -1,0 +1,81 @@
+{
+  "source_file_name": "9.24.brian_banks.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Brian Banks",
+    "creator_name": "Tom Shadyac",
+    "publication_or_release_year": 2018,
+    "publisher_or_network": "ShivHans Pictures, Gidden Media (Distributed by Bleecker Street)",
+    "focus_or_theme": "The true story of Brian Banks, a promising high school football player whose life was upended by a wrongful conviction for rape, and his long fight for exoneration with the help of the California Innocence Project.",
+    "summaryNotes": "Banks lost a football scholarship to USC due to the accusation. He served over 5 years in prison and 5 years on parole.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Brian Banks",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "The true story of Brian Banks, a promising high school football player whose life was upended by a wrongful conviction for rape, and his long fight for exoneration with the help of the California Innocence Project.",
+    "summary_notes": "The film depicts the initial accusation against Brian Banks, his decision to take a plea deal, his struggles during incarceration and parole, the accuser's recantation, the legal battle led by the California Innocence Project, and his eventual exoneration and attempt to reclaim his life.",
+    "key_quotes_raw": [
+      "Specific quotes not found in search results.",
+      "Key moments likely include the depiction of the initial accusation, the agonizing decision to take the plea deal, Banks's struggles while incarcerated and on parole, the accuser's recantation, the legal battle fought by the California Innocence Project, and Banks's eventual exoneration and attempt to reclaim his life/football career."
+    ],
+    "systemic_issues_raw": [
+      "Devastating impact of false accusations, particularly in sexual assault cases",
+      "Immense pressure on defendants (especially young/poor/minority) to accept plea deals even if innocent",
+      "Difficulties in overturning convictions even with recantations",
+      "The crucial role of innocence organizations",
+      "Challenges faced by exonerees after release."
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly supports the work of innocence projects and highlights the need for safeguards against coercive plea bargaining and mechanisms to review convictions when credible evidence of innocence emerges."
+    ],
+    "external_links_raw": [
+      {
+        "url": null,
+        "description": "California Innocence Project website, news articles covering Brian Banks's case and exoneration."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Brian Banks",
+      "first_name": "Brian",
+      "middle_name": null,
+      "last_name": "Banks",
+      "status": "EXONERATED",
+      "conviction_year": 2002,
+      "exoneration_or_release_year": 2012,
+      "time_served": "Over 5 years in prison, plus 5 years on parole.",
+      "sentence": "Six years imprisonment (served ~5 years plus 5 years parole)",
+      "crime_convicted_of_raw": "Kidnapping and Rape",
+      "case_location_city": "Long Beach",
+      "case_location_state": "California",
+      "narrative_summary": "Brian Banks was wrongfully convicted of kidnapping and rape in 2002 and exonerated in 2012. He served over 5 years in prison and 5 years on parole. His conviction was overturned due to a false accusation and pressure to accept a plea deal.",
+      "contributing_factors_raw": [
+        "False accusation",
+        "Pressure to accept a plea deal (due to fear of much longer sentence if convicted at trial)",
+        "Potential ineffective assistance of counsel advising the plea."
+      ],
+      "organizations_involved_raw": [
+        "California Innocence Project (CIP)."
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Tom Shadyac",
+      "first_name": "Tom",
+      "middle_name": null,
+      "last_name": "Shadyac",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

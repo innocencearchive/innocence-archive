@@ -1,0 +1,102 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**:  Not specified in transcript, but likely an episode focusing on Andrew Krivak.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2017 (original air date mentioned)
+-   **Production Company(ies)/Network**: Lava for Good Podcast, Signal Company Number One
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, investigative journalism, criminal justice system flaws, false confessions, police misconduct.
+-   **Key Statistics/Information**:
+    -   Andrew Krivak was convicted in 1997 and is still in prison at the time of recording (2017).
+    -   His co-defendant, Anthony DiPippo, has been exonerated and released after serving 20 years.
+    -   The case involves the rape and strangulation of 12-year-old Josette Wright in 1994.
+    -   Contributing factors to the wrongful conviction include a potentially false confession from Krivak, incentivized witness testimony, and questionable police investigation.
+    -   Howard Gomber is mentioned as a potential actual perpetrator, with a history of sex crimes and connections to the area.
+    -   Daniel Stevens, the polygraph examiner, is implicated in misconduct and violence during interrogations.
+    -   Three central police figures in the investigation have been indicted or convicted of other crimes.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom features an interview with Andrew Krivak, recorded inside Wendy Maximum Security Prison, who remains incarcerated for the 1994 rape and murder of Josette Wright, a crime for which his co-defendant, Anthony DiPippo, has been exonerated.  The episode details the flawed investigation, highlighting the initial lack of seriousness by police, the reliance on a coerced and inconsistent witness statement from Denise Rose, and a potentially false confession from Krivak obtained after a manipulated polygraph and aggressive interrogation.  The podcast emphasizes the lack of physical evidence against Krivak and DiPippo, while pointing towards another suspect, Howard Gomber, who has a history of similar crimes and connections to the area.  The conversation includes Adele Bernhard, Krivak's lawyer, discussing the legal battles and the injustice of Krivak's continued imprisonment despite DiPippo's exoneration.  The episode serves as a call for justice for Krivak and an examination of systemic issues within the criminal justice system that lead to wrongful convictions.  It underscores the devastating impact on the wrongfully convicted and their families, and the urgent need for reform.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Andrew Krivak
+    -   **Case Location**: Putnam County, New York
+    -   **Conviction Year**: 1997
+    -   **Exoneration Year**: Not yet exonerated as of recording (2017), granted new trial in 2019 (mentioned in intro added later).
+    -   **Crime Convicted Of**: Rape and strangulation of Josette Wright
+    -   **Sentence**: Not explicitly stated in transcript, but implied to be a lengthy prison sentence.
+    -   **Time Served**: 21 years as of recording (2017), and still incarcerated.
+    -   **Contributing Factors**: False confession (coerced and pre-written), incentivized witness testimony (Denise Rose), police misconduct and tunnel vision, ineffective trial defense lawyer.
+    -   **Legal Status**: Conviction overturned in 2019 and granted new trial (mentioned in intro added later), but still in prison awaiting new trial at time of recording.
+    -   **Organizations Involved**: Innocence community, Adele Bernhard (lawyer), Jeffrey Deskovic (advocate).
+    -   **Innocence Lawyer Details**: Adele Bernhard represented Andrew Krivak for nearly 10 years at the time of the recording. She is described as "royalty in the Innocence community". She is actively working to get Andrew a new trial and highlights the injustice of his continued imprisonment while his co-defendant is free.
+    -   **Cross-Reference**: Not specified if in exoneree database in transcript.
+    -   **Narrative of Original Crime**: 12-year-old Josette Wright disappeared in 1994. Months later, her body was found. Andrew Krivak and Anthony DiPippo were accused of raping and murdering her. The prosecution's theory involved the crime occurring in Krivak's van after going to smoke pot with a group of teenagers.
+    -   **Key Evidence at Trial (Prosecution)**:  Testimony of Denise Rose claiming to have witnessed the crime in a van, and a pre-written confession signed by Andrew Krivak.  Also, testimony from two young girls claiming to recognize jewelry found in Krivak's van as belonging to Josette Wright.
+    -   **Trial Defender Notes**: Andrew Krivak's trial lawyer was described as ineffective, failing to present evidence that could have proven his innocence, as he promised to do.
+    -   **Key Evidence for Exoneration/Change in Legal Status**:  Exoneration of co-defendant Anthony DiPippo based on lack of credible evidence and potential alternative suspect.  Evidence disproving Denise Rose's testimony, including inconsistencies and lack of corroboration. Evidence that the van, where the crime supposedly occurred, was inoperable at the time.  Questionable polygraph practices and history of misconduct by the polygraph examiner.
+    -   **Actual Perpetrator Details**: Howard Gomber is strongly suggested as a potential actual perpetrator. He had a history of sex crimes dating back to the 1980s, was known to law enforcement and legal aid, and was initially considered a suspect in Josette Wright's case and another similar disappearance.  He is currently in prison for child sex crimes and allegedly made a statement to another inmate suggesting others were taking the fall for his crime.
+
+-   **Name**: Anthony DiPippo
+    -   **Case Location**: Putnam County, New York
+    -   **Conviction Year**: 1997 (same case as Krivak)
+    -   **Exoneration Year**: Before 2017 (already exonerated at time of recording)
+    -   **Crime Convicted Of**: Rape and strangulation of Josette Wright
+    -   **Sentence**: Not explicitly stated in transcript, but implied to be a lengthy prison sentence.
+    -   **Time Served**: 20 years
+    -   **Contributing Factors**:  Incentivized witness testimony (Denise Rose), police tunnel vision, potentially racial bias (mentioned as a "big guy" and "known" to police for juvenile offenses).
+    -   **Legal Status**: Exonerated and released.
+    -   **Organizations Involved**: Innocence community, legal team involved in his retrial.
+    -   **Innocence Lawyer Details**: Not detailed in transcript, but mentioned that he had a "great team" of lawyers for his retrial.
+    -   **Cross-Reference**: Not specified if in exoneree database in transcript.
+    -   **Narrative of Original Crime**: Same as Andrew Krivak (co-defendant).
+    -   **Key Evidence at Trial (Prosecution)**: Testimony of Denise Rose claiming to have witnessed the crime in a van.
+    -   **Trial Defender Notes**:  Not detailed in transcript for original trial.
+    -   **Key Evidence for Exoneration/Change in Legal Status**:  Jury in retrial found him not guilty, discrediting Denise Rose's testimony. Evidence pointing to Howard Gomber as a more likely suspect. Evidence that the van was inoperable.
+    -   **Actual Perpetrator Details**: Howard Gomber (same as Andrew Krivak section).
+
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "His codefendant, Anthony de Pippo, has been out now for several years. His dear friend and the fact is it's incomprehensible and inexcusable that for that long they've known, the authorities have known that Andrew is just as innocent as Anthony is, but they've prevented his release for the simple fact that Andrew confessed to the crime that they both didn't commit while Anthony did not." (Intro - highlighting the injustice)
+    -   "And anybody that would say, well, why would you confess to something that you didn't do? My question to them will be, why wouldn't you confess when somebody's threatening to kill your life?" (Andrew Krivak - explaining the pressure during interrogation)
+    -   "It's a pre-written statement made by them, that I wound up breaking down and signing. I think that's important. It's not his words, it's their words, on a piece of paper." (Andrew Krivak - clarifying the nature of his confession)
+    -   "Closure. Yeah. That's a big word. Closure. Get it off the desk and on to the next one. Just let you rot." (Jason Flom - criticizing the system's focus on closure over justice)
+    -   "This is blatant disregard to certain elements of the case. And this is decisions that were made knowingly by the police involved." (Andrew Krivak - emphasizing the deliberate nature of the misconduct)
+    -   "This isn't one of those just close knit or we understand it, no, this is individuals choosing to go against the Lord that were in the powers to get people to believe them because of their positions and just shatter lives." (Andrew Krivak - highlighting the betrayal of trust)
+
+-   **Systemic Issues Identified**:
+    -   Police misconduct:  Fabricating evidence (jewelry), coercing witnesses (Denise Rose), aggressive and abusive interrogation tactics, ignoring alternative suspects (Howard Gomber), manipulating polygraph tests.
+    -   False confessions:  Pressure tactics leading to signing pre-written confessions, lack of understanding of false confessions by juries and the public at the time of trial.
+    -   Ineffective legal defense:  Trial lawyer failing to present promised evidence.
+    -   Tunnel vision in investigations:  Focusing on initial suspects and ignoring contradictory evidence or other leads.
+    -   Incentivized witness testimony:  Denise Rose potentially motivated to testify to avoid jail time.
+    -   Lack of accountability for wrongful convictions:  Resistance from authorities to admit error and release Andrew Krivak despite co-defendant's exoneration.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Support for the Innocence Project (mentioned at the end of the podcast).
+    -   Call to listeners to support Andrew Krivak and his case.
+    -   Implied need for police reform and greater scrutiny of interrogation tactics and evidence handling.
+    -   Need for public education on false confessions and wrongful convictions.
+    -   Emphasis on the importance of "beyond a reasonable doubt" standard and holding prosecutors and police accountable to it.
+
+-   **Personal Narrative/Impact**:
+    -   Andrew Krivak describes the shock and disbelief at being accused and convicted. He emphasizes his lifelong belief in the justice system initially, which was shattered by his experience. He talks about the constant battle in prison to maintain his innocence and the emotional toll of being labeled a child rapist and murderer. Despite the hardships, he expresses resilience, determination to fight for his freedom, and a desire to help others. He emphasizes the importance of staying positive and driven to overcome adversity.
+    -   Anthony DiPippo's exoneration and continued support for Krivak highlight the absurdity of Krivak's continued imprisonment and offer a ray of hope.
+
+-   **Additional Resources**:
+    -   Anthony DePepo's Facebook page (for more information on the case).
+    -   Google search for "Andrew Krivak" (for news articles).
+    -   Jeffrey Deskovic's advocacy for wrongful convictions and his support for Krivak's case.
+    -   Innocence Project website (InnocenceProject.org).
+```

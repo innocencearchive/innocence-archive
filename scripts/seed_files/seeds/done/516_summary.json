@@ -1,0 +1,349 @@
+{
+  "sourceFileName": "516_summary.md",
+  "mediaWork": {
+    "title": "Wrongful Conviction",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Jason Flom",
+    "publicationOrReleaseYear": 2023,
+    "publisherOrNetwork": "Lava for Good, Signal Company Number One",
+    "focusOrTheme": "Wrongful Convictions, Legal Analysis, Non-Unanimous Juries, Police/Prosecutorial Misconduct, Personal Stories of Incarceration.",
+    "summaryNotes": "This episode of Wrongful Conviction details the case of Corey Miller, the hip-hop artist known as C-Murder, who was convicted for the 2002 murder of 16-year-old Steve Thomas at a Louisiana nightclub. Hosted by Jason Flom with guests Corey Miller, Kim Kardashian, and appellate attorney Jane Hogan, the episode explores the controversial conviction based on a 10-2 non-unanimous jury verdict. It highlights significant issues including inconsistent eyewitness accounts, alleged police coercion by Detective Kloger leading key witnesses to implicate Miller, and the subsequent recantations of those witnesses. Despite DNA evidence excluding Miller and new analyses challenging the prosecution's narrative, Miller remains incarcerated after over 20 years, with post-conviction relief efforts repeatedly denied without evidentiary hearings. The episode calls for action, including signing petitions and advocating for the retroactive application of Louisiana's unanimous jury law.",
+    "availabilityNotes": null,
+    "sourceUrl": null
+  },
+  "mediaItem": {
+    "itemTitle": "Corey Miller aka C-Murder",
+    "itemNumber": "Episode 403",
+    "itemMediaType": "PODCAST_EPISODE",
+    "releaseDate": null,
+    "hostOrNarrator": "Jason Flom",
+    "focusOrTheme": "Wrongful Convictions, Legal Analysis, Non-Unanimous Juries, Police/Prosecutorial Misconduct, Personal Stories of Incarceration.",
+    "summaryNotes": "This episode of Wrongful Conviction details the case of Corey Miller, the hip-hop artist known as C-Murder, who was convicted for the 2002 murder of 16-year-old Steve Thomas at a Louisiana nightclub. Hosted by Jason Flom with guests Corey Miller, Kim Kardashian, and appellate attorney Jane Hogan, the episode explores the controversial conviction based on a 10-2 non-unanimous jury verdict. It highlights significant issues including inconsistent eyewitness accounts, alleged police coercion by Detective Kloger leading key witnesses to implicate Miller, and the subsequent recantations of those witnesses. Despite DNA evidence excluding Miller and new analyses challenging the prosecution's narrative, Miller remains incarcerated after over 20 years, with post-conviction relief efforts repeatedly denied without evidentiary hearings. The episode calls for action, including signing petitions and advocating for the retroactive application of Louisiana's unanimous jury law.",
+    "keyQuotes": "- Corey Miller: \"Doing the right thing would be the wrong move for anybody trying to further their career.\"\n- Corey Miller: \"I lost 22 years of my life so far... My youngest daughter was two years old, and she's graduated LSU.\"\n- Juror Mary Jacob: Voted guilty \"to end deliberations because the mama bear instinct in me came out. And I was afraid for the sanity of this young girl [fellow juror being pressured].\"\n- Jane Hogan: \"It was a house of cards to begin with. It collapsed.\"\n- Kim Kardashian: \"Not changing laws retroactively is something that really bothers me. I can't understand how that makes sense to lawmakers...\"\n- Detective Kloger allegedly told Judge Sasson he shredded his file after the first conviction, but later produced it, revealing withheld evidence.",
+    "sourceUrl": null,
+    "individualsFeatured": [
+      {
+        "firstName": "Corey",
+        "lastName": "Miller"
+      }
+    ],
+    "organizationsMentioned": [
+      {
+        "name": "Kim Kardashian and her advocacy network"
+      },
+      {
+        "name": "Lava for Good"
+      }
+    ],
+    "involvedPersonsMentioned": [
+      {
+        "firstName": "Jane",
+        "lastName": "Hogan"
+      },
+      {
+        "firstName": "Jason",
+        "lastName": "Flom"
+      },
+      {
+        "firstName": "Kim",
+        "lastName": "Kardashian"
+      },
+      {
+        "firstName": "Scott",
+        "lastName": "Budnick"
+      },
+      {
+        "firstName": "Jessica",
+        "lastName": "Jackson"
+      },
+      {
+        "firstName": "Aaron",
+        "lastName": "Haney"
+      },
+      {
+        "firstName": "Detective",
+        "lastName": "Kloger"
+      },
+      {
+        "firstName": "Darnell",
+        "lastName": "Jordan"
+      },
+      {
+        "firstName": "Kenneth",
+        "lastName": "Jordan"
+      },
+      {
+        "firstName": "Kishan",
+        "lastName": "Jones"
+      },
+      {
+        "firstName": "Hans",
+        "lastName": "Liljaberg"
+      },
+      {
+        "firstName": "Roger",
+        "lastName": "Jordan"
+      },
+      {
+        "firstName": "Eloise",
+        "lastName": "Matthews"
+      },
+      {
+        "firstName": "Tanika",
+        "lastName": "Rankins"
+      },
+      {
+        "firstName": "Mary",
+        "lastName": "Jacob"
+      },
+      {
+        "firstName": "Judge",
+        "lastName": "Sasson"
+      }
+    ],
+    "contributingFactorsMentioned": [
+      {
+        "name": "Non-unanimous jury verdict (10-2)"
+      },
+      {
+        "name": "Alleged police coercion and pressure on witnesses (Detective Kloger)"
+      },
+      {
+        "name": "Witness recantation (Kishan Jones, Darnell Jordan, Kenneth Jordan)"
+      },
+      {
+        "name": "Inconsistent eyewitness testimony"
+      },
+      {
+        "name": "Alleged withholding of exculpatory/impeachment evidence"
+      },
+      {
+        "name": "Potential judicial bias (Judge Liljaberg in second trial)"
+      },
+      {
+        "name": "Tunnel vision (Focus on Miller potentially due to fame/rumors at the scene)"
+      }
+    ]
+  },
+  "individuals": [
+    {
+      "firstName": "Corey",
+      "lastName": "Miller",
+      "status": "CONVICTED",
+      "convictionYear": 2009,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": 22.0,
+      "sentence": "Life sentence",
+      "caseLocationCity": "Harvey",
+      "caseLocationCounty": "Jefferson Parish",
+      "caseLocationState": "LA",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Convicted for the 2002 murder of Steve Thomas. Conviction based on a 10-2 non-unanimous jury verdict. Significant issues including inconsistent eyewitness accounts, alleged police coercion by Detective Kloger, and subsequent recantations of witnesses. DNA evidence excluding Miller. Remains incarcerated after over 20 years. Post-conviction relief efforts repeatedly denied."
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Kim Kardashian and her advocacy network",
+      "type": "UNKNOWN",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "mentions Scott Budnick, Jessica Jackson, Aaron Haney"
+    },
+    {
+      "name": "Lava for Good",
+      "type": "MEDIA_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "producing the podcast"
+    },
+    {
+      "name": "Signal Company Number One",
+      "type": "MEDIA_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Production Company/Network"
+    },
+    {
+      "name": "Times-Picayune",
+      "type": "MEDIA_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Interviewed Juror Mary Jacob"
+    },
+    {
+      "name": "LSU",
+      "type": "UNIVERSITY",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Corey Miller's daughter graduated from LSU"
+    },
+    {
+      "name": "NOPD",
+      "type": "LAW_ENFORCEMENT",
+      "locationCity": "New Orleans",
+      "locationState": "LA",
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Detective Kloger's previous department"
+    },
+    {
+      "name": "Jefferson Parish",
+      "type": "GOVERNMENT_AGENCY",
+      "locationCity": null,
+      "locationState": "LA",
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "DA's office, Sheriff's office, Courts"
+    }
+  ],
+  "contributingFactors": [
+    {
+      "name": "Non-unanimous jury verdict",
+      "description": "10-2 jury verdict in second trial"
+    },
+    {
+      "name": "Police coercion",
+      "description": "Alleged police coercion and pressure on witnesses by Detective Kloger"
+    },
+    {
+      "name": "Witness recantation",
+      "description": "Recantations by key witnesses Kishan Jones, Darnell Jordan, and Kenneth Jordan"
+    },
+    {
+      "name": "Inconsistent eyewitness testimony",
+      "description": "Eyewitness accounts were inconsistent"
+    },
+    {
+      "name": "Withholding exculpatory evidence",
+      "description": "Alleged withholding of exculpatory/impeachment evidence (*Brady* violations implied)"
+    },
+    {
+      "name": "Judicial bias",
+      "description": "Potential judicial bias of Judge Liljaberg in second trial"
+    },
+    {
+      "name": "Tunnel vision",
+      "description": "Tunnel vision and focus on Miller potentially due to fame/rumors"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Jane",
+      "lastName": "Hogan",
+      "role": "LAWYER_DEFENSE",
+      "notes": "Appellate Attorney. Actively representing Miller, filed post-conviction motions, hired crime scene reconstruction expert, uncovered Detective Kloger's personnel file, engaged with DA's office, continues to fight for a hearing and relief."
+    },
+    {
+      "firstName": "Jason",
+      "lastName": "Flom",
+      "role": "HOST",
+      "notes": "Host of Wrongful Conviction podcast"
+    },
+    {
+      "firstName": "Kim",
+      "lastName": "Kardashian",
+      "role": "ACTIVIST",
+      "notes": "Guest on podcast, advocating for Corey Miller"
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Budnick",
+      "role": "ACTIVIST",
+      "notes": "Part of Kim Kardashian's advocacy network"
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Jackson",
+      "role": "ACTIVIST",
+      "notes": "Part of Kim Kardashian's advocacy network"
+    },
+    {
+      "firstName": "Aaron",
+      "lastName": "Haney",
+      "role": "ACTIVIST",
+      "notes": "Part of Kim Kardashian's advocacy network"
+    },
+    {
+      "firstName": "Detective",
+      "lastName": "Kloger",
+      "role": "POLICE_DETECTIVE",
+      "notes": "Detective involved in Corey Miller case, alleged police coercion"
+    },
+    {
+      "firstName": "Darnell",
+      "lastName": "Jordan",
+      "role": "WITNESS_EYEWITNESS",
+      "notes": "Key prosecution witness, later recanted testimony"
+    },
+    {
+      "firstName": "Kenneth",
+      "lastName": "Jordan",
+      "role": "WITNESS_EYEWITNESS",
+      "notes": "Key prosecution witness, later recanted testimony"
+    },
+    {
+      "firstName": "Kishan",
+      "lastName": "Jones",
+      "role": "WITNESS_EYEWITNESS",
+      "notes": "Witness who recanted initial testimony during first trial"
+    },
+    {
+      "firstName": "Hans",
+      "lastName": "Liljaberg",
+      "role": "JUDGE",
+      "notes": "Judge in second trial, allegedly expressed bias"
+    },
+    {
+      "firstName": "Roger",
+      "lastName": "Jordan",
+      "role": "LAWYER_PROSECUTION",
+      "notes": "Prosecutor in the case"
+    },
+    {
+      "firstName": "Eloise",
+      "lastName": "Matthews",
+      "role": "WITNESS_EYEWITNESS",
+      "notes": "Witness in first trial, impeachment evidence withheld"
+    },
+    {
+      "firstName": "Tanika",
+      "lastName": "Rankins",
+      "role": "WITNESS_EYEWITNESS",
+      "notes": "Witness in first trial, impeachment evidence withheld"
+    },
+    {
+      "firstName": "Steve",
+      "lastName": "Thomas",
+      "role": "VICTIM",
+      "notes": "Victim of the crime"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Jacob",
+      "role": "JUROR",
+      "notes": "Juror in Corey Miller's trial"
+    },
+    {
+      "firstName": "Judge",
+      "lastName": "Sasson",
+      "role": "JUDGE",
+      "notes": "Judge mentioned in context of Detective Kloger's file"
+    }
+  ],
+  "crimeCategories": [
+    {
+      "crime_name": "Second-degree murder",
+      "severity_order": 2
+    }
+  ]
+}

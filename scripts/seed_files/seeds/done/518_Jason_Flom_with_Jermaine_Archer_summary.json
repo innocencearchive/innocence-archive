@@ -1,0 +1,195 @@
+{
+  "sourceFileName": "518_Jason_Flom_with_Jermaine_Archer_summary.md",
+  "mediaWork": {
+    "title": "Wrongful Conviction",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Jason Flom",
+    "publicationOrReleaseYear": null,
+    "publisherOrNetwork": "Lava for Good, Signal Company Number One",
+    "focusOrTheme": "Wrongful Convictions, Personal Narratives of Exonerees, Systemic Issues in the Justice System (Police/Prosecutorial Misconduct, Brady Violations), Legal Advocacy, Prison Reform Programs.",
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null
+  },
+  "mediaItem": {
+    "itemTitle": "Jermaine Archer",
+    "itemNumber": "403",
+    "itemMediaType": "PODCAST_EPISODE",
+    "releaseDate": null,
+    "hostOrNarrator": null,
+    "focusOrTheme": "Wrongful Conviction of Jermaine Archer, Brady violation, eyewitness testimony, prosecutorial misconduct.",
+    "summaryNotes": "This episode of Wrongful Conviction details the story of Jermaine Archer, wrongfully convicted for a 1997 murder in Brooklyn, New York. The conviction heavily relied on the shifting testimony of Carlos Bethune... Jermaine is now paroled but continues to fight for full exoneration.",
+    "keyQuotes": "Jermaine: \"When you lock up the wrong person, the right person remains free and everybody's in danger.\"\nJermaine: (Recounting interaction with detective) \"And I remember saying something slick like, 'The jacket don't fit'... And as if we had both seen the same movie, he spent right back. 'I know a good tailor.'\"\nJermaine: (On jury deliberation) \"One of the jurors reached out to my brother after the trial... and said [she] couldn't get over the nickname 'Bang'.\"\nJermaine: (Recounting off-the-record judge comment to ADA Peggy Hoffman) \"You're over trying this case. He's clearly not an angel, but it doesn't look like he did this.\" ADA Hoffman's alleged reply: \"I'm just following instructions from up top...\"\nJermaine: (Regarding his time in prison) \"I realized my time was the same whether I was in prison or not because it mattered when I hit that grave that tombstone that dash all of this time count.\"\nJermaine: (On the goal of Voices from Within) \"They don't care how much you know, they want to know how much you care. And we actually show them that we care about you.\"\nJermaine's final call to action: \"Contact the district attorney [Kings County] and ask them where's the evidence that I did this crime... Find out why he has me in this scope and why he won't do the right thing.\"",
+    "sourceUrl": null
+  },
+  "individuals": [
+    {
+      "firstName": "Jermaine",
+      "lastName": "Archer",
+      "status": "CONVICTION_OVERTURNED",
+      "convictionYear": 1998,
+      "exonerationOrReleaseYear": 2023,
+      "timeServedYears": 22.0,
+      "sentence": "Not explicitly stated, but resulted in 22 years served before parole.",
+      "caseLocationCity": "Brooklyn",
+      "caseLocationCounty": null,
+      "caseLocationState": "NY",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Wrongfully convicted for a 1997 murder in Brooklyn, New York. Conviction overturned in 2023 due to Brady violation. Served 22 years. Paroled in 2020. Continues to fight for full exoneration."
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Brooklyn DA's Conviction Review Unit (CRU)",
+      "type": "LAW_ENFORCEMENT",
+      "locationCity": "Brooklyn",
+      "locationState": "NY",
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Investigated, then became unresponsive"
+    },
+    {
+      "name": "Legal Aid Society of Westchester",
+      "type": "LEGAL_AID",
+      "locationCity": null,
+      "locationState": "NY",
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Post-release employment"
+    },
+    {
+      "name": "Rehabilitation Through the Arts (RTA)",
+      "type": "SUPPORT_GROUP",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Prison program participant, now Executive Director"
+    },
+    {
+      "name": "Voices from Within",
+      "type": "SUPPORT_GROUP",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Youth violence prevention program co-founded by Jermaine in prison"
+    },
+    {
+      "name": "Kings County DA",
+      "type": "LAW_ENFORCEMENT",
+      "locationCity": "Brooklyn",
+      "locationState": "NY",
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "District Attorney's office for Kings County, NY"
+    },
+    {
+      "name": "70th precinct",
+      "type": "LAW_ENFORCEMENT",
+      "locationCity": "New York City",
+      "locationState": "NY",
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Police precinct involved in Jermaine's case and Abner Louima case"
+    }
+  ],
+  "contributingFactors": [
+    {
+      "name": "Eyewitness Misidentification",
+      "description": "Key witness Carlos Bethune provided contradictory accounts, allegedly influenced by others and compensated by DA"
+    },
+    {
+      "name": "Perjury",
+      "description": "Key witness Carlos Bethune provided contradictory accounts, allegedly influenced by others and compensated by DA"
+    },
+    {
+      "name": "Police/Prosecutorial Misconduct",
+      "description": "Brady violation: failure to disclose payments/benefits to witness; alleged coercion of another witness; alleged tunnel vision; prejudicial use of nickname 'Bang' at trial"
+    },
+    {
+      "name": "Brady violation",
+      "description": "failure to disclose payments/benefits to witness"
+    },
+    {
+      "name": "Ineffective Assistance of Counsel",
+      "description": "Potential Ineffective Assistance of Counsel (Failure to secure testimony from eyewitness Kester Jones; initial failure to uncover recorded evidence of witness payments)"
+    },
+    {
+      "name": "Community Pressure",
+      "description": "Community Pressure/Revenge Motive (Victim's brother Ronaldo allegedly pressured Bethune to falsely accuse Jermaine initially)"
+    },
+    {
+      "name": "Revenge Motive",
+      "description": "Community Pressure/Revenge Motive (Victim's brother Ronaldo allegedly pressured Bethune to falsely accuse Jermaine initially)"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Jason",
+      "lastName": "Flom",
+      "role": "HOST",
+      "notes": "Host of Wrongful Conviction podcast"
+    },
+    {
+      "firstName": "Jermaine",
+      "lastName": "Archer",
+      "role": "SUBJECT_EXONEREE",
+      "notes": "Wrongfully convicted individual featured in the podcast episode."
+    },
+    {
+      "firstName": "Peter",
+      "lastName": "Cross",
+      "role": "LAWYER_DEFENSE",
+      "notes": "Innocence lawyer who took Jermaine Archer's case pro bono, uncovered Brady evidence, and represented him at the 2023 hearing."
+    },
+    {
+      "firstName": "Jesse",
+      "lastName": "Young",
+      "role": "LAWYER_DEFENSE",
+      "notes": "Original trial attorney for Jermaine Archer."
+    },
+    {
+      "firstName": "Carlos",
+      "lastName": "Bethune",
+      "role": "WITNESS_EYEWITNESS",
+      "notes": "Key witness for the prosecution, whose testimony was later found to be unreliable due to undisclosed benefits from the DA's office."
+    },
+    {
+      "firstName": "Patrick",
+      "lastName": "Niles",
+      "role": "VICTIM",
+      "notes": "Victim of the murder for which Jermaine Archer was wrongfully convicted."
+    },
+    {
+      "firstName": "Ronaldo",
+      "lastName": "Niles",
+      "role": "FAMILY_MEMBER",
+      "notes": "Victim's brother, allegedly pressured Bethune to accuse Jermaine."
+    },
+    {
+      "firstName": "Kester",
+      "lastName": "Jones",
+      "role": "WITNESS_EYEWITNESS",
+      "notes": "Eyewitness who reportedly saw the actual shooter and confirmed Jermaine wasn't involved, but did not testify at trial."
+    },
+    {
+      "firstName": "Peggy",
+      "lastName": "Hoffman",
+      "role": "LAWYER_PROSECUTION",
+      "notes": "Assistant District Attorney who prosecuted Jermaine Archer's case."
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Archer",
+      "role": "FAMILY_MEMBER",
+      "notes": "Jermaine Archer's brother, whose testimony was precluded at trial."
+    }
+  ],
+  "crimeCategories": [
+    {
+      "crime_name": "Murder",
+      "severity_order": null
+    }
+  ]
+}

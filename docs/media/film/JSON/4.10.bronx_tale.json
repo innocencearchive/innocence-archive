@@ -1,0 +1,100 @@
+{
+  "source_file_name": "4.10.bronx_tale.md",
+  "media_work": {
+    "work_type": "UNKNOWN",
+    "title": "A Bronx Tale (Dateline NBC) (Also listed as \"In the Shadow of Justice: A Bronx Tale\")",
+    "publication_or_release_year": 2016,
+    "publisher_or_network": "NBC News (assumed for Dateline)",
+    "focus_or_theme": "Wrongful conviction based on unreliable eyewitness testimony",
+    "summaryNotes": "Case involved 6 men convicted based largely on one witness.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "UNKNOWN",
+    "item_title": "Aired January 24, 2016; possibly update to earlier segment (June 2014)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction based on unreliable eyewitness testimony",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Investigates a wrongful conviction case set in the Bronx; May involve local community dynamics. Available via NBC/Peacock.",
+      "research_findings": "This episode focuses on Eric Glisson and five others convicted for a 1995 murder in the Bronx. The convictions rested heavily on a single eyewitness who was later deemed unreliable, leading to the exonerations after nearly two decades. Dateline followed the story, including Glisson's life after release. The episode title appears to be \"In the Shadow of Justice: A Bronx Tale\"."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "The Bronx",
+      "case_location_state": "New York City",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2012,
+      "crime_convicted_of_raw": "Murder (of livery cab driver Baithe Diop)",
+      "sentence": "25 years to life",
+      "time_served": "18 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification, sole witness found unreliable, potential witness coercion/perjury"
+      ],
+      "status_raw": "Exonerated (Conviction vacated); Pursued civil lawsuit",
+      "organizations_involved_raw": [
+        "Innocence Project (mentioned source)"
+      ],
+      "**also_mentioned": "** Five others convicted alongside Glisson (incl. Michael Cosme, Carlos Perez, Devon Ayers named in one source)",
+      "full_name": "Eric Glisson [cite: 11.1",
+      "first_name": "Eric",
+      "middle_name": "Glisson [cite:",
+      "last_name": "11.1"
+    },
+    {
+      "case_location_city": "The Bronx",
+      "case_location_state": "New York City",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2012,
+      "crime_convicted_of_raw": "Murder (of livery cab driver Baithe Diop)",
+      "sentence": "25 years to life",
+      "time_served": "18 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification, sole witness found unreliable, potential witness coercion/perjury"
+      ],
+      "status_raw": "Exonerated (Conviction vacated); Pursued civil lawsuit",
+      "organizations_involved_raw": [
+        "Innocence Project (mentioned source)"
+      ],
+      "**also_mentioned": "** Five others convicted alongside Glisson (incl. Michael Cosme, Carlos Perez, Devon Ayers named in one source)",
+      "full_name": "12.1",
+      "first_name": "1",
+      "middle_name": null,
+      "last_name": null
+    },
+    {
+      "case_location_city": "The Bronx",
+      "case_location_state": "New York City",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2012,
+      "crime_convicted_of_raw": "Murder (of livery cab driver Baithe Diop)",
+      "sentence": "25 years to life",
+      "time_served": "18 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification, sole witness found unreliable, potential witness coercion/perjury"
+      ],
+      "status_raw": "Exonerated (Conviction vacated); Pursued civil lawsuit",
+      "organizations_involved_raw": [
+        "Innocence Project (mentioned source)"
+      ],
+      "**also_mentioned": "** Five others convicted alongside Glisson (incl. Michael Cosme, Carlos Perez, Devon Ayers named in one source)",
+      "full_name": "13.1]",
+      "first_name": "1]",
+      "middle_name": null,
+      "last_name": null
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

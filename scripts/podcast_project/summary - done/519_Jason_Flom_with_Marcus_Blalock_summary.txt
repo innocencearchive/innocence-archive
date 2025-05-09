@@ -1,0 +1,90 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified, but episode focuses on Marcus Blalock
+-   **Host(s)**: Jason Flom
+-   **Guest(s)**: Kim Coral, Marcus Blalock
+-   **Release Year(s)**: 2023 (based on ad mentions and current case status)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, flawed justice system, police and prosecutorial misconduct, false testimony.
+-   **Key Statistics/Information**: Marcus Blalock has served over 24 years for a crime he did not commit. Arquita Willis, the key witness, has admitted to lying and being the actual killer. The Conviction Integrity Unit in Cuyahoga County is under scrutiny for inactivity and lack of transparency in this and other cases.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features Marcus Blalock, who has been incarcerated for over 24 years for a murder he maintains he did not commit.  The case hinges on the inconsistent and ultimately admitted false testimony of Arquita Willis, who initially implicated Blalock in the murder of Howard Rose. Despite multiple confessions from Willis and a lack of corroborating evidence against Blalock, he was convicted. The podcast details the numerous procedural hurdles and lack of transparency from the Cuyahoga County Prosecutor's Office, including their Conviction Integrity Unit, in reviewing Blalock's case.  Blalock and his attorney, Kim Coral, are still fighting for exoneration, highlighting systemic issues within the justice system and the devastating impact of wrongful convictions on individuals and their families. The episode ends with a call to action for public support and prayers for a miracle in Marcus's case.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Marcus Blalock
+-   **Case Location**: Cuyahoga County, Ohio, USA; Crime occurred in Maple Heights, Ohio; Body found in Pennsylvania.
+-   **Conviction Year**: 2001
+-   **Exoneration Year**: Not yet exonerated (as of podcast recording)
+-   **Crime Convicted Of**: Murder of Howard Rose
+-   **Sentence**: Originally Death Penalty threatened, then reduced to 28 years to life after obstruction conviction overturned.
+-   **Time Served**: Over 24 years (as of podcast recording)
+-   **Contributing Factors**:
+    -   False testimony from Arquita Willis.
+    -   Police misconduct: Detectives misrepresented facts to the grand jury, withheld evidence (discovery), and focused investigation solely on Blalock despite evidence pointing to Willis.
+    -   Prosecutorial misconduct: Relied on known false testimony, failed to disclose potentially exculpatory evidence from the CIEU investigation.
+    -   Ineffective trial defense: Although not explicitly stated as ineffective, the defense was unable to overcome the false testimony and prosecutorial strategy at the original trial.
+    -   Withheld evidence: Grand jury transcripts and CIEU investigation findings.
+-   **Legal Status**: Incarcerated, currently pursuing legal avenues for exoneration, including mandamus action to compel release of CIEU investigation materials.
+-   **Organizations Involved**:
+    -   Conviction Integrity Unit (CIEU) of the Cuyahoga County Prosecutor's Office (under scrutiny for inaction).
+    -   Lava for Good Podcasts (raising awareness through the podcast).
+-   **Innocence Lawyer Details**: Kim Coral - Attorney actively working on Marcus Blalock's case, seeking to access withheld investigation materials and achieve exoneration.  Described as "one of our favorite attorneys who's very active in this space" by the host.
+-   **Cross-Reference**: Not explicitly mentioned in the transcript if he appears in an exoneree database, but highly likely given the focus of the podcast.
+-   **Narrative of Original Crime**: Howard Rose was found dead in a burned-out pickup truck in Pennsylvania. Arquita Willis initially told police that Marcus Blalock shot Rose at her home during a drug deal gone bad and that she, along with Dion Johnson and Ernest McCauley, helped dispose of the body.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Testimony of Arquita Willis implicating Marcus Blalock as the shooter and body disposer. Despite admitting to multiple lies, her testimony was accepted as partially truthful regarding Blalock's involvement.
+    -   Misrepresentation by Detective Airbar to the Grand Jury about "premortem torture" lacerations on the victim, later revealed to be autopsy wounds.
+    -   Discredited cell phone evidence initially presented as belonging to Blalock but was actually Ernest McCauley's phone.
+-   **Trial Defender Notes**:  Trial attorney fought for grand jury transcripts but was denied.  Appeals court was expected to overturn conviction, but did not.  Seemed unable to effectively counter Willis's testimony and prosecutorial narrative, despite numerous alibi witnesses.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Recantation and confession by Arquita Willis: Willis confessed to Ernest McCauley in a recorded phone call and letters that she killed Howard Rose and framed Marcus Blalock. She admitted to lying multiple times to police and in court.
+    -   Alibi evidence: 19 alibi witnesses testified to Marcus Blalock's presence at a University of Cincinnati alumni event in Cleveland during the time of the murder. Photographic evidence also supported his alibi.
+    -   Lack of physical evidence linking Blalock to the crime. No physical evidence found in Willis's car connecting Blalock to Pennsylvania or the crime.
+    -   Inactivity and potential withholding of evidence by the Conviction Integrity Unit, suggesting they may have found evidence supporting Blalock's innocence.
+-   **Actual Perpetrator Details**: Arquita Willis -  According to her own confessions, she killed Howard Rose.  She received a lenient plea deal for obstruction and evidence tampering and served only four years, despite her confessions and initial charges of aggravated murder, burglary, and kidnapping being dropped in exchange for testimony against Blalock.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Detective to Marcus Blalock upon arrest: "I finally got you. I wanted you to make one false move so I could have killed you."
+    -   Detective to Marcus Blalock at police station: "When I get done with you, you're going to be guilty."
+    -   Arquita Willis admitting to lying multiple times under oath, but her testimony still used to convict Blalock.
+    -   Magistrate judge stating Willis's confession proves "that the state of Ohio convicted the wrong person".
+    -   Willis to McCauley about framing Blalock: "It was easy to frame Marcus because she hated him."
+    -   Willis to McCauley about lying: "You get a story, you stick with it, and that's that."
+    -   Marcus Blalock: "I need prayers. I need prayers and support phone calls for this to go through... I need God to create a miracle for me so I can be exonerated from this wrongful conviction."
+    -   Kim Coral: "This case is so obvious... the fact that we haven't been able to extend justice or procedure to Marcus Blalock to give him access to tell the truth of his story is one of the greatest injustices I've seen."
+-   **Systemic Issues Identified**:
+    -   Police misconduct and tunnel vision in investigations.
+    -   Prosecutorial misconduct and reliance on unreliable witnesses.
+    -   Withholding of evidence (Brady violations).
+    -   Ineffective assistance of counsel (potentially, though not explicitly stated).
+    -   Flawed jury system that convicted despite overwhelming evidence of innocence and witness's admitted lies.
+    -   Lack of accountability and transparency within Conviction Integrity Units.
+    -   Procedural barriers hindering post-conviction relief, even with confessions of innocence.
+-   **Policy Recommendations/Calls to Action**:
+    -   Public outcry and pressure on the Cuyahoga County Prosecutor's Office to release information and reopen the investigation.
+    -   Increased transparency and accountability for Conviction Integrity Units.
+    -   Reforms to the justice system to prevent reliance on unreliable witness testimony and ensure fair trials.
+    -   Support for organizations working on wrongful conviction cases.
+-   **Personal Narrative/Impact**:
+    -   Marcus Blalock's decades of wrongful imprisonment, separation from family, and the profound emotional and psychological toll.  He expresses deep faith and hope for exoneration.
+    -   Impact on Blalock's family: his mother's distress, his son feeling like he lost his best friend, and grandchildren who have never known him outside of prison.
+    -   Blalock's desire to be present for his aging mother and to live as a free man.
+-   **Additional Resources**:
+    -   Marcus Blalock's book: "My Long Journey Through Faith, A New Beginning."
+    -   Website: freemarkblalock.com
+    -   Contact Kim Coral (attorney) for information on the case.
+    -   Mention of other cases covered by Wrongful Conviction podcast: Real Sailors and Octavius Williams cases (linked in episode description).
+```

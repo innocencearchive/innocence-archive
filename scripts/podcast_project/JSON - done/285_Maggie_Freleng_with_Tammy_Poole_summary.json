@@ -1,0 +1,83 @@
+{
+    "sourceFileName": "285_Maggie_Freleng_with_Tammy_Poole_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Maggie Freeling",
+    "mediaItem": {
+        "hosts": "Maggie Freeling",
+        "releaseYear": "2022",
+        "network": "Lava for Good, Signal Company No. 1.",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, focusing on individual cases and systemic issues within the justice system.",
+        "keyStats": "Not explicitly mentioned in this episode, but the podcast generally focuses on individual wrongful conviction cases to highlight systemic problems.",
+        "itemNumber": "285",
+        "itemTitle": "Maggie Freleng with Tammy Poole",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Maggie Freeling\" features the story of Tammy Poole, wrongfully convicted of murdering her husband Michael Poole in 2007.  The episode details Tammy's traumatic childhood, struggles with addiction, and tumultuous relationship with Michael, marked by domestic violence and Michael's suicidal ideations.  Despite Tammy's claims of Michael's suicide, and inconsistencies in the prosecution's forensic evidence, she was convicted based on changing statements and a pathologist's initial assessment.  New legal representation and expert testimonies, including from the state's original firearms expert, now support the self-inflicted nature of the gunshot.  Tammy's case highlights issues of flawed forensic interpretation, ineffective defense, and the devastating impact of wrongful convictions on individuals and families, as her daughter Shanice advocates for her exoneration and release."
+    },
+    "featuredIndividual": {
+        "fullName": "Tammy Poole",
+        "caseLocation": "Chatsworth, Georgia, USA",
+        "convictionYear": "2008",
+        "exonerationYear": "Not yet exonerated, case is ongoing as of the podcast recording.",
+        "crimeConvictedOf": "Murder of her husband, Michael Poole",
+        "sentence": "Life in prison plus 27 years",
+        "timeServed": "15 years (as of Tammy's statement in the podcast)",
+        "contributingFactorsRaw": [
+            "Misinterpretation of forensic evidence (gunshot trajectory)",
+            "Ineffective defense counsel (lack of expert witnesses)",
+            "Changing statements to police due to shock and fear of being blamed for suicide",
+            "Use of past struggles and tumultuous relationship as evidence of guilt"
+        ],
+        "status": "Currently incarcerated, petitioning for DNA testing and a new trial.",
+        "organizationsInvolvedRaw": [
+            "Pro bono attorneys, Innocence Network (implied through Amanda Knox's presence and shared connection)."
+        ],
+        "innocenceLawyersRaw": [
+            "Brendan Bullard is mentioned as Tammy's current lawyer who took on the case pro bono in 2021.  He is described as experienced in murder cases and found Tammy's story and the state's narrative to be inconsistent with the evidence."
+        ],
+        "crossReference": "Not specified if in exoneree database.",
+        "narrativeOriginalCrime": "Tammy Poole was convicted of murdering her husband, Michael Poole, on April 22, 2007. Michael died from a gunshot wound to the temple in their home. Tammy claimed it was suicide, citing Michael's history of suicidal threats.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony from pathologist Dr. William Oliver stating the gunshot wound was not self-inflicted.",
+            "Firearms examiner Christopher Robinson confirmed the type of weapon.",
+            "Tammy's changing statements to police about the event.",
+            "Testimony from a jailhouse informant claiming Tammy confessed.",
+            "Testimony from Tammy's children, though their testimony focused on relationship dynamics and not direct evidence of the crime.",
+            "Presentation of the couple's tumultuous relationship and Tammy's past legal issues as evidence of motive or character."
+        ],
+        "trialDefenderNotes": "Tammy's defense attorney, Richard Thurman, was Michael's cousin by marriage, which is noted as unusual. The defense failed to call any expert witnesses to refute the state's forensic expert testimony.  Cross-examination of the jailhouse informant revealed potential bias.",
+        "keyEvidenceExonerationRaw": [
+            "Gunshot residue test from the original investigation showed no residue on Tammy's hands or clothes, a fact presented but seemingly downplayed at trial.",
+            "New expert forensic pathologist Dr. James Downs testified that the bullet trajectory was upward, making suicide more likely and contradicting the state's expert.",
+            "Christopher Robinson, the original state's firearms expert, reviewed the case post-retirement and now believes the shooting was self-inflicted.",
+            "Petition for DNA testing on the gun to further support Tammy's lack of involvement in firing the weapon."
+        ],
+        "actualPerpetratorDetails": "The podcast argues Michael Poole was the actual perpetrator of his own death by suicide. Details provided include his history of suicidal threats, deteriorating mental state possibly exacerbated by drug use, and statements to family about intending to harm himself and Tammy."
+    },
+    "keyQuotesRaw": [
+        "Tammy Poole: \"I didn't realize that saying these things was making me look guilty. I didn't realize that people were watching that every move.\" (Referring to her changing statements to police due to shock and guilt).",
+        "Shanice (Tammy's daughter): \"When there was no possible way she could have done this, everything they were laying out in court, there was no way. Something was seriously wrong with this case.\" (Describing her realization of her mother's innocence).",
+        "Brendan Bullard (Tammy's lawyer): \"It just, it did not jive with any of my past experiences. It just, the state's narrative, what it just didn't seem to fit, especially after talking to her.\" (Explaining why he took Tammy's case).",
+        "Dr. James Downs: \"It's physically impossible for this injury to happen with a rifle at that angle.\" (Challenging the original pathologist's findings).",
+        "Christopher Robinson: \"When Chris looked at the evidence, he simply could not avoid the conclusion that it was a self-inflicted shot because it was consistent with other suicides he's handled and that's his read on the evidence.\" (Changing his opinion based on further review of the evidence)."
+    ],
+    "systemicIssuesRaw": [
+        "Flawed forensic science and interpretation.",
+        "Ineffective assistance of counsel.",
+        "Confirmation bias in law enforcement and prosecution.",
+        "Prejudice against individuals with past struggles (addiction, legal issues).",
+        "The impact of societal assumptions about guilt based on behavior in grief or shock."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for Innocence Organizations.",
+        "Call to sign Shanice's petition on Change.org for Tammy Poole's freedom.",
+        "Implicit call for re-evaluation of forensic evidence in older cases and ensuring access to competent defense counsel and expert witnesses."
+    ],
+    "personalNarrativeRaw": [
+        "Tammy Poole's wrongful conviction led to 15 years of incarceration, separation from her children, and profound personal hardship.  Her daughter Shanice's journey from believing in her mother's guilt to becoming her strongest advocate highlights the devastating family impact. Tammy's resilience in prison, focusing on self-improvement and maintaining hope, and Shanice's determination to fight for her mother's freedom, are central to the emotional impact of the narrative. The anticipation of their reunion and rebuilding their relationship underscores the personal tragedy and the hope for justice."
+    ],
+    "additionalResourcesRaw": [
+        "Change.org petition for Tammy Poole (search \"Tammy Poole\").",
+        "Innocence Organizations (mentioned generally, local organizations encouraged)."
+    ]
+}

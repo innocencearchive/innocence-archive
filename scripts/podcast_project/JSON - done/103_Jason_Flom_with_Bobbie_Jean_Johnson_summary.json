@@ -1,0 +1,79 @@
+{
+    "sourceFileName": "103_Jason_Flom_with_Bobbie_Jean_Johnson_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2019",
+        "network": "Lava for Good Podcast in association with signal company number one.",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system failures, false confessions, ineffective counsel, exoneration.",
+        "keyStats": "Approximately 20% of exonerees in Louisiana die within 18 months of release. Bobbi Jean Johnson served 41 years for a crime she did not commit.",
+        "itemNumber": "103",
+        "itemTitle": "Jason Flom with Bobbie Jean Johnson",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Bobbi Jean Johnson, wrongfully convicted in 1977 for the murder of Arthur Sampson, and Kat Forrester from the Innocence Project of New Orleans. Bobbi Jean recounts her horrific interrogation, where she was tortured into a false confession for a crime she did not commit.  Despite a co-defendant admitting to planting evidence, and inconsistencies in her confession compared to the crime scene, Bobbi Jean was convicted due to ineffective counsel who was asleep during the trial and made no opening or closing statements.  She served 41 years before being released in 2018 after the Innocence Project of New Orleans and Promise of Justice Initiative intervened.  Tragically, Bobbi Jean passed away less than 18 months after her release, highlighting the lasting damage of wrongful conviction. The episode underscores the systemic issues of police misconduct, false confessions, and inadequate legal representation within the criminal justice system."
+    },
+    "featuredIndividual": {
+        "fullName": "Bobbi Jean Johnson",
+        "caseLocation": "New Orleans, Louisiana, USA",
+        "convictionYear": "1977",
+        "exonerationYear": "2018 (vacated first-degree murder conviction and pleaded guilty to manslaughter and armed robbery for time served)",
+        "crimeConvictedOf": "First-degree murder (originally), later manslaughter and armed robbery (plea deal for release)",
+        "sentence": "Life sentence (originally), time served (after plea deal)",
+        "timeServed": "41 years",
+        "contributingFactorsRaw": [
+            "False confession (torture, coercion), police misconduct (violent interrogation, ignoring exculpatory statement), incompetent defense counsel (sleeping lawyer, no opening/closing statements, no cross-examination)."
+        ],
+        "status": "Released after taking a plea deal to manslaughter and armed robbery, conviction for first-degree murder vacated. Not fully exonerated in the sense of complete innocence declaration, but freed due to legal intervention.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project of New Orleans (IPNO), Promise of Justice Initiative, Georgia Innocence Project (post-release support)."
+        ],
+        "innocenceLawyersRaw": [
+            "Shrel Arnold (Innocence Project of New Orleans attorney who worked on the case for a long time - mentioned by Kat Forrester).",
+            "Lawyers from Promise of Justice Initiative (organization that ultimately secured Bobbi Jean's release, according to Kat Forrester)."
+        ],
+        "crossReference": "Not explicitly stated if she is in an exoneree database within the transcript.",
+        "narrativeOriginalCrime": "Arthur Sampson, an antiquities dealer, was found murdered in his store. He was shot once in the stomach with a .32 caliber bullet and stabbed over 100 times. The store was ransacked, and a safe with approximately $2,000 was missing.",
+        "keyEvidenceProsecutionRaw": [
+            "Bobbi Jean Johnson's taped confession, obtained after a violent interrogation."
+        ],
+        "trialDefenderNotes": "Bobbi Jean's lawyer was highly ineffective:\n-   Fell asleep during the trial.\n-   Made no opening statement.\n-   Made no closing statement.\n-   Made only one objection (to a photograph).\n-   Did not request a mistrial when a juror admitted to having a relationship with the victim.\n-   Prevented Bobbi Jean from testifying in her own defense.\n-   Did not visit Bobbi Jean in jail prior to trial.",
+        "keyEvidenceExonerationRaw": [
+            "Inconsistencies between Bobbi Jean's confession and the facts of the crime (number of gunshot wounds, description of victim, getaway car timing).",
+            "Statement from one of the men in the car with Bobbi Jean admitting to placing the gun and knife in her purse, which was not presented at trial.",
+            "Work of Innocence Project of New Orleans and Promise of Justice Initiative to investigate the case and highlight these issues, leading to pressure on the DA's office.",
+            "Plea deal offered by the DA's office to vacate the first-degree murder conviction in exchange for a guilty plea to manslaughter and armed robbery, resulting in time served and release."
+        ],
+        "actualPerpetratorDetails": "Not explicitly identified in the transcript. The podcast mentions a \"biological suspect\" - a woman who was a sex worker and the last person seen with Arthur Sampson, but this lead was not pursued by the police."
+    },
+    "keyQuotesRaw": [
+        "Bobbi Jean: \"He said, because he said a number of police officers in this station right here and we could kill you and your family would never know nothing about you.\" (Describing police threat during interrogation).",
+        "Bobbi Jean's description of her lawyer: \"My lawyer wouldn't let me get on a stand and talk in my own defense. He fell asleep through the trial. Your lawyer was asleep during the trial? Yeah, he fell asleep during the trial. I had to wake him up and he didn't do no opening statements. No opening statements. And no closing statements.\"",
+        "Jason Flom: \"Bobby Jean, you're gone, but never forgotten, rest in power. Don't forget to give us a fantastic review wherever you get your podcasts. It really helps. And I'm a proud donor to the Innocence Project and I really hope you'll join me in supporting this very important cause and helping to prevent future wrongful convictions. Go to InnocenceProject.org to learn how to donate and get involved.\" (Closing statement and call to action after Bobbi Jean's death)."
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct and torture to extract confessions.",
+        "Tunnel vision in police investigations, ignoring viable alternative suspects and exculpatory evidence.",
+        "Racial bias in the criminal justice system, particularly in New Orleans.",
+        "Inadequate legal representation for indigent defendants, including sleeping lawyers and lack of basic defense.",
+        "Coercive plea bargains that force innocent individuals to plead guilty to gain freedom.",
+        "The devastating long-term impact of wrongful conviction, even after release, exemplified by Bobbi Jean's early death."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for organizations like the Innocence Project and Promise of Justice Initiative to help exonerate the wrongfully convicted and reform the criminal justice system.",
+        "Listeners are encouraged to donate to the Innocence Project.",
+        "Implied need for police reform, better training on interrogations to prevent false confessions, and improved standards for defense counsel."
+    ],
+    "personalNarrativeRaw": [
+        "Bobbi Jean's personal narrative highlights the immense trauma and injustice of wrongful conviction. Her story underscores the loss of her youth, the brutality she endured, and the difficulty of adjusting to freedom after decades of incarceration. Her vulnerability as a young, impoverished, and abused woman made her an easy target for wrongful conviction.  Her death shortly after release emphasizes the profound and often fatal consequences of wrongful imprisonment. In her final thoughts, Bobbi Jean expresses gratitude for the love and support she received after release but also acknowledges the immense loss and injustice she suffered, stating, \"They took everything away from me for nothing, but something I didn't even do. I lost everything. Oh, my youth was gone.\""
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project of New Orleans (IPNO)",
+        "Promise of Justice Initiative",
+        "Innocence Project (national organization - InnocenceProject.org)",
+        "Georgia Innocence Project",
+        "Instagram account mentioned: @itsJasonFlom",
+        "Facebook page mentioned: Wrongful Conviction Podcast"
+    ]
+}

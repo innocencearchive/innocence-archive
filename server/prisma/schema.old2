@@ -1,0 +1,234 @@
+// datasource and generator should match your setup
+// Ensure provider is "postgresql"
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// --- Enums for controlled vocabulary ---
+
+enum MediaWorkType {
+  BOOK
+  FILM // Standalone film
+  DOCUMENTARY // Standalone documentary
+  DOCUSERIES // Multi-part documentary series
+  PODCAST_SERIES
+  TV_SERIES // e.g., 20/20, Dateline
+  OTHER
+  UNKNOWN
+}
+
+enum MediaItemType {
+  PODCAST_EPISODE
+  TV_EPISODE
+  BOOK_CONTENT    // Represents the content of a standalone BOOK MediaWork
+  FILM_CONTENT      // Represents the content of a standalone FILM MediaWork
+  DOCUMENTARY_CONTENT // Represents the content of a standalone DOCUMENTARY MediaWork
+  BOOK_CHAPTER    // Future use: If breaking books down
+  OTHER
+  UNKNOWN
+}
+
+enum IndividualStatus {
+  EXONERATED // Fully cleared
+  RELEASED_ALFORD_PLEA // Released but didn't admit guilt / maintains innocence
+  RELEASED_CLEMENCY // Released via pardon/commutation but conviction may stand
+  RELEASED_TIME_SERVED // Released after serving sentence or via plea for time served
+  CONVICTION_OVERTURNED // Overturned, awaiting retrial/dismissal
+  EXECUTED
+  CONVICTED // Currently convicted/incarcerated
+  OTHER // For cases that don't fit neatly
+  UNKNOWN
+}
+
+enum OrganizationType {
+  INNOCENCE_ORG // e.g., Innocence Project, EJI
+  LEGAL_AID
+  LAW_FIRM
+  LAW_ENFORCEMENT // e.g., Police Dept, DA Office
+  GOVERNMENT_AGENCY
+  SUPPORT_GROUP // e.g., After Innocence
+  MEDIA_ORG // e.g., Production Company, Network, Publisher
+  UNIVERSITY
+  OTHER
+  UNKNOWN
+}
+
+enum InvolvedPersonRole {
+  LAWYER_DEFENSE
+  LAWYER_PROSECUTION
+  JUDGE
+  WITNESS_EYEWITNESS
+  WITNESS_ALIBI
+  WITNESS_EXPERT
+  WITNESS_INFORMANT // Jailhouse informant etc.
+  POLICE_DETECTIVE
+  POLICE_OFFICER
+  VICTIM
+  FAMILY_MEMBER
+  JOURNALIST
+  AUTHOR // Author of book/article
+  DIRECTOR // Director of film/doc
+  HOST // Host of podcast
+  ACTIVIST
+  ACCUSER
+  ACTUAL_PERPETRATOR
+  CO_DEFENDANT
+  // Roles specific to individuals in the story
+  SUBJECT_EXONEREE // The main person wrongfully convicted in the narrative
+  SUBJECT_OTHER // Other central figures in the narrative
+  OTHER
+  UNKNOWN
+}
+
+// --- Core Models ---
+
+model MediaWork {
+  id                       Int           @id @default(autoincrement())
+  title                    String // Title of the Book, Series, or Standalone Film
+  workType                 MediaWorkType // Use the enum
+  creatorName              String? // Author(s), Director(s), Main Host(s)
+  publicationOrReleaseYear Int?
+  publisherOrNetwork       String? // Publisher, Production Company, Network
+  focusOrTheme             String?       @db.Text // Overall theme of the work
+  summaryNotes             String?       @db.Text // Overall summary of the work
+  availabilityNotes        String?       @db.Text // Where to find the work generally
+  sourceUrl                String? // URL for the overall work/series
+  createdAt                DateTime      @default(now())
+  updatedAt                DateTime      @updatedAt
+
+  // --- Relationships ---
+  items MediaItem[] // One Work has many Items
+
+  @@map("media_works")
+}
+
+model MediaItem {
+  id                Int           @id @default(autoincrement())
+  itemTitle         String? // Title of Episode/Chapter (can be null or repeat Work title for standalone content items)
+  itemNumber        String? // Episode number (e.g., "S2E5") or Chapter number
+  itemMediaType     MediaItemType // Use the enum (e.g., PODCAST_EPISODE, BOOK_CONTENT)
+  releaseDate       DateTime? // More specific date for episodes/items if available
+  hostOrNarrator    String? // Specific host/narrator for this item, if different from work creator
+  focusOrTheme      String?       @db.Text // Focus of this specific item/content
+  summaryNotes      String?       @db.Text // Summary of this specific item/content (Ensured this exists)
+  keyQuotes         String?       @db.Text // Notable quotes from this item/content
+  // Removed systemicIssues and policyCallsToAction text fields - rely on relations below
+  sourceUrl         String? // Direct URL for this specific item (e.g., podcast episode URL)
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+
+  // --- Relationships ---
+  work   MediaWork @relation(fields: [workId], references: [id], onDelete: Cascade)
+  workId Int // Foreign key
+
+  individualsFeatured      Individual[]   @relation("ItemFeaturingIndividuals")
+  organizationsMentioned   Organization[] @relation("ItemMentioningOrganizations")
+  involvedPersonsMentioned InvolvedPerson[] @relation("ItemMentioningPersons")
+  contributingFactorsMentioned ContributingFactor[] @relation("ItemMentioningFactors") // Link factors discussed here
+
+  @@map("media_items")
+}
+
+
+model Individual {
+  id                        Int               @id @default(autoincrement())
+  firstName                 String // Changed to required
+  lastName                  String
+  status                    IndividualStatus? // Use the enum
+  convictionYear            Int?
+  exonerationOrReleaseYear  Int?
+  timeServedYears           Float?
+  // crimeConvictedOf removed - replaced by relation below
+  sentence                  String?           @db.Text
+  // Location fields restructured
+  caseLocationCity          String?
+  caseLocationCounty        String?
+  caseLocationState         String?           // e.g., "MI", "NY"
+  caseLocationCountry       String            @default("USA") // Added Country, default USA
+  // Narrative fields consolidated
+  narrativeSummary          String?           @db.Text // Single field for summary points/narrative
+  createdAt                 DateTime          @default(now())
+  updatedAt                 DateTime          @updatedAt
+
+  // --- Relationships ---
+  mediaItemAppearances  MediaItem[]          @relation("ItemFeaturingIndividuals")
+  contributingFactors   ContributingFactor[] @relation("FactorsInIndividualCase")
+  organizationsInvolved Organization[]       @relation("OrganizationsInIndividualCase")
+  involvedPersons       InvolvedPerson[]     @relation("PersonsInIndividualCase")
+
+  // Added optional relationship to CrimeCategory
+  crimeCategory   CrimeCategory? @relation(fields: [crimeCategoryId], references: [id])
+  crimeCategoryId Int? // Foreign key field
+
+  @@map("individuals")
+}
+
+model Organization {
+  id            Int               @id @default(autoincrement())
+  name          String            @unique
+  type          OrganizationType? // Use the enum
+  // Location fields restructured
+  locationCity  String?
+  locationState String?
+  locationCountry String          @default("USA") // Added Country, default USA
+  website       String?
+  notes         String?           @db.Text
+  createdAt     DateTime          @default(now())
+  updatedAt     DateTime          @updatedAt
+
+  // --- Relationships ---
+  mediaItemMentions MediaItem[]    @relation("ItemMentioningOrganizations")
+  involvedCases     Individual[]   @relation("OrganizationsInIndividualCase")
+  affiliatedPersons InvolvedPerson[] @relation("PersonsAffiliatedWithOrganization")
+
+  @@map("organizations")
+}
+
+model ContributingFactor {
+  id          Int      @id @default(autoincrement())
+  name        String   @unique // e.g., "Eyewitness Misidentification", "False Confession"
+  description String?  @db.Text
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // --- Relationships ---
+  individualCases Individual[] @relation("FactorsInIndividualCase")
+  mediaItemMentions MediaItem[] @relation("ItemMentioningFactors")
+
+  @@map("contributing_factors")
+}
+
+// Added previously, but not linked from Individual until now
+model CrimeCategory {
+  id             Int    @id @default(autoincrement())
+  crime_name     String @unique
+  severity_order Int // Retained from original SQL schema
+
+  // --- Relationships ---
+  individuals Individual[] // Back-relation to individuals convicted of this category
+
+  @@map("crime_categories")
+}
+
+
+model InvolvedPerson {
+  id              Int                 @id @default(autoincrement())
+  firstName       String // Changed to required
+  lastName        String
+  role            InvolvedPersonRole? // Use the enum for consistency
+  notes           String?             @db.Text // Any specific details about their involvement
+  createdAt       DateTime            @default(now())
+  updatedAt       DateTime            @updatedAt
+
+  // --- Relationships ---
+  mediaItemMentions MediaItem[]    @relation("ItemMentioningPersons")
+  involvedCases     Individual[]   @relation("PersonsInIndividualCase")
+  affiliatedOrgs    Organization[] @relation("PersonsAffiliatedWithOrganization")
+
+  @@map("involved_persons")
+}

@@ -1,0 +1,83 @@
+{
+    "sourceFileName": "128_Jason_Flom_with_Nick_Yarris_in_Times_of_COVID_summary.txt",
+    "mediaWorkTitle": "Wrongful conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good podcast in association with Signal Company No. 1.",
+        "seriesType": "-   Episodic Series (each episode is generally a standalone story) - part of a miniseries.",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, coping with isolation, resilience, criminal justice reform, personal stories of exonerees, impact of wrongful conviction, lessons from death row.",
+        "keyStats": "-   Over 57 million drivers go with AAA.\n-   Purdue Global is backed by Purdue University.\n-   Millions undiagnosed with moderate to severe obstructive sleep apnea (OSA) in adults with obesity.\n-   Studies have shown that we read, on average, about 200 books a year in social media messaging.\n-   Zinn is America's number one choice for smoke-free nicotine satisfaction.",
+        "itemNumber": "128",
+        "itemTitle": "Jason Flom with Nick Yarris in Times of COVID",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features Nick Yarris, an exoneree who spent years on death row for a crime he did not commit.  The conversation centers around how Yarris's experiences in prison, particularly on death row, have equipped him to cope with the COVID-19 lockdown. Yarris discusses the importance of structure, managing anger, and finding solace in literature, specifically mentioning \"The Prophet\" by Khalil Gibran. He draws parallels between the psychological challenges of death row and the current global situation, emphasizing the detrimental role of ego and the importance of kindness and focusing on helping others.  The episode also briefly touches on Walter Ogrod's wrongful conviction case, for whom Yarris and Flom are advocating.  Yarris shares insights on resilience, the power of literature, and maintaining humanity in dire circumstances."
+    },
+    "featuredIndividual": {
+        "fullName": "Walter Ogrod",
+        "caseLocation": "Philadelphia, Pennsylvania, USA",
+        "convictionYear": "1992 (based on 28 years on death row mentioned in 2020).",
+        "exonerationYear": "2020 (Implied in the episode as they are actively fighting for his release during the lockdown and external sources confirm 2020 exoneration).",
+        "crimeConvictedOf": "Murder of a little girl.",
+        "sentence": "Death sentence.",
+        "timeServed": "28 years on death row.",
+        "contributingFactorsRaw": [
+            "Wrongful conviction."
+        ],
+        "status": "Wrongfully convicted, fighting for release (as of podcast recording, but later exonerated in 2020).",
+        "organizationsInvolvedRaw": [
+            "Not mentioned in this episode."
+        ],
+        "innocenceLawyersRaw": [
+            "Not mentioned in this episode."
+        ],
+        "narrativeOriginalCrime": "Murder of a little girl (details not provided in transcript).",
+        "keyEvidenceProsecutionRaw": [
+            "Not detailed in this episode."
+        ],
+        "trialDefenderNotes": "Not discussed in this episode.",
+        "keyEvidenceExonerationRaw": [
+            "Mother of the victim is begging for his release."
+        ],
+        "actualPerpetratorDetails": "Not discussed in this episode."
+    },
+    "keyQuotesRaw": [
+        "\"I refused to give up my humanity. My kindness was so important to me...\" - Nick Yarris on coping in prison and during lockdown.",
+        "\"The bigger the ego, the harder it is to be in lockdown.\" - Nick Yarris on ego and confinement.",
+        "\"Each one [book] taught me a different aspect of myself.\" - Nick Yarris on the importance of reading books.",
+        "\"Reach out and be someone else's answered prayer. Be the uplifting moment they need, and you'll feel so much better for yourself.\" - Nick Yarris's advice for listeners struggling during lockdown.",
+        "\"We will bring Walter home...\" - Jason Flom expressing determination to exonerate Walter Ogrod."
+    ],
+    "systemicIssuesRaw": [
+        "Wrongful convictions.",
+        "Brutality of death row in Pennsylvania.",
+        "Overcrowded prisons.",
+        "Impact of isolation on incarcerated individuals.",
+        "Ego and its negative impact on handling confinement.",
+        "Importance of innocence projects and fighting for justice."
+    ],
+    "policyRecommendationsRaw": [
+        "Support the Innocence Project (Jason Flom encourages donations).",
+        "Call to action to be kind and reach out to help others during difficult times.",
+        "Implicit call for criminal justice reform through highlighting wrongful conviction cases."
+    ],
+    "personalNarrativeRaw": [
+        "Nick Yarris shares his personal experience of being wrongly convicted and sentenced to death, and how he coped with the trauma and isolation. He emphasizes his journey from anger and bitterness to finding strength through literature and self-reflection. He highlights the transformative power of reading and the importance of maintaining kindness and humanity even in the face of injustice. His narrative is presented as a source of inspiration and practical advice for listeners dealing with the challenges of the COVID-19 pandemic and lockdown. His final thoughts revolve around the power of kindness and reaching out to others to offer support."
+    ],
+    "additionalResourcesRaw": [
+        "The book \"Monsters and Mad Men\" by Nick Yarris.",
+        "The documentary film \"The Fear of Thirteen\" starring Nick Yarris.",
+        "The book \"The Prophet\" by Khalil Gibran.",
+        "Innocence Project (InnocenceProject.org).",
+        "mycomputercareer.edu/CWP (Cybersecurity career training).",
+        "Don'tSleepOnOSA.com (Information about Obstructive Sleep Apnea).",
+        "HATwhat.com (Information about HATTR amyloidosis).",
+        "Zinn.com/find (Zinn nicotine pouches).",
+        "PurdueGlobal.edu (Purdue Global online university).",
+        "AAA.com (AAA roadside assistance).",
+        "Target.com/circle (Target Circle 360).",
+        "KISQALI.com (Information about Kaskali Ribocyclib).",
+        "AutoZone spring sale (Duralast rotors and brake pads)."
+    ]
+}

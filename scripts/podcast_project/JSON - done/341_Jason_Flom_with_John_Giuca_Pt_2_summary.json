@@ -1,0 +1,87 @@
+{
+    "sourceFileName": "341_Jason_Flom_with_John_Giuca_Pt_2_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts & Association, Signal Company Number One",
+        "seriesType": "Episodic Series (part of an ongoing series, each episode focuses on a different case, this is part 2 of a case)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Prosecutorial Misconduct, Juror Misconduct, Fight for Exoneration",
+        "keyStats": "-   John Juka has spent his 20s, 30s, and potentially 40s in prison for a crime he maintains he did not commit.\n-   The prosecutor, Nick Alasi (Angel DiPietro Nicolazzi), allegedly used prosecutorial misconduct tactics.\n-   A juror, Jason Aloe, engaged in misconduct by researching the case online and expressing bias, influencing other jurors.\n-   Key witnesses against Juka recanted their testimonies.\n-   Despite evidence of misconduct and recantations, the conviction was upheld by the New York Court of Appeals.\n-   John Juka is still seeking exoneration and is considering appealing to the governor for a special prosecutor.",
+        "itemNumber": "341",
+        "itemTitle": "Jason Flom with John Giuca Pt 2",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction continues the story of John Juka, focusing on his fight for freedom after being wrongfully convicted. The episode details allegations of prosecutorial misconduct by Anna Siga Nicolazzi, including suppressing evidence and coercing witnesses.  It highlights juror misconduct where a juror admitted to bias and influencing the verdict.  The episode discusses key recantations from witnesses that significantly weakened the prosecution's case. Despite these issues and presenting evidence to the Conviction Review Unit, Juka's conviction was upheld. The podcast explores the legal battles, disappointments with the justice system, and Juka's ongoing pursuit of exoneration, including seeking intervention from the governor.  The unwavering support of his mother, Doreen, is also emphasized."
+    },
+    "featuredIndividual": {
+        "fullName": "John Juka",
+        "caseLocation": "Brooklyn, New York City, NY",
+        "convictionYear": "2005 (mentioned as trial year)",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "Felony Murder",
+        "sentence": "Not explicitly stated in transcript, but implied to be a lengthy prison sentence",
+        "timeServed": "20+ years (spent his 20s and 30s in prison, potentially into his 40s)",
+        "contributingFactorsRaw": [
+            "Prosecutorial Misconduct (suppressed evidence, coerced witnesses)",
+            "False Testimony (from multiple witnesses)",
+            "Juror Misconduct (bias, external information)"
+        ],
+        "status": "Convicted, currently incarcerated, seeking exoneration. Motion for reversal was granted then overturned by NY Court of Appeals.",
+        "organizationsInvolvedRaw": [
+            "Conviction Review Unit (Brooklyn DA's office), Innocence Project (implied by Mark Hale's involvement)"
+        ],
+        "innocenceLawyersRaw": [
+            "Mark Hale is mentioned as involved in the case and presenting evidence to the CRU and filing motions. He is a lawyer advocating for Juka's exoneration."
+        ],
+        "crossReference": "Not specified in transcript if in exoneree database.",
+        "narrativeOriginalCrime": "Not explicitly detailed in this part of the transcript, but it is a murder case where John Juka is accused of involvement with Tony Russo in the killing of Mark Fisher.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of Lorne (implicated Juka based on hearsay at jail visit).",
+            "Testimony of John Abido (claimed to overhear Juka asking about murder details).",
+            "Testimony of Albert Cleary (claimed Juka discussed \"catching a body\").",
+            "Testimony of Lauren Calciano (initially claimed Juka said he gave Russo a gun)."
+        ],
+        "trialDefenderNotes": "Lloyd Epstein was the original trial lawyer. Transcript mentions Epstein identified prosecutorial misconduct as a major issue, but no details on specific defense strategies are provided.",
+        "keyEvidenceExonerationRaw": [
+            "Recantation of Lauren Calciano.",
+            "Recantation of John Avito.",
+            "Affidavits from women denying the jail visit conversation with Lorne.",
+            "Affidavit from the supposed \"gang leader\" Albert Cleary mentioned by prosecution.",
+            "Discovery of undisclosed recording (Ingram tape) where Russo admitted to acting alone.",
+            "Juror misconduct evidence (Jason Aloe's biased behavior).",
+            "Evidence of prosecutorial misconduct regarding John Evito's benefits for testimony."
+        ],
+        "actualPerpetratorDetails": "Antonio Russo is identified as the actual perpetrator, admitting to acting alone in the Ingram recording and to detectives later."
+    },
+    "keyQuotesRaw": [
+        "John Juka: \"They're taking things from me that I'll never get back. They took all my 20s and now all my 30s, and now they're going to start working on the 40s, unless nothing happened to us.\" (Highlights the immense personal loss due to wrongful conviction).",
+        "John Juka: \"But when you hear wrongfully it's impossible for you to accept, you just really can't accept it so every day becomes torture.\" (Expresses the unique psychological burden of wrongful conviction).",
+        "Mark Hale: \"...this was not a trial what happened in 2005 it was a railroading it was just Brooklyn style justice in the Charles Hines administration...\" (Strongly criticizes the fairness of the trial and systemic issues).",
+        "Lauren Calciano's Recantation Quote: \"Law enforcement pressured and frightened me to the point that I ultimately relented and told them what they wanted to hear.\" (Illustrates coercive tactics used to obtain false testimony).",
+        "Juror Jason Aloe admitting he \"wanted to see that f***ing kid fry\" (Reveals extreme bias of a juror)."
+    ],
+    "systemicIssuesRaw": [
+        "Prosecutorial Misconduct: Suppression of evidence, coercion of witnesses, unethical tactics.",
+        "Juror Misconduct: Lack of impartiality, external influence, failure of jury system.",
+        "Ineffective Conviction Review Units: Failure to overturn wrongful convictions despite presented evidence.",
+        "Judicial System's Resistance to Admitting Error: Court of Appeals upholding conviction despite evidence of misconduct.",
+        "Impact of \"Brooklyn Style Justice\": Implication of a culture of prioritizing convictions over justice within the Brooklyn DA's office during the Charles Hynes era."
+    ],
+    "policyRecommendationsRaw": [
+        "Call to write to the governor to request a special prosecutor for John Juka's case.",
+        "Implied need for greater accountability for prosecutors and conviction review units.",
+        "Need for reform in jury selection and management to prevent juror misconduct.",
+        "Emphasis on transparency and public access to Conviction Review Unit reports."
+    ],
+    "personalNarrativeRaw": [
+        "John Juka's personal narrative focuses on the devastating impact of wrongful conviction on his life, family, and mental state. He emphasizes the torture of knowing his innocence and the lost years. He expresses concern for his aging mother and the financial burden on his family. He finds kinship with other exonerees due to the unique suffering of wrongful conviction.",
+        "Doreen, John's mother, is portrayed as a tireless advocate for her son, even taking extraordinary measures like investigating juror misconduct herself. Her unwavering dedication is a central emotional element."
+    ],
+    "additionalResourcesRaw": [
+        "John Juka's website and Instagram account (links to be provided in podcast show notes).",
+        "Briefs, transcripts, exhibits related to John Juka's case available online (presumably on his website).",
+        "Mention of \"Wrongful Conviction\" podcast Instagram, Facebook, and Twitter accounts, and Lava for Good social media.",
+        "Spotlight: Snitch City podcast mentioned as another gripping investigative series (related to informant misconduct)."
+    ]
+}

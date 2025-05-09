@@ -1,0 +1,248 @@
+{
+  "sourceFileName": "05. just_mercy_research.md",
+  "mediaWork": {
+    "title": "Just Mercy: A Story of Justice and Redemption",
+    "workType": "BOOK",
+    "creatorName": "Bryan Stevenson",
+    "publicationOrReleaseYear": 2014,
+    "publisherOrNetwork": "Spiegel & Grau",
+    "focusOrTheme": "Wrongful convictions, racial injustice, death penalty, juvenile justice",
+    "summaryNotes": "\"Just Mercy\" is a memoir that documents Bryan Stevenson's career as a lawyer defending disadvantaged clients, particularly those on death row. The book primarily focuses on the case of Walter McMillian, a Black man who was wrongfully convicted and sentenced to death for the murder of a young white woman in Monroeville, Alabama. Through McMillian's case and others, Stevenson illustrates the deep-rooted problems in the American criminal justice system, including racial bias, prosecutorial misconduct, and the flawed application of the death penalty.\n\nThe book alternates between McMillian's story and other cases Stevenson has worked on, including those involving juveniles sentenced to life without parole, mentally ill prisoners, and women who have suffered abuse. Throughout, Stevenson argues for compassion and mercy in the justice system.",
+    "availabilityNotes": "Hardcover, paperback, e-book, audiobook",
+    "sourceUrl": null
+  },
+  "mediaItem": {
+    "itemTitle": "Just Mercy: A Story of Justice and Redemption",
+    "itemNumber": null,
+    "itemMediaType": "BOOK_CONTENT",
+    "releaseDate": null,
+    "hostOrNarrator": null,
+    "focusOrTheme": "Wrongful convictions, racial injustice, death penalty, juvenile justice",
+    "summaryNotes": "\"Just Mercy\" is a memoir that documents Bryan Stevenson's career as a lawyer defending disadvantaged clients, particularly those on death row. The book primarily focuses on the case of Walter McMillian, a Black man who was wrongfully convicted and sentenced to death for the murder of a young white woman in Monroeville, Alabama. Through McMillian's case and others, Stevenson illustrates the deep-rooted problems in the American criminal justice system, including racial bias, prosecutorial misconduct, and the flawed application of the death penalty.\n\nThe book alternates between McMillian's story and other cases Stevenson has worked on, including those involving juveniles sentenced to life without parole, mentally ill prisoners, and women who have suffered abuse. Throughout, Stevenson argues for compassion and mercy in the justice system.",
+    "keyQuotes": null,
+    "sourceUrl": null,
+    "individualsFeaturedNames": [
+      {
+        "firstName": "Walter",
+        "lastName": "McMillian"
+      },
+      {
+        "firstName": "Anthony Ray",
+        "lastName": "Hinton"
+      },
+      {
+        "firstName": "Herbert",
+        "lastName": "Richardson"
+      },
+      {
+        "firstName": "Charlie",
+        "lastName": null
+      },
+      {
+        "firstName": "Trina",
+        "lastName": "Garnett"
+      }
+    ],
+    "organizationsMentionedNames": [
+      {
+        "name": "Equal Justice Initiative"
+      }
+    ],
+    "contributingFactorsMentionedNames": [
+      "Perjured testimony",
+      "prosecutorial misconduct",
+      "racial bias",
+      "withheld exculpatory evidence",
+      "False forensic evidence",
+      "inadequate defense",
+      "mental illness",
+      "PTSD from Vietnam War",
+      "Juvenile status",
+      "mental disability",
+      "history of abuse"
+    ],
+    "involvedPersonsMentionedNames": [
+      {
+        "firstName": "Bryan",
+        "lastName": "Stevenson"
+      }
+    ]
+  },
+  "individuals": [
+    {
+      "firstName": "Walter",
+      "lastName": "McMillian",
+      "status": "EXONERATED",
+      "convictionYear": 1988,
+      "exonerationOrReleaseYear": 1993,
+      "timeServedYears": 6.0,
+      "sentence": "Death sentence",
+      "caseLocationCity": "Monroeville",
+      "caseLocationCounty": null,
+      "caseLocationState": "Alabama",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "McMillian was placed on death row before his trial even began\nMultiple witnesses provided alibis placing him at a fish fry during the time of the murder\nThe key witness against him later recanted and admitted to lying under pressure from police\nThe case took place in the same town where Harper Lee set \"To Kill a Mockingbird\"",
+      "organizationsInvolvedNames": [
+        {
+          "name": "Equal Justice Initiative"
+        }
+      ],
+      "contributingFactorsNames": [
+        "Perjured testimony",
+        "prosecutorial misconduct",
+        "racial bias",
+        "withheld exculpatory evidence"
+      ]
+    },
+    {
+      "firstName": "Anthony Ray",
+      "lastName": "Hinton",
+      "status": "EXONERATED",
+      "convictionYear": 1986,
+      "exonerationOrReleaseYear": 2015,
+      "timeServedYears": 28.0,
+      "sentence": "Death sentence",
+      "caseLocationCity": "Birmingham",
+      "caseLocationCounty": null,
+      "caseLocationState": "Alabama",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Case went to the U.S. Supreme Court\nBallistics evidence that convicted him was proven to be false\nHinton later wrote his own memoir, \"The Sun Does Shine\"",
+      "organizationsInvolvedNames": [
+        {
+          "name": "Equal Justice Initiative"
+        }
+      ],
+      "contributingFactorsNames": [
+        "False forensic evidence",
+        "inadequate defense",
+        "racial bias"
+      ]
+    },
+    {
+      "firstName": "Herbert",
+      "lastName": "Richardson",
+      "status": "EXECUTED",
+      "convictionYear": 1978,
+      "exonerationOrReleaseYear": 1989,
+      "timeServedYears": null,
+      "sentence": "Death sentence",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Alabama",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Vietnam veteran with untreated PTSD\nCreated a bomb to scare a former girlfriend but accidentally killed her niece\nStevenson represented him in his final appeals before execution",
+      "organizationsInvolvedNames": [
+        {
+          "name": "Equal Justice Initiative"
+        }
+      ],
+      "contributingFactorsNames": [
+        "inadequate defense",
+        "mental illness",
+        "PTSD from Vietnam War"
+      ]
+    },
+    {
+      "firstName": "Charlie",
+      "lastName": null,
+      "status": "OTHER",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": null,
+      "sentence": "Juvenile life without parole",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Alabama",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Convicted as a juvenile\nCase represents Stevenson's work on juvenile justice reform",
+      "organizationsInvolvedNames": [
+        {
+          "name": "Equal Justice Initiative"
+        }
+      ],
+      "contributingFactorsNames": [
+        "Juvenile status",
+        "inadequate defense"
+      ]
+    },
+    {
+      "firstName": "Trina",
+      "lastName": "Garnett",
+      "status": "OTHER",
+      "convictionYear": 1976,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": null,
+      "sentence": "Life without parole as a juvenile",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Pennsylvania",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Suffered severe abuse and neglect as a child\nMentally disabled\nCase used to highlight issues with juvenile life sentences",
+      "organizationsInvolvedNames": [
+        {
+          "name": "Equal Justice Initiative"
+        }
+      ],
+      "contributingFactorsNames": [
+        "Juvenile status",
+        "mental disability",
+        "history of abuse"
+      ]
+    }
+  ],
+  "contributingFactors": [
+    {
+      "name": "Perjured testimony"
+    },
+    {
+      "name": "prosecutorial misconduct"
+    },
+    {
+      "name": "racial bias"
+    },
+    {
+      "name": "withheld exculpatory evidence"
+    },
+    {
+      "name": "False forensic evidence"
+    },
+    {
+      "name": "inadequate defense"
+    },
+    {
+      "name": "mental illness"
+    },
+    {
+      "name": "PTSD from Vietnam War"
+    },
+    {
+      "name": "Juvenile status"
+    },
+    {
+      "name": "mental disability"
+    },
+    {
+      "name": "history of abuse"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Equal Justice Initiative",
+      "type": "INNOCENCE_ORG",
+      "locationCity": "Montgomery",
+      "locationState": "Alabama",
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Founded the Equal Justice Initiative in Montgomery, Alabama"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Bryan",
+      "lastName": "Stevenson",
+      "role": "AUTHOR",
+      "notes": "Founder and Executive Director of the Equal Justice Initiative (EJI)\nHarvard Law School graduate, MacArthur \"Genius\" Grant recipient, law professor at NYU School of Law"
+    }
+  ],
+  "crimeCategories": []
+}

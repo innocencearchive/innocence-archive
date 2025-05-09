@@ -1,0 +1,79 @@
+{
+    "sourceFileName": "172_Junk_Science_Shaken_Baby_Syndrome_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: Junk Science",
+    "mediaItem": {
+        "hosts": "Josh Dubin",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts and Signal Company Number One",
+        "seriesType": "Episodic Series (each episode focuses on a different type of junk science)",
+        "format": "Podcast",
+        "focusTheme_Work": "Junk science, specifically \"Shaken Baby Syndrome\", and its role in wrongful convictions.",
+        "keyStats": "-   \"Shaken Baby Syndrome\" diagnosis is based on a \"classic triad\" of symptoms (subdural hematoma, retinal hemorrhage, cerebral edema) which are not exclusive to abuse and can be caused by other medical conditions.\n-   There are only about 300 board-certified child abuse pediatricians in the United States (as of the time of the podcast).\n-   A 2016 Swedish government report questioned the scientific basis for prosecutions based solely on the \"classic triad\".",
+        "itemNumber": "172",
+        "itemTitle": "Junk Science Shaken Baby Syndrome",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction: Junk Science\" explores the problematic use of \"Shaken Baby Syndrome\" (SBS) diagnosis in the justice system, leading to wrongful convictions.  The podcast uses the story of Stephanie Spurgeon, who was wrongly convicted based on SBS evidence and later exonerated, as a central example.  It details the origins of the SBS hypothesis, its reliance on the \"classic triad\" of symptoms, and how these symptoms can be caused by conditions other than abuse.  The episode features an interview with lawyer Kate Judson, who discusses the lack of scientific rigor behind SBS diagnoses used in court and the biases inherent in the system.  Host Josh Dubin argues that SBS has become \"junk science\" and highlights the devastating impact of wrongful convictions on individuals and the justice system's integrity. The podcast calls for more rigorous medical testing in child death cases and encourages listeners to advocate for justice reform."
+    },
+    "featuredIndividual": {
+        "fullName": "Stephanie Spurgeon",
+        "caseLocation": "Not specified in transcript, implied to be in the US",
+        "convictionYear": "2008",
+        "exonerationYear": "August 2020",
+        "crimeConvictedOf": "Manslaughter",
+        "sentence": "15 years in prison",
+        "timeServed": "Approximately 12 years (convicted in 2008, released in 2020)",
+        "contributingFactorsRaw": [
+            "Faulty medical testimony based on \"Shaken Baby Syndrome\" diagnosis.",
+            "Expert witness testimony claiming the \"classic triad\" of symptoms (bleeding of the brain, swelling of the brain, and bleeding behind the eyes) definitively indicated child abuse.",
+            "Lack of consideration for alternative medical explanations, such as undiagnosed metabolic disorders like diabetes."
+        ],
+        "status": "Exonerated, released from prison.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project",
+            "Exoneration Project from the University of Chicago Law School"
+        ],
+        "innocenceLawyersRaw": [
+            "Kate Judson, Executive Director for the Center for Integrity and Forensic Sciences, was one of Stephanie Spurgeon's lawyers."
+        ],
+        "crossReference": "Yes, mentioned in the podcast as a wrongful conviction case based on medical testimony.",
+        "narrativeOriginalCrime": "Stephanie Spurgeon ran a daycare from her home. A baby named Maria, who attended daycare briefly months prior, died from brain injuries after being in Stephanie's care. Stephanie was arrested and charged with manslaughter.",
+        "keyEvidenceProsecutionRaw": [
+            "Expert witness testimony from a child abuse specialist who stated that Maria's brain injuries (bleeding and swelling of the brain, bleeding behind the eyes) were definitively caused by physical abuse and trauma to the head, with no other possible explanation."
+        ],
+        "trialDefenderNotes": "The defense lawyer did not dispute Maria's cause of death (bleeding and swelling of the brain) but argued there was no evidence of abuse by Stephanie. They pointed to Maria's high blood sugar level upon hospital admission as a possible indicator of a metabolic disorder that could have caused the brain injuries.",
+        "keyEvidenceExonerationRaw": [
+            "Re-examination of the evidence in Stephanie's case by the Innocence Project and the Exoneration Project from the University of Chicago Law School. This re-examination likely involved challenging the original medical testimony and presenting alternative explanations for Maria's injuries."
+        ],
+        "actualPerpetratorDetails": "Not applicable, case was about misdiagnosis and lack of evidence of intentional harm, not about identifying a different perpetrator."
+    },
+    "keyQuotesRaw": [
+        "Expert Witness Quote: \"'Let me make it clear,' the expert witness said. These injuries mean that Maria incurred physical abuse associated with trauma to the head. There is no other way these injuries could have occurred.\"",
+        "Josh Dubin: \"To restore one's life and freedom is perhaps the highest service to your fellow human being.\"",
+        "Kate Judson: \"So child abuse and particularly shaking baby syndrome is much more a determination of etiology, of how somebody got the medical findings than the medical findings themselves.\"",
+        "Josh Dubin: \"When I agreed to host this podcast I set out to expose some of the many flaws that exist in our criminal justice system. Specifically what I wanted to do was address what goes wrong when jurors are presented with what they are told is science but actually turns out to be well junk.\""
+    ],
+    "systemicIssuesRaw": [
+        "Over-reliance on \"Shaken Baby Syndrome\" diagnosis as definitive proof of abuse in legal settings.",
+        "Lack of rigorous medical investigation in child death cases, leading to potential misdiagnosis.",
+        "Bias in child abuse pediatrics and forensic science when aligned with law enforcement.",
+        "The \"classic triad\" of symptoms is treated as synonymous with abuse, ignoring other potential medical causes.",
+        "Expert witnesses testifying with more certainty than the science warrants.",
+        "Pressure on jurors, lawyers, and doctors to \"err on the side of the child,\" potentially leading to wrongful convictions."
+    ],
+    "policyRecommendationsRaw": [
+        "Advocate for more rigorous and comprehensive medical testing in cases of child deaths to rule out other medical conditions before attributing cause to abuse.",
+        "Encourage critical examination of \"Shaken Baby Syndrome\" diagnosis in legal and medical contexts.",
+        "Promote awareness of the flaws in forensic science, including medical testimony based on SBS.",
+        "Call to action for listeners to write to prosecutors and judges, be conscientious jurors, and get involved in fighting wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Stephanie Spurgeon's story highlights the devastating personal impact of wrongful conviction based on junk science, including imprisonment and separation from family.",
+        "Josh Dubin expresses profound emotional impact from working on wrongful conviction cases, emphasizing the resilience of exonerees and the importance of restoring freedom and justice. He describes helping exonerees as his most important contribution, aside from family."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project",
+        "Exoneration Project from the University of Chicago Law School",
+        "Mention of a 2016 Swedish government report questioning SBS diagnosis.",
+        "Reference to the work of Dr. Norman Guffkelch, who initially hypothesized about shaken baby syndrome but later cautioned against its misuse in prosecutions."
+    ]
+}

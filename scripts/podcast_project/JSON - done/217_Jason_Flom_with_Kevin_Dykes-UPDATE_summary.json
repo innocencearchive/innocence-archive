@@ -1,0 +1,72 @@
+{
+    "sourceFileName": "217_Jason_Flom_with_Kevin_Dykes-UPDATE_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcast in association with Signal Company No. 1. (and Global Tell Link mentioned at start but likely just for inmate call)",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, jailhouse snitches, systemic issues in the justice system, fight for exoneration.",
+        "keyStats": "- Kevin Dykes served over 35 years in prison.\n- Convicted based on testimony of three jailhouse snitches who later recanted (two recanted explicitly, one presumed dead).\n- New law passed in California requiring corroboration for snitch testimony, but not applied retroactively.\n- Leslie White, one of the snitches, was featured on 60 Minutes demonstrating how the snitch system works and later charged with perjury for lying in Kevin's case.",
+        "itemNumber": "217",
+        "itemTitle": "Jason Flom with Kevin Dykes-UPDATE",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom details the case of Kevin Dykes, wrongfully convicted in 1986 for murder and attempted murder in Compton, California. Dykes, already vulnerable due to a past accidental manslaughter and a recent injury leaving him in a wheelchair, was caught between drug dealers Slim and Hondo and a series of violent events. Despite being an eyewitness and initially cooperating with police, Dykes was convicted based solely on the testimony of three jailhouse snitches, all of whom had incentives to lie.  The podcast features interviews with Dykes and his attorney, Stephen K. Houser, highlighting the lack of physical evidence, recanted snitch testimonies, and the ongoing struggle for exoneration despite legal changes and new district attorneys.  Dykes' case exemplifies the dangers of jailhouse snitch testimony and the systemic injustices within the legal system.  Despite decades of wrongful imprisonment, Kevin Dykes expresses resilience and hope for eventual justice and parole."
+    },
+    "featuredIndividual": {
+        "fullName": "Kevin Dykes",
+        "caseLocation": "Compton, California, USA",
+        "convictionYear": "1986",
+        "exonerationYear": "Not yet exonerated (as of podcast release, aiming for parole or DA intervention).",
+        "crimeConvictedOf": "Murder of Otis Perry and attempted murders of Ephraim and Mrs. Bradley.",
+        "sentence": "24 years to life",
+        "timeServed": "Over 35 years (as of podcast release).",
+        "contributingFactorsRaw": [
+            "Jailhouse snitch testimony (false confessions fabricated by snitches).",
+            "Lack of corroborating evidence.",
+            "Original statement to police misinterpreted or disregarded.",
+            "Systemic issues with incentivized snitch testimony."
+        ],
+        "status": "Incarcerated, seeking parole and DA intervention for resentencing or new trial.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (implied through podcast format and call to support local innocence projects).",
+            "Paul Weiss, Rifkin, Orton & Garrison (pro bono legal assistance mentioned as underwriter)."
+        ],
+        "innocenceLawyersRaw": [
+            "Stephen K. Houser: Criminal defense attorney representing Kevin Dykes, has been working on the case for a long time, including through legal changes and appeals."
+        ],
+        "narrativeOriginalCrime": "Slim and Hondo stabbed Ephraim and Mrs. Bradley at a party. Days later, Slim and Hondo murdered Otis Perry, believing he stole their gun from Kevin's trailer. Kevin witnessed the murder of Otis and helped dispose of the body out of fear for his own life. He initially cooperated with police as a witness in both incidents.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of three jailhouse snitches: Willie Battle, Jesse Williams, and Leslie White, claiming Kevin confessed to all three attacks.",
+            "Kevin's initial statement to Sergeant Preston (details of how this was used are vague but implied to be twisted to suggest guilt)."
+        ],
+        "trialDefenderNotes": "-  Defense attorney (Stephen K. Houser) highlighted the lack of physical evidence against Kevin and the unreliability of snitch testimony.\n-  Presented testimony that victims of attempted murder (Ephraim and Mrs. Bradley) did not identify Kevin as an attacker.\n-  Emphasized Kevin's physical limitations at the time due to being in a wheelchair, making it unlikely he could have committed the crimes as described by snitches.",
+        "keyEvidenceExonerationRaw": [
+            "Recantation of testimony by two snitches (Leslie White and Jesse Williams).",
+            "Leslie White's public exposure of the snitch system on 60 Minutes and subsequent perjury conviction related to his false testimony.",
+            "New California law requiring corroboration for snitch testimony (though not retroactive).",
+            "Argument that Kevin's own testimony does not demonstrate criminal intent for murder."
+        ],
+        "actualPerpetratorDetails": "- Slim and Hondo: Identified as the actual perpetrators of the stabbing of Ephraim and Mrs. Bradley and the murder of Otis Perry. They were drug dealers and Kevin's \"bosses\" at the time. They are mentioned throughout the podcast as being responsible for the violence, but their legal consequences are not detailed in the transcript."
+    },
+    "keyQuotesRaw": [],
+    "jason_flom": "\"It's got gangsters named Hondo and Slim. It's got drugs. It's got snitches that ended up on 60 minutes. It's got laws that changed and victims who testified that this was not the guy who did it. It's got a guy who's in prison for three and a half decades with no evidence against him except the testimony of jailhouse snitches who have recanted their testimony. It is nuts but it's true.\" (Highlights the unbelievable nature and key elements of the case).",
+    "leslie_white": "\"Well, man's got to do what he's got to do.\" (Cynical justification for becoming a snitch).",
+    "stephen_k._houser": "\"...if you go on in a jury box and you're presented with a case where someone's life is hanging the balance just like Kevin's was, and there's no evidence connecting that person to the crime, except for the testimony of a snitch. You cannot vote to convict because it's crazy.\" (Emphasizes the unreliability of snitch testimony).",
+    "kevin_dykes": "\"Even if I die in here, I'll be at peace Lord. I do for the truth and the truth. I need the right thing as would as though some of my parents was proud of them. This thing I can do but keep my mind focused on what's possible, what could be possible, and how to help others.\" (Reflects his resilience and focus on purpose despite wrongful conviction).",
+    "systemicIssuesRaw": [],
+    "jailhouse_snitch_system": "The podcast heavily emphasizes the systemic problem of using incentivized jailhouse snitch testimony, which is shown to be unreliable and prone to fabrication.",
+    "lack_of_retroactivity_in_law_reform": "The new law requiring corroboration of snitch testimony is not retroactive, failing to help individuals like Kevin Dykes who were convicted before the law changed.",
+    "prosecutorial_reluctance_to_admit_error": "Multiple district attorneys were presented with evidence of innocence and recanted snitch testimony, yet the office remained resistant to overturning the conviction, citing Kevin's initial statement as proof of guilt despite lack of intent.",
+    "inadequate_legal_standard_at_the_time": "The legal system in 1986 allowed for convictions based solely on uncorroborated snitch testimony, leading to wrongful convictions like Kevin's.",
+    "policyRecommendationsRaw": [],
+    "support_for_innocence_projects": "The podcast urges listeners to support local innocence projects, implying the need for continued work to address wrongful convictions.",
+    "petition_to_george_gascon": "Link provided in the podcast bio to petition the DA to review Kevin Dykes' case.",
+    "implicit_call_for_retroactive_application_of_laws": "The discussion about the non-retroactive nature of the new snitch testimony law implicitly calls for legal reforms to apply such protections retroactively to correct past injustices.",
+    "personalNarrativeRaw": [],
+    "kevin_dykes'_resilience": "Despite over 35 years of wrongful imprisonment, Kevin Dykes expresses remarkable resilience, maintaining hope, finding purpose in helping others, and achieving inner peace. He emphasizes doing \"the right thing\" even though it led to his wrongful conviction. He focuses on his spiritual growth and positive mindset despite his circumstances.  His final thoughts are about finding peace and purpose despite the injustice, and a desire to help others, showcasing personal growth and a lack of bitterness despite immense hardship.",
+    "additionalResourcesRaw": [],
+    "local_innocence_projects": "Listeners are encouraged to support local innocence projects, suggesting these as resources for further engagement and information on wrongful convictions.",
+    "60_minutes_episode_(leslie_white)": "Mentioned as a resource for understanding the jailhouse snitch system, although not directly linked in the transcript.\n```"
+}

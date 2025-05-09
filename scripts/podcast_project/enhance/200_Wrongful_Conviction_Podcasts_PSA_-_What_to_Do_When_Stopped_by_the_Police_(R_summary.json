@@ -1,0 +1,96 @@
+{
+    "sourceFileName": "200_Wrongful_Conviction_Podcasts_PSA_-_What_to_Do_When_Stopped_by_the_Police_(R_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom, Robbie Atjawdhury",
+        "releaseYear": "2021",
+        "network": "Not specified in transcript - likely Lava for Good Podcasts based on host Jason Flom's association.",
+        "seriesType": "Episodic Series (based on general podcast format and topic of legal rights being standalone from specific wrongful conviction cases)",
+        "format": "Podcast",
+        "focusTheme_Work": "Legal rights when interacting with police, particularly during traffic stops.",
+        "keyStats": "-   Mention of \"57 million drivers go with triple a\" (in an advertisement, not related to wrongful convictions directly).\n-   Reference to \"videos\" of police interactions escalating negatively.\n-   Highlighting the right to remain silent and the right to refuse search.\n-   Mention of \"Pulled Over by the Police\" app.",
+        "itemNumber": "200",
+        "itemTitle": "Wrongful Conviction Podcasts PSA - What to Do When Stopped by the Police (R",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This podcast segment is a public service announcement about legal rights during police interactions, hosted by Jason Flom of \"Wrongful Conviction\" and Robbie Atjawdhury of \"Undisclosed.\"  The hosts discuss how to behave when pulled over by the police, emphasizing de-escalation and the importance of knowing and exercising one's rights.  Key advice includes stopping in a safe, well-lit area, remaining calm, keeping hands visible, and clearly stating the right to remain silent and to refuse searches. They promote awareness of legal rights to prevent negative outcomes during police stops and recommend an app called \"Pulled Over by the Police\" for recording interactions. The segment aims to empower individuals with knowledge of their rights to ensure safety and avoid unjust situations during police encounters."
+    },
+    "featuredIndividual": {
+        "fullName": "None mentioned in this transcript.",
+        "caseLocation": "Not applicable.",
+        "convictionYear": "Not applicable.",
+        "exonerationYear": "Not applicable.",
+        "crimeConvictedOf": "Not applicable.",
+        "sentence": "Not applicable.",
+        "timeServed": "Not applicable.",
+        "contributingFactorsRaw": [
+            "Not applicable."
+        ],
+        "status": "Not applicable.",
+        "organizationsInvolvedRaw": [
+            "Not applicable."
+        ],
+        "innocenceLawyersRaw": [
+            "Not applicable."
+        ],
+        "crossReference": "Not applicable.",
+        "narrativeOriginalCrime": "Not applicable.",
+        "keyEvidenceProsecutionRaw": [
+            "Not applicable."
+        ],
+        "trialDefenderNotes": "Not applicable.",
+        "keyEvidenceExonerationRaw": [
+            "Not applicable."
+        ],
+        "actualPerpetratorDetails": "Not applicable.\n\n**Note:** *No specific wrongfully convicted individuals or cases are discussed in this particular segment of the podcast transcript. The focus is on general legal rights and police interaction advice.*"
+    },
+    "keyQuotesRaw": [
+        "Jason Flom & Robbie Atjawdhury: \"We want to talk to you today about your rights and how they relate to interactions with the police.\"",
+        "Robbie Atjawdhury: \"Remember you have the right to remain silent. You don't have to answer any questions at all. You can state loudly I have the right to remain silent and I am exercising my right. I will not answer any questions.\"",
+        "Robbie Atjawdhury: \"You also don't have to consent to a search of your person or your belongings. And if you don't consent make sure they know it say I do not consent to a search of my person or my belongings.\"",
+        "Jason Flom: \"Finally just remember this look if you're being arrested do not resist arrest. It does not end well.\""
+    ],
+    "systemicIssuesRaw": [
+        "Implicitly, the segment addresses the potential for police interactions to escalate negatively and the importance of understanding rights to protect oneself within the justice system.  It suggests a need for public awareness of legal rights during police encounters."
+    ],
+    "policyRecommendationsRaw": [
+        "Call to action is to \"know them, understand them, and exercise them\" regarding legal rights.",
+        "Implicit call to action to download and use the \"Pulled Over by the Police\" app.",
+        "Encouragement to listen to \"Undisclosed\" and \"Wrongful Conviction\" podcasts for further information."
+    ],
+    "personalNarrativeRaw": [
+        "Not applicable in this segment as it is informational and advisory, not narrative-driven. The impact is intended to be on listener awareness and behavior during police interactions to avoid negative outcomes."
+    ],
+    "additionalResourcesRaw": [
+        "\"Pulled Over by the Police\" app (iPhone).",
+        "\"Undisclosed\" podcast.",
+        "\"Wrongful Conviction\" podcast.",
+        "Website: zinn.com (advertisement for nicotine pouches).",
+        "Website: mycomputercareer.edu/cwp (advertisement for cybersecurity career training).",
+        "Website: kisqai.com (advertisement for medication).",
+        "Website: triple-a.com (advertisement for AAA).",
+        "Website: dontsleeponosa.com (advertisement for sleep apnea information).",
+        "Website: stello.com (advertisement for glucose biosensor).",
+        "Hulu (advertisement for streaming service)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "police interaction",
+                "legal rights",
+                "de-escalation",
+                "public awareness"
+            ],
+            "mentions_other_media": [
+                {
+                    "title": "Pulled Over by the Police",
+                    "type_guess": "app"
+                }
+            ]
+        }
+    }
+}

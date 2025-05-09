@@ -1,0 +1,159 @@
+{
+  "source_file_name": "9.10.central_park_five.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "The Central Park Five",
+    "publication_or_release_year": 2012,
+    "publisher_or_network": "Florentine Films (likely, Ken Burns's company)",
+    "focus_or_theme": "Wrongful conviction, coerced false confessions, juvenile suspects, racial bias, media frenzy, DNA exoneration.",
+    "summaryNotes": "Landmark case exposing issues with juvenile interrogations and false confessions.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "The Central Park Five",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction, coerced false confessions, juvenile suspects, racial bias, media frenzy, DNA exoneration.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Directed by Ken Burns, Sarah Burns, David McMahon; Examines the 1989 case of five Black and Latino teenagers wrongfully convicted. Available via PBS, Amazon, DVD.",
+      "research_findings": "This documentary provides a detailed account of the wrongful conviction of five teenagers in the high-profile \"Central Park Jogger\" case. It highlights the intense pressure, coercive interrogation tactics, and racial undertones that led to false confessions and convictions despite a lack of physical evidence connecting them. Their exoneration came years later when the actual perpetrator confessed and DNA confirmed his guilt. The case became a symbol of systemic flaws in the justice system, particularly regarding treatment of minority youth and reliance on confessions. Searches did not return specific production company details."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "New York City",
+      "case_location_state": "New York",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2002,
+      "crime_convicted_of_raw": "Assault, Rape, Robbery (related to attack on Trisha Meili)",
+      "sentence": "Varied, from 5-10 to 5-15 years (Korey Wise, tried as adult, received 5-15)",
+      "time_served": "Between ~6 and ~13 years each",
+      "contributing_factors_raw": [
+        "Coerced false confessions (obtained after lengthy interrogations without adequate counsel/parental presence), police misconduct, prosecutorial misconduct, racial bias, intense media pressure creating public frenzy."
+      ],
+      "status_raw": "Exonerated (Convictions vacated after Matias Reyes confessed and DNA confirmed his sole involvement); Received settlement from NYC.",
+      "organizations_involved_raw": [
+        "Innocence Project (involved in later stages/advocacy); Legal teams representing the five."
+      ],
+      "full_name": "The Exonerated Five (formerly known as The Central Park Five): Antron McCray",
+      "first_name": "The",
+      "middle_name": "Exonerated Five (formerly known as The Central Park Five): Antron",
+      "last_name": "McCray"
+    },
+    {
+      "case_location_city": "New York City",
+      "case_location_state": "New York",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2002,
+      "crime_convicted_of_raw": "Assault, Rape, Robbery (related to attack on Trisha Meili)",
+      "sentence": "Varied, from 5-10 to 5-15 years (Korey Wise, tried as adult, received 5-15)",
+      "time_served": "Between ~6 and ~13 years each",
+      "contributing_factors_raw": [
+        "Coerced false confessions (obtained after lengthy interrogations without adequate counsel/parental presence), police misconduct, prosecutorial misconduct, racial bias, intense media pressure creating public frenzy."
+      ],
+      "status_raw": "Exonerated (Convictions vacated after Matias Reyes confessed and DNA confirmed his sole involvement); Received settlement from NYC.",
+      "organizations_involved_raw": [
+        "Innocence Project (involved in later stages/advocacy); Legal teams representing the five."
+      ],
+      "full_name": "Kevin Richardson",
+      "first_name": "Kevin",
+      "middle_name": null,
+      "last_name": "Richardson"
+    },
+    {
+      "case_location_city": "New York City",
+      "case_location_state": "New York",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2002,
+      "crime_convicted_of_raw": "Assault, Rape, Robbery (related to attack on Trisha Meili)",
+      "sentence": "Varied, from 5-10 to 5-15 years (Korey Wise, tried as adult, received 5-15)",
+      "time_served": "Between ~6 and ~13 years each",
+      "contributing_factors_raw": [
+        "Coerced false confessions (obtained after lengthy interrogations without adequate counsel/parental presence), police misconduct, prosecutorial misconduct, racial bias, intense media pressure creating public frenzy."
+      ],
+      "status_raw": "Exonerated (Convictions vacated after Matias Reyes confessed and DNA confirmed his sole involvement); Received settlement from NYC.",
+      "organizations_involved_raw": [
+        "Innocence Project (involved in later stages/advocacy); Legal teams representing the five."
+      ],
+      "full_name": "Yusef Salaam",
+      "first_name": "Yusef",
+      "middle_name": null,
+      "last_name": "Salaam"
+    },
+    {
+      "case_location_city": "New York City",
+      "case_location_state": "New York",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2002,
+      "crime_convicted_of_raw": "Assault, Rape, Robbery (related to attack on Trisha Meili)",
+      "sentence": "Varied, from 5-10 to 5-15 years (Korey Wise, tried as adult, received 5-15)",
+      "time_served": "Between ~6 and ~13 years each",
+      "contributing_factors_raw": [
+        "Coerced false confessions (obtained after lengthy interrogations without adequate counsel/parental presence), police misconduct, prosecutorial misconduct, racial bias, intense media pressure creating public frenzy."
+      ],
+      "status_raw": "Exonerated (Convictions vacated after Matias Reyes confessed and DNA confirmed his sole involvement); Received settlement from NYC.",
+      "organizations_involved_raw": [
+        "Innocence Project (involved in later stages/advocacy); Legal teams representing the five."
+      ],
+      "full_name": "Raymond Santana",
+      "first_name": "Raymond",
+      "middle_name": null,
+      "last_name": "Santana"
+    },
+    {
+      "case_location_city": "New York City",
+      "case_location_state": "New York",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2002,
+      "crime_convicted_of_raw": "Assault, Rape, Robbery (related to attack on Trisha Meili)",
+      "sentence": "Varied, from 5-10 to 5-15 years (Korey Wise, tried as adult, received 5-15)",
+      "time_served": "Between ~6 and ~13 years each",
+      "contributing_factors_raw": [
+        "Coerced false confessions (obtained after lengthy interrogations without adequate counsel/parental presence), police misconduct, prosecutorial misconduct, racial bias, intense media pressure creating public frenzy."
+      ],
+      "status_raw": "Exonerated (Convictions vacated after Matias Reyes confessed and DNA confirmed his sole involvement); Received settlement from NYC.",
+      "organizations_involved_raw": [
+        "Innocence Project (involved in later stages/advocacy); Legal teams representing the five."
+      ],
+      "full_name": "Korey Wise",
+      "first_name": "Korey",
+      "middle_name": null,
+      "last_name": "Wise"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Ken Burns",
+      "role": "DIRECTOR",
+      "first_name": "Ken",
+      "middle_name": null,
+      "last_name": "Burns"
+    },
+    {
+      "full_name": "Sarah Burns",
+      "role": "DIRECTOR",
+      "first_name": "Sarah",
+      "middle_name": null,
+      "last_name": "Burns"
+    },
+    {
+      "full_name": "David McMahon",
+      "role": "DIRECTOR",
+      "first_name": "David",
+      "middle_name": null,
+      "last_name": "McMahon"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

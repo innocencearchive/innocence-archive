@@ -1,0 +1,83 @@
+{
+    "sourceFileName": "077_Jason_Flom_and_Lara_Bazelon_with_Tony_Wright_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2018",
+        "network": "lava for good podcast & Signal Company Number One",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Restorative Justice, Systemic Issues in Criminal Justice, Exoneration, Victim-Exoneree Reconciliation",
+        "keyStats": "Lack of compensation statutes for exonerees in many US states; Importance of jury duty and awareness of unconscious bias; Restorative justice as a framework for healing and reconciliation after wrongful conviction.",
+        "itemNumber": "077",
+        "itemTitle": "Jason Flom and Lara Bazelon with Tony Wright",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features a discussion on restorative justice with Lara Basilon, author of \"Rectify: The Power of Restorative Justice After Wrongful Conviction,\" alongside exoneree Tony Wright and Shannon Coleman, related to the victim in Tony's case, and her daughter Lauren. The conversation centers on Tony Wright's 25-year wrongful imprisonment due to egregious police misconduct and Shannon's remarkable shift from believing in his guilt to becoming a fervent advocate for his exoneration and a close friend.  The episode underscores the power of restorative justice in facilitating healing for both exonerees and victims' families, referencing the influential case of Jennifer Thompson and Ronald Cotton.  Systemic issues such as lack of exoneree compensation, prosecutorial misconduct, and the critical role of informed and unbiased jury duty are addressed.  Basilon's book and the broader movement of restorative justice are presented as pathways to address the profound damage caused by wrongful convictions and to foster a more just and compassionate approach to the aftermath."
+    },
+    "featuredIndividual": {
+        "fullName": "Ronald Cotton (Mentioned as example case)",
+        "caseLocation": "North Carolina, USA",
+        "convictionYear": "Inferred to be approximately 13 years before DNA exoneration.",
+        "exonerationYear": "13 years after conviction (DNA evidence)",
+        "crimeConvictedOf": "Rape",
+        "sentence": "Implied significant prison sentence",
+        "timeServed": "Approximately 11 years (until DNA evidence revealed actual perpetrator)",
+        "contributingFactorsRaw": [
+            "Eyewitness Misidentification"
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Not explicitly mentioned in transcript, but case is a prominent example in Innocence Project work."
+        ],
+        "innocenceLawyersRaw": [
+            "Not detailed in transcript."
+        ],
+        "narrativeOriginalCrime": "Brutal rape of Jennifer Thompson at knifepoint.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness testimony of Jennifer Thompson"
+        ],
+        "trialDefenderNotes": "Not detailed in transcript.",
+        "keyEvidenceExonerationRaw": [
+            "DNA evidence identified Bobby Poole as the actual perpetrator."
+        ],
+        "actualPerpetratorDetails": "Bobby Poole"
+    },
+    "keyQuotesRaw": [
+        "Tony Wright: \"I totally lost trust in humanity after what happened to me.\"",
+        "Tony Wright: \"This is some fairy tale stuff going on between us. I love her to death. She's one of my closest friends. Her daughter's my niece. Her son is my nephew.\" (Referring to Shannon and Lauren Coleman)",
+        "Lara Basilon on Cash Register's case: \"He was in prison for almost twice as long as he had been alive outside of prison.\"",
+        "Lara Basilon on restorative justice: \"We don't believe in banishing offenders from our community, we believe in renitting our community and bringing them back.\"",
+        "Shannon Coleman: \"I just wanted Miss Talley's family to know that Anthony Wright absolutely had nothing to do with the crime...\"",
+        "Lauren Coleman: \"It made me realize the importance of the work that I wanted to get into criminal defense.\"",
+        "Lara Basilon on jury duty: \"Stick to your convictions if you don't think it's right to convict it's not, don't let people push you around, don't bully you.\""
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct leading to wrongful convictions.",
+        "Eyewitness misidentification as a significant cause of wrongful convictions.",
+        "Lack of adequate compensation for exonerees in many states, creating a \"second punishment.\"",
+        "Prosecutorial misconduct and lack of accountability.",
+        "Ineffective defense counsel.",
+        "Unconscious bias in the justice system, including racial bias in jury decisions.",
+        "Disparities in how drug-related issues are addressed based on the demographics of those affected (e.g., crack epidemic vs. opioid crisis)."
+    ],
+    "policyRecommendationsRaw": [
+        "Mandate compensation for all exonerees in every state to ensure justice and support for re-entry.",
+        "Strongly enforce state bar rules to hold prosecutors and defense lawyers accountable for misconduct and ineffective assistance.",
+        "Provide comprehensive support and therapy for victims of wrongful conviction, including both exonerees and original crime victims and their families.",
+        "Emphasize the importance of jury duty and educate potential jurors on unconscious bias and the presumption of innocence.",
+        "Support organizations like the Innocence Project to help prevent future wrongful convictions.",
+        "Promote restorative justice practices as a means of healing and reconciliation in the aftermath of wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Tony Wright's personal journey from wrongful conviction to freedom and finding unexpected family and support in Shannon and Lauren Coleman. His emphasis on forgiveness and moving forward despite the immense injustice he faced.",
+        "Shannon Coleman's transformative experience from believing in Tony's guilt to becoming a powerful advocate for his exoneration and a champion for restorative justice. Her motivation to prevent similar injustices and her advocacy for exoneree rights.",
+        "Lauren Coleman's awakening to the flaws in the justice system and her decision to pursue a career in criminal defense law, inspired by Tony Wright's case.",
+        "Lara Basilon's career dedication to fighting wrongful convictions and her advocacy for restorative justice as a vital component of post-exoneration healing and systemic reform."
+    ],
+    "additionalResourcesRaw": [
+        "Book: \"Rectify: The Power of Restorative Justice After Wrongful Conviction\" by Lara Basilon.",
+        "Innocence Project (InnocenceProject.org).",
+        "Podcast: \"Spotlight Snitch City\" (mentioned as another investigative series by the producers of Wrongful Conviction).",
+        "Reference to Jennifer Thompson and Ronald Cotton's story and their work in restorative justice (book not named in transcript, but implied)."
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "sourceFileName": "344_Maggie_Freleng_with_Tami_Vance_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Maggie Freeling",
+    "mediaItem": {
+        "hosts": "Maggie Freeling",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts, Signal Company No. 1",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, criminal justice system, forensic science, homophobia",
+        "keyStats": "-   Tammy Vance was wrongfully convicted for 13 years.\n-   Dr. Michael West, a forensic odontologist, has testified in at least five cases where individuals were wrongfully convicted based on bite mark evidence and later exonerated.\n-   Bite mark evidence is now considered junk science.\n-   In 2024, there was a 20% overall increase in identity theft related to tax fraud.",
+        "itemNumber": "344",
+        "itemTitle": "Maggie Freleng with Tami Vance",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Maggie Freeling\" tells the story of Tammy Vance, who was wrongfully convicted along with Lee Stubbs for the aggravated assault of their friend Kim. The case hinged on flawed bite mark evidence presented by Dr. Michael West and exploited homophobic biases in Brookhaven, Mississippi.  Prosecutors argued that Tammy and Lee, as lesbians, were prone to violent sexual assault.  Despite evidence discrediting the prosecution's theory, including FBI analysis of surveillance footage that was withheld from the defense, both women were convicted and sentenced to 44 years.  The Mississippi Innocence Project took on their case, highlighting the junk science of bite mark evidence and the suppressed FBI report.  After serving 13 years, Tammy and Lee were granted a new trial in 2012 and eventually exonerated.  The episode underscores the dangers of junk science, prosecutorial misconduct, and homophobia within the criminal justice system."
+    },
+    "featuredIndividual": {
+        "fullName": "Lee Stubbs",
+        "caseLocation": "Brookhaven, Mississippi, USA",
+        "convictionYear": "2001",
+        "exonerationYear": "2012 (Released on bond and charges eventually dropped)",
+        "crimeConvictedOf": "Aggravated assault of Kim Williams (originally also taking and possessing OxyContin)",
+        "sentence": "44 years",
+        "timeServed": "13 years",
+        "contributingFactorsRaw": [
+            "Junk Science (Bite Mark Evidence)",
+            "Prosecutorial Misconduct (Withholding FBI report)",
+            "Homophobia (Exploited by prosecution)"
+        ],
+        "status": "Exonerated (effectively, through release on bond and dismissal of major charges)",
+        "organizationsInvolvedRaw": [
+            "Mississippi Innocence Project (now George C. Cochran Innocence Project)"
+        ],
+        "innocenceLawyersRaw": [
+            "Valena Beatty, attorney formerly with the Mississippi Innocence Project, played a key role in their exoneration."
+        ],
+        "crossReference": "Not explicitly stated in transcript if in exoneree database.",
+        "narrativeOriginalCrime": "Same as Tammy Vance - accused of sexually assaulting Kim after overdose.",
+        "keyEvidenceProsecutionRaw": [
+            "Same as Tammy Vance."
+        ],
+        "trialDefenderNotes": "Same as Tammy Vance.",
+        "keyEvidenceExonerationRaw": [
+            "Same as Tammy Vance - FBI report, discrediting bite mark evidence, Dr. West recantation."
+        ],
+        "actualPerpetratorDetails": "Not applicable, as the case was about wrongful conviction."
+    },
+    "keyQuotesRaw": [
+        "Tammy Vance: \"I remember thinking they were crazy because that was our friend and we tried to save her.\"",
+        "Valena Beatty: \"So the fact that Kim was with her two lesbian friends, Tammy and Lee, right before she overdosed and was brought to the hospital, leads the police and the prosecutor in a direct line to the two of them as having assaulted her.\"",
+        "Dr. Michael West (in 2011 deposition): \"I don't believe it's a system that's reliable enough to be used in court.\" (referring to bite mark evidence)",
+        "Sandy Rabbalay (Tammy's mother): \"Even though you're sitting there at trial and the prosecutor is saying gay people are deviance and this is what they do, you still didn't believe it. No, ma'am. And never will.\"",
+        "Tammy Vance on release: \"I really thought I was going to die alone in prison.\""
+    ],
+    "systemicIssuesRaw": [
+        "Use of junk science in court (bite mark evidence).",
+        "Prosecutorial misconduct (withholding exculpatory evidence - FBI report).",
+        "Homophobia and bias in the criminal justice system, influencing jury and prosecution strategies.",
+        "Ineffective defense in the original trial, possibly due to limited resources or other factors."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for Innocence Projects and organizations working on wrongful conviction cases. (Mentioned Mississippi Innocence Project and link in bio).",
+        "Implied need for reform in forensic science standards and regulation to prevent use of unreliable evidence.",
+        "Implied need for addressing biases within the justice system, particularly against marginalized groups like the LGBTQ+ community."
+    ],
+    "personalNarrativeRaw": [
+        "Tammy Vance's personal journey through addiction, self-discovery of her sexuality in a homophobic environment, and wrongful conviction.",
+        "The significant impact of wrongful conviction on Tammy's life, including 13 years of lost freedom and the emotional toll on her and her family.",
+        "Tammy's resilience and focus on simple joys after exoneration, highlighting the long-term effects of wrongful imprisonment.",
+        "The enduring friendship between Tammy and Lee despite the trauma they endured."
+    ],
+    "additionalResourcesRaw": [
+        "George C. Cochran Innocence Project (formerly Mississippi Innocence Project): innocenceproject.olens.edu",
+        "Book: \"Manifesting Justice\" by Volina Beatty (about Tammy and Lee's case and wrongful convictions of women).",
+        "Mention of following \"wrongful conviction\" on social media (Instagram, Facebook, Twitter) and \"lava for good\" on social media."
+    ]
+}

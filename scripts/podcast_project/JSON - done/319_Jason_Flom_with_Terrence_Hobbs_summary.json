@@ -1,0 +1,90 @@
+{
+    "sourceFileName": "319_Jason_Flom_with_Terrence_Hobbs_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system failures, false testimony, police misconduct, prosecutorial misconduct, ineffective counsel.",
+        "keyStats": "- Lenny Singleton was sentenced to 1,310 years for robberies where no one was hurt and proceeds were $511, highlighting sentencing disparities.\n- In Virginia, African Americans make up about 60% of the prison population, raising concerns about racial bias in the justice system.\n- Parole was abolished in Virginia after January 1995, significantly altering the impact of life sentences.",
+        "itemNumber": "319",
+        "itemTitle": "Jason Flom with Terrence Hobbs",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction details the harrowing story of Terrence Hobbs, who suffered a double wrongful conviction for bank robbery and a double homicide he did not commit.  Hobbs was initially targeted for the murders of Davana Byers and Leon Porter despite a lack of physical evidence and a more obvious suspect, drug kingpin Nathaniel Skeet Richardson.  False testimony from incentivized witnesses, including Eric Cook in the bank robbery case and five individuals in the homicide case, played a crucial role in both convictions.  Despite alibis, lack of motive, and contradictory witness statements, Hobbs was sentenced to a combined 48 years plus two life sentences.  The episode highlights systemic issues of police and prosecutorial misconduct, ineffective counsel, and the devastating impact of wrongful convictions, emphasizing Hobbs's ongoing fight for exoneration with the help of Lenny Singleton and his family's unwavering support."
+    },
+    "featuredIndividual": {
+        "fullName": "Terrence \"Terri\" Hobbs",
+        "caseLocation": "Portsmouth, Virginia and Virginia Beach, Virginia",
+        "convictionYear": "1997 (Bank Robbery), 1999 (Double Homicide)",
+        "exonerationYear": "Not yet exonerated (as of podcast recording)",
+        "crimeConvictedOf": "Bank Robbery and Double Homicide (murder of Davana Byers and Leon Porter)",
+        "sentence": "48 years (Bank Robbery) and two Life sentences (Double Homicide)",
+        "timeServed": "Over 20 years (and still incarcerated at the time of recording)",
+        "contributingFactorsRaw": [
+            "False Testimony: Key witnesses in both trials provided false testimony in exchange for leniency in their own criminal cases.",
+            "Police Misconduct: Detectives Huntington and Moline focused on Hobbs despite lack of evidence and possible alternative suspects, potentially fabricating evidence and coercing witnesses.",
+            "Prosecutorial Misconduct: Commonwealth's Attorney presented unreliable and contradictory witness testimonies, failed to disclose exculpatory evidence (Brady violation potentially with Eric Cook's statements).",
+            "Ineffective Counsel: Original trial attorney in bank robbery case failed to file appeal, resulting in loss of appeal rights."
+        ],
+        "status": "Currently incarcerated, pardon petition pending.",
+        "organizationsInvolvedRaw": [
+            "John A. Cultural Law Firm (initially, now represented by Lenny Singleton and team after Mr. Cultural's passing).",
+            "Lenny Singleton's Pardon Petition Team."
+        ],
+        "innocenceLawyersRaw": [
+            "John A. Cultural: Attorney who initially took on Terri's case and formed a pardon petition team. Passed away in June 2022.",
+            "Lenny Singleton: Formerly wrongfully convicted, granted conditional pardon in 2018. Leads pardon petition team and is actively working on Terri's case."
+        ],
+        "crossReference": "Not explicitly stated if in exoneree database within the transcript.",
+        "narrativeOriginalCrime": "- Bank Robbery: A bank robbery occurred in Virginia Beach on August 30, 1996.  The robber was described as a black man with a goatee, hat, and sunglasses.\n- Double Homicide: Davana Byers and Leon Porter were found murdered in Davana's apartment on July 20, 1996, shot execution-style. Davana had recently testified against drug kingpin Nathaniel Skeet Richardson.",
+        "keyEvidenceProsecutionRaw": [
+            "Bank Robbery:",
+            "Eyewitness testimony from bank teller and employee, initially uncertain but later became \"100% sure\" identifications.",
+            "False testimony from Eric Cook claiming Hobbs confessed to him in a jail phone call (later changed to overheard conversation).",
+            "Double Homicide:",
+            "Testimony from five incentivized witnesses: Sean Saunders, Curtis Freeman, William Godwin, Derek Blackwell, and Tyrone Wallace. Their testimonies were inconsistent, contradictory, and often refuted by other evidence or witnesses."
+        ],
+        "trialDefenderNotes": "- Bank Robbery: Court-appointed attorney was ineffective, failed to challenge witness IDs, did not adequately address false testimony, and missed appeal deadline.\n- Double Homicide:  Defense attorney pointed out inconsistencies and contradictions in witness testimonies, but the jury still convicted.",
+        "keyEvidenceExonerationRaw": [
+            "Bank Robbery:",
+            "Alibi: Traffic ticket placing Hobbs far from the robbery location at the time.",
+            "Lack of Physical Evidence: Fingerprints at the bank robbery scene did not match Hobbs.",
+            "Recanted Witness ID: Initial uncertainty of bank teller and employee IDs.",
+            "Proven False Testimony: Phone records disproving Eric Cook's initial claim of a phone call confession.",
+            "Double Homicide:",
+            "Lack of Physical Evidence: No physical evidence linking Hobbs to the crime scene.",
+            "Contradictory Witness Testimony: Inconsistencies and contradictions within and between the testimonies of the five witnesses, refuted by other witnesses and facts of the crime scene.",
+            "Alternative Suspect: Nathaniel Skeet Richardson had a motive and history of violence, and Davana testified against him shortly before her murder."
+        ],
+        "actualPerpetratorDetails": "- For Double Homicide:  Nathaniel \"Skeet\" Richardson is strongly implied as the likely actual perpetrator due to his motive (Davana's testimony against him), his history of violence (prior charges including shooting death of a girlfriend), and his position as a drug kingpin who could potentially influence local corruption. However, the podcast does not definitively name him as the actual perpetrator, focusing on Hobbs's wrongful conviction.\n- For Bank Robbery:  Actual perpetrator not discussed in transcript, focus is on Hobbs's wrongful conviction."
+    },
+    "keyQuotesRaw": [
+        "\"Huntington went dead, me and told me. He said, I told you I was going to get you.\" - Detective Huntington to Terri Hobbs after the guilty verdict in the bank robbery case.",
+        "Lenny Singleton's description of his 1,310-year sentence for non-violent robberies.",
+        "Katherine Hobbs: \"He needs to come on these grown up. He needs to spend time with his daughter. He needs to spend time with this whole family.\" - Expressing the personal impact of Terri's wrongful conviction.",
+        "Terri Hobbs: \"I have to be able to look myself in the mirror and like what I see on the daily basis. Even if it was to spend the rest of my life in prison. I had to live my life and be able to hold my head up with pride and know that I did not lie on somebody else or ruin somebody else's life just to ease my suffering.\" - Highlighting his integrity and refusal to compromise his values."
+    ],
+    "systemicIssuesRaw": [
+        "Reliance on incentivized and unreliable witness testimony.",
+        "Police tunnel vision and misconduct in focusing on a suspect despite lack of evidence and ignoring alternative leads.",
+        "Prosecutorial misconduct in presenting weak and contradictory cases and potentially suppressing exculpatory evidence.",
+        "Ineffective assistance of counsel, particularly for court-appointed attorneys.",
+        "Racial bias within the criminal justice system.",
+        "Harsh sentencing practices and the impact of abolishing parole in Virginia."
+    ],
+    "policyRecommendationsRaw": [
+        "Call to action for listeners to get involved and support Terri Hobbs's case and wrongful conviction cases in general.",
+        "Need for criminal justice reform, particularly regarding witness testimony, police accountability, and prosecutorial ethics.",
+        "Focus on addressing racial disparities in the justice system."
+    ],
+    "personalNarrativeRaw": [
+        "Terri Hobbs's resilience and determination to fight for his freedom despite decades of wrongful imprisonment.",
+        "The profound and enduring impact of wrongful conviction on Terri and his family, particularly his mother Katherine Hobbs and his daughter.",
+        "Lenny Singleton's personal experience with wrongful conviction and his dedication to helping others like Terri."
+    ],
+    "additionalResourcesRaw": [
+        "No specific additional resources related to wrongful convictions are mentioned in the podcast itself, only advertisements for sponsors."
+    ]
+}

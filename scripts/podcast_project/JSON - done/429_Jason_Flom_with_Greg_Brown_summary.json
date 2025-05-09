@@ -1,0 +1,91 @@
+{
+    "sourceFileName": "429_Jason_Flom_with_Greg_Brown_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom (inferred from \"Hey, this is Jenny Garth from I Do Part 2.\" and then \"Welcome back to wrongful conviction. I hate wrongful convictions.\" followed by Jason Flom introducing Elizabeth Delosa and Greg Brown)",
+        "releaseYear": "2024",
+        "network": "Lava for Good Podcasts (mentioned at the end \"wrongful conviction is a reduction of lava for good podcast\")",
+        "seriesType": "Episodic Series (each episode is generally a standalone story) - Inferred from the format and focus on a specific case per episode.",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Arson, Junk Science, Paid Witnesses, Systemic Issues in Justice System",
+        "keyStats": "-   Greg Brown served 20 years for an accidental fire.\n-   Three firefighters died in the fire.\n-   Reward money of $15,000 was offered for information.\n-   Two witnesses were paid for their testimony.\n-   Initial lab report was negative for accelerant, later changed to positive for trace amounts.\n-   Judge granted a new trial in 2014, but charges were then moved to federal court.\n-   Greg Brown accepted an Alford plea in 2022 to resolve the federal case but maintains innocence.\n-   Exoneree advocates theorize that 3-10% of convictions annually in the US are wrongful.",
+        "itemNumber": "429",
+        "itemTitle": "Jason Flom with Greg Brown",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the story of Greg Brown, who was wrongfully convicted of arson and murder in connection with a 1995 fire that tragically killed three firefighters in Pittsburgh.  Despite evidence suggesting the fire was accidental, fueled by a gas-powered lawnmower, and initial lab results being negative for accelerants,  Brown and his mother, Darlene Buckner, were targeted.  The investigation was marred by junk science in arson investigation, and crucially, by paid witnesses who provided incentivized testimony against Brown. He served 20 years in prison before his conviction was overturned due to the exposure of the paid witness scheme.  However, even after release and facing continued legal challenges, Brown ultimately accepted an Alford plea to conclude the case, highlighting the profound systemic failures within the justice system and the long-lasting impact on the wrongfully convicted."
+    },
+    "featuredIndividual": {
+        "fullName": "Greg Brown",
+        "caseLocation": "Pittsburgh, Pennsylvania, USA",
+        "convictionYear": "1997 (inferred from discussion of trial and sentencing after 1995 fire)",
+        "exonerationYear": "2016 (released in 2016, but not fully exonerated in the traditional sense, Alford plea in 2022)",
+        "crimeConvictedOf": "Arson and Murder (of three firefighters)",
+        "sentence": "Life sentence (inferred from discussion of prison and appeals process)",
+        "timeServed": "20 years",
+        "contributingFactorsRaw": [
+            "Junk Science (disproven arson investigation methods)",
+            "Paid Witnesses (incentivized testimony from neighbor and bunkmate)",
+            "Ineffective Defense Counsel (lack of expert witness, unaware of reward money)",
+            "Rush to Judgment (quick determination of arson without thorough investigation)",
+            "Possible Racial Bias (mentioned by Greg Brown)"
+        ],
+        "status": "Released, Alford Plea in Federal Court (case resolved but not full exoneration)",
+        "organizationsInvolvedRaw": [
+            "Pennsylvania Innocence Project",
+            "Point Park University's Innocence Institute",
+            "Reed Smith (Dave Fawcett - lawyer)"
+        ],
+        "innocenceLawyersRaw": [
+            "Elizabeth Delosa (Pennsylvania Innocence Project) - Interviewed in the podcast, worked on Greg's case.",
+            "Dave Fawcett (Reed Smith) - Lawyer who helped locate witnesses and presented evidence at post-conviction hearing.",
+            "Marissa Bluestan (Pennsylvania Innocence Project) -  Involved when the Pennsylvania Innocence Project picked up the case."
+        ],
+        "crossReference": "Needs to be checked against exoneree database.",
+        "narrativeOriginalCrime": "A fire at the Buckner-Brown residence on Valentine's Day 1995, resulted in the tragic deaths of three firefighters.  The prosecution alleged that Greg Brown and his mother intentionally set the fire for a $20,000 insurance payout.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of lab tech William Knard claiming gasoline traces in two samples (later disputed as junk science and potentially altered report).",
+            "Testimony of paid witness Ibrahim Abdullah, Greg's bunkmate, claiming Greg confessed to starting the fire.",
+            "Testimony of paid witness Keith Wright, neighbor, claiming to have seen Greg outside the house before firemen arrived (contradicting Greg's alibi)."
+        ],
+        "trialDefenderNotes": "-   Al Lindsey (Trial Attorney) -  Defense attorney who was seemingly ineffective, unaware of reward money, did not effectively challenge arson science or paid witness testimony.",
+        "keyEvidenceExonerationRaw": [
+            "Recantation of testimony by paid witnesses Ibrahim Abdullah and Keith Wright, admitting they were incentivized and/or coerced.",
+            "Evidence of redacted checks from ATF confirming payments to witnesses.",
+            "Expert testimony from arson scientist Gerald Hurst, refuting the arson determination and highlighting accidental nature of the fire.",
+            "John Lentini's analysis refuting William Knard's report and confirming no gasoline presence."
+        ],
+        "actualPerpetratorDetails": "Not applicable, case was presented as arson by Greg Brown and mother, later shown to be accidental."
+    },
+    "keyQuotesRaw": [
+        "\"someone was wrongfully convicted of a crime that never even happened.\" - Host, Jason Flom, highlighting the accidental fire aspect.",
+        "\"I definitely believe race played a major factor in it. You know, we're going to get to the bottom and we'll get these got these, this black family out of here.\" - Greg Brown, expressing belief in racial bias in the investigation.",
+        "\"Jason Wick...he definitely was persistent even when he was receiving no information from these children. He was not afraid to use that financial incentive to get the statement that he wanted.\" - Host, describing ATF agent's actions.",
+        "\"i want to thank the firefighters for saving my family\" - Greg Brown's first words upon release, highlighting his perspective and lack of malice.",
+        "\"be skeptical be healthily skeptical of what you're hearing and don't just take you know someone who is very confident and also can be very wrong word for it\" - Elizabeth Delosa, call for critical thinking."
+    ],
+    "systemicIssuesRaw": [
+        "Junk Science in arson investigation.",
+        "Use of paid witnesses and incentivized testimony.",
+        "Prosecutorial misconduct (withholding exculpatory evidence, misrepresenting witness payments).",
+        "Ineffective assistance of counsel.",
+        "Racial bias in the justice system (suggested).",
+        "Pressure to solve high-profile cases quickly, leading to rush to judgment."
+    ],
+    "policyRecommendationsRaw": [
+        "Increased scrutiny of arson investigation methods and expert testimony.",
+        "Stricter regulations and oversight regarding the use of paid witnesses.",
+        "Need for better funding and resources for innocence projects and defense attorneys.",
+        "Promoting healthy skepticism and critical thinking in jurors and the public regarding criminal cases.",
+        "Emphasis on thorough and unbiased investigations, resisting rush to judgment."
+    ],
+    "personalNarrativeRaw": [
+        "Greg Brown describes a happy childhood before the fire.  The wrongful conviction resulted in 20 years of his life lost in prison, impacting him and his family deeply.  He expresses the ongoing emotional toll and difficulty in fully moving on despite the legal resolution.  His first thought upon release was to thank the firefighters, demonstrating his lack of ill will and focus on the tragedy of the fire itself rather than personal bitterness.  He emphasizes the need for people to be more discerning and not rush to judgment."
+    ],
+    "additionalResourcesRaw": [
+        "Mention of \"junk science podcast\" episode on arson investigation (within Wrongful Conviction series).",
+        "Pennsylvania Innocence Project website (inferred, should be linked in episode description according to host).",
+        "Greg Brown's upcoming book \"The Greg Brown Story Volume One\".",
+        "Christine Bunch's case (mentioned as another case with William Knard, should be linked).",
+        "Exoneree database (cross-reference mentioned)."
+    ]
+}

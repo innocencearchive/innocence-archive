@@ -1,0 +1,188 @@
+{
+  "source_file_name": "35.anatomy_of_innocence.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Anatomy of Innocence: Testimonies of the Wrongfully Convicted",
+    "creator_name": "Edited by Laura Caldwell and Leslie S. Klinger",
+    "publication_or_release_year": 2017,
+    "publisher_or_network": "Liveright Publishing Corporation",
+    "format": "Hardcover, 304 pages",
+    "focus_or_theme": "Collection of exoneree stories told by prominent mystery/thriller writers",
+    "key_statistics": "Features 14 exonerees; eyewitness misidentifications played a role in 70% of DNA-confirmed exonerations"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "The stories are variations on Kafkaesque themes: Innocents inexplicably implicated in gruesome crimes, stripped of their humanity in sterile interrogation rooms and jail cells, and denied any actual presumption of innocence in their eventual trials.",
+      "Remarkably, most of the exonerees are more upbeat than bitter when freed."
+    ],
+    "research_notes_other": {},
+    "systemic_issues_raw": [
+      "Unreliable eyewitness testimony (played a role in 70% of DNA-confirmed exonerations)",
+      "Incentivized informants (witnesses promised rewards for testimony)",
+      "Police misconduct (coaching witnesses, withholding evidence)",
+      "Prosecutorial misconduct (suborning perjurious testimony, withholding information on deals)",
+      "Racial bias in the criminal justice system",
+      "Flawed forensic science"
+    ],
+    "policy_recommendations_raw": [
+      "Criminal justice reforms to prevent future miscarriages of justice",
+      "Better support systems for exonerees",
+      "Improved eyewitness identification procedures",
+      "Reforms to prevent use of incentivized informants"
+    ],
+    "additional_resources_raw": [
+      "Life After Innocence project at Loyola University in Chicago (founded by Laura Caldwell)",
+      "Innocence Project",
+      "National Registry of Exonerations"
+    ],
+    "item_title": "Book Content: Anatomy of Innocence: Testimonies of the Wrongfully Convicted",
+    "focus_or_theme": "Collection of exoneree stories told by prominent mystery/thriller writers",
+    "summary_notes": "This book features 14 exonerees' stories, each paired with a prominent mystery/thriller writer.  It covers the entire wrongful conviction experience, from arrest to exoneration and life afterward, aiming to provide readers with a deeper understanding of the flawed criminal justice system.",
+    "case_details_raw": "The book includes detailed accounts of various wrongful convictions, highlighting the experiences of exonerees from arrest through imprisonment to exoneration and life afterward.  Specific cases include Kirk Bloodsworth (Maryland, death row for rape and murder, exonerated in 1993), Michael Evans (Chicago, Illinois, 26 years served for child murder), Gloria Killian (California, murder), Juan Rivera (Illinois, murder and rape, about 20 years served), Audrey Edmunds, Alton Logan (26 years served), and Jerry Miller (Illinois)."
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Kirk Bloodsworth",
+      "first_name": "Kirk",
+      "middle_name": null,
+      "last_name": "Bloodsworth",
+      "case_location": "Maryland",
+      "conviction_year": null,
+      "exoneration_or_release_year": 1993,
+      "crime_convicted_of": "Rape and murder of a young girl",
+      "sentence": "Death row",
+      "time_served": "Nine years on death row",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification: Identified by two youngsters who had been coached by police",
+        "Unreliable forensic science: Later disproven by DNA evidence"
+      ],
+      "status_raw": "Exonerated through DNA evidence",
+      "organizations_involved_raw": [],
+      "cross_reference": "The actual killer was later identified through DNA database as a fellow inmate",
+      "individual_notes": null
+    },
+    {
+      "full_name": "Michael Evans",
+      "first_name": "Michael",
+      "middle_name": null,
+      "last_name": "Evans",
+      "case_location": "Chicago, Illinois",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": "Child murder",
+      "sentence": null,
+      "time_served": "26 years",
+      "contributing_factors_raw": [
+        "Incentivized informant: Witness was given a $1,250 reward for testimony"
+      ],
+      "status_raw": "Exonerated through DNA evidence",
+      "organizations_involved_raw": [],
+      "cross_reference": "The actual killer remains unknown",
+      "individual_notes": null
+    },
+    {
+      "full_name": "Gloria Killian",
+      "first_name": "Gloria",
+      "middle_name": null,
+      "last_name": "Killian",
+      "case_location": "California",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": "Murder",
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [],
+      "cross_reference": "Her story is told by S.J. Rozan in the book",
+      "individual_notes": null
+    },
+    {
+      "full_name": "Juan Rivera",
+      "first_name": "Juan",
+      "middle_name": null,
+      "last_name": "Rivera",
+      "case_location": "Illinois",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": "Murder and rape",
+      "sentence": null,
+      "time_served": "About 20 years",
+      "contributing_factors_raw": [],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [],
+      "cross_reference": "His story is told by Laura Caldwell in the book",
+      "individual_notes": null
+    },
+    {
+      "full_name": "Audrey Edmunds",
+      "first_name": "Audrey",
+      "middle_name": null,
+      "last_name": "Edmunds",
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": null,
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [],
+      "cross_reference": "Her story is told by Judge John Sheldon and author Gayle Lynds, focusing on her experience raising children from prison",
+      "individual_notes": null
+    },
+    {
+      "full_name": "Alton Logan",
+      "first_name": "Alton",
+      "middle_name": null,
+      "last_name": "Logan",
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": null,
+      "sentence": null,
+      "time_served": "26 years",
+      "contributing_factors_raw": [],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [],
+      "cross_reference": "His story is told by Jan Burke in the book",
+      "individual_notes": null
+    },
+    {
+      "full_name": "Jerry Miller",
+      "first_name": "Jerry",
+      "middle_name": null,
+      "last_name": "Miller",
+      "case_location": "Illinois",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": null,
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [],
+      "cross_reference": "His story is told by John Mankiewicz in the book",
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Laura Caldwell",
+      "role": "AUTHOR",
+      "first_name": "Laura",
+      "middle_name": null,
+      "last_name": "Caldwell"
+    },
+    {
+      "full_name": "Leslie S. Klinger",
+      "role": "AUTHOR",
+      "first_name": "Leslie",
+      "middle_name": "S.",
+      "last_name": "Klinger"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "The book pairs each exoneree with a prominent mystery or thriller writer to tell their story, including Lee Child, Sara Paretsky, Laurie King, S.J. Rozan, and others. The editors note that apart from \"nominal\" fees paid to authors, editors, and exonerees, any royalties from the book go to the Life After Innocence project at Loyola University in Chicago.\n\nThe book is structured to cover every aspect of the wrongful conviction experience, from arrest through imprisonment to exoneration and life afterward. It aims to give readers \"a deeper understanding of the price of our flawed criminal justice system and an urge to help.\""
+}

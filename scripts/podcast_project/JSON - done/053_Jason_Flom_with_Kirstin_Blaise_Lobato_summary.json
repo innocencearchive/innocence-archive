@@ -1,0 +1,100 @@
+{
+    "sourceFileName": "053_Jason_Flom_with_Kirstin_Blaise_Lobato_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2018",
+        "network": "Lava for Good Podcasts, in association with Signal Company Number One",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, investigative journalism, personal narratives of exonerees, systemic issues in the justice system.",
+        "keyStats": "-   America has 2.2 million people in prison.\n-   Just 1% wrongful conviction rate equates to 22,000 people.\n-   Jailhouse snitch testimony played a role in about 17% of post-conviction DNA exonerations.",
+        "itemNumber": "053",
+        "itemTitle": "Jason Flom with Kirstin Blaise Lobato",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Blaze Labato, recently exonerated after serving over 16 years for a murder she did not commit. The podcast details the gruesome murder of Duran Bailey in 2001 and how police fixated on Labato based on a misinterpreted self-defense incident she reported.  Despite overwhelming evidence of a botched investigation, including untested DNA, ignored leads, and reliance on a jailhouse snitch, Labato was wrongly convicted in two trials.  The episode highlights systemic issues like tunnel vision in law enforcement, ineffective defense counsel in the second trial, and the devastating impact of wrongful convictions.  Ultimately, the Innocence Project intervened, presenting expert testimony on time of death which proved Labato's alibi, leading to her exoneration.  The podcast emphasizes the crucial role of citizen activism, exemplified by Labato’s supporter Michelle Ravel, and calls for systemic reform in the justice system."
+    },
+    "featuredIndividual": {
+        "fullName": "Blaze Labato",
+        "caseLocation": "Las Vegas, Nevada, USA; Crime in Las Vegas, Blaze lived in Panaca, Nevada when arrested.",
+        "convictionYear": "2006 (first conviction mentioned)",
+        "exonerationYear": "Recently freed at the time of the podcast (around 2018 based on context clues like Innocence Network Conference starting 11 years prior and being in its 12th year). Exact year not specified.",
+        "crimeConvictedOf": "Manslaughter (initially found guilty of murder, convicted of manslaughter in retrial context) for the murder of Duran Bailey.",
+        "sentence": "13 to 45 years (original sentence mentioned in podcast). Later in transcript mentions \"Forty to a hundred years at 19 years old\" but this might be a misstatement as the initial sentence was stated as 13-45 years and the context of life sentence discussion might be hyperbole or referring to the practical impact of a long sentence.",
+        "timeServed": "Over 16 years",
+        "contributingFactorsRaw": [
+            "Tunnel vision by law enforcement (fixation on Blaze based on misinterpreted self-defense story).",
+            "Botched police investigation (failure to test DNA, ignore other leads, not investigate other suspects).",
+            "Misinterpretation of Blaze's statements during interrogation (confusing her self-defense incident with the Bailey murder).",
+            "Use of jailhouse snitch testimony.",
+            "Ineffective assistance of counsel in second trial due to budgetary constraints and attorney issues.",
+            "Prosecutorial misconduct (twisting science, presenting false information to jury).",
+            "Othering of Blaze as an outsider and someone with a past drug issue."
+        ],
+        "status": "Exonerated, charges dismissed.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project"
+        ],
+        "innocenceLawyersRaw": [
+            "Jane Butcher and Adnan Sultan, staff attorneys at the Innocence Project.",
+            "Vanessa Potkin, director of post-conviction litigation at the Innocence Project.",
+            "Michelle Ravel, strong advocate and supporter (not a lawyer but instrumental in Blaze's case).",
+            "Phil Cohn (original attorney, mentioned in context of plea deal).",
+            "Tony Sarah (California attorney hired for retrial, but indicted for tax evasion)."
+        ],
+        "crossReference": "Not specified if in exoneree database, but highly likely given Innocence Project involvement.",
+        "narrativeOriginalCrime": "Duran Bailey, a homeless man, was found brutally murdered in Las Vegas on July 1, 2001. He was found in a garbage dump, severely beaten, with his penis severed, and eyes beaten shut.",
+        "keyEvidenceProsecutionRaw": [
+            "Misinterpreted statement from Blaze Labato about a self-defense incident.",
+            "False positive luminal test on Blaze's car, misrepresented as blood evidence.",
+            "Testimony of a jailhouse snitch who claimed Blaze confessed to her.",
+            "Character assassination of Blaze, portraying her as a drug-addicted \"wild child\" from out of town.",
+            "Prosecution theory that Blaze drove from Panaca to Las Vegas in the early morning to buy drugs, met Bailey and murdered him after he asked for a sexual favor in exchange for drugs."
+        ],
+        "trialDefenderNotes": "-   First trial defense not detailed in transcript, but implied to be inadequate as Blaze was convicted.\n-   Second trial defense hampered by issues with hired attorney Tony Sarah and budgetary constraints from public defender's office, limiting expert testimony and DNA testing.",
+        "keyEvidenceExonerationRaw": [
+            "Expert testimony from forensic pathologist Dr. Andrew Baker and forensic entomologists (Dr. Gail Anderson, Dr. Robert Kimsey, and Dr. Jeffrey Tom Berlin) at evidentiary hearing.",
+            "Experts established that the time of death of Duran Bailey was significantly later than the prosecution's theory, proving Blaze's alibi that she was in Panaca at the time of the murder.",
+            "Nevada Supreme Court remanded Blaze's case for evidentiary hearing based on issues around time of death and entomology.",
+            "Judge granted a new trial after the evidentiary hearing based on ineffective assistance of counsel (failure to call forensic entomologists and pathologists).",
+            "Prosecutor's office ultimately dismissed the charges."
+        ],
+        "actualPerpetratorDetails": "Not identified or discussed in the transcript. The podcast emphasizes the failure of police to investigate other potential suspects, including men associated with a woman who was previously attacked by Duran Bailey."
+    },
+    "keyQuotesRaw": [
+        "\"Having to hear those people say that I was guilty of a crime that I did not commit, and then hear my family break down behind me and not be able to do anything about it, I can't describe the crushing weight that was.\" - Blaze Labato, describing the impact of conviction.",
+        "\"I'm not anti-police, I'm just anti-corruption.\" - Blaze Labato.",
+        "\"The tunnel vision was so extreme that they didn't even see she's not talking she can't be talking about this this assault this person being killed she's talking about something that happened two months before.\" - Jane Butcher, describing police misinterpretation of Blaze's statement.",
+        "\"It's so easy for them. It's so easy for them. To seize an opportunity to try and get less time. You know, they lie. They cheat. They steal. It doesn't matter. They don't have morals or ethics. They'll do whatever it takes not to go to prison or to be there for less time.\" - Jason Flom, on jailhouse snitches.",
+        "\"Pick one case, research it, highlight it, get it out there in the world and help free these innocent people. There are too many people in prison who don't belong there.\" - Michelle Ravel, call to action for journalists."
+    ],
+    "systemicIssuesRaw": [
+        "Tunnel vision and confirmation bias in police investigations.",
+        "Failure to properly investigate alternative suspects and evidence.",
+        "Misuse and unreliability of jailhouse snitch testimony.",
+        "Ineffective assistance of counsel, particularly due to lack of funding for public defenders.",
+        "Prosecutorial misconduct and willingness to pursue convictions despite weak or contradictory evidence.",
+        "Othering and character assassination of defendants.",
+        "Difficulties in accessing justice and information within the prison system."
+    ],
+    "policyRecommendationsRaw": [
+        "Systemic reform of the judicial system to prevent wrongful convictions.",
+        "Increased funding and resources for public defenders to ensure adequate defense for all.",
+        "Reform of policies regarding jailhouse snitch testimony.",
+        "Encouragement of citizen activism and media involvement in highlighting wrongful conviction cases.",
+        "Support for organizations like the Innocence Project."
+    ],
+    "personalNarrativeRaw": [
+        "Blaze Labato endured a traumatic childhood including sexual abuse and drug use, but was drug-free at the time of her arrest.",
+        "Wrongful conviction led to over 16 years of incarceration, profoundly impacting her life and family.",
+        "Blaze demonstrated resilience and strength throughout her ordeal, maintaining a positive attitude and concern for others even while imprisoned.",
+        "Expressed gratitude for her support network, especially Michelle Ravel.",
+        "Committed to advocating for justice reform and helping others who are wrongfully convicted."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project (InnocenceProject.org) - mentioned as a resource for donation and involvement.",
+        "Innocence Network Conference - mentioned as a gathering for exonerees and advocates.",
+        "Spotlight Snitch City Podcast - advertised within the episode, relevant to the theme of wrongful convictions and informant issues.",
+        "Fighting Words Podcast - advertised within the episode, seemingly related to social justice themes."
+    ]
+}

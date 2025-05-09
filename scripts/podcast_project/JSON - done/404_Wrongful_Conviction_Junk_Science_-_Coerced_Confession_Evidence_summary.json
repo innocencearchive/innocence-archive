@@ -1,0 +1,86 @@
+{
+    "sourceFileName": "404_Wrongful_Conviction_Junk_Science_-_Coerced_Confession_Evidence_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction Junk Science",
+    "mediaItem": {
+        "hosts": "Kate Judson, Josh Dubin, David Rudolph (Guest)",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts, Signal Company No. 1",
+        "seriesType": "Episodic Series (part of \"Junk Science\" series within \"Wrongful Conviction\" podcast feed)",
+        "format": "Podcast",
+        "focusTheme_Work": "False confessions, interrogation techniques (Reid Technique), junk science in interrogations, psychological factors leading to false confessions, criminal justice reform.",
+        "keyStats": "-   25% of wrongful convictions are based on false confessions (mentioned as a refresher).\n-   Saul Cassin's experiment: 100% of students confessed to hitting the alt key when presented with false incriminating evidence, even though they didn't do it. 65% of those believed they were guilty, and 35% internalized guilt and made up details.\n-   John Reid's technique is used by over half a million law enforcement and security officers (according to Reid & Associates website).\n-   Police officers are no better than average person at detecting lies and verbal/non-verbal cues are not scientifically valid indicators of deception.\n-   In the US, police are legally allowed to lie to suspects during interrogations, unlike in countries like Great Britain, Canada, Australia, and New Zealand.\n-   PEACE method is used in Great Britain as an alternative to Reid Technique.\n-   Scotland has a \"not proven\" verdict option in addition to \"guilty\" and \"not guilty\".",
+        "itemNumber": "404",
+        "itemTitle": "Wrongful Conviction Junk Science - Coerced Confession Evidence",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction Junk Science, hosted by Kate Judson and Josh Dubin, with guest David Rudolph, delves into the pervasive issue of false confessions and the junk science underpinning interrogation techniques like the Reid Technique.  The episode uses a psychology experiment by Saul Cassin to illustrate how easily false confessions can be elicited through pressure and false evidence, even in low-stakes scenarios. It highlights the Reid Technique's focus on securing confessions from presumed guilty suspects through isolation, manipulation, and lies about evidence.  David Rudolph contrasts this with the PEACE method used in Great Britain, advocating for a shift towards more ethical and evidence-based interrogation methods. The podcast emphasizes the vulnerability of innocent individuals to these tactics and calls for listeners to become informed jurors and advocates for criminal justice reform, particularly regarding interrogation practices and the permissibility of police deception. Ultimately, the episode urges listeners to understand the tactics of coercive interrogations and to always invoke the right to counsel if interrogated."
+    },
+    "featuredIndividual": {
+        "fullName": "Stephen Born",
+        "caseLocation": "Vermont, USA",
+        "convictionYear": "1819",
+        "exonerationYear": "Before execution (brother-in-law found alive)",
+        "crimeConvictedOf": "Murder of brother-in-law",
+        "sentence": "Death penalty",
+        "timeServed": "Not explicitly stated, but before execution.",
+        "contributingFactorsRaw": [
+            "False confession elicited by police pressure to avoid death penalty, reliance on circumstantial evidence (animal bones mistaken for human bones)."
+        ],
+        "status": "Conviction overturned (due to brother-in-law being found alive). Effectively exonerated by circumstance, though not formally in modern terms.",
+        "organizationsInvolvedRaw": [
+            "Not mentioned."
+        ],
+        "innocenceLawyersRaw": [
+            "Not mentioned."
+        ],
+        "crossReference": "Not applicable as case predates modern exoneree databases and was resolved by factual finding, not legal exoneration in the modern sense.",
+        "narrativeOriginalCrime": "Stephen Born was accused of murdering his brother-in-law who had gone missing.",
+        "keyEvidenceProsecutionRaw": [
+            "Discovery of bones in his backyard, alleged to be his brother-in-law's. Police pressure and claim confession was the only way to avoid death penalty."
+        ],
+        "trialDefenderNotes": "Not mentioned.",
+        "keyEvidenceExonerationRaw": [
+            "Brother-in-law was found alive in New Jersey. Bones were determined to be animal bones."
+        ],
+        "actualPerpetratorDetails": "Brother-in-law was alive, so no actual perpetrator of murder."
+    },
+    "keyQuotesRaw": [
+        "Kate Judson: \"Confessions, as you'll hear in this episode, are frequently unreliable, especially under circumstances that include but aren't limited to depression, shock, youth, grief, and false claims by law enforcement.\"",
+        "Josh Dubin: \"Interrogation techniques that detectives use when questioning a suspect are in fact very efficient and extremely effective. They routinely result in getting people to confess to committing crimes. And that presents a really unique dilemma for detectives investigating those crimes. They know that once they get someone in that windowless room of a police precinct, they will oftentimes be able to get them to confess, which means those detectives better have real evidence...\"",
+        "David Rudolph: \"The read technique is simply a protocol for how to interrogate someone, and this is important, who you already believe is guilty. You don't use the read technique in order to elicit information. You only use the read technique in order to secure admissions and then ultimately a confession.\"",
+        "David Rudolph: \"It's intuition plus arrogance. That's my recipe for how this all starts.\" (referring to police officers using Reid technique)",
+        "David Rudolph: \"In Great Britain, the cops cannot lie to you about the evidence. But our Supreme Court has said, oh, no, it's fine for you to lie to a suspect about the evidence, because after all, he or she knows if he's innocent, that it can't be true. Well, that ignores the psychology of it.\"",
+        "David Rudolph: \"Stop using this particular technique [Reid technique]. It's an enormously effective technique to get guilty people to confess. We can all agree on that. The problem is it's also an enormously effective technique to get innocent people to confess.\"",
+        "Josh Dubin (quoting advice at end): \"My name is Christopher Ochoa, John Restivo, Sante Tribble, Clementia Geary, and I want a lawyer, and you don't answer a single question after that.\""
+    ],
+    "systemicIssuesRaw": [
+        "Use of Reid Technique and its reliance on psychological manipulation and junk science.",
+        "Legal permissibility of police deception during interrogations in the US.",
+        "Confirmation bias in police investigations leading to tunnel vision and pressure for confession.",
+        "Lack of jury understanding regarding the phenomenon of false confessions.",
+        "Pressure on law enforcement to solve high-profile cases quickly, potentially leading to increased risk of false confessions when evidence is lacking."
+    ],
+    "policyRecommendationsRaw": [
+        "Stop using the Reid Technique in favor of methods like the PEACE method.",
+        "Change laws to prohibit police from lying to suspects during interrogations.",
+        "Educate jurors and the public about false confessions.",
+        "Consider adopting a \"not proven\" verdict option like in Scotland.",
+        "Listeners urged to sit on juries and discuss these issues to promote change from the \"bottom up.\"",
+        "Strong recommendation for individuals to always request a lawyer if interrogated by police and to remain silent."
+    ],
+    "personalNarrativeRaw": [
+        "The hypothetical scenario of the student in the psychology experiment vividly illustrates the feeling of vulnerability and self-doubt that can lead to false confessions, even in low-stakes situations. This helps listeners empathize with individuals in high-pressure interrogation scenarios.",
+        "The episode emphasizes that \"innocence is not a safeguard against being incarcerated\" and highlights the universal vulnerability to coercive interrogation tactics, affecting even \"the toughest among us.\"",
+        "The concluding advice to invoke the right to counsel is a direct call to personal action and self-protection in a system where false confessions are a significant risk."
+    ],
+    "additionalResourcesRaw": [
+        "Mention of the podcast \"Wrongful Conviction, False Confessions\" hosted by Laura Nyrider and Steve Drissen.",
+        "Website whiteslux.com (for Weitz & Luxembourg law firm, sponsors of the podcast).",
+        "Reference to the Netflix series \"The Staircase\" featuring David Rudolph.",
+        "Mention of Reid & Associates website (as source of information on Reid Technique training).",
+        "LifeEMS.com and 1-888-Life EMS (for Life EMS Ambulance and Life Care Plus membership).",
+        "JoinMIDI.com (for MIDI Health for menopause symptoms).",
+        "Target.com slash circle or the Target app (for Target Circle 360).",
+        "Todd Wenzel.com (for Todd Wenzel Buick GMC).",
+        "washcollege.edu (unrelated educational mention)."
+    ]
+}

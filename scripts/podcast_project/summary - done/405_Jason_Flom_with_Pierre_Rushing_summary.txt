@@ -1,0 +1,93 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+For each podcast on wrongful convictions, we'll collect the following information:
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Episode re-release (originally aired July 8th, 2020) - PR Rushing
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2020, 2023 (re-release year)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Ongoing Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, criminal justice system, eyewitness misidentification, prosecutorial accountability, post-conviction legal battles.
+-   **Key Statistics/Information**:
+    - PR Rushing is serving 50 years to life for a murder he did not commit.
+    - The sole eyewitness, Robert Greene, recanted his testimony.
+    - There is no physical evidence linking PR Rushing to the crime.
+    - Key witnesses, Patrick Smith and Yolanda Washington, have come forward to state PR Rushing is innocent and identify the actual perpetrator as someone else known as "C".
+    - DNA evidence from the crime scene car has not been tested despite requests.
+    - Phone records could have exonerated PR Rushing at trial but were not presented.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Jason Flom" revisits the case of PR Rushing, who is serving 50 years to life for a murder he maintains he did not commit.  The episode details the events leading to his wrongful conviction, highlighting the flawed eyewitness identification by Robert Greene, who later recanted.  Despite a solid alibi, lack of physical evidence, and subsequent affidavits from other individuals identifying the real perpetrator, PR Rushing remains incarcerated.  The podcast features interviews with PR Rushing from prison and his attorney Marvin Lu, outlining the systemic failures and ongoing legal battles to secure his exoneration, including the denial to test potentially exonerating DNA evidence. The episode emphasizes the devastating impact of wrongful convictions and calls for public action to urge the District Attorney Pamela Price to review and dismiss PR Rushing's case in light of overwhelming evidence of innocence.  The re-release includes updates on the case since the original 2020 airing, including the recantation of the sole eyewitness.
+
+### Wrongfully Convicted Individuals Featured
+
+For each individual mentioned or featured:
+
+-   **Name**: PR Rushing
+-   **Case Location**: Oakland, California, USA
+-   **Conviction Year**: Approximately 2012 (convicted after May 2011 arrest, speedy trial)
+-   **Exoneration Year**: Not yet exonerated (as of podcast release)
+-   **Crime Convicted Of**: Murder of Dewan Taylor
+-   **Sentence**: 50 years to life
+-   **Time Served**: Approximately 12 years (as of podcast recording in 2023 re-release)
+-   **Contributing Factors**:
+    - Eyewitness Misidentification: Sole eyewitness Robert Greene's unreliable and changing descriptions, and suggestive identification process.
+    - Lack of Physical Evidence: No fingerprints or DNA of PR Rushing found at the crime scene.
+    - Inadequate Legal Representation: Public defender, speedy trial, failure to present key exonerating evidence (phone records, DNA testing proactively).
+    - Systemic Issues: Potential prosecutorial inertia and resistance to re-examining cases despite new evidence of innocence.
+-   **Legal Status**: Currently incarcerated, seeking exoneration through legal appeals and habeas corpus petitions.
+-   **Organizations Involved**:
+    - Greenberg Traurig (law firm, pro bono representation)
+-   **Innocence Lawyer Details**:
+    - Marvin Lu: Post-conviction attorney who initially represented PR Rushing and highlighted key evidence for exoneration.
+    - Jordan Grotsinger: Attorney from Greenberg Traurig currently representing PR Rushing pro bono, leading the legal efforts for exoneration.
+    - Stephen Bedrick: Attorney who handled the direct appeal and initial habeas corpus petition.
+-   **Cross-Reference**: Yes (should be cross-referenced in exoneree database if applicable)
+-   **Narrative of Original Crime**: Dewan Taylor stole an iPod from a drug dealer known as "C". "C", along with Patrick Smith and Andre Morris, pursued Taylor. "C" shot and killed Dewan Taylor over the stolen iPod.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Eyewitness testimony of Robert Greene identifying PR Rushing as the shooter "C". This was the primary and virtually sole piece of evidence.
+-   **Trial Defender Notes**:
+    - Public defender assigned for trial.
+    - PR Rushing opted for a speedy trial.
+    - Trial defense did not effectively present alibi evidence initially, nor thoroughly challenge the eyewitness testimony or introduce phone record evidence.
+    - Stipulated to fingerprint evidence instead of calling the evidence technician to testify, missing an opportunity to highlight DNA evidence collection that was not tested.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - Recantation of Robert Greene: Sole eyewitness Robert Greene has recanted his identification, stating he knew PR Rushing was not the shooter.
+    - Affidavits from Patrick Smith and Yolanda Washington: Both individuals, present at the periphery of the crime, have stated that PR Rushing is not "C" and have offered information pointing to the actual perpetrator.
+    - Phone Records:  Phone records demonstrate PR Rushing was not on his phone at the time the shooter was reportedly on his, providing alibi evidence.
+    - DNA Evidence: DNA collected from the crime scene vehicle has not been tested but could potentially identify the actual perpetrator and exonerate PR Rushing.
+-   **Actual Perpetrator Details**:
+    - Known as "C" - a drug dealer from Oakland. First name is [censored] in the podcast for safety reasons.
+    - Andre Morris: Co-conspirator who was also involved in the crime and convicted.
+    - Patrick Smith: Accessory after the fact, who drove the vehicle.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - PR Rushing: "Every millisecond that passes by is an injustice." (Expressing the urgency and pain of wrongful imprisonment)
+    - Lauren Richardson: "I have never felt as powerless as I felt in this situation to express reality and be believed in... they ruined an entire family." (Highlighting the frustration and devastating impact of the wrongful conviction)
+    - Jason Flom:  "...the idea that we in this country can sentence somebody like you promising young man with his life ahead of him to 50 years based on the testimony of an admitted crack head... really should make everybody a little scared." (Emphasizing the injustice and systemic flaws)
+-   **Systemic Issues Identified**:
+    - Eyewitness Misidentification: The case heavily relies on a single, unreliable eyewitness whose description changed multiple times.
+    - Reliance on Testimony of Drug Users: The credibility of Robert Greene, an admitted crack and heroin user who was high at the time of the crime, is questionable.
+    - Prosecutorial Resistance to Exoneration: Despite recantation and new evidence, there is resistance from the DA's office to release PR Rushing.
+    - Ineffective Assistance of Counsel: Initial defense may have missed opportunities to present crucial evidence and challenge the prosecution's case effectively.
+-   **Policy Recommendations/Calls to Action**:
+    - Call and email Alameda County District Attorney Pamela Price's office to demand justice for PR Rushing and request the dismissal of his case.
+    - Advocate for greater scrutiny of eyewitness testimony and for the routine testing of available DNA evidence in criminal cases.
+    - Support reform-minded prosecutors who are willing to review potential wrongful convictions.
+-   **Personal Narrative/Impact**:
+    - PR Rushing's promising music career was destroyed by the wrongful conviction. He has spent 12 years in prison for a crime he did not commit, causing immense personal and familial suffering. He expresses the injustice of his continued incarceration despite overwhelming evidence of innocence and pleads for his freedom to rejoin his family and community. He mentions the tragic murder of his sister and his niece needing him, underscoring the devastating impact on his family.
+-   **Additional Resources**:
+    - Joe Rogan Podcast (PR Rushing's case discussed)
+    - Breiface Club Interview (PR Rushing's case discussed)
+    - Previous "Wrongful Conviction with Jason Flom" episode from July 8th, 2020, covering the initial case details.
+```

@@ -1,0 +1,84 @@
+{
+  "source_file_name": "9.36.dream_killer.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "Dream/Killer",
+    "creator_name": "Andrew Jenks",
+    "publication_or_release_year": 2015,
+    "publisher_or_network": null,
+    "focus_or_theme": "Chronicles the wrongful conviction of Ryan Ferguson for a murder he did not commit and the decade-long fight led by his father, Bill Ferguson, to prove his innocence and secure his release.",
+    "summaryNotes": "Ryan Ferguson spent nearly 10 years in prison before his conviction was vacated in 2013.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Dream/Killer",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Chronicles the wrongful conviction of Ryan Ferguson for a murder he did not commit and the decade-long fight led by his father, Bill Ferguson, to prove his innocence and secure his release.",
+    "summary_notes": "The documentary examines the recanted testimonies, the emotional toll on the family, and highlights the extraordinary efforts of a father fighting for his son's freedom.",
+    "key_quotes_raw": [
+      "Likely features interviews with Ryan and Bill Ferguson, footage from the trials and appeals, examination of the recanted testimonies, and the emotional toll on the family. Highlights the extraordinary efforts of a father fighting for his son's freedom."
+    ],
+    "systemic_issues_raw": [
+      "Wrongful convictions based solely on unreliable testimony",
+      "Consequences of perjury",
+      "Potential prosecutorial misconduct (withholding evidence)",
+      "Difficulty in overturning convictions even with recantations",
+      "The power of determined advocacy",
+      "The film suggests this type of wrongful conviction can happen to anyone, not just those perceived as vulnerable due to race or socioeconomic status."
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly supports mechanisms for reviewing convictions based on recanted testimony",
+      "Highlights the need for prosecutorial accountability (Brady compliance)."
+    ],
+    "external_links_raw": [
+      {
+        "url": null,
+        "description": "News archives covering the Ryan Ferguson case, 48 Hours episodes on the case."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Ryan Ferguson",
+      "first_name": "Ryan",
+      "middle_name": null,
+      "last_name": "Ferguson",
+      "status": "EXONERATED",
+      "conviction_year": 2005,
+      "exoneration_or_release_year": 2013,
+      "time_served": "Nearly 10 years.",
+      "sentence": "40 years.",
+      "crime_convicted_of_raw": "Second-degree murder and robbery (of Kent Heitholt).",
+      "case_location_city": "Columbia",
+      "case_location_state": "Missouri",
+      "narrative_summary": "Ryan Ferguson was wrongfully convicted of murder and robbery based on false testimony and alleged prosecutorial misconduct. He spent nearly 10 years in prison before his conviction was vacated in 2013. The documentary chronicles his father's fight to prove his innocence and secure his release.",
+      "contributing_factors_raw": [
+        "False testimony/perjury (from friend Charles Erickson who later recanted, and a janitor who also later recanted)",
+        "Alleged prosecutorial misconduct (Brady violations related to witness interviews)",
+        "Lack of physical evidence connecting Ferguson to the crime",
+        "Potential police tunnel vision."
+      ],
+      "organizations_involved_raw": [
+        "Bill Ferguson",
+        "Kathleen Zellner"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Andrew Jenks",
+      "first_name": "Andrew",
+      "middle_name": null,
+      "last_name": "Jenks",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

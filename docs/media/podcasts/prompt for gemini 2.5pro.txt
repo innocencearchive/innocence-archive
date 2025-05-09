@@ -1,0 +1,16 @@
+**Task: Analyze Podcast Transcript**
+
+**Objective:** Analyze the attached podcast transcript file using the attached research template file and generate a detailed analysis in markdown format.
+
+**Inputs:**
+1.  **Podcast Transcript File:** [Attach the specific transcript .txt file here]
+2.  **Research Template File:** [Attach your latest research_template_podcasts.txt file here]
+
+**Instructions:**
+1.  Carefully review the attached podcast transcript.
+2.  Using the structure and fields defined in the attached research template, extract the relevant information from the transcript.
+3.  Pay specific attention to accurately filling out all sections, including the "Executive Summary" (1 paragraph, max 8 sentences summarizing the episode).
+4.  Format the entire output as a single markdown document available for copy/paste (not just within the chat transcript), following the headings and bullet points of the template.
+5.  Ensure accuracy and base the analysis solely on the provided transcript content.
+
+**Output:** A markdown document that i can copy and paste in canvas mode containing the completed analysis based on the template.

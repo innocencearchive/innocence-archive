@@ -1,0 +1,130 @@
+{
+    "sourceFileName": "165_Junk_Science_Coerced_Confession_Evidence_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction Junk Science",
+    "mediaItem": {
+        "hosts": "Josh Dubin",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts, in association with Signal Company No. 1",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Junk science related to false confessions, interrogation techniques (Reid Technique), psychology of confessions, systemic issues in the justice system.",
+        "keyStats": "-   25% of wrongful convictions are based on false confessions (mentioned as a refresher from another podcast).\n-   Experiment by Saul Cassin: 100% confession rate with false evidence in a low-stakes scenario.\n-   65% of students presented with false incriminating evidence believed in their own guilt in Cassin's experiment.\n-   35% of students internalized guilt to the point of making up details in Cassin's experiment.\n-   Over half a million law enforcement and security officers have attended Reid and Associates training programs.\n-   Police in the USA are legally allowed to lie to suspects about evidence during interrogations, unlike in countries like Great Britain, Canada, Australia, and New Zealand.",
+        "itemNumber": "165",
+        "itemTitle": "Junk Science Coerced Confession Evidence",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction Junk Science, hosted by Josh Dubin, delves into the psychological tactics behind false confessions and their roots in junk science.  The episode uses a psychology experiment by Saul Cassin to illustrate how pressure and false evidence can lead individuals to confess to acts they did not commit, even in low-stakes scenarios. It then connects this to high-stakes police interrogations, particularly the Reid Technique, highlighting its flaws and potential to elicit false confessions from innocent individuals.  The podcast features criminal defense attorney David Rudolph, who explains the Reid Technique, its reliance on intuition and arrogance, and the dangers of confirmation bias.  The episode contrasts the Reid Technique with the PEACE method used in Great Britain and discusses the unique allowance of police deception in US interrogations.  Finally, it emphasizes the need for systemic change and encourages listeners to be aware of these issues and advocate for reform, including jury duty and public discussion."
+    },
+    "featuredIndividual": {
+        "fullName": "Stephen Bourne",
+        "caseLocation": "Vermont, USA",
+        "convictionYear": "1819",
+        "exonerationYear": "1819 (effectively, before execution)",
+        "crimeConvictedOf": "Murder of his brother-in-law",
+        "sentence": "Death penalty",
+        "timeServed": "Not explicitly stated, but implied to be a short period before brother-in-law was found alive.",
+        "contributingFactorsRaw": [
+            "False confession elicited by police pressure to avoid death penalty, circumstantial evidence (animal bones mistaken for human bones)."
+        ],
+        "status": "Effectively exonerated when brother-in-law was found alive.",
+        "organizationsInvolvedRaw": [
+            "Not mentioned in transcript."
+        ],
+        "innocenceLawyersRaw": [
+            "Not mentioned in transcript."
+        ],
+        "crossReference": "Not Applicable/Not specified in transcript.",
+        "narrativeOriginalCrime": "Stephen Bourne was accused of murdering his missing brother-in-law. Police claimed bones found in his backyard were human remains.",
+        "keyEvidenceProsecutionRaw": [
+            "Bones found in backyard, Stephen Bourne's confession (coerced)."
+        ],
+        "trialDefenderNotes": "Not mentioned in transcript.",
+        "keyEvidenceExonerationRaw": [
+            "Brother-in-law was found alive in New Jersey. Bones were identified as animal bones."
+        ],
+        "actualPerpetratorDetails": "Brother-in-law was alive; no actual crime of murder occurred in this case."
+    },
+    "keyQuotesRaw": [
+        "\"25% of wrongful convictions are based on false confessions.\"",
+        "\"Jurors can never seem to wrap their heads around the fact that someone might confess to a crime they didn't commit.\"",
+        "David Rudolph: \"Intuition plus arrogance. That's my recipe for how this all starts [Reid Technique].\"",
+        "David Rudolph: \"There's much more pressure to get a false confession when there's no evidence. So that means there's much more pressure to get a false confession when the person is innocent.\"",
+        "David Rudolph: \"In Great Britain, the cops cannot lie to you about the evidence. But our Supreme Court has said, oh, no, it's fine for you to lie to a suspect about the evidence.\"",
+        "Josh Dubin (advice): \"My name is Christopher Ochoa, John Restivo, Sante Tribble, Clementia Geary, and I want a lawyer, and you don't answer a single question after that.\""
+    ],
+    "systemicIssuesRaw": [
+        "Use of Reid Technique interrogation methods that are psychologically coercive and can lead to false confessions.",
+        "Lack of scientific basis for detecting deception through verbal and nonverbal cues by interrogators.",
+        "Legal permissibility of police deception about evidence in the US.",
+        "Juror misunderstanding of false confessions and the presumption of innocence.",
+        "Pressure on law enforcement to secure confessions, especially when other evidence is lacking."
+    ],
+    "policyRecommendationsRaw": [
+        "Stop using the Reid Technique of interrogation.",
+        "Adopt the PEACE method of interviewing, as used in Great Britain.",
+        "Change laws to prevent law enforcement from lying to suspects about evidence.",
+        "Consider implementing a \"not proven\" verdict option for juries, similar to Scotland, to better reflect the burden of proof and presumption of innocence.",
+        "Encourage public awareness and discussion about false confessions.",
+        "Advise individuals to always request a lawyer if interrogated, regardless of innocence."
+    ],
+    "personalNarrativeRaw": [
+        "The experiment narrative at the beginning of the podcast is designed to allow listeners to empathize with the vulnerability of individuals in interrogation settings and understand how easily false confessions can occur even in low-stakes situations.",
+        "The concluding advice from Josh Dubin and the list of exonerees' names at the end serve as a stark reminder of the real-world consequences of false confessions and the importance of knowing one's rights."
+    ],
+    "additionalResourcesRaw": [
+        "Website: whiteslux.com (for Weitz & Luxembourg law firm, sponsors of the podcast).",
+        "Mention of Netflix series \"The Staircase\" featuring David Rudolph and the case of Michael Peterson.",
+        "Reference to Saul Cassin's research and experiments on false confessions.",
+        "Reference to Reid and Associates website (though not explicitly named, implied when discussing Reid Technique training)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Saul Cassin",
+                "role_guess": "Psychologist",
+                "is_likely_wc_suggestion": "uncertain"
+            },
+            {
+                "name": "Christopher Ochoa",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "John Restivo",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Sante Tribble",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Clementia Geary",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [
+            "Great Britain",
+            "US"
+        ],
+        "llm_extracted_factors": [
+            "Lack of scientific basis for detecting deception",
+            "Juror misunderstanding of false confessions",
+            "Pressure on law enforcement to secure confessions"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "False Confessions",
+                "Reid Technique",
+                "Psychological Tactics",
+                "Police Interrogation",
+                "Systemic Issues",
+                "Legal Permissibility of Police Deception"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

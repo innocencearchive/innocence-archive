@@ -1,0 +1,92 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Maggie Freeling
+-   **Episode # & Title (if applicable)**: Jason Walton
+-   **Host(s)**: Maggie Freeling
+-   **Release Year(s)**: 2024 (based on context of "2024 alone" mentioned in ad, likely recent episode)
+-   **Production Company(ies)/Network**: Lava for Good
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Convictions, Criminal Justice System, Eyewitness Misidentification, Alibi Evidence, Gang Affiliation Bias
+-   **Key Statistics/Information**:
+    - Jason Walton was convicted despite having a surveillance camera and cell phone record alibi.
+    - Key witness Richard Gray's testimony was inconsistent and contradicted by another witness, Christopher Green, whose testimony was not presented at trial.
+    - Edward Williams initially identified rival gang members as the shooter, but later shifted to Jason Walton.
+    - Time trials showed it was unlikely Jason could have traveled from Roscoe's to the crime scene and back within the time frame.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Maggie Freeling" tells the story of Jason Walton, wrongfully convicted of the 2005 murder of William Cox and attempted murder of Edward Williams in Los Angeles. Despite a solid alibi backed by surveillance footage and cell phone records placing him miles away at the time of the shooting, Jason was convicted based on inconsistent eyewitness testimony and gang affiliation bias. The podcast highlights the flawed police investigation, the prosecution's cherry-picking of evidence, and the failure of the justice system to acknowledge Jason's alibi and the inconsistencies in witness accounts.  The Innocence Center is now working on Jason's case, uncovering crucial suppressed witness testimony that could prove his innocence and reveal the likely actual perpetrators. Jason, maintaining his innocence, has spent years in prison and hopes to be exonerated and become an attorney to help others facing wrongful convictions.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Jason Robert Walton
+-   **Case Location**: South Central Los Angeles, California, USA
+-   **Conviction Year**: 2006
+-   **Exoneration Year**: Not yet exonerated (as of podcast episode)
+-   **Crime Convicted Of**: First-degree murder of William Cox, attempted murder of Edward Williams
+-   **Sentence**: 50 years to life
+-   **Time Served**: Approximately 18 years (as of podcast release in 2024, convicted in 2006)
+-   **Contributing Factors**:
+    - Eyewitness Misidentification: Edward Williams and Richard Gray identified Jason, despite inconsistencies in their accounts and Gray's limited visibility.
+    - Gang Affiliation Bias: Jason's membership in the Mansfield Crips led police to target him, overlooking other potential suspects and evidence.
+    - Inadequate Legal Defense:  Original trial lawyer and appeals attorney were described as not fully effective.
+    - Suppressed Evidence/Witness Testimony: Testimony of Christopher Green, who witnessed the shooting and could not identify Jason, was not presented at trial.
+    - Faulty Investigation: Police did not thoroughly investigate initial leads pointing to rival gang members and focused on Jason early on.
+-   **Legal Status**: Currently incarcerated, seeking exoneration through the Innocence Center.
+-   **Organizations Involved**: The Innocence Center
+-   **Innocence Lawyer Details**: Michael Semanchik, Executive Director of the Innocence Center, is leading the effort for Jason's exoneration. The Innocence Center is highlighted as working to uncover inconsistencies and new evidence.
+-   **Cross-Reference**: Likely appears in exoneree database (needs to be verified with external database search)
+-   **Narrative of Original Crime**: A shooting occurred at a pop-up street fair in South Central Los Angeles in November 2005. William Cox was killed, and Edward Williams was injured. Police investigated the shooting as gang-related violence between Roland 30s and Roland 40s gangs.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Eyewitness identification from Edward Williams, the surviving victim, identifying Jason as the shooter.
+    - Eyewitness identification from Richard Gray, a carnival worker, who initially said he only saw the shooter fleeing but later identified Jason in a photo lineup.
+    - Gang expert testimony linking Jason to the Mansfield Crips, allies of Roland 30s, who were rivals with Roland 40s (Edward Williams' gang).
+    - Prosecution theory that Jason had a prior altercation with Edward Williams and sought revenge at the carnival.
+-   **Trial Defender Notes**:
+    - Alibi defense: Jason was at Roscoe's Chicken and Waffles at the time of the shooting, supported by surveillance footage and witness testimony (manager and Nico, gang intervention specialist).
+    - Argument that eyewitness identifications were unreliable and inconsistent.
+    - Argument that Jason's height didn't match witness description of shooter's height.
+    - Presented time trials demonstrating the unlikelihood of Jason traveling from Roscoe's to the crime scene and back within the timeframe.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - Surveillance camera footage from Roscoe's Chicken and Waffles placing Jason there during the time of the shooting.
+    - Cell phone records corroborating Jason's location near Roscoe's.
+    - Testimony of Christopher Green, a carnival worker who actually witnessed the shooting and stated the shooter wore a hoodie obscuring their face and saw a gun, contradicting Edward Williams' account and Richard Gray's visibility. Green's statement was not presented at the original trial.
+    - Edward Williams' initial statements implicating rival gang members from Roland 30s.
+    - Inconsistencies in Richard Gray's testimony and his inability to have seen the shooting from his location due to obstructions (porta potties).
+-   **Actual Perpetrator Details**: Not definitively identified in the podcast. However, the podcast suggests potential suspects from the Roland 30s gang, including "Jay Rock" and "Terrell," who Edward Williams initially mentioned. The podcast also mentions Drew Maxwell's statement about Edward Williams being targeted prior to the shooting, suggesting the crime was likely committed by rival gang members targeting Edward Williams.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - Jason: "But once the police had fixed their sights on him, the truth was meaningless."
+    - Jason: "I don't feel like they ultimately cared about the victim. More of myself is like, OK, well, one gang members did, one gang member shot, one gang member's in jail. We got a three-for-one in a way."
+    - Michael Semanchik (Innocence Center): "Jason was on security camera footage at the Roscoe's chicken and waffles. And you know, what's interesting about that is that the security camera footage was available at the time of trial. So from the start, it was like, he had this awesome alibi. And for some reason, it just didn't play to the jury. So that's really what sold me on this case."
+    - Christopher Green (witness, recounted by Michael Semanchik): Describes seeing the shooting and that the shooter had a hoodie up and he saw a gun, contradicting other witness accounts.
+    - Edward Williams (spontaneous statement after shooting, recounted by Michael Semanchik): "I don't know who did this. I don't know who would want to do this."
+-   **Systemic Issues Identified**:
+    - Eyewitness misidentification and its impact on wrongful convictions.
+    - Confirmation bias in police investigations, focusing on a suspect early and ignoring contradictory evidence.
+    - Impact of gang affiliation bias on the justice system.
+    - Ineffectiveness of trial defense and appeals process in Jason's case.
+    - Prosecution's selective use of evidence to fit a narrative, suppressing exculpatory evidence.
+-   **Policy Recommendations/Calls to Action**:
+    - Support for innocence organizations like the Innocence Center.
+    - Need for better investigation practices to avoid tunnel vision and confirmation bias.
+    - Re-evaluation of eyewitness identification procedures and their reliability.
+    - Greater scrutiny of gang expert testimony and its potential for prejudice.
+    - Encouragement to donate to innocence projects and advocate for criminal justice reform.
+-   **Personal Narrative/Impact**:
+    - Jason's emotional journey through wrongful conviction, from initial disbelief to the harsh realities of prison. His determination to maintain hope and fight for exoneration.
+    - Impact on Jason's family, especially his mother Fran and his son Tyler. Fran's anxiety and emotional distress, Tyler's understanding and support for his father despite the circumstances.
+    - Jason's aspiration to become a lawyer and help others who are wrongfully convicted, highlighting his resilience and desire to turn his negative experience into positive change.
+-   **Additional Resources**:
+    - The Innocence Center (innocentcenter.org) mentioned as a resource for more information and updates on Jason's case and to support their work.
+    - Lava for Good Plus on Apple Podcasts for early and ad-free access to podcasts.
+    - Social media handles for Lava for Good and Maggie Freeling are provided for further engagement.
+```

@@ -1,0 +1,123 @@
+{
+    "sourceFileName": "215_Jason_Flom_with_Greg Glod_on_John_Jones_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcast in association with Signal Company No. 1",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, Shaken Baby Syndrome, junk science, criminal justice reform, flaws in medical and legal systems.",
+        "keyStats": "-   John Jones was 17 when his daughter died and was convicted based on Shaken Baby Syndrome (SBS) diagnosis.\n-   SBS was initially a hypothesis, not a definitive diagnosis.\n-   Ohio, and particularly Akron Children's Hospital and Summit County, is a hotspot for SBS diagnoses and prosecutions.\n-   Medical examiners show cognitive bias, with cases involving Black children and boyfriends being more likely to be ruled homicides.\n-   There are at least 88 medical conditions that can mimic SBS symptoms.\n-   Over 200 SBS wrongful conviction cases have been overturned.\n-   Dr. Guthkeltz, who first hypothesized SBS, now criticizes its use as a definitive diagnosis.",
+        "itemNumber": "215",
+        "itemTitle": "Jason Flom with Greg Glod on John Jones",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom tells the tragic story of John Jones, wrongfully convicted of murdering his six-month-old daughter, Jada, based on the now-discredited theory of Shaken Baby Syndrome.  At 17, John faced aggressive prosecution in Ohio, a state known for high SBS case rates, despite consistent accounts and lack of evidence of abuse. Experts discuss how the \"triad\" of symptoms attributed to SBS can have numerous other medical causes and how cognitive bias affects medical examiners.  John's defense was undermined by outdated science and the legal system's difficulty in revisiting such convictions.  The episode highlights systemic issues within the justice system, the dangers of junk science, and the urgent need for reform to prevent similar tragedies and free individuals like John Jones.  Call to actions include informing oneself, jury duty participation, and supporting innocence projects."
+    },
+    "featuredIndividual": {
+        "fullName": "John Jones",
+        "caseLocation": "Akron, Ohio, USA (Summit County)",
+        "convictionYear": "2011 (trial year mentioned, conviction assumed to be around the same time)",
+        "exonerationYear": "Not yet exonerated, case being reviewed by Ohio Innocence Project.",
+        "crimeConvictedOf": "Murder (as a result of felonious assault)",
+        "sentence": "15 years to life",
+        "timeServed": "Approximately 13 years (as of podcast recording, incarcerated since 2011 and almost 29 years old in the recording, started at 18)",
+        "contributingFactorsRaw": [
+            "Shaken Baby Syndrome (SBS) \"junk science\" used as primary evidence.",
+            "Misinterpretation of medical findings (retinal hemorrhaging, subdural hemorrhaging, brain swelling, fractures).",
+            "Failure to consider alternative medical explanations for Jada's symptoms.",
+            "Potential cognitive bias in medical and legal systems against young, poor parents."
+        ],
+        "status": "Currently incarcerated, seeking post-conviction relief and potential parole in 2025.",
+        "organizationsInvolvedRaw": [
+            "Ohio Innocence Project (representing John Jones, Donald Castor is staff attorney)",
+            "Center for Integrity in Forensic Sciences (Kate Judson, Executive Director, expert on SBS)",
+            "Americans for Prosperity (Greg Glod, Criminal Justice Fellow, co-host)"
+        ],
+        "innocenceLawyersRaw": [
+            "Donald Castor, staff attorney at the Ohio Innocence Project, is representing John Jones.  He is working on post-conviction litigation, arguing that the science behind SBS has changed significantly and a jury today would not convict based on current understanding. He highlights the difficulty in overturning SBS convictions due to systemic issues and lack of access to pre-filing discovery in Ohio to gather crucial medical records."
+        ],
+        "crossReference": "Not explicitly stated in the transcript if John Jones appears in an exoneree database, but highly likely given the focus of the podcast and the involvement of the Ohio Innocence Project.",
+        "narrativeOriginalCrime": "John Jones was convicted of causing fatal injuries to his six-month-old daughter, Jada. The prosecution argued that between 8:00 AM and 9:40 AM on March 19, 2010, while alone with Jada, John violently shook her, causing the injuries that led to her death. This was based on the medical diagnosis of Shaken Baby Syndrome.",
+        "keyEvidenceProsecutionRaw": [
+            "Medical testimony from Dr. Paul McPherson and Dr. Paul Besunder, who asserted Jada's injuries were consistent with SBS and could not have occurred before 8:00 AM, suggesting John inflicted them while alone with her.",
+            "Testimony based on a detective's (Detective Shady) unrecorded interview claiming John said Jada started sucking a bottle after 8 AM (later refuted).",
+            "Coroner Dr. Lisa Kohler's testimony linking injuries to shaking based on secondhand information about milk consumption after 8 AM.",
+            "\"Triad\" of medical findings: retinal hemorrhaging, subdural hemorrhaging, brain swelling, and fractures, presented as conclusive evidence of abuse."
+        ],
+        "trialDefenderNotes": "-   Defense attorney appointed, with limited funds for expert witness.\n-   Defense expert, Dr. John Arden (forensic pathologist), testified that the injuries could be from abuse or other causes and that timing could not be definitively determined medically.\n-   Dr. Arden highlighted that subdural hemorrhaging does not cause immediate incapacitation, undermining the prosecution's timeline.\n-   John Jones testified, maintaining his innocence and consistent account of events.\n-   Defense argued that the state's case relied on outdated and unreliable \"junk science\" of SBS.",
+        "keyEvidenceExonerationRaw": [
+            "Changed scientific understanding of Shaken Baby Syndrome: current science recognizes numerous medical conditions and accidental trauma can mimic SBS symptoms.",
+            "Recognition that the \"triad\" is not diagnostic of abuse and can have various non-abuse causes.",
+            "Evidence that children can be lucid for up to 72 hours or more after a traumatic event, invalidating the prosecution's narrow timeframe theory.",
+            "Lack of investigation into Jada's medical history before March 19th to rule out pre-existing conditions.",
+            "Post-conviction litigation planned by Ohio Innocence Project based on the updated science and unreliable evidence used in the original trial."
+        ],
+        "actualPerpetratorDetails": "Not applicable, case argues wrongful conviction of innocent caregiver, not misidentification of perpetrator. The focus is on the lack of crime and misdiagnosis of cause of death."
+    },
+    "keyQuotesRaw": [
+        "Kate Judson: \"…there's no debate about whether abusive shaking, violent shaking of an infant is dangerous, it is, and no one should do it. The debate is really whether shaking reliably explains the findings that are often attributed to it, whether shaking can be diagnosed as the cause of those findings.\"",
+        "John Jones: \"That was the scariest moment of my life. That was the worst day of my life. I didn't know what to do in that moment. She wasn't breathing. She wasn't moving. She wasn't smiling.\" (describing finding Jada unresponsive)",
+        "Dr. Norman Guthkeltz (quoted): \"I think we need to go back to the drawing board and make a more thorough assessment of these fatal cases. And I'm going to bet that we are going to bind in every or at least the large majority of cases that the child had another severe illness of some sort, which was missed until too late...\" (critique of SBS hypothesis).",
+        "John Jones: \"Yeah, I want my freedom. Yeah, I deserve my freedom. But it's all about where we're in the closure that our families need. And then finally, here, when it gets to a place where we can move forward because I've never really ever even been able to heal from me. I never filed closure because not only did I suffer one of the deepest losses that anybody on this earth can suffer and can suffer and lose on their child. I only do not experience that. And I have to deal with that. I've got to deal with state and area every single day.\" (closing statement highlighting personal impact and need for truth/closure)."
+    ],
+    "systemicIssuesRaw": [
+        "Use of \"junk science\" in criminal convictions (Shaken Baby Syndrome).",
+        "Cognitive bias in medical examiners and the legal system, particularly affecting minority groups and young parents.",
+        "Aggressive prosecution and resistance to re-examining SBS convictions, especially in certain jurisdictions like Ohio and Summit County.",
+        "Difficulties in overturning wrongful convictions, even with evolving scientific understanding.",
+        "Lack of access to pre-filing discovery hindering efforts to build strong post-conviction cases."
+    ],
+    "policyRecommendationsRaw": [
+        "Write letters to the Ohio parole board in support of John Jones and highlighting the issues with SBS convictions.",
+        "Be informed about the flaws in the justice system and the dangers of junk science.",
+        "Fulfill jury duty and critically evaluate evidence, especially expert testimony, remembering \"innocent until proven guilty.\"",
+        "Support Innocence Projects, particularly the Ohio Innocence Project, financially and through advocacy.",
+        "Advocate for policy changes to improve access to discovery in post-conviction cases, specifically mentioned for Ohio to obtain pre-filing medical records."
+    ],
+    "personalNarrativeRaw": [
+        "John Jones' personal narrative emphasizes his young age (17 at the time of the incident), his commitment to his children despite his own challenging upbringing, and the devastating impact of wrongful conviction on his life.",
+        "He expresses the profound grief of losing his daughter compounded by the injustice of being imprisoned for her death.",
+        "His closing remarks highlight his desire for truth and closure for his family, beyond just his own freedom, emphasizing his ongoing suffering and lack of healing due to the wrongful conviction."
+    ],
+    "additionalResourcesRaw": [
+        "Mention of donating to the Ohio Innocence Project (link in bio of the podcast).",
+        "Reference to the Center for Integrity in Forensic Sciences as a resource for understanding forensic science issues.",
+        "Paul Weiss, Rifkin, Orton, and Garrison mentioned as a pro bono legal assistance provider in criminal justice area."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Jada",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Kate Judson",
+                "role_guess": "Expert",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Dr. Norman Guthkeltz",
+                "role_guess": "Expert",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Alternative medical explanations for symptoms",
+            "Lack of access to pre-filing discovery"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Shaken Baby Syndrome",
+                "Systemic Issues in Justice System",
+                "Junk Science"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

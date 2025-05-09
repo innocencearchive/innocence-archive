@@ -1,0 +1,90 @@
+{
+  "source_file_name": "57_Grace_and_Justice_on_Death_Row.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Grace and Justice on Death Row: The Race against Time and Texas to Free an Innocent Man",
+    "creator_name": "Brian W. Stolarz",
+    "publication_or_release_year": 2016,
+    "publisher_or_network": "Skyhorse Publishing",
+    "format": "Hardcover, 228 pages",
+    "focus_or_theme": "Wrongful conviction, death penalty, prosecutorial misconduct, attorney-client relationship",
+    "key_statistics": "Alfred Dewayne Brown spent over twelve years in prison, including ten years on Texas' death row, for a crime he did not commit",
+    "recognition_notes": "Washington Post bestseller"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "research_notes_other": {},
+    "item_title": "Book Content: Grace and Justice on Death Row: The Race against Time and Texas to Free an Innocent Man",
+    "focus_or_theme": "Wrongful conviction, death penalty, prosecutorial misconduct, attorney-client relationship",
+    "summary_notes": "The book details the legal battle to free Alfred Dewayne Brown from death row, exploring the attorney-client relationship that evolved into a deep brotherhood. It provides a firsthand account of flaws in the criminal justice system, offering a story of hope and redemption.  The foreword is by Sister Helen Prejean.  The book highlights Brown's wrongful conviction for capital murder, focusing on prosecutorial misconduct, withheld evidence, and coerced witness testimony.",
+    "case_details_raw": "On April 3, 2003, three men robbed Ace America's Cash Express in Houston, Texas.  During the robbery, store clerk Alfredia Jones (27) and officer Charles Clark (45) were killed. Alfred Brown, Dashan Glaspie, and Elijah Joubert were arrested. Glaspie accepted a plea deal. Brown and Joubert were convicted and sentenced to death. Brown maintained his innocence, claiming he was at his girlfriend's apartment and called her workplace. The prosecution relied on Glaspie's testimony and coerced testimony from Brown's girlfriend.  Exculpatory evidence (phone records) was withheld by prosecutor Dan Rizzo.  In 2014, Brown's conviction was vacated. In 2015, charges were dismissed. In 2019, Brown was declared \"actually innocent\". In 2020, he was to be compensated for wrongful imprisonment.",
+    "key_quotes_raw": [
+      "What is worse than having a client on Death Row in Texas? Having a client on Death Row in Texas who is innocent and not knowing if you will be able to stop his execution in time.",
+      "The book chronicles Brown's extraordinary journey to freedom against very long odds, overcoming unscrupulous prosecutors, corrupt police, inadequate defense counsel, and a broken criminal justice system.",
+      "Grace and Justice on Death Row tells the story of such courage and of redemption for Alfred Dewayne Brown, who, like me, is an innocent man."
+    ],
+    "systemic_issues_raw": [
+      "Prosecutorial misconduct and withholding of exculpatory evidence",
+      "Coercion of witnesses by prosecutors and grand jurors",
+      "Inadequate defense counsel during initial trials",
+      "Overreliance on testimony from co-defendants who receive plea deals",
+      "Racial bias in the criminal justice system",
+      "Structural barriers to proving innocence after conviction",
+      "The danger of executing innocent people in capital cases",
+      "The lengthy and difficult process of exoneration even when evidence of innocence exists"
+    ],
+    "policy_recommendations_raw": [
+      "Stronger enforcement of Brady disclosure requirements for prosecutors",
+      "Reforms to grand jury procedures to prevent intimidation of witnesses",
+      "Improved funding and resources for public defenders",
+      "Greater accountability for prosecutors who engage in misconduct",
+      "Reforms to compensation systems for exonerees",
+      "Reconsideration of the death penalty given the risk of executing innocent people"
+    ],
+    "additional_resources_raw": [
+      "The Innocence Files (Netflix documentary series) - Episode 8 features Alfred Dewayne Brown's case",
+      "Houston Chronicle articles by Lisa Falkenberg about the case (won a 2015 Pulitzer Prize)",
+      "National Registry of Exonerations entry on Alfred Dewayne Brown",
+      "Brown's civil rights lawsuit against Harris County prosecutors and Houston police"
+    ]
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Alfred Dewayne Brown",
+      "first_name": "Alfred",
+      "middle_name": "Dewayne",
+      "last_name": "Brown",
+      "case_location": "Houston, Texas",
+      "conviction_year": 2005,
+      "exoneration_or_release_year": 2015,
+      "crime_convicted_of": "Capital murder of Houston police officer Charles Clark and store clerk Alfredia Jones during a 2003 robbery",
+      "sentence": "Death",
+      "time_served": "Approximately 12 years (10 on death row)",
+      "contributing_factors_raw": [
+        "Mistaken witness identification",
+        "Perjury/false accusation (co-defendant testimony in exchange for plea deal)",
+        "Official misconduct (prosecutors withheld exculpatory evidence)",
+        "False testimony from girlfriend under duress"
+      ],
+      "status_raw": "Exonerated, declared \"actually innocent\" in 2019",
+      "organizations_involved_raw": [
+        "Brian Stolarz and his legal team",
+        "Texas Court of Criminal Appeals",
+        "Harris County District Attorney's Office"
+      ],
+      "cross_reference": "Listed in the National Registry of Exonerations",
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Brian W. Stolarz",
+      "role": "AUTHOR",
+      "first_name": "Brian",
+      "middle_name": "W.",
+      "last_name": "Stolarz"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "The book not only details the legal battle to free an innocent man from death row but also explores how the attorney-client relationship between Stolarz and Brown evolved into a deep brotherhood. It provides a powerful firsthand account of the flaws in the criminal justice system while also offering a story of hope, perseverance, and redemption.\n\nThe foreword is written by Sister Helen Prejean, author of \"Dead Man Walking,\" adding context about the broader issues of capital punishment and wrongful convictions."
+}

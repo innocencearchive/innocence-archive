@@ -1,0 +1,96 @@
+{
+    "sourceFileName": "260_Maggie_Freleng_with_Mike_Politte_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Maggie Freeling",
+    "mediaItem": {
+        "hosts": "Maggie Freeling",
+        "releaseYear": "2022",
+        "network": "Lava for Good podcasts in association with Signal Company No. 1",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction stories, investigative journalism, criminal justice system failures.",
+        "keyStats": "-   Mike Polit was 14 years old when arrested and convicted.\n-   He was sentenced to life in prison for second-degree murder.\n-   He served approximately 20 years in prison before being granted parole.\n-   False evidence (misidentified substance on shoes) was used to convict him.\n-   Unreliable voice stress analysis was used during interrogation.\n-   Police focused on Mike as a suspect from the beginning, overlooking other potential suspects, including his father.\n-   Juvenile interrogation tactics were used.",
+        "itemNumber": "260",
+        "itemTitle": "Maggie Freleng with Mike Politte",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Maggie Freeling\" tells the tragic story of Michael Polit, who was wrongfully convicted of murdering his mother at the age of 14.  The podcast details the events of December 5, 1998, when a fire broke out in the Polit home and Rita Polit was found dead.  Despite a lack of concrete evidence and questionable interrogation tactics, police quickly focused on Michael as the prime suspect.  He was convicted based on circumstantial evidence and flawed analysis of substances found on his shoes.  The episode highlights the failures of the justice system in handling juvenile cases, the impact of unreliable interrogation techniques, and the devastating consequences of wrongful convictions. After nearly 20 years in prison, Michael was granted parole but continues to fight for full exoneration. The episode underscores the urgent need for criminal justice reform and support for wrongfully convicted individuals."
+    },
+    "featuredIndividual": {
+        "fullName": "Michael Polit",
+        "caseLocation": "Mineral Point, Missouri, Washington County, Missouri, Hopewell, Missouri",
+        "convictionYear": "2002",
+        "exonerationYear": "Not fully exonerated, granted parole in 2022, released April 22, 2024 (based on context provided in transcript).",
+        "crimeConvictedOf": "Second-degree murder",
+        "sentence": "Life in prison",
+        "timeServed": "Approximately 20 years",
+        "contributingFactorsRaw": [
+            "Presumption of guilt based on being present at the scene.",
+            "Misinterpretation of adolescent behavior and trauma as guilt.",
+            "Unreliable Computer Voice Stress Analysis (CVSA) test.",
+            "False/misleading forensic evidence (misidentification of substance on shoes as accelerant).",
+            "Ineffective defense counsel at trial.",
+            "Focus on juvenile suspect while overlooking other potential suspects (father)."
+        ],
+        "status": "Released on parole, seeking full exoneration.",
+        "organizationsInvolvedRaw": [
+            "Midwest Innocence Project (MIP)",
+            "MacArthur Justice Center (Missouri Office)",
+            "AIG Pro Bono Program (mentioned as underwriter, supporting pro bono legal assistance)"
+        ],
+        "innocenceLawyersRaw": [
+            "Kim Bullucker, staff attorney for the Midwest Innocence Project.",
+            "Megan Crane, co-director of the Missouri Office of the MacArthur Justice Center.",
+            "Six law students from Missouri University and Kansas University assisted with the case through the MIP."
+        ],
+        "crossReference": "Not explicitly stated in the transcript if he appears in a specific exoneree database, but likely should be included given the nature of the case and involvement of Innocence Projects.",
+        "narrativeOriginalCrime": "Rita Polit was found dead in her trailer home after a fire. She was found on the floor of her bedroom, partially burned, and autopsy revealed death by carbon monoxide poisoning and blunt force trauma to the head.",
+        "keyEvidenceProsecutionRaw": [
+            "Detective Davis' interpretation of Mike's question about how police would determine cause of death as suspicious.",
+            "Voice stress analysis test indicating deception.",
+            "Police claimed dogs smelled accelerant on Mike's shoes.",
+            "Testimony suggesting accelerant was used.",
+            "Prosecution argued Mike lacked emotion and had a suspicious reaction to his mother's death."
+        ],
+        "trialDefenderNotes": "-   Defense called only three witnesses.\n-   Defense did not have an expert to challenge the state's expert testimony.\n-   Presented a weak defense overall, unable to effectively counter the prosecution's narrative.",
+        "keyEvidenceExonerationRaw": [
+            "New analysis of the substance on Mike's shoes revealed it was an aromatic solvent from the shoe manufacturing process, not gasoline/accelerant.",
+            "Detective Tammy Belfield came forward stating the investigation was mishandled by an inexperienced police department.",
+            "New Missouri law SB 26 allowed for parole for juveniles incarcerated for extended periods."
+        ],
+        "actualPerpetratorDetails": "-   The podcast strongly suggests Mike's father, Ed Polit, as a potential perpetrator.\n-   Ed had a history of domestic violence and infidelity, providing a motive.\n-   His alibi of being at work was not definitively verified with time cards.\n-   Melanie and Mike express suspicion that Ed was involved and possibly framed Mike."
+    },
+    "keyQuotesRaw": [
+        "\"I was in a panic, but yet I was still aware that I didn't do what they're saying that I did. And I stuck to that. Even though they were threatening me with life in prison, and you know what happens to kids that go to prison? I never wavered from anything that I ever shed.\" - Michael Polit, describing his interrogation.",
+        "\"It felt like... it felt like no one... it felt like the only person that would have helped me in that situation. It was my mother. And she was on the witness. So with that, I mean, I felt completely alone, completely isolated, completely vulnerable.\" - Michael Polit, describing his feelings during detention.",
+        "\"You know what happened to me can happen to anybody. And there's, there's countless more people that's suffering, how I suffered. And they need help. And I look forward to being a part of that.\" - Michael Polit, on his experience and future goals.",
+        "\"It shouldn't be this hard when it's discovered that there's innocent people or an innocent person in prison. And the, the, the, their Herculean hurdles that it takes to get people out and exonerated, even when it's factually. Proven that, that evidence was used against the people that's, that's false or misleading or, or if there's new discovered evidence. They don't want to hear it. They ignore it.\" - Michael Polit, highlighting systemic issues.",
+        "\"She can finally rest.\" - Michael Polit, regarding his mother's peace after his release."
+    ],
+    "systemicIssuesRaw": [
+        "Flawed juvenile interrogation tactics and lack of proper legal protection for minors.",
+        "Over-reliance on unreliable forensic methods (CVSA, initial fire investigation).",
+        "Confirmation bias in police investigations, focusing on a convenient suspect and overlooking other possibilities.",
+        "Difficulty in overturning wrongful convictions even with new evidence.",
+        "Inadequate legal representation for indigent defendants.",
+        "Prosecutorial resistance to admitting errors and correcting wrongful convictions."
+    ],
+    "policyRecommendationsRaw": [
+        "Reform juvenile interrogation practices to ensure proper legal representation and ban deceptive tactics.",
+        "Improve forensic science standards and oversight to prevent reliance on unreliable methods and misinterpretation of evidence.",
+        "Establish independent review boards to investigate wrongful conviction claims and facilitate exonerations.",
+        "Increase funding for public defense and innocence projects to provide better legal support for the accused and wrongfully convicted.",
+        "Promote prosecutorial accountability and incentivize the correction of wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Michael Polit's wrongful conviction led to the loss of his youth, severe trauma, and years of incarceration.",
+        "He experienced isolation, despair, and attempted suicide in detention.",
+        "Despite his ordeal, he demonstrated resilience, achieved sobriety, obtained his GED, and participated in dog rehabilitation programs in prison.",
+        "His experience has motivated him to advocate for criminal justice reform and assist others who are wrongfully convicted.",
+        "The wrongful conviction deeply impacted his sisters, Melanie and Crystal, and their relationship with their father."
+    ],
+    "additionalResourcesRaw": [
+        "GoFundMe.com (search for Michael Polit) - to support Michael Polit's re-entry.",
+        "National Suicide Prevention Lifeline (800-273-8255) - for suicide prevention support.",
+        "Midwest Innocence Project (MIP) - as an organization fighting for Michael Polit's innocence.",
+        "Mention of local innocence organizations and links in podcast bio for further support."
+    ]
+}

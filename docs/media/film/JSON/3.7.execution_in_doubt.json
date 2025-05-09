@@ -1,0 +1,78 @@
+{
+  "source_file_name": "3.7.execution_in_doubt.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "An Execution in Doubt (20/20) (Title unconfirmed by search)",
+    "publication_or_release_year": 2010,
+    "publisher_or_network": "ABC News",
+    "focus_or_theme": "Possible wrongful execution, flawed forensic evidence (hair analysis), post-execution DNA testing",
+    "summaryNotes": "Post-execution DNA contradicted trial evidence regarding key hair sample.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "An Execution in Doubt (20/20) (Title unconfirmed by search)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Possible wrongful execution, flawed forensic evidence (hair analysis), post-execution DNA testing",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Post-execution investigation found key physical evidence (hair) linked to victim, not Jones, raising doubts about guilt. Available via ABC.",
+      "research_findings": "Searches did not confirm a specific 20/20 episode with this title. However, the details match the Claude Jones case, where post-execution DNA testing requested by the Innocence Project revealed the only physical evidence linking him to the scene (a hair) actually belonged to the victim, casting serious doubt on his guilt."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "San Jacinto County",
+      "case_location_state": "Texas",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2000,
+      "crime_convicted_of_raw": "Murder (of liquor store owner during robbery)",
+      "sentence": "Death Penalty",
+      "time_served": "~10 years on death row",
+      "contributing_factors_raw": [
+        "Reliance on accomplice testimony; Disputed forensic evidence (single hair strand found at scene); Denial of DNA testing reprieve request before execution"
+      ],
+      "status_raw": "Executed; Significant doubt raised posthumously after DNA testing showed the key hair evidence belonged to the victim, not Jones",
+      "organizations_involved_raw": [
+        "Innocence Project (sought post-execution DNA testing)"
+      ],
+      "full_name": "Claude Howard Jones [cite: 31",
+      "first_name": "Claude",
+      "middle_name": "Howard Jones [cite:",
+      "last_name": "31"
+    },
+    {
+      "case_location_city": "San Jacinto County",
+      "case_location_state": "Texas",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2000,
+      "crime_convicted_of_raw": "Murder (of liquor store owner during robbery)",
+      "sentence": "Death Penalty",
+      "time_served": "~10 years on death row",
+      "contributing_factors_raw": [
+        "Reliance on accomplice testimony; Disputed forensic evidence (single hair strand found at scene); Denial of DNA testing reprieve request before execution"
+      ],
+      "status_raw": "Executed; Significant doubt raised posthumously after DNA testing showed the key hair evidence belonged to the victim, not Jones",
+      "organizations_involved_raw": [
+        "Innocence Project (sought post-execution DNA testing)"
+      ],
+      "full_name": "10.1]",
+      "first_name": "1]",
+      "middle_name": null,
+      "last_name": null
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

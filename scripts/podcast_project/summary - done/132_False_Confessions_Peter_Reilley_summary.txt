@@ -1,0 +1,82 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+For each podcast on wrongful convictions, we'll collect the following information:
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction: False Confessions
+-   **Episode # & Title (if applicable)**: Season 1, Episode - Peter Riley
+-   **Host(s)**: Laura Nirider and Steve Drizin
+-   **Release Year(s)**: 2020 (based on COVID-19 reference at the beginning)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company No. 1
+-   **Series Type**: Episodic Series (Season 1 mentioned, implying episodic structure within seasons)
+-   **Format**: Podcast
+-   **Focus/Theme**: False confessions, wrongful convictions, systemic issues in the justice system.
+-   **Key Statistics/Information**:
+    -   Peter Riley's case was one of the first modern-day false confession cases.
+    -   In 1995, only 2 states required electronic recording of interrogations, now 27 states do.
+    -   Connecticut only adopted mandatory recording of interrogations in 2013, after Peter Riley testified in favor.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction: False Confessions" tells the story of Peter Riley, an 18-year-old wrongfully convicted in 1973 for the murder of his mother based on a false confession.  After discovering his mother's brutalized body, police interrogation tactics led Peter to believe he might have committed the crime and repressed the memory.  Despite community support and celebrity advocacy spearheaded by Arthur Miller, Peter was initially convicted.  However, expert testimony and the discovery of withheld alibi evidence led to his exoneration in 1976. Peter's case became a landmark example of false confessions, highlighting systemic issues in the justice system and the importance of recording interrogations, influencing legal reforms in Connecticut and beyond and inspiring the hosts' work in wrongful conviction advocacy.
+
+### Wrongfully Convicted Individuals Featured
+
+For each individual mentioned or featured:
+
+-   **Name**: Peter Riley
+-   **Case Location**: Falls Village, Connecticut, USA
+-   **Conviction Year**: 1974
+-   **Exoneration Year**: 1976
+-   **Crime Convicted Of**: Manslaughter (of his mother, Barbara Giddens)
+-   **Sentence**: 16 years
+-   **Time Served**: A few hours (initially after conviction before release pending appeal)
+-   **Contributing Factors**:
+    -   False Confession (persuaded false confession due to police interrogation tactics suggesting amnesia and repressed memory)
+    -   Suggestibility and vulnerability to authority figures
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**:
+    -   Canaan Mothers (community group that raised money for bond and legal fees)
+    -   Celebrity Coalition (organized by Arthur Miller, including Jack Nicholson, Dustin Hoffman, Elizabeth Taylor, etc.)
+-   **Innocence Lawyer Details**: Roy Daly, a former federal prosecutor, was recruited by Arthur Miller to handle Peter's appeal.
+-   **Cross-Reference**: Not specified if he appears in a specific exoneree database within the transcript.
+-   **Narrative of Original Crime**: Barbara Giddens was found brutally murdered in her home. Her throat was deeply cut, and she was stabbed and beaten, resulting in broken thigh bones.
+-   **Key Evidence at Trial (Prosecution)**: Peter Riley's confession was the primary evidence used to convict him.
+-   **Trial Defender Notes**: The transcript does not provide details about the original trial defense lawyer's efforts, but it implies they were insufficient to overcome the confession.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Expert testimony at the hearing for a new trial:
+        -   Forensic pathologist testified that Peter could not have cleaned all blood off his body and clothes and that he could not have broken thigh bones by jumping on them.
+        -   Psychologist testified to Peter's suggestibility and vulnerability to giving a false confession.
+    -   Discovery of withheld exculpatory evidence: A police officer and his wife reported seeing Peter driving home from a church youth group minutes before he discovered his mother's body, providing an alibi.
+-   **Actual Perpetrator Details**: The actual perpetrator of Barbara Giddens' murder was never found.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Peter Riley during interrogation: "I believe I did it now, he tells the police. But I don't remember."
+    -   Peter Riley asking to live with the interrogators: "Is there any chance that you might take me in? I wouldn't want to impose, he adds. I'll do work around the house. I really would love to live with a family."
+    -   Arthur Miller at the Hartford Conference: "Confession can very readily turn into a kind of coin with which to buy one's way out of a frightening and painful situation. How then are we to indict the criminal? Is there a good substitute for confession as the mainstay of a prosecution case? For starters, I would suggest evidence."
+-   **Systemic Issues Identified**:
+    -   False confessions as a significant cause of wrongful convictions.
+    -   Problematic police interrogation tactics that can lead to false confessions.
+    -   The impact of believing polygraphs are infallible.
+    -   Initial lack of mandatory recording of police interrogations.
+    -   Resistance from law enforcement to admit error and re-examine cases.
+    -   Prosecutorial misconduct (withholding exculpatory evidence).
+-   **Policy Recommendations/Calls to Action**:
+    -   Mandatory electronic recording of police interrogations.
+    -   Reform of police interrogation techniques to avoid coercive and manipulative practices.
+    -   Establishment and support of Conviction Integrity Units within prosecutor's offices.
+-   **Personal Narrative/Impact**: Peter Riley's life was profoundly impacted by the wrongful conviction. He lost his mother and endured the trauma of accusation and imprisonment. Despite this, he returned to his community, finished high school, and became an advocate for recording interrogations. His case was pivotal in raising awareness about false confessions and contributed to legal reforms. He continues to play music and focuses on positive aspects of his life.
+-   **Additional Resources**:
+    -   Book: "Guilty Until Proven Innocent" by Don Connery about the Peter Riley case.
+    -   Magazine article in "New Times" by Joan Bartell exposing Peter's case.
+    -   Two-part series in "The New York Times" about Peter Riley.
+    -   "60 Minutes" coverage of Peter Riley's story.
+    -   1995 Hartford Conference about false confessions organized by Don Connery.
+    -   Podcast "Wrongful Conviction: False Confessions" itself as a resource for wrongful conviction stories.
+```

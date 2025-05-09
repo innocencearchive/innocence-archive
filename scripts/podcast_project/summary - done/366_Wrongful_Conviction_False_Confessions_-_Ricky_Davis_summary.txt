@@ -1,0 +1,73 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+- **Title**: Wrongful Conviction: False Confessions
+- **Episode # & Title (if applicable)**: Episode about Ricky Davis
+- **Host(s)**: Lauren Nyreiter, Steve Drizen
+- **Release Year(s)**: 2020-2024 (based on context of case timeline discussed)
+- **Production Company(ies)/Network**: Lava for Good podcasts in association with Signal Company number one
+- **Series Type**: Episodic Series (each episode is generally a standalone story)
+- **Format**: Podcast
+- **Focus/Theme**: Wrongful convictions, false confessions, deceptive interrogation tactics, impact on families, flaws in the justice system, DNA exoneration, genetic genealogy.
+- **Key Statistics/Information**:
+    - Ricky Davis served 12 years in prison for a crime he did not commit.
+    - The case went cold for 14 years before reinvestigation based on a suspicious comment by Connie Dahl.
+    - Deceptive interrogation tactics were used by police to elicit a false confession from Connie Dahl.
+    - New California legislation bans deceptive interrogation tactics, inspired partly by this case.
+    - DNA evidence from the crime scene exonerated Ricky Davis and identified the actual perpetrator through genetic genealogy.
+
+### Basic Podcast Information
+
+- **Executive Summary**: This episode of "Wrongful Conviction: False Confessions" recounts the wrongful conviction of Ricky Davis for the 1985 murder of Jane Hilton.  Despite initial evidence suggesting his and his girlfriend Connie Dahl's innocence, the case was reopened 14 years later.  Detectives used manipulative interrogation tactics on Connie, leading to a coerced false confession that implicated Ricky.  Based on this false testimony, Ricky was convicted in 2005 and served 12 years. The Northern California Innocence Project took his case, and DNA testing in 2019 proved his innocence and identified the actual killer, Michael Green, through genetic genealogy. Ricky Davis was exonerated in 2020, highlighting the devastating consequences of false confessions and the importance of DNA evidence in rectifying wrongful convictions. The story also underscores systemic issues in interrogation practices and the long-lasting impact on the wrongfully accused and their families.
+
+### Wrongfully Convicted Individuals Featured
+
+- **Name**: Ricky Davis
+- **Case Location**: El Dorado Hills, California, USA
+- **Conviction Year**: 2005
+- **Exoneration Year**: 2020
+- **Crime Convicted Of**: Murder of Jane Hilton
+- **Sentence**: 16 years to life
+- **Time Served**: 12 years
+- **Contributing Factors**: False confession (persuaded false confession of Connie Dahl), deceptive interrogation tactics, reinvestigation bias, reliance on coerced testimony.
+- **Legal Status**: Exonerated, Factually Innocent.
+- **Organizations Involved**: Northern California Innocence Project
+- **Innocence Lawyer Details**: Attorneys from the Northern California Innocence Project (names not specified in transcript).
+- **Cross-Reference**: Yes, likely (needs to be verified against exoneree database).
+- **Narrative of Original Crime**: Jane Hilton was found brutally stabbed to death in her bedroom in El Dorado Hills in July 1985. Ricky Davis and his girlfriend Connie Dahl were the ones who discovered the body upon returning home from a party.
+- **Key Evidence at Trial (Prosecution)**: The key evidence was the testimony of Connie Dahl, who falsely confessed to being an accomplice and implicated Ricky Davis as the primary perpetrator, based on memories implanted and shaped by police interrogation.
+- **Trial Defender Notes**: The transcript does not detail the trial defense strategy, but it is implied that they were unable to effectively counter Connie Dahl's testimony, which the jury believed.
+- **Key Evidence for Exoneration/Change in Legal Status**: DNA evidence from a bite mark on the victim's shoulder and from under the victim's fingernails excluded both Ricky Davis and Connie Dahl. This DNA profile was then linked to Michael Green through genetic genealogy, identifying him as the actual perpetrator.
+- **Actual Perpetrator Details**: Michael Green was identified as the actual perpetrator through DNA and genetic genealogy. He was one of the three teenage boys who was with Jane Hilton's daughter, Autumn, on the night of the murder. He was charged with Jane Hilton's murder in February 2020 and was awaiting trial at the time of the podcast.
+
+### Podcast Research Notes
+
+- **Key Quotes/Moments**:
+    - "Police were allowed to use deceptive interrogation techniques to convince someone they'd witnessed a crime when they hadn't been there at all."
+    - "What's unique about a persuaded false confession is that the suspect comes to doubt their own memory."
+    - (Maureen Davis, Ricky's mother): "I didn't believe anything would come of it because I knew Ricky had no part of it. I knew he was innocent."
+    - (Maureen Davis, Ricky's mother): "With no money, you're going to do time, period. That was just cut and dry."
+    - (Ricky Davis on exoneration): "Long time coming."
+- **Systemic Issues Identified**:
+    - Deceptive interrogation tactics and their legality.
+    - Persuaded false confessions and their impact on wrongful convictions.
+    - Tunnel vision in police investigations, focusing on initial suspects and ignoring other leads.
+    - The power imbalance in police interrogations and the vulnerability of suspects.
+    - The impact of socio-economic status on access to justice (implied by Maureen's quote about money).
+    - The long and arduous process of exoneration, even with compelling new evidence.
+- **Policy Recommendations/Calls to Action**:
+    - The episode highlights and applauds California's new legislation banning deceptive interrogation tactics as a positive step towards justice.
+    - Implicit call for similar reforms in other states to prevent false confessions and wrongful convictions.
+    - General call for awareness about the flaws in the criminal justice system and the need for reform.
+- **Personal Narrative/Impact**:
+    - The podcast heavily features the personal narrative of Maureen Davis, Ricky's mother, emphasizing her unwavering belief in her son's innocence and her emotional struggle throughout his wrongful imprisonment.
+    - Ricky Davis's personal experience of losing 12 years of his life and his emotional reunion with his mother upon exoneration.
+    - The tragic story of Connie Dahl, a victim of police manipulation, who died of a drug overdose and remained convicted despite the evidence proving her false confession.
+- **Additional Resources**:
+    - Mentions the Northern California Innocence Project as an organization that assists with wrongful conviction cases.
+    - Implicitly suggests resources related to false confessions, deceptive interrogation tactics, and exoneree databases for further research.
+```

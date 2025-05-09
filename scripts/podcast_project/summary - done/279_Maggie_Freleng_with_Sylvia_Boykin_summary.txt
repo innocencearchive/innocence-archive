@@ -1,0 +1,97 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Maggie Freeling
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but episode features Sylvia Boykin.
+-   **Host(s)**: Maggie Freeling
+-   **Release Year(s)**: Not specified in transcript, likely 2020s given current events.
+-   **Production Company(ies)/Network**: Lava for Good
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, false confessions, systemic issues in the justice system, stories of wrongfully convicted individuals.
+-   **Key Statistics/Information**: Not explicitly statistical, but key information revolves around the factors leading to wrongful conviction such as coerced statements, inadequate legal representation, and systemic issues within drug markets affecting women.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Maggie Freeling tells the story of Sylvia Boykin, wrongfully convicted of first-degree murder in 1994.  Sylvia was involved in a drug debt collection that turned deadly, though she did not shoot anyone.  Coerced into signing a statement by police, and with inadequate legal representation, she was convicted based largely on the testimony of an individual with a vested interest.  The podcast highlights Sylvia's traumatic past, substance abuse issues, and how systemic gender bias in drug markets contributed to her wrongful conviction.  Dr. Jill McCorkle from the Philadelphia Justice Project for Women and Girls advocates for Sylvia's commutation, emphasizing her vulnerability and the miscarriage of justice. Despite her life sentence, Sylvia has become a certified peer specialist in prison and hopes to help others upon release. A petition for her commutation is mentioned, indicating ongoing efforts to secure her freedom.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Sylvia Boykin
+-   **Case Location**: Philadelphia, Pennsylvania, USA
+-   **Conviction Year**: 1994
+-   **Exoneration Year**: Not yet exonerated, seeking commutation.
+-   **Crime Convicted Of**: First-degree murder, robbery, conspiracy, and possession of instruments of a crime.
+-   **Sentence**: Life in prison without parole
+-   **Time Served**: 31 years (as of podcast recording)
+-   **Contributing Factors**:
+    -   Coerced statement/false confession (signed statement after sleep deprivation and being hit with a phone book).
+    -   Ineffective legal counsel (trial attorney failed to file timely appeal, subsequent attorney suspended later).
+    -   Systemic issues related to gender and drug markets (vulnerability as a woman in a hierarchical drug network, misinterpretation of her role).
+    -   Potentially unreliable testimony from Albert Pope (benefited from favorable plea deal after implicating Sylvia).
+-   **Legal Status**: Currently incarcerated, seeking commutation.
+-   **Organizations Involved**:
+    -   Philadelphia Justice Project for Women and Girls (Dr. Jill McCorkle advocates for her).
+    -   AIG Pro Bono program (underwriter of the podcast, committed to criminal justice reform).
+-   **Innocence Lawyer Details**:
+    -   **Michael Wallace**: Trial attorney, failed to file timely appeal.
+    -   **James Bruno**: Subsequent attorney for appeals, appeals were denied, later suspended from practicing law.
+    -   **Dr. Jill McCorkle**:  Professor and director of Philadelphia Justice Project for Women and Girls, advocating for commutation, not a lawyer but legal advocate/researcher.
+-   **Cross-Reference**: Not specified if in exoneree database, but case is a clear wrongful conviction case.
+-   **Narrative of Original Crime**: Sylvia Boykin went with Lamont Antoine Blackman and Aaron Major to collect a drug debt from Bernetta Pope.  Gunfire erupted at Bernetta Pope's residence, resulting in Bernetta's death. Sylvia was present but unarmed and did not shoot anyone.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Testimony of Albert Pope claiming Sylvia ordered Antoine and Aaron to kill Bernetta and Albert.
+    -   Sylvia's signed statement (later claimed coerced).
+    -   Statement from Aaron Major (also claimed coerced).
+-   **Trial Defender Notes**:
+    -   Defense argued that Sylvia did not have a gun and did not order anyone to shoot.
+    -   Antoine and Aaron testified that Sylvia did not have a gun and did not order the shooting, claiming Albert threatened them first.
+    -   Defense argued statements were coerced.
+    -   Trial attorney was ineffective, failing to file a timely appeal.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Lack of physical evidence linking Sylvia to the shooting.
+    -   Testimony from Antoine and Aaron contradicting Albert's claim that Sylvia ordered the shooting.
+    -   Dr. McCorkle's expert analysis highlighting systemic issues and Sylvia's vulnerability.
+    -   Focus on commutation as the current path to release due to exhausted appeals.
+-   **Actual Perpetrator Details**:
+    -   **Lamont Antoine Blackman**:  Likely shooter according to Dr. McCorkle, released from prison on direct appeal in 1997. Juvenile at the time of the crime, fitting the pattern of drug networks using juveniles as shooters to receive lesser sentences.
+    -   **Aaron Major**: Present at the scene, also charged, provided a statement.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Jason Flom's introduction about false confessions: "Well, I can envision a scenario in which I would confess to a murder that I didn't commit and that would be if I became so disoriented, scared, confused, lonely and just terrified of the people who, you know, we all believe are there to protect us and to help us and to find the truth. When they turn on you, sometimes people see it as their only way out of that impossible situation..."
+    -   Sylvia Boykin on signing the statement: "He kept saying, well, if you sign this, I'll let you go home. And so I was like, but this is not what happened. So he kept me to the chair and he hit me with a phone book to wake me up. He's like, Simon, and we will let you go. I signed the paper and I never left prison."
+    -   Dr. McCorkle on systemic issues for women: "There are a number of women with similar kinds of scenarios where the principal offender is a man. They're unable to cooperate with police because usually they're scared of retaliatory violence and then police and prosecutors engage in a malicious prosecution."
+    -   Sylvia Boykin's desire to help others: "I feel like after 31 years in here that I've came to know myself. I had so much that I want to give back. I want to be able to go out and to help young people."
+    -   Sylvia Boykin expressing regret: "And I'm just so, so, so sorry for everyone that I heard for the pain that I caused. I'm very sorry for that. I wish I could take it all back."
+-   **Systemic Issues Identified**:
+    -   False confessions coerced through interrogation tactics.
+    -   Ineffective legal representation, particularly for marginalized individuals.
+    -   Gender bias and misinterpretation of women's roles in drug networks.
+    -   Pressure on witnesses/co-defendants to provide testimony favorable to prosecution in exchange for leniency (Albert Pope's case).
+    -   Over-prosecution and elevated charges against vulnerable individuals.
+-   **Policy Recommendations/Calls to Action**:
+    -   Call to sign a petition for Sylvia Boykin's commutation (freesylviaboykin.com).
+    -   Support local Innocence Organizations.
+    -   Implicit call for broader criminal justice reform, particularly regarding interrogation tactics, access to effective legal counsel, and understanding systemic biases.
+-   **Personal Narrative/Impact**:
+    -   Sylvia Boykin's traumatic childhood including sexual abuse and attempted suicide.
+    -   Her struggle with substance abuse as a coping mechanism for trauma.
+    -   Impact of her incarceration on her daughters, especially Penny who had to take on parental responsibilities.
+    -   Sylvia's personal growth and rehabilitation in prison, becoming a certified peer specialist and wanting to help others upon release.
+    -   Her regret and sorrow for the victim's family despite maintaining her innocence of murder.
+-   **Additional Resources**:
+    -   freesylviaboykin.com (petition for commutation)
+    -   Local Innocence Organizations (general support encouraged)
+    -   Philadelphia Justice Project for Women and Girls (Dr. McCorkle's organization)
+    -   KISQALI.com (advertisement)
+    -   mycomputercareer.edu/CWP (advertisement for cybersecurity training for veterans)
+    -   Target.com/circle (advertisement for Target Circle 360)
+    -   Don'tSleepOnOSA.com (advertisement about obstructive sleep apnea)
+    -   Amtrak.com (advertisement for Amtrak)
+```

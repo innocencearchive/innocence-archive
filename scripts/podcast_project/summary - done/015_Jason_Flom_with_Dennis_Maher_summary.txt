@@ -1,0 +1,96 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript (but episode discusses events from 1983 onwards, exoneration in 2003, and the current conversation is taking place sometime after 2003)
+-   **Production Company(ies)/Network**: Lava for Good podcasts in association with signal company number one.
+-   **Series Type**: Ongoing Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Convictions, Eyewitness Misidentification, Incompetent Defense Counsel, Forensic Evidence (DNA), Systemic Issues in the Justice System.
+-   **Key Statistics/Information**:
+    -   Eyewitness misidentification is the leading cause of wrongful conviction.
+    -   Mistakes in other human-run systems like aviation and medicine are treated as learning moments, unlike in the legal field.
+    -   Vast majority of wrongful convictions are likely people who are forced to take guilty pleas at a misdemeanor level.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom features Dennis Mayer, wrongfully convicted of three rapes in 1984 and exonerated after serving almost 20 years. The episode details the numerous factors contributing to his wrongful conviction, including flawed eyewitness identification procedures, the initial loss but eventual recovery of crucial DNA evidence, and grossly incompetent defense counsel.  The discussion highlights systemic issues within the justice system, such as pressure on law enforcement to close cases quickly, prosecutorial tunnel vision, and the lack of accountability for errors.  Dennis Mayer recounts his harrowing prison experience and his eventual exoneration through the efforts of the Innocence Project. The episode also features insights from Hannah Riley of the New England Innocence Project and former prosecutor Alex Spyro, who discuss the systemic reforms needed and the importance of strong defense counsel and prosecutorial integrity.  The episode concludes with a message of hope and a call to action to support innocence organizations and advocate for criminal justice reform.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Dennis Mayer
+-   **Case Location**: Lowell/Ayer, Massachusetts, USA
+-   **Conviction Year**: 1984
+-   **Exoneration Year**: 2003
+-   **Crime Convicted Of**: Three rapes (initially two in Lowell, then one in Ayer)
+-   **Sentence**: Initially 10-15 years, doubled to 20-30 years after outburst in court.  Also received a civil commitment sentence later (one day to natural life, which was dismissed upon exoneration).
+-   **Time Served**: Almost 20 years
+-   **Contributing Factors**:
+    -   Eyewitness Misidentification: Three separate women identified him under questionable lineup procedures.
+    -   Inadequate Legal Counsel: Defense attorney was incompetent, failing to investigate alibi, crime scene, or witnesses, and even appeared to assist the prosecution.
+    -   Circumstantial Evidence: Red hooded sweatshirt and proximity to the crime scene, later revealed to be weak evidence.
+    -   Initial Mishandling/Loss of Evidence: DNA evidence was initially reported as lost or destroyed, hindering early appeals.
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**:
+    -   New England Innocence Project (NEIP)
+    -   Innocence Project (New York - Yeshiva University and Cardozo School of Law)
+-   **Innocence Lawyer Details**:
+    -   Eliza Kaplan (initially with New England Innocence Project, then New York Innocence Project)
+    -   Karen Burns (New England Innocence Project)
+    -   Barry Scheck (mentioned in connection to Innocence Project)
+-   **Narrative of Original Crime**:
+    -   Lowell Cases: Two rapes/attempted rapes occurred on November 16th and 17th, 1983. Victims were attacked from behind and a weapon was involved.
+    -   Ayer Case: Rape at the Casa Mano Hotel.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Eyewitness identifications from three victims.
+    -   Circumstantial evidence: Dennis Mayer wearing a red hooded sweatshirt, being in the vicinity, and possessing a military-issued knife and jacket in his car.
+-   **Trial Defender Notes**:
+    -   Defense attorney was extremely incompetent:
+        -   Did not visit crime scene.
+        -   Did not interview witnesses.
+        -   Missed hearings.
+        -   Cross-examined witnesses in a way that strengthened the prosecution’s case.
+        -   Failed to adequately present alibi evidence.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   DNA testing of evidence from both the Lowell and Ayer cases.
+        -   Lowell Cases: DNA testing on evidence from the Lowell cases excluded Dennis Mayer and confirmed victim was a virgin, contradicting initial assumptions about alternative explanations.
+        -   Ayer Case: DNA testing on a slide from the Ayer case revealed two different male DNA profiles, neither of which matched Dennis Mayer.
+-   **Actual Perpetrator Details**: Not mentioned in the transcript.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Dennis Mayer: "The choice to be in that lineup was the last choice I made as a free man."
+    -   Dennis Mayer regarding his lawyer: "He presented most of the case for the prosecutor. You know, he's standing next to me. Are you sure this is the person? Are you sure there's a point in at me saying, are you sure this is the person who raped you?"
+    -   Dennis Mayer about his sentence: "I said, Your Honor, if you call this justice, I think you and your whole judicial system or a crock of shit. And he doubled my sentence to 20 to 30 years."
+    -   Alex Spyro: "If everybody in the first instance would fight smart and hard for everybody accused of crimes, I think that that would create the best checks in the system."
+    -   Hannah Riley: "People expect mistakes to happen... We don't really have something like that in the legal field right now."
+-   **Systemic Issues Identified**:
+    -   Flawed Eyewitness Identification Procedures: Lineups were suggestive and not double-blind. Photo arrays before live lineups can taint identification.
+    -   Pressure on Law Enforcement: Pressure to solve cases quickly can lead to tunnel vision and focusing on a suspect prematurely.
+    -   Inadequate Defense Counsel:  Poor legal representation significantly hinders the chances of justice for the accused.
+    -   Prosecutorial Tunnel Vision: Prosecutors may become convinced of guilt and interpret evidence to fit their narrative, overlooking exculpatory information.
+    -   Lack of Accountability: System does not adequately learn from or correct past mistakes, unlike other fields like aviation and medicine.
+    -   Evidence Handling Issues: Evidence being lost or destroyed, hindering post-conviction review.
+-   **Policy Recommendations/Calls to Action**:
+    -   Support innocence organizations like the Innocence Project and New England Innocence Project.
+    -   Advocate for criminal justice reform, including better eyewitness identification procedures and evidence preservation laws.
+    -   Encourage listeners to contact their politicians and support bills aimed at preventing wrongful convictions.
+    -   Promote the idea of creating a learning system in the legal field similar to M&M conferences in medicine to analyze and learn from errors.
+-   **Personal Narrative/Impact**:
+    -   Dennis Mayer endured nearly 20 years of wrongful imprisonment, including violence and trauma within the prison system.
+    -   He expressed the psychological impact of being labeled a monster and the fear of prison life, especially as a sex offender.
+    -   Despite the horrific experience, Dennis Mayer showed remarkable grace by forgiving the prosecutor who initially tried his case.
+    -   His story highlights the immense personal toll of wrongful convictions and the long journey to rebuild life after exoneration.
+-   **Additional Resources**:
+    -   Innocence Project website (InnocenceProject.org) for donations and involvement.
+    -   New England Innocence Project (newenglandinnescence.org) (email contact: H.Riley@newenglandinnescence.org for speaking engagements with Dennis Mayer).
+    -   "Gorilla basketball video" (selective attention test on YouTube) to illustrate the fallibility of eyewitness perception.
+    -   State House websites to look up and support relevant bills for criminal justice reform.
+```

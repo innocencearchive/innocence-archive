@@ -1,0 +1,102 @@
+# Wrongful Conviction Media Research Workflow
+
+## Preparation Steps
+1. Create a master project directory with subdirectories:
+```
+wrongful-conviction-media-research/
+│
+├── research_templates/
+│   └── research_template_film_media.md
+│
+├── documentaries/
+│   ├── 60_minutes/
+│   ├── frontline/
+│   ├── 20_20/
+│   ├── dateline/
+│   ├── documentaries/
+│   └── documentary_series/
+│
+├── source_documents/
+│   ├── film_list.md
+│   └── research_template_film_media.md
+│
+└── research_process.md
+```
+
+2. Research Workflow for Each Documentary/Series:
+   - Preliminary Research
+     * Watch/Review the entire documentary
+     * Take detailed notes using research template
+     * Cross-reference individual cases with:
+       - National Registry of Exonerations
+       - Innocence Project database
+       - Local court records
+     * Verify key facts from multiple sources
+
+3. Documentation Process:
+   - Create a markdown file for each documentary
+   - Use the research template as a structured guide
+   - Include citations and sources for all claims
+   - Add a disclaimer about potential limitations in research
+
+## Recommended Research Tools
+- Online Databases:
+  * National Registry of Exonerations
+  * Innocence Project online resources
+  * ProPublica's investigative databases
+  * PACER (for court documents)
+
+- Academic Resources:
+  * University law school innocence project websites
+  * Academic journals on criminal justice
+  * Scholarly articles on wrongful convictions
+
+## Ethical Considerations
+- Respect privacy of individuals featured
+- Avoid sensationalism
+- Focus on systemic issues
+- Provide balanced, fact-based reporting
+
+## Verification Checklist
+- [ ] Watched full documentary
+- [ ] Cross-referenced individual cases
+- [ ] Verified key facts
+- [ ] Documented sources
+- [ ] Reviewed for potential bias
+- [ ] Completed research template
+- [ ] Proofread and fact-checked document
+
+## Recommended Citation Format
+```markdown
+## Sources
+1. [Documentary Name]. Directed by [Director]. [Production Company], [Year].
+2. National Registry of Exonerations. "Case of [Exoneree Name]." Accessed [Date].
+3. Innocence Project. "[Relevant Case Study]." [Year].
+```
+
+## Sample Research Markdown Structure
+```markdown
+# [Documentary Title]
+
+## Basic Information
+- **Title**: 
+- **Director**: 
+- **Year**: 
+- **Production Company**: 
+
+## Key Cases Examined
+
+### Case 1: [Exoneree Name]
+- **Conviction Details**:
+- **Exoneration Details**:
+- **Key Systemic Issues**:
+
+## Systemic Issues Highlighted
+- 
+- 
+- 
+
+## Policy Recommendations
+
+## Sources and Further Reading
+```

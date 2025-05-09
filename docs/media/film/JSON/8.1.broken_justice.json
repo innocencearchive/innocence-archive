@@ -1,0 +1,61 @@
+{
+  "source_file_name": "8.1.broken_justice.md",
+  "media_work": {
+    "work_type": "UNKNOWN",
+    "title": "Broken Justice (PBS NewsHour Report) (Series title unconfirmed by search)",
+    "publication_or_release_year": null,
+    "publisher_or_network": "NewsHour Productions LLC (assumed)",
+    "focus_or_theme": "Structural flaws in the US criminal justice system leading to wrongful convictions (underfunded defense, prosecutorial misconduct, flawed forensics).",
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null
+  },
+  "media_item": {
+    "item_media_type": "UNKNOWN",
+    "item_title": "Information Unavailable (Described as multi-part series)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Structural flaws in the US criminal justice system leading to wrongful convictions (underfunded defense, prosecutorial misconduct, flawed forensics).",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Series examines various systemic aspects contributing to wrongful convictions. Available via PBS.",
+      "research_findings": "Searches did not identify a specific PBS NewsHour series titled \"Broken Justice\" covering wrongful convictions. PBS NewsHour covers criminal justice issues frequently, but this specific multi-part series title wasn't confirmed. Details rely on the `film_list.txt` entry."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Various exonerees (Specific individuals/cases not identified by searches)",
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of_raw": null,
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [
+        "Underfunded public defenders, prosecutorial misconduct, flawed forensic science."
+      ],
+      "status_raw": null,
+      "organizations_involved_raw": [],
+      "first_name": "Various",
+      "middle_name": "exonerees (Specific individuals/cases not identified by",
+      "last_name": "searches)"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Information Unavailable (Producer credit likely for NewsHour)",
+      "role": "DIRECTOR",
+      "first_name": "Information",
+      "middle_name": "Unavailable (Producer credit likely for",
+      "last_name": "NewsHour)"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

@@ -1,0 +1,114 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but features Michelle Murphy
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2017 (original episode with Michelle Murphy), current episode likely later as it references "now almost five years since her release" from 2017 episode. Let's assume current year is around 2022 based on "five years since 2017".
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, criminal justice system, exoneree stories, prosecutorial misconduct, ineffective defense counsel.
+-   **Key Statistics/Information**:
+    - Michelle Murphy served 20 years for a crime she did not commit.
+    - Judge in Michelle Murphy's case called it the worst miscarriage of justice in his four decades on the bench.
+    - Michelle Murphy was interrogated for 9 hours at age 17 without a parent or attorney present.
+    - Preliminary hearing judge stated that the witness Michael Lee William was likely the murderer.
+    - Blood evidence at the crime scene was not Michelle Murphy's blood type, but this was concealed by the prosecution.
+    - Michelle Murphy's daughter was adopted by close friends of the prosecutor.
+    - Michelle Murphy was fully exonerated but lost her civil lawsuit against the city of Tulsa.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features Michelle Murphy, who was wrongfully convicted of murdering her 15-week-old son and served 20 years of a life sentence.  The episode recounts the egregious miscarriage of justice in her case, highlighting her difficult childhood, the flawed investigation, and the prosecutorial misconduct that led to her conviction.  Despite overwhelming evidence pointing to her innocence and another potential suspect, Michelle was convicted due to an ineffective defense and a biased prosecution that withheld crucial exculpatory evidence.  The episode details her experiences in jail and prison, her eventual exoneration after years of fighting, and the ongoing challenges she faces in rebuilding her life post-incarceration, including the lack of compensation and the continued legal battles in her civil suit.  Michelle's story underscores systemic issues within the justice system and the profound personal impact of wrongful convictions.
+
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Michelle Murphy
+-   **Case Location**: Tulsa, Oklahoma, USA
+-   **Conviction Year**: 1995
+-   **Exoneration Year**: 2015 (released in 2015 after 20 years served, exoneration confirmed later, but transcript implies 2015 release is tied to exoneration process)
+-   **Crime Convicted Of**: Murder of her 15-week-old son, Trevor (referred to as Travis in later part of transcript, assuming same child)
+-   **Sentence**: Life sentence without the possibility of parole
+-   **Time Served**: 20 years to the day
+-   **Contributing Factors**:
+    - False confession (coerced and manipulated during illegal interrogation as a minor)
+    - Prosecutorial misconduct (withholding exculpatory evidence, lying about blood evidence)
+    - Ineffective defense counsel (lawyer seemingly unprepared and inactive during trial)
+    - Tunnel vision by law enforcement and prosecution focusing solely on Michelle despite other evidence.
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**:
+    - Innocence Project (initially, then later re-involved)
+    - Richard and Cherise O'Carroll (attorneys who helped with exoneration)
+-   **Innocence Lawyer Details**:
+    - Richard and Cherise O'Carroll: Private attorneys who took on Michelle's case and successfully worked towards her exoneration. They were funded initially by a friend of Michelle's sister, Dr. Fazelle. They worked with the Innocence Project to re-examine evidence.
+-   **Cross-Reference**: Not specified if in exoneree database, needs to be checked.
+-   **Narrative of Original Crime**: Michelle's 15-week-old son, Trevor, was found dead in their kitchen with his throat slit. Michelle stated she found him after waking up to find her front door open and her son missing from where he was sleeping on the couch with her and her daughter.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Coerced statements from Michelle during a 9-hour interrogation without an adult present, suggesting she may have accidentally dropped a knife.
+    - Implied blood evidence at the crime scene was Michelle's (later revealed to be false).
+    - Autopsy photos of her son shown to the jury to evoke emotional response.
+-   **Trial Defender Notes**:
+    - Ineffective and seemingly unprepared.
+    - Described as "asleep" by Jason Flom.
+    - Did not effectively challenge the prosecution's case or present exculpatory evidence.
+    - Did not control anything in the courtroom.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - DNA evidence (mentioned in the initial news report segment within the podcast as "new evidence they just became aware of" and "DNA evidence they say wasn't available 20 years ago", but later clarified in the conversation as evidence that *was* available and tested prior to trial, but was concealed by the prosecution).
+    - Evidence of blood at the crime scene not matching Michelle's blood type, indicating it was not her blood.
+    - Evidence pointing to Michael Lee William as a potential suspect, including his suspicious death after preliminary hearing, previous violent behavior, and statements suggesting involvement.
+    - Re-examination of evidence by Richard and Cherise O'Carroll and the Innocence Project.
+-   **Actual Perpetrator Details**:
+    - Michael Lee William: A neighbor who made unwanted sexual advances towards Michelle.
+    - Judge Messler identified him as the likely murderer during the preliminary hearing.
+    - Evidence existed (though not allowed at trial) that he had decapitated a cat, made statements about revenge against Michelle, and had a history of violent tendencies when rejected.
+    - Died by suicide (self-hanging) between Michelle's arrest and trial under suspicious circumstances.
+
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - Judge: "in his four decades on the bench it was the worst miscarriage of justice he'd ever seen."
+    - Judge Messler (preliminary hearing): "because that's the murderer of this baby and everybody in the courtroom knows it except you apparently" (referring to Michael Lee William).
+    - Michelle Murphy: "The prosecution from day one knew I was innocent and let force testimony go uncorrected from the lower courts, all way up to the United States Supreme Court."
+    - Michelle Murphy on trial: "I knew that I was innocent. And I believe that once they heard all this BS that they had made up without me and everything else is somebody was going to see what I knew. And they they would let me go home, you know, but they were so narrow minded and blinded by what the prosecutor portrayed."
+    - Michelle Murphy on release: "I'm grateful to be free and living in on this side of the world but it's so hard to survive sometimes out here because we have to play ketchup."
+    - Michelle Murphy's determination: "I'm determined I'm going to change some things I want to change a few laws especially in Oklahoma and I want to start a program that's going to go back into facilities and help prove the innocence of those that need to be home."
+
+-   **Systemic Issues Identified**:
+    - Prosecutorial misconduct: Withholding evidence, lying in court, tunnel vision.
+    - Ineffective defense counsel: Lack of preparation, passivity in court.
+    - Coercive interrogation tactics: Illegal interrogation of a minor without adult presence, false promises.
+    - Flawed justice system: Failure to correct errors even when a judge recognizes a miscarriage of justice.
+    - Lack of support for exonerees post-release: No automatic compensation, difficulty reintegrating into society, lack of resources and programs tailored to exonerees.
+    - Jail conditions: Described as horrific, unsanitary, and dangerous, especially for those awaiting trial and presumed innocent.
+
+-   **Policy Recommendations/Calls to Action**:
+    - Need for programs specifically designed to support exonerees after release, addressing financial, educational, emotional, and mental health needs.
+    - Reform of interrogation practices, particularly for juveniles.
+    - Increased accountability for prosecutorial misconduct.
+    - Improved standards for defense counsel, especially in serious felony cases.
+    - Public awareness campaigns to educate people about wrongful convictions and the challenges faced by exonerees.
+    - Support for organizations like the Innocence Project.
+
+-   **Personal Narrative/Impact**:
+    - Michelle Murphy endured extreme childhood abuse and poverty.
+    - Wrongful conviction led to 20 years of imprisonment, separation from her daughter, and immense suffering.
+    - She faced horrific conditions in jail and prison, including threats and taunting.
+    - Despite the trauma, Michelle demonstrated incredible resilience, determination to prove her innocence, and a desire to help others.
+    - Post-exoneration, she faces challenges reintegrating into society, lacking basic life skills and facing ongoing legal battles in her civil suit.
+    - Her experience highlights the long-lasting and devastating impact of wrongful conviction on individuals and their families.
+    - Final thoughts from Michelle emphasize her determination to change laws, help other wrongfully convicted individuals, and prevent future wrongful convictions by educating young people.
+
+-   **Additional Resources**:
+    - Innocence Project (InnocenceProject.org) - recommended for donations and involvement.
+    - Goodwill Tulsa Works - program Michelle is participating in for skill development.
+    - Mention of "Spotlight Snitch City", "The Setup", and "Cautionary Tales" podcasts (advertisements within the transcript).
+    - Michigan Achievement Scholarship (advertisement within the transcript).
+    - hereformyoutdoors.org (Michigan conservation efforts - advertisement within the transcript).
+```

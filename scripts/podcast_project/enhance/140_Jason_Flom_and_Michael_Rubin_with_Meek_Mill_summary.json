@@ -1,0 +1,114 @@
+{
+    "sourceFileName": "140_Jason_Flom_and_Michael_Rubin_with_Meek_Mill_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts and Association with signal company number one.",
+        "seriesType": "Episodic Series (based on the general title \"Wrongful Conviction with Jason Flom\")",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, criminal justice reform, systemic issues in the justice system, probation, and incarceration rates.",
+        "keyStats": "-   In 18 months in a Philadelphia neighborhood, police actions were observed frequently (stops, searches, arrests, house raids, beatings).\n-   Cross-racial identifications are unreliable.\n-   From 1970 onwards, incarceration rates in the US dramatically increased.\n-   Philadelphia saw a 69% increase in police decade over decade.\n-   70% of people who return to jail/prison do so for technical probation violations.\n-   More Black people are under criminal justice supervision now than enslaved people at the height of slavery in the 1850s-60s.\n-   California once spent more on incarceration than education.\n-   US incarceration rate is 5-9 times higher than Western Europe.\n-   US has more people in prison for drugs than all of Western Europe for all crimes.\n-   Japan's incarceration rate is 14 times lower per capita than the US.\n-   Crime rates in the US are not lower than countries with lower incarceration rates.\n-   One in four Black children born in 1990 had an imprisoned father by age 14.\n-   30% of Black men without college education will have been to prison by their thirties.\n-   60% of Black men without high school education will spend a year in prison or jail before age 30.\n-   Pennsylvania is one of three states with no cap on probation.",
+        "itemNumber": "140",
+        "itemTitle": "Jason Flom and Michael Rubin with Meek Mill",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features Meek Mill and Michael Rubin discussing Meek's wrongful conviction case and the broader issues within the American criminal justice system.  Meek recounts his experience growing up in a heavily policed, drug-infested neighborhood in Philadelphia, detailing the circumstances surrounding his arrest and subsequent decade-long legal battle. The conversation highlights systemic issues such as unreliable cross-racial identifications, excessive probation terms, and the disproportionate incarceration of Black men.  Michael Rubin, a friend and advocate for Meek, emphasizes the existence of \"two Americas\" and the urgent need for criminal justice reform, particularly regarding probation violations and sentencing. They both call for voting and community involvement to address these deep-rooted problems and advocate for a more just system that focuses on rehabilitation and appropriate punishment rather than mass incarceration.  The episode underscores the devastating personal and societal impact of wrongful convictions and the urgent need for systemic change."
+    },
+    "featuredIndividual": {
+        "fullName": "Meek Mill",
+        "caseLocation": "Philadelphia, Pennsylvania, USA",
+        "convictionYear": "2008 (original conviction)",
+        "exonerationYear": "2019 (conviction overturned, case brought to a close, but litigation ongoing at the time of recording)",
+        "crimeConvictedOf": "Drug and weapons charges, assaulting arresting officers, illegal possession of a firearm.",
+        "sentence": "2-4 years in prison, plus 8 years probation (original sentence); additional prison time for alleged probation violations.",
+        "timeServed": "2 years (original sentence), plus additional time for probation violations (amount not specified, but led to public outrage in 2017).",
+        "contributingFactorsRaw": [
+            "False testimony by a narcotics officer (claimed to see Meek selling crack).",
+            "Allegedly planted gun during stop.",
+            "Questionable charges of assaulting officers.",
+            "Cost of jury trial led to waiving rights.",
+            "Contentious relationship with Judge Janice Brinkley."
+        ],
+        "status": "Conviction overturned, granted new trial, criminal case and probation closed in August 2019, but litigation ongoing at time of recording.",
+        "organizationsInvolvedRaw": [
+            "Not explicitly mentioned in transcript, but implied support from criminal justice reform advocates and legal teams."
+        ],
+        "innocenceLawyersRaw": [
+            "Not detailed in the transcript, but mentioned that a police whistleblower exposed the arresting officer, leading to the overturned conviction."
+        ],
+        "crossReference": "Not explicitly stated but implied to be a case of wrongful conviction discussed in media and advocacy circles.",
+        "narrativeOriginalCrime": "Narcotics officer claimed to see Meek Mill selling crack from his home to obtain a search warrant. The next day, Meek was stopped and found to be in possession of a gun. He was arrested and charged with illegal gun possession and assaulting officers who claimed he pointed the gun at them.",
+        "keyEvidenceProsecutionRaw": [
+            "Narcotics officer's testimony (later discredited), gun possession, officers' claims of assault."
+        ],
+        "trialDefenderNotes": "Meek Mill waived his right to a jury trial due to cost, suggesting potential inadequacy of defense resources or strategy at the time.",
+        "keyEvidenceExonerationRaw": [
+            "Police whistleblower exposed the arresting officer as a liar and thief. This new information led to the overturning of the 2008 conviction and a new trial under a different judge, ultimately closing the case."
+        ],
+        "actualPerpetratorDetails": "Not applicable as this case focuses on wrongful conviction and alleged police misconduct rather than misidentification of a perpetrator."
+    },
+    "keyQuotesRaw": [
+        "\"Meek Mills, notoriety shines a light on the regularity legalized harassment by authorities and the recidivism that results.\"",
+        "\"There is two worlds.\" - Michael Rubin, acknowledging the different experiences of justice based on race and socioeconomic status.",
+        "\"70% of people that go back to jail once they've been in jail in prison are going back for technical probation violations.\" - Michael Rubin, highlighting a major flaw in the probation system.",
+        "\"Vote, vote and vote and vote in your local races and your DA's races and your judges races, your vote counts.\" - Jason Flom, emphasizing civic engagement as a solution.",
+        "\"Break the system completely and rebuild it again because the way we lived and the things we've been through with the system, it doesn't even take crime or or take being the villain to go to jail.\" - Meek Mill, calling for radical systemic change."
+    ],
+    "systemicIssuesRaw": [
+        "Racial bias in policing and the justice system.",
+        "Unreliable eyewitness identification, particularly cross-racial.",
+        "Over-policing and mass incarceration in marginalized communities.",
+        "Harsh and excessive probation terms and violations.",
+        "Flaws in the judicial system, including potential judicial bias (Judge Brinkley).",
+        "Disproportionate sentencing and mandatory minimums.",
+        "Lack of rehabilitation focus in prisons.",
+        "Cycle of poverty and crime perpetuated by the system.",
+        "Two-tiered justice system based on wealth and race."
+    ],
+    "policyRecommendationsRaw": [
+        "Criminal justice reform, including probation reform (caps on probation, reducing technical violations).",
+        "Sentencing reform (eliminate mandatory minimums, ensure punishment fits the crime).",
+        "Rehabilitation programs instead of incarceration for drug-related offenses.",
+        "Voting in local and judicial elections to elect reform-minded officials.",
+        "Jury duty participation to ensure fair trials.",
+        "Employer engagement in hiring system-affected individuals.",
+        "Supporting organizations like the Innocence Project."
+    ],
+    "personalNarrativeRaw": [
+        "Meek Mill's personal experience of being trapped in the criminal justice system for over a decade despite being wrongfully convicted and never committing new crimes.  He emphasizes the constant fear, restrictions, and dehumanizing aspects of probation and incarceration. His final thoughts are focused on his dedication to systemic change and helping others trapped in the system, expressing a desire to \"break the system completely and rebuild it.\"",
+        "Michael Rubin's transformation from not fully understanding systemic injustice to becoming a passionate advocate after witnessing Meek's case firsthand. He expresses optimism about the possibility of reform and encourages others to get involved and make a difference."
+    ],
+    "additionalResourcesRaw": [
+        "Book: \"On the Run\" by Alice Goffman",
+        "Docu-series: \"Free Meek\" streaming on Prime Video",
+        "Organization: Innocence Project (InnocenceProject.org)",
+        "Organization: Families Against Mandatory Minimums (FAMM)",
+        "Website: don'tsleeponosay.com (for obstructive sleep apnea)",
+        "Website: kisqai.com (for breast cancer medication)",
+        "Website: zinn.com-find (for nicotine pouches)",
+        "Website: AAA.com (for roadside assistance)",
+        "Website: Lowes.com (for My Lowe's Pro Rewards Program)",
+        "Prime Video (for movies G20 and streaming content)",
+        "Culver's (Wisconsin Fish Fry)",
+        "Xfinity (streaming recommendations on social media)"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Criminal Justice Reform",
+                "Racial Bias in the Justice System",
+                "Mass Incarceration",
+                "Probation Violations",
+                "Systemic Issues in Policing",
+                "Civic Engagement"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

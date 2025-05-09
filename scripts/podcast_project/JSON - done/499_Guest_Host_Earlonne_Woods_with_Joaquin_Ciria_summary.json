@@ -1,0 +1,85 @@
+{
+    "sourceFileName": "499_Guest_Host_Earlonne_Woods_with_Joaquin_Ciria_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flomner Day (guest host Erlan Woods)",
+        "releaseYear": "2024",
+        "network": "Lava for Good podcast, in association with Signal Company number one",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, systemic issues in the justice system, eyewitness misidentification, false confessions, police misconduct, exoneree stories.",
+        "keyStats": "-   Joaquin Syria served almost 32 years for a crime he did not commit.\n-   Six people have been exonerated out of San Francisco, five from the 1990 era, all are Black men.\n-   CDCR's budget is over $14 billion.\n-   Reward of $10,000 was given in the case.",
+        "itemNumber": "499",
+        "itemTitle": "Guest Host Earlonne Woods with Joaquin Ciria",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the story of Joaquin Syria, who was wrongfully convicted of murder in San Francisco in 1990 and exonerated after nearly 32 years. Guest host Erlan Woods interviews Joaquin and Paige Kanep, supervising attorney at the Northern California Innocence Project. The episode details Joaquin's difficult upbringing in Cuba, his immigration to the US, and the events leading to his wrongful conviction based on flawed eyewitness identification and a coerced statement from a young acquaintance.  The podcast highlights systemic issues within the San Francisco Police Department in the 1990s,  the impact of wrongful convictions on individuals and families, and calls for accountability and reform within the justice system to prevent future tragedies and re-examine past cases from this era."
+    },
+    "featuredIndividual": {
+        "fullName": "Joaquin Syria",
+        "caseLocation": "San Francisco, California, USA",
+        "convictionYear": "1990",
+        "exonerationYear": "2022 (April 18, 2022)",
+        "crimeConvictedOf": "First-degree murder",
+        "sentence": "31 years to life",
+        "timeServed": "Almost 32 years",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification (flawed and suggestive police procedures)",
+            "Coerced false statement (from George Varela)",
+            "Ineffective assistance of counsel (failure to present alibi and context of Varela's statement)",
+            "Rumors and initial police focus on Joaquin without sufficient evidence"
+        ],
+        "status": "Exonerated, charges dismissed",
+        "organizationsInvolvedRaw": [
+            "Northern California Innocence Project, Innocence Commission, Pro Bono Attorneys (Ellen Egger)"
+        ],
+        "innocenceLawyersRaw": [
+            "Paige Kanep, Supervising Attorney at the Northern California Innocence Project, and Ellen Egger, pro bono attorney, played key roles in investigating and litigating Joaquin's case post-conviction, uncovering new evidence and challenging the original conviction."
+        ],
+        "crossReference": "Likely appears in exoneree database (needs to be verified)",
+        "narrativeOriginalCrime": "Felix Bostarica was shot and killed in an alley in San Francisco's Mission District on March 24, 1990. Witnesses reported seeing a man argue with Felix before shooting him and fleeing in a white Monte Carlo with a driver.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness identification (initially weak, strengthened after repeated exposure to Joaquin's photo and suggestive procedures).",
+            "Coerced statement from George Varela claiming Joaquin was the shooter."
+        ],
+        "trialDefenderNotes": "Joaquin's attorney highlighted discrepancies in eyewitness descriptions and Varela's timeline, but failed to present alibi witnesses (Joaquin's girlfriend and roommate) and the coercive nature of Varela's statement (that police suggested Joaquin's name first and pressured Varela).",
+        "keyEvidenceExonerationRaw": [
+            "Retraction of George Varela's false statement (through statements to his sister and a family friend).",
+            "Confession from Roberto Socorro, an eyewitness who saw Condido Diaz shoot Felix Bostarica from his motel room and identified Condido as the perpetrator.",
+            "Evidence of Condido Diaz's motive and matching the original suspect description (Afro, trench coat, feud with victim).",
+            "Expert analysis of eyewitness identification unreliability in the case."
+        ],
+        "actualPerpetratorDetails": "Condido Diaz, a Cuban man known to have a feud with Felix Bostarica and fitting the initial eyewitness descriptions of the shooter. He was seen by Roberto Socorro committing the crime."
+    },
+    "keyQuotesRaw": [
+        "Joaquin: \"You cannot be innocent, believe that what is happening to you is real. You cannot.\" (Describing disbelief during the trial and conviction).",
+        "Joaquin: \"Everything inside me stopped. Everything. I stopped breathing. My heart stopped. It is a feeling that you can never explain how it is that they find you guilty, especially if you find me guilty for demuring or my bare-framing.\" (Describing the impact of the guilty verdict).",
+        "Paige Kanep: \"It shouldn't be luck of the draw, right? Whose cases get looked at and who gets picked up. And so, had Joaquin not, you know, convinced other incarcerated folks that he was innocent and then one of them meeting Ellen, like, you know, this luck of the draw thing, it's not okay for justice to be that arbitrary with what little justice exists in our system.\" (Highlighting the arbitrary nature of justice in wrongful conviction cases).",
+        "Joaquin: \"I always say, if we're capable to go to the moon, we have to be capable to prevent that innocent people go to prison, simple like that. How can you go to the moon, but you cannot prevent one person to go to prison. It don't make no sense.\" (Call to action and highlighting the absurdity of systemic failures in the justice system)."
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct (suggestive eyewitness identification procedures, coercing false confessions).",
+        "Racial bias in the justice system (disproportionate impact on young Black men, era of \"cleaning up the streets\").",
+        "Ineffective assistance of counsel.",
+        "Flaws in eyewitness testimony and reliance on it.",
+        "Lack of accountability for wrongful convictions."
+    ],
+    "policyRecommendationsRaw": [
+        "Re-examine cases from the 1990s era in San Francisco involving homicide investigators implicated in multiple wrongful convictions.",
+        "Increase accountability for law enforcement misconduct.",
+        "Reform eyewitness identification procedures to minimize suggestiveness.",
+        "Allocate resources to review potential wrongful conviction cases.",
+        "Encourage listeners to support organizations like the Northern California Innocence Project."
+    ],
+    "personalNarrativeRaw": [
+        "Joaquin endured nearly 32 years of wrongful imprisonment, experiencing the harsh realities of prison life.",
+        "He maintained hope through his faith and the support he received from fellow inmates who believed in his innocence.",
+        "The experience caused immense personal suffering and loss of freedom, impacting his relationships and life opportunities.",
+        "Despite his ordeal, Joaquin expresses a desire to prevent similar injustices from happening to others and calls for systemic change."
+    ],
+    "additionalResourcesRaw": [
+        "Northern California Innocence Project (link in bio mentioned in podcast)",
+        "Mention of other exonerated individuals from San Francisco in the 1990s: Maurice Caldwell, Antoine Gough, John Tennyson, and Cara Madconley.",
+        "Podcast \"Ear Hustle\" hosted by Erlan Woods.",
+        "Lava for Good podcasts and social media platforms."
+    ]
+}

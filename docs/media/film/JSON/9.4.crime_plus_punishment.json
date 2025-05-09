@@ -1,0 +1,81 @@
+{
+  "source_file_name": "9.4.crime_plus_punishment.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "Crime + Punishment",
+    "publication_or_release_year": 2018,
+    "publisher_or_network": "Information Unavailable (Roco Films listed as distributor)",
+    "focus_or_theme": "Illegal arrest/summons quotas in NYPD, whistleblower officers, impact on minority communities, wrongful stops/arrests.",
+    "summaryNotes": "Follows landmark class action lawsuit regarding quotas.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Crime + Punishment",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Illegal arrest/summons quotas in NYPD, whistleblower officers, impact on minority communities, wrongful stops/arrests.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Explores how NYPD quotas directly lead to wrongful arrests and prosecutions, particularly in minority communities. Directed by Stephen Maing. Available via Hulu.",
+      "research_findings": "This documentary provides significant insight into the systemic issue of policing quotas and their consequences. It follows active-duty NYPD officers who risked their careers to expose the practice through a class-action lawsuit. While it powerfully illustrates the *cause* of potential wrongful encounters and arrests, the focus is on the whistleblowers and the system, rather than tracking specific individuals wrongly convicted as a result."
+    }
+  },
+  "featured_individuals": [
+    {
+      "note_on_wrongful_conviction_focus": "The film highlights how illegal quotas pressure officers into making stops, issuing summonses, and making arrests without proper cause, particularly targeting minority youth. This leads to wrongful *interactions* with the justice system (stops, summonses, arrests) that can escalate, but the documentary focuses on this systemic cause rather than following specific individuals through a full wrongful *conviction* and exoneration arc. Searches did not identify named individuals presented as wrongfully convicted and later exonerated.",
+      "case_location_city": "New York City",
+      "case_location_state": null,
+      "contributing_factors_raw": [
+        "Illegal policing quotas, pressure on officers, racial profiling/targeting."
+      ],
+      "full_name": "Focus is on whistleblower officers (the \"NYPD 12\")",
+      "first_name": "Focus",
+      "middle_name": "is on whistleblower officers (the \"NYPD",
+      "last_name": "12\")"
+    },
+    {
+      "note_on_wrongful_conviction_focus": "The film highlights how illegal quotas pressure officers into making stops, issuing summonses, and making arrests without proper cause, particularly targeting minority youth. This leads to wrongful *interactions* with the justice system (stops, summonses, arrests) that can escalate, but the documentary focuses on this systemic cause rather than following specific individuals through a full wrongful *conviction* and exoneration arc. Searches did not identify named individuals presented as wrongfully convicted and later exonerated.",
+      "case_location_city": "New York City",
+      "case_location_state": null,
+      "contributing_factors_raw": [
+        "Illegal policing quotas, pressure on officers, racial profiling/targeting."
+      ],
+      "full_name": "PI Manuel Gomez",
+      "first_name": "PI",
+      "middle_name": "Manuel",
+      "last_name": "Gomez"
+    },
+    {
+      "note_on_wrongful_conviction_focus": "The film highlights how illegal quotas pressure officers into making stops, issuing summonses, and making arrests without proper cause, particularly targeting minority youth. This leads to wrongful *interactions* with the justice system (stops, summonses, arrests) that can escalate, but the documentary focuses on this systemic cause rather than following specific individuals through a full wrongful *conviction* and exoneration arc. Searches did not identify named individuals presented as wrongfully convicted and later exonerated.",
+      "case_location_city": "New York City",
+      "case_location_state": null,
+      "contributing_factors_raw": [
+        "Illegal policing quotas, pressure on officers, racial profiling/targeting."
+      ],
+      "full_name": "not specific exonerees. Features young minorities targeted by quotas.",
+      "first_name": "not",
+      "middle_name": "specific exonerees. Features young minorities targeted by",
+      "last_name": "quotas."
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Stephen Maing",
+      "role": "DIRECTOR",
+      "first_name": "Stephen",
+      "middle_name": null,
+      "last_name": "Maing"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

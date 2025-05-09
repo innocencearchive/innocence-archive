@@ -1,0 +1,74 @@
+{
+    "sourceFileName": "221_Jason_Flom_with_Anthony_Sims_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, flaws in the justice system, prosecutorial misconduct, ineffective defense, importance of innocence projects.",
+        "keyStats": "Anthony Sims served 24 years of a 25-to-life sentence for a murder he did not commit. The sole independent witness, Rachel, was ignored and her statement hidden from the defense (Brady violation). The prosecutor in Anthony's case later became head of the conviction review unit in Brooklyn, creating a conflict of interest.",
+        "itemNumber": "221",
+        "itemTitle": "Jason Flom with Anthony Sims",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom details the harrowing case of Anthony Sims, wrongfully convicted of murder in 1998.  Despite overwhelming evidence pointing to Julius Graves as the actual perpetrator, including motive and eyewitness testimony from Rachel, Sims was convicted based on a fabricated narrative by Graves and his associates.  Key exculpatory evidence, including Rachel's statement and inconsistencies in witness testimonies, was withheld by the prosecution, a Brady violation.  Sims served 24 years of a 25-to-life sentence while maintaining his innocence.  His current legal team, Jonathan Hiles and Thomas Hoffman, are fighting for his exoneration, highlighting systemic issues within the justice system and calling for public support to pressure the Brooklyn District Attorney to review the case and release Anthony Sims."
+    },
+    "featuredIndividual": {
+        "fullName": "Anthony Sims",
+        "caseLocation": "Brooklyn, New York, USA",
+        "convictionYear": "1999 (trial began in April 1999, implied conviction year)",
+        "exonerationYear": "Not yet exonerated as of the podcast recording.",
+        "crimeConvictedOf": "Murder in the second degree (intentional and depraved indifference), criminal possession of a weapon in the fourth degree",
+        "sentence": "25 years to life",
+        "timeServed": "24 years (as of podcast recording)",
+        "contributingFactorsRaw": [
+            "False accusation, prosecutorial misconduct (Brady violation - withholding exculpatory evidence), likely ineffective defense counsel, reliance on dubious witness testimonies."
+        ],
+        "status": "Currently incarcerated, seeking exoneration.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (implied through lawyers specializing in wrongful convictions), freeanthenysims.com (website and petition mentioned in podcast)."
+        ],
+        "innocenceLawyersRaw": [
+            "Jonathan Hiles and Thomas Hoffman - lawyers working pro bono on Anthony Sims' case. They re-investigated the case, uncovered Brady violations, and are advocating for his release and exoneration."
+        ],
+        "crossReference": "Not explicitly stated if in exoneree database, needs to be checked against databases.",
+        "narrativeOriginalCrime": "Lee Run Chen was shot and killed at Mr. Hing's Chinese restaurant. Anthony Sims was present at the restaurant but Julius Graves is believed to be the shooter.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony from Julius Graves, Graves's fiancé's cousin Derek Dallop, Graves's friend Louis Colon, and Graves' children's grandmother Dorothy Bolding.  Ambiguous testimony from Shalima, who was seemingly coerced.  Narrative of a prior argument between Anthony Sims and Lee Run Chen as motive."
+        ],
+        "trialDefenderNotes": "No witnesses called by the defense.  Defense lawyer was seemingly confident in acquittal based on the weakness of the prosecution's case, which proved to be ineffective. Anthony felt he was not adequately defended.",
+        "keyEvidenceExonerationRaw": [
+            "Affidavit from Rachel (independent eyewitness) stating she saw Julius Graves running from the restaurant with a shotgun.  Recantation from Graves (partial and not full confession but undermines his original testimony).  Discovery of Brady violations – withheld Rachel's statement, inconsistencies in witness statements, and initial statement of Dorothy Bolden. Evidence that Graves lied about probation reporting. Evidence of payments and housing benefits given to Graves and his associates around the time of trial. Statement from Cologne to a friend implicating Graves. Cook at Mr. Hings described shooter complexion as \"not black,\" consistent with Graves not Sims."
+        ],
+        "actualPerpetratorDetails": "Julius Graves - Motive: Charlique Windbush, Graves's fiancé, reported that Lee Run Chen touched her hand inappropriately. Graves stated he would \"scare\" Chen. Eyewitness Rachel saw Graves running from the restaurant with a shotgun. Graves handled the murder weapon after the crime and hid it. Gun was kept at Graves' residence."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"This is one of the most troubling wrongful conviction cases that I've ever seen in 28 years of doing this work...\"",
+        "Anthony Sims: \"I didn't know that it would be in prison 23 years before this truth came out.\"",
+        "Rachel (recounted): \"I saw Julius Graves running from the Chinese restaurant with a big, long gun. I know it was him, he's my neighbor...\"",
+        "Thomas Hoffman: \"Perpetrators need to be taken off the street and held to account. However, the concern of the police and the prosecutors is not to find the actual perpetrator, but to give the public the perception that the case was solved.\"",
+        "Anthony Sims: \"Allow me to get some of my life back, do the right thing.\""
+    ],
+    "systemicIssuesRaw": [
+        "Brady violations and prosecutorial misconduct.",
+        "Ineffective assistance of counsel.",
+        "Confirmation bias in police investigations - focusing on a narrative and ignoring contradictory evidence.",
+        "Lack of accountability for Brady violations.",
+        "The pressure to \"solve\" cases quickly over finding the actual truth.",
+        "Devaluing of the lives of both the victim and the wrongfully accused in the pursuit of a conviction.",
+        "Conflict of interest within conviction review units when the original prosecutor is involved."
+    ],
+    "policyRecommendationsRaw": [
+        "Public support for Anthony Sims' exoneration by signing the petition and emailing the Brooklyn District Attorney (freeanthenysims.com).",
+        "Call for Brooklyn District Attorney Eric Gonzalez to review the evidence and vacate Anthony Sims' conviction.",
+        "Broader call for reform within the justice system to prevent wrongful convictions, including greater accountability for prosecutors, improved defense counsel, and independent conviction review processes."
+    ],
+    "personalNarrativeRaw": [
+        "Anthony Sims describes the devastating impact of wrongful conviction on his life, his family, and his emotional well-being.  He highlights the pain of separation from his children, the loss of his career and freedom, and the emotional toll of being unjustly incarcerated. Despite this, he emphasizes forgiveness and his desire to help others, showcasing remarkable resilience and grace. His wife, Keisha, expresses her unwavering support and commitment to fighting for his innocence."
+    ],
+    "additionalResourcesRaw": [
+        "Website: freeanthenysims.com (petition and contact information for the Brooklyn District Attorney).",
+        "Local Innocence Projects (general support encouraged)."
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "sourceFileName": "468_Jason_Flom_with_Terrel_Barros_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2024",
+        "network": "Lava For Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system failures, investigative journalism",
+        "keyStats": "-   Terrell Barrows was originally convicted and sentenced to two consecutive life sentences plus 30 years.\n-   Stefan Bodden confessed to the shooting at the scene.\n-   Eyewitness testimony from Gregory Zorobedian is questionable due to his criminal history and a potential deal with the prosecution.\n-   DNA evidence excluded Terrell Barrows from having held the gun.\n-   Gunshot residue (GSR) evidence initially presented was misleading, but further analysis of Stefan Bodden's clothing revealed more GSR particles consistent with him being the shooter.\n-   Terrell Barrows' conviction was vacated, and he was released on bail on August 15th, 2023.",
+        "itemNumber": "468",
+        "itemTitle": "Jason Flom with Terrel Barros",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom details the case of Terrell Barrows, wrongfully convicted for a shooting in Providence, Rhode Island. Despite Stefan Bodden's on-scene confession to the crime, Terrell was convicted based on a questionable dying declaration, incentivized eyewitness testimony, and a confusing presentation of DNA evidence.  The podcast highlights critical flaws in the investigation and trial, including the ignoring of Bodden's confession, failure to properly investigate GSR evidence initially, and reliance on unreliable witness testimony.  New evidence, uncovered by Georgetown University students and Terrell's new legal team, including a re-examination of GSR evidence and new witness affidavits, led to his release on bail and the vacating of his conviction. The episode advocates for Terrell's full exoneration and discusses the systemic issues that contribute to wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Terrell Barrows",
+        "caseLocation": "Providence, Rhode Island, USA",
+        "convictionYear": "2013 (inferred from \"George Floyd\" reference and \"2012, 2013\" timeline mentioned)",
+        "exonerationYear": "2023 (conviction vacated and released on bail) - *Note: Full exoneration is still pending according to the podcast.*",
+        "crimeConvictedOf": "Murder (first-degree) and related charges in a shooting incident.",
+        "sentence": "Two consecutive life sentences plus 30 years.",
+        "timeServed": "Approximately 10 years (2013-2023)",
+        "contributingFactorsRaw": [
+            "Ineffective Assistance of Counsel (Trial Defender Notes section infers lack of proper defense)",
+            "Eyewitness Misidentification (questionable \"dying declaration\" and unreliable eyewitness testimony)",
+            "Prosecutorial Misconduct (potentially incentivizing witness testimony, ignoring confession, misleading DNA presentation)",
+            "Flawed forensic evidence interpretation (initial GSR analysis and DNA testimony presentation)"
+        ],
+        "status": "Conviction vacated, released on bail, awaiting potential full exoneration and dismissal of charges.",
+        "organizationsInvolvedRaw": [
+            "Georgetown University's \"Making an Exonerate\" class (students investigated the case)",
+            "Innocence Project (Jason Flom is a donor and encourages listeners to support)"
+        ],
+        "innocenceLawyersRaw": [
+            "Bob Cando (Terrell's newer attorney) -  Instrumental in uncovering new evidence and pushing for a new hearing."
+        ],
+        "crossReference": "Likely appears in exoneree databases (needs to be verified)",
+        "narrativeOriginalCrime": "A shooting occurred in a parking lot after a verbal altercation at the Monet Lounge. Jamal Cruz was killed, and Rokim Henley was injured. Terrell Barrows was with a group of friends, including Stefan Bodden, who was involved in the initial altercation.",
+        "keyEvidenceProsecutionRaw": [
+            "Questionable \"dying declaration\" from Jamal Cruz allegedly identifying Terrell.",
+            "Eyewitness testimony from Gregory Zorobedian, who initially said he didn't see the shooting but later changed his story to implicate Terrell.",
+            "Misleading presentation of GSR and DNA evidence, suggesting Terrell's involvement."
+        ],
+        "trialDefenderNotes": "Inferred to be inadequate. The podcast strongly suggests the defense failed to effectively counter the prosecution's flawed evidence and highlight Stefan Bodden's confession and lack of Terrell's involvement.",
+        "keyEvidenceExonerationRaw": [
+            "New analysis of GSR evidence from Stefan Bodden's clothing, showing more particles in the crotch/belt area, consistent with witness accounts of Stefan's position during the shooting.",
+            "Affidavits from new eyewitnesses and family members of Stefan Bodden stating Stefan confessed to the shooting.",
+            "Re-emphasis of the original DNA evidence excluding Terrell from handling the gun."
+        ],
+        "actualPerpetratorDetails": "Stefan Bodden - Confessed to the shooting at the scene, was caught concealing the gun, and new GSR evidence further points to him as the shooter. He later died in a car shooting in 2017."
+    },
+    "keyQuotesRaw": [
+        "Stefan Bodden's on-scene confession: \"It's me. It's all me. It's all mine.\"",
+        "Terrell Barrows: \"There were two lives lost that night, mine and Jamal Cruz. And I feel bad because Jamal Cruz didn't get justice.\"",
+        "Terrell Barrows on detectives: \"Jamal ain't here. So you could put any words in that man's mouth you want because you can't put him on the stand and cross examine him.\"",
+        "Nurgena Hendy: \"Terrell is an amazing man... the change that he will make when he is brought home.\"",
+        "Terrell Barrows: \"They're not just killing us in the streets. They're killing us in these courts. And there's no consequences when they do it. They need to be accomplished [accountable].\""
+    ],
+    "systemicIssuesRaw": [
+        "Pro-prosecution bias in the criminal justice system.",
+        "Unreliable eyewitness testimony and its influence on juries.",
+        "Potential for police and prosecutorial misconduct (fabricating evidence, ignoring confessions, incentivizing witnesses).",
+        "Misinterpretation and misrepresentation of forensic evidence.",
+        "Inadequate defense representation at trial."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for organizations like the Innocence Project.",
+        "Sign and share the Change.org petition to free Terrell Barrows (change.org/freeTerrellBarrows).",
+        "Watch and share the documentary \"Making an Exonary 2020 - The Story of Terrell Barrows\" on YouTube.",
+        "Call to hold police and prosecutors accountable for misconduct and wrongful convictions.",
+        "General call for allies to support the wrongfully convicted and reform the criminal justice system."
+    ],
+    "personalNarrativeRaw": [
+        "Terrell Barrows describes the shock and disbelief at his conviction, the emotional toll on him and his family, and his determination to fight for his freedom and for others who are wrongfully convicted. He emphasizes the injustice and the need for systemic change.",
+        "Nurgena Hendy expresses admiration for Terrell's character and the honor of working on his case, highlighting the personal impact of wrongful convictions and the importance of fighting for justice."
+    ],
+    "additionalResourcesRaw": [
+        "Documentary: \"Making an Exonary 2020 - The Story of Terrell Barrows\" (YouTube).",
+        "Change.org petition: change.org/freeTerrellBarrows.",
+        "Innocence Project: InnocenceProject.org."
+    ]
+}

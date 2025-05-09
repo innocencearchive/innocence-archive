@@ -1,0 +1,107 @@
+{
+    "sourceFileName": "170_Junk_Science_Eyewitness_Testimony_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: Junk Science",
+    "mediaItem": {
+        "hosts": "Josh Dubin",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts, Signal Company No. 1",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Eyewitness testimony, the fallibility of memory, wrongful convictions based on eyewitness misidentification, psychological experiments on memory, and reforms to improve eyewitness identification procedures.",
+        "keyStats": "Over two-thirds of wrongful convictions overturned by DNA evidence involved eyewitness misidentification.",
+        "itemNumber": "170",
+        "itemTitle": "Junk Science Eyewitness Testimony",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction: Junk Science, hosted by Josh Dubin, delves into the dangers of eyewitness testimony and its contribution to wrongful convictions. The episode begins by recounting the story of Marvin Anderson, wrongfully convicted based on eyewitness misidentification.  It then explores the psychological research of Hugo Munsterberg and Elizabeth Loftus, highlighting how memory is malleable and susceptible to suggestion.  Loftus explains the \"misinformation effect\" and how leading questions can alter memories.  The podcast discusses how law enforcement procedures, such as suggestive lineups, can further contribute to misidentification.  The episode concludes with recommendations for reform, emphasizing double-blind lineups and unbiased instructions to witnesses, and underscores the critical need for independent corroboration beyond eyewitness accounts to prevent future wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Marvin Anderson",
+        "caseLocation": "Virginia, USA (Implied from \"warm summer evening in Virginia\")",
+        "convictionYear": "Not explicitly stated in transcript, but implied to be prior to his exoneration.",
+        "exonerationYear": "Not explicitly stated in transcript, but implied to be 15 years after conviction and before the podcast recording.",
+        "crimeConvictedOf": "Rape, abduction, robbery, and force sodomy.",
+        "sentence": "210 years in prison.",
+        "timeServed": "15 years.",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification, suggestive photo and live lineup procedures (color photo ID, fillers not resembling description)."
+        ],
+        "status": "Exonerated based on DNA evidence.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project."
+        ],
+        "innocenceLawyersRaw": [
+            "Lawyers at the Innocence Project. Details not provided beyond their affiliation."
+        ],
+        "crossReference": "Appears in exoneree database (Likely, given Innocence Project involvement and exoneration, though not explicitly stated).",
+        "narrativeOriginalCrime": "A white woman was attacked, beaten, and raped near her apartment. She initially described her attacker as a light-skinned black man with a mustache, beard, and scratches on his face.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness testimony from the victim who identified Marvin Anderson in a photo and live lineup."
+        ],
+        "trialDefenderNotes": "Not detailed in the transcript, but implied to be ineffective as Marvin was convicted despite not matching the initial description.",
+        "keyEvidenceExonerationRaw": [
+            "DNA evidence from the rape kit did not match Marvin Anderson but matched another man who had confessed to the crime."
+        ],
+        "actualPerpetratorDetails": "Another man confessed to attacking the victim and provided details that seemed to prove his guilt. DNA evidence matched this man. Details beyond confession and DNA match are not provided."
+    },
+    "keyQuotesRaw": [
+        "\"Over two-thirds of people who are later exonerated based on DNA evidence were convicted based on eyewitness testimony.\"",
+        "\"Memory a little bit more, not like a recording device, but more like a Wikipedia page. You can go in there and edit it, but so can other people.\" - Elizabeth Loftus describing memory.",
+        "\"Just because somebody tells you something and they say it with a lot of detail and they say it with confidence and they even show emotion when they tell you, it doesn't mean it really happened.\" - Elizabeth Loftus on the reliability of memory.",
+        "\"Best practice, the person conducting the test should not know who the suspect is. In other words, the person conducting the test should be what's called a double-blind test.\" - Elizabeth Loftus on lineup procedure reform."
+    ],
+    "systemicIssuesRaw": [
+        "Over-reliance on eyewitness testimony in the justice system.",
+        "The malleability and unreliability of human memory.",
+        "Suggestive police procedures in eyewitness identification (photo and live lineups).",
+        "Lack of understanding of memory's fallibility by juries and the public.",
+        "Potential for unconscious bias and influence from law enforcement during identification processes."
+    ],
+    "policyRecommendationsRaw": [
+        "Implement double-blind lineup procedures where neither the witness nor the administrator knows the suspect.",
+        "Provide unbiased instructions to witnesses before lineups, emphasizing that the perpetrator may or may not be present and that exonerating the innocent is as important as identifying the guilty.",
+        "Use fillers in lineups that match the witness's description of the perpetrator, not just resemble the suspect.",
+        "Advocate for greater judicial and public awareness of the fallibility of eyewitness testimony and the science of memory."
+    ],
+    "personalNarrativeRaw": [
+        "Marvin Anderson's wrongful conviction led to 15 years of his life being stolen. Despite exoneration and becoming Chief of the Hanover Virginia Fire Department, the immense personal and emotional toll of wrongful imprisonment is implied.",
+        "Elizabeth Loftus's personal impact is reflected in her accepting the malleable nature of memory and developing a \"kinder\" perspective on human error and potential memory mistakes, both in personal life and in the context of legal accusations."
+    ],
+    "additionalResourcesRaw": [
+        "Book by Hugo Munsterberg on eyewitness testimony experiments (published 1908, mentioned in transcript).",
+        "Research and publications by Elizabeth Loftus on memory and misinformation effect.",
+        "The Innocence Project (organization that assisted Marvin Anderson and advocates for wrongful conviction reform).",
+        "Center for Integrity and Forensic Sciences (mentioned for next week's episode)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Hugo Munsterberg",
+                "role_guess": "Researcher",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Elizabeth Loftus",
+                "role_guess": "Researcher",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "double-blind lineups",
+            "unbiased instructions to witnesses",
+            "lack of understanding of memory's fallibility by juries and the public",
+            "over-reliance on eyewitness testimony in the justice system"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Eyewitness Testimony",
+                "Memory",
+                "Wrongful Convictions",
+                "Law Enforcement Procedures"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

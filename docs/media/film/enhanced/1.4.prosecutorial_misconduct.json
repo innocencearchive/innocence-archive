@@ -1,0 +1,91 @@
+{
+  "source_file_name": "1.4.prosecutorial_misconduct.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "60 Minutes",
+    "creator_name": null,
+    "publication_or_release_year": 2012,
+    "publisher_or_network": "CBS News",
+    "focus_or_theme": "Prosecutorial misconduct, withholding exculpatory evidence",
+    "summaryNotes": "Highlighted the role of withheld evidence in a long-term wrongful conviction.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Segment \"Prosecutorial Misconduct\"",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": "Lara Logan",
+    "focus_or_theme": "Prosecutorial misconduct, withholding exculpatory evidence",
+    "summary_notes": "This 60 Minutes segment reported by Lara Logan highlights the impact of prosecutorial misconduct and withheld evidence on a wrongful conviction.",
+    "key_quotes_raw": [
+      "Morton emphasizing \"accountability works\" over revenge",
+      "Archival footage of Anderson mocking Morton's tears during the original trial."
+    ],
+    "systemic_issues_raw": [
+      "The devastating impact of prosecutorial misconduct",
+      "The failure to disclose evidence",
+      "The difficulty in holding prosecutors accountable",
+      "The long battle often required for DNA testing."
+    ],
+    "policy_recommendations_raw": [
+      "Implied need for greater prosecutorial accountability",
+      "Stricter adherence to evidence disclosure rules (Brady rule)."
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://www.texastribune.org/2012/03/26/60-minutes-exoneree-seeks-accountability-not-reven/",
+        "description": "Accountability Works,\" Morton Tells \"60 Minutes\" - The Texas Tribune"
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Michael Morton",
+      "first_name": "Michael",
+      "middle_name": null,
+      "last_name": "Morton",
+      "status": "EXONERATED",
+      "conviction_year": 1987,
+      "exoneration_or_release_year": 2011,
+      "time_served": "25 years",
+      "sentence": "Life in prison",
+      "crime_convicted_of_raw": "Murder (of wife, Christine Morton)",
+      "case_location_city": "Williamson County",
+      "case_location_state": "Texas",
+      "narrative_summary": "Michael Morton was wrongfully convicted of the murder of his wife in 1987 and spent 25 years in prison. He was exonerated by DNA evidence in 2011 and later received state compensation.",
+      "contributing_factors_raw": [
+        "Prosecutorial misconduct (withholding evidence suggesting innocence)",
+        "Flawed initial investigation."
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project (instrumental in DNA testing and uncovering withheld evidence)."
+      ]
+    },
+    {
+      "full_name": "Ken Anderson",
+      "first_name": "Ken",
+      "middle_name": null,
+      "last_name": "Anderson",
+      "status": "OTHER",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": "N/A (Later faced investigation/prosecution for misconduct related to the Morton case).",
+      "case_location_city": "Williamson County",
+      "case_location_state": "Texas",
+      "narrative_summary": "Ken Anderson was the prosecutor in Michael Morton's case. He faced investigation and potential criminal charges for his role in Morton's wrongful conviction for allegedly withholding exculpatory evidence.",
+      "contributing_factors_raw": [
+        "Allegedly withheld critical exculpatory evidence from the defense."
+      ],
+      "organizations_involved_raw": []
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

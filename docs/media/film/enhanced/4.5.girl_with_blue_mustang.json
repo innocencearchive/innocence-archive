@@ -1,0 +1,80 @@
+{
+  "source_file_name": "4.5.girl_with_blue_mustang.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "The Girl with the Blue Mustang (Dateline NBC)",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "NBC News",
+    "focus_or_theme": "Wrongful conviction based on recanted testimony, lack of physical evidence.",
+    "summaryNotes": "Case highlights conviction based solely on testimony later proven unreliable/false.",
+    "availabilityNotes": "Available via NBC/Peacock.",
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "The Girl with the Blue Mustang (Dateline NBC)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction based on recanted testimony, lack of physical evidence.",
+    "summary_notes": "The case hinged on Charles Erickson's testimony, which he later recanted. Ferguson's conviction was ultimately overturned due to the prosecution withholding evidence (Brady violation).",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Details how Ferguson's conviction based entirely on later-recanted testimony; no physical evidence. Available via NBC/Peacock.",
+      "research_findings": "While the specific episode title \"The Girl with the Blue Mustang\" wasn't confirmed via search, the details match the Ryan Ferguson case. The case hinged on Charles Erickson's testimony, which he later recanted. Ferguson's conviction was ultimately overturned due to the prosecution withholding evidence (Brady violation)."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Ryan Ferguson",
+      "first_name": "Ryan",
+      "middle_name": null,
+      "last_name": "Ferguson",
+      "status": "EXONERATED",
+      "conviction_year": 2004,
+      "exoneration_or_release_year": 2013,
+      "time_served": "Nearly 10 years",
+      "sentence": "40 years",
+      "crime_convicted_of_raw": "Murder (of Kent Heitholt)",
+      "case_location_city": "Columbia",
+      "case_location_state": "Missouri",
+      "narrative_summary": "Convicted in 2004 for the murder of Kent Heitholt and sentenced to 40 years. His conviction was vacated in 2013, and he was released after serving nearly 10 years. The case hinged on recanted testimony and a Brady violation.",
+      "contributing_factors_raw": [
+        "Co-defendant's testimony (Charles Erickson) later recanted",
+        "Withheld exculpatory evidence (Brady violation)"
+      ],
+      "organizations_involved_raw": [
+        "Legal team led by Kathleen Zellner"
+      ]
+    },
+    {
+      "full_name": "Charles Erickson",
+      "first_name": "Charles",
+      "middle_name": null,
+      "last_name": "Erickson",
+      "status": "OTHER",
+      "conviction_year": 2004,
+      "exoneration_or_release_year": null,
+      "time_served": "Ongoing (subject to parole/review)",
+      "sentence": "25 years",
+      "crime_convicted_of_raw": "Murder (pleaded guilty)",
+      "case_location_city": "Columbia",
+      "case_location_state": "Missouri",
+      "narrative_summary": "Plead guilty to murder around 2004 and sentenced to 25 years. His testimony was primary evidence against Ferguson, which he later recanted. He is currently serving his sentence based on a plea deal.",
+      "contributing_factors_raw": [
+        "His testimony, later recanted, was primary evidence against Ferguson"
+      ],
+      "organizations_involved_raw": []
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

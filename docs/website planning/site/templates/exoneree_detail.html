@@ -1,0 +1,166 @@
+{% extends "base.html" %}
+
+{% block title %}{{ exoneree.first_name }} {{ exoneree.last_name }} - Wrongfully Convicted Americans{% endblock %}
+
+{% block content %}
+<section class="detail-page">
+    <div class="container">
+        <div class="detail-header">
+            <div class="detail-photo">
+                <!-- Placeholder for photo if available -->
+                {% if exoneree.photo %}
+                <img src="{{ exoneree.photo }}" alt="{{ exoneree.first_name }} {{ exoneree.last_name }}">
+                {% else %}
+                <div class="photo-placeholder">
+                    <i class="fas fa-user"></i>
+                </div>
+                {% endif %}
+            </div>
+            <div class="detail-info">
+                <h1 class="detail-name">{{ exoneree.first_name }} {{ exoneree.last_name }}</h1>
+                <div class="detail-meta">
+                    <p><strong>Location:</strong> {{ exoneree.state }}, {{ exoneree.county }}</p>
+                    <p><strong>Age at time of crime:</strong> {{ exoneree.age_at_crime }} years</p>
+                    <p><strong>Race:</strong> {{ exoneree.race }}</p>
+                    <p><strong>Sex:</strong> {{ exoneree.sex }}</p>
+                    <p><strong>Years served:</strong> {{ exoneree.years_to_exoneration }} years ({{ exoneree.convicted_year }} - {{ exoneree.exonerated_year }})</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="detail-section">
+            <h2>Case Details</h2>
+            <div class="case-details">
+                <p><strong>Crime:</strong> {{ exoneree.worst_crime }}</p>
+                <p><strong>Date of Crime:</strong> {{ exoneree.date_of_crime_year }}</p>
+                <p><strong>Convicted:</strong> {{ exoneree.convicted_year }}</p>
+                <p><strong>Exonerated:</strong> {{ exoneree.exonerated_year }}</p>
+                <p><strong>Sentence:</strong> {{ exoneree.sentence }}</p>
+            </div>
+        </div>
+
+        <div class="detail-section">
+            <h2>Contributing Factors</h2>
+            <div class="factors-grid">
+                <div class="factor-card {% if exoneree.dna_evidence %}active{% endif %}">
+                    <h3>DNA Evidence</h3>
+                    <p>DNA evidence was a substantial factor in exoneration</p>
+                </div>
+                <div class="factor-card {% if exoneree.false_misleading_forensic_evidence %}active{% endif %}">
+                    <h3>False/Misleading Forensic Evidence</h3>
+                    <p>Conviction based on unreliable or fraudulent forensic evidence</p>
+                </div>
+                <div class="factor-card {% if exoneree.false_confession %}active{% endif %}">
+                    <h3>False Confession</h3>
+                    <p>Made a false statement interpreted as admission of guilt</p>
+                </div>
+                <div class="factor-card {% if exoneree.perjury_false_accusation %}active{% endif %}">
+                    <h3>Perjury/False Accusation</h3>
+                    <p>Someone committed perjury that incriminated the exoneree</p>
+                </div>
+                <div class="factor-card {% if exoneree.mistaken_witness_id %}active{% endif %}">
+                    <h3>Mistaken Witness ID</h3>
+                    <p>Eyewitness mistakenly identified the exoneree</p>
+                </div>
+                <div class="factor-card {% if exoneree.official_misconduct %}active{% endif %}">
+                    <h3>Official Misconduct</h3>
+                    <p>Officials abused authority in a way that contributed to conviction</p>
+                </div>
+                <div class="factor-card {% if exoneree.inadequate_legal_defense %}active{% endif %}">
+                    <h3>Inadequate Legal Defense</h3>
+                    <p>Lawyer provided grossly inadequate representation</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="detail-section">
+            <h2>Tags</h2>
+            <div class="tags-container">
+                {% for tag in exoneree.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+        </div>
+
+        {% if exoneree.media_resources %}
+        <div class="detail-section">
+            <h2>Media Coverage</h2>
+            <ul class="media-list">
+                {% for media in exoneree.media_resources %}
+                <li class="media-item">
+                    <div class="media-icon">
+                        <i class="fas {% if media.type == 'Podcast' %}fa-podcast{% elif media.type == 'Book' %}fa-book{% elif media.type == 'News Article' %}fa-newspaper{% elif media.type == 'Documentary' %}fa-film{% elif media.type == 'TV Show' %}fa-tv{% else %}fa-link{% endif %}"></i>
+                    </div>
+                    <div class="media-content">
+                        <h3 class="media-title">{{ media.title }}</h3>
+                        <p class="media-source">{{ media.creator }} {% if media.publication_date %}({{ media.publication_date }}){% endif %}</p>
+                        {% if media.url %}
+                        <a href="{{ media.url }}" target="_blank" class="media-link">View Source <i class="fas fa-external-link-alt"></i></a>
+                        {% endif %}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% else %}
+        <div class="detail-section">
+            <h2>Media Coverage</h2>
+            <div class="no-media-alert">
+                <i class="fas fa-exclamation-circle"></i>
+                <p>This case has no known media coverage. Journalists and researchers may be interested in investigating this story.</p>
+            </div>
+        </div>
+        {% endif %}
+
+        {% if exoneree.organizations %}
+        <div class="detail-section">
+            <h2>Organizations That Helped</h2>
+            <ul class="organizations-list">
+                {% for org in exoneree.organizations %}
+                <li class="organization-item">
+                    <h3>{{ org.name }}</h3>
+                    <p>{{ org.assistance_type }} ({{ org.assistance_year }})</p>
+                    {% if org.website %}
+                    <a href="{{ org.website }}" target="_blank" class="organization-link">Visit Website <i class="fas fa-external-link-alt"></i></a>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+        <div class="detail-section">
+            <h2>Similar Cases</h2>
+            <div class="stories-grid">
+                {% for similar in similar_cases %}
+                <div class="story-card">
+                    <div class="story-card-content">
+                        <h3>{{ similar.first_name }} {{ similar.last_name }}</h3>
+                        <div class="story-card-meta">
+                            <div class="story-card-location">
+                                <i class="fas fa-map-marker-alt"></i> {{ similar.state }}
+                            </div>
+                            <div class="story-card-years">
+                                <i class="fas fa-calendar-alt"></i> {{ similar.years_to_exoneration }} years
+                            </div>
+                        </div>
+                        <div class="story-card-crime">{{ similar.worst_crime }}</div>
+                        <div class="story-card-footer">
+                            <div class="media-indicator {% if similar.has_media %}has-media{% else %}no-media{% endif %}">
+                                <i class="fas {% if similar.has_media %}fa-check-circle{% else %}fa-exclamation-circle{% endif %}"></i>
+                                {% if similar.has_media %}Media Coverage{% else %}No Media Coverage{% endif %}
+                            </div>
+                            <a href="/exoneree/{{ similar.id }}" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/detail.js"></script>
+{% endblock %}

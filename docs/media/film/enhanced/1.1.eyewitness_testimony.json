@@ -1,0 +1,123 @@
+{
+  "source_file_name": "1.1.eyewitness_testimony.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "60 Minutes",
+    "creator_name": null,
+    "publication_or_release_year": 2009,
+    "publisher_or_network": "CBS News",
+    "focus_or_theme": "Reliability of eyewitness testimony in wrongful convictions; flaws in eyewitness identification procedures; the impact of wrongful convictions on victims as well as the exonerated.",
+    "summaryNotes": "A 2024 segment mentions over 3,500 exonerations in the US so far.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "*_**title**": "60 Minutes",
+    "*_**episode__and_title_if_applicable**": "1.1. Eyewitness Testimony (Note: This refers to one or more segments aired over time, including a notable one around 2009 featuring Lesley Stahl)",
+    "*_**directors**": "Not Identified (IMDb lists correspondents but not a director for a 2009 episode segment)",
+    "*_**release_year**": "Multiple segments over the years; A key segment aired circa 2009, with related follow-ups/re-airings including 2024",
+    "*_**production_companyies**": "CBS News",
+    "*_**format**": "TV news magazine segment",
+    "*_**focus_theme**": "Reliability of eyewitness testimony in wrongful convictions; flaws in eyewitness identification procedures; the impact of wrongful convictions on victims as well as the exonerated.",
+    "*_**key_statistics_information**": "A related 2024 segment mentions over 3,500 exonerations in the US so far."
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Eyewitness Testimony",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": "Lesley Stahl",
+    "focus_or_theme": "Reliability of eyewitness testimony, flaws in eyewitness identification, impact of wrongful convictions.",
+    "summary_notes": "This segment highlights the unreliability of eyewitness testimony and flawed lineup procedures, featuring the case of Ronald Cotton and Jennifer Thompson. It addresses the justice system's failures and the widespread impact of wrongful convictions.",
+    "key_quotes_raw": [
+      "Jennifer Thompson describing the \"suffocating, debilitating shame\" after learning of her mistake.",
+      "Jennifer Thompson: \"A wrongful conviction doesn't hurt like a person... I think it's hundreds of people, for every single wrongful conviction case, that are hurt\".",
+      "The segment highlights Cotton's exoneration via DNA after 10.5-11 years in prison.",
+      "Features Thompson and Cotton speaking together about their experience and advocating for reform."
+    ],
+    "systemic_issues_raw": [
+      "Fundamental unreliability of eyewitness memory and identification.",
+      "Problems with police lineup procedures (photo and physical).",
+      "The justice system's failure to consider or admit exculpatory evidence.",
+      "The widespread impact (\"shrapnel\") of a wrongful conviction beyond just the innocent person.",
+      "Lack of accountability for systemic failures leading to wrongful convictions."
+    ],
+    "policy_recommendations_raw": [
+      "The segment implicitly calls for reforms in eyewitness identification procedures and greater system accountability, highlighted by Thompson's advocacy work."
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://www.pbs.org/wgbh/pages/frontline/shows/dna/cotton/summary.html",
+        "description": "The FRONTLINE documentary \"What Jennifer Saw\" provides an in-depth look at the same case."
+      },
+      {
+        "url": "https://www.cbsnews.com/news/crime-victims-form-unlikely-bonds-with-wrongfully-convicted-60-minutes-transcript/",
+        "description": "CBS News articles like \"Crime victims form unlikely bonds with wrongfully convicted men\" and archives contain information on the segments."
+      }
+    ],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "unparsed_*_**key_quotes_moments**": null,
+      "unparsed_*_jennifer_thompson_describing_the_\"suffocating,_debilitating_shame\"_after_learning_of_her_mistake_[cite": "1.1].",
+      "unparsed_*_jennifer_thompson": "\"A wrongful conviction doesn't hurt like a person... I think it's hundreds of people, for every single wrongful conviction case, that are hurt\".",
+      "unparsed_*_the_segment_highlights_cotton's_exoneration_via_dna_after_10.5-11_years_in_prison_[cite": "1.1, 2.1, 2.2].",
+      "unparsed_*_features_thompson_and_cotton_speaking_together_about_their_experience_and_advocating_for_reform_[cite": "1.1].",
+      "unparsed_*_**systemic_issues_identified**": null,
+      "unparsed_*_fundamental_unreliability_of_eyewitness_memory_and_identification_[cite": "2, 1.1, 1.2].",
+      "unparsed_*_problems_with_police_lineup_procedures_photo_and_physical_[cite": "1.1, 2.1, 2.2].",
+      "unparsed_*_the_justice_system's_failure_to_consider_or_admit_exculpatory_evidence_[cite": "2.1, 2.2].",
+      "unparsed_*_the_widespread_impact_\"shrapnel\"_of_a_wrongful_conviction_beyond_just_the_innocent_person_[cite": "1.1].",
+      "unparsed_*_lack_of_accountability_for_systemic_failures_leading_to_wrongful_convictions_[cite": "1.1].",
+      "unparsed_*_**policy_recommendations_calls_to_action**": "The segment implicitly calls for reforms in eyewitness identification procedures and greater system accountability, highlighted by Thompson's advocacy work.",
+      "unparsed_*_**additional_resources**": null,
+      "unparsed_*_the_frontline_documentary_\"[what_jennifer_saw]https": "//www.pbs.org/wgbh/pages/frontline/shows/dna/cotton/summary.html)\" provides an in-depth look at the same case.",
+      "unparsed_*_cbs_news_articles_like_\"[crime_victims_form_unlikely_bonds_with_wrongfully_convicted_men]https": "//www.cbsnews.com/news/crime-victims-form-unlikely-bonds-with-wrongfully-convicted-60-minutes-transcript/)\" and archives contain information on the segments."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Ronald Cotton",
+      "first_name": "Ronald",
+      "middle_name": null,
+      "last_name": "Cotton",
+      "status": "EXONERATED",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 1995,
+      "time_served": "10.5 years",
+      "sentence": "Life plus 54 years",
+      "crime_convicted_of_raw": "Rape and Burglary",
+      "case_location_city": "Burlington",
+      "case_location_state": "North Carolina",
+      "narrative_summary": "Ronald Cotton was wrongfully convicted of rape and burglary in Burlington, NC. He was initially convicted in 1985, with a retrial in 1987, and exonerated in 1995 based on DNA evidence after serving 10.5 years.",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification",
+        "Flawed lineup procedures",
+        "Exclusion of potentially exculpatory evidence during trial"
+      ],
+      "organizations_involved_raw": [
+        "Defense attorneys",
+        "Appellate defenders mentioned in PBS summary"
+      ]
+    },
+    {
+      "full_name": "Jennifer Thompson",
+      "first_name": "Jennifer",
+      "middle_name": null,
+      "last_name": "Thompson",
+      "status": "OTHER",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": "Burlington",
+      "case_location_state": "North Carolina",
+      "narrative_summary": "Jennifer Thompson misidentified Ronald Cotton as her attacker, leading to his wrongful conviction. She later became an advocate for criminal justice reform alongside Cotton after his exoneration.",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification"
+      ],
+      "organizations_involved_raw": []
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

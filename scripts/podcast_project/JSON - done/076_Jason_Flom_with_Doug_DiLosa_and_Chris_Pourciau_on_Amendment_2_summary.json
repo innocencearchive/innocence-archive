@@ -1,0 +1,85 @@
+{
+    "sourceFileName": "076_Jason_Flom_with_Doug_DiLosa_and_Chris_Pourciau_on_Amendment_2_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "guest(s)": "Doug Delosa, Chris Puschow",
+        "releaseYear": "2018",
+        "network": "Lava for Good podcast in association with signal company number one",
+        "seriesType": "Ongoing Series (based on \"Welcome back to Wrongful Conviction\")",
+        "format": "Podcast",
+        "focusTheme_Work": "Non-unanimous jury verdicts in Louisiana, wrongful convictions, criminal justice reform, call to action for Constitutional Amendment 2.",
+        "keyStats": "-   Louisiana and Oregon are the only two states that allow non-unanimous jury verdicts for felonies.\n-   Louisiana is the only state where a life sentence can be given with a non-unanimous jury verdict.\n-   Approximately 40% of jury verdicts in Louisiana are non-unanimous.\n-   Louisiana's non-unanimous jury law originated in the 1898 state constitution with racist intent to diminish the impact of minority jurors.\n-   Over 30 exonerations in Louisiana in the past ten years.\n-   Almost 2,000 exonerations nationwide in the past ten years.",
+        "itemNumber": "076",
+        "itemTitle": "Jason Flom with Doug DiLosa and Chris Pourciau on Amendment 2",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction focuses on the issue of non-unanimous jury verdicts in Louisiana, a practice unique to only two states but most impactful in Louisiana where life sentences can result.  The hosts, Jason Flom, Doug Delosa (a wrongfully convicted exoneree), and Chris Puschow of the Unanimous Jury Coalition, discuss the history of this law, rooted in racist intentions from 1898, and its devastating impact on individuals like Doug Delosa.  Doug shares his personal story of being convicted of murder by an 11-1 jury and sentenced to life. The episode serves as a call to action for Louisiana voters to support Constitutional Amendment 2 on the November 6th ballot to require unanimous jury verdicts in felony cases moving forward.  The guests emphasize the importance of jury duty, the flaws within the justice system, and encourage listeners to vote \"yes\" on Amendment 2 and donate to unanimousjury.org to support the cause.  The episode highlights the systemic injustice perpetuated by non-unanimous juries and its disproportionate impact, advocating for reform to protect against wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Doug Delosa",
+        "caseLocation": "Louisiana (Jefferson Parish mentioned as having issues with jury composition)",
+        "convictionYear": "1987",
+        "exonerationYear": "Not explicitly mentioned in this transcript, but implied he is exonerated as he is speaking freely and is referred to as an exoneree in the summary. (From outside knowledge, he was exonerated in 2014).",
+        "crimeConvictedOf": "Second-degree murder of his wife",
+        "sentence": "Life in prison without parole, probation, or suspension of sentence",
+        "timeServed": "14 years (mentioned in the transcript when Jason Flom says \"you're here after serving 14 years in maximum security prison\")",
+        "contributingFactorsRaw": [
+            "Non-unanimous jury verdict (11-1)",
+            "Framed by detectives",
+            "Pressure to solve a high-profile case",
+            "Inadequate defense (implied by discussion of public defenders' workload and systemic issues, though not explicitly stated about his specific lawyer in this transcript)"
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (mentioned as a cause Jason Flom supports) and Unanimous Jury Coalition (Chris Puschow is from this coalition)"
+        ],
+        "innocenceLawyersRaw": [
+            "Not detailed in this transcript."
+        ],
+        "narrativeOriginalCrime": "Doug Delosa was accused of murdering his wife. The transcript mentions \"circumstances of your case are as crazy as any I've heard,\" suggesting the prosecution's narrative was weak or unusual.",
+        "keyEvidenceProsecutionRaw": [
+            "Not detailed in this transcript, but the transcript strongly implies the evidence was weak and circumstantial (\"no reasonable person could have listened to the evidence...and said, yep, I'm absolutely sure this guy killed his wife\")."
+        ],
+        "trialDefenderNotes": "Not detailed in this transcript, but the discussion of overworked public defenders suggests potential issues with adequate defense in Louisiana generally. The advice given to Doug \"if I had just kept my mouth shut, I'd have never been arrested\" implies a potentially ineffective defense strategy or circumstance.",
+        "keyEvidenceExonerationRaw": [
+            "Not detailed in this transcript, but implied to be the exposure of the weaknesses in the prosecution's case and the injustice of the non-unanimous verdict system through efforts like the Wrongful Conviction podcast."
+        ],
+        "actualPerpetratorDetails": "Not mentioned in this transcript, the focus is on Doug's wrongful conviction and systemic issues."
+    },
+    "keyQuotesRaw": [
+        "Doug Delosa: \"I was tried and convicted of second degree murder back in 1987, and the jury verdict was 11-1. It was a non-unanimous verdict.\"",
+        "Doug Delosa: \"with even one person saying that I'm not guilty, to me, that's reasonable doubt.\"",
+        "Chris Puschow: \"Louisiana is the only state where a person can be sentenced to life imprisonment on less than a unanimous jury verdict.\"",
+        "Chris Puschow: \"The drafters of the state constitution in Louisiana adopted in 1898 to quote, to perpetuate the supremacy of the Anglo-Saxon race in Louisiana.\"",
+        "Detective to Doug Delosa (as recounted by Doug): \"fuck you, fuck your children, fuck your dead wife...I know you didn't do it, but you wanted someone arrested, so guess what? I couldn't find the person that actually did it, but I can frame you, so you're it.\"",
+        "Doug Delosa: \"roughly 40% of all jury verdicts are non-unanimous verdicts.\"",
+        "Doug Delosa: \"they need to realize that their vote counts, and that they shouldn't compromise their beliefs just to go home early\"",
+        "Chris Puschow on Constitutional Amendment 2 language: \"Do you support an amendment to require a unanimous jury verdict in all non-capital felony cases for offenses that are committed on or after January 1st, 2019?\"",
+        "Doug Delosa: \"Let's vote yes on 2.\""
+    ],
+    "systemicIssuesRaw": [
+        "Non-unanimous jury verdicts leading to wrongful convictions.",
+        "Racist origins and continued racial bias in jury selection and the justice system.",
+        "Overburdened and under-resourced public defender system.",
+        "Prosecutorial overreach and pressure to secure convictions.",
+        "Potential for jurors to prioritize convenience over justice.",
+        "Gentrification potentially impacting jury composition and understanding of local issues."
+    ],
+    "policyRecommendationsRaw": [
+        "Vote \"yes\" on Louisiana Constitutional Amendment 2 to require unanimous jury verdicts in felony cases.",
+        "Educate voters about the non-unanimous jury issue.",
+        "Support organizations working on criminal justice reform and wrongful convictions, like the Unanimous Jury Coalition and the Innocence Project.",
+        "Encourage people to serve jury duty and take it seriously.",
+        "Donate to unanimousjury.org to support the campaign for Amendment 2."
+    ],
+    "personalNarrativeRaw": [
+        "Doug Delosa's life was completely upended by wrongful conviction, spending 14 years in prison for a crime he didn't commit, based on a non-unanimous jury. He lost trust in humanity and the justice system. He emphasizes the devastating personal impact of wrongful conviction and the importance of each juror's vote. His experience is a stark example of the flaws of the non-unanimous jury system."
+    ],
+    "additionalResourcesRaw": [
+        "www.unanimousjury.org (for information, volunteering, and donations)",
+        "InnocenceProject.org (for donations and information)",
+        "Mention of podcast \"Spotlight Snitch City\" and \"Aftabaho\"",
+        "Book \"Your Justice, Defending the Damned\" by Richard Jaffe",
+        "Movie \"Gideon's Promise\""
+    ]
+}

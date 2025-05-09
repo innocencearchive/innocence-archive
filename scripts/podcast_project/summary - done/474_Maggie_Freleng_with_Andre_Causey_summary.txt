@@ -1,0 +1,65 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Maggie Freeling
+-   **Episode # & Title (if applicable)**:  Not specified in transcript, but episode focuses on Andre Khazi
+-   **Host(s)**: Maggie Freeling
+-   **Release Year(s)**: Not specified in transcript, likely recent given the 2022 exoneration mentioned.
+-   **Production Company(ies)/Network**: Lava for Good
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, False Confession, Police Misconduct, Innocence Project
+-   **Key Statistics/Information**: Andre Khazi served 31 years and 4 months of a 50-year sentence before being released on parole. His false confession was a key factor in his wrongful conviction. The Innocence Project of Texas helped to highlight police misconduct and lack of evidence leading to his release.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Maggie Freeling tells the story of Alan Andre Khazi, wrongfully convicted of murder in 1992 and sentenced to 50 years. Andre was arrested and coerced into signing a false confession after a seven-hour interrogation by the Austin Police Department. Key evidence against him was this confession and eyewitness accounts of his car near the crime scene. Despite no other evidence and the actual perpetrator remaining at large, Andre served over 31 years in prison. The Innocence Project of Texas took his case, uncovering a pattern of coercive interrogation tactics by the police department, particularly by detective Hector Polanco.  Andre was eventually released on parole in 2022, highlighting systemic issues within the justice system and the devastating impact of false confessions.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Alan Andre Khazi (Andre Colsey)
+-   **Case Location**: Austin, Texas, USA
+-   **Conviction Year**: 1992
+-   **Exoneration Year**: Released on parole in 2022, not fully exonerated according to the transcript, but implied to be moving towards it.
+-   **Crime Convicted Of**: Murder of Anita Buyington
+-   **Sentence**: 50 years
+-   **Time Served**: 31 years and 4 months
+-   **Contributing Factors**: False confession (coerced),  lack of thorough investigation, potentially eyewitness misidentification (though not strongly emphasized).
+-   **Legal Status**: Released on parole, seeking exoneration (implied).
+-   **Organizations Involved**: Innocence Project of Texas
+-   **Innocence Lawyer Details**: Jesse Freud, senior staff attorney at the Innocence Project of Texas, is mentioned as being instrumental in Andre's case.
+-   **Cross-Reference**: Not specified in transcript if he is in an exoneree database.
+-   **Narrative of Original Crime**: 21-year-old Anita Buyington was found beaten to death with a concrete slab. Police investigation focused on a car seen near the crime scene which led them to Andre.
+-   **Key Evidence at Trial (Prosecution)**: Andre's signed confession (later proven to be coerced), eyewitness testimony placing his car near the crime scene (rubbernecking).
+-   **Trial Defender Notes**: Andre testified at trial that he was tricked into signing a false confession. The defense argued his innocence, but it was not successful against the confession and eyewitness accounts presented by the prosecution. The transcript doesn't detail specific strategies of the original trial defense lawyer beyond Andre's testimony.
+-   **Key Evidence for Exoneration/Change in Legal Status**:  Retrospective review of the case by the Innocence Project of Texas highlighted: the confession was likely false due to coercive interrogation tactics (known pattern of misconduct by Hector Polanco and APD homicide unit), lack of other evidence linking Andre, and evidence pointing towards an alternate suspect (Kevin Harris) including DNA evidence not matching Andre and a witness placing Harris with the victim's purse.
+-   **Actual Perpetrator Details**: Kevin Harris is presented as the likely actual perpetrator. He was one of the men who was out with Anita Buyington and her friends the night of her murder. Semen found at the scene did not match Andre but could not exclude Harris. A witness later came forward placing Harris with the victim's purse after the murder. Harris lawyered up early in the original investigation, hindering police scrutiny at the time.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Police Officer (falsely in court):  "I know him from drug, gang banging, and all types of things." (Illustrates fabricated character assassination)
+    -   Andre: "They told me, they said, well, this is your alibi. You sign this, you can go on and leave and go home. That's what I did." (Highlights the deception used to obtain the false confession).
+    -   Jesse Freud on Hector Polanco's tactics: "Threatening suspects with in custody sexual assault saying also when we throw you in prison for the rest of your life, we're going to make sure there's somebody there to turn you out making threats of the death penalty to suspects." (Reveals the extent of coercive tactics used).
+    -   Delonda: "Well, I know he was innocent and I know he needed a support system and I know I could give him that support. So I just stayed in that fight with him. I know he was innocent." (Shows unwavering support of Andre's wife).
+-   **Systemic Issues Identified**:
+    -   False confessions coerced by police interrogation tactics.
+    -   Police misconduct and lack of accountability within the Austin Police Department homicide unit in the early 1990s.
+    -   Ineffective legal representation in the original trial (implied, not explicitly stated but suggested by the outcome).
+    -   Flaws in the justice system that allow for convictions based on flimsy evidence and coerced confessions.
+-   **Policy Recommendations/Calls to Action**:
+    -   The Innocence Project of Texas helped pass a state law in 2017 requiring police to record interrogations in murder cases. This is a direct policy change resulting from cases like Andre's.
+    -   Implicit call to support innocence projects and organizations working to reform the criminal justice system.
+-   **Personal Narrative/Impact**: Andre describes the immense hardship of being imprisoned for a crime he didn't commit, missing out on life and family for over 31 years. He emphasizes the importance of his wife Delonda's unwavering support.  He highlights the emotional impact of parole denials and longing for freedom and family.  His story underscores the devastating human cost of wrongful convictions.
+-   **Additional Resources**:
+    -   Innocence Project of Texas (mentioned as the organization that helped Andre).
+    -   don'tsleeponosa.com (advertiser mentioned in podcast, unrelated to the case itself).
+    -   target.com/circle (advertiser mentioned in podcast, unrelated to the case itself).
+    -   lowes.com (advertiser mentioned in podcast, unrelated to the case itself).
+    -   culvers.com (advertiser mentioned in podcast, unrelated to the case itself).
+    -   nissanusa.com (advertiser mentioned in podcast, unrelated to the case itself).
+```

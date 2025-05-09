@@ -1,0 +1,91 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript, but likely recent based on content and mention of current events.
+-   **Production Company(ies)/Network**: Lava for Good podcast in association with signal company number one
+-   **Series Type**: Episodic Series (each episode is generally a standalone story) - Assumption based on typical podcast format for interviews.
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction stories, criminal justice system issues, exoneration, police misconduct (specifically detective Louis Garcella), eyewitness misidentification, coerced confessions, jailhouse lawyering, prison reform.
+-   **Key Statistics/Information**:
+    -   Derek Hamilton spent a total of 27 years in prison for two wrongful convictions.
+    -   Detective Louis Garcella is mentioned as potentially responsible for numerous wrongful convictions, with at least nine exonerations and dozens of reopened cases linked to his actions.
+    -   The witness Teresa Gomez was allegedly used by Garcella in six different homicide cases.
+    -   55 cases related to detective Garcella were under review by the King's County D.A.'s office at the time of the podcast.
+    -   Only three known cases exist of individuals being wrongfully convicted twice.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features Derek Hamilton, who recounts his two wrongful convictions and eventual exoneration.  Hamilton describes his first wrongful conviction for murder based on coerced grand jury testimony, which was overturned but led to a coerced plea deal to secure release.  He was then wrongfully convicted a second time for murder, highlighting the misconduct of detective Louis Garcella, known for fabricating evidence and coercing witnesses.  During his second incarceration, Hamilton became a jailhouse lawyer, advocating for himself and others. He details forming an "Actual Innocence" team in prison that utilized media and legal strategies to raise awareness and fight for justice.  Hamilton's case eventually contributed to the scrutiny of Garcella's cases and the exoneration of others.  The episode underscores systemic issues in the criminal justice system, including eyewitness misidentification and prosecutorial misconduct, and advocates for reforms.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Derek Hamilton
+-   **Case Location**: Brooklyn, New York, USA
+-   **Conviction Year**: 1st conviction: Not explicitly stated in transcript but around 1983 based on release year mentioned. 2nd conviction: Not explicitly stated but around 1991 based on context.
+-   **Exoneration Year**: 1st conviction: Technically not fully exonerated, released after appellate reversal and plea deal. 2nd conviction: Released in December 2011 due to parole board decision influenced by innocence claims and legal support. Not fully exonerated in the legal sense based on transcript, but functionally released due to innocence arguments.
+-   **Crime Convicted Of**: 1st conviction: Murder of James Wolfe. 2nd conviction: Murder of Daniel Cash.
+-   **Sentence**: 1st conviction: 25 years to life. 2nd conviction: 25 years to life (inferred as it was similar to the first and a serious charge).
+-   **Time Served**: 1st conviction: Approximately 6 years (1983 to 1989 release mentioned). 2nd conviction: 21 years (1991 to 2011 release). Total 27 years.
+-   **Contributing Factors**:
+    -   1st conviction: Coerced grand jury testimony of Patricia Lee.
+    -   2nd conviction: Eyewitness misidentification (coerced witness Teresa Gomez), police misconduct by detective Louis Garcella.
+-   **Legal Status**: Released, not formally exonerated in either case according to the details in the transcript. First release via plea deal, second via parole board influenced by innocence claims.
+-   **Organizations Involved**: Actual Innocence team (in prison), Evelstein and Grossman (law firm), Innocence Project (mentioned as a cause to support).
+-   **Innocence Lawyer Details**:
+    -   Candace Kurtz: Original trial lawyer in the first case.
+    -   Jonathan Evelstein (Evelstein and Grossman): Lawyer who assisted with the second case, filed a brief, and wrote to the parole board. Assisted pro bono.
+    -   Scott Brett: Previous lawyer who connected with Hamilton post-release to work on post-conviction cases.
+-   **Cross-Reference**: Not specified if in exoneree database.
+-   **Narrative of Original Crime**:
+    -   1st conviction (James Wolfe): Robbery of a bread truck where the truck driver was killed. Derek was present as a lookout but not directly involved in the robbery or murder.
+    -   2nd conviction (Daniel Cash): Shooting death of Daniel Cash outside his home in Brooklyn. Derek was in Connecticut at the time of the murder, but was accused based on coerced eyewitness testimony.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   1st conviction: Grand jury testimony of Patricia Lee, who later recanted and claimed police coercion.
+    -   2nd conviction: Testimony of Teresa Gomez, who claimed to witness Derek receiving a gun and shooting Daniel Cash. Gomez later claimed police coercion and that her testimony was inaccurate.
+-   **Trial Defender Notes**:
+    -   1st conviction: Lawyer (Candace Kurtz) attempted to highlight witness recantation but was unsuccessful.
+    -   2nd conviction: Not detailed in transcript about trial defense, focus is on post-conviction and parole efforts.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   1st conviction: Appellate division reversal due to improper use of grand jury testimony. Plea deal offered after reversal for release.
+    -   2nd conviction: Parole board release influenced by letter from Jonathan Evelstein arguing innocence, and broader context of Louis Garcella's misconduct being exposed in other cases like David Ranta's. No formal exoneration mentioned in transcript, release via parole.
+-   **Actual Perpetrator Details**:
+    -   1st conviction: Older men who committed the bread truck robbery and murder. One of them falsely implicated Derek to the police. Not named in transcript.
+    -   2nd conviction: Not detailed in transcript, focus is on Derek's innocence and coerced witness testimony, not on identifying actual perpetrator.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "Cops came out with guns drawn and I never saw freedom ever ever since after that." - Derek Hamilton, describing the start of his first wrongful conviction.
+    -   Describing Louis Garcella: "Louis Garcella is probably responsible for as many or more wrongful convictions than any detective in the history of this country." - Jason Flom.
+    -   "My whole life was spent on getting out." - Derek Hamilton, on his focus in prison and becoming a jailhouse lawyer.
+    -   "Society has no interest in keeping an innocent man in prison." - Jonathan Evelstein's argument to the parole board.
+-   **Systemic Issues Identified**:
+    -   Eyewitness misidentification and its unreliability.
+    -   Police misconduct, specifically coercion of witnesses and fabrication of evidence by detectives like Louis Garcella.
+    -   Prosecutorial overreach and unwillingness to admit mistakes.
+    -   Flaws in the legal system, including the "reliability" caveat in eyewitness identification rulings (Manson v. Brathwaite).
+    -   Pressure on parole boards to demand admission of guilt, even from innocent individuals.
+-   **Policy Recommendations/Calls to Action**:
+    -   Support for the Innocence Project.
+    -   Advocacy for prosecutorial reform, electing prosecutors who prioritize justice and fairness over convictions.
+    -   Implementation of double-blind lineups to reduce eyewitness misidentification.
+    -   Review and amendment of the "reliability" standard for eyewitness identification established in Manson v. Brathwaite.
+-   **Personal Narrative/Impact**:
+    -   Derek Hamilton lost 27 years of his life due to wrongful convictions, impacting his personal life, family, and opportunities.
+    -   He demonstrated resilience and self-education by becoming a jailhouse lawyer and advocating for his own and others' innocence.
+    -   His story highlights the psychological toll of wrongful conviction, including suicidal ideation and degrading treatment in prison.
+    -   Despite his experiences, Hamilton dedicated himself to helping others and working within the system to expose injustice.
+-   **Additional Resources**:
+    -   Innocence Project (InnocenceProject.org)
+    -   Book: "Convicting the Innocent" by Brandon Garrett (mentioned in podcast).
+    -   Mention of Marty Tankle case and Lonnie Sorey (PR).
+    -   Reference to Supreme Court case: Manson v. Brathwaite.
+    -   Reference to Supreme Court case: Alford v. North Carolina (outfit plea).
+```

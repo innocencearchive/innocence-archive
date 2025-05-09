@@ -1,0 +1,69 @@
+{
+  "source_file_name": "9.13.time_simply_passes.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "Time Simply Passes",
+    "creator_name": "Ty Flowers",
+    "publication_or_release_year": 2016,
+    "publisher_or_network": null,
+    "focus_or_theme": "Wrongful conviction, racial injustice in the Jim Crow South, prosecutorial misconduct.",
+    "summaryNotes": "Highlights a decades-old conviction overturned due to withheld evidence.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Time Simply Passes",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction, racial injustice in the Jim Crow South, prosecutorial misconduct.",
+    "summary_notes": "The film covers the tragic case of James Richardson, convicted of killing his children based on flimsy evidence in racially charged 1960s Florida. His conviction was thrown out decades later when evidence withheld by the prosecution came to light, strongly suggesting a neighbor was responsible. Despite widespread belief in his innocence, he was never formally exonerated by the state.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Tells the story of James Joseph Richardson, who spent 21 years in prison after being wrongfully convicted of poisoning his seven children in 1967 Florida. Directed by Ty Flowers. Available via Amazon Prime, Film Festivals.",
+      "research_findings": "Searches did not yield specific documentary details. Based on the list and general knowledge, the film covers the tragic case of James Richardson, convicted of killing his children based on flimsy evidence in racially charged 1960s Florida. His conviction was thrown out decades later when evidence withheld by the prosecution came to light, strongly suggesting a neighbor was responsible. Despite widespread belief in his innocence, he was never formally exonerated by the state."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "James Joseph Richardson",
+      "first_name": "James",
+      "middle_name": "Joseph",
+      "last_name": "Richardson",
+      "status": "CONVICTION_OVERTURNED",
+      "conviction_year": 1968,
+      "exoneration_or_release_year": 1989,
+      "time_served": "21 years",
+      "sentence": "Death Penalty (later commuted to Life)",
+      "crime_convicted_of_raw": "Murder (poisoning his seven children)",
+      "case_location_city": "Arcadia",
+      "case_location_state": "DeSoto County, Florida",
+      "narrative_summary": "James Joseph Richardson was wrongfully convicted of poisoning his seven children and spent 21 years in prison. His conviction was overturned due to withheld evidence, but he was never formally exonerated. The case highlights racial bias and prosecutorial misconduct.",
+      "contributing_factors_raw": [
+        "Racial bias (Black man in Jim Crow South)",
+        "questionable jailhouse informant testimony",
+        "prosecutorial misconduct (withholding evidence pointing to neighbor/babysitter Bessie Reece as perpetrator)."
+      ],
+      "organizations_involved_raw": [
+        "Legal team led by Mark Lane (post-conviction)."
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Ty Flowers",
+      "first_name": "Ty",
+      "middle_name": null,
+      "last_name": "Flowers",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "- **Notes from `film_list.txt`**: Tells the story of James Joseph Richardson, who spent 21 years in prison after being wrongfully convicted of poisoning his seven children in 1967 Florida. Directed by Ty Flowers. Available via Amazon Prime, Film Festivals.\n- **Research Findings**: Searches did not yield specific documentary details. Based on the list and general knowledge, the film covers the tragic case of James Richardson, convicted of killing his children based on flimsy evidence in racially charged 1960s Florida. His conviction was thrown out decades later when evidence withheld by the prosecution came to light, strongly suggesting a neighbor was responsible. Despite widespread belief in his innocence, he was never formally exonerated by the state."
+}

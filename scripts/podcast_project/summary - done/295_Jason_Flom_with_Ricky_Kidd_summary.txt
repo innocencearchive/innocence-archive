@@ -1,0 +1,104 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+For each podcast on wrongful convictions, we'll collect the following information:
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript (likely episodic)
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not mentioned in transcript
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, criminal justice system failures, prosecutorial misconduct, police misconduct, eyewitness misidentification, false testimony, exoneration.
+-   **Key Statistics/Information**:
+    -   54% of wrongful convictions have a direct correlation with police and prosecutorial misconduct.
+    -   Less than 1% chance of success on appeal in wrongful conviction cases.
+    -   Only five prosecutors have been disbarred in the history of wrongful conviction cases in America.
+    -   Only two prosecutors have gone to jail for misconduct related to wrongful convictions.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features Ricky Kidd, who was wrongfully convicted of a double homicide in Kansas City in 1997 and served 23 years in prison before being exonerated in 2019. The episode details the crime, the flawed police investigation that focused on Ricky despite a strong alibi, and the reliance on incentivized and unreliable witness testimony.  Key evidence pointing to other suspects, the Goodspeed family and Marcus Merrill, was ignored or hidden by the prosecution. Ricky recounts the devastating trial, his long years in maximum-security prison, and the relentless fight for his freedom with the help of the Midwest Innocence Project. Ultimately, the recantation of the false eyewitness, Richard Harris, led to Ricky's exoneration, highlighting egregious prosecutorial misconduct and systemic failures in the justice system.
+
+### Wrongfully Convicted Individuals Featured
+
+For each individual mentioned or featured:
+
+-   **Name**: Ricky Kidd
+-   **Case Location**: Kansas City, Missouri, USA
+-   **Conviction Year**: 1997
+-   **Exoneration Year**: 2019
+-   **Crime Convicted Of**: Double homicide of George Bryant and Oscar Bridges
+-   **Sentence**: Life without parole
+-   **Time Served**: 23 years
+-   **Contributing Factors**:
+    -   Eyewitness misidentification (later recanted and revealed as false)
+    -   Police and prosecutorial misconduct (withholding evidence, incentivizing false testimony)
+    -   Ineffective assistance of counsel (implicitly suggested, though not heavily emphasized in transcript)
+    -   Hearsay evidence admitted at trial
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**:
+    -   Midwest Innocence Project
+    -   Innocence Network
+-   **Innocence Lawyer Details**:
+    -   Trisha Bushnell (Midwest Innocence Project)
+    -   Rachel Wester (Midwest Innocence Project)
+    -   Professor Sean O'Brien (Midwest Innocence Project)
+    -   Cindy Dodge (Midwest Innocence Project)
+    -   Risa Anderson (Original trial lawyer, mentioned as not being informed about key depositions)
+-   **Cross-Reference**: Not mentioned if in exoneree database (likely yes given prominence of case)
+-   **Narrative of Original Crime**: On February 6, 1996, three men dressed in black entered George Bryant's home, ostensibly for a drug deal. Gunshots were heard, and Bryant and Oscar Bridges were found shot dead. Kayla Bryant, George's four-year-old daughter, witnessed parts of the event.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Testimony of Richard Harris, a neighbor, who falsely identified Ricky Kidd as one of the perpetrators. Harris was incentivized due to a parole violation. His description of events was inconsistent with other witness accounts.
+    -   Hearsay testimony from detectives claiming Kayla Bryant identified Ricky Kidd in a video lineup, despite no such identification being recorded or present in her actual video statement.
+-   **Trial Defender Notes**:
+    -   Presented a strong alibi for Ricky Kidd, including testimony from his stepfather, sister, sister's coworkers, girlfriend Monica Gray, and daughter's mother. The alibi placed him at the sheriff's office applying for a gun permit and at McDonald's around the time of the murders.
+    -   Highlighted inconsistencies and lack of credibility in Richard Harris's testimony.
+    -   Pointed to evidence implicating Gary Goodspeed Sr., Gary Goodspeed Jr., and Marcus Merrill as the likely perpetrators, based on police reports and anonymous tips.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Recantation of Richard Harris's false testimony in 2019. Harris admitted he lied at trial and identified the Goodspeeds as the perpetrators he knew were responsible.
+    -   Previously hidden depositions of Gary Goodspeed Sr. and Gary Goodspeed Jr. which further implicated them and corroborated their presence with Marcus Merrill, and their false alibi for Merrill.
+    -   Judge Atkins ruled that the evidence "establishes innocence from multiple angles," citing Ricky's truthful alibi and the Goodspeeds and Merrill as the actual perpetrators.
+-   **Actual Perpetrator Details**:
+    -   Gary Goodspeed Sr. and Gary Goodspeed Jr. and Marcus Merrill were implicated by evidence and Richard Harris's recantation.
+    -   They were named in anonymous tips early in the investigation.
+    -   Airline and rental car records placed them in Kansas City at the time of the murders.
+    -   Gary Goodspeed Jr. knew details about the crime, such as the time of death, that were not public knowledge.
+    -   They provided a false alibi for Marcus Merrill.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Ricky Kidd: "I just did not believe that innocent people go to prison." (Reflecting his initial disbelief and shock at the guilty verdict)
+    -   Ricky Kidd: "Welcome to hell." (Recalling the prison officer's greeting upon arrival at Potosi Correctional Center)
+    -   Richard Harris at exoneration hearing: "He snapped. I'm sick of this. You're not scaring me. I'm not scared of you anymore... He's innocent. And y'all should let him go. Now I'm done with this... I'm sorry. I'm sorry. I'm sorry." (Describing Harris's dramatic recantation)
+    -   Ricky Kidd: "Cindy Dodge broke out. You're free. You're free. The judge has ordered you to go free. You're free, Ricky." (Recounting the moment he learned of his exoneration)
+-   **Systemic Issues Identified**:
+    -   Prosecutorial misconduct: Withholding exculpatory evidence (Goodspeed depositions), incentivizing false witness testimony.
+    -   Police misconduct: Focusing on a suspect despite a strong alibi and ignoring evidence pointing to other suspects, using suggestive identification procedures.
+    -   Reliance on unreliable eyewitness testimony, particularly incentivized testimony.
+    -   Hearsay evidence being presented as fact in court (detectives' testimony about Kayla's identification).
+    -   Lack of accountability for prosecutorial and police misconduct.
+    -   Difficulty in overturning wrongful convictions through appeals.
+-   **Policy Recommendations/Calls to Action**:
+    -   Support for organizations like the Midwest Innocence Project and Innocence Network.
+    -   Increased awareness about wrongful convictions and the systemic issues that cause them.
+    -   Call for greater accountability for prosecutors and law enforcement in cases of misconduct.
+    -   Encouragement for pro bono legal work to help the wrongfully convicted.
+-   **Personal Narrative/Impact**:
+    -   Ricky Kidd's childhood marked by poverty and his mother's addiction, leading him to drug dealing at a young age.
+    -   His strong connection to his family, especially his mother, sister, and children, served as motivation during his wrongful imprisonment.
+    -   The devastating emotional impact of the wrongful conviction and 23 years of imprisonment, including contemplation of suicide.
+    -   His resilience, faith, and determination to fight for his freedom and prove his innocence.
+    -   His current work as a community engagement manager for the Midwest Innocence Project and his advocacy for criminal justice reform, using his experience to educate prosecutors and raise awareness.
+-   **Additional Resources**:
+    -   Website: resilience mode.com (Ricky Kidd's website)
+    -   Midwest Innocence Project (organization that helped exonerate Ricky Kidd)
+    -   Innocence Network
+    -   National Registry of Exonerations (mentioned statistic about police/prosecutorial misconduct)
+```

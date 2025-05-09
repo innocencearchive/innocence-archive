@@ -1,0 +1,14 @@
+**Summary of Transcript Analysis Method**
+
+My process for analyzing each podcast transcript against the provided template involves the following steps:
+
+1.  **Template Ingestion:** I first read and parse the provided research template file (`research_template_podcasts.txt`) [cite: 1] to understand the required structure, fields, and specific instructions (like the Executive Summary length)[cite: 3].
+2.  **Transcript Ingestion:** I then read the full text of the provided podcast transcript file.
+3.  **Information Extraction:** I systematically go through the transcript, identifying and extracting information that corresponds to each field defined in the template. This includes:
+    * Basic podcast details (title, host, etc.)[cite: 1].
+    * Writing a concise Executive Summary based on the episode's overall content[cite: 3].
+    * Details about the wrongfully convicted individual(s) (name, location, dates, crime, sentence, time served, factors, status, organizations, lawyers)[cite: 3, 4].
+    * Narrative details (original crime, prosecution evidence, defense notes, exoneration evidence, actual perpetrator info)[cite: 5, 6, 7, 8].
+    * Specific research notes (key quotes, systemic issues, calls to action, personal narrative/impact, additional resources)[cite: 9, 10, 11].
+4.  **Formatting:** I assemble the extracted information into a markdown document, strictly adhering to the headings, subheadings, and bullet point structure outlined in the template file.
+5.  **Review and Output:** I perform a final review to ensure all fields are addressed based on the transcript content and that the output is correctly formatted before presenting it. My analysis is based *only* on the content within the provided transcript and template.

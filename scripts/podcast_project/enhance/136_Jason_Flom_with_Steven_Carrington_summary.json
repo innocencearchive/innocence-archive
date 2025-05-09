@@ -1,0 +1,129 @@
+{
+    "sourceFileName": "136_Jason_Flom_with_Steven_Carrington_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, investigative journalism, personal stories of exonerees, justice system issues.",
+        "keyStats": "Not explicitly statistical in this episode, but highlights the systemic issues leading to wrongful convictions.",
+        "itemNumber": "136",
+        "itemTitle": "Jason Flom with Steven Carrington",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Stefan Carrington, who was wrongfully convicted in 1995 for a robbery and homicide he did not commit and served 23 years in maximum security prison.  Carrington recounts the events leading to his arrest, highlighting the lack of physical evidence and a shaky eyewitness identification.  Detective Calabris focused on Carrington due to a prior criminal record and a \"gut feeling,\" despite Carrington having an alibi. His trial was further compromised by ineffective counsel who didn't call his brother as a witness. Despite maintaining his innocence, Carrington was eventually paroled. The episode explores the devastating impact of wrongful convictions, the flaws in the justice system, and Carrington's ongoing fight to clear his name. He emphasizes the crucial role of jurors in discerning truth and advocates for support of organizations like the Innocence Project."
+    },
+    "featuredIndividual": {
+        "fullName": "Stefan Carrington",
+        "caseLocation": "Brooklyn, New York, USA",
+        "convictionYear": "1995",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "Robbery and homicide",
+        "sentence": "Life sentence",
+        "timeServed": "23 years",
+        "contributingFactorsRaw": [
+            "Eyewitness Misidentification: Shaky and unreliable identification by Hugh Keys.",
+            "Lack of Physical Evidence: No physical evidence linked Stefan Carrington to the crime.",
+            "Police Bias/Tunnel Vision: Detective Calabris focused on Stefan due to prior record and \"gut feeling.\"",
+            "Ineffective Counsel: Lawyer failed to call Stefan's brother as a witness and had potential conflict of interest.",
+            "Circumstantial Evidence: Association with brother who was allegedly present at the scene."
+        ],
+        "status": "Paroled, fighting to clear his name. Case currently under review by the Conviction Review Unit.",
+        "organizationsInvolvedRaw": [
+            "Conviction Review Unit (Brooklyn District Attorney's Office)",
+            "Innocence Project (mentioned as a cause supported by the host)"
+        ],
+        "innocenceLawyersRaw": [
+            "Original lawyer was hired by Stefan’s parents, and was perceived to be conflicted, potentially prioritizing the legal safety of Stefan's brother over Stefan's defense. No details about current legal representation for exoneration efforts are provided."
+        ],
+        "narrativeOriginalCrime": "On January 2nd, 1995, a robbery occurred at a lumberyard in Brooklyn. During the robbery, a store clerk, Lloyd Campbell, was shot and killed. Two men entered the store while a third acted as a lookout. Shannon France was identified as one of the robbers (fingerprints on cash box), and Stefan's brother, Marx Carrington, was allegedly the lookout.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness testimony from Hugh Keys:  Keys initially told police he couldn't identify the robber but later made a shaky identification of Stefan Carrington from a photo array.  The prosecution presented conflicting accounts of the identification process.",
+            "Detective Calabris's Testimony: Calabris claimed to recognize Stefan Carrington's walk on grainy security footage, despite the tape not clearly showing facial features or lower body.",
+            "Stefan Carrington's Prior Criminal Record:  Mentioned by police as a reason for suspicion, despite no direct link to the crime."
+        ],
+        "trialDefenderNotes": "-   Failure to call Marx Carrington (Stefan's brother) as a witness: The lawyer did not include Marx on the witness list, preventing him from testifying.  Marx was present at court to testify, potentially with exonerating information.\n-   Potential conflict of interest: The lawyer was hired by Stefan's parents, raising questions about whether the defense prioritized Stefan or his brother's interests, especially as Marx was also implicated by the confidential informant.",
+        "keyEvidenceExonerationRaw": [
+            "Parole Granted: Despite maintaining innocence, Stefan was granted parole after 23 years, suggesting the parole board acknowledged issues with his conviction.",
+            "Conviction Review Unit Review: The Brooklyn District Attorney's Conviction Review Unit is currently reviewing Stefan's case.",
+            "Confession of Actual Perpetrator (Indirect): A childhood friend recorded the actual perpetrator (not named for legal reasons in the podcast) admitting to the crime, and stating Stefan is in prison for it. This information was conveyed to Detective Calabris and likely to the Conviction Review Unit.",
+            "Detective Calabris's Suicide:  Detective Calabris died by suicide shortly after the Conviction Review Unit began reinvestigating the case, suggesting potential guilt or fear of exposure of misconduct."
+        ],
+        "actualPerpetratorDetails": "-   Shannon France: Co-defendant, fingerprints found on the cash box at the crime scene.  Identified by a confidential informant and girlfriend.\n-   Marx Carrington (Stefan's Brother): Allegedly the lookout, named by a confidential informant.\n-   Unnamed Individual:  A childhood friend of Stefan's recorded an individual confessing to the crime for which Stefan was convicted.  This individual's identity is not explicitly stated in the transcript for legal reasons, but strongly implied to be the actual shooter."
+    },
+    "keyQuotesRaw": [
+        "Detective Calabris: \"gut feeling I was involved.\"",
+        "Detective Calabris identifying Stefan's walk on grainy security footage.",
+        "Witness Hugh Keys stating he couldn't identify the robber to the 911 operator and first responding officers, but later making an identification from a photo array.",
+        "Stefan Carrington's parole board hearing where he maintained his innocence and was still granted parole.",
+        "Stefan's closing argument emphasizing the juror's role in finding the truth and not being swayed by emotions."
+    ],
+    "systemicIssuesRaw": [
+        "Eyewitness misidentification and its unreliability.",
+        "Police tunnel vision and bias against individuals with prior criminal records.",
+        "Ineffective assistance of counsel and potential conflicts of interest in court-appointed or parent-hired lawyers.",
+        "The pressure on parole boards to see remorse, even from innocent individuals.",
+        "Potential for prosecutorial misconduct in misrepresenting witness statements and relying on weak or fabricated evidence (identification based on \"walk\")."
+    ],
+    "policyRecommendationsRaw": [
+        "Support the Innocence Project to help prevent and rectify wrongful convictions.",
+        "Jurors should prioritize rational evaluation of evidence over emotional responses and ensure they are diligently seeking the truth.",
+        "Highlight the need for comprehensive review and reform of eyewitness identification procedures.",
+        "Advocate for robust conviction review units to investigate potential wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Stefan Carrington's life was drastically altered, spending 23 years in maximum security for a crime he didn't commit.",
+        "He lost crucial years of his life, including time with his young daughter and wife.",
+        "Despite the injustice, he focused on self-improvement and helping others in prison, becoming a mentor.",
+        "The experience caused immense emotional distress, including the fear of never being released and the frustration of being disbelieved.",
+        "His story highlights the profound and lasting damage wrongful convictions inflict on individuals and their families.",
+        "Stefan's final thoughts emphasize the importance of fighting for truth and hope even in the face of injustice."
+    ],
+    "additionalResourcesRaw": [
+        "InnocenceProject.org (website for donations and information)",
+        "Mention of sponsors' websites: zinn.com, AAA.com, Lowes.com, coffeemate.com, kisqai.com, DontSleepOnOSA.com (while advertisements, they are part of the podcast content and context)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Hugh Keys",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Detective Calabris",
+                "role_guess": "Police Officer",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Stefan Carrington's brother",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Parole Board",
+                "role_guess": "Judge",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [
+            "organizations like the Innocence Project"
+        ],
+        "llm_extracted_factors": [
+            "The pressure on parole boards to see remorse, even from innocent individuals",
+            "Potential for prosecutorial misconduct in misrepresenting witness statements and relying on weak or fabricated evidence (identification based on \"walk\")"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "wrongful convictions",
+                "flaws in the justice system",
+                "clearing one's name",
+                "juror's role in discerning truth"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

@@ -1,0 +1,103 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but mentions "interview with Lamont McIntyre originally released on September 25th, 2017"
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2017 (original release mentioned), 2022 (mentions Golubsky charged in Sept and Nov 2022)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, police corruption, eyewitness misidentification, systemic injustice.
+-   **Key Statistics/Information**:
+    -   Lamont McIntyre imprisoned for 23 years for a crime he did not commit.
+    -   No physical evidence linked McIntyre to the crime.
+    -   Victims' families believed in McIntyre's innocence.
+    -   Key witness recanted her testimony.
+    -   Detective Roger Golubsky allegedly framed McIntyre and was involved in extensive corruption, including sexual extortion and drug-related crimes.
+    -   Golubsky was under investigation for corruption since around 1988 by the FBI.
+    -   McIntyre's trial lawyer was on probation and later disbarred.
+    -   Prosecutor in McIntyre's case had a prior affair with the judge.
+    -   Golubsky faces criminal indictments and is rumored to be involved in multiple murders.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom delves into the case of Lamont McIntyre, wrongfully convicted at 17 for a double homicide in 1994 and imprisoned for 23 years. The episode features interviews with McIntyre's attorney, Cheryl Pilate, retired FBI agent Al Generich, and McIntyre himself.  The investigation was described as grossly deficient, lacking physical evidence and ignoring exculpatory information.  Key evidence against McIntyre relied on eyewitness testimony, later revealed to be unreliable and potentially coerced.  The podcast highlights the alleged corruption of detective Roger Golubsky, who is suspected of framing McIntyre due to personal vendetta and was involved in widespread corruption within the Kansas City, Kansas Police Department.  The victims' families believed in McIntyre's innocence throughout.  McIntyre was eventually exonerated in 2017 after a long legal battle, exposing profound systemic failures and police misconduct.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Lamont McIntyre
+-   **Case Location**: Kansas City, Kansas, USA
+-   **Conviction Year**: 1994
+-   **Exoneration Year**: 2017
+-   **Crime Convicted Of**: Double homicide (murder of Donnie L. Quinn and Donald Ewing)
+-   **Sentence**: Two consecutive life sentences
+-   **Time Served**: 23 years
+-   **Contributing Factors**:
+    -   Eyewitness misidentification (manipulated and unreliable)
+    -   Police misconduct/corruption (Detective Roger Golubsky framing)
+    -   Ineffective assistance of counsel (trial and appellate lawyers disbarred)
+    -   Lack of physical evidence
+    -   Prosecutorial misconduct (withholding exculpatory evidence, possible conflict of interest with judge)
+-   **Legal Status**: Exonerated, won civil suit against officers and Golubsky.
+-   **Organizations Involved**: Midwest Innocence Project (implied through Cheryl Pilate and mentions of exoneration efforts)
+-   **Innocence Lawyer Details**: Cheryl Pilate, appellate attorney, worked extensively to achieve Lamont's exoneration, collaborating with Al Generich and others.
+-   **Cross-Reference**: Yes (exoneree database implied, given focus of podcast and exoneration)
+-   **Narrative of Original Crime**: Donnie L. Quinn and Donald Ewing were fatally shot while sitting in a Cadillac. The shooter used a shotgun and fired four rounds into the car.
+-   **Key Evidence at Trial (Prosecution)**: Two eyewitness identifications of Lamont McIntyre as the shooter. No physical evidence.
+-   **Trial Defender Notes**: Court-appointed attorney, Gary Long, was on probation at the time for prior cases of inadequate representation and was later disbarred.  He was ineffective, failing to investigate adequately or challenge weak evidence.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Recantation of testimony by one eyewitness.
+    -   Evidence of police misconduct and corruption by Detective Roger Golubsky, suggesting framing.
+    -   Lack of any physical evidence linking McIntyre to the crime.
+    -   Support from victims' families who believed in McIntyre's innocence.
+    -   Exposure of systemic issues and failures in the investigation and prosecution.
+-   **Actual Perpetrator Details**: Not explicitly identified in the podcast. The podcast strongly suggests the murders were drug-related and possibly a "drug hit" due to one victim stealing from drug dealers.  Roger Golubsky is implied to have framed McIntyre instead of pursuing actual leads.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Jason Flom: "Today's episode will make your blood boil and it will blow your mind. So settle in because this is going to be a crazy ride."
+    -   Cheryl Pilate on the investigation: "The taped interviews of these eyewitnesses in a very serious crime... amounted to a total of 20 taped minutes. And one of the eyewitnesses was only interviewed for four minutes. Is that an investigation? What is that?"
+    -   Al Generich on Roger Golubsky: "Golubsky extorting sex from black women. And he liked black women. We never developed enough evidence on Golubsky to prosecute him."
+    -   Lamont McIntyre on his arrest: "I was arrested, charged, and if he had to be convicted of two murders, then I had nothing to do with it and knew nothing about."
+    -   Lamont McIntyre on his lawyer: "I just believed in the justice system at that time. I really did. I thought there was no possible way being an innocent person or person has nothing to do with that crime that I would be found guilty."
+    -   Lamont McIntyre on the guilty verdict: "When they read the verdict and they said guilty, it was like I seen my whole life last before me."
+    -   Lamont McIntyre on staying positive: "Being angry was something that was a hindrance to me, not a benefit. So I try to stay positive because this place is you got to keep up with yourself and take care of yourself and anger and stress and all those things is just shorting your life, man."
+    -   Trisha Bushnell (Director of Midwest Innocence Project): "There's an entire system that not only permitted him to do it, but supported him and promoted him."
+
+-   **Systemic Issues Identified**:
+    -   Police corruption and impunity within the Kansas City, Kansas Police Department.
+    -   Racial bias in law enforcement and the justice system, particularly targeting minorities.
+    -   Unreliability of eyewitness testimony and its potential for manipulation.
+    -   Inadequate legal representation for indigent defendants (ineffective court-appointed counsel).
+    -   Prosecutorial misconduct and potential conflicts of interest.
+    -   Lack of accountability and internal oversight within law enforcement agencies.
+    -   "Blue wall of silence" and reluctance of law enforcement to investigate their own.
+    -   Impact of wrongful convictions on families of the wrongfully convicted.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Need for thorough and independent investigations into police corruption.
+    -   Reforms to improve the reliability of eyewitness identification procedures.
+    -   Increased funding and oversight for public defender systems to ensure effective legal representation.
+    -   Greater accountability for prosecutors and law enforcement officers who engage in misconduct.
+    -   Call for a full investigation into the activities of Detective Roger Golubsky and the systemic issues within the Kansas City, Kansas Police Department.
+    -   Raising awareness about the broader impact of wrongful convictions on individuals and their families.
+
+-   **Personal Narrative/Impact**:
+    -   Lamont McIntyre's personal narrative highlights the devastating impact of wrongful conviction, spending 23 years in prison for a crime he didn't commit.
+    -   He emphasizes the importance of family support, faith, and maintaining a positive mindset to survive wrongful imprisonment.
+    -   His experience underscores the emotional toll on both the wrongfully convicted individual and their family.
+    -   McIntyre expresses a desire to help young people make better decisions to avoid similar injustices and to share his experience to educate others about the flaws in the justice system.
+    -   His resilience and lack of bitterness despite the immense injustice he faced are remarkable.
+
+-   **Additional Resources**:
+    -   Midwest Innocence Project (implied through Cheryl Pilate's affiliation and mention of Trisha Bushnell).
+    -   Mention of Lamont McIntyre winning a civil suit, suggesting potential court documents or legal records.
+    -   News articles and reports about Roger Golubsky's indictments and allegations of corruption (implied by the host's comments).
+    -   Mention of exoneree databases (implied context of podcast and database creation objective).
+```

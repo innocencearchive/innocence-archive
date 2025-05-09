@@ -1,0 +1,66 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction: Junk Science
+-   **Episode # & Title (if applicable)**: Season 1 Episode - Eyewitness Testimony
+-   **Host(s)**: Kate Judson, Josh Dubin
+-   **Release Year(s)**: 2020 (series first released)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series (Focus on different types of junk science in each episode)
+-   **Format**: Podcast
+-   **Focus/Theme**: Eyewitness testimony, memory malleability, wrongful convictions, forensic science
+-   **Key Statistics/Information**: Over two thirds of people exonerated by DNA evidence were initially convicted based on eyewitness testimony.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction: Junk Science, hosted by Kate Judson and Josh Dubin, delves into the dangers of eyewitness testimony and its role in wrongful convictions. The episode highlights the story of Marvin Anderson, who was wrongfully convicted of rape based on misidentification and served 15 years in prison before DNA evidence exonerated him.  Psychologist Elizabeth Loftus is interviewed, explaining how memory is malleable and can be easily influenced by misinformation and suggestive questioning. The episode discusses experiments by Hugo Munsterberg and Loftus demonstrating the fallibility of memory.  It emphasizes that eyewitness testimony, despite being convincing to juries, is often unreliable and a major contributing factor in wrongful convictions.  The hosts discuss reforms needed in police procedures, such as double-blind lineups and unbiased instructions to witnesses, to improve the accuracy of eyewitness identifications and prevent future wrongful convictions. The episode concludes with a call to action to consider the circumstances surrounding eyewitness testimony and remain open to the possibility of memory error to prevent wrongful convictions.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Marvin Anderson
+-   **Case Location**: Virginia, USA
+-   **Conviction Year**: Not explicitly mentioned in transcript, but implied to be around 6 years before confession and 15 years before exoneration, so roughly around 1980s. (Sentence mentioned after conviction was read)
+-   **Exoneration Year**: Not explicitly mentioned in transcript, but 15 years after conviction and after DNA evidence proved innocence. Roughly around early 2000s.
+-   **Crime Convicted Of**: Rape, abduction, robbery, and force sodomy
+-   **Sentence**: 210 years
+-   **Time Served**: 15 years
+-   **Contributing Factors**: Eyewitness misidentification, suggestive photo and live lineup procedures.
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**: Innocence Project
+-   **Innocence Lawyer Details**: Lawyers at the Innocence Project worked for years to get DNA testing and prove his innocence.
+-   **Cross-Reference**: Yes, mentioned as the 99th person exonerated based on DNA evidence.
+-   **Narrative of Original Crime**: A woman was attacked while walking to her apartment by a man who claimed to have been with other white women.
+-   **Key Evidence at Trial (Prosecution)**: Eyewitness testimony of the victim who identified Marvin Anderson in a photo lineup and a live lineup.
+-   **Trial Defender Notes**: Not explicitly mentioned in the transcript, but implied to be ineffective as Marvin was convicted despite inconsistencies between the victim's initial description and his appearance.
+-   **Key Evidence for Exoneration/Change in Legal Status**: DNA evidence from the rape kit did not match Marvin Anderson but matched another man who had confessed to the crime.
+-   **Actual Perpetrator Details**: Another man confessed to the crime six years after Marvin's conviction, providing details that seemed to prove his guilt. DNA evidence later confirmed this man as the actual perpetrator.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Kate Judson: "We believe are 100% true, even when they aren't." (referring to memories)
+    -   Josh Dubin: "When a witness points to a suspect and says, that's the person who committed this crime, there is nothing more convincing to a jury, but it is dangerously inaccurate."
+    -   Elizabeth Loftus: "I like to think of memory a little bit more, not like a recording device, but more like a Wikipedia page. You can go in there and edit it, but so can other people."
+    -   Elizabeth Loftus: "Just because somebody tells you something and they say it with a lot of detail and they say it with confidence and they even show emotion when they tell you, it doesn't mean it really happened."
+-   **Systemic Issues Identified**:
+    -   Unreliability of eyewitness testimony.
+    -   Suggestive police procedures in lineups (photo and live).
+    -   Confirmation bias from law enforcement.
+    -   Juries over-reliance on eyewitness accounts.
+    -   Lack of understanding of memory malleability in the legal system.
+-   **Policy Recommendations/Calls to Action**:
+    -   Implement double-blind lineups.
+    -   Provide unbiased instructions to eyewitnesses during lineups.
+    -   Use fillers in lineups that match the witness's description of the perpetrator, not just resemble the suspect.
+    -   Educate law enforcement and the public about the fallibility of memory and eyewitness testimony.
+    -   Consider surrounding circumstances and potential influences on eyewitness memory in legal cases.
+-   **Personal Narrative/Impact**: Marvin Anderson's story highlights the devastating impact of wrongful conviction, spending 15 years in prison due to misidentification.  Despite this trauma, he became Chief of the Hanover Virginia Fire Department and serves on the board of the Innocence Project, demonstrating resilience and dedication to preventing similar injustices. The podcast emphasizes the mind-bending aspect of memory fallibility and its real-world consequences on individuals' lives.
+-   **Additional Resources**:
+    -   Innocence Project (mentioned as organization that helped exonerate Marvin Anderson and does policy work on eyewitness identification reform).
+    -   Book by Hugo Munsterberg on eyewitness testimony research (published in 1908).
+    -   Research of psychologist Elizabeth Loftus on memory malleability and misinformation effect.
+```

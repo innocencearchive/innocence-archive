@@ -1,0 +1,152 @@
+{
+  "source_file_name": "9.23.13th.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "13th",
+    "creator_name": "Ava DuVernay",
+    "publication_or_release_year": 2016,
+    "publisher_or_network": "Kandoo Films (Distributed by Netflix)",
+    "focus_or_theme": "Analyzes the intersection of race, justice, and mass incarceration in the United States. Argues that the 13th Amendment's loophole (abolishing slavery *except* as punishment for crime) has been used to perpetuate racial control through systems like convict leasing, Jim Crow laws, the War on Drugs, and the modern prison-industrial complex.",
+    "summaryNotes": "The U.S. has 5% of the world's population but 25% of the world's prisoners. Highlights the dramatic increase in the US prison population since the 1970s.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "13th",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Analyzes the intersection of race, justice, and mass incarceration in the United States. Argues that the 13th Amendment's loophole (abolishing slavery *except* as punishment for crime) has been used to perpetuate racial control through systems like convict leasing, Jim Crow laws, the War on Drugs, and the modern prison-industrial complex.",
+    "summary_notes": "The documentary explores the intersection of race, justice, and mass incarceration in the United States, arguing that the 13th Amendment's loophole has perpetuated racial control. It highlights the dramatic increase in the US prison population and features interviews with activists and scholars.",
+    "key_quotes_raw": [
+      "Bryan Stevenson: \"People say all the time, 'well, I don't understand how people could have tolerated slavery? ... How could people have gone to a lynching...? ... And the truth is we are living in this time, and we are tolerating it.”",
+      "John Ehrlichman (Nixon aide): \"We knew we couldn't make it illegal to be either against the war or black. But by getting the public to associate the hippies with marijuana and blacks with heroin and then criminalizing both heavily, we could disrupt their communities.”",
+      "Michelle Alexander: “So many aspects of the old Jim Crow are suddenly legal again once you've been branded a felon. And so it seems that in America we haven't so much ended racial caste, but simply redesigned it.”",
+      "Barack Obama: “The United States is home to 5% of the world's population, but 25% of the world's prisoners. Think about that.”"
+    ],
+    "systemic_issues_raw": [
+      "Systemic racism",
+      "Mass incarceration",
+      "Prison-industrial complex",
+      "Criminalization of race and poverty",
+      "Political manipulation of fear",
+      "Corporate influence on legislation (ALEC)",
+      "Flaws in the plea bargain system",
+      "Militarization of police",
+      "Historical continuity of racial control from slavery to present"
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for major criminal justice reform",
+      "Addressing systemic racism",
+      "Ending the War on Drugs",
+      "Challenging the prison-industrial complex",
+      "Reforming sentencing and plea-bargaining practices"
+    ],
+    "external_links_raw": [
+      {
+        "url": null,
+        "description": "Books by featured experts like Michelle Alexander (\"The New Jim Crow\") and Bryan Stevenson (\"Just Mercy\")."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Angela Davis",
+      "first_name": "Angela",
+      "middle_name": null,
+      "last_name": "Davis",
+      "status": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": "USA (Systemic focus)",
+      "case_location_state": null,
+      "narrative_summary": "Angela Davis is an activist and scholar interviewed in the film, which focuses on systemic issues within the US justice system.",
+      "contributing_factors_raw": [
+        "Systemic factors leading to mass incarceration disproportionately affecting minorities: Racial bias, political rhetoric (\"War on Drugs\", \"tough on crime\"), economic incentives (prison privatization, ALEC's influence), mandatory minimum sentencing, plea bargain system forcing guilty pleas, criminalization of poverty."
+      ],
+      "organizations_involved_raw": [
+        "Features experts/activists associated with Equal Justice Initiative, The Sentencing Project, etc."
+      ]
+    },
+    {
+      "full_name": "Bryan Stevenson",
+      "first_name": "Bryan",
+      "middle_name": null,
+      "last_name": "Stevenson",
+      "status": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": "USA (Systemic focus)",
+      "case_location_state": null,
+      "narrative_summary": "Bryan Stevenson is an activist and scholar interviewed in the film, which focuses on systemic issues within the US justice system.",
+      "contributing_factors_raw": [
+        "Systemic factors leading to mass incarceration disproportionately affecting minorities: Racial bias, political rhetoric (\"War on Drugs\", \"tough on crime\"), economic incentives (prison privatization, ALEC's influence), mandatory minimum sentencing, plea bargain system forcing guilty pleas, criminalization of poverty."
+      ],
+      "organizations_involved_raw": [
+        "Features experts/activists associated with Equal Justice Initiative, The Sentencing Project, etc."
+      ]
+    },
+    {
+      "full_name": "Michelle Alexander",
+      "first_name": "Michelle",
+      "middle_name": null,
+      "last_name": "Alexander",
+      "status": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": "USA (Systemic focus)",
+      "case_location_state": null,
+      "narrative_summary": "Michelle Alexander is an activist and scholar interviewed in the film, which focuses on systemic issues within the US justice system.",
+      "contributing_factors_raw": [
+        "Systemic factors leading to mass incarceration disproportionately affecting minorities: Racial bias, political rhetoric (\"War on Drugs\", \"tough on crime\"), economic incentives (prison privatization, ALEC's influence), mandatory minimum sentencing, plea bargain system forcing guilty pleas, criminalization of poverty."
+      ],
+      "organizations_involved_raw": [
+        "Features experts/activists associated with Equal Justice Initiative, The Sentencing Project, etc."
+      ]
+    },
+    {
+      "full_name": "Kalief Browder",
+      "first_name": "Kalief",
+      "middle_name": null,
+      "last_name": "Browder",
+      "status": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": "USA (Systemic focus)",
+      "case_location_state": null,
+      "narrative_summary": "Kalief Browder's case is highlighted in the film as an example of pre-trial detention issues and systemic biases.",
+      "contributing_factors_raw": [
+        "Systemic factors leading to mass incarceration disproportionately affecting minorities: Racial bias, political rhetoric (\"War on Drugs\", \"tough on crime\"), economic incentives (prison privatization, ALEC's influence), mandatory minimum sentencing, plea bargain system forcing guilty pleas, criminalization of poverty."
+      ],
+      "organizations_involved_raw": [
+        "Features experts/activists associated with Equal Justice Initiative, The Sentencing Project, etc."
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Ava DuVernay",
+      "first_name": "Ava",
+      "middle_name": null,
+      "last_name": "DuVernay",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

@@ -1,0 +1,225 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+- **Title**: Wrongful Conviction
+- **Episode # & Title (if applicable)**: Part Two of the Nick Yaris story
+- **Host(s)**: Jason Flom
+- **Release Year(s)**: 2019 (inferred from transcript context)
+- **Production Company(ies)/Network**: Lava for Good podcast in association with signal company number one
+- **Series Type**: Episodic Series (each episode is generally a standalone story)
+- **Format**: Podcast
+- **Focus/Theme**: Wrongful convictions, exoneration, prison reform, resilience, and the human impact of wrongful imprisonment.
+- **Key Statistics/Information**: Nick Yaris was the 140th DNA exoneration in America and the 13th from death row.
+
+### Basic Podcast Information
+
+- **Executive Summary**: This episode, part two of Nick Yaris's story on Wrongful Conviction, continues Nick's harrowing account of wrongful imprisonment.  It details his experiences on death row in Florida alongside Jesse Tefaro and Ted Bundy, his return to Pennsylvania, and the despair he faced. The narrative highlights his groundbreaking petition for DNA testing from death row and the agonizing wait as he watched others gain freedom before him.  Despite facing severe health issues and emotional lows, Nick found purpose in helping fellow inmate Walter O. Grodd.  The episode culminates in Nick's exoneration in 2003, the bureaucratic hurdles delaying his release, and his eventual freedom.  Since exoneration, Nick has become an advocate for justice and prison reform, emphasizing kindness, resilience, and neuroplasticity as paths to healing and positive change.
+
+### Wrongfully Convicted Individuals Featured
+
+- **Name**: Nick Yaris
+    - **Case Location**: Pennsylvania, Florida (Death Row)
+    - **Conviction Year**: ~1981 (inferred based on 22 years prior to 2003 exoneration)
+    - **Exoneration Year**: 2003
+    - **Crime Convicted Of**: Murder of Mrs. Craig
+    - **Sentence**: Death Row (initially), then additional 35 years for escape
+    - **Time Served**: ~22 years
+    - **Contributing Factors**: False confession (initial lie), systemic issues in the justice system.
+    - **Legal Status**: Exonerated
+    - **Organizations Involved**: Innocence Project (promoted by the podcast)
+    - **Innocence Lawyer Details**: Peter Goldberg, Elliot Shurker (attorneys who assisted with exoneration and release).
+    - **Cross-Reference**: Likely appears in exoneree database (needs verification).
+    - **Narrative of Original Crime**:  Lied about Mrs. Craig's murder, leading to wrongful conviction (details in Part 1, not fully detailed in this transcript).
+    - **Key Evidence at Trial (Prosecution)**: Not detailed in this part of the transcript.
+    - **Trial Defender Notes**: Not detailed in this part of the transcript.
+    - **Key Evidence for Exoneration/Change in Legal Status**: DNA testing excluded Nick as the source of biological material found at the crime scene.
+    - **Actual Perpetrator Details**: Not mentioned in the transcript.
+
+- **Name**: Jesse Tefaro
+    - **Case Location**: Florida
+    - **Conviction Year**: Not stated
+    - **Exoneration Year**: N/A (Wrongfully executed)
+    - **Crime Convicted Of**: Murder of a police officer (based on being a hitchhiker incident)
+    - **Sentence**: Death Row
+    - **Time Served**: Not stated but implied significant time on death row.
+    - **Contributing Factors**: Wrong place, wrong time, potentially ineffective legal defense, wrongful accusation.
+    - **Legal Status**: Wrongfully executed.
+    - **Organizations Involved**: Sonny Foundation (founded by his partner Sonny Jacobs).
+    - **Innocence Lawyer Details**: Not mentioned in the transcript.
+    - **Cross-Reference**: Likely does not appear in exoneree database as he was executed.
+    - **Narrative of Original Crime**: Picked up a hitchhiker who killed a police officer; Jesse and his wife were wrongly accused.
+    - **Key Evidence at Trial (Prosecution)**: Not detailed in the transcript.
+    - **Trial Defender Notes**: Not detailed in the transcript.
+    - **Key Evidence for Exoneration/Change in Legal Status**: Wrongful execution; innocence claimed posthumously and by his partner.
+    - **Actual Perpetrator Details**: Hitchhiker (no further details given).
+
+- **Name**: Walter O. Grodd
+    - **Case Location**: Philadelphia, Pennsylvania
+    - **Conviction Year**: Not stated
+    - **Exoneration Year**: Pending (hearing expected next month as of podcast recording)
+    - **Crime Convicted Of**: Putting a little girl on a TV box and leaving her on the street corner in Philadelphia.
+    - **Sentence**: Death Row
+    - **Time Served**: Significant time on death row.
+    - **Contributing Factors**: Potentially wrongful accusation, lack of evidence, focus on Nick's advocacy suggests wrongful conviction.
+    - **Legal Status**: Potentially to be exonerated (hearing pending).
+    - **Organizations Involved**: Philadelphia District Attorney's Integrity Unit (re-investigating his case).
+    - **Innocence Lawyer Details**: Not mentioned directly, but Nick assisted by writing letters to his lawyer.
+    - **Cross-Reference**: Needs verification.
+    - **Narrative of Original Crime**: Accused of endangering a child by leaving her on a TV box on a street corner.
+    - **Key Evidence at Trial (Prosecution)**: Not detailed in the transcript.
+    - **Trial Defender Notes**: Not detailed in the transcript.
+    - **Key Evidence for Exoneration/Change in Legal Status**: DNA evidence does not match Walter O. Grodd.
+    - **Actual Perpetrator Details**: Not explicitly stated, but Hackett and Spence (inmates who tormented Walter) broke into his house for other crimes.
+
+- **Name**: Dale Carter
+    - **Case Location**: Green County Prison, Pennsylvania
+    - **Conviction Year**: 2001 (died that year)
+    - **Exoneration Year**: N/A (Died in prison)
+    - **Crime Convicted Of**: Rape and murder
+    - **Sentence**: Prison (died due to medical neglect from Hepatitis C)
+    - **Time Served**: Died in prison.
+    - **Contributing Factors**: Medical neglect, Hepatitis C, inhumane prison conditions.
+    - **Legal Status**: Died in prison, wrongful suffering due to medical neglect.
+    - **Organizations Involved**: Not mentioned in the transcript.
+    - **Innocence Lawyer Details**: Not mentioned in the transcript.
+    - **Cross-Reference**: Likely does not appear in exoneree database as he died in prison.
+    - **Narrative of Original Crime**: Rape and murder.
+    - **Key Evidence at Trial (Prosecution)**: Not detailed in the transcript.
+    - **Trial Defender Notes**: Not detailed in the transcript.
+    - **Key Evidence for Exoneration/Change in Legal Status**: N/A, died due to medical neglect; wrongful death in prison.
+    - **Actual Perpetrator Details**: Not mentioned in the transcript.
+
+- **Name**: Ernie Simmons
+    - **Case Location**: Green County Prison, Pennsylvania
+    - **Conviction Year**: Not stated
+    - **Exoneration Year**: N/A (Still incarcerated as of podcast recording)
+    - **Crime Convicted Of**: Not stated
+    - **Sentence**: Prison
+    - **Time Served**: Still incarcerated.
+    - **Contributing Factors**: Implied wrongful conviction (Nick requested help for him upon release).
+    - **Legal Status**: Still incarcerated, potentially wrongfully convicted.
+    - **Organizations Involved**: Not mentioned in the transcript.
+    - **Innocence Lawyer Details**: Not mentioned in the transcript.
+    - **Cross-Reference**: Needs verification.
+    - **Narrative of Original Crime**: Not stated in the transcript.
+    - **Key Evidence at Trial (Prosecution)**: Not detailed in the transcript.
+    - **Trial Defender Notes**: Not detailed in the transcript.
+    - **Key Evidence for Exoneration/Change in Legal Status**: Need for assistance highlighted by Nick, suggesting potential wrongful conviction.
+    - **Actual Perpetrator Details**: Not mentioned in the transcript.
+
+- **Name**: Sonny Jacobs
+    - **Case Location**: Related to Jesse Tefaro's case in Florida (original case location not specified)
+    - **Conviction Year**: Not stated
+    - **Exoneration Year**: Yes (implied by foundation and partner Peter Pringle's exoneration)
+    - **Crime Convicted Of**: Not stated, related to Jesse Tefaro's case.
+    - **Sentence**: Death Row (initially)
+    - **Time Served**: Not stated, but implied significant time before exoneration.
+    - **Contributing Factors**: Wrongful conviction, related to Jesse Tefaro's case.
+    - **Legal Status**: Exonerated
+    - **Organizations Involved**: Sonny Foundation
+    - **Innocence Lawyer Details**: Not mentioned in the transcript.
+    - **Cross-Reference**: Likely appears in exoneree database (needs verification).
+    - **Narrative of Original Crime**: Not stated, related to Jesse Tefaro's case.
+    - **Key Evidence at Trial (Prosecution)**: Not detailed in the transcript.
+    - **Trial Defender Notes**: Not detailed in the transcript.
+    - **Key Evidence for Exoneration/Change in Legal Status**: Not detailed in the transcript.
+    - **Actual Perpetrator Details**: Not mentioned in the transcript.
+
+- **Name**: Peter Pringle
+    - **Case Location**:  Likely related to Sonny Jacobs' original case, now living in Ireland.
+    - **Conviction Year**: Not stated
+    - **Exoneration Year**: Yes (implied by partner Sonny Jacobs' exoneration and foundation)
+    - **Crime Convicted Of**: Not stated
+    - **Sentence**: Death Row (initially)
+    - **Time Served**: Not stated, but implied significant time before exoneration.
+    - **Contributing Factors**: Wrongful conviction.
+    - **Legal Status**: Exonerated
+    - **Organizations Involved**: Sonny Foundation (co-founder with Sonny Jacobs)
+    - **Innocence Lawyer Details**: Not mentioned in the transcript.
+    - **Cross-Reference**: Likely appears in exoneree database (needs verification).
+    - **Narrative of Original Crime**: Not stated in the transcript.
+    - **Key Evidence at Trial (Prosecution)**: Not detailed in the transcript.
+    - **Trial Defender Notes**: Not detailed in the transcript.
+    - **Key Evidence for Exoneration/Change in Legal Status**: Not detailed in the transcript.
+    - **Actual Perpetrator Details**: Not mentioned in the transcript.
+
+- **Name**: Gary Dotson
+    - **Case Location**: Not stated
+    - **Conviction Year**: Not stated
+    - **Exoneration Year**: Before Nick Yaris's
+    - **Crime Convicted Of**: Not stated
+    - **Sentence**: Not stated
+    - **Time Served**: Not stated
+    - **Contributing Factors**: DNA exoneration.
+    - **Legal Status**: Exonerated
+    - **Organizations Involved**: Not stated, but related to DNA exoneration movement.
+    - **Innocence Lawyer Details**: Not mentioned in the transcript.
+    - **Cross-Reference**: Likely appears in exoneree database (needs verification).
+    - **Narrative of Original Crime**: Not stated in the transcript.
+    - **Key Evidence at Trial (Prosecution)**: Not detailed in the transcript.
+    - **Trial Defender Notes**: Not detailed in the transcript.
+    - **Key Evidence for Exoneration/Change in Legal Status**: DNA exoneration.
+    - **Actual Perpetrator Details**: Not mentioned in the transcript.
+
+- **Name**: Kurt Bloodworth
+    - **Case Location**: Not stated
+    - **Conviction Year**: Not stated
+    - **Exoneration Year**: Before Nick Yaris's
+    - **Crime Convicted Of**: Not stated
+    - **Sentence**: Death Row (initially)
+    - **Time Served**: Not stated
+    - **Contributing Factors**: DNA exoneration.
+    - **Legal Status**: Exonerated
+    - **Organizations Involved**: Not stated, but related to DNA exoneration movement.
+    - **Innocence Lawyer Details**: Not mentioned in the transcript.
+    - **Cross-Reference**: Likely appears in exoneree database (needs verification).
+    - **Narrative of Original Crime**: Not stated in the transcript.
+    - **Key Evidence at Trial (Prosecution)**: Not detailed in the transcript.
+    - **Trial Defender Notes**: Not detailed in the transcript.
+    - **Key Evidence for Exoneration/Change in Legal Status**: DNA exoneration.
+    - **Actual Perpetrator Details**: Not mentioned in the transcript.
+
+
+### Podcast Research Notes
+
+- **Key Quotes/Moments**:
+    - "seriously, what the actual fuck, and we're still just halfway." (Host's reaction to Nick's story's intensity)
+    - "I told a lie to get out of a cop's lie, but that's only half the story. I told a lie about a woman's murder, man, and shamed her family, disrespected mine. I got to live with that, man." (Nick's deep regret for his false confession and its impact.)
+    - "I was the very first man in history to seek DNA testing from death row in March of 1988." (Highlighting Nick's pioneering role in utilizing DNA testing for exoneration.)
+    - "I decided I was going to fulfill my efforts. The only reason I ever learned how to speak with any modicum of decency was after the escape when they beat my face and broke my teeth and I couldn't look at myself without flinching." (Nick's transformative self-improvement journey spurred by adversity.)
+    - "I am a human experiment of endurance and for some magical reason I'm built for it." (Nick's profound self-awareness and resilience.)
+    - "There's no place I'd rather be and nothing I'd rather be doing." (Host Jason Flom's statement about his dedication to wrongful conviction advocacy.)
+    - "it's just begun." (Nick's optimistic outlook on his life post-exoneration and ongoing mission.)
+
+- **Systemic Issues Identified**:
+    - Botched executions and the cruelty of the death penalty (Jesse Tefaro).
+    - Inhumane prison conditions: medical neglect, lack of basic necessities like air conditioning, mold, overcrowding contributing to disease (Dale Carter, general prison conditions).
+    - Bureaucratic obstacles and delays in the exoneration process and release even after legal exoneration (Nick Yaris's delayed release).
+    - Potential for reinstatement of vacated convictions post-exoneration, creating further legal jeopardy (Nick Yaris's Florida case).
+    - Lack of adequate psychological training and support for prison officers, leading to high stress, mortality, and potential for abuse.
+
+- **Policy Recommendations/Calls to Action**:
+    - Moratorium on the death penalty (Nick's call to action upon release).
+    - Need for improved training and psychological support for prison officers.
+    - Decarceration and reduction of the prison population in the US.
+    - Improvement of prison conditions to meet basic human rights standards, including healthcare and living conditions.
+    - Support for organizations like the Innocence Project to prevent wrongful convictions and aid exonerees.
+    - Public awareness and support for individuals like Walter O. Grodd and Ernie Simmons who may be wrongfully convicted and still incarcerated.
+
+- **Personal Narrative/Impact**:
+    - Nick Yaris's personal transformation from despair and anger in prison to a life of purpose and advocacy after exoneration. His story emphasizes resilience, self-education, and the power of kindness.
+    - The impact of wrongful conviction on individuals' mental and physical health, as well as their sense of self and humanity.
+    - The podcast host's personal fulfillment and sense of purpose derived from working to correct wrongful convictions, highlighting the rewarding nature of altruistic endeavors.
+    - Nick's emphasis on "neuroplasticity healing" through kindness and polite behavior as a method for overcoming trauma and PTSD, and improving well-being.
+
+- **Additional Resources**:
+    - Podcast series: "Death Row Stories," Season 3, Episode 4, featuring Walter O. Grodd's case.
+    - Organization: Innocence Project (InnocenceProject.org).
+    - Podcast: "Wrongful Conviction" - available wherever podcasts are found.
+    - Nick Yaris's website: Nickyarris.org.
+    - Nick Yaris's social media: Nick Yaris on Facebook, Twitter, and Instagram.
+```

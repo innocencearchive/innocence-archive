@@ -1,0 +1,98 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+For each podcast on wrongful convictions, we'll collect the following information:
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Maggie Freeling
+-   **Episode # & Title (if applicable)**: Annette Cahill
+-   **Host(s)**: Maggie Freeling
+-   **Release Year(s)**: 2024 (based on "February 2024 Nielsen report" mentioned in ads, and current tense of podcast)
+-   **Production Company(ies)/Network**: Lava for Good podcasts in association with Signal Company No. 1.
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, investigative journalism, personal narrative
+-   **Key Statistics/Information**:
+    - Annette Cahill was wrongfully incarcerated for almost exactly five years as of the podcast recording.
+    - Corey Winicki was murdered in October 1992.
+    - Annette Cahill was arrested in May 2018 and convicted in September 2019.
+    - The first jury was hung 9-3 to acquit, the second jury was also hung, and the third jury convicted her after an Allen charge.
+    - DNA testing on the bat revealed an unknown female profile and a partial male profile not matching the victim or Annette or her sister-in-law.
+    - Annette has a hearing scheduled for April 2025 to present new evidence.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Maggie Freeling" tells the story of Annette Cahill, wrongfully convicted of the 1992 murder of Corey Winicki.  Annette, a 61-year-old woman with a family, was arrested decades after the crime based on a recovered childhood memory and circumstantial evidence. The podcast details Annette's life, her complicated relationship with Corey, and the investigation that led to her conviction despite two hung juries.  Key evidence against her included a 25-year-old memory of a child claiming to have heard Annette confessing and later testimony about burning bloody clothes.  The episode highlights the lack of forensic evidence linking Annette to the crime and introduces new evidence discovered by the Iowa State Public Defender's Office, including inconsistencies in the eyewitness testimony and potential alternative suspects. Annette maintains her innocence and is fighting for exoneration, raising serious questions about the reliability of memory and the justice system.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Annette Cahill
+-   **Case Location**: West Liberty, Iowa, USA
+-   **Conviction Year**: 2019
+-   **Exoneration Year**: Not yet exonerated, hearing scheduled for April 2025.
+-   **Crime Convicted Of**: Second-degree murder (originally charged with first-degree murder)
+-   **Sentence**: Up to 50 years in prison
+-   **Time Served**: Almost exactly five years as of recording (September 2019 - podcast recording around Sept 2024)
+-   **Contributing Factors**:
+    - Eyewitness misidentification/memory (repressed memory of a child from 25 years prior)
+    - Lack of forensic evidence linking her to the crime
+    - Circumstantial evidence (previous relationship with the victim, argument on the night of the murder)
+    - Ineffective assistance of counsel (suggested, but not explicitly stated as proven)
+    - Possible Brady violation (withholding letters from Jody Hotz)
+    - Juror misconduct (one juror researching "reasonable doubt" independently)
+-   **Legal Status**: Convicted, incarcerated, currently seeking post-conviction relief and DNA testing.
+-   **Organizations Involved**: Iowa State Public Defender's Office (Wrongful Conviction Unit)
+-   **Innocence Lawyer Details**: Erica Nichols Cook, Director of the Wrongful Conviction Unit at the Iowa State Public Defender's Office.  She and her team are investigating Annette's case, finding inconsistencies in the prosecution's evidence, and pursuing new leads and DNA testing.
+-   **Cross-Reference**: Not explicitly stated if in an exoneree database in the transcript.
+-   **Narrative of Original Crime**: Corey Winicki was found bludgeoned to death in his bedroom in October 1992. He was found by his fiancé, Jody Hotz. There were no signs of forced entry, and the murder weapon was presumed to be a baseball bat found later.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Testimony of Jesse Becker, who claimed to remember seeing Annette as a 9-year-old at a sleepover, crying and confessing to killing Corey while lighting black candles in 1992.
+    - Testimony of Jesse Becker's mother, Cynthia, corroborating Jesse's account and stating they were afraid of Annette.
+    - Testimony of Scott Payne in the second trial, claiming he saw Annette burning bloody clothes in a barrel around the time of the murder.
+    - Argument that Annette was a jealous lover and killed Corey in a rage after an argument the night before.
+-   **Trial Defender Notes**:
+    - Called Annette's sister-in-law, Jackie, as an alibi witness, but she became confused and intimidated on the stand.
+    - Did not present a strong defense, according to the podcast, and was considered ineffective by Erica Nichols Cook.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - Inconsistencies in Jesse Becker's testimony, including the physical impossibility of seeing Annette from the stairwell as described.
+    - Affidavit from Lindsay, another girl at the sleepover, stating Jesse's story is false.
+    - Unknown female DNA profile on the bat that does not match Annette or her sister-in-law.
+    - Partial male DNA profile on the bat handle that is not the victim.
+    - Letters from Jody Hotz to Corey revealing a strained relationship, suggesting other potential suspects or motives.
+    - Alleged Brady violation for not disclosing Jody Hotz's letters to the defense.
+    - Juror misconduct during deliberations.
+-   **Actual Perpetrator Details**: Not identified in the podcast. The podcast suggests exploring other leads, including drug-related motives, gambling debts, or someone else close to Corey like Jody Hotz.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - Annette Cahill: "There's nothing about prisons where I think I'm going to get used to this someday. This is nightmare."
+    - Annette Cahill: "My name is Annette Cahill. And I have been wrongfully incarcerated for almost exactly five years."
+    - Leanne McCrab (Annette's daughter): "My kids get this grandma who wanted to bake with them and wanted to cook with them and wanted to teach them all her recipes...That was the mom that I was so proud to see with my kids."
+    - Erica Nichols Cook: "To me, it's just childhood memory is not reliable. And there wasn't any forensic evidence. And in 2019, you expect there to be some forensic evidence..."
+    - Annette Cahill: "Annette, I'm not a monster because I've never hurt a soul...I have tried my best to make up for any pain I've ever caused anyone. I've tried to be giving and loving and generous and kind this last 30 years..."
+-   **Systemic Issues Identified**:
+    - The fallibility of memory, especially childhood memory, in legal proceedings.
+    - Potential for wrongful convictions based on circumstantial evidence and weak eyewitness testimony.
+    - The impact of Allen charges on jury deliberations and potential for coerced verdicts.
+    - Concerns about ineffective assistance of counsel.
+    - Possible Brady violations and withholding of exculpatory evidence by the prosecution.
+    - The challenges of investigating cold cases and the potential for tunnel vision by law enforcement.
+-   **Policy Recommendations/Calls to Action**:
+    - Support local innocence organizations.
+    - Contact public officials (Muscatine County Prosecutor's Office and Iowa elected officials) to inquire about Annette Cahill's case.
+    - Advocate for better standards regarding the use of eyewitness testimony and memory in criminal trials.
+    - Advocate for robust investigation of alternative suspects and motives, even in cold cases.
+    - Advocate for comprehensive DNA testing in cases where biological evidence exists.
+-   **Personal Narrative/Impact**:
+    - Annette's personal narrative is one of overcoming a difficult youth marked by poverty and substance abuse, transforming her life, and then being suddenly and unexpectedly incarcerated in her 50s for a crime she maintains she did not commit.
+    - The impact on her family, particularly her daughter Leanne and grandchildren/great-grandchildren, is profound.  They are deeply affected by her incarceration and are actively supporting her fight for freedom.
+    - Annette's emotional distress in prison is evident, including thoughts of suicide and the loss of her passions, like drawing. Her resilience and hope for exoneration are also highlighted.
+-   **Additional Resources**:
+    - Links in the episode description to help innocence organizations (not provided in the transcript itself).
+    - Contact information for Muscatine County Prosecutor's Office and Iowa elected officials (mentioned for listeners to take action).
+    - Website for Lava for Good and Wrongful Conviction podcast, and social media handles for more information (Lava for Good and Wrongful Conviction on social media).
+```

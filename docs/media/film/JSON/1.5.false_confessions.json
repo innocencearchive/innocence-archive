@@ -1,0 +1,80 @@
+{
+  "source_file_name": "1.5.false_confessions.md",
+  "media_work": {
+    "work_type": "UNKNOWN",
+    "title": "60 Minutes",
+    "publication_or_release_year": 2012,
+    "publisher_or_network": "CBS News",
+    "focus_or_theme": "False confessions, police interrogation techniques, juvenile suspects, wrongful convictions in Chicago.",
+    "summaryNotes": "Chicago identified as having a high number of documented false confession cases (\"False Confession Capital\").",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "UNKNOWN",
+    "item_title": "Segment \"The False Confession Capital\" (Reported by Byron Pitts)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "False confessions, police interrogation techniques, juvenile suspects, wrongful convictions in Chicago.",
+    "summary_notes": null,
+    "key_quotes_raw": [
+      "Interviews with exonerated individuals describing interrogation experiences; Psychologist Saul Kassin explaining the psychology of false confessions; Cook County State's Attorney Anita Alvarez defending police actions at the time."
+    ],
+    "systemic_issues_raw": [
+      "Psychological vulnerability of suspects (especially juveniles) during intense interrogation, police tactics leading to false confessions, reliance on confessions over contradictory evidence (like DNA), difficulty in overturning convictions based on confessions."
+    ],
+    "policy_recommendations_raw": [
+      "Implied need for reforms in police interrogation practices (e.g., recording interrogations, time limits, special protections for juveniles), better evaluation of confession evidence by prosecutors and courts."
+    ],
+    "external_links_raw": [],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Terrill Swift (Part of the \"Englewood Four\")",
+      "case_location_city": "Chicago",
+      "case_location_state": "IL",
+      "conviction_year": 1995,
+      "exoneration_or_release_year": 2012,
+      "crime_convicted_of_raw": "Rape and Murder (of Nina Glover)",
+      "sentence": "30 years",
+      "time_served": "Approximately 15 years",
+      "contributing_factors_raw": [
+        "Coerced false confession, lengthy interrogation (12+ hours), juvenile suspect (17), alleged police pressure/feeding details."
+      ],
+      "status_raw": "Exonerated (Certificate of Innocence); pursued civil rights lawsuit.",
+      "organizations_involved_raw": [
+        "People's Law Office, MacArthur Justice Center, Northwestern University School of Law, Innocence Project."
+      ],
+      "first_name": "Terrill",
+      "middle_name": "Swift (Part of the \"Englewood",
+      "last_name": "Four\")"
+    },
+    {
+      "full_name": "Jonathan Barr (Part of the \"Dixmoor Five\")",
+      "case_location_city": "Dixmoor/Chicago",
+      "case_location_state": "IL",
+      "conviction_year": 1991,
+      "exoneration_or_release_year": 2011,
+      "crime_convicted_of_raw": "Rape and Murder (of 14-year-old classmate)",
+      "sentence": "85 years",
+      "time_served": "Approximately 20 years",
+      "contributing_factors_raw": [
+        "Coerced/fabricated false confession, juvenile suspect (14), alleged police misconduct."
+      ],
+      "status_raw": "Exonerated (Certificate of Innocence); pursued civil rights lawsuit.",
+      "organizations_involved_raw": [
+        "People's Law Office, Neufeld Scheck & Brustin, Innocence Project."
+      ],
+      "**also_mentioned": "** Michael Saunders, Vincent Thames, Harold Richardson (Englewood Four); James Harden, Robert Taylor (Dixmoor Five).",
+      "first_name": "Jonathan",
+      "middle_name": "Barr (Part of the \"Dixmoor",
+      "last_name": "Five\")"
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

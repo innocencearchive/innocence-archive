@@ -1,0 +1,83 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but can be inferred as an episode focusing on Raymond Allen Warren's case.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript, likely recent given the context of "this year as of recording 2022" mentioned.
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, junk science (gunshot residue testing), procedural barriers in the justice system, fight for exoneration.
+-   **Key Statistics/Information**:
+    -   Raymond Warren has been in prison for 12 years longer than he was alive before his incarceration.
+    -   Gunshot residue (GSR) testing using atomic absorption (the method used in Raymond's case) is now considered to have negligible probative value due to high risk of contamination and transfer.
+    -   Many labs stopped using GSR testing after a 2005 FBI symposium highlighted its unreliability.
+    -   Ohio Supreme Court task force convened to study wrongful convictions and post-conviction review, aiming to reform rules and laws to provide pathways to relief for innocent people.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction details the case of Raymond Allen Warren, wrongfully convicted in 1995 for murder based on unreliable gunshot residue evidence and coerced testimony from two young friends.  At 16, Raymond was arrested after a positive GSR test on his non-dominant hand, despite having been fixing a scooter with brake pads, a known source of false positives.  His friends, Antonio and Chante, were coerced by police into falsely implicating him.  Despite both friends recanting their testimonies years later and the scientific community debunking GSR testing, Raymond remains incarcerated due to procedural hurdles and time limitations on filing motions for new evidence. The episode highlights systemic issues in the justice system, particularly the devastating impact of junk science and the difficulties faced by wrongfully convicted individuals in achieving exoneration, even with compelling evidence of innocence.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Raymond Allen Warren
+-   **Case Location**: Dayton, Ohio, USA
+-   **Conviction Year**: 1995
+-   **Exoneration Year**: Not yet exonerated (as of podcast recording)
+-   **Crime Convicted Of**: Murder
+-   **Sentence**: Not explicitly stated in transcript, but implied to be a lengthy prison sentence as he has served 27 years as of the recording.
+-   **Time Served**: 27 years (as of podcast recording)
+-   **Contributing Factors**:
+    -   Junk Science: Unreliable gunshot residue (GSR) test using atomic absorption method.
+    -   False Confession/Coerced Testimony:  Testimonies from Antonio and Chante were coerced by police threats of prosecution.
+    -   Ineffective Assistance of Counsel: Original trial defense did not challenge GSR evidence effectively. Subsequent attorneys faced financial and procedural barriers.
+    -   Procedural Barriers:  Courts deemed motions for new evidence as untimely, despite recantations and debunked GSR science.
+-   **Legal Status**: Incarcerated, seeking exoneration. Application for DNA testing denied, appealing denial. Parole eligible but consistently denied/continued.
+-   **Organizations Involved**:
+    -   Wrongful Conviction Project at the Office of the Ohio Public Defender (represented by Joanna Sanchez).
+    -   Ohio Minister's Project (assisted in obtaining Antonio's recantation affidavit).
+    -   AIG Pro Bono Program (underwrites the podcast and supports pro bono legal assistance).
+-   **Innocence Lawyer Details**: Joanna Sanchez, Director of the Wrongful Conviction Project at the Office of the Ohio Public Defender, is Raymond's current advocate and is interviewed in the podcast.
+-   **Cross-Reference**: Not explicitly stated if in exoneree database, but highly likely given the focus of the podcast.
+-   **Narrative of Original Crime**: Wendell Simpson was found fatally shot in his car, which had crashed into a house. Counterfeit bills were found nearby. Raymond and his friends were in the vicinity earlier, fixing a scooter when they heard gunshots in the distance.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Gunshot residue test: Positive result for barium and antimony on Raymond's non-dominant palm.
+    -   Coerced testimonies: Antonio and Chante testified that Raymond confessed to shooting Simpson for counterfeit money and that they saw Raymond with a gun the day before.
+-   **Trial Defender Notes**:  Public defenders were assigned. They presented two neighborhood witnesses (the Morlands) who cast doubt on the prosecution's timeline and suggested other potential suspects.  However, they did not effectively challenge the GSR evidence or the coerced nature of the testimonies from Antonio and Chante, likely due to the prevailing understanding of GSR at the time.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Recantations:  Both Antonio and Chante recanted their trial testimonies in sworn affidavits, stating they were coerced by police and that Raymond was with them when the shots were fired and could not have committed the murder.
+    -   Debunked GSR Science: Scientific consensus and FBI symposium findings showing GSR testing, especially atomic absorption, is unreliable and prone to false positives due to environmental contaminants like brake pad dust.
+    -   DNA Testing Request: Application for touch DNA testing on shell casings found at the crime scene, which was denied but is being appealed.
+-   **Actual Perpetrator Details**: Andre Wright and Stanley Williams, along with a third unidentified man, were present at the scene in a gold Buick and were seen going back and forth between their car and Simpson's car by witnesses (the Morlands). They were not tested for GSR and were quickly dismissed by police, raising suspicion but no concrete evidence of their involvement in the transcript.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Raymond: "Right now, the justice system has their knee on my neck and I'm dying behind these walls for something I didn't do."
+    -   Joanna Sanchez: "...after somebody's wrongfully convicted, we have this whole process that they have to follow to try to get relief and the rules that are in place and the procedures that they have to follow often prevent them from having their cases heard and make it incredibly difficult for an innocent person to get relief."
+    -   Raymond on the jury verdict: "The verdict did come back. I was dumbfounded. Two of the jury members cried and said certain things did. It's like they were kind of moving into the verdict themselves. So I was still kind of dumbfounded doing the whole process."
+    -   Antonio's coerced statement flub: "As we was walking back, going back to home, this guy had put up, Alan's right behind us. I went for him. Before you left Alan's house, you drank a pop." - revealing he was repeating a prepared statement.
+-   **Systemic Issues Identified**:
+    -   Use of junk science in convictions.
+    -   Police coercion of vulnerable individuals (youth) to obtain false testimonies.
+    -   Procedural barriers and time limitations that prevent wrongfully convicted individuals from presenting new evidence of innocence.
+    -   Lack of retroactive justice when laws or scientific understanding evolves.
+    -   Parole board pressures for admission of guilt, even for innocent individuals.
+    -   Difficulty in accessing and maintaining legal representation for indigent incarcerated individuals.
+-   **Policy Recommendations/Calls to Action**:
+    -   Support organizations working on wrongful conviction cases.
+    -   Advocate for reforms in post-conviction relief processes to remove procedural barriers.
+    -   Push for adoption of recommendations from the Ohio Supreme Court Task Force on wrongful convictions.
+    -   Sign petitions and support campaigns to raise awareness and pressure decision-makers in Raymond Warren's case.
+-   **Personal Narrative/Impact**: Raymond's personal narrative emphasizes the devastating impact of wrongful conviction, loss of life experiences, and the ongoing trauma of incarceration for a crime he did not commit. He expresses frustration with the justice system's procedural obstacles and pleads for public support to help him achieve freedom and justice. His final thoughts are a powerful call for help and recognition of his innocence.
+-   **Additional Resources**:
+    -   Wrongful Conviction Junk Science podcast episode (specifically the gunshot residue episode mentioned).
+    -   Website and petition for Raymond Warren's case (mentioned to be linked in the podcast bio and action steps).
+    -   Ohio Minister's Project (organization that assisted Raymond).
+    -   AIG Pro Bono Program.
+```

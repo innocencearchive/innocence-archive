@@ -1,0 +1,139 @@
+{
+  "source_file_name": "06. blind_injustice_research.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Blind Injustice: A Former Prosecutor Exposes the Psychology and Politics of Wrongful Convictions",
+    "creator_name": "Mark Godsey",
+    "publication_or_release_year": 2017,
+    "publisher_or_network": "University of California Press",
+    "format": "Hardcover, paperback, e-book",
+    "focus_or_theme": "Psychological factors contributing to wrongful convictions, cognitive biases in the justice system",
+    "key_statistics": "Draws on the author's experience with the Ohio Innocence Project, which has helped free 43 wrongfully convicted individuals"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "summary_notes": "\"Blind Injustice\" examines the psychological and institutional factors that contribute to wrongful convictions. Drawing on his unique perspective as both a former prosecutor and later an innocence advocate, Mark Godsey explores how cognitive biases, institutional pressures, and psychological phenomena lead well-intentioned professionals in the criminal justice system to convict innocent people.\n\nThe book identifies several psychological factors that contribute to wrongful convictions, including tunnel vision, confirmation bias, memory malleability, administrative evil, and dehumanization. Godsey argues that these psychological factors affect all human beings, including judges, police officers, prosecutors, and jurors, making the system vulnerable to error despite good intentions.\n\nThrough case studies from his work with the Ohio Innocence Project and his own experiences as a prosecutor, Godsey illustrates how these psychological factors play out in real cases. He also proposes reforms to address these issues and reduce the likelihood of wrongful convictions.",
+    "systemic_issues_raw": [
+      "Cognitive biases (tunnel vision, confirmation bias)",
+      "Memory malleability and eyewitness misidentification",
+      "Institutional pressures to obtain convictions",
+      "Dehumanization of defendants",
+      "Administrative evil (compartmentalization of responsibility)",
+      "Resistance to acknowledging mistakes",
+      "Lack of accountability for prosecutors and police",
+      "Psychological phenomena that affect all human decision-making"
+    ],
+    "policy_recommendations_raw": [
+      "Increased awareness of cognitive biases among justice system professionals",
+      "Reforms to eyewitness identification procedures",
+      "Recording of all police interrogations",
+      "Open file discovery policies for prosecutors",
+      "Conviction integrity units in prosecutors' offices",
+      "Enhanced training for police, prosecutors, and judges on psychological factors",
+      "Cultural changes to allow acknowledgment of mistakes",
+      "Reforms to prevent tunnel vision in investigations"
+    ],
+    "item_title": "Book Content: Blind Injustice: A Former Prosecutor Exposes the Psychology and Politics of Wrongful Convictions",
+    "focus_or_theme": "Psychological factors contributing to wrongful convictions, cognitive biases in the justice system"
+  },
+  "featured_individuals": [
+    {
+      "case_location": "Ohio",
+      "conviction_year": 1999,
+      "exoneration_or_release_year": 2005,
+      "crime_convicted_of": "Murder of his mother-in-law and sexual assault of his niece",
+      "sentence": "Life imprisonment",
+      "time_served": "7 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification, tunnel vision by investigators"
+      ],
+      "status_raw": [
+        "Exonerated through DNA evidence"
+      ],
+      "organizations_involved_raw": [
+        "Ohio Innocence Project"
+      ],
+      "individual_notes": "- Elkins collected DNA evidence from the actual perpetrator (another inmate) while in prison\n- Case demonstrates how tunnel vision can lead investigators to focus on the wrong suspect",
+      "full_name": "Clarence Elkins",
+      "first_name": "Clarence",
+      "middle_name": null,
+      "last_name": "Elkins"
+    },
+    {
+      "case_location": "Lorain, Ohio",
+      "conviction_year": 1994,
+      "exoneration_or_release_year": 2009,
+      "crime_convicted_of": "Sexually abusing children on Smith's school bus",
+      "sentence": "Long prison terms",
+      "contributing_factors_raw": [
+        "Suggestive questioning of children, memory malleability"
+      ],
+      "status_raw": [
+        "Convictions overturned"
+      ],
+      "organizations_involved_raw": [
+        "Ohio Innocence Project"
+      ],
+      "individual_notes": "- Case similar to other daycare panic cases of the era\n- Demonstrates how children's memories can be influenced by suggestive questioning",
+      "full_name": "Nancy Smith and Joseph Allen",
+      "first_name": "Nancy",
+      "middle_name": "Smith and Joseph",
+      "last_name": "Allen"
+    },
+    {
+      "case_location": "Ohio",
+      "conviction_year": 1991,
+      "exoneration_or_release_year": 2011,
+      "crime_convicted_of": "Rape and kidnapping",
+      "sentence": "22-56 years",
+      "time_served": "20 years",
+      "contributing_factors_raw": [
+        "Police misconduct, withheld evidence"
+      ],
+      "status_raw": [
+        "Exonerated"
+      ],
+      "organizations_involved_raw": [
+        "Ohio Innocence Project"
+      ],
+      "individual_notes": "- Police withheld exculpatory evidence that would have proven his innocence\n- Case demonstrates how tunnel vision can lead to misconduct",
+      "full_name": "Dean Gillispie",
+      "first_name": "Dean",
+      "middle_name": null,
+      "last_name": "Gillispie"
+    },
+    {
+      "case_location": "Cleveland, Ohio",
+      "conviction_year": 2000,
+      "exoneration_or_release_year": 2011,
+      "crime_convicted_of": "Murder of elderly woman",
+      "sentence": "Life imprisonment",
+      "time_served": "11 years",
+      "contributing_factors_raw": [
+        "Police misconduct, false testimony"
+      ],
+      "status_raw": [
+        "Exonerated through DNA evidence"
+      ],
+      "organizations_involved_raw": [
+        "Ohio Innocence Project"
+      ],
+      "individual_notes": "- Won a civil judgment against the city of Cleveland\n- Case demonstrates institutional resistance to acknowledging mistakes",
+      "full_name": "David Ayers",
+      "first_name": "David",
+      "middle_name": null,
+      "last_name": "Ayers"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Mark Godsey",
+      "role": "AUTHOR",
+      "first_name": "Mark",
+      "middle_name": null,
+      "last_name": "Godsey"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "- The book takes a psychological approach to understanding wrongful convictions rather than focusing solely on legal or procedural issues\n- Godsey's perspective as both a former prosecutor and innocence advocate provides unique insights\n- The book connects psychological research to real-world cases\n- Many of the cases featured involve the Ohio Innocence Project, which Godsey directs\n- The book emphasizes that wrongful convictions often result from good people making mistakes due to psychological factors rather than malicious intent"
+}

@@ -1,0 +1,84 @@
+{
+    "sourceFileName": "199_Jason_Flom_with_Al_Cleveland_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcast in association with Signal Company No. 1.",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, police corruption, informant testimony, systemic issues in the justice system.",
+        "keyStats": "- Al Cleveland served 25 years in prison for a double murder he did not commit.\n- The conviction was based on the false testimony of a paid informant's teenage son.\n- William Avery Jr. recanted his testimony multiple times, but was ignored by the Ohio legal system for years.\n- Al Cleveland was in New York at the time of the murders.\n- Two co-defendants, Benson Davis and John Edwards, remain incarcerated.\n- Al Cleveland was released on parole, but has not been exonerated and is not eligible for compensation.",
+        "itemNumber": "199",
+        "itemTitle": "Jason Flom with Al Cleveland",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom tells the harrowing story of Al Cleveland, who spent 25 years in prison for a double murder he did not commit in Lorraine, Ohio.  The case hinged on the unreliable testimony of William Avery Jr., the teenage son of a corrupt police informant, who falsely implicated Al and three other men for a $2,000 reward. Despite Avery Jr.'s repeated recantations and Al's verifiable alibi in New York, the prosecution proceeded, highlighting systemic failures in the Ohio legal system. Al describes the devastating impact of his wrongful conviction, his fight for survival and education in prison, and the unwavering support of his wife and the Ohio Innocence Project, which ultimately led to his parole.  The episode underscores the injustice of wrongful convictions, the devastating effects of police corruption and reliance on unreliable informants, and the ongoing fight for full exoneration and justice for Al and his remaining co-defendants."
+    },
+    "featuredIndividual": {
+        "fullName": "John Edwards (Co-defendant)",
+        "caseLocation": "Lorraine, Ohio, USA",
+        "convictionYear": "1996 (inferred, tried separately)",
+        "exonerationYear": "Still incarcerated as of podcast recording.",
+        "crimeConvictedOf": "Double murder of Marsha Blakely and Floyd Epps",
+        "sentence": "Life imprisonment (inferred)",
+        "timeServed": "Still incarcerated for approximately 29+ years (as of podcast recording).",
+        "contributingFactorsRaw": [
+            "False testimony from William Avery Jr."
+        ],
+        "status": "Incarcerated, wrongfully convicted",
+        "organizationsInvolvedRaw": [
+            "Ohio Innocence Project (advocacy for release mentioned)"
+        ],
+        "innocenceLawyersRaw": [
+            "Jennifer Passion Bergeron, Ohio Innocence Project (inferred advocacy)"
+        ],
+        "crossReference": "Not specified in transcript.",
+        "narrativeOriginalCrime": "Same as Al Cleveland - Double murder of Marsha Blakely and Floyd Epps.",
+        "keyEvidenceProsecutionRaw": [
+            "Same as Al Cleveland - Testimony of William Avery Jr."
+        ],
+        "trialDefenderNotes": "Not discussed in transcript.",
+        "keyEvidenceExonerationRaw": [
+            "Recantation of William Avery Jr. is key, but legal avenues are still being pursued."
+        ],
+        "actualPerpetratorDetails": "Same as Al Cleveland - Believed to be identified by Ohio Innocence Project, details not given."
+    },
+    "keyQuotesRaw": [
+        "Al Cleveland: \"I'm fresh home, like I've just been home maybe five months and I sat on a rack and visualizing this. So here we are, man. I'm excited. I'm pumped up.\"",
+        "Al Cleveland (about jury): \"When the jury came in, I turned around to look at them. And I saw it was hatred, bro. I saw it.\"",
+        "Al Cleveland (on sentence): \"He told me that I'm sentenced to life. And I told him I didn't do it. The screech, when he said guilty, the screech that came from my mother's voice. I knew it took a part. He yanked a series apart from her.\"",
+        "Jennifer Passion Bergeron (on Avery Jr. recanting and taking the fifth): \"Yeah, his silence spoke volumes.\"",
+        "Jason Flom (on actual innocence not being a basis for relief): \"Like, what the fuck are you talking about that actual innocence is not a basis for relief? Yes, it is. And everybody knows this.\"",
+        "Al Cleveland (closing argument, about co-defendants): \"But I have two co-defendants who are still incarcerated, Benson Davis and John Edwards and if we went to the governor about anything I would want the focus to be them and their release because they're sitting in there, their poor boy dates didn't come up like Lenny's and ours did. They're still in there and they don't deserve to be there.\""
+    ],
+    "systemicIssuesRaw": [
+        "Police corruption and unethical relationships with informants.",
+        "Reliance on unreliable informant testimony, especially from incentivized individuals.",
+        "Prosecutorial misconduct and tunnel vision in pursuing convictions despite lack of evidence and recantations.",
+        "Ineffective assistance of counsel (potentially, though not explicitly detailed).",
+        "Difficulties in federal habeas corpus proceedings and the high bar for proving actual innocence post-conviction.",
+        "Procedural hurdles prioritized over justice in the legal system.",
+        "Racial bias in the justice system is implied through the mention of the crack epidemic and the differential treatment of individuals from New York."
+    ],
+    "policyRecommendationsRaw": [
+        "Call for information about the actual perpetrators of the murders of Marsha Blakely and Floyd Epps to help exonerate remaining co-defendants.",
+        "Implied call for pardon for Al Cleveland to achieve full exoneration and compensation.",
+        "General call to support local Innocence Projects.",
+        "Implicit need for systemic reform to address police corruption, informant practices, and post-conviction review processes."
+    ],
+    "personalNarrativeRaw": [
+        "Al Cleveland emphasizes the devastating impact of wrongful conviction on himself and his family, particularly his mother.",
+        "He describes his re-education and spiritual growth in prison, focusing on helping other inmates.",
+        "He highlights the importance of love and support from his wife and family throughout his ordeal.",
+        "His closing argument emphasizes his concern for his co-defendants still in prison, showcasing his selfless character and commitment to justice for all."
+    ],
+    "additionalResourcesRaw": [
+        "Book: \"Three Strands, One Court: A Couple's Guide to Understanding Incarceration\" by Roberta and Alfred Cleveland (Al and his wife).",
+        "Website: zinn.com-find (advertisement in podcast).",
+        "Website: don't sleep on OSA.com (advertisement in podcast).",
+        "Website: fergasonhome.com (advertisement in podcast).",
+        "Website: mycomputercareer.edu/cwp (advertisement in podcast).",
+        "Website: KISQALI.com (advertisement in podcast).",
+        "Contact information for Ohio Innocence Project: 513-556-0752."
+    ]
+}

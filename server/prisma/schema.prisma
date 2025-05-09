@@ -1,0 +1,384 @@
+// datasource and generator should match your setup
+// Ensure provider is "postgresql"
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// --- Enums for controlled vocabulary ---
+
+enum MediaWorkType {
+  BOOK
+  FILM // Standalone film
+  DOCUMENTARY // Standalone documentary
+  DOCUSERIES // Multi-part documentary series
+  PODCAST_SERIES
+  TV_SERIES // e.g., 20/20, Dateline
+  OTHER
+  UNKNOWN
+}
+
+enum MediaItemType {
+  PODCAST_EPISODE
+  TV_EPISODE
+  BOOK_CONTENT      // Represents the content of a standalone BOOK MediaWork
+  FILM_CONTENT      // Represents the content of a standalone FILM MediaWork
+  DOCUMENTARY_CONTENT // Represents the content of a standalone DOCUMENTARY MediaWork
+  BOOK_CHAPTER      // Future use: If breaking books down
+  OTHER
+  UNKNOWN
+}
+
+enum IndividualStatus {
+  EXONERATED // Fully cleared
+  RELEASED_ALFORD_PLEA // Released but didn't admit guilt / maintains innocence
+  RELEASED_CLEMENCY // Released via pardon/commutation but conviction may stand
+  RELEASED_TIME_SERVED // Released after serving sentence or via plea for time served
+  CONVICTION_OVERTURNED // Overturned, awaiting retrial/dismissal
+  EXECUTED
+  CONVICTED // Currently convicted/incarcerated
+  OTHER // For cases that don't fit neatly
+  UNKNOWN
+}
+
+enum OrganizationType {
+  INNOCENCE_ORG // e.g., Innocence Project, EJI
+  LEGAL_AID
+  LAW_FIRM
+  LAW_ENFORCEMENT // e.g., Police Dept, DA Office
+  GOVERNMENT_AGENCY
+  SUPPORT_GROUP // e.g., After Innocence
+  MEDIA_ORG // e.g., Production Company, Network, Publisher
+  UNIVERSITY
+  OTHER
+  UNKNOWN
+}
+
+enum InvolvedPersonRole {
+  LAWYER_DEFENSE
+  LAWYER_PROSECUTION
+  JUDGE
+  WITNESS_EYEWITNESS
+  WITNESS_ALIBI
+  WITNESS_EXPERT
+  WITNESS_INFORMANT // Jailhouse informant etc.
+  POLICE_DETECTIVE
+  POLICE_OFFICER
+  VICTIM
+  FAMILY_MEMBER
+  JOURNALIST
+  AUTHOR // Author of book/article
+  DIRECTOR // Director of film/doc
+  HOST // Host of podcast
+  ACTIVIST
+  ACCUSER
+  ACTUAL_PERPETRATOR
+  CO_DEFENDANT
+  // Roles specific to individuals in the story
+  SUBJECT_EXONEREE // The main person wrongfully convicted in the narrative
+  SUBJECT_OTHER // Other central figures in the narrative
+  OTHER
+  UNKNOWN
+}
+
+enum OrganizationLinkType {
+  WEBSITE // Primary website (could potentially replace the main 'website' field on Organization)
+  ARTICLE
+  SOCIAL_MEDIA
+  REPORT
+  OTHER
+}
+
+
+// --- Core Models ---
+
+
+// --- IndividualGroup Model ---
+model IndividualGroup {
+  id          Int      @id @default(autoincrement())
+  name        String   @unique // e.g., "Central Park Five", "West Memphis Three"
+  description String?  @db.Text // Optional: Brief description or context about the group/case
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // --- Relationships ---
+  // Many-to-many relationship with Individual
+  members Individual[] @relation("IndividualGroupMembership")
+
+  @@map("individual_groups") // Explicit table name
+}
+
+// --- MediaItemSourceLink Model ---
+model MediaItemSourceLink {
+  id          Int      @id @default(autoincrement())
+  url         String   // The specific URL mentioned (e.g., GoFundMe, article)
+  description String?  @db.Text // Optional: Context (e.g., "GoFundMe mentioned at 10:30", "Related news article")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // --- Relationships ---
+  mediaItem   MediaItem @relation(fields: [mediaItemId], references: [id], onDelete: Cascade)
+  mediaItemId Int       // Foreign key back to the MediaItem
+
+  @@map("media_item_source_links")
+}
+
+// --- MediaWork Model ---
+model MediaWork {
+  id                       Int           @id @default(autoincrement())
+  title                    String
+  workType                 MediaWorkType
+  creatorName              String?
+  publicationOrReleaseYear Int?
+  publisherOrNetwork       String?
+  focusOrTheme             String?       @db.Text
+  summaryNotes             String?       @db.Text
+  availabilityNotes        String?       @db.Text
+  sourceUrl                String?
+  aiGenerated              Boolean       @default(true) // ADD THIS FIELD
+  createdAt                DateTime      @default(now())
+  updatedAt                DateTime      @updatedAt
+
+  // --- Relationships ---
+  items MediaItem[]
+
+  @@map("media_works")
+}
+
+
+// --- MediaItem Model ---
+model MediaItem {
+  id                         Int                  @id @default(autoincrement())
+  itemTitle                  String?
+  itemNumber                 String?              // e.g., Episode number, Chapter number
+  itemMediaType              MediaItemType
+  releaseDate                DateTime?
+  hostOrNarrator             String?
+  focusOrTheme               String?              @db.Text
+  summaryNotes               String?              @db.Text
+  keyQuotes                  String?              @db.Text
+  sourceUrl                  String?
+  aiGenerated                Boolean              @default(true) // ADD THIS FIELD
+  createdAt                  DateTime             @default(now())
+  updatedAt                  DateTime             @updatedAt
+
+  // --- Relationships ---
+  work                       MediaWork            @relation(fields: [workId], references: [id], onDelete: Cascade)
+  workId                     Int
+
+  individualsFeatured        Individual[]         @relation("ItemFeaturingIndividuals")
+  involvedPersonsMentioned   InvolvedPerson[]     @relation("ItemMentioningPersons")
+  organizationsMentioned     Organization[]       @relation("ItemMentioningOrganizations")
+  contributingFactorsMentioned ContributingFactor[] @relation("ItemMentioningFactors")
+
+  relatedMediaItems          MediaItem[]          @relation("RelatedMediaItems") // MediaItems related TO this one
+  relatedToMediaItems        MediaItem[]          @relation("RelatedMediaItems") // MediaItems THIS one is related to
+
+  externalLinks              MediaItemSourceLink[] // Links mentioned within the item
+
+  // Ensures an episode number (or title) is unique within a specific media work
+  @@unique([workId, itemNumber])
+  @@map("media_items")
+}
+
+
+// --- IndividualSourceLink Model (Join Table) ---
+model IndividualSourceLink {
+  id                  Int               @id @default(autoincrement())
+  specificUrl         String            // The specific URL linking this individual to this source
+  createdAt           DateTime          @default(now())
+  updatedAt           DateTime          @updatedAt
+
+  // --- Relationships ---
+  individual          Individual        @relation("IndividualLinks", fields: [individualId], references: [id], onDelete: Cascade)
+  individualId        Int
+  informationSource   InformationSource @relation("SourceLinks", fields: [informationSourceId], references: [id], onDelete: Cascade)
+  informationSourceId Int
+  @@unique([individualId, specificUrl])
+  @@map("individual_source_links")
+}
+
+
+// --- InformationSource Model ---
+model InformationSource {
+  id              Int                    @id @default(autoincrement())
+  name            String                 @unique
+  baseUrl         String?
+  specificUrl     String?                // May be less relevant now with join table
+  retrievedAt     DateTime?
+  createdAt       DateTime               @default(now())
+  updatedAt       DateTime               @updatedAt
+
+  // --- Relationships ---
+  individualLinks IndividualSourceLink[] @relation("SourceLinks")
+
+  @@map("information_sources")
+}
+
+
+// --- Individual Model (Includes latest updates) ---
+model Individual {
+  id                         Int                @id @default(autoincrement())
+  firstName                  String
+  middleName                 String?
+  lastName                   String
+  suffix                     String?
+  nickname                   String?
+  // NEW FIELD for handling duplicates
+  disambiguationTag          String?            // e.g., "NRE Case 123", "Witness", "b.1990", "From City X"
+  status                     IndividualStatus?
+  crimeDate                  DateTime?
+  convictionYear             Int?
+  exonerationOrReleaseYear   Int?
+  timeServed                 String?
+  sentence                   String?            @db.Text
+  caseLocationCity           String?
+  caseLocationCounty         String?
+  caseLocationState          String?
+  caseLocationCountry        String             @default("USA")
+  narrativeSummary           String?            @db.Text
+  aiGenerated                Boolean            @default(true) // ADD THIS FIELD
+  createdAt                  DateTime           @default(now())
+  updatedAt                  DateTime           @updatedAt
+
+  // --- Relationships ---
+  mediaItemAppearances       MediaItem[]        @relation("ItemFeaturingIndividuals")
+  contributingFactors        ContributingFactor[] @relation("FactorsInIndividualCase")
+  organizationsInvolved      Organization[]     @relation("OrganizationsInIndividualCase")
+  involvedPersons            InvolvedPerson[]   @relation("PersonsInIndividualCase")
+
+  crimeCategory              CrimeCategory?     @relation(fields: [crimeCategoryId], references: [id])
+  crimeCategoryId            Int?
+
+  relatedIndividuals         Individual[]       @relation("RelatedIndividuals")
+  relatedToIndividuals       Individual[]       @relation("RelatedIndividuals")
+
+  sourceLinks                IndividualSourceLink[] @relation("IndividualLinks")
+  groups                     IndividualGroup[]  @relation("IndividualGroupMembership")
+
+  // --- UPDATED UNIQUE CONSTRAINT ---
+  // Includes the new disambiguationTag.
+  // NULLs are treated as distinct, so only identical combinations including the tag (or lack thereof) will conflict.
+  @@unique([firstName, middleName, lastName, suffix, disambiguationTag])
+
+  @@map("individuals")
+}
+
+// --- Organization Model ---
+model Organization {
+  id                   Int                  @id @default(autoincrement())
+  name                 String               @unique
+  type                 OrganizationType?
+  locationCity         String?
+  locationState        String?
+  locationCountry      String               @default("USA")
+  website              String?
+  notes                String?              @db.Text // Used for Mission/Description
+  aiGenerated          Boolean              @default(true) // ADD THIS FIELD
+  createdAt            DateTime             @default(now())
+  updatedAt            DateTime             @updatedAt
+
+  // --- Relationships ---
+  mediaItemMentions    MediaItem[]          @relation("ItemMentioningOrganizations")
+  involvedCases        Individual[]         @relation("OrganizationsInIndividualCase")
+  affiliatedPersons    InvolvedPerson[]     @relation("PersonsAffiliatedWithOrganization")
+  externalLinks        OrganizationLink[]
+  relatedOrganizations Organization[]       @relation("RelatedOrganizations")
+  relatedToOrganizations Organization[]     @relation("RelatedOrganizations")
+  factorsAddressed     ContributingFactor[] @relation("FactorRelatedOrganizations")
+
+  @@map("organizations")
+}
+
+// --- ContributingFactor Model ---
+model ContributingFactor {
+  id                   Int              @id @default(autoincrement())
+  name                 String           @unique
+  description          String?          @db.Text
+  aiGenerated          Boolean          @default(true) // ADD THIS FIELD
+  createdAt            DateTime         @default(now())
+  updatedAt            DateTime         @updatedAt
+
+  // --- Relationships ---
+  individualCases      Individual[]     @relation("FactorsInIndividualCase")
+  mediaItemMentions    MediaItem[]      @relation("ItemMentioningFactors")
+  relatedPersons       InvolvedPerson[] @relation("FactorRelatedPersons")
+  relatedOrganizations Organization[]   @relation("FactorRelatedOrganizations")
+
+  @@map("contributing_factors")
+}
+
+// --- CrimeCategory Model ---
+model CrimeCategory {
+  id             Int          @id @default(autoincrement())
+  crime_name     String       @unique
+  severity_order Int
+
+  // --- Relationships ---
+  individuals Individual[]
+
+  @@map("crime_categories")
+}
+
+
+// --- InvolvedPerson Model ---
+model InvolvedPerson { // Represents Other Involved Persons (OIPs) - non-WC
+  id                Int                  @id @default(autoincrement())
+  firstName         String
+  middleName        String?              // Added middleName field
+  lastName          String
+  suffix            String?              // Added suffix field
+  nickname          String?              // Added nickname field
+  role              InvolvedPersonRole?
+  notes             String?              @db.Text
+  aiGenerated       Boolean              @default(true) // ADD THIS FIELD
+  createdAt         DateTime             @default(now())
+  updatedAt         DateTime             @updatedAt
+
+  // --- Relationships ---
+  mediaItemMentions MediaItem[]          @relation("ItemMentioningPersons")
+  involvedCases     Individual[]         @relation("PersonsInIndividualCase")
+  affiliatedOrgs    Organization[]       @relation("PersonsAffiliatedWithOrganization")
+  relatedFactors    ContributingFactor[] @relation("FactorRelatedPersons")
+
+  // --- Unique constraint for InvolvedPerson (without disambiguation tag) ---
+  @@unique([firstName, middleName, lastName, suffix])
+
+  @@map("involved_persons")
+}
+
+
+// --- OrganizationLink Model ---
+model OrganizationLink {
+  id             Int                   @id @default(autoincrement())
+  url            String
+  description    String?               @db.Text
+  type           OrganizationLinkType?
+  createdAt      DateTime              @default(now())
+  updatedAt      DateTime              @updatedAt
+
+  // --- Relationships ---
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  organizationId Int
+
+  @@map("organization_links")
+}
+
+// In schema.prisma
+
+model FeaturedContentSetting {
+  id                  Int      @id @default(1) // Use a fixed ID for the single settings row
+  featuredStoryId     Int?     // Store Individual ID
+  featuredBookId      Int?     // Store MediaWork ID
+  featuredPodcastId   Int?     // Store MediaWork ID
+  featuredFilmId      Int?     // Store MediaWork ID
+  featuredOrgId       Int?     // Store Organization ID
+  featuredFactorIds   Int[]    // Store array of ContributingFactor IDs
+  updatedAt           DateTime @updatedAt
+
+  @@map("featured_content_settings")
+}

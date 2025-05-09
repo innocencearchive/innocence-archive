@@ -1,0 +1,82 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but it is about Troy Coleman's case and new evidence.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**:  Not specified in transcript, likely recent given the "new evidence in 2022" mention.
+-   **Production Company(ies)/Network**: Lava for Good Podcasts
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, criminal justice system failures, police and prosecutorial misconduct, drug-related crime.
+-   **Key Statistics/Information**: Troy Coleman has been incarcerated for 31 years for a crime he maintains he did not commit. New evidence from the homicide file and confessions from others involved are discussed. 1400 convictions were overturned due to the 39th district corruption in Philadelphia.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction details the case of Troy Coleman, who has served 31 years for a murder he insists he didn't commit.  The episode highlights new evidence from the homicide file, including information about ransom calls for the victim made weeks after the alleged murder date, contradicting the prosecution's timeline.  It revisits coerced testimony and shaky eyewitness identification used to convict Troy. Confessions from Byron Johnson, admitting to moving the body, and a recantation from Darren Johnson, who gave false testimony, further support Troy's innocence. The podcast underscores systemic issues within the Philadelphia justice system, including police corruption and prosecutorial misconduct.  Troy's legal team is now using this new evidence to push for his exoneration, emphasizing the urgency of his case after decades of wrongful imprisonment. The episode calls on the Philadelphia Conviction Integrity Unit to act swiftly and rectify this injustice.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Troy Coleman
+-   **Case Location**: Philadelphia, Pennsylvania, USA
+-   **Conviction Year**: 1990
+-   **Exoneration Year**: Not yet exonerated, still fighting his conviction as of the podcast recording.
+-   **Crime Convicted Of**: Murder, robbery, conspiracy, and possession of an instrument of crime. (Conspiracy conviction was reversed in 1993).
+-   **Sentence**: Life sentence
+-   **Time Served**: 31 years (as of podcast recording)
+-   **Contributing Factors**:
+    -   Eyewitness Misidentification (Arthur Sanders' shaky ID)
+    -   False Testimony (Darren Keith Johnson's coerced and incentivized statement)
+    -   Prosecutorial Misconduct (withholding exculpatory evidence, using false alibi impeachment)
+    -   Police Corruption (Martin Devlin's history of misconduct)
+    -   Ineffective Assistance of Counsel (private investigator Ed Geiger's failure to investigate alibi)
+-   **Legal Status**: Currently incarcerated, seeking exoneration through PCRA (Post Conviction Relief Act) matters.
+-   **Organizations Involved**: Philadelphia Conviction Integrity Unit (mentioned as being hoped to intervene), Wrongful Conviction Podcast, legal team including Joseph Morone and Jerome Brown.
+-   **Innocence Lawyer Details**:
+    -   **Joseph Morone**: Attorney who joined Troy's team and gained access to the homicide file, uncovering new Brady material.
+    -   **Jerome Brown**: Esteemed attorney from Philadelphia, consulted on the case.
+-   **Cross-Reference**: Not specified in the transcript whether he is in a specific exoneree database, but the podcast itself serves as a media source about wrongful convictions.
+-   **Narrative of Original Crime**: Kevin Jones was allegedly abducted during a drug deal set up by Kareem Nobles.  Arthur Sanders claimed to see two men in Jones's car, identifying Troy as the passenger. Jones's body was found in the trunk of his car weeks later, having been beaten and shot.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Arthur Sanders' eyewitness identification of Troy as the passenger in Jones's car.
+    -   Darren Keith Johnson's coerced testimony stating Troy confessed to the murder.
+    -   Testimony from a Bally's clerk suggesting Troy was in Atlantic City under his own name, used to impeach his alibi memory.
+    -   Matching insulation from Troy's apartment found with the body.
+-   **Trial Defender Notes**:  Defense was undermined by a hired private investigator, Ed Geiger, who failed to properly investigate Troy's alibi and falsely claimed the alibi witness was uncooperative. Troy's memory of the hotel name in Atlantic City was also slightly inaccurate, which was used against him.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   **Recantation of Darren Keith Johnson**:  Darren recanted his false testimony in multiple affidavits, admitting he was coerced and incentivized by police and prosecutors.
+    -   **Confession of Byron Johnson**: Byron Johnson confessed to being the passenger in the car with Kareem Nobles and helping to move Kevin Jones's body, directly contradicting Sanders' ID of Troy and implicating Kareem.
+    -   **New Brady Material from Homicide File**: Evidence that Kevin Jones was alive weeks after the alleged murder date, including ransom calls made by the "Junior Black Mafia," proving the prosecution's timeline was false and Troy, who was in California during this period, could not be the murderer.
+    -   **Alibi Witness Richard Crawford**:  Crawford confirmed he was with Troy in Atlantic City, refuting the investigator's claim and supporting Troy's alibi.
+-   **Actual Perpetrator Details**:
+    -   **Kareem Nobles (Raymond Knowles)**:  Set up the drug deal with Kevin Jones and was implicated in the abduction and murder. He died before he could be formally investigated or charged.
+    -   **Byron Johnson**: Confessed to being involved in moving the body with Kareem, suggesting his participation in the aftermath of the crime, though the extent of his involvement in the murder itself is not fully detailed in this transcript.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Jason Flom: "Today, we have a story that I think is going to rock your world in a different kind of way, right? Because the person that we're interviewing today, Troy Coleman, has been incarcerated for 31 years in Pennsylvania for a crime he didn't commit."
+    -   Troy Coleman: "He said guilty was like I was just like shocked I was it was so shocking to me that the first couple of years they believe we don't be mentally you know we lost a lot of family with other guys... but I just couldn't believe it." (Describing his reaction to the guilty verdict).
+    -   Joseph Morone: "Bottom line is this evidence, this information was indicating that Kevin Jones was still alive which completely contradicts the entire prosecution theory. This information was known to the police was a critical and crucial piece of exculpatory evidence that the prosecution and the detectives and police would help." (Regarding the new homicide file evidence).
+    -   Darren Keith Johnson: "and they made me sign it and so they made me say that he confessed to me and then after that I wasn't going to court then they kept harassing my mother she said well they said that they going to arrest you if you don't come in the court and the fat d.a i know he's a fat white guy i don't remember his name he said well well we could get you a probation if you testify with the detectives told you..." (Describing coercion to give false testimony).
+-   **Systemic Issues Identified**:
+    -   Police corruption and misconduct in Philadelphia, particularly in the 39th district and involving detective Martin Devlin.
+    -   Prosecutorial misconduct, including withholding Brady material (exculpatory evidence) and incentivizing false testimony.
+    -   Ineffective assistance of counsel, highlighting the failures of the initial private investigator.
+    -   Racial bias in the justice system, alluded to by the quote about Philadelphia, Mississippi being potentially fairer for a Black man than Philadelphia, Pennsylvania.
+    -   The pressure on police to clear cases quickly, leading to shortcuts and potentially wrongful convictions.
+-   **Policy Recommendations/Calls to Action**:
+    -   Implicit call for the Philadelphia CIU to expedite Troy Coleman's case and grant him freedom.
+    -   Broader implication for the need for systemic reform within the Philadelphia justice system to address historical and ongoing issues of corruption and misconduct.
+    -   Troy Coleman's personal call for increased focus on education and vocational skills for youth to prevent them from being involved in crime.
+-   **Personal Narrative/Impact**:
+    -   Troy Coleman describes the devastating impact of wrongful conviction on himself and his family, including mental anguish and loss. He expresses disbelief at the guilty verdict and the long years of struggle. Despite the hardship, he emphasizes hope and faith. He now focuses on helping young people through education and vocational skills programs within prison, aiming to prevent others from following a similar path. His final thoughts are about his educational initiatives and gratitude for support.
+-   **Additional Resources**:
+    -   Mention of a Rolling Stone magazine article about Tony Wright's wrongful conviction, which also involved Martin Devlin.
+    -   Reference to the exoneree database (though not explicitly named, the task description mentions it).
+    -   Lava for Good Podcasts, Wrongful Conviction Podcast, Signal Company Number One as production and social media resources.
+```

@@ -1,0 +1,85 @@
+{
+  "source_file_name": "9.2.long_shot.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "Long Shot",
+    "publication_or_release_year": 2017,
+    "publisher_or_network": "Information Unavailable (Search resultwas for a different film)",
+    "focus_or_theme": "Wrongful accusation, securing an alibi through unlikely means (TV show footage).",
+    "summaryNotes": "Demonstrates the importance of corroborating alibis, even through unusual sources.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Long Shot",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful accusation, securing an alibi through unlikely means (TV show footage).",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Tells remarkable story of how footage from HBO's \"Curb Your Enthusiasm\" helped exonerate Juan Catalan; Explores role of coincidence and persistence. Available via Netflix.",
+      "research_findings": "This short documentary focuses on the unique way Juan Catalan's lawyer proved his client's alibi. Catalan claimed he was at a Dodgers game during the time of the murder he was accused of. Standard checks (tickets, receipts) were insufficient, but his lawyer discovered \"Curb Your Enthusiasm\" was filming at the stadium that day and meticulously reviewed outtakes, finding footage of Catalan that corroborated his alibi and led to the charges being dropped."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "Los Angeles",
+      "case_location_state": "California",
+      "conviction_year": "N/A (Arrested and charged, but case dismissed before conviction)",
+      "exoneration_or_release_year": 2003,
+      "crime_convicted_of_raw": "Accused of Murder (of Martha Puebla in 2003)",
+      "sentence": "N/A (Faced potential death penalty)",
+      "time_served": "~5-6 months in jail pre-trial",
+      "contributing_factors_raw": [
+        "Potential mistaken identification (leading to arrest); Alibi initially difficult to prove despite attending crowded event."
+      ],
+      "status_raw": "Charges Dismissed after alibi confirmed by HBO footage.",
+      "organizations_involved_raw": [
+        "Defense lawyer (Todd Melnik prominently featured)."
+      ],
+      "full_name": "Juan Catalan [cite: 61",
+      "first_name": "Juan",
+      "middle_name": "Catalan [cite:",
+      "last_name": "61"
+    },
+    {
+      "case_location_city": "Los Angeles",
+      "case_location_state": "California",
+      "conviction_year": "N/A (Arrested and charged, but case dismissed before conviction)",
+      "exoneration_or_release_year": 2003,
+      "crime_convicted_of_raw": "Accused of Murder (of Martha Puebla in 2003)",
+      "sentence": "N/A (Faced potential death penalty)",
+      "time_served": "~5-6 months in jail pre-trial",
+      "contributing_factors_raw": [
+        "Potential mistaken identification (leading to arrest); Alibi initially difficult to prove despite attending crowded event."
+      ],
+      "status_raw": "Charges Dismissed after alibi confirmed by HBO footage.",
+      "organizations_involved_raw": [
+        "Defense lawyer (Todd Melnik prominently featured)."
+      ],
+      "full_name": "4.1]",
+      "first_name": "1]",
+      "middle_name": null,
+      "last_name": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Jacob LaMendola",
+      "role": "DIRECTOR",
+      "first_name": "Jacob",
+      "middle_name": null,
+      "last_name": "LaMendola"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

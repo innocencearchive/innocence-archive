@@ -1,0 +1,90 @@
+{
+    "sourceFileName": "079_Jason_Flom_with_Timothy_Tyler_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2018",
+        "network": "Lava for Good Podcast and Association with signal company number one. (iHeart Media and Mike Wudura Podcast Network mentioned for ads, not production of *Wrongful Conviction*)",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, criminal justice reform, mandatory minimum sentencing, drug policy, personal stories of incarceration, clemency.",
+        "keyStats": "-   Tim Tyler received a double life sentence for a non-violent LSD crime in 1992.\n-   He served 26 years and 27 days in prison.\n-   Estimated \\$1.5 million taxpayer dollars spent on his incarceration, potentially more than \\$2 million including his father's 10-year sentence.\n-   Over 400,000 people signed petitions for his clemency.\n-   Decriminalization of drugs in Portugal led to positive social outcomes.\n-   High drug availability within maximum security prisons.",
+        "itemNumber": "079",
+        "itemTitle": "Jason Flom with Timothy Tyler",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Tim Tyler, who received a double life sentence in 1992 for a non-violent LSD offense.  The episode details the extreme severity of his sentence, the flawed legal advice he received, and the devastating impact on his life and family, including his father who also received a 10-year sentence related to Tim's case.  Tim recounts his harrowing experiences in maximum-security prisons, the unexpected kindness of some fellow inmates, and the profound deprivation and isolation he endured.  The podcast highlights the systemic issues of mandatory minimum sentencing and the criminalization of drug use, advocating for drug policy reform and clemency.  Ultimately, Tim received clemency from President Obama after serving 26 years, and his story serves as a powerful example of sentencing injustice and the urgent need for criminal justice reform.  The episode concludes with a call to action to support organizations like FAMM and CanDo Clemency and to advocate for clemency for others unjustly incarcerated."
+    },
+    "featuredIndividual": {
+        "fullName": "Tim Tyler",
+        "caseLocation": "Florida, USA (St. Pete, Florida mentioned specifically)",
+        "convictionYear": "1992",
+        "exonerationYear": "2016 (Clemency granted - functionally released from unjust sentence, but not exonerated from the original conviction itself)",
+        "crimeConvictedOf": "LSD distribution (non-violent drug offense)",
+        "sentence": "Double life sentence",
+        "timeServed": "26 years, 27 days",
+        "contributingFactorsRaw": [
+            "Mandatory minimum sentencing guidelines.",
+            "\"War on Drugs\" era policies leading to excessively harsh penalties for drug offenses.",
+            "Informant testimony.",
+            "Ineffective legal counsel (public defender allegedly gave poor advice and had conflicts of interest).",
+            "Prior non-violent drug offenses used to enhance sentencing."
+        ],
+        "status": "Clemency granted by President Obama, released from prison.",
+        "organizationsInvolvedRaw": [
+            "Families Against Mandatory Minimums (FAMM)",
+            "Can Do Clemency Foundation",
+            "Catholic University (Professor Ogilvy assisted with clemency petition)",
+            "Innocence Project (Jason Flom's involvement as a board member, though not directly involved in Tim's clemency case itself)."
+        ],
+        "innocenceLawyersRaw": [
+            "Professor Ogilvy from Catholic University assisted with the clemency petition. Frank Wasada was the initial private attorney hired by Tim's father, but his advice to plead guilty is portrayed negatively in the podcast. The public defender is criticized for suggesting Tim cooperate against his father."
+        ],
+        "crossReference": "Not applicable as Tim Tyler was not *wrongfully* convicted of the crime itself but unjustly sentenced.  He is likely not in a database of *wrongfully* convicted individuals but may be in databases related to sentencing reform or clemency.",
+        "narrativeOriginalCrime": "Tim Tyler sold LSD to friends in Florida. One friend became a government informant after a marijuana arrest and recorded multiple conversations and sales. Tim mailed LSD via UPS to this informant's business, leading to his and his father's arrest.",
+        "keyEvidenceProsecutionRaw": [
+            "Informant testimony and audio recordings of LSD sales.",
+            "UPS package containing LSD sent by Tim Tyler.",
+            "Testimony related to the quantity of LSD involved (9,000 hits in the mailed package, and previous sales)."
+        ],
+        "trialDefenderNotes": "Tim Tyler's public defender advised him to cooperate against his father in exchange for a reduced sentence (10 years), which Tim refused. The attorney also advised pleading guilty, which led to the double life sentence despite the non-violent nature of the crime. The defense strategy is portrayed as inadequate and detrimental.",
+        "keyEvidenceExonerationRaw": [
+            "Clemency granted by President Obama in 2016. This was the result of advocacy efforts by organizations like FAMM, Can Do Clemency, and petitions signed by over 400,000 people, highlighting the excessive nature of his sentence."
+        ],
+        "actualPerpetratorDetails": "Not applicable as this is not a case of mistaken identity or factual innocence. The \"perpetrator\" in terms of systemic injustice is the mandatory minimum sentencing laws and the \"War on Drugs\" policies."
+    },
+    "keyQuotesRaw": [
+        "\"I'm not innocent to approve and guilty, I'm guilty until I approve my innocence and that's absolutely what happened to me.\" - Tim Tyler, describing the feeling of the justice system against him.",
+        "\"Our system, since I've been out ten years, it's come a little ways, but it's still broken.\" - Tim Tyler, reflecting on the justice system.",
+        "\"This is a wrongful conviction.\" - Podcast intro, framing the episode's theme despite Tim's admission of guilt for the crime, focusing on the wrongful *sentence*.",
+        "Jason Flom's commentary about the disproportionate cost of incarceration vs. potential benefits of rehabilitation and medical approaches to drug use.",
+        "Tim's emotional recounting of his clemency and first experiences of freedom (sunshine, beach)."
+    ],
+    "systemicIssuesRaw": [
+        "Mandatory minimum sentencing laws leading to disproportionate and unjust sentences, particularly for non-violent drug offenses.",
+        "Flaws in the \"War on Drugs\" approach, advocating for medical treatment and decriminalization over criminalization for drug use.",
+        "Inadequate legal representation, particularly for indigent defendants.",
+        "The harshness and dehumanizing conditions of maximum-security prisons for non-violent offenders.",
+        "High availability of drugs within prisons, questioning the effectiveness of current drug policies."
+    ],
+    "policyRecommendationsRaw": [
+        "Criminal justice reform, particularly regarding sentencing laws and mandatory minimums.",
+        "Drug policy reform, advocating for decriminalization and treatment-based approaches.",
+        "Support for clemency and pardon initiatives to correct past sentencing injustices.",
+        "Support organizations like FAMM and Can Do Clemency.",
+        "Encouragement to write to incarcerated individuals to offer support."
+    ],
+    "personalNarrativeRaw": [
+        "Tim Tyler's personal narrative highlights the devastating impact of a double life sentence on an individual and their family, despite a non-violent offense.",
+        "His resilience and survival in harsh prison conditions, maintaining veganism and a compassionate spirit.",
+        "The profound emotional impact of regaining freedom and experiencing simple joys after decades of incarceration.",
+        "His story serves as a powerful indictment of the justice system's failures and a call for empathy and reform."
+    ],
+    "additionalResourcesRaw": [
+        "FAMM.org (Families Against Mandatory Minimums)",
+        "cando clemency.com (Can Do Clemency Foundation)",
+        "InnocenceProject.org",
+        "Spotlight Snitch City Podcast (advertised in the episode, related to informant issues).",
+        "Free Tim Tyler videos online (mentioned by Jason Flom).",
+        "Corelinks.com (email service for federal inmates)."
+    ]
+}

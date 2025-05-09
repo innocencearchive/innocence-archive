@@ -1,0 +1,87 @@
+{
+    "sourceFileName": "262_Maggie_Freleng_with_Brian_Parnell_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Maggie Freeling",
+    "mediaItem": {
+        "hosts": "Maggie Freeling",
+        "releaseYear": "2022",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, fingerprint evidence, ineffective defense, family impact",
+        "keyStats": "- Brian Parnell was convicted based on partial fingerprint evidence.\n- The trial lasted less than two days, including jury deliberation.\n- Fingerprint analysis is described as subjective and not a perfect science.\n- Brian Parnell had alibi witnesses and a physical condition (crutches) that were not presented at trial.",
+        "itemNumber": "262",
+        "itemTitle": "Maggie Freleng with Brian Parnell",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Maggie Freeling\" tells the story of Brian Parnell, wrongfully convicted of the 1997 murder of Gus Boulius.  Despite having alibi witnesses and no connection to the victim, Brian was arrested four years after the crime based on partial fingerprint evidence.  Detective Beam fixated on Brian after the FBI identified him as a potential match from a national database.  The prosecution lacked motive, witnesses, and a murder weapon, relying solely on the fingerprint.  Brian's defense team failed to present alibi witnesses or evidence of his physical limitations at the time of the murder.  He was convicted in a trial lasting under two days and sentenced to life without parole, highlighting systemic issues with fingerprint evidence and ineffective legal representation."
+    },
+    "featuredIndividual": {
+        "fullName": "Brian Parnell",
+        "caseLocation": "Philadelphia suburbs, Pennsylvania, USA",
+        "convictionYear": "2002",
+        "exonerationYear": "Not yet exonerated (as of podcast recording)",
+        "crimeConvictedOf": "Second-degree murder and burglary",
+        "sentence": "Life in prison without parole",
+        "timeServed": "Over 21 years (as of podcast recording, incarcerated since 2001)",
+        "contributingFactorsRaw": [
+            "Faulty fingerprint analysis (partial print, subjective interpretation)",
+            "Ineffective defense counsel (failure to present alibi, physical limitations, question fingerprint evidence, or explore alternate suspects)",
+            "Fixation by law enforcement on a single suspect",
+            "Possible racial bias (suggested but not explicitly proven in transcript)"
+        ],
+        "status": "Incarcerated, appeals denied, Pennsylvania Innocence Project seeking further evidence testing.",
+        "organizationsInvolvedRaw": [
+            "Pennsylvania Innocence Project",
+            "Making an Exoneree program (Georgetown Prisons and Justice Initiative)",
+            "Discovery (reviewed case)",
+            "AIG Pro Bono Program (underwriter)"
+        ],
+        "innocenceLawyersRaw": [
+            "Pennsylvania Innocence Project is currently representing Brian and seeking further evidence testing.",
+            "Mark Howard from Georgetown's Prisons and Justice Initiative and the \"Making an Exoneree\" program has been involved in reinvestigating the case."
+        ],
+        "crossReference": "Not explicitly stated if in exoneree database, but case is being actively worked on by innocence organizations.",
+        "narrativeOriginalCrime": "Gus Boulius was murdered in his home in 1997. His wife Daphne found him shot in the back after hearing a bang and footsteps.  The initial investigation considered it a robbery gone wrong, though nothing was stolen.",
+        "keyEvidenceProsecutionRaw": [
+            "Partial fingerprint evidence found at the crime scene, identified as potentially matching Brian Parnell four years later by the FBI's national database."
+        ],
+        "trialDefenderNotes": "Defense lawyers Ronald Joseph, Tariq Karim El-Shabaaz, and Gerald Aston were hired privately. They were deemed ineffective by Brian and his family, failing to:\n- Contact or present alibi witnesses (Laquisha, Jovita, Maurice)\n- Present evidence of Brian's injury (crutches) preventing him from entering through a window\n- Question the validity of the fingerprint evidence or call expert witnesses\n- Present alternative suspects",
+        "keyEvidenceExonerationRaw": [
+            "DNA and hair samples from the crime scene did not match Brian.",
+            "Alibi witnesses placed Brian elsewhere at the time of the murder.",
+            "Brian's physical condition (on crutches) made the prosecution's theory of entry through a window implausible.",
+            "The partial fingerprint evidence is considered weak and potentially unreliable.",
+            "Pennsylvania Innocence Project is seeking further DNA testing, which could identify the actual perpetrator."
+        ],
+        "actualPerpetratorDetails": "Not identified in the transcript.  Mention of possible suspects identified by the victim's wife and business partner (employees discussing robbery), but these leads were not pursued by police due to the fingerprint fixation."
+    },
+    "keyQuotesRaw": [
+        "\"For the people that do [have strong family support], it's a literal lifeline. Just knowing that there's people out there that love you, that care about you, that are concerned for your well-being, it can be literally the thing that saves people, and it can be the thing that helps to free them.\" - Jason Flom (intro quote)",
+        "\"It's as if his family has been incarcerated along with him, in other words. We're doing a time with him.\" - Tamara (Brian's sister)",
+        "\"I want to thank Mr. Parnell for not wearing gloves that day. He gave us the evidence. The defense can't explain away the fingerprints, bottom line, and that's going to convict them.\" - Prosecutor Carmody's closing statement",
+        "\"This is a nightmare to be accused of killing a man. I walk through these walls at this institution day in and day out with the conscience clear because I know I've never killed nobody a day in my life.\" - Brian Parnell"
+    ],
+    "systemicIssuesRaw": [
+        "Unreliable fingerprint evidence used as sole basis for conviction.",
+        "Subjectivity and potential for error in fingerprint analysis.",
+        "Confirmation bias and tunnel vision in police investigations (fixation on fingerprints, ignoring other leads and suspects).",
+        "Ineffective assistance of counsel.",
+        "Pressure on law enforcement to close cases quickly.",
+        "Potential racial bias in the investigation and prosecution."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call for re-evaluation of fingerprint evidence reliability in court.",
+        "Need for better funding and oversight of public defense systems to ensure effective counsel.",
+        "Encouragement to support innocence projects and organizations working on wrongful conviction cases."
+    ],
+    "personalNarrativeRaw": [
+        "Brian's strong family support is highlighted as a crucial element throughout his ordeal.",
+        "The profound impact of wrongful conviction on Brian's family, especially his children and mother, is emphasized.",
+        "Brian's resilience and desire to help others after his release, despite his wrongful conviction, are showcased.",
+        "Brian's mother's disillusionment with law enforcement due to her son's case, despite her own career in law enforcement."
+    ],
+    "additionalResourcesRaw": [
+        "Website: justiceforbrianparnel.com",
+        "Twitter: @justiceforbrianparnel",
+        "Mention of Pennsylvania Innocence Project."
+    ]
+}

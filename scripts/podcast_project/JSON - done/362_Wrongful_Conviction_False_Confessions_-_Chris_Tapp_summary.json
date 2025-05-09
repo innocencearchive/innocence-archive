@@ -1,0 +1,81 @@
+{
+    "sourceFileName": "362_Wrongful_Conviction_False_Confessions_-_Chris_Tapp_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: False Confessions",
+    "mediaItem": {
+        "hosts": "Lauren Eyreider, Steve Drizen",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts in association with Signal Company No. 1",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful confessions, investigative journalism, criminal justice reform, DNA exoneration.",
+        "keyStats": "- Chris Tapp endured a 25-hour interrogation.\n- Chris Tapp was wrongfully convicted and served 20 years in prison.\n- State of Idaho settled Chris Tapp's wrongful conviction case for over $11 million.\n- DNA evidence was crucial for exoneration and identifying the actual perpetrator.\n- Genetic genealogy was used to identify the real killer, Brian Dripps.",
+        "itemNumber": "362",
+        "itemTitle": "Wrongful Conviction False Confessions - Chris Tapp",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction: False Confessions tells the story of Chris Tapp, who at 20 years old, was coerced into confessing to the 1996 rape and murder of Angie Dodge after a grueling 25-hour interrogation. Despite lacking DNA evidence and even confessing to details that were factually incorrect about the crime scene, Tapp was convicted and served 20 years.  Angie Dodge's mother, Carol Dodge, initially sought the death penalty for Tapp, but later became convinced of his innocence after reviewing interrogation tapes and researching false confessions.  Carol Dodge became a fierce advocate for Tapp's exoneration and relentlessly pushed for further DNA testing.  Her persistence led to the use of genetic genealogy, which ultimately identified Brian Dripps as the actual perpetrator. Tapp was exonerated in 2019, and Dripps was later arrested. The episode highlights the dangers of coercive interrogation tactics, the flaws in the justice system, and the extraordinary impact of Carol Dodge's unwavering pursuit of truth and justice."
+    },
+    "featuredIndividual": {
+        "fullName": "Brian Dripps\n- Biological Ustry, adopted and raised under the name Dripps.\n- Lived across the street from Angie Dodge at the time of the murder.\n- Interviewed by police shortly after the murder but not considered a suspect.\n- Left Idaho Falls shortly after the killing.\n- Identified through genetic genealogy in 2018.\n- DNA matched the crime scene evidence.\n- Arrested and charged with first-degree murder and rape.\n- Entered a plea of not guilty (at the time of the podcast recording).",
+        "caseLocation": "Idaho Falls, Idaho, USA",
+        "convictionYear": "1998",
+        "exonerationYear": "2019",
+        "crimeConvictedOf": "Rape and murder of Angie Dodge",
+        "sentence": "Life in prison",
+        "timeServed": "20 years",
+        "contributingFactorsRaw": [
+            "False confession due to coercive interrogation tactics, including false friend technique, minimization of consequences, threats of death penalty, and promises of leniency.  Focus on a single suspect despite lack of evidence."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Judges for Justice (advocacy group)",
+            "Idaho Innocence Project",
+            "Innocence Project in New York"
+        ],
+        "innocenceLawyersRaw": [
+            "Not detailed in the transcript, but mentioned that Chris Tapp got a lawyer who negotiated an immunity agreement (later rescinded) and that lawyers from Idaho Innocence Project and Innocence Project in New York were involved in pushing for exoneration."
+        ],
+        "crossReference": "Likely appears in exoneree databases given the high profile nature of the case.",
+        "narrativeOriginalCrime": "18-year-old Angie Dodge was found murdered in her apartment, stabbed and with her throat cut. There were no signs of forced entry or prolonged struggle.",
+        "keyEvidenceProsecutionRaw": [
+            "A brief, cherry-picked clip from Chris Tapp's 25-hour interrogation, making his coerced confession appear spontaneous and voluntary."
+        ],
+        "trialDefenderNotes": "Not detailed in transcript but implied to be ineffective as Chris Tapp was convicted based on a false confession despite lack of corroborating evidence and DNA mismatch.",
+        "keyEvidenceExonerationRaw": [
+            "DNA evidence from semen at the crime scene did not match Chris Tapp.",
+            "Carol Dodge reviewing interrogation tapes and recognizing coercive tactics.",
+            "Expert reports deeming Tapp's confession unreliable (Steve Drizen).",
+            "New DNA testing on items from Angie's bedroom confirming the original DNA profile was not Tapp's.",
+            "Genetic genealogy identifying Brian Dripps as a potential match to the DNA profile.",
+            "DNA match between Brian Dripps and the crime scene evidence."
+        ],
+        "actualPerpetratorDetails": ""
+    },
+    "keyQuotesRaw": [
+        "Steve Drizen on Carol Dodge: \"It's one of the few times in my career as a lawyer where someone from the victim's family has asked me to investigate an injustice.\"",
+        "Steve Drizen on interrogation tapes and police: \"How was it that a lay person could look at these interrogation tapes and see all of the problems, all of the coercion, all of the leading questions, all of the fact-feeding when law enforcement officers on the Idaho Falls Police Department couldn't see it themselves?\"",
+        "Police officer to Chris Tapp (false friend technique): \"...suggesting that he was there to help Chris to see him through this problem.\"",
+        "Police officer to Chris Tapp (threat): \"In other words, Chris Tapp is now facing the gas chamber.\"",
+        "Carol Dodge: \"I've never allowed any of the authorities to tell me, no, the kind that told me that something couldn't be done. I would just say, well, watch me.\"",
+        "Chris Tapp on Carol Dodge: \"Oh, Carol Dodge. I love her dearly. More than most people will ever know... It wasn't for Carol Dodge.\""
+    ],
+    "systemicIssuesRaw": [
+        "Coercive interrogation tactics leading to false confessions.",
+        "Tunnel vision in police investigations, focusing on a suspect despite lack of evidence.",
+        "Misuse and misinterpretation of polygraph results.",
+        "Failure of the justice system to recognize and rectify wrongful convictions.",
+        "Initial limitations in Idaho law regarding post-conviction DNA testing."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call for reform in interrogation techniques to prevent false confessions.  Highlighting the importance of independent review of interrogation tapes. Importance of post-conviction DNA testing access."
+    ],
+    "personalNarrativeRaw": [
+        "Chris Tapp lost 20 years of his life due to wrongful conviction. He highlights the importance of Carol Dodge in his exoneration and expresses gratitude for his freedom and family.",
+        "Carol Dodge's relentless pursuit of justice, evolving from seeking the death penalty for Chris Tapp to becoming his champion and ultimately finding her daughter's real killer. She sacrificed much in her 23-year search for the truth but found comfort in her impact."
+    ],
+    "additionalResourcesRaw": [
+        "Mention of Dateline episode featuring Carol Dodge and Chris Tapp (though specific title/date not given).",
+        "Mention of Judges for Justice and Idaho Innocence Project as advocacy groups.",
+        "Brian Clark's journalism in the Idaho Falls post-register.",
+        "Genetic genealogy and its use in solving cold cases like the Golden State Killer and Angie Dodge case."
+    ]
+}

@@ -1,0 +1,123 @@
+{
+    "sourceFileName": "007_Jason_Flom_with_Richard_Rosario_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2016",
+        "network": "Lava for Good Podcast in association with (Incomplete in transcript)",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, eyewitness misidentification, ineffective counsel, systemic issues in the justice system.",
+        "keyStats": "-   Mistaken eyewitness identification was a factor in over 75% of the nation's DNA exonerations.\n-   63% of Americans believe memory works like a video camera.\n-   48% believe memory is permanent.\n-   37% believe the testimony of a single confident eyewitness should be enough to convict.\n-   Under Robert Johnson's tenure as DA in the Bronx, there was the lowest conviction rate but the highest rate of wrongful convictions.",
+        "itemNumber": "007",
+        "itemTitle": "Jason Flom with Richard Rosario",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features Richard Rosario, who was wrongfully convicted of murder in the Bronx despite being in Florida at the time of the crime with thirteen alibi witnesses.  The episode details Richard's background, arrest, and the failures of his legal representation.  Key issues highlighted include ineffective counsel, flawed eyewitness testimony, and the lack of proper investigation by both police and the District Attorney's office. Richard served 20 years in prison before being exonerated due to the efforts of the new Bronx District Attorney.  He describes the psychological and physical torture of prison and the difficulties of reintegrating into society. The episode concludes with a song created by Richard's children, reflecting on the impact of his wrongful conviction on their lives."
+    },
+    "featuredIndividual": {
+        "fullName": "Richard Rosario",
+        "caseLocation": "Bronx, New York, USA",
+        "convictionYear": "1997 (Approximate, based on 20 years served before 2023/2024 release)",
+        "exonerationYear": "2023 (Approximate, based on \"four months on the outside\" at recording)",
+        "crimeConvictedOf": "Murder",
+        "sentence": "25 years to life",
+        "timeServed": "20 years",
+        "contributingFactorsRaw": [
+            "Eyewitness Misidentification: Three eyewitnesses identified Richard, but there are questions about suggestive police procedures and potential motives of witnesses.",
+            "Ineffective Counsel: Both initial public defenders (Joyce Hart's field and Stephen Kaiser) failed to investigate his alibi effectively.",
+            "Lack of Investigation: Police and DA failed to investigate Richard's alibi of being in Florida with 13 witnesses and did not properly investigate alternative leads or potential biases of eyewitnesses."
+        ],
+        "status": "Exonerated, released.",
+        "organizationsInvolvedRaw": [
+            "New Bronx District Attorney's Office: Re-investigated the case leading to exoneration.",
+            "Innocence Project: Mentioned by Jason Flom as an organization he supports."
+        ],
+        "innocenceLawyersRaw": [
+            "Joyce Hart's field: Initial public defender, described as unresponsive and ineffective in investigating the alibi.",
+            "Stephen Kaiser: Second public defender, also described as ill-prepared and failing to investigate the alibi, believing funds were denied for investigation.",
+            "New Bronx District Attorney's Office investigators: Conducted the investigation that led to Richard's release and exoneration."
+        ],
+        "narrativeOriginalCrime": "George Kalazo was murdered in the Bronx. Richard was accused of the murder. The prosecution initially portrayed it as a coincidental shooting between strangers.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness Testimony: Three eyewitnesses (Michael Sanchez, Robert Davis, and Jose Diaz) identified Richard as the shooter.  Concerns raised about the reliability of these identifications and potential suggestive police procedures."
+        ],
+        "trialDefenderNotes": "-   Ineffective Assistance: Defense lawyers failed to investigate and present Richard's alibi evidence (being in Florida).\n-   Lack of Challenge to Eyewitnesses:  Defense seemingly did not effectively challenge the reliability or potential biases of the eyewitness identifications.",
+        "keyEvidenceExonerationRaw": [
+            "Alibi Evidence: Re-investigation by the new DA's office confirmed Richard's alibi of being in Florida with 13 witnesses at the time of the murder.",
+            "Flawed Eyewitness Testimony:  Re-examination of the eyewitness testimony revealed inconsistencies and raised questions about police influence and witness motivations."
+        ],
+        "actualPerpetratorDetails": "Not mentioned or available in the transcript. However, the transcript hints at other potential leads and motives, suggesting the possibility of a targeted attack related to a prior incident involving the victim and another individual's girlfriend."
+    },
+    "keyQuotesRaw": [
+        "\"Cops came out with guns drawn and I never saw freedom ever ever since after that.\" - Richard describing his arrest.",
+        "Richard's statement to detectives: \"I've never committed a crime. I've never taken someone's life. And God knows this and it is God's will.\"",
+        "Description of Rikers Island: \"Rikers, it's chaos. It's completely chaos...corruption is just so abhorrent...I've been slashed. I've been stabbed. I've been jumped by inmates and I've had to struggle and fight and claw my way out that type of environment. Even correctional officers, I've been brutalized by them.\"",
+        "Jason Flom stating: \"mistaken eyewitness identification was a factor in over 75% of the nation's DNA exonerations.\"",
+        "Richard's daughter's song lyrics expressing longing and hope for her father's return home."
+    ],
+    "systemicIssuesRaw": [
+        "Ineffective assistance of counsel for indigent defendants.",
+        "Over-reliance on and flaws of eyewitness testimony.",
+        "Failure of police and DA to thoroughly investigate alibis and alternative leads.",
+        "Potential for suggestive police identification procedures.",
+        "Impact of overworked and under-resourced public defenders.",
+        "Lack of accountability for wrongful convictions.",
+        "Difficulties faced by exonerees upon release, including lack of support for reintegration."
+    ],
+    "policyRecommendationsRaw": [
+        "Support the Innocence Project to help prevent future wrongful convictions.",
+        "Reform eyewitness identification procedures to minimize suggestiveness and improve reliability.",
+        "Improve the quality of legal representation for indigent defendants and ensure adequate resources for investigation.",
+        "Promote thorough and unbiased investigations by police and prosecutors."
+    ],
+    "personalNarrativeRaw": [
+        "Richard's narrative highlights the devastating personal impact of wrongful conviction, including the loss of 20 years of his life, the trauma of prison, and the struggle to rebuild his life after release.",
+        "The children's song poignantly illustrates the emotional toll on families, expressing the pain of separation and the yearning for their father's presence during significant life events."
+    ],
+    "additionalResourcesRaw": [
+        "InnocenceProject.org: Website for donation and involvement to support the Innocence Project."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Richard's children",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "detectives",
+                "role_guess": "Police Officer",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "inmates",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "correctional officers",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "flawed eyewitness testimony",
+            "lack of proper investigation"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "wrongful conviction",
+                "ineffective counsel",
+                "flawed eyewitness testimony",
+                "lack of proper investigation",
+                "prison conditions",
+                "reintegration difficulties",
+                "impact on family"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

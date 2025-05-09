@@ -1,0 +1,96 @@
+{
+  "sourceFileName": "Aggravating Circumstances_research.md",
+  "mediaWork": {
+    "title": "Aggravating Circumstances",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Laura Szeremi",
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "Independent/iHeart",
+    "focusOrTheme": "True crime podcast focusing on cases of wrongful conviction, hidden evidence, and unintended consequences in the criminal justice system",
+    "summaryNotes": "True crime podcast focusing on cases of wrongful conviction, hidden evidence, and unintended consequences in the criminal justice system. Multiple seasons covering different wrongful conviction cases. Season One focuses on Destry Cord McKinney, Season Two covers Elisha Baxter, Season Three examines Tommy Hall.",
+    "availabilityNotes": null,
+    "sourceUrl": "https://www.iheart.com/podcast/269-aggravating-circumstances-63033302/"
+  },
+  "mediaItem": {
+    "itemTitle": "Destry McKinney - Episode One",
+    "itemNumber": "1",
+    "itemMediaType": "PODCAST_EPISODE",
+    "releaseDate": null,
+    "hostOrNarrator": null,
+    "focusOrTheme": "Case of Destry Cord McKinney",
+    "summaryNotes": "Introduces the case of Destry Cord McKinney, a musician, studio producer, combat medic, and father who was wrongfully convicted",
+    "keyQuotes": "\"A true crime podcast. A tale of hidden evidence, unintended consequences and a wrongful conviction.\"",
+    "sourceUrl": "https://castbox.fm/episode/1.-Destry-McKinney---Episode-One-Aggravating-Circumstances-Season-One-id2815801-id257125195"
+  },
+  "individuals": [
+    {
+      "firstName": "Destry Cord",
+      "lastName": "McKinney",
+      "status": "CONVICTED",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": null,
+      "sentence": "Life without parole",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": null,
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Musician, studio producer, combat medic, and father who was wrongfully convicted. Still incarcerated as of 2024.",
+      "contributingFactorNames": [
+        "Hidden evidence",
+        "Unintended consequences in the criminal justice system"
+      ]
+    }
+  ],
+  "organizations": [
+    {
+      "name": "iHeart",
+      "type": "MEDIA_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": "https://www.iheart.com",
+      "notes": "Production Company/Network"
+    },
+    {
+      "name": "Destry McKinney Legal Defense Fund",
+      "type": "SUPPORT_GROUP",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Legal defense fund for Destry McKinney"
+    }
+  ],
+  "contributingFactors": [
+    {
+      "name": "Hidden evidence",
+      "description": null
+    },
+    {
+      "name": "Unintended consequences in the criminal justice system",
+      "description": null
+    },
+    {
+      "name": "Flaws in the criminal justice system",
+      "description": null
+    },
+    {
+      "name": "Issues with trial proceedings",
+      "description": null
+    },
+    {
+      "name": "Hidden or withheld evidence",
+      "description": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Laura",
+      "lastName": "Szeremi",
+      "role": "HOST",
+      "notes": "Host of Aggravating Circumstances podcast"
+    }
+  ],
+  "crimeCategories": []
+}

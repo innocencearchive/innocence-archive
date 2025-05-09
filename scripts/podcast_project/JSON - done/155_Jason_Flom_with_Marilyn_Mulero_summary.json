@@ -1,0 +1,98 @@
+{
+    "sourceFileName": "155_Jason_Flom_with_Marilyn_Mulero_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts, signal company number one",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system, police misconduct, ineffective counsel, innocence projects.",
+        "keyStats": "-   Marilyn Malera served 27 years in prison for a crime she did not commit.\n-   Detectives Guevara and Halverson linked to dozens of exonerations and over $50 million in settlements for wrongful convictions.\n-   In Illinois, students found 11 innocent people on death row, leading to Governor Ryan commuting all death sentences.\n-   California Innocence Project has freed over 30 people.",
+        "itemNumber": "155",
+        "itemTitle": "Jason Flom with Marilyn Mulero",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom features the story of Marilyn Malera, wrongfully convicted in 1992 for a double homicide she did not commit and sentenced to death after a coerced guilty plea.  The episode details the egregious failures of the justice system in her case, including corrupt detectives, false witness testimony, ineffective counsel, and a coerced confession after 20 hours of interrogation.  Justin Brooks, founder of the California Innocence Project, recounts his 25-year fight to exonerate Marilyn, highlighting the systemic issues that led to her wrongful conviction. Marilyn herself shares her harrowing experience on death row and her eventual release in 2020 after a clemency petition.  The episode underscores the devastating impact of wrongful convictions and the importance of innocence projects in rectifying these injustices, with Marilyn now dedicated to helping other wrongfully convicted individuals."
+    },
+    "featuredIndividual": {
+        "fullName": "Marilyn Malera",
+        "caseLocation": "Chicago, Illinois, USA, Humboldt Park",
+        "convictionYear": "1992",
+        "exonerationYear": "2020 (released after clemency, not full exoneration mentioned in transcript, but legal status changed)",
+        "crimeConvictedOf": "Double homicide (initially described as taking blame for one murder and Jackie Montanez for the other in coerced statement)",
+        "sentence": "Death penalty (initially), later natural life sentence after death sentence reversal.",
+        "timeServed": "27 years",
+        "contributingFactorsRaw": [
+            "False confession (coerced after lengthy interrogation)",
+            "False informant testimony",
+            "False eyewitness testimony",
+            "Ineffective counsel (lawyer advised guilty plea with no plea bargain, no death penalty litigation experience)",
+            "Police misconduct (corrupt detectives Guevara and Halverson, coercive interrogation tactics)"
+        ],
+        "status": "Released after clemency granted by the governor. (Transcript does not explicitly state full exoneration, but release due to innocence is implied).",
+        "organizationsInvolvedRaw": [
+            "California Innocence Project",
+            "Exoneration Project (Chicago)",
+            "Illinois Innocence Project",
+            "Chicago Public Defender's Office",
+            "Pacers Foundation (Sponsor)",
+            "AIG Pro Bono program (Sponsor)",
+            "Paul Weiss, Rifkin, Wharton and Garrison (Sponsor)"
+        ],
+        "innocenceLawyersRaw": [
+            "Justin Brooks, law professor, founder and director of the California Innocence Project.  Dedicated 25 years to Marilyn's case, uprooted his life to fight for her innocence. Described as a human rights fighter extraordinaire."
+        ],
+        "crossReference": "Not mentioned in transcript if she appears in exoneree database.",
+        "narrativeOriginalCrime": "Two Latin Kings members, Jimmy Cruz and Hector Reyes, were shot and killed in and around a bathroom in Humboldt Park. Jackie Montanez lured one into the bathroom and shot him. She then shot the second man outside the bathroom. Marilyn and her friend were present but unaware of Jackie's plan and fled in panic after the shootings.",
+        "keyEvidenceProsecutionRaw": [
+            "Coerced confession from Marilyn stating she took blame for one murder.",
+            "False informant testimony claiming Jackie bragged about the killings and later implicated Marilyn.",
+            "False eyewitness testimony from a woman claiming to see Marilyn commit the shooting from her apartment window, which was physically impossible."
+        ],
+        "trialDefenderNotes": "Jeremiah Lynch, Marilyn's hired attorney, provided ineffective counsel. He advised Marilyn to plead guilty without a plea deal, had no death penalty litigation experience, did not investigate the case thoroughly, and resigned from the bar to become a priest after the sentencing. This plea waived Marilyn's right to a trial and to present evidence of innocence.",
+        "keyEvidenceExonerationRaw": [
+            "Evidence of Jackie Montanez's confession to committing both murders alone.",
+            "Exposure of the fabricated nature of the informant and eyewitness testimonies.",
+            "Recognition of the ineffective counsel provided by Marilyn's initial lawyer.",
+            "The Illinois Supreme Court reversed the death sentence due to prosecutorial misconduct during sentencing phase.",
+            "Ultimately, clemency granted by the governor after years of petitions and advocacy."
+        ],
+        "actualPerpetratorDetails": "Jackie Montanez, identified as the actual shooter of both victims. She had a \"sordid history\" with the Latin Kings and claimed her motive was revenge for a friend killed by the gang or to elevate her status within the gang.  She reportedly bragged about the killings and admitted to committing them alone."
+    },
+    "keyQuotesRaw": [
+        "Justin Brooks: \"This case involved a false confession, false informant testimony, a bad identification, a bad lawyer, bad judges and bad cops. So pretty much all the causes of wrongful conviction occurred together. It was the perfect storm which led Marilyn to spend 27 years in prison for a crime she didn't commit.\"",
+        "Marilyn Malera (regarding police interrogation): \"They wanted me to say something that I could not say. They wanted me to lie, and I didn't want to lie. But they kept pressuring me and pressuring me. It becomes to where you're like, what the hell, just leave me the hell alone.\"",
+        "Jason Flom: \"one of the biggest policing scandals in US history\" (referring to Detective Ronaldo Guevera's cases).",
+        "Justin Brooks: \"I don't know who I am if I'm not representing Marilyn Malero and trying to get her out of prison.\"",
+        "Marilyn Malera: \"I'm home, but you're still not divorcing me [Justin]. You're stuck with me for life.\""
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct and corruption (Detectives Guevara and Halverson).",
+        "Use of unreliable informant and eyewitness testimony.",
+        "Ineffective assistance of counsel.",
+        "Coercive interrogation tactics leading to false confessions.",
+        "Lack of accountability within the justice system.",
+        "Difficulty in presenting evidence of innocence after a guilty plea."
+    ],
+    "policyRecommendationsRaw": [
+        "Support innocence projects to help free wrongfully convicted individuals and reform the criminal justice system.",
+        "Donate to organizations like the Innocence Project.",
+        "Advocate for criminal justice reform to prevent future wrongful convictions.",
+        "Examine cases linked to corrupt detectives and hold responsible parties accountable."
+    ],
+    "personalNarrativeRaw": [
+        "Marilyn Malera's story highlights the resilience and strength of wrongfully convicted individuals. Despite 27 years of wrongful imprisonment, she displays remarkable positivity and faith.",
+        "She is now dedicated to helping other wrongfully convicted women and plans to open a work release center for women.",
+        "Justin Brooks' life was changed by Marilyn's case, leading him to found the California Innocence Project and dedicate his career to fighting for the wrongfully convicted. He expresses a deep emotional connection to Marilyn and her case."
+    ],
+    "additionalResourcesRaw": [
+        "California Innocence Project (CaliforniaInnocenceProject.org mentioned as link in bio)",
+        "Illinois Innocence Project (implied as resource)",
+        "Exoneration Project (Chicago) (implied as resource)",
+        "Innocence Project (InnocenceProject.org for donation)",
+        "The Last Mile program (thelastmile.org - mentioned by Pacers Foundation)",
+        "Pacers Foundation (pacersfoundation.org)",
+        "AIG Pro Bono program (implied sponsor resource)",
+        "Paul Weiss, Rifkin, Wharton and Garrison (implied sponsor resource)"
+    ]
+}

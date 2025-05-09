@@ -1,0 +1,80 @@
+{
+  "source_file_name": "4.2.conviction.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "Conviction (Dateline NBC)",
+    "creator_name": null,
+    "publication_or_release_year": 2016,
+    "publisher_or_network": "NBC News",
+    "focus_or_theme": "Reinvestigation of cases involving potential wrongful convictions; following fights for exoneration.",
+    "summaryNotes": "Series re-examines evidence where individuals maintain innocence; often features new forensic analysis or testimony.",
+    "availabilityNotes": "Available via NBC/Peacock.",
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Appears to be a multi-part series or recurring segment theme",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Reinvestigation of cases involving potential wrongful convictions; following fights for exoneration.",
+    "summary_notes": "\"Conviction\" is a Dateline series focusing on wrongful conviction investigations. A prominent multi-part series from 2016 focused on Richard Rosario. Other cases, like Christopher Tapp's, have been featured under different episode titles but fit the overall theme.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Series re-examines evidence where individuals maintain innocence; often features new forensic analysis or testimony. Available via NBC/Peacock.",
+      "research_findings": "\"Conviction\" appears to be a Dateline series/theme focusing on wrongful conviction investigations. A prominent multi-part series from 2016 focused on Richard Rosario. Other cases, like Christopher Tapp's, have been featured under different episode titles but fit the overall theme. A fictional 2006 NBC drama also shares the name \"Conviction\" but is unrelated."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Richard Rosario",
+      "first_name": "Richard",
+      "middle_name": null,
+      "last_name": "Rosario",
+      "status": "EXONERATED",
+      "conviction_year": 1998,
+      "exoneration_or_release_year": 2016,
+      "time_served": "20 years",
+      "sentence": "25 years to life",
+      "crime_convicted_of_raw": "Murder",
+      "case_location_city": "New York City",
+      "case_location_state": null,
+      "narrative_summary": "Richard Rosario was wrongfully convicted of murder in 1998 and exonerated in 2016 after serving 20 years. His conviction was vacated and later dismissed. Disregarded alibi witnesses and potential eyewitness misidentification were contributing factors.",
+      "contributing_factors_raw": [
+        "Disregarded alibi witnesses (13 people placed him in Florida)",
+        "potential eyewitness misidentification"
+      ],
+      "organizations_involved_raw": []
+    },
+    {
+      "full_name": "Christopher Tapp",
+      "first_name": "Christopher",
+      "middle_name": null,
+      "last_name": "Tapp",
+      "status": "EXONERATED",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2019,
+      "time_served": "~20 years",
+      "sentence": "Life (Originally 30 years to life)",
+      "crime_convicted_of_raw": "Rape and Murder (of Angie Dodge in 1996)",
+      "case_location_city": "Idaho Falls",
+      "case_location_state": "Idaho",
+      "narrative_summary": "Christopher Tapp was wrongfully convicted of the rape and murder of Angie Dodge in 1997 and exonerated in 2019. He served approximately 20 years. A coerced false confession and DNA evidence excluding him contributed to his wrongful conviction.",
+      "contributing_factors_raw": [
+        "Coerced false confession",
+        "DNA excluded him but conviction stood until perpetrator found via genetic genealogy"
+      ],
+      "organizations_involved_raw": [
+        "Idaho Innocence Project"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

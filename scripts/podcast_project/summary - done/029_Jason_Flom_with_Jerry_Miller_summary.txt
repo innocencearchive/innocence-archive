@@ -1,0 +1,81 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but episode features Jerry Miller
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript, likely recent given reference to 25th anniversary of Innocence Project
+-   **Production Company(ies)/Network**: Lava for Good podcasts in association with signal company number one
+-   **Series Type**: Ongoing Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Convictions, injustice in the legal system, exoneration, personal stories of exonerees.
+-   **Key Statistics/Information**: Jerry Miller was the 200th American wrongly convicted to be cleared by DNA evidence. National Registry of Exonerations has over 2000 exonerations since 1989.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom features Jerry Miller, who was wrongfully convicted of rape, kidnapping, and robbery in 1982 and served 25 years before being exonerated by DNA evidence.  The episode details the flawed police investigation, suggestive lineup, ignored exculpatory evidence like mismatched blood type and fingerprints, and a corrupt judge that contributed to his wrongful conviction.  The podcast highlights systemic issues in the justice system, including pressure to solve high-profile cases, racial bias, and the devastating impact of wrongful convictions on individuals and their families.  Jerry Miller recounts his harrowing experience, his perseverance through reading and letter writing, and his eventual exoneration thanks to the Innocence Project.  The episode also features Maurice Possley from the National Registry of Exonerations, who provides expert commentary on the case and the broader issue of wrongful convictions, emphasizing the need for systemic reform and public awareness.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Jerry Miller
+-   **Case Location**: Chicago, Illinois, USA
+-   **Conviction Year**: 1982
+-   **Exoneration Year**: Not explicitly stated but occurred before the podcast recording, referred to as "last year" in the introduction and around the time of the 200th DNA exoneration.
+-   **Crime Convicted Of**: Kidnapping, Rape, and Robbery
+-   **Sentence**: 45 years
+-   **Time Served**: 25 years (includes time in jail before conviction and prison)
+-   **Contributing Factors**:
+    -   Eyewitness Misidentification (cashiers at parking garage, potentially suggestive)
+    -   Suggestive Lineup (mentioned in intro)
+    -   Failure to Disclose Exculpatory Evidence (blood type, fingerprints, goatee)
+    -   Police misconduct (framing, intimidation, ignoring evidence)
+    -   Corrupt Judge (Judge Maloney)
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**: Innocence Project
+-   **Innocence Lawyer Details**:  Innocence Project attorney (last name Collins mentioned).
+-   **Cross-Reference**: Yes, likely appears in exoneree database given it's a DNA exoneration and a well-known case discussed in the podcast.
+-   **Narrative of Original Crime**: A 44-year-old white woman was attacked in a parking garage, pushed into her car, beaten, raped, robbed, and thrown into the trunk. The perpetrator attempted to drive away but was stopped by a cashier and fled on foot.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Eyewitness identification from parking garage cashiers who were black.
+    -   Composite sketch that police believed resembled Jerry Miller based on an earlier stop for "peering into cars."
+-   **Trial Defender Notes**:  Jerry Miller's father retained a lawyer named Sheldon Sarasqueville. The transcript does not provide details about the lawyer's defense strategy, but it's implied it was unsuccessful given the conviction despite lack of evidence.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   DNA testing of a slip worn by the victim.
+    -   CODIS hit identifying the actual perpetrator.
+-   **Actual Perpetrator Details**: Identified through CODIS hit, already incarcerated for other crimes at the time of Jerry Miller's exoneration. Further details not provided in transcript.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "And anybody that would say, well, why would you confess to something that you didn't do? My question to them will be, why wouldn't you confess when somebody's threatening to kill your life?" - Jerry Miller, on police intimidation during interrogation.
+    -   "I think we have the best legal system, it's just the people that implement it. They get lost along the way and forget what their job really is." - Jerry Miller, on the flaws in the justice system implementation.
+    -   "So to bring this full circle, Jerry tells me, I wrote to you and you never wrote back. And so I went back to my office and I find the file and in there is his letter. So I gave it back to him and it changed me in the way that I would look at cases and what deciding whether to work on them or not. There's a real human being behind that letter." - Maurice Possley, on the impact of Jerry Miller's letter and the human aspect of wrongful conviction cases.
+    -   "It's priceless. It's priceless. That's huge." - Jerry Miller, on the feeling of exoneration and having the truth recognized.
+-   **Systemic Issues Identified**:
+    -   Pressure on police to solve high-profile cases quickly, leading to tunnel vision and disregard for exculpatory evidence.
+    -   Racial bias in the justice system.
+    -   Flawed eyewitness identification procedures.
+    -   Ineffective or corrupt defense lawyers and judges.
+    -   Police misconduct including intimidation, coercion, and framing.
+    -   The devastating impact of sex offender registries on exonerees.
+-   **Policy Recommendations/Calls to Action**:
+    -   Support for organizations like the Innocence Project.
+    -   Increased public awareness of wrongful convictions and the need for criminal justice reform.
+    -   Urging listeners to learn more about exoneration and get involved in preventing wrongful convictions.
+    -   Voting for reform-minded prosecutors and DAs.
+-   **Personal Narrative/Impact**:
+    -   Jerry Miller describes the dehumanizing experience of being wrongfully accused and incarcerated.
+    -   He highlights the emotional toll on himself and his family, including feelings of hopelessness and heartbreak.
+    -   He emphasizes the importance of family support and his mother's encouragement to read and write, which helped him cope and advocate for himself.
+    -   He expresses the profound joy and relief of exoneration but also the continued challenges of stigma and reintegration into society, particularly due to sex offender registration.
+    -   His final thoughts emphasize the need for better implementation of the legal system by people who care and do the right thing.
+-   **Additional Resources**:
+    -   InnocenceProject.org
+    -   National Registry of Exonerations (referenced by Maurice Possley)
+    -   Spotlight Snitch City Podcast (advertisement within the podcast)
+    -   Look at Thought-R Radio Podcast (advertisement within the podcast)
+```

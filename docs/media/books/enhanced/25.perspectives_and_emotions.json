@@ -1,0 +1,83 @@
+{
+  "source_file_name": "25.perspectives_and_emotions.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Perspectives and Emotions",
+    "creator_name": "Marcellus \"Khaliifah\" Williams (also known as Khaliifah ibn Rayford Daniels 'Abdul-Qudduus)",
+    "publication_or_release_year": 2024,
+    "publisher_or_network": "MADPmo.org (Missourians for Alternatives to the Death Penalty)",
+    "format": "Digital publication (20 pages)",
+    "focus_or_theme": "A collection of poetry exploring the perspectives and emotions of a man wrongfully convicted and sentenced to death row",
+    "key_statistics": "The author spent over two decades on Missouri's death row before being executed in September 2024 despite evidence supporting his innocence",
+    "recognition_notes": "Recognized by the Innocence Project as one of the best books of 2024"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "case_details_raw": "Marcellus Williams was convicted of the 1998 murder of Felicia Gayle, a former reporter for the St. Louis Post-Dispatch. His conviction was primarily based on testimony from two incentivized witnesses rather than physical evidence. Williams, a Black man, was convicted of killing a white woman, and racial bias has been cited as a contributing factor to his wrongful conviction.\n\nYears after his conviction, DNA testing on the murder weapon did not match Williams' DNA, providing strong evidence supporting his innocence claims. Despite this evidence, the state of Missouri proceeded with his execution. In 2024, the St. Louis County Prosecuting Attorney's Office filed a motion to vacate Williams' conviction, stating there was \"overwhelming evidence that Marcellus Williams' trial was constitutionally unfair.\" However, the St. Louis County Circuit Court denied this motion.\n\nWilliams maintained his innocence throughout his incarceration and until his execution on September 24, 2024. His case highlights significant issues in the criminal justice system, including the difficulty of overturning wrongful convictions even when new evidence emerges, racial disparities in the application of the death penalty, and the finality of capital punishment even in cases with substantial doubts about guilt.",
+    "key_quotes_raw": [
+      "\"At last…Another's heartbeat\" - title of one of Williams' poems that reflects the loneliness he felt during incarceration while capturing his unwavering hope for love and connection"
+    ],
+    "systemic_issues_raw": [
+      "Racial bias in the criminal justice system",
+      "Unreliable witness testimony",
+      "Resistance to considering new exculpatory evidence",
+      "Difficulties in overturning wrongful convictions",
+      "Problems with the death penalty, particularly its irreversibility when new evidence emerges"
+    ],
+    "policy_recommendations_raw": [
+      "Reform of witness testimony standards",
+      "Greater consideration of DNA and other scientific evidence",
+      "Addressing racial bias in the criminal justice system",
+      "Reforms to the appeals process for death penalty cases",
+      "Alternatives to the death penalty"
+    ],
+    "additional_resources_raw": [
+      "Innocence Project articles about Williams' case",
+      "NBC News podcast \"Letters from Sing Sing\" (mentioned in relation to wrongful convictions)",
+      "Midwest Innocence Project resources"
+    ],
+    "item_title": "Book Content: Perspectives and Emotions",
+    "focus_or_theme": "A collection of poetry exploring the perspectives and emotions of a man wrongfully convicted and sentenced to death row",
+    "summary_notes": "\"Perspectives and Emotions\" is unique among books about wrongful convictions as it is a collection of poetry written by a person who maintained his innocence until his execution, rather than a legal or journalistic account of wrongful conviction cases. The poetry provides a deeply personal and emotional perspective on the experience of being wrongfully convicted and facing execution. The book was published just weeks before Williams' execution, making it one of his final artistic expressions.  Williams' poetry explores themes of isolation, hope, spirituality, and human connection from the perspective of someone facing execution while maintaining his innocence. His work as an imam and mentor to other prisoners is also reflected in his writing, showing how he found purpose and meaning despite his circumstances. This book offers a rare first-person creative perspective on wrongful conviction.",
+    "research_notes_other": {}
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Marcellus Williams",
+      "first_name": "Marcellus",
+      "middle_name": null,
+      "last_name": "Williams",
+      "case_location": "Missouri",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": "Murder of Felicia Gayle",
+      "sentence": "Death penalty",
+      "time_served": "Over 20 years on death row",
+      "contributing_factors_raw": [
+        "Racial bias (Black man convicted of murdering a white woman)",
+        "Unreliable testimony from incentivized witnesses",
+        "DNA evidence that did not match Williams was discovered but not properly considered",
+        "Prosecutorial issues (the St. Louis County Prosecuting Attorney's Office later filed a motion to vacate his conviction)"
+      ],
+      "status_raw": "Executed on September 24, 2024, despite ongoing claims of innocence and DNA evidence supporting those claims",
+      "organizations_involved_raw": [
+        "Innocence Project",
+        "Midwest Innocence Project",
+        "Missourians for Alternatives to the Death Penalty (MADPmo)"
+      ],
+      "cross_reference": "His case has been documented by the Innocence Project and other wrongful conviction advocacy organizations",
+      "individual_notes": "Served as an imam for Muslim prisoners at Potosi Correctional Center; was a mentor to many incarcerated individuals"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Marcellus \"Khaliifah\" Williams (also known as Khaliifah ibn Rayford Daniels 'Abdul-Qudduus)",
+      "role": "AUTHOR",
+      "first_name": "Marcellus",
+      "middle_name": null,
+      "last_name": "Williams"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "\"Perspectives and Emotions\" is unique among books about wrongful convictions as it is a collection of poetry written by a person who maintained his innocence until his execution, rather than a legal or journalistic account of wrongful conviction cases. The poetry provides a deeply personal and emotional perspective on the experience of being wrongfully convicted and facing execution.\n\nThe book was published just weeks before Williams' execution, making it one of his final artistic expressions. It was later recognized by the Innocence Project as one of the best books of 2024, highlighting its significance in the literature of wrongful convictions.\n\nWilliams' poetry explores themes of isolation, hope, spirituality, and human connection from the perspective of someone facing execution while maintaining his innocence. His work as an imam and mentor to other prisoners is also reflected in his writing, showing how he found purpose and meaning despite his circumstances.\n\nThis book offers a rare first-person creative perspective on wrongful conviction, allowing readers to engage with the emotional and psychological impact of such injustice in a way that legal or journalistic accounts cannot capture."
+}

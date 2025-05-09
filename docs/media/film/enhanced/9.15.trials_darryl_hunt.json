@@ -1,0 +1,77 @@
+{
+  "source_file_name": "9.15.trials_darryl_hunt.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "The Trials of Darryl Hunt",
+    "creator_name": "Ricki Stern & Annie Sundberg",
+    "publication_or_release_year": 2006,
+    "publisher_or_network": null,
+    "focus_or_theme": "Wrongful conviction, racial bias, DNA exoneration after long struggle, flaws in criminal justice system.",
+    "summaryNotes": "Won multiple Best Documentary/Audience Awards at film festivals.",
+    "availabilityNotes": "Available via HBO Max, Amazon Prime, DVD.",
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "The Trials of Darryl Hunt",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction, racial bias, DNA exoneration after long struggle, flaws in criminal justice system.",
+    "summary_notes": "This documentary provides an in-depth chronicle of Darryl Hunt's case, from his initial arrest and trials marred by racial bias and questionable evidence, through the decade-long fight by his attorney Mark Rabil to get DNA testing, the initial DNA exclusion that didn't free him, and the eventual DNA match that identified the true perpetrator and led to Hunt's exoneration after 19 years. It highlights systemic failures and the immense personal toll of wrongful conviction.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Documents Darryl Hunt's struggle for justice after 1984 wrongful conviction for rape/murder. Directed by Ricki Stern & Annie Sundberg. Available via HBO Max, Amazon Prime, DVD.",
+      "research_findings": "This documentary provides an in-depth chronicle of Darryl Hunt's case, from his initial arrest and trials marred by racial bias and questionable evidence, through the decade-long fight by his attorney Mark Rabil to get DNA testing, the initial DNA exclusion that didn't free him, and the eventual DNA match that identified the true perpetrator and led to Hunt's exoneration after 19 years. It highlights systemic failures and the immense personal toll of wrongful conviction."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Darryl Hunt",
+      "first_name": "Darryl",
+      "middle_name": null,
+      "last_name": "Hunt",
+      "status": "EXONERATED",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 2004,
+      "time_served": "19 years",
+      "sentence": "Life",
+      "crime_convicted_of_raw": "Rape and Murder (of Deborah Sykes, 1984)",
+      "case_location_city": "Winston-Salem",
+      "case_location_state": "North Carolina",
+      "narrative_summary": "Darryl Hunt was wrongfully convicted of the rape and murder of Deborah Sykes in 1984. He was convicted in 1985 and again in 1990 and eventually exonerated by DNA evidence in 2004 after serving 19 years. Hunt died in 2016.",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification",
+        "jailhouse informants",
+        "racial bias (convicted by all-white jury in second trial)"
+      ],
+      "organizations_involved_raw": [
+        "Long-term defense attorney Mark Rabil",
+        "Innocence Project"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Ricki Stern",
+      "first_name": "Ricki",
+      "middle_name": null,
+      "last_name": "Stern",
+      "role": "DIRECTOR"
+    },
+    {
+      "full_name": "Annie Sundberg",
+      "first_name": "Annie",
+      "middle_name": null,
+      "last_name": "Sundberg",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "Documents Darryl Hunt's struggle for justice after 1984 wrongful conviction for rape/murder. Available via HBO Max, Amazon Prime, DVD."
+}

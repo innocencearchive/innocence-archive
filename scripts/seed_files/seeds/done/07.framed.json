@@ -1,0 +1,180 @@
+{
+  "sourceFileName": "07.framed.md",
+  "mediaWork": {
+    "title": "Framed: Astonishing True Stories of Wrongful Convictions",
+    "workType": "BOOK",
+    "creatorName": "John Grisham and Jim McCloskey",
+    "publicationOrReleaseYear": 2024,
+    "publisherOrNetwork": "Penguin Random House (Doubleday)",
+    "focusOrTheme": "Collection of case studies examining wrongful convictions, their causes, and the fight for exoneration",
+    "summaryNotes": "Collection of case studies examining wrongful convictions, their causes, and the fight for exoneration. Mentions 3,600 exonerations in the U.S. since 1989, with Centurion Ministries responsible for 70.",
+    "availabilityNotes": "Hardcover, also available as paperback and e-book",
+    "sourceUrl": null
+  },
+  "mediaItem": {
+    "itemTitle": "Framed: Astonishing True Stories of Wrongful Convictions",
+    "itemNumber": null,
+    "itemMediaType": "BOOK_CONTENT",
+    "releaseDate": "2024-10-15T00:00:00.000Z",
+    "hostOrNarrator": null,
+    "focusOrTheme": "Collection of case studies examining wrongful convictions, their causes, and the fight for exoneration",
+    "summaryNotes": "Book examining ten true stories of wrongful convictions, their causes, and the fight for exoneration.",
+    "keyQuotes": "\"From a moral perspective, it is imperative for a society to face and correct injustice... We decided to write about and focus on the ten most astonishing cases, and publish them as Framed. There are hundreds of others.\" \u2014 John Grisham\n\"The flaws and lethal errors that condemn innocent people in the American legal system have caused too many for too long to needlessly suffer.\" \u2014 Bryan Stevenson (quoted in book review)\n\"There have been 3,600 exonerations in the U.S. since 1989. In my understanding, there has not been one public inquiry about any single conviction.\" \u2014 Jim McCloskey",
+    "sourceUrl": null,
+    "individualsFeaturedNames": [
+      {
+        "firstName": "Clarence",
+        "lastName": "Brandley"
+      },
+      {
+        "firstName": "Ron",
+        "lastName": "Williamson"
+      }
+    ],
+    "organizationsMentionedNames": [
+      "Centurion Ministries"
+    ],
+    "involvedPersonsMentionedNames": [
+      {
+        "firstName": "John",
+        "lastName": "Grisham"
+      },
+      {
+        "firstName": "Jim",
+        "lastName": "McCloskey"
+      },
+      {
+        "firstName": "Bryan",
+        "lastName": "Stevenson"
+      }
+    ],
+    "contributingFactorsMentionedNames": [
+      "Racial bias",
+      "Law enforcement tunnel vision",
+      "Flawed forensic science",
+      "Prosecutorial misconduct",
+      "Biased judges",
+      "Coached witnesses",
+      "Compromised jailhouse snitches",
+      "Cultural bias"
+    ]
+  },
+  "individuals": [
+    {
+      "firstName": "Clarence",
+      "lastName": "Brandley",
+      "status": "EXONERATED",
+      "convictionYear": 1980,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": 10,
+      "sentence": "Death row",
+      "caseLocationCity": "Conroe",
+      "caseLocationCounty": null,
+      "caseLocationState": "TX",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Wrongfully convicted of rape and murder of a 16-year-old White girl. Racial bias, tunnel vision, circumstantial evidence contributed to wrongful conviction. Died in 2018 of pneumonia.",
+      "organizationsInvolvedNames": [
+        "Centurion Ministries"
+      ],
+      "contributingFactorsNames": [
+        "Racial bias",
+        "Law enforcement tunnel vision",
+        "Circumstantial evidence"
+      ],
+      "involvedPersonsNames": []
+    },
+    {
+      "firstName": "Ron",
+      "lastName": "Williamson",
+      "status": "EXONERATED",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": null,
+      "sentence": "Death row",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "OK",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Wrongfully convicted of murder of a local waitress. Lack of DNA testing at time of conviction contributed to wrongful conviction. Came within five days of execution.",
+      "organizationsInvolvedNames": [],
+      "contributingFactorsNames": [
+        "Lack of DNA testing at time of conviction"
+      ],
+      "involvedPersonsNames": []
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Centurion Ministries",
+      "type": "INNOCENCE_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "founded by co-author Jim McCloskey, which works to free the wrongly convicted"
+    }
+  ],
+  "contributingFactors": [
+    {
+      "name": "Racial bias",
+      "description": null
+    },
+    {
+      "name": "Law enforcement tunnel vision",
+      "description": "They're under enormous pressure to solve the crime, to clear the case, to get the conviction, and that bleeds over to the prosecution... Once they zero in on a suspect, they ignore all contrary evidence."
+    },
+    {
+      "name": "Flawed forensic science",
+      "description": "mentioned in relation to shaken baby syndrome case"
+    },
+    {
+      "name": "Prosecutorial misconduct",
+      "description": null
+    },
+    {
+      "name": "Biased judges",
+      "description": null
+    },
+    {
+      "name": "Coached witnesses",
+      "description": null
+    },
+    {
+      "name": "Compromised jailhouse snitches",
+      "description": null
+    },
+    {
+      "name": "Cultural bias",
+      "description": null
+    },
+    {
+      "name": "Circumstantial evidence",
+      "description": null
+    },
+    {
+      "name": "Lack of DNA testing at time of conviction",
+      "description": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "John",
+      "lastName": "Grisham",
+      "role": "AUTHOR",
+      "notes": "Author of book"
+    },
+    {
+      "firstName": "Jim",
+      "lastName": "McCloskey",
+      "role": "AUTHOR",
+      "notes": "Co-author of book, founder of Centurion Ministries"
+    },
+    {
+      "firstName": "Bryan",
+      "lastName": "Stevenson",
+      "role": "OTHER",
+      "notes": "Quoted in book review"
+    }
+  ],
+  "crimeCategories": []
+}

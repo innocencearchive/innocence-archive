@@ -1,0 +1,105 @@
+{
+    "sourceFileName": "427_Jason_Flom_with_Lamont_Hunter_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2024",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, junk science (shaken baby syndrome), ineffective counsel, prosecutorial misconduct, forensic science, legal reform",
+        "keyStats": "- Hamilton County, Ohio, is in the top 2% of US counties for death row inmates and executions.\n- There are at least 81 pre-existing medical conditions that can mimic shaken baby syndrome.",
+        "itemNumber": "427",
+        "itemTitle": "Jason Flom with Lamont Hunter",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction details the case of Lamont Hunter, who was wrongfully convicted and sentenced to death for the alleged abuse and murder of his girlfriend's three-year-old son, Tristan.  The prosecution relied on flawed \"shaken baby syndrome\" theories and alleged sexual assault, despite contradictory evidence and lack of thorough investigation. Hunter's trial was marred by ineffective counsel who failed to present expert medical testimony or investigate exculpatory evidence.  After 16 years on death row, new legal representation and persistent investigation revealed critical oversights, including evidence that Tristan's injuries were consistent with a stair fall and that rectal injuries were likely caused by medical procedures, not sexual assault.  Facing a retrial, Hunter accepted a plea for time served and was finally exonerated and released, highlighting systemic failures in the justice system and the devastating impact of junk science."
+    },
+    "featuredIndividual": {
+        "fullName": "Lamont Hunter",
+        "caseLocation": "Cincinnati, Hamilton County, Ohio, USA",
+        "convictionYear": "2007",
+        "exonerationYear": "2023",
+        "crimeConvictedOf": "Aggravated Murder (originally sentenced to death for this and rape)",
+        "sentence": "Death Penalty",
+        "timeServed": "16 years",
+        "contributingFactorsRaw": [
+            "Junk Science: Shaken Baby Syndrome/Abusive Head Trauma theory",
+            "Ineffective Assistance of Counsel: Trial attorney failed to consult or hire expert witnesses, investigate medical records, or advise on bench trial.",
+            "Prosecutorial Misconduct: Withholding exculpatory evidence (coroner's initial doubts about thermometer injury), pushing for death penalty despite weak evidence.",
+            "Misinterpretation of Medical Evidence: Misinterpreting retinal hemorrhages, subdural hematoma, and cerebral edema as solely indicative of abuse.",
+            "False Allegations of Sexual Assault: Misinterpreting rectal injuries as sexual assault, ignoring medical procedure explanation."
+        ],
+        "status": "Exonerated (plea for time served, charges effectively dropped)",
+        "organizationsInvolvedRaw": [
+            "Southern Ohio Federal Public Defender Capital Habeas Unit",
+            "Ohio Public Defender's Office",
+            "Center for Integrity of Forensic Sciences"
+        ],
+        "innocenceLawyersRaw": [
+            "Aaron Barnhart: Assistant Public Defender at the Southern Ohio Federal Public Defender Capital Habeas Unit. Led the legal team that secured Lamont's release.",
+            "Tia Splezio and Justin Thompson: Attorneys in Aaron Barnhart's office, part of Lamont's legal team.",
+            "Pam Swanson: Retired investigator who worked on Lamont's case.",
+            "Shannon Flamer: Paralegal in Aaron Barnhart's office, crucial support for the case.",
+            "Melissa Jackson and Kim Rigby: Post-conviction attorneys from the Ohio Public Defender's Office who worked on Lamont's case in state court.",
+            "Al Gerhardstein, Sarah Gelsinino, Elizabeth Bonham, and Marcus Sedodi: Attorneys who assisted in state court.",
+            "Kate Judson: Executive Director at the Center for Integrity of Forensic Sciences, expert on shaken baby syndrome."
+        ],
+        "crossReference": "Not explicitly stated if in a specific exoneree database in the transcript, but highly likely given the nature of the podcast.",
+        "narrativeOriginalCrime": "Lamont Hunter was accused of violently shaking and impacting Tristan, his girlfriend's 3-year-old son, causing fatal brain injuries. He was also accused of sexually assaulting Tristan, leading to charges of aggravated murder and rape.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony from a child abuse pediatrician (Dr. Makarov) stating Tristan's injuries were consistent with violent shaking and impact, not a stair fall, and consistent with sexual abuse.",
+            "Medical findings: subdural hematoma, cerebral edema, retinal hemorrhages, sheared vertebrae, rectal puncture wounds.",
+            "Past incident from 2004 where Tristan had injuries and was treated for suspected abuse (though Lamont was not implicated).",
+            "Lamont's prior drug trafficking conviction, presented to potentially paint him in a negative light."
+        ],
+        "trialDefenderNotes": "- Ineffective counsel (Clyde Bennett) failed to hire expert witnesses to counter the state's medical testimony.\n- Counsel failed to adequately investigate medical records or the scene.\n- Counsel was distracted by his own federal criminal investigation and plea deal during Lamont's trial.\n- Counsel advised bench trial by three-judge panel, despite judge's warning of likely loss and possibly to expedite the trial for a flat fee.",
+        "keyEvidenceExonerationRaw": [
+            "Deposition testimony from the coroner (Dr. Stevens) changing her opinion after reviewing complete information.",
+            "Biomechanical engineering analysis demonstrating that a fall down the stairs could cause Tristan's injuries.",
+            "Medical records showing hospital staff attempts to take Tristan's temperature rectally with a thermometer and subsequent notation of rectal bleeding, explaining the rectal injuries.",
+            "Evidence that the coroner herself had suggested to detectives a thermometer could be the cause of rectal injuries, which was not disclosed at trial."
+        ],
+        "actualPerpetratorDetails": "Not applicable - the case is presented as a tragic accident (stair fall) and misdiagnosis/misinterpretation of injuries, not a crime committed by anyone."
+    },
+    "keyQuotesRaw": [
+        "\"a crime that never happened that resulted in a death sentence for a man who should have been given time to grieve\" - Host Jason Flom summarizing the case.",
+        "\"Hamilton County and Cuyuga County in Ohio...are part of the 2% of counties in the entire nation that account for more than half of people on death row and more than half of people have been executed in this country.\" - Highlighting systemic issues in the region.",
+        "\"They just keep morphing and adapting to whatever fits.\" - Aaron Barnhart describing how shaken baby syndrome theory evolves without solid science.",
+        "\"I've been laughing to keep from crying, man. It's just so much trauma on this journey, man.\" - Lamont Hunter expressing his emotional experience.",
+        "\"He appeared to settle on his strategy of not using an expert, not as a result of a strategic investigation, but rather in lieu of one...\" - Judge's description of ineffective counsel.",
+        "\"Imagine feeling all of the emotions, anger, stress, joy, relief, frustration, all of those emotions at the same time.\" - Lamont Hunter describing his feelings upon release."
+    ],
+    "systemicIssuesRaw": [
+        "Junk science in the courtroom, specifically the flawed \"shaken baby syndrome\" theory.",
+        "Ineffective assistance of counsel and its devastating consequences.",
+        "Prosecutorial misconduct, including withholding evidence (Brady violations) and pressuring for severe sentences.",
+        "Institutional bias and lack of neutrality in the coroner's office in Hamilton County.",
+        "Racial and socioeconomic disparities in the application of the death penalty (implied by location context).",
+        "Difficulty for exonerees to receive compensation and support after release."
+    ],
+    "policyRecommendationsRaw": [
+        "Further scrutiny and re-evaluation of \"shaken baby syndrome\"/abusive head trauma convictions.",
+        "Increased funding and resources for public defender offices to ensure effective counsel, especially in capital cases.",
+        "Reforms to prosecutorial practices to prevent misconduct and ensure transparency and fairness.",
+        "Independent and neutral forensic science institutions, separated from law enforcement and prosecution.",
+        "Support for exonerees post-release, including financial compensation, housing, healthcare, and mental health services.",
+        "Encouragement for listeners to donate to Lamont Hunter's GoFundMe and support organizations working on wrongful conviction cases."
+    ],
+    "personalNarrativeRaw": [
+        "Lamont Hunter's 16 years of wrongful imprisonment and the emotional toll on him and his family, including his father's heart attack in court.",
+        "The difficulties of adjusting to freedom after such a long time and the ongoing challenges of physical and emotional recovery.",
+        "The importance of family support and the legal team's dedication in fighting for justice.",
+        "Lamont's resilience and determination to rebuild his life and become a public speaker."
+    ],
+    "additionalResourcesRaw": [
+        "GoFundMe page for Lamont Hunter (linked in episode description).",
+        "Lamont Hunter's LinkedIn page (linked in episode description).",
+        "\"2% Report\" from the Death Penalty Information Center (referenced in podcast).",
+        "Wrongful Conviction podcast episode on Shaken Baby Syndrome (referenced in podcast and to be linked).",
+        "Cases of Elwood Jones and Keith Lamar (mentioned as other Ohio wrongful conviction cases handled by Hamilton County prosecutors and to be linked).",
+        "Website: dontsleeponosa.com (advertisement for sleep apnea).",
+        "Website: tryfh.com (advertisement for Future Health weight loss medication).",
+        "Website: IBM.com/consulting (advertisement for IBM consulting services).",
+        "Website: mycomputercareer.edu/cwp (advertisement for My Computer Career cybersecurity training)."
+    ]
+}

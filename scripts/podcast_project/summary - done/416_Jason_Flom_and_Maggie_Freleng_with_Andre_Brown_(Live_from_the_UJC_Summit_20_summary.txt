@@ -1,0 +1,98 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+For each podcast on wrongful convictions, we'll collect the following information:
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, assumed to be a regular episode featuring Andre Brown
+-   **Host(s)**: Jason Flom, Maggie Freleng
+-   **Release Year(s)**: Not specified in transcript, likely recent given the context of current legal battles and events mentioned.
+-   **Production Company(ies)/Network**: Lava For Good Podcasts
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, criminal justice system reform, eyewitness misidentification, ineffective counsel, prosecutorial misconduct.
+-   **Key Statistics/Information**:
+    -   Eyewitness identification in hyper-tense situations is less accurate than guessing.
+    -   Andre Brown was sentenced to 40 years based on limited and questionable evidence.
+    -   The Bronx DA is still fighting Andre Brown's exoneration, appealing the vacature of his conviction.
+    -   Estimate of 200,000 innocent people in prison in the US.
+    -   29 people murdered at Rikers Island since Mayor Adams took office, many presumed innocent detainees.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features the story of Andre Brown, who was wrongfully convicted of attempted murder in the Bronx in 1999.  Despite having a severe leg injury that made it physically impossible for him to commit the crime as described, and facing flimsy eyewitness testimony and an ineffective, corrupt lawyer, Andre was sentenced to 40 years in prison. The episode details the flawed investigation, the trial, and the subsequent efforts to overturn his conviction, highlighting systemic issues like eyewitness misidentification and inadequate legal representation.  Andre, along with his attorney Oscar Michelin, and host Maggie Freleng, recount the harrowing journey through the justice system, his decades of incarceration, and the ongoing fight for full exoneration as the Bronx DA appeals the vacature of his conviction. The discussion underscores the urgent need for criminal justice reform and emphasizes the devastating impact of wrongful convictions on individuals and families.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Andre Brown
+-   **Case Location**: Bronx, New York, USA
+-   **Conviction Year**: 2000 (sentenced after jury verdict)
+-   **Exoneration Year**: Vacated conviction recently (year not specified but ongoing appeal mentioned), not fully exonerated yet.
+-   **Crime Convicted Of**: Two counts of attempted murder, assault, reckless endangerment, gun possession.
+-   **Sentence**: 40 years (20 years for each count of attempted murder, consecutive).
+-   **Time Served**: Over 20 years
+-   **Contributing Factors**:
+    -   Eyewitness misidentification (victim and witness picked Andre based on neighborhood rumor and possible influence).
+    -   Ineffective counsel (Trial lawyer Thomas Lee was corrupt and part of the mafia, failed to present key medical evidence and investigate alibi witnesses).
+    -   Lack of physical evidence.
+    -   Prosecutorial reliance on weak grand jury testimony of a witness who didn't testify at trial and whose identification was questionable.
+-   **Legal Status**: Conviction vacated, released on supervised release, but Bronx DA is appealing the vacature, fighting to reinstate the conviction.
+-   **Organizations Involved**: Not explicitly mentioned in transcript besides legal representation.
+-   **Innocence Lawyer Details**: Oscar Michelin -  Neighborhood lawyer from the Bronx, same high school as Andre, felt a connection to the case, used Freedom of Information laws to uncover crucial evidence, worked with Jeffrey Deskovic (wrongfully convicted and now lawyer) who second-seated him.
+-   **Cross-Reference**: Not checked against a database within this task.
+-   **Narrative of Original Crime**: On January 15, 1999, in the Bronx, a masked gunman shot two young men in front of a bodega known for drug activity. One victim was shot multiple times at close range, and the other was chased and shot in the back, resulting in paralysis. Both survived.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Grand jury testimony of an eyewitness who claimed to see the shooter pull off his mask and identify Andre. This testimony was read into the record at trial because the witness did not appear, preventing cross-examination.
+    -   Victim Sean Nicholson's testimony that he saw the shooter pull off his mask as he fell and recognized Andre from the neighborhood (though initial reports indicated he couldn't identify the shooter).
+-   **Trial Defender Notes**:
+    -   Original lawyer Ira Brown initially sought funding for a medical expert to highlight Andre's leg injury, which would have made it impossible for him to run as the shooter did. Judge approved initial funds.
+    -   Second lawyer Thomas Lee replaced Ira Brown and was ineffective. He failed to pursue medical evidence or locate alibi witnesses despite claiming to.
+    -   Thomas Lee was later revealed to be a member of the mafia and was likely intentionally sabotaging the defense, possibly expecting the witness intimidation to prevent her testimony entirely.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Newly discovered police report (DD5) showing bullets from the January 15th shooting matched a gun used in a shooting on January 11th involving O'Neill Virgo, suggesting Virgo and his associates were the targets.
+    -   DD5 report revealing a witness, Courtney Wheezy, described the shooter wearing a "tam" (Jamaican hat) and couldn't identify Andre in a photo array, suppressed by prosecution.
+    -   Discovery of the actual perpetrator, a Jamaican man nicknamed "Bonkers," who resembled Andre and had motive related to drug turf.
+    -   Testimony from the surgeon who treated Andre's leg injury, confirming he could not have run or jogged as described in the shooting.
+-   **Actual Perpetrator Details**: A Jamaican man known as "Bonkers" (real name found in funeral program).  He was involved in drug dealing and had a motive to shoot the victims due to a turf war. He was killed in a shooting seven months after Andre's case. Resembled Andre in height, weight, and facial features.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "It features a witness who didn't testify, but her testimony was allowed in anyway, which meant that no one was allowed to cross examine her." - Maggie Freleng, highlighting the problematic grand jury testimony.
+    -   "Andre had a bullet wound in his leg and had a syndrome that meant that he could barely walk much less run." - Maggie Freleng, emphasizing the physical impossibility of Andre being the shooter.
+    -   "And it also features a lawyer who, while he was representing Andre a trial, had a side hustle, which was committing so many crimes for the banana crime family that he ended up being the only attorney in American history to enter the witness protection program." - Maggie Freleng, revealing the extreme corruption of Andre's trial lawyer.
+    -   "Those eight questions whatever I just went through that was her testimony that's what convicted Andre essentially was those eight questions" - Maggie Freleng, emphasizing the minimal evidence.
+    -   "When you put an innocent child in prison with people that are actually dangerous there are dangerous people in prison you have to survive absolutely and that could also be a huge hindrance to him getting out if he got in a fight or someone attacked him." - Jason Flom, discussing the dangers and potential for further injustice in prison.
+    -   "My estimate is that there's probably around 200 000 innocent people in prison yes we're sitting here right now in this country absolutely and that's probably conservative." - Oscar Michelin, highlighting the scale of wrongful convictions.
+    -   "Take a second look when you see somebody in trouble because you never will know when it's your time to give that help in hand." - Andre Brown's closing statement, urging listeners to be vigilant and helpful.
+
+-   **Systemic Issues Identified**:
+    -   Eyewitness misidentification and its unreliability, especially under stress and potential police influence.
+    -   Ineffective and corrupt defense counsel failing to adequately represent clients.
+    -   Prosecutorial reliance on weak evidence and suppression of exculpatory evidence (Brady violations).
+    -   The difficulty of overturning wrongful convictions even with strong evidence of innocence.
+    -   The harsh realities and dangers of prison for innocent individuals, including potential for violence and psychological damage.
+    -   Systemic racism and biases in the criminal justice system (implied in the case details, though not explicitly stated as a central theme in this episode segment).
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Vote for progressive District Attorneys who support conviction review units and are less likely to fight exonerations in clear cases of wrongful conviction.
+    -   Support organizations working on wrongful conviction cases.
+    -   Donate to Andre Brown's GoFundMe to support him during his ongoing legal battle and transition.
+    -   Encourage people to pay closer attention to potential injustices and offer help when needed.
+
+-   **Personal Narrative/Impact**:
+    -   Andre describes the trauma of being arrested and incarcerated for a crime he didn't commit, the shock of the guilty verdict and 40-year sentence, and the brutal realities of prison life.
+    -   He emphasizes the psychological impact of wrongful conviction, feeling like his "soul leaves" him.
+    -   He highlights the importance of faith, family (especially his wife Timica and son AJ), and hope in surviving wrongful imprisonment.
+    -   His closing remarks urge listeners to be more aware and compassionate, reflecting his experience and desire for systemic change.
+
+-   **Additional Resources**:
+    -   GoFundMe: gofundme.com/support-andre-brown (mentioned as "gofundme slash support andre brown").
+    -   Lava for Good Plus on Apple Podcasts for early access to Wrongful Conviction episodes.
+    -   Social Media: Follow Lava For Good and Wrongful Conviction on social media platforms (@lavaforgood and @wrongfulconviction).
+    -   Instagram: Follow Jason Flom (@itsjasonflom).
+```

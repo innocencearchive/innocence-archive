@@ -1,0 +1,85 @@
+{
+    "sourceFileName": "222_Jason_Flom_with_Jarrett_and_Dmitri_Henley_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcasts in association with Company No. 1",
+        "seriesType": "Episodic Series (based on the general format of \"Wrongful Conviction\" podcasts)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Racial Bias in the Justice System, Ineffective Counsel, Systemic Issues in Criminal Justice",
+        "keyStats": "-   Three young black men, in the same case, same evidence, received three radically different legal outcomes.\n-   Jared Adams and Demetri Henley served nearly a decade each in prison for a crime that \"never happened\".\n-   Sean Demane's corroborating statement was initially withheld by police.\n-   Demetri Henley remains convicted despite the exoneration of his co-defendant Jared Adams and dismissal of charges against the third co-defendant Rovon Hill.\n-   Defense attorneys for Jared and Demetri employed a \"no defense defense\" strategy at trial.",
+        "itemNumber": "222",
+        "itemTitle": "Jason Flom with Jarrett and Dmitri Henley",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom details the harrowing story of Jared Adams and Demetri Henley, two men wrongfully convicted of sexual assault in 1998.  Along with a third man, Rovon Hill, they were accused after a consensual encounter was misconstrued following a roommate's intervention.  The podcast highlights the profound racial bias that permeated their case, leading to convictions despite a lack of force or threats, and the accuser's own inconsistent statements.  Shockingly, the three men faced vastly different legal outcomes: Rovon's charges were dismissed, Jared was eventually exonerated after nearly a decade, and Demetri remains convicted, even though all three were involved in the same incident with identical evidence.  The episode underscores systemic failures, ineffective legal counsel, and the devastating and lasting impacts of wrongful convictions, particularly on individuals of color. It also showcases the crucial work of innocence projects and the ongoing fight for justice and reform."
+    },
+    "featuredIndividual": {
+        "fullName": "Rovon Hill",
+        "caseLocation": "University of Wisconsin White Water, Wisconsin, USA",
+        "convictionYear": "Never convicted",
+        "exonerationYear": "N/A (charges dismissed)",
+        "crimeConvictedOf": "Initially charged with First-degree sexual assault, charges dismissed.",
+        "sentence": "N/A",
+        "timeServed": "0 days",
+        "contributingFactorsRaw": [
+            "Better legal representation at his retrial, presentation of Sean Demane's testimony and statement, initial mistrial due to prosecution amending charges."
+        ],
+        "status": "Charges dismissed.",
+        "organizationsInvolvedRaw": [
+            "Not specified in transcript."
+        ],
+        "innocenceLawyersRaw": [
+            "Gerald Boyle (mentioned as his defense attorney, implied to be better than Jared and Demetri's lawyers)."
+        ],
+        "crossReference": "No (never convicted)",
+        "narrativeOriginalCrime": "Accused of sexually assaulting a female student in her dorm room at UW-Whitewater.",
+        "keyEvidenceProsecutionRaw": [
+            "Initial trial was a mistrial. For his retrial, the prosecution would have likely used the same evidence as in Jared and Demetri's case."
+        ],
+        "trialDefenderNotes": "Successfully argued for mistrial to stand based on prosecution error. In retrial, presented Sean Demane's testimony.",
+        "keyEvidenceExonerationRaw": [
+            "Sean Demane's testimony and previously withheld 3-page statement, jury deadlock at retrial, charges ultimately dismissed."
+        ],
+        "actualPerpetratorDetails": "Not applicable, crime was deemed not to have occurred as alleged (consensual encounter)."
+    },
+    "keyQuotesRaw": [
+        "\"This is wrongful conviction with Jason Flom.\"",
+        "Keith Finley: \"This case is just a reminder of so many of the things that are wrong with our criminal justice system, beginning with the baked in racism...\"",
+        "Jared Adams: \"For many people, me and Dimitri included, this platform gives people for the very first time to be the author of their own story...\"",
+        "Demetri Henley: \"My whole point of view from the day I got out, even when I went in, you know, was to have some hope and I'm going to make the best of situations regardless of what I was going to do.\"",
+        "Roommate's quote: \"I told her to go back to doing whatever she was doing, but not on my bed.\"",
+        "Jared Adams: \"Thurgood Marshall said that sometimes you got to just do what is right and let the law catch up.\""
+    ],
+    "systemicIssuesRaw": [
+        "Racial bias in the criminal justice system.",
+        "Ineffective assistance of counsel for indigent defendants.",
+        "Procedural barriers to post-conviction relief (AEDPA, limitations on state court authority).",
+        "Lack of accountability for prosecutors or police misconduct (withholding evidence).",
+        "Disparate outcomes in the justice system even with identical facts and evidence.",
+        "Lack of compensation for wrongfully convicted individuals.",
+        "Stigma and ongoing consequences for those convicted, even after release (sex offender registry)."
+    ],
+    "policyRecommendationsRaw": [
+        "Systemic reform of the criminal justice system to address racial bias.",
+        "Improved standards and oversight for defense counsel, especially in indigent cases.",
+        "Reform of AEDPA and other procedural barriers to post-conviction relief.",
+        "Accountability for prosecutorial and police misconduct, including withholding evidence.",
+        "Compensation for wrongfully convicted individuals.",
+        "Support for organizations like Innocence Projects and Center for Integrity in Forensic Sciences.",
+        "Legislative action to address unjust laws and court decisions (like the Wisconsin Supreme Court decision in Demetri's case).",
+        "Use your voice to advocate for justice and reform."
+    ],
+    "personalNarrativeRaw": [
+        "Jared Adams: Turned his experience into a career in law, fighting for justice for others. Wrote a book \"Redeeming Justice\" to share his story and inspire change. Emphasizes the importance of community support.",
+        "Demetri Henley: Continues to live with the stigma of wrongful conviction, but maintains hope and determination to live the best life possible and clear his name. Emphasizes the emotional toll and difficulty of reliving the story.",
+        "Rovon Hill:  Joined the army after his charges were dismissed, seeking to escape the trauma, which significantly changed his personality.",
+        "Keith Finley: Expresses sadness about the injustice faced by Demetri and the systemic issues highlighted by the case. Dedicated his career to fighting for the wrongfully convicted."
+    ],
+    "additionalResourcesRaw": [
+        "Wisconsin Innocence Project (mentioned and will be linked in bio)",
+        "Life After Justice (nonprofit mentioned by Jared Adams)",
+        "Center for Integrity and Forensic Sciences (SIFS) (mentioned by Jared Adams and Keith Finley, will be linked in bio)",
+        "Book: \"Redeeming Justice\" by Jared Adams (will be linked in episode bio)"
+    ]
+}

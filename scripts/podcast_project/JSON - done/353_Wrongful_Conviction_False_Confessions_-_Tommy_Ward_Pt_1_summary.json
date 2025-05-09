@@ -1,0 +1,81 @@
+{
+    "sourceFileName": "353_Wrongful_Conviction_False_Confessions_-_Tommy_Ward_Pt_1_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: False Confessions",
+    "mediaItem": {
+        "hosts": "Lauren Nye-writer, Steve Drizen",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts in association with Signal Company No. 1",
+        "seriesType": "Episodic Series (part of an ongoing series, but focuses on a specific case per episode/episodes)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Confessions, Criminal Justice System Injustices",
+        "keyStats": "-   Tommy Ward has been in prison for 35 years despite new information suggesting his innocence.\n-   The case hinges on a \"dream confession\" that police turned into reality.\n-   John Grisham wrote a non-fiction book \"The Innocent Man\" about this case.\n-   A Netflix series \"The Innocent Man\" was also made about the case.\n-   The confessions of Tommy Ward and Carl Fontano were inconsistent and contradicted factual evidence, except for a detail about Denise Haraway's blouse.",
+        "itemNumber": "353",
+        "itemTitle": "Wrongful Conviction False Confessions - Tommy Ward Pt 1",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction: False Confessions\" delves into the disturbing case of Tommy Ward and Carl Fontano, who were convicted for the murder of Denise Haraway based on coerced confessions.  The hosts, Lauren Nye-writer and Steve Drizen, explain how police in Ada, Oklahoma, manipulated Tommy Ward's \"bad dream\" into a murder confession, and similarly coerced a confession from Carl Fontano, who was intellectually disabled and traumatized. Despite inconsistencies in their confessions and lack of corroborating evidence, except for a detail about the victim's blouse, both men were sentenced to death.  The episode highlights the dangers of false confessions, particularly dream confessions, and sets the stage for the next episode to reveal further developments and the ongoing fight for Tommy and Carl's exoneration after 35 years of imprisonment.  The case gained wider attention through John Grisham's book and a Netflix series, emphasizing the profound injustice suffered by Tommy and Carl."
+    },
+    "featuredIndividual": {
+        "fullName": "Carl Fontano (Fontanoe)",
+        "caseLocation": "Ada, Oklahoma, USA",
+        "convictionYear": "1985",
+        "exonerationYear": "Not yet exonerated (as of podcast episode)",
+        "crimeConvictedOf": "Murder of Denise Haraway",
+        "sentence": "Death (initially), later changed to life imprisonment (not explicitly stated in this episode, but implied context of long imprisonment)",
+        "timeServed": "35+ years (as of podcast episode)",
+        "contributingFactorsRaw": [
+            "False confession (coerced confession), intellectual disability, police manipulation leveraging past trauma (mother's death)."
+        ],
+        "status": "Convicted, imprisoned alongside Tommy Ward.",
+        "organizationsInvolvedRaw": [
+            "Center on Wrongful Convictions (co-directed by host Steve Drizen)"
+        ],
+        "innocenceLawyersRaw": [
+            "Attorneys at the Center on Wrongful Convictions (mentioned as uncovering new information)."
+        ],
+        "crossReference": "Yes (likely, given profile and media attention)",
+        "narrativeOriginalCrime": "Same as Tommy Ward's case - murder of Denise Haraway.",
+        "keyEvidenceProsecutionRaw": [
+            "Carl Fontano's confession, Tommy Ward's confession, and the detail about Denise Haraway's blouse from both confessions."
+        ],
+        "trialDefenderNotes": "Unspecified in this episode, but defense was unable to explain how both men knew about the blouse detail.",
+        "keyEvidenceExonerationRaw": [
+            "New information uncovered by the Center on Wrongful Convictions (details to be revealed in part 2)."
+        ],
+        "actualPerpetratorDetails": "Not mentioned or known in this episode."
+    },
+    "keyQuotesRaw": [
+        "\"Incredibly, the police have transformed Tommy's dream into a murder confession.\" - Host highlighting the absurdity of the situation.",
+        "John Grisham: \"Once I started researching Tommy's case, Carl's case, I realized that there are thousands of innocent people in prison and I've never realized that before.\" -  Illustrates the impact of the case on Grisham and the broader issue of wrongful convictions.",
+        "Melvin Ward (Tommy's brother): \"Tommy would have been the kind of person that if somebody was attacking this lady, he would have been there to protect her.\" - Personal testimony emphasizing Tommy's character.",
+        "Police bringing human bones to Carl in jail to try and get him to reveal the body's location - Highlighted as an \"outrageous\" and unethical tactic.",
+        "\"Prosecutors argued that Tommy and Carl's confessions could be trusted, because they both accurately described what Denise was wearing the night she disappeared.\" - Shows the weak basis of the prosecution's case relying on a single, potentially flawed piece of evidence.",
+        "\"These men were sentenced to death on the basis of a single fact, a description of a blouse.\" -  Emphasizes the fragility and potential injustice of the conviction."
+    ],
+    "systemicIssuesRaw": [
+        "False confessions and their impact on wrongful convictions.",
+        "Police manipulation and coercion during interrogations, including exploiting vulnerabilities (dreams, intellectual disability, trauma).",
+        "Lack of proper investigation and reliance on confessions over factual evidence.",
+        "Potential for socio-economic bias in the justice system (\"wrong side of the tracks\").",
+        "The devastating impact of wrongful convictions on individuals and their families.",
+        "The issue of \"dream confessions\" as a rare but dangerous phenomenon."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call to action for listeners to be aware of wrongful convictions and support organizations like the Center on Wrongful Convictions.",
+        "The episode aims to raise awareness about the flaws in the criminal justice system that lead to wrongful convictions.",
+        "The hosts hope to deliver a \"wake-up call\" about this case.",
+        "Tommy's brother emphasizes that the police work was \"not proper police work at all,\" implicitly calling for better police practices."
+    ],
+    "personalNarrativeRaw": [
+        "Tommy Ward's personal narrative is one of being trapped in a nightmare, with his dream being twisted into a confession that cost him 35 years of his life. He believed the truth would eventually come out.",
+        "Carl Fontano's narrative is one of vulnerability and manipulation due to intellectual disability and trauma, leading to a coerced confession.",
+        "Melvin Ward's personal impact is the pain and disbelief of seeing his brother wrongfully accused and imprisoned, highlighting the family's suffering.",
+        "John Grisham's personal impact is a shift in his writing focus towards issue-driven stories about criminal justice injustices after learning about Tommy and Carl's case."
+    ],
+    "additionalResourcesRaw": [
+        "John Grisham's book \"The Innocent Man\".",
+        "Netflix global series \"The Innocent Man\".",
+        "Website: rongfulconvictionpodcast.com",
+        "Social Media: Instagram (@lauranirider, @S.Drizzen, @rongfulconviction), Facebook (@rongfulconvictionpodcast), Twitter (@rongconviction)",
+        "Center on Wrongful Convictions (implicit resource through hosts and their organization)."
+    ]
+}

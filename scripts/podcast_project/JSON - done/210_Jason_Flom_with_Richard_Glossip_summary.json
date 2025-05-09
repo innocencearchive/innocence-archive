@@ -1,0 +1,88 @@
+{
+    "sourceFileName": "210_Jason_Flom_with_Richard_Glossip_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava For Good Podcast in association with Signal Company No. 1.",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, Death Penalty, Criminal Justice System Reform",
+        "keyStats": "Richard Glossop has been on death row for 23 years in Oklahoma. He has faced three execution dates. The case highlights issues with police interrogation tactics, reliance on unreliable witness testimony, and prosecutorial misconduct.  Oklahoma's lethal injection protocols and drug sourcing are also discussed in the context of Glossop's case.",
+        "itemNumber": "210",
+        "itemTitle": "Jason Flom with Richard Glossip",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom features the case of Richard Glossop, who has spent 23 years on death row in Oklahoma for a murder he maintains he did not commit.  The podcast details the crime, the investigation, and the trials that led to Glossop's conviction, primarily based on the testimony of Justin Snead, the actual perpetrator, who implicated Glossop to avoid the death penalty himself.  The episode highlights the failures of Glossop's legal representation, prosecutorial misconduct by Bob Macy's office, and systemic issues within the Oklahoma criminal justice system that perpetuate wrongful convictions and the death penalty.  The podcast also discusses Glossop's multiple stays of execution due to issues with lethal injection drugs and his ongoing fight for exoneration.  Don Knight, Glossop's current attorney, and Richard Glossop himself, call for justice and encourage listeners to support the \"Save Richard Glossop\" campaign.  The episode underscores the urgent need for criminal justice reform and to prevent the execution of innocent individuals."
+    },
+    "featuredIndividual": {
+        "fullName": "Richard Glossop",
+        "caseLocation": "Oklahoma City, Oklahoma, USA",
+        "convictionYear": "2001 (first trial, overturned), 2004 (second trial)",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "Capital Murder",
+        "sentence": "Death Penalty",
+        "timeServed": "23 years (as of podcast recording)",
+        "contributingFactorsRaw": [
+            "False Implication by Actual Perpetrator (Justin Snead)",
+            "Ineffective Assistance of Counsel (Trial Lawyers)",
+            "Police Tunnel Vision and Coercive Interrogation Tactics",
+            "Prosecutorial Misconduct (Bob Macy's office)",
+            "Reliance on unreliable witness testimony (Justin Snead)"
+        ],
+        "status": "Incarcerated on Death Row, seeking clemency and further legal avenues for exoneration.",
+        "organizationsInvolvedRaw": [
+            "Paul Weiss, Rifkin, Orton, and Garrison (Pro Bono Legal Assistance)",
+            "Sister Helen Prejean (Death Penalty Abolitionist)",
+            "Unspecified Innocence Project (implied through podcast format)"
+        ],
+        "innocenceLawyersRaw": [
+            "Don Knight is described as a respected criminal and civil defense attorney. He is currently working on Richard Glossop's case and preparing for a clemency hearing. Lynn Birch was the appellate lawyer who got the first conviction overturned but made a crucial error before the second trial. David Mackenzie was the first attorney Richard consulted who advised him not to speak to the police initially. Wayne Fonerot was the first trial lawyer described as incompetent. Mark Olive is another lawyer working with Don Knight, specializing in state habeas work."
+        ],
+        "crossReference": "Not specified if he is in an exoneree database, but the podcast aims to highlight his wrongful conviction.",
+        "narrativeOriginalCrime": "Barry Van Treece was murdered in room 102 of the Best Budget Inn in Oklahoma City. Justin Snead and his girlfriend lured Van Treece to the room under the guise of robbery.  Van Treece resisted and was killed by blunt force trauma and stab wounds. The robbery appeared opportunistic and poorly planned.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of Justin Snead implicating Richard Glossop as the mastermind of a murder-for-hire plot.",
+            "Weak corroborating evidence, including a disputed spreadsheet alleging financial discrepancies attributed to Glossop as motive."
+        ],
+        "trialDefenderNotes": "-   **First Trial (Wayne Fonerot):** Incompetent representation; no witnesses called, ineffective cross-examination, no penalty phase investigation.\n-   **Second Trial (Unnamed Lawyers after Lynn Birch):**  Also unprepared, no investigation, poor cross-examination, allowed leading questions from prosecution.",
+        "keyEvidenceExonerationRaw": [
+            "Justin Snead's inconsistent statements and later confessions to others that he acted alone.",
+            "New witnesses corroborating Snead's solo involvement and the robbery motive.",
+            "Psychological evaluation from 1997 showing Snead didn't implicate Richard initially.",
+            "Lack of any physical evidence linking Richard Glossop to the crime scene.",
+            "Forensic accounting analysis disproving the prosecution's motive of financial theft by Glossop."
+        ],
+        "actualPerpetratorDetails": "Justin Snead, a meth addict and traveling roofer, confessed to the murder of Barry Van Treece. He admitted the crime was a robbery gone wrong, intended to steal cash. He implicated Richard Glossop to avoid the death penalty and received a life sentence without parole for his testimony against Glossop. His girlfriend was also involved in luring Van Treece to the room, but she was not charged based on the information provided in the transcript."
+    },
+    "keyQuotesRaw": [
+        "\"The word of a meth-head and a legit motive to steal cash was all it took.\" - Introduction summarizing the case.",
+        "Richard Glossop: \"I said that I have two choices. I can make peace with death or I can let it destroy me. And so I made peace with death where I've been in there. And I just said I'm not going to let it destroy me.\" - Reflecting on his resilience on death row.",
+        "Don Knight on Bob Macy: \"Bob Macy's just one of a handful of prosecuting attorneys in the country that really drives the death penalty in this country.\" - Highlighting prosecutorial culture.",
+        "Prosecutor (Second Trial): \"I have no evidence against Richard Glau. Just Justin Sneed.\" -  Revealing the weakness of the case against Glossop."
+    ],
+    "systemicIssuesRaw": [
+        "Ineffective assistance of counsel.",
+        "Prosecutorial misconduct and win-at-all-costs mentality.",
+        "Police tunnel vision and coercive interrogation tactics.",
+        "Over-reliance on incentivized testimony from unreliable witnesses.",
+        "Flaws in the clemency process (prosecutor's son on the board).",
+        "Issues with lethal injection protocols and drug sourcing.",
+        "\"Finality of judgment\" prioritized over actual innocence in legal proceedings (Herrera v. Collins)."
+    ],
+    "policyRecommendationsRaw": [
+        "Criminal justice reform to prevent wrongful convictions.",
+        "Death penalty abolition.",
+        "Support for innocence projects.",
+        "Petition to Oklahoma Governor and Pardon and Parole Board for Richard Glossop's clemency (saverichardglossop.com).",
+        "Urge for fairer justice system, removing \"blindfold\" from Lady Justice."
+    ],
+    "personalNarrativeRaw": [
+        "Richard Glossop's personal narrative emphasizes his resilience and positive attitude despite wrongful conviction and death row. He focuses on hope, art, and fighting for justice, not just for himself, but for all innocent individuals facing similar situations.  His final thoughts center on celebrating life even in dire circumstances and advocating for broader change in the justice system."
+    ],
+    "additionalResourcesRaw": [
+        "Website: saverichardglossop.com (for petition and action steps)",
+        "Docuseries mentioned in the podcast (unnamed, but featuring Detective Beemo)",
+        "Local innocence projects",
+        "Mention of legislator McGoogle, legislator Humphrey, and businessman Justin Jackson as Republican supporters of Richard Glossop's case, indicating potential bipartisan support for reform."
+    ]
+}

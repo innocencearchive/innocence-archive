@@ -1,0 +1,89 @@
+{
+    "sourceFileName": "204_Wrongful_Conviction_Podcasts_PSA_-_What_to_Do_When_Stopped_by_the_Police_(O_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom, Robbie Achadri",
+        "releaseYear": "2021",
+        "network": "Not specified in transcript, likely iHeartRadio based on outro ad.",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Jury duty, juror responsibility, preventing wrongful convictions, justice system.",
+        "keyStats": "Over 57 million drivers go with AAA (ad), My Lowe's Pro Rewards program (ad), Purdue Global online university (ad), Cybersecurity specialists in high demand (ad), Microsoft Dragon co-pilot AI for clinical workflow (ad), Culver's fish fry (ad), Xfinity spring streaming recommendations (ad).  (Note: These are ads, not podcast content statistics. The core content lacks specific statistics on wrongful convictions in this episode, focusing on juror responsibility).",
+        "itemNumber": "204",
+        "itemTitle": "Wrongful Conviction Podcasts PSA - What to Do When Stopped by the Police (O",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features Jason Flom and Robbie Achadri discussing the critical role of jurors in the justice system, particularly in preventing wrongful convictions. They emphasize that jury duty is an important civic responsibility and an opportunity to ensure justice.  The hosts urge jurors to take their role seriously, highlighting the potential life-altering consequences of their decisions. They advise jurors to utilize note-taking, ask clarifying questions, and resist peer pressure during deliberations.  The concept of jury nullification is mentioned as a final resort if a juror feels unduly pressured. Ultimately, the episode stresses the importance of informed and conscientious jury decisions to uphold a fair justice system and prevent wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Not applicable - No specific individual case is discussed.",
+        "caseLocation": "Not applicable",
+        "convictionYear": "Not applicable",
+        "exonerationYear": "Not applicable",
+        "crimeConvictedOf": "Not applicable",
+        "sentence": "Not applicable",
+        "timeServed": "Not applicable",
+        "contributingFactorsRaw": [
+            "Not applicable - General discussion of potential for wrongful convictions due to juror pressure."
+        ],
+        "status": "Not applicable",
+        "organizationsInvolvedRaw": [
+            "Undisclosed (mentioned as Robbie Achadri's podcast and related to wrongful convictions)"
+        ],
+        "innocenceLawyersRaw": [
+            "Robbie Achadri is an attorney and co-host of \"Undisclosed,\" suggesting legal expertise in the field, but specific details of innocence lawyer work are not given in this episode."
+        ],
+        "crossReference": "Not applicable",
+        "narrativeOriginalCrime": "Not applicable",
+        "keyEvidenceProsecutionRaw": [
+            "Not applicable"
+        ],
+        "trialDefenderNotes": "Not applicable",
+        "keyEvidenceExonerationRaw": [
+            "Not applicable"
+        ],
+        "actualPerpetratorDetails": "Not applicable"
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"We should all view jury duty as an opportunity to be a very necessary watchdog for those in power and to make sure that real justice is done.\"",
+        "Robbie Achadri: \"Your decision is going to alter lives. It's going to alter somebody's life maybe forever. So you have to take it really seriously.\"",
+        "Robbie Achadri: \"If you're feeling pressured by your peers, you do not have to change your vote. I don't care if you're the only one holding out.\"",
+        "Jason Flom: \"Remember, jury nullification is the thing. If you have to, if you're feeling too much pressure, send a note to the judge, say, I'm done. I'm not voting guilty no matter what. And that's it.\""
+    ],
+    "systemicIssuesRaw": [
+        "Potential for juror pressure to lead to unjust verdicts; importance of individual juror autonomy and diligence in deliberations."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call to action for citizens to take jury duty seriously and understand their rights and responsibilities as jurors. Encouragement to listen to \"Undisclosed\" and \"Wrongful Conviction\" podcasts for further information."
+    ],
+    "personalNarrativeRaw": [
+        "The episode focuses on empowering jurors with knowledge of their rights and the weight of their decisions.  It aims to instill a sense of responsibility in jurors to prevent wrongful convictions, emphasizing the potential for long-lasting guilt if a juror compromises their conscience due to pressure. The final thought is about juror responsibility and its impact on justice."
+    ],
+    "additionalResourcesRaw": [
+        "Undisclosed podcast, Wrongful Conviction podcast, AAA.com, Lowes.com, trialblazerspodcast.com, PurdueGlobal.edu, mycomputercareer.edu/cwp, aka.ms/iHeart, Culvers, Xfinity on Instagram & TikTok (These are mostly ads from the transcript but \"Undisclosed\" and \"Wrongful Conviction\" podcasts are directly relevant).\n```"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Judge",
+                "role_guess": "Judge",
+                "is_likely_wc_suggestion": "uncertain"
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Juror pressure",
+            "Jury nullification"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Jury duty",
+                "Wrongful convictions",
+                "Justice system",
+                "Juror responsibility"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

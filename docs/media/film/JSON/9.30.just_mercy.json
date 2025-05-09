@@ -1,0 +1,68 @@
+{
+  "source_file_name": "9.30.just_mercy.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Just Mercy",
+    "publication_or_release_year": 2019,
+    "publisher_or_network": "Participant, Outlier Society Productions, Netter Productions, MACRO (Distributed by Warner Bros. Pictures)",
+    "focus_or_theme": "Based on the work of lawyer Bryan Stevenson and the Equal Justice Initiative (EJI), focusing primarily on the case of Walter McMillian (\"Johnny D.\"), a Black man wrongfully convicted and sentenced to death in Alabama for the murder of a white woman. Explores racial injustice, poverty, and the death penalty in the South.",
+    "summaryNotes": "McMillian was sentenced to death despite significant evidence of his innocence, including multiple alibi witnesses. His case highlights deep-seated racial bias in the justice system.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Just Mercy",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Based on the work of lawyer Bryan Stevenson and the Equal Justice Initiative (EJI), focusing primarily on the case of Walter McMillian (\"Johnny D.\"), a Black man wrongfully convicted and sentenced to death in Alabama for the murder of a white woman. Explores racial injustice, poverty, and the death penalty in the South.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [
+      "Deep-rooted racial bias in the Southern criminal justice system, wrongful convictions in capital cases, unreliability and corrupt use of informant/witness testimony, prosecutorial and police misconduct, inadequate legal representation for poor defendants, extreme sentencing/death penalty flaws, systemic resistance to acknowledging errors."
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly and explicitly advocates for ending the death penalty, combating racial bias in the justice system, ensuring adequate counsel for indigent defendants, challenging prosecutorial misconduct, and supporting organizations like EJI that fight for justice reform."
+    ],
+    "external_links_raw": [],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Walter McMillian (\"Johnny D.\")",
+      "case_location_city": "Monroeville",
+      "case_location_state": "Alabama, USA",
+      "conviction_year": 1988,
+      "exoneration_or_release_year": 1993,
+      "crime_convicted_of_raw": "Murder of Ronda Morrison",
+      "sentence": "Death (Judge overrode jury's life sentence recommendation)",
+      "time_served": "Nearly 6 years on death row.",
+      "contributing_factors_raw": [
+        "Pervasive racial bias, police and prosecutorial misconduct (suppression of exculpatory evidence, coercion of witnesses), reliance on perjured testimony from incentivized informants."
+      ],
+      "status_raw": "Exonerated (1993).",
+      "organizations_involved_raw": [
+        "Equal Justice Initiative (EJI)."
+      ],
+      "cross_reference": "Yes, Walter McMillian is listed in the National Registry of Exonerations and EJI case files.",
+      "*note": "The film/book also touches upon other EJI cases, like that of Herbert Richardson and Anthony Ray Hinton, though McMillian's case is central.)*",
+      "first_name": "Walter",
+      "middle_name": "McMillian (\"Johnny",
+      "last_name": "D.\")"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Destin Daniel Cretton",
+      "role": "DIRECTOR",
+      "first_name": "Destin",
+      "middle_name": "Daniel",
+      "last_name": "Cretton"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "---",
+  "unhandled_section_research_for:_just_mercy_(film_list_item_9.30)": "### Basic Film/Documentary Information\n\n-   **Title**: Just Mercy\n-   **Episode # & Title (if applicable)**: N/A\n-   **Director(s)**: Destin Daniel Cretton\n-   **Release Year**: 2019\n-   **Production Company(ies)**: Participant, Outlier Society Productions, Netter Productions, MACRO (Distributed by Warner Bros. Pictures)\n-   **Format**: Feature film based on true events (Bryan Stevenson's memoir)\n-   **Focus/Theme**: Based on the work of lawyer Bryan Stevenson and the Equal Justice Initiative (EJI), focusing primarily on the case of Walter McMillian (\"Johnny D.\"), a Black man wrongfully convicted and sentenced to death in Alabama for the murder of a white woman. Explores racial injustice, poverty, and the death penalty in the South.\n-   **Key Statistics/Information**: McMillian was sentenced to death despite significant evidence of his innocence, including multiple alibi witnesses. His case highlights deep-seated racial bias in the justice system.\n\n### Wrongfully Convicted Individuals Featured\n\n-   **Name**: Walter McMillian (\"Johnny D.\")\n-   **Case Location**: Monroeville, Alabama, USA\n-   **Conviction Year**: 1988 (Crime occurred 1986)\n-   **Exoneration Year**: 1993\n-   **Crime Convicted Of**: Murder of Ronda Morrison\n-   **Sentence**: Death (Judge overrode jury's life sentence recommendation)\n-   **Time Served**: Nearly 6 years on death row.\n-   **Contributing Factors**: Pervasive racial bias, police and prosecutorial misconduct (suppression of exculpatory evidence, coercion of witnesses), reliance on perjured testimony from incentivized informants.\n-   **Legal Status**: Exonerated (1993).\n-   **Organizations Involved**: Equal Justice Initiative (EJI).\n-   **Cross-Reference**: Yes, Walter McMillian is listed in the National Registry of Exonerations and EJI case files.\n\n*(Note: The film/book also touches upon other EJI cases, like that of Herbert Richardson and Anthony Ray Hinton, though McMillian's case is central.)*\n\n### Film/Documentary Research Notes\n\n-   **Key Quotes/Moments**: Scenes depicting Bryan Stevenson's initial meetings with McMillian on death row, the investigation uncovering suppressed evidence and coerced testimony, courtroom battles challenging the conviction, interactions with other death row inmates, Stevenson's arguments about racial bias and justice. Key themes from Stevenson's work: \"Each of us is more than the worst thing we've ever done,\" the importance of proximity to the condemned and marginalized, fighting injustice even when odds seem insurmountable.\n-   **Systemic Issues Identified**: Deep-rooted racial bias in the Southern criminal justice system, wrongful convictions in capital cases, unreliability and corrupt use of informant/witness testimony, prosecutorial and police misconduct, inadequate legal representation for poor defendants, extreme sentencing/death penalty flaws, systemic resistance to acknowledging errors.\n-   **Policy Recommendations/Calls to Action**: Implicitly and explicitly advocates for ending the death penalty, combating racial bias in the justice system, ensuring adequate counsel for indigent defendants, challenging prosecutorial misconduct, and supporting organizations like EJI that fight for justice reform.\n-   **Additional Resources**: Bryan Stevenson's memoir \"Just Mercy: A Story of Justice and Redemption,\" Equal Justice Initiative (EJI) website (eji.org).\n\n---"
+}

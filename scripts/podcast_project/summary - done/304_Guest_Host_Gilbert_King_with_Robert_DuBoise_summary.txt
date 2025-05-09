@@ -1,0 +1,84 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but this is an episode featuring a guest host and an exoneree.
+-   **Host(s)**: Jason Flom (Regular Host), Gilbert King (Guest Host)
+-   **Release Year(s)**: Not specified in transcript, but likely recent given the mention of 2020 exoneration.
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company No. 1, iHeart Media (mentioned as platform, not necessarily production)
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, criminal justice system failures, forensic science misuse (bite mark evidence), jailhouse informants, exoneration, post-exoneration challenges.
+-   **Key Statistics/Information**:
+    - Bite mark evidence has been wholly discredited and led to at least 34 wrongful convictions in the US.
+    - Robert Dubois served 37 years for a crime he did not commit, including time on death row.
+    - Florida's compensation statute is flawed, preventing exonerees with prior non-violent felonies from receiving compensation.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction is guest-hosted by Gilbert King and features Robert Dubois, who was wrongfully convicted of capital murder in Florida in 1985 based on discredited bite mark evidence and the testimony of a jailhouse informant.  Robert spent 37 years incarcerated, including three years on death row, before being exonerated in 2020 due to DNA evidence and the work of the Innocence Project. The episode details the flawed investigation, the trial, the impact of junk science, and the challenges Robert faced both during his wrongful imprisonment and after his release, including the lack of compensation due to a prior minor offense from his youth. The discussion highlights systemic issues in the criminal justice system, including tunnel vision, reliance on unreliable forensic evidence, and the misuse of incentivized witnesses.  Susan Friedman from the Innocence Project also joins to discuss the legal aspects of Robert's case and calls for reform in Florida's compensation statute.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Robert Dubois
+-   **Case Location**: Tampa, Florida, USA
+-   **Conviction Year**: 1985
+-   **Exoneration Year**: 2020
+-   **Crime Convicted Of**: Capital Murder
+-   **Sentence**: Death by electrocution (initially), later changed to Life in prison with mandatory quarter.
+-   **Time Served**: 37 years (including 3 years on death row)
+-   **Contributing Factors**:
+    - Bite mark evidence (forensic odontology) - later discredited as junk science and not even a bite mark in this case.
+    - Jailhouse informant testimony (Claude Butler) - incentivized and later proven unreliable.
+    - Tunnel vision by law enforcement - focusing solely on bite mark evidence and ignoring exculpatory evidence.
+    - Ineffective trial defense - focused on the battle of bite mark experts rather than broader innocence.
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**: Innocence Project, Conviction Review Unit of the 13th Circuit in Florida.
+-   **Innocence Lawyer Details**: Susan Friedman, Senior Staff Attorney at the Innocence Project, represented Robert and led the reinvestigation and legal efforts for his exoneration.
+-   **Cross-Reference**: Likely appears in exoneree databases (needs to be checked).
+-   **Narrative of Original Crime**: A young woman was found murdered in Tampa, Florida, in 1983. She was sexually assaulted and severely beaten.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Bite mark evidence presented by Dr. Suveron, claiming a match to Robert Dubois' dentition.
+    - Testimony of jailhouse informant Claude Butler, claiming Robert confessed to him.
+    - Testimony of Jack, claiming Robert confessed to him at a motel party.
+-   **Trial Defender Notes**: Defense attorney presented another dentist, Dr. Norman Spurber, who disputed the bite mark match. Robert's mother testified he was home the night of the crime. Defense attempted to discredit Claude Butler as an incentivized witness.  However, the defense strategy heavily relied on disputing the bite mark evidence on its own terms rather than fully challenging its validity or the overall weak case.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - DNA testing of vaginal swabs from the victim's rape kit (evidence initially thought to be destroyed) excluded Robert Dubois.
+    - DNA match found in CODIS to another individual (not named in transcript).
+    - Re-evaluation of bite mark evidence by Dr. Adam Freeman, who concluded it was not a bite mark at all and that beeswax was an improper method for collecting dentitions.
+    - Investigation by the Conviction Review Unit and Innocence Project exposing the unreliability of the jailhouse informants (Claude Butler and Jack) and the incentivized nature of their testimonies.
+-   **Actual Perpetrator Details**: DNA evidence found a match in CODIS, indicating the actual perpetrator is in the system, but no details about the actual perpetrator are given in this transcript.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - Robert Dubois: "Suddenly my whole world was upside down, you know, because I'm doing my everyday thing, going back and forth to work. And then next thing you know, I'm in a cell wondering why now..."
+    - Susan Friedman on bite mark evidence: "So, you know, we today know that bite mark evidence has been wholly discredited."
+    - Robert Dubois on death row: "And I'm like, man, are these guys like sitting here waiting to die? So it was very disturbing."
+    - Robert Dubois on release: "Oh, man, it's undescribable. You know, to actually walk out of that prison and know that that was it. The nightmare was finally over."
+-   **Systemic Issues Identified**:
+    - Misuse of forensic science, particularly bite mark analysis.
+    - Tunnel vision and cognitive bias in law enforcement investigations.
+    - Reliance on unreliable jailhouse informants.
+    - Inadequate legal defense in capital cases.
+    - Destruction of evidence in capital cases.
+    - Flawed compensation statutes that prevent exonerees from receiving support.
+    - Challenges faced by exonerees upon release, including lack of history and societal readjustment.
+-   **Policy Recommendations/Calls to Action**:
+    - Reform Florida's compensation statute to allow exonerees with prior non-violent convictions to be eligible for compensation and extend the deadline for filing claims.
+    - Support the Innocence Project's efforts to advocate for policy changes and assist wrongfully convicted individuals.
+    - Encourage listeners to educate themselves on criminal justice issues and vote to bring about change.
+-   **Personal Narrative/Impact**: Robert Dubois' personal narrative emphasizes the devastating impact of wrongful conviction, the loss of his youth and freedom, the trauma of death row, and the immense challenges of re-entering society after decades of unjust imprisonment. His story highlights the importance of hope, resilience, and the crucial role of organizations like the Innocence Project in fighting for justice. His final thoughts emphasize the need to support the Innocence Project to help others still wrongfully incarcerated.
+-   **Additional Resources**:
+    - Spotlight Snitch City Podcast (mentioned as another investigative series).
+    - Bone Valley Podcast (Gilbert King's podcast on another wrongful conviction case in Florida).
+    - Innocence Project website (for information on how to support exonerees and advocate for reform).
+    - Life EMS Ambulance (sponsor mentioned in podcast, unrelated to wrongful conviction content).
+    - AIG Pro Bono program (sponsor mentioned, supporting criminal justice reform).
+    - TIRAC mobile tire installation (sponsor, unrelated).
+    - Ashley HomeStore (sponsor, unrelated).
+```

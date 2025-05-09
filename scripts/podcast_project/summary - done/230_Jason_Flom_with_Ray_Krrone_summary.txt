@@ -1,0 +1,83 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in the transcript, but it is about Ray Krohn.
+-   **Host(s)**: Not explicitly stated in the transcript, but it is a conversational format with an interviewer and Ray Krohn. Based on the intro/outro, it is likely Jason Flom is the host.
+-   **Release Year(s)**: Not specified in the transcript.
+-   **Production Company(ies)/Network**: Lava for Good podcast in association with signal company number one.
+-   **Series Type**: Episodic Series (each episode is generally a standalone story) - Based on the intro "Welcome back to wrongful conviction".
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction stories, junk science, prosecutorial misconduct, justice system failures.
+-   **Key Statistics/Information**: Ray Krohn was the 100th exoneree from death row in the United States since 1976. Bite mark analysis was the sole evidence against him in his first trial.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction tells the harrowing story of Ray Krohn, the 100th death row exoneree in the US.  Convicted in Arizona based solely on bite mark analysis, a discredited forensic science, Krohn spent over ten years in prison, including time on death row, for a murder he did not commit.  Despite DNA evidence excluding him and identifying the actual perpetrator, Kenneth Phillips, Krohn was initially re-convicted in a second trial.  The podcast details the egregious prosecutorial misconduct, the failures of his initial defense, and the unwavering support of his family.  Ultimately, post-conviction DNA testing led to his exoneration and release.  Krohn now works with Witness to Innocence, advocating against the death penalty and for justice system reform.  His story highlights the dangers of junk science, the flaws in the justice system, and the resilience of the human spirit.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Ray Krohn
+-   **Case Location**: Phoenix, Arizona, USA, Maricopa County
+-   **Conviction Year**: First trial conviction: Not explicitly stated but around 1992 (crime in Dec 1991, trial 7 months later). Second trial re-conviction: 1996 (trial started in Feb 1996).
+-   **Exoneration Year**: 2002
+-   **Crime Convicted Of**: Murder, kidnapping, and sexual assault (initially). Eventually convicted of murder and kidnapping.
+-   **Sentence**: Death penalty (first trial), Life sentence plus 21 years (second trial - effectively 46 years before parole eligibility).
+-   **Time Served**: 10 years, 3 months, and 8 days.
+-   **Contributing Factors**:
+    -   Junk Science: Bite mark analysis was the sole evidence in the first trial.
+    -   Prosecutorial Misconduct: Prosecutor Noel Levy known for misconduct, prioritizing convictions over fairness.
+    -   Ineffective Defense Counsel: Court-appointed attorney in the first trial was inexperienced and under-resourced.
+    -   Eyewitness Misidentification: While not technically eyewitness misidentification, a witness implied Krohn was dating the victim, leading to initial suspicion.
+-   **Legal Status**: Exonerated, charges dropped with prejudice.
+-   **Organizations Involved**: Witness to Innocence (after exoneration, as co-founder). Innocence Projects and Justice Projects (mentioned generally as helping with exonerations).
+-   **Innocence Lawyer Details**:
+    -   First trial: Public defender initially, then a court-appointed attorney who was inexperienced in death penalty cases and under-resourced.
+    -   Second trial and exoneration: Chris Plord, a private attorney from California who took the case for expenses only, believed in Krohn's innocence, and was highly experienced. Alan Simpson and Tom Street, investigators, also represented him pro bono for post-conviction DNA testing.
+-   **Cross-Reference**: Appears in exoneree database (as the 100th death row exoneree).
+-   **Narrative of Original Crime**: The victim, a 36-year-old bartender, was found murdered in the men's restroom of the bar where she worked in Phoenix, Arizona on December 29, 1991. She was assaulted and stabbed.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Bite mark analysis: Expert Ray Rosen testified that Krohn's teeth uniquely matched bite marks on the victim's neck and breast, claiming it was definitive evidence.
+    -   Implied relationship: Witness suggestion that Krohn was dating the victim.
+-   **Trial Defender Notes**:
+    -   First trial: Public defender was dismissive and unhelpful. Court-appointed lawyer lacked resources and experience, failed to adequately challenge bite mark evidence initially and was denied a continuance to prepare for last-minute evidence.
+    -   Second trial: New attorney (Chris Plord) presented extensive evidence, including multiple bite mark experts refuting the prosecution's expert and highlighting other exculpatory evidence (footprints, palm prints, hair, DNA).
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Salivary DNA testing: Post-conviction DNA testing on saliva from the bite marks excluded Ray Krohn and the victim and matched Kenneth Phillips.
+    -   Other evidence at second sentencing hearing (presented by defense attorney Chris Plord): Footprints at the scene didn't match Krohn's shoe size, palm prints and hair found at the scene didn't match Krohn.
+-   **Actual Perpetrator Details**:
+    -   Name: Kenneth Phillips
+    -   Status: Convicted child molester, serving a 10-year sentence for sexually assaulting a child when DNA matched him to the crime.
+    -   Connection to Crime: Lived 600 yards from the CBS Lounge, on probation for choking and threatening to kill a neighbor at the time of the murder.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Prosecutor Noel Levy:  "disregard that DNA...that DNA is easier to explain. She's a waitress. She's a bartender. She handles glasses all day long. That was just transferred there by accident from somebody else. He said, we know from the bite mark who did this..."
+    -   Judge James McDougal (at second sentencing): "the court is left with a residual or lingering doubt about the clear identity of the killer. This is one of those cases that will haunt me for the rest of my life, wondering whether I have done the right thing."
+    -   Ray Krohn (responding to media question about God leaving him in prison): "Maybe it's not about those 10 years I spent prison. Maybe it's about what I have to do the next 10 years."
+    -   Kim's Mom's apology: "Mr. Krohn, I'm so sorry for what happened to you...Please forgive me. I just believed what they told me."
+-   **Systemic Issues Identified**:
+    -   Junk Science in Court: The reliance on bite mark analysis as definitive evidence.
+    -   Prosecutorial Misconduct: Noel Levy's history of misconduct and prioritizing convictions over justice.
+    -   Ineffective Assistance of Counsel: Under-resourced and inexperienced public defenders.
+    -   Flaws in the legal system: Difficult to introduce new evidence post-conviction until DNA post-conviction relief law was passed in Arizona.
+-   **Policy Recommendations/Calls to Action**:
+    -   Abolish the death penalty.
+    -   Reform the justice system to prevent wrongful convictions.
+    -   Support innocence organizations.
+    -   Address the issue of junk science in courtrooms.
+-   **Personal Narrative/Impact**:
+    -   Ray Krohn's resilience and faith throughout his ordeal.
+    -   The impact of wrongful conviction on Krohn's family and the victim's family.
+    -   Krohn's dedication to advocating for justice and against wrongful convictions through Witness to Innocence.
+    -   Final thoughts: Krohn emphasizes keeping faith alive and hope for others facing wrongful convictions, highlighting the importance of support and the fight for justice.
+-   **Additional Resources**:
+    -   Witness to Innocence (witnessinnocence.org)
+    -   Local innocence organizations (mentioned to be supported in closing remarks).
+    -   Wrongful Conviction Junk Science series (mentioned within the podcast episode itself).
+```

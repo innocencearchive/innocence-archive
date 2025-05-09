@@ -1,0 +1,95 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, assume episodic.
+-   **Host(s)**: Jason Flom, Lauren Bright-Pacheco (mentioned as host of Wrongful Conviction by Jason Flom)
+-   **Release Year(s)**: Not explicitly stated, but mentions 2008 (case year), 2011 (trial), 2017 (evidentiary hearing), 2018 (federal habeas appeal), 2020 (Judge Simon's ruling), 2022 (Dwayne's release). Likely released around 2022 or later.
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One. Mentions iHeartRadio app, Apple Podcast, Spotify, Wondery Plus, Wondery app, Law and Crime, Twist, Wondery, Boston Globe's Spotlight Team, Geico, Pacers Foundation, The Last Mile organization. These are likely sponsors or platforms, not production companies.
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, legal system issues, forensic science flaws, ineffective counsel, racial bias in the justice system.
+-   **Key Statistics/Information**:
+    - Elkhart, Indiana, is suggested to be the "per capita wrongful conviction capital of the world."
+    - Blood spatter analysis is described as "junk science."
+    - A 40-hour course can qualify someone as a blood spatter expert in court.
+    - Prosecutor Vicki Becker is highlighted as a problematic figure in multiple Elkhart wrongful conviction cases.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction focuses on the case of Dwayne Dunn, wrongfully convicted of murdering his neighbor Angel Torres in Elkhart, Indiana, in 2008. Despite evidence pointing to an accidental fall down a rickety staircase and initial police detectives closing the case, prosecutor Vicki Becker pursued charges.  Dwayne was convicted based on questionable blood spatter analysis and the testimony of a second medical examiner who contradicted the initial autopsy.  Ineffective trial counsel further hampered his defense.  After years of self-advocacy and the work of post-conviction attorneys including John Chenoweth, Michael Osprook, and Alex Dolan, Dwayne's conviction was overturned in federal court in 2022, highlighting systemic failures within the Elkhart County justice system, including reliance on junk science and prosecutorial overreach. The episode underscores the long fight for exoneration and the ongoing challenges exonerees face upon release.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Dwayne Dunn
+    -   **Case Location**: Elkhart, Indiana, USA
+    -   **Conviction Year**: 2011
+    -   **Exoneration Year**: 2022
+    -   **Crime Convicted Of**: Murder (first degree, initially mentioned but later clarified as just murder)
+    -   **Sentence**: 58 years
+    -   **Time Served**: Approximately 11 years (2011-2022)
+    -   **Contributing Factors**:
+        -   Ineffective assistance of counsel (failure to consult expert witnesses, inadequate cross-examination)
+        -   Junk science (blood spatter analysis)
+        -   Questionable expert testimony (second medical examiner's opinion contradicting initial autopsy)
+        -   Prosecutorial overreach (Vicki Becker pursuing case despite weak evidence)
+        -   Potentially racial bias (prosecutor's closing argument referencing "swans in a sewer" in relation to Black witnesses)
+    -   **Legal Status**: Exonerated
+    -   **Organizations Involved**:
+        -   Indiana University School of Law federal habeas project (Michael Osprook, Alex Dolan)
+        -   Indiana Public Defender system (John Chenoweth)
+    -   **Innocence Lawyer Details**:
+        -   **John Chenoweth**: Indiana Deputy State Public Defender, post-conviction attorney who secured expert witness Dr. Thomas Sosia.
+        -   **Michael Osprook**: Director of the Indiana University School of Law federal habeas project, oversaw federal appeal.
+        -   **Alex Dolan**: Public defender and former student of Michael Osprook, handled oral arguments in federal court.
+    -   **Cross-Reference**: Yes (should be cross-referenced in exoneree database)
+    -   **Narrative of Original Crime**: Dwayne Dunn was accused of murdering his neighbor, Angel Torres, after an altercation on their shared second-story deck. The prosecution claimed Dwayne beat Torres to death after Torres fell down the stairs.
+    -   **Key Evidence at Trial (Prosecution)**:
+        -   Testimony of second medical examiner, Dr. Scott Wagner, who deemed the death a homicide based on photos and disagreed with the initial autopsy's "undetermined" cause of death.
+        -   Blood spatter analysis from Dean Marks, claiming cast-off patterns indicated a beating with a blunt object, though no weapon was found.
+        -   Coerced statement from Dwayne's girlfriend, Lita Sims, later recanted at trial.
+    -   **Trial Defender Notes**:
+        -   Cliff Williams, chief public defender for Elkhart County, was Dwayne's trial attorney.
+        -   Failed to consult or present expert witnesses to counter state's experts.
+        -   Admitted to ineffectiveness during post-conviction hearings.
+        -   Relied primarily on witness testimony of Dwayne, Lita, and Willie (Lita's son).
+    -   **Key Evidence for Exoneration/Change in Legal Status**:
+        -   Expert testimony of Dr. Thomas Sosia, a forensic pathologist, who concluded that Angel Torres's injuries were consistent with a fall down the stairs and not a beating, considering Torres's health conditions (alcoholism, osteoporosis).
+        -   Ineffective assistance of trial counsel acknowledged by trial attorney Cliff Williams himself.
+        -   Federal habeas appeal success based on the new expert evidence and ineffective counsel, overturning state court decisions.
+    -   **Actual Perpetrator Details**: Not applicable, case deemed an accidental death due to a fall, not a homicide.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "People always roll their eyes like, what do you mean the crime never happened? It never happened." - Dwayne Dunn, highlighting the core issue of wrongful conviction where no crime actually occurred as prosecuted.
+    -   "You don't find swans in a sewer." - Prosecutor Vicki Becker's closing argument, seen as racially charged and demeaning to Dwayne's witnesses.
+    -   "It's a fall all day." - Dr. Thomas Sosia's expert opinion, directly contradicting the prosecution's theory.
+    -   "Justice delayed is justice denied." - Alex Dolan, emphasizing the prolonged injustice Dwayne endured.
+-   **Systemic Issues Identified**:
+    -   Ineffective assistance of counsel, particularly in providing expert defense.
+    -   Over-reliance on and misuse of "junk science" like blood spatter analysis.
+    -   Prosecutorial misconduct and overreach, exemplified by Vicki Becker.
+    -   Potential racial bias in the jury selection and prosecutor's arguments.
+    -   Resistance from state courts to acknowledge wrongful convictions, necessitating federal intervention.
+-   **Policy Recommendations/Calls to Action**:
+    -   Need for better funding and resources for public defenders to ensure adequate expert consultation.
+    -   Stricter scrutiny of forensic evidence and expert testimony, particularly in areas deemed "junk science."
+    -   Reforms to prosecutorial accountability and oversight to prevent overzealous prosecution.
+    -   Addressing racial bias in the criminal justice system, including jury selection and prosecutorial arguments.
+    -   Advocacy for exonerees and support for their reintegration into society, including employment opportunities.
+-   **Personal Narrative/Impact**:
+    -   Dwayne Dunn's resilience and self-advocacy while incarcerated, learning law and fighting his case pro se.
+    -   The devastating personal impact of wrongful conviction on Dwayne's life, including loss of freedom, separation from family, and difficulty finding employment post-exoneration.
+    -   Dwayne's final thoughts emphasize the systemic nature of wrongful convictions and the need for broader justice system reform, particularly for those without resources.
+-   **Additional Resources**:
+    -   Podcast "Wrongful Conviction Junk Science" hosted by Josh Dubin (mentioned in transcript).
+    -   The Last Mile organization (mentioned sponsor).
+    -   Pacers Foundation (mentioned sponsor).
+    -   Spotlight Snitch City podcast (promotional mention).
+    -   Exoneree database (implied as the purpose of this research).
+```

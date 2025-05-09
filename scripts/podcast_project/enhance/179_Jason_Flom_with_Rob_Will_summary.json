@@ -1,0 +1,154 @@
+{
+    "sourceFileName": "179_Jason_Flom_with_Rob_Will_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcasts, in association with Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice reform, investigative journalism, death penalty cases.",
+        "keyStats": "Mention of potential executions of innocent people in Texas, issues with forensic evidence (gunshot residue), prosecutorial misconduct, ineffective defense counsel.",
+        "itemNumber": "179",
+        "itemTitle": "Jason Flom with Rob Will",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features the case of Robert Jean Will, who has been on death row in Texas for the murder of Deputy Barrett Hill in 2000. Despite physical evidence suggesting his innocence and pointing towards Michael Allen Rosario, the son of a Houston cop, as the actual perpetrator, Will was convicted. The episode highlights critical pieces of evidence suppressed at trial, including the lack of gunshot residue on Will's hand, the absence of Deputy Hill's blood on his clothing, dispatch records proving Rosario had ample time to commit the murder, and bloodhound tracking evidence.  It also details Rosario's confessions to multiple individuals and attempts to hire a hitman to silence Will. The podcast underscores systemic issues such as ineffective defense counsel, prosecutorial misconduct in concealing evidence, and the prejudicial atmosphere created by the \"wall of blue\" at Will's trial.  Despite these overwhelming issues, Will remains on death row, fighting for a new trial and maintaining his innocence while advocating for broader criminal justice reform."
+    },
+    "featuredIndividual": {
+        "fullName": "Michael Allen Rosario (Nickname \"Rocky\")\n-   Son of a Houston cop.\n-   Was with Rob stripping hubcaps.\n-   Fled from police and was pursued by Deputy Kelly.\n-   Deputy Kelly lost sight of him shortly before gunshots were heard.\n-   Eyewitness accounts state he returned to Rob's girlfriend's apartment immediately after the murder with blood on his clothes and washed up in the sink.\n-   Confessed to multiple individuals (who signed affidavits).\n-   Washed, bleached, and folded his clothes after the murder (suspicious behavior).\n-   Made statements to jailers suggesting he believed his father would protect him from prosecution.\n-   Attempted to hire a gang member, David Cruz, to kill Rob Will post-crime.",
+        "caseLocation": "North Houston, Harris County, Texas, USA",
+        "convictionYear": "2001 (Arrested December 2000, trial and conviction followed)",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "Capital Murder of Deputy Barrett Hill",
+        "sentence": "Death Sentence",
+        "timeServed": "Approximately 20 years (as of podcast recording)",
+        "contributingFactorsRaw": [
+            "False narrative by prosecution",
+            "Suppression of exculpatory evidence by prosecution",
+            "Ineffective assistance of trial counsel",
+            "\"Wall of blue\" prejudice at trial",
+            "Misinterpretation of dispatch records and timeline"
+        ],
+        "status": "Currently incarcerated on death row, seeking a new trial and exoneration. Case remanded back to Judge Ellison by the Fifth Circuit Court of Appeals.",
+        "organizationsInvolvedRaw": [
+            "Arnold & Porter (law firm, legal team including Jay Ewart and Karen Otto)",
+            "Texas Defender Service (Sammy Khalil is a board member)",
+            "Federal Bar Association (Sammy Khalil is a member)",
+            "National Association of Criminal Defense Lawyers (Sammy Khalil is a member)",
+            "Harris County Criminal Lawyers Association (Sammy Khalil is a member)",
+            "Texas Bar Foundation (Sammy Khalil is a fellow)"
+        ],
+        "innocenceLawyersRaw": [],
+        "sammy_khalil": "Former assistant federal public defender, member of multiple bar associations, fellow of the Texas Bar Foundation, board member of the Texas Defender Service. Appointed in 2012 to represent Rob Will in federal court.",
+        "jay_ewart,_karen_otto,_chad_flores,_adam_denal": "Part of the legal team from Arnold & Porter and local Houston attorneys, working with Sammy Khalil.",
+        "narrativeOriginalCrime": "Rob Will and Michael Allen Rosario were stripping hubcaps when approached by deputies Hill and Kelly. A chase ensued. Deputy Hill apprehended Rob, while Deputy Kelly pursued Rosario. Gunshots were heard shortly after Deputy Kelly lost sight of Rosario. Deputy Hill was killed, and Rob was wounded in the hand and freed from handcuffs. Both fled the scene separately.",
+        "keyEvidenceProsecutionRaw": [
+            "Implied Rob was the only possible culprit at the scene after Deputy Hill was murdered, despite timeline and physical evidence inconsistencies.",
+            "Narrative suggesting Rosario did not have enough time to return to the scene and commit the murder based on a flawed interpretation of dispatch records.",
+            "\"Wall of blue\" – presence of numerous uniformed deputies in court to influence the jury."
+        ],
+        "trialDefenderNotes": "-   Ineffective assistance of counsel. Failed to adequately investigate and present crucial exculpatory evidence.\n-   Failed to properly analyze dispatch records and timeline.\n-   Did not present bloodhound tracking evidence or witness testimonies about Rosario's confessions and suspicious behavior.\n-   State habeas appeal lawyer was grossly incompetent, submitting a cut-and-paste brief from another case.",
+        "keyEvidenceExonerationRaw": [],
+        "no_gunshot_residue_on_rob's_right_hand_or_glove": "Proves he did not fire a gun.",
+        "no_deputy_hill's_blood_on_rob_or_his_clothing": "Contradicts the close-range shooting scenario if Rob was the shooter.",
+        "dispatch_records_analysis": "Shows Rosario had ample time (44 seconds to 1 minute 26 seconds) to return to the crime scene.",
+        "bloodhound_tracking_evidence": "Traced Rosario's scent directly towards the crime scene, not east as the state initially suggested.",
+        "confessions_of_rosario": "Multiple witnesses signed affidavits stating Rosario confessed to the murder.",
+        "natasha_haleyan's_testimony": "Rosario admitted to washing blood off his clothes after the murder.",
+        "rosario's_lies_to_police": "Inconsistencies and denials about his presence, knowledge of Rob, and handling of the gun.",
+        "concealed_police_records": "Evidence that Rosario attempted to hire a gang member (David Cruz) to kill Rob, the eyewitness. Deputy Strickland falsely denied having information about Rob's case.",
+        "fifth_circuit_court_of_appeals_ruling_(2020)": "Sent the case back to Judge Ellison, acknowledging \"disturbing uncertainties\" and \"considerable evidence supporting Will's innocence,\" and stating it is \"reasonably likely\" a jury would have reasonable doubt with the new evidence.",
+        "actualPerpetratorDetails": ""
+    },
+    "keyQuotesRaw": [
+        "Rob Will: \"I truly am innocent.\"",
+        "Rob Will: \"It's not okay. It is not okay.\" (referring to executing innocent people)",
+        "Rob Will: \"Live life, man. Live life.\"",
+        "Judge Ellison described a case containing \"disturbing uncertainties\" and expressed \"deeply felt concerns about the substantial evidence of actual innocence.\"",
+        "Fifth Circuit Court of Appeals: \"There were disturbing uncertainties of Will's culpability even before the introduction of the withheld evidence. Now with the new evidence in hand the uncertainties are even more disturbed.\"",
+        "Fifth Circuit Court of Appeals: \"Rob Will has now demonstrated that it is reasonably likely that after hearing the new evidence alongside the old evidence every reasonable juror would have some level of reasonable doubt.\""
+    ],
+    "systemicIssuesRaw": [
+        "Prosecutorial misconduct (concealing exculpatory evidence - Brady violation).",
+        "Ineffective assistance of counsel at trial and in state habeas appeal.",
+        "\"Wall of blue\" effect creating prejudice and intimidation of the jury.",
+        "Potential for wrongful convictions in capital cases, especially when police officers are victims.",
+        "Difficulties in overturning wrongful convictions in the appellate process.",
+        "Flaws in the application of the death penalty."
+    ],
+    "policyRecommendationsRaw": [
+        "Criminal justice reform to prevent wrongful convictions.",
+        "Increased transparency and accountability for prosecutors regarding disclosure of evidence.",
+        "Improved standards for effective defense counsel, especially in capital cases.",
+        "Re-evaluation of the death penalty system.",
+        "Support for organizations like the Innocence Project.",
+        "Call to action for listeners to sign a petition for a new trial for Rob Will (change.org and freerobwill.org)."
+    ],
+    "personalNarrativeRaw": [
+        "Rob Will's resilience and positive attitude despite wrongful conviction and death row sentence.",
+        "Focus on self-improvement and personal growth through reading, yoga, meditation, and art.",
+        "Dedication to criminal justice reform and advocacy for other wrongfully convicted individuals.",
+        "Desire to reconnect with his son and family after years of incarceration.",
+        "Finding meaning and purpose despite his circumstances."
+    ],
+    "additionalResourcesRaw": [
+        "freerobwill.org (website for Rob Will's case)",
+        "change.org (petition for a new trial for Rob Will)",
+        "Rolling Stone article (details about the case, not specified in title but mentioned)",
+        "InnocenceProject.org (organization to support)",
+        "Music of John Coltrane (mentioned by Rob as a source of inspiration and positivity)",
+        "don'tsleeponosa.com (Sponsor related to sleep apnea)",
+        "KISQALI.com (Sponsor related to breast cancer treatment)",
+        "AAA.com/member (Sponsor for roadside assistance)",
+        "Target.com/circle (Sponsor for Target Circle 360)",
+        "FergusonHome.com (Sponsor for Ferguson Home)",
+        "Intuit.com/enterprise (Sponsor for Intuit Enterprise Suite)",
+        "Amtrak.com (Sponsor for Amtrak)",
+        "mycomputercareer.edu/cwp (Sponsor for My Computer Career)"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Deputy Barrett Hill",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Judge Ellison",
+                "role_guess": "Judge",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "David Cruz",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Deputy Kelly",
+                "role_guess": "Police Officer",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [
+            "Fifth Circuit Court of Appeals"
+        ],
+        "llm_extracted_factors": [
+            "Lack of gunshot residue on Will's hand",
+            "Absence of Deputy Hill's blood on Will's clothing",
+            "Bloodhound tracking evidence",
+            "Difficulties in overturning wrongful convictions in the appellate process"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Prosecutorial Misconduct",
+                "Ineffective Counsel",
+                "Death Penalty",
+                "Criminal Justice Reform"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

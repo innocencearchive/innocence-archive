@@ -1,0 +1,109 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql" // Make sure this matches your database
+  url      = env("DATABASE_URL")
+}
+
+// --- Models based on your SQL Schema ---
+
+model Exoneree {
+  id                  Int      @id @default(autoincrement())
+  last_name           String
+  first_name          String
+  age_at_crime        Float? // REAL maps to Float, made optional as it wasn't NOT NULL
+  race                String
+  sex                 String
+  state               String
+  county              String? // Nullable
+  worst_crime         String
+  sentence            String
+  convicted_year      Int
+  exonerated_year     Int
+  posting_date        DateTime @db.Date // Use @db.Date for SQL DATE type
+  date_of_crime_year  Int
+  // years_to_exoneration is omitted - Prisma doesn't directly model generated columns like this.
+  // This calculation should be done in your application logic when needed.
+  createdAt           DateTime @default(now()) @map("created_at") // Map to snake_case column
+  updatedAt           DateTime @updatedAt @map("updated_at") // Map to snake_case column
+
+  // --- Relationships ---
+  // One-to-one relationship with ContributingFactors
+  contributing_factors ContributingFactors?
+
+  // Many-to-many relationship with Tag (implicit junction table)
+  tags Tag[] @relation("ExonereeTags")
+
+  // Many-to-many relationship with OmTag (implicit junction table)
+  om_tags OmTag[] @relation("ExonereeOmTags")
+
+  // Add database indexes based on your SQL CREATE INDEX statements
+  @@index([last_name])
+  @@index([race])
+  @@index([state])
+  @@index([worst_crime])
+  @@index([convicted_year])
+  @@index([exonerated_year])
+  @@map("exonerees") // Map model name to snake_case table name if desired (optional but common)
+}
+
+model Tag {
+  id              Int        @id @default(autoincrement())
+  tag_code        String     @unique
+  tag_name        String
+  tag_description String
+
+  // Many-to-many relationship back to Exoneree
+  exonerees Exoneree[] @relation("ExonereeTags")
+
+  @@map("tags")
+}
+
+// ContributingFactors represents a one-to-one relationship with Exoneree
+model ContributingFactors {
+  exoneree_id                         Int      @id // This field is both Primary Key and Foreign Key
+  dna_evidence                      Boolean  @default(false)
+  false_misleading_forensic_evidence Boolean  @default(false)
+  false_confession                  Boolean  @default(false)
+  inadequate_legal_defense          Boolean  @default(false)
+  perjury_false_accusation          Boolean  @default(false)
+  mistaken_witness_id               Boolean  @default(false)
+  official_misconduct               Boolean  @default(false)
+
+  // Define the one-to-one relation back to Exoneree
+  exoneree Exoneree @relation(fields: [exoneree_id], references: [id], onDelete: Cascade)
+
+  @@map("contributing_factors")
+}
+
+model OmTag {
+  id              Int        @id @default(autoincrement())
+  tag_code        String     @unique
+  tag_description String
+
+  // Many-to-many relationship back to Exoneree
+  exonerees Exoneree[] @relation("ExonereeOmTags")
+
+  @@map("om_tags")
+}
+
+model CrimeCategory {
+  id             Int    @id @default(autoincrement())
+  crime_name     String @unique
+  severity_order Int
+
+  // Note: There's no explicit relation defined here to Exoneree.worst_crime
+  // If worst_crime should be linked here, the Exoneree model would need adjustment.
+  @@map("crime_categories")
+}
+
+
+// Note on Implicit Many-to-Many Junction Tables:
+// Prisma automatically creates and manages the junction tables (`exoneree_tags` and `exoneree_om_tags`)
+// based on the `@relation` definitions in the `Exoneree`, `Tag`, and `OmTag` models.
+// You don't explicitly define models for simple junction tables unless they have additional fields.

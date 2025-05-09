@@ -1,0 +1,79 @@
+{
+    "sourceFileName": "149_Junk_Science_Arson_Evidence_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: Junk Science",
+    "mediaItem": {
+        "hosts": "Josh Dubin",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions due to junk science, specifically focusing on arson evidence.",
+        "keyStats": "-   In 1973, the \"America Burning\" report led to fire investigation handbooks based on flawed assumptions, not rigorous science.\n-   Visual cues like crazed glass, alligatoring, and puddle formations were wrongly interpreted as definitive signs of arson.\n-   These cues can also occur in accidental fires.\n-   Cameron Todd Willingham was executed in 2004 based on this junk science.\n-   Ernest Willis, convicted on similar evidence, was exonerated in the same year.\n-   The 2009 National Academy of Sciences report criticized many forensic sciences, including arson investigation.\n-   The National Commission on Forensic Science was abolished.",
+        "itemNumber": "149",
+        "itemTitle": "Junk Science Arson Evidence",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction: Junk Science\" examines the flawed arson investigation techniques that have led to wrongful convictions, focusing on the tragic case of Cameron Todd Willingham, who was executed in Texas in 2004. The podcast reveals how fire investigators relied on misinterpreted visual cues like \"crazed glass\" and \"alligatoring\" to conclude arson, evidence now debunked as unreliable and present in accidental fires as well.  It contrasts Willingham's execution with the exoneration of Ernest Willis, highlighting the inconsistencies and injustices within the legal system when dealing with this \"junk science.\" The episode features Barry Shek, co-founder of the Innocence Project, who discusses the history of flawed arson science, landmark cases like Lime Street and Oakland Hills fires that exposed these flaws, and the ongoing struggle to correct these systemic issues in forensic science and the courts.  The episode emphasizes the devastating impact of these wrongful convictions on individuals and families, and the urgent need for scientific rigor and judicial scrutiny in forensic evidence. It concludes with a call to action for listeners to consider the human impact of wrongful convictions and support exonerees."
+    },
+    "featuredIndividual": {
+        "fullName": "Sonya Casey",
+        "caseLocation": "Not explicitly stated, USA.",
+        "convictionYear": "Not explicitly stated, case in 2000s/2010s context.",
+        "exonerationYear": "Eventually exonerated.",
+        "crimeConvictedOf": "Arson and murder of her uncle, Bill Richardson.",
+        "sentence": "99 years in prison.",
+        "timeServed": "Not explicitly stated, but significant time before exoneration.",
+        "contributingFactorsRaw": [
+            "Junk science in arson investigation."
+        ],
+        "status": "Exonerated.",
+        "organizationsInvolvedRaw": [
+            "N/A - focus on autopsy evidence."
+        ],
+        "innocenceLawyersRaw": [
+            "Not mentioned in transcript."
+        ],
+        "crossReference": "Yes, should be in exoneree databases.",
+        "narrativeOriginalCrime": "Accused of arson that killed her uncle, Bill Richardson, in a house fire.",
+        "keyEvidenceProsecutionRaw": [
+            "Junk science arson evidence."
+        ],
+        "trialDefenderNotes": "Not detailed in transcript.",
+        "keyEvidenceExonerationRaw": [
+            "Autopsy revealed her uncle likely died of a heart attack *before* the fire spread, with fluid in his lungs rather than soot, contradicting death by fire."
+        ],
+        "actualPerpetratorDetails": "N/A - Fire likely accidental (uncle was a heavy smoker)."
+    },
+    "keyQuotesRaw": [
+        "\"The fire talks to us, the fire doesn't lie.\" -  Quote representing flawed arson investigation belief.",
+        "\"Much of what was presented to Lee's jury as science is now conceded to be a little more than superstition.\" - Judge's opinion in Han Tak Lee's appeal, highlighting the lack of scientific basis.",
+        "\"Each one of us is more than the worst thing we've ever done.\" - Brian Stevenson quote, emphasizing the need for understanding and second chances for those with criminal records, including exonerees.",
+        "Willingham's last words: \"I am an innocent person convicted of a crime I did not commit. I have been persecuted for 12 years for something I did not do.\" -  Highlights his unwavering claim of innocence."
+    ],
+    "systemicIssuesRaw": [
+        "Reliance on flawed, unscientific \"visual cues\" in arson investigation.",
+        "Lack of scientific validation and empirical testing of arson investigation methods.",
+        "Resistance within the forensic science community to accept and implement scientifically validated methods.",
+        "Judicial deference to \"expert\" testimony, even when based on junk science.",
+        "Political interference with efforts to improve forensic science standards (abolition of the National Commission on Forensic Science).",
+        "Difficulty for exonerees to reintegrate into society due to the stigma of wrongful conviction."
+    ],
+    "policyRecommendationsRaw": [
+        "Need for rigorous scientific validation and oversight of all forensic science disciplines.",
+        "Independent federal entity dedicated to scientific basis and oversight of forensic science.",
+        "Judges need to be more rigorous in scrutinizing scientific evidence and expert testimony.",
+        "Encouragement for employers and landlords to consider the circumstances of past convictions and offer second chances.",
+        "General public needs to be aware of the issue of junk science and wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Cameron Todd Willingham's story highlights the ultimate tragedy of wrongful execution and the devastating impact on his family. His parents scattered his ashes over his children's graves, emphasizing the complete destruction of his life and family.",
+        "Sonya Casey's experience after exoneration illustrates the long-lasting impact of wrongful conviction, even after release, facing difficulty finding work and housing due to her criminal record. This highlights the need for societal support and understanding for exonerees.",
+        "Barry Shek's emotional investment and continued fight for justice in Willingham's case and others demonstrate the profound personal impact these cases have on those working to correct wrongful convictions."
+    ],
+    "additionalResourcesRaw": [
+        "\"America Burning\" report (1973) -  As an example of early, flawed basis of arson investigation.",
+        "National Fire Protection Association (NFPA) 921 - As a standard that discredited earlier arson science.",
+        "2009 National Academy of Sciences report - Critical of forensic science disciplines, including arson investigation.",
+        "Innocence Project - Organization working to exonerate the wrongfully convicted.",
+        "Wrongful Conviction Podcast - Itself as a resource for learning about wrongful convictions and junk science."
+    ]
+}

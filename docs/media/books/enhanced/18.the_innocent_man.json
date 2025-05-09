@@ -1,0 +1,88 @@
+{
+  "source_file_name": "18.the_innocent_man.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "The Innocent Man: Murder and Injustice in a Small Town",
+    "creator_name": "John Grisham",
+    "publication_or_release_year": 2006,
+    "publisher_or_network": "Doubleday",
+    "format": "Non-fiction book",
+    "focus_or_theme": "Wrongful conviction, death penalty, flawed criminal justice system",
+    "key_statistics": "First non-fiction book by John Grisham; adapted into a six-part Netflix documentary series in 2018"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "\"John Grisham's first work of nonfiction challenges what you believe about justice in America.\"",
+      "\"In the town of Ada, Oklahoma, Ron Williamson was going to be the next Mickey Mantle. But on his way to the Big Leagues, Ron stumbled, his dreams broken by drinking, drugs, and women.\""
+    ],
+    "systemic_issues_raw": [
+      "Shoddy investigative work by small and underfunded police departments",
+      "Reliance on unreliable witnesses and flimsy evidence",
+      "Use of \"dream confessions\" as evidence",
+      "Failure to properly evaluate mental competency before trial",
+      "Flawed forensic science (hair analysis)",
+      "Prosecutorial misconduct",
+      "Inadequate legal representation for defendants"
+    ],
+    "policy_recommendations_raw": [
+      "Reform of forensic science standards",
+      "Better funding for public defenders",
+      "Improved mental health screening for defendants",
+      "Stricter standards for admissibility of evidence",
+      "Reforms to prevent prosecutorial misconduct",
+      "Greater scrutiny of jailhouse informant testimony"
+    ],
+    "additional_resources_raw": [
+      "Netflix documentary series \"The Innocent Man\" (2018)",
+      "Dennis Fritz's book \"Journey Toward Justice\" (2006)",
+      "Robert Mayer's book \"The Dreams of Ada\" (1987) - covers related wrongful convictions in the same town"
+    ],
+    "research_notes_other": {
+      "this_book_is_particularly_valuable_for_our_project_as_it": "1. Was written by a high-profile author (John Grisham), bringing significant public attention to wrongful convictions\n2. Provides a detailed account of how multiple systemic failures can lead to a wrongful conviction\n3. Highlights the role of DNA evidence in exonerations\n4. Examines the impact of mental illness on criminal proceedings\n5. Documents the psychological damage caused by wrongful incarceration\n6. Explores multiple wrongful conviction cases from the same small town, suggesting systemic local issues\n7. Has been adapted into a Netflix documentary series, extending its reach and impact\nThe book also documents what happened to Williamson after his exoneration - he and Fritz sued and won a settlement of $500,000 in 2003 from the City of Ada, and an undisclosed settlement from the State of Oklahoma. Sadly, Williamson died on December 4, 2004, in a nursing home in Broken Arrow, Oklahoma, after being diagnosed with cirrhosis of the liver due to decades of alcohol abuse.\nThe real perpetrator, Glen Gore, was eventually convicted of the crime in 2003 and sentenced to life in prison without parole."
+    },
+    "item_title": "Book Content: The Innocent Man: Murder and Injustice in a Small Town",
+    "focus_or_theme": "Wrongful conviction, death penalty, flawed criminal justice system",
+    "summary_notes": "John Grisham's non-fiction account of the wrongful conviction of Ron Williamson for rape and murder in Ada, Oklahoma.  The book details multiple systemic failures, including flawed forensic evidence, false confessions, and inadequate legal representation, contributing to Williamson's 11 years on death row before exoneration by DNA evidence.  It also explores the broader issue of wrongful convictions within the Ada justice system and examines the psychological impact of wrongful incarceration.  The book concludes with the eventual conviction of the real perpetrator, Glen Gore, and Williamson's later death.",
+    "case_details_raw": "The book focuses on the wrongful conviction of Ron Williamson for the rape and murder of Debra Sue Carter in Ada, Oklahoma.  Williamson spent 11 years on death row before being exonerated by DNA evidence. The book details the flawed investigation, including improper hair analysis, a false confession based on a dream, and reliance on jailhouse informants.  It also describes the eventual conviction of Glen Gore for the crime in 2003."
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Ronald \"Ron\" Keith Williamson",
+      "first_name": "Ronald",
+      "middle_name": "Ron",
+      "last_name": "Williamson",
+      "case_location": "Ada, Oklahoma",
+      "conviction_year": 1988,
+      "exoneration_or_release_year": 1999,
+      "crime_convicted_of": "Rape and murder of Debra Sue Carter (21-year-old cocktail waitress)",
+      "sentence": "Death penalty",
+      "time_served": "11 years on death row",
+      "contributing_factors_raw": [
+        "Flawed forensic evidence (improper hair analysis)",
+        "False confession (police interpreted Williamson's \"dream\" about the crime as a confession)",
+        "Jailhouse informants",
+        "Government misconduct",
+        "Inadequate defense",
+        "Mental illness (Williamson suffered from manic depression, personality disorders, and mild schizophrenia)"
+      ],
+      "status_raw": "Exonerated by DNA evidence",
+      "organizations_involved_raw": [
+        "The Innocence Project"
+      ],
+      "cross_reference": "Dennis Fritz (co-defendant who was also wrongfully convicted and sentenced to life in prison)",
+      "individual_notes": "Williamson and Fritz sued and won a settlement of $500,000 in 2003 from the City of Ada, and an undisclosed settlement from the State of Oklahoma. Williamson died on December 4, 2004, in a nursing home in Broken Arrow, Oklahoma, after being diagnosed with cirrhosis of the liver due to decades of alcohol abuse."
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "John Grisham",
+      "role": "AUTHOR",
+      "first_name": "John",
+      "middle_name": null,
+      "last_name": "Grisham"
+    }
+  ],
+  "research_strategy_notes_raw": "This book is particularly valuable for our project as it:\n1. Was written by a high-profile author (John Grisham), bringing significant public attention to wrongful convictions\n2. Provides a detailed account of how multiple systemic failures can lead to a wrongful conviction\n3. Highlights the role of DNA evidence in exonerations\n4. Examines the impact of mental illness on criminal proceedings\n5. Documents the psychological damage caused by wrongful incarceration\n6. Explores multiple wrongful conviction cases from the same small town, suggesting systemic local issues\n7. Has been adapted into a Netflix documentary series, extending its reach and impact\n\nThe book also documents what happened to Williamson after his exoneration - he and Fritz sued and won a settlement of $500,000 in 2003 from the City of Ada, and an undisclosed settlement from the State of Oklahoma. Sadly, Williamson died on December 4, 2004, in a nursing home in Broken Arrow, Oklahoma, after being diagnosed with cirrhosis of the liver due to decades of alcohol abuse.\n\nThe real perpetrator, Glen Gore, was eventually convicted of the crime in 2003 and sentenced to life in prison without parole.",
+  "research_notes_raw": null
+}

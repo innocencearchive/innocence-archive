@@ -1,0 +1,105 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not explicitly stated in the transcript, but episode title could be inferred as being about Clarence Jones III.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2024 (Based on February 2024 Nielsen report mentioned in ad)
+-   **Production Company(ies)/Network**: LavaForGood podcast in association with Signal Company number one
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, shaken baby syndrome, junk science, forensic science, legal injustice
+-   **Key Statistics/Information**:
+    - Discover accepted at 99% of places that take credit cards nationwide (advertisement)
+    - 16.5 billion dollars in refunds flagged by IRS for possible identity fraud last year (advertisement)
+    - 20% overall increase in identity theft related to tax fraud in 2024 (advertisement)
+    - 100 million data points LifeLock monitors every second (advertisement)
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction tells the harrowing story of Clarence Jones III, who was wrongfully convicted of murdering his infant son, Colin, in 1999.  Clarence and his attorney, Lauren Kelleher, detail how the now-discredited "shaken baby syndrome" (SBS) theory and flawed medical testimony led to his conviction.  Despite no evidence of violent shaking and a clear medical history of Colin's pre-existing conditions, including a bleeding disorder and sepsis, the medical and legal systems rushed to judgment.  Clarence spent 18 years in prison before being exonerated in 2021 thanks to the Mid-Atlantic Innocence Project. The episode highlights the devastating impact of junk science on the justice system and the urgent need for reform, emphasizing the personal tragedy and systemic failures that Clarence endured.
+
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Clarence Jones III
+-   **Case Location**: Baltimore County, Maryland, USA
+-   **Conviction Year**: 1999
+-   **Exoneration Year**: 2021
+-   **Crime Convicted Of**: Child abuse and second-degree murder (originally first-degree, reduced to second)
+-   **Sentence**: 30 years for murder, 15 years for child abuse, to be served concurrently (total 30 years)
+-   **Time Served**: 18 years
+-   **Contributing Factors**:
+    - Shaken Baby Syndrome (SBS) misdiagnosis/junk science
+    - Flawed medical testimony based on outdated understanding of SBS
+    - Failure to consider pre-existing medical conditions (Thrombocytopenia, sepsis, difficult birth, pneumonia diagnosis)
+    - Racial bias (implied but not explicitly proven)
+    - Tunnel vision by investigators and prosecutors focusing solely on SBS
+-   **Legal Status**: Exonerated (Petition for Writ of Actual Innocence granted)
+-   **Organizations Involved**:
+    - Mid-Atlantic Innocence Project
+    - Skadnarp, Slatemore, and Flom (pro bono legal assistance through Don Salzman)
+    - Center for Integrity and Forensic Sciences (Kate Judson)
+-   **Innocence Lawyer Details**:
+    - Lauren Kelleher (Civil Attorney, joined continued fight for justice)
+    - Francis Walters (Mid-Atlantic Innocence Project Attorney, led exoneration efforts)
+    - Don Salzman (Skadnarp, Slatemore, and Flom, pro bono assistance)
+-   **Cross-Reference**: Not explicitly mentioned if in exoneree database, needs to be checked externally.
+-   **Narrative of Original Crime**: Clarence Jones was accused of violently shaking his nine-week-old son, Colin, leading to brain hemorrhages and retinal bleeding, ultimately causing Colin's death.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Medical expert testimony (Dr. Dennis Shute, Dr. Aaron Zuckerberg, Dr. Timothy Polk) stating retinal hemorrhaging and intracranial bleeding were definitive signs of child abuse and shaken baby syndrome.
+    - Dr. Polk stated the retinal hemorrhaging was the most severe he had ever seen and ruled out other causes like sepsis.
+    - Detective Philip Marl's testimony about Clarence's emotional reaction when confronted with the doctor's diagnosis.
+    - Prosecutor's implication that Clarence's protein shakes were suspicious, potentially laced with steroids.
+-   **Trial Defender Notes**:
+    - Defense attorney Donald Donovan hired by Clarence's mother-in-law.
+    - Defense expert conceded SBS might have played a part, weakening the defense.
+    - Defense seemed to "nibble around the edges" of SBS theory, not directly challenging it due to the prevailing medical consensus at the time.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - Re-evaluation of medical evidence with current scientific understanding of SBS.
+    - Expert testimony demonstrating that Colin's symptoms were consistent with pre-existing medical conditions like Thrombocytopenia, sepsis, and DIC (Disseminated Intravascular Coagulation).
+    - Biomedical engineer testimony disproving violent shaking as the sole cause without external injuries.
+    - New understanding of retinal hemorrhaging and intracranial bleeding not being exclusive indicators of SBS.
+-   **Actual Perpetrator Details**: Not applicable, case was a medical misdiagnosis and wrongful accusation, not a case of mistaken identity or failure to find the actual perpetrator.
+
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - **Jason Flom**: "What if you lost a child and then were wrongfully accused of causing the death of your own child and sentenced to 30 years in prison for a crime that never even happened?" (Opening question setting the stage for the episode)
+    - **Lauren Kelleher**: "Back when this case occurred in 1998, the only way people really looked at it was that violent shaking could be the only cause of this triad of findings, but they never tested it. They just assumed it." (Highlighting the flawed assumptions of SBS diagnosis)
+    - **Clarence Jones III**: "I'll die. I'll die in here because I said, I'm not going to tell you something I didn't do." (Speaking about parole hearings and refusing to admit guilt)
+    - **Francis Walters (recounted by Clarence)**: "Mr. Jones, I'm going to get you out. We know what's going on. I'm going to stay with you from this time all the way till you get home." (Promising to fight for his exoneration)
+    - **Clarence Jones III**: "No amount of compensation and all this could fix that with the death of losing the child. My son, that's a hard thing." (Expressing the irreparable loss of his son)
+    - **Lauren Kelleher**: "Imagine the worst thing that could happen to you. And now imagine that everyone is saying it's your fault..." (Describing the unimaginable ordeal Clarence faced)
+    - **Clarence Jones III**: "doctors need to consider the medical history, examine instead of rushing to judgment. We got to look at all the different facets of how they fit together before you can just go out and just accuse someone just because it happens..." (Call for systemic change in how medical professionals and the justice system handle similar cases)
+-   **Systemic Issues Identified**:
+    - Junk science and its impact on wrongful convictions (specifically Shaken Baby Syndrome).
+    - Tunnel vision and confirmation bias in medical and legal investigations.
+    - Over-reliance on expert testimony without critical evaluation, particularly in forensic science.
+    - Racial and socioeconomic biases in the criminal justice system (implied in the transcript).
+    - Inadequate support and resources for exonerees upon release from prison.
+    - Difficult parole system that often requires false admission of guilt.
+-   **Policy Recommendations/Calls to Action**:
+    - Need for continued education and training for medical and legal professionals on the evolving understanding of conditions mimicking SBS.
+    - Reform of forensic science standards and practices to prevent reliance on outdated or flawed theories.
+    - Increased scrutiny of expert witness testimony in court.
+    - Improved support systems for exonerees, including financial compensation, housing, and reintegration services.
+    - Encouraging listeners to support organizations like the Mid-Atlantic Innocence Project.
+    - Call for medical professionals to thoroughly examine medical history and consider all facets before rushing to judgment in child injury cases.
+-   **Personal Narrative/Impact**:
+    - Clarence's life was completely devastated by the wrongful conviction, losing his son and 18 years of his life.
+    - He faced immense hardship in prison, including thoughts of suicide, but found strength in his faith and research in the law library.
+    - Despite the exoneration, the emotional scars and the loss of his son remain deeply painful.
+    - He emphasizes the importance of family support and faith in overcoming injustice.
+    - He expresses fear for other parents who might face similar wrongful accusations based on misdiagnosis.
+-   **Additional Resources**:
+    - Mid-Atlantic Innocence Project (mentioned and should be linked in podcast bio)
+    - Center for Integrity and Forensic Sciences (mentioned and should be linked)
+    - Greenberg Traureg (law firm sponsoring the episode, pro bono program mentioned)
+    - Skadnarp, Slatemore, and Flom (law firm, pro bono assistance mentioned)
+```

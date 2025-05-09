@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% block title %}Resources - Wrongfully Convicted Americans{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="container">
+        <h1>Media Resources</h1>
+        <p>Explore books, podcasts, documentaries, and articles about wrongful convictions.</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Search media resources...">
+            <button type="submit"><i class="fas fa-search"></i> Search</button>
+        </div>
+    </div>
+</section>
+
+<section class="resources-page">
+    <div class="container">
+        <div class="filter-panel">
+            <div class="filter-section">
+                <h3>Media Type</h3>
+                <div class="filter-options">
+                    {% for media_type in media_types %}
+                    <div class="filter-checkbox">
+                        <input type="checkbox" id="type-{{ media_type.id }}" name="media-type" value="{{ media_type.id }}">
+                        <label for="type-{{ media_type.id }}">{{ media_type.name }}</label>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <h3>Publication Date</h3>
+                <div class="filter-options">
+                    <div class="filter-range">
+                        <label for="pub-date-from">From:</label>
+                        <input type="number" id="pub-date-from" name="pub-date-from" min="1970" max="2025">
+                        
+                        <label for="pub-date-to">To:</label>
+                        <input type="number" id="pub-date-to" name="pub-date-to" min="1970" max="2025">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="filter-actions">
+                <button class="clear-filters">Clear All Filters</button>
+                <button class="apply-filters">Apply Filters</button>
+            </div>
+        </div>
+        
+        <div class="resources-container">
+            <div class="results-header">
+                <div class="results-count">
+                    <p>Showing <span id="results-shown">{{ media_resources|length }}</span> of <span id="results-total">{{ media_count }}</span> resources</p>
+                </div>
+                <div class="results-sort">
+                    <label for="sort-by">Sort by:</label>
+                    <select id="sort-by" name="sort-by">
+                        <option value="title">Title (A-Z)</option>
+                        <option value="date-desc">Publication Date (Newest)</option>
+                        <option value="date-asc">Publication Date (Oldest)</option>
+                        <option value="cases-desc">Number of Cases (Most)</option>
+                        <option value="cases-asc">Number of Cases (Least)</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="resources-grid">
+                {% for resource in media_resources %}
+                <div class="resource-card">
+                    <div class="resource-content">
+                        <div class="resource-type">{{ resource.media_type }}</div>
+                        <h3 class="resource-title">{{ resource.title }}</h3>
+                        <p class="resource-creator">By {{ resource.creator }}</p>
+                        <p class="resource-cases">Related to {{ resource.exoneree_count }} cases</p>
+                        {% if resource.url %}
+                        <a href="{{ resource.url }}" target="_blank" class="resource-link">View Resource <i class="fas fa-external-link-alt"></i></a>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <div class="pagination">
+                <button class="pagination-prev" {% if current_page == 1 %}disabled{% endif %}>
+                    <i class="fas fa-chevron-left"></i> Previous
+                </button>
+                <div class="pagination-pages">
+                    {% for page in pages %}
+                    <a href="?page={{ page }}" class="pagination-page {% if page == current_page %}active{% endif %}">{{ page }}</a>
+                    {% endfor %}
+                </div>
+                <button class="pagination-next" {% if current_page == total_pages %}disabled{% endif %}>
+                    Next <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="featured-resources">
+    <div class="container">
+        <h2 class="section-title">Featured Resources</h2>
+        <div class="featured-resources-grid">
+            {% for featured in featured_resources %}
+            <div class="featured-resource-card">
+                <div class="resource-icon">
+                    <i class="fas {% if featured.media_type == 'Podcast' %}fa-podcast{% elif featured.media_type == 'Book' %}fa-book{% elif featured.media_type == 'News Article' %}fa-newspaper{% elif featured.media_type == 'Documentary' %}fa-film{% elif featured.media_type == 'TV Show' %}fa-tv{% else %}fa-link{% endif %}"></i>
+                </div>
+                <div class="resource-content">
+                    <div class="resource-type">{{ featured.media_type }}</div>
+                    <h3 class="resource-title">{{ featured.title }}</h3>
+                    <p class="resource-creator">By {{ featured.creator }}</p>
+                    <p class="resource-description">{{ featured.description }}</p>
+                    <p class="resource-cases">Related to {{ featured.exoneree_count }} cases</p>
+                    {% if featured.url %}
+                    <a href="{{ featured.url }}" target="_blank" class="resource-link">View Resource <i class="fas fa-external-link-alt"></i></a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/resources.js"></script>
+{% endblock %}

@@ -1,0 +1,115 @@
+{
+    "sourceFileName": "216_Jason_Flom_with_James_King_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcast in association with signal company number one",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction stories, investigative journalism, legal analysis of wrongful convictions.",
+        "keyStats": "James King served 25 years for a crime he did not commit. He was convicted twice despite significant holes in the prosecution's case and false evidence.",
+        "itemNumber": "216",
+        "itemTitle": "Jason Flom with James King",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom details the harrowing case of James King, who was wrongfully convicted of sexual assault and spent 25 years in prison. The episode unfolds the series of lies and inconsistencies in the testimony of the alleged victim, a 13-year-old girl named Jamie, and the questionable medical testimony used to corroborate her story. Despite clear evidence of falsehoods, including contradictory statements about the location and type of carpet where the alleged assault occurred and the lack of semen evidence, King was convicted twice. The podcast highlights the systemic failures within the justice system, including ineffective legal counsel and prosecutorial decisions that led to this tragic miscarriage of justice. The episode features interviews with King himself and his attorney, Ian Graham, underscoring the devastating impact of wrongful convictions on individuals and their families and calling for public support to help exonerate James King."
+    },
+    "featuredIndividual": {
+        "fullName": "James King",
+        "caseLocation": "Salinas, California, USA",
+        "convictionYear": "Original conviction not explicitly stated but implied to be around 1997/1998. Retried and convicted again in 2010 (approximately).",
+        "exonerationYear": "Not yet exonerated as of the podcast recording.",
+        "crimeConvictedOf": "Aggravated sexual assault on a child and lewd conduct with a child.",
+        "sentence": "35 years to life",
+        "timeServed": "25 years (as of the podcast recording)",
+        "contributingFactorsRaw": [
+            "False accusation by a child (Jamie) influenced by her mother (Ruth Ann) seeking revenge.",
+            "Unreliable and changing testimony of the alleged victim.",
+            "Lack of physical evidence (semen test negative).",
+            "False and \"absurd\" medical expert testimony.",
+            "Ineffective assistance of trial counsel.",
+            "Prior burglary conviction (strike) prejudiced the jury."
+        ],
+        "status": "Currently incarcerated, pursuing legal avenues for exoneration, including a petition to the California Supreme Court and potential clemency from the governor.",
+        "organizationsInvolvedRaw": [
+            "Cravis Graham and Zucker (Ian Graham's law firm) assisting with post-conviction legal efforts. Paul Weiss, Rifkin, Orton, and Garrison (podcast underwriter) supports pro bono legal assistance in criminal justice."
+        ],
+        "innocenceLawyersRaw": [
+            "Ian Graham, a civil rights attorney with Cravis Graham and Zucker, is currently representing James King in his post-conviction efforts. He is described as deeply convinced of James King's innocence and is pursuing legal avenues including habeas petitions alleging false evidence and ineffective appellate counsel."
+        ],
+        "crossReference": "Not explicitly stated if he is in an exoneree database within the transcript.",
+        "narrativeOriginalCrime": "James King was accused of sexually assaulting 13-year-old Jamie in the garage of Doug Dobell's house on August 1, 1997.  Jamie claimed he took her to a convenience store, then assaulted her in the garage on a carpet, ejaculating on it.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of Jamie accusing James King of sexual assault.",
+            "Medical expert testimony from Dr. Valerie Barnes, claiming to find physical signs consistent with sexual assault, later deemed \"medically absurd\" by other experts."
+        ],
+        "trialDefenderNotes": "Original public defender failed to call a medical expert to rebut Dr. Barnes' testimony, which was later deemed ineffective assistance of counsel by a federal judge in the first overturned conviction.",
+        "keyEvidenceExonerationRaw": [
+            "Carpet test negative for semen, contradicting Jamie's testimony.",
+            "Jamie's changing story about the carpet (tan/brown to blue, dog ate it).",
+            "Contradictions between Jamie's and her mother Ruth Ann's initial statements.",
+            "Diary entries of Jamie suggesting sexual interactions with Eli Roman around the time of the alleged assault.",
+            "Expert medical opinions from Dr. Crawford and Dr. Coleman refuting Dr. Barnes' findings as \"medically absurd\" and not indicative of recent assault.",
+            "Federal judge initially overturned the conviction due to ineffective assistance of counsel (failure to rebut medical testimony)."
+        ],
+        "actualPerpetratorDetails": "Jamie's diary and later statements suggest that Eli Roman, who was living in the same house, may have been sexually assaulting her.  Jamie mentioned sexual interactions with Eli around the time of the alleged assault by King and later admitted to investigators that Eli, not King, assaulted her in the living room."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"This story is the story of a man who's been in prison for a quarter century for a crime that never happened. And it's got so many lies in it that you'll, you may need a pen and paper to keep track of the lies.\"",
+        "Ian Graham (regarding Dr. Barnes' testimony): \"That's just simply false. It's false. And we know it's false because when James King's conviction was overturned for the first time, it was overturned because his lawyer had failed to call a medical expert to rebut that testimony from Valerie Barnes.\"",
+        "Ian Graham: \"This is a case that every lawyer who's touched it, aside from a prosecutor, would tell you that, and I'd tell you that [James King is factually innocent].\"",
+        "James King: \"I'm just, I'm just, just, just begging that somebody will please just help me... I am totally innocent of this crime.\""
+    ],
+    "systemicIssuesRaw": [
+        "Ineffective assistance of counsel (original trial lawyer).",
+        "False and unreliable eyewitness testimony (child witness in a vulnerable situation).",
+        "Misleading and potentially biased expert testimony.",
+        "Prosecutorial decisions to retry despite weak and contradictory evidence.",
+        "Prejudice against defendants with prior criminal records.",
+        "Difficulty in overturning wrongful convictions even with strong evidence of innocence."
+    ],
+    "policyRecommendationsRaw": [
+        "Call for public support by signing a Change.org petition to raise awareness and pressure for James King's exoneration.",
+        "Implicit call for greater scrutiny of child testimony and expert medical testimony in sexual assault cases.",
+        "Implicit call for improved standards for effective legal representation, particularly in cases with weak evidence."
+    ],
+    "personalNarrativeRaw": [
+        "James King's 25 years of wrongful incarceration, the violence and danger he faced in prison due to being labeled a sex offender, and his desperate plea for help to prove his innocence.",
+        "The devastating impact on James King's mother, Lillian, and her declining health, with her greatest wish being to see her son free before she passes away.",
+        "Ian Graham's personal reflection on the emotional weight of wrongful conviction cases and the feeling of potential failure if they cannot secure James King's release."
+    ],
+    "additionalResourcesRaw": [
+        "Change.org petition (link in bio of the podcast episode) to support James King's exoneration.",
+        "Local Innocence Projects mentioned for general support of wrongful conviction cases."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Jamie",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Dr. Barnes",
+                "role_guess": "Medical Expert",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Ineffective legal counsel",
+            "Prosecutorial decisions to retry despite weak and contradictory evidence",
+            "Prejudice against defendants with prior criminal records"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Systemic failures in the justice system",
+                "Miscarriage of justice",
+                "Wrongful conviction"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "sourceFileName": "009_Jason_Flom_with_Michael_Morton_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2016",
+        "network": "Lava for Good podcast in association with signal company number one",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system reform, personal stories of exonerees",
+        "keyStats": "-   Michael Morton served 24 years and 7 months for a crime he did not commit.\n-   No prosecutor in the US had been jailed for wrongful conviction until Ken Anderson in Michael Morton's case.\n-   The Michael Morton Act in Texas mandates open file discovery in criminal cases.",
+        "itemNumber": "009",
+        "itemTitle": "Jason Flom with Michael Morton",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features an interview with Michael Morton, who was wrongfully convicted of his wife's murder and spent nearly 25 years in prison.  Morton recounts the day of his wife's murder, the suspicious police investigation, and his eventual trial and conviction based on circumstantial evidence.  He details the discovery of withheld exculpatory evidence, including a statement from his young son and DNA evidence on a bandana, which ultimately led to his exoneration. The episode also covers the groundbreaking prosecution and jailing of the prosecutor, Ken Anderson, for misconduct, and the creation of the Michael Morton Act, aimed at preventing future wrongful convictions through open file discovery.  Morton emphasizes the profound personal impact of wrongful conviction, including the loss of time with his son and the psychological toll of incarceration, but also his journey towards hope and faith during his imprisonment and his advocacy for justice reform post-exoneration."
+    },
+    "featuredIndividual": {
+        "fullName": "Michael Morton",
+        "caseLocation": "Austin, Texas, USA",
+        "convictionYear": "1987 (approximately, based on transcript referring to 1986-87 files)",
+        "exonerationYear": "2011 (approximately, based on serving 24 years and 7 months from March 4th to October 4th)",
+        "crimeConvictedOf": "Murder of his wife, Christine Morton",
+        "sentence": "Life imprisonment",
+        "timeServed": "24 years and 7 months",
+        "contributingFactorsRaw": [
+            "Prosecutorial misconduct (withholding exculpatory evidence)",
+            "Ineffective assistance of counsel (inability to access suppressed evidence)",
+            "Circumstantial evidence used by prosecution"
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project"
+        ],
+        "innocenceLawyersRaw": [
+            "Bill White and Bill Allison (original trial attorneys, mentioned by neighbor, but seemingly ineffective in preventing wrongful conviction due to suppressed evidence)",
+            "Innocence Project (Nina Morrison) and pro bono lawyer John Rayleigh (Houston civil attorney, instrumental in DNA testing and legal process for exoneration)"
+        ],
+        "crossReference": "Yes (exoneree database likely to include Michael Morton)",
+        "narrativeOriginalCrime": "Christine Morton was murdered in her bed. Michael Morton was initially told by the sheriff that it was murder. The crime scene was investigated, and Michael became a suspect.",
+        "keyEvidenceProsecutionRaw": [
+            "Circumstantial evidence and emotional pleas by the prosecution.",
+            "Fabricated issue of semen stain on bedsheets to paint Michael as a \"murderous perv\"."
+        ],
+        "trialDefenderNotes": "-   Defense attorneys advised Michael to remain calm and not react emotionally to prosecutor's accusations, relying on legal process to \"clean up\" false claims.\n-   Defense attorneys requested exculpatory evidence but were denied access by the prosecution.",
+        "keyEvidenceExonerationRaw": [
+            "DNA testing of a bandana found near the crime scene revealed DNA of Christine Morton and an unknown male, excluding Michael Morton.",
+            "Withheld transcript of son's statement to his grandmother describing a man with a mustache and gloves hitting his mother, while stating his father was not present.",
+            "Discovery of a similar murder case of Deborah Baker in Austin, committed after Christine Morton's death, with striking similarities, pointing to a potential serial perpetrator.",
+            "CODIS hit linking DNA from the bandana to Mark Norwood, who was later arrested for both murders."
+        ],
+        "actualPerpetratorDetails": "-   Mark Norwood: Identified through DNA evidence on the bandana and CODIS match. Arrested after Michael Morton's release and linked to the murder of Deborah Baker, which shared similarities with Christine Morton's murder."
+    },
+    "keyQuotesRaw": [
+        "\"Cops came out with guns drawn and I never saw freedom ever ever since after that.\" - Michael Morton, describing the day of his arrest.",
+        "\"Prison, it's not what you think it is. It's a subculture. It's very insular. It's not like the outside world.\" - Michael Morton, on the nature of prison.",
+        "Lonnie's advice: \"You have to have hope... like you, it's your son.\" - Prison acquaintance's advice that helped Michael Morton cope.",
+        "\"I found myself bathe in golden light, inexplicable, wonderful, beautiful, reassuring golden light...I was in the presence of God.\" - Michael Morton, describing his spiritual experience in prison.",
+        "\"We will either confirm your conviction and make it unassailable or will free an innocent man.\" - John Rayleigh's statement in court about DNA testing the bandana."
+    ],
+    "systemicIssuesRaw": [
+        "Prosecutorial misconduct: Withholding of exculpatory evidence by prosecutor Ken Anderson.",
+        "Lack of accountability for prosecutors in wrongful conviction cases.",
+        "Closed discovery practices in criminal cases prior to the Michael Morton Act.",
+        "Impact of tunnel vision in investigations, leading to premature focus on a suspect and neglect of other leads."
+    ],
+    "policyRecommendationsRaw": [
+        "Support the Innocence Project (InnocenceProject.org).",
+        "Advocate for open file discovery policies like the Michael Morton Act in all states.",
+        "Promote accountability for prosecutorial misconduct to prevent wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Michael Morton's life was irrevocably changed by wrongful conviction, losing his freedom and time with his son.",
+        "He experienced the harsh realities of prison life, including violence and despair.",
+        "His spiritual experience in prison provided him with hope and resilience.",
+        "Post-exoneration, he remarried, reconnected with his son, wrote a book (\"Getting Life\"), and became an advocate for criminal justice reform, instrumental in the Michael Morton Act.",
+        "Final thoughts emphasized the importance of hope and the profound impact of wrongful conviction on individuals and families."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project (InnocenceProject.org)",
+        "Book: \"Getting Life\" by Michael Morton",
+        "Mention of 60 Minutes episode and a movie about Michael Morton's case (though specific titles not given in transcript)."
+    ]
+}

@@ -1,0 +1,88 @@
+{
+  "source_file_name": "9.19.give_up_tomorrow.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "Give Up Tomorrow",
+    "creator_name": "Michael Collins",
+    "publication_or_release_year": 2011,
+    "publisher_or_network": "First Run Features",
+    "focus_or_theme": "The controversial conviction of Paco Larrañaga in the Philippines for the kidnapping, rape, and murder of the Chiong sisters; judicial corruption; flaws in the justice system; the death penalty.",
+    "summaryNotes": "Larrañaga had numerous witnesses testifying he was hundreds of miles away in Quezon City at the time of the crime in Cebu. Key prosecution witness Davidson Rusia's credibility was severely challenged.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Give Up Tomorrow",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "The controversial conviction of Paco Larrañaga in the Philippines for the kidnapping, rape, and murder of the Chiong sisters; judicial corruption; flaws in the justice system; the death penalty.",
+    "summary_notes": "This documentary focuses on the conviction of Paco Larrañaga in the Philippines, highlighting issues of judicial corruption, flawed justice systems, and the death penalty. It examines the alibi evidence presented and the controversial testimony of a key witness.",
+    "key_quotes_raw": [
+      "Specific quotes not found in search results.",
+      "Key moments likely include the presentation of Larrañaga's alibi",
+      "The controversial testimony of Davidson Rusia",
+      "The Supreme Court's death penalty imposition",
+      "His transfer to Spain."
+    ],
+    "systemic_issues_raw": [
+      "Consequences of a broken justice system",
+      "Questionable prosecutorial tactics",
+      "Limitations on defense rights",
+      "Potential for corruption",
+      "Impact of media and political pressure on judicial outcomes",
+      "Issues surrounding the death penalty."
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for judicial reform in the Philippines",
+      "Fair trial standards",
+      "Scrutiny of convictions, especially in capital cases."
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chiong_murder_case",
+        "description": "Wikipedia page on the Chiong murder case"
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Francisco Juan \"Paco\" Larrañaga",
+      "first_name": "Francisco",
+      "middle_name": "Juan \"Paco\"",
+      "last_name": "Larrañaga",
+      "status": "CONVICTED",
+      "conviction_year": 1999,
+      "exoneration_or_release_year": null,
+      "time_served": "1997-Present",
+      "sentence": "Death penalty (later commuted to life imprisonment)",
+      "crime_convicted_of_raw": "Kidnapping and Serious Illegal Detention with Homicide and Rape (Chiong sisters case)",
+      "case_location_city": "Cebu City",
+      "case_location_state": "Philippines",
+      "narrative_summary": "Francisco Juan \"Paco\" Larrañaga was convicted in the Philippines for the kidnapping, rape, and murder of the Chiong sisters. He maintains his innocence and presented alibi evidence. He is currently serving his sentence in Spain.",
+      "contributing_factors_raw": [
+        "Unreliable/questionable witness testimony (key witness Rusia admitted to prior convictions after denying them)",
+        "Limited ability for defense to cross-examine key witness",
+        "Alleged judicial corruption",
+        "Ignoring strong alibi evidence."
+      ],
+      "organizations_involved_raw": [
+        "Likely human rights organizations and Spanish diplomatic efforts involved in his transfer."
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Michael Collins",
+      "first_name": "Michael",
+      "middle_name": null,
+      "last_name": "Collins",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

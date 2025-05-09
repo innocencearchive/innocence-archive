@@ -1,0 +1,86 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**:  Episode 8 (originally released November 28, 2016) - Interview with Doug Delosa
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2016
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, Brady Violations, Police Misconduct, Re-entry after incarceration, Impact on families of the wrongfully convicted.
+-   **Key Statistics/Information**:
+    - Louisiana has a three times higher rate of incarceration than the rest of the country per capita.
+    - America has a five times higher rate of incarceration than the rest of the world.
+    - Louisiana compensation statute allows for $25,000 a year for a maximum of 10 years of wrongful incarceration, often falling short of actual expenses.
+    - 20 states have no compensation statutes for wrongful conviction.
+    - There have been 46 exonerations in Louisiana since 1989, a quarter of which occurred in Jefferson County (the office that prosecuted Doug Delosa).
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features an interview with Doug Delosa, who was wrongfully convicted of murdering his wife and served 14 years of a life sentence in Angola prison before exoneration. Delosa recounts the horrific crime scene where he was attacked and his wife murdered, the subsequent flawed police investigation that quickly turned suspicion on him, and the trial marred by Brady violations, specifically the withholding of fingerprint evidence and a taxi driver's testimony about seeing two black men fleeing his home shortly after the murder.  The episode details the brutal conditions of Angola prison, Delosa's eventual self-taught legal fight for freedom, and the paltry compensation he received post-exoneration. The episode also includes commentary from Nina Morrison of the Innocence Project on the prevalence and impact of Brady violations and potential reforms.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Doug Delosa
+-   **Case Location**:  Canada, Louisiana (just outside of New Orleans)
+-   **Conviction Year**:  December 29th (year not explicitly stated in this segment, but implied to be soon after the murder in September)
+-   **Exoneration Year**:  (23 years of freedom as of 2023, and 14 years served, implies exoneration around 2000)
+-   **Crime Convicted Of**: Murder of his wife, Glinda Delosa
+-   **Sentence**: Life sentence without parole
+-   **Time Served**: 14 years
+-   **Contributing Factors**:
+    - Police and prosecutorial misconduct (framing, withholding evidence - Brady violations)
+    - Perjury by fingerprint expert
+    - Tunnel vision by law enforcement focusing solely on Doug Delosa as the suspect.
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**: Innocence Project (Jason Flom is a founding board member, though Doug represented himself legally for his exoneration). Rising Foundation (Doug works with them post-exoneration).
+-   **Innocence Lawyer Details**: Doug Delosa acted as his own lawyer for his federal writ of habeas corpus, with assistance from inmate council substitutes in the prison law library. He had previously hired approximately seven lawyers who were ineffective.
+-   **Cross-Reference**: Yes (mentioned in the context of the National Registry of Exonerations statistics).
+-   **Narrative of Original Crime**:  Doug Delosa and his wife were home with their two young children when two intruders broke into their house in the early morning hours. Doug was attacked and hog-tied downstairs, and his wife was murdered upstairs.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Circumstantial case based on the theory that Doug Delosa murdered his wife.
+    - Lack of evidence supporting Doug's account of two black intruders.
+    - Prosecution emphasized the absence of any witnesses seeing suspicious activity or black men in the neighborhood that night.
+-   **Trial Defender Notes**:  The transcript does not explicitly detail the trial defense lawyer's actions, but implies they were ineffective as they did not receive or present crucial exculpatory evidence due to Brady violations.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - Doug Delosa's own federal writ of habeas corpus.
+    - Implicitly, the withheld evidence (fingerprints and taxi driver testimony) likely played a role in the magistrate judge's recommendation to set aside the conviction, although the specific details of the legal argument for exoneration are not detailed in this transcript segment.
+-   **Actual Perpetrator Details**:  Not explicitly identified. The podcast refers to "two black men" as described by the taxi driver and Doug Delosa, but their identities and whether they were the actual perpetrators is not resolved within the transcript.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - Doug Delosa: "I woke up and my life was never the same again. Cops came out with guns drawn, and I never saw freedom ever ever since after that. It's like road-smoked tar, once you get in..."
+    - Doug Delosa (recounting the police officer's words during his arrest): "Man, fuck you, fuck your children and fuck that dead wife of yours. I didn't ask that stupid bitch to die in my city... Maybe I know you didn't do it, but I can build the case against you. So you're it."
+    - Doug Delosa (describing Angola prison conditions):  "...one of the things that this particular field foreman used to enjoy doing to torment the people under his supervision, he would...say, until 10 people pass out from the heat, I'm not letting anybody drink water."
+    - Doug Delosa (on receiving news of his exoneration): "For the first time since my wife's funeral, I cried. I started crying almost uncontrollably when I read that the magistrate judge recommended that my conviction be set aside and that I'll be, um, you know, freed."
+    - Nina Morrison (on Brady violations): "It's really a, a level of evil, um, that in this particular case, I don't know what else to call it. The prosecutor is just straight evil."
+-   **Systemic Issues Identified**:
+    - Brady Violations: Prosecutors withholding exculpatory evidence.
+    - Police Misconduct: Framing suspects, tunnel vision investigations, abusive behavior.
+    - Ineffective Trial Defense: Lawyers failing to uncover or utilize crucial evidence.
+    - Racial Bias:  Implicit bias in initial police focus, despite witness testimony of black men at the scene.
+    - Prison Conditions: Brutal and inhumane conditions in Angola prison, including forced labor and denial of basic needs.
+    - Inadequate Compensation for Wrongful Conviction: State compensation statutes are often insufficient and do not fully address the damages suffered by exonerees.
+    - Lack of Accountability for Prosecutors:  Prosecutors are largely immune from civil and criminal liability for misconduct.
+-   **Policy Recommendations/Calls to Action**:
+    - Judges to take a more active role in ensuring Brady compliance by prosecutors before trial.
+    - Increased accountability for prosecutors who commit Brady violations, including bar discipline and potential criminal prosecution.
+    - Reform of prosecutorial immunity to allow for civil suits in cases of misconduct.
+    - Support for organizations like the Innocence Project to help prevent and rectify wrongful convictions.
+    - Increased awareness and advocacy for more adequate compensation statutes for exonerees.
+-   **Personal Narrative/Impact**:
+    - Doug Delosa endured 14 years of wrongful imprisonment in horrific conditions, including physical abuse and forced labor.
+    - His children suffered immense trauma from the loss of their mother and the wrongful conviction of their father, impacting their childhood and development. Despite this, they have become successful adults, but carry the emotional scars of their experiences.
+    - Delosa faced near despair and planned suicide before receiving news of his exoneration, highlighting the profound psychological toll of wrongful conviction.
+    - Post-exoneration, he dedicates his life to helping other exonerees, demonstrating resilience and a commitment to justice.
+-   **Additional Resources**:
+    - Innocence Project (InnocenceProject.org)
+    - Rising Foundation (Organization Doug Delosa works with - mentioned but not explicitly linked).
+    - National Registry of Exonerations (referenced for statistics).
+```

@@ -1,0 +1,81 @@
+{
+    "sourceFileName": "117_False_Confessions_Dixmoor_5_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction, False Confessions",
+    "mediaItem": {
+        "hosts": "Lauren Eyreider, Steve Drizen",
+        "releaseYear": "2020",
+        "network": "Lava for Good podcasts in association with Signal Company No. 1",
+        "seriesType": "Episodic Series (based on the description of different cases each week)",
+        "format": "Podcast",
+        "focusTheme_Work": "False confessions, wrongful convictions, systemic issues in the justice system, racial prejudice in convictions, the \"super-predator\" era.",
+        "keyStats": "-   Chicago is home to more false confessions than any other city in the United States.\n-   Chicago is home to more juvenile false confessions.\n-   Chicago is home to more cases with multiple false confessions.\n-   The Center on Wrongful Convictions has obtained exonerations in many of these cases, all involving African-American teenagers in the Chicago area.\n-   Dixmore Five wrongly served a total of more than 50 years in prison.",
+        "itemNumber": "117",
+        "itemTitle": "False Confessions Dixmoor 5",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction, False Confessions, hosted by Lauren Eyreider and Steve Drizen, delves into the tragic case of the Dixmore V, five African-American teenagers wrongfully convicted in the 1991 murder of 14-year-old Catrisa Matthews in Dixmore, Illinois.  Fueled by the \"super-predator\" narrative of the 1980s and 90s and echoing the Central Park Five case, the teens falsely confessed after intense interrogation, despite inconsistencies in their confessions and later DNA evidence excluding them. The podcast highlights the systemic issues of coerced confessions, racial bias, and tunnel vision in law enforcement, ultimately leading to the exoneration of the Dixmore V after they collectively served over 50 years in prison. The true perpetrator, Willie Randolph, whose DNA matched the crime scene evidence, was identified years later. The episode underscores the devastating impact of wrongful convictions and the ongoing fight for justice."
+    },
+    "featuredIndividual": {
+        "fullName": "Jonathan Barr",
+        "caseLocation": "Dixmore, Illinois, USA (Chicago Suburb)",
+        "convictionYear": "1993 (inferred from timeline)",
+        "exonerationYear": "2011",
+        "crimeConvictedOf": "Murder and assault of Catrisa Matthews",
+        "sentence": "Life in prison",
+        "timeServed": "Approximately 20 years",
+        "contributingFactorsRaw": [
+            "Wrongfully implicated by false confessions of others, super-predator narrative, racial bias, tunnel vision in investigation."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Center on Wrongful Convictions, Innocence Project, Exoneration Project."
+        ],
+        "innocenceLawyersRaw": [
+            "Jennifer Black (Public Defender who represented Robert Taylor on appeal and referred case), Josh Teppfer and Steve Drizen from Center on Wrongful Convictions."
+        ],
+        "crossReference": "Yes, in exoneree databases.",
+        "narrativeOriginalCrime": "Group of five African-American teenage boys kidnapped Catrisa Matthews, gang-raped her, and shot her in the mouth.",
+        "keyEvidenceProsecutionRaw": [
+            "False confessions of co-defendants (Robert Ville, Cheyenne Sharpe), despite DNA evidence exclusion."
+        ],
+        "trialDefenderNotes": "Inadequate defense; focused on confessions despite lack of corroborating evidence and contradicting DNA.",
+        "keyEvidenceExonerationRaw": [
+            "DNA evidence from semen at the crime scene excluded all five defendants and matched Willie Randolph."
+        ],
+        "actualPerpetratorDetails": "Willie Randolph, a 33-year-old man at the time of the crime, with a history of violent offenses and sexual assault, living near the victim's home after recent parole."
+    },
+    "keyQuotesRaw": [
+        "\"Chicago may be called the second city, but when it comes to false confessions, we don't take a backseat to anybody, not New York or any other jurisdiction for that matter.\" - Steve Drizen, highlighting Chicago's issue with false confessions.",
+        "\"The Super Predator era was a period of pronounced moral panic in the United States that focused on young people, race, and crime.\" - Perry Moriarty, contextualizing the era's influence.",
+        "\"So let's get this straight. The theory here at the Dixmore V trial was that five teenage boys sexually assault this victim. They don't leave a trace of themselves behind. Then here comes this wandering necrophiliac who comes across the body and decides to defile it.\" - Lauren Eyreider, expressing disbelief at the prosecution's necrophilia theory.",
+        "\"Justice would have happened a long time ago.\" - Josh Tepfer, on the exoneration not being true justice.",
+        "\"You can't give those 20 years back to Robert or to any of the Dixmore Five or any of the guys we're going to talk about on this podcast. You can't give that time back. But what you can do is make the years, decades that they lost mean something.\" - Steve Drizen, emphasizing the purpose of telling these stories."
+    ],
+    "systemicIssuesRaw": [],
+    "false_confessions": "Highlighted as a major problem, especially in Chicago and involving juveniles.",
+    "coercive_interrogation_tactics": "Police scripting confessions and using them to pit suspects against each other.",
+    "racial_bias": "The \"super-predator\" narrative disproportionately targeting young black and brown youth, leading to racial profiling and prejudiced prosecutions.",
+    "tunnel_vision": "Law enforcement and prosecution locking onto a narrative and ignoring contradictory evidence (DNA).",
+    "inadequate_legal_representation": "Original defense seemingly unable to overcome flawed confessions and biased prosecution.",
+    "dehumanization": "Treating young suspects as \"beasts\" or \"jackals,\" making it easier to disregard their rights and lives.",
+    "policyRecommendationsRaw": [
+        "Implied call for systemic reform in interrogation practices to prevent false confessions, especially from juveniles and vulnerable individuals.",
+        "Implied call for addressing racial bias in the justice system and challenging prejudiced narratives like the \"super-predator\" myth.",
+        "Implied call for better legal representation for defendants, particularly in cases involving confessions and potential wrongful convictions.",
+        "The act of telling these stories is itself a call to action to remember these injustices and prevent them from happening again."
+    ],
+    "personalNarrativeRaw": [
+        "Robert Taylor's father's unwavering dedication and persistence in fighting for his son's freedom.",
+        "The immense time lost by the Dixmore V – over 50 years collectively – and the irreparable impact on their lives and families.",
+        "Robert Taylor's physical tension in court reflecting the trauma endured over 20 years of wrongful imprisonment.",
+        "Robert Taylor's current life with his son, highlighting the life stolen from him and what he is now rebuilding.",
+        "The emotional toll on the lawyers involved, showing their frustration and dedication to justice.",
+        "The hosts' commitment to telling these stories to make the suffering of the wrongfully convicted meaningful and to prevent future injustices."
+    ],
+    "additionalResourcesRaw": [
+        "Center on Wrongful Convictions (mentioned as involved in exonerations).",
+        "Innocence Project (mentioned as involved in representing Dixmore V members).",
+        "Exoneration Project (mentioned as involved in representing Dixmore V members).",
+        "Wrongfulconvictionpodcast.com (podcast website mentioned for more information).",
+        "Social media handles for the podcast and hosts provided for further engagement."
+    ]
+}

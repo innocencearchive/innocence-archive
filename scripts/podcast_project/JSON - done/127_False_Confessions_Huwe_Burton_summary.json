@@ -1,0 +1,78 @@
+{
+    "sourceFileName": "127_False_Confessions_Huwe_Burton_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction, False Confessions",
+    "mediaItem": {
+        "hosts": "Lauren Eyreider, Steve Drizen",
+        "releaseYear": "2020",
+        "network": "Lava for Good podcasts, Signal Company No. 1",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, false confessions, coercive interrogation tactics, juvenile justice, police misconduct, exoneration.",
+        "keyStats": "Children and teenagers are two to three times more likely than adults to falsely confess.",
+        "itemNumber": "127",
+        "itemTitle": "False Confessions Huwe Burton",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction, False Confessions, tells the tragic story of Hugh Burton, who at 16 years old, was coerced into falsely confessing to the murder of his mother in 1989.  Despite inconsistencies in his confession and the emergence of a more likely suspect, his downstairs neighbor Emmanuel Green, Hugh was convicted and spent almost two decades in prison.  The podcast details the flawed police investigation, the pressure tactics used during interrogation, and the cultural context of the crack cocaine epidemic that influenced the narrative of Hugh's confession.  Years later, the Center on Wrongful Convictions of Youth, along with the Innocence Project, took up Hugh's case.  Through persistent investigation and collaboration with the Bronx Conviction Integrity Unit, new evidence and the exposure of police misconduct led to Hugh's exoneration in 2019, after a 30-year ordeal.  The story underscores the dangers of false confessions, especially from vulnerable youth, and the importance of conviction integrity efforts."
+    },
+    "featuredIndividual": {
+        "fullName": "Hugh Burton",
+        "caseLocation": "Bronx, New York, USA",
+        "convictionYear": "1989",
+        "exonerationYear": "2019",
+        "crimeConvictedOf": "Second-degree murder of his mother, Kazaya Burton",
+        "sentence": "Life in prison",
+        "timeServed": "Almost 20 years",
+        "contributingFactorsRaw": [
+            "False confession (coerced through threats of statutory rape charges and promises of leniency), tunnel vision by police investigators, suggestive interrogation techniques."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project, Center on Wrongful Convictions of Youth, Bronx Defender, Bronx Conviction Integrity Unit."
+        ],
+        "innocenceLawyersRaw": [
+            "Steve Drizen and Laura Cohen (Center on Wrongful Convictions of Youth), Susan Friedman and Barry Shek (Innocence Project)."
+        ],
+        "narrativeOriginalCrime": "Kazaya Burton was found murdered in her home, stabbed with a knife. Police initially suspected robbery but focused on Hugh, her son. The prosecution's narrative was that Hugh, driven by a crack cocaine addiction and a $200 drug debt, murdered his mother in a drug-fueled rage.",
+        "keyEvidenceProsecutionRaw": [
+            "Hugh's confession to the murder, despite its inconsistencies and likely coercion."
+        ],
+        "trialDefenderNotes": "Not detailed in the transcript, but implied to be inadequate as they failed to prevent the conviction based on a flawed confession and emerging alternative suspect.",
+        "keyEvidenceExonerationRaw": [
+            "Autopsy findings contradicted Hugh's confession: the murder weapon was a smooth-edged blade, not the serrated steak knife mentioned in his confession.",
+            "Discovery of another false confession coerced by the same detectives in a separate case (Dennis Koss).",
+            "Retraction by Hugh's teacher who initially misreported his attendance on the day of the murder, confirming he was in school.",
+            "Emmanuel Green, the downstairs neighbor, was found with the victim's car and gave a confession that also contained inconsistencies but pointed to his involvement."
+        ],
+        "actualPerpetratorDetails": "Emmanuel Green, a 22-year-old neighbor with a criminal history of rape and robbery. He lived in the apartment below the Burtons.  He was found driving Kazaya Burton's stolen car. He confessed to being involved after Hugh allegedly confessed to him, but his confession was also considered suspicious and potentially coerced by the same detectives.  He was never charged with Kazaya Burton's murder and died before Hugh's exoneration."
+    },
+    "keyQuotesRaw": [
+        "\"Forget blind justice. This is a classic case of tunnel vision.\" - Introduction highlighting the flawed investigation.",
+        "\"Children and teenagers are between two and three times more likely than adults to falsely confess.\" -  Emphasizing the vulnerability of young people in interrogations.",
+        "Hugh Burton's story about his father's Alzheimer's and final visit, illustrating the personal tragedy intertwined with the wrongful conviction.",
+        "Hugh Burton dedicating his exoneration to his mother's memory, showcasing his enduring love and the injustice he suffered."
+    ],
+    "systemicIssuesRaw": [
+        "False confessions, particularly from juveniles due to their susceptibility to coercive interrogation tactics.",
+        "Tunnel vision and confirmation bias in police investigations, leading to the neglect of exculpatory evidence and alternative suspects.",
+        "Coercive interrogation techniques, including threats and false promises.",
+        "Lack of accountability for police misconduct in obtaining false confessions.",
+        "The damaging impact of media sensationalism and biased reporting on wrongful conviction cases."
+    ],
+    "policyRecommendationsRaw": [
+        "Reform interrogation practices to prevent false confessions, especially from juveniles.",
+        "Mandatory recording of entire interrogations to ensure transparency and accountability.",
+        "Establishment and support of conviction integrity units within prosecutor's offices to review potential wrongful convictions.",
+        "Increased awareness and education about the phenomenon of false confessions."
+    ],
+    "personalNarrativeRaw": [
+        "Hugh Burton's resilience and peaceful demeanor despite enduring wrongful imprisonment for nearly two decades.",
+        "The unwavering support of Hugh's father and family, even in the face of overwhelming adversity.",
+        "The profound emotional and personal toll of wrongful conviction on Hugh's life and his family.",
+        "Hugh's ability to find forgiveness and dedicate his exoneration to his mother, demonstrating his strength of character."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project: [https://innocenceproject.org/](https://innocenceproject.org/)",
+        "Center on Wrongful Convictions of Youth: (Likely part of Northwestern Pritzker School of Law, could be found on their website)",
+        "Wrongful Conviction Podcast: [https://wrongfulconvictionpodcast.com/](https://wrongfulconvictionpodcast.com/)"
+    ]
+}

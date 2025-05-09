@@ -1,0 +1,87 @@
+{
+  "source_file_name": "51. Justice_Failed.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Justice Failed: How \"Legal Ethics\" Kept Me in Prison for 26 Years",
+    "creator_name": "Alton Logan and Berl Falbaum",
+    "publication_or_release_year": 2017,
+    "publisher_or_network": "Counterpoint",
+    "format": "Hardcover, paperback, e-book",
+    "focus_or_theme": "Wrongful conviction, attorney-client privilege, legal ethics, criminal justice system failures",
+    "key_statistics": "26 years of wrongful imprisonment; $10.25 million settlement from the City of Chicago in 2013"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "\"A shocking tale of wrongful conviction... that brings general conditions into cruelly sharp focus.\" —Kirkus Reviews",
+      "\"Justice Failed explores the sharp divide that exists between commonsense morality—an innocent man should be free—and the rigid ethics of the law that superseded that morality.\""
+    ],
+    "systemic_issues_raw": [
+      "The absolutism of attorney-client privilege and its ethical implications",
+      "Reliance on eyewitness testimony despite its unreliability",
+      "Neglect of exculpatory evidence",
+      "Lack of mechanisms to address known wrongful convictions when bound by legal ethics",
+      "Racial disparities in the criminal justice system (Logan is African American)"
+    ],
+    "policy_recommendations_raw": [
+      "Reform of attorney-client privilege rules to allow for disclosure in cases of wrongful conviction",
+      "Better procedures for evaluating eyewitness testimony",
+      "More responsive, sensitive, and humane legal system",
+      "Mechanisms for attorneys to report wrongful convictions without violating ethical codes"
+    ],
+    "additional_resources_raw": [
+      "National Registry of Exonerations (https://www.law.umich.edu/special/exoneration/Pages/casedetail.aspx?caseid=3389)",
+      "Northwestern University Law School's Center on Wrongful Convictions",
+      "CBS News \"60 Minutes\" coverage of the case",
+      "The Marshall Project article \"I Served 26 Years for Murder Even Though the Killer Confessed\""
+    ],
+    "research_notes_other": {},
+    "item_title": "Book Content: Justice Failed: How \"Legal Ethics\" Kept Me in Prison for 26 Years",
+    "focus_or_theme": "Wrongful conviction, attorney-client privilege, legal ethics, criminal justice system failures",
+    "summary_notes": "This book tells the extraordinary story of Alton Logan, who was wrongfully convicted of murdering Lloyd Wickliffe at a Chicago McDonald's in 1982. The true killer, Andrew Wilson, confessed to his attorneys Dale Coventry and Jamie Kunz shortly after Logan's conviction.  Bound by attorney-client privilege, they couldn't disclose this information, instead creating a signed affidavit to be revealed after Wilson's death. Wilson died in 2007, leading to Logan's exoneration in 2008 after 26 years. The book explores the ethical dilemma faced by the attorneys and questions the balance between attorney-client privilege and justice.",
+    "case_details_raw": "Alton Logan was wrongfully convicted in 1983 for the murder of Lloyd M. Wickliffe, an off-duty Cook County corrections officer, in Chicago, Illinois.  The true killer, Andrew Wilson, confessed to his attorneys, but due to attorney-client privilege, this information remained undisclosed until after Wilson's death in 2007. Logan's exoneration followed in 2008, after 26 years of imprisonment.  In 2013, the City of Chicago paid Logan a $10.25 million settlement."
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Alton Logan",
+      "first_name": "Alton",
+      "middle_name": null,
+      "last_name": "Logan",
+      "case_location": "Chicago, Illinois",
+      "conviction_year": 1983,
+      "exoneration_or_release_year": 2008,
+      "crime_convicted_of": "Murder of Lloyd M. Wickliffe, an off-duty Cook County corrections officer",
+      "sentence": "Life imprisonment",
+      "time_served": "26 years",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification",
+        "prioritizing eyewitness testimony over forensic evidence",
+        "attorney-client privilege preventing disclosure of the true killer's confession"
+      ],
+      "status_raw": "Exonerated, received $10.25 million settlement",
+      "organizations_involved_raw": [
+        "Northwestern University Law School's Center on Wrongful Convictions"
+      ],
+      "cross_reference": "Yes, appears in the National Registry of Exonerations",
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Alton Logan",
+      "role": "AUTHOR",
+      "first_name": "Alton",
+      "middle_name": null,
+      "last_name": "Logan"
+    },
+    {
+      "full_name": "Berl Falbaum",
+      "role": "AUTHOR",
+      "first_name": "Berl",
+      "middle_name": null,
+      "last_name": "Falbaum"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "This book tells the extraordinary story of Alton Logan, who was wrongfully convicted of murdering Lloyd Wickliffe at a Chicago McDonald's in 1982. The true killer, Andrew Wilson, confessed to his attorneys Dale Coventry and Jamie Kunz shortly after Logan's conviction. However, bound by attorney-client privilege, these attorneys could not disclose this information.\n\nInstead, they took the unusual step of creating a signed affidavit documenting Wilson's confession and locked it in a strong box, with the agreement that they could only reveal its contents after Wilson's death. Wilson died in 2007, allowing the attorneys to finally come forward with the truth, leading to Logan's exoneration in 2008 after 26 years of wrongful imprisonment.\n\nThe book explores the profound ethical dilemma faced by the attorneys who knew an innocent man was in prison but were bound by legal ethics not to reveal their client's confession. It raises important questions about the balance between attorney-client privilege and justice, particularly when an innocent person's freedom is at stake.\n\nIn January 2013, the City of Chicago agreed to pay Logan $10.25 million to settle a federal wrongful conviction lawsuit."
+}

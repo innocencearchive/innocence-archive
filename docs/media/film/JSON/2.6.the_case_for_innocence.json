@@ -1,0 +1,115 @@
+{
+  "source_file_name": "2.6.the_case_for_innocence.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "The Case for Innocence (FRONTLINE)",
+    "publication_or_release_year": "Information Unavailable (Likely early 2000s given focus)",
+    "publisher_or_network": "FRONTLINE (likely WGBH)",
+    "focus_or_theme": "DNA exonerations, resistance to overturning convictions, Innocence Project work",
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Information Unavailable (Searches did not return specific episode details)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "DNA exonerations, resistance to overturning convictions, Innocence Project work",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Investigation into why the system resists reopening cases despite DNA evidence; Explores institutional reluctance. Available via PBS.",
+      "research_findings": "Searches did not yield specific details about this FRONTLINE episode, including the director, air date, or detailed specifics of the Clyde Charles and Roy Criner cases mentioned in the list. The episode clearly focuses on the challenges faced in overturning convictions even with new DNA evidence."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of_raw": null,
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [
+        "Likely various, including factors addressable by DNA evidence; institutional resistance"
+      ],
+      "status_raw": null,
+      "organizations_involved_raw": [
+        "Innocence Project (implied by context)"
+      ],
+      "full_name": "Clyde Charles",
+      "first_name": "Clyde",
+      "middle_name": null,
+      "last_name": "Charles"
+    },
+    {
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of_raw": null,
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [
+        "Likely various, including factors addressable by DNA evidence; institutional resistance"
+      ],
+      "status_raw": null,
+      "organizations_involved_raw": [
+        "Innocence Project (implied by context)"
+      ],
+      "full_name": "Roy Criner",
+      "first_name": "Roy",
+      "middle_name": null,
+      "last_name": "Criner"
+    },
+    {
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of_raw": null,
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [
+        "Likely various, including factors addressable by DNA evidence; institutional resistance"
+      ],
+      "status_raw": null,
+      "organizations_involved_raw": [
+        "Innocence Project (implied by context)"
+      ],
+      "full_name": "Various exonerees whose cases faced institutional resistance (Specific details for these cases were not found in the searches performed)",
+      "first_name": "Various",
+      "middle_name": "exonerees whose cases faced institutional resistance (Specific details for these cases were not found in the searches",
+      "last_name": "performed)"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Information Unavailable (Potentially Ofra Bikel",
+      "role": "DIRECTOR",
+      "first_name": "Information",
+      "middle_name": "Unavailable (Potentially Ofra",
+      "last_name": "Bikel"
+    },
+    {
+      "full_name": "based on similar FRONTLINE work",
+      "role": "DIRECTOR",
+      "first_name": "based",
+      "middle_name": "on similar FRONTLINE",
+      "last_name": "work"
+    },
+    {
+      "full_name": "but unconfirmed by searches)",
+      "role": "DIRECTOR",
+      "first_name": "but",
+      "middle_name": "unconfirmed by",
+      "last_name": "searches)"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

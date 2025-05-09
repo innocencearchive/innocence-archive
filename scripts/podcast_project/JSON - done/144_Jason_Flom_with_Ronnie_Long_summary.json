@@ -1,0 +1,85 @@
+{
+    "sourceFileName": "144_Jason_Flom_with_Ronnie_Long_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcast in association with signal coupling number one.",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, Investigative Journalism, Legal Analysis, Racial Injustice",
+        "keyStats": "- Ronnie Long was in prison for 44 years for a crime he did not commit.\n- The victim's description of the assailant differed from Ronnie Long's appearance (complexion, facial hair).\n- Forensic evidence collected at the crime scene did not match Ronnie Long.\n- Evidence was withheld by police from both the defense and prosecution.\n- The jury in Ronnie Long's trial was all-white, and some jurors had connections to the victim's husband's employer.",
+        "itemNumber": "144",
+        "itemTitle": "Jason Flom with Ronnie Long",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom details the egregious case of Ronnie Long, who was wrongfully convicted of rape in 1976 and served 44 years in prison. The episode highlights the lack of credible evidence against Long, including a flawed cross-racial eyewitness identification and withheld exculpatory forensic evidence.  Despite a solid alibi and significant discrepancies between the victim's description and Long's appearance, he was convicted by an all-white jury in a racially charged environment. The podcast features an interview with Jamie Lau, an attorney from Duke University’s Wrongful Convictions Clinic, and a phone call with Ronnie Long himself from prison, emphasizing the systemic failures and racial biases that led to and perpetuated this gross miscarriage of justice. The episode culminates with a call to action, urging listeners to sign a petition and contact the Governor of North Carolina to demand Ronnie Long's immediate release."
+    },
+    "featuredIndividual": {
+        "fullName": "Ronnie Long",
+        "caseLocation": "Concord, North Carolina, USA",
+        "convictionYear": "1976",
+        "exonerationYear": "Not explicitly stated in the transcript, but the podcast advocates for his release and highlights ongoing legal battles in May 2020. (Note: Based on external knowledge, Ronnie Long was exonerated in August 2020, after this podcast was likely recorded).",
+        "crimeConvictedOf": "Rape",
+        "sentence": "Two life terms",
+        "timeServed": "44 years (as of the podcast recording in 2020)",
+        "contributingFactorsRaw": [
+            "Eyewitness Misidentification (cross-racial, unreliable courtroom identification)",
+            "Withheld Exculpatory Evidence (forensic evidence, rape kit)",
+            "Police Misconduct (planting evidence - beanie, suggestive identification procedure, withholding evidence)",
+            "Racial Bias (all-white jury in 1976 Concord, NC)",
+            "Inadequate Legal Defense (implied, though not explicitly detailed in the transcript)"
+        ],
+        "status": "Wrongfully Convicted, seeking exoneration/release as of May 2020. (Note: Based on external knowledge, he was exonerated in August 2020).",
+        "organizationsInvolvedRaw": [
+            "Duke University's Wrongful Convictions Clinic (Jamie Lau is an attorney there)",
+            "Innocence Project at the University of North Carolina (took interest in the case in 2005)",
+            "North Carolina Innocence Inquiry Commission (reviewed the case)"
+        ],
+        "innocenceLawyersRaw": [
+            "Jamie Lau, attorney at Duke University's Wrongful Convictions Clinic, is featured and interviewed in the podcast. He is actively working on Ronnie Long's case, arguing for his release based on withheld evidence and flawed trial."
+        ],
+        "crossReference": "Not explicitly stated if he is in an exoneree database within the transcript.",
+        "narrativeOriginalCrime": "A 54-year-old white widow was raped in her home in Concord, North Carolina, on April 25th, 1976, around 9:45 PM. The assailant entered her home while she was preparing food. The victim fought back but was overpowered and raped. The assailant claimed to have friends waiting outside and left after the assault.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness identification by the victim in a highly suggestive courtroom setting.",
+            "Planted evidence (a lime green beanie) allegedly found in Ronnie Long's car.",
+            "Ronnie Long's ownership of a dark leather coat, similar to the one described by the victim."
+        ],
+        "trialDefenderNotes": "Not detailed extensively in the transcript. It is implied there were attempts to present an alibi, but the all-white jury favored the prosecution's narrative and police testimony over the black witnesses supporting Long's alibi. The defense attorney is mentioned as Jim Fuller, who was maced after the verdict.",
+        "keyEvidenceExonerationRaw": [
+            "Withheld forensic evidence: Latent fingerprints, carpet samples, suspect hair, paint samples, victim's clothing, and partially burned matches collected at the crime scene did not match Ronnie Long.",
+            "Testimony from the original prosecutor stating he was unaware of the exculpatory forensic evidence and would have required its disclosure if he had known.",
+            "Discovery of latent fingerprints in 2008, which had been falsely claimed as non-existent.",
+            "Judge Nguyen's statements during a court argument highlighting the injustice and withheld evidence."
+        ],
+        "actualPerpetratorDetails": "Not identified or discussed in the transcript. The focus is on Ronnie Long's innocence and the flawed investigation and trial."
+    },
+    "keyQuotesRaw": [
+        "Judge Nguyen quote: \"prosecutors clearly had evidence that any defense counsel in the world, not only in 1976, but in the history of this country, would have wanted or needed and which should have been supplied and yet we did not provide it... When did justice leave the process? So we let our rules blind us to what we all can see.\"",
+        "Ronnie Long: \"I just didn't steal two 44 years, that's my life.\"",
+        "Jamie Lau: \"Here we have everything together in one. We have the original trial prosecutor testifying on behalf of the defense, acknowledging that materials were not only hidden from the defense, but from him as well. We have evidence pointing to another individual as the perpetrator. We have evidence of misconduct and lies from officers. And despite all that, 44 years later, Ronnie longs six in a prison in North Carolina.\""
+    ],
+    "systemicIssuesRaw": [
+        "Racial bias in the justice system, particularly in the South in 1976.",
+        "Unreliable eyewitness identification, especially cross-racial identification.",
+        "Police misconduct: withholding exculpatory evidence, planting evidence, suggestive identification procedures, lying under oath.",
+        "Prosecutorial misconduct (implied by withholding of evidence by police, and original prosecutor's later testimony).",
+        "Jury selection bias, leading to all-white juries in racially sensitive cases."
+    ],
+    "policyRecommendationsRaw": [
+        "Contact Governor Roy Cooper of North Carolina to commute Ronnie Long's sentence.",
+        "Sign the petition on Change.org to free Ronnie Long.",
+        "Support organizations like the Innocence Project.",
+        "General call for justice and recognition that \"Black Lives Matter.\""
+    ],
+    "personalNarrativeRaw": [
+        "Ronnie Long's personal narrative highlights the devastating impact of wrongful conviction, spending 44 years in prison for a crime he did not commit. He expresses his appreciation for the platform to tell his story and emphasizes the injustice he has endured.",
+        "The death of Ronnie Long's mother while he was still incarcerated, and her lifelong wish to see him free, underscores the profound personal tragedy.",
+        "The protests and community outrage following his conviction demonstrate the broader social impact and recognition of the injustice within his community."
+    ],
+    "additionalResourcesRaw": [
+        "Change.org petition to Governor Cooper for Ronnie Long's commutation (link in episode description).",
+        "Innocence Project (innocenceproject.org) - for donations and involvement.",
+        "Governor Roy Cooper's email: Roy.Cooper@NC.gov."
+    ]
+}

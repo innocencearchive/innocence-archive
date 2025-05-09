@@ -1,0 +1,103 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+- **Title**: Wrongful Conviction with Jason Flom
+- **Episode # & Title (if applicable)**: Not specified in the transcript, but it features Curtis Flowers.
+- **Host(s)**: Jason Flom
+- **Release Year(s)**: Not specified in the transcript, likely after 2020 given the exoneration date.
+- **Production Company(ies)/Network**: Lava for Good Podcasts and Signal Company Number One
+- **Series Type**: Episodic Series (based on the format and different guests featured in the intro/outro)
+- **Format**: Podcast
+- **Focus/Theme**: Wrongful convictions, injustice in the legal system.
+- **Key Statistics/Information**:
+    - Curtis Flowers was wrongfully convicted six times and spent 23 years on death row.
+    - District Attorney Doug Evans struck black prospective jurors at nearly four and a half times the rate they struck white ones.
+    - In six trials, 41 out of 42 black prospective jurors were struck by the prosecution.
+
+### Basic Podcast Information
+
+- **Executive Summary**: This episode of "Wrongful Conviction with Jason Flom" features Curtis Flowers, who recounts his harrowing 23-year ordeal on death row after being wrongfully convicted six times for a quadruple murder in Winona, Mississippi. The episode details the flimsy evidence, racially biased jury selection, and prosecutorial misconduct by District Attorney Doug Evans that led to his repeated convictions. Flowers describes the initial incident at Tardy Furniture that became the alleged motive, the flawed investigation, and the series of trials that consistently resulted in convictions despite a lack of credible evidence.  The podcast highlights the crucial role of the "In the Dark" podcast in bringing national attention to his case, ultimately leading to the Supreme Court overturning his conviction and the dismissal of all charges in 2020. Flowers shares his experiences in prison, the emotional toll of the legal battles, and his hopes for justice for the victims' families.
+
+### Wrongfully Convicted Individuals Featured
+
+- **Name**: Curtis Flowers
+- **Case Location**: Winona, Mississippi, USA
+- **Conviction Year**: 1997 (first conviction)
+- **Exoneration Year**: 2020 (charges dismissed)
+- **Crime Convicted Of**: Murder of four individuals at Tardy Furniture (Bertha Tardy, Carmen Rigby, Robert Golden, and Derrick Stewart)
+- **Sentence**: Death Penalty (multiple times)
+- **Time Served**: 23 years
+- **Contributing Factors**:
+    - Racial bias in jury selection
+    - Prosecutorial misconduct (Doug Evans)
+    - Weak and circumstantial evidence
+    - Coerced witness testimonies (incentivized by reward money and fear of arrest)
+    - Jailhouse informants (later recanted)
+    - Junk science (gunshot residue, footprint analysis)
+- **Legal Status**: Exonerated (charges dismissed with prejudice)
+- **Organizations Involved**:
+    - American Public Media (APM) - "In the Dark" podcast
+    - Cornell Law School Death Penalty Clinic (Keir Webel, Sherri Lynn Johnson)
+    - Hogan Lovells (Law Firm)
+    - Mississippi Innocence Project (Tucker Carrington)
+    - Mississippi Office of Post-Conviction Council (Attorneys Rob McDuff, Henderson Hill)
+- **Innocence Lawyer Details**:
+    - Keir Webel and Sherri Lynn Johnson from Cornell Law School Death Penalty Clinic represented Curtis Flowers during post-conviction litigation and appeals to the US Supreme Court.
+    - Rob McDuff and Henderson Hill, along with the Mississippi Innocence Project and Hogan Lovells, prepared for a potential retrial and ultimately secured his release and dismissal of charges.
+- **Cross-Reference**: Yes, he appears in exoneree databases due to the high profile nature of his case and the "In the Dark" podcast.
+- **Narrative of Original Crime**: On the morning of July 16, 1996, four people were found shot dead at Tardy Furniture store in Winona, Mississippi. The victims were Bertha Tardy (owner), and three employees: Carmen Rigby, Robert Golden, and Derek Bobo Stewart. Approximately $287 was reported missing from the cash register.
+- **Key Evidence at Trial (Prosecution)**:
+    - Curtis Flowers had a minor dispute at Tardy Furniture a few days prior to the murders regarding car batteries, presented as a motive.
+    - Gunshot residue allegedly found on Flowers' hand.
+    - A stolen .380 caliber pistol belonging to Flowers' uncle, Doyle Simpson, was linked to the crime.
+    - Size 10.5 Fila shoes box found at his girlfriend's house, matching footprints at the crime scene.
+    - Multiple witnesses claimed to have seen Flowers near the store around the time of the murders (later revealed to be coerced or incentivized).
+    - Jailhouse informants testified that Flowers confessed to the crime (later recanted).
+    - $255 found at Flowers' girlfriend's house was suggested to be the missing money from the store.
+- **Trial Defender Notes**:
+    - Original defense attorneys were consistently denied motions and faced an uphill battle against a determined prosecutor and racial bias.
+    - They highlighted the lack of physical evidence linking Flowers to the crime scene (no fingerprints, no blood, clothes clean).
+    - They pointed to the inconsistencies and changing stories of prosecution witnesses.
+    - They attempted to present alibi witnesses but were limited.
+    - They raised concerns about racial bias in jury selection, but these were initially dismissed by courts.
+- **Key Evidence for Exoneration/Change in Legal Status**:
+    - The "In the Dark" podcast investigation revealed significant flaws in the prosecution's case, including:
+        - Recantations from key witnesses (Fleming, Hallman, Harris, Howlman, Veal).
+        - Evidence of coerced testimonies and incentivized witnesses.
+        - Evidence of racial bias in jury selection across all six trials.
+        - Exposure of District Attorney Doug Evans' history of racial discrimination in jury selection.
+    - The US Supreme Court, in *Flowers v. Mississippi*, overturned the conviction in 2019 due to racial bias in jury selection.
+    - Attorney General's office reviewed the case after Evans recused himself and ultimately dismissed all charges in 2020 due to lack of evidence and compromised prosecution.
+- **Actual Perpetrator Details**: The podcast does not identify the actual perpetrator. The focus is on Curtis Flowers' wrongful conviction, and the real perpetrator remains unknown according to the provided transcript.
+
+### Podcast Research Notes
+
+- **Key Quotes/Moments**:
+    - Jason Flom: "So Curtis Flowers was wrongfully convicted six times, spent 23 years on death row for four murders that he didn't commit."
+    - Curtis Flowers: "I am finally free from the injustice that left me locked in a box for 23 years."
+    - Curtis Flowers: "I would like to send a shout out to all the victims family and I hope one day soon that they find the real guy."
+    - Description of Doug Evans' discriminatory jury selection practices: "Evans and his assistant DAs over the course of 26 years struck black prospective jurors at nearly four and a half times the rate they struck white ones."
+    - US Supreme Court ruling description: "It ruled that the prosecution had engaged in racially discriminatory jury selection because they had struck 41 of the 42 black prospective jurors in the six trials combined."
+- **Systemic Issues Identified**:
+    - Racial bias in the criminal justice system, particularly in jury selection.
+    - Prosecutorial misconduct, including coercing witnesses, presenting false evidence, and discriminatory practices.
+    - The use of unreliable evidence such as jailhouse informants, gunshot residue tests, and footprint analysis.
+    - Difficulty in overturning wrongful convictions despite clear evidence of injustice.
+    - The immense personal toll of wrongful conviction on the individual and their family.
+- **Policy Recommendations/Calls to Action**:
+    - Support local Innocence Projects.
+    - Advocate for criminal justice reform to address racial bias and prosecutorial misconduct.
+    - Raise awareness about wrongful convictions and the systemic issues that contribute to them.
+- **Personal Narrative/Impact**:
+    - Curtis Flowers describes the psychological toll of being on death row and the difficulty of maintaining hope. He mentions instances of fellow inmates taking their own lives.
+    - He expresses gratitude for the support he received from his family, legal team, and the public, particularly after the "In the Dark" podcast.
+    - In his closing arguments, he emphasizes the importance of love, unity, and striving for change to make the world a better place, even after his traumatic experience. He expresses empathy for the victims' families and hopes the real perpetrator will be found.
+- **Additional Resources**:
+    - "In the Dark" podcast by American Public Media (APM) is a crucial resource for understanding the details of Curtis Flowers' case.
+    - GoFundMe link for Curtis Flowers (mentioned in the podcast).
+    - Local Innocence Projects.
+```

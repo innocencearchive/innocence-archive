@@ -1,0 +1,102 @@
+{
+    "sourceFileName": "069_Jason_Flom_with_Kim_Kardashian_West_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2018",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One",
+        "seriesType": "Ongoing Series (inferred from \"Welcome back to wrongful conviction\")",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice reform, mandatory minimum sentencing, clemency, systemic issues in the justice system, stories of wrongfully convicted individuals, the role of media and public awareness.",
+        "keyStats": "-   America incarcerates five times as many people per capita as the rest of the Western world.\n-   America has 25% of the world's prison population but only 4.4% of the world's population.\n-   America has 33% of the world's female prison population.\n-   Oklahoma is the state that incarcerates the highest number of people per capita, surpassing Louisiana.\n-   In Oklahoma, a pregnant woman can be charged with endangering the welfare of a child and imprisoned for life if her baby's father abuses her.\n-   Mandatory sentencing laws were initially intended to create fairer sentencing but have led to excessively harsh sentences.\n-   96% of all felony convictions in America are the result of guilty pleas.\n-   Approximately 4% of people on death row are estimated to be innocent.\n-   In some states, spending on incarceration exceeds spending on education.",
+        "itemNumber": "069",
+        "itemTitle": "Jason Flom with Kim Kardashian West",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features Kim Kardashian as a special guest, discussing her involvement in criminal justice reform, sparked by seeing Alice Johnson's case on Twitter. Kardashian recounts her journey to advocate for Johnson's clemency, highlighting systemic issues like harsh mandatory minimum sentences and the disproportionate impact on low-level offenders, particularly women. The conversation expands to broader topics such as mass incarceration in the US, the flaws in the justice system including prosecutorial power and inadequate defense for the poor, and the importance of clemency. Both Flom and Kardashian emphasize the need for systemic change, public awareness, and action to address wrongful convictions and create a more humane justice system. They encourage listeners to get involved with organizations like Families Against Mandatory Minimums and the Innocence Project, and to advocate for reform at both state and federal levels."
+    },
+    "featuredIndividual": {
+        "fullName": "Joseph Salam",
+        "caseLocation": "New York (Central Park Five case)",
+        "convictionYear": "1990 (approximate, based on Central Park Five case)",
+        "exonerationYear": "2002 (Central Park Five exoneration)",
+        "crimeConvictedOf": "Rape and assault (Central Park jogger case)",
+        "sentence": "Varied for the Central Park Five, significant prison sentences.",
+        "timeServed": "Years in prison before exoneration.",
+        "contributingFactorsRaw": [
+            "False confessions, coerced confessions, racial bias, media pressure, prosecutorial misconduct."
+        ],
+        "status": "Exonerated.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (instrumental in exoneration), public advocacy."
+        ],
+        "innocenceLawyersRaw": [
+            "Innocence Project lawyers played a key role in their exoneration."
+        ],
+        "crossReference": "Central Park Five case is well-documented.",
+        "narrativeOriginalCrime": "Wrongfully convicted of the rape and assault of the Central Park jogger in a highly publicized and racially charged case.",
+        "keyEvidenceProsecutionRaw": [
+            "Coerced confessions, flawed eyewitness accounts, circumstantial evidence."
+        ],
+        "trialDefenderNotes": "Overwhelmed by media pressure and public opinion, systemic failures.",
+        "keyEvidenceExonerationRaw": [
+            "DNA evidence matched Matias Reyes to the crime, confession from Reyes, vacating of convictions for the Central Park Five."
+        ],
+        "actualPerpetratorDetails": "Matias Reyes, serial rapist, DNA evidence linked him to the Central Park jogger attack."
+    },
+    "keyQuotesRaw": [
+        "Kim Kardashian: \"I just felt like it was so wrong and that if I could do anything, then I wanted to try.\" (Regarding Alice Johnson's case)",
+        "Jason Flom: \"America incarcerates five times as many people per capita as the rest of the Western world.\" (Highlighting mass incarceration issue)",
+        "Kim Kardashian: \"After going there and hearing these women's stories, I was like, you know what, I absolutely would [fight for someone even if they committed violent crime].\" (Shift in perspective after visiting prison)",
+        "Jason Flom quoting Brian Stevenson: \"I believe everyone's better than the worst thing they've ever done.\" (Philosophy on redemption and justice)",
+        "Judge (Chris Young's sentencing judge): \"...he had never been on the side of having to do something so unfair and now he is fighting with us to get him out.\" (Judge's remorse and advocacy)",
+        "Kim Kardashian on telling Alice Johnson about her clemency: \"Alice you're going home and the screams and the cries and that's when I cry it was like three minutes on the phone of like tears no one can speak...\" (Emotional impact of achieving justice)",
+        "Jason Flom on public defenders: \"...in some states you have five hundred dollars to defend even a capital case.\" (Highlighting resource disparity in legal system)",
+        "Jason Flom: \"The only thing you say is my name's kim kardashian here's my address and i want a lawyer that's it and then shut up after you say you i want a lawyer they're not allowed to talk to you anymore...\" (Advice on interacting with police if innocent)"
+    ],
+    "systemicIssuesRaw": [
+        "Mass incarceration in the United States.",
+        "Disproportionate sentencing, especially for drug offenses and low-level participants in conspiracies.",
+        "Harsh mandatory minimum sentencing laws.",
+        "\"Three strikes\" laws leading to life sentences for minor offenses.",
+        "Racial and socioeconomic biases in the justice system.",
+        "Inadequate resources and effectiveness of public defenders.",
+        "Prosecutorial power and potential for abuse.",
+        "Flaws in shaken baby syndrome diagnoses.",
+        "Potential for wrongful convictions in self-defense cases.",
+        "Lack of clemency and mercy in the system.",
+        "Private prison industry incentives.",
+        "Issues with jury bias and media influence.",
+        "Difficulties faced by formerly incarcerated individuals post-release (second punishment).",
+        "Refusal of DNA testing in cases where it could prove innocence.",
+        "Over-reliance on guilty pleas due to prosecutorial pressure."
+    ],
+    "policyRecommendationsRaw": [
+        "Criminal justice reform at state and federal levels.",
+        "Reversal of mass incarceration.",
+        "Reform of mandatory minimum sentencing laws.",
+        "Increased use of clemency and pardons.",
+        "Support for progressive prosecutors who prioritize justice over convictions.",
+        "Bail reform.",
+        "Increased funding and resources for public defenders.",
+        "Encouraging public involvement in jury duty and voting in DA races.",
+        "Public awareness and education about wrongful convictions and systemic issues.",
+        "Support for organizations like Families Against Mandatory Minimums and the Innocence Project.",
+        "Advocacy for DNA testing in relevant cases.",
+        "Humane treatment of incarcerated individuals and focus on rehabilitation.",
+        "Ending life sentences without parole, especially for non-violent offenses.",
+        "**Personal Narrative/Impact: A summary of the personal experience or impact described by the exoneree. A focus from Wrongful Conviction might be to summarize the final thoughts of the individual.**",
+        "While the episode features Kim Kardashian and Jason Flom, the personal narratives are focused on the impact *on them* of learning about and fighting wrongful convictions. Kim Kardashian describes a profound shift in her perspective and a newfound purpose in advocating for justice. She expresses being deeply moved by the stories of incarcerated women and feels compelled to continue her activism. Jason Flom shares his long-term commitment to criminal justice reform, driven by a sense of moral obligation and the joy of helping to free wrongfully convicted individuals. Both hosts convey a strong emotional connection to the issue and a commitment to ongoing action. The final thoughts are calls to action for listeners to get involved and support reform efforts."
+    ],
+    "additionalResourcesRaw": [
+        "Dutch (pet care service, mentioned in advertisement)",
+        "Spotlight Snitch City Podcast (investigative series, promoted in advertisement)",
+        "Hereformioutdoors.org (Michigan conservation efforts, mentioned in advertisement)",
+        "Life EMS Ambulance (Life Care Plus membership, mentioned in advertisement: LifeEMS.com and 1-888-Life EMS)",
+        "The Setup Podcast (romantic comedy podcast, promoted in advertisement)",
+        "Families Against Mandatory Minimums (FAMM.org)",
+        "Buried Alive (BuriedAlive.org)",
+        "Innocence Project (InnocenceProject.org)",
+        "Brian Stevenson's TED Talk (recommended by Jason Flom)",
+        "Making a Murderer (documentary mentioned in relation to Brendan Dassey's case)"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "sourceFileName": "388_Wrongful_Conviction_Junk_Science_-_Bite_Mark_Evidence_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction Junk Science",
+    "mediaItem": {
+        "hosts": "Kate Judson, Josh Dubin (and guest Chris Fabrikan)",
+        "releaseYear": "2023",
+        "network": "Lava for Good podcasts and Signal Company No. 1",
+        "seriesType": "Episodic Series (each episode is generally a standalone story within \"Junk Science\" series)",
+        "format": "Podcast",
+        "focusTheme_Work": "Bite mark evidence as junk science leading to wrongful convictions. Deconstructing the history, unreliability, and impact of bite mark evidence in the legal system.",
+        "keyStats": "-   Bite mark evidence originated in the Salem witch trials with the case of George Burrows in 1692.\n-   *People versus Marks* (1970s) set a precedent for admissibility of bite mark evidence.\n-   Ted Bundy case popularized bite mark evidence in the public eye.\n-   Study showing significant disagreement among odontologists on identifying bite marks, indicating low inter-rater reliability.\n-   Sheila Denton was wrongfully convicted based on bite mark evidence and later released.",
+        "itemNumber": "388",
+        "itemTitle": "Wrongful Conviction Junk Science - Bite Mark Evidence",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction Junk Science\" delves into the flawed forensic practice of bite mark analysis.  Hosts Kate Judson and Josh Dubin, along with guest Chris Fabrikan from the Innocence Project, expose bite mark evidence as junk science, tracing its roots back to the Salem witch trials. The episode highlights how bite mark evidence, despite its lack of scientific validity and reliability, has been used to secure wrongful convictions, citing cases like *People versus Marks* and the Ted Bundy trial as pivotal in its acceptance.  It emphasizes the subjective interpretation involved in bite mark analysis, the lack of uniqueness in teeth marks on skin, and the alarming rate of misidentification by experts. The discussion underscores systemic issues in the justice system that prioritize convictions over sound science, and concludes with calls to action for jurors, legal professionals, and the public to critically evaluate forensic evidence and support organizations like the Innocence Project to prevent future wrongful convictions and rectify past injustices."
+    },
+    "featuredIndividual": {
+        "fullName": "Sheila Denton",
+        "caseLocation": "Georgia, USA",
+        "convictionYear": "Approximately 15 years prior to podcast release (estimated around 2005-2008 based on \"released this past April\").",
+        "exonerationYear": "April (of the year prior to podcast release, assuming podcast released in late 2020 or 2021 - needs clarification based on actual release date).",
+        "crimeConvictedOf": "Homicide of a drug dealer.",
+        "sentence": "Not specified in transcript.",
+        "timeServed": "15 years (approximately).",
+        "contributingFactorsRaw": [
+            "Bite mark evidence presented by a forensic dentist, Tom David."
+        ],
+        "status": "Exonerated and released.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (Chris Fabrikan)."
+        ],
+        "innocenceLawyersRaw": [
+            "Chris Fabrikan from the Innocence Project."
+        ],
+        "crossReference": "Likely to appear in exoneree databases.",
+        "narrativeOriginalCrime": "Accused of manually strangling a larger male drug dealer.",
+        "keyEvidenceProsecutionRaw": [
+            "Bite mark evidence suggesting Sheila Denton bit the victim and the victim bit her, presented as the primary evidence."
+        ],
+        "trialDefenderNotes": "Original trial defense inadequacy not detailed in transcript, implied by the wrongful conviction.",
+        "keyEvidenceExonerationRaw": [
+            "Re-evaluation of bite mark evidence as junk science, convincing the original prosecution expert and the judge."
+        ],
+        "actualPerpetratorDetails": "Not discussed in transcript."
+    },
+    "keyQuotesRaw": [
+        "\"Every single case that my department has gotten involved in has ended up in reversal of the conviction or exclusion of the evidence or withdrawal of the evidence because it's so grossly unreliable.\" - Chris Fabrikan on bite mark evidence.",
+        "\"The criminal justice system is an efficient eating and killing machine of largely poor people of color. And whatever facilitates that process is going to be used as long as courts admit it.\" - Chris Fabrikan on systemic issues.",
+        "\"Bite mark evidence is still being used in courtrooms across the country to convict innocent people of crimes they did not commit.\" - Josh Dubin, emphasizing the ongoing problem.",
+        "\"You can match a bite mark to almost any suspect.\" - Underscoring the unreliability of bite mark evidence.",
+        "\"Pressure breaks pipes. These exonerations don't come easy. They're usually the result of a grueling fight. And your voice matters.\" - Josh Dubin, call to action for advocacy."
+    ],
+    "systemicIssuesRaw": [
+        "Acceptance of unreliable forensic evidence in courts.",
+        "Precedent set by early cases like *People versus Marks* perpetuating the use of junk science.",
+        "Influence of public perception and media, exemplified by the Ted Bundy case.",
+        "Lack of critical evaluation of expert credentials and scientific claims by juries and judges.",
+        "Prosecutorial pressure to obtain convictions, potentially overlooking the reliability of evidence.",
+        "Difficulty in reversing established legal precedents, even when based on flawed science."
+    ],
+    "policyRecommendationsRaw": [
+        "For jurors to be more critical and skeptical of forensic evidence presented in court.",
+        "Demand real proof beyond a reasonable doubt.",
+        "Write to local criminal court judges about the flaws of bite mark evidence.",
+        "Support the Innocence Project and their policy department.",
+        "Advocate for laws that facilitate releasing innocent people and preventing wrongful convictions.",
+        "Make \"noise\" about junk science like bite mark evidence through op-eds and public discourse."
+    ],
+    "personalNarrativeRaw": [
+        "The hypothetical scenario at the beginning of the episode powerfully illustrates the terrifying experience of being falsely accused based on bite mark evidence.",
+        "Sheila Denton's case represents a positive outcome, showing that perseverance and re-evaluation of evidence can lead to exoneration, offering hope.",
+        "The episode emphasizes the devastating impact of wrongful convictions on individuals and the importance of fighting against junk science in the justice system.",
+        "Final thoughts encourage listeners to take an active role in preventing wrongful convictions and ensuring a fairer justice system."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project (mentioned throughout episode as a key organization working to combat wrongful convictions and junk science).",
+        "Innocence Project's newsletter (recommended for policy updates and ways to get involved).",
+        "Next week's episode topic: Blood-spatter analysis (mentioned at the end, suggesting further episodes in the \"Junk Science\" series).",
+        "Mention of Pamela Kolov from ProPublica and The New York Times as a future guest, suggesting further research into her work on blood-spatter analysis."
+    ]
+}

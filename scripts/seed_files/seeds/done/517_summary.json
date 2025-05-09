@@ -1,0 +1,343 @@
+{
+  "sourceFileName": "517_summary.md",
+  "mediaWork": {
+    "title": "Wrongful Conviction",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Jason Flom, John Grisham, Carl Leonard",
+    "publicationOrReleaseYear": 2023,
+    "publisherOrNetwork": "Lava for Good Podcasts, Signal Company Number One",
+    "focusOrTheme": "Wrongful convictions, failures of the justice system, police and prosecutorial misconduct, jailhouse informants, eyewitness misidentification, ineffective assistance of counsel, post-conviction litigation, personal narratives of the wrongfully convicted.",
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null
+  },
+  "mediaItem": {
+    "itemTitle": "Jamie Snow",
+    "itemNumber": "Episode 403",
+    "itemMediaType": "PODCAST_EPISODE",
+    "releaseDate": null,
+    "hostOrNarrator": "Jason Flom",
+    "focusOrTheme": "Wrongful conviction case of Jamie Snow",
+    "summaryNotes": "This episode details the wrongful conviction of Jamie Snow for the 1991 fatal shooting of gas station attendant Bill Little in Bloomington, Illinois. Despite a lack of physical evidence connecting him to the crime and passing a polygraph early in the investigation, Snow was convicted in 2001 based on flawed eyewitness accounts and the testimony of numerous incentivized jailhouse informants. Key witness Danny Martinez initially failed to identify Snow and his account was contradicted by police officers present at the scene, facts withheld from the defense along with informant deals and failed polygraphs. Many informants have since recanted, citing coercion or deals for leniency. Snow's sister-in-law, accused as a getaway driver, refused a deal, maintained her innocence, and was acquitted. Represented by the Exoneration Project, Snow continues to fight his life sentence, seeking modern forensic testing which the state opposes, after nearly 25 years of incarceration.",
+    "keyQuotes": "* John Grisham: \\\"In this case, you've got terrible police misconduct... misconduct by the prosecutors, judges who are asleep... jurors who are easily convinced... a very innocent man... a murder that will never be solved because the cops screwed up the case.\\\" * Detective Crow to Jamie (after polygraph): \\\"I've never thought that you did it. I just think you might know who did.\\\" * Ed Palumbo's recantation (alleging prosecutor said): \\\"...since they couldn't get that other person, Jamie would have to do.\\\" * Officer Jeff Pilo's affidavit: \\\"...absolutely positive that from the time I arrived to the time that I eventually entered the gas station, no one other than Bill Little was either in the gas station or entered or exited the gas station... There is no way that somebody could have came out of that gas station and came face-to-face with Danny Martinez... It's impossible.\\\" * Danny Martinez at trial: \\\"I would never forget Jamie Snow's eyes.\\\" (But couldn't recall their color). * Jamie Snow: \\\"Somebody sent me a quote a long time ago from Martin Luther King Jr. in injustice. Anywhere is a threat to justice everywhere, and that's the truth, man. It really is.\\\" * Susan Claycomb's decision to face trial and give birth in jail rather than testify falsely.",
+    "sourceUrl": null
+  },
+  "individuals": [
+    {
+      "firstName": "Jamie",
+      "lastName": "Snow",
+      "status": "CONVICTED",
+      "convictionYear": 2001,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": 25,
+      "sentence": "Life without the possibility of parole",
+      "caseLocationCity": "Bloomington",
+      "caseLocationCounty": null,
+      "caseLocationState": "IL",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Wrongfully convicted in 2001 for the fatal shooting of Bill Little in 1991. No physical evidence. Convicted based on flawed eyewitness and jailhouse informants. Continues to fight his life sentence.",
+      "crimeCategory": {
+        "crime_name": "Murder"
+      }
+    },
+    {
+      "firstName": "Susan",
+      "lastName": "Claycomb",
+      "status": "UNKNOWN",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": null,
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "IL",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Co-defendant, sister-in-law of Jamie Snow, acquitted in a separate trial.",
+      "crimeCategory": null
+    },
+    {
+      "firstName": "Carl",
+      "lastName": "Williams",
+      "status": "EXONERATED",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": null,
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": null,
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Fellow inmate who provided legal assistance to Jamie Snow.",
+      "crimeCategory": null
+    },
+    {
+      "firstName": "Patrick",
+      "lastName": "Persley",
+      "status": "EXONERATED",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": null,
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": null,
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Fellow inmate who provided legal assistance to Jamie Snow.",
+      "crimeCategory": null
+    }
+  ],
+  "contributingFactors": [
+    {
+      "name": "Eyewitness Misidentification",
+      "description": null
+    },
+    {
+      "name": "Jailhouse Informants / Incentivized Witnesses",
+      "description": null
+    },
+    {
+      "name": "Police Misconduct",
+      "description": null
+    },
+    {
+      "name": "Prosecutorial Misconduct",
+      "description": null
+    },
+    {
+      "name": "Ineffective Assistance of Counsel",
+      "description": null
+    },
+    {
+      "name": "Withheld Evidence",
+      "description": null
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Exoneration Project",
+      "type": "INNOCENCE_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": "exonerationproject.org",
+      "notes": "Current legal representation for Jamie Snow"
+    },
+    {
+      "name": "Centurion Ministries",
+      "type": "INNOCENCE_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Broader support network indicated via John Grisham's board membership"
+    },
+    {
+      "name": "Innocence Project",
+      "type": "INNOCENCE_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Broader support network indicated via John Grisham's board membership"
+    },
+    {
+      "name": "Lava for Good Podcasts",
+      "type": "MEDIA_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Production Company/Network"
+    },
+    {
+      "name": "Signal Company Number One",
+      "type": "MEDIA_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "Production Company/Network"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Jason",
+      "lastName": "Flom",
+      "role": "HOST",
+      "notes": "Primary Host"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Grisham",
+      "role": "HOST",
+      "notes": "Guest Contributor"
+    },
+    {
+      "firstName": "Carl",
+      "lastName": "Leonard",
+      "role": "HOST",
+      "notes": "Guest Contributor, Attorney with the Exoneration Project, representing Snow"
+    },
+    {
+      "firstName": "Jamie",
+      "lastName": "Snow",
+      "role": "SUBJECT_EXONEREE",
+      "notes": "Wrongfully Convicted Individual"
+    },
+    {
+      "firstName": "Danny",
+      "lastName": "Martinez",
+      "role": "WITNESS_EYEWITNESS",
+      "notes": "Key eyewitness, initially failed to identify Snow, testimony contradicted by police"
+    },
+    {
+      "firstName": "Carlos",
+      "lastName": "Luna",
+      "role": "WITNESS_EYEWITNESS",
+      "notes": "Eyewitness, distant view, weak ID, later recanted lineup ID"
+    },
+    {
+      "firstName": "Gerardo",
+      "lastName": "Gutierrez",
+      "role": "WITNESS_EYEWITNESS",
+      "notes": "Eyewitness, conflicting details, changing timeline, no ID of Snow"
+    },
+    {
+      "firstName": "Ed",
+      "lastName": "Palumbo",
+      "role": "WITNESS_INFORMANT",
+      "notes": "Jailhouse Informant, recanted testimony, alleged prosecutor misconduct"
+    },
+    {
+      "firstName": "Steve",
+      "lastName": "Shiel",
+      "role": "WITNESS_INFORMANT",
+      "notes": "Jailhouse Informant, recanted testimony, lied for leniency"
+    },
+    {
+      "firstName": "Bruce",
+      "lastName": "Roland",
+      "role": "WITNESS_INFORMANT",
+      "notes": "Jailhouse Informant"
+    },
+    {
+      "firstName": "Randy",
+      "lastName": "Howard",
+      "role": "WITNESS_INFORMANT",
+      "notes": "Jailhouse Informant"
+    },
+    {
+      "firstName": "Karen",
+      "lastName": "Strong",
+      "role": "WITNESS_INFORMANT",
+      "notes": "Jailhouse Informant"
+    },
+    {
+      "firstName": "Frank",
+      "lastName": "Pitzel",
+      "role": "LAWYER_DEFENSE",
+      "notes": "Original trial defense lawyer, described as ineffective"
+    },
+    {
+      "firstName": "Carl",
+      "lastName": "Leonard",
+      "role": "LAWYER_DEFENSE",
+      "notes": "Attorney with the Exoneration Project, representing Snow in post-conviction appeals."
+    },
+    {
+      "firstName": "Carl",
+      "lastName": "Williams",
+      "role": "OTHER",
+      "notes": "Fellow inmate, provided legal assistance"
+    },
+    {
+      "firstName": "Patrick",
+      "lastName": "Persley",
+      "role": "OTHER",
+      "notes": "Fellow inmate, provided legal assistance"
+    },
+    {
+      "firstName": "Jeff",
+      "lastName": "Pilo",
+      "role": "POLICE_OFFICER",
+      "notes": "Officer who provided affidavit contradicting eyewitness account"
+    },
+    {
+      "firstName": "Paul",
+      "lastName": "Williams",
+      "role": "POLICE_OFFICER",
+      "notes": "Officer first on scene, reports contradict eyewitness account"
+    },
+    {
+      "firstName": "Detective",
+      "lastName": "Crow",
+      "role": "POLICE_DETECTIVE",
+      "notes": "Detective mentioned interacting with Jamie Snow after polygraph"
+    },
+    {
+      "firstName": "Charles",
+      "lastName": "Reynard",
+      "role": "LAWYER_PROSECUTION",
+      "notes": "Prosecutor, alleged misconduct by informant Ed Palumbo"
+    },
+    {
+      "firstName": "Steve",
+      "lastName": "Van Nothe",
+      "role": "OTHER",
+      "notes": "Early suspect, cleared"
+    },
+    {
+      "firstName": "Charles",
+      "lastName": "Renfrode",
+      "role": "OTHER",
+      "notes": "Early suspect, cleared"
+    },
+    {
+      "firstName": "Bill",
+      "lastName": "Little",
+      "role": "VICTIM",
+      "notes": "Victim of the crime"
+    },
+    {
+      "firstName": "Kevin",
+      "lastName": "Shaw",
+      "role": "WITNESS_INFORMANT",
+      "notes": "Jailhouse Informant"
+    },
+    {
+      "firstName": "Jody",
+      "lastName": "Winkler",
+      "role": "WITNESS_INFORMANT",
+      "notes": "Jailhouse Informant"
+    },
+    {
+      "firstName": "Bill",
+      "lastName": "Moffitt",
+      "role": "WITNESS_INFORMANT",
+      "notes": "Jailhouse Informant"
+    },
+    {
+      "firstName": "Bill",
+      "lastName": "Gaddis",
+      "role": "WITNESS_INFORMANT",
+      "notes": "Jailhouse Informant"
+    },
+    {
+      "firstName": "Bridget",
+      "lastName": "Logsdon",
+      "role": "WITNESS_INFORMANT",
+      "notes": "Jailhouse Informant"
+    },
+    {
+      "firstName": "Ronnie",
+      "lastName": "Wright",
+      "role": "WITNESS_INFORMANT",
+      "notes": "Jailhouse Informant, recanted"
+    }
+  ],
+  "crimeCategories": [
+    {
+      "crime_name": "Murder"
+    }
+  ]
+}

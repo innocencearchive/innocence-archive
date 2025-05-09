@@ -1,0 +1,86 @@
+{
+    "sourceFileName": "181_Jason_Flom_with_Danny_Rincon_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good podcast in association with signal company number one",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, Investigative Journalism, Legal Analysis",
+        "keyStats": "- Danny Rincon's sentence: 158 and a third years to life.\n- Quad Murders: 4 people killed, 1 wounded.\n- 4 out of 5 co-defendants blamed for the Quad Murders were innocent.\n- Red Top gang made between $10 and $20 million a year.\n- 60 bullets sprayed in the alleyway during the Quad Murders.\n- 41 people indicted in the \"wild cowboy trial.\"\n- 32 of 41 co-defendants pled guilty, 9 went to trial, 5 convicted of Quad Murders.",
+        "itemNumber": "181",
+        "itemTitle": "Jason Flom with Danny Rincon",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom features the story of Danny Rincon, wrongfully convicted for the 1991 Quad Murders in the Bronx.  Rincon, along with his lawyers from the Exoneration Initiative, Glenn Garber and Farrah Rossner, details the flawed investigation and trial that led to his 158-years-to-life sentence.  The episode highlights the intense pressure on police to solve the case, resulting in the use of unreliable, incentivized witnesses from a rival gang.  Despite having alibi witnesses, including the mother and brother of a victim, and later confessions from actual perpetrators, Rincon remains incarcerated. The podcast emphasizes systemic issues within the justice system, ineffective counsel, and judicial bias, urging listeners to support Rincon's exoneration and the Innocence Project."
+    },
+    "featuredIndividual": {
+        "fullName": "Danny Rincon",
+        "caseLocation": "Bronx, New York City, USA",
+        "convictionYear": "1994",
+        "exonerationYear": "Not yet exonerated (as of podcast recording)",
+        "crimeConvictedOf": "Four counts of murder and one count of attempted murder (Quad Murders)",
+        "sentence": "158 and a third years to life",
+        "timeServed": "28 years (as of podcast recording, mentioned in transcript)",
+        "contributingFactorsRaw": [
+            "False testimony from incentivized witnesses (from rival gang)",
+            "Ineffective assistance of counsel (failure to present alibi witnesses)",
+            "Trial \"circus atmosphere\" and judicial bias",
+            "Pressure on police to solve the case quickly"
+        ],
+        "status": "Currently incarcerated, seeking exoneration. Post-conviction motions denied.",
+        "organizationsInvolvedRaw": [
+            "Exoneration Initiative (Glenn Garber and Farrah Rossner)",
+            "Innocence Project (mentioned as a cause to support)"
+        ],
+        "innocenceLawyersRaw": [],
+        "glenn_garber": "Founder and Director of the Exoneration Initiative, has been responsible for numerous exonerations.",
+        "farrah_rossner": "Attorney with the Exoneration Initiative.",
+        "crossReference": "Not specified in transcript if he is in an exoneree database.",
+        "narrativeOriginalCrime": "The \"Quad Murders\" involved a shooting in an alleyway on Beakman Avenue in the Bronx on December 16, 1991. Members of the Red Top drug gang, seeking to assert territory against the Yellow Top gang, indiscriminately sprayed 60 bullets, killing four and wounding one. Danny Rincon was accused of being involved, despite alibi evidence and later evidence pointing to other perpetrators.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony from Elizabeth Morales and her children, Iris Cruz and Joey Morales, who claimed to witness Danny Rincon at the scene shooting from a car. These witnesses were incentivized by Detective Tabins with money, relocation, and protection, and were affiliated with the rival Red Top gang."
+        ],
+        "trialDefenderNotes": "Danny Rincon's trial lawyer, Donald Tucker, was described as ineffective and later disbarred. He failed to investigate and present alibi witnesses, claiming it was not in Danny's best interest and that witnesses might not cooperate if forced.",
+        "keyEvidenceExonerationRaw": [
+            "Affidavits from Raphael Perez (\"Tezo\") and Francisco Medina (\"Freddy Krueger\"), actual shooters in the Quad Murders, stating Danny Rincon was not involved.",
+            "Affidavit from Raul Vargas, involved in the Red Top gang and aware of the Quad Murders, who testified to federal authorities in 1995 that Danny Rincon was not involved.",
+            "Affidavits from six alibi witnesses (Pamela Fortune, Lena Patton, Irene Green, Benjamin Green, and two others implied but not named) placing Danny Rincon at Cypress Avenue, far from the scene, at the time of the shooting.",
+            "Affidavit from David Tauger, lawyer for Raphael Perez, stating Perez had confessed his involvement and Rincon's innocence from the beginning."
+        ],
+        "actualPerpetratorDetails": "",
+        "nelson_sepulveda": "Architect of the Quad Murders (leader of Red Top gang).",
+        "raphael_perez_(\"tezo\")": "Shooter, confessed involvement in affidavit.",
+        "francisco_medina_(\"freddy_krueger\")": "Shooter, confessed involvement in affidavit.",
+        "wilfredo_de_los_angeles_(\"platono\")": "Shooter (mentioned in narrative of crime).",
+        "\"crazy_ray\"": "Shooter (mentioned in narrative of crime)."
+    },
+    "keyQuotesRaw": [
+        "Danny Rincon: \"I'm not going to say that I am innocent of being involved in drugs, but I would never do what I am wrongly convicted of.\"",
+        "Glenn Garber: \"This case is a debacle of justice.\"",
+        "Jason Flom: \"It just doesn't make any freaking sense.\"",
+        "Danny Rincon: \"The justice system is not just... The justice system is about who has the wherewithal to navigate the system.\""
+    ],
+    "systemicIssuesRaw": [
+        "Use of incentivized and unreliable witnesses by law enforcement.",
+        "Prosecutorial pressure to close cases leading to tunnel vision.",
+        "Ineffective assistance of counsel.",
+        "Judicial bias and lack of impartiality (Judge Leslie Crocker Snyder).",
+        "\"Circus atmosphere\" of trials with multiple defendants hindering fair defense.",
+        "Difficulty for those without resources to navigate the legal system."
+    ],
+    "policyRecommendationsRaw": [
+        "Contact the Manhattan District Attorney's office (Integrity Unit) to re-evaluate Danny Rincon's case.",
+        "Contact local government representatives to advocate for the case.",
+        "Sign the petition on change.org for Danny Rincon.",
+        "Support the Innocence Project."
+    ],
+    "personalNarrativeRaw": [
+        "Danny Rincon describes the devastating impact of wrongful conviction, including the emotional toll, strain on relationships, and loss of freedom. He emphasizes the injustice of serving a life sentence for a crime he did not commit and the ongoing fight for exoneration after 28 years. He highlights the importance of evidence and fairness within the justice system and appeals for those with information to come forward."
+    ],
+    "additionalResourcesRaw": [
+        "change.org petition (mentioned to be in bio).",
+        "Innocence Project (InnocenceProject.org).",
+        "Manhattan District Attorney's Office (Integrity Unit)."
+    ]
+}

@@ -1,0 +1,84 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction: Junk Science
+-   **Episode # & Title (if applicable)**: Roadside Drug Tests
+-   **Host(s)**: Josh Dubin
+-   **Release Year(s)**: 2023 (assuming current year as not explicitly stated, but context is recent)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts and Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Junk science, wrongful convictions, roadside drug tests, criminal justice reform, plea deals, forensic science.
+-   **Key Statistics/Information**:
+    - Roadside drug tests can cost police departments $2 or less per test.
+    - In 2018, there were 1.6 million arrests for drug offenses in the US.
+    - ProPublica estimated that about 100,000 people a year plead guilty based on drug test kits alone.
+    - Roadside drug tests have a high rate of false positives, reacting to substances like chocolate, cleaning supplies, aspirin, sugar, candle wax, drywall, and sand.
+    - Plea deals are a significant factor in wrongful convictions based on faulty drug tests.
+    - Evidence in many cases is destroyed after a guilty plea, hindering later attempts to prove innocence.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction: Junk Science" hosted by Josh Dubin, examines the unreliability of roadside drug tests and their role in wrongful convictions. The episode highlights the case of Amy Albritton, who pleaded guilty to drug possession based on a false positive from a roadside test, only to be exonerated later when the evidence, mistakenly not destroyed, was re-tested and found to be a food crumb. The podcast explores the history and flaws of these inexpensive tests, revealing their propensity for false positives with common household substances. It further discusses systemic issues such as inadequate police training, pressure to accept plea deals, overwhelmed public defenders, and the destruction of evidence, all contributing to innocent individuals pleading guilty to crimes they did not commit. The episode emphasizes the importance of investigative journalism in uncovering these injustices and advocating for criminal justice reform, urging listeners to support quality news outlets and resist accepting plea deals based solely on roadside drug test results.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Amy Albritton
+-   **Case Location**: Houston, Texas
+-   **Conviction Year**: Not explicitly stated in transcript, but implied to be recent and prior to 2014 (based on evidence retesting date)
+-   **Exoneration Year**: Not explicitly stated as formal exoneration, but evidence retested around 2014 showing it was a food crumb, and reporters contacted her 6 years later.  Legal status is effectively exonerated in practice, though perhaps not formally in court records based on transcript details.
+-   **Crime Convicted Of**: Possession of crack cocaine
+-   **Sentence**: 45 days in jail (plea deal), served 21 days
+-   **Time Served**: 21 days
+-   **Contributing Factors**:
+    - Faulty roadside drug test
+    - Pressure to take a plea deal due to potential longer sentence and inability to afford bail/wait for lab testing.
+    - Inadequate legal representation (overworked public defender).
+-   **Legal Status**: Effectively exonerated by retesting of evidence, but conviction may still be on record (digital records).
+-   **Organizations Involved**: ProPublica, The New York Times (journalists who helped bring her story to light)
+-   **Innocence Lawyer Details**: Court-appointed defense attorney - portrayed as overworked and advising plea deal, not focused on proving innocence.
+-   **Cross-Reference**: Not explicitly mentioned if in exoneree database in the transcript.
+-   **Narrative of Original Crime**: Amy was pulled over for a traffic violation (no signal lane change). During the stop, an officer claimed to find a needle and then a substance in the car. A roadside drug test was conducted, which the officer claimed was positive for crack cocaine.
+-   **Key Evidence at Trial (Prosecution)**: Roadside drug test result indicating crack cocaine.
+-   **Trial Defender Notes**:  Advised Amy to take a plea deal due to the "positive" drug test and backlog at the forensics lab, suggesting she had little chance of winning at trial and faced a longer sentence if she waited for lab results and lost.
+-   **Key Evidence for Exoneration/Change in Legal Status**:  Retesting of the original evidence (due to a motion to destroy evidence not being signed) at a forensics lab revealed the substance was a food crumb, not crack cocaine.
+-   **Actual Perpetrator Details**: Not applicable as Amy was innocent, and there was no actual crime committed.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -  "Ma'am, we have reason to believe that there's crack cocaine in your car..." (Officer to Amy, highlighting the start of wrongful accusation)
+    - "You're busted Ma'am, the cop says." (Officer, emphasizing the perceived certainty based on faulty test)
+    - "I plead guilty." (Amy, highlighting the coerced plea)
+    - "In that substance they found in her car that they claimed tested positive for crack cocaine, it turned out to be a food crumb." (Narrator, revealing the core issue: faulty test)
+    - "These tests continue to be used despite scientific evidence that proves just how ineffective they are." (Narrator, pointing out the systemic problem)
+    - "But many people, plea in the system, never get to a trial and these are used as the only evidence to actually obtain a conviction." (Host, explaining the impact of plea deals)
+    - "If you're about to accept a plea based upon this alone, do not." (Greg Glod, policy fellow, offering advice)
+-   **Systemic Issues Identified**:
+    - Unreliability of roadside drug tests.
+    - Inadequate police training on drug test usage and interpretation.
+    - Pressure on innocent individuals to accept plea deals to avoid longer sentences and pre-trial detention.
+    - Overburdened public defender system.
+    - Backlogs in forensic labs delaying proper testing.
+    - Destruction of evidence after guilty pleas, preventing later exoneration attempts.
+    - Racial and socioeconomic disparities in the application of justice.
+    - Difficulty in expunging records and overcoming the stigma of wrongful convictions even after exoneration.
+-   **Policy Recommendations/Calls to Action**:
+    - Increased scrutiny of plea deals for drug offenses based solely on roadside drug tests.
+    - Advocacy for jurisdictions to require lab verification before accepting plea deals in drug cases (as implemented in Harris County, TX).
+    - Support for investigative journalism to expose injustices in the criminal justice system.
+    - Caution against accepting plea deals based solely on roadside drug test results.
+    - Need for more accurate and reliable drug testing technologies.
+    - Re-evaluation of the use of roadside drug tests by law enforcement.
+-   **Personal Narrative/Impact**: Amy Albritton's life was "completely turned upside down" by the wrongful conviction. She lost her job, her home, and faced significant hardship and stigma due to the felony record. Even after the evidence retesting, it took years for her to learn about it, and the damage to her life was already done. The digital record of her arrest and conviction likely persists, hindering future opportunities. This highlights the devastating and long-lasting personal impact of wrongful convictions based on junk science.
+-   **Additional Resources**:
+    - ProPublica articles on roadside drug tests (mentioned in podcast and show notes).
+    - The Marshall Project (mentioned as a quality journalism outlet).
+    - The New York Times (mentioned as a quality journalism outlet and source of reporting on Amy's case).
+    - Innocence Project (host is an Innocence Ambassador).
+    - Americans for Prosperity (Greg Glod's organization).
+```

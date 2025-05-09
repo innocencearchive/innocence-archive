@@ -1,0 +1,88 @@
+{
+    "sourceFileName": "111_Jason_Flom_with_Stefon_Morant_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcast and association with Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, criminal justice system flaws, personal stories of exonerees",
+        "keyStats": "-   Stefan Moran and Scott Lewis served over 20 years for crimes they did not commit.\n-   Detective Vincent Roushey framed multiple people.\n-   O'Ville Ruiz, an incentivized and mentally ill witness, provided false testimony.\n-   Judge Hate ruled that prosecution failed to disclose key witness information.\n-   Only 32 states have compensation statutes for wrongfully convicted individuals.",
+        "itemNumber": "111",
+        "itemTitle": "Jason Flom with Stefon Morant",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features Stefan Moran, who was wrongfully convicted of a double homicide in New Haven, Connecticut, and served 21 years in prison. The podcast details the corrupt actions of Detective Vincent Roushey, who framed Stefan and his friend Scott Lewis, along with the coerced false testimony of O'Ville Ruiz. Stefan recounts his arrest, false confession, trial, and eventual release after years of legal battles aided by the FBI, Detective Sweeney, and Yale and Columbia Law students under Professor Brett Dignam.  Despite his release, Stefan was not fully exonerated and continues to fight to clear his name and seek compensation, highlighting the ongoing challenges faced by exonerees even after release from prison. He emphasizes the systemic issues within the justice system and the profound personal impact of wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Stefan Moran",
+        "caseLocation": "New Haven, Connecticut, USA",
+        "convictionYear": "1994",
+        "exonerationYear": "Not fully exonerated, released after conviction overturned but took a plea deal for time served. Still fighting for exoneration as of podcast release.",
+        "crimeConvictedOf": "Two counts of felony murder, two counts of aiding and abetting murder.",
+        "sentence": "70 years",
+        "timeServed": "21 years",
+        "contributingFactorsRaw": [
+            "False confession (coerced by Detective Roushey)",
+            "False testimony from incentivized witness (O'Ville Ruiz)",
+            "Police corruption (Detective Vincent Roushey framing individuals)",
+            "Ineffective trial defense (implied, as later legal efforts were successful)",
+            "Prosecutorial misconduct (withholding evidence about Ruiz's credibility)"
+        ],
+        "status": "Released, conviction overturned, took a plea deal for time served to gain release, seeking pardon and full exoneration.",
+        "organizationsInvolvedRaw": [
+            "FBI (investigated Detective Roushey based on Scott Lewis's letter)",
+            "Yale Law School and Columbia Law School students under Professor Brett Dignam",
+            "Innocence Project (Stefan attended a conference)"
+        ],
+        "innocenceLawyersRaw": [
+            "Michael Fish Patrick (lawyer who initially presented new evidence and petition for new trial)",
+            "Professor Brett Dignam and Yale/Columbia Law students (legal team that worked on overturning the conviction)"
+        ],
+        "crossReference": "Not specified if in exoneree database in transcript.",
+        "narrativeOriginalCrime": "Ricardo Turner, a former New Haven Alderman, and his lover, Vermont Fields, were shot and killed in their bed on October 11, 1990.",
+        "keyEvidenceProsecutionRaw": [
+            "False confession from Stefan Moran (later recanted)",
+            "False eyewitness testimony from O'Ville Ruiz, claiming Stefan and Scott Lewis committed the murders and he was the getaway driver."
+        ],
+        "trialDefenderNotes": "Not explicitly detailed in the transcript, but implied to be ineffective as they did not prevent conviction based on false confession and incentivized witness testimony, and later legal teams were needed for release and exoneration efforts.",
+        "keyEvidenceExonerationRaw": [
+            "Testimony from Detective Sweeney, a supervisor of Detective Roushey, who stated that the convictions were based on unreliable information gathered by Roushey and a questionable informant (Ruiz).",
+            "Evidence that the prosecution withheld information about O'Ville Ruiz repeatedly denying knowledge of the murders prior to being offered a deal."
+        ],
+        "actualPerpetratorDetails": "Unknown, unsolved in the transcript. Podcast mentions \"other suspects\" but no further details provided."
+    },
+    "keyQuotesRaw": [
+        "\"Detective Vincent Roushey, a detective involved in Parisi's drug game who would pin this double homicide on Scott Lewis for Parisi.\"",
+        "Stefan Moran: \"I felt in my best interest, the only way I'm going to get out of here is to do what they want me to do because the key thing for me was what they said was you after you write this, you got to come back. So now I see a way out, I don't see a way out before because they want to give me that way.\" (Regarding false confession)",
+        "\"And finally, a good judge who ironically was named hate. I mean, you can't even make this stuff up. And our featured guest today is Stefan Moran, who lived through this nightmare.\" (Podcast host introducing the story)",
+        "\"So why am I sitting here taking time serve? Why are you just not saying, okay, we're dismissing this case right now? So if it's a lie, if it's a tainted situation, why on earth for stuff on my rent still convict the fellow mind you, I've never had a traffic ticket.\" (Stefan Moran expressing frustration)",
+        "\"And I said, well, I wasn't just incarcerated for 21 years. I'm no even Connecticut. And I said to him, I said, yeah, everybody says that, that they're innocent. And he looked at me and he says, no, they don't.\" (Stefan Moran recounting a moment at the Innocence Project conference, highlighting the rarity of claiming innocence in prison)"
+    ],
+    "systemicIssuesRaw": [
+        "Police corruption and framing of individuals.",
+        "Coercion of false confessions.",
+        "Use of incentivized and unreliable witnesses with mental health issues.",
+        "Prosecutorial misconduct (withholding exculpatory evidence).",
+        "Lack of accountability for corrupt officials (Roushey received probation for misbilling overtime and assault, not for framing).",
+        "Challenges faced by exonerees after release, including difficulty finding employment and lack of automatic compensation in many states."
+    ],
+    "policyRecommendationsRaw": [
+        "Call for justice system reform to prevent wrongful convictions.",
+        "Need for greater accountability for police and prosecutors.",
+        "Advocacy for compensation statutes for all wrongfully convicted individuals in all states.",
+        "Urgency to reinvestigate cases when credible evidence of innocence emerges."
+    ],
+    "personalNarrativeRaw": [
+        "Stefan Moran's faith and family support were crucial for his survival in prison.",
+        "He lost significant time with his children and family.",
+        "He faces ongoing challenges in rebuilding his life post-incarceration, including employment difficulties due to the conviction record and lack of compensation.",
+        "Despite his ordeal, Stefan is focused on giving back, working in a halfway house and in mental health care, and seeking to inspire others.",
+        "Final thoughts: Stefan emphasizes the need for help to overturn his conviction, highlighting the injustice of his continued struggle despite his innocence and co-defendant's exoneration."
+    ],
+    "additionalResourcesRaw": [
+        "Documentary film \"120 Years\" about the case (available on YouTube mentioned by Stefan).",
+        "Innocence Project (innocenceproject.org) - mentioned as a cause to support by the host.",
+        "Stefan Moran's email: StefanMoranT@gmail.com (for contact and potential speaking engagements or support)."
+    ]
+}

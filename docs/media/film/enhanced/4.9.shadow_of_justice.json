@@ -1,0 +1,60 @@
+{
+  "source_file_name": "4.9.shadow_of_justice.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "In the Shadow of Justice (Dateline NBC)",
+    "creator_name": null,
+    "publication_or_release_year": 2015,
+    "publisher_or_network": "NBC News",
+    "focus_or_theme": "Potential wrongful conviction, false confession.",
+    "summaryNotes": null,
+    "availabilityNotes": "Available via NBC/Peacock.",
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "In the Shadow of Justice: The Confession",
+    "item_number": "S24.E6",
+    "release_date": "2015-10-16",
+    "hostOrNarrator": null,
+    "focus_or_theme": "Potential wrongful conviction, false confession.",
+    "summary_notes": "This Dateline NBC episode focuses on the case of Daniel Villegas, who confessed as a teenager to a double murder he maintained he didn't commit. He was eventually acquitted after years of effort by supporters.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Title suggests exploration of a potential wrongful conviction case; list notes further research needed. Available via NBC/Peacock.",
+      "research_findings": "\"In the Shadow of Justice\" appears to be a recurring theme or title prefix for Dateline episodes focusing on potential miscarriages of justice. One specific episode identified is \"In the Shadow of Justice: The Confession\" (Oct 2015) featuring Daniel Villegas, who confessed as a teenager to a double murder he maintained he didn't commit and was eventually acquitted after years of effort by supporters. Another episode under this banner is \"A Bronx Tale\" (Entry 4.10)."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Daniel Villegas",
+      "first_name": "Daniel",
+      "middle_name": null,
+      "last_name": "Villegas",
+      "status": "EXONERATED",
+      "conviction_year": 1995,
+      "exoneration_or_release_year": 2018,
+      "time_served": "~18+ years",
+      "sentence": "Life",
+      "crime_convicted_of_raw": "Capital Murder (double homicide)",
+      "case_location_city": "El Paso",
+      "case_location_state": "Texas",
+      "narrative_summary": "Daniel Villegas confessed at age 16 to a double murder he maintained he didn't commit. He was wrongfully convicted and served over 18 years before his conviction was overturned and he was acquitted at retrial.",
+      "contributing_factors_raw": [
+        "False confession (age 16)",
+        "Lengthy legal battle for exoneration"
+      ],
+      "organizations_involved_raw": [
+        "Supporter John Mimbella heavily involved in freeing him"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "\"In the Shadow of Justice\" appears to be a recurring theme or title prefix for Dateline episodes focusing on potential miscarriages of justice. One specific episode identified is \"In the Shadow of Justice: The Confession\" (Oct 2015) featuring Daniel Villegas, who confessed as a teenager to a double murder he maintained he didn't commit and was eventually acquitted after years of effort by supporters. Another episode under this banner is \"A Bronx Tale\" (Entry 4.10)."
+}

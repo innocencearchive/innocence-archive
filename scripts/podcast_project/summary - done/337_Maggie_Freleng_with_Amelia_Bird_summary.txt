@@ -1,0 +1,106 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+For each podcast on wrongful convictions, we'll collect the following information:
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Maggie Freeling
+-   **Episode # & Title (if applicable)**: Amelia Bird
+-   **Host(s)**: Maggie Freeling
+-   **Release Year(s)**: Not mentioned in transcript
+-   **Production Company(ies)/Network**: Lava for Good Podcasts
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, stories of individuals who have been wrongfully convicted.
+-   **Key Statistics/Information**:
+    -   Only 8 to 9% of all exonerees are women.
+    -   Out of hundreds of people exonerated based on DNA evidence, only 13 are women.
+    -   $16.5 billion in refunds flagged for possible identity fraud by the IRS last year.
+    -   20% overall increase in identity theft related to tax fraud in 2024.
+    -   Life Lock monitors 100 million data points every second.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Maggie Freeling tells the tragic story of Amelia Bird, who was wrongfully convicted in connection to the shooting of her parents and the death of her mother.  Amelia endured severe childhood abuse, leading to substance abuse and unhealthy relationships. At 16, after her mother was killed and her father injured, Amelia was pressured into a plea deal by her public defender, despite being a minor and not eligible for the death penalty.  She received two life sentences for a crime she maintains she did not commit.  The podcast highlights systemic failures, including ineffective counsel and the vulnerability of abused women in the justice system.  The Willow Project, a wrongful conviction project for women, is now working to advocate for Amelia's case, seeking clemency and parole.  Despite her wrongful conviction, Amelia has shown remarkable resilience, earning her GED in prison and becoming a vital part of the CHAMP Assistance Dog Program.
+
+### Wrongfully Convicted Individuals Featured
+
+For each individual mentioned or featured:
+
+-   **Name**: Amelia Bird (also known as Millie in prison)
+-   **Case Location**: Summersville, Missouri, USA
+-   **Conviction Year**: 2008 (plea deal accepted, sentencing at age 19)
+-   **Exoneration Year**: Not yet exonerated
+-   **Crime Convicted Of**:  Implicated in the shooting of her parents and the death of her mother, Christina Bird.  Plead guilty to unstated charges as part of a deal.
+-   **Sentence**: Two consecutive life sentences
+-   **Time Served**: In prison since January 13th, 2006 (as of podcast recording) - approximately 17 years.
+-   **Contributing Factors**:
+    -   Ineffective Assistance of Counsel: Public defender advised plea deal, misrepresenting the potential sentence and failing to inform Amelia she was not eligible for the death penalty as a minor.
+    -   Coercive Plea Deal: Faced with threat of death penalty (though ineligible) and pressured to accept plea.
+    -   Vulnerability due to age and history of abuse:  16 years old at the time of the crime, history of severe childhood abuse and mental health issues.
+    -   Conflicting Testimony:  Chad Brantley's testimony implicating Amelia in the crime, despite his admission as the shooter.
+-   **Legal Status**:  Currently incarcerated, seeking clemency and parole through the Willow Project.  Direct appeals were limited due to plea deal.
+-   **Organizations Involved**:
+    -   The Willow Project: Wrongful conviction project for women at Webster University, advocating for Amelia's case.
+    -   CHAMP Assistance Dog Program: Prison program where Amelia trains service dogs.
+    -   AIG Pro Bono Program: Underwriter of the podcast, provides pro bono legal services.
+-   **Innocence Lawyer Details**:
+    -   Donna Holden: Public defender who advised Amelia to take the plea deal.  Believed to have provided ineffective counsel. Did not file ineffective assistance of counsel claim.
+    -   Ann Garrity-Rathert: Director of the Willow Project, legal studies professor at Webster University, currently advocating for Amelia.
+-   **Cross-Reference**: Not explicitly stated if in an exoneree database within the transcript.
+-   **Narrative of Original Crime**: Amelia's mother, Christina Bird, was fatally shot, and her father, William Bird, was injured in their home late at night. Amelia discovered the scene and called 911.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Chad Brantley's testimony:  Chad claimed Amelia planned the murder with him and put him up to it, to avoid the death penalty himself.
+    -   Conflict in stories: Police claimed inconsistencies between Amelia and Chad's initial statements (details not specified in transcript).
+-   **Trial Defender Notes**:
+    -   Donna Holden advised Amelia to take a plea deal to avoid the death penalty, claiming she would only serve 10 years.
+    -   Did not pursue an ineffective assistance of counsel claim after sentencing discrepancies were discovered.
+    -   Failed to inform Amelia she was not eligible for the death penalty as a minor.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Lack of physical evidence linking Amelia to the crime.
+    -   Chad Brantley confessed to being the shooter.
+    -   Focus on Chad's motive to manipulate and control Amelia after she broke up with him.
+    -   Willow Project arguing ineffective counsel and coercive plea.
+-   **Actual Perpetrator Details**:
+    -   Chad Brantley:  Amelia's ex-boyfriend, age 19 at the time.
+    -   Admitted to shooting Amelia's parents and intended to kill both.
+    -   Took a plea deal and was sentenced to life in prison.
+    -   Motive suggested to be control and manipulation of Amelia after their breakup.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Amelia Bird: "I told them I was suicidal. They, I would die before I ever went back in that house. I can't do it no more." (Describing her plea for help to mental health facility)
+    -   Amelia Bird: "I really wish I would have went to trial." (Regretting taking the plea deal)
+    -   Nola Ewers (Director of CHAMP): "She was from the beginning, an excellent trainer. And she became absolutely a vital part of our program up there." (Describing Amelia's involvement in the dog training program)
+    -   Ann Garrity-Rathert (Willow Project): "I believe her because everything that could corroborate her story in terms of research does corroborate her story." (Expressing belief in Amelia's innocence)
+    -   Amelia Bird: "Don't give up. Don't ever give up. Let your voice be heard, even though people are telling you that you're the one in the wrong, just stand up for yourself." (Message to younger self and others in similar situations)
+-   **Systemic Issues Identified**:
+    -   Ineffective assistance of counsel, particularly for vulnerable individuals.
+    -   Coercive plea bargaining practices.
+    -   Lack of adequate support and belief for victims of abuse within the justice system.
+    -   Disproportionate impact of wrongful convictions on women, often overlooked.
+    -   Challenges in exonerating women due to lack of DNA evidence in many cases.
+-   **Policy Recommendations/Calls to Action**:
+    -   Support for wrongful conviction organizations, particularly those focused on women like the Willow Project.
+    -   Advocacy for clemency and parole for wrongfully convicted individuals like Amelia Bird.
+    -   Increased scrutiny of plea bargaining processes, especially for minors and vulnerable populations.
+    -   Improved access to effective legal representation for indigent defendants.
+-   **Personal Narrative/Impact**:
+    -   Amelia's personal narrative is one of profound resilience in the face of horrific abuse and wrongful conviction.  She transformed her life in prison through the dog training program and therapy.  Her final thoughts are a message of hope and self-advocacy for others experiencing similar injustices.
+-   **Additional Resources**:
+    -   willoprojectstl.org (The Willow Project website)
+    -   Links to Amelia's Facebook support page (mentioned in podcast outro).
+    -   Links to CHAMP Assistance Dogs (mentioned in podcast outro).
+    -   lifelock.com/iHeart (advertiser offering identity theft protection).
+    -   target.com/circle (Target Circle 360 subscription service).
+    -   purdueglobal.edu (Purdue Global online university).
+    -   paypal.com (PayPal debit card information).
+    -   yourattentionplease.com (breast cancer screening information).
+    -   culvers.com (Culver's fish fry advertisement).
+    -   nissanusa.com (Nissan Murano advertisement).
+
+```

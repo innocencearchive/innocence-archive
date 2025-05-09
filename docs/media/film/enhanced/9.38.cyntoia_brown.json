@@ -1,0 +1,83 @@
+{
+  "source_file_name": "9.38.cyntoia_brown.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "Murder to Mercy: The Cyntoia Brown Story",
+    "creator_name": "Daniel H. Birman",
+    "publication_or_release_year": 2020,
+    "publisher_or_network": "Daniel H. Birman Productions (Distributed by Netflix)",
+    "focus_or_theme": "Chronicles the case of Cyntoia Brown, who was sentenced to life in prison at age 16 for killing a man in 2004. Explores her claims of self-defense and history as a victim of sex trafficking, the controversy around trying juveniles as adults, and her fight for clemency.",
+    "summaryNotes": "Brown was sentenced to life with parole eligibility only after 51 years. She served 15 years before being granted clemency by Tennessee Governor Bill Haslam in 2019.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Murder to Mercy: The Cyntoia Brown Story",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Chronicles the case of Cyntoia Brown, who was sentenced to life in prison at age 16 for killing a man in 2004. Explores her claims of self-defense and history as a victim of sex trafficking, the controversy around trying juveniles as adults, and her fight for clemency.",
+    "summary_notes": "Documentary about Cyntoia Brown, sentenced to life in prison at 16 for killing a man in 2004. It explores her claims of self-defense, history as a sex trafficking victim, and fight for clemency.",
+    "key_quotes_raw": [
+      "Interviews with Cyntoia Brown over many years (building on earlier documentary work by the same director)",
+      "Legal experts discussing juvenile sentencing",
+      "Details of her troubled upbringing and trafficking experience",
+      "The public campaign for clemency",
+      "Governor Haslam's clemency decision."
+    ],
+    "systemic_issues_raw": [
+      "Juvenile justice issues (trying minors as adults, life sentences for juveniles)",
+      "Intersection of sex trafficking and criminal culpability",
+      "Sentencing reform needs",
+      "Role of clemency",
+      "Potential racial disparities in sentencing (raised by advocates)."
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly supports reforms in juvenile sentencing laws",
+      "Better recognition and support for victims of sex trafficking within the justice system",
+      "Consideration of mitigating factors like age and trauma in sentencing."
+    ],
+    "external_links_raw": [],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Cyntoia Brown Long",
+      "first_name": "Cyntoia",
+      "middle_name": "Brown",
+      "last_name": "Long",
+      "status": "RELEASED_CLEMENCY",
+      "conviction_year": 2006,
+      "exoneration_or_release_year": null,
+      "time_served": "15 years.",
+      "sentence": "Life imprisonment (with parole eligibility after 51 years).",
+      "crime_convicted_of_raw": "First-degree murder and aggravated robbery (of Johnny Michael Allen).",
+      "case_location_city": "Nashville",
+      "case_location_state": "Tennessee",
+      "narrative_summary": "Cyntoia Brown Long was sentenced to life in prison at 16 for the murder of Johnny Michael Allen. She was later granted clemency and released after serving 15 years. Her case highlights juvenile sentencing and the intersection of sex trafficking with criminal culpability.",
+      "contributing_factors_raw": [
+        "Tried and sentenced as an adult despite being 16",
+        "History of severe childhood trauma and being sex trafficked",
+        "Claim of self-defense questioned",
+        "Harsh mandatory sentencing laws for juveniles at the time."
+      ],
+      "organizations_involved_raw": [
+        "Legal teams advocating for juvenile justice reform",
+        "Numerous public figures and advocates who supported her clemency campaign."
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Daniel H. Birman",
+      "first_name": "Daniel",
+      "middle_name": "H.",
+      "last_name": "Birman",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

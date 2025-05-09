@@ -1,0 +1,95 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+For each podcast on wrongful convictions, we'll collect the following information:
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Maggie Freeling
+-   **Episode # & Title (if applicable)**: Kim Hoover
+-   **Host(s)**: Maggie Freeling
+-   **Release Year(s)**: 2024 (Assuming current year based on context, needs to be verified if possible from podcast source)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company No. 1
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful conviction, Shaken Baby Syndrome, forensic science, legal reform, personal stories of exonerees.
+-   **Key Statistics/Information**:
+    -   Kim Hoover was in prison for 19 years for wrongful conviction.
+    -   Dr. Ellen McManus diagnosed Sumatia with Shaken Baby Syndrome based on CT scan showing skull fracture and blood across the brain.
+    -   Initial understanding of Shaken Baby Syndrome in 2002 focused on retinal hemorrhaging, hemorrhage on the brain, and brain swelling as definitive signs.
+    -   Dr. Janice Appovin, forensic pediatric pathologist, found an old brain injury in Sumatia, weeks or months prior to the event at Kim's daycare.
+    -   Dr. Patrick Fartil, the original coroner, reviewed his diagnosis and agreed with the finding of an old head injury.
+    -   Kim Hoover's first appeal in 2004 was denied.
+    -   Kim Hoover was released in October 2021 after charges were dismissed.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Maggie Freeling tells the story of Kim Hoover, wrongfully convicted in 2003 for the murder of a baby in her daycare and imprisoned for 19 years. The case hinged on a Shaken Baby Syndrome diagnosis, based on now outdated medical understanding.  Key medical witnesses for the prosecution testified to SBS based on symptoms observed.  However, critical medical records were not presented at trial by her defense.  The Wrongful Conviction Project at the Ohio Public Defender's Office took on Kim's case, uncovering evidence of a pre-existing brain injury in the child through autopsy tissue slides and expert re-evaluation. This new evidence led to the original coroner and a radiologist changing their opinions. Ultimately, the prosecutor's office agreed to dismiss all charges, and Kim was released in 2021, highlighting the flaws of the justice system and advancements in forensic science that can overturn wrongful convictions.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Kim Hoover
+-   **Case Location**: Columbus, Ohio, USA
+-   **Conviction Year**: 2003
+-   **Exoneration Year**: 2021
+-   **Crime Convicted Of**: Murder, Child Endangerment, Felonious Assault, Involuntary Manslaughter
+-   **Sentence**: 15 years to life
+-   **Time Served**: 19 years
+-   **Contributing Factors**:
+    -   Misdiagnosis of Shaken Baby Syndrome based on outdated medical understanding.
+    -   Lack of presentation of critical medical evidence by original defense attorney.
+    -   Focus on immediate timeframe of injury, neglecting pre-existing conditions.
+-   **Legal Status**: Exonerated, charges dismissed.
+-   **Organizations Involved**:
+    -   Wrongful Conviction Project at the Ohio Public Defender's Office.
+-   **Innocence Lawyer Details**: Joanna Sanchez, director of the Wrongful Conviction Project at the Ohio Public Defender's Office, led the legal efforts for Kim's exoneration.
+-   **Cross-Reference**: Yes (Appears in podcast episode discussing wrongful convictions, needs to be verified against exoneree database if available).
+-   **Narrative of Original Crime**: Kim Hoover ran a home daycare.  Seven-month-old Sumatia was dropped off and later found unresponsive after a nap. Kim called 911 and performed CPR, but Sumatia could not be revived. Kim was accused of causing fatal injuries while Sumatia was in her care.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Testimony from Dr. Ellen McManus and Dr. Charles Johnson diagnosing Shaken Baby Syndrome based on retinal hemorrhaging, hemorrhage on the brain, and brain swelling observed in Sumatia's CT scan and autopsy.
+    -   Testimony from Deputy Coroner Dr. Patrick Fartil, who performed the autopsy and initially concluded it was Shaken Baby Syndrome.
+    -   Implied timeframe of injury being shortly before the baby became unresponsive while in Kim's care.
+-   **Trial Defender Notes**:
+    -   Defense argued Kim did not harm the child and injuries may have occurred earlier.
+    -   Defense expert testified via deposition, believing it was SBS but injuries could be hours older.
+    -   Defense presented evidence of domestic violence history in Sumatia's family, suggesting the father as an alternate suspect.
+    -   Defense attorney did not effectively refute the medical testimony or present crucial hospital paperwork and reports.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Re-examination of autopsy tissue slides by Dr. Janice Appovin revealed evidence of an old brain injury predating the events at Kim's daycare.
+    -   Dr. Patrick Fartil reviewed the slides with special iron stains and revised his opinion, confirming the old head injury.
+    -   Radiologist review of records also supported the conclusion of a prior injury.
+-   **Actual Perpetrator Details**: Not definitively identified in the podcast. The podcast strongly suggests the death was due to a pre-existing injury, not actions by Kim Hoover.  Domestic violence history of the parents was mentioned, with the father being presented as an alternate suspect by the defense at trial. However, the podcast focuses on Kim's innocence and the flawed medical diagnosis rather than conclusively identifying another perpetrator.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Kim Hoover: "My name is Kim Hoover. I was in prison for 19 years for wrongful conviction of killing a baby that was in my daycare."
+    -   Joanna Sanchez: "Twenty years ago, the understanding of Shaken Baby Syndrome and abuse of head trauma was very different than what it is today."
+    -   Keena (Kim's sister): "There's just no way that it was true. There's no possible way that it happened in her daycare. Like, she didn't do it."
+    -   Kim Hoover: "I assume that my attorney would be there to make sure that things were put right, that the evidence would come out, but that really didn't happen."
+    -   Joanna Sanchez: "What we know now, and what was sort of starting to be discovered at that time, is that these symptoms that doctors used to identify shaken baby syndrome or abusive head trauma could really be caused by a number of things, including birth trauma, infection, diseases, shortfalls."
+    -   Kim Hoover on release: "It was overwhelming. It really was. My legs kind of gave out on me. I couldn't really walk. They ran up to me. I just kind of like stood there, and I kept thinking that I was going to be pulled back in, you know, pulled right back into the prison."
+    -   Kim Hoover on prison memories: "It's like the further I got away from prison, all of my memories were being pulled and left in prison, because I had to start this new life here."
+-   **Systemic Issues Identified**:
+    -   Flaws in the forensic science and medical understanding of Shaken Baby Syndrome at the time of Kim Hoover's trial.
+    -   Inadequate legal defense; failure to present crucial medical evidence and effectively challenge prosecution's medical testimony.
+    -   The impact of outdated medical presumptions on legal proceedings and jury decisions.
+    -   Difficulties in accessing medical records for post-conviction review.
+-   **Policy Recommendations/Calls to Action**:
+    -   Support for Innocence Organizations.
+    -   Continued re-evaluation of past Shaken Baby Syndrome/Abusive Head Trauma convictions in light of updated medical understanding.
+    -   Emphasis on thorough and unbiased investigation in cases involving child deaths, considering all potential causes and pre-existing conditions.
+    -   Need for improved legal representation in cases involving complex medical evidence, ensuring defense attorneys are equipped to understand and challenge medical testimony.
+-   **Personal Narrative/Impact**:
+    -   Kim Hoover's 19 years of wrongful imprisonment and the devastating impact on her life and family.
+    -   The emotional toll of wrongful conviction, including the loss of time with family, especially the death of her mother while incarcerated.
+    -   The difficulty of readjusting to life after long-term wrongful imprisonment and the lingering psychological effects, such as panic attacks triggered by routine prison schedules.
+    -   Kim's resilience and determination to rebuild her life and potentially finish her business degree.
+-   **Additional Resources**:
+    -   Ohio Public Defender's Office Wrongful Conviction Project.
+    -   Local Innocence Organizations (mentioned generally, specific ones not named).
+    -   Lava for Good Podcasts (production company).
+    -   Signal Company No. 1 (production company).
+```

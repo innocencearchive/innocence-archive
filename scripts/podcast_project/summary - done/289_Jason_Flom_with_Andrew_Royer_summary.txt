@@ -1,0 +1,110 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript (Implied to be about Andy Royer and Elkhart, Indiana)
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript (Likely post-2021, given Andy Royer's exoneration in 2021)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, false confessions, coerced witnesses, junk science (fingerprint analysis), police misconduct, prosecutorial misconduct, systemic issues in the justice system.
+-   **Key Statistics/Information**:
+    -   Elkhart, Indiana, may be the wrongful conviction capital of the US, with 5 exonerations and potentially 17 wrongful convictions known out of a population of 50,000.
+    -   Compared to New York City with approximately 4 exonerations per 100,000 people, Elkhart has a significantly higher rate.
+    -   Andy Royer's case highlights multiple hallmarks of wrongful convictions: false confession, coerced eyewitness, false expert testimony, prosecutorial misconduct, and official misconduct.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom delves into the egregious case of Andy Royer, wrongfully convicted in Elkhart, Indiana, for the murder of Helen Saylor. The episode exposes systemic issues within the Elkhart Police Department and prosecutor's office, highlighting a pattern of misconduct leading to wrongful convictions. Andy Royer, a disabled man, was coerced into a false confession after aggressive interrogation, while a vulnerable witness was pressured to fabricate testimony against Royer and his co-defendant, Lana Kanan.  False fingerprint analysis further cemented their wrongful conviction. The podcast details the relentless efforts of the Notre Dame Exoneration Justice Clinic, particularly attorney Elliot Slosar, to overturn Royer's conviction, revealing shocking admissions of misconduct from involved detectives and the pervasive systemic failures within Elkhart's justice system. Ultimately, Royer was exonerated after serving years in prison, underscoring the urgent need for systemic reform and accountability.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Andy Royer
+    -   **Case Location**: Elkhart, Indiana, USA
+    -   **Conviction Year**: 2005
+    -   **Exoneration Year**: 2021
+    -   **Crime Convicted Of**: Murder of Helen Saylor
+    -   **Sentence**: 55 years
+    -   **Time Served**: Approximately 16 years
+    -   **Contributing Factors**: False confession due to coercive interrogation tactics exploiting cognitive disabilities, fabricated eyewitness testimony, false fingerprint analysis, ineffective trial counsel, prosecutorial misconduct, systemic police misconduct.
+    -   **Legal Status**: Exonerated; Case dismissed.
+    -   **Organizations Involved**: Notre Dame Exoneration Justice Clinic
+    -   **Innocence Lawyer Details**: Elliot Slosar from the Notre Dame Exoneration Justice Clinic is highlighted as being instrumental in Andy Royer's exoneration. He is described as effective at "breaking down the blue wall of silence" and dedicated to uncovering the truth, leading to critical admissions from Detective Conway and others involved in the misconduct.
+    -   **Cross-Reference**: Yes (Appears in the exoneree database through the details of this case)
+    -   **Narrative of Original Crime**: 94-year-old Helen Saylor was found strangled in her apartment in a high-rise for elderly and disabled residents on Thanksgiving weekend 2002. The alleged murder weapon was a missing lanyard.
+    -   **Key Evidence at Trial (Prosecution)**:
+        -   Andy Royer's false confession, obtained after coercive interrogation.
+        -   Fabricated eyewitness testimony from Nina Porter, claiming Lana Kanan confessed and implicated Andy.
+        -   False fingerprint "match" by untrained analyst Dennis Chapman, linking Lana Kanan to a pill bottle found at the scene.
+    -   **Trial Defender Notes**: Andy Royer's trial attorney failed to suppress the false confession, did not call false confession experts, and presented no defense witnesses. He claimed it was "strategy" not to use outside experts, which was contrasted with the reliance on local, unqualified fingerprint analyst Dennis Chapman.
+    -   **Key Evidence for Exoneration/Change in Legal Status**:
+        -   Recantation of Nina Porter's false testimony.
+        -   Exposure of Dennis Chapman's fraudulent fingerprint analysis by Lana Kanan's post-conviction lawyer, Kara Winicki, and subsequent confirmation by state police lab.
+        -   Admissions from Detective Conway in depositions, including feeding Royer information during interrogation, belief Royer was mentally broken, and removal from homicide unit for prior misconduct.
+        -   Recordings of Detective Daggie admitting the interrogation was leading and problematic.
+    -   **Actual Perpetrator Details**: Not identified in the podcast transcript. The focus is on the wrongful conviction and systemic failures rather than identifying the actual perpetrator of Helen Saylor's murder.
+
+-   **Name**: Lana Kanan
+    -   **Case Location**: Elkhart, Indiana, USA
+    -   **Conviction Year**: 2005
+    -   **Exoneration Year**: Prior to Andy Royer (mentioned as already exonerated when Elliot Slosar took Andy's case)
+    -   **Crime Convicted Of**: Murder of Helen Saylor (co-defendant with Andy Royer)
+    -   **Sentence**: 55 years
+    -   **Time Served**: Not explicitly stated in transcript, but exonerated before Andy Royer.
+    -   **Contributing Factors**: False fingerprint analysis, fabricated eyewitness testimony, ineffective trial counsel, prosecutorial misconduct, systemic police misconduct, association with Andy Royer in a flawed investigation.
+    -   **Legal Status**: Exonerated; Case dismissed.
+    -   **Organizations Involved**: Not explicitly stated, but Kara Winicki is mentioned as her post-conviction lawyer.
+    -   **Innocence Lawyer Details**: Kara Winicki is highlighted for her crucial role in Lana Kanan's exoneration by exposing the fraudulent fingerprint analysis of Dennis Chapman. Her expertise and persistence in challenging the forensic evidence were key to overturning Lana's wrongful conviction.
+    -   **Cross-Reference**: Yes (Appears in the exoneree database through the details of this case)
+    -   **Narrative of Original Crime**: Same as Andy Royer - Murder of 94-year-old Helen Saylor.
+    -   **Key Evidence at Trial (Prosecution)**:
+        -   Fabricated eyewitness testimony from Nina Porter, claiming Lana Kanan confessed and implicated Andy.
+        -   False fingerprint "match" by untrained analyst Dennis Chapman, linking Lana Kanan to a pill bottle found at the scene.
+    -   **Trial Defender Notes**: Not detailed in transcript, but implied to be similarly ineffective given the wrongful conviction.
+    -   **Key Evidence for Exoneration/Change in Legal Status**:
+        -   Kara Winicki's successful challenge to the fingerprint evidence, proving Dennis Chapman's analysis was fraudulent and unreliable.
+        -   Independent expert analysis and state police lab re-examination confirming the fingerprint was not Lana Kanan's.
+    -   **Actual Perpetrator Details**: Not identified in the podcast transcript.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Jason Flom: "In this case, it's not only about what happened to an elderly woman, Helen Saylor, but also the two people who were wrongfully convicted."
+    -   Elliot Slosar: "Elkhart, India, the city will be the wrongful conviction capital in the US."
+    -   Elliot Slosar (quoting Nina Porter about Conway's tactics): "Conway's showing her pictures and on the back of it, there were phrases that she was supposed to repeat once he turned the recorder on."
+    -   Andy Royer (describing his trial experience): "I felt like a stiff board walking down the aisle... I felt it was all one sided. No witnesses, no defense witnesses."
+    -   Andy Royer (on his exoneration): "Color started coming back to my face. And I started feeling like a person again."
+    -   Appellate Court Ruling: "Detective Conway withheld the truth when he attempted to bolster the reliability of Royer's confessions by saying Royer new details about the murder, which were not known to the public."
+
+-   **Systemic Issues Identified**:
+    -   Police misconduct in Elkhart PD, including coercive interrogations, fabrication of evidence, and perjury.
+    -   Prosecutorial misconduct, including using fabricated evidence and failing to disclose exculpatory information.
+    -   Lack of proper training and oversight within the Elkhart County Sheriff's Department (fingerprint analysis).
+    -   Ineffective assistance of counsel in the original trials.
+    -   Judicial bias and systemic protection of law enforcement within Elkhart's legal system.
+    -   The "blue wall of silence" hindering accountability within law enforcement.
+    -   Perverse incentives within the prison system related to inmate labor (13th Amendment loophole).
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Mandatory video recording of all police interactions, including interrogations, witness interviews, and identification procedures.
+    -   Independent review of convictions from Elkhart County due to systemic misconduct concerns.
+    -   Criminal investigation and prosecution of Detective Conway, Dennis Chapman, and potentially Prosecutor Vicki Becker for their roles in wrongful convictions.
+    -   Calls for reform in prosecutorial accountability and police training to prevent coercive tactics and evidence fabrication.
+    -   Support for organizations like the Notre Dame Exoneration Justice Clinic and The Last Mile program.
+    -   Urge voters to hold accountable prosecutors like Vicki Becker who contribute to wrongful convictions.
+
+-   **Personal Narrative/Impact**:
+    -   Andy Royer's personal narrative emphasizes the devastating impact of wrongful conviction on his life, including the trauma of coercive interrogation, years of unjust imprisonment, and the struggle to regain his life after exoneration. His words convey the emotional toll of being disbelieved and facing a system that seemed stacked against him. His gratitude towards his legal team and family highlights the importance of support systems in overcoming wrongful convictions.
+    -   Final thoughts from Andy: "I just want to thank everybody that worked on my case and the law students and the people that believed in me. My mom and my stepdad and family and they brought me through a lot. I didn't know how to get through it, but I did."
+
+-   **Additional Resources**:
+    -   Previous Wrongful Conviction podcast episode "Junk Science, Wrongful Addiction Junk Science" (linked in bio, about fingerprint analysis subjectivity).
+    -   Pacers Foundation (PacersFoundation.org)
+    -   The Last Mile organization (TheLastMile.org)
+    -   My Computer Career (mycomputercareer.edu/CWP)
+```

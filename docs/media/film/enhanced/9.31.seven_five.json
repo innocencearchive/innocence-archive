@@ -1,0 +1,50 @@
+{
+  "source_file_name": "9.31.seven_five.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "The Seven Five",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": null,
+    "focus_or_theme": "Focuses on rampant police corruption within New York City's 75th precinct during the 1980s and early 1990s, centered around officer Michael Dowd and his crew. Explores how their criminal activities (drug dealing, robbery, etc.) undermined justice.",
+    "summaryNotes": "Details the extensive criminal enterprise run by Dowd and other officers within the NYPD.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "The Seven Five",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Focuses on rampant police corruption within New York City's 75th precinct during the 1980s and early 1990s, centered around officer Michael Dowd and his crew. Explores how their criminal activities (drug dealing, robbery, etc.) undermined justice.",
+    "summary_notes": "Details the extensive criminal enterprise run by Dowd and other officers within the NYPD. The film implies that their corruption inevitably led to wrongful arrests and convictions, but it doesn't focus on tracking those specific cases.",
+    "key_quotes_raw": [
+      "Features extensive interviews with Michael Dowd and other key figures involved in the corruption scandal.",
+      "Depicts the brazen nature of the crimes committed by the officers."
+    ],
+    "systemic_issues_raw": [
+      "Widespread police corruption",
+      "Failure of internal police oversight mechanisms",
+      "The \"blue wall of silence\"",
+      "Erosion of public trust",
+      "Impact of corruption on the integrity of the justice system (leading implicitly to wrongful arrests/convictions)."
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly highlights the need for robust anti-corruption measures within police departments",
+      "Strong independent oversight."
+    ],
+    "external_links_raw": [
+      {
+        "url": null,
+        "description": "Reports from the Mollen Commission, news archives covering the 75th precinct scandal."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

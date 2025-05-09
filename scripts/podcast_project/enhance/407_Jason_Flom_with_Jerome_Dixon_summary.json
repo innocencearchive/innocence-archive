@@ -1,0 +1,114 @@
+{
+    "sourceFileName": "407_Jason_Flom_with_Jerome_Dixon_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, false confessions, juvenile justice system, coercive interrogation techniques,  impact of incarceration, rehabilitation, advocacy for reform.",
+        "keyStats": "- Jerome Dixon served 21 and a half years for a crime he did not commit due to a false confession.\n- At 17 years old, Jerome was interrogated for 25 hours leading to a false confession.\n- Jerome maintained a disciplinary-free record for 21 and a half years in prison.\n- Jerome is now Vice Chairman of the Board of the Anti-Recidivism Coalition.\n- Seeking gubernatorial pardon for full exoneration.\n- Working towards federalizing juvenile Miranda rights.",
+        "itemNumber": "407",
+        "itemTitle": "Jason Flom with Jerome Dixon",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the harrowing story of Jerome Dixon, who at 17 years old, was coerced into falsely confessing to a murder he did not commit in Oakland, California in 1990.  Despite no eyewitness identification and alibi witnesses, prolonged and manipulative interrogation tactics led to a false confession. Jerome was pressured by his public defender to take a plea deal based on the confession, ultimately serving 21.5 years in prison for a crime he did not commit.  The episode details the systemic failures in the justice system, including coercive interrogation techniques and inadequate legal representation.  Upon release after multiple parole denials and finally asserting his innocence, Jerome has become an advocate for juvenile justice reform, working to federalize juvenile Miranda rights.  His attorney, Ben Shaw, is currently seeking a gubernatorial pardon to fully exonerate Jerome.  Jerome's story highlights the devastating impact of false confessions and the urgent need for criminal justice reform."
+    },
+    "featuredIndividual": {
+        "fullName": "Jerome Dixon",
+        "caseLocation": "Oakland, California, USA",
+        "convictionYear": "1991 (plea deal finalized)",
+        "exonerationYear": "Released on parole in 2011, seeking gubernatorial pardon for full exoneration.",
+        "crimeConvictedOf": "Second-degree murder (initially first-degree murder, robbery, and assault with a deadly weapon, reduced via plea deal).",
+        "sentence": "18 years to life (after initial 6-year youth authority deal was rejected).",
+        "timeServed": "21 and a half years",
+        "contributingFactorsRaw": [
+            "False confession: Coerced through lengthy interrogation (25 hours), use of Reid Technique, false evidence ploy (failed polygraph), minimization and maximization tactics, isolation, sleep deprivation, youth (17 years old).",
+            "Inadequate legal counsel: Public defender advised taking plea deal based on confession, did not challenge confession or explore inconsistencies."
+        ],
+        "status": "Released on parole (parole terminated early due to good behavior), seeking gubernatorial pardon for full exoneration.",
+        "organizationsInvolvedRaw": [
+            "Anti-Recidivism Coalition (ARC): Jerome is Vice Chairman of the Board.",
+            "McLean, Badnarski, and Lit: Ben Shaw's law firm, representing Jerome in seeking pardon."
+        ],
+        "innocenceLawyersRaw": [
+            "Ben Shaw, civil rights attorney at McLean, Badnarski, and Lit, is currently working pro bono to secure a gubernatorial pardon for Jerome. He is described as working on clearing Jerome's name and has undertaken a new investigation including eyewitness interviews and expert reports."
+        ],
+        "crossReference": "Not specified in transcript if in exoneree database.",
+        "narrativeOriginalCrime": "On July 25, 1990, Curtis Durden was fatally shot during a robbery in front of his apartment building in Oakland. Assailants demanded money from Durden and his friends. One friend, Jeff Simmons, was pistol-whipped.",
+        "keyEvidenceProsecutionRaw": [
+            "Jerome Dixon's false confession was the primary evidence presented. Despite inconsistencies and lack of corroborating evidence, it was deemed strong enough for a conviction via plea deal."
+        ],
+        "trialDefenderNotes": "Jerome's public defender advised him to take a plea deal of six years in youth authority due to the confession, stating it was unwinnable at trial.  When the youth authority rejected him, the public defender negotiated a plea to second-degree murder for 18 years to life, again advising acceptance due to the confession. The defense did not challenge the validity of the confession or present alibi witnesses.",
+        "keyEvidenceExonerationRaw": [
+            "Jerome's consistent claims of innocence during parole hearings (especially from 2008 onwards).",
+            "Demonstration of rehabilitation and model behavior in prison (disciplinary-free record, hospice care, education).",
+            "New investigation undertaken by Ben Shaw's team for the pardon application, including:",
+            "Re-interviewing eyewitnesses and alibi witnesses.",
+            "Expert report from Dr. Richard Leo on false confessions, detailing risk factors in Jerome's case."
+        ],
+        "actualPerpetratorDetails": "Not given or available in the podcast transcript. The focus is on Jerome's wrongful conviction, not the identification of the actual perpetrator(s)."
+    },
+    "keyQuotesRaw": [
+        "Jerome: \"I was kidnapped by law enforcement.\"",
+        "Jerome: \"I was becoming nothing more but this empty shell of a child and I didn't know what else to do.\" (Describing the interrogation)",
+        "Jerome: \"I had to become that 17 year old kid's protector, his man. And I had to always speak for that 17 year old kid, because nobody spoke for him.\" (Describing his personal growth and self-reflection in prison)",
+        "Ben Shaw: \"What happened to Jerome was an outrage, but it isn't unique. It's what happens when assumptions about black communities and the people who live there combined with the policing that does nothing to advance public safety and actually affirmatively endangers people...\" (Highlighting systemic issues).",
+        "Jerome: \"My case is not unique. I am not a unicorn. I was an individual, one of many who was forced to confess to a crime that they didn't do. And it should not have happened and it needs to stop.\" (Emphasizing the broader problem of false confessions)."
+    ],
+    "systemicIssuesRaw": [
+        "Coercive interrogation tactics (Reid Technique, false evidence ploys) leading to false confessions, especially from juveniles.",
+        "Racial bias and assumptions in policing and criminal investigations, particularly targeting communities of color.",
+        "Inadequate legal representation and pressure to accept plea deals even in cases of innocence.",
+        "Difficulty in challenging confessions in court.",
+        "Parole board processes that initially did not adequately consider innocence claims.",
+        "Lack of federal protections for juvenile Miranda rights."
+    ],
+    "policyRecommendationsRaw": [
+        "Federalize juvenile Miranda rights to ensure greater protection for minors during police interrogations.",
+        "Support the Anti-Recidivism Coalition (ARC) to aid in criminal justice reform and support for formerly incarcerated individuals.",
+        "Advocate for gubernatorial pardon for Jerome Dixon by writing letters to Governor Newsom."
+    ],
+    "personalNarrativeRaw": [
+        "Jerome's personal narrative emphasizes the devastating impact of wrongful conviction on his life, including loss of freedom, trauma of incarceration, and the struggle to maintain sanity.",
+        "He describes his loss of faith and the immense pressure of holding onto his sanity while incarcerated.",
+        "Highlights his resilience in prison through self-improvement, hospice care, and maintaining a disciplinary-free record.",
+        "Demonstrates his post-release success in finding work, marriage, home ownership, and becoming a leading advocate for reform.",
+        "Final thoughts express his desire for exoneration and his commitment to preventing similar injustices."
+    ],
+    "additionalResourcesRaw": [
+        "Anti-Recidivism Coalition website: antirecidivism.org",
+        "Contact Congressman Tony Cardenas and Representative Sydney Kamlogger Dove to support federalizing juvenile Miranda rights.",
+        "Dr. Richard Leo's expert report on Jerome Dixon's false confession (not directly available but mentioned as evidence for pardon)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Public defender",
+                "role_guess": "Lawyer",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "17 year old kid",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": "uncertain"
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Racial bias in policing",
+            "Parole board denials"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "False confessions",
+                "Juvenile justice reform",
+                "Systemic failures in the justice system",
+                "Racial bias in the justice system"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

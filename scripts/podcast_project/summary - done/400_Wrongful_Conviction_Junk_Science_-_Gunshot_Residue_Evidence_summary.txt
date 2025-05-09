@@ -1,0 +1,86 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction: Junk Science
+-   **Episode # & Title (if applicable)**: Not specified in transcript, likely part of an episodic series. Episode focuses on Gunshot Residue.
+-   **Host(s)**: Kate Judson, Josh Dubin
+-   **Release Year(s)**: 2020 (first released), likely re-released or ongoing relevance mentioned in transcript
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Forensic science, wrongful convictions, specifically focusing on the unreliability of gunshot residue evidence.
+-   **Key Statistics/Information**:
+    -   Gunshot residue (GSR) testing, including paraffin and atomic absorption tests, has significant reliability issues due to false positives and contamination.
+    -   Many substances can cause false positives in older GSR tests, including brake linings, soot, toothpaste, tobacco, urine, soap, and tap water.
+    -   Even modern SEM-EDS GSR testing is susceptible to contamination and transfer, making it unreliable as definitive evidence.
+    -   Raymond Carl Allen Warren was convicted based on atomic absorption GSR testing, which is now largely discredited.
+    -   Studies have shown GSR contamination is common in police environments, including police cars.
+    -   Over 2000 exonerations have occurred, many after setbacks and persistent fighting.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction: Junk Science" examines the case of Raymond Carl Allen Warren, who was wrongfully convicted of murder at 17 based on unreliable gunshot residue evidence. The podcast details the history of GSR testing, highlighting its flaws, from the outdated paraffin test to the atomic absorption test used in Warren's case.  It explains how these tests are prone to false positives due to common environmental contaminants and transferability.  The episode features Joanna Sanchez, Warren's lawyer from the Ohio Public Defender's Wrongful Conviction Project, discussing the specifics of his case and the ongoing fight for his exoneration.  The hosts emphasize the systemic issues with junk science in the justice system and encourage listeners to share information and advocate for reform to prevent future wrongful convictions based on faulty forensic evidence.  The episode underscores the devastating impact of unreliable forensic science on individuals' lives and the urgent need for critical evaluation of such evidence in court.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Raymond Carl Allen Warren (referred to as Allen or Raymond)
+-   **Case Location**: Dayton, Ohio, USA
+-   **Conviction Year**: 1994 (at age 17)
+-   **Exoneration Year**: Not yet exonerated (as of podcast episode)
+-   **Crime Convicted Of**: Murder
+-   **Sentence**: 15 years to life
+-   **Time Served**: Over 25 years (as of podcast episode recording)
+-   **Contributing Factors**:
+    -   Faulty forensic science (gunshot residue evidence - atomic absorption test)
+    -   Coerced testimony (false statements from friends Chante and Antonio due to police pressure)
+    -   Tunnel vision by police focusing on GSR evidence and ignoring other possibilities.
+-   **Legal Status**: Still incarcerated, fighting for exoneration. Motion for new trial denied by Ohio Supreme Court earlier in the year of the podcast.
+-   **Organizations Involved**:
+    -   Wrongful Conviction Project at the Office of the Ohio Public Defender (Joanna Sanchez is representing him)
+    -   Innocence Project (mentioned as being involved, Josh Dubin is Innocence Ambassador)
+-   **Innocence Lawyer Details**: Joanna Sanchez from the Wrongful Conviction Project at the Office of the Ohio Public Defender is representing Raymond Carl Allen Warren. She is described as fighting for his justice and believes strongly in his innocence.
+-   **Cross-Reference**: Not explicitly stated if he is in the exoneree database, but highly likely given the nature of the podcast.
+-   **Narrative of Original Crime**: A man in a green car was shot and killed. Raymond, along with his friends Alan and Chante, encountered the car shortly before the shooting when the driver asked them for drugs. Later, the car was found crashed and the driver was shot.
+-   **Key Evidence at Trial (Prosecution)**: Gunshot residue test (atomic absorption) on Alan's right hand (palm) was presented as positive. Officer testified there was "no doubt" Alan shot the gun. Coerced testimony from friends Chante and Antonio, who initially falsely implicated Alan due to police pressure.
+-   **Trial Defender Notes**: Not detailed in the transcript. Implied that the defense was unable to effectively counter the GSR evidence at the time.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Discrediting of atomic absorption GSR testing as unreliable and prone to false positives.
+    -   Retractions from Chante and Antonio in 1999 and 2008, admitting their initial testimony was false and coerced by police, and confirming Alan's innocence.
+    -   Focus on environmental contamination and transferability of GSR, especially in police environments, as a likely explanation for the positive test.
+-   **Actual Perpetrator Details**: Not mentioned or identified in the podcast transcript.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Officer's trial testimony: "There is no doubt in my mind that the defendant shot the gun that was used in this homicide." - Example of how GSR evidence was presented definitively.
+    -   Joanna Sanchez: "The AA test, as used in Raymond's case, is problematic because we can't know if those two elements came from gunshot residue or what they came from, brake linings or some other substance that has those same elements as gunshot residue." - Explains the core issue with the GSR evidence in Warren's case.
+    -   Josh Dubin: "Sometimes bad science remains in our system of justice because it goes unchallenged. It's up to all of us to shine a bright light on these junk sciences and force a reckoning." - Call to action and summary of the podcast's mission.
+-   **Systemic Issues Identified**:
+    -   Use of unreliable forensic science in criminal trials, leading to wrongful convictions.
+    -   Tunnel vision in police investigations, focusing on flawed evidence and ignoring exculpatory information.
+    -   Coercive interrogation tactics leading to false confessions and false testimony.
+    -   Difficulty for incarcerated individuals to access legal resources and challenge wrongful convictions.
+    -   Courts not always acting as effective gatekeepers for forensic evidence.
+-   **Policy Recommendations/Calls to Action**:
+    -   Police and lab examiners should be cautious about using GSR testing, limiting it to only optimal circumstances or avoiding it altogether due to unreliability.
+    -   Courts and judges need to critically evaluate forensic evidence, especially GSR, and limit or prevent its use when the risk of prejudice outweighs its benefit.
+    -   Encouragement for listeners to share information about wrongful convictions and junk science to raise public awareness.
+    -   Listeners should engage with public officials and vote for judges who are open-minded, thorough, and understand the limitations of forensic science.
+    -   Advocate for laws that allow for appropriate challenges to wrongful convictions based on discredited forensic science.
+-   **Personal Narrative/Impact**:
+    -   Raymond Carl Allen Warren has been in prison for over 25 years for a crime he did not commit, based on faulty GSR evidence.
+    -   The episode highlights the emotional toll on Warren and his legal team, especially with setbacks in the legal process.
+    -   Joanna Sanchez emphasizes the importance of continuing to fight for justice for wrongfully convicted individuals despite the challenges and emotional toll.
+-   **Additional Resources**:
+    -   whiteslux.com (Website of Weitz & Luxembourg, law firm supporting the podcast)
+    -   maximistribe.com (Mentioned as a podcast sponsor, unrelated to wrongful convictions)
+    -   kiellasic.com (Mentioned as a podcast sponsor, unrelated to wrongful convictions)
+    -   ashleyfurniture.com (Mentioned as a podcast sponsor, unrelated to wrongful convictions)
+    -   WalshCollege.edu (Mentioned as a podcast sponsor, unrelated to wrongful convictions)
+    -   LifeEMS.com (Mentioned as a podcast sponsor, unrelated to wrongful convictions)
+    -   Shuler Books (Mentioned as a podcast sponsor, unrelated to wrongful convictions)
+```

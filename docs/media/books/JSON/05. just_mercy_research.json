@@ -1,0 +1,159 @@
+{
+  "source_file_name": "05. just_mercy_research.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Just Mercy: A Story of Justice and Redemption",
+    "creator_name": "Bryan Stevenson",
+    "publication_or_release_year": 2014,
+    "publisher_or_network": "Spiegel & Grau",
+    "format": "Hardcover, paperback, e-book, audiobook",
+    "focus_or_theme": "Wrongful convictions, racial injustice, death penalty, juvenile justice",
+    "key_statistics": "Documents dozens of cases handled by the Equal Justice Initiative"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "summary_notes": "\"Just Mercy\" is a memoir that documents Bryan Stevenson's career as a lawyer defending disadvantaged clients, particularly those on death row. The book primarily focuses on the case of Walter McMillian, a Black man who was wrongfully convicted and sentenced to death for the murder of a young white woman in Monroeville, Alabama. Through McMillian's case and others, Stevenson illustrates the deep-rooted problems in the American criminal justice system, including racial bias, prosecutorial misconduct, and the flawed application of the death penalty.\n\nThe book alternates between McMillian's story and other cases Stevenson has worked on, including those involving juveniles sentenced to life without parole, mentally ill prisoners, and women who have suffered abuse. Throughout, Stevenson argues for compassion and mercy in the justice system.",
+    "systemic_issues_raw": [
+      "Racial bias in the criminal justice system",
+      "Prosecutorial misconduct and abuse of power",
+      "Inadequate legal representation for poor defendants",
+      "Harsh treatment of juvenile offenders",
+      "Death penalty application problems",
+      "Treatment of mentally ill in the prison system",
+      "Excessive punishment and lack of proportionality",
+      "Prison conditions and prisoner abuse"
+    ],
+    "policy_recommendations_raw": [
+      "Elimination or reform of the death penalty",
+      "End of juvenile life without parole sentences",
+      "Improved legal representation for indigent defendants",
+      "Greater accountability for prosecutors who commit misconduct",
+      "Addressing racial bias in the justice system",
+      "More compassionate treatment of mentally ill defendants",
+      "Prison reform and improved conditions",
+      "Greater emphasis on rehabilitation over punishment"
+    ],
+    "item_title": "Book Content: Just Mercy: A Story of Justice and Redemption",
+    "focus_or_theme": "Wrongful convictions, racial injustice, death penalty, juvenile justice"
+  },
+  "featured_individuals": [
+    {
+      "case_location": "Monroeville, Alabama",
+      "conviction_year": 1988,
+      "exoneration_or_release_year": 1993,
+      "crime_convicted_of": "Murder of Ronda Morrison, a young white woman",
+      "sentence": "Death sentence",
+      "time_served": "6 years on death row",
+      "contributing_factors_raw": [
+        "Perjured testimony, prosecutorial misconduct, racial bias, withheld exculpatory evidence"
+      ],
+      "status_raw": [
+        "Exonerated"
+      ],
+      "organizations_involved_raw": [
+        "Equal Justice Initiative"
+      ],
+      "cross_reference": "Listed in National Registry of Exonerations; also mentioned in \"Actual Innocence\" book",
+      "individual_notes": "- McMillian was placed on death row before his trial even began\n- Multiple witnesses provided alibis placing him at a fish fry during the time of the murder\n- The key witness against him later recanted and admitted to lying under pressure from police\n- The case took place in the same town where Harper Lee set \"To Kill a Mockingbird\"",
+      "full_name": "Walter McMillian",
+      "first_name": "Walter",
+      "middle_name": null,
+      "last_name": "McMillian"
+    },
+    {
+      "case_location": "Birmingham, Alabama",
+      "conviction_year": 1986,
+      "exoneration_or_release_year": 2015,
+      "crime_convicted_of": "Murder of two restaurant managers",
+      "sentence": "Death sentence",
+      "time_served": "28 years on death row",
+      "contributing_factors_raw": [
+        "False forensic evidence, inadequate defense, racial bias"
+      ],
+      "status_raw": [
+        "Exonerated"
+      ],
+      "organizations_involved_raw": [
+        "Equal Justice Initiative"
+      ],
+      "cross_reference": "Listed in National Registry of Exonerations",
+      "individual_notes": "- Case went to the U.S. Supreme Court\n- Ballistics evidence that convicted him was proven to be false\n- Hinton later wrote his own memoir, \"The Sun Does Shine\"",
+      "full_name": "Anthony Ray Hinton",
+      "first_name": "Anthony",
+      "middle_name": "Ray",
+      "last_name": "Hinton"
+    },
+    {
+      "case_location": "Alabama",
+      "conviction_year": 1978,
+      "exoneration_or_release_year": 1989,
+      "crime_convicted_of": "Murder by pipe bomb",
+      "sentence": "Death sentence",
+      "contributing_factors_raw": [
+        "Inadequate defense, mental illness, PTSD from Vietnam War"
+      ],
+      "status_raw": [
+        "Executed"
+      ],
+      "organizations_involved_raw": [
+        "Equal Justice Initiative (represented him in final appeals)"
+      ],
+      "individual_notes": "- Vietnam veteran with untreated PTSD\n- Created a bomb to scare a former girlfriend but accidentally killed her niece\n- Stevenson represented him in his final appeals before execution",
+      "full_name": "Herbert Richardson",
+      "first_name": "Herbert",
+      "middle_name": null,
+      "last_name": "Richardson"
+    },
+    {
+      "case_location": "Alabama",
+      "conviction_year": "Not specified",
+      "crime_convicted_of": "Murder",
+      "sentence": "Juvenile life without parole",
+      "contributing_factors_raw": [
+        "Juvenile status, inadequate defense"
+      ],
+      "status_raw": [
+        "Eventually released after Supreme Court rulings on juvenile life sentences"
+      ],
+      "organizations_involved_raw": [
+        "Equal Justice Initiative"
+      ],
+      "individual_notes": "- Convicted as a juvenile\n- Case represents Stevenson's work on juvenile justice reform",
+      "full_name": "Charlie",
+      "first_name": "Charlie",
+      "middle_name": null,
+      "last_name": null
+    },
+    {
+      "case_location": "Pennsylvania",
+      "conviction_year": 1976,
+      "crime_convicted_of": "Murder (arson that killed two boys)",
+      "sentence": "Life without parole as a juvenile",
+      "contributing_factors_raw": [
+        "Juvenile status, mental disability, history of abuse"
+      ],
+      "status_raw": [
+        "Sentenced to life without parole as a 14-year-old"
+      ],
+      "organizations_involved_raw": [
+        "Equal Justice Initiative"
+      ],
+      "individual_notes": "- Suffered severe abuse and neglect as a child\n- Mentally disabled\n- Case used to highlight issues with juvenile life sentences",
+      "full_name": "Trina Garnett",
+      "first_name": "Trina",
+      "middle_name": null,
+      "last_name": "Garnett"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Bryan Stevenson",
+      "role": "AUTHOR",
+      "first_name": "Bryan",
+      "middle_name": null,
+      "last_name": "Stevenson"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "- The book was adapted into a feature film in 2019 starring Michael B. Jordan as Bryan Stevenson and Jamie Foxx as Walter McMillian\n- The Equal Justice Initiative has created a museum and memorial in Montgomery, Alabama that documents the history of racial injustice\n- Walter McMillian's case represents a clear example of cross-referencing between books, as he appears in both \"Just Mercy\" and \"Actual Innocence\"\n- The book provides detailed insights into the psychological impact of wrongful conviction on individuals and their families"
+}

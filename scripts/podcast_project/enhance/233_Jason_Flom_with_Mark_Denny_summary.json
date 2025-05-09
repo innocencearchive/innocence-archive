@@ -1,0 +1,109 @@
+{
+    "sourceFileName": "233_Jason_Flom_with_Mark_Denny_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good podcasts in association with Signal Company No. 1",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, criminal justice system reform, eyewitness misidentification, false confessions, police misconduct",
+        "keyStats": "-   Mark Denny served 30 years for a crime he did not commit.\n-   The crime occurred on December 20, 1987, and Denny was exonerated on December 20, 2017, exactly 30 years later.\n-   The wrongful conviction was attributed to a corrupt identification process, suggestive lineups, and a false statement from a co-defendant.\n-   Victim initially reported 3 assailants, later changed to 4 after suggestive lineup involving Mark Denny.",
+        "itemNumber": "233",
+        "itemTitle": "Jason Flom with Mark Denny",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction\" features Mark Denny, who was wrongfully convicted and served 30 years in prison for a brutal rape and robbery at a Burger King in Brooklyn in 1987.  Denny, just 16 at the time of the crime, was implicated by his cousin out of spite after being arrested with him on an unrelated charge. Despite the victim initially identifying three other individuals and maintaining there were only three assailants, detectives used suggestive lineup techniques to pressure her into identifying Denny as a fourth assailant.  Key evidence against Denny was a false statement from his cousin, which was later recanted.  The podcast details the flawed investigation, the trauma Denny endured in prison, and his eventual exoneration in 2017 thanks to the Brooklyn Conviction Review Unit and the Innocence Project. Denny reflects on the systemic issues within the justice system and the importance of truth."
+    },
+    "featuredIndividual": {
+        "fullName": "Mark Denny",
+        "caseLocation": "Brooklyn, New York, USA",
+        "convictionYear": "1988 (approximately, based on timeline in transcript)",
+        "exonerationYear": "2017",
+        "crimeConvictedOf": "Rape, robbery (at Burger King)",
+        "sentence": "19 to 57 years",
+        "timeServed": "30 years",
+        "contributingFactorsRaw": [
+            "False accusation/statement from co-defendant (cousin Raphael James)",
+            "Suggestive lineup procedures/eyewitness misidentification",
+            "Ineffective defense counsel",
+            "Police pressure on victim to change her account"
+        ],
+        "status": "Exonerated, conviction dismissed",
+        "organizationsInvolvedRaw": [
+            "Brooklyn Conviction Review Unit (CRU)",
+            "Innocence Project (specifically Nina Morrison)",
+            "Immigration Justice Clinic (to prevent deportation)"
+        ],
+        "innocenceLawyersRaw": [
+            "Nina Morrison from the Innocence Project is mentioned as being instrumental in his exoneration. Barry Shek is also mentioned in relation to his release."
+        ],
+        "crossReference": "Yes (should be added to exoneree database)",
+        "narrativeOriginalCrime": "On December 20, 1987, three men robbed a Burger King late at night. They blindfolded and raped a female employee and forced a male employee to participate in the assault. They stole $3,000 in cash.",
+        "keyEvidenceProsecutionRaw": [
+            "Victim's identification of Mark Denny in a live lineup (after suggestive photo lineup)",
+            "False statement from co-defendant Raphael James implicating Mark Denny"
+        ],
+        "trialDefenderNotes": "Mark Denny's lawyer, Harry Dozenberry, was described as incompetent and ineffective. He did not visit Denny in prison to prepare, appeared unprofessional, and focused on payment issues.",
+        "keyEvidenceExonerationRaw": [
+            "Recantation from Raphael James excluding Mark Denny from the crime.",
+            "Investigation by the Brooklyn CRU highlighting the flawed and suggestive identification process.",
+            "Statements from the actual perpetrators (Raphael James, Eddie Vieira, Mark Smith) confirming Denny's innocence."
+        ],
+        "actualPerpetratorDetails": "-   Raphael James (Mark Denny's cousin)\n-   Eddie Vieira\n-   Mark Smith\n-   All three were initially identified by the victim and eventually served time for the crime."
+    },
+    "keyQuotesRaw": [
+        "Mark Denny: \"I was really like an empty vessel at that moment that was just being done with whatever that authority felt was appropriate to try to resolve a nasty case. And that became my nightmare.\" (Describing his experience being processed by police)",
+        "Mark Denny: \"I wish I was the hero to save that girl because on that day, you know, she really needed one. But I wasn't there and I couldn't help out.\" (Reflecting on the crime and victim at his exoneration)",
+        "Mark Denny: \"So now the world is at a point where they need that in order to benefit. I thought about this while I was in prison. No crime, no cops, no officers, no facility, all the different contracts that's connected to that. There's tons and tons of family that will become impoverished if there was to remove the element of crime.\" (Reflecting on systemic issues and the prison system)"
+    ],
+    "systemicIssuesRaw": [
+        "Eyewitness misidentification due to suggestive police procedures.",
+        "Ineffective assistance of counsel.",
+        "Pressure on victims to conform to police narratives.",
+        "The justice system's slow response to evidence of innocence.",
+        "The dehumanizing nature of the prison system and its impact on wrongfully convicted individuals.",
+        "The parole system's demand for admission of guilt, even for innocent individuals."
+    ],
+    "policyRecommendationsRaw": [
+        "Criminal justice reform to address systemic issues.",
+        "Improved procedures for eyewitness identification to prevent misidentification.",
+        "Greater sensitivity and focus on truth within the justice system.",
+        "Reevaluation of sentencing practices to avoid excessively long sentences."
+    ],
+    "personalNarrativeRaw": [
+        "Mark Denny's personal narrative highlights the devastating impact of wrongful conviction. He describes the abuse in prison, the psychological toll of being labeled a sex offender, and the struggle to maintain hope. His story underscores the importance of fighting for innocence and the long-lasting trauma experienced by exonerees, even after release. His final thoughts emphasize the need for truth and sensitivity within the justice system to prevent future injustices."
+    ],
+    "additionalResourcesRaw": [
+        "Mention of Mark Denny's book \"The Awakening Process, a self-empowerment journey.\"",
+        "Innocence Project and Brooklyn Conviction Review Unit as organizations working on wrongful conviction cases.",
+        "AIG and Accenture's pro bono legal services mentioned as episode sponsors supporting criminal justice reform."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Raphael James",
+                "role_guess": "Co-defendant",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Victim",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Justice System Failures",
+                "Eyewitness Misidentification",
+                "Prison Trauma",
+                "Exoneration"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

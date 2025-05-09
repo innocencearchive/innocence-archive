@@ -1,0 +1,111 @@
+{
+    "sourceFileName": "370_Wrongful_Conviction_False_Confessions_-_Tyra_Patterson_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: False Confessions",
+    "mediaItem": {
+        "hosts": "Laura Nyreiter and Steve Drizen",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions due to false confessions, felony murder rule, systemic issues in the justice system.",
+        "keyStats": "- Felony murder rule can lead to murder convictions even without intent to kill.\n- DNA evidence is only present in about 10% of cases, highlighting the importance of re-investigation and advocacy.\n- Tyra Patterson received a harsher sentence than the actual shooter due to the felony murder rule and a false confession to robbery.",
+        "itemNumber": "370",
+        "itemTitle": "Wrongful Conviction False Confessions - Tyra Patterson",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction: False Confessions tells the story of Tyra Patterson, wrongfully convicted of murder in Ohio. At 19, Tyra was present at a robbery where a murder occurred, but she did not commit the murder.  Police coerced a false confession from Tyra for robbery, which, due to the felony murder rule, led to her murder conviction.  Her defense attorneys were ineffective, and key evidence that could have supported her innocence was not presented at trial. Tyra was sentenced to 43 years to life, longer than the actual shooter. After serving 21 years, her sentence was commuted, and she was granted parole.  Since her release, Tyra has become a community outreach strategist and advocate for criminal justice reform, working to help others and fight for exoneration."
+    },
+    "featuredIndividual": {
+        "fullName": "Tyra Patterson",
+        "caseLocation": "Dayton, Ohio, USA",
+        "convictionYear": "1995",
+        "exonerationYear": "Not fully exonerated, but granted parole in 2017. Still fighting for exoneration.",
+        "crimeConvictedOf": "Aggravated Murder and four counts of Aggravated Robbery",
+        "sentence": "43 years to life",
+        "timeServed": "21 years",
+        "contributingFactorsRaw": [
+            "False Confession (coerced into confessing to robbery)",
+            "Felony Murder Rule (robbery conviction led to murder conviction)",
+            "Ineffective Counsel (public defenders did not argue false confession, advised her not to testify, failed to present key evidence like 911 call and Rebecca's testimony)",
+            "Eyewitness Misidentification (Holly Lay initially misidentified Tyra due to confusion after the crime, later recanted)."
+        ],
+        "status": "Released on Parole, seeking exoneration.",
+        "organizationsInvolvedRaw": [
+            "Ohio Justice and Policy Center (David Singleton, represented Tyra)",
+            "Represent Justice",
+            "Paul Weiss Rifkind Wharton & Garrison (Pro Bono legal assistance mentioned in sponsorship)",
+            "AIG Pro Bono Program (Sponsor)"
+        ],
+        "innocenceLawyersRaw": [
+            "David Singleton, director of the Ohio Justice and Policy Center, represented Tyra for eight years and played a crucial role in her release and ongoing fight for exoneration. Steve Drizen assisted in the case."
+        ],
+        "crossReference": "Not explicitly stated if in an exoneree database, but highly likely given the nature of the podcast.",
+        "narrativeOriginalCrime": "A group of young people from Wrightview confronted a car of white girls who were attempting to steal from garages. A fight broke out, and one of the Wrightview group members, LaShauna Keeney, shot and killed Michelle Lay, one of the girls in the car. Tyra Patterson was present but did not participate in the violence and tried to de-escalate the situation.",
+        "keyEvidenceProsecutionRaw": [
+            "Tyra's confession to robbery (later revealed to be coerced and false).",
+            "Testimony from Holly Lay and other girls from the Chevy initially stating they saw Tyra reaching into the car for the necklace."
+        ],
+        "trialDefenderNotes": "Public defenders were overwhelmed, under-resourced, and deemed Tyra \"unsophisticated\" and advised her not to testify. They failed to argue the confession was false or present key exculpatory evidence like the 911 call and Rebecca's potential testimony.",
+        "keyEvidenceExonerationRaw": [
+            "Holly Lay recanted her trial testimony and stated she saw someone else take the necklace and that Tyra was not involved in the robbery.",
+            "Initial police statements from the girls in the Chevy shortly after the incident did not significantly mention Tyra, suggesting her limited involvement.",
+            "Affidavits from other members of the Wrightview group, including LaShauna Keeney, supported Tyra's innocence and her attempts to de-escalate the situation."
+        ],
+        "actualPerpetratorDetails": "LaShauna Keeney, a member of the Wrightview group, pulled the trigger and shot Michelle Lay. She was convicted and sentenced to 30 years, a lesser sentence than Tyra."
+    },
+    "keyQuotesRaw": [
+        "\"Felony murder leads to people going down for murders who never killed anyone.\" - Steve Drizen explaining the felony murder rule.",
+        "Detective's lie: \"Wouldn't it be better to go down for a robbery than for murder?\" - This highlights the deceptive tactic used to coerce Tyra's false confession.",
+        "Tyra's reaction after confession: \"Do I get to go home now?\" and the detective's response: \"No, I'm booking you for murder.\" - Illustrates Tyra's misunderstanding of the felony murder rule and the devastating reality of her situation.",
+        "Holly Lay's statement at Michelle's grave: \"You know Tyra didn't do this.\" - A powerful moment of victim's sister acknowledging Tyra's innocence."
+    ],
+    "systemicIssuesRaw": [
+        "Felony Murder Rule: Criticized as a source of injustice, allowing for murder convictions without intent to kill.",
+        "False Confessions: Highlighted as a significant factor in wrongful convictions, especially due to coercive interrogation tactics.",
+        "Ineffective Counsel: Public defender system overwhelmed and under-resourced, leading to inadequate defense.",
+        "Racial Bias:  Mentioned in the context of the neighborhood demographics (Wrightview - lower-income mixed-race) and potential biases in the justice system."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call to reform or abolish the felony murder rule.",
+        "Need for better training and oversight of police interrogation tactics to prevent false confessions.",
+        "Need for improved funding and resources for public defender offices to ensure adequate legal representation.",
+        "Support for organizations like the Ohio Justice and Policy Center and Represent Justice that work on criminal justice reform."
+    ],
+    "personalNarrativeRaw": [
+        "Tyra's story is one of resilience and redemption. Despite a difficult upbringing and wrongful conviction, she transformed her life in prison, became an advocate for herself and others, and upon release, became a community leader and agent for change. Her story highlights the devastating personal impact of wrongful conviction and the importance of fighting for justice and exoneration, even after release."
+    ],
+    "additionalResourcesRaw": [
+        "Ohio Justice and Policy Center",
+        "Represent Justice",
+        "Tyra Patterson's Instagram: tyra.imani.777",
+        "Wrongfulconvictionpodcast.com (podcast website)",
+        "Social justice mural in downtown Cincinnati featuring Tyra and other formerly incarcerated women."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Michelle",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Rebecca",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Racial Bias"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "False Confessions",
+                "Criminal Justice Reform"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

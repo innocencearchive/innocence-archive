@@ -1,0 +1,59 @@
+{
+  "source_file_name": "48.Death_Penalty_on_Trial.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "The Death Penalty on Trial: Crisis in American Justice",
+    "creator_name": "Bill Kurtis",
+    "publication_or_release_year": 2004,
+    "publisher_or_network": "PublicAffairs",
+    "focus_or_theme": "The flaws in the American justice system that lead to wrongful convictions and the death penalty.",
+    "recognition_notes": "Received positive reviews; cited in discussions about criminal justice reform."
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "summary_notes": "\"The Death Penalty on Trial\" chronicles Bill Kurtis's journey from being a supporter of capital punishment to becoming an opponent. After observing the justice system for thirty years and examining cases where innocent people were sent to death row, Kurtis came to the realization that the criminal justice system is too error-prone to justify the death penalty. The book frames its argument around two detailed case studies of wrongful convictions that led to death sentences, reconstructing the crimes, the investigations, the trials, and the eventual exonerations. Kurtis identifies eight main reasons why innocent people are condemned to death, including overzealous prosecutors, dishonest prosecutors, corrupt policemen, unreliable witnesses, expert witnesses, incompetent defense attorneys, biased judges, and jailhouse informants.",
+    "item_title": "Book Content: The Death Penalty on Trial: Crisis in American Justice",
+    "focus_or_theme": "The flaws in the American justice system that lead to wrongful convictions and the death penalty.",
+    "case_details_raw": "The book examines in detail two cases where innocent men were wrongfully convicted and sentenced to death before being exonerated:\n\n1. **Case Study 1**: A brutal rape/murder case where the wrong man was convicted based on flawed evidence and later exonerated.\n\n2. **Case Study 2**: A case involving the stabbing of a mother, her two children, and another child, where an innocent person was initially convicted.\n\nThese case studies illustrate the various systemic failures that can lead to wrongful convictions, including eyewitness misidentification, prosecutorial misconduct, inadequate defense, and unreliable forensic evidence.",
+    "key_quotes_raw": [
+      "Look, I was for the death penalty, but looking at these cases and the rapidly increasing number of exonerations, there are just too many possibilities for error.",
+      "You have a system with too many working parts. We have malpractice in medicine. We don't expect the Yankees to win all their games. And yet we assume the criminal justice system is without error.",
+      "The possibility for error in our justice system is simply too great to allow the death penalty to stand as our ultimate punishment."
+    ],
+    "systemic_issues_raw": [
+      "Overzealous prosecutors",
+      "Dishonest prosecutors",
+      "Corrupt policemen",
+      "Unreliable witnesses",
+      "Expert witnesses",
+      "Incompetent defense attorneys",
+      "Biased judges",
+      "Jailhouse informants",
+      "Eyewitness misidentification",
+      "Prosecutorial misconduct",
+      "Inadequate defense",
+      "Unreliable forensic evidence"
+    ],
+    "policy_recommendations_raw": [
+      "Life without parole as an alternative to the death penalty"
+    ],
+    "additional_resources_raw": [
+      "Zimring, F. E. (2003). The Contradictions of American Capital Punishment. Oxford University Press.",
+      "Death Penalty Information Center: https://deathpenaltyinfo.org/",
+      "The Independent Institute event transcript featuring Bill Kurtis: https://www.independent.org/events/transcript.asp?id=107"
+    ],
+    "research_notes_other": {}
+  },
+  "featured_individuals": [],
+  "involved_persons": [
+    {
+      "full_name": "Bill Kurtis",
+      "role": "AUTHOR",
+      "first_name": "Bill",
+      "middle_name": null,
+      "last_name": "Kurtis"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

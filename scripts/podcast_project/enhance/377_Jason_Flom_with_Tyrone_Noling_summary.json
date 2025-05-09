@@ -1,0 +1,133 @@
+{
+    "sourceFileName": "377_Jason_Flom_with_Tyrone_Noling_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, flaws in the justice system, coerced confessions, police misconduct, prosecutorial misconduct, fight for exoneration.",
+        "keyStats": "Tyrone Knowling has been on death row in Ohio for over 30 years. All four co-defendants recanted their testimonies. DNA testing excluded Tyrone and his friends from a cigarette butt found at the crime scene.",
+        "itemNumber": "377",
+        "itemTitle": "Jason Flom with Tyrone Noling",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction revisits the case of Tyrone Knowling, who has been on death row in Ohio for over 30 years for the murder of Bernhardt and Cora Hartick in 1990.  The episode highlights the twisted and nonsensical nature of his wrongful conviction, emphasizing coerced false testimonies from his friends under threat of the death penalty. Despite ballistics tests initially clearing Tyrone and his friends, and viable alternative suspects emerging, aggressive interrogation tactics by detective Ron Craig led to false confessions.  Key evidence pointing towards other suspects, including Dennis van Steenburg, Louis Lehman, and Dan Wilson, was seemingly ignored or mishandled. All co-defendants have since recanted their testimonies, and DNA evidence further undermines the conviction, yet Tyrone remains on death row, fighting for access to crucial case files to prove his innocence."
+    },
+    "featuredIndividual": {
+        "fullName": "Tyrone Knowling",
+        "caseLocation": "Atwater, Ohio, Portage County",
+        "convictionYear": "1996",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "Aggravated Murder of Bernhardt and Cora Harding",
+        "sentence": "Death Row",
+        "timeServed": "Over 30 years (as of the reissue date)",
+        "contributingFactorsRaw": [
+            "Coerced false confessions, ineffective defense, possible prosecutorial misconduct, concealed evidence, tunnel vision in investigation."
+        ],
+        "status": "Currently on death row, fighting for a new trial and access to state files.",
+        "organizationsInvolvedRaw": [
+            "Ohio Innocence Project, Ohio Justice and Policy Center (OJPC)"
+        ],
+        "innocenceLawyersRaw": [
+            "Brian Howe, Staff Attorney with the Ohio Innocence Project, is interviewed in the podcast and is actively working on Tyrone's case. Mark Gotti from the Ohio Innocence Project is also mentioned as having visited Tyrone."
+        ],
+        "crossReference": "Appears in exoneree database (needs to be verified against a specific database)",
+        "narrativeOriginalCrime": "Bernhardt and Cora Harding, an elderly couple, were found shot to death in their home in Atwater, Ohio on April 5th, 1990. The crime scene suggested robbery as dresser drawers and jewelry boxes were rifled through.",
+        "keyEvidenceProsecutionRaw": [
+            "Coerced testimonies from Joey Dallisandro and Butch Walcott, friends of Tyrone, who claimed Tyrone confessed to the murders and described events that allegedly took place.  The prosecution argued Tyrone and his friends went to the Harding house to rob them and Tyrone shot the Hartings."
+        ],
+        "trialDefenderNotes": "The transcript mentions that plausible suspects were not brought up during Tyrone's trial, suggesting a lack of thorough defense investigation or presentation of alternative theories. It is implied that potentially exculpatory evidence was not disclosed to the defense.",
+        "keyEvidenceExonerationRaw": [
+            "Recantations from all co-defendants (Joey Dallisandro, Butch Walcott, Gary St. Clair).",
+            "Initial ballistics tests excluded Tyrone's gun as the murder weapon.",
+            "DNA testing excluded Tyrone and his friends from a cigarette butt found at the scene.",
+            "Emergence of alternative suspects (Dennis van Steenburg, Louis Lehman, Dan Wilson) with stronger connections to the crime and/or victims.",
+            "Marlene van Steenburg's statement about Dennis van Steenburg switching guns.",
+            "Nathan Chesley's tip about Dan Wilson confessing.",
+            "Rule 42 in Ohio potentially granting access to state files for review in capital cases."
+        ],
+        "actualPerpetratorDetails": "",
+        "dennis_van_steenburg": "Initially considered a suspect due to a lost .25 caliber pistol but was dismissed when his gun didn't match. Later, Marlene van Steenburg revealed his father helped him switch guns, raising suspicion again.",
+        "louis_lehman": "Insurance salesman who owed money to Mr. Harding and owned a .25 caliber pistol of a similar type to the murder weapon. He was uncooperative with police.",
+        "dan_wilson": "Foster brother of Nathan Chesley who initially implicated a foster brother. Dan Wilson matched the blood type on a cigarette butt found at the scene and was later arrested for another murder, suggesting potential serial killer tendencies and proximity to the Harding residence."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"This is one of the most twisted, entangled, nonsensical, and I'm gonna say evil, wrongful convictions that I know of.\"",
+        "Brian Howe: \"I wouldn't be surprised if he were the strongest case of innocence of anyone currently on death row.\"",
+        "Tyrone Knowling: \"I'm a innocent person on Ohio's death row and I don't belong here and I need help.\""
+    ],
+    "systemicIssuesRaw": [
+        "Coerced confessions and false testimonies due to aggressive interrogation tactics and threats of the death penalty.",
+        "Tunnel vision in police investigations, ignoring or mishandling alternative suspects and exculpatory evidence.",
+        "Prosecutorial misconduct through potentially withholding exculpatory evidence and re-indicting after initial dismissal.",
+        "Ineffective assistance of defense counsel in the original trial.",
+        "Difficulties in accessing post-conviction relief and lengthy legal processes, even with strong evidence of innocence."
+    ],
+    "policyRecommendationsRaw": [
+        "Call to action for listeners to contact Ohio Governor and state/local politicians to advocate for Tyrone Knowling's case.",
+        "Encouragement for anyone with information about the Harding murders to come forward.",
+        "General need for justice system reform to prevent wrongful convictions, especially regarding interrogation techniques, evidence disclosure, and post-conviction review processes."
+    ],
+    "personalNarrativeRaw": [
+        "Tyrone expresses the immense emotional toll of being wrongly convicted and on death row for over 30 years, emphasizing the feeling of being unheard and needing a voice.",
+        "He highlights the betrayal by friends who gave false testimonies and the surreal nature of his ongoing legal battle."
+    ],
+    "additionalResourcesRaw": [
+        "Website: Tyroneknowing.com (for more information and ways to help).",
+        "Ohio Innocence Project (Cincinnati Innocence Project mentioned).",
+        "TV Docu-series: Death Row Stories, episode \"The Lost Boy\" (available last year from the original air date in 2021)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Bernhardt Hartick",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Cora Hartick",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Ron Craig",
+                "role_guess": "Police Officer",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Dennis van Steenburg",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Louis Lehman",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Dan Wilson",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Tunnel vision in police investigations, ignoring or mishandling alternative suspects and exculpatory evidence",
+            "Prosecutorial misconduct through potentially withholding exculpatory evidence and re-indicting after initial dismissal",
+            "Difficulties in accessing post-conviction relief and lengthy legal processes, even with strong evidence of innocence"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": "case of Tyrone Knowling",
+            "related_themes": [
+                "Wrongful Conviction",
+                "Coerced Confessions",
+                "Ineffective Defense",
+                "Prosecutorial Misconduct",
+                "Tunnel Vision in Investigations"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

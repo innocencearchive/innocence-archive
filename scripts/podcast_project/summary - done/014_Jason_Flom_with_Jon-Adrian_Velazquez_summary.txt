@@ -1,0 +1,94 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**:  Behind Bars - Debut Episode
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2017 (mentioned recording date in March 2017, but also reference to "two and a half years ago" later in intro - so likely aired later, but based on transcript, 2017 is the year of recording discussed.)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One, Revolver Productions
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, flaws in the criminal justice system, personal stories of the wrongfully convicted, prison reform.
+-   **Key Statistics/Information**:
+    -   1% of the 11 million people cycling through the US penal system annually are wrongfully convicted, equating to 110,000 people per year.
+    -   Having a parent in prison is a significant factor determining if a child will also end up in prison.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This inaugural episode of "Wrongful Conviction: Behind Bars" features Jason Flom interviewing John Adrian Velasquez (JJ) from inside Sing Sing Correctional Facility. JJ recounts his wrongful conviction for the murder of a retired police officer in Harlem, a crime he maintains he did not commit. The episode details JJ's difficult upbringing, his initial arrest, and the flawed lineup identification by a drug dealer under police pressure that led to his conviction despite no physical evidence.  JJ describes the traumatic trial, his unjust sentence of 25 years to life, and his subsequent life in prison where he has remarkably become a force for positive change, initiating programs for inmates' children and advocating for justice reform. The episode highlights systemic issues within the justice system and calls for listeners to support JJ's case and broader innocence initiatives.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: John Adrian Velasquez
+-   **Case Location**: Harlem, New York City, NY
+-   **Conviction Year**: 1999
+-   **Exoneration Year**: Not yet exonerated
+-   **Crime Convicted Of**: Second-degree murder, robbery, attempted murder
+-   **Sentence**: 25 years to life
+-   **Time Served**: Over 20 years (as of the podcast recording in 2017)
+-   **Contributing Factors**:
+    -   Eyewitness misidentification:  Identified in a lineup by a drug dealer who was pressured by police.
+    -   Flawed Lineup: Lineup was potentially manipulated with JJ placed in position number two and made to wear a hat.
+    -   Lack of Physical Evidence: Conviction based solely on eyewitness testimony.
+    -   Ineffective Counsel: Initial lawyers seemed more interested in fees than defense; trial lawyers were under-resourced.
+-   **Legal Status**: Still incarcerated at Sing Sing Correctional Facility at the time of recording; motion for a new trial based on Brady violation was denied.
+-   **Organizations Involved**:
+    -   Hudson Link for Higher Education in Prison (JJ is an administrative program assistant and teacher fellow)
+    -   Choices Program at Sing Sing Correctional Facility (JJ organized and MC'd events)
+    -   NYCHEP (New York Consortium for Higher Education in Prison) (JJ organized conferences)
+    -   Voices from Within (program JJ is involved in)
+-   **Innocence Lawyer Details**:
+    -   **Franklin Gould**: First lawyer contacted, made JJ feel comfortable initially but was replaced.
+    -   **Susan Walsh**: Attorney who accompanied JJ to the precinct and was present at the lineup; witnessed potential manipulation of the lineup.
+    -   **Goldstein**: Second lawyer contacted, requested significant upfront fees and seemed pessimistic, quickly dismissed.
+    -   **Norman Rima**: Trial lawyer, informed JJ about capital murder charges and the lengthy process.
+-   **Cross-Reference**: Not explicitly stated in the transcript whether he appears in an exoneree database, but the podcast itself is advocating for his innocence.
+-   **Narrative of Original Crime**: A robbery at an illegal gambling establishment in Harlem where a retired police officer, who owned the establishment, was killed during an exchange of gunfire.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Eyewitness identification from a lineup where JJ was picked out by three individuals, including Augustus Brown, a drug dealer who initially selected JJ's photo and had motivation to cooperate with police to avoid charges.
+-   **Trial Defender Notes**:
+    -   Defense lawyers were under-resourced and possibly overwhelmed.
+    -   They highlighted issues with the lineup but were unable to prevent the conviction.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Brady Violation (denied by judge).
+    -   Documentary "Conviction" by Dan Sleppian which investigated and presented evidence of JJ's innocence.
+    -   Public advocacy and petition at freejohnadrianvelasquez.org.
+-   **Actual Perpetrator Details**:
+    -   Suspect description from witnesses was of a light-skinned black male with dreads or braids, nicknamed "Mustafa," which did not match JJ's description.
+    -   The actual perpetrator was not identified in the transcript.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "The choice to be in that lineup was the last choice I made as a free man." - John Adrian Velasquez, highlighting the pivotal and ultimately detrimental decision to participate in the lineup.
+    -   "I've been sentenced to 25 to life. I wasn't even 25 years old when that happened so I was looking at a portion of time that I hadn't even lived yet under the circumstances that I was in and I couldn't see that so I had to start lying to myself and I didn't realize they were lies then but 20 years later you look back and you say every year I told myself it would be my last in prison." - John Adrian Velasquez, illustrating his coping mechanism and the immense time lost.
+    -   "buried alive" - John Adrian Velasquez's description of his experience of wrongful conviction and imprisonment.
+    -   Discussion about jurors potentially misunderstanding the implications of their verdict, believing JJ might serve only two years if convicted on lesser charges.
+
+-   **Systemic Issues Identified**:
+    -   Eyewitness Misidentification: Highlighted as a major factor in wrongful convictions, especially the unreliability of lineup identifications, particularly when manipulated or suggestive.
+    -   Pressure on Witnesses:  The case illustrates how witnesses, especially those involved in illegal activities or facing legal pressure themselves, may be coerced or incentivized to provide false or unreliable testimony.
+    -   Resource Disparities in Legal Defense: Lack of funding for adequate investigation and defense for those accused, especially in marginalized communities, is shown as a critical weakness.
+    -   Potential Police Misconduct:  Allegations of lineup manipulation and suggestive practices raise concerns about police procedures.
+    -   Impact of Race and Socioeconomic Status:  The podcast suggests that individuals from poorer neighborhoods and people of color are disproportionately affected by wrongful convictions and aggressive policing tactics.
+    -   Difficulty of Exoneration: Even with compelling evidence of innocence and advocacy, the process of overturning wrongful convictions is shown to be arduous and lengthy.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Support the Innocence Project: Jason Flom encourages listeners to donate and get involved with the Innocence Project to help prevent future wrongful convictions.
+    -   Sign the Petition: Listeners are urged to sign the petition at freejohnadrianvelasquez.org to advocate for JJ's freedom.
+    -   General Call for Justice System Reform: The podcast implicitly calls for broader reforms to the criminal justice system to address issues like eyewitness identification, police procedures, and access to adequate legal representation.
+
+-   **Personal Narrative/Impact: A summary of the personal experience or impact described by the exoneree. A focus from Wrongful Conviction might be to summarize the final thoughts of the individual.**
+    -   John Adrian Velasquez emphasizes his resilience and determination to make a positive impact despite his wrongful conviction. He focuses on using his time in prison to learn, help others, and advocate for change. He expresses deep concern for the trauma inflicted on his family, particularly his mother and children, by his wrongful imprisonment.  His final thoughts, while not explicitly stated as "final," revolve around hope, the power of community support, and a commitment to continue fighting for his freedom and for broader justice reform. He highlights the devastating long-term effects of wrongful convictions, not just on the individual but also on their families and communities, and the importance of addressing systemic flaws in the justice system.
+
+-   **Additional Resources**:
+    -   Documentary "Conviction" by Dan Sleppian.
+    -   Website: freejohnadrianvelasquez.org
+    -   Innocence Project: InnocenceProject.org
+    -   Voices from Within program at Sing Sing Correctional Facility.
+    -   Hudson Link for Higher Education in Prison.
+```

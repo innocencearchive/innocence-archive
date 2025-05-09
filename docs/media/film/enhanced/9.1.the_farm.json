@@ -1,0 +1,186 @@
+{
+  "source_file_name": "9.1.the_farm.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "The Farm: Angola, USA",
+    "creator_name": null,
+    "publication_or_release_year": 1998,
+    "publisher_or_network": null,
+    "focus_or_theme": "Life and death inside Louisiana State Penitentiary (Angola), perspectives of inmates serving long sentences (including life).",
+    "summaryNotes": "Awarded Grand Jury Prize at Sundance Film Festival.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "The Farm: Angola, USA",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Life and death inside Louisiana State Penitentiary (Angola), perspectives of inmates serving long sentences (including life).",
+    "summary_notes": "This highly regarded documentary offers a powerful look inside Angola. While the theme of potential innocence exists (particularly with Vincent Simmons), the film is more broadly about the human experience within the prison, covering parole hearings, the prison hospice, the execution process, and daily life.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Follows stories of several inmates at Angola Prison, including some who maintain their innocence. Available via YouTube, Amazon, DVD.",
+      "research_findings": "This highly regarded documentary offers a powerful look inside Angola. While the theme of potential innocence exists (particularly with Vincent Simmons), the film is more broadly about the human experience within the prison, covering parole hearings, the prison hospice, the execution process, and daily life."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "George Crawford",
+      "first_name": "George",
+      "middle_name": null,
+      "last_name": "Crawford",
+      "status": "CONVICTED",
+      "conviction_year": 1977,
+      "exoneration_or_release_year": null,
+      "time_served": "47+ years",
+      "sentence": "100 years without parole",
+      "crime_convicted_of_raw": "Aggravated Rape",
+      "case_location_city": "Louisiana",
+      "case_location_state": null,
+      "narrative_summary": "Featured in 'The Farm: Angola, USA'. Convicted of Aggravated Rape in 1977 and sentenced to 100 years without parole. Remained incarcerated as of recent reports.",
+      "contributing_factors_raw": [
+        "Simmons alleged inadequate defense",
+        "racial bias",
+        "flawed identification procedures"
+      ],
+      "organizations_involved_raw": []
+    },
+    {
+      "full_name": "Ashanti Witherspoon",
+      "first_name": "Ashanti",
+      "middle_name": null,
+      "last_name": "Witherspoon",
+      "status": "CONVICTED",
+      "conviction_year": 1977,
+      "exoneration_or_release_year": null,
+      "time_served": "47+ years",
+      "sentence": "100 years without parole",
+      "crime_convicted_of_raw": "Aggravated Rape",
+      "case_location_city": "Louisiana",
+      "case_location_state": null,
+      "narrative_summary": "Featured in 'The Farm: Angola, USA'. Convicted of Aggravated Rape in 1977 and sentenced to 100 years without parole. Remained incarcerated as of recent reports.",
+      "contributing_factors_raw": [
+        "Simmons alleged inadequate defense",
+        "racial bias",
+        "flawed identification procedures"
+      ],
+      "organizations_involved_raw": []
+    },
+    {
+      "full_name": "Bishop Eugene Tanniehill",
+      "first_name": "Bishop",
+      "middle_name": "Eugene",
+      "last_name": "Tanniehill",
+      "status": "CONVICTED",
+      "conviction_year": 1977,
+      "exoneration_or_release_year": null,
+      "time_served": "47+ years",
+      "sentence": "100 years without parole",
+      "crime_convicted_of_raw": "Aggravated Rape",
+      "case_location_city": "Louisiana",
+      "case_location_state": null,
+      "narrative_summary": "Featured in 'The Farm: Angola, USA'. Convicted of Aggravated Rape in 1977 and sentenced to 100 years without parole. Remained incarcerated as of recent reports.",
+      "contributing_factors_raw": [
+        "Simmons alleged inadequate defense",
+        "racial bias",
+        "flawed identification procedures"
+      ],
+      "organizations_involved_raw": []
+    },
+    {
+      "full_name": "John Brown",
+      "first_name": "John",
+      "middle_name": null,
+      "last_name": "Brown",
+      "status": "CONVICTED",
+      "conviction_year": 1977,
+      "exoneration_or_release_year": null,
+      "time_served": "47+ years",
+      "sentence": "100 years without parole",
+      "crime_convicted_of_raw": "Aggravated Rape",
+      "case_location_city": "Louisiana",
+      "case_location_state": null,
+      "narrative_summary": "Featured in 'The Farm: Angola, USA'. Convicted of Aggravated Rape in 1977 and sentenced to 100 years without parole. Remained incarcerated as of recent reports.",
+      "contributing_factors_raw": [
+        "Simmons alleged inadequate defense",
+        "racial bias",
+        "flawed identification procedures"
+      ],
+      "organizations_involved_raw": []
+    },
+    {
+      "full_name": "Vincent Simmons",
+      "first_name": "Vincent",
+      "middle_name": null,
+      "last_name": "Simmons",
+      "status": "CONVICTED",
+      "conviction_year": 1977,
+      "exoneration_or_release_year": null,
+      "time_served": "47+ years",
+      "sentence": "100 years without parole",
+      "crime_convicted_of_raw": "Aggravated Rape",
+      "case_location_city": "Louisiana",
+      "case_location_state": null,
+      "narrative_summary": "Featured in 'The Farm: Angola, USA'. Convicted of Aggravated Rape in 1977 and sentenced to 100 years without parole. Maintains his innocence and alleges inadequate defense, racial bias, and flawed identification procedures. Remained incarcerated as of recent reports.",
+      "contributing_factors_raw": [
+        "inadequate defense",
+        "racial bias",
+        "flawed identification procedures"
+      ],
+      "organizations_involved_raw": []
+    },
+    {
+      "full_name": "Logan McGuinness",
+      "first_name": "Logan",
+      "middle_name": null,
+      "last_name": "McGuinness",
+      "status": "CONVICTED",
+      "conviction_year": 1977,
+      "exoneration_or_release_year": null,
+      "time_served": "47+ years",
+      "sentence": "100 years without parole",
+      "crime_convicted_of_raw": "Aggravated Rape",
+      "case_location_city": "Louisiana",
+      "case_location_state": null,
+      "narrative_summary": "Featured in 'The Farm: Angola, USA'. Convicted of Aggravated Rape in 1977 and sentenced to 100 years without parole. Remained incarcerated as of recent reports.",
+      "contributing_factors_raw": [
+        "Simmons alleged inadequate defense",
+        "racial bias",
+        "flawed identification procedures"
+      ],
+      "organizations_involved_raw": []
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Liz Garbus",
+      "first_name": "Liz",
+      "middle_name": null,
+      "last_name": "Garbus",
+      "role": "DIRECTOR"
+    },
+    {
+      "full_name": "Jonathan Stack",
+      "first_name": "Jonathan",
+      "middle_name": null,
+      "last_name": "Stack",
+      "role": "DIRECTOR"
+    },
+    {
+      "full_name": "Wilbert Rideau",
+      "first_name": "Wilbert",
+      "middle_name": null,
+      "last_name": "Rideau",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "Follows stories of several inmates at Angola Prison, including some who maintain their innocence. Available via YouTube, Amazon, DVD."
+}

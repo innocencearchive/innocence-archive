@@ -1,0 +1,78 @@
+{
+  "source_file_name": "9.16.true_justice.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "True Justice: Bryan Stevenson's Fight for Equality",
+    "publication_or_release_year": 2019,
+    "publisher_or_network": "Kunhardt Films, HBO Documentary Films (Based on external knowledge)",
+    "focus_or_theme": "Work of lawyer Bryan Stevenson and the Equal Justice Initiative (EJI), racial injustice in the US legal system, death penalty litigation, wrongful convictions.",
+    "summaryNotes": "Highlights EJI's work challenging excessive punishment and racial bias.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "True Justice: Bryan Stevenson's Fight for Equality",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Work of lawyer Bryan Stevenson and the Equal Justice Initiative (EJI), racial injustice in the US legal system, death penalty litigation, wrongful convictions.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Follows attorney Bryan Stevenson's work with the wrongfully convicted through the Equal Justice Initiative. Directed by Peter Kunhardt. Available via HBO Max.",
+      "research_findings": "Searches did not yield specific details on featured cases. Based on list info and general knowledge, the documentary profiles Bryan Stevenson and EJI's mission. It likely uses several cases EJI handled, with Walter McMillian's case being a cornerstone example of their work fighting wrongful convictions on death row in the racially biased Southern justice system. The film contextualizes individual cases within the broader history of racial inequality in America."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Walter McMillian (Prominently featured case associated with Stevenson/EJI)\n*(Case details summarized below from external knowledge)*",
+      "case_location_city": "Monroeville",
+      "case_location_state": "Alabama",
+      "conviction_year": 1988,
+      "exoneration_or_release_year": 1993,
+      "crime_convicted_of_raw": "Murder (of Ronda Morrison)",
+      "sentence": "Death Penalty",
+      "time_served": "~6 years on death row",
+      "contributing_factors_raw": [
+        "Racial bias, police/prosecutorial misconduct (suppressed evidence, coerced false testimony)."
+      ],
+      "status_raw": "Exonerated (Conviction overturned, charges dropped).",
+      "organizations_involved_raw": [
+        "Equal Justice Initiative (EJI)"
+      ],
+      "first_name": "Walter",
+      "middle_name": "McMillian (Prominently featured case associated with Stevenson/EJI) *(Case details summarized below from external",
+      "last_name": "knowledge)*"
+    },
+    {
+      "full_name": "Multiple other EJI clients (Likely featured briefly or referenced, specific individuals not identified in searches)",
+      "first_name": "Multiple",
+      "middle_name": "other EJI clients (Likely featured briefly or referenced, specific individuals not identified in",
+      "last_name": "searches)"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Peter Kunhardt (Also George Kunhardt",
+      "role": "DIRECTOR",
+      "first_name": "Peter",
+      "middle_name": "Kunhardt (Also George",
+      "last_name": "Kunhardt"
+    },
+    {
+      "full_name": "Teddy Kunhardt listed as dirs/prods elsewhere)",
+      "role": "DIRECTOR",
+      "first_name": "Teddy",
+      "middle_name": "Kunhardt listed as dirs/prods",
+      "last_name": "elsewhere)"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

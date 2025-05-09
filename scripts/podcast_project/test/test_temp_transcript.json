@@ -1,0 +1,85 @@
+{
+    "sourceFileName": "test_temp_transcript",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom , Maggie Freeling",
+        "releaseYear": "2025",
+        "network": "Lava for Good podcast in association with Signal Company Number One",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Investigative journalism focusing on wrongful convictions;  this episode highlights eyewitness misidentification, ineffective counsel, and systemic issues within the criminal justice system.",
+        "keyStats": "Approximately 200,000 innocent people are estimated to be in prison in the US (conservative estimate).  Since Mayor Adams took office, 29 people have been murdered in Rikers Island, most presumed innocent.",
+        "itemNumber": "522",
+        "itemTitle": "Special Emergency Episode: Jason Flom with Maggie Freleng with Andre Brown live from the UJC Summit",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction details the case of Andre Brown, wrongly convicted of attempted murder in 1999.  Key issues included eyewitness misidentification influenced by police, ineffective counsel who failed to present crucial medical evidence of Brown's inability to commit the crime due to a prior leg injury, and witness intimidation.  Despite compelling evidence of his innocence, including the identification of an alternative suspect, the Bronx DA appealed the overturned conviction. The podcast highlights the systemic failures within the justice system and calls for action to prevent such injustices, including supporting the exoneree financially, voting for progressive DAs, and raising awareness about wrongful convictions. Brown’s case demonstrates the devastating consequences of flawed eyewitness testimony and incompetent legal representation.  The episode features interviews with Brown, his attorney Oscar Michelin, and others involved in the case. This episode is an update of Episode 416."
+    },
+    "featuredIndividual": {
+        "fullName": "Andre Brown",
+        "caseLocation": "Bronx, New York, USA",
+        "convictionYear": "1999",
+        "exonerationYear": "Not yet exonerated (as of April 2025)",
+        "crimeConvictedOf": "Two counts of attempted murder, two counts of assault, reckless endangerment, and gun possession.",
+        "sentence": "40 years (two 20-year sentences to run consecutively)",
+        "timeServed": "Over 20 years",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification (influenced by police), ineffective assistance of counsel (failure to present medical evidence and investigate alternative suspects), witness intimidation."
+        ],
+        "status": "Conviction overturned, but DA appealed and won; facing re-incarceration.",
+        "organizationsInvolvedRaw": [
+            "Freedom Agenda, United Justice Coalition"
+        ],
+        "innocenceLawyersRaw": [
+            "Oscar Michelin –  a local attorney who worked diligently to uncover evidence of Brown’s innocence, including police reports, witness statements, and medical records. He was able to identify an alternate suspect and present compelling evidence to vacate the conviction."
+        ],
+        "crossReference": "Not specified in transcript",
+        "narrativeOriginalCrime": "On January 15, 1999, a masked man shot two teenage boys selling drugs. One victim was paralyzed; the other could not or would not identify the shooter.",
+        "keyEvidenceProsecutionRaw": [
+            "Uncross-examined grand jury testimony from a witness who identified Andre Brown as the shooter based on a brief glimpse; testimony from a victim who identified Brown after initially stating he couldn't identify his attacker."
+        ],
+        "trialDefenderNotes": "Andre Brown's initial attorney, Ira Brown, attempted to get funding for medical experts to show Brown's physical inability to commit the crime due to his leg injury but was replaced by Thomas Lee who failed to pursue this or other leads, also possibly involved in witness intimidation.",
+        "keyEvidenceExonerationRaw": [
+            "Discovery of police reports showing ballistic evidence linking the gun used in the crime to a previous shooting, a witness who couldn't identify anyone in a lineup, medical records documenting Brown’s severe leg injury and resulting inability to run, identification of the actual perpetrator through various means, including a yearbook photo and funeral program."
+        ],
+        "actualPerpetratorDetails": "A Jamaican man who had a dispute over drug territory with the victims.  He was later murdered."
+    },
+    "keyQuotesRaw": [
+        "“This shit is everywhere. It’s horrible.”;  Andre Brown's description of his arrest and trial; Oscar Michelin's description of the evidence uncovered; Andre’s description of prison life and its impact on his psyche."
+    ],
+    "systemicIssuesRaw": [
+        "Ineffective assistance of counsel, eyewitness misidentification, witness intimidation, prosecutorial overreach, failures of the conviction review unit, the dangers of incarceration, particularly for innocent individuals."
+    ],
+    "policyRecommendationsRaw": [
+        "Support Andre Brown financially (GoFundMe), vote for progressive district attorneys, raise awareness about wrongful convictions, reform the criminal justice system."
+    ],
+    "personalNarrativeRaw": [
+        "Andre Brown's description of his life before and after incarceration, the impact on his family, and his ongoing struggle for exoneration.  The description of his experience in prison, highlighting the psychological and physical trauma."
+    ],
+    "additionalResourcesRaw": [
+        "GoFundMe for Andre Brown,  Freedom Agenda,  United Justice Coalition"
+    ],
+    "sourceTranscriptFilename": "test_temp_transcript.txt",
+    "llm_analysis": {
+        
+        "llm_extracted_orgs": [
+            "Bronx DA"
+        ],
+        "llm_extracted_factors": [
+            "Prosecutorial overreach",
+            "failures of the conviction review unit"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": "416",
+            "related_themes": [
+                "systemic failures within the justice system",
+                "flawed eyewitness testimony",
+                "incompetent legal representation",
+                "the devastating consequences of wrongful conviction",
+                "importance of supporting exonerees",
+                "the need for progressive DAs"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

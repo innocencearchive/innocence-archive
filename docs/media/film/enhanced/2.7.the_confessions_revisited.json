@@ -1,0 +1,142 @@
+{
+  "source_file_name": "2.7.the_confessions_revisited.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "FRONTLINE",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "FRONTLINE (likely WGBH)",
+    "focus_or_theme": "Update on the Norfolk Four case, false confessions",
+    "summaryNotes": "Updates on legal status post-original documentary, culminating in full pardons.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "The Confessions Revisited",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Update on the Norfolk Four case, false confessions",
+    "summary_notes": "While specific production details for a \"Revisited\" episode weren't found, extensive information confirms the significant developments in the Norfolk Four case after the original documentary, culminating in full pardons in 2017. A \"Revisited\" episode would likely cover these events. FRONTLINE did feature the case again in 2013.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Update on Norfolk Four case after original \"The Confessions\" episode. Available via PBS.",
+      "research_findings": "While specific production details for a \"Revisited\" episode weren't found, extensive information confirms the significant developments in the Norfolk Four case after the original documentary, culminating in full pardons in 2017. A \"Revisited\" episode would likely cover these events. FRONTLINE did feature the case again in 2013."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Derek Tice",
+      "first_name": "Derek",
+      "middle_name": null,
+      "last_name": "Tice",
+      "status": "EXONERATED",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2017,
+      "time_served": "Varied, significant prison time",
+      "sentence": "Varied, included life sentences",
+      "crime_convicted_of_raw": "Rape and Murder of Michelle Moore-Bosko (1997)",
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "narrative_summary": "Convicted of rape and murder in 1997 based on a coerced false confession. Received a conditional pardon in 2009, conviction vacated later, and a full pardon in 2017. Served significant prison time.",
+      "contributing_factors_raw": [
+        "Coerced false confessions",
+        "Threats (death penalty)",
+        "Questionable polygraphs",
+        "Ignoring exculpatory DNA pointing to actual perpetrator Omar Ballard"
+      ],
+      "organizations_involved_raw": [
+        "Mid-Atlantic Innocence Project (MAIP)",
+        "Skadden Arps",
+        "Squire Sanders"
+      ]
+    },
+    {
+      "full_name": "Danial Williams",
+      "first_name": "Danial",
+      "middle_name": null,
+      "last_name": "Williams",
+      "status": "EXONERATED",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2017,
+      "time_served": "Varied, significant prison time",
+      "sentence": "Varied, included life sentences",
+      "crime_convicted_of_raw": "Rape and Murder of Michelle Moore-Bosko (1997)",
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "narrative_summary": "Convicted of rape and murder in 1997 based on a coerced false confession. Received a conditional pardon in 2009, conviction vacated in 2016, and a full pardon in 2017. Served significant prison time.",
+      "contributing_factors_raw": [
+        "Coerced false confessions",
+        "Threats (death penalty)",
+        "Questionable polygraphs",
+        "Ignoring exculpatory DNA pointing to actual perpetrator Omar Ballard"
+      ],
+      "organizations_involved_raw": [
+        "Mid-Atlantic Innocence Project (MAIP)",
+        "Skadden Arps",
+        "Squire Sanders"
+      ]
+    },
+    {
+      "full_name": "Joseph Dick",
+      "first_name": "Joseph",
+      "middle_name": null,
+      "last_name": "Dick",
+      "status": "EXONERATED",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2017,
+      "time_served": "Varied, significant prison time",
+      "sentence": "Varied, included life sentences",
+      "crime_convicted_of_raw": "Rape and Murder of Michelle Moore-Bosko (1997)",
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "narrative_summary": "Convicted of rape and murder in 1997 based on a coerced false confession. Received a conditional pardon in 2009, conviction vacated in 2016, and a full pardon in 2017. Served significant prison time.",
+      "contributing_factors_raw": [
+        "Coerced false confessions",
+        "Threats (death penalty)",
+        "Questionable polygraphs",
+        "Ignoring exculpatory DNA pointing to actual perpetrator Omar Ballard"
+      ],
+      "organizations_involved_raw": [
+        "Mid-Atlantic Innocence Project (MAIP)",
+        "Skadden Arps",
+        "Squire Sanders"
+      ]
+    },
+    {
+      "full_name": "Eric Wilson",
+      "first_name": "Eric",
+      "middle_name": null,
+      "last_name": "Wilson",
+      "status": "EXONERATED",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2017,
+      "time_served": "Varied, served full sentence",
+      "sentence": "Varied, included life sentences",
+      "crime_convicted_of_raw": "Rape and Murder of Michelle Moore-Bosko (1997)",
+      "case_location_city": "Norfolk",
+      "case_location_state": "Virginia",
+      "narrative_summary": "Convicted of rape and murder in 1997 based on a coerced false confession. Had served his full sentence when he received a full pardon in 2017.",
+      "contributing_factors_raw": [
+        "Coerced false confessions",
+        "Threats (death penalty)",
+        "Questionable polygraphs",
+        "Ignoring exculpatory DNA pointing to actual perpetrator Omar Ballard"
+      ],
+      "organizations_involved_raw": [
+        "Mid-Atlantic Innocence Project (MAIP)",
+        "Skadden Arps",
+        "Squire Sanders"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

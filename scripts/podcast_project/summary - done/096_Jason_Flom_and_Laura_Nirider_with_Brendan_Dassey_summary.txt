@@ -1,0 +1,98 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript (Interview with Brendan Dassey and Laura Nirider)
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Likely 2020s (inferred from "12 years" and Brendan being 29 now, case started in 2007)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, sakto company number one
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Convictions, False Confessions, Interrogation Techniques, Justice System Reform, Brendan Dassey Case
+-   **Key Statistics/Information**:
+    -   85% of people waive their Miranda rights during police interrogations.
+    -   Federal court review of state court decisions requires proving the state court was "unreasonably wrong" due to the Anti-Terrorism and Effective Death Penalty Act.
+    -   The Reid Technique of interrogation, developed at Northwestern University in the 1940s, is still in use and can lead to false confessions.
+    -   Police are legally allowed to lie during interrogations in the US.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of "Wrongful Conviction with Jason Flom" features an exclusive interview with Brendan Dassey, alongside his appellate attorney Laura Nirider.  The episode delves into the details of Dassey's case, made famous by the Netflix series "Making a Murderer," focusing on his false confession at age 16 to the murder of Teresa Hallback.  Nirider explains the coercive interrogation tactics used, highlighting how Brendan's intellectual limitations and the pressure of the interrogation led to a confession filled with inaccuracies. The podcast emphasizes the lack of physical evidence corroborating the confession and discusses the arduous legal battle for Dassey's release, including state and federal appeals, and a current petition for clemency with the Wisconsin governor.  Brendan's gentle nature and resilience are highlighted, alongside calls to action for listeners to support him and advocate for justice system reform, particularly concerning interrogation practices and the rights of vulnerable individuals.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Brendan Dassey
+    -   **Case Location**: Manitoba County, Wisconsin, USA
+    -   **Conviction Year**: 2007
+    -   **Exoneration Year**: Not yet exonerated
+    -   **Crime Convicted Of**: Murder of Teresa Hallback
+    -   **Sentence**: Not explicitly stated in transcript
+    -   **Time Served**: 12 years (as of recording, age 16-29)
+    -   **Contributing Factors**: False confession, intellectual disabilities/limitations, coercive interrogation techniques, lack of appropriate legal counsel during interrogation.
+    -   **Legal Status**: Imprisoned, petition for clemency pending with the Governor of Wisconsin.
+    -   **Organizations Involved**: Center on Wrongful Convictions of Youth (CCWY) at Northwestern University
+    -   **Innocence Lawyer Details**: Laura Nirider and Steve Drizzen from the Center on Wrongful Convictions at Northwestern University. Experts in false confessions and interrogation tactics. Steve Drizzen became involved in 2007, three months after Brendan's conviction. Laura Nirider was a law student in Drizzen's class and joined the case.
+    -   **Narrative of Original Crime**: The murder of Teresa Hallback on the Avery family's auto salvage yard property in Manitoba, Wisconsin.
+    -   **Key Evidence at Trial (Prosecution)**: Brendan Dassey's confession to participating in the rape and murder of Teresa Hallback with his uncle, Steven Avery.
+    -   **Trial Defender Notes**: Original trial lawyer, Lem Kachinsky, was ineffective, reportedly pushing for plea deals and allegedly indicating belief in Brendan's guilt to Nancy Grace.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: Recantation of confession to his mother during interrogation. Lack of forensic evidence in Steven Avery's bedroom to support the confession. Federal District Court initially overturned conviction, but this was reversed on appeal. Current efforts focused on clemency petition to the Governor of Wisconsin.
+    -   **Actual Perpetrator Details**: Not definitively stated in the podcast, but the podcast strongly implies both Brendan Dassey and Steven Avery are innocent of the crime, suggesting the actual perpetrator remains unknown within the context of this episode.
+
+-   **Name**: Stephen Avery
+    -   **Case Location**: Manitoba, Wisconsin, USA
+    -   **Conviction Year**: 2005 (for Teresa Hallback murder, and previously 1985 for sexual assault - later overturned)
+    -   **Exoneration Year**: 2003 (for the 1985 sexual assault conviction)
+    -   **Crime Convicted Of**: Murder of Teresa Hallback (wrongfully convicted of sexual assault in 1985, later exonerated)
+    -   **Sentence**: Not explicitly stated in transcript for Hallback case.
+    -   **Time Served**: Currently imprisoned for Hallback murder. Served 18 years for the wrongful sexual assault conviction.
+    -   **Contributing Factors**: Controversial investigation by Manitoba County (conflict of interest due to Avery's civil suit against them), potential evidence tampering, focus of investigation on Avery due to prior wrongful conviction and civil suit.
+    -   **Legal Status**: Imprisoned, appealing conviction for Teresa Hallback murder, considered wrongfully convicted by the podcast hosts.
+    -   **Organizations Involved**: Not detailed in this transcript.
+    -   **Innocence Lawyer Details**: Not detailed in this transcript.
+    -   **Narrative of Original Crime**: Murder of Teresa Hallback on the Avery family's auto salvage yard property.
+    -   **Key Evidence at Trial (Prosecution)**: Not detailed in this transcript, but Brendan Dassey's confession was a significant factor linking Avery to the crime in the public narrative.
+    -   **Trial Defender Notes**: Not detailed in this transcript.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: DNA evidence led to exoneration in the 1985 sexual assault case. Lack of forensic evidence in Avery's bedroom to corroborate Brendan's confession in the Hallback case is presented as evidence of potential wrongful conviction.
+    -   **Actual Perpetrator Details**: DNA evidence in the 1985 case matched another man, not Stephen Avery. Actual perpetrator of Teresa Hallback murder is not identified in the podcast, but the podcast argues for Avery's innocence.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Brendan Dassey: "I just wanted it all over with so I said whatever they wanted to hear."
+    -   Brendan Dassey (recounting to his mother during interrogation): "they got into my head they got me to say whatever they wanted."
+    -   Laura Nirider (on interrogation tactics): "...interrogation is a carefully orchestrated set of psychological tactics that are designed to get people off their belief in their own innocence and designed to actually make them believe that it will help them that it will improve their situation that it will benefit them to say they did these things that the officers think right..."
+    -   Jason Flom (advice to listeners): "if you're picked up for a crime that you didn't commit... i want a lawyer that's it that's what you say right."
+    -   Brendan Dassey (on his superpower wish): "I would want to have the power to heal the illnesses and diseases all over the world... I just like helping people so I wanted to help other people in the world."
+
+-   **Systemic Issues Identified**:
+    -   False confessions elicited through coercive interrogation techniques (specifically the Reid Technique).
+    -   Vulnerability of individuals with intellectual disabilities to false confessions.
+    -   Legal permissibility of police deception during interrogations in the US.
+    -   Ineffective assistance of counsel (highlighted by Brendan's initial lawyer).
+    -   High rate of Miranda rights waivers and lack of understanding of their importance.
+    -   Difficult legal standards for federal review of state court decisions in habeas corpus cases.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Assert the right to counsel immediately when questioned by police: "I want a lawyer."
+    -   Support organizations working on wrongful conviction cases, such as the Center on Wrongful Convictions and the Innocence Project.
+    -   Write letters of support to Brendan Dassey at Oshkosh Correctional Institution.
+    -   Contact the Governor of Wisconsin to advocate for clemency for Brendan Dassey.
+    -   Educate oneself about wrongful convictions through books, films, and podcasts.
+
+-   **Personal Narrative/Impact**:
+    -   Brendan Dassey is portrayed as a gentle, kind, and simple individual with no malice or bitterness despite his wrongful conviction.
+    -   The podcast highlights the devastating personal impact of false confessions and wrongful convictions on individuals and their families.
+    -   Brendan's resilience and continued hope, fueled by family support and letters from around the world, are emphasized.
+    -   His dream of healing people and his love for Pokemon illustrate his innocent and hopeful nature.
+
+-   **Additional Resources**:
+    -   Center on Wrongful Convictions of Youth (CCWY): cwcy.org
+    -   Innocence Project: innocenceproject.org
+    -   Laura Nirider's social media: Instagram and Twitter @lauraanirider
+    -   Films and series mentioned: "When They See Us," "Paradise Lost," "West of Memphis," "Murder on a Sunday Morning," "The Confession Tapes."
+    -   Wisconsin Department of Corrections website (for Brendan Dassey's address to send letters).
+```

@@ -1,0 +1,81 @@
+{
+  "source_file_name": "9.28.michael_morton.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "An Unreal Dream: The Michael Morton Story",
+    "publication_or_release_year": 2013,
+    "publisher_or_network": "Blue Bandana Productions, Glass House Productions, La Sonrisa Productions Inc. (A CNN Films documentary)",
+    "focus_or_theme": "The wrongful conviction of Michael Morton for the 1986 murder of his wife, Christine, in Texas. Chronicles his nearly 25 years in prison and his eventual exoneration through DNA testing, highlighting severe prosecutorial misconduct.",
+    "summaryNotes": "Morton served nearly 25 years before being exonerated by DNA in 2011. His case led to the passage of the Michael Morton Act in Texas, reforming discovery laws.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "An Unreal Dream: The Michael Morton Story",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "The wrongful conviction of Michael Morton for the 1986 murder of his wife, Christine, in Texas. Chronicles his nearly 25 years in prison and his eventual exoneration through DNA testing, highlighting severe prosecutorial misconduct.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [
+      "Prosecutorial misconduct (Brady violations) and lack of accountability, tunnel vision in investigations, importance of open-file discovery laws, challenges in obtaining post-conviction DNA testing, the devastating personal cost of wrongful imprisonment."
+    ],
+    "policy_recommendations_raw": [
+      "Highlights the need for stronger enforcement against prosecutorial misconduct and supports reforms like the Michael Morton Act mandating open-file discovery in Texas criminal cases."
+    ],
+    "external_links_raw": [],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Michael Morton",
+      "case_location_city": "Williamson County",
+      "case_location_state": "Texas, USA",
+      "conviction_year": 1987,
+      "exoneration_or_release_year": 2011,
+      "crime_convicted_of_raw": "Murder of his wife, Christine Morton",
+      "sentence": "Life imprisonment",
+      "time_served": "Nearly 25 years",
+      "contributing_factors_raw": [
+        "Prosecutorial misconduct (deliberate withholding of exculpatory evidence, including police reports indicating another man might be responsible, witness statements, and notes about his son witnessing the attack by a \"monster\"), flawed investigation (tunnel vision)."
+      ],
+      "status_raw": "Exonerated (2011). The prosecutor, Ken Anderson, later faced legal consequences.",
+      "organizations_involved_raw": [
+        "Innocence Project (New York), Houston attorney John Raley."
+      ],
+      "cross_reference": "Yes, Michael Morton is listed in the National Registry of Exonerations and Innocence Project case files.",
+      "first_name": "Michael",
+      "middle_name": null,
+      "last_name": "Morton"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Al Reinert (also Writer)",
+      "role": "DIRECTOR",
+      "first_name": "Al",
+      "middle_name": "Reinert (also",
+      "last_name": "Writer)"
+    },
+    {
+      "full_name": "John Dean",
+      "role": "DIRECTOR",
+      "first_name": "John",
+      "middle_name": null,
+      "last_name": "Dean"
+    },
+    {
+      "full_name": "Nellie Gonzalez",
+      "role": "DIRECTOR",
+      "first_name": "Nellie",
+      "middle_name": null,
+      "last_name": "Gonzalez"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "---",
+  "unhandled_section_research_for:_an_unreal_dream:_the_michael_morton_story_(film_list_item_9.28)": "### Basic Film/Documentary Information\n\n-   **Title**: An Unreal Dream: The Michael Morton Story\n-   **Episode # & Title (if applicable)**: N/A\n-   **Director(s)**: Al Reinert (also Writer), John Dean, Nellie Gonzalez\n-   **Release Year**: 2013\n-   **Production Company(ies)**: Blue Bandana Productions, Glass House Productions, La Sonrisa Productions Inc. (A CNN Films documentary)\n-   **Format**: Documentary\n-   **Focus/Theme**: The wrongful conviction of Michael Morton for the 1986 murder of his wife, Christine, in Texas. Chronicles his nearly 25 years in prison and his eventual exoneration through DNA testing, highlighting severe prosecutorial misconduct.\n-   **Key Statistics/Information**: Morton served nearly 25 years before being exonerated by DNA in 2011. His case led to the passage of the Michael Morton Act in Texas, reforming discovery laws.\n\n### Wrongfully Convicted Individuals Featured\n\n-   **Name**: Michael Morton\n-   **Case Location**: Williamson County, Texas, USA\n-   **Conviction Year**: 1987 (Crime occurred 1986)\n-   **Exoneration Year**: 2011\n-   **Crime Convicted Of**: Murder of his wife, Christine Morton\n-   **Sentence**: Life imprisonment\n-   **Time Served**: Nearly 25 years\n-   **Contributing Factors**: Prosecutorial misconduct (deliberate withholding of exculpatory evidence, including police reports indicating another man might be responsible, witness statements, and notes about his son witnessing the attack by a \"monster\"), flawed investigation (tunnel vision).\n-   **Legal Status**: Exonerated (2011). The prosecutor, Ken Anderson, later faced legal consequences.\n-   **Organizations Involved**: Innocence Project (New York), Houston attorney John Raley.\n-   **Cross-Reference**: Yes, Michael Morton is listed in the National Registry of Exonerations and Innocence Project case files.\n\n### Film/Documentary Research Notes\n\n-   **Key Quotes/Moments**: Interviews with Michael Morton reflecting on his experience, attorney John Raley discussing the legal fight, details of the withheld evidence, the moment of exoneration, discussion of the impact on Morton's relationship with his son. Quote often associated with the title/case (from Judge Learned Hand): \"'Our procedure has been always haunted by the ghost of the innocent man convicted. It is an unreal dream.'\"\n-   **Systemic Issues Identified**: Prosecutorial misconduct (Brady violations) and lack of accountability, tunnel vision in investigations, importance of open-file discovery laws, challenges in obtaining post-conviction DNA testing, the devastating personal cost of wrongful imprisonment.\n-   **Policy Recommendations/Calls to Action**: Highlights the need for stronger enforcement against prosecutorial misconduct and supports reforms like the Michael Morton Act mandating open-file discovery in Texas criminal cases.\n-   **Additional Resources**: Michael Morton's memoir (\"Getting Life: An Innocent Man's 25-Year Journey from Prison to Peace\"), The Innocence Project website.\n\n---"
+}

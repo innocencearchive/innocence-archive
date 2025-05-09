@@ -1,0 +1,75 @@
+{
+  "source_file_name": "4.2.conviction.md",
+  "media_work": {
+    "work_type": "UNKNOWN",
+    "title": "Conviction (Dateline NBC)",
+    "publication_or_release_year": 2016,
+    "publisher_or_network": "NBC News (assumed for Dateline)",
+    "focus_or_theme": "Reinvestigation of cases involving potential wrongful convictions; following fights for exoneration.",
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "UNKNOWN",
+    "item_title": "Appears to be a multi-part series or recurring segment theme, rather than a single episode.",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Reinvestigation of cases involving potential wrongful convictions; following fights for exoneration.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Series re-examines evidence where individuals maintain innocence; often features new forensic analysis or testimony. Available via NBC/Peacock.",
+      "research_findings": "\"Conviction\" appears to be a Dateline series/theme focusing on wrongful conviction investigations. A prominent multi-part series from 2016 focused on Richard Rosario. Other cases, like Christopher Tapp's, have been featured under different episode titles but fit the overall theme. A fictional 2006 NBC drama also shares the name \"Conviction\" but is unrelated."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Richard Rosario (Featured in 2016 series)",
+      "case_location_city": "New York City",
+      "case_location_state": null,
+      "conviction_year": 1998,
+      "exoneration_or_release_year": 2016,
+      "crime_convicted_of_raw": "Murder",
+      "sentence": "25 years to life",
+      "time_served": "20 years",
+      "contributing_factors_raw": [
+        "Disregarded alibi witnesses (13 people placed him in Florida), potential eyewitness misidentification."
+      ],
+      "status_raw": "Exonerated (Conviction vacated)",
+      "organizations_involved_raw": [],
+      "first_name": "Richard",
+      "middle_name": "Rosario (Featured in 2016",
+      "last_name": "series)"
+    },
+    {
+      "full_name": "Christopher Tapp (Featured in a related 2024 Dateline episode \"True Confession\")",
+      "case_location_city": "Idaho Falls",
+      "case_location_state": "Idaho",
+      "conviction_year": 1997,
+      "exoneration_or_release_year": 2019,
+      "crime_convicted_of_raw": "Rape and Murder (of Angie Dodge in 1996)",
+      "sentence": "Life (Originally 30 years to life)",
+      "time_served": "~20 years",
+      "contributing_factors_raw": [
+        "Coerced false confession, DNA excluded him but conviction stood until perpetrator found via genetic genealogy"
+      ],
+      "status_raw": "Exonerated; Died 2023 (death investigated as homicide)",
+      "organizations_involved_raw": [
+        "Idaho Innocence Project"
+      ],
+      "first_name": "Christopher",
+      "middle_name": "Tapp (Featured in a related 2024 Dateline episode \"True",
+      "last_name": "Confession\")"
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

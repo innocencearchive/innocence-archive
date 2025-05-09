@@ -1,0 +1,222 @@
+{
+  "sourceFileName": "2.1.the_plea.md",
+  "mediaWork": {
+    "title": "FRONTLINE",
+    "workType": "TV_SERIES",
+    "creatorName": "Ofra Bikel",
+    "publicationOrReleaseYear": 2004,
+    "publisherOrNetwork": "FRONTLINE, WGBH, Ofra Bikel Productions",
+    "focusOrTheme": "Plea bargaining system, innocent defendants pleading guilty, prosecutorial pressure, inadequate defense counsel, impact of poverty on justice outcomes.",
+    "summaryNotes": "Highlights how the vast majority of cases are resolved through pleas, often pressuring innocent individuals.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "items": []
+  },
+  "mediaItem": {
+    "itemTitle": "The Plea",
+    "itemNumber": null,
+    "itemMediaType": "TV_EPISODE",
+    "releaseDate": null,
+    "hostOrNarrator": null,
+    "focusOrTheme": "Plea bargaining system, innocent defendants pleading guilty, prosecutorial pressure, inadequate defense counsel, impact of poverty on justice outcomes.",
+    "summaryNotes": "Highlights how the vast majority of cases are resolved through pleas, often pressuring innocent individuals. Key Quotes/Moments: Stewart describing the pressure to take the plea to care for her children; Kelly discussing the inadequate time/advice from court-appointed counsel; Discussion of the informant's unreliability coming out later. Systemic Issues Identified: The overwhelming pressure of the plea bargain system, particularly on poor defendants; inadequate resources and potential conflicts of interest for court-appointed attorneys; the devastating collateral consequences of a felony conviction (even via plea); the potential for unreliable informants to cause widespread injustice; racial disparities in drug enforcement. Policy Recommendations/Calls to Action: Implied need for reform in the plea bargaining process, better funding and oversight of indigent defense, scrutiny of informant use, addressing collateral consequences.",
+    "keyQuotes": "Stewart describing the pressure to take the plea to care for her children; Kelly discussing the inadequate time/advice from court-appointed counsel; Discussion of the informant's unreliability coming out later.",
+    "sourceUrl": "https://www.pbs.org/wgbh/pages/frontline/shows/plea/etc/synopsis.html",
+    "individualsFeatured": [
+      {
+        "firstName": "Erma Faye",
+        "lastName": "Stewart"
+      },
+      {
+        "firstName": "Regina",
+        "lastName": "Kelly"
+      }
+    ],
+    "organizationsMentioned": [
+      {
+        "name": "ACLU"
+      }
+    ],
+    "involvedPersonsMentioned": [
+      {
+        "firstName": "Ofra",
+        "lastName": "Bikel"
+      }
+    ],
+    "contributingFactorsMentioned": [
+      {
+        "name": "Coercive plea bargaining"
+      },
+      {
+        "name": "Pressure to get out of jail for children"
+      },
+      {
+        "name": "Inadequate legal counsel"
+      },
+      {
+        "name": "Unreliable confidential informant"
+      },
+      {
+        "name": "Poverty"
+      },
+      {
+        "name": "Racial bias alleged in drug sweep"
+      },
+      {
+        "name": "Arrest based on unreliable confidential informant"
+      }
+    ]
+  },
+  "individuals": [
+    {
+      "firstName": "Erma Faye",
+      "lastName": "Stewart",
+      "status": "CONVICTED",
+      "convictionYear": 2000,
+      "exonerationOrReleaseYear": null,
+      "timeServedYears": 0.083,
+      "sentence": "10 years probation, fines.",
+      "caseLocationCity": "Hearne",
+      "caseLocationCounty": null,
+      "caseLocationState": "TX",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Conviction stood due to plea, faced collateral consequences (loss of benefits).",
+      "contributingFactors": [
+        {
+          "name": "Coercive plea bargaining"
+        },
+        {
+          "name": "Pressure to get out of jail for children"
+        },
+        {
+          "name": "Inadequate legal counsel"
+        },
+        {
+          "name": "Unreliable confidential informant"
+        },
+        {
+          "name": "Poverty"
+        }
+      ],
+      "organizationsInvolved": [
+        {
+          "name": "ACLU"
+        }
+      ],
+      "involvedPersons": []
+    },
+    {
+      "firstName": "Regina",
+      "lastName": "Kelly",
+      "status": "EXONERATED",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": 2001,
+      "timeServedYears": 0.057,
+      "sentence": "N/A",
+      "caseLocationCity": "Hearne",
+      "caseLocationCounty": null,
+      "caseLocationState": "TX",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Charges dismissed; lead plaintiff in ACLU class-action lawsuit.",
+      "contributingFactors": [
+        {
+          "name": "Arrest based on unreliable confidential informant"
+        },
+        {
+          "name": "Racial bias alleged in drug sweep"
+        },
+        {
+          "name": "Pressure to plead guilty"
+        }
+      ],
+      "organizationsInvolved": [
+        {
+          "name": "ACLU"
+        }
+      ],
+      "involvedPersons": []
+    }
+  ],
+  "contributingFactors": [
+    {
+      "name": "Coercive plea bargaining"
+    },
+    {
+      "name": "Pressure to get out of jail for children"
+    },
+    {
+      "name": "Inadequate legal counsel"
+    },
+    {
+      "name": "Unreliable confidential informant"
+    },
+    {
+      "name": "Poverty"
+    },
+    {
+      "name": "Racial bias alleged in drug sweep"
+    },
+    {
+      "name": "Arrest based on unreliable confidential informant"
+    },
+    {
+      "name": "Pressure to plead guilty"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ACLU",
+      "type": "INNOCENCE_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": "represented co-defendant Kelly in subsequent lawsuit."
+    },
+    {
+      "name": "FRONTLINE",
+      "type": "MEDIA_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": null
+    },
+    {
+      "name": "WGBH",
+      "type": "MEDIA_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": null
+    },
+    {
+      "name": "Ofra Bikel Productions",
+      "type": "MEDIA_ORG",
+      "locationCity": null,
+      "locationState": null,
+      "locationCountry": "USA",
+      "website": null,
+      "notes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Ofra",
+      "lastName": "Bikel",
+      "role": "DIRECTOR",
+      "notes": null
+    }
+  ],
+  "crimeCategories": [
+    {
+      "crime_name": "Felony drug distribution",
+      "severity_order": null
+    },
+    {
+      "crime_name": "Accused of felony drug distribution",
+      "severity_order": null
+    }
+  ]
+}

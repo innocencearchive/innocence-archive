@@ -1,0 +1,83 @@
+{
+    "sourceFileName": "153_Jason_Flom_with_Willie_Pete_Williams_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts in association with signal company number one.",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, eyewitness misidentification, prosecutorial misconduct, criminal justice reform.",
+        "keyStats": "-   Eyewitness misidentification is the leading cause of wrongful convictions.\n-   Composite sketches can lead to wrongful convictions.\n-   The US represents 5% of the world's population but nearly 25% of the world's incarcerated population.\n-   The US has 33% of the world's female prison population.\n-   In about 50% of Innocence Project cases where DNA exonerates, the actual perpetrator is identified.\n-   America spends $40 million a day on pre-trial detention.\n-   Black people are incarcerated at six times the rate of South Africa during apartheid.",
+        "itemNumber": "153",
+        "itemTitle": "Jason Flom with Willie Pete Williams",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Pete Williams, who was wrongfully convicted of rape in 1985 and served 22 years in prison before being exonerated by DNA evidence in 2007.  The episode details the circumstances leading to his wrongful conviction, highlighting eyewitness misidentification and a flawed composite sketch.  It also introduces Drew Findling, now president of the National Association of Criminal Defense Lawyers, who was a young public defender during Pete's trial and was deeply impacted by the injustice.  The discussion also touches upon the role of unethical prosecutors, systemic issues within the justice system, and the importance of criminal justice reform. The case is used to illustrate the devastating consequences of wrongful convictions and the need for systemic change, including ethical prosecution, proper evidence preservation, and informed voting in local prosecutor elections. Pete and Drew emphasize the personal impact of wrongful convictions and the broader implications for justice and public safety."
+    },
+    "featuredIndividual": {
+        "fullName": "Kenneth Wicker\n-   Responsible for all five attacks along Roswell Road.\n-   Arrested after his last victim took down his license plate number.\n-   Pled guilty to three attacks, but not initially charged for the first two attacks that Pete Williams was convicted of.\n-   After Pete's exoneration, Kenneth Wicker was arrested on February 9, 2007, for the April 5th and 10th incidents (the ones Pete was wrongly convicted for).",
+        "caseLocation": "Atlanta, Georgia, USA",
+        "convictionYear": "1985",
+        "exonerationYear": "2007",
+        "crimeConvictedOf": "Rape, aggravated assault, aggravated sodomy (initially one rape charge, later expanded to two)",
+        "sentence": "45 years to life",
+        "timeServed": "Nearly 22 years",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification (by two victims based on a composite sketch)",
+            "Resemblance to a composite sketch of the actual perpetrator",
+            "Lack of ethical prosecution and investigation"
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project, Georgia Innocence Project"
+        ],
+        "innocenceLawyersRaw": [
+            "Not explicitly detailed in the transcript, but the Innocence Project and Georgia Innocence Project are mentioned as assisting with his case and DNA testing. Drew Findling, while not his lawyer for exoneration, was a witness to the trial and was deeply affected by the case."
+        ],
+        "crossReference": "Not specified in the transcript if he appears in a specific exoneree database.",
+        "narrativeOriginalCrime": "Two rapes occurred in April 1985 in parking lots north of Atlanta. The perpetrator approached women asking for \"Carol\" before forcing them into their cars and assaulting them. Pete Williams was arrested because he resembled a composite sketch created based on the first victim's description. He was wrongly identified by two victims as the perpetrator of the first two attacks.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness identification by two victims.",
+            "Pete Williams resembled the composite sketch."
+        ],
+        "trialDefenderNotes": "Not detailed in the transcript, but implied to be inadequate as per Drew Findling's observations and the wrongful conviction itself.",
+        "keyEvidenceExonerationRaw": [
+            "DNA evidence from the original rape kit, which was preserved by the Georgia Bureau of Investigation (GBI).",
+            "DNA testing excluded Pete Williams and matched Kenneth Wicker, who had already pleaded guilty to three subsequent similar attacks."
+        ],
+        "actualPerpetratorDetails": ""
+    },
+    "keyQuotesRaw": [
+        "Drew Findling: \"And that's why Pete, I made a decision that I was going to spend the rest of my life defending people because of your case. It was just a job at that point. I didn't know anything about a public defender. I never even met a lawyer until my first law school class. I have humble beginnings. But your case dictated to me what I wanted to spend the rest of my life doing.\"",
+        "Pete Williams: \"I'm glad y'all had this broadcast to let people know that things like this actually happen. People do go to jail wrong for their convicted.\"",
+        "Jason Flom: \"When you lock up the wrong person, you stop looking for the right person. And then that person that's out there is most likely going to go and do what they did. Again, it's just a practical issue of we should all want to clean up these systems as best we can so that ourselves and our families are safe.\""
+    ],
+    "systemicIssuesRaw": [
+        "Eyewitness misidentification",
+        "Flaws and biases associated with composite sketches.",
+        "Lack of standardized evidence preservation practices nationwide.",
+        "Unethical prosecutorial conduct and its impact on justice.",
+        "Mass incarceration and its disproportionate impact.",
+        "Need for criminal justice reform, including prosecutor accountability."
+    ],
+    "policyRecommendationsRaw": [
+        "Vote in local prosecutor elections to elect fair and ethical prosecutors.",
+        "Support criminal justice reform initiatives.",
+        "Donate to and get involved with organizations like the Innocence Project and the National Association of Criminal Defense Lawyers (NACDL).",
+        "Advocate for standardized evidence preservation practices."
+    ],
+    "personalNarrativeRaw": [
+        "Pete Williams described the despair and hopelessness he felt during his first 10 years in prison, how finding faith and joining a choir helped him, and his eventual contact with the Innocence Project.  He highlights the reality of wrongful convictions and expresses gratitude for the opportunity to share his story.",
+        "Drew Findling recounts how Pete's case profoundly impacted his career path, leading him to dedicate his life to criminal defense work and becoming a champion for justice reform. He emphasizes the ethical responsibility of prosecutors and the need for systemic changes in the criminal justice system."
+    ],
+    "additionalResourcesRaw": [
+        "InnocenceProject.org (to donate and get involved)",
+        "NACDL.org (National Association of Criminal Defense Lawyers)",
+        "PacersFoundation.org and TheLastMile.org (mentioned sponsors related to reentry programs)",
+        "Dontsleeponosa.com (advertisement related to sleep apnea)",
+        "kisqali.com (advertisement related to medication)",
+        "Stellow.com (advertisement related to health monitoring)",
+        "mycomputercareer.edu/CWP (advertisement related to cybersecurity career training for veterans)",
+        "FergusonHome.com (advertisement related to home improvement)"
+    ]
+}

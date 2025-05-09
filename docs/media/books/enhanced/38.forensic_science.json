@@ -1,0 +1,57 @@
+{
+  "source_file_name": "38.forensic_science.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Forensic Science Under Siege: The Challenges of Forensic Laboratories and the Medico-Legal Death Investigation System",
+    "creator_name": "Kelly M. Pyrek",
+    "publication_or_release_year": 2007,
+    "publisher_or_network": "Academic Press/Elsevier",
+    "format": "Hardcover, Paperback, eBook",
+    "focus_or_theme": "Challenges and problematic trends in forensic science, including issues that contribute to wrongful convictions",
+    "key_statistics": "The book mentions that jailhouse informants play a role in nearly one-fifth of DNA-based exoneration cases"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "\"Forensic science laboratories' reputations have increasingly come under fire. Incidents of tainted evidence, false reports, allegations of negligence, scientifically flawed testimony, or - worse yet - perjury in in-court testimony, have all served to cast a shadow over the forensic sciences.\"",
+      "\"Forensic Science Under Siege is the first book to integrate and explain these problematic trends in forensic science.\""
+    ],
+    "systemic_issues_raw": [
+      "Tainted evidence in forensic laboratories",
+      "False reports by forensic scientists",
+      "Allegations of negligence in forensic work",
+      "Scientifically flawed testimony in court",
+      "Perjury in in-court testimony by forensic experts",
+      "Problems with the reliability of various forensic science disciplines",
+      "Issues with the medico-legal death investigation system",
+      "Challenges in the admissibility of DNA evidence"
+    ],
+    "policy_recommendations_raw": [
+      "Formation of a forensic science consortium to address specific legislative issues",
+      "Reforms to improve the quality and reliability of forensic science",
+      "Mechanisms for solving cold cases through DNA databanks",
+      "Improved standards for forensic laboratories"
+    ],
+    "additional_resources_raw": [
+      "The book includes interviews with leading experts in forensic science, including Henry Lee, Richard Saferstein, and Cyril Wecht",
+      "The book contains 16 chapters covering various aspects of forensic science and its challenges"
+    ],
+    "item_title": "Book Content: Forensic Science Under Siege: The Challenges of Forensic Laboratories and the Medico-Legal Death Investigation System",
+    "focus_or_theme": "Challenges and problematic trends in forensic science, including issues that contribute to wrongful convictions",
+    "summary_notes": "The book is a comprehensive examination of the challenges facing forensic science, including issues that can lead to wrongful convictions.  While not exclusively focused on wrongful convictions, it addresses how problems in forensic science contribute to them, particularly in Chapter 11 discussing DNA's role in exonerations.  It examines forensic laboratories, expert testimony, and the medico-legal death investigation system, including interviews with leading experts and exploring potential solutions.",
+    "case_details_raw": "While specific named cases are not clearly identified, the book discusses DNA exonerations in Chapter 11, \"DNA: Convicting the Guilty, Exonerating the Innocent.\"",
+    "research_notes_other": {}
+  },
+  "featured_individuals": [],
+  "involved_persons": [
+    {
+      "full_name": "Kelly M. Pyrek",
+      "role": "AUTHOR",
+      "first_name": "Kelly",
+      "middle_name": "M.",
+      "last_name": "Pyrek"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

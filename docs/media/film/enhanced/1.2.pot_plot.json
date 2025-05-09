@@ -1,0 +1,92 @@
+{
+  "source_file_name": "1.2.pot_plot.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "60 Minutes",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "CBS News",
+    "focus_or_theme": "Extreme sentencing in non-violent drug cases; Clemency process",
+    "summaryNotes": "Highlighted a triple life sentence for a first-time, non-violent drug offense role.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "*_**title**": "60 Minutes",
+    "*_**episode__and_title_if_applicable**": "1.2. The Pot Plot",
+    "*_**directors**": null,
+    "*_**release_year**": "Information Unavailable (Segment discussed events leading up to 2013/2014)",
+    "*_**production_companyies**": "CBS News",
+    "*_**format**": "TV news magazine segment",
+    "*_**focus_theme**": "Extreme sentencing in non-violent drug cases; Clemency process",
+    "*_**key_statistics_information**": "Highlighted a triple life sentence for a first-time, non-violent drug offense role."
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "The Pot Plot",
+    "item_number": "1.2",
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Extreme sentencing in non-violent drug cases; Clemency process",
+    "summary_notes": "Focuses on extreme sentencing in non-violent drug cases and the clemency process, highlighting the case of Clarence Aaron.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [
+      "Harsh mandatory minimum sentencing for drug offenses",
+      "Issues and lack of transparency within the presidential clemency process"
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for sentencing reform",
+      "Implicitly calls for review of the clemency process"
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Clarence_Aaron",
+        "description": "Clarence Aaron - Wikipedia"
+      },
+      {
+        "url": null,
+        "description": "ProPublica and Washington Post articles on the case"
+      },
+      {
+        "url": null,
+        "description": "US Dept. of Justice OIG report on Aaron's clemency petition"
+      }
+    ],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "unparsed_*_**key_quotes_moments**": null,
+      "unparsed_*_**systemic_issues_identified**": "Harsh mandatory minimum sentencing for drug offenses; Issues and lack of transparency within the presidential clemency process.",
+      "unparsed_*_**policy_recommendations_calls_to_action**": "Implicitly calls for sentencing reform and review of the clemency process.",
+      "unparsed_*_**additional_resources**": null,
+      "unparsed_*_[clarence_aaron_-_wikipedia]https": "//en.wikipedia.org/wiki/Clarence_Aaron)",
+      "unparsed_*_propublica_and_washington_post_articles_on_the_case_[cite": "2.1]",
+      "unparsed_*_us_dept._of_justice_oig_report_on_aaron's_clemency_petition_[cite": "2.1]"
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Clarence Aaron",
+      "first_name": "Clarence",
+      "middle_name": null,
+      "last_name": "Aaron",
+      "status": "RELEASED_CLEMENCY",
+      "conviction_year": null,
+      "exoneration_or_release_year": 2014,
+      "time_served": "Approx. 20 years",
+      "sentence": "Three concurrent life sentences without parole",
+      "crime_convicted_of_raw": "Helping coordinate a drug deal / Drug Conspiracy (non-violent, first-time offense role)",
+      "case_location_city": null,
+      "case_location_state": null,
+      "narrative_summary": "Clarence Aaron was sentenced to three concurrent life sentences without parole for a non-violent drug conspiracy. His sentence was commuted in 2013, and he was released in 2014 after serving approximately 20 years. The case highlighted extreme sentencing laws and issues with the clemency process.",
+      "contributing_factors_raw": [
+        "Extreme sentencing laws (mandatory minimums)",
+        "Potential mishandling of initial clemency petition"
+      ],
+      "organizations_involved_raw": [
+        "Advocacy reported by ProPublica, Washington Post",
+        "Presidential commutation process"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

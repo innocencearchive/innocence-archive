@@ -1,0 +1,59 @@
+{
+  "source_file_name": "5.2.blame.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "Blame (48 Hours)",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "CBS News",
+    "focus_or_theme": "Wrongful murder conviction due to flawed evidence and investigative tunnel vision.",
+    "summaryNotes": null,
+    "availabilityNotes": "Available via CBS/Paramount+.",
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Blame (48 Hours)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful murder conviction due to flawed evidence and investigative tunnel vision.",
+    "summary_notes": "Examines how tunnel vision led investigators to focus on Jason Parson despite evidence pointing elsewhere. Searches did not confirm an episode with this title and individual, details are based solely on the `film_list.txt` entry.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Examines how tunnel vision led investigators to focus on Parson despite evidence pointing elsewhere. Available via CBS/Paramount+.",
+      "research_findings": "Searches did not confirm a 48 Hours episode titled \"Blame\" featuring a wrongful conviction case of someone named Jason Parson. The search result for this query discussed a different case where the name \"Parson\" was used as a pseudonym for potential suspects, not an exonerated individual featured on the show. It's possible the name or episode title in the list is inaccurate, or the episode is difficult to find via search. Details provided are based solely on the `film_list.txt` entry."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Jason Parson",
+      "first_name": "Jason",
+      "middle_name": null,
+      "last_name": "Parson",
+      "status": "UNKNOWN",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": "Murder",
+      "case_location_city": null,
+      "case_location_state": null,
+      "narrative_summary": "Potentially wrongfully convicted of murder due to flawed evidence and investigative tunnel vision. The existence or involvement of Jason Parson in such a case is unconfirmed by search.",
+      "contributing_factors_raw": [
+        "Flawed evidence",
+        "investigative tunnel vision"
+      ],
+      "organizations_involved_raw": []
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "Searches did not confirm a 48 Hours episode titled \"Blame\" featuring a wrongful conviction case of someone named Jason Parson. The search result for this query discussed a different case where the name \"Parson\" was used as a pseudonym for potential suspects, not an exonerated individual featured on the show. It's possible the name or episode title in the list is inaccurate, or the episode is difficult to find via search. Details provided are based solely on the `film_list.txt` entry."
+}

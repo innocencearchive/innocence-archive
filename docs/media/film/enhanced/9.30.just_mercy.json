@@ -1,0 +1,91 @@
+{
+  "source_file_name": "9.30.just_mercy.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Just Mercy",
+    "creator_name": "Destin Daniel Cretton",
+    "publication_or_release_year": 2019,
+    "publisher_or_network": "Participant, Outlier Society Productions, Netter Productions, MACRO (Distributed by Warner Bros. Pictures)",
+    "focus_or_theme": "Based on the work of lawyer Bryan Stevenson and the Equal Justice Initiative (EJI), focusing primarily on the case of Walter McMillian (\"Johnny D.\"), a Black man wrongfully convicted and sentenced to death in Alabama for the murder of a white woman. Explores racial injustice, poverty, and the death penalty in the South.",
+    "summaryNotes": "McMillian was sentenced to death despite significant evidence of his innocence, including multiple alibi witnesses. His case highlights deep-seated racial bias in the justice system.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Just Mercy",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Based on the work of lawyer Bryan Stevenson and the Equal Justice Initiative (EJI), focusing primarily on the case of Walter McMillian (\"Johnny D.\"), a Black man wrongfully convicted and sentenced to death in Alabama for the murder of a white woman. Explores racial injustice, poverty, and the death penalty in the South.",
+    "summary_notes": "The film depicts Bryan Stevenson's initial meetings with McMillian on death row, the investigation uncovering suppressed evidence and coerced testimony, courtroom battles challenging the conviction, and Stevenson's arguments about racial bias and justice. It highlights themes of racial bias, the importance of proximity to the condemned, and fighting injustice.",
+    "key_quotes_raw": [
+      "Scenes depicting Bryan Stevenson's initial meetings with McMillian on death row",
+      "The investigation uncovering suppressed evidence and coerced testimony",
+      "Courtroom battles challenging the conviction",
+      "Interactions with other death row inmates",
+      "Stevenson's arguments about racial bias and justice",
+      "Key themes from Stevenson's work: \"Each of us is more than the worst thing we've ever done,\" the importance of proximity to the condemned and marginalized, fighting injustice even when odds seem insurmountable."
+    ],
+    "systemic_issues_raw": [
+      "Deep-rooted racial bias in the Southern criminal justice system",
+      "Wrongful convictions in capital cases",
+      "Unreliability and corrupt use of informant/witness testimony",
+      "Prosecutorial and police misconduct",
+      "Inadequate legal representation for poor defendants",
+      "Extreme sentencing/death penalty flaws",
+      "Systemic resistance to acknowledging errors"
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly and explicitly advocates for ending the death penalty",
+      "Combating racial bias in the justice system",
+      "Ensuring adequate counsel for indigent defendants",
+      "Challenging prosecutorial misconduct",
+      "Supporting organizations like EJI that fight for justice reform"
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://eji.org",
+        "description": "Equal Justice Initiative (EJI) website"
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Walter McMillian",
+      "first_name": "Walter",
+      "middle_name": null,
+      "last_name": "McMillian",
+      "status": "EXONERATED",
+      "conviction_year": 1988,
+      "exoneration_or_release_year": 1993,
+      "time_served": "Nearly 6 years on death row.",
+      "sentence": "Death (Judge overrode jury's life sentence recommendation)",
+      "crime_convicted_of_raw": "Murder of Ronda Morrison",
+      "case_location_city": "Monroeville",
+      "case_location_state": "Alabama",
+      "narrative_summary": "Walter McMillian was wrongfully convicted of the murder of Ronda Morrison and sentenced to death. He was exonerated in 1993 after serving nearly 6 years on death row. His case was marked by pervasive racial bias, police and prosecutorial misconduct, and reliance on perjured testimony.",
+      "contributing_factors_raw": [
+        "Pervasive racial bias",
+        "Police and prosecutorial misconduct (suppression of exculpatory evidence, coercion of witnesses)",
+        "Reliance on perjured testimony from incentivized informants"
+      ],
+      "organizations_involved_raw": [
+        "Equal Justice Initiative (EJI)"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Destin Daniel Cretton",
+      "first_name": "Destin",
+      "middle_name": "Daniel",
+      "last_name": "Cretton",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

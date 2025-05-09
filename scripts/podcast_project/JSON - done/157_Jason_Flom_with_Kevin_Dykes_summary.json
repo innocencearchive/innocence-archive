@@ -1,0 +1,80 @@
+{
+    "sourceFileName": "157_Jason_Flom_with_Kevin_Dykes_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcast, signal company number one",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, jailhouse snitch testimony, legal injustice, criminal justice reform",
+        "keyStats": "- Kevin Dykes has been in prison for three and a half decades (as of podcast recording, likely 2020 or later).\n- Kevin Dykes was convicted based on the testimony of three jailhouse snitches who later recanted or were discredited.\n- A new law requiring corroboration for snitch testimony was introduced in California but was not applied retroactively to Kevin Dykes' case.",
+        "itemNumber": "157",
+        "itemTitle": "Jason Flom with Kevin Dykes",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features the story of Kevin Dykes, wrongfully convicted in 1986 in Compton, California.  Dykes was initially a witness in a murder and attempted murder case involving two men, Slim and Hondo, after he reported their crimes to the police. Subsequently, he was arrested on a cocaine possession charge and placed in a holding tank with state witnesses, where three jailhouse snitches claimed he confessed to the crimes committed by Slim and Hondo. Despite lacking physical evidence and victims testifying he was not the perpetrator, Dykes was convicted based solely on snitch testimony, and sentenced to life.  Even after two snitches recanted and a new law against uncorroborated snitch testimony was enacted, Dykes remains incarcerated, highlighting systemic issues within the criminal justice system and the difficulty of overturning wrongful convictions. His attorney and the podcast host express hope for his release through parole or intervention from a progressive District Attorney or the Governor."
+    },
+    "featuredIndividual": {
+        "fullName": "Kevin Dykes",
+        "caseLocation": "Compton, California, USA",
+        "convictionYear": "1986",
+        "exonerationYear": "Not exonerated as of the podcast recording.",
+        "crimeConvictedOf": "Two counts of attempted murder and one count of murder (of Otis Perry).",
+        "sentence": "24 years to life",
+        "timeServed": "Approximately 34 years as of podcast recording (and still serving).",
+        "contributingFactorsRaw": [
+            "Jailhouse snitch testimony (false confessions elicited by snitches).",
+            "Reliance on unreliable witness testimony by the prosecution.",
+            "Lack of corroborating evidence against Dykes.",
+            "Original statement to police used against him by prosecution despite him being a witness."
+        ],
+        "status": "Currently incarcerated, seeking parole, clemency, or DA review of his case.",
+        "organizationsInvolvedRaw": [
+            "Impliedly seeking help from innocence project type organizations, although not explicitly named in transcript. Attorney Stephen K. Houser is representing him."
+        ],
+        "innocenceLawyersRaw": [
+            "Stephen K. Houser is a criminal defense attorney who has been representing Kevin Dykes for a long time. He is presented as dedicated and persistent in fighting for Kevin's release, highlighting the injustice of his case and exploring various legal avenues, including appeals, DA reviews, and potential clemency from the governor."
+        ],
+        "crossReference": "Not specified if in exoneree database within the transcript.",
+        "narrativeOriginalCrime": "Slim and Hondo stabbed Ephraim and Mrs. Bradley during a party. Days later, Slim and Hondo murdered Otis Perry, accusing him of stealing a gun they had hidden in Kevin's trailer. Kevin was present at both incidents but intervened to stop the first assault and was coerced into helping dispose of Otis' body out of fear for his own life.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of three jailhouse snitches: Willie Battle, Jesse Williams, and Leslie White, claiming Kevin confessed to all three attacks.",
+            "Kevin Dykes' initial statement to Sergeant Preston, which, according to the DA, contained admissions that made him appear guilty despite him reporting the crime initially as a witness."
+        ],
+        "trialDefenderNotes": "Kevin Dykes' defense attorney (Stephen K. Houser) argued that there was no physical evidence linking Kevin to the crimes and that the snitch testimony was unreliable and incentivized. He highlighted that victims testified Kevin did not attack them and that the snitches had clear motives to fabricate testimony for leniency. Despite these arguments, the jury convicted Kevin.",
+        "keyEvidenceExonerationRaw": [
+            "Recantation of testimony by two jailhouse snitches: Leslie White signed an affidavit admitting he lied, and Jesse Williams signed a letter admitting he lied.",
+            "Gigi Gordon's independent investigation into snitch cases, which led to a new law requiring corroboration for snitch testimony (though not retroactive).",
+            "Argument that if tried today, Kevin Dykes would not be convicted due to lack of evidence beyond uncorroborated snitch testimony.",
+            "Hope for a more progressive DA (Gascon) to review the case or for gubernatorial clemency."
+        ],
+        "actualPerpetratorDetails": "Slim and Hondo are identified as the actual perpetrators of the stabbings of Ephraim, Mrs. Bradley, and the murder of Otis Perry. They were mid-level drug dealers for whom Kevin was selling drugs. They were the ones who committed the violent acts, while Kevin was initially a witness and then coerced into involvement in the aftermath of Otis' murder."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"It's got a guy who's in prison for three and a half decades, with no evidence against him, except the testimony of jailhouse snitches who have recanted their testimony. It is nuts, but it's true.\"",
+        "Stephen K. Houser (describing Leslie White): \"He says, well, man's got to do what he's got to do.\" (regarding becoming a prosecution witness despite knowing Kevin's innocence).",
+        "Kevin Dykes: \"Even if I die in here, I'll be at peace Lord. I stood for the truth.\" (expressing his resolve and inner peace despite wrongful conviction).",
+        "Jason Flom: \"I feel like society owes you a debt and an apology.\" (expressing empathy and acknowledging the injustice)."
+    ],
+    "systemicIssuesRaw": [
+        "Unreliability of jailhouse snitch testimony.",
+        "Incentivization of snitches by the prosecution for favorable testimony.",
+        "Difficulty in overturning wrongful convictions, even with recanted testimony and new evidence.",
+        "Lack of retroactivity in legal reforms aimed at preventing wrongful convictions (new snitch testimony law not applied to past cases).",
+        "Resistance from prosecutors to re-examine cases even with compelling evidence of innocence."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call for criminal justice reform, particularly regarding the use of jailhouse snitch testimony.",
+        "Support for organizations like the Innocence Project to help prevent future wrongful convictions.",
+        "Suggestion for DAs and legal system to be more open to reviewing cases with strong claims of innocence, even without entirely \"new\" evidence, especially when existing evidence (like recanted snitch testimony) is highly questionable.",
+        "Consideration for retroactive application of laws designed to prevent wrongful convictions."
+    ],
+    "personalNarrativeRaw": [
+        "Kevin Dykes' personal narrative highlights the devastating impact of wrongful conviction on an individual's life. He lost decades of his life to imprisonment, endured immense personal loss (family members passing away), yet maintains a sense of peace and purpose.  His final thoughts emphasize his standing for truth and finding inner freedom despite his physical incarceration, showcasing resilience and a commitment to positive change despite injustice."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project (InnocenceProject.org) mentioned as an organization to support.",
+        "60 Minutes episode featuring Leslie White (mentioned in transcript, but specific episode details not given).",
+        "Ferguson Home (FergusonHome.com), Target Circle 360 (Target.com/circle), Lowe's (Lowes.com), AIG (AIG.com), Paul Weiss (PaulWeiss.com), Purdue Global (PurdueGlobal.edu), Lillie USA, LLC (DontSleepOnOSA.com), Stella Glucose Biosensor (stellow.com), My Computer Career (mycomputercareer.edu/CWP) mentioned as sponsors, potentially offering resources or reflecting societal interests, but not directly related to wrongful conviction issues beyond potential corporate social responsibility efforts of AIG and Paul Weiss."
+    ]
+}

@@ -1,0 +1,83 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+For each podcast on wrongful convictions, we'll collect the following information:
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction Junk Science
+-   **Episode # & Title (if applicable)**: Episode Title not explicitly mentioned in transcript, but based on content it is about Shaken Baby Syndrome/Abusive Head Trauma
+-   **Host(s)**: Kate Judson, Josh Dubin
+-   **Release Year(s)**: 2020 (initial release mentioned)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company No. 1
+-   **Series Type**: Episodic Series (part of a series initially released in 2020)
+-   **Format**: Podcast
+-   **Focus/Theme**: Junk Science, specifically Shaken Baby Syndrome/Abusive Head Trauma, wrongful convictions based on medical misinterpretations.
+-   **Key Statistics/Information**:
+    -   Shaken Baby Syndrome (SBS) or Abusive Head Trauma (AHT) diagnosis is based on a "classic triad" of symptoms: subdural hematoma, retinal hemorrhage, and cerebral edema.
+    -   These symptoms can be caused by medical conditions other than abuse.
+    -   Faulty SBS/AHT diagnoses have led to wrongful convictions.
+    -   Child Abuse Pediatrics is a relatively new subspecialty (board certified in 2011).
+    -   There are approximately 300 child abuse pediatricians in the US.
+    -   A Swedish government report in 2016 questioned the scientific basis for SBS/AHT prosecutions based solely on the triad.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction Junk Science explores the problematic use of Shaken Baby Syndrome (SBS) diagnosis in wrongful conviction cases. Hosts Kate Judson and Josh Dubin discuss how the "classic triad" of medical findings, initially thought definitive for shaking, can result from other medical conditions. The episode highlights the story of Stephanie Spurgeon, wrongfully convicted of manslaughter based on SBS diagnosis and later exonerated.  The podcast emphasizes the lack of scientific certainty in SBS diagnosis, the potential for bias among medical experts, and the devastating consequences of wrongful accusations on families. It calls for rigorous medical evaluations, criticizes the over-reliance on subjective expert opinions, and underscores the urgent need to prevent future wrongful convictions based on junk science in child abuse cases.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Stephanie Spurgeon
+-   **Case Location**: Not specified in transcript (Implied US, based on context of Innocence Project and US legal system)
+-   **Conviction Year**: 2008
+-   **Exoneration Year**: August 2020
+-   **Crime Convicted Of**: Manslaughter
+-   **Sentence**: 15 years in prison
+-   **Time Served**: Approximately 12 years (convicted 2008, released August 2020)
+-   **Contributing Factors**:
+    -   Faulty medical testimony based on Shaken Baby Syndrome diagnosis.
+    -   Expert witness testimony stating injuries were definitively caused by abuse and no other explanation was possible.
+    -   Misinterpretation of medical evidence (bleeding and swelling of the brain, bleeding behind the eyes).
+-   **Legal Status**: Exonerated, released from prison
+-   **Organizations Involved**:
+    -   Innocence Project
+    -   Exoneration Project from the University of Chicago Law School
+-   **Innocence Lawyer Details**: Kate Judson from the Center for Integrity and Forensic Sciences was one of the lawyers who represented Stephanie Spurgeon.
+-   **Cross-Reference**: Likely appears in exoneree databases, given involvement of Innocence Project and Exoneration Project (needs verification).
+-   **Narrative of Original Crime**: Stephanie Spurgeon ran a daycare from her home. A baby, Maria, was in her care for one day and was seemingly healthy when picked up by her mother. Later that day, Maria became unresponsive, was hospitalized, and died from brain injuries. Stephanie was arrested and charged based on the claim that Maria's injuries were due to Shaken Baby Syndrome while in Stephanie's care.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Testimony from a child abuse specialist who stated Maria's brain injuries (bleeding and swelling of the brain, bleeding behind the eyes) were definitively caused by physical abuse and trauma to the head, with no other possible cause.
+-   **Trial Defender Notes**: Stephanie's lawyer did not dispute Maria's cause of death (brain bleeding and swelling) but argued there was no evidence of abuse by Stephanie. They presented an alternative explanation: Maria's high blood sugar upon hospital admission suggested a possible undiagnosed metabolic disorder like diabetes could have caused the brain injuries.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Re-examination of the medical evidence with the help of the Innocence Project and the Exoneration Project.
+    -   Recognition that the "classic triad" of symptoms is not exclusive to shaken baby syndrome and can be caused by other medical conditions.
+    -   Challenging the certainty of the original expert testimony.
+-   **Actual Perpetrator Details**: Not applicable, as the podcast argues for accidental/medical cause of death, not a different perpetrator of abuse. The podcast suggests Maria's death was potentially due to an undiagnosed medical condition.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "Shaken Baby Syndrome is much more a determination of ideology of how somebody got the medical findings than the medical findings themselves." - Kate Judson, highlighting the subjective nature of the diagnosis.
+    -   "Physicians were saying if a child has this set of injuries they have been abused and that abuse consisted of shaking and we know that and there are no exceptions or very, very few exceptions. I mean in fact at the time there are plenty of transcripts available where physicians said nothing else causes this." - Kate Judson, explaining the initial definitive, but flawed, medical stance.
+    -   "To restore one's life and freedom is perhaps the highest service to your fellow human being... There is nothing I have done in this life or could ever fathom doing that can ever come close, no material game, no drug, no drink, nothing at all that can approach the state of Nirvana that consumes your soul when you have helped save a life." - Josh Dubin, expressing the profound impact of exoneration work.
+-   **Systemic Issues Identified**:
+    -   Over-reliance on subjective medical expert testimony.
+    -   "Tunnel vision" and confirmation bias in child abuse pediatrics, potentially leading to misdiagnosis.
+    -   Lack of rigorous and comprehensive medical testing in all cases of infant brain injury.
+    -   Pressure on jurors and legal professionals to "err on the side of the child," which can lead to wrongful convictions when science is uncertain.
+    -   Role effects bias when experts are closely aligned with law enforcement.
+-   **Policy Recommendations/Calls to Action**:
+    -   Advocate for rigorous and comprehensive medical testing in all cases of suspected child abuse involving brain injuries, including exploring metabolic disorders, genetic conditions, and accidental trauma.
+    -   Promote awareness of the limitations and uncertainties of Shaken Baby Syndrome/Abusive Head Trauma diagnoses within the legal and medical communities.
+    -   Encourage critical evaluation of expert testimony in court, ensuring that scientific claims are not overstated and are based on sound evidence.
+    -   Encourage citizens to be conscientious jurors and to question definitive claims presented as "science."
+    -   Encourage writing letters to local prosecutors and judges to raise awareness about junk science and wrongful convictions.
+-   **Personal Narrative/Impact**:
+    -   Josh Dubin expresses deep personal fulfillment in helping to exonerate wrongfully convicted individuals, describing it as his most important contribution, comparable to marrying his wife and the birth of his children. He is driven by the resilience and strength of exonerees and is committed to restoring science to courtrooms.
+-   **Additional Resources**:
+    -   Mention of the Center for Integrity and Forensic Sciences.
+    -   Mention of the Innocence Project and the Exoneration Project from the University of Chicago Law School.
+    -   Reference to a 2016 Swedish government report questioning SBS/AHT diagnoses.
+```

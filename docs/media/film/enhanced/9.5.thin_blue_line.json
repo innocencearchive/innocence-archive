@@ -1,0 +1,69 @@
+{
+  "source_file_name": "9.5.thin_blue_line.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "The Thin Blue Line",
+    "creator_name": "Errol Morris",
+    "publication_or_release_year": 1988,
+    "publisher_or_network": null,
+    "focus_or_theme": "Wrongful conviction, murder case investigation, reliability of testimony, impact of filmmaking on justice.",
+    "summaryNotes": "Film directly contributed to the overturning of a conviction.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "The Thin Blue Line",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction, murder case investigation, reliability of testimony, impact of filmmaking on justice.",
+    "summary_notes": "Errol Morris's documentary deconstructs the case against Randall Dale Adams, who was convicted based on the testimony of David Ray Harris. The film exposed contradictions and unreliable witnesses, leading to Adams's exoneration.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Directed by Errol Morris, focuses on Randall Dale Adams case, led to Adams' release. Available on various platforms.",
+      "research_findings": "Errol Morris's highly influential documentary used stylized reenactments and interviews to meticulously deconstruct the case against Randall Dale Adams. Adams was convicted largely on the testimony of David Ray Harris, a teenager Adams had met hitchhiking, who was later revealed to be the actual killer [Based on common knowledge]. The film exposed contradictions, unreliable witnesses, and strongly suggested Harris's culpability, ultimately leading to Adams's conviction being overturned and his release. It's a landmark film both for its style and its real-world impact on a wrongful conviction case."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Randall Dale Adams",
+      "first_name": "Randall",
+      "middle_name": "Dale",
+      "last_name": "Adams",
+      "status": "EXONERATED",
+      "conviction_year": 1977,
+      "exoneration_or_release_year": 1989,
+      "time_served": "~12 years",
+      "sentence": "Death Penalty (later commuted to Life)",
+      "crime_convicted_of_raw": "Capital Murder (of Dallas Police Officer Robert Wood)",
+      "case_location_city": "Dallas",
+      "case_location_state": "Texas",
+      "narrative_summary": "Convicted of capital murder based on perjured testimony and flawed eyewitness identifications. Served approximately 12 years before his conviction was overturned. He was later exonerated after the film exposed issues with his case.",
+      "contributing_factors_raw": [
+        "Perjured testimony (from actual shooter David Ray Harris)",
+        "flawed/coerced eyewitness identifications",
+        "potential prosecutorial misconduct"
+      ],
+      "organizations_involved_raw": [
+        "N/A (Filmmaker Errol Morris's investigation was key)"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Errol Morris",
+      "first_name": "Errol",
+      "middle_name": null,
+      "last_name": "Morris",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

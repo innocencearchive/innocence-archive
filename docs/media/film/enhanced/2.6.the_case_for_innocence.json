@@ -1,0 +1,92 @@
+{
+  "source_file_name": "2.6.the_case_for_innocence.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "FRONTLINE",
+    "creator_name": "Ofra Bikel (potentially)",
+    "publication_or_release_year": 2000,
+    "publisher_or_network": "WGBH",
+    "focus_or_theme": "DNA exonerations, resistance to overturning convictions, Innocence Project work",
+    "summaryNotes": "Explores why the system resists reopening cases despite DNA evidence and institutional reluctance.",
+    "availabilityNotes": "Available via PBS.",
+    "sourceUrl": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "The Case for Innocence",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "DNA exonerations, resistance to overturning convictions, Innocence Project work",
+    "summary_notes": "Focuses on the challenges faced in overturning convictions even with new DNA evidence, featuring cases of Clyde Charles and Roy Criner.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [
+      "Resistance to reopening cases despite DNA evidence",
+      "Institutional reluctance to overturn convictions"
+    ],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Investigation into why the system resists reopening cases despite DNA evidence; Explores institutional reluctance. Available via PBS.",
+      "research_findings": "Searches did not yield specific details about this FRONTLINE episode, including the director, air date, or detailed specifics of the Clyde Charles and Roy Criner cases mentioned in the list. The episode clearly focuses on the challenges faced in overturning convictions even with new DNA evidence."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Clyde Charles",
+      "first_name": "Clyde",
+      "middle_name": null,
+      "last_name": "Charles",
+      "status": "UNKNOWN",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": null,
+      "case_location_state": null,
+      "narrative_summary": "Featured in 'The Case for Innocence', his case highlights resistance to overturning convictions even with DNA evidence. Specific details of his case are unavailable.",
+      "contributing_factors_raw": [
+        "Factors addressable by DNA evidence",
+        "Institutional resistance"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project"
+      ]
+    },
+    {
+      "full_name": "Roy Criner",
+      "first_name": "Roy",
+      "middle_name": null,
+      "last_name": "Criner",
+      "status": "UNKNOWN",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": null,
+      "sentence": null,
+      "crime_convicted_of_raw": null,
+      "case_location_city": null,
+      "case_location_state": null,
+      "narrative_summary": "Featured in 'The Case for Innocence', his case highlights resistance to overturning convictions even with DNA evidence. Specific details of his case are unavailable.",
+      "contributing_factors_raw": [
+        "Factors addressable by DNA evidence",
+        "Institutional resistance"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Ofra Bikel",
+      "first_name": "Ofra",
+      "middle_name": null,
+      "last_name": "Bikel",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "Searches did not yield specific details about this FRONTLINE episode, including the director, air date, or detailed specifics of the Clyde Charles and Roy Criner cases mentioned in the list. The episode clearly focuses on the challenges faced in overturning convictions even with new DNA evidence."
+}

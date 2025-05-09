@@ -1,0 +1,103 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, assume episodic.
+-   **Host(s)**: Jason Flom (original host), Chris Fabrikant (guest host for this episode)
+-   **Release Year(s)**: Not specified in transcript, assume ongoing series.
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Stories of wrongfully convicted individuals, systemic issues in the criminal justice system, junk science, prosecutorial misconduct, ineffective defense counsel.
+-   **Key Statistics/Information**:
+    - Eyewitness misidentification played a role in nearly 70% of DNA exonerations.
+    - Bite mark evidence has contributed to at least 35 known wrongful convictions and indictments.
+    - National Academy of Sciences and other scientific entities consider forensic odontology (bite mark analysis) as junk science.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction is guest-hosted by Chris Fabrikant, who interviews Gilbert Poole and Marla Mitchell-Sician about Poole's wrongful conviction for murder in Michigan. Poole was convicted in 1989 based on fabricated composite sketches, false testimony from an ex-girlfriend, and junk science bite mark evidence.  Despite blood evidence excluding him, and ineffective defense counsel, Poole served 32 years in prison. The episode details the failures of the justice system, including manipulated evidence, reliance on unreliable forensic science, and inadequate legal representation.  Poole was exonerated in 2021 thanks to the Innocence Project and a newly formed conviction integrity unit.  The episode highlights the devastating impact of wrongful convictions and the need for systemic reform and support for exonerees.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Gilbert Poole
+-   **Case Location**: Pontiac, Michigan, USA
+-   **Conviction Year**: 1989
+-   **Exoneration Year**: 2021
+-   **Crime Convicted Of**: Murder of Robert Mihia
+-   **Sentence**: Life in prison without the possibility of parole
+-   **Time Served**: 32 years
+-   **Contributing Factors**:
+    - False accusation/testimony (ex-girlfriend Connie Cook)
+    - Eyewitness misidentification (fabricated composite sketches)
+    - Junk science (bite mark evidence from Dr. Alan Warnick)
+    - Ineffective defense counsel
+    - Paper report of blood evidence instead of live testimony
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**:
+    - Innocence Project
+    - WMU Cooley Innocence Project
+    - Michigan Attorney General's Conviction Integrity Unit
+-   **Innocence Lawyer Details**:
+    - Marla Mitchell-Sician: Former director of WMU Cooley Innocence Project, currently serving of counsel. Worked on Poole's case for almost 20 years with her law students.
+-   **Cross-Reference**: Yes (should be checked against exoneree database)
+-   **Narrative of Original Crime**: Robert Mihia was found stabbed to death on a wooded trail in Pontiac, Michigan. He was last seen at a gay bar leaving with a stranger.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Fabricated composite sketches that resembled Gilbert Poole.
+    - Testimony of ex-girlfriend Connie Cook, claiming Poole confessed to the murder.
+    - Bite mark evidence from Dr. Alan Warnick, who claimed a match between Poole's teeth and a bruise on the victim.
+-   **Trial Defender Notes**:
+    - Gilbert Poole's trial attorney was described as nonchalant and provided ineffective representation.
+    - Attorney did not effectively challenge composite sketches or bite mark evidence.
+    - Attorney put on no defense witnesses and advised Poole against testifying, but ultimately did not prepare him when Poole insisted on testifying.
+    - Attorney entered a paper report of blood evidence instead of ensuring live testimony from the state police scientist.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - Re-examination of the case by the WMU Cooley Innocence Project and the Michigan Attorney General's Conviction Integrity Unit.
+    - Expert opinions discrediting the bite mark evidence as junk science.
+    - Focus on the manipulated composite sketches and the lack of credible eyewitness identification.
+    - While not explicitly stated in the transcript if new DNA evidence played a role in *exoneration*, the Innocence Project mentioned doing forensic DNA testing during reinvestigation, suggesting it was part of the process that strengthened the case for exoneration.
+-   **Actual Perpetrator Details**:
+    - Hank Clayton was mentioned as someone who left the bar with the victim on the night of the murder and returned.
+    - Witnesses at the prelim suggested the victim left with Clayton.
+    - Police questioned Clayton and searched his truck, finding a knife but no blood, and then dropped him as a suspect.
+    - Clayton was known to threaten people with knives and be jealous.
+    - His blood type was never determined.
+    - The podcast suggests Clayton was a possible alternative suspect but does not definitively name him as the actual perpetrator.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - Gilbert Poole: "She has me confessing to a murder six months before it actually happened." (regarding his ex-girlfriend's false accusation)
+    - Gilbert Poole: "This was not a misidentification. This was absolutely a fabrication." (regarding the composite sketches)
+    - Dr. Alan Warnick (bite mark expert): "Well, the odds of winning the lottery were better than it not being Mr. Poole."
+    - Chris Fabrikant: "Bite mark evidence is subjective speculation masquerading is scientific evidence."
+    - Marla Mitchell-Sician: "Everyone's entitled to an effective attorney at trial and on appeal. Everyone is entitled to a fair proceeding where things are not made up in their criminal trial."
+    - Gilbert Poole: "If you look at things from a perspective that this was all fabricated, it all makes sense. It was not because I was guilty, it was because they had the ability to do it without any penalty."
+-   **Systemic Issues Identified**:
+    - Junk science admitted as evidence in court.
+    - Ineffective assistance of counsel.
+    - Prosecutorial misconduct (fabrication/manipulation of evidence, suggestive identification procedures).
+    - Lack of accountability for bad actors in the criminal justice system.
+    - Difficulties faced by prisoners in appealing their cases, especially without legal support.
+    - Lengthy time it takes to rectify wrongful convictions.
+    - Challenges faced by exonerees upon release and reintegration into society.
+-   **Policy Recommendations/Calls to Action**:
+    - Support innocence projects and conviction integrity units.
+    - Advocate for criminal justice reform and policy changes, including improvements to wrongful conviction compensation acts.
+    - Contact legislators to support improvements to the criminal justice system.
+    - Financial support for organizations like the WMU Cooley Innocence Project.
+-   **Personal Narrative/Impact**:
+    - Gilbert Poole spent 32 years in prison for a crime he did not commit.
+    - He educated himself on law and worked tirelessly on his own appeals.
+    - He experienced profound isolation and lack of support during his trial and appeals process.
+    - Exoneration was a rebirth but reintegration into society is still challenging after decades of incarceration.
+    - Poole feels obligated to help others who are wrongfully convicted and lack the resources or tenacity to fight for their freedom.
+-   **Additional Resources**:
+    - Book: "Junk Science and the American Criminal Justice System" by Chris Fabrikant
+    - Podcast: Spotlight Snitch City (mentioned within the episode for listeners interested in investigative series)
+    - WMU Cooley Innocence Project (for support and further information)
+```

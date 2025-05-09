@@ -1,0 +1,120 @@
+{
+    "sourceFileName": "183_Jason_Flom_with_Kiera_Newsome_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, criminal justice reform, personal stories of exonerees.",
+        "keyStats": "Kiara Newsom served nearly 20 years for a crime she did not commit.",
+        "itemNumber": "183",
+        "itemTitle": "Jason Flom with Kiera Newsome",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the story of Kiara Newsom, wrongfully convicted for a gang-related murder she did not commit.  Kiara recounts her challenging upbringing in South Central LA, the tragic murder of her boyfriend, and the subsequent events leading to her wrongful conviction. Despite a solid alibi of being in a lockdown school classroom at the time of the crime, coerced eyewitness testimony and gang-related biases led to her conviction and a 60-years-to-life sentence.  The episode details the efforts of the California Innocence Project and the Juvenile Innocence and Fair Sentencing Clinic at Loyola Law School, particularly Chris Hawthorne, in securing her commutation after nearly 19 years of incarceration.  Kiara and Chris discuss the systemic issues contributing to wrongful convictions, including gang evidence, witness intimidation, and ineffective legal defense. The episode concludes with a call to action to support justice reform and organizations like the Juvenile Innocence and Fair Sentencing Clinic."
+    },
+    "featuredIndividual": {
+        "fullName": "Kiara Newsom",
+        "caseLocation": "South Central Los Angeles, California, USA",
+        "convictionYear": "2003",
+        "exonerationYear": "Commuted sentence in 2020, but not fully exonerated (still working towards it)",
+        "crimeConvictedOf": "First-degree murder of Christian Hinton",
+        "sentence": "60 years to life",
+        "timeServed": "Nearly 19 years",
+        "contributingFactorsRaw": [
+            "Coerced eyewitness misidentification",
+            "Gang evidence and bias",
+            "Ineffective assistance of counsel (original trial defense lawyer - implied)",
+            "Prosecutorial misconduct (implied - focusing on Kiara despite alibi)"
+        ],
+        "status": "Sentence commuted, released on parole, seeking full exoneration.",
+        "organizationsInvolvedRaw": [
+            "California Innocence Project",
+            "Juvenile Innocence and Fair Sentencing Clinic at Loyola Law School (Jeff's Clinic)"
+        ],
+        "innocenceLawyersRaw": [],
+        "chris_hawthorne": "Founder, director, and clinical professor at the Juvenile Innocence and Fair Sentencing Clinic at Loyola Law School.  Instrumental in securing Kiara's commutation through legal work and clemency petition.",
+        "crossReference": "Not specified if in exoneree database within the transcript.",
+        "narrativeOriginalCrime": "A shooting incident occurred on April 16, 2001, where a female shooter fired into a group of Block Crip gang members, resulting in the death of Kristian Hinton and injury to Chantelle Allen. The shooter was described as an African-American woman in her 20s with a lazy eye and a tattoo on her upper right thigh.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness testimony from Bobby Johnson, Ryan Faust, and Joe Koch identifying Kiara as the shooter (later recanted or shown to be coerced).",
+            "Kiara had a tattoo on her upper right thigh, matching a vague description.",
+            "Gang expert testimony linking Kiara to gang activity based on her tattoo and boyfriend's gang affiliation."
+        ],
+        "trialDefenderNotes": "-   Anthony Tejan, Kiara's lawyer, presented alibi evidence: school attendance records, teacher testimony (Rebecca Woodruff) verifying Kiara's presence in class at the time of the shooting, and six dated assignments completed in class that day.\n-   Defense highlighted the impossibility of Kiara leaving school, committing the crime, and returning unnoticed.\n-   Despite strong alibi, gang evidence and coerced eyewitness testimony swayed the jury.",
+        "keyEvidenceExonerationRaw": [
+            "Recantation of eyewitness testimony by Ryan Faust, admitting he was pressured by police and family to identify Kiara.",
+            "Joe Koch's statement to investigators from Jeff's clinic, recalling that the woman who pulled up her pants leg at the preliminary hearing (Doniel Flynn) was the shooter, indirectly pointing away from Kiara.",
+            "Neighborhood information pointing to Doniel Flynn as the likely perpetrator.",
+            "Clemency petition submitted to Governor Jerry Brown, highlighting the evidence of innocence.",
+            "Board of Parole Hearing investigator review of the case and evidence."
+        ],
+        "actualPerpetratorDetails": "",
+        "doniel_l._flynn_(aka_astro)": "Strongly implied to be the actual shooter throughout the podcast.\n-   Was present at the scene as a co-defendant in Kiara's trial, but acquitted.\n-   Had a tattoo on her thigh, though lower down than Kiara's. This was obscured at the preliminary hearing by her lawyer's tactic.\n-   Later convicted of an execution-style drug murder in Las Vegas and sentenced to 20 life sentences, further suggesting a propensity for violence.\n-   Motive: Retaliation for the shooting of Hoover gang members the night before, including her boyfriend."
+    },
+    "keyQuotesRaw": [
+        "Kiara:  \"She says, oh, everything is going to be fine. It's going to be all right. I need you to take this one for me. I need you to go to trial with me.\" (Referring to Doniel Flynn in jail, highlighting the pressure and manipulation Kiara faced).",
+        "Rebecca Woodruff (Teacher): \"So it's just impossible for somebody to get out and come back and have me not notice right away.\" (Underscoring the strength of Kiara's alibi).",
+        "Chris Hawthorne: \"Gang evidence is race evidence and the people who are the victims of this kind of evidence are always black and brown youth.\" (Critique of systemic issues and racial bias in the justice system).",
+        "Kiara: \"I blame no one for this happening to me and I realized that everyone had a job to do whether it was the judge whether it was the DA whether it was the officers and do time God would deal with everybody accordingly.\" (Reflective and forgiving perspective despite wrongful conviction)."
+    ],
+    "systemicIssuesRaw": [
+        "Racial bias in the justice system, particularly through the use of gang evidence.",
+        "Coerced and unreliable eyewitness testimony, especially in gang-related cases.",
+        "Ineffective investigation by police, focusing on a suspect early without thoroughly checking alibis.",
+        "Challenges in proving innocence in habeas corpus petitions.",
+        "Over-sentencing of juveniles."
+    ],
+    "policyRecommendationsRaw": [
+        "Support conviction integrity units within District Attorney's offices to review wrongful conviction cases.",
+        "Reform the use of gang evidence in trials to prevent racial bias.",
+        "Advocate for the exoneration of Kiara Newsom.",
+        "Support organizations like the Juvenile Innocence and Fair Sentencing Clinic and the Innocence Project.",
+        "Encourage jury duty participants to carefully consider all evidence, especially in cases involving gang affiliations and witness testimonies."
+    ],
+    "personalNarrativeRaw": [
+        "Kiara endured nearly 19 years of wrongful imprisonment, facing violence and mislabeling within the prison system.",
+        "She maintained her innocence and focused on education, earning college degrees while incarcerated.",
+        "The wrongful conviction significantly impacted her life, delaying her personal and professional growth.",
+        "Despite the trauma, Kiara expresses forgiveness and a desire to help others, aiming to make a positive impact and advocate for justice reform. Her resilience is evident in her hope for full exoneration and her excitement about becoming a mother to her son, Champion."
+    ],
+    "additionalResourcesRaw": [
+        "Change.org petition for Kiara Newsom's exoneration (mentioned in podcast).",
+        "Juvenile Innocence and Fair Sentencing Clinic (Jeff's Clinic) at Loyola Law School (jeffclinic.org - inferred).",
+        "Innocence Project (innocenceproject.org - mentioned in podcast).",
+        "Movie \"Brian Banks\" (mentioned in podcast as related to the California 12 Innocence March)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Rebecca Woodruff",
+                "role_guess": "Teacher",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Doniel Flynn",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": "uncertain"
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Ineffective legal defense",
+            "Over-sentencing of juveniles",
+            "Challenges in proving innocence in habeas corpus petitions",
+            "Ineffective investigation by police, focusing on a suspect early without thoroughly checking alibis"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Systemic Issues in Justice System",
+                "Racial Bias in Justice System",
+                "Eyewitness Testimony"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

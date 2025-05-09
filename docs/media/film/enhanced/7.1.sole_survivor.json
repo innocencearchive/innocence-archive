@@ -1,0 +1,62 @@
+{
+  "source_file_name": "7.1.sole_survivor.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "Sole Survivor (CNN Special Report)",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "CNN / WarnerMedia",
+    "focus_or_theme": "First US death row exoneration by DNA, wrongful conviction, advocacy against death penalty.",
+    "summaryNotes": "First DNA exoneration from death row in the US.",
+    "availabilityNotes": "Available via CNN/Max.",
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Sole Survivor (CNN Special Report)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "First US death row exoneration by DNA, wrongful conviction, advocacy against death penalty.",
+    "summary_notes": "Kirk Bloodsworth's case is landmark as the first US death row DNA exoneration. He was convicted based on eyewitness accounts despite lack of physical evidence, had his first conviction overturned due to prosecutorial misconduct, was reconvicted, and finally freed by DNA testing in 1993. His journey includes becoming an advocate for criminal justice reform. While a specific CNN Special Report titled \"Sole Survivor\" wasn't confirmed, his story has been widely covered, including in the 2015 documentary \"Bloodsworth: An Innocent Man\".",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Follows Bloodsworth's journey from death row to exoneration to becoming an advocate for criminal justice reform. Available via CNN/Max.",
+      "research_findings": "Kirk Bloodsworth's case is landmark as the first US death row DNA exoneration. He was convicted based on eyewitness accounts despite lack of physical evidence, had his first conviction overturned due to prosecutorial misconduct (withheld evidence), was reconvicted, and finally freed by DNA testing in 1993. While a specific CNN Special Report titled \"Sole Survivor\" wasn't confirmed via search, his story has been widely covered, including in the 2015 documentary \"Bloodsworth: An Innocent Man\"."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Kirk Noble Bloodsworth",
+      "first_name": "Kirk",
+      "middle_name": "Noble",
+      "last_name": "Bloodsworth",
+      "status": "EXONERATED",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 1993,
+      "time_served": "Nearly 9 years (mostly on death row)",
+      "sentence": "Death Penalty (first trial), Two Life Terms (second trial)",
+      "crime_convicted_of_raw": "Rape and Murder (of 9-year-old Dawn Hamilton in 1984)",
+      "case_location_city": "Baltimore County",
+      "case_location_state": "Maryland",
+      "narrative_summary": "Kirk Bloodsworth was wrongfully convicted of the rape and murder of Dawn Hamilton in 1984. He was convicted based on eyewitness misidentification and served nearly 9 years, mostly on death row. He was exonerated by DNA evidence in 1993 and pardoned, and the actual perpetrator was identified via DNA in 2003.",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification (multiple witnesses)",
+        "Withheld exculpatory evidence (led to first conviction being overturned)"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project (assisted with DNA)",
+        "Witness to Innocence"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "Kirk Bloodsworth's case is landmark as the first US death row DNA exoneration. He was convicted based on eyewitness accounts despite lack of physical evidence, had his first conviction overturned due to prosecutorial misconduct (withheld evidence), was reconvicted, and finally freed by DNA testing in 1993. While a specific CNN Special Report titled \"Sole Survivor\" wasn't confirmed via search, his story has been widely covered, including in the 2015 documentary \"Bloodsworth: An Innocent Man\"."
+}

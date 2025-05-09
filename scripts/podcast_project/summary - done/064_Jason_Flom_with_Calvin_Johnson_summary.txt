@@ -1,0 +1,92 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but featuring Calvin Johnson
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript, but mentioned as being recorded around 2018 (based on "now here we are 2018" and "been out for 19 years now" from exoneration in 1999)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts and Signal Company Number One
+-   **Series Type**: Ongoing Series (inferred from "Welcome back to wrongful conviction with Jason Flom")
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction stories, injustice in the legal system
+-   **Key Statistics/Information**:
+    - Calvin Johnson was the first DNA exoneree in Georgia.
+    - Flawed serology and eyewitness misidentification were contributing factors in his wrongful conviction.
+    - Evidence that exonerated Calvin Johnson was initially discarded in a trash bin and recovered by chance.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: In this episode of Wrongful Conviction with Jason Flom, host Jason Flom interviews Calvin Johnson, a man wrongfully convicted of rape and burglary in 1983. Calvin recounts his idyllic childhood, his brief foray into petty crime which led to a burglary conviction, and then his shocking arrest and conviction for a rape he did not commit.  Despite flawed evidence, including serology and eyewitness identification, and exculpatory evidence being presented, Calvin was sentenced to double life terms. He describes the dehumanizing prison conditions and his unwavering belief in his innocence.  Years later, DNA technology became available, offering a chance for exoneration.  The Innocence Project took his case, and after years of fighting, DNA testing proved his innocence, leading to his release in 1999. Calvin now serves on the board of the Innocence Project and shares his story to advocate for justice and reform.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Calvin C. Johnson Jr.
+-   **Case Location**: College Park, Georgia, USA (crime location), Clayton County, Georgia (trial location), South Georgia (prison location)
+-   **Conviction Year**: 1983
+-   **Exoneration Year**: 1999 (June 15th, 1999)
+-   **Crime Convicted Of**: Rape and burglary (initially charged with multiple rapes, convicted in one case)
+-   **Sentence**: Double life sentence
+-   **Time Served**: 16 years
+-   **Contributing Factors**:
+    - Eyewitness misidentification (victim initially unsure about photo lineup, black and white photos used when victim thought they were color).
+    - Flawed serology (analyst testimony about 36% exclusion rate misleading, and the victim's blood type could have masked perpetrator's).
+    - Racial bias (all-white jury in a county predominantly white, victim was white, defendant was Black).
+    - Ineffective Jury Selection (systematically struck black jurors).
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**:
+    - Innocence Project
+    - President Legal Counseling Project (initially helped)
+    - Georgia Innocence Project (board member now)
+-   **Innocence Lawyer Details**:
+    - Peter Neufeld (from Innocence Project) - attorney at exoneration.
+    - Barry Scheck (from Innocence Project) -  mentioned in conversation regarding DNA testing strategy.
+-   **Cross-Reference**: Yes (exoneree database - inferred due to Innocence Project involvement and exoneration)
+-   **Narrative of Original Crime**: A woman's house was broken into, and she was raped, robbed, and tied up/strangled with a belt.
+-   **Key Evidence at Trial (Prosecution)**:
+    - Eyewitness testimony of the victim identifying Calvin Johnson.
+    - Flawed serology evidence suggesting a possible match based on blood type O positive.
+-   **Trial Defender Notes**:
+    - Defense presented alibi testimony from parents and employer, showing Calvin was at home and work around the time of the crime.
+    - Employer testified and showed employee ID picture of Calvin with a full beard, contradicting victim's initial description of a mustache and later vague description of facial hair, and lack of mention of a full beard.
+    - Evidence from a preliminary hearing that the victim initially picked out someone else in a live lineup was seemingly disregarded or not given sufficient weight.
+    - Discrepancy in photo lineup description (color vs. black and white).
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    - DNA testing of semen evidence from the crime scene, which conclusively excluded Calvin Johnson as the perpetrator.
+    - Evidence was initially discarded but luckily recovered before destruction.
+-   **Actual Perpetrator Details**: Not mentioned in the transcript.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    - "I'm not innocent to approve and guilty. I'm guilty until I approve my innocence and that's absolutely what happened to me." - Calvin Johnson on the burden of proof shifting in the justice system.
+    - "I totally lost trust in humanity after what happened to me." - Calvin Johnson on the impact of his wrongful conviction.
+    - "I rather die in prison. They sit there and say that I did something that I didn't do." - Calvin Johnson's resolve not to falsely admit guilt for parole.
+    - Story of evidence being found in the trash and the random encounter leading to the Innocence Project involvement are pivotal moments highlighting the near-misses and chance events in his journey to freedom.
+-   **Systemic Issues Identified**:
+    - Eyewitness misidentification.
+    - Flawed forensic science/serology.
+    - Racial bias in the justice system, particularly in jury selection and trial outcomes.
+    - Inadequate legal representation (inferred, though not explicitly stated, from the description of trial defense).
+    - Lack of evidence preservation policies at the time of conviction.
+    - Pressure to falsely confess or admit guilt for parole.
+-   **Policy Recommendations/Calls to Action**:
+    - Implicit call for justice system reform to address issues of eyewitness identification, forensic science reliability, and racial bias.
+    - Support for organizations like the Innocence Project to help those wrongfully convicted.
+    - Importance of culturally diverse juries.
+-   **Personal Narrative/Impact**:
+    - Calvin's story highlights the devastating impact of wrongful conviction on an individual's life, family, and trust in the system.
+    - He emphasizes the emotional toll of imprisonment, the dehumanizing conditions, and the long struggle for exoneration.
+    - Despite the trauma, Calvin demonstrates resilience, forgiveness, and a commitment to helping others through his work with the Innocence Project.
+    - His final thoughts emphasize thankfulness, the strength instilled by his parents, and the importance of hope.
+-   **Additional Resources**:
+    - Podcast "Spotlight Snitch City" mentioned as another investigative series.
+    - Podcast "Cautionary Tales" and "The Anxious Achiever" advertised in the transcript.
+    - Website thisispretirement.org (AARP retirement planning resource).
+    - Podcast "Math and Magic" with Bob Pittman.
+    - Book "Exit to Freedom" by Calvin Johnson.
+    - Innocence Project website: innocenceproject.org.
+```

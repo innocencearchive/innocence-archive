@@ -1,0 +1,112 @@
+{
+    "sourceFileName": "054_Jason_Flom_with_Rodney_Robert_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2018",
+        "network": "Lava for Good podcasts in association with signal company number one. iHeartRadio app, Apple Podcasts, Spotify are mentioned as platforms. Campsite media and iHeart podcasts are mentioned in relation to \"Go Boy\" podcast ad, but not for \"Wrongful Conviction\". Boston Globe's award-winning spotlight team is mentioned in relation to \"Spotlight Snitch City\" podcast ad, but not for \"Wrongful Conviction\".",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, prosecutorial misconduct, ineffective counsel, systemic issues in the justice system, resilience of exonerees, civil commitment, plea agreements.",
+        "keyStats": "- America has 2.2 million people in prison, with just 1% being wrongful convictions, totaling 22,000 people.\n- 95% of state felony convictions are a result of guilty pleas.",
+        "itemNumber": "054",
+        "itemTitle": "Jason Flom with Rodney Robert",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Jason Flom\" features Rodney Roberts, who recounts his harrowing 17-year ordeal of wrongful imprisonment. Rodney details his initial wrongful conviction as a youth for conspiracy, followed by a second wrongful conviction for rape and kidnapping he did not commit.  Advised by his public defender and fearing a life sentence, he pled guilty to kidnapping, receiving a seven-year sentence, only to be civilly committed upon release for an additional decade based on the false premise of being a sexual predator.  The podcast explores the systemic failures, including ineffective counsel, prosecutorial misconduct, and the coercive nature of plea bargains that contributed to his unjust incarceration.  Rodney emphasizes the devastating impact of wrongful conviction, the importance of family support, and his eventual exoneration thanks to DNA evidence and dedicated legal help.  He now runs the Rodney Roberts Foundation to assist other exonerees."
+    },
+    "featuredIndividual": {
+        "fullName": "Rodney Roberts",
+        "caseLocation": "Newark, New Jersey, USA",
+        "convictionYear": "First conviction as a youth in the late 1980s (based on timeline context). Second wrongful conviction around 1993 (after release from first conviction).",
+        "exonerationYear": "Exonerated after 17 years of total incarceration (combining both imprisonments related to second wrongful conviction and civil commitment). Release year not explicitly stated but can be inferred to be around 2010 based on the timeline of events discussed.",
+        "crimeConvictedOf": "- First Wrongful Conviction: Conspiracy (related to robberies, chit-nap, sexual-related offenses committed by older individuals).\n- Second Wrongful Conviction (Plea): Kidnapping (originally charged with sexual assault and kidnapping, sexual assault charge dropped in plea deal).",
+        "sentence": "- First Wrongful Conviction: 5 years\n- Second Wrongful Conviction (Plea): 7 years (maxed out, served full 7 years), followed by indefinite civil commitment (served 10 years).",
+        "timeServed": "17 years total for the second wrongful conviction and civil commitment. 5 years for the first wrongful conviction.",
+        "contributingFactorsRaw": [
+            "First Wrongful Conviction: Naivete, association with older individuals committing crimes, conspiracy charges despite lack of direct participation.",
+            "Second Wrongful Conviction: Eyewitness misidentification (later proven false), ineffective counsel (public defender advising guilty plea based on false information), coercive plea agreement, prosecutorial misconduct (withholding/mislabeling DNA evidence), civil commitment laws misused."
+        ],
+        "status": "Exonerated.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (mentions working with them later, likely post-exoneration). Jeffrey Dasker Foundation (helped with presentation and public speaking post-exoneration). Rodney Roberts Foundation (his own foundation for exoneree support)."
+        ],
+        "innocenceLawyersRaw": [
+            "Sherri Hutchison (lawyer who obtained DNA evidence and helped with exoneration, not described in detail in the provided transcript beyond her role in obtaining DNA evidence and getting conviction reversed). John Dewar (public defender in 2004 during civil commitment who investigated and found the victim who stated she never identified Rodney)."
+        ],
+        "crossReference": "Not specified in the transcript if he appears in a specific exoneree database, but likely given his case profile.",
+        "narrativeOriginalCrime": "A 17-year-old girl was raped and kidnapped. Rodney Roberts was identified as the perpetrator.",
+        "keyEvidenceProsecutionRaw": [
+            "First Trial: Rodney was charged as a conspirator based on his association and actions as a lookout for older individuals committing crimes.",
+            "Second Case (Plea):  Purported eyewitness identification by the victim (later revealed to be false and misrepresented by his public defender)."
+        ],
+        "trialDefenderNotes": "- First Trial: Not detailed in transcript other than he was found guilty with co-defendants.\n- Second Case (Plea): Public defender advised him to plead guilty, claiming overwhelming evidence and victim identification, which was later proven untrue. Switched public defenders multiple times within a short period.",
+        "keyEvidenceExonerationRaw": [
+            "DNA evidence from the original rape kit that was initially claimed to be lost but later found. Victim's statement to John Dewar and his investigator confirming she never identified Rodney Roberts. Appellate court reversals and judge eventually ordering release."
+        ],
+        "actualPerpetratorDetails": "Not mentioned or available in the transcript."
+    },
+    "keyQuotesRaw": [
+        "\"Having to hear those people say that I was guilty of a crime that I did not commit, and then hear my family break down behind me and not be able to do anything about it, I can't describe the crushing weight that was.\" - Rodney Roberts, describing the impact of the false accusation.",
+        "\"I'm not anti-police, I'm just anti-corruption.\" - Rodney Roberts, clarifying his stance.",
+        "\"I'm innocent. I'm not locking in no more.\" - Rodney Roberts, describing his pivotal moment of defiance in civil commitment.",
+        "\"Three seconds turned into the rest of my life.\" - Rodney Roberts, reflecting on the impact of his defiant act.",
+        "Judge Sherri Hutchison's apology and reversal of conviction as the happiest moment."
+    ],
+    "systemicIssuesRaw": [
+        "Ineffective assistance of counsel (public defenders with overwhelming caseloads, misleading advice).",
+        "Coercive plea bargaining system (innocent individuals pleading guilty out of fear).",
+        "Prosecutorial misconduct (misrepresenting evidence, withholding evidence, \"losing\" evidence).",
+        "Flaws in eyewitness identification.",
+        "Misuse of civil commitment laws to indefinitely detain individuals without criminal conviction.",
+        "Lack of support systems for exonerees upon release."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for organizations like the Innocence Project.",
+        "Donation to the Rodney Roberts Foundation to support exonerees.",
+        "Need for better legal representation for indigent defendants.",
+        "Reform of plea bargaining practices.",
+        "Reform of civil commitment laws.",
+        "Need for state-level support agencies for exonerees."
+    ],
+    "personalNarrativeRaw": [
+        "Rodney's narrative highlights resilience, the importance of family support (especially his mother), and the long-lasting psychological impact of wrongful conviction, including depression, feelings of hopelessness, and the struggle to reintegrate into society. His \"three-second\" act of defiance was a turning point, empowering him to fight harder for his freedom. He is now dedicated to helping others who have experienced wrongful conviction through his foundation."
+    ],
+    "additionalResourcesRaw": [
+        "Spotlight Snitch City podcast (promotional mention).",
+        "Go Boy podcast (promotional mention).",
+        "Revisionist History podcast (promotional mention).",
+        "Innocence Project (mentioned as a supported organization and resource).",
+        "Rodney Roberts Foundation (mentioned as a resource for exonerees).",
+        "Life EMS ambulance (advertisement)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Public Defender",
+                "role_guess": "Lawyer",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Sexual Predator",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Flaws in eyewitness identification",
+            "Lack of support systems for exonerees upon release"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Systemic Failures",
+                "Impact of Wrongful Conviction",
+                "Exoneration"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

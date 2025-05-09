@@ -1,0 +1,76 @@
+{
+    "sourceFileName": "021_Jason_Flom_with_Floyd_Bledsoe_and_Cornelius_Dupree_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2017",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, Innocence Project, Eyewitness Misidentification, Forensic Science, Systemic Issues in Criminal Justice, Exoneree Experiences.",
+        "keyStats": "-   Innocence Project started about 25 years prior to recording (around 1992).\n-   First Innocence Network conference was in 2000.\n-   This is the 16th conference (in 2017).\n-   At the first conference, there were approximately 8-9 exonerees; at this conference in San Diego, there are almost 200.\n-   Exonerees at the conference had served a total of 222 years on death row.\n-   75% of DNA exoneration cases involved eyewitness misidentification.\n-   Approximately 20 US states do not have compensation statutes for exonerees.",
+        "itemNumber": "021",
+        "itemTitle": "Jason Flom with Floyd Bledsoe and Cornelius Dupree",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This special edition of the Wrongful Conviction podcast is recorded live from the Innocence Network conference in San Diego. Host Jason Flom interviews Maddie DeLone, Executive Director of the Innocence Project, who discusses the history and purpose of the conference as a vital support network for exonerees. The episode then features interviews with two exonerees, Floyd Bledsoe and Cornelius Dupree Jr., who share their harrowing stories of wrongful conviction and subsequent exoneration. Bledsoe recounts being convicted of a murder his brother confessed to, serving 16 years before DNA evidence cleared him. Dupree details his 31-year imprisonment for a robbery and sexual assault he did not commit, highlighting the role of eyewitness misidentification and racial bias. Both exonerees emphasize the importance of the Innocence Network community in their healing and advocacy for criminal justice reform."
+    },
+    "featuredIndividual": {
+        "fullName": "Cornelius Dupree Jr.",
+        "caseLocation": "Dallas, Texas",
+        "convictionYear": "1980",
+        "exonerationYear": "2010 (released on parole one week before DNA exoneration)",
+        "crimeConvictedOf": "Aggravated Robbery (crime included abduction and rape, but rape charge was dismissed)",
+        "sentence": "75 years",
+        "timeServed": "31 years",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification (cross-racial identification), possibly racial bias in the justice system, lack of physical evidence linking him to the crime."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project of New York"
+        ],
+        "innocenceLawyersRaw": [
+            "Innocence Project of New York took his case in 2007."
+        ],
+        "crossReference": "Yes (exoneree database implied by conference attendance and ambassador role)",
+        "narrativeOriginalCrime": "Robbery and sexual assault of a white couple in Dallas, Texas in 1979, allegedly by two black men.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness identification by the victims. Circumstantial evidence of being in the vicinity with marijuana and a pistol (unrelated to the robbery)."
+        ],
+        "trialDefenderNotes": "Public defender advised him not to testify, believing the burden of proof was on the prosecution. This strategy proved ineffective.",
+        "keyEvidenceExonerationRaw": [
+            "DNA testing of evidence from the rape case (though he was convicted of robbery) proved he was not the perpetrator."
+        ],
+        "actualPerpetratorDetails": "Not detailed in the transcript."
+    },
+    "keyQuotesRaw": [
+        "Maddie DeLone's client: \"This is the first time I felt free\" at the exoneration presentation.",
+        "Alice Craig: \"We don't think Floyd did it, but we have to protect our jury verdict.\" (State Attorney in 10th Circuit appeal).",
+        "Floyd Bledsoe: \"We didn't know who did it but this was our opportunity to make somebody pay.\" (Juror quote from Capital Journal interview).",
+        "Cornelius Dupree: \"I always felt that someday I was going to be released, I just didn't know when that day was gonna come.\"",
+        "Cornelius Dupree on the Innocence Network Conference: \"We are family... a community within ourselves... we can all identify with each other's hurt.\""
+    ],
+    "systemicIssuesRaw": [
+        "Eyewitness misidentification, especially cross-racial misidentification.",
+        "Flawed forensic science and admission of bad evidence.",
+        "Tunnel vision and poor investigation by law enforcement.",
+        "Lack of compensation for exonerees in many states.",
+        "Pressure to protect jury verdicts over pursuing justice.",
+        "Ineffective defense representation.",
+        "Racial bias in the criminal justice system."
+    ],
+    "policyRecommendationsRaw": [
+        "Strategic litigation to challenge bad evidence in court.",
+        "Improving eyewitness identification procedures.",
+        "Mandatory recording of interrogations (mentioned by Floyd Bledsoe as a reform needed in Kansas).",
+        "Need for compensation statutes for exonerees in all states.",
+        "Encouraging public support and involvement with the Innocence Project and similar organizations."
+    ],
+    "personalNarrativeRaw": [],
+    "floyd_bledsoe": "Emphasis on the emotional impact of being separated from his children for 16 years and the healing and support found at the Innocence Network conference.  Expresses amazement at the joy and grace of exonerees. Now advocates for legislative change in Kansas.",
+    "cornelius_dupree": "Highlights the psychological toll of wrongful imprisonment and the importance of community and family for healing.  His marriage to a former prison guard is presented as a remarkable and positive outcome. Now serves as an ambassador to new exonerees, offering support and guidance.",
+    "additionalResourcesRaw": [
+        "Innocence Project website: www.innocenceproject.org",
+        "Mention of exoneree art exhibit at Johnson County Public Library (Floyd Bledsoe's animal portraits)."
+    ]
+}

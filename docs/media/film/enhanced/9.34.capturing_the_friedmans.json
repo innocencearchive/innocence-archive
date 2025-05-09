@@ -1,0 +1,115 @@
+{
+  "source_file_name": "9.34.capturing_the_friedmans.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "Capturing the Friedmans",
+    "creator_name": "Andrew Jarecki",
+    "publication_or_release_year": 2003,
+    "publisher_or_network": "HBO Documentary Films, Fortissimo Films",
+    "focus_or_theme": "Explores the investigation and prosecution of Arnold Friedman and his son Jesse Friedman for child sexual abuse in Great Neck, New York, during the 1980s. Uses extensive family home video footage to present a complex, ambiguous portrait of the family and the case, raising questions about guilt, innocence, memory, and investigative methods.",
+    "summaryNotes": "Won the Grand Jury Prize at Sundance; nominated for an Academy Award. Both Arnold and Jesse pled guilty, but Jesse later maintained his confession was coerced. Arnold died by suicide in prison. A DA's conviction integrity review later upheld Jesse's conviction.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Capturing the Friedmans",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Explores the investigation and prosecution of Arnold Friedman and his son Jesse Friedman for child sexual abuse in Great Neck, New York, during the 1980s. Uses extensive family home video footage to present a complex, ambiguous portrait of the family and the case, raising questions about guilt, innocence, memory, and investigative methods.",
+    "summary_notes": "The documentary uses extensive home video footage and interviews to explore the ambiguous circumstances surrounding the case. Jesse Friedman claims his confession was coerced. The film raises questions about guilt, innocence, memory, and investigative methods.",
+    "key_quotes_raw": [
+      "Extensive use of the Friedman family's home videos, providing intimate and often unsettling glimpses into their lives before and during the investigation.",
+      "Interviews with family members (including Arnold, Jesse, mother Elaine, brothers David and Seth), alleged victims, investigators, and lawyers, presenting conflicting perspectives.",
+      "The ambiguity surrounding the events and confessions is central."
+    ],
+    "systemic_issues_raw": [
+      "Reliability of confessions (especially under pressure)",
+      "Suggestibility of memory (child witnesses, potential false memory)",
+      "Effectiveness and ethics of police interrogation/investigative techniques (particularly with children)",
+      "Impact of public hysteria (\"moral panic\") on justice",
+      "Difficulty in establishing certainty in complex abuse cases",
+      "Role of plea bargaining"
+    ],
+    "policy_recommendations_raw": [
+      "Raises questions about investigative practices and the handling of child abuse allegations, particularly from the 1980s era, but doesn't offer explicit policy recommendations due to its ambiguous stance."
+    ],
+    "external_links_raw": [
+      {
+        "url": "http://freejesse.net",
+        "description": "Jesse Friedman's website"
+      },
+      {
+        "url": null,
+        "description": "Nassau County DA's report on the conviction integrity review, numerous articles and analyses debating the case."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Jesse Friedman",
+      "first_name": "Jesse",
+      "middle_name": null,
+      "last_name": "Friedman",
+      "status": "OTHER",
+      "conviction_year": 1988,
+      "exoneration_or_release_year": null,
+      "time_served": "approx. 13 years",
+      "sentence": "13 years",
+      "crime_convicted_of_raw": "Child sexual abuse.",
+      "case_location_city": "Great Neck",
+      "case_location_state": "New York",
+      "narrative_summary": "Convicted of child sexual abuse in 1988 after pleading guilty, although he later maintained his confession was coerced. He served approximately 13 years in prison. He continues to seek exoneration.",
+      "contributing_factors_raw": [
+        "Coerced confession (Jesse's claim)",
+        "Suggestive/flawed interview techniques used with child witnesses during the \"Satanic Panic\" era",
+        "Potential for false memory creation",
+        "Immense pressure to accept plea deals",
+        "Confirmation bias during investigation"
+      ],
+      "organizations_involved_raw": [
+        "Nassau County District Attorney's Office",
+        "defense attorneys"
+      ]
+    },
+    {
+      "full_name": "Arnold Friedman",
+      "first_name": "Arnold",
+      "middle_name": null,
+      "last_name": "Friedman",
+      "status": "CONVICTED",
+      "conviction_year": 1988,
+      "exoneration_or_release_year": null,
+      "time_served": "approx. 7 years",
+      "sentence": "Died in prison",
+      "crime_convicted_of_raw": "Child sexual abuse.",
+      "case_location_city": "Great Neck",
+      "case_location_state": "New York",
+      "narrative_summary": "Convicted of child sexual abuse in 1988 and died in prison approximately 7 years later. He pled guilty and was also accused of possessing child pornography. The case remains controversial with questions raised about the investigation and confessions.",
+      "contributing_factors_raw": [
+        "Suggestive/flawed interview techniques used with child witnesses during the \"Satanic Panic\" era",
+        "Potential for false memory creation",
+        "Immense pressure to accept plea deals",
+        "Confirmation bias during investigation"
+      ],
+      "organizations_involved_raw": [
+        "Nassau County District Attorney's Office",
+        "defense attorneys"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Andrew Jarecki",
+      "role": "DIRECTOR",
+      "first_name": "Andrew",
+      "middle_name": null,
+      "last_name": "Jarecki"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

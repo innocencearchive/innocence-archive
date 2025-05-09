@@ -1,0 +1,58 @@
+{
+  "source_file_name": "3.4.my_fathers_killer.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "My Father's Killer (20/20) (Title unconfirmed by search)",
+    "publication_or_release_year": 2003,
+    "publisher_or_network": "ABC News",
+    "focus_or_theme": "Wrongful arson conviction, flawed fire science, death penalty case",
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "My Father's Killer (20/20) (Title unconfirmed by search)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful arson conviction, flawed fire science, death penalty case",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Investigation into Hobley's conviction based on now-discredited fire investigation techniques; sentenced to death before pardon. Available via ABC.",
+      "research_findings": "Searches did not confirm a 20/20 episode titled \"My Father's Killer\" featuring Madison Hobley. However, the details provided in `film_list.txt` accurately describe the high-profile Hobley case, which involved flawed arson science and Hobley's eventual pardon as part of Gov. Ryan's blanket commutations/pardons related to concerns about the death penalty system in Illinois. Details above rely on `film_list.txt` and general case knowledge."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Madison Hobley",
+      "case_location_city": "Chicago",
+      "case_location_state": "Illinois (Based on general case knowledge)",
+      "conviction_year": 1990,
+      "exoneration_or_release_year": 2003,
+      "crime_convicted_of_raw": "Arson and Murder (of wife and infant son in 1987 fire)",
+      "sentence": "Death Penalty",
+      "time_served": "~13 years on death row",
+      "contributing_factors_raw": [
+        "Discredited fire investigation techniques, alleged police misconduct/coerced confession (part of Chicago PD torture scandal context) (Based on general case knowledge)"
+      ],
+      "status_raw": "Pardoned by Gov. George Ryan based on innocence",
+      "organizations_involved_raw": [
+        "Center on Wrongful Convictions (Northwestern Law) (Likely involved)"
+      ],
+      "first_name": "Madison",
+      "middle_name": null,
+      "last_name": "Hobley"
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

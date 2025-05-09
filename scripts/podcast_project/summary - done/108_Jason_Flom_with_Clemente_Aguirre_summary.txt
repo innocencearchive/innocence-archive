@@ -1,0 +1,109 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but episode features Clemente Shorty Aguirre
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Not specified in transcript, likely recent based on conference recording location (Innocence Network Conference in Atlanta)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One, Mike or Duda Podcast Network (mentioned as supporter)
+-   **Series Type**: Episodic Series (each episode is generally a standalone story focusing on a different wrongful conviction)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, investigative journalism, legal analysis, exoneree stories, systemic issues in the justice system.
+-   **Key Statistics/Information**: Clemente Shorty Aguirre served 14 years and four months on death row for a crime he did not commit. 197 pieces of crime scene evidence were initially untested for DNA. Samantha Williams, daughter of one victim and granddaughter of the other, confessed to the crime multiple times and her DNA was found at the scene.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features Clemente Shorty Aguirre, wrongfully convicted of a double murder in Florida and sentenced to death. Shorty recounts his harrowing journey from Honduras to the US to escape gang violence, only to be ensnared in a tragic miscarriage of justice.  The episode details the crime, the flawed investigation, and the ineffective defense that led to his wrongful conviction.  Crucially, it highlights the post-conviction reinvestigation by dedicated attorneys, including Maria Deliberado, that uncovered untested DNA evidence and confessions from the likely true perpetrator, Samantha Williams, the daughter of one victim. After 14 years on death row, Shorty's conviction was overturned and he was ultimately exonerated, showcasing a stark example of systemic failures and the arduous fight for justice in wrongful conviction cases. The episode underscores the importance of DNA testing, thorough investigation, and the presumption of innocence.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Clemente Shorty Aguirre
+-   **Case Location**: Seminole County, Florida, USA
+-   **Conviction Year**: 2006 (mentioned jury verdict in one hour, 15 minutes after trial of 4-5 days, and 22 months jail prior to trial)
+-   **Exoneration Year**: 2018 (Null Process announced in October 2018 after retrial process began)
+-   **Crime Convicted Of**: Double murder of Cheryl Williams and Carol Bareis (Cheryl's mother)
+-   **Sentence**: Death Penalty
+-   **Time Served**: 14 years and 4 months (mostly on death row)
+-   **Contributing Factors**:
+    -   Ineffective public defender who did not investigate alibi or test DNA evidence.
+    -   Prosecution's tunnel vision focused on Shorty due to his immigration status and presence at the crime scene.
+    -   Crime scene tampering (inadvertent, by checking for pulse).
+    -   Circumstantial evidence misinterpreted as guilt.
+    -   Language barrier initially with police.
+-   **Legal Status**: Exonerated (Null Pross announced)
+-   **Organizations Involved**:
+    -   Innocence Project of New York (Ina Morrison mentioned)
+    -   Innocence Network
+-   **Innocence Lawyer Details**:
+    -   **Maria Deliberado**: Lead post-conviction attorney, formerly a prosecutor, worked pro bono with a "dream team" of lawyers.
+    -   **Nina Morrison (Innocence Project)**: Instrumental in getting help and resources for the case.
+    -   **Josh Dubin**: Jury selection expert, part of the retrial team.
+    -   **Mari Palmer**: Law partner of Maria Deliberado, part of post-conviction and retrial team.
+    -   **Lindsey Boney, Dylan Black, Brooks Proctor, Jeff Horowitz**: Additional lawyers on the retrial team.
+-   **Cross-Reference**: Not specified in transcript, but likely appears in exoneree databases given Innocence Project involvement.
+-   **Narrative of Original Crime**: Cheryl Williams and her mother, Carol Bareis, were found stabbed to death in their trailer. The trailer was ransacked and covered in blood. Clemente Shorty Aguirre, a neighbor, discovered the bodies when he went to borrow a beer in the morning.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Shorty found at crime scene.
+    -   Shorty's fingerprints on a knife found at the scene (he admits to picking it up).
+    -   Shorty's palm print on the knife.
+    -   Shorty's initial hesitation to report discovery due to fear of deportation.
+    -   Crime scene blood on Shorty (from checking for pulse).
+-   **Trial Defender Notes**:
+    -   Ineffective defense.
+    -   Presented weak defense focused on Shorty being drunk.
+    -   Did not investigate Shorty's alibi for the night before the murders (bar until 3:30 am).
+    -   Did not request DNA testing of the 197 pieces of evidence.
+    -   Defense attorney seemingly did not believe Shorty's innocence.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Post-conviction DNA testing of 82 pieces of evidence revealed Samantha Williams' blood in multiple locations, including 8 separate blood stains within inches of victim's blood and on a mirror where she claimed it shouldn't be. No DNA of Clemente was found.
+    -   Confessions from Samantha Williams to multiple people (neighbor, best friend Nikki, during Baker Act incidents) stating she killed her family, including details consistent with crime scene (stabbing in chest).
+    -   Recantation of alibi by Mark Van Zant (Samantha's boyfriend who initially stated she was with him all night) admitting he was a liar and she went out the window that night.
+    -   Florida Supreme Court unanimously overturned conviction in 2016, citing Shorty as a "scapegoat".
+-   **Actual Perpetrator Details**:
+    -   **Name**: Samantha Williams (Cheryl's daughter, Carol's granddaughter)
+    -   Daughter and granddaughter of the victims.
+    -   History of severe mental illness, Baker Acted approximately 60 times.
+    -   Vocalized threats to kill her family while in mental institution.
+    -   Confessed to multiple people that "demons made her kill her family" and that she "killed her mother".
+    -   Her biological evidence (DNA) found at the crime scene in multiple locations.
+    -   Admitted in deposition during retrial process that she "does a lot of things when drunk" and "it's possible she did this too" and doesn't remember.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Shorty: "God send you angels so you feed. Don't hear frogs. And you hang with you. Have call upon me. And have I hear you? I will free you and I will glorify you. I will give you many years of life. And I will show you my salvation." (Upon exoneration)
+    -   Maria Deliberado (bartender reaction): "She was like, thank God somebody is finally helping him. I know he didn't do it." (Describing reaction when inquiring about Shorty at a bar near crime scene, 6 years later)
+    -   Samantha Williams (in mental institution): "I'll kill you, I'll kill all of you when I get out." (Threat made to family before murders).
+-   **Systemic Issues Identified**:
+    -   Tunnel vision in investigations focusing on the easiest suspect.
+    -   Ineffective assistance of counsel (public defender).
+    -   Failure to properly investigate alternative suspects and evidence.
+    -   Presumption of guilt rather than innocence, particularly towards marginalized individuals (immigrants).
+    -   Withholding of exculpatory evidence by prosecution (confessions of Samantha Williams).
+    -   Judicial bias (initial judge in retrial process).
+    -   Difficulties faced by exonerees post-release, including lack of support and ongoing immigration issues.
+-   **Policy Recommendations/Calls to Action**:
+    -   Emphasis on thorough and unbiased investigations.
+    -   Importance of DNA testing in violent crime cases, especially when requested by the accused.
+    -   Need for effective and well-resourced public defense systems.
+    -   Addressing systemic biases within the justice system.
+    -   Support for exonerees post-release, including financial assistance, mental health services, and legal aid for issues like immigration status.
+-   **Personal Narrative/Impact**:
+    -   **Personal Narrative/Impact**: Shorty's life was profoundly impacted by the wrongful conviction, spending 14 years of his life incarcerated, mostly on death row, enduring violence and trauma. He lost his freedom, his ability to work, and experienced immense emotional distress. Despite this, he expresses forgiveness rather than bitterness, focusing on rebuilding his life and advocating for justice. His story highlights the resilience of the human spirit in the face of injustice. His final thoughts emphasize forgiveness and hope for a better life, despite the immense suffering he endured.
+-   **Additional Resources**:
+    -   Innocence Project (innocenceproject.org)
+    -   NSES project (likely referring to a support system for exonerees, potentially connected to Innocence Network Conference)
+    -   My Computer Career (mycomputercareer.edu/cwp - mentioned in advertisement, unrelated to case but part of podcast content).
+    -   kisqai.com (mentioned in advertisement, unrelated to case but part of podcast content).
+    -   culvers.com (mentioned in advertisement, unrelated to case but part of podcast content).
+    -   fergusonhome.com (mentioned in advertisement, unrelated to case but part of podcast content).
+    -   target.com/circle (mentioned in advertisement, unrelated to case but part of podcast content).
+    -   cologard.com (mentioned in advertisement, unrelated to case but part of podcast content).
+    -   stofers.com (mentioned in advertisement, unrelated to case but part of podcast content).
+    -   egopowerplus.com (mentioned in advertisement, unrelated to case but part of podcast content).
+    -   lowes.com (mentioned in advertisement related to Ego Power Plus, unrelated to case but part of podcast content).
+```

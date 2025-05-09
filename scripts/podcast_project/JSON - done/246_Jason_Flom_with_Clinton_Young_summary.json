@@ -1,0 +1,83 @@
+{
+    "sourceFileName": "246_Jason_Flom_with_Clinton_Young_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "Lava For Good podcasts in association with Signal Company number one.",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, prosecutorial misconduct, ineffective defense, systemic issues in the justice system, exoneree story.",
+        "keyStats": "- Clinton Young was sentenced to death and spent years on death row.\n- The case involved prosecutorial misconduct where a prosecutor was also a paid law clerk for the judge.\n- Clinton Young is the first person in Texas history to get out on Bond after getting a new trial off death row while still under indictment for Capitol murder.",
+        "itemNumber": "246",
+        "itemTitle": "Jason Flom with Clinton Young",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the harrowing story of Clinton Young, who was wrongfully convicted and sentenced to death for murders he did not commit in Texas in 2001. The podcast details Young's difficult upbringing, his presence during the crimes committed by David Page, and how incentivized testimonies and prosecutorial misconduct led to his wrongful conviction. Despite evidence pointing to his innocence, including ballistics and later confessions from David Page, Young spent years on death row.  The episode highlights the failures of his initial defense, the destruction and withholding of evidence by the prosecution, and the shocking revelation of prosecutorial misconduct involving a prosecutor moonlighting as a judge's clerk.  After years of appeals and new evidence, Young's conviction was overturned in 2021, and he was released on bond in 2022, awaiting a potential retrial, marking a significant, albeit ongoing, battle for justice."
+    },
+    "featuredIndividual": {
+        "fullName": "Clinton Young",
+        "caseLocation": "Midland County, Texas, USA",
+        "convictionYear": "2003",
+        "exonerationYear": "2021 (conviction overturned, not fully exonerated as of transcript, awaiting potential retrial)",
+        "crimeConvictedOf": "Two counts of Capital Murder (Doyle Douglas and Samuel Petrie)",
+        "sentence": "Death Penalty",
+        "timeServed": "Approximately 18 years (from arrest in 2001 to release on bond in 2022, with time on death row)",
+        "contributingFactorsRaw": [
+            "False Testimony: Incentivized testimonies of David Page, Mark Ray, and Darnell McCoy.",
+            "Ineffective Defense Counsel: Failure to highlight inconsistencies in testimonies, ballistics, and DNA evidence. Lack of proper ballistic investigation.",
+            "Prosecutorial Misconduct: Withholding exculpatory evidence (David Page's confession), prosecutor Ralph Petty acting as a paid law clerk for the judges in Clinton's case. Destruction of evidence (Doyle Douglas' car)."
+        ],
+        "status": "Conviction overturned, released on bond, awaiting potential retrial.",
+        "organizationsInvolvedRaw": [
+            "Clinton Young Foundation, AIG Pro Bono program (underwriter of the podcast, supporting criminal justice reform)."
+        ],
+        "innocenceLawyersRaw": [
+            "Meryl Pontier: Attorney who moved from the Netherlands to Texas to represent Clinton Young, legal director of the Clinton Young Foundation.",
+            "Dick DeGarrin and Mark White: New defense team for potential retrial, secured by the Clinton Young Foundation. Dick DeGarrin is described as a legend in Texas courtrooms."
+        ],
+        "crossReference": "Not specified if he appears in a specific exoneree database within the transcript.",
+        "narrativeOriginalCrime": "Clinton Young was accused of murdering Doyle Douglas and Samuel Petrie in separate incidents in November 2001.  The prosecution argued that Young killed Douglas for his car and then killed Petrie for his car to travel to see his girlfriend. The state's case relied on the testimonies of David Page, Mark Ray, and Darnell McCoy, who were present during the events.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimonies of David Page, Mark Ray, and Darnell McCoy, claiming Clinton Young was the shooter in both murders.",
+            "State's theory: Clinton Young killed for vehicles to see his girlfriend."
+        ],
+        "trialDefenderNotes": "- Court-appointed lawyers vaguely mentioned ballistic inconsistencies but did not effectively argue them.\n- Failed to adequately challenge the incentivized and conflicting testimonies of Page, Ray, and McCoy.\n- Lack of proper ballistic investigation and highlighting Clinton's position relative to Doyle Douglas.",
+        "keyEvidenceExonerationRaw": [
+            "Ballistics evidence contradicting the testimonies about the first murder (Doyle Douglas).",
+            "New forensic testing on gloves found at the second crime scene showing David Page's DNA and gunshot residue.",
+            "David Page's confession to kidnapping Samuel Petrie.",
+            "Revelation of prosecutorial misconduct: Ralph Petty acting as both prosecutor and paid law clerk for the judges in Clinton's case."
+        ],
+        "actualPerpetratorDetails": "- David Page: Identified as the actual shooter in both murders based on his confession and evidence like gunshot residue on his gloves in the Petrie murder. Page initially blamed Clinton Young. Pleaded guilty to aggravated kidnapping and received a 30-year sentence after Clinton's trial.\n- Mark Ray: Present at both murders, shot Doyle Douglas a third time after the initial shooting. Pleaded guilty to kidnapping and received a 15-year sentence after Clinton's trial."
+    },
+    "keyQuotesRaw": [
+        "Host describing the case: \"This case involves an innocent guy who ended up being sentenced to death... It involves a prosecutor who was moonlighting writing opinions for the judge. Yeah, you heard that correctly. The prosecutor was making a little extra money on the side writing rulings in his own cases.\"",
+        "Clinton Young on his conviction: \"When they convicted me, I was devastated. I knew my choice was a reason why for death. That really hit me.\"",
+        "Clinton Young on death row giving him life: \"People might not understand it, but going to death row gave me life. It made me a better person.\"",
+        "Meryl Pontier on never giving up: \"But once we do, I really hope Clinton's case can be an example to other people to never give up hope, to never, never give up the fight.\""
+    ],
+    "systemicIssuesRaw": [
+        "Prosecutorial Misconduct: Conflict of interest with prosecutor serving as judge's clerk. Withholding exculpatory evidence.",
+        "Ineffective Assistance of Counsel: Original defense lawyers failing to adequately investigate and present evidence.",
+        "False Testimony/Incentivized Witnesses: Reliance on testimonies from co-defendants seeking leniency.",
+        "Destruction of Evidence: Police destroying Doyle Douglas' car, hindering further investigation.",
+        "Lack of Proper Investigation: Inadequate investigation of crime scenes, failure to obtain crucial surveillance footage initially."
+    ],
+    "policyRecommendationsRaw": [
+        "Call to donate to the Clinton Young Foundation to support his legal defense and raise awareness.",
+        "Encouragement to sign petitions and spread the word about wrongful convictions.",
+        "Implicit call for systemic reform within the criminal justice system to prevent wrongful convictions, address prosecutorial misconduct, and ensure fair trials."
+    ],
+    "personalNarrativeRaw": [
+        "Clinton Young describes a chaotic and abusive childhood that led to early run-ins with the law.",
+        "He reflects on how his wrongful conviction and time on death row, despite being traumatic, paradoxically led to personal growth, self-reflection, and a desire to help others and fight for justice.",
+        "He expresses a desire to live a productive life and prove that people can change.",
+        "The victim's family is also impacted, having been misled about the perpetrator and the concept of justice/closure."
+    ],
+    "additionalResourcesRaw": [
+        "Clinton Young Foundation website: clintonyoungfoundation.com",
+        "Social media pages for the Clinton Young Foundation (Facebook, Instagram, YouTube, Twitter).",
+        "Wrongful Conviction podcast social media and website (implied as a general resource for wrongful conviction stories).",
+        "Documentary about Clinton Young's case (mentioned but not titled)."
+    ]
+}

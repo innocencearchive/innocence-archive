@@ -1,0 +1,107 @@
+{
+    "sourceFileName": "173_False_Confessions_Ricky_Davis_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction, False Confessions",
+    "mediaItem": {
+        "hosts": "Lauren Nyreiter, Steve Drizen",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts in association with Signal Company No. 1",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "False confessions, wrongful convictions, police interrogation tactics",
+        "keyStats": "Highlights the dangers of police deception during interrogations leading to false confessions and wrongful convictions. Focuses on the human cost and systemic issues within the justice system.",
+        "itemNumber": "173",
+        "itemTitle": "False Confessions Ricky Davis",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction, False Confessions, hosted by Lauren Nyreiter and Steve Drizen, details the case of Ricky Davis, wrongfully convicted of the 1985 murder of Jane Hilton.  Despite initial evidence pointing away from Davis and his girlfriend Connie Dahl, the case went cold for 14 years.  Reopened in 1999, detectives interrogated Connie using deceptive tactics, leading to a coerced false confession implicating both herself and Davis.  Connie testified against Davis, resulting in his conviction and 12-year imprisonment.  Decades later, DNA evidence from the crime scene excluded Davis and Dahl, and pointed to Michael Green, one of the teenagers present in the area on the night of the murder. Davis was exonerated in 2020, while Connie, who died in 2014, remains wrongly implicated. The episode highlights the devastating consequences of false confessions and flawed interrogation techniques, impacting multiple lives including Davis, his mother Maureen, and Connie Dahl."
+    },
+    "featuredIndividual": {
+        "fullName": "Ricky Davis",
+        "caseLocation": "El Dorado Hills, California, USA",
+        "convictionYear": "2005",
+        "exonerationYear": "2020",
+        "crimeConvictedOf": "Murder of Jane Hilton",
+        "sentence": "16 years to life",
+        "timeServed": "12 years",
+        "contributingFactorsRaw": [
+            "False confession (coerced from Connie Dahl), deceptive police interrogation tactics,  reliance on false testimony,  initial flawed investigation."
+        ],
+        "status": "Exonerated, factually innocent",
+        "organizationsInvolvedRaw": [
+            "Northern California Innocence Project"
+        ],
+        "innocenceLawyersRaw": [
+            "Attorneys from the Northern California Innocence Project took on his case and pursued DNA testing."
+        ],
+        "crossReference": "Not mentioned in transcript",
+        "narrativeOriginalCrime": "Jane Hilton was found brutally stabbed to death in her home in El Dorado Hills in July 1985.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of Connie Dahl, who falsely confessed to being an accomplice and implicated Ricky Davis as the primary perpetrator, driven by coercive police interrogation tactics."
+        ],
+        "trialDefenderNotes": "Not detailed in transcript.",
+        "keyEvidenceExonerationRaw": [
+            "DNA testing in 2014 of bite mark and fingernail scrapings from the victim excluded both Ricky Davis and Connie Dahl. The DNA profile matched Michael Green, one of the teenagers who was with the victim's daughter on the night of the murder."
+        ],
+        "actualPerpetratorDetails": "Michael Green, identified through genetic genealogy, was one of the three teenagers with Jane Hilton's daughter, Autumn, on the night of the murder. DNA evidence linked him to the crime. Charged with murder in February 2020 and awaiting trial (as of podcast recording)."
+    },
+    "keyQuotesRaw": [
+        "\"On the road to a wrongful conviction, there's a lot of roadkill.\" - Steve Drizen",
+        "Connie Dahl's tentative language during interrogation: \"I think I did that. I probably did that. I seem to remember that.\"",
+        "Maureen Klein (Ricky Davis's mother) reflecting on the justice system: \"Seems to be a lot that shouldn't be in there with no money. You're going to do time period.\"",
+        "Ricky Davis's humorous reaction to his mother offering to cook breakfast after his release: \"While you were visiting this, did you envision a different mom?\""
+    ],
+    "systemicIssuesRaw": [
+        "Use of deceptive and coercive interrogation tactics by police.",
+        "The phenomenon of persuaded false confessions, where individuals come to doubt their own memories and accept police narratives.",
+        "Tunnel vision and confirmation bias in police investigations, leading to neglect of exculpatory evidence and focus on pre-conceived theories.",
+        "Potential disparities in the justice system based on socioeconomic status and access to resources."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicitly calls for reform in police interrogation practices, advocating for techniques that minimize the risk of false confessions.  Raises awareness about the fallibility of memory and the impact of trauma and manipulation on confessions."
+    ],
+    "personalNarrativeRaw": [
+        "Ricky Davis lost 12 years of his life to wrongful imprisonment, impacting his personal freedom and emotional well-being.",
+        "Maureen Klein, Ricky's mother, endured significant emotional distress and tirelessly fought for her son's freedom.",
+        "Connie Dahl became a victim of coercive interrogation, leading to a false confession, wrongful implication in a murder, and ultimately contributing to Ricky Davis's wrongful conviction. Her life was marked by substance abuse and she died before exoneration could be considered for her."
+    ],
+    "additionalResourcesRaw": [
+        "Wrongful Conviction Podcast website: wrongfulconvictionpodcast.com",
+        "Social media handles: Instagram (@lauranirider, @wrongfulconviction), Twitter (@SDrizan, @wrongconviction), Facebook (wrongfulconvictionpodcast).",
+        "Implicitly, the Northern California Innocence Project is a resource for those seeking help with wrongful convictions."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Jane Hilton",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Michael Green",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Maureen Klein",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Tunnel vision and confirmation bias in police investigations",
+            "Potential disparities in the justice system based on socioeconomic status and access to resources"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "False confessions",
+                "Flawed interrogation techniques",
+                "Wrongful Conviction",
+                "Injustice",
+                "Exoneration"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

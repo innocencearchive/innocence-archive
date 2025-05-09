@@ -1,0 +1,83 @@
+{
+  "source_file_name": "9.26.murder_on_sunday.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "Murder on a Sunday Morning (Un coupable idéal)",
+    "creator_name": "Jean-Xavier de Lestrade",
+    "publication_or_release_year": 2001,
+    "publisher_or_network": "Maha Productions (and others, potentially including HBO/Canal+)",
+    "focus_or_theme": "The wrongful arrest and trial of 15-year-old Brenton Butler for the murder of a tourist in Jacksonville, Florida, in 2000. Focuses on his defense by public defenders and the exposure of a coerced false confession.",
+    "summaryNotes": "Won the Academy Award for Best Documentary Feature in 2002. Butler was acquitted after his defense demonstrated the confession was false and coerced.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "Murder on a Sunday Morning (Un coupable idéal)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "The wrongful arrest and trial of 15-year-old Brenton Butler for the murder of a tourist in Jacksonville, Florida, in 2000. Focuses on his defense by public defenders and the exposure of a coerced false confession.",
+    "summary_notes": "Documentary about the wrongful arrest and trial of Brenton Butler for murder. It highlights the coerced confession and the work of the public defenders in securing his acquittal.",
+    "key_quotes_raw": [
+      "Courtroom footage showing the defense dismantling the prosecution's case",
+      "Butler's testimony describing the interrogation and coercion",
+      "Interviews with the defense attorneys Patrick McGuinness and Ann Finnell"
+    ],
+    "systemic_issues_raw": [
+      "Coercive police interrogation tactics leading to false confessions, particularly with juveniles",
+      "Reliability of eyewitness identification",
+      "Potential for racial bias in policing and initial suspect identification",
+      "Importance of vigorous public defense"
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for reforms in police interrogation methods (especially video recording and protections for juveniles)",
+      "Scrutiny of eyewitness ID procedures",
+      "Adequate funding/support for public defenders"
+    ],
+    "external_links_raw": [
+      {
+        "url": null,
+        "description": "News articles covering the Brenton Butler case and its aftermath in Jacksonville."
+      }
+    ],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Brenton Butler",
+      "first_name": "Brenton",
+      "middle_name": null,
+      "last_name": "Butler",
+      "status": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "time_served": "Time in pre-trial detention",
+      "sentence": null,
+      "crime_convicted_of_raw": "Charged with Murder (of Mary Ann Stephens)",
+      "case_location_city": "Jacksonville",
+      "case_location_state": "Florida",
+      "narrative_summary": "Brenton Butler was wrongfully arrested and charged with murder. He was acquitted at trial after his defense demonstrated that his confession was coerced.",
+      "contributing_factors_raw": [
+        "False confession obtained through alleged police coercion/violence",
+        "Potential eyewitness misidentification (initial ID by victim's husband)",
+        "Racial bias (young Black male quickly targeted)"
+      ],
+      "organizations_involved_raw": [
+        "Duval County Public Defender's Office (specifically Patrick McGuinness and Ann Finnell who defended him)"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Jean-Xavier de Lestrade",
+      "first_name": "Jean-Xavier",
+      "middle_name": "de",
+      "last_name": "Lestrade",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

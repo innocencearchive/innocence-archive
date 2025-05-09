@@ -1,0 +1,113 @@
+{
+    "sourceFileName": "282_Jason_Flom_with_Bobbie_Jean_Johnson_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, Police Misconduct, False Confessions, Ineffective Counsel, Systemic Issues in the Justice System",
+        "keyStats": "Approximately 20% of exonerees in Louisiana die within 18 months of their release from prison. Bobby Jean Johnson served 41 years for a crime she did not commit and passed away less than 18 months after exoneration.",
+        "itemNumber": "282",
+        "itemTitle": "Jason Flom with Bobbie Jean Johnson",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the heartbreaking story of Bobby Jean Johnson, who was wrongfully convicted of murder in 1977 and served 41 years in prison. At 18 years old, Bobby Jean, a vulnerable young woman with a history of trauma and drug use, was coerced into a false confession after violent interrogation by New Orleans police.  Her trial was a travesty, with an incompetent, sleeping lawyer who offered no defense. Despite evidence pointing to her innocence and another man confessing, Bobby Jean was convicted based on the false confession.  After decades of wrongful incarceration, the Innocence Project of New Orleans and the Promise of Justice Initiative worked tirelessly to secure her release in 2018, though she was forced to plead guilty to manslaughter and armed robbery to achieve freedom. Tragically, Bobby Jean passed away less than 18 months after her release, highlighting the devastating long-term impact of wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Bobby Jean Johnson",
+        "caseLocation": "New Orleans, Louisiana, USA",
+        "convictionYear": "1977",
+        "exonerationYear": "2018 (vacated murder conviction, resentenced to time served, plea deal to manslaughter and armed robbery)",
+        "crimeConvictedOf": "First-degree murder (original conviction)",
+        "sentence": "Life sentence (original sentence)",
+        "timeServed": "41 years",
+        "contributingFactorsRaw": [
+            "False confession (coerced through physical violence and threats), police misconduct (violent interrogation, ignoring exculpatory evidence), ineffective counsel (sleeping lawyer, no defense presented)"
+        ],
+        "status": "Released after pleading guilty to manslaughter and armed robbery for time served (technically not fully exonerated in the traditional sense but freed due to wrongful conviction issues).",
+        "organizationsInvolvedRaw": [
+            "Innocence Project of New Orleans (IPNO), Promise of Justice Initiative, Georgia Innocence Project (after release)"
+        ],
+        "innocenceLawyersRaw": [
+            "Shrel Arnold (Innocence Project of New Orleans) - Worked on the case for several years.",
+            "Promise of Justice Initiative -  Organization that ultimately secured Bobby Jean's release and walked her out of prison, lead lawyers not named specifically in transcript."
+        ],
+        "crossReference": "Not specified if in exoneree database within the transcript.",
+        "narrativeOriginalCrime": "Antiquities dealer Arthur Sampson was found murdered in his shop on St. Charles Avenue, shot once and stabbed over 100 times. The store was ransacked and money was missing from the safe.",
+        "keyEvidenceProsecutionRaw": [
+            "Bobby Jean Johnson's coerced false confession was the primary evidence."
+        ],
+        "trialDefenderNotes": "Bobby Jean's court-appointed lawyer was grossly incompetent. He fell asleep during the trial, made no opening or closing statements, barely cross-examined witnesses, and did not object when a juror admitted to knowing the victim. He failed to call for a mistrial when the juror's conflict of interest was revealed and did not present any defense for Bobby Jean.",
+        "keyEvidenceExonerationRaw": [
+            "Inconsistencies in the false confession compared to the crime scene (number of gunshots, victim description, getaway car timeline).  The man who placed the gun in Bobby Jean's purse confessed to the crime, but this was ignored by the prosecution and hidden from the defense.  Persistent legal efforts by IPNO and the Promise of Justice Initiative eventually led to a plea deal due to the overwhelming evidence of wrongful conviction."
+        ],
+        "actualPerpetratorDetails": "Not explicitly named or detailed in the transcript, but the podcast mentions \"a pretty viable suspect\" that police didn't follow up on and \"the man who had stashed the 32 caliber revolver and knife her purse had made a statement admitting to just that\"."
+    },
+    "keyQuotesRaw": [
+        "Bobby Jean: \"He called me a black bee. And he put my hand, got me to the back behind his like wooden chair and put a plastic bag over my head. The chair fell backwards and they started kicking me in my ribs and all over and hit me.\" (Describing police torture)",
+        "Bobby Jean: \"My lawyer wouldn't let me get on a stand and talking my own defense. He fell asleep through the trial. Your lawyer was asleep during the trial? Yeah, he fell asleep during the trial. I had to wake him up.\" (Describing ineffective counsel)",
+        "Juror: \"I cannot give Ms. Johnson a fair trial because I had a relationship with this man.\" (Juror bias ignored by judge and defense)",
+        "Jason Flom (regarding Bobby Jean's passing): \"I don't know the statistics nationally, but in the state of Louisiana, approximately 20 percent of exonerees die within 18 months of their release from prison.\" (Highlighting post-incarceration challenges for exonerees)",
+        "Bobby Jean (final thoughts): \"They took a lot of away from me. They took everything away from me for nothing. But something I didn't even do, I lost everything. All my youth was gone.\" (Impact of wrongful conviction)"
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct and brutality leading to false confessions, particularly targeting vulnerable individuals and minorities.",
+        "Tunnel vision in police investigations, ignoring exculpatory evidence and focusing on a convenient suspect.",
+        "Racial bias in the justice system.",
+        "Ineffective assistance of counsel, particularly for indigent defendants.",
+        "Prosecutorial pressure to maintain convictions even in the face of evidence of innocence.",
+        "Long-term physical and psychological damage caused by wrongful incarceration, contributing to premature death post-release."
+    ],
+    "policyRecommendationsRaw": [
+        "Criminal justice reform to prevent wrongful convictions.",
+        "Accountability for police and prosecutors in cases of misconduct.",
+        "Improved access to competent legal representation for all defendants.",
+        "Support and resources for exonerees post-release."
+    ],
+    "personalNarrativeRaw": [
+        "Bobby Jean's personal narrative is one of profound tragedy and resilience. She endured horrific childhood trauma, police torture, a sham trial, and 41 years of wrongful imprisonment. Despite this, she found strength through faith and self-improvement in prison and experienced joy and love in her brief time of freedom. Her story underscores the devastating human cost of wrongful convictions and the enduring impact on individuals and their lives, even after exoneration. Her untimely death shortly after release serves as a stark reminder of the lasting damage inflicted by the system."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project of New Orleans (IPNO)",
+        "Promise of Justice Initiative",
+        "Georgia Innocence Project",
+        "Innocence Network Conference",
+        "Mention of Jason Flom's Instagram (@itsjasonflom) and podcast social media for further engagement."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "another man",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": "uncertain"
+            },
+            {
+                "name": "Juror",
+                "role_guess": "Juror",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Juror bias",
+            "Tunnel vision in police investigations",
+            "Racial bias in the justice system",
+            "Prosecutorial pressure to maintain convictions"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Police misconduct",
+                "False confessions",
+                "Ineffective assistance of counsel",
+                "Wrongful conviction",
+                "Post-incarceration challenges",
+                "Racial bias",
+                "Trauma"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

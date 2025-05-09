@@ -1,0 +1,128 @@
+{
+    "sourceFileName": "352_Jason_Flom_with_Terry_Ceasor_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2023",
+        "network": "Lava For Good Podcasts, in association with Signal Company No. 1",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Shaken Baby Syndrome (SBS), Junk Science, Ineffective Assistance of Counsel, Legal System Reform",
+        "keyStats": "-   Discover is accepted at 99% of places that take credit cards nationwide (advertisement).\n-   Chevy Equinox is number one for new vehicle quality among compact SUVs in 2024, according to JD Power (advertisement).\n-   Michigan Innocence Clinic has exonerated six people and counting of SBS wrongful convictions.\n-   81 non-traumatic medical conditions in addition to shortfalls can cause the triad of findings previously associated with SBS.\n-   Terry Caesar spent almost four years in prison.",
+        "itemNumber": "352",
+        "itemTitle": "Jason Flom with Terry Ceasor",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the story of Terry Caesar, who was wrongfully convicted of first-degree child abuse based on the now-debunked shaken baby syndrome (SBS). In 2004, Brendan, the 16-month-old son of Terry's girlfriend, was injured after falling off a couch while in Terry's care. Despite Terry's consistent account of the fall and the lack of external injuries noted by the initial examining doctor, a pediatric neurosurgeon diagnosed SBS based on brain bleeding, swelling, and retinal hemorrhages.  Terry's trial was hampered by ineffective counsel who failed to secure funding for an expert witness to challenge the SBS diagnosis. He was convicted and spent nearly four years in prison.  The Michigan Innocence Clinic took on his case, arguing ineffective assistance of appellate counsel, and after a long legal battle, Terry was finally exonerated in 2021. The episode highlights the dangers of junk science in the courtroom and the long-lasting impact of wrongful convictions, even after exoneration, as Terry continues to fight to clear his name from the Michigan Central Registry related to child abuse."
+    },
+    "featuredIndividual": {
+        "fullName": "Terry Caesar",
+        "caseLocation": "Port Huron, Michigan, USA",
+        "convictionYear": "2005",
+        "exonerationYear": "2021",
+        "crimeConvictedOf": "First-degree child abuse (based on Shaken Baby Syndrome diagnosis)",
+        "sentence": "2 to 15 years",
+        "timeServed": "Almost 4 years",
+        "contributingFactorsRaw": [
+            "Faulty diagnosis of Shaken Baby Syndrome (SBS) based on triad of findings (brain bleed, swelling, retinal hemorrhage)",
+            "Lack of expert defense witness due to ineffective assistance of counsel (trial and appellate)",
+            "Prejudice based on a past incident (being mentioned in connection to a sick child in 1995, leading to his name being on a central registry, though unknown to him at the time of trial)"
+        ],
+        "status": "Exonerated, conviction vacated, charges dismissed. Still fighting to be removed from Michigan Central Registry.",
+        "organizationsInvolvedRaw": [
+            "Michigan Innocence Clinic (co-founded by Dave Moran and Bridget McCormick)",
+            "Center for Integrity and Forensic Sciences (mentioned Kate Judson)"
+        ],
+        "innocenceLawyersRaw": [
+            "Dave Moran, co-founder and co-director of the Michigan Innocence Clinic at Michigan Law School.  Meredith Collier, student attorney at Michigan Law School, who argued the Sixth Circuit case."
+        ],
+        "crossReference": "Not explicitly mentioned if in an exoneree database within the transcript.",
+        "narrativeOriginalCrime": "Terry Caesar was accused of violently shaking Brendan, his girlfriend's 16-month-old son, causing brain injuries. The prosecution argued that Brendan's injuries were consistent with SBS and not with the fall from the couch described by Terry.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of Dr. Gilmer Hill, pediatric neurosurgeon, who diagnosed SBS based on CAT scan findings (subdural hematoma, brain swelling, retinal hemorrhages).",
+            "Dr. Hill testified that the injuries could only be caused by violent shaking or extreme trauma, not a short fall.",
+            "Implied suggestion that Terry had a history due to the 1995 incident (though details were not presented at trial)."
+        ],
+        "trialDefenderNotes": "-   Ken Lord, Terry's trial attorney, consulted with Dr. Ferris Bandak, a biomechanics expert, but did not request court funds to hire him as an expert witness.\n-   Ken Lord cross-examined Dr. Gilmer Hill himself using notes from Dr. Bandak, but lacked the impact of an expert witness.\n-   Defense was hampered by the inability to present expert testimony challenging SBS.\n-   Character witnesses were not allowed to testify on Terry's behalf.",
+        "keyEvidenceExonerationRaw": [
+            "Expert testimony presented by the Michigan Innocence Clinic from four experts (including Dr. John Plunkett) who refuted the SBS diagnosis in Terry's case.",
+            "Experts stated Brendan's injuries were consistent with a short fall and inconsistent with violent shaking.",
+            "Experts highlighted that criticisms of SBS existed at the time of Terry's trial.",
+            "Sixth Circuit Court ruling in 2017 that Terry received ineffective assistance of appellate counsel.",
+            "Michigan Supreme Court vacated Terry's conviction in March 2021.",
+            "Charges dismissed by St. Clair County prosecution in September 2021."
+        ],
+        "actualPerpetratorDetails": "Not applicable, as the case is about wrongful conviction based on misdiagnosis, not misidentification of perpetrator. The podcast argues no crime occurred."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"It would seem highly unlikely that an experienced pediatric neurosurgeon could be mistaken, but this is wrongful conviction.\" (Highlights the core issue of the podcast)",
+        "Dave Moran: \"We've already exonerated six people and counting of this non-existent crime.\" (Emphasizes the scale of SBS wrongful convictions and the clinic's work)",
+        "Kate Judson: \"Had any of them taken the stand, they would have been able to impeach Dr. Gilmer Hill. It's really hard to believe that you wouldn't have gotten an acquittal if the jury heard from a very well-credentialed, renowned expert who had studied shaking baby syndrome like Dr. Bandak had.\" (Underscores the crucial role of expert testimony)",
+        "Terry Caesar: \"I just want my life back. You know, I just want to enjoy my time with my grandkids.\" (Personal impact statement highlighting the ongoing consequences post-exoneration)"
+    ],
+    "systemicIssuesRaw": [
+        "Use of \"junk science\" like Shaken Baby Syndrome in courtrooms.",
+        "Ineffective assistance of counsel at both trial and appellate levels.",
+        "Resistance from courts to overturn wrongful convictions, even with clear evidence of flawed science and legal errors.",
+        "Impact of central registries related to child abuse even after exoneration, creating continued hardship.",
+        "Difficulty in accessing expert witnesses for indigent defendants."
+    ],
+    "policyRecommendationsRaw": [
+        "Stop the use of SBS/Abusive Head Trauma diagnosis as sole evidence in child abuse cases.",
+        "Increase funding for expert witnesses for indigent defendants in criminal cases.",
+        "Reform central registries to ensure exonerated individuals are fully removed and not stigmatized.",
+        "Further legal challenges to past SBS convictions and support for innocence projects focused on non-DNA cases.",
+        "Encouragement for families to mend bridges and support each other."
+    ],
+    "personalNarrativeRaw": [
+        "Terry's wrongful conviction stole nearly four years of his life and significantly impacted his relationship with his son during formative years.",
+        "Even after release, parole restrictions limited his ability to be with his son and granddaughter.",
+        "Exoneration was a long and arduous process, taking over a decade of legal battles.",
+        "Terry expresses the emotional impact of being incarcerated for a crime he didn't commit and the joy of regaining simple freedoms after prison.",
+        "He emphasizes the importance of family and forgiveness."
+    ],
+    "additionalResourcesRaw": [
+        "Wrongful Conviction: Junk Science podcast episode (mentioned)",
+        "Center for Integrity and Forensic Sciences (Kate Judson's organization)",
+        "Michigan Innocence Clinic (University of Michigan Law School) - link to support in bio (mentioned)",
+        "Episode on Temujin Kenzu (linked in bio)",
+        "MyComputerCareer.edu/CWP (Cybersecurity career training - advertisement)",
+        "discover.com/creditcard (Discover card advertisement)",
+        "chevy.com/equinox (Chevrolet Equinox advertisement)",
+        "dontsleeponosa.com (Sleep Apnea awareness - LilyUSA, LLC advertisement)",
+        "ibm.com/productivity (IBM Watson X advertisement)",
+        "jdpower.com/awards (JD Power Awards website - Chevrolet advertisement)",
+        "Michigan Lottery's Lucky Contestant online game (advertisement)"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Brendan",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Dr. Gilmer Hill",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Dr. Bandak",
+                "role_guess": "Expert Witness",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Junk Science",
+                "Ineffective Counsel",
+                "Impact of Wrongful Conviction"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

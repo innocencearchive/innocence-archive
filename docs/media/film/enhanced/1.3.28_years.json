@@ -1,0 +1,93 @@
+{
+  "source_file_name": "1.3.28_years.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "60 Minutes",
+    "creator_name": null,
+    "publication_or_release_year": 2011,
+    "publisher_or_network": "CBS News",
+    "focus_or_theme": "DNA exoneration, eyewitness misidentification, wrongful conviction.",
+    "summaryNotes": "Segment profiles Cornelius Dupree Jr., one of the longest-serving US exonerees at the time (30 years), and notes 41 DNA exonerations in Texas (2001-2011).",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "*_**title**": "60 Minutes",
+    "*_**episode__and_title_if_applicable**": "1.3. 28 Years",
+    "*_**directors**": null,
+    "*_**release_year**": "Circa 2011 (Segment covered events from 2010-2011)",
+    "*_**production_companyies**": "CBS News",
+    "*_**format**": "TV news magazine segment",
+    "*_**focus_theme**": "DNA exoneration after decades of imprisonment; Eyewitness misidentification",
+    "*_**key_statistics_information**": "Profiled one of the longest-serving US exonerees at the time (30 years); Noted 41 DNA exonerations in Texas (2001-2011)."
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "28 Years",
+    "item_number": "1.3",
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "DNA exoneration after decades of imprisonment; Eyewitness misidentification.",
+    "summary_notes": "This 60 Minutes segment focuses on Cornelius Dupree Jr.'s wrongful conviction and exoneration after serving 30 years. It highlights the issues of eyewitness misidentification and the impact of wrongful convictions on individuals and their families.",
+    "key_quotes_raw": [
+      "Cornelius Dupree: \"words really won't make up for what I lost... I lost both my parents uh I just feel that you know the system need to be fixed...\"",
+      "Highlighting that Dupree refused parole because it required admitting guilt/registering as a sex offender."
+    ],
+    "systemic_issues_raw": [
+      "Eyewitness misidentification",
+      "Lengthy imprisonment before exoneration",
+      "Personal toll of wrongful conviction (loss of family)",
+      "Conditions attached to parole eligibility"
+    ],
+    "policy_recommendations_raw": [
+      "Dupree calls for systemic fixes to prevent similar cases."
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cornelius_Dupree",
+        "description": "Cornelius Dupree - Wikipedia"
+      },
+      {
+        "url": "https://innocenceproject.org/",
+        "description": "Innocence Project Case Profile (Specific Dupree link not in results, but mentioned)"
+      }
+    ],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "unparsed_*_**key_quotes_moments**": null,
+      "unparsed_*_cornelius_dupree": "\"words really won't make up for what I lost... I lost both my parents uh I just feel that you know the system need to be fixed...\"",
+      "unparsed_*_highlighting_that_dupree_refused_parole_because_it_required_admitting_guilt_registering_as_a_sex_offender_[cite": "5.1, 6.1].",
+      "unparsed_*_**systemic_issues_identified**": "Eyewitness misidentification; Lengthy imprisonment before exoneration; Personal toll of wrongful conviction (loss of family); Conditions attached to parole eligibility.",
+      "unparsed_*_**policy_recommendations_calls_to_action**": "Dupree calls for systemic fixes to prevent similar cases.",
+      "unparsed_*_**additional_resources**": null,
+      "unparsed_*_[cornelius_dupree_-_wikipedia]https": "//en.wikipedia.org/wiki/Cornelius_Dupree)",
+      "unparsed_*_[innocence_project_case_profile]https": "//innocenceproject.org/) (Specific Dupree link not in results, but mentioned)"
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Cornelius Dupree Jr.",
+      "first_name": "Cornelius",
+      "middle_name": null,
+      "last_name": "Dupree",
+      "status": "EXONERATED",
+      "conviction_year": 1980,
+      "exoneration_or_release_year": 2011,
+      "time_served": "30 years",
+      "sentence": "75 years",
+      "crime_convicted_of_raw": "Aggravated Robbery (stemming from a 1979 rape/carjacking incident; never tried for rape)",
+      "case_location_city": "Dallas",
+      "case_location_state": "Texas",
+      "narrative_summary": "Cornelius Dupree Jr. was wrongfully convicted of aggravated robbery in 1980 and sentenced to 75 years. He was exonerated by DNA evidence in 2011 after serving 30 years. The case highlights eyewitness misidentification as a contributing factor to his wrongful conviction.",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification (one victim identified him, another did not)",
+        "DNA later excluded him"
+      ],
+      "organizations_involved_raw": [
+        "Innocence Project",
+        "Dallas County District Attorney's Conviction Integrity Unit"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

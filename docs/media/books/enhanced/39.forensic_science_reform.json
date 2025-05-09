@@ -1,0 +1,123 @@
+{
+  "source_file_name": "39.forensic_science_reform.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "Forensic Science Reform: Protecting the Innocent",
+    "creator_name": "Wendy J. Koen and C. Michael Bowers (Editors)",
+    "publication_or_release_year": 2017,
+    "publisher_or_network": "Academic Press (Elsevier)",
+    "format": "Hardcover, eBook",
+    "focus_or_theme": "Examination of flawed forensic science practices that contribute to wrongful convictions and reforms needed to protect innocent people",
+    "key_statistics": "Won the 2018 PROSE Award for Textbook/Social Services from the Association of American Publishers",
+    "recognition_notes": "Won the 2018 PROSE Award for Textbook/Social Services from the Association of American Publishers"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "Forensic Science Reform: Protecting the Innocent is written for the nonscientist to help make complicated scientific information clear and concise enough for attorneys and judges to master.",
+      "This book was made possible by a community of justice seekers who forged a pathway by alerting the world of the plight of the wrongfully convicted and working tirelessly to free them."
+    ],
+    "research_notes_other": {},
+    "systemic_issues_raw": [
+      "Flawed forensic science practices in multiple disciplines including: Compositional Bullet Lead Analysis (Chapter 1), Microscopic Hair Comparison (Chapter 2), Arson Investigation (Chapter 3), Shaken Baby Syndrome (Chapter 4), Bite Mark Evidence (Chapter 5), Firearms Identification (Chapter 6), DNA Evidence (Chapter 7), Blood Testing (Chapter 8), Bloodstain Pattern Analysis (Chapter 9), Crime Scene Reconstruction (Chapter 10), Fingerprint Analysis (Chapter 11)",
+      "Reliance on legal precedent that lags decades behind the science",
+      "Unqualified experts giving testimony in court",
+      "Lack of standardized protocols and guidelines in many forensic disciplines",
+      "Absolute conclusions and problematic error rates in forensic analysis"
+    ],
+    "policy_recommendations_raw": [
+      "Training for prosecuting attorneys on the current state of forensic sciences",
+      "Providing defense attorneys with knowledge to defend clients against flawed science",
+      "Arming innocence projects and appellate attorneys with information to challenge convictions obtained using faulty science",
+      "Implementing standardized protocols and guidelines for forensic analysis",
+      "Improving training for forensic practitioners",
+      "Advancing technology in forensic science disciplines"
+    ],
+    "additional_resources_raw": [
+      "The book contains contributions from leading experts in the field of forensic science",
+      "Each chapter focuses on a specific forensic discipline and includes case studies",
+      "The book offers a detailed overview of both the failures and progress made in forensic sciences"
+    ],
+    "item_title": "Book Content: Forensic Science Reform: Protecting the Innocent",
+    "focus_or_theme": "Examination of flawed forensic science practices that contribute to wrongful convictions and reforms needed to protect innocent people",
+    "summary_notes": "This book examines flawed forensic science practices contributing to wrongful convictions and proposes reforms. It simplifies complex scientific information for non-scientists, using case studies to illustrate problems and solutions.  The book is a resource for legal professionals, innocence projects, and educational institutions.",
+    "case_details_raw": "Brandon Mayfield: Wrongfully accused of the 2004 Madrid train bombings based on erroneous fingerprint identification. Featured in Chapter 11 on Fingerprints. Illustrates how fingerprint identification can go completely wrong even when conducted by highly trusted practitioners.\nLana Canen: Wrongfully convicted as an accomplice in the robbery and murder of 94-year-old Helen Sailor. Served 8 years in prison before exoneration. Featured in Chapter 11 on Fingerprints. Case demonstrates the injustice that follows when unqualified fingerprint \"experts\" give evidence.\nDavid Camm: Wrongfully convicted but later exonerated. Featured in Chapter 9 on Bloodstain Pattern Analysis. Case used to illustrate problems with bloodstain pattern analysis evidence."
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Brandon Mayfield",
+      "first_name": "Brandon",
+      "middle_name": null,
+      "last_name": "Mayfield",
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": "Wrongfully accused of the 2004 Madrid train bombings",
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [
+        "Erroneous fingerprint identification"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [],
+      "cross_reference": "Chapter 11",
+      "individual_notes": "Illustrates how fingerprint identification can go completely wrong even when conducted by highly trusted practitioners"
+    },
+    {
+      "full_name": "Lana Canen",
+      "first_name": "Lana",
+      "middle_name": null,
+      "last_name": "Canen",
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": "Wrongfully convicted as an accomplice in the robbery and murder of 94-year-old Helen Sailor",
+      "sentence": null,
+      "time_served": "8 years",
+      "contributing_factors_raw": [
+        "Unqualified fingerprint \"experts\" giving evidence"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [],
+      "cross_reference": "Chapter 11",
+      "individual_notes": "Case demonstrates the injustice that follows when unqualified fingerprint \"experts\" give evidence"
+    },
+    {
+      "full_name": "David Camm",
+      "first_name": "David",
+      "middle_name": null,
+      "last_name": "Camm",
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": "Wrongfully convicted",
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [
+        "Problems with bloodstain pattern analysis evidence"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [],
+      "cross_reference": "Chapter 9",
+      "individual_notes": "Case used to illustrate problems with bloodstain pattern analysis evidence"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Wendy J. Koen",
+      "role": "AUTHOR",
+      "first_name": "Wendy",
+      "middle_name": "J.",
+      "last_name": "Koen"
+    },
+    {
+      "full_name": "C. Michael Bowers",
+      "role": "AUTHOR",
+      "first_name": "C.",
+      "middle_name": "Michael",
+      "last_name": "Bowers"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "The book is designed as a resource for legal professionals, innocence projects, and educational institutions. It simplifies complex scientific issues for non-scientists, particularly those in the legal field. The book is structured to examine various forensic science disciplines through the lens of wrongful convictions, using specific case studies to illustrate problems and potential solutions.\n\nThe editors have significant experience in this field. Wendy J. Koen was formerly with the California Innocence Project and has been part of litigation teams that successfully represented many clients in wrongful conviction cases. C. Michael Bowers is a Clinical Associate Professor at the Ostrow School of Dentistry, University of Southern California, and a Deputy Medical Examiner in Ventura County, CA.\n\nThe book is particularly valuable for law school courses covering wrongful convictions or undergraduate courses on law, legal ethics, or forensics."
+}

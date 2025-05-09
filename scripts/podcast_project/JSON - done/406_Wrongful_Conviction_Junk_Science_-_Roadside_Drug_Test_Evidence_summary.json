@@ -1,0 +1,91 @@
+{
+    "sourceFileName": "406_Wrongful_Conviction_Junk_Science_-_Roadside_Drug_Test_Evidence_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: Junk Science",
+    "mediaItem": {
+        "hosts": "Kate Judson, Josh Dubin",
+        "releaseYear": "2023",
+        "network": "Lava for Good podcasts and Signal Company No. 1",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Junk science, wrongful convictions, forensic science, criminal justice reform, roadside drug tests, plea deals, systemic issues in the justice system.",
+        "keyStats": "- Roadside drug tests cost about $2 a piece.\n- These tests are highly unreliable and produce false positives.\n- They are used to coerce people into plea deals.\n- Substances like chocolate, cleaning supplies, aspirin, sugar, weight gain powder, candle wax, drywall, and sand can test positive on these kits.\n- ProPublica estimated about 100,000 people a year plead guilty based upon drug test kits alone.\n- In 2018, there were 1.6 million arrests for drug offenses in the US.\n- It can cost thousands of dollars to get a case expunged, even after wrongful conviction.\n- Harris County (Houston) now requires lab verification before plea deals are accepted in drug cases.",
+        "itemNumber": "406",
+        "itemTitle": "Wrongful Conviction Junk Science - Roadside Drug Test Evidence",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction: Junk Science\" focuses on the unreliability of roadside drug tests and their contribution to wrongful convictions.  Hosts Kate Judson and Josh Dubin detail how these inexpensive and inaccurate tests, often misinterpreting common substances as narcotics, are used by law enforcement.  The story of Amy Albritton, wrongfully convicted based on a roadside drug test that identified a food crumb as crack cocaine, illustrates the devastating consequences.  The episode further explains how the pressure to accept plea deals, coupled with the flaws of these tests and inadequate legal representation, leads innocent individuals to plead guilty.  It highlights systemic issues within the justice system, the destruction of evidence post-plea, and the long-lasting harm to exonerees even after release. The podcast emphasizes the importance of investigative journalism in exposing these injustices and advocating for criminal justice reform."
+    },
+    "featuredIndividual": {
+        "fullName": "Amy Albritton",
+        "caseLocation": "Houston, Texas, USA",
+        "convictionYear": "Not explicitly stated in transcript, but occurred before 2014 (when retesting letter was sent).",
+        "exonerationYear": "Around 2014 (when retesting showed food crumb), but the podcast highlights the delayed discovery and impact even after this.",
+        "crimeConvictedOf": "Possession of crack cocaine",
+        "sentence": "45 days in jail (plea deal), served 21 days",
+        "timeServed": "21 days",
+        "contributingFactorsRaw": [
+            "Junk science: Faulty roadside drug test.",
+            "Coercive plea deal: Faced with potential felony and long jail time, pressured to plead guilty despite innocence.",
+            "Inadequate legal representation: Court-appointed attorney advised to take plea deal."
+        ],
+        "status": "Exonerated (evidence retested and found to be food crumb, conviction technically overturned though details of formal exoneration are not in transcript).",
+        "organizationsInvolvedRaw": [
+            "Not mentioned in transcript. ProPublica and New York Times reporters played a role in bringing her story to light later."
+        ],
+        "innocenceLawyersRaw": [
+            "Court-appointed defense attorney, no name given, advised Amy to take the plea deal, highlighting the pressure and backlog in the system."
+        ],
+        "crossReference": "Not explicitly stated, but likely should be cross-referenced in exoneree databases given the detail of her case and media attention.",
+        "narrativeOriginalCrime": "Amy and her boyfriend were driving to Houston for a job interview when they were pulled over for a traffic violation.  During the stop, officers claimed to find a needle and then a substance they alleged was crack cocaine in the car. Amy was arrested for drug possession.",
+        "keyEvidenceProsecutionRaw": [
+            "Roadside drug test result that allegedly indicated the presence of crack cocaine."
+        ],
+        "trialDefenderNotes": "Court-appointed defender advised Amy to take a plea deal to avoid potentially longer jail time and the backlog in lab testing, emphasizing the \"positive\" roadside test result. No challenge to the roadside test mentioned.",
+        "keyEvidenceExonerationRaw": [
+            "The original evidence (the supposed crack cocaine) was not destroyed due to an oversight. Six months later, it was retested by a forensics lab and found to be a food crumb. This retesting and subsequent notification (though delayed) led to the discovery of the wrongful conviction."
+        ],
+        "actualPerpetratorDetails": "Not applicable as this case is about a wrongful conviction due to faulty testing, not misidentification of a perpetrator. The \"crime\" itself was fabricated by the false positive test."
+    },
+    "keyQuotesRaw": [
+        "Kate Judson: \"If we care about justice and we care about the truth, we can't use junk science to lock people up. And that's especially true for folks who haven't yet had trials, folks who are presumed innocent.\"",
+        "Officer (in dramatization): \"Your busted ma'am.\" (after roadside drug test)",
+        "Defense Attorney (in dramatization): \"Ma'am, they tested the substance they found on the floor of your car and it came up positive for crack cocaine. So, according to this test, there was crack in your car.\"",
+        "Greg Glod: \"The problem with the drug kit is that these things are incredibly unreliable, and so they come up positive for things like chocolate, like cleaning supplies, like aspirin, like sugar, weight gain powder, candle wax, drywall. So, sand, they all come back and test positive for narcotics because these things are very unreliable...\"",
+        "Greg Glod:  \"If you can explain to me what a strong orange is compared to a deep orange yellow, please let me know.\" (referring to color interpretations in roadside tests)",
+        "Josh Dubin: \"So if these tests are so problematic, why is law enforcement still using them? Why are they so popular? Well, they're incredibly popular. And the reason that they're so popular is because they're cheap and they allow, and I'm using this term loosely, for officers and prosecutors to gather some sort of chemical evidence early on in the trial and keep that churn of the criminal justice system going.\"",
+        "Josh Dubin: \"This assault on our media makes supporting credible news organizations more important than ever, as it is often under the microscope of their thorough investigative reporting that we uncover and then prevent the junk science behind wrongful convictions.\""
+    ],
+    "systemicIssuesRaw": [
+        "Use of unreliable roadside drug tests.",
+        "Pressure to accept plea deals due to bail, jail conditions, and fear of longer sentences.",
+        "Overburdened public defenders with high caseloads.",
+        "Backlogs in forensic labs delaying accurate testing.",
+        "Destruction of evidence after guilty pleas, hindering potential exoneration.",
+        "Difficulty in expunging records and the persistence of digital criminal records.",
+        "Economic and social consequences of wrongful convictions (job loss, housing insecurity, social stigma).",
+        "Lack of proper training for officers using drug test kits.",
+        "Financial incentives for companies selling cheap, unreliable drug test kits."
+    ],
+    "policyRecommendationsRaw": [
+        "Stop using roadside drug tests as primary evidence for drug charges.",
+        "Require lab verification before accepting plea deals in drug cases (as implemented in Harris County).",
+        "Improve training for law enforcement on drug identification and testing.",
+        "Increase funding for forensic labs to reduce backlogs and ensure timely, accurate testing.",
+        "Reform plea deal practices to reduce coercion and ensure informed decisions.",
+        "Support investigative journalism focused on criminal justice reform and exposing junk science.",
+        "Advocate for easier and more affordable expungement processes, including addressing digital records.",
+        "Consider alternative, more reliable drug testing technologies."
+    ],
+    "personalNarrativeRaw": [
+        "Amy Albritton's life was \"completely turned upside down\" due to the wrongful conviction.",
+        "She lost her job, her home, and faced significant hardship.",
+        "The felony record made it difficult to find employment and housing even after the evidence was retested.",
+        "The psychological and social impact of wrongful conviction is emphasized, including the difficulty of re-assimilation into society and the lasting stigma of a criminal record."
+    ],
+    "additionalResourcesRaw": [
+        "ProPublica articles on roadside drug tests (mentioned in podcast and show notes).",
+        "The Marshall Project (mentioned as a source of quality journalism).",
+        "The New York Times (mentioned as a source of quality journalism that reported on Amy Albritton's case).",
+        "Website of Americans for Prosperity (Greg Glod's organization).",
+        "Innocence Project (Josh Dubin's affiliation)."
+    ]
+}

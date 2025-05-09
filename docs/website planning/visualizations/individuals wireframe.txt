@@ -1,0 +1,89 @@
+Innocence Archive - Individual Case Page Wireframe (Text-Based)This wireframe outlines a potential layout for displaying the story and related information for a specific individual, with an updated "Learn More" section using a grid concept.+--------------------------------------------------------------------------+
+| [Logo]  The Innocence Archive                                            |
+|         Stories of Wrongfully Convicted Americans                        |
++--------------------------------------------------------------------------+
+|                                                                          |
+| Breadcrumbs: [Home] > [Search Results] > [Individual's Name]             |
+|                                                                          |
++--------------------------------------------------------------------------+
+
+======================= [Individual's Full Name] ===========================
+                             Case Profile
+
++--------------------------------------------------------------------------+
+| **Case Summary:**                                                        |
+| [One or two paragraphs summarizing the core details: what they were      |
+| convicted of, key dates (conviction, exoneration if applicable), time    |
+| served, and the primary reasons for the wrongful conviction.]            |
++--------------------------------------------------------------------------+
+
++-----------------------------+--------------------------------------------+
+| **Key Information**         | **The Story**                              |
+|                             |                                            |
+| - State: [State Name]       | **[Sub-heading: e.g., The Crime]**         |
+| - County: [County Name]     | [Detailed narrative text about the crime   |
+| - Conviction Year: [Year]   | for which the individual was convicted.]   |
+| - Exoneration Year: [Year]  |                                            |
+|   or Status: [Current Status] | **[Sub-heading: e.g., Investigation & Trial]** |
+| - Time Served: [Years/Months]| [Detailed narrative text about the        |
+| - Crime Convicted Of:       | investigation, arrest, and trial process.] |
+|   [List of crimes]          |                                            |
+| - Contributing Factors:     | **[Sub-heading: e.g., The Fight for Innocence]** |
+|   - [Factor 1 -> Link]      | [Detailed narrative text about the appeals |
+|   - [Factor 2 -> Link]      | process, key evidence uncovered, legal    |
+|   - [...]                   | battles, etc.]                             |
+|                             |                                            |
+|                             | **[Sub-heading: e.g., Exoneration & Life After]** |
+|                             | [Detailed narrative text about the         |
+|                             | exoneration (if applicable) and challenges |
+|                             | or successes after release.]               |
+|                             |                                            |
+|                             |                                            |
++-----------------------------+--------------------------------------------+
+|                             |                                            |
+| (Alternative Layout Note:   |                                            |
+|  Key Information could also |                                            |
+|  be a horizontal box above  |                                            |
+|  "The Story" section.)      |                                            |
++-----------------------------+--------------------------------------------+
+
+
+======================= Learn More About This Case =========================
+(Resource links presented in a grid format)
+
++----------------------------------+  +-------------------------------------+
+| **Books**                        |  | **Films & Documentaries**           |
+|                                  |  |                                     |
+| - "[Book Title]" by [Author]     |  | - "[Film Title]" (Director/Prod)    |
+|   [-> Link to book info]         |  |   [-> Link to film info]            |
+| - [...]                          |  | - [...]                             |
+|                                  |  |                                     |
+| [See all related books -> Link]  |  | [See all related films -> Link]     |
++----------------------------------+  +-------------------------------------+
+
++----------------------------------+  +-------------------------------------+
+| **Podcasts**                     |  | **Articles & News**                 |
+|                                  |  |                                     |
+| - "[Podcast Series]": Ep "[Title]"|  | - "[Article Title]" - [Source]     |
+|   [-> Link to episode]           |  |   [-> Link to article info]         |
+| - [...]                          |  | - [...]                             |
+|                                  |  |                                     |
+| [See all related podcasts -> Link]|  | [See all related articles -> Link] |
++----------------------------------+  +-------------------------------------+
+
++--------------------------------------------------------------------------+
+| **Organizations Involved:**                                              |
+| - [Organization Name 1 -> Link to Org Profile/Website]                   |
+| - [Organization Name 2 -> Link to Org Profile/Website]                   |
+| - [...]                                                                  |
++--------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------+
+| [<- Back to Search Results Button] [Report an error/Suggest info Button] |
++--------------------------------------------------------------------------+
+
++--------------------------------------------------------------------------+
+| Footer Links: [About] [Contact] [Privacy Policy] [License]               |
++--------------------------------------------------------------------------+
+

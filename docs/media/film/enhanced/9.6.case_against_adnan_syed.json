@@ -1,0 +1,70 @@
+{
+  "source_file_name": "9.6.case_against_adnan_syed.md",
+  "media_work": {
+    "work_type": "DOCUSERIES",
+    "title": "The Case Against Adnan Syed",
+    "creator_name": "Amy Berg",
+    "publication_or_release_year": 2019,
+    "publisher_or_network": "HBO Documentary Films production",
+    "focus_or_theme": "Re-examination of Adnan Syed case (post-\"Serial\"), new evidence, witness interviews, legal appeals, potential cultural bias.",
+    "summaryNotes": "Followed Syed's case leading up to and after his 2022 release.",
+    "availabilityNotes": "Available via HBO Max.",
+    "sourceUrl": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "The Case Against Adnan Syed",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Re-examination of Adnan Syed case (post-\"Serial\"), new evidence, witness interviews, legal appeals, potential cultural bias.",
+    "summary_notes": "This HBO docuseries delves deeper into the evidence and appeals process following the \"Serial\" podcast. It includes access to Syed and his family, examines potential flaws in the state's case, and covers developments leading to his release in 2022. A follow-up episode covering events post-release is reportedly in production.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Directed by Amy Berg; Presents new evidence, interviews key witnesses not in \"Serial\" podcast; Examines impact of cultural/religious bias; Provides updates on legal battle. Available via HBO Max.",
+      "research_findings": "This HBO docuseries delves deeper into the evidence and appeals process following the \"Serial\" podcast. It includes access to Syed and his family, examines potential flaws in the state's case, and covers developments leading to his release in 2022. A follow-up episode covering events post-release is reportedly in production."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Adnan Syed",
+      "first_name": "Adnan",
+      "middle_name": null,
+      "last_name": "Syed",
+      "status": "OTHER",
+      "conviction_year": 2000,
+      "exoneration_or_release_year": 2022,
+      "time_served": "~22 years",
+      "sentence": "Life plus 30 years",
+      "crime_convicted_of_raw": "Murder (of ex-girlfriend Hae Min Lee in 1999)",
+      "case_location_city": "Baltimore County",
+      "case_location_state": "Maryland",
+      "narrative_summary": "Adnan Syed was convicted of the murder of Hae Min Lee in 2000 and sentenced to life plus 30 years. He was released in 2022 after serving approximately 22 years, though his conviction was later reinstated. He is currently free pending further appeals.",
+      "contributing_factors_raw": [
+        "Questions about effectiveness of original defense counsel",
+        "reliability of cell tower data",
+        "potential withheld evidence (alternative suspects)",
+        "possible cultural/religious bias"
+      ],
+      "organizations_involved_raw": [
+        "University of Baltimore Innocence Project Clinic",
+        "Support from advocates like Rabia Chaudry"
+      ]
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Amy Berg",
+      "first_name": "Amy",
+      "middle_name": null,
+      "last_name": "Berg",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

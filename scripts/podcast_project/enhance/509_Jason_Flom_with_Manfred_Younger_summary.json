@@ -1,0 +1,155 @@
+{
+    "sourceFileName": "509_Jason_Flom_with_Manfred_Younger_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2025",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, investigative journalism, legal analysis, systemic issues in the justice system (particularly unreliable informant testimony, suggestive identification procedures, police/prosecutorial misconduct in Camden, NJ).",
+        "keyStats": "-   Camden, NJ described as having a history of poverty and corruption (including federally indicted mayors).\n-   Camden County Police Department taken over by the county around 2013 due to corruption.\n-   High homicide rate noted (e.g., ~60 homicides in 2012 for a city of 75-80k).\n-   Pattern identified in Camden (esp. ~1999-2011) involving Detective Martin Devlin: single photo identifications and use of jailhouse informants.",
+        "itemNumber": "509",
+        "itemTitle": "Jason Flom with Manfred Younger",
+        "itemMediaType": "PODCAST_EPISODE"
+    },
+    "featuredIndividual": {
+        "fullName": "Manfred Younger Jr. (also known as Baby J)",
+        "caseLocation": "Camden, New Jersey, USA",
+        "convictionYear": "2011",
+        "exonerationYear": "Not applicable (Incarcerated)",
+        "crimeConvictedOf": "Murder (Tiera Presley), Attempted Murder (Adrienne Jackson)",
+        "sentence": "78 years total (60 years for murder + 18 years for attempted murder, consecutive sentences), parole eligibility after 66 years.",
+        "timeServed": "Approximately 15 years at the time of podcast recording (incarcerated since late 2007 on various charges, convicted for this crime in 2011).",
+        "contributingFactorsRaw": [
+            "Jailhouse Informant Testimony (Jamie Channer, Jamal Gibbs - both received undisclosed benefits, testimony contained inconsistencies, Gibbs known as serial cooperator, Gibbs later recanted part of his claim to AG's office)",
+            "Suggestive Identification Procedures (Single photo shown to survivor Adrienne Jackson; Tiera Presley's cousin, Tia Hana, pointed Younger out at arraignment under pressure, later recanted)",
+            "Official Misconduct (Investigator Diane Wilson using single photo, pressing witnesses; Detective Martin Devlin's pattern of using single photos/informants; Failure to disclose informant deals - *Brady* violations; Alleged burying of complaint against informant Gibbs by prosecutor's office)",
+            "Inadequate Legal Defense (Failure to call exculpatory eyewitness Richard Barge; failure to use evidence showing Younger was incarcerated when Jackson claimed to see him)"
+        ],
+        "status": "Incarcerated. Pursuing Post-Conviction Relief (PCR) based on actual innocence, *Brady* violations, and fraud upon the court. Case reviewed incompletely by the NJ Attorney General's Conviction Review Unit.",
+        "organizationsInvolvedRaw": [
+            "New Jersey Attorney General's Conviction Review Unit (CRU). Lava for Good (Podcast production)."
+        ],
+        "innocenceLawyersRaw": [
+            "Justin Bonas is actively representing Manfred Younger (since 2022), uncovered new evidence regarding informant deals and witnesses, and filed PCR motions. The original trial lawyer (unnamed) was criticized for ineffective assistance, specifically for not calling eyewitness Richard Barge and not presenting key alibi evidence regarding Jackson's alleged sighting of Younger."
+        ],
+        "crossReference": "Check Required (Cannot determine status in external exoneree database from transcript alone).",
+        "narrativeOriginalCrime": "On June 17, 2007, around 2:30 AM, as bars closed in Camden, NJ, two unidentified men fired multiple shots into a crowd in the poorly lit parking lot of the 7th and Kane lounge. Tiera Presley was killed, and Adrienne Jackson was severely wounded. The shooters fled the scene on foot.",
+        "keyEvidenceProsecutionRaw": [
+            "Adrienne Jackson's Testimony: Identified Manfred Younger (Baby J) after initially being unable to ID anyone, being shown a single photo, and claiming (incorrectly) to have seen Younger on a date he was incarcerated. Also identified co-defendant Anthony Parker (Papa Smurf).",
+            "Tia Hana's Testimony: Identified Younger at arraignment (later recanted, citing coercion) and pointed him out in court (though uncertainly).",
+            "Troy Long's Testimony: Discussed secretly recording Jackson speculating about \"Baby J\" being the shooter.",
+            "Jamie Channer's Testimony (Jailhouse Informant): Claimed Younger confessed; provided inaccurate details about motive (gang initiation), number of shooters (claimed Younger acted alone), and events (victim used as human shield). Denied receiving benefits (later proven false).",
+            "Jamal Gibbs' Testimony (Jailhouse Informant): Claimed Younger confessed, providing an inflammatory motive and quote (\"fuck that bitch...\"). Denied receiving benefits (later proven false - received money, housing, lenient sentence for his own manslaughter plea)."
+        ],
+        "trialDefenderNotes": "-   Objected to prosecutor's suggestive identification prompt to Tia Hana (\"point to the brown skin guy\").\n-   Cross-examined Jackson on his initial inability to identify attackers.\n-   Presented rebuttal witnesses (Milton Gardner, Brian Martinez) to impeach Jamal Gibbs, arguing Gibbs fabricated testimony (\"jumping on cases\").\n-   *Ineffective Counsel Claims (Post-Conviction)*: Failed to call eyewitness Richard Barge, who knew Younger and stated he was not a shooter. Failed to present evidence proving Younger was incarcerated on Sept 6, 2007, contradicting Jackson's testimony about seeing him that day.",
+        "keyEvidenceExonerationRaw": [
+            "Proof of undisclosed deals for informants Channer and Gibbs (*Brady* violations).",
+            "Gibbs' partial recantation to the AG's office (admitting Younger did not confess to him).",
+            "Evidence of Gibbs' unreliability (history as serial cooperator in >10 cases, baby mother's statement he admitted lying, alleged shooting at baby mother's house after release).",
+            "Inconsistencies in Channer's account compared to crime scene evidence/forensics.",
+            "Tia Hana's recantation affidavit stating her ID was coerced.",
+            "Proof Younger was incarcerated on Sept 6, 2007, directly contradicting Jackson's claimed sighting.",
+            "Testimony of uncalled eyewitness Richard Barge stating Younger was not the shooter.",
+            "Testimony of new eyewitness Antoine Stanley stating Younger was not the shooter.",
+            "Testimony of Daryl Debbie (Troy Long's nephew) stating Long suggested \"Baby J\" to Jackson.",
+            "Pattern of official misconduct associated with Detective Martin Devlin and the Camden County Prosecutor's Office."
+        ],
+        "actualPerpetratorDetails": "Not identified. Two shooters were involved who fled on foot. Jackson had conflicts with older individuals in the drug trade, but no specific alternative suspects are named in the transcript. Co-defendant Anthony Parker (Papa Smurf) was acquitted at the original trial."
+    },
+    "keyQuotesRaw": [
+        "\"Jackson again tells them, I don't know who shot me. Okay. And the date of that second interview for Adrian Jackson is a very big deal.\" (Highlighting importance of Sept 6th interview vs Younger's incarceration).",
+        "\"Diane Wilson shows him a photo and says, this is the guy, right? He says, yes... One photo of me. That is the evidence that gets Manfred Younger arrested.\" (Regarding the single photo ID).",
+        "\"Every time he [Channer] talked to her, he'd come back with additional information... Even after five conversations, he still got the details wrong.\" (On Channer's evolving, inaccurate informant testimony).",
+        "Jamal Gibbs' alleged inflammatory quote attributed to Younger: \"fuck that bitch. She all out there in the way, man... eight to 80, cripple and crazy. They can get it, man.\"",
+        "Prosecutor to Tia Hana at trial: \"Point to the brown skin guy.\"",
+        "Justin Bonas: \"It's my belief. That's why the jailhouse informants were so critical in this case.\"",
+        "Manfred Younger: \"I trusted the process thinking that the process was fair, but it obviously is not.\"",
+        "Justin Bonas: \"Manfred younger from my investigation is an innocent man that's been sitting in prison for 15 years for crime. He didn't commit.\"",
+        "Manfred Younger: \"It ain't just me. It's the same pattern with the same guy that pops up in everybody case... same group of detectives Diane Wilson, Jane Sosano, Martin Devlin, Jane Bruno. It's the same detective, same pattern, same wrongdoing in the city of Camden New Jersey.\""
+    ],
+    "systemicIssuesRaw": [
+        "Pervasive use of unreliable and incentivized jailhouse informants.",
+        "Failure to disclose *Brady* material (informant deals).",
+        "Prevalence of suggestive single-photo identification procedures.",
+        "Apparent pattern of police and prosecutorial misconduct tied to specific individuals (Devlin, Wilson) and the Camden County Prosecutor's Office.",
+        "Ineffective assistance of counsel.",
+        "The vulnerability of individuals from impoverished communities like Camden within the justice system.",
+        "Difficulties in achieving post-conviction relief despite compelling evidence.",
+        "Potential cover-ups (e.g., burying complaints against informant Gibbs)."
+    ],
+    "policyRecommendationsRaw": [
+        "Contact NJ Attorney General Matthew Platkin regarding issues in Camden County.",
+        "Write to the Governor of New Jersey.",
+        "Apply pressure to the Camden County Prosecutor's Office.",
+        "Share the podcast episode to raise awareness.",
+        "Follow and support Manfred Younger's advocacy efforts (Instagram: free_maverick).",
+        "Implied call for systemic reforms regarding the use of jailhouse informants and identification methods."
+    ],
+    "personalNarrativeRaw": [
+        "Manfred describes the harsh realities of growing up poor in Camden, feeling forced into street life for survival, and being treated as \"collateral damage.\" He recounts the shock of conviction, the dehumanizing prison conditions (\"cell is the size of like a bathroom\"), and the mental struggle (\"a lot of guys lose their mind down here\"). He details his journey from relying on the flawed legal process to actively investigating his own case (\"I cut my TV off and went through all my trial transcripts\"). His final words are a powerful plea for help, highlighting the systemic injustice affecting many in Camden and his fear of dying in prison an innocent man."
+    ],
+    "additionalResourcesRaw": [
+        "Manfred Younger's Instagram: free_underscore_maverick",
+        "Mention of other Camden cases with similar patterns: Tehran Hill (exonerated), Richard Barge.",
+        "Names of investigators/prosecutors involved: Diane Wilson, Martin Devlin, Jim Pizano (Gibbs' handler), Jane Sosano, Jane Bruno.",
+        "Names of informants: Jamie Channer, Jamal Gibbs.",
+        "Name of key witness not called at trial: Richard Barge.",
+        "Name of other eyewitnesses: Antoine Stanley, Daryl Debbie."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Adrienne Jackson",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": "uncertain"
+            },
+            {
+                "name": "Richard Barge",
+                "role_guess": "Eyewitness",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Tia Hana",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Jane Sosano",
+                "role_guess": "Police Officer",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Jane Bruno",
+                "role_guess": "Police Officer",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Manfred Younger",
+                "role_guess": "Wrongfully Convicted",
+                "is_likely_wc_suggestion": true
+            }
+        ],
+        "llm_extracted_orgs": [
+            "Camden County Prosecutor's Office"
+        ],
+        "llm_extracted_factors": [
+            "Ineffective assistance of counsel",
+            "Post-conviction relief difficulties",
+            "Potential cover-ups",
+            "Vulnerability of individuals from impoverished communities"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Police Misconduct",
+                "Prosecutorial Misconduct",
+                "Inadequate Legal Defense"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

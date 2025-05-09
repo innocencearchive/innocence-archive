@@ -1,0 +1,34 @@
+{
+  "num_pages": 6,
+  "tag_definitions": {
+    "A": "Arson cases",
+    "CDC": "Codefendant confession",
+    "CIU": "Convicti on Integrity Unit",
+    "CSH": "Child sex abuse hysteria or satanic ritual hysteria",
+    "CV": "Child victim",
+    "F": "Female exoneree",
+    "FED": "Federal court prosecution",
+    "H": "Homic ide",
+    "JI": "Jailhouse Informant",
+    "M": "Misdemeanor",
+    "NC": "No crime occurred",
+    "P": "Plea",
+    "PH": "Posthumous exoneration",
+    "SBS": "Shaken baby syndrome",
+    "ID": "at least one eyewitness affirmatively AND MIST AKENLY said th at he"
+  },
+  "categories": {},
+  "methodology": {
+    "definition": [
+      "definition follows.  \n \nExoneration \u2014A person has been exonerated if he or she was convicted of a crime and later was \neither: (1) declared to be factually innocent by a government official or agency with the authority \nto make that declaration; or (2) relieved of all the consequences of the criminal conviction by a \ngovern ment official or body with the authority to take that action."
+    ],
+    "exoneration": [
+      "exoneration  occurs when a person who has been convicted of a crime is officially \ncleared based on new evidence of innocence.  \n \nA more precise definition follows.",
+      "Exoneration \u2014A person has been exonerated if he or she was convicted of a crime and later was \neither: (1) declared to be factually innocent by a government official or agency with the authority \nto make that declaration; or (2) relieved of all the consequences of the criminal conviction by a \ngovern ment official or body with the authority to take that action. The official action may be: (i) \na complete pardon by a governor or other competent authority, whether or not the pardon is \ndesignated as based on innocence; (ii) an acquittal of all charges fact ually related to the crime for \nwhich the person was originally convicted; or (iii) a dismissal of all charges related to the crime \nfor which the person was originally convicted, by a court or by a prosecutor with the authority to \nenter that dismissal.",
+      "exoneration  \n \nFIRST NAME \nFirst name of exoneree, as exoneree identified at the time of exoneration  \n \nAGE AT CRIME YRS \nThe age of the exoneree at the time of the crime in years  \n \nRACE \nRace of ex oneree, as exoneree identifies.  \nBlack  \nHispanic  \nNative  American  : includes Alaska Native  \nOther  : this includes native Hawaiians and Pacific Islanders  \nCaucasian  : refers to white Americans  \nAsian  : includes all peoples on the Asian continent (including Indian , Filipinos, and Indonesians ) \nexcept Russians  \nDon\u2019t  Know  \n\n \nSEX \nSex of exoneree, as exoneree identified at the time of the crime .",
+      "exoneration depended at least in part on \nevidence that the exoneree did not commit arson . \n \nCDC  : Codefendant confession  \nA codefendant of the exoneree, or a person who might have been charged as a \ncodefendant, gave a pre -conviction confession that also implicated the exoneree.",
+      "exoneration.  \n \nCSH  : Child sex abuse hysteria or satanic ritual hysteria  \nThe exoneree was convicted of child sex abuse as part of a wave of child sex abuse \nprosecutions in the 1980s and 1990s based on aggressive and suggestive interviews of \nchildren who were thought to be victims.",
+      "exoneration  \nThe exoneration occurred after the person died, including cases in which a living \ncodefendant was exonerated under circumstances that clearly indicate that the deceased \nperson would have been exonerated if he or she were alive.  \n \nSBS : Shaken baby syndrome  \nThe exoneree was convicted of injuring or killing an infant by violent shaking, based on a \nmedical diagnosis that is now highly controversial.",
+      "exoneration.  \n \n* \nThe factual basis for the exoneration included DNA evidence, but the DNA evidence was not a \nsubstantial factor i n the basis for the exoneration ."
+    ]
+  }

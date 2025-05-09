@@ -1,0 +1,125 @@
+{
+  "source_file_name": "36.when_the_truth.md",
+  "media_work": {
+    "work_type": "BOOK",
+    "title": "When Truth Is All You Have: A Memoir of Faith, Justice, and Freedom for the Wrongly Convicted",
+    "creator_name": "Jim McCloskey with Philip Lerman",
+    "publication_or_release_year": 2020,
+    "publisher_or_network": "Doubleday",
+    "format": "Hardcover, Paperback, eBook, Audiobook",
+    "focus_or_theme": "Memoir of Jim McCloskey's work with Centurion Ministries freeing the wrongfully convicted",
+    "key_statistics": "Centurion Ministries has helped exonerate more than 50 prisoners since its founding"
+  },
+  "media_item": {
+    "item_media_type": "BOOK_CONTENT",
+    "key_quotes_raw": [
+      "\"A riveting and infuriating examination of criminal prosecutions, revealing how easy it is to convict the wrong person and how nearly impossible it is to undo the error.\" —Washington Post",
+      "\"[Exoneration] takes an advocate who is tireless, fearless, and dedicated to justice. A man like Jim McCloskey, the dean of all innocence advocates—The Exonerator\" —from the foreword by John Grisham",
+      "\"No one has illuminated this problem more thoughtfully and persistently than Rev. McCloskey and his extraordinary team at Centurion.\" —Bryan Stevenson, author of Just Mercy"
+    ],
+    "systemic_issues_raw": [
+      "Ease of wrongful convictions in the American justice system",
+      "Difficulty in overturning wrongful convictions",
+      "Reliance on witness testimony that may be false or coerced",
+      "Racial bias in the criminal justice system",
+      "Prosecutorial misconduct",
+      "Police misconduct in investigations"
+    ],
+    "policy_recommendations_raw": [
+      "Reforms to prevent wrongful convictions",
+      "Better systems for reviewing potential wrongful convictions",
+      "Improved support for exonerees after release",
+      "Greater accountability for prosecutors and police who contribute to wrongful convictions"
+    ],
+    "additional_resources_raw": [
+      "Centurion Ministries (now known simply as Centurion)",
+      "The Innocence Project",
+      "National Registry of Exonerations",
+      "\"Framed: Astonishing True Stories of Wrongful Convictions\" by John Grisham and Jim McCloskey (2024)"
+    ],
+    "research_notes_other": {},
+    "item_title": "Book Content: When Truth Is All You Have: A Memoir of Faith, Justice, and Freedom for the Wrongly Convicted",
+    "focus_or_theme": "Memoir of Jim McCloskey's work with Centurion Ministries freeing the wrongfully convicted",
+    "summary_notes": "A memoir detailing Jim McCloskey's journey from a management consultant to a leading advocate for the wrongfully convicted, focusing on his work with Centurion Ministries and highlighting various cases, systemic issues within the justice system, and policy recommendations for reform.  The book also explores McCloskey's personal and spiritual journey.",
+    "case_details_raw": "The book features several cases handled by Centurion Ministries, including that of Jorge de los Santos (the first case that inspired McCloskey), Clarence Brandley (where perjured testimony played a role), and Walter McMillian (also featured in Bryan Stevenson's \"Just Mercy\").  Specific details about the crimes, convictions, and sentences are not provided in the available source."
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Jorge de los Santos",
+      "first_name": "Jorge",
+      "middle_name": "de los",
+      "last_name": "Santos",
+      "case_location": "New Jersey",
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": null,
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [
+        "Centurion Ministries"
+      ],
+      "cross_reference": "First case that inspired Jim McCloskey to found Centurion Ministries",
+      "individual_notes": null
+    },
+    {
+      "full_name": "Clarence Brandley",
+      "first_name": "Clarence",
+      "middle_name": null,
+      "last_name": "Brandley",
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": null,
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [
+        "Perjured testimony"
+      ],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [
+        "Centurion Ministries"
+      ],
+      "cross_reference": "James McCloskey of Centurion Ministries took up Brandley's case and established that key testimony implicating Brandley had been perjured",
+      "individual_notes": null
+    },
+    {
+      "full_name": "Walter McMillian",
+      "first_name": "Walter",
+      "middle_name": null,
+      "last_name": "McMillian",
+      "case_location": null,
+      "conviction_year": null,
+      "exoneration_or_release_year": null,
+      "crime_convicted_of": null,
+      "sentence": null,
+      "time_served": null,
+      "contributing_factors_raw": [],
+      "status_raw": "Exonerated",
+      "organizations_involved_raw": [
+        "Centurion Ministries"
+      ],
+      "cross_reference": "Featured in the book \"Just Mercy\" by Bryan Stevenson",
+      "individual_notes": null
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Jim McCloskey",
+      "role": "AUTHOR",
+      "first_name": "Jim",
+      "middle_name": null,
+      "last_name": "McCloskey"
+    },
+    {
+      "full_name": "Philip Lerman",
+      "role": "AUTHOR",
+      "first_name": "Philip",
+      "middle_name": null,
+      "last_name": "Lerman"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": "Jim McCloskey founded Centurion Ministries in 1983, the first organization in America devoted to overturning wrongful convictions. His journey began when he was a chaplain at Trenton State Prison in 1980, where he met Jorge de los Santos, who claimed innocence. After investigating the case, McCloskey became convinced of de los Santos's innocence and worked to free him.\n\nThe book chronicles McCloskey's journey from a former management consultant who enrolled at Princeton Theological Seminary at the age of 37 to becoming one of the foremost advocates for the wrongfully convicted. John Grisham, who wrote the foreword to the book, calls McCloskey \"the dean of all innocence advocates.\"\n\nThe memoir details not only the cases McCloskey worked on but also the personal and spiritual journey that led him to dedicate his life to freeing the innocent. The book has been praised for its compassionate portrayal of the wrongfully convicted and its illumination of flaws in the criminal justice system."
+}

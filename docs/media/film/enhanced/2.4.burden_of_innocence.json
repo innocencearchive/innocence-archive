@@ -1,0 +1,68 @@
+{
+  "source_file_name": "2.4.burden_of_innocence.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "FRONTLINE",
+    "creator_name": "Ofra Bikel",
+    "publication_or_release_year": 2003,
+    "publisher_or_network": "PBS/WGBH",
+    "focus_or_theme": "Life after exoneration; Lack of support, compensation, and difficulties reintegrating into society.",
+    "summaryNotes": "Focuses on the challenges exonerees face after release, including psychological trauma, finding housing/employment, and the lack of state support.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "*_**title**": "FRONTLINE",
+    "*_**episode__and_title_if_applicable**": "Burden of Innocence",
+    "*_**directors**": "Ofra Bikel (Also Writer/Producer)",
+    "*_**release_year**": "2003",
+    "*_**production_companyies**": "A FRONTLINE Co-Production with Ofra Bikel Productions (PBS/WGBH)",
+    "*_**format**": "Documentary",
+    "*_**focus_theme**": "Life after exoneration; Lack of support, compensation, and difficulties reintegrating into society.",
+    "*_**key_statistics_information**": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Burden of Innocence",
+    "item_number": "Season Unknown, Episode Unknown",
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Life after exoneration; Lack of support, compensation, and difficulties reintegrating into society.",
+    "summary_notes": "Documentary focusing on the difficulties faced by exonerees after release, including psychological trauma, housing/employment challenges, and the lack of state compensation and support services. It implicitly calls for better post-exoneration support systems and compensation for the wrongly convicted.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [
+      "Difficulties faced by exonerees after release, including psychological trauma",
+      "Finding housing/employment",
+      "Lack of state compensation and support services"
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for better post-exoneration support systems and compensation for the wrongly convicted"
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://www.pbs.org/wgbh/frontline/wgbh/pages/frontline/shows/burden/etc/credits.html",
+        "description": "FRONTLINE: Burden of Innocence Credits"
+      }
+    ],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "unparsed_*_**key_quotes_moments**": null,
+      "unparsed_*_**systemic_issues_identified**": "Difficulties faced by exonerees after release, including psychological trauma, finding housing/employment, lack of state compensation and support services.",
+      "unparsed_*_**policy_recommendations_calls_to_action**": "Implicitly calls for better post-exoneration support systems and compensation for the wrongly convicted.",
+      "unparsed_*_**additional_resources**": null,
+      "unparsed_*_[frontline": "Burden of Innocence Credits](https://www.pbs.org/wgbh/frontline/wgbh/pages/frontline/shows/burden/etc/credits.html)",
+      "unparsed_*_photography_book_\"the_innocents\"_by_taryn_simon_associated_with_the_documentary_[cite": "10.1]",
+      "unparsed_*_pbs_frontline_website_[cite": "6, 10.1]"
+    }
+  },
+  "featured_individuals": [],
+  "involved_persons": [
+    {
+      "full_name": "Ofra Bikel",
+      "first_name": "Ofra",
+      "middle_name": null,
+      "last_name": "Bikel",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

@@ -1,0 +1,44 @@
+{
+  "source_file_name": "9.7.frank_serpico.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Serpico",
+    "publication_or_release_year": 1973,
+    "publisher_or_network": "Produzioni Europee Associate (Based on external knowledge, not search)",
+    "focus_or_theme": "Police corruption in NYPD, whistleblowing, integrity vs. systemic pressure.",
+    "summaryNotes": "Based on the real-life story of NYPD detective Frank Serpico.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Serpico",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Police corruption in NYPD, whistleblowing, integrity vs. systemic pressure.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Themes include police corruption, integrity in law enforcement. Available via Hulu, Amazon.",
+      "research_findings": "This classic film directed by Sidney Lumettells the true story of Frank Serpico's dangerous efforts to expose corruption within the NYPD in the 1960s and 70s. While a powerful indictment of police misconduct, its narrative centers on Serpico's personal battle rather than the specific downstream consequences like wrongful convictions."
+    }
+  },
+  "featured_individuals": [],
+  "involved_persons": [
+    {
+      "full_name": "Sidney Lumet",
+      "role": "DIRECTOR",
+      "first_name": "Sidney",
+      "middle_name": null,
+      "last_name": "Lumet"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

@@ -1,0 +1,73 @@
+{
+  "source_file_name": "4.6the_confession.md",
+  "media_work": {
+    "work_type": "UNKNOWN",
+    "title": "The Confession (Dateline NBC) (Likely refers to \"In the Shadow of Justice: The Confession\")",
+    "publication_or_release_year": 2015,
+    "publisher_or_network": "NBC News (assumed for Dateline)",
+    "focus_or_theme": "Wrongful conviction, multiple trials, exoneration after lengthy imprisonment.",
+    "summaryNotes": "Case involved 3 trials over 13 years.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "UNKNOWN",
+    "item_title": "Season 24, Episode 6: \"In the Shadow of Justice: The Confession\"",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction, multiple trials, exoneration after lengthy imprisonment.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Former state trooper wrongfully convicted of murdering his family; convicted twice before being exonerated at third trial after evidence pointing to actual perpetrator admitted. Available via NBC/Peacock.",
+      "research_findings": "David Camm, a former Indiana trooper, endured three trials for the murder of his family. Key issues included shifting timelines, disputed forensic evidence (especially blood spatter), and the eventual identification of Charles Boney via DNA found on a sweatshirt at the scene. The Dateline episode likely covers this complex legal battle spanning over a decade. The episode appears titled \"In the Shadow of Justice: The Confession\", rather than just \"The Confession.\""
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "Georgetown",
+      "case_location_state": "Indiana",
+      "conviction_year": 2002,
+      "exoneration_or_release_year": 2013,
+      "crime_convicted_of_raw": "Murder (of wife Kim, son Bradley, daughter Jill in 2000)",
+      "sentence": "Originally life without parole (external knowledge)",
+      "time_served": "13 years",
+      "contributing_factors_raw": [
+        "Flawed initial time of death estimate, misinterpreted blood spatter evidence, focus on infidelity as motive, tunnel vision ignoring evidence pointing to actual killer (Charles Boney, whose DNA was found on sweatshirt)"
+      ],
+      "status_raw": "Acquitted at third trial",
+      "organizations_involved_raw": [],
+      "full_name": "David Camm [cite: 40",
+      "first_name": "David",
+      "middle_name": "Camm [cite:",
+      "last_name": "40"
+    },
+    {
+      "case_location_city": "Georgetown",
+      "case_location_state": "Indiana",
+      "conviction_year": 2002,
+      "exoneration_or_release_year": 2013,
+      "crime_convicted_of_raw": "Murder (of wife Kim, son Bradley, daughter Jill in 2000)",
+      "sentence": "Originally life without parole (external knowledge)",
+      "time_served": "13 years",
+      "contributing_factors_raw": [
+        "Flawed initial time of death estimate, misinterpreted blood spatter evidence, focus on infidelity as motive, tunnel vision ignoring evidence pointing to actual killer (Charles Boney, whose DNA was found on sweatshirt)"
+      ],
+      "status_raw": "Acquitted at third trial",
+      "organizations_involved_raw": [],
+      "full_name": "1.1]",
+      "first_name": "1]",
+      "middle_name": null,
+      "last_name": null
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

@@ -1,0 +1,79 @@
+{
+    "sourceFileName": "178_False_Confessions_Tommy Ward_Part_2_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: False Confessions",
+    "mediaItem": {
+        "hosts": "Lauren Nyreider, Steve Drizen",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts in association with Signal Company No. 1",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, false confessions, police interrogation tactics, prosecutorial misconduct, hidden evidence, fight for exoneration.",
+        "keyStats": "- Two wrongful convictions in Ada, Oklahoma based on dream confessions.\n- 860 pages of exculpatory evidence were withheld by the prosecution.\n- Carl Fontenot was released in 2019 after 34 years of wrongful imprisonment.\n- Tommy Ward's conviction was overturned in December 2020, but he remained in prison pending appeal at the time of the recording.",
+        "itemNumber": "178",
+        "itemTitle": "False Confessions Tommy Ward Part 2",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction: False Confessions\" continues the story of Tommy Ward and Carl Fontenot, wrongfully convicted for the murder of Denise Haraway in Ada, Oklahoma. Their convictions were based on confessions obtained after lengthy police interrogations, confessions later proven to be factually incorrect and derived from a dream Tommy Ward described.  A key piece of prosecution evidence was a detail about the victim's blouse, seemingly unknown to police until the confessions. However, newly discovered evidence, 860 pages withheld by prosecution, revealed police knew about the blouse description prior to interrogations and contained alibi evidence for Tommy Ward.  This revelation led to Carl Fontenot's release in 2019 after 34 years, and in December 2020, Tommy Ward's conviction was also overturned, though he remained in custody pending a prosecutor's appeal at the time of this recording. The episode underscores the devastating consequences of false confessions and prosecutorial misconduct within the justice system."
+    },
+    "featuredIndividual": {
+        "fullName": "Carl Fontenot",
+        "caseLocation": "Ada, Oklahoma, USA",
+        "convictionYear": "1985 (approximately)",
+        "exonerationYear": "2019 (released on bond after conviction overturned)",
+        "crimeConvictedOf": "Murder of Denise Haraway",
+        "sentence": "Initially death row, later life imprisonment",
+        "timeServed": "34 years",
+        "contributingFactorsRaw": [
+            "False confession, undisclosed exculpatory evidence (prosecutorial misconduct)."
+        ],
+        "status": "Conviction overturned, released on bond (exonerated).",
+        "organizationsInvolvedRaw": [
+            "Center on Wrongful Convictions (likely), Oklahoma Innocence Project (community of exonerees mentioned)."
+        ],
+        "innocenceLawyersRaw": [
+            "Partnered with Center on Wrongful Convictions (not named specifically in transcript)."
+        ],
+        "crossReference": "Not mentioned in transcript.",
+        "narrativeOriginalCrime": "Same as Tommy Ward's confession.",
+        "keyEvidenceProsecutionRaw": [
+            "Confession to the crime, specifically the detail about Denise Haraway's blue blouse with lace."
+        ],
+        "trialDefenderNotes": "Not detailed explicitly but implied to be ineffective.",
+        "keyEvidenceExonerationRaw": [
+            "Same undisclosed evidence as in Tommy Ward's case."
+        ],
+        "actualPerpetratorDetails": "Not mentioned in the transcript."
+    },
+    "keyQuotesRaw": [
+        "\"These confessions were obviously, obviously false.\" (Steve Drizen describing the initial confessions)",
+        "\"But based on this one detail in their confessions, Tommy and Carl were convicted of murder.\" (Lauren Nyreider explaining the weight given to the blouse detail)",
+        "\"You're all liars, he shouted at the prosecutors. I'm being punished for something I didn't do.\" (Tommy Ward's reaction to the second guilty verdict)",
+        "\"This eviscerates the state's case.\" (Steve Drizen on the revelation that police knew about the blouse description beforehand)",
+        "\"When you put this all together, there is just no question that Tommy Ward and Carl Fontenot are absolutely innocent of this crime.\" (Steve Drizen summarizing the impact of the new evidence)"
+    ],
+    "systemicIssuesRaw": [
+        "False confessions induced by police interrogation tactics.",
+        "Prosecutorial misconduct through withholding exculpatory evidence.",
+        "Ineffective assistance of counsel at trial (implied).",
+        "Juror reliance on confessions despite contradictory evidence.",
+        "Potential for \"dream confessions\" to be taken as factual basis for conviction."
+    ],
+    "policyRecommendationsRaw": [
+        "Implicit call for justice for Tommy Ward's full exoneration.",
+        "Highlight need for transparency and full disclosure of evidence in criminal cases.",
+        "Underscores the importance of organizations like the Center on Wrongful Convictions in rectifying miscarriages of justice.",
+        "Raises awareness about the dangers of false confessions and the need for reform in interrogation practices."
+    ],
+    "personalNarrativeRaw": [
+        "Tommy Ward's enduring faith and kindness, even in prison, exemplified by his concern for others and his hobbies.",
+        "Carl Fontenot's creation of toothpick art in prison reflecting his isolation and lack of connection to the outside world.",
+        "Melvin Ward's unwavering dedication to his brother Tommy's case over decades.",
+        "The global support for Tommy and Carl's innocence generated by media coverage.",
+        "Tommy Ward's aspiration to use his woodworking skills to help the elderly upon release."
+    ],
+    "additionalResourcesRaw": [
+        "Books: \"Dreams of Ada\" by Robert Mayer, \"The Innocent Man\" by John Grisham",
+        "Netflix Series: \"The Innocent Man\"",
+        "Organization: The Center on Wrongful Convictions at Northwestern University Pritzker School of Law",
+        "Podcast: \"Wrongful Conviction: False Confessions\""
+    ]
+}

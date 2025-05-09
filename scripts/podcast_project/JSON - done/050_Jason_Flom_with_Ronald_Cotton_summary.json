@@ -1,0 +1,83 @@
+{
+    "sourceFileName": "050_Jason_Flom_with_Ronald_Cotton_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2018",
+        "network": "Lava for Good podcasts in association with signal company number one",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, eyewitness misidentification, impact on exonerees and victims, justice system reform.",
+        "keyStats": "- America has 2.2 million people in prison.\n- Just 1% wrongful conviction rate means 22,000 people are wrongly imprisoned.\n- Ronald Cotton was wrongfully convicted based on eyewitness identification and served 11 years before exoneration through DNA evidence.\n- Jennifer Thompson, the victim, initially identified Ronald Cotton and later met and forgave him after his exoneration.\n- Healing Justice is an organization focused on addressing the harm caused by wrongful convictions to exonerees, victims, and their families.",
+        "itemNumber": "050",
+        "itemTitle": "Jason Flom with Ronald Cotton",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the story of Ronald Cotton and Jennifer Thompson, highlighting a case of wrongful conviction due to eyewitness misidentification. Jennifer Thompson was raped in 1984 and identified Ronald Cotton as her attacker, leading to his conviction and 11-year imprisonment.  DNA evidence eventually exonerated Cotton and identified Bobby Poole as the actual perpetrator. The episode explores the devastating impact of wrongful convictions on both the wrongly accused and the victims of crime.  It details Jennifer's initial certainty, the flaws in eyewitness identification, and the remarkable journey of forgiveness and reconciliation between Jennifer and Ronald after his exoneration.  The podcast also introduces Healing Justice, an organization founded to address the long-term harm caused by wrongful convictions and promote healing for all affected parties.  The episode underscores systemic failures within the justice system and calls for reforms and increased awareness to prevent future wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Ronald Cotton",
+        "caseLocation": "Burlington, North Carolina, USA",
+        "convictionYear": "1984",
+        "exonerationYear": "1995",
+        "crimeConvictedOf": "Rape, Burglary",
+        "sentence": "Life plus 54 years",
+        "timeServed": "11 years",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification, cross-racial identification, suggestive lineup procedures (Ronald Cotton was the only person in both photo and live lineups)."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (implied through host’s support and general knowledge of IP's work in DNA exonerations, though not explicitly stated in transcript for this specific case), UNC Law School (students involved in DNA testing request)."
+        ],
+        "innocenceLawyersRaw": [
+            "Tom Lambert (Lawyer mentioned in transcript as being present at the meeting between Jennifer and Ronald.  Further details not provided in transcript.) Tiger Horner (Lawyer mentioned in transcript who wrote to Ronald and worked on his case after his letter to court of appeals)."
+        ],
+        "crossReference": "Yes (Appears in the exoneree database - assumption based on the nature of the podcast and common databases for wrongful convictions).",
+        "narrativeOriginalCrime": "Jennifer Thompson was raped in her apartment in Burlington, North Carolina, in July 1984. The perpetrator broke into her apartment, assaulted her, and stole items.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness identification by Jennifer Thompson, who was \"100% sure\" Ronald Cotton was her attacker both in court and prior lineups. Similar clothing description from another attempted burglary and rape victim."
+        ],
+        "trialDefenderNotes": "The defense attorney attempted to question Jennifer's character by suggesting her attire (underwear) invited the rape, which backfired with the jury.  The transcript does not provide details on other defense strategies but mentions they continued to fight the case on appeal.",
+        "keyEvidenceExonerationRaw": [
+            "Post-conviction DNA testing of sperm fragments from the rape kit conclusively excluded Ronald Cotton and matched Bobby Poole."
+        ],
+        "actualPerpetratorDetails": "Bobby Poole was identified by DNA evidence as the actual perpetrator. He was an inmate at the same prison as Ronald Cotton and confessed to another inmate about committing the crime Ronald was convicted of. Bobby Poole died in prison (from cancer) after Ronald's exoneration. He was also responsible for other sexual assaults in the same period."
+    },
+    "keyQuotesRaw": [
+        "Jennifer: \"Even as she was being raped, Jennifer summoned the strength to study her attacker. She tried to memorize his face, his eyes, his hair.\"",
+        "Jennifer: \"He changed me that night in ways that I, you know, the girl was just, the girl died that night.\"",
+        "Ronald: \"Having to hear those people say that I was guilty of a crime that I did not commit, and then hear my family break down behind me and not be able to do anything about it, I can't describe the crushing weight that was.\"",
+        "Ronald (singing in court): \"Because my future's so unknown to me and that I could no longer take.\"",
+        "Jennifer (at the meeting with Ronald): \"if I spent the rest of my life telling you how sorry I am, can you ever forgive me?\"",
+        "Ronald (to Jennifer): \"I'm not angry at you. I forgave you years ago and Bobby Poole did this to both of us.\"",
+        "Jennifer: \"when a wrongful conviction happens at the center of all of it is a perpetrator. And when we don't get it right, we've left the perpetrator on the streets to commit further harm, something that I refer to as wrongful liberty.\"",
+        "Ronald: \"when someone tell you that they are innocent, I have an open ear and an open eye to reach out and touch and love very much because it's putting my foot in front of the other.\""
+    ],
+    "systemicIssuesRaw": [
+        "Flawed eyewitness identification procedures, especially cross-racial identifications.",
+        "Suggestive lineup procedures.",
+        "Confirmation bias in police investigations (reinforcing Jennifer's identification).",
+        "Lack of focus on the victim’s needs and long-term harm in wrongful conviction cases.",
+        "Inadequate compensation laws for exonerees.",
+        "Media portrayal often blames victims of misidentification rather than focusing on systemic failures and perpetrators."
+    ],
+    "policyRecommendationsRaw": [
+        "Reform eyewitness identification procedures to reduce suggestiveness and bias.",
+        "Improve training for law enforcement and prosecutors on the fallibility of eyewitness testimony.",
+        "Advocate for fair and adequate compensation for exonerees.",
+        "Support organizations like Healing Justice Project to address the holistic harm of wrongful convictions.",
+        "Increase public awareness about the causes and consequences of wrongful convictions."
+    ],
+    "personalNarrativeRaw": [],
+    "jennifer": "Describes the trauma of the rape, her commitment to identifying her attacker, the devastation of realizing she was wrong, the public blame and threats she faced, and her journey towards healing and founding Healing Justice Project.  Her final thoughts emphasize the focus should be on the perpetrator who benefits when the system fails.",
+    "ronald": "Narrates his shock at being arrested and convicted for a crime he didn't commit, the hardship of prison, his internal fight for justice, his encounter with Bobby Poole in prison, and his eventual exoneration. His final thoughts are about forgiveness, resilience, and his faith, emphasizing the importance of believing those who claim innocence.",
+    "additionalResourcesRaw": [
+        "Mr. Ballon podcast (advertisement within the podcast episode).",
+        "Talkspace (advertisement within the podcast episode).",
+        "myable.org (advertisement within the podcast episode).",
+        "Walsh College (advertisement within the podcast episode).",
+        "Spotlight Snitch City podcast (advertisement within the podcast episode).",
+        "Innocence Project (mentioned at the end as a cause to support: InnocenceProject.org).",
+        "Healing Justice Project (mentioned by Jennifer as her organization: healingjusticeproject.org)."
+    ]
+}

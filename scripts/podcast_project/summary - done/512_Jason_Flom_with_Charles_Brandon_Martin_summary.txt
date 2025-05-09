@@ -1,0 +1,106 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Episode Title Not Explicitly Stated, Subject: Charles Brandon Martin (File name suggests internal #403)
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: Ongoing Series (Specific episode release year not stated in transcript)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts, Signal Company Number One
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, Legal Analysis, Personal Narrative, Investigative Elements, Systemic Failures (Brady Violations, False Testimony)
+-   **Key Statistics/Information**:
+    -   Mitochondrial DNA analysis could rule out 99.94% of North Americans but still matched potentially 180,000 Americans / 30,000 Maryland residents.
+    -   Charles Brandon Martin received a life sentence.
+    -   Post-conviction relief granted in 2016, but new trial still pending due to state delays as of the podcast recording.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction details the case of Charles Brandon Martin, convicted for the 2008 shooting of Jodie Lynn Torek in Maryland, which resulted in the loss of her pregnancy. The state alleged Martin, one potential father, arranged the attack to avoid child support, claiming he used a makeshift Gatorade bottle silencer. His conviction heavily relied on testimony from Sherry Carter about alleged internet searches for silencer instructions on a supposedly destroyed computer, and Michael Bradley, who implicated Martin after changing his initial story which corroborated Martin's alibi. Post-conviction, it was revealed the state withheld crucial Brady evidence: forensic analysis proving no such searches occurred on Martin's computer and Bradley's initial contradictory statement. Despite alternative suspects like Maggie McFadden and flawed evidence presentation, Martin was convicted; his conviction was vacated in 2016, but the state continues to delay the granted new trial.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Charles Brandon Martin (goes by Brandon)
+-   **Case Location**: Anne Arundel County, Maryland, USA (Crime Location); Charles County, Maryland, USA (Residence/Arrest Location)
+-   **Conviction Year**: 2010
+-   **Exoneration Year**: N/A (Conviction Vacated, Awaiting New Trial)
+-   **Crime Convicted Of**: Attempted Murder (and likely related charges, though not fully specified)
+-   **Sentence**: Life Sentence
+-   **Time Served**: Over 14 years (Arrested March 30, 2009, convicted 2010, still incarcerated at time of recording)
+-   **Contributing Factors**:
+    -   Withheld Exculpatory Evidence (Brady Violation): State failed to disclose computer forensic analysis disproving internet searches for silencers; failed to disclose Michael Bradley's initial statement corroborating Martin's alibi.
+    -   False/Perjured Testimony: Sherry Carter lied about computer searches and destruction; Michael Bradley changed his story under immunity deal.
+    -   Police/Prosecutorial Tunnel Vision: Focused on Martin early despite his alibi and lack of confirmed motive.
+    -   Unreliable Witness Testimony: Key witnesses (Carter, Bradley) had credibility issues and/or incentives to lie.
+    -   Junk Science/Misleading Forensics: Gatorade bottle presented as a silencer based on a detective's memory of a movie, with no expert validation; mitochondrial DNA presented without fully conveying its limitations.
+    -   Potential Official Misconduct: Knowingly using false testimony (Carter); suppressing exculpatory evidence.
+-   **Legal Status**: Conviction Vacated (2016), Granted a New Trial, Awaiting New Trial due to state appeals/delays.
+-   **Organizations Involved**: Skadden, Arps, Slate, Meagher & Flom LLP (Assisted on Appeal)
+-   **Innocence Lawyer Details**:
+    -   Beth Franzozo and Donna Fairman: Current attorneys preparing for the new trial.
+    -   Justin Brown: Attorney who handled the post-conviction proceedings, discovering the withheld evidence regarding the computer analysis.
+    -   Skadden Lawyers: Represented Martin successfully before the 4th Circuit Court of Appeals.
+-   **Cross-Reference**: Cannot determine solely from transcript.
+-   **Narrative of Original Crime**: On October 27, 2008, Jodie Lynn Torek, who was two months pregnant, answered a knock at her front door from someone claiming to be a salesman. She was shot, suffering serious injuries and losing the pregnancy, but survived. She was found unconscious in her doorway by her roommate.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Sherry Carter's Testimony: Claimed Martin searched for silencer instructions online, destroyed the computer, and possessed a handgun.
+    -   Michael Bradley's Testimony: Claimed Martin helped prepare the Gatorade bottle "silencer" and left with Jerry Burks near the time of the shooting (contradicting his initial statement and given under an immunity deal).
+    -   Gatorade Bottle: Presented as a makeshift silencer found near the scene. Linked to Martin via non-unique mitochondrial DNA and a mixed DNA profile (which also didn't exclude the victim).
+    -   Detective Testimony: Speculated the bottle was a silencer based on seeing one in a Steven Seagal movie.
+    -   Text Messages: Innocuous texts between Martin and the victim presented as evidence of planning or checking her location.
+-   **Trial Defender Notes**:
+    -   Argued the Gatorade bottle was likely a bong used socially, explaining the mixed DNA including the victim's.
+    -   Challenged the conclusiveness of the DNA evidence.
+    -   Pointed to alternative suspects: Emmanuel (victim's other boyfriend), Maggie McFadden (Martin's other partner with alleged violent tendencies), Steve Burnett (McFadden's friend who lied about whereabouts).
+    -   Presented testimony from Martin's wife about their open arrangement to counter the alleged motive.
+    -   Cross-examined Michael Bradley regarding his immunity deal and history of lying.
+    -   *Crucially, the defense was unaware the state possessed evidence disproving Carter's testimony about computer searches and contradicting Bradley's trial testimony.*
+-   **Key Evidence for Exoneration/Change in Legal Status**: Post-conviction discovery that the State possessed and withheld (Brady Violations):
+    -   Forensic analysis reports of Martin's computers showing no searches related to making silencers, directly contradicting Sherry Carter's key testimony.
+    -   Michael Bradley's initial police interview statement where he corroborated Martin's alibi for the time of the shooting, directly contradicting his trial testimony given under an immunity deal.
+    -   Mention of potentially lost/missing street camera footage near the victim's home.
+-   **Actual Perpetrator Details**: Not identified. Several individuals mentioned as having potential motive or suspicious circumstances:
+    -   Maggie McFadden: Another partner of Martin's, reportedly threatened others, implicated herself according to Michael Bradley and Sherry Carter.
+    -   Emmanuel: The victim's other boyfriend, reportedly unhappy about the pregnancy/paternity uncertainty.
+    -   Steve Burnett: Friend of Maggie McFadden, lied to police about his whereabouts on the day of the shooting.
+    -   Jerry Burks: Implicated by Michael Bradley as the shooter hired by Martin, but was tried and acquitted. Transcript implies Burks was likely innocent.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "Detective Richard Almond testified it reminded him of a makeshift silencer he'd seen in a Steven Segal movie."
+    -   Sherry Carter testifying that Brandon destroyed a computer after searching for silencer instructions, later proven false by withheld state evidence.
+    -   Michael Bradley admitting on cross-examination he testified partly because his sister, Maggie McFadden, asked for protection because she was "involved" in the shooting.
+    -   The jury instruction allowing guilt inference from concealing the computer, based entirely on Carter's false testimony: "concealment of evidence... may be considered as evidence of guilt."
+    -   Brandon discovering the computer analysis evidence in police files post-conviction: "I saw it and I'm just... I'm like oh this is what I've been talking about all along."
+    -   Beth Franzozo summarizing the Brady violation: "...it was the government that was hiding the evidence and they did it to secure this false conviction against Brandon."
+    -   Brandon on prison purpose: "...while I'm in here I'm going to continue to try to help people because I've always done that... just try to keep the positive mindset while continuing to fight for right really for justice for the truth."
+-   **Systemic Issues Identified**:
+    -   Withholding of Exculpatory Evidence (Brady Violations) by the prosecution.
+    -   Police and Prosecutorial Tunnel Vision, focusing on an early suspect despite contradictory evidence.
+    -   Reliance on Unreliable/Incentivized Witnesses (deals for testimony, witnesses with clear biases or motives to lie).
+    -   Knowing Presentation of False Testimony by the State.
+    -   Use of Junk Science / Unvalidated Forensic Theories presented as fact (movie-based silencer theory).
+    -   Misleading Presentation of Complex Forensic Evidence (mitochondrial DNA limitations not fully conveyed).
+    -   Impact of Pre-Trial Media Coverage biased by police narratives influencing jury pool.
+    -   Significant Delays in the Post-Conviction and Appellate Process hindering justice.
+    -   Mention of potential racial bias from a witness (Jessica Higgs), though not a central legal argument discussed.
+    -   Brutality and Normalization of Violence within the Prison System (referencing the Robert Brooks case).
+-   **Policy Recommendations/Calls to Action**: None explicitly stated, but the case strongly implies the need for:
+    -   Stricter enforcement of Brady disclosure obligations.
+    -   Greater scrutiny of deals offered for testimony.
+    -   Independent validation of forensic theories used in court.
+    -   Mechanisms to expedite post-conviction relief when clear errors (like Brady violations) are found.
+-   **Personal Narrative/Impact**:
+    -   Brandon emphasizes the profound importance of fatherhood and the immense pain caused by being separated from his children during their formative years.
+    -   He describes the shock and trauma of being arrested in front of his children.
+    -   He details the harsh reality of life in a maximum-security prison, including the normalization of violence and death.
+    -   He found a sense of purpose by dedicating himself to legal research in the prison law library, successfully helping numerous other inmates with their cases.
+    -   Despite the injustice, he maintains faith and a positive outlook, focusing on helping others and fighting for his eventual return to his family.
+    -   He expresses frustration over the public's perception being shaped by inaccurate media reports originating from the police narrative.
+-   **Additional Resources**: None mentioned in the podcast content itself.
+```

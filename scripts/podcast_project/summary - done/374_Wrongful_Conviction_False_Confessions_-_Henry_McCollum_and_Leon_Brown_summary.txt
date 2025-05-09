@@ -1,0 +1,101 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction: False Confessions
+-   **Episode # & Title (if applicable)**: Episode Title: Henry McCollum and Leon Brown: Justice Scalia's Example
+-   **Host(s)**: Lauren Nierider and Steve Trisen
+-   **Release Year(s)**: Unknown
+-   **Production Company(ies)/Network**: Lava for Good podcasts in association with Signal Company No. 1
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, false confessions, death penalty, prosecutorial misconduct, intellectual disability, systemic issues in the justice system.
+-   **Key Statistics/Information**:
+    - Henry McCollum and Leon Brown spent 31 years on death row before exoneration.
+    - They received a $75 million settlement, the largest wrongful conviction verdict in US history at the time (May 2021).
+    - Prosecutor Joe Freeman Britt sent 47 people to death row and was in the Guinness Book of World Records as the "deadliest prosecutor."
+    - 172 people have been exonerated from death row nationwide to date, including at least nine in North Carolina.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction: False Confessions details the egregious wrongful conviction of Henry McCollum and Leon Brown, two intellectually disabled brothers in Robison County, North Carolina.  In 1983, they were convicted based on coerced false confessions for the rape and murder of 11-year-old Sabrina Bowie.  Despite significant inconsistencies in their confessions and the emergence of another suspect, Roscoe Artis, with a history of similar crimes, prosecutor Joe Freeman Britt aggressively pursued the death penalty.  Henry and Leon spent 31 years in prison, including time on death row, before DNA evidence finally exonerated them in 2014, identifying Artis as the true perpetrator. The case highlights the dangers of false confessions, especially from vulnerable individuals, prosecutorial misconduct, and the inherent flaws of the death penalty system.  The brothers were later awarded a substantial settlement for the injustice they endured.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Henry McCollum
+    -   **Case Location**: Robison County, North Carolina, USA
+    -   **Conviction Year**: 1983
+    -   **Exoneration Year**: 2014
+    -   **Crime Convicted Of**: Rape and Capital Murder
+    -   **Sentence**: Death Penalty (initially and upon retrial)
+    -   **Time Served**: 31 years
+    -   **Contributing Factors**: False confession (coerced, details provided by police), intellectual disability, ineffective defense, prosecutorial misconduct (withholding evidence, tunnel vision).
+    -   **Legal Status**: Exonerated, Pardoned
+    -   **Organizations Involved**: Center on Wrongful Convictions, North Carolina Innocence Inquiry Commission, AIG Pro Bono program, Paul Weiss Rifkin Morton and Garrison.
+    -   **Innocence Lawyer Details**: Renetta Alston (death penalty lawyer, later state representative) worked on his case.
+    -   **Cross-Reference**: Yes (likely in exoneree databases)
+    -   **Narrative of Original Crime**: Rape and murder of 11-year-old Sabrina Bowie.
+    -   **Key Evidence at Trial (Prosecution)**: Confession (later proven false and coerced).
+    -   **Trial Defender Notes**:  Unclear from transcript details of trial defense lawyer actions beyond being unable to prevent conviction based on confession.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: DNA evidence from a cigarette butt at the crime scene matched Roscoe Artis, not Henry or Leon.
+    -   **Actual Perpetrator Details**: Roscoe Artis, lived near the crime scene, had a history of similar sexual assault and murder crimes, convicted of a similar murder shortly after Sabrina Bowie's murder.
+
+-   **Name**: Leon Brown
+    -   **Case Location**: Robison County, North Carolina, USA
+    -   **Conviction Year**: 1983 (initially, rape and murder), 1991 (rape only at retrial)
+    -   **Exoneration Year**: 2014
+    -   **Crime Convicted Of**: Rape and Capital Murder (initially), Rape (at retrial)
+    -   **Sentence**: Death Penalty (initially), Life imprisonment (at retrial)
+    -   **Time Served**: 31 years
+    -   **Contributing Factors**: False confession (coerced, influenced by brother's confession), intellectual disability (severe), ineffective defense, prosecutorial misconduct (withholding evidence, tunnel vision).
+    -   **Legal Status**: Exonerated, Pardoned
+    -   **Organizations Involved**: Center on Wrongful Convictions, North Carolina Innocence Inquiry Commission, AIG Pro Bono program, Paul Weiss Rifkin Morton and Garrison.
+    -   **Innocence Lawyer Details**: Renetta Alston (death penalty lawyer, later state representative) worked on his case.
+    -   **Cross-Reference**: Yes (likely in exoneree databases)
+    -   **Narrative of Original Crime**: Rape and murder of 11-year-old Sabrina Bowie.
+    -   **Key Evidence at Trial (Prosecution)**: Confession (later proven false and coerced).
+    -   **Trial Defender Notes**: Unclear from transcript details of trial defense lawyer actions beyond being unable to prevent conviction based on confession.
+    -   **Key Evidence for Exoneration/Change in Legal Status**: DNA evidence from a cigarette butt at the crime scene matched Roscoe Artis, not Henry or Leon.
+    -   **Actual Perpetrator Details**: Roscoe Artis, lived near the crime scene, had a history of similar sexual assault and murder crimes, convicted of a similar murder shortly after Sabrina Bowie's murder.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Lauren Nierider: "This is a case that was used by US Supreme Court Justice Antonin Scalia to justify why the death penalty exists. But as we'll hear in this episode, the murder he was using as proof that the death penalty should remain in place was in fact an egregious wrongful conviction."
+    -   Steve Trisen: "But way too often, those are the cases where wrongful convictions happen. These are the crimes where there is so much pressure on law enforcement to come up with quick answers that there are rushes to judgment."
+    -   Representative Renetta Alston (quoting Henry): "According to Henry, as soon as he wrote his name on the last page, he looked up at his interrogators and said, can I go home now?" (Illustrates Henry's lack of understanding).
+    -   Joe Freeman Britt's philosophy: "within each of us, burns a flame that constantly whispers, preserve life at any cost. It's the prosecutor's job...to extinguish that flame." (Reveals his aggressive prosecutorial stance).
+    -   Henry McCollum to Joe Freeman Britt in court: "God got your judgment right in hell waiting for you."
+    -   Justice Harry Blackman: "From this day forward, I shall no longer tinker with the machinery of death." (On the impossibility of a perfect death penalty system).
+    -   Justice Antonin Scalia: "How enviable a quiet death by lethal injection compared with that [Sabrina Bowie's murder]." (Using the case to justify the death penalty, ironically).
+    -   Steve Trisen: "But there is no such thing as a perfect death penalty. They're going to be errors... It's a human endeavor. So there are going to be errors."
+    -   Lauren Nierider: "And our criminal justice system and our death penalty system, in particular, shouldn't and can't rely on luck to protect innocent people."
+
+-   **Systemic Issues Identified**:
+    -   **False Confessions**: Particularly from individuals with intellectual disabilities who are vulnerable to coercion and may not understand the implications of confessing.
+    -   **Prosecutorial Misconduct**:  Joe Freeman Britt's focus on securing death penalties, potentially at the expense of justice, including failing to disclose potentially exculpatory fingerprint evidence.
+    -   **Ineffective Defense**: Implied failure of the original defense to adequately challenge the confessions and investigate alternative suspects.
+    -   **Tunnel Vision in Law Enforcement**: Rushing to judgment based on a rumor and coerced confessions, overlooking other potential suspects and crucial evidence.
+    -   **Flaws of the Death Penalty**: The irreversible nature of the death penalty and the high risk of executing innocent people due to systemic errors.
+    -   **Racial and Socioeconomic Disparities**: Mention of Robison County's social strata and racial strife as context for potential biases in the justice system.
+
+-   **Policy Recommendations/Calls to Action**:
+    -   Implicit call to abolish the death penalty due to the risk of wrongful executions.
+    -   Highlighting the importance of Innocence Inquiry Commissions, like the one in North Carolina, as a mechanism for reviewing potential wrongful convictions.
+    -   Implied need for reforms in interrogation techniques to prevent false confessions, especially from vulnerable populations.
+    -   Need for greater scrutiny of prosecutorial practices and accountability for misconduct.
+
+-   **Personal Narrative/Impact**:
+    -   The episode emphasizes the immense personal tragedy and injustice suffered by Henry McCollum and Leon Brown, losing 31 years of their lives to wrongful imprisonment.
+    -   It highlights their resilience and eventual joy at freedom, but also the lasting impact of their trauma.
+    -   The personal stories of Henry and Leon after exoneration (Henry planning to marry, Leon enjoying music and community) underscore their humanity and what was stolen from them.
+
+-   **Additional Resources**:
+    -   Center on Wrongful Convictions (mentioned as co-directed by the hosts).
+    -   North Carolina Innocence Inquiry Commission (mentioned as crucial to the exoneration).
+    -   Harvard Law School's Fair Punishment Project report on Joe Freeman Britt (mentioned as source for Britt's misconduct).
+    -   wrongfulconvictionpodcast.com (podcast website for more information).
+```

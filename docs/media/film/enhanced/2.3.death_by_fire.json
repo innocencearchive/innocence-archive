@@ -1,0 +1,91 @@
+{
+  "source_file_name": "2.3.death_by_fire.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "FRONTLINE",
+    "creator_name": null,
+    "publication_or_release_year": null,
+    "publisher_or_network": "PBS/WGBH",
+    "focus_or_theme": "Flawed arson science; Questionable forensic evidence; Potential wrongful execution.",
+    "summaryNotes": "Highlighted expert reviews questioning original arson findings post-execution.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "*_**title**": "FRONTLINE",
+    "*_**episode__and_title_if_applicable**": "Death by Fire",
+    "*_**directors**": null,
+    "*_**release_year**": null,
+    "*_**production_companyies**": "FRONTLINE (PBS/WGBH)",
+    "*_**format**": "Documentary",
+    "*_**focus_theme**": "Flawed arson science; Questionable forensic evidence; Potential wrongful execution.",
+    "*_**key_statistics_information**": "Highlighted expert reviews questioning original arson findings post-execution."
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "Death by Fire",
+    "item_number": "Season Unknown, Episode Unknown",
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Flawed arson science; Questionable forensic evidence; Potential wrongful execution.",
+    "summary_notes": "Documentary focusing on the case of Cameron Todd Willingham and the flawed arson science used in his conviction. It highlights the unreliability of forensic science, jailhouse informant testimony, and the risk of executing innocent individuals.",
+    "key_quotes_raw": [
+      "Mention of informant Johnny Webb questioning if the statute of limitations had run out on perjury.",
+      "The conflict between original investigators defending their findings and later expert reports debunking the arson science used."
+    ],
+    "systemic_issues_raw": [
+      "Unreliability and evolution of forensic science (specifically arson investigation)",
+      "Use and potential unreliability of jailhouse informant testimony",
+      "Risk of executing innocent individuals"
+    ],
+    "policy_recommendations_raw": [
+      "Implicitly calls for rigorous review of forensic science standards used in courts",
+      "Protocols for informant testimony",
+      "Extreme caution in capital cases."
+    ],
+    "external_links_raw": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cameron_Todd_Willingham",
+        "description": "Cameron Todd Willingham - Wikipedia"
+      }
+    ],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "unparsed_*_**key_quotes_moments**": null,
+      "unparsed_*_mention_of_informant_johnny_webb_questioning_if_the_statute_of_limitations_had_run_out_on_perjury_[cite": "13.1].",
+      "unparsed_*_the_conflict_between_original_investigators_defending_their_findings_and_later_expert_reports_debunking_the_arson_science_used_[cite": "13.1].",
+      "unparsed_*_**systemic_issues_identified**": "Unreliability and evolution of forensic science (specifically arson investigation); Use and potential unreliability of jailhouse informant testimony; Risk of executing innocent individuals.",
+      "unparsed_*_**policy_recommendations_calls_to_action**": "Implicitly calls for rigorous review of forensic science standards used in courts, protocols for informant testimony, and extreme caution in capital cases.",
+      "unparsed_*_**additional_resources**": null,
+      "unparsed_*_[cameron_todd_willingham_-_wikipedia]https": "//en.wikipedia.org/wiki/Cameron_Todd_Willingham)",
+      "unparsed_*_the_new_yorker_and_chicago_tribune_investigative_reports_[cite": "13.1]",
+      "unparsed_*_texas_forensic_science_commission_reports_on_the_case_[cite": "13.1]"
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Cameron Todd Willingham",
+      "first_name": "Cameron",
+      "middle_name": "Todd",
+      "last_name": "Willingham",
+      "status": "EXECUTED",
+      "conviction_year": 1992,
+      "exoneration_or_release_year": null,
+      "time_served": "Approx. 12 years",
+      "sentence": "Death",
+      "crime_convicted_of_raw": "Murder (by arson, killing his three young daughters)",
+      "case_location_city": "Corsicana",
+      "case_location_state": "Texas",
+      "narrative_summary": "Convicted of murder by arson in 1992 and executed in 2004. His case is highly disputed, with significant doubt raised posthumously about his guilt due to flawed arson science and contested jailhouse informant testimony.",
+      "contributing_factors_raw": [
+        "Flawed/outdated arson science interpretation (char patterns, accelerant tests)",
+        "Contested jailhouse informant testimony (Johnny Webb - potential deal, recantation issues)"
+      ],
+      "organizations_involved_raw": [
+        "Texas Forensic Science Commission (investigated case post-execution)",
+        "Innocence Project (involved in posthumous investigation)"
+      ]
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

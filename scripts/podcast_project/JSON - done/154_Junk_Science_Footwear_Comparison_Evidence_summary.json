@@ -1,0 +1,77 @@
+{
+    "sourceFileName": "154_Junk_Science_Footwear_Comparison_Evidence_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: Junk Science",
+    "mediaItem": {
+        "hosts": "Josh Dubin",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts and Signal Company Number One",
+        "seriesType": "Episodic Series (each episode focuses on a different type of junk science)",
+        "format": "Podcast",
+        "focusTheme_Work": "Junk science in wrongful convictions, specifically focusing on footwear comparison evidence.",
+        "keyStats": "-   Dale Johnston was wrongfully convicted based on faulty footwear comparison evidence.\n-   Louise Robbins testified in over 20 cases, and 12 people were convicted based on her testimony, some later proven innocent.\n-   FBI analyst deemed the plaster mold of the boot print \"unsuitable\" for comparison.\n-   Louise Robbins claimed she could identify a person based on wear patterns inside their boots, a method not scientifically validated.\n-   Dale Johnston spent four years on death row.\n-   True killer Chester McKnight confessed over 20 years after the murder.\n-   A panel of 135 experts concluded Louise Robbins' methodology had no scientific basis.",
+        "itemNumber": "154",
+        "itemTitle": "Junk Science Footwear Comparison Evidence",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction: Junk Science\" examines the case of Dale Johnston, who was wrongfully convicted of murdering his stepdaughter and her boyfriend based on unreliable footwear comparison evidence presented by anthropologist Louise Robbins. The podcast details how Robbins, despite lacking scientific validation for her methods, convinced a three-judge panel that a boot print found at the crime scene matched Johnston's boot based on wear patterns inside the boot.  The episode highlights the devastating impact of junk science in the justice system, leading to Johnston's death sentence and four years on death row before his eventual exoneration due to inadmissible hypnotized witness testimony, not the debunking of the footwear evidence itself.  Years later, the actual perpetrator, Chester McKnight, confessed to the crime, revealing a drastically different narrative than what was presented at Johnston's trial.  The episode underscores the dangers of accepting unverified scientific claims in court and the profound consequences for the wrongfully convicted."
+    },
+    "featuredIndividual": {
+        "fullName": "Dale Johnston",
+        "caseLocation": "Logan, Ohio, USA",
+        "convictionYear": "1984",
+        "exonerationYear": "1990",
+        "crimeConvictedOf": "Murder of stepdaughter Annette Cooper Johnston and her boyfriend Todd Schultz",
+        "sentence": "Death Penalty",
+        "timeServed": "4 years on death row",
+        "contributingFactorsRaw": [
+            "Junk science (faulty footwear comparison evidence), public opinion/pressure, possibly ineffective trial defense (not explicitly stated but implied by the focus on junk science and public pressure)."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (mentioned as providing support for exonerees in general, not explicitly stated they were involved in his case but implied as the host is an ambassador)"
+        ],
+        "innocenceLawyersRaw": [
+            "Attorneys stayed on his case pro bono and took on appeals, no names mentioned in the transcript."
+        ],
+        "crossReference": "Not specified if in a specific database, but a well-known case of wrongful conviction.",
+        "narrativeOriginalCrime": "Dale Johnston was accused of kidnapping Annette and Todd, arguing about a car, murdering them with a gun (never found), dismembering their bodies, and burying them in a cornfield near the Hocking River.",
+        "keyEvidenceProsecutionRaw": [
+            "Footwear comparison evidence by Louise Robbins, claiming a boot print at the riverbank matched Dale Johnston's boot based on wear patterns inside the boot.",
+            "Hypnotized witness testimony (later deemed inadmissible, but used in original trial)."
+        ],
+        "trialDefenderNotes": "-   Called an FBI analyst who stated the plaster mold was \"unsuitable\" for comparison.\n-   Waved jury trial due to public opinion, opted for a three-judge panel.\n-   Challenged the evidence, but seemingly unsuccessfully against the weight of \"expert\" testimony and public pressure.",
+        "keyEvidenceExonerationRaw": [
+            "Inadmissible hypnotized witness testimony was overturned on appeal.",
+            "This led to his release from prison, but not directly to the debunking of the footwear evidence."
+        ],
+        "actualPerpetratorDetails": "-   Name: Chester McKnight (nicknamed \"Chester the molester\") and Kenny Linscott (drug dealer).\n-   Motive: Chester wanted group sex with Annette, she refused, leading to him shooting both Annette and Todd.\n-   Actions: Chester and Kenny dismembered the bodies and buried them in a cornfield.\n-   Confession: Chester confessed to the crime over 20 years after Dale Johnston's conviction."
+    },
+    "keyQuotesRaw": [
+        "Detective: \"You did this. We know you did this. We found your boot print down by the riverbank... You killed your stepdaughter and then you sick bastard. You cut off her arms, her legs, her head. You better confess because I'll tell you right now it's going to get worse for you if you don't.\"",
+        "Anthropology Professor (Louise Robbins): \"No person's footprints are the same as another. There is unique as a fingerprint. I've analyzed the wear patterns on the inside of the defendant's boot and I can say with certainty scientific certainty that the footprint found by the riverbank was made by the defendant.\"",
+        "Bill Osinski (Journalist): \"Everything that was presented in that trial was a lie.\"",
+        "Judge (after learning the truth): \"Well, we had Dr. Robin's testimony before us, and that was very convincing.\"",
+        "Josh Dubin (Host): \"The use of Dr. Robins as a forensic expert is an example of what can go horribly wrong when courts allow unverified signs into our courtrooms.\""
+    ],
+    "systemicIssuesRaw": [
+        "Acceptance of \"junk science\" and unvalidated forensic methods in courtrooms.",
+        "Influence of public opinion and pressure on legal proceedings and judicial decisions.",
+        "Confirmation bias among judges and law enforcement, even after evidence is debunked.",
+        "Lack of scrutiny and peer review for forensic \"experts\" and their methodologies.",
+        "Potential for wrongful convictions due to unreliable forensic evidence.",
+        "The difficulty in overturning wrongful convictions even when junk science is exposed."
+    ],
+    "policyRecommendationsRaw": [
+        "Implied call for greater scrutiny of forensic evidence and expert testimony in courts.",
+        "Need for rigorous scientific validation of forensic techniques before they are admitted in court.",
+        "Support for organizations like the Innocence Project that work to exonerate the wrongfully convicted and address systemic issues.",
+        "Call to donate to the Innocence Project (explicit call to action in the outro)."
+    ],
+    "personalNarrativeRaw": [
+        "Dale Johnston's life was devastated: lost his stepdaughter, property, wife, spent years on death row, and suffered psychological trauma. Even after exoneration, the community still largely believed he was guilty.  He only recently received compensation, highlighting the long-lasting impact of wrongful conviction even after release. The final thoughts are implied in the summary of his losses and the delayed compensation, highlighting the extensive and lasting harm."
+    ],
+    "additionalResourcesRaw": [
+        "Book: \"Guilty by Popular Demand\" by Bill Osinski",
+        "Organizations: The Innocence Project, The Pacers Foundation, The Last Mile Organization",
+        "Websites: PacersFoundation.org, thelastmile.org, innocenceproject.org"
+    ]
+}

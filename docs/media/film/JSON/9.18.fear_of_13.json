@@ -1,0 +1,65 @@
+{
+  "source_file_name": "9.18.fear_of_13.md",
+  "media_work": {
+    "work_type": "DOCUMENTARY",
+    "title": "The Fear of 13",
+    "publication_or_release_year": 2015,
+    "publisher_or_network": "Dox Productions (Distributor: First Run Features)",
+    "focus_or_theme": "The life story of Nick Yarris, focusing on his wrongful conviction, 21-22 years spent on death row in Pennsylvania, his eventual exoneration through DNA evidence, and reflections on the art of storytelling.",
+    "summaryNotes": "Nick Yarris spent over two decades on death row. He was the 140th person exonerated by postconviction DNA testing in the U.S. and the 13th DNA exoneree from death row.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null
+  },
+  "media_item": {
+    "item_media_type": "DOCUMENTARY_CONTENT",
+    "item_title": "The Fear of 13",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "The life story of Nick Yarris, focusing on his wrongful conviction, 21-22 years spent on death row in Pennsylvania, his eventual exoneration through DNA evidence, and reflections on the art of storytelling.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [
+      "The unreliability of eyewitness identification; the problematic use of jailhouse informants; difficulties and delays in accessing postconviction DNA testing; potential for misleading forensic science presentation; the immense psychological toll of long-term death row incarceration; the inherent risks associated with the death penalty. The film also explores themes of storytelling, memory, and truth."
+    ],
+    "policy_recommendations_raw": [
+      "While not explicit, the film implicitly advocates for improved access to postconviction DNA testing, reforms regarding the use of eyewitness and informant testimony, and underscores the fallibility of the death penalty system."
+    ],
+    "external_links_raw": [],
+    "sourceUrl": null
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Nicholas \"Nick\" Yarris",
+      "case_location_city": "Delaware County",
+      "case_location_state": "Pennsylvania, USA",
+      "conviction_year": 1982,
+      "exoneration_or_release_year": 2003,
+      "crime_convicted_of_raw": "Murder, Rape, Kidnapping/Abduction",
+      "sentence": "Death",
+      "time_served": "Approximately 21-22 years (Convicted 1982, Exonerated 2003, Released 2004)",
+      "contributing_factors_raw": [],
+      "status_raw": "Exonerated by DNA evidence. Conviction vacated on September 3, 2003.",
+      "organizations_involved_raw": [
+        "Innocence Project (supported his fight for DNA testing). Dr. Edward Blake conducted the crucial DNA testing."
+      ],
+      "cross_reference": "Yes, Nicholas Yarris is listed in the Innocence Project case files and the National Registry of Exonerations.",
+      "first_name": "Nicholas",
+      "middle_name": "\"Nick\"",
+      "last_name": "Yarris"
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "David Sington",
+      "role": "DIRECTOR",
+      "first_name": "David",
+      "middle_name": null,
+      "last_name": "Sington"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null,
+  "unhandled_section_research_for:_the_fear_of_13_(film_list_item_9.18)": "###   Basic Film/Documentary Information\n\n-   **Title**: The Fear of 13\n-   **Episode # & Title (if applicable)**: N/A\n-   **Director(s)**: David Sington\n-   **Release Year**: 2015 (Premiere), 2016 (General Release)\n-   **Production Company(ies)**: Dox Productions (Distributor: First Run Features)\n-   **Format**: Documentary\n-   **Focus/Theme**: The life story of Nick Yarris, focusing on his wrongful conviction, 21-22 years spent on death row in Pennsylvania, his eventual exoneration through DNA evidence, and reflections on the art of storytelling.\n-   **Key Statistics/Information**: Nick Yarris spent over two decades on death row. He was the 140th person exonerated by postconviction DNA testing in the U.S. and the 13th DNA exoneree from death row.\n\n###   Wrongfully Convicted Individuals Featured\n\n-   **Name**: Nicholas \"Nick\" Yarris\n-   **Case Location**: Delaware County, Pennsylvania, USA\n-   **Conviction Year**: 1982\n-   **Exoneration Year**: 2003 (Conviction vacated), Released in 2004. (He remained incarcerated until 2004 due to a separate conviction).\n-   **Crime Convicted Of**: Murder, Rape, Kidnapping/Abduction\n-   **Sentence**: Death\n-   **Time Served**: Approximately 21-22 years (Convicted 1982, Exonerated 2003, Released 2004)\n-   **Contributing Factors**: Eyewitness Misidentification, Use of a Jailhouse Informant, False or Misleading Forensic Evidence (specifically, initial serology results were presented as potentially implicating Yarris), Perjury or False Accusation, Official Misconduct, Inadequate Legal Defense. (Note: The Innocence Project also lists False Confessions or Admissions as a factor, possibly relating to the informant testimony or other statements made).\n-   **Legal Status**: Exonerated by DNA evidence. Conviction vacated on September 3, 2003.\n-   **Organizations Involved**: Innocence Project (supported his fight for DNA testing). Dr. Edward Blake conducted the crucial DNA testing.\n-   **Cross-Reference**: Yes, Nicholas Yarris is listed in the Innocence Project case files and the National Registry of Exonerations.\n\n###   Film/Documentary Research Notes\n\n-   **Key Quotes/Moments**: The film features only Nick Yarris speaking directly to the camera, narrating his life and experiences in a compelling, non-linear monologue format. Quote regarding the families of victims or others impacted: \"It's a strange phenomenon when you felt good for their leaving because you knew all along you had stole a lot of their life away.\". Quote regarding advocates: \"...they do this not because they, like me, were wronged; they do it because it is the right thing to do—and it simply astounds me.\".\n-   **Systemic Issues Identified**: The unreliability of eyewitness identification; the problematic use of jailhouse informants; difficulties and delays in accessing postconviction DNA testing; potential for misleading forensic science presentation; the immense psychological toll of long-term death row incarceration; the inherent risks associated with the death penalty. The film also explores themes of storytelling, memory, and truth.\n-   **Policy Recommendations/Calls to Action**: While not explicit, the film implicitly advocates for improved access to postconviction DNA testing, reforms regarding the use of eyewitness and informant testimony, and underscores the fallibility of the death penalty system.\n-   **Additional Resources**: The case details can be further explored via the [Innocence Project](https://innocenceproject.org/cases/nicholas-yarris/) and the [National Registry of Exonerations](https://www.law.umich.edu/special/exoneration/Pages/casedetail.aspx?caseid=3771)."
+}

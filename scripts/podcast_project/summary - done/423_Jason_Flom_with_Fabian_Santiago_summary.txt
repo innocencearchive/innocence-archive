@@ -1,0 +1,88 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but episode focuses on Fabian Santiago
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2024 (based on context of "tax season 2024") - *Note: Need to verify actual release year, assuming current based on context within transcript.*
+-   **Production Company(ies)/Network**: Lava for Good podcast and association with signal company number one.
+-   **Series Type**: Episodic Series (each episode is generally a standalone story)
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction, Police Misconduct, Chicago Police Department, False Confession, Eyewitness Misidentification, Systemic Corruption, Legal Reform.
+-   **Key Statistics/Information**:
+    -   Over 100 cases proven in which Chicago police officers fabricated evidence.
+    -   Detective team Guevara and Halverson caused Chicago upwards of $82 million in settlements for wrongful convictions.
+    -   Fabian Santiago served almost 30 years for a crime he did not commit.
+    -   City of Chicago spends millions on legal fees defending wrongful conviction cases.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction features the harrowing story of Fabian Santiago, who was wrongfully convicted of murder in Chicago in 1994 and served almost 30 years in prison.  The podcast details the rampant gang violence in Humboldt Park during the 1990s and how corrupt detectives Ernest Halversen and Ronaldo Guevara fabricated evidence, coerced eyewitness identifications, and planted a gun to frame Fabian, a 16-year-old at the time.  Despite clear inconsistencies in witness descriptions and his alibi, Fabian was convicted in absentia after fleeing due to gang threats related to the false accusation.  The episode highlights the systemic corruption within the Chicago Police Department, the devastating impact of wrongful convictions on individuals and families, and the ongoing legal battles and financial costs to the city due to these cases.  Ashley Cohen from Bonjean Law Group, who helped exonerate Fabian, joins the host to discuss the case and call for systemic reform and accountability. Fabian himself shares his traumatic experiences in prison and the long fight for freedom.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Fabian Santiago
+-   **Case Location**: Humboldt Park, Chicago, Illinois, USA
+-   **Conviction Year**: 1994
+-   **Exoneration Year**: 2022 (released), 2023 (certificate of innocence)
+-   **Crime Convicted Of**: Murder, Attempted Murder, Firearms Charges
+-   **Sentence**: 100 years (originally 90 years + 10 years for bail jumping)
+-   **Time Served**: Almost 30 years
+-   **Contributing Factors**:
+    -   Police Misconduct (fabricated evidence, planted gun, coerced confession, suggestive lineup)
+    -   Eyewitness Misidentification (coerced and unreliable)
+    -   Ineffective Counsel (at trial and initial appeals)
+-   **Legal Status**: Exonerated, Certificate of Innocence granted, pursuing civil litigation.
+-   **Organizations Involved**: Bonjean Law Group
+-   **Innocence Lawyer Details**: Ashley Cohen, partner at Bonjean Law Group, and her partner Jennifer Bonjean, took on Fabian's case and successfully fought for his exoneration and release. They focused on resentencing initially and then pursued actual innocence claim, leveraging new evidence and the pattern of misconduct by detectives Halverson and Guevara.
+-   **Cross-Reference**: Yes (Appears in the exoneree database - *Needs to be verified against actual database*)
+-   **Narrative of Original Crime**: On January 16, 1993, members of the Spanish Cobras gang fired upon three Latin Kings gang members walking home from a liquor store. William Stewart died, Pedro Muriel was injured, and a passerby, Marcellia Hernandez, was also injured by a stray bullet. The shooter yelled "King Killer" and "Cobra Love".
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Eyewitness identification from two alleged victims, Matos and Rivera (Latin Kings).
+    -   Alleged oral confession to Detective Halverson.
+    -   Gun allegedly found in Fabian's bedroom that matched bullets from the crime scene.
+-   **Trial Defender Notes**: Fabian had a private attorney for the trial, but the defense was considered weak. The attorney did not effectively challenge the eyewitness identifications beyond pointing out description inconsistencies, and the trial proceeded in absentia as Fabian had fled due to gang threats. The issue of trial in absentia was not raised in initial appeals. Public defender for bail jumping case was ineffective and urged a plea deal.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Testimony from William Dorsch (former officer) stating he never provided the informant tip attributed to him by Halverson and that reports were falsified. Dorsch confirmed the corrupt nature of Halverson and Guevara.
+    -   Affidavit from Lorena Hernandez detailing how police pressured her and her sister Marcellia to identify someone in the lineup, which they refused because they did not recognize anyone.
+    -   Revelation from Marcellia Hernandez's daughter, Ellie, confirming her mother and aunt's refusal to identify Fabian and their distress about police pressure.
+    -   Evidence in civil litigation revealing the gun was obtained by Guevara from a gang member, not Fabian's home, constituting a Brady violation.
+-   **Actual Perpetrator Details**: Not explicitly detailed in the transcript, but the crime was attributed to the Spanish Cobras gang, while Fabian was associated with the Latin Disciples (though not an active member), further highlighting the wrongful nature of his accusation. The actual shooters were not identified in the podcast.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   "Detective Halverson Guevara, in this group of road detectives, functioned as nothing less than a criminal organization, not out of a crack house, not out of a gang, infested neighborhood, out of the Area 5 police precinct."
+    -   "During the lineup, I was the only one that was made to stand up and yell out, Cobra Love, King Killer, the only one." - Fabian Santiago describing the suggestive lineup.
+    -   "He assaulted me. So no surprise that you ultimately relented and just said, I'll tell you what you want to hear." - Fabian Santiago describing being coerced into a false confession.
+    -   "Payphones don't exist out here anymore." - Robert Almodovar to Fabian Santiago, highlighting the extent of time Fabian served.
+    -   "No one is held accountable to this very day. Not one of these corrupt detectives out of the Ronaldo Gavara crew has so much has been administratively held accountable, let alone criminally prosecuted." - Fabian Santiago emphasizing lack of accountability for police misconduct.
+-   **Systemic Issues Identified**:
+    -   Police corruption and fabrication of evidence within the Chicago Police Department (Area 5 precinct).
+    -   Racial profiling and targeting of individuals based on neighborhood and perceived gang affiliation.
+    -   Coercion and manipulation of young witnesses and suspects.
+    -   Ineffective legal representation and appeals process.
+    -   Lack of accountability for police misconduct and systemic corruption.
+    -   Financial burden on the city due to settlements and legal fees in wrongful conviction cases.
+-   **Policy Recommendations/Calls to Action**:
+    -   Call for Chicago City Council and Mayor to address systemic corruption within the police department.
+    -   Demand accountability for corrupt detectives and their supervisors.
+    -   Push for early assessment of wrongful conviction cases to expedite resolution and compensation.
+    -   Advocate for reforms to prevent police misconduct, such as recording interrogations and ensuring fair lineup procedures.
+    -   Call for public outrage and awareness about wrongful convictions and systemic issues in the justice system.
+-   **Personal Narrative/Impact**:
+    -   Fabian's life was stolen from him at age 16, spending almost 30 years in violent prisons for a crime he didn't commit.
+    -   He lost his mother and brother while incarcerated and his grandmother, who supported him, suffered from dementia and could not recognize him upon release.
+    -   He faced extreme violence and trauma in prison, witnessing horrific events and fearing for his life.
+    -   He had to rebuild his life from scratch after release, with no home or family support initially, relying on the help of other exonerees.
+    -   The experience caused immense personal suffering and highlighted the profound and lasting damage of wrongful convictions.
+-   **Additional Resources**:
+    -   Mention of previous Wrongful Conviction episodes featuring Marilyn Malera and Jacques Rivera, also victims of detectives Halverson and Guevara (links to be provided in bio).
+    -   Lava for Good Plus on Apple Podcast for early access to podcasts.
+    -   Lava for Good and Wrongful Conviction social media platforms.
+    -   It's Jason Flom Instagram.
+```

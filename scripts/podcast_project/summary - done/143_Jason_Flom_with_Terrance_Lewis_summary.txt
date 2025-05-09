@@ -1,0 +1,95 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, but episode features Terence Lewis
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2023 (based on ads for 2023 events)
+-   **Production Company(ies)/Network**: Lava for Good Podcasts in association with Signal Company Number One
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful Conviction Stories, Criminal Justice System Issues
+-   **Key Statistics/Information**:
+    -   Terence Lewis was incarcerated for 7,823 days (approximately 21.5 years).
+    -   Philadelphia Police Department knew the real identity of "Stink" (Hakeem Sade Muhammad) early in the investigation but did not disclose this Brady violation.
+    -   Terence Lewis settled a civil suit against the detectives and the city of Philadelphia for $6.25 million.
+    -   Terence Lewis worked for 19 cents an hour while incarcerated.
+    -   Approximately 5,000 people die in US jails and prisons every year.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom tells the harrowing story of Terence Lewis, wrongfully convicted in 1999 for a murder he did not commit and sentenced to life without parole.  The case hinged on the unreliable eyewitness testimony of a crack cocaine user and an anonymous tip, while police ignored evidence pointing to another suspect, Hakeem Sade Muhammad, known as "Stink".  Despite multiple appeals and even a magistrate judge acknowledging his likely innocence, Lewis spent over 21 years in prison.  His exoneration in 2021 came after the Philadelphia Conviction Integrity Unit uncovered a crucial Brady violation: police had known the real "Stink's" identity from the beginning.  Now a free man, Lewis has founded the Liberation Foundation to advocate for other wrongfully convicted individuals and received a $6.25 million settlement for his ordeal. His story highlights systemic issues within the justice system, including police misconduct, unreliable eyewitness testimony, and the devastating impact of wrongful convictions.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Terence Lewis
+-   **Case Location**: West Philadelphia, Pennsylvania, USA
+-   **Conviction Year**: 1999
+-   **Exoneration Year**: 2021
+-   **Crime Convicted Of**: Second-degree murder, armed robbery, and criminal conspiracy
+-   **Sentence**: Life in prison without parole
+-   **Time Served**: 21.5 years (7,823 days)
+-   **Contributing Factors**:
+    -   Eyewitness Misidentification (unreliable testimony of Lina Laws)
+    -   Police Misconduct (Brady violation, manufactured theory of events, ignoring exculpatory evidence)
+    -   Ineffective Assistance of Counsel (original attorney failed to call crucial witnesses)
+    -   Anonymous Tip (regarding "Stink" leading to Terence Lewis's wrongful implication)
+-   **Legal Status**: Exonerated
+-   **Organizations Involved**:
+    -   Philadelphia Conviction Integrity Unit (led by Patricia Cummings)
+    -   Liberation Foundation (founded by Terence Lewis)
+    -   Innocence Project (mentioned as organization Jason Flom supports)
+-   **Innocence Lawyer Details**:
+    -   Original attorney (unnamed in transcript) was ineffective.
+    -   David Lengay and Kevin Hart (attorneys who worked on his case and uncovered Brady violation)
+-   **Cross-Reference**: Not specified if in exoneree database in transcript.
+-   **Narrative of Original Crime**: Hulan Bernard Howard was murdered in his home during a drug-related robbery. Lina Laws, Howard's girlfriend, invited Jamar Gladden to buy crack when Jamelle Lawson and another man known as "Stink" (initially misidentified as Terence Lewis) arrived to settle a drug debt. Howard was shot and killed, and Gladden was robbed.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Eyewitness testimony of Lina Laws identifying Terence Lewis, Jamar Gladden, and Jamelle Lawson as the perpetrators.
+    -   Anonymous tip identifying Terence Lewis as "Stink".
+-   **Trial Defender Notes**:
+    -   Original defense attorney argued inconsistencies in Lina Laws' testimony.
+    -   Defense was hampered by being tried alongside co-defendants, one of whom was actually involved.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Brady violation: 61st Street notes revealing Lina Laws identified Hakeem Sade Muhammad as "Stink" and described him with details not matching Terence Lewis, which police withheld.
+    -   Testimony of multiple eyewitnesses recanting their identification of Terence Lewis.
+    -   Supreme Court rulings (Miller v. Alabama, Montgomery v. Louisiana) related to juvenile life sentences, though not directly leading to exoneration, opened a path for review.
+-   **Actual Perpetrator Details**:
+    -   "Stink" was actually Hakeem Sade Muhammad.
+    -   Transcript mentions Lena Laws described him to police shortly after the crime with details including an ankle bracelet and blue car, which did not match Terence Lewis but police suppressed this information.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Jason Flom: "I'm happy you're here, but I'm sorry you had to be here in the first place." (Opening, expressing empathy for Terence's situation).
+    -   Terence Lewis: "My soul, my soul had lifted out of my body like my soul had hovered because I knew for being in a county for 17 months... I seen guys, they was just sending them away." (Describing reaction to guilty verdict).
+    -   Magistrate Wells (quoted): "Based upon credible testimony, the court believes that Lewis may not have been present at or participated in the tragic events of August 6, 1996. He may be actually innocent." (Acknowledging likely innocence but still denying petition on procedural grounds).
+    -   Judge Barbara McDermott: "What sentence is appropriate to give to an innocent man?" (Questioning re-sentencing and leading to exoneration hearing).
+    -   Terence Lewis: "You are free to go. You are free man." (Judge McDermott's words of exoneration, profoundly impactful for Lewis).
+-   **Systemic Issues Identified**:
+    -   Police misconduct (manufacturing cases, Brady violations, prioritizing overtime over justice).
+    -   Unreliable eyewitness testimony, especially from individuals under the influence.
+    -   Racial bias within the criminal justice system (Terence Lewis describes being a "peon," "black," and "discardable").
+    -   Ineffective assistance of counsel.
+    -   Procedural hurdles hindering justice even when innocence is apparent.
+    -   Inhumane prison conditions and treatment of incarcerated individuals.
+    -   Modern mass incarceration as a continuation of exploitative labor systems like slavery and convict leasing.
+-   **Policy Recommendations/Calls to Action**:
+    -   Support for conviction integrity units to review wrongful conviction cases.
+    -   Reform of eyewitness identification procedures.
+    -   Increased accountability for police misconduct and Brady violations.
+    -   Criminal justice reform to address systemic racism and mass incarceration.
+    -   Support for organizations like the Innocence Project and the Liberation Foundation.
+-   **Personal Narrative/Impact**:
+    -   Terence Lewis describes the profound emotional and psychological trauma of wrongful conviction and imprisonment, including feeling "empty" in jail and prison "taking" his heart.
+    -   He highlights the dehumanizing nature of incarceration and the physical and emotional abuse within prisons.
+    -   Despite the trauma, he expresses resilience and faith, leading to the establishment of the Liberation Foundation to help others.
+    -   His exoneration and settlement are described as blessings, but he is still processing the impact of his lost years and newfound freedom and wealth.
+-   **Additional Resources**:
+    -   Liberation Foundation (tlawlessfoundation.com) - Terence Lewis's organization.
+    -   Innocence Project (InnocenceProject.org) - Organization supported by Jason Flom.
+```

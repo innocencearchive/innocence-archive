@@ -1,0 +1,78 @@
+{
+  "source_file_name": "5.4.guilt_by_association.md",
+  "media_work": {
+    "work_type": "FILM",
+    "title": "Guilt by Association (48 Hours) (Title unconfirmed for this specific case on 48 Hours)",
+    "publication_or_release_year": 2016,
+    "publisher_or_network": "CBS News (assumed for 48 Hours)",
+    "focus_or_theme": "Wrongful conviction despite alibis, DNA exoneration after long imprisonment, coerced confession.",
+    "summaryNotes": "Case involved exoneration after 25 years.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "episode_title_raw": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "FILM_CONTENT",
+    "item_title": "Guilt by Association (48 Hours) (Title unconfirmed for this specific case on 48 Hours)",
+    "item_number": null,
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Wrongful conviction despite alibis, DNA exoneration after long imprisonment, coerced confession.",
+    "summary_notes": null,
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Examines how Wright was convicted of rape/murder despite multiple alibis, later exonerated through DNA after 25 years. Available via CBS/Paramount+.",
+      "research_findings": "While searches didn't confirm a 48 Hours episode titled \"Guilt by Association\" about Anthony Wright, his case fits the description in the list. Wright was convicted based on a coerced confession for a 1991 rape/murder in Philadelphia and served nearly 25 years before DNA proved his innocence, leading to acquittal at a 2016 retrial. The case gained further notoriety when detectives involved faced perjury charges related to their testimony at the retrial."
+    }
+  },
+  "featured_individuals": [
+    {
+      "case_location_city": "Philadelphia",
+      "case_location_state": "Pennsylvania",
+      "conviction_year": 1993,
+      "exoneration_or_release_year": 2016,
+      "crime_convicted_of_raw": "Rape and Murder (of 77-year-old neighbor Louise Talley)",
+      "sentence": "Life without parole",
+      "time_served": "Nearly 25 years",
+      "contributing_factors_raw": [
+        "Coerced false confession, alleged police misconduct (planting evidence, perjury by detectives later charged), conviction despite alibi claims, overturned by DNA evidence."
+      ],
+      "status_raw": "Exonerated (Acquitted at retrial after DNA testing); Detectives involved later faced perjury charges.",
+      "organizations_involved_raw": [
+        "Innocence Project."
+      ],
+      "full_name": "Anthony Wright [cite: 51",
+      "first_name": "Anthony",
+      "middle_name": "Wright [cite:",
+      "last_name": "51"
+    },
+    {
+      "case_location_city": "Philadelphia",
+      "case_location_state": "Pennsylvania",
+      "conviction_year": 1993,
+      "exoneration_or_release_year": 2016,
+      "crime_convicted_of_raw": "Rape and Murder (of 77-year-old neighbor Louise Talley)",
+      "sentence": "Life without parole",
+      "time_served": "Nearly 25 years",
+      "contributing_factors_raw": [
+        "Coerced false confession, alleged police misconduct (planting evidence, perjury by detectives later charged), conviction despite alibi claims, overturned by DNA evidence."
+      ],
+      "status_raw": "Exonerated (Acquitted at retrial after DNA testing); Detectives involved later faced perjury charges.",
+      "organizations_involved_raw": [
+        "Innocence Project."
+      ],
+      "full_name": "10.1]",
+      "first_name": "1]",
+      "middle_name": null,
+      "last_name": null
+    }
+  ],
+  "involved_persons": [],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

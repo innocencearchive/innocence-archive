@@ -1,0 +1,89 @@
+{
+    "sourceFileName": "094_Jason_Flom_with_Messiah_Johnson_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2019",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Ongoing Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, criminal justice system issues, exoneree stories",
+        "keyStats": "-   Messiah Johnson was sentenced to 132 years in prison.\n-   Virginia abolished parole in 1995 and requires serving 85% of sentence.\n-   Mistrial was granted in first trial but plea deal was rejected leading to harsher sentence after second trial.\n-   Confession from actual perpetrator obtained by UVA Innocence Project.\n-   Conditional pardon granted by Governor McAuliffe.",
+        "itemNumber": "094",
+        "itemTitle": "Jason Flom with Messiah Johnson",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Messiah Johnson, who recounts his wrongful conviction for armed robbery in Norfolk, Virginia in 1997.  Despite alibis and no physical evidence, Johnson was identified in a suggestive show-up and faced incompetent legal representation, leading to a 132-year sentence. He details the harsh interrogation, inadequate defense, and the devastating trial.  After serving 20 years, the University of Virginia Innocence Project, particularly Deirdre Enright, reinvestigated his case, secured a confession from the actual perpetrator, and ultimately helped him obtain a conditional pardon.  Johnson emphasizes the systemic issues in Virginia's justice system, the importance of post-conviction investigation, and his commitment to helping others through his non-profit, the Lion Initiative."
+    },
+    "featuredIndividual": {
+        "fullName": "Messiah Johnson",
+        "caseLocation": "Norfolk, Virginia, USA",
+        "convictionYear": "1998",
+        "exonerationYear": "Conditionally pardoned, not fully exonerated as per transcript.",
+        "crimeConvictedOf": "Armed Robbery",
+        "sentence": "132 years",
+        "timeServed": "20 years",
+        "contributingFactorsRaw": [
+            "Eyewitness Misidentification (suggestive show-up)",
+            "Ineffective Assistance of Counsel (original court-appointed and hired attorneys)",
+            "Malicious Prosecution (after rejecting plea deal)"
+        ],
+        "status": "Conditionally Pardoned, seeking full exoneration",
+        "organizationsInvolvedRaw": [
+            "University of Virginia Innocence Project"
+        ],
+        "innocenceLawyersRaw": [
+            "Deirdre Enright: Director of the Innocence Project at UVA School of Law, led the reinvestigation and secured confession.",
+            "Jennifer Givens: Attorney at UVA Innocence Project, assisted with the case."
+        ],
+        "crossReference": "Not specified if in exoneree database in transcript.",
+        "narrativeOriginalCrime": "Armed robbery of a hair salon in Norfolk, Virginia on December 5, 1997. No one was physically hurt during the robbery.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness identification from a suggestive show-up.",
+            "Victim identified Messiah Johnson after riding in a police car together with officers."
+        ],
+        "trialDefenderNotes": "-   First court-appointed attorney was incompetent, possibly mentally impaired and disbarred later, seemed to be working against Messiah's interests.\n-   Second hired attorney did not conduct proper pretrial investigation, and trial performance was questionable.",
+        "keyEvidenceExonerationRaw": [
+            "Confession from the actual perpetrator obtained by the UVA Innocence Project through reinvestigation and utilizing Freedom of Information Act to link the actual perpetrator to similar robberies.",
+            "Petition for clemency to the Governor of Virginia."
+        ],
+        "actualPerpetratorDetails": "Actual perpetrator confessed to the crime when approached by UVA Innocence Project investigators. He mentioned spiritual advisors and family members influencing his decision to come clean, expressing he was unaware someone else was imprisoned for his crime. Details beyond confession not provided in transcript."
+    },
+    "keyQuotesRaw": [
+        "\"A hundred years. That's me. I'm a kid. I didn't do anything. You know and you know that was a that was real painful man. You know because my life was discarded as if you know like I was a piece of trash or something.\" - Messiah Johnson, describing his initial sentence.",
+        "\"That is what happens in so many cases the cops have a hunch because they're so smart at the scene they have a hunch and once they act on that hunch they sort of develop tunnel vision and they take off marching in the wrong direction.\" - Jason Flom, discussing systemic issues in wrongful convictions.",
+        "Regarding the jury question: \"who positively identified Messiah when and where?\" - Highlighting confusion and weakness of the prosecution's case even to the jury.",
+        "\"Virginia...this is more along the lines of judicial genocide this is not mass incarceration you're talking about taking away generations of individuals and never giving them a second chance back out on society and it's targeted with disenfranchised mainly blacks and Latinos.\" - Messiah Johnson, on the severity of Virginia's sentencing and its disproportionate impact.",
+        "\"I have to say this all of who I am today is a reflection of that which has been shaped and molded by my circumstance of the last 20 years so I developed a very profound perspective about life that has allowed me to know my purpose and within that purpose is really about helping others.\" - Messiah Johnson, on the personal impact and finding purpose."
+    ],
+    "systemicIssuesRaw": [
+        "Suggestive police show-ups and eyewitness misidentification.",
+        "Ineffective assistance of counsel, including overworked public defenders and incompetent attorneys.",
+        "Malicious prosecution and vindictive sentencing after exercising right to trial.",
+        "Harsh sentencing laws in Virginia, including abolition of parole and 85% rule.",
+        "Procedural barriers to post-conviction relief, especially the one-year deadline in AEDPA.",
+        "Racial bias and disproportionate impact on disenfranchised communities.",
+        "Lack of adequate resources for defense attorneys, especially public defenders."
+    ],
+    "policyRecommendationsRaw": [
+        "Criminal justice reform, especially in Virginia.",
+        "Support for organizations like the Innocence Project.",
+        "Educating communities about laws and how to advocate for change.",
+        "Addressing issues of mass incarceration and judicial practices that lead to wrongful convictions.",
+        "Improving the quality of legal representation for indigent defendants."
+    ],
+    "personalNarrativeRaw": [
+        "Messiah Johnson emphasizes the profound personal impact of wrongful conviction, including the loss of 20 years of his life and the emotional toll on him and his family.",
+        "He describes finding purpose in helping others and establishing the Lion Initiative to address criminal justice reform, incarceration prevention, and provide resources for post-conviction investigation.",
+        "Johnson's resilience and positive spirit despite the ordeal are highlighted, emphasizing his determination to fight for exoneration and contribute to societal change.",
+        "Final thoughts:  Importance of education and community involvement in criminal justice reform to prevent similar injustices and create a more balanced society."
+    ],
+    "additionalResourcesRaw": [
+        "University of Virginia Innocence Project (InnocenceProject.org mentioned for donations on outro, UVA Innocence Project via Google search mentioned in interview)",
+        "Spotlight Snitch City Podcast (promotional advertisement during podcast)",
+        "Preserve Gold (advertisement during podcast - unrelated to wrongful conviction)",
+        "Trinity Health Spine Program (advertisement during podcast - unrelated to wrongful conviction)",
+        "Tire Rack Mobile Tire Installation (advertisement during podcast - unrelated to wrongful conviction)",
+        "Messiah Johnson's Instagram: Messiah_Aladar_Johnson",
+        "Messiah Johnson's Gmail: LordShine360@gmail.com"
+    ]
+}

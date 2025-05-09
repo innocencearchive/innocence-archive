@@ -1,0 +1,87 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+-   **Title**: Wrongful Conviction with Jason Flom
+-   **Episode # & Title (if applicable)**: Not specified in transcript, assume episodic series.
+-   **Host(s)**: Jason Flom
+-   **Release Year(s)**: 2023 (based on ads and mentions)
+-   **Production Company(ies)/Network**: Lava for Good Podcast in association with Signal Company number one
+-   **Series Type**: Episodic Series
+-   **Format**: Podcast
+-   **Focus/Theme**: Wrongful convictions, forensic science, arson investigation, legal reform.
+-   **Key Statistics/Information**: Over 70 people with arson charges have been exonerated in the US due to advancements in fire science.
+
+### Basic Podcast Information
+
+-   **Executive Summary**: This episode of Wrongful Conviction with Jason Flom features Joanne Parks, who was wrongfully convicted of arson and the murder of her three children in 1989.  The episode details the tragic fire, the initial accidental ruling, and the subsequent shift in investigation that led to Joanne's arrest and conviction four years later.  Raquel Cohen, attorney with the California Innocence Project, explains how outdated and unscientific arson investigation methods contributed to the wrongful conviction.  The podcast highlights the crucial role of evolving fire science in Joanne's case and the fight for her exoneration.  Despite facing life without parole, Joanne received clemency after 29 years and is now free, although her legal battle for full exoneration continues. The episode emphasizes systemic issues within the justice system and the urgent need for scientifically sound forensic practices.
+
+### Wrongfully Convicted Individuals Featured
+
+-   **Name**: Joanne Parks
+-   **Case Location**: Bell, California, USA
+-   **Conviction Year**: 1993 (approximately, 4 years after 1989 fire)
+-   **Exoneration Year**: 2021 (commuted sentence, released on parole eligibility) - *Note: Not fully exonerated, but released.*
+-   **Crime Convicted Of**: Arson and murder of her three children
+-   **Sentence**: Life without the possibility of parole
+-   **Time Served**: 29 years
+-   **Contributing Factors**:
+    -   Junk Science/Outdated Arson Investigation Methods
+    -   Tunnel vision by investigators
+    -   Misinterpretation of burn patterns (flashover not recognized)
+    -   False testimony by prosecution experts
+-   **Legal Status**: Released due to commuted sentence, seeking full exoneration.
+-   **Organizations Involved**:
+    -   California Innocence Project (CIP)
+    -   AIG Pro Bono program (underwriter)
+    -   Stand Together (sponsor)
+-   **Innocence Lawyer Details**: Raquel Cohen, attorney with the California Innocence Project.  She has been deeply involved in Joanne's case, immersing herself in fire investigation science and advocating for legal reforms.  Matt Benninger (student intern) initially worked on the case. Justin Brooks and Alex Simpson from CIP also mentioned as involved in clemency petition.
+-   **Cross-Reference**: Not specified if in exoneree database in the transcript.
+-   **Narrative of Original Crime**: A fire broke out in Joanne Parks' rental house in Bell, California, where she lived with her three children. The children died in the fire. Initially ruled accidental, the investigation was later re-opened and Joanne was accused of intentionally setting the fire.
+-   **Key Evidence at Trial (Prosecution)**:
+    -   Theory of two separate points of origin for the fire (living room and girls' room) suggesting arson.
+    -   Claim that the closet door where her son was found was barricaded, implying Joanne placed him there.
+    -   Disputed claim that flashover did not occur.
+    -   Implied motive of financial gain and not wanting her children (later shown to be baseless).
+-   **Trial Defender Notes**: Defense expert attempted to explain flashover and the possibility of accidental causes, including a Zenith TV known for starting fires. The defense expert's credibility was undermined by the prosecution. The defense also mentioned the Zenith television as a possible cause, but the original TV was discarded by investigators.
+-   **Key Evidence for Exoneration/Change in Legal Status**:
+    -   Advancements in fire science proving flashover occurred, invalidating the two points of origin theory as definitive proof of arson.
+    -   Re-evaluation of burn patterns showing they were consistent with flashover, not necessarily arson.
+    -   Recognition that initial arson investigation methods were flawed and not scientifically sound.
+    -   Clemency granted by Governor Newsom in 2021, commuting sentence to parole eligibility due to doubts about the conviction.
+-   **Actual Perpetrator Details**:  Not applicable, case is about wrongful conviction due to misinterpretation of evidence, not misidentification of perpetrator. The podcast argues there was no crime of arson committed at all.
+
+### Podcast Research Notes
+
+-   **Key Quotes/Moments**:
+    -   Joanne Parks: "I came out better than going in." (Reflecting on personal growth despite wrongful imprisonment).
+    -   Raquel Cohen: "We will get her conviction overturned one day." (Commitment to continued legal fight).
+    -   Raquel Cohen (to fire investigators resistant to change): "Your gut and your feelings and your biases have no place in the courtroom and you should know better." (Strong statement against unscientific methods).
+-   **Systemic Issues Identified**:
+    -   Flawed and outdated arson investigation methods prevalent in the past.
+    -   The legal system's slow adaptation to scientific advancements.
+    -   The impact of "junk science" and unqualified experts in court.
+    -   Tunnel vision and confirmation bias in investigations leading to wrongful accusations.
+    -   Difficulty in overturning convictions even with new scientific evidence.
+-   **Policy Recommendations/Calls to Action**:
+    -   Urgent need for fire investigators to adopt scientifically sound methods and stay updated with research.
+    -   Legislative changes to hold forensic experts to higher standards, requiring data and research to support their conclusions (e.g., California SB 243).
+    -   Support for innocence projects and organizations fighting wrongful convictions.
+    -   Encouragement for fire investigators to embrace change and admit past errors to prevent future wrongful convictions.
+-   **Personal Narrative/Impact**:
+    -   Joanne Parks endured unimaginable tragedy losing her children and then being wrongly imprisoned for their deaths.
+    -   She demonstrated incredible resilience and personal growth during 29 years of wrongful incarceration, focusing on education and self-improvement.
+    -   Her story highlights the devastating impact of wrongful convictions on individuals and families.
+    -   Her final thoughts express gratitude for her support system and a desire to help others avoid similar injustices.
+-   **Additional Resources**:
+    -   California Innocence Project (mentioned throughout the podcast)
+    -   Wrongful Conviction Junk Science podcast (mentioned episode on John Lentini)
+    -   Stand Together (standtogether.org/conviction)
+    -   don'tsleeponosa.com (advertisement during podcast)
+    -   KISQALI.com (advertisement during podcast)
+    -   prime video (for G20 movie advertisement)
+    -   trialblazerspodcast.com (Clinical Trial Blazers podcast advertisement)
+```

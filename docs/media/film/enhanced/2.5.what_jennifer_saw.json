@@ -1,0 +1,65 @@
+{
+  "source_file_name": "2.5.what_jennifer_saw.md",
+  "media_work": {
+    "work_type": "TV_SERIES",
+    "title": "FRONTLINE",
+    "creator_name": "Information Unavailable",
+    "publication_or_release_year": null,
+    "publisher_or_network": "FRONTLINE (likely WGBH)",
+    "focus_or_theme": "Reliability of eyewitness testimony, specifically Jennifer Thompson's misidentification of Ronald Cotton",
+    "summaryNotes": null,
+    "availabilityNotes": "Available via PBS",
+    "sourceUrl": null,
+    "director_name": null
+  },
+  "media_item": {
+    "item_media_type": "TV_EPISODE",
+    "item_title": "What Jennifer Saw",
+    "item_number": "Season Unknown, Episode Unknown",
+    "release_date": null,
+    "hostOrNarrator": null,
+    "focus_or_theme": "Reliability of eyewitness testimony, specifically Jennifer Thompson's misidentification of Ronald Cotton",
+    "summary_notes": "The documentary explores the well-known Cotton/Thompson case, highlighting the fallibility of eyewitness memory and Thompson's journey post-realization. Thompson later became an advocate.",
+    "key_quotes_raw": [],
+    "systemic_issues_raw": [],
+    "policy_recommendations_raw": [],
+    "external_links_raw": [],
+    "sourceUrl": null,
+    "research_notes_other": {
+      "notes_from_film_list.txt": "Detailed exploration of the Cotton/Thompson case; Thompson later became an advocate; Available via PBS.",
+      "research_findings": "Despite searches, specific details about this FRONTLINE episode (director, exact air date) could not be confirmed. The focus is clearly the well-known Cotton/Thompson case, highlighting the fallibility of eyewitness memory and Thompson's journey post-realization."
+    }
+  },
+  "featured_individuals": [
+    {
+      "full_name": "Ronald Cotton",
+      "first_name": "Ronald",
+      "middle_name": null,
+      "last_name": "Cotton",
+      "status": "EXONERATED",
+      "conviction_year": 1985,
+      "exoneration_or_release_year": 1995,
+      "time_served": "~11 years",
+      "sentence": "Life plus 50+ years",
+      "crime_convicted_of_raw": "Rape and Burglary",
+      "case_location_city": "Burlington",
+      "case_location_state": "North Carolina",
+      "narrative_summary": "Ronald Cotton was wrongfully convicted of rape and burglary in Burlington, North Carolina, in 1985. He was exonerated in 1995 after serving approximately 11 years, due to DNA evidence that proved his innocence. His case highlights the dangers of eyewitness misidentification.",
+      "contributing_factors_raw": [
+        "Eyewitness misidentification"
+      ],
+      "organizations_involved_raw": []
+    }
+  ],
+  "involved_persons": [
+    {
+      "full_name": "Information Unavailable",
+      "first_name": "Information",
+      "middle_name": null,
+      "last_name": "Unavailable",
+      "role": "DIRECTOR"
+    }
+  ],
+  "research_strategy_notes_raw": null,
+  "research_notes_raw": null
+}

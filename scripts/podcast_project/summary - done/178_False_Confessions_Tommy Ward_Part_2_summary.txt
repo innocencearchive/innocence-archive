@@ -1,0 +1,99 @@
+```markdown
+# Podcast Research: Wrongful Conviction Media Sources
+
+## Research Template for Each Podcast
+
+### Basic Podcast Information
+
+- **Title**: Wrongful Conviction: False Confessions
+- **Episode # & Title (if applicable)**: Part two of the story of Tommy Ward and Carl Fontenow
+- **Host(s)**: Lauren Nyreider, Steve Drizen
+- **Release Year(s)**: 2020
+- **Production Company(ies)/Network**: Lava for Good Podcasts in association with Signal Company No. 1
+- **Series Type**: Episodic Series
+- **Format**: Podcast
+- **Focus/Theme**: Wrongful convictions, false confessions, police interrogation tactics, prosecutorial misconduct, hidden evidence, fight for exoneration.
+- **Key Statistics/Information**:
+    - Two wrongful convictions in Ada, Oklahoma based on dream confessions.
+    - 860 pages of exculpatory evidence were withheld by the prosecution.
+    - Carl Fontenot was released in 2019 after 34 years of wrongful imprisonment.
+    - Tommy Ward's conviction was overturned in December 2020, but he remained in prison pending appeal at the time of the recording.
+
+### Basic Podcast Information
+
+- **Executive Summary**: This episode of "Wrongful Conviction: False Confessions" continues the story of Tommy Ward and Carl Fontenot, wrongfully convicted for the murder of Denise Haraway in Ada, Oklahoma. Their convictions were based on confessions obtained after lengthy police interrogations, confessions later proven to be factually incorrect and derived from a dream Tommy Ward described.  A key piece of prosecution evidence was a detail about the victim's blouse, seemingly unknown to police until the confessions. However, newly discovered evidence, 860 pages withheld by prosecution, revealed police knew about the blouse description prior to interrogations and contained alibi evidence for Tommy Ward.  This revelation led to Carl Fontenot's release in 2019 after 34 years, and in December 2020, Tommy Ward's conviction was also overturned, though he remained in custody pending a prosecutor's appeal at the time of this recording. The episode underscores the devastating consequences of false confessions and prosecutorial misconduct within the justice system.
+
+### Wrongfully Convicted Individuals Featured
+
+- **Name**: Tommy Ward
+    - **Case Location**: Ada, Oklahoma, USA
+    - **Conviction Year**: 1985 (approximately, based on timeline of events in transcript)
+    - **Exoneration Year**: 2020 (conviction overturned, pending appeal at time of recording)
+    - **Crime Convicted Of**: Murder of Denise Haraway
+    - **Sentence**: Initially death row, later life imprisonment
+    - **Time Served**: 35+ years (as of December 2020)
+    - **Contributing Factors**: False confession, undisclosed exculpatory evidence (prosecutorial misconduct).
+    - **Legal Status**: Conviction overturned, pending appeal by prosecution (as of recording).
+    - **Organizations Involved**: Center on Wrongful Convictions, Northwestern University Pritzker School of Law
+    - **Innocence Lawyer Details**: Mark Barrett (Oklahoma attorney), Center on Wrongful Convictions.
+    - **Cross-Reference**: Not mentioned in transcript.
+    - **Narrative of Original Crime**: Denise Haraway disappeared. Tommy Ward and Carl Fontenot confessed to abducting, stabbing, and burning her body and leaving it at a specific location.
+    - **Key Evidence at Trial (Prosecution)**: Confession to the crime, specifically the detail about Denise Haraway's blue blouse with lace, which prosecutors claimed police were unaware of prior to the confession.
+    - **Trial Defender Notes**: Not detailed explicitly but implied to be ineffective given the convictions despite inconsistencies and lack of corroborating evidence.
+    - **Key Evidence for Exoneration/Change in Legal Status**: Discovery of 860 pages of undisclosed prosecutorial evidence, including:
+        - Police report describing Denise Haraway's blouse prior to Tommy and Carl's interrogation.
+        - Evidence corroborating Tommy Ward's alibi.
+        - Carl Fontenot's recantation shortly after his confession.
+        - Police reports showing inconsistencies in eyewitness testimony against Tommy Ward.
+    - **Actual Perpetrator Details**: Not mentioned in the transcript.
+
+- **Name**: Carl Fontenot
+    - **Case Location**: Ada, Oklahoma, USA
+    - **Conviction Year**: 1985 (approximately)
+    - **Exoneration Year**: 2019 (released on bond after conviction overturned)
+    - **Crime Convicted Of**: Murder of Denise Haraway
+    - **Sentence**: Initially death row, later life imprisonment
+    - **Time Served**: 34 years
+    - **Contributing Factors**: False confession, undisclosed exculpatory evidence (prosecutorial misconduct).
+    - **Legal Status**: Conviction overturned, released on bond (exonerated).
+    - **Organizations Involved**: Center on Wrongful Convictions (likely), Oklahoma Innocence Project (community of exonerees mentioned).
+    - **Innocence Lawyer Details**:  Partnered with Center on Wrongful Convictions (not named specifically in transcript).
+    - **Cross-Reference**: Not mentioned in transcript.
+    - **Narrative of Original Crime**: Same as Tommy Ward's confession.
+    - **Key Evidence at Trial (Prosecution)**: Confession to the crime, specifically the detail about Denise Haraway's blue blouse with lace.
+    - **Trial Defender Notes**: Not detailed explicitly but implied to be ineffective.
+    - **Key Evidence for Exoneration/Change in Legal Status**: Same undisclosed evidence as in Tommy Ward's case.
+    - **Actual Perpetrator Details**: Not mentioned in the transcript.
+
+
+### Podcast Research Notes
+
+- **Key Quotes/Moments**:
+    - "These confessions were obviously, obviously false." (Steve Drizen describing the initial confessions)
+    - "But based on this one detail in their confessions, Tommy and Carl were convicted of murder." (Lauren Nyreider explaining the weight given to the blouse detail)
+    - "You're all liars, he shouted at the prosecutors. I'm being punished for something I didn't do." (Tommy Ward's reaction to the second guilty verdict)
+    - "This eviscerates the state's case." (Steve Drizen on the revelation that police knew about the blouse description beforehand)
+    - "When you put this all together, there is just no question that Tommy Ward and Carl Fontenot are absolutely innocent of this crime." (Steve Drizen summarizing the impact of the new evidence)
+- **Systemic Issues Identified**:
+    - False confessions induced by police interrogation tactics.
+    - Prosecutorial misconduct through withholding exculpatory evidence.
+    - Ineffective assistance of counsel at trial (implied).
+    - Juror reliance on confessions despite contradictory evidence.
+    - Potential for "dream confessions" to be taken as factual basis for conviction.
+- **Policy Recommendations/Calls to Action**:
+    - Implicit call for justice for Tommy Ward's full exoneration.
+    - Highlight need for transparency and full disclosure of evidence in criminal cases.
+    - Underscores the importance of organizations like the Center on Wrongful Convictions in rectifying miscarriages of justice.
+    - Raises awareness about the dangers of false confessions and the need for reform in interrogation practices.
+- **Personal Narrative/Impact**:
+    - Tommy Ward's enduring faith and kindness, even in prison, exemplified by his concern for others and his hobbies.
+    - Carl Fontenot's creation of toothpick art in prison reflecting his isolation and lack of connection to the outside world.
+    - Melvin Ward's unwavering dedication to his brother Tommy's case over decades.
+    - The global support for Tommy and Carl's innocence generated by media coverage.
+    - Tommy Ward's aspiration to use his woodworking skills to help the elderly upon release.
+- **Additional Resources**:
+    - Books: "Dreams of Ada" by Robert Mayer, "The Innocent Man" by John Grisham
+    - Netflix Series: "The Innocent Man"
+    - Organization: The Center on Wrongful Convictions at Northwestern University Pritzker School of Law
+    - Podcast: "Wrongful Conviction: False Confessions"
+```
