@@ -2,8 +2,9 @@
 /* --- File: src/pages/CombinedMediaPage.jsx (v3) ---                       */
 /* --- Displays a unified view for Book/Film Work & Item Content ---        */
 /* --- FIX: Calls correct 'othersources' endpoint for external links ---    */
+/* --- MODIFIED: Uses apiClient for all fetch operations ---                */
 /* ========================================================================== */
-
+import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 
@@ -22,7 +23,7 @@ import WrongfullyConvictedList from '../components/WrongfullyConvictedList';
 import OtherInvolvedPersonsList from '../components/OtherInvolvedPersonsList';
 import OrganizationsMentionedList from '../components/OrganizationsMentionedList';
 import ContributingFactorsList from '../components/ContributingFactorsList';
-import ExternalSourcesList from '../components/ExternalSourcesList'; // Component name is fine
+import ExternalSourcesList from '../components/ExternalSourcesList';
 import RelatedMediaList from '../components/RelatedMediaList';
 import AIDisclaimer from '../components/AIDisclaimer';
 
@@ -72,7 +73,7 @@ function CombinedMediaPage() {
     const [loadingFactors, setLoadingFactors] = useState(false);
     const [errorFactors, setErrorFactors] = useState(null);
 
-    const [externalSources, setExternalSources] = useState([]); // State name is fine
+    const [externalSources, setExternalSources] = useState([]);
     const [loadingSources, setLoadingSources] = useState(false);
     const [errorSources, setErrorSources] = useState(null);
 
@@ -83,7 +84,6 @@ function CombinedMediaPage() {
 
     // --- Effect 1: Fetch Core Work and Item Data ---
     useEffect(() => {
-        // (This effect remains the same as the previous version)
         if (!workId) {
             setErrorPage("No media ID provided in URL.");
             setLoadingPage(false);
@@ -93,14 +93,13 @@ function CombinedMediaPage() {
             setLoadingPage(true); setErrorPage(null); setWorkData(null); setItemData(null);
             console.log(`Fetching combined data for Work ID: ${workId}`);
             try {
-                const workApiUrl = `http://localhost:3001/api/mediaworks/${workId}?include=items`;
-                console.log(`Fetching work data from: ${workApiUrl}`);
-                const workResponse = await fetch(workApiUrl);
-                if (!workResponse.ok) {
-                    const errorData = await workResponse.json().catch(() => ({}));
-                    throw new Error(`HTTP error fetching work! Status: ${workResponse.status} - ${errorData.message || 'Failed to fetch work data'}`);
-                }
-                const fetchedWorkData = await workResponse.json();
+                // Use apiClient. The VITE_API_URL (e.g., http://localhost:3001 or https://your-api.onrender.com)
+                // will be prepended to '/api/mediaworks/...'
+                const workApiUrl = `/api/mediaworks/${workId}?include=items`;
+                console.log(`Fetching work data from (using apiClient): ${workApiUrl}`);
+                const response = await apiClient.get(workApiUrl);
+                const fetchedWorkData = response.data; // Axios provides data directly
+
                 if (fetchedWorkData.workType !== 'BOOK' && fetchedWorkData.workType !== 'FILM' && fetchedWorkData.workType !== 'DOCUMENTARY') {
                      throw new Error(`This page is only for Books, Films, or Documentaries. Found type: ${fetchedWorkData.workType}`);
                 }
@@ -117,7 +116,10 @@ function CombinedMediaPage() {
                 console.log("Found content item:", contentItem);
             } catch (err) {
                 console.error("Error fetching core combined data:", err);
-                setErrorPage(err.message); setWorkData(null); setItemData(null);
+                const errorMessage = err.response?.data?.message || err.message || "Failed to fetch core data.";
+                setErrorPage(errorMessage); 
+                setWorkData(null); 
+                setItemData(null);
             } finally {
                 setLoadingPage(false);
             }
@@ -127,7 +129,6 @@ function CombinedMediaPage() {
 
     // --- Effect 2: Fetch Related Lists Data (after core data is loaded) ---
     useEffect(() => {
-        // (This effect's structure remains the same, only the endpoint name changes below)
         if (!workId || loadingPage || errorPage || !workData || !itemData?.id) {
              setWrongfullyConvicted([]); setOtherInvolvedPersons([]); setRelatedOrganizations([]);
              setRelatedFactors([]); setExternalSources([]); setRelatedMediaItems([]);
@@ -138,28 +139,43 @@ function CombinedMediaPage() {
         // Fetch lists related to the WORK
         const fetchWorkRelatedList = async (endpoint, setData, setLoading, setError, typeLabel) => {
             setLoading(true); setError(null); setData([]);
-            const apiUrl = `http://localhost:3001/api/mediaworks/${workId}/${endpoint}`;
-            console.log(`Fetching ${typeLabel} for Work ID ${workId} from: ${apiUrl}`);
+            const apiUrl = `/api/mediaworks/${workId}/${endpoint}`;
+            console.log(`Fetching ${typeLabel} for Work ID ${workId} from (using apiClient): ${apiUrl}`);
             try {
-                const response = await fetch(apiUrl);
-                if (response.status === 501) { console.warn(`Endpoint /${endpoint} is not implemented for MediaWorks.`); setError(`Feature not available (${endpoint}).`); return; }
-                if (!response.ok) { const errorData = await response.json().catch(() => ({})); throw new Error(`HTTP error loading ${typeLabel}! Status: ${response.status} - ${errorData.message || 'Failed to fetch'}`); }
-                const data = await response.json(); setData(data);
-            } catch (err) { console.error(`Fetch ${typeLabel} error:`, err); setError(err.message); }
+                const response = await apiClient.get(apiUrl);
+                setData(response.data); // Axios provides data directly
+            } catch (err) {
+                console.error(`Fetch ${typeLabel} error:`, err);
+                // Handle 501 specifically if needed, though Axios might not expose status directly in simple catch
+                if (err.response && err.response.status === 501) {
+                    console.warn(`Endpoint /${endpoint} is not implemented for MediaWorks.`);
+                    setError(`Feature not available (${endpoint}).`);
+                } else {
+                    const errorMessage = err.response?.data?.message || err.message || `Failed to fetch ${typeLabel}.`;
+                    setError(errorMessage);
+                }
+            }
             finally { setLoading(false); }
         };
 
         // Fetch lists related to the ITEM
         const fetchItemRelatedList = async (endpoint, setData, setLoading, setError, typeLabel) => {
             setLoading(true); setError(null); setData([]);
-            const apiUrl = `http://localhost:3001/api/mediaitems/${itemId}/${endpoint}`;
-            console.log(`Fetching ${typeLabel} for Item ID ${itemId} from: ${apiUrl}`);
+            const apiUrl = `/api/mediaitems/${itemId}/${endpoint}`;
+            console.log(`Fetching ${typeLabel} for Item ID ${itemId} from (using apiClient): ${apiUrl}`);
             try {
-                const response = await fetch(apiUrl);
-                 if (response.status === 501) { console.warn(`Endpoint /${endpoint} is not implemented for MediaItems.`); setError(`Feature not available (${endpoint}).`); return; }
-                 if (!response.ok) { const errorData = await response.json().catch(() => ({})); throw new Error(`HTTP error loading ${typeLabel}! Status: ${response.status} - ${errorData.message || 'Failed to fetch'}`); }
-                 const data = await response.json(); setData(data);
-            } catch (err) { console.error(`Fetch ${typeLabel} error:`, err); setError(err.message); }
+                const response = await apiClient.get(apiUrl);
+                setData(response.data); // Axios provides data directly
+            } catch (err) {
+                console.error(`Fetch ${typeLabel} error:`, err);
+                if (err.response && err.response.status === 501) {
+                     console.warn(`Endpoint /${endpoint} is not implemented for MediaItems.`);
+                     setError(`Feature not available (${endpoint}).`);
+                } else {
+                    const errorMessage = err.response?.data?.message || err.message || `Failed to fetch ${typeLabel}.`;
+                    setError(errorMessage);
+                }
+            }
             finally { setLoading(false); }
         };
 
@@ -170,14 +186,12 @@ function CombinedMediaPage() {
         fetchWorkRelatedList('factors', setRelatedFactors, setLoadingFactors, setErrorFactors, 'Factors');
 
         // Fetch ITEM-related lists
-        // **FIXED**: Use the correct endpoint name 'othersources' to match mediaitems.js
         fetchItemRelatedList('othersources', setExternalSources, setLoadingSources, setErrorSources, 'External Sources');
         fetchItemRelatedList('relatedmedia', setRelatedMediaItems, setLoadingMedia, setErrorMedia, 'Related Media');
 
-    }, [workId, itemData, loadingPage, errorPage]); // Dependencies remain the same
+    }, [workId, itemData, loadingPage, errorPage]);
 
     // --- Breadcrumb Logic ---
-    // (Remains the same)
     let breadcrumbItems = [{ label: "Home", link: "/" }];
     const pageTitle = workData?.title ?? 'Media';
     const pageType = workData?.workType ? formatMediaType(workData.workType) : 'Media';
@@ -187,8 +201,7 @@ function CombinedMediaPage() {
     else { breadcrumbItems.push({ label: "Not Found" }); }
 
     // --- Render Logic ---
-    // (Loading, Error, Not Found states remain the same)
-    if (loadingPage) { /* ... loading JSX ... */
+    if (loadingPage) {
         return (
             <div className="bg-black text-gray-400 p-8 rounded-lg shadow-lg text-center min-h-screen flex flex-col justify-center items-center">
                 <Loader2 className="h-12 w-12 animate-spin text-amber-500" />
@@ -196,7 +209,7 @@ function CombinedMediaPage() {
             </div>
         );
      }
-    if (errorPage) { /* ... error JSX ... */
+    if (errorPage) {
         return (
             <div className="bg-black text-red-500 p-8 rounded-lg shadow-lg text-center min-h-screen flex flex-col justify-center items-center">
                 <div className="w-full px-4 md:px-8 py-4 absolute top-0 left-0"><Breadcrumbs items={breadcrumbItems} /></div>
@@ -209,7 +222,7 @@ function CombinedMediaPage() {
             </div>
         );
     }
-    if (!workData || !itemData) { /* ... not found JSX ... */
+    if (!workData || !itemData) {
          return (
             <div className="bg-black text-gray-400 p-8 rounded-lg shadow-lg text-center min-h-screen flex flex-col justify-center items-center">
                  <div className="w-full px-4 md:px-8 py-4 absolute top-0 left-0"><Breadcrumbs items={breadcrumbItems} /></div>
@@ -223,17 +236,14 @@ function CombinedMediaPage() {
      }
 
     // --- Render Combined Page ---
-    // (Layout structure remains the same)
     return (
         <div className="text-gray-50 bg-black rounded-lg shadow-lg overflow-hidden">
             {/* Header Area / Breadcrumbs */}
-            {/* (Remains the same) */}
             <div className="w-full px-4 md:px-8 py-4">
                 <Breadcrumbs items={breadcrumbItems} />
             </div>
 
             {/* === BLOCK 1: Core Details & Summary === */}
-            {/* (Remains the same) */}
             <div className="flex flex-col items-center justify-start px-4 md:px-8 pt-16 pb-8">
                 <div className="w-full max-w-6xl mx-auto">
                     <h1 className={`text-4xl md:text-5xl ${BRONZE_COLOR} mb-4 text-center font-serif font-bold tracking-wider uppercase`}>
@@ -249,18 +259,13 @@ function CombinedMediaPage() {
                         <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg`}>
                             <ItemSummaryDisplay summaryText={itemData.summaryNotes} />
 							
-                            {/* *** ADDED AI DISCLAIMER HERE *** */}
-                            {/* Show disclaimer if aiGenerated is true (or null/undefined if using default) */}
-                            {/* Ensure individualData includes the 'aiGenerated' field from your API */}
                             {itemData.aiGenerated !== false && <AIDisclaimer />}
-                            {/* Using !== false allows it to show if true OR if the field is missing (null/undefined) */}
                         </div>
                     </div>
                 </div>
             </div>
 
             {/* === BLOCK 1.5: Wrongfully Convicted Individuals === */}
-            {/* (Remains the same) */}
             {(loadingWC || wrongfullyConvicted.length > 0 || errorWC) && (
                 <div className="flex flex-col items-center justify-start px-4 md:px-8 py-8">
                     <div className="w-full max-w-6xl mx-auto">
@@ -272,7 +277,6 @@ function CombinedMediaPage() {
             )}
 
             {/* === BLOCK 2: Learn More (Related Lists) === */}
-            {/* (Remains the same) */}
             <div className="flex flex-col items-center justify-start px-4 md:px-8 pt-8 pb-16">
                 <div className="w-full max-w-6xl mx-auto">
                     <h2 className={`text-3xl md:text-4xl font-semibold mb-10 text-center ${BRONZE_COLOR}`}>Learn More</h2>

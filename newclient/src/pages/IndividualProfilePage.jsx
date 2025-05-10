@@ -1,10 +1,11 @@
 /* ========================================================================== */
 /* --- File: src/pages/IndividualProfilePage.jsx (Disclaimer Added) ---     */
+/* --- MODIFIED: Updated error handling for apiClient (Axios) ---           */
 /* ========================================================================== */
-
+import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
 import React, { useEffect, useState, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, AlertCircle } from 'lucide-react';
+import { ArrowLeft, AlertCircle, Loader2 } from 'lucide-react'; // Added Loader2 for consistency
 import { BRONZE_BORDER, BRONZE_COLOR } from '../components/themeconstants';
 import Breadcrumbs from '../components/Breadcrumbs';
 import KeyInfo from '../components/KeyInfo';
@@ -15,7 +16,7 @@ import ContributingFactorsList from '../components/ContributingFactorsList';
 import OtherSourcesList from '../components/OtherSourcesList';
 import OtherInvolvedPersonsList from '../components/OtherInvolvedPersonsList';
 import RelatedWrongfullyConvictedList from '../components/RelatedWrongfullyConvictedList';
-import AIDisclaimer from '../components/AIDisclaimer'; // *** IMPORT THE DISCLAIMER ***
+import AIDisclaimer from '../components/AIDisclaimer';
 
 // --- Helper Function to Format Status ---
 const formatStatus = (status) => {
@@ -34,28 +35,58 @@ function IndividualProfilePage() {
     // --- Data Fetching Effect ---
     useEffect(() => {
         const fetchData = async () => {
-            setLoading(true); setError(null); setIndividualData(null);
-            // *** Ensure your API call fetches the 'aiGenerated' field ***
-            const apiUrl = `http://localhost:3001/api/individuals/${id}`;
-            console.log(`Fetching data from: ${apiUrl}`);
+            setLoading(true); 
+            setError(null); 
+            setIndividualData(null);
+            
+            const apiUrl = `/api/individuals/${id}`;
+            console.log(`Fetching data from (using apiClient): ${apiUrl}`);
             try {
-                const response = await fetch(apiUrl);
-                if (!response.ok) {
-                    let errorMsg = `HTTP error! status: ${response.status}`;
-                    try { const errorData = await response.json(); errorMsg = errorData.message || errorMsg; } catch (parseError) {}
-                    throw new Error(errorMsg);
-                 }
-                const data = await response.json();
-                console.log("Fetched individual data:", data); // Check if aiGenerated is present
+                // Make the API call using your apiClient
+                const response = await apiClient.get(apiUrl);
+                
+                // With Axios, the actual data from a successful response is in response.data
+                const data = response.data;
+                console.log("Fetched individual data:", data);
                 setIndividualData(data);
+
             } catch (err) {
+                // Axios throws an error for non-2xx status codes.
+                // The error object (err) often contains more details.
                 console.error("Fetch error:", err);
-                setError(err.message || "An unknown error occurred");
-             }
-            finally { setLoading(false); }
+                
+                let errorMessage = "An unknown error occurred while fetching profile data.";
+                if (err.response) {
+                    // The request was made and the server responded with a status code
+                    // that falls out of the range of 2xx
+                    console.error("Error response data:", err.response.data);
+                    console.error("Error response status:", err.response.status);
+                    // Use the error message from the backend if available
+                    errorMessage = err.response.data?.message || `Error: ${err.response.status} - ${err.response.statusText}`;
+                } else if (err.request) {
+                    // The request was made but no response was received
+                    // `err.request` is an instance of XMLHttpRequest in the browser and an instance of
+                    // http.ClientRequest in node.js
+                    console.error("Error request:", err.request);
+                    errorMessage = "No response received from server. Please check your network connection.";
+                } else {
+                    // Something happened in setting up the request that triggered an Error
+                    console.error('Error message:', err.message);
+                    errorMessage = err.message;
+                }
+                setError(errorMessage);
+            }
+            finally { 
+                setLoading(false); 
+            }
         };
-        if (id) { fetchData(); }
-        else { setError("No individual ID provided."); setLoading(false); }
+
+        if (id) { 
+            fetchData(); 
+        } else { 
+            setError("No individual ID provided."); 
+            setLoading(false); 
+        }
     }, [id]);
 
     // --- Prepare Data for StoryNarrative ---
@@ -90,11 +121,37 @@ function IndividualProfilePage() {
     else breadcrumbItems.push({ label: "Not Found" });
 
     // --- Loading State ---
-    if (loading) { return ( <div className="bg-black text-gray-400 p-8 rounded-lg shadow-lg text-center"><p>Loading profile...</p></div> ); }
+    if (loading) { 
+        return ( 
+            <div className="bg-black text-gray-400 p-8 rounded-lg shadow-lg text-center min-h-screen flex flex-col justify-center items-center">
+                <Loader2 className="h-12 w-12 animate-spin text-amber-500" />
+                <p className="mt-4 text-lg">Loading Profile...</p>
+            </div> 
+        ); 
+    }
     // --- Error State ---
-    if (error) { return ( <div className="bg-black text-red-500 p-8 rounded-lg shadow-lg text-center"><div className="w-full px-4 md:px-8 py-4"><Breadcrumbs items={breadcrumbItems} /></div><AlertCircle className="mx-auto h-12 w-12 text-red-400 my-4" /><h2 className="text-xl font-semibold mb-2">Error Loading Profile</h2> <p className="text-sm">{error}</p><button onClick={() => navigate(-1)} className="mt-6 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-amber-600 hover:bg-amber-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500"> <ArrowLeft className="mr-2 h-5 w-5" /> Go Back </button></div> ); }
+    if (error) { 
+        return ( 
+            <div className="bg-black text-red-500 p-8 rounded-lg shadow-lg text-center min-h-screen flex flex-col justify-center items-center">
+                <div className="w-full px-4 md:px-8 py-4 absolute top-0 left-0"><Breadcrumbs items={breadcrumbItems} /></div>
+                <AlertCircle className="mx-auto h-12 w-12 text-red-400 my-4" />
+                <h2 className="text-xl font-semibold mb-2">Error Loading Profile</h2> 
+                <p className="text-sm">{error}</p>
+                <button onClick={() => navigate(-1)} className="mt-6 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-amber-600 hover:bg-amber-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-500"> 
+                    <ArrowLeft className="mr-2 h-5 w-5" /> Go Back 
+                </button>
+            </div> 
+        ); 
+    }
     // --- Not Found State ---
-    if (!individualData) { return ( <div className="bg-black text-gray-400 p-8 rounded-lg shadow-lg text-center"><div className="w-full px-4 md:px-8 py-4"><Breadcrumbs items={breadcrumbItems} /></div><p>Profile data not available for ID: {id}.</p></div> ); }
+    if (!individualData) { 
+        return ( 
+            <div className="bg-black text-gray-400 p-8 rounded-lg shadow-lg text-center min-h-screen flex flex-col justify-center items-center">
+                <div className="w-full px-4 md:px-8 py-4 absolute top-0 left-0"><Breadcrumbs items={breadcrumbItems} /></div>
+                <p>Profile data not available for ID: {id}. This individual may not exist or there was an issue retrieving their data.</p>
+            </div> 
+        ); 
+    }
 
     // --- Render Profile Page ---
     const formattedProfileStatus = formatStatus(individualData.status);
@@ -124,13 +181,7 @@ function IndividualProfilePage() {
                         {/* Story Narrative Container */}
                         <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg`}>
                             <StoryNarrative storySections={storySectionsForNarrative} />
-
-                            {/* *** ADDED AI DISCLAIMER HERE *** */}
-                            {/* Show disclaimer if aiGenerated is true (or null/undefined if using default) */}
-                            {/* Ensure individualData includes the 'aiGenerated' field from your API */}
                             {individualData.aiGenerated !== false && <AIDisclaimer />}
-                            {/* Using !== false allows it to show if true OR if the field is missing (null/undefined) */}
-
                         </div>
                     </div>
                 </div>
@@ -143,14 +194,13 @@ function IndividualProfilePage() {
                         <div className={`p-4 border ${BRONZE_BORDER} rounded-lg h-full overflow-y-auto max-h-96`}>
                             <RelatedWrongfullyConvictedList
                                 individuals={combinedRelatedIndividuals}
-                                isLoading={loading} // Pass loading/error for context
+                                isLoading={loading} 
                                 error={error}
                             />
                         </div>
                     </div>
                 </div>
             )}
-
 
             {/* === BLOCK 2: Learn More === */}
             <div className="flex flex-col items-center justify-start px-4 md:px-8 pt-8 pb-16">

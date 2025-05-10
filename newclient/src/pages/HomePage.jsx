@@ -1,15 +1,14 @@
 // src/pages/HomePage.jsx
+import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
 import React, { useState, useEffect } from 'react';
-import { AlertCircle, Loader2 } from 'lucide-react'; // Added Loader2
-// Assuming these components are correctly located relative to HomePage.jsx
+import { AlertCircle, Loader2 } from 'lucide-react';
 import ExploreGrid from '../components/ExploreGrid';
 import FeaturedStory from '../components/FeaturedStory';
 import HowToUse from '../components/HowToUse';
 import MissionStatement from '../components/MissionStatement';
-import RecentUpdates from '../components/RecentUpdates'; // Assuming this is still needed or uses separate logic
+import RecentUpdates from '../components/RecentUpdates';
 import HeroSection from '../components/HeroSection';
 
-// Static data can remain if still used by StatsModule directly
 const staticStats = [
   { id: 1, text: "Over 3,000 exonerations nationwide since 1989." },
   { id: 2, text: "Official misconduct contributed to over 50% of known wrongful convictions." },
@@ -17,21 +16,15 @@ const staticStats = [
 ];
 
 const HomePage = () => {
-  // State hooks for the featured content
   const [featuredStory, setFeaturedStory] = useState(null);
   const [featuredMedia, setFeaturedMedia] = useState({ book: null, podcast: null, film: null });
   const [featuredOrg, setFeaturedOrg] = useState(null);
   const [featuredFactors, setFeaturedFactors] = useState([]);
-  // Keep recent updates state if it's fetched separately or static
   const [recentUpdates, setRecentUpdates] = useState([]);
-  // Keep stats if they are static or fetched differently
   const [stats, setStats] = useState(staticStats);
-
-  // Loading and error states
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // useEffect hook to fetch settings and then featured content
   useEffect(() => {
     const fetchHomepageData = async () => {
       setIsLoading(true);
@@ -39,112 +32,78 @@ const HomePage = () => {
       console.log("Fetching homepage settings...");
 
       try {
-        // 1. Fetch the settings
-        const settingsResponse = await fetch('/api/settings/featured');
-        if (!settingsResponse.ok) {
-          const errorData = await settingsResponse.json().catch(() => ({}));
-          throw new Error(`Failed to fetch settings: ${errorData.message || settingsResponse.statusText}`);
-        }
-        const settings = await settingsResponse.json();
+        // 1. Fetch the settings using apiClient
+        const settingsResponse = await apiClient.get('/api/settings/featured');
+        // With Axios, data is in settingsResponse.data.
+        // Axios throws an error for non-2xx responses, so !settingsResponse.ok check is not standard here.
+        // The catch block below will handle HTTP errors.
+        const settings = settingsResponse.data;
         console.log("Homepage settings fetched:", settings);
 
-        // 2. Prepare fetch promises based on settings IDs
+        // 2. Prepare fetch promises based on settings IDs using apiClient
         const fetchPromises = [];
+
+        // Helper function to create a fetch promise with apiClient
+        const createFetchPromise = (type, endpoint) => {
+          console.log(`Fetching featured ${type} from: ${endpoint}`);
+          return apiClient.get(endpoint)
+            .then(response => ({ type, data: response.data })) // Axios provides data directly
+            .catch(err => {
+              // Construct a more informative error object for Promise.allSettled
+              const errorMessage = err.response?.data?.message || err.message || `Failed to fetch ${type}`;
+              console.error(`Error fetching ${type} from ${endpoint}:`, errorMessage, err.response || err);
+              return Promise.reject({ type, error: new Error(errorMessage), originalError: err });
+            });
+        };
 
         // --- Fetch Featured Story (Individual) ---
         if (settings.featuredStoryId) {
-          console.log(`Fetching featured story (Individual ID: ${settings.featuredStoryId})`);
-          fetchPromises.push(
-            fetch(`/api/individuals/${settings.featuredStoryId}`)
-              .then(res => res.ok ? res.json() : Promise.reject(`Story fetch failed: ${res.statusText}`))
-              .then(data => ({ type: 'story', data }))
-              .catch(err => ({ type: 'story', error: err })) // Catch specific fetch error
-          );
+          fetchPromises.push(createFetchPromise('story', `/api/individuals/${settings.featuredStoryId}`));
         } else {
-           fetchPromises.push(Promise.resolve({ type: 'story', data: null })); // Resolve null if no ID
+          fetchPromises.push(Promise.resolve({ type: 'story', data: null }));
         }
 
         // --- Fetch Featured Media (Book, Podcast, Film - MediaWorks) ---
         // Book
         if (settings.featuredBookId) {
-          console.log(`Fetching featured book (MediaWork ID: ${settings.featuredBookId})`);
-          fetchPromises.push(
-            // Assuming book links to combined page, fetch work data
-            fetch(`/api/mediaworks/${settings.featuredBookId}`)
-              .then(res => res.ok ? res.json() : Promise.reject(`Book fetch failed: ${res.statusText}`))
-              .then(data => ({ type: 'book', data }))
-              .catch(err => ({ type: 'book', error: err }))
-          );
+          fetchPromises.push(createFetchPromise('book', `/api/mediaworks/${settings.featuredBookId}`));
         } else {
-           fetchPromises.push(Promise.resolve({ type: 'book', data: null }));
+          fetchPromises.push(Promise.resolve({ type: 'book', data: null }));
         }
         // Podcast
         if (settings.featuredPodcastId) {
-           console.log(`Fetching featured podcast (MediaWork ID: ${settings.featuredPodcastId})`);
-           fetchPromises.push(
-             fetch(`/api/mediaworks/${settings.featuredPodcastId}`)
-               .then(res => res.ok ? res.json() : Promise.reject(`Podcast fetch failed: ${res.statusText}`))
-               .then(data => ({ type: 'podcast', data }))
-               .catch(err => ({ type: 'podcast', error: err }))
-           );
+          fetchPromises.push(createFetchPromise('podcast', `/api/mediaworks/${settings.featuredPodcastId}`));
         } else {
-            fetchPromises.push(Promise.resolve({ type: 'podcast', data: null }));
+          fetchPromises.push(Promise.resolve({ type: 'podcast', data: null }));
         }
         // Film/Doc
         if (settings.featuredFilmId) {
-            console.log(`Fetching featured film/doc (MediaWork ID: ${settings.featuredFilmId})`);
-            fetchPromises.push(
-              // Assuming film/doc links to combined page, fetch work data
-              fetch(`/api/mediaworks/${settings.featuredFilmId}`)
-                .then(res => res.ok ? res.json() : Promise.reject(`Film fetch failed: ${res.statusText}`))
-                .then(data => ({ type: 'film', data }))
-                .catch(err => ({ type: 'film', error: err }))
-            );
+          fetchPromises.push(createFetchPromise('film', `/api/mediaworks/${settings.featuredFilmId}`));
         } else {
-             fetchPromises.push(Promise.resolve({ type: 'film', data: null }));
+          fetchPromises.push(Promise.resolve({ type: 'film', data: null }));
         }
 
         // --- Fetch Featured Organization ---
         if (settings.featuredOrgId) {
-          console.log(`Fetching featured organization (Org ID: ${settings.featuredOrgId})`);
-          fetchPromises.push(
-            fetch(`/api/organizations/${settings.featuredOrgId}`)
-              .then(res => res.ok ? res.json() : Promise.reject(`Org fetch failed: ${res.statusText}`))
-              .then(data => ({ type: 'org', data }))
-              .catch(err => ({ type: 'org', error: err }))
-          );
+          fetchPromises.push(createFetchPromise('org', `/api/organizations/${settings.featuredOrgId}`));
         } else {
-           fetchPromises.push(Promise.resolve({ type: 'org', data: null }));
+          fetchPromises.push(Promise.resolve({ type: 'org', data: null }));
         }
 
         // --- Fetch Featured Factors ---
-        // Assumes backend handles GET /api/factors?ids=1,2,3 or similar
-        // Or fetch individually if needed
         if (Array.isArray(settings.featuredFactorIds) && settings.featuredFactorIds.length > 0) {
           const factorIdsQuery = settings.featuredFactorIds.join(',');
-          console.log(`Fetching featured factors (Factor IDs: ${factorIdsQuery})`);
-          fetchPromises.push(
-            fetch(`/api/factors?ids=${factorIdsQuery}`) // Adjust endpoint if needed
-              .then(res => res.ok ? res.json() : Promise.reject(`Factors fetch failed: ${res.statusText}`))
-              .then(data => ({ type: 'factors', data }))
-              .catch(err => ({ type: 'factors', error: err }))
-          );
+          fetchPromises.push(createFetchPromise('factors', `/api/factors?ids=${factorIdsQuery}`));
         } else {
-          fetchPromises.push(Promise.resolve({ type: 'factors', data: [] })); // Resolve empty array if no IDs
+          fetchPromises.push(Promise.resolve({ type: 'factors', data: [] }));
         }
-
-        // --- Fetch Recent Updates (if needed, otherwise remove) ---
-        // Example: fetchPromises.push(fetch('/api/updates/recent').then(...));
-        // For now, assuming it's static or handled elsewhere
-
 
         // 3. Execute all fetches concurrently and process results
         console.log(`Executing ${fetchPromises.length} fetches for featured content...`);
         const results = await Promise.allSettled(fetchPromises);
         console.log("Featured content fetch results:", results);
 
-        // Process results and update state
-        let fetchError = null; // Track if any fetch failed
+        let fetchErrorOccurred = false;
         const newMedia = { book: null, podcast: null, film: null };
 
         results.forEach(result => {
@@ -156,28 +115,25 @@ const HomePage = () => {
               case 'podcast': newMedia.podcast = data; break;
               case 'film': newMedia.film = data; break;
               case 'org': setFeaturedOrg(data); break;
-              case 'factors': setFeaturedFactors(data || []); break; // Ensure it's an array
-              // Add cases for other fetched data like recent updates
+              case 'factors': setFeaturedFactors(data || []); break;
+              default: break;
             }
-          } else {
-            // Handle rejected promises (fetch errors)
-            console.error(`Failed to fetch ${result.reason?.type || 'data'}:`, result.reason);
-            // Set a general error message, could be more specific
-            fetchError = fetchError || "Failed to load some homepage content. Please try again later.";
+          } else { // result.status === 'rejected'
+            console.error(`Failed to fetch data for type '${result.reason?.type || 'unknown'}':`, result.reason?.error?.message || result.reason);
+            fetchErrorOccurred = true;
           }
         });
 
-        setFeaturedMedia(newMedia); // Update media state object
+        setFeaturedMedia(newMedia);
 
-        if (fetchError) {
-            setError(fetchError); // Set error state if any fetch failed
+        if (fetchErrorOccurred) {
+          setError("Failed to load some homepage content. Please try again later.");
         }
 
-      } catch (err) {
-        // Catch errors from fetching settings or processing results
-        console.error("Error in fetchHomepageData:", err);
-        setError(err.message || "An unexpected error occurred loading homepage data.");
-        // Reset states on error
+      } catch (err) { // This catch block is primarily for the initial settings fetch or unexpected errors
+        console.error("Error in fetchHomepageData (likely settings fetch):", err);
+        const errorMessage = err.response?.data?.message || err.message || "An unexpected error occurred loading homepage data.";
+        setError(errorMessage);
         setFeaturedStory(null);
         setFeaturedMedia({ book: null, podcast: null, film: null });
         setFeaturedOrg(null);
@@ -190,7 +146,6 @@ const HomePage = () => {
 
     fetchHomepageData();
 
-    // Viewport Height (vh) Fix - Remains the same
     const setVh = () => {
         const vh = window.innerHeight * 0.01;
         document.documentElement.style.setProperty('--vh', `${vh}px`);
@@ -199,9 +154,8 @@ const HomePage = () => {
     window.addEventListener('resize', setVh);
     return () => window.removeEventListener('resize', setVh);
 
-  }, []); // Empty dependency array means this runs once on mount
+  }, []);
 
-  // Loading state
   if (isLoading) {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-center py-40 text-gray-400 text-xl">
@@ -211,68 +165,45 @@ const HomePage = () => {
     );
   }
 
-  // Error state (displays general error if any fetch failed)
-  if (error && !featuredStory && !featuredOrg) { // Only show full error page if critical data failed
+  if (error && !featuredStory && !featuredOrg && featuredMedia.book === null && featuredMedia.podcast === null && featuredMedia.film === null) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 text-center py-20 px-4 text-red-500">
         <AlertCircle className="mx-auto h-12 w-12 text-red-400 mb-4" />
         <h2 className="text-xl font-semibold mb-2">Error Loading Homepage</h2>
         <p className="text-sm">{error}</p>
-        {/* Optionally add a retry button */}
       </div>
     );
   }
 
-  // --- Render Page Content ---
-  // Passes the fetched (or null) data down to the components
   return (
     <>
       <HeroSection />
-
       <main className="bg-black py-16 md:py-20 lg:py-24 px-4 md:px-8">
-        {/* Display error inline if some data loaded but not all */}
-        {error && (
+        {error && ( // Display inline error if some content failed but not all
             <div className="max-w-6xl mx-auto mb-10 p-3 rounded-md bg-red-900/50 text-red-300 flex items-center">
                <AlertCircle className="mr-2 h-5 w-5 flex-shrink-0" />
                <span>Warning: {error} Some content might be missing.</span>
             </div>
         )}
-
-        {/* Featured Story - Pass the fetched story state */}
-        {/* Conditionally render or let FeaturedStory handle null */}
         {featuredStory && (
              <div className="mb-16 md:mb-20 lg:mb-24">
                 <FeaturedStory story={featuredStory} />
              </div>
         )}
-        {/* Or always render and let component show placeholder:
-         <div className="mb-16 md:mb-20 lg:mb-24">
-             <FeaturedStory story={featuredStory} />
-         </div>
-        */}
-
-
-        {/* Explore Grid - Pass the fetched media, org, factors */}
         <div className="mb-16 md:mb-20 lg:mb-24">
            <ExploreGrid
-              featuredMedia={featuredMedia} // Contains fetched book/podcast/film or null
-              featuredOrg={featuredOrg}     // Contains fetched org or null
-              stats={stats}                 // Static stats for now
-              factors={featuredFactors}     // Contains fetched factors or []
+              featuredMedia={featuredMedia}
+              featuredOrg={featuredOrg}
+              stats={stats}
+              factors={featuredFactors}
             />
         </div>
-
-        {/* How To Use - Static or fetched elsewhere */}
         <div className="mb-16 md:mb-20 lg:mb-24">
            <HowToUse />
         </div>
-
-        {/* Recent Updates - Static or fetched elsewhere */}
         <div className="mb-16 md:mb-20 lg:mb-24">
            <RecentUpdates updates={recentUpdates} />
         </div>
-
-        {/* Mission Statement - Static or fetched elsewhere */}
         <div>
            <MissionStatement />
         </div>

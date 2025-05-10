@@ -1,30 +1,28 @@
 /* ========================================================================== */
 /* --- File: src/pages/MediaItemPage.jsx (Refactored Block Design v2) ---   */
 /* --- Integrates RelatedMediaList & ExternalSourcesList correctly ---      */
+/* --- MODIFIED: Corrected apiClient error handling and minor fixes ---     */
 /* ========================================================================== */
-
+import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 
 // --- Import Icons ---
-import { ArrowLeft, AlertCircle, BookOpen, Tv, Mic, Clapperboard, Link as LinkIcon, Users, Building, Info, FileText, ListTree, Loader2 } from 'lucide-react'; // Added Loader2
+import { ArrowLeft, AlertCircle, BookOpen, Tv, Mic, Clapperboard, Link as LinkIcon, Users, Building, Info, FileText, ListTree, Loader2 } from 'lucide-react';
 
 // --- Import Theme Constants ---
 import { BRONZE_BORDER, BRONZE_COLOR } from '../components/themeconstants';
 
 // --- Import Sub-Components ---
 import Breadcrumbs from '../components/Breadcrumbs';
-// Block 1 Components
 import ItemDetails from '../components/ItemDetails';
 import ItemSummaryDisplay from '../components/ItemSummaryDisplay';
-// Block 1.5 Component
 import WrongfullyConvictedList from '../components/WrongfullyConvictedList';
-// Block 2 Components ("Learn More")
-import RelatedMediaList from '../components/RelatedMediaList'; // For related media links (M2M)
+import RelatedMediaList from '../components/RelatedMediaList';
 import OtherInvolvedPersonsList from '../components/OtherInvolvedPersonsList';
 import OrganizationsMentionedList from '../components/OrganizationsMentionedList';
 import ContributingFactorsList from '../components/ContributingFactorsList';
-import ExternalSourcesList from '../components/ExternalSourcesList'; // UPDATED: Use ExternalSourcesList
+import ExternalSourcesList from '../components/ExternalSourcesList';
 import AIDisclaimer from '../components/AIDisclaimer';
 
 // --- Helper Functions ---
@@ -69,12 +67,10 @@ function MediaItemPage() {
     const [loadingFactors, setLoadingFactors] = useState(false);
     const [errorFactors, setErrorFactors] = useState(null);
 
-    // UPDATED: Renamed state variable for clarity, matches component prop
     const [externalSources, setExternalSources] = useState([]);
     const [loadingSources, setLoadingSources] = useState(false);
     const [errorSources, setErrorSources] = useState(null);
 
-    // UPDATED: Renamed state variable for clarity, matches component prop
     const [relatedMediaItems, setRelatedMediaItems] = useState([]);
     const [loadingMedia, setLoadingMedia] = useState(false);
     const [errorMedia, setErrorMedia] = useState(null);
@@ -83,67 +79,85 @@ function MediaItemPage() {
     // --- Effect 1: Fetch main MediaItem data (including parent work) ---
     useEffect(() => {
         const fetchItemData = async () => {
-            setLoadingItem(true); setErrorItem(null); setItemData(null);
-            // Reset related data states
+            setLoadingItem(true); 
+            setErrorItem(null); 
+            setItemData(null);
+            // Reset related data states as well, as they depend on itemData
             setWrongfullyConvicted([]); setErrorWC(null);
             setOtherInvolvedPersons([]); setErrorOIPs(null);
             setRelatedOrganizations([]); setErrorOrganizations(null);
             setRelatedFactors([]); setErrorFactors(null);
-            setExternalSources([]); setErrorSources(null); // Reset external sources
-            setRelatedMediaItems([]); setErrorMedia(null); // Reset related media
+            setExternalSources([]); setErrorSources(null);
+            setRelatedMediaItems([]); setErrorMedia(null);
 
-            // Fetch core item data + parent work
-            // NOTE: Changed API endpoint slightly - removed '?include=work' as the base endpoint now includes it
-            const apiUrl = `http://localhost:3001/api/mediaitems/${id}`;
-            console.log(`Fetching main item data from: ${apiUrl}`);
+            const apiUrl = `/api/mediaitems/${id}`;
+            console.log(`Fetching main item data from (using apiClient): ${apiUrl}`);
             try {
-                const response = await fetch(apiUrl);
-                if (!response.ok) {
-                     const errorData = await response.json().catch(() => ({}));
-                     throw new Error(`HTTP error! status: ${response.status} - ${errorData.message || 'Failed to fetch item data'}`);
-                }
-                const data = await response.json();
+                const response = await apiClient.get(apiUrl);
+                const data = response.data; // Axios provides data directly
                 setItemData(data);
             } catch (err) {
-                console.error("Fetch item error:", err);
-                setErrorItem(err.message);
-            } finally {
-                setLoadingItem(false);
+                console.error("Fetch item data error:", err);
+                let errorMessage = "An unknown error occurred while fetching media item data.";
+                if (err.response) {
+                    errorMessage = err.response.data?.message || `Error: ${err.response.status} - ${err.response.statusText}`;
+                } else if (err.request) {
+                    errorMessage = "No response received from server. Please check your network connection.";
+                } else {
+                    errorMessage = err.message;
+                }
+                setErrorItem(errorMessage); // Use setErrorItem for the main item's error
+            }
+            finally { 
+                setLoadingItem(false); // Use setLoadingItem for the main item's loading state
             }
         };
-        if (id) { fetchItemData(); }
-        else { setErrorItem("No media item ID provided."); setLoadingItem(false); }
+
+        if (id) { 
+            fetchItemData(); 
+        } else { 
+            setErrorItem("No media item ID provided."); 
+            setLoadingItem(false); 
+        }
     }, [id]);
 
     // --- Effect 2: Fetch ALL related data AFTER itemData is loaded ---
     useEffect(() => {
-        if (!itemData?.id) return;
+        if (!itemData?.id || loadingItem || errorItem) { // Don't fetch if main item is loading or has an error
+            return;
+        }
         const itemId = itemData.id;
 
-        const fetchRelated = async (endpoint, setData, setLoading, setError, typeLabel) => {
-            setLoading(true); setError(null); setData([]); // Reset data before fetch
-            const apiUrl = `http://localhost:3001/api/mediaitems/${itemId}/${endpoint}`;
-            console.log(`Fetching ${typeLabel} from: ${apiUrl}`);
+        const fetchRelated = async (endpoint, setData, setLoading, setErrorState, typeLabel) => {
+            setLoading(true); 
+            setErrorState(null); // Use the specific error setter passed for this related data type
+            setData([]); 
+            
+            const apiUrl = `/api/mediaitems/${itemId}/${endpoint}`;
+            console.log(`Fetching ${typeLabel} from (using apiClient): ${apiUrl}`);
             try {
-                const response = await fetch(apiUrl);
-                 // Check for 501 Not Implemented specifically
-                 if (response.status === 501) {
-                    console.warn(`Endpoint /${endpoint} is not implemented.`);
-                    setError(`Feature not available (${endpoint}).`); // Set specific error message
-                    return; // Stop processing for this fetch
-                }
-                if (!response.ok) {
-                    const errorData = await response.json().catch(() => ({}));
-                    throw new Error(`HTTP error loading ${typeLabel}! status: ${response.status} - ${errorData.message || 'Failed to fetch'}`);
-                }
-                const data = await response.json();
+                const response = await apiClient.get(apiUrl);
+                const data = response.data; // Axios provides data directly
                 setData(data);
-            } catch (err) {
+            } catch (err) { // Corrected placement of catch block
                 console.error(`Fetch ${typeLabel} error:`, err);
-                setError(err.message);
-                // No need to setData([]) here as it was reset at the start
-            } finally {
-                setLoading(false);
+                let errorMessage = `An unknown error occurred while fetching ${typeLabel}.`;
+                if (err.response) {
+                    if (err.response.status === 501) {
+                        console.warn(`Endpoint /${endpoint} is not implemented for MediaItems.`);
+                        errorMessage = `Feature not available (${endpoint}).`;
+                    } else {
+                        errorMessage = err.response.data?.message || `Error fetching ${typeLabel}: ${err.response.status} - ${err.response.statusText}`;
+                    }
+                } else if (err.request) {
+                    errorMessage = `No response received for ${typeLabel}. Check network.`;
+                } else {
+                    errorMessage = err.message;
+                }
+                setErrorState(errorMessage); // Use the specific error setter
+            }
+            finally { 
+                setLoading(false); 
             }
         };
 
@@ -152,10 +166,10 @@ function MediaItemPage() {
         fetchRelated('involvedpersons', setOtherInvolvedPersons, setLoadingOIPs, setErrorOIPs, 'Other Involved Persons');
         fetchRelated('organizations', setRelatedOrganizations, setLoadingOrganizations, setErrorOrganizations, 'Organizations');
         fetchRelated('factors', setRelatedFactors, setLoadingFactors, setErrorFactors, 'Factors');
-        fetchRelated('othersources', setExternalSources, setLoadingSources, setErrorSources, 'External Sources'); // Fetches data for ExternalSourcesList
-        fetchRelated('relatedmedia', setRelatedMediaItems, setLoadingMedia, setErrorMedia, 'Related Media'); // Fetches data for RelatedMediaList
+        fetchRelated('othersources', setExternalSources, setLoadingSources, setErrorSources, 'External Sources');
+        fetchRelated('relatedmedia', setRelatedMediaItems, setLoadingMedia, setErrorMedia, 'Related Media');
 
-    }, [itemData]); // Depend only on itemData
+    }, [itemData, loadingItem, errorItem]); // Depend on itemData, and also loadingItem/errorItem to prevent fetches if main item failed
 
     // --- Breadcrumb Logic ---
     let breadcrumbItems = [{ label: "Home", link: "/" }];
@@ -172,13 +186,13 @@ function MediaItemPage() {
 
     // --- Loading State ---
     if (loadingItem) {
-         return ( <div className="bg-black text-gray-400 p-8 rounded-lg shadow-lg text-center"><Loader2 className="mx-auto h-8 w-8 animate-spin" /><p className="mt-4">Loading media item...</p></div> );
+         return ( <div className="bg-black text-gray-400 p-8 rounded-lg shadow-lg text-center min-h-screen flex flex-col justify-center items-center"><Loader2 className="mx-auto h-12 w-12 animate-spin text-amber-500" /><p className="mt-4 text-lg">Loading media item...</p></div> );
     }
     // --- Error State ---
-    if (errorItem) { /* ... error JSX unchanged ... */
+    if (errorItem) {
          return (
-             <div className="bg-black text-red-500 p-8 rounded-lg shadow-lg text-center">
-                 <div className="w-full px-4 md:px-8 py-4"><Breadcrumbs items={breadcrumbItems} /></div>
+             <div className="bg-black text-red-500 p-8 rounded-lg shadow-lg text-center min-h-screen flex flex-col justify-center items-center">
+                 <div className="w-full px-4 md:px-8 py-4 absolute top-0 left-0"><Breadcrumbs items={breadcrumbItems} /></div>
                  <AlertCircle className="mx-auto h-12 w-12 text-red-400 my-4" />
                  <h2 className="text-xl font-semibold mb-2">Error Loading Media Item</h2>
                  <p className="text-sm">{errorItem}</p>
@@ -189,11 +203,11 @@ function MediaItemPage() {
          );
     }
     // --- Not Found State ---
-    if (!itemData) { /* ... not found JSX unchanged ... */
+    if (!itemData) { // This will likely be caught by errorItem if the fetch fails for a non-existent ID
          return (
-             <div className="bg-black text-gray-400 p-8 rounded-lg shadow-lg text-center">
-                 <div className="w-full px-4 md:px-8 py-4"><Breadcrumbs items={breadcrumbItems} /></div>
-                 <p>Media item data not available.</p>
+             <div className="bg-black text-gray-400 p-8 rounded-lg shadow-lg text-center min-h-screen flex flex-col justify-center items-center">
+                 <div className="w-full px-4 md:px-8 py-4 absolute top-0 left-0"><Breadcrumbs items={breadcrumbItems} /></div>
+                 <p>Media item data not available for ID: {id}.</p>
              </div>
          );
     }
@@ -209,7 +223,6 @@ function MediaItemPage() {
             </div>
 
             {/* === BLOCK 1: Summary / Details === */}
-            {/* ... Block 1 JSX unchanged ... */}
              <div className="flex flex-col items-center justify-start px-4 md:px-8 pt-16 pb-8">
                 <div className="w-full">
                     <h1 className={`text-4xl md:text-5xl ${BRONZE_COLOR} mb-2 text-center font-serif font-bold tracking-wider uppercase`}>
@@ -233,20 +246,13 @@ function MediaItemPage() {
                         </div>
                         <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg`}>
                             <ItemSummaryDisplay summaryText={itemData.summaryNotes} />
-							
-                            {/* *** ADDED AI DISCLAIMER HERE *** */}
-                            {/* Show disclaimer if aiGenerated is true (or null/undefined if using default) */}
-                            {/* Ensure individualData includes the 'aiGenerated' field from your API */}
                             {itemData.aiGenerated !== false && <AIDisclaimer />}
-                            {/* Using !== false allows it to show if true OR if the field is missing (null/undefined) */}
                         </div>
                     </div>
                 </div>
             </div>
 
-
             {/* === BLOCK 1.5: Wrongfully Convicted Individuals Mentioned === */}
-            {/* ... Block 1.5 JSX unchanged ... */}
              <div className="flex flex-col items-center justify-start px-4 md:px-8 py-8">
                 <div className="w-full">
                      <div className={`p-4 border ${BRONZE_BORDER} rounded-lg h-full overflow-y-auto max-h-96`}>
@@ -259,7 +265,6 @@ function MediaItemPage() {
                 </div>
             </div>
 
-
             {/* === BLOCK 2: Learn More === */}
             <div className="flex flex-col items-center justify-start px-4 md:px-8 pt-8 pb-16">
                 <div className="w-full">
@@ -270,7 +275,6 @@ function MediaItemPage() {
                         <div className="md:col-span-2">
                             <div className={`p-4 border ${BRONZE_BORDER} rounded-lg h-full overflow-y-auto max-h-96`}>
                                 <RelatedMediaList
-                                    // UPDATED Prop Name: Use 'mediaItems' to match component
                                     mediaItems={relatedMediaItems}
                                     isLoading={loadingMedia}
                                     error={errorMedia}
@@ -307,9 +311,8 @@ function MediaItemPage() {
 
                         {/* External Sources (was Other Sources) */}
                         <div className={`p-4 border ${BRONZE_BORDER} rounded-lg h-full overflow-y-auto max-h-96`}>
-                             {/* UPDATED Component: Use ExternalSourcesList */}
                              <ExternalSourcesList
-                                 sources={externalSources} // State variable name updated for clarity
+                                 sources={externalSources}
                                  isLoading={loadingSources}
                                  error={errorSources}
                              />
@@ -317,7 +320,7 @@ function MediaItemPage() {
                     </div>
                 </div>
             </div>
-        </div> // End root div
+        </div>
     );
 }
 

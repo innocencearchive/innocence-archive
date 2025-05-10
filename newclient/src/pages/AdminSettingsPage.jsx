@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Lock, Eye, EyeOff, Save, AlertCircle, CheckCircle, RefreshCw } from 'lucide-react'; // Added RefreshCw
 // Assuming theme constants are available
 import { BRONZE_COLOR, BRONZE_BORDER } from '../components/themeconstants';
-
+import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
 // --- !!! IMPORTANT SECURITY NOTE !!! ---
 // Storing passwords directly in frontend code is INSECURE.
 // This is a basic implementation for demonstration only.
@@ -31,40 +31,53 @@ function AdminSettingsPage() {
   const [isSaving, setIsSaving] = useState(false);   // Specific state for saving
   const [saveStatus, setSaveStatus] = useState({ message: '', type: '' }); // type: 'success' or 'error'
 
-  // --- Fetch Current Settings ---
-  const fetchSettings = async () => {
-    setIsFetching(true); // Indicate fetching started
-    setIsLoading(true); // Use general loading state as well
-    setSaveStatus({ message: '', type: '' }); // Clear previous status
-    console.log("Fetching current featured settings...");
-    try {
-      // --- Actual API call ---
-      const response = await fetch('/api/settings/featured'); // GET request by default
-      if (!response.ok) {
-        const errorData = await response.json().catch(() => ({}));
-        throw new Error(`Failed to fetch settings: ${errorData.message || response.statusText}`);
-      }
-      const currentSettings = await response.json();
-      // --- End API call ---
+const fetchSettings = async () => {
+  setIsFetching(true); // Indicate fetching started
+  setIsLoading(true); // Use general loading state as well
+  setSaveStatus({ message: '', type: '' }); // Clear previous status
+  console.log("Fetching current featured settings using apiClient...");
 
-      console.log("Current settings fetched:", currentSettings);
-      setFeaturedStoryId(currentSettings.featuredStoryId || '');
-      setFeaturedBookId(currentSettings.featuredBookId || '');
-      setFeaturedPodcastId(currentSettings.featuredPodcastId || '');
-      setFeaturedFilmId(currentSettings.featuredFilmId || '');
-      setFeaturedOrgId(currentSettings.featuredOrgId || '');
-      // Join factor IDs array (which should come from backend) into a comma-separated string
-      setFeaturedFactorIds(Array.isArray(currentSettings.featuredFactorIds) ? currentSettings.featuredFactorIds.join(', ') : '');
+  try {
+    // --- Actual API call using apiClient ---
+    // The URL '/api/settings/featured' will be appended to the baseURL
+    // defined in apiClient.js (which uses VITE_API_URL).
+    const response = await apiClient.get('/api/settings/featured');
 
-    } catch (error) {
-      console.error("Error fetching settings:", error);
-      // Display fetch error using the saveStatus state for simplicity
-      setSaveStatus({ message: `Error fetching settings: ${error.message}`, type: 'error' });
-    } finally {
-      setIsFetching(false);
-      setIsLoading(false);
-    }
-  };
+    // With Axios, the actual data from the response is in response.data
+    const currentSettings = response.data;
+    // --- End API call ---
+
+    console.log("Current settings fetched:", currentSettings);
+
+    // Update state based on the fetched settings
+    setFeaturedStoryId(currentSettings.featuredStoryId || '');
+    setFeaturedBookId(currentSettings.featuredBookId || '');
+    setFeaturedPodcastId(currentSettings.featuredPodcastId || '');
+    setFeaturedFilmId(currentSettings.featuredFilmId || '');
+    setFeaturedOrgId(currentSettings.featuredOrgId || '');
+
+    // Ensure featuredFactorIds is treated as an array before joining
+    // If currentSettings.featuredFactorIds is already an array of IDs (e.g., numbers or strings),
+    // this will convert it to a comma-separated string for display or further processing if needed.
+    // If it might not be an array, provide a fallback.
+    setFeaturedFactorIds(Array.isArray(currentSettings.featuredFactorIds) ? currentSettings.featuredFactorIds.join(', ') : '');
+
+  } catch (error) {
+    // Axios throws an error for non-2xx status codes.
+    // The interceptor in apiClient.js also logs this error.
+    console.error("Error fetching settings in component:", error);
+
+    // Extract a user-friendly error message.
+    // error.response.data.message is a common pattern for backend error responses.
+    const errorMessage = error.response?.data?.message || error.message || "An unknown error occurred while fetching settings.";
+    
+    // Display fetch error using the saveStatus state for simplicity
+    setSaveStatus({ message: `Error fetching settings: ${errorMessage}`, type: 'error' });
+  } finally {
+    setIsFetching(false);
+    setIsLoading(false);
+  }
+};
 
   // --- Fetch settings on initial authentication ---
   useEffect(() => {
@@ -87,44 +100,63 @@ function AdminSettingsPage() {
     }
   };
 
-  const handleSave = async (event) => {
-    event.preventDefault();
-    setIsSaving(true); // Indicate saving started
-    setIsLoading(true); // Use general loading state
-    setSaveStatus({ message: '', type: '' });
-    console.log("Attempting to save settings...");
+ const handleSave = async (event) => {
+  event.preventDefault();
+  setIsSaving(true); // Indicate saving started
+  setIsLoading(true); // Use general loading state
+  setSaveStatus({ message: '', type: '' });
+  console.log("Attempting to save settings...");
 
-    // Prepare data payload
-    const factorIdArray = featuredFactorIds.split(',')
-                                         .map(id => id.trim())
-                                         .filter(id => id !== ''); // Keep as array of strings for now, backend validates
+  // Prepare data payload
+  const factorIdArray = featuredFactorIds.split(',')
+    .map(id => id.trim())
+    .filter(id => id !== ''); // Keep as array of strings for now, backend validates
 
-    const newSettings = {
-      featuredStoryId: featuredStoryId || null,
-      featuredBookId: featuredBookId || null,
-      featuredPodcastId: featuredPodcastId || null,
-      featuredFilmId: featuredFilmId || null,
-      featuredOrgId: featuredOrgId || null,
-      featuredFactorIds: factorIdArray, // Send array of strings
-    };
+  const newSettings = {
+    featuredStoryId: featuredStoryId || null,
+    featuredBookId: featuredBookId || null,
+    featuredPodcastId: featuredPodcastId || null,
+    featuredFilmId: featuredFilmId || null,
+    featuredOrgId: featuredOrgId || null,
+    featuredFactorIds: factorIdArray, // Send array of strings
+  };
 
-    console.log("Saving settings payload:", newSettings);
+  console.log("Saving settings payload:", newSettings);
 
-    try {
-      // --- Actual API call ---
-      const response = await fetch('/api/settings/featured', {
-        method: 'PUT', // Use PUT to update/replace the settings
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(newSettings),
-      });
+  try {
+    // --- Actual API call using apiClient ---
+    // The URL '/api/settings/featured' will be appended to the baseURL
+    // defined in apiClient.js (which uses VITE_API_URL).
+    // apiClient.put takes the URL, then the data payload.
+    // Axios automatically stringifies the newSettings object to JSON
+    // and sets the Content-Type header to 'application/json' by default for objects.
+    const response = await apiClient.put('/api/settings/featured', newSettings);
 
-      const responseData = await response.json(); // Always try to parse JSON response
+    // With Axios, the actual data from the response is in response.data
+    const responseData = response.data;
+    // --- End API call ---
 
-      if (!response.ok) {
-         // Use message from backend response if available
-         throw new Error(responseData.message || `Failed to save settings (${response.status})`);
-      }
-      // --- End API call ---
+    console.log("Settings saved successfully:", responseData);
+    setSaveStatus({ message: responseData.message || 'Settings saved successfully!', type: 'success' });
+
+    // Optionally re-fetch settings after save to confirm, or trust the response
+    // fetchSettings(); // If you have a function to re-fetch settings
+
+  } catch (error) {
+    // Axios throws an error for non-2xx status codes.
+    // The interceptor in apiClient.js also logs this error.
+    console.error("Error saving settings:", error);
+
+    // Extract a user-friendly error message.
+    // error.response.data.message is a common pattern for backend error responses.
+    const errorMessage = error.response?.data?.message || error.message || "An unknown error occurred while saving settings.";
+    
+    setSaveStatus({ message: `Error saving settings: ${errorMessage}`, type: 'error' });
+  } finally {
+    setIsSaving(false);
+    setIsLoading(false);
+  }
+};      // --- End API call ---
 
       console.log("Settings saved successfully:", responseData);
       setSaveStatus({ message: responseData.message || 'Settings saved successfully!', type: 'success' });

@@ -1,4 +1,5 @@
 // src/pages/SearchResultsPage.jsx
+import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
 import React, { useState, useEffect } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { Loader2, AlertCircle, User, FileText, Building, Link as LinkIcon, BookOpen } from 'lucide-react'; // Added BookOpen
@@ -59,7 +60,7 @@ function SearchResultsPage() {
             setResults([]); // Clear previous results
 
             // *** Construct the API URL conditionally ***
-            let apiUrl = 'http://localhost:3001/api/search?';
+            let apiUrl = '/api/search?';
             const params = [];
             if (query) {
                 params.push(`q=${encodeURIComponent(query)}`);
@@ -72,19 +73,39 @@ function SearchResultsPage() {
             console.log(`Fetching search results from: ${apiUrl}`);
 
             try {
-                const response = await fetch(apiUrl);
-                if (!response.ok) {
-                    const errorData = await response.json().catch(() => ({})); // Try to parse error message
-                    throw new Error(`HTTP error! status: ${response.status} - ${errorData.message || 'Failed to fetch search results'}`);
-                }
-                const data = await response.json();
+                const response = await apiClient.get(apiUrl);
+                
+                const data = response.data;
                 setResults(data); // Set the results received from the backend
                 console.log(`Received ${data.length} results.`);
             } catch (err) {
-                console.error("Search fetch error:", err);
-                setError(err.message);
-            } finally {
-                setIsLoading(false);
+                // Axios throws an error for non-2xx status codes.
+                // The error object (err) often contains more details.
+                console.error("Fetch error:", err);
+                
+                let errorMessage = "An unknown error occurred while fetching profile data.";
+                if (err.response) {
+                    // The request was made and the server responded with a status code
+                    // that falls out of the range of 2xx
+                    console.error("Error response data:", err.response.data);
+                    console.error("Error response status:", err.response.status);
+                    // Use the error message from the backend if available
+                    errorMessage = err.response.data?.message || `Error: ${err.response.status} - ${err.response.statusText}`;
+                } else if (err.request) {
+                    // The request was made but no response was received
+                    // `err.request` is an instance of XMLHttpRequest in the browser and an instance of
+                    // http.ClientRequest in node.js
+                    console.error("Error request:", err.request);
+                    errorMessage = "No response received from server. Please check your network connection.";
+                } else {
+                    // Something happened in setting up the request that triggered an Error
+                    console.error('Error message:', err.message);
+                    errorMessage = err.message;
+                }
+                setError(errorMessage);
+            }
+            finally { 
+                setLoading(false); 
             }
         };
 

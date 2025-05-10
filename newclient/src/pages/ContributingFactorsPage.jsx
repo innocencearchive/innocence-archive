@@ -1,7 +1,7 @@
 // src/pages/ContributingFactorPage.jsx
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-
+import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
 // --- Import Icons ---
 import { Users, List, ArrowLeft, AlertCircle, FileText, Building, UserCheck } from 'lucide-react';
 
@@ -40,16 +40,16 @@ function ContributingFactorPage() {
       setRelatedOIPs([]);
       setRelatedOrgs([]);
 
-      const apiUrl = `http://localhost:3001/api/contributingfactors/${id}`;
+      const apiUrl = `/api/contributingfactors/${id}`;
       console.log(`Fetching contributing factor data (incl. relations) from: ${apiUrl}`);
 
       try {
-        const response = await fetch(apiUrl);
+        const response = await apiClient.get(apiUrl);
         if (!response.ok) {
           const errorData = await response.json().catch(() => ({}));
           throw new Error(`HTTP error! status: ${response.status} - ${errorData.message || 'Failed to fetch contributing factor data'}`);
         }
-        const data = await response.json();
+        const data = response.data;
 
         setFactorData(data);
         setRelatedOIPs(data.relatedPersons ?? []);

@@ -1,9 +1,10 @@
 // src/pages/OtherIndividualProfilePage.jsx
+import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
 // --- Import Icons ---
-import { User, ArrowLeft, AlertCircle, Info, BookOpen, Users, Building, FileQuestion, ListTree } from 'lucide-react'; // Added ListTree
+import { User, ArrowLeft, AlertCircle, Info, BookOpen, Users, Building, FileQuestion, ListTree, Loader2 } from 'lucide-react'; // Added Loader2 for consistency
 
 // --- Import Components ---
 import Breadcrumbs from '../components/Breadcrumbs';
@@ -17,7 +18,7 @@ import PageNavigationButtons from '../components/PageNavigationButtons';
 import AIDisclaimer from '../components/AIDisclaimer';
 
 // --- Import Theme Constants ---
-import { BRONZE_COLOR, BRONZE_BORDER } from '../components/themeConstants';
+import { BRONZE_COLOR, BRONZE_BORDER } from '../components/themeconstants';
 
 // --- Helper Function to Format Role (Consider moving to utils) ---
 const formatRole = (role) => {
@@ -46,19 +47,17 @@ function OtherIndividualProfilePage() {
       setLoading(true);
       setError(null);
       setPersonData(null);
-      setOtherSources([]);
-      setRelatedPeople([]);
+      setOtherSources([]); // Reset these as they might depend on personData
+      setRelatedPeople([]);  // Reset these as they might depend on personData
 
-      const apiUrl = `http://localhost:3001/api/persons/${id}`;
-      console.log(`Fetching OIP data from: ${apiUrl}`);
+      const apiUrl = `/api/persons/${id}`;
+      console.log(`Fetching OIP data from (using apiClient): ${apiUrl}`);
 
       try {
-        const response = await fetch(apiUrl);
-        if (!response.ok) {
-          const errorData = await response.json().catch(() => ({}));
-          throw new Error(`HTTP error! status: ${response.status} - ${errorData.message || 'Failed to fetch person data'}`);
-        }
-        const data = await response.json();
+        const response = await apiClient.get(apiUrl);
+       
+        // With Axios, data is directly in response.data, no need for extra await
+        const data = response.data; 
         setPersonData(data);
 
         // Log warnings if expected relations are missing from API response
@@ -68,26 +67,40 @@ function OtherIndividualProfilePage() {
         if (!data.affiliatedOrgs) {
             console.warn(`API response for person ${id} missing 'affiliatedOrgs'. Related Organizations list will be empty.`);
         }
-         if (!data.involvedCases) {
+         if (!data.involvedCases) { // This might be used for deriving relatedPeople
             console.warn(`API response for person ${id} missing 'involvedCases'. Related People list may be incomplete.`);
         }
 
-
         // --- Placeholder Logic for Other Sources & Related People ---
         // TODO: Implement actual logic using data.mediaItemMentions, data.involvedCases etc.
+        // For example, if otherSources are derived from personData.sourceLinks:
+        // if (data.sourceLinks) { setOtherSources(data.sourceLinks.map(...)); }
         console.warn("Placeholder: Other Sources data derivation needed.");
-        setOtherSources([]);
+        setOtherSources([]); // Keep as placeholder for now
 
         console.warn("Placeholder: Related People data derivation needed.");
-        setRelatedPeople([]);
+        setRelatedPeople([]); // Keep as placeholder for now
 
       } catch (err) {
-        console.error("Fetch error:", err);
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
+                console.error("Fetch error for OIP:", err);
+                let errorMessage = "An unknown error occurred while fetching this person's profile data.";
+                if (err.response) {
+                    console.error("Error response data:", err.response.data);
+                    console.error("Error response status:", err.response.status);
+                    errorMessage = err.response.data?.message || `Error: ${err.response.status} - ${err.response.statusText}`;
+                } else if (err.request) {
+                    console.error("Error request:", err.request);
+                    errorMessage = "No response received from server. Please check your network connection.";
+                } else {
+                    console.error('Error message:', err.message);
+                    errorMessage = err.message;
+                }
+                setError(errorMessage);
+            }
+            finally { 
+                setLoading(false); 
+            }
+        };
 
     if (id) {
       fetchData();
@@ -120,23 +133,24 @@ function OtherIndividualProfilePage() {
 
   // --- Render Loading State ---
   if (loading) {
-    // ... loading JSX ...
      return (
       <>
-        <Breadcrumbs items={getBreadcrumbItems()} />
-        <div className="text-center py-20 text-gray-400">Loading person's profile...</div>
+        <div className="w-full px-4 md:px-8 py-4"><Breadcrumbs items={getBreadcrumbItems()} /></div>
+        <div className="min-h-screen flex flex-col items-center justify-center bg-black text-center py-20 text-gray-400">
+            <Loader2 className="h-12 w-12 animate-spin text-amber-500 mb-4" />
+            Loading person's profile...
+        </div>
       </>
     );
   }
 
   // --- Render Error State ---
   if (error) {
-    // ... error JSX ...
      return (
       <>
-        <Breadcrumbs items={getBreadcrumbItems()} />
-        <div className="text-center py-20 px-4 text-red-500 bg-black rounded-lg shadow-md max-w-4xl mx-auto mt-4">
-          <AlertCircle className="mx-auto h-12 w-12 text-red-400 my-4" />
+        <div className="w-full px-4 md:px-8 py-4"><Breadcrumbs items={getBreadcrumbItems()} /></div>
+        <div className="min-h-screen flex flex-col items-center justify-center bg-black text-center py-20 px-4 text-red-500">
+          <AlertCircle className="mx-auto h-12 w-12 text-red-400 mb-4" />
           <h2 className="text-xl font-semibold mb-2">Error Loading Profile</h2>
           <p className="text-sm">{error}</p>
           <button
@@ -152,12 +166,11 @@ function OtherIndividualProfilePage() {
 
   // --- Render Not Found State ---
   if (!personData) {
-    // ... not found JSX ...
       return (
       <>
-        <Breadcrumbs items={getBreadcrumbItems()} />
-        <div className="text-center py-20 text-gray-400 bg-black rounded-lg shadow-md max-w-4xl mx-auto mt-4">
-          Person not found.
+        <div className="w-full px-4 md:px-8 py-4"><Breadcrumbs items={getBreadcrumbItems()} /></div>
+        <div className="min-h-screen flex flex-col items-center justify-center bg-black text-center py-20 text-gray-400">
+          Person not found for ID: {id}.
         </div>
       </>
     );
@@ -168,7 +181,9 @@ function OtherIndividualProfilePage() {
 
   return (
     <>
-      <Breadcrumbs items={getBreadcrumbItems()} />
+      <div className="w-full px-4 md:px-8 py-4">
+        <Breadcrumbs items={getBreadcrumbItems()} />
+      </div>
 
       {/* === Block 1: Profile (Key Facts & Story) === */}
       <div className="bg-black rounded-lg shadow-md max-w-6xl mx-auto p-6 md:p-8 mt-6 mb-8">
@@ -186,12 +201,7 @@ function OtherIndividualProfilePage() {
                 <BookOpen className="mr-2 h-5 w-5" /> Profile Notes / Story
             </h2>
             <OipStoryNarrative storyText={storyData} isLoading={loading} />
-			
-                            {/* *** ADDED AI DISCLAIMER HERE *** */}
-                            {/* Show disclaimer if aiGenerated is true (or null/undefined if using default) */}
-                            {/* Ensure individualData includes the 'aiGenerated' field from your API */}
-                            {personData.aiGenerated !== false && <AIDisclaimer />}
-                            {/* Using !== false allows it to show if true OR if the field is missing (null/undefined) */}
+            {personData.aiGenerated !== false && <AIDisclaimer />}
           </div>
         </div>
       </div> {/* End Block 1 */}
@@ -204,19 +214,17 @@ function OtherIndividualProfilePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Related Media Items Container */}
           <div className="p-4 bg-gray-800 rounded-md">
-             {/* RelatedMediaList expects 'mediaItems' prop */}
              <RelatedMediaList
-                mediaItems={personData.mediaItemMentions ?? []} // Use nullish coalescing
-                isLoading={loading}
-                error={error}
+                mediaItems={personData.mediaItemMentions ?? []}
+                isLoading={loading} // Pass main loading state, or implement separate loading for these sections
+                error={error}       // Pass main error state, or implement separate error for these sections
                 emptyMessage="Not mentioned in any indexed media items."
              />
           </div>
           {/* Related Organizations Container */}
           <div className="p-4 bg-gray-800 rounded-md">
-             {/* OrganizationsMentionedList expects 'organizations' prop */}
              <OrganizationsMentionedList
-                organizations={personData.affiliatedOrgs ?? []} // Use nullish coalescing
+                organizations={personData.affiliatedOrgs ?? []}
                 isLoading={loading}
                 error={error}
                 emptyMessage="No affiliated organizations listed."
@@ -227,10 +235,9 @@ function OtherIndividualProfilePage() {
              <h3 className={`text-lg font-semibold ${BRONZE_COLOR} mb-3 flex items-center`}>
                 <FileQuestion className="mr-2 h-5 w-5" /> Other Sources
             </h3>
-             {/* OtherSourcesList expects 'sources' prop */}
              <OtherSourcesList
-                sources={otherSources}
-                isLoading={loading}
+                sources={otherSources} // Uses state variable, which is currently placeholder
+                isLoading={loading}    // Consider if separate loading/error states are needed for these derived/future fetches
                 error={error}
                 emptyMessage="Other sources data requires specific implementation."
              />
@@ -240,9 +247,8 @@ function OtherIndividualProfilePage() {
              <h3 className={`text-lg font-semibold ${BRONZE_COLOR} mb-3 flex items-center`}>
                 <Users className="mr-2 h-5 w-5" /> Related People
             </h3>
-              {/* RelatedPeopleList expects 'people' prop */}
               <RelatedPeopleList
-                people={relatedPeople}
+                people={relatedPeople} // Uses state variable, which is currently placeholder
                 isLoading={loading}
                 error={error}
                 emptyMessage="Related people data requires specific implementation."
