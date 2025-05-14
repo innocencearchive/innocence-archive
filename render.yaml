@@ -1,0 +1,77 @@
+# render.yaml
+# Configuration file for deploying the Innocence Archive project on Render.
+# This file defines the services that make up the application:
+# 1. A PostgreSQL database.
+# 2. A Node.js/Express backend API.
+# 3. A React (Vite) frontend client.
+
+services:
+  # -------------------------------------
+  # PostgreSQL Database Service
+  # -------------------------------------
+  - type: psql # Specifies a PostgreSQL database service
+    name: innocence-archive-db # Unique name for your database service
+    region: ohio # Specifies the region for the database (e.g., ohio, oregon, frankfurt)
+    postgresMajorVersion: 16 # Specifies the major version of PostgreSQL
+    plan: free # Specifies the Render plan (e.g., free, starter, standard)
+    # Render automatically handles database creation and user.
+    # The DATABASE_URL for this service will be made available to other services.
+
+  # -------------------------------------
+  # Backend API Service (Node.js/Express)
+  # -------------------------------------
+  - type: web # Specifies a web service (for APIs, web servers)
+    name: innocence-archive-api # Unique name for your backend API service (will be part of its URL)
+    env: node # Specifies the runtime environment (e.g., node, python, ruby)
+    region: ohio # Deploy in the same region as the database for low latency
+    rootDir: server # The directory where your backend code is located, relative to the repo root
+    
+    # Commands to build your backend service
+    # 1. Installs dependencies from package.json
+    # 2. Generates the Prisma client based on your schema
+    # 3. Applies database migrations
+    buildCommand: npm install && npx prisma generate && npx prisma migrate deploy
+    
+    # Command to start your backend server
+    startCommand: node server.js # Or whatever command starts your Express server
+    
+    healthCheckPath: / # Optional: A path Render can ping to check service health.
+                       # If not specified, Render checks if the port is responsive.
+
+    envVars: # Environment variables for your backend service
+      - key: DATABASE_URL
+        fromDatabase: # Injects the connection string from your PostgreSQL service
+          name: innocence-archive-db # Must match the name of your psql service
+          property: connectionString
+      - key: NODE_ENV
+        value: production # Sets Node environment to production
+      # PORT is automatically injected by Render; your Express app should listen on process.env.PORT
+
+  # -------------------------------------
+  # Frontend Client Service (React/Vite)
+  # -------------------------------------
+  - type: static_site # Specifies a static site service (for SPAs, static HTML)
+    name: innocence-archive-client # Unique name for your frontend client service
+    env: node # Specifies the environment for the build process (Vite needs Node)
+    # region: ohio # Static sites are served via CDN; region is typically for build colocation.
+                  # Can often be omitted for static sites unless specific build needs.
+    rootDir: newclient # The directory where your frontend code is located
+    
+    # Commands to build your frontend static assets
+    # 1. Installs dependencies
+    # 2. Runs the Vite build script (typically 'npm run build')
+    buildCommand: npm install && npm run build
+    
+    # The directory (relative to rootDir) where your built static files are located
+    publishDirectory: dist # Vite's default output directory is 'dist'
+    
+    # Rewrite rules for Single Page Applications (SPAs) like React
+    # Ensures all paths are served by index.html to allow client-side routing
+    routes:
+      - type: rewrite
+        source: /* # Matches all paths
+        destination: /index.html # Serves index.html for all matched paths
+        
+    envVars: # Environment variables available during the frontend build process
+      - key: VITE_API_URL # The URL of your deployed backend API
+        value: https://innocence-archive-api.onrender.com # Constructed from your backend service name

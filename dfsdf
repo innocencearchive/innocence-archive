@@ -1,0 +1,57 @@
+[33mcommit 00c715ae7055f255a13b289ad0c4e53f0b48474d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: e75639a f4799d6
+Author: timsteen99 <timsteen99@gmail.com>
+Date:   Fri May 9 23:11:21 2025 -0400
+
+    Merge branch 'main' of https://github.com/innocencearchive/innocence-archive
+
+[33mcommit f4799d6c48e6329b054a45ba315632650421a088[m
+Author: innocencearchive <innocencearchive@gmail.com>
+Date:   Fri May 9 23:10:22 2025 -0400
+
+    Delete scripts/headlines/.env
+
+D	scripts/headlines/.env
+
+[33mcommit 5ef8204bb587dd0b283ecf36f50dababe0f96661[m
+Author: innocencearchive <innocencearchive@gmail.com>
+Date:   Fri May 9 23:09:47 2025 -0400
+
+    Delete scripts/podcast_project/.env
+
+D	scripts/podcast_project/.env
+
+[33mcommit a2c1946cc815a428cd9dc11c6e4d7ce67472cdc2[m
+Author: innocencearchive <innocencearchive@gmail.com>
+Date:   Fri May 9 23:09:24 2025 -0400
+
+    Delete scripts/.env
+
+D	scripts/.env
+
+[33mcommit d9ce01d1ab20a3d2ee422ab65ed32639cc0c4ea7[m
+Author: innocencearchive <innocencearchive@gmail.com>
+Date:   Fri May 9 23:09:00 2025 -0400
+
+    Delete scripts/seed_files/.env
+
+D	scripts/seed_files/.env
+
+[33mcommit 35c1ae12075734af96fee537a07faee7026fbebf[m
+Merge: 7bd90aa 4c81340
+Author: timsteen99 <timsteen99@gmail.com>
+Date:   Fri May 9 18:24:47 2025 -0400
+
+    Merge branch 'main' of https://github.com/innocencearchive/innocence-archive
+
+[33mcommit 7bd90aa80c5b1c55be6fc580f5491a2cf1eadf63[m
+Author: timsteen99 <timsteen99@gmail.com>
+Date:   Thu May 8 23:25:10 2025 -0400
+
+    Initial commit of The Innocence Archive project
+
+A	docs/media/.env
+A	scripts/.env
+A	scripts/headlines/.env
+A	scripts/podcast_project/.env
+A	scripts/seed_files/.env
