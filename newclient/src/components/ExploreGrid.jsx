@@ -36,7 +36,7 @@ const ExploreGrid = ({
     <div
       className="w-full max-w-6xl mx-auto p-4 md:p-6 lg:p-8" // Centered, max-width, padding
       style={{
-        outline: `4px solid ${BRONZE_BORDER_COLOR}`, // Apply outline here
+        outline: `4px solid ${BRONZE_BORDER}`, // Apply outline here
         borderRadius: '0.5rem', // Optional: Add rounded corners to match outline
       }}
     >
