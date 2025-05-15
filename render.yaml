@@ -24,13 +24,15 @@ services:
     region: ohio # Deploy in the same region as the database
     rootDir: server # Directory of your backend code
     
-    # MODIFIED buildCommand:
-    # 1. npm install: Installs all dependencies from package.json.
-    # 2. npm install --save-dev prisma: Explicitly installs/reinstalls prisma CLI as a dev dependency.
-    # 3. npm install @prisma/client: Explicitly installs/reinstalls @prisma/client.
-    # 4. npx prisma generate: Runs generate using npx to resolve the local Prisma CLI.
-    # 5. npx prisma migrate deploy: Applies database migrations.
-    buildCommand: npm install && npm install --save-dev prisma && npm install @prisma/client && npx prisma generate && npx prisma migrate deploy
+    # MODIFIED buildCommand to use npm ci and simplify:
+    buildCommand: |
+      npm ci
+      echo "--- Contents of node_modules/.bin after npm ci ---"
+      ls -la node_modules/.bin || echo "node_modules/.bin not found or ls failed after npm ci"
+      echo "--- Attempting Prisma Generate ---"
+      npx prisma generate
+      echo "--- Attempting Prisma Migrate Deploy ---"
+      npx prisma migrate deploy
     
     startCommand: node server.js # Command to start your Express server
     
