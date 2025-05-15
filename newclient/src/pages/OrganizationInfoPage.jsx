@@ -262,14 +262,14 @@ function OrganizationInfoPage() {
                         </div>
                          <div className={`p-4 border ${BRONZE_BORDER} rounded-lg h-full overflow-y-auto max-h-96`}>
                              <RelatedOrganizationsList
-                                 organizations={relatedOrganizationsData} {/* Use renamed state variable */}
+                                 organizations={relatedOrganizationsData} 
                                  isLoading={loadingOrgs}
                                  error={errorOrgs}
                              />
                          </div>
                         <div className={`p-4 border ${BRONZE_BORDER} rounded-lg h-full overflow-y-auto max-h-96`}>
                              <ExternalSourcesList
-                                 sources={externalSourcesData} {/* Use renamed state variable */}
+                                 sources={externalSourcesData} 
                                  isLoading={loadingSources}
                                  error={errorSources}
                              />
