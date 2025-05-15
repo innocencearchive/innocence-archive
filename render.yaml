@@ -27,9 +27,9 @@ services:
     # MODIFIED buildCommand:
     # 1. npm install: Installs all dependencies from package.json.
     # 2. npm install @prisma/client: Explicitly installs/reinstalls @prisma/client.
-    # 3. ./node_modules/.bin/prisma generate: Runs generate using the locally installed Prisma CLI.
+    # 3. npx prisma generate: Runs generate using npx to resolve the local Prisma CLI.
     # 4. npx prisma migrate deploy: Applies database migrations.
-    buildCommand: npm install && npm install @prisma/client && ./node_modules/.bin/prisma generate && npx prisma migrate deploy
+    buildCommand: npm install && npm install @prisma/client && npx prisma generate && npx prisma migrate deploy
     
     startCommand: node server.js # Command to start your Express server
     
@@ -51,6 +51,7 @@ services:
     name: innocence-archive-client # Unique name for your frontend client
     env: node # Environment for the build process (Vite needs Node)
     runtime: static # Specifies that this web service serves static content
+    # region: ohio # REMOVED: Region is not typically needed for static sites served via CDN
     rootDir: newclient # Directory of your frontend code
     
     buildCommand: npm install && npm run build # Standard Vite build command
