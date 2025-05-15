@@ -8,7 +8,7 @@ const prisma = new PrismaClient();
 
 // --- Configuration ---
 // Updated CSV file path
-const csvFilePath = 'C:/GitHub/innocencearchive/scripts/wrongful_convictions_summarized.csv'; // <-- UPDATED PATH
+const csvFilePath = 'wrongful_convictions_summarized.csv'; // <-- UPDATED PATH
 const informationSourceName = 'Wikipedia';
 // Use this specific URL for all entries from this seed
 const specificSourceUrl = 'https://en.wikipedia.org/wiki/List_of_wrongful_convictions_in_the_United_States';
