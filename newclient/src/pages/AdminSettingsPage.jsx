@@ -1,14 +1,15 @@
 // src/pages/AdminSettingsPage.jsx
 import React, { useState, useEffect } from 'react';
-import { Lock, Eye, EyeOff, Save, AlertCircle, CheckCircle, RefreshCw } from 'lucide-react'; // Added RefreshCw
+import { Lock, Eye, EyeOff, Save, AlertCircle, CheckCircle, RefreshCw } from 'lucide-react';
 // Assuming theme constants are available
 import { BRONZE_COLOR, BRONZE_BORDER } from '../components/themeconstants';
 import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
+
 // --- !!! IMPORTANT SECURITY NOTE !!! ---
 // Storing passwords directly in frontend code is INSECURE.
 // This is a basic implementation for demonstration only.
 // For a real application, use proper authentication and secure backend validation.
-const ADMIN_PASSWORD = 'danish123'; // CHANGE THIS!
+const ADMIN_PASSWORD = 'danish123'; // CHANGE THIS! And ideally move to a secure auth system.
 
 function AdminSettingsPage() {
   // --- State ---
@@ -26,67 +27,45 @@ function AdminSettingsPage() {
   const [featuredFactorIds, setFeaturedFactorIds] = useState(''); // Comma-separated IDs
 
   // State for loading/saving feedback
-  const [isLoading, setIsLoading] = useState(false); // Combined loading state
-  const [isFetching, setIsFetching] = useState(false); // Specific state for fetching
-  const [isSaving, setIsSaving] = useState(false);   // Specific state for saving
+  const [isLoading, setIsLoading] = useState(false); // Combined loading state for general UI feedback
+  const [isFetching, setIsFetching] = useState(false); // Specific state for fetching settings
+  const [isSaving, setIsSaving] = useState(false);   // Specific state for saving settings
   const [saveStatus, setSaveStatus] = useState({ message: '', type: '' }); // type: 'success' or 'error'
 
-const fetchSettings = async () => {
-  setIsFetching(true); // Indicate fetching started
-  setIsLoading(true); // Use general loading state as well
-  setSaveStatus({ message: '', type: '' }); // Clear previous status
-  console.log("Fetching current featured settings using apiClient...");
+  const fetchSettings = async () => {
+    setIsFetching(true);
+    setIsLoading(true);
+    setSaveStatus({ message: '', type: '' });
+    console.log("Fetching current featured settings using apiClient...");
 
-  try {
-    // --- Actual API call using apiClient ---
-    // The URL '/api/settings/featured' will be appended to the baseURL
-    // defined in apiClient.js (which uses VITE_API_URL).
-    const response = await apiClient.get('/api/settings/featured');
+    try {
+      const response = await apiClient.get('/api/settings/featured');
+      const currentSettings = response.data;
+      console.log("Current settings fetched:", currentSettings);
 
-    // With Axios, the actual data from the response is in response.data
-    const currentSettings = response.data;
-    // --- End API call ---
+      setFeaturedStoryId(currentSettings.featuredStoryId || '');
+      setFeaturedBookId(currentSettings.featuredBookId || '');
+      setFeaturedPodcastId(currentSettings.featuredPodcastId || '');
+      setFeaturedFilmId(currentSettings.featuredFilmId || '');
+      setFeaturedOrgId(currentSettings.featuredOrgId || '');
+      setFeaturedFactorIds(Array.isArray(currentSettings.featuredFactorIds) ? currentSettings.featuredFactorIds.join(', ') : (currentSettings.featuredFactorIds || ''));
 
-    console.log("Current settings fetched:", currentSettings);
+    } catch (error) {
+      console.error("Error fetching settings in component:", error);
+      const errorMessage = error.response?.data?.message || error.message || "An unknown error occurred while fetching settings.";
+      setSaveStatus({ message: `Error fetching settings: ${errorMessage}`, type: 'error' });
+    } finally {
+      setIsFetching(false);
+      setIsLoading(false);
+    }
+  };
 
-    // Update state based on the fetched settings
-    setFeaturedStoryId(currentSettings.featuredStoryId || '');
-    setFeaturedBookId(currentSettings.featuredBookId || '');
-    setFeaturedPodcastId(currentSettings.featuredPodcastId || '');
-    setFeaturedFilmId(currentSettings.featuredFilmId || '');
-    setFeaturedOrgId(currentSettings.featuredOrgId || '');
-
-    // Ensure featuredFactorIds is treated as an array before joining
-    // If currentSettings.featuredFactorIds is already an array of IDs (e.g., numbers or strings),
-    // this will convert it to a comma-separated string for display or further processing if needed.
-    // If it might not be an array, provide a fallback.
-    setFeaturedFactorIds(Array.isArray(currentSettings.featuredFactorIds) ? currentSettings.featuredFactorIds.join(', ') : '');
-
-  } catch (error) {
-    // Axios throws an error for non-2xx status codes.
-    // The interceptor in apiClient.js also logs this error.
-    console.error("Error fetching settings in component:", error);
-
-    // Extract a user-friendly error message.
-    // error.response.data.message is a common pattern for backend error responses.
-    const errorMessage = error.response?.data?.message || error.message || "An unknown error occurred while fetching settings.";
-    
-    // Display fetch error using the saveStatus state for simplicity
-    setSaveStatus({ message: `Error fetching settings: ${errorMessage}`, type: 'error' });
-  } finally {
-    setIsFetching(false);
-    setIsLoading(false);
-  }
-};
-
-  // --- Fetch settings on initial authentication ---
   useEffect(() => {
     if (isAuthenticated) {
       fetchSettings();
     }
-  }, [isAuthenticated]); // Re-fetch if authentication status changes
+  }, [isAuthenticated]);
 
-  // --- Handlers ---
   const handleLogin = (event) => {
     event.preventDefault();
     setLoginError('');
@@ -100,82 +79,47 @@ const fetchSettings = async () => {
     }
   };
 
- const handleSave = async (event) => {
-  event.preventDefault();
-  setIsSaving(true); // Indicate saving started
-  setIsLoading(true); // Use general loading state
-  setSaveStatus({ message: '', type: '' });
-  console.log("Attempting to save settings...");
+  const handleSave = async (event) => {
+    event.preventDefault();
+    setIsSaving(true);
+    setIsLoading(true);
+    setSaveStatus({ message: '', type: '' });
+    console.log("Attempting to save settings...");
 
-  // Prepare data payload
-  const factorIdArray = featuredFactorIds.split(',')
-    .map(id => id.trim())
-    .filter(id => id !== ''); // Keep as array of strings for now, backend validates
+    const factorIdArray = featuredFactorIds.split(',')
+      .map(id => id.trim())
+      .filter(id => id !== '');
 
-  const newSettings = {
-    featuredStoryId: featuredStoryId || null,
-    featuredBookId: featuredBookId || null,
-    featuredPodcastId: featuredPodcastId || null,
-    featuredFilmId: featuredFilmId || null,
-    featuredOrgId: featuredOrgId || null,
-    featuredFactorIds: factorIdArray, // Send array of strings
-  };
+    const newSettings = {
+      featuredStoryId: featuredStoryId || null,
+      featuredBookId: featuredBookId || null,
+      featuredPodcastId: featuredPodcastId || null,
+      featuredFilmId: featuredFilmId || null,
+      featuredOrgId: featuredOrgId || null,
+      featuredFactorIds: factorIdArray,
+    };
 
-  console.log("Saving settings payload:", newSettings);
+    console.log("Saving settings payload:", newSettings);
 
-  try {
-    // --- Actual API call using apiClient ---
-    // The URL '/api/settings/featured' will be appended to the baseURL
-    // defined in apiClient.js (which uses VITE_API_URL).
-    // apiClient.put takes the URL, then the data payload.
-    // Axios automatically stringifies the newSettings object to JSON
-    // and sets the Content-Type header to 'application/json' by default for objects.
-    const response = await apiClient.put('/api/settings/featured', newSettings);
-
-    // With Axios, the actual data from the response is in response.data
-    const responseData = response.data;
-    // --- End API call ---
-
-    console.log("Settings saved successfully:", responseData);
-    setSaveStatus({ message: responseData.message || 'Settings saved successfully!', type: 'success' });
-
-    // Optionally re-fetch settings after save to confirm, or trust the response
-    // fetchSettings(); // If you have a function to re-fetch settings
-
-  } catch (error) {
-    // Axios throws an error for non-2xx status codes.
-    // The interceptor in apiClient.js also logs this error.
-    console.error("Error saving settings:", error);
-
-    // Extract a user-friendly error message.
-    // error.response.data.message is a common pattern for backend error responses.
-    const errorMessage = error.response?.data?.message || error.message || "An unknown error occurred while saving settings.";
-    
-    setSaveStatus({ message: `Error saving settings: ${errorMessage}`, type: 'error' });
-  } finally {
-    setIsSaving(false);
-    setIsLoading(false);
-  }
-};      // --- End API call ---
-
+    try {
+      const response = await apiClient.put('/api/settings/featured', newSettings);
+      const responseData = response.data;
       console.log("Settings saved successfully:", responseData);
       setSaveStatus({ message: responseData.message || 'Settings saved successfully!', type: 'success' });
-
-      // Optionally re-fetch settings after save to confirm, or trust the response
-      // fetchSettings();
-
+      // Optionally re-fetch settings to confirm they are updated
+      // fetchSettings(); 
     } catch (error) {
       console.error("Error saving settings:", error);
-      setSaveStatus({ message: `Error saving settings: ${error.message}`, type: 'error' });
+      const errorMessage = error.response?.data?.message || error.message || "An unknown error occurred while saving settings.";
+      setSaveStatus({ message: `Error saving settings: ${errorMessage}`, type: 'error' });
     } finally {
       setIsSaving(false);
       setIsLoading(false);
     }
-  };
+  }; // This is the correct end of the handleSave function
 
   // --- Render Logic ---
 
-  // Login Form (remains the same)
   if (!isAuthenticated) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-900 p-4">
@@ -221,7 +165,6 @@ const fetchSettings = async () => {
     );
   }
 
-  // Settings Form (after authentication)
   return (
     <div className="min-h-screen bg-gray-900 p-4 md:p-8 text-gray-200">
       <div className="max-w-3xl mx-auto bg-gray-800 p-6 md:p-8 rounded-lg shadow-xl">
@@ -229,7 +172,6 @@ const fetchSettings = async () => {
             <h1 className={`text-3xl font-semibold ${BRONZE_COLOR}`}>
               Homepage Featured Content IDs
             </h1>
-            {/* Refresh Button */}
             <button
                 onClick={fetchSettings}
                 disabled={isFetching || isSaving}
@@ -240,24 +182,19 @@ const fetchSettings = async () => {
             </button>
         </div>
 
-
-        {/* Loading Indicator for fetching */}
-        {isFetching && ( // Use specific fetching state
+        {isFetching && (
           <div className="text-center py-4 text-gray-400">Loading current settings...</div>
         )}
 
-        {/* Save Status Message */}
-        {saveStatus.message && !isFetching && ( // Don't show save status while fetching
+        {saveStatus.message && !isFetching && (
           <div className={`flex items-center p-3 rounded-md mb-4 ${saveStatus.type === 'success' ? 'bg-green-900/50 text-green-300' : 'bg-red-900/50 text-red-300'}`}>
             {saveStatus.type === 'success' ? <CheckCircle className="mr-2 h-5 w-5" /> : <AlertCircle className="mr-2 h-5 w-5" />}
             {saveStatus.message}
           </div>
         )}
 
-        {/* Settings Form - Only show form when not initially fetching */}
         {!isFetching && (
             <form onSubmit={handleSave} className="space-y-5">
-              {/* Featured Story */}
               <div>
                 <label htmlFor="featuredStoryId" className="block text-sm font-medium text-gray-300 mb-1">
                   Featured Story (Individual ID)
@@ -272,7 +209,6 @@ const fetchSettings = async () => {
                 />
               </div>
 
-              {/* Explore Grid - Media */}
               <fieldset className={`border ${BRONZE_BORDER} p-4 rounded-md`}>
                 <legend className={`text-lg font-medium mb-2 px-1 ${BRONZE_COLOR}`}>Explore Grid: Featured Media</legend>
                 <div className="space-y-3">
@@ -291,7 +227,6 @@ const fetchSettings = async () => {
                 </div>
               </fieldset>
 
-              {/* Explore Grid - Organization */}
               <div>
                 <label htmlFor="featuredOrgId" className="block text-sm font-medium text-gray-300 mb-1">
                   Explore Grid: Featured Organization (Org ID)
@@ -306,7 +241,6 @@ const fetchSettings = async () => {
                 />
               </div>
 
-              {/* Explore Grid - Factors */}
               <div>
                 <label htmlFor="featuredFactorIds" className="block text-sm font-medium text-gray-300 mb-1">
                   Explore Grid: Featured Factors (Comma-separated Factor IDs)
@@ -322,11 +256,10 @@ const fetchSettings = async () => {
                  <p className="text-xs text-gray-400 mt-1">Enter multiple Factor IDs separated by commas.</p>
               </div>
 
-              {/* Save Button */}
               <div className="pt-4">
                 <button
                   type="submit"
-                  disabled={isSaving || isFetching} // Disable if saving OR fetching
+                  disabled={isSaving || isFetching}
                   className={`w-full py-2.5 px-4 bg-amber-600 hover:bg-amber-700 text-white font-semibold rounded-md transition duration-150 ease-in-out flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed ${BRONZE_BORDER} border-2`}
                 >
                   <Save className="mr-2 h-5 w-5" />
