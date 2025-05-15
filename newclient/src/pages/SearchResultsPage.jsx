@@ -105,7 +105,7 @@ function SearchResultsPage() {
                 setError(errorMessage);
             }
             finally { 
-                setLoading(false); 
+                setIsLoading(false); 
             }
         };
 
