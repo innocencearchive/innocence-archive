@@ -8,7 +8,7 @@ const humanparser = require('humanparser');
 const prisma = new PrismaClient();
 
 // --- Configuration ---
-const csvFilePath = 'C:/GitHub/innocencearchive/scripts/seed_files/exoneration_list_detailed.csv';
+const csvFilePath = 'exoneration_list_detailed.csv';
 const sourceName = 'National Registry of Exonerations';
 // --- End Configuration ---
 

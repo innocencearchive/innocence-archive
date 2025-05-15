@@ -1,3 +1,4 @@
 **/.env
 \server\backup\db_backup.backup
 scripts/**/*.mp3
+**/env.copy
