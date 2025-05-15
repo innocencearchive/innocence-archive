@@ -9,7 +9,7 @@ services:
   # -------------------------------------
   # PostgreSQL Database Service
   # -------------------------------------
-  - type: psql # Specifies a PostgreSQL database service
+  - type: postgres # Specifies a PostgreSQL database service
     name: innocence-archive-db # Unique name for your database service
     region: ohio # Specifies the region for the database (e.g., ohio, oregon, frankfurt)
     postgresMajorVersion: 16 # Specifies the major version of PostgreSQL
