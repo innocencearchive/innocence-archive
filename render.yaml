@@ -24,7 +24,13 @@ services:
     region: ohio # Deploy in the same region as the database
     rootDir: server # Directory of your backend code
     
-    buildCommand: npm install && npx prisma generate && npx prisma migrate deploy
+    # MODIFIED buildCommand:
+    # 1. npm install: Installs all dependencies from package.json.
+    # 2. npm install @prisma/client: Explicitly installs/reinstalls @prisma/client.
+    # 3. ./node_modules/.bin/prisma generate: Runs generate using the locally installed Prisma CLI.
+    # 4. npx prisma migrate deploy: Applies database migrations.
+    buildCommand: npm install && npm install @prisma/client && ./node_modules/.bin/prisma generate && npx prisma migrate deploy
+    
     startCommand: node server.js # Command to start your Express server
     
     healthCheckPath: / # Optional health check path
@@ -39,16 +45,17 @@ services:
       # PORT is automatically injected by Render
 
   # -------------------------------------
-  # Frontend Client Service (React/Vite) - MODIFIED
+  # Frontend Client Service (React/Vite)
   # -------------------------------------
-  - type: web # MODIFIED: Changed from static_site to web, as per user-provided example
+  - type: web # Using type: web with runtime: static for the frontend
     name: innocence-archive-client # Unique name for your frontend client
     env: node # Environment for the build process (Vite needs Node)
-    runtime: static # ADDED: Specifies that this web service serves static content
+    runtime: static # Specifies that this web service serves static content
+    region: ohio # Optional: Can specify region for build colocation
     rootDir: newclient # Directory of your frontend code
     
     buildCommand: npm install && npm run build # Standard Vite build command
-    staticPublishPath: dist # MODIFIED: Changed from publishDirectory, path to built static files (relative to rootDir)
+    staticPublishPath: dist # Path to built static files (relative to rootDir)
     
     # Rewrite rules for Single Page Applications (SPAs) like React
     routes:
