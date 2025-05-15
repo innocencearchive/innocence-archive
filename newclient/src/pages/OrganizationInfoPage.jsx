@@ -52,11 +52,11 @@ function OrganizationInfoPage() {
     const [loadingOIPs, setLoadingOIPs] = useState(false);
     const [errorOIPs, setErrorOIPs] = useState(null);
 
-    const [relatedOrganizationsData, setRelatedOrganizationsData] = useState([]); // Renamed to avoid conflict with component name
+    const [relatedOrganizationsData, setRelatedOrganizationsData] = useState([]);
     const [loadingOrgs, setLoadingOrgs] = useState(false);
     const [errorOrgs, setErrorOrgs] = useState(null);
 
-    const [externalSourcesData, setExternalSourcesData] = useState([]); // Renamed to avoid conflict
+    const [externalSourcesData, setExternalSourcesData] = useState([]);
     const [loadingSources, setLoadingSources] = useState(false);
     const [errorSources, setErrorSources] = useState(null);
 
@@ -70,28 +70,23 @@ function OrganizationInfoPage() {
             setWrongfullyConvicted([]); setErrorWC(null);
             setMentionedInMedia([]); setErrorMedia(null);
             setOtherInvolvedPersons([]); setErrorOIPs(null);
-            setRelatedOrganizationsData([]); setErrorOrgs(null); // Use renamed state setter
-            setExternalSourcesData([]); setErrorSources(null);    // Use renamed state setter
+            setRelatedOrganizationsData([]); setErrorOrgs(null);
+            setExternalSourcesData([]); setErrorSources(null);
 
             const apiUrl = `/api/organizations/${id}`;
             console.log(`Fetching main organization data from (using apiClient): ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
-                // With Axios, data is in response.data and non-2xx status codes throw an error.
-                // So, the 'if (!response.ok)' check is not needed here.
                 const data = response.data;
                 setOrgData(data);
             } catch (err) {
                 console.error("Fetch organization error:", err);
                 let errorMessage = "An unknown error occurred while fetching organization data.";
                 if (err.response) {
-                    // Server responded with a status code out of the 2xx range
                     errorMessage = err.response.data?.message || `Error: ${err.response.status} - ${err.response.statusText}`;
                 } else if (err.request) {
-                    // Request was made but no response was received
                     errorMessage = "No response received from server. Please check your network connection.";
                 } else {
-                    // Something else happened in setting up the request
                     errorMessage = err.message;
                 }
                 setErrorOrg(errorMessage);
@@ -109,8 +104,7 @@ function OrganizationInfoPage() {
 
     // --- Effect 2: Fetch ALL related data AFTER orgData is loaded ---
     useEffect(() => {
-        if (!orgData?.id || loadingOrg || errorOrg) { // Don't fetch if main org data is loading or errored
-             // Optionally reset states if main data fetch fails or ID changes
+        if (!orgData?.id || loadingOrg || errorOrg) {
             setWrongfullyConvicted([]); 
             setMentionedInMedia([]); 
             setOtherInvolvedPersons([]); 
@@ -154,12 +148,12 @@ function OrganizationInfoPage() {
         };
 
         fetchRelated('individuals', setWrongfullyConvicted, setLoadingWC, setErrorWC, 'Wrongfully Convicted');
-        fetchRelated('mediaappearances', setMentionedInMedia, setLoadingMedia, setErrorMedia, 'Mentioned In Media'); // Endpoint might be 'media' or 'mediaappearances'
+        fetchRelated('mediaappearances', setMentionedInMedia, setLoadingMedia, setErrorMedia, 'Mentioned In Media');
         fetchRelated('involvedpersons', setOtherInvolvedPersons, setLoadingOIPs, setErrorOIPs, 'Other Involved Persons');
-        fetchRelated('relatedorganizations', setRelatedOrganizationsData, setLoadingOrgs, setErrorOrgs, 'Related Organizations'); // Ensure endpoint matches backend
-        fetchRelated('sourcelinks', setExternalSourcesData, setLoadingSources, setErrorSources, 'External Sources'); // Endpoint might be 'sourcelinks' or 'externalsources'
+        fetchRelated('relatedorganizations', setRelatedOrganizationsData, setLoadingOrgs, setErrorOrgs, 'Related Organizations');
+        fetchRelated('sourcelinks', setExternalSourcesData, setLoadingSources, setErrorSources, 'External Sources');
 
-    }, [orgData, loadingOrg, errorOrg]); // Add loadingOrg and errorOrg to dependencies
+    }, [orgData, loadingOrg, errorOrg]);
 
     // --- Breadcrumb Logic ---
     let breadcrumbItems = [{ label: "Home", link: "/" }];
@@ -194,7 +188,7 @@ function OrganizationInfoPage() {
          );
     }
     // --- Not Found State ---
-    if (!orgData) { // This will likely be caught by errorOrg if the fetch fails for a non-existent ID
+    if (!orgData) {
          return (
              <div className="bg-black text-gray-400 p-8 rounded-lg shadow-lg text-center min-h-screen flex flex-col justify-center items-center">
                  <div className="w-full px-4 md:px-8 py-4 absolute top-0 left-0"><Breadcrumbs items={breadcrumbItems} /></div>
@@ -288,3 +282,4 @@ function OrganizationInfoPage() {
 }
 
 export default OrganizationInfoPage;
+// ENSURE THERE ARE NO CHARACTERS (INCLUDING SPACES OR NEWLINES) AFTER THIS LINE
