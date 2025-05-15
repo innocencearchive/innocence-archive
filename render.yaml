@@ -45,7 +45,6 @@ services:
     name: innocence-archive-client # Unique name for your frontend client
     env: node # Environment for the build process (Vite needs Node)
     runtime: static # ADDED: Specifies that this web service serves static content
-    distribute globally
     rootDir: newclient # Directory of your frontend code
     
     buildCommand: npm install && npm run build # Standard Vite build command
