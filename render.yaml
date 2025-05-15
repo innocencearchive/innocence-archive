@@ -7,14 +7,9 @@
 # -------------------------------------
 databases:
   - name: innocence-archive-db # Unique name for your database
-    postgresMajorVersion: 16
+    postgresMajorVersion: 16 # Specifies the PostgreSQL major version
     region: ohio # Specifies the region for the database
-    plan: free # Specifies the Render plan (e.g., free, starter)
-    # postgresMajorVersion is typically set by Render based on the 'plan' or defaults.
-    # If you need a specific version like 16, and 'free' doesn't default to it,
-    # you might need to create it manually first or check if 'postgresMajorVersion: 16' is allowed here.
-    # For 'free' tier, Render usually picks a recent, stable version.
-    # Let's assume Render's default for 'free' is acceptable or we adjust if needed post-initial setup.
+    plan: free # Specifies the Render plan
 
 # -------------------------------------
 # Application Services
@@ -30,9 +25,9 @@ services:
     rootDir: server # Directory of your backend code
     
     buildCommand: npm install && npx prisma generate && npx prisma migrate deploy
-    startCommand: node server.js
+    startCommand: node server.js # Command to start your Express server
     
-    healthCheckPath: /
+    healthCheckPath: / # Optional health check path
 
     envVars:
       - key: DATABASE_URL
@@ -44,21 +39,24 @@ services:
       # PORT is automatically injected by Render
 
   # -------------------------------------
-  # Frontend Client Service (React/Vite)
+  # Frontend Client Service (React/Vite) - MODIFIED
   # -------------------------------------
-  - type: static_site # Specifies a static site service
+  - type: web # MODIFIED: Changed from static_site to web, as per user-provided example
     name: innocence-archive-client # Unique name for your frontend client
-    env: node # Environment for the build process
+    env: node # Environment for the build process (Vite needs Node)
+    runtime: static # ADDED: Specifies that this web service serves static content
+    region: ohio # Optional: Can specify region for build colocation, though CDNs distribute globally
     rootDir: newclient # Directory of your frontend code
     
-    buildCommand: npm install && npm run build
-    publishDirectory: dist
+    buildCommand: npm install && npm run build # Standard Vite build command
+    staticPublishPath: dist # MODIFIED: Changed from publishDirectory, path to built static files (relative to rootDir)
     
+    # Rewrite rules for Single Page Applications (SPAs) like React
     routes:
       - type: rewrite
-        source: /*
-        destination: /index.html
+        source: /* # Matches all paths
+        destination: /index.html # Serves index.html for all matched paths
         
-    envVars:
+    envVars: # Environment variables available during the frontend build process
       - key: VITE_API_URL
-        value: https://innocence-archive-api.onrender.com
+        value: https://innocence-archive-api.onrender.com # URL of your deployed backend API
