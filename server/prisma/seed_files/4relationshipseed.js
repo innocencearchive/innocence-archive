@@ -13,7 +13,7 @@ const DRY_RUN = false; // Set to false for actual run
 
 // Define the path to your LONG-format CSV file for connections
 // Adjust the path as needed relative to where you run the script from
-const inputCsvPath = 'C:/GitHub/innocencearchive/scripts/groups/connected_convictions_long_format.csv';
+const inputCsvPath = 'connected_convictions_long_format.csv';
 
 // Define the column names expected in your long-format connection CSV
 const relationshipColumnCsv = 'Relationship'; // Identifies the group of connected people
