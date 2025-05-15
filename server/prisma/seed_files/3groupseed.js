@@ -11,7 +11,7 @@ const DRY_RUN = false; // Set to false for actual run
 
 // Define the path to your LONG-format CSV file
 // Make sure this points to the correct group CSV file
-const inputCsvPath = 'C:/GitHub/innocencearchive/scripts/groups/longgroup.csv';
+const inputCsvPath = 'longgroup.csv';
 
 // Define the column names expected in your long-format CSV
 const groupColumnCsv = 'GroupName';
