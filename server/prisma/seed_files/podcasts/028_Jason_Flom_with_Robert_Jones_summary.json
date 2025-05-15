@@ -1,0 +1,121 @@
+{
+    "sourceFileName": "028_Jason_Flom_with_Robert_Jones_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2017",
+        "network": "Lava for Good Podcast, signal company number one, iHeart Media (mentioned as platform)",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system, exoneration, police misconduct, prosecutorial misconduct, ineffective defense counsel.",
+        "keyStats": "Robert Jones served 23 and a half years for crimes he did not commit. It took approximately 12,000 hours of legal work to secure his exoneration.",
+        "itemNumber": "028",
+        "itemTitle": "Jason Flom with Robert Jones",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom features Robert Jones, a man wrongfully convicted in New Orleans, and Emily Maw, the director of the Innocence Project of New Orleans (IPNO).  Robert recounts his childhood, the events leading to his wrongful arrest in 1992 for a series of crimes committed by another man named Lester Jones, and his 23-year ordeal in prison. Emily Maw details the systemic failures in Robert's case, including police tunnel vision, prosecutorial misconduct, and ineffective defense counsel.  Despite overwhelming evidence of his innocence and the actual perpetrator being identified and convicted, Robert remained imprisoned until IPNO took up his case. The episode highlights the devastating impact of wrongful convictions and the arduous fight for justice and exoneration, celebrating Robert's eventual freedom and his inspiring resilience and advocacy for systemic change."
+    },
+    "featuredIndividual": {
+        "fullName": "Robert Jones",
+        "caseLocation": "New Orleans, Louisiana, USA",
+        "convictionYear": "1996 (mentioned as year of guilty verdict)",
+        "exonerationYear": "2015 (conviction reversed), 2023 (charges dropped)",
+        "crimeConvictedOf": "Rape and manslaughter (initially), later pleaded guilty to manslaughter in Stott homicide and robbery (wrongfully)",
+        "sentence": "Life without parole, plus 25 years, plus 20 years.",
+        "timeServed": "23 and a half years",
+        "contributingFactorsRaw": [
+            "Eyewitness misidentification, police tunnel vision, prosecutorial misconduct (presenting perjury to grand jury, withholding exculpatory evidence), ineffective defense counsel."
+        ],
+        "status": "Exonerated (charges dropped)",
+        "organizationsInvolvedRaw": [
+            "Innocence Project of New Orleans (IPNO), Innocence Project (mentioned as helping initially)"
+        ],
+        "innocenceLawyersRaw": [
+            "Emily Maw, fearless leader of IPNO, and Richard (co-counsel, last name not mentioned). Described as dedicating 12,000 hours to the case."
+        ],
+        "crossReference": "Yes, appears in exoneree database (confirmation needed - not explicitly stated but implied).",
+        "narrativeOriginalCrime": "A series of violent crimes in New Orleans in April 1992, including robberies, rape, and the murder of British tourist Julie Stott. The perpetrator used a distinctive burgundy Oldsmobile.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness identification by rape victim (later changed description to match Robert), alleged confession obtained from actual perpetrator Lester Jones implicating Robert (later recanted and deemed false),  prosecutorial argument that Robert and Lester Jones were connected and committed crimes together."
+        ],
+        "trialDefenderNotes": "Criminally negligent defense lawyer. Rarely showed up to court, didn't investigate alibi (Robert was at son's birthday party during rape), didn't file motions to suppress faulty identification, withdrew motions filed by public defender, didn't attend Lester Jones's trial, advised Robert to plead guilty to multiple charges including murder already convicted by Lester.",
+        "keyEvidenceExonerationRaw": [
+            "Evidence that crime spree continued after Robert's arrest, actual perpetrator Lester Jones owned the distinctive car and possessed evidence from all crimes, Lester Jones initially told police he didn't know Robert, police detectives concluded Robert was innocent and informed prosecutors, discovery of memo in DA files showing Lester Jones told prosecutors he didn't know Robert before Robert's trial, initial description by rape victim matched Lester Jones, not Robert."
+        ],
+        "actualPerpetratorDetails": "Lester Jones, committed the crime spree using his burgundy Oldsmobile. Convicted of the Stott homicide and other robberies. Lived near the Desire Project where the rape occurred. Had possessions of victims from all crimes, including gun used in murder."
+    },
+    "keyQuotesRaw": [
+        "\"I think we have the best legal system, it's just the people that implement it. They get lost along the way and forget what their job really is.\" - Robert Jones",
+        "\"They give a guy a life sentence and go home and eat spaghetti like it was nothing.\" - Robert Jones",
+        "\"Why wouldn't you confess when somebody's threatening to kill your life?\" - Robert Jones (regarding false confessions generally)",
+        "Detective James Stewart: \"...went to the prosecutors and said, I arrested the wrong guy initially. And he will tell you, it was a bit of a black eye that it was a high profile case. We thought we had our guy, and it turned out it wasn't him.\"",
+        "Emily Maw describing defense lawyer: \"Robert's defense law was criminally negligent in this case.\" \"That is a crime in itself.\"",
+        "Robert Jones:  \"I decided that I'm going to fight for justice. I'm going to get out of prison and anywhere I see you and just understand the fight because I feel like, you know, he the most courageous person in, in my eyesight because he gave his life to try to save minds.\" (referring to his brother)",
+        "Robert Jones: \"I don't feel like just as hell being served until the system is fixed and to the point where you can't do it to nobody else.\""
+    ],
+    "systemicIssuesRaw": [
+        "Police tunnel vision and confirmation bias.",
+        "Flawed eyewitness identification procedures.",
+        "Prosecutorial misconduct (withholding evidence, perjury).",
+        "Ineffective assistance of counsel.",
+        "Lengthy pre-trial detention and delays in justice.",
+        "Systemic negligence in handling evidence.",
+        "Lack of accountability for misconduct.",
+        "Racial and socioeconomic disparities in the justice system."
+    ],
+    "policyRecommendationsRaw": [
+        "Support the Innocence Project and Innocence Project New Orleans (IPNO).",
+        "Advocate for criminal justice reform to prevent wrongful convictions.",
+        "Fix systemic issues in the justice system to ensure fairness and accountability.",
+        "Listen to and be inspired by exonerees' stories to drive change."
+    ],
+    "personalNarrativeRaw": [
+        "Robert Jones’s personal narrative emphasizes resilience, forgiveness, and a commitment to justice despite enduring profound injustice. He transformed his prison experience into an opportunity for self-education and advocacy.  The wrongful conviction caused immense suffering for Robert and his family, including the loss of his brother who tried to help him.  Despite this, Robert exhibits remarkable positivity and dedicates his life to helping others through the Freedom Foundation and his art, aiming to inspire hope and systemic change. His final thoughts are focused on encouraging listeners to persevere through adversity and use his story as inspiration to overcome life's challenges and fight for a just system."
+    ],
+    "additionalResourcesRaw": [
+        "Podcast: Spotlight Snitch City",
+        "Podcast: Math and Magic",
+        "Podcast: Look at Thought Our Radio",
+        "Organization: Innocence Project (InnocenceProject.org)",
+        "Organization: Innocence Project New Orleans (www.ip-no.org)",
+        "Organization: Freedom Foundation (FreedomFoundation.org)",
+        "Website: HereForMIOutdoors.org (unrelated PSA ad)"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Lester Jones",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Detective James Stewart",
+                "role_guess": "Police Officer",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Robert's Brother",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": "uncertain"
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Lengthy pre-trial detention",
+            "Delays in justice",
+            "Systemic negligence in handling evidence",
+            "Lack of accountability for misconduct",
+            "Racial and socioeconomic disparities in the justice system"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "fight for justice",
+                "exoneration",
+                "systemic change",
+                "inspiring resilience"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

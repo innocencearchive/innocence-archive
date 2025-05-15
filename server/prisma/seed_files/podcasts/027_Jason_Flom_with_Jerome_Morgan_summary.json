@@ -1,0 +1,134 @@
+{
+    "sourceFileName": "027_Jason_Flom_with_Jerome_Morgan_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2017",
+        "network": "Lava for Good Podcasts and Association with TikTok's complete number one.",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, flaws in the justice system, eyewitness misidentification, coerced confessions, prosecutorial misconduct, life after exoneration, compensation for wrongful conviction.",
+        "keyStats": "- Jerome Morgan served 20 years in Angola for a crime he did not commit.\n- He was convicted based on coerced eyewitness testimony.\n- The actual 911 call records showed police arrived at the scene much faster than was implied at trial, undermining the prosecution's timeline.\n- Louisiana's compensation statute is capped at $250,000 for wrongful incarceration, regardless of time served beyond 10 years.\n- Inmates in Angola were disciplined for not picking cotton fast enough in the 1990s, highlighting the prison's history as a former slave plantation.",
+        "itemNumber": "027",
+        "itemTitle": "Jason Flom with Jerome Morgan",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom features Jerome Morgan, exonerated after 20 years for a murder he didn't commit, and his attorney Kristen Winstrom from Innocence Project New Orleans.  Jerome recounts his wrongful conviction at age 17 for a murder at a sweet 16 party in 1993, detailing how coerced eyewitness testimonies and police misconduct led to his life sentence in Angola. Kristen explains the legal battles and the evidence that ultimately led to his exoneration, including 911 call logs and recanted testimonies. The episode highlights systemic issues within the justice system, including reliance on unreliable eyewitness accounts, prosecutorial pressure, and inadequate compensation for exonerees in Louisiana.  Jerome and Kristen discuss the devastating impact of wrongful conviction, the fight for justice, and the ongoing challenges faced by exonerees post-release, including lack of compensation and social reintegration difficulties. The conversation underscores the importance of innocence projects and systemic reform to prevent future wrongful convictions."
+    },
+    "featuredIndividual": {
+        "fullName": "Jerome Morgan",
+        "caseLocation": "New Orleans, Louisiana, USA",
+        "convictionYear": "1994 (inferred from transcript discussion of events in 1993 and trial being half a day)",
+        "exonerationYear": "2014",
+        "crimeConvictedOf": "Murder of Clarence Landry (16-year-old)",
+        "sentence": "Life without parole",
+        "timeServed": "20 years",
+        "contributingFactorsRaw": [
+            "Eyewitness Misidentification: Kevin Johnson and Hakim Shabazz initially did not identify Jerome, but later, under police pressure and rumors, falsely identified him.",
+            "Police Misconduct/Coercion: Police suggested Jerome's name to Hakim Shabazz and pressured Kevin Johnson, misrepresenting his initial statements.",
+            "Inadequate Legal Defense: Public defender system mentioned, suggesting potential lack of resources and thorough defense.",
+            "Rumors and Community Pressure: Rumors among teenagers and pressure from the victim's family influenced eyewitness testimonies."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Innocence Project New Orleans (IPNO)"
+        ],
+        "innocenceLawyersRaw": [
+            "Kristen Winstrom from Innocence Project New Orleans is interviewed as Jerome's attorney.  She is described as being from IPNO and dedicated to Jerome's case, working to uncover new evidence and fight for his exoneration. Jason Williams and Bobby Oatsburg are mentioned as lawyers who represented the two witnesses pro bono against perjury charges."
+        ],
+        "crossReference": "Appears in the National Registry of Exonerations (mentioned in the transcript when Jason Flom references reading about the case there).",
+        "narrativeOriginalCrime": "A fight broke out at a sweet 16 party in a hotel ballroom. During the brawl, gunshots were fired by a single gunman. Clarence Landry was killed, and Hakim Shabazz was shot in the abdomen, and another individual was shot in the leg. The gunman fled the scene.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness testimony from Hakim Shabazz and Kevin Johnson identifying Jerome Morgan as the shooter.",
+            "Implied timeline suggesting a delay in police arrival, theoretically allowing the gunman to return to the room."
+        ],
+        "trialDefenderNotes": "Jerome was represented by a contract public defender. The transcript mentions the trial lasted only half a day, suggesting a potentially rushed and inadequate defense.  Witnesses testified on Jerome's behalf stating he did not leave the room after the shooting, but this was not enough to overcome the eyewitness testimony in the original trial.",
+        "keyEvidenceExonerationRaw": [
+            "911 Complaint History: Proved police arrived within 6 minutes of the 911 call, contradicting the implied timeline at trial and making it nearly impossible for the gunman to have fled and returned as suggested by the prosecution's theory.",
+            "Recanted Eyewitness Testimonies: Kevin Johnson and Hakim Shabazz recanted their original identifications, explaining they were coerced and influenced by police and rumors. They clarified that their initial statements were misrepresented and that they did not genuinely see Jerome as the shooter."
+        ],
+        "actualPerpetratorDetails": "Not identified in the transcript. The focus is on Jerome Morgan's wrongful conviction, not the identification of the actual shooter."
+    },
+    "keyQuotesRaw": [
+        "\"He just kept on trying to remind me that who was in authority, who was in control and how easy it was for my body to be found in any alley of New York City.\" - Jerome, recounting police pressure (though stated generally at the beginning, not explicitly linked to his case in the transcript's detailed narrative).",
+        "\"Anybody that would say, well, why would you confess to something that you didn't do? My question to them will be, why wouldn't you confess when somebody's threatening to kill your life?\" - Jerome, speaking generally about confessions, relevant to the theme of coerced testimony in his case.",
+        "\"It's a tough prison when you have the guards going against you because they are the biggest gang in the prison.\" - Jerome, describing prison conditions in Angola.",
+        "\"They give a guy a life sentence and go home and eat spaghetti like it was nothing.\" - Jerome, critical of the justice system's indifference.",
+        "\"I call it the silencing of truth.\" - Jerome, describing the environment in Angola prison.",
+        "\"the just shall live by faith, the just shall live by faith. And I'm speaking of all of us, the people that I know that interested and invested in justice live by faith in the sense that they feel they have the faith that my good could harm the wrong in the world.\" - Jerome's closing thoughts on faith and justice."
+    ],
+    "systemicIssuesRaw": [
+        "Eyewitness Misidentification: Highlighted as unreliable and easily influenced by suggestion and pressure.",
+        "Police Misconduct: Coercion and manipulation of witnesses to secure a conviction.",
+        "Inadequate Legal Defense: Public defender system limitations leading to potentially insufficient representation.",
+        "Racial Bias: Implicit in the discussion of the justice system's treatment of young black men and the lack of concern for the murder victim initially until public pressure arose.",
+        "Lack of Compensation for Exonerees: Louisiana's capped and restrictive compensation statute is criticized as insufficient and unjust.",
+        "Prison Conditions: Angola prison depicted as a harsh and exploitative environment, resembling a slave plantation.",
+        "Perjury Charges against Recanting Witnesses:  State's attempt to punish witnesses for telling the truth after years, illustrating the system's resistance to admitting error.",
+        "\"Factory Process\" of Justice: The justice system is described as a machine that grinds up people, suggesting a lack of individual consideration and care for truth."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for Innocence Projects: Encouragement to donate to and get involved with organizations like the Innocence Project.",
+        "Systemic Reform: Implicit call for broader criminal justice reform to address issues like eyewitness identification procedures, police accountability, public defender resources, and compensation for wrongful conviction.",
+        "Paradigm Shift in Treatment of Exonerees:  Advocacy for a societal shift to provide meaningful support and opportunities for exonerees to reintegrate and contribute positively."
+    ],
+    "personalNarrativeRaw": [
+        "Jerome's Personal Experience:  Details 20 years of wrongful imprisonment, the harsh conditions of Angola, the emotional and psychological toll, and the struggle for reintegration post-exoneration. His resilience and positive outlook despite immense hardship are emphasized.",
+        "Social Deprivation and Reintegration:  Discusses the challenges of social reintegration, including communication difficulties and the need for support in navigating relationships after long-term incarceration.",
+        "Lack of Compensation and Ongoing Struggles:  Highlights the financial difficulties and lack of support faced by exonerees in Louisiana, despite their wrongful imprisonment. Jerome's continued payment of taxes and fees to the system that wronged him underscores the injustice.",
+        "Final Thoughts of the Individual: Jerome's closing remarks focus on faith, goodness, and the need for a justice system rooted in positive values and equality, emphasizing his desire to use his experience to help others."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project: InnocenceProject.org is mentioned as a resource for donation and involvement.",
+        "National Registry of Exonerations: Referenced as a source of information on Jerome's case.",
+        "Instagram at wrongful conviction and on Facebook at wrongful conviction podcast: Social media handles for the podcast are provided."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Kevin Johnson",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Hakim Shabazz",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Jason Williams",
+                "role_guess": "Lawyer",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Bobby Oatsburg",
+                "role_guess": "Lawyer",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Perjury charges against recanting witnesses",
+            "Racial bias",
+            "Prison conditions",
+            "Lack of compensation for exonerees",
+            "Factory process of justice"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful conviction",
+                "Systemic reform",
+                "Fight for justice",
+                "Police misconduct",
+                "Coerced testimony",
+                "Eyewitness misidentification",
+                "Inadequate legal defense",
+                "Prison conditions",
+                "Lack of compensation for exonerees",
+                "Social reintegration difficulties"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

@@ -15,7 +15,7 @@ const DRY_RUN = false; // <<<<< Set to false for actual database changes >>>>>
 
 // Define the input directory containing the ENHANCED BOOK JSON files
 // *** ADJUST THIS PATH ***
-const inputJsonDir = 'C:/GitHub/innocencearchive/docs/media/books/enhanced'; // <--- CHANGE THIS
+const inputJsonDir = './books'; // <--- CHANGE THIS
 
 // --- ANSI Color Codes ---
 const RESET = "\x1b[0m";

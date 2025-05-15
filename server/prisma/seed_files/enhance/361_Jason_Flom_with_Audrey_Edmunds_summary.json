@@ -1,0 +1,126 @@
+{
+    "sourceFileName": "361_Jason_Flom_with_Audrey_Edmunds_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, Shaken Baby Syndrome (SBS), junk science, forensic science, legal system issues.",
+        "keyStats": "-   Natalie Beard had 25 doctor visits in her 27 weeks of life.\n-   Audrey Edmonds was sentenced to 18 years in prison.\n-   Discover is accepted at 99% of places that take credit cards nationwide (advertisement).\n-   $16.5 billion in tax refunds flagged for possible identity fraud by the IRS last year (advertisement).\n-   20% overall increase in identity theft related to tax fraud in 2024 (advertisement).\n-   100 million data points LifeLock monitors every second (advertisement).",
+        "itemNumber": "361",
+        "itemTitle": "Jason Flom with Audrey Edmunds",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction unpacks the case of Audrey Edmonds, who was wrongfully convicted of first-degree reckless homicide in the death of seven-month-old Natalie Beard, a child in her daycare. The conviction was based on the now-discredited \"shaken baby syndrome\" hypothesis.  Medical experts at the time testified that Natalie's injuries were definitively caused by violent shaking, leading to Audrey's 18-year prison sentence.  Years later, new scientific research emerged challenging the shaken baby syndrome hypothesis.  With the help of the Wisconsin Innocence Project and attorney Keith Finley, Audrey's case was revisited.  Key to her exoneration was the recantation of the original medical examiner's testimony and the presentation of updated medical science demonstrating alternative causes for Natalie's injuries. Audrey was released in 2008 after serving almost six years and fully exonerated when charges were dismissed."
+    },
+    "featuredIndividual": {
+        "fullName": "Audrey Edmonds",
+        "caseLocation": "Wannakey, Wisconsin, USA",
+        "convictionYear": "1996",
+        "exonerationYear": "2008",
+        "crimeConvictedOf": "First-degree reckless homicide",
+        "sentence": "18 years",
+        "timeServed": "Almost 6 years",
+        "contributingFactorsRaw": [
+            "Junk Science: Shaken Baby Syndrome hypothesis accepted as definitive science.",
+            "Misinterpretation of medical evidence: Triad of findings (retinal and brain hemorrhaging, brain swelling) automatically attributed to shaking.",
+            "Failure to consider pre-existing conditions and alternative causes of injury.",
+            "Lack of updated medical knowledge by prosecution experts and initially by defense."
+        ],
+        "status": "Exonerated, charges dismissed.",
+        "organizationsInvolvedRaw": [
+            "Wisconsin Innocence Project",
+            "Center for Integrity and Forensic Sciences (Co-founded by Keith Finley)",
+            "Innocence Network (Co-founded by Keith Finley)",
+            "Greenberg Traureg (Pro bono legal assistance mentioned in advertisement)"
+        ],
+        "innocenceLawyersRaw": [],
+        "keith_finley": "Post-conviction attorney, co-founder of Wisconsin Innocence Project, Innocence Network, and Center for Integrity and Forensic Sciences. Instrumental in bringing updated medical science to Audrey's case and securing her release and exoneration.",
+        "crossReference": "Yes (Likely in exoneree databases given the nature of the case and organizations involved, though not explicitly stated in transcript).",
+        "narrativeOriginalCrime": "Seven-month-old Natalie Beard died while in Audrey Edmonds' in-home daycare.  Natalie was found unresponsive after being left in a car seat with a bottle to feed.  Medical findings at autopsy were interpreted as Shaken Baby Syndrome. Audrey was accused of violently shaking Natalie, leading to her death.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of forensic pathologist Dr. Robert Huntington, who concluded Natalie's injuries (retinal and brain hemorrhaging, brain swelling, scalp bruising) were indicative of \"intentional forceful conduct\" and ruled out accidental injury.",
+            "Testimony from other medical experts (pediatricians, ophthalmologists) who uniformly supported the Shaken Baby Syndrome diagnosis, stating violent shaking was the only possible cause of the triad of findings.",
+            "Implicit suggestion that Audrey, as the last caregiver, was responsible."
+        ],
+        "trialDefenderNotes": "-   Original defense attorney, Steve Hurley, presented a defense expert who, while still believing in the Shaken Baby Syndrome hypothesis, suggested the injury could have occurred before Natalie was in Audrey's care.\n-   Hurley cross-examined Natalie's mother, Cindy Beard, about Natalie's pre-existing health issues and frequent doctor visits, attempting to highlight potential alternative explanations.\n-   Defense focused on Audrey's good character and lack of motive, arguing it was absurd to believe she would suddenly snap and violently harm a child after a long track record as a caring caregiver.",
+        "keyEvidenceExonerationRaw": [
+            "Recantation by Dr. Robert Huntington: He admitted his initial testimony was no longer reliable due to evolving medical understanding of SBS and the possibility of lucid intervals. He acknowledged he could no longer confidently say shaking was the cause or time the injury to Audrey's care.",
+            "New Medical Research: Presentation of updated biomechanical and medical research challenging the Shaken Baby Syndrome hypothesis and demonstrating other potential causes for the triad of findings, including pre-existing conditions, accidental falls, and medical issues.",
+            "Testimony of multiple expert witnesses: Five additional experts corroborated Dr. Huntington's revised opinion and presented the updated scientific consensus against the certainty of SBS diagnosis based solely on the triad.",
+            "Court of Appeals Decision:  The Court of Appeals unanimously reversed the trial court, finding Audrey had presented newly discovered evidence (the updated medical research) that created a probability of acquittal at a retrial."
+        ],
+        "actualPerpetratorDetails": "Not applicable, as Audrey was exonerated and the death is considered likely due to undiagnosed medical issues or accidental causes, not intentional harm."
+    },
+    "keyQuotesRaw": [
+        "Dr. Norman Guffkelch (founder of SBS hypothesis): \"It's a hypothesis. That's all it is. It's a hypothesis.\"",
+        "Keith Finley on SBS diagnosis at trial: \"The science, the medicine, the expert testimony comprise the entire case. It's almost unique in the law in that sense.\"",
+        "Audrey Edmonds on hearing the guilty verdict: \"I heard that one awful ugly word and I thought it was going to die.\"",
+        "Audrey Edmonds on release: \"I didn't care where I slept that night, as long as I was on the other side of the fence.\"",
+        "Keith Finley on wrongful convictions: \"…a rush to judgment, an unquestioning acceptance of expertise and authorities, even when they are flawed, and a real vindictiveness… when a baby dies, somebody's gotta pay for it.\"",
+        "Audrey Edmonds' closing argument to jurors: \"Just please be aware, if you're ever on a jury, really listen to truth and facts… and especially in cases like mine, please, please look at the medical scientific facts, not opinion…\""
+    ],
+    "systemicIssuesRaw": [
+        "Flawed Forensic Science: Reliance on the discredited Shaken Baby Syndrome hypothesis.",
+        "Confirmation Bias: Medical professionals and legal system initially accepted SBS as unquestionable truth.",
+        "Lack of Scientific Rigor:  Failure to validate the SBS hypothesis scientifically.",
+        "\"Rush to Judgment\" mentality in cases of infant deaths, leading to blaming caregivers without sufficient evidence.",
+        "Difficulty in overturning wrongful convictions even with new scientific evidence.",
+        "Prosecutorial Vindictiveness:  Continued insistence on guilt even after exoneration and dismissal of charges."
+    ],
+    "policyRecommendationsRaw": [
+        "Jury Duty Awareness: Encourage jurors to critically evaluate evidence, especially scientific and medical testimony, and rely on facts and truth over opinions.",
+        "Continued Medical Education:  Promote updated medical knowledge among medical and legal professionals regarding the complexities of infant head injuries and the limitations of SBS diagnosis.",
+        "Re-evaluation of Past SBS Convictions: Advocate for the review of past convictions based on Shaken Baby Syndrome in light of current scientific understanding.",
+        "Emphasis on Thorough Investigation:  Encourage comprehensive and unbiased investigations in cases of infant deaths, considering all potential causes and avoiding premature conclusions."
+    ],
+    "personalNarrativeRaw": [
+        "Audrey's life was devastated by the wrongful conviction, enduring separation from her children and imprisonment.",
+        "Her children also suffered, growing up with their mother in prison.",
+        "Despite the trauma, Audrey showed resilience and fought for her exoneration.",
+        "She now speaks out to raise awareness about wrongful convictions and the dangers of junk science.",
+        "The experience profoundly impacted Keith Finley, leading him to dedicate his career to fighting wrongful convictions and promoting forensic science integrity."
+    ],
+    "additionalResourcesRaw": [
+        "Book: \"It Happened to Audrey, A Terrifying Journey from Loving Mom to Accused Baby Killer\" (by Audrey Edmonds)",
+        "Book: \"Shaken Baby Syndrome, Investigating the Abuse of Head Trauma Controversy\" (co-authored by Keith Finley and other experts)",
+        "Center for Integrity and Forensic Sciences",
+        "Wisconsin Innocence Project",
+        "Innocence Network"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Natalie Beard",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Dr. Norman Guffkelch",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Medical Examiner",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Shaken Baby Syndrome",
+                "Medical Misdiagnosis",
+                "Exoneration",
+                "Flawed Forensic Science",
+                "Confirmation Bias"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

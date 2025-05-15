@@ -1,0 +1,120 @@
+{
+    "sourceFileName": "118_False_Confessions_Thomas_Cogdell_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction, False Confessions",
+    "mediaItem": {
+        "hosts": "Lauren Eyreider and Steve Drizen",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts in association with Signal Company No. 1",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "False confessions, juvenile interrogations, wrongful convictions, systemic issues in the justice system.",
+        "keyStats": "81% of false confessors who took their case to trial were convicted.",
+        "itemNumber": "118",
+        "itemTitle": "False Confessions Thomas Cogdell",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction, False Confessions, tells the tragic story of Thomas Cogdel, a 12-year-old boy from Camden, Arkansas, wrongfully convicted of murdering his 11-year-old sister, Kaylee.  Police interrogated Thomas for hours without a lawyer or parent present, using manipulative tactics including lies and false promises, ultimately leading to a coerced confession after a lengthy off-camera period. Despite no corroborating evidence and inconsistencies in his confession, Thomas was convicted based solely on this false confession.  His conviction was eventually overturned by the Arkansas Supreme Court due to a Miranda rights waiver issue, highlighting the vulnerability of juveniles during police interrogations and the dangers of false confessions, especially from children.  The episode underscores the need for legal reforms to protect juveniles during interrogations and prevent similar injustices. Thomas was eventually exonerated and released, but the true perpetrator of Kaylee's murder remains unknown, and justice for Kaylee is still outstanding."
+    },
+    "featuredIndividual": {
+        "fullName": "Thomas Cogdel",
+        "caseLocation": "Camden, Arkansas, USA",
+        "convictionYear": "Not explicitly stated, but after the 2006 incident.",
+        "exonerationYear": "Approximately two weeks after May 6, 2010 (Arkansas Supreme Court decision).",
+        "crimeConvictedOf": "Murder of his sister, Kaylee Cogdel",
+        "sentence": "Juvenile detention until his 18th birthday.",
+        "timeServed": "Approximately 3-4 years in juvenile detention (from 2006/2007 to 2010).",
+        "contributingFactorsRaw": [
+            "False confession due to coercive interrogation tactics (lies about evidence, promises of help, minimization of crime).",
+            "Age and vulnerability of the suspect (12-year-old child).",
+            "Lack of adult protection during interrogation (no parent or lawyer present).",
+            "Off-camera interrogation period where pressure likely intensified."
+        ],
+        "status": "Exonerated; conviction overturned by the Arkansas Supreme Court.",
+        "organizationsInvolvedRaw": [
+            "Public Defender's Office (Dorsey Corbin, attorney).",
+            "Center on Wrongful Convictions (Steve Drizen and team filed amicus brief)."
+        ],
+        "innocenceLawyersRaw": [
+            "Dorsey Corbin was Thomas's public defender. She aggressively challenged the confession from the beginning, losing at trial and the Court of Appeals, but ultimately succeeding at the Arkansas Supreme Court. She focused on the Miranda waiver issue and the coerciveness of the interrogation."
+        ],
+        "crossReference": "Not specified in the transcript if he appears in a specific exoneree database, but he is a documented case of wrongful conviction.",
+        "narrativeOriginalCrime": "11-year-old Kaylee Cogdel was found dead in her bedroom, hands bound with a dog leash and feet with measuring tape, with a plastic bag over her head. The cause of death was determined to be smothering.",
+        "keyEvidenceProsecutionRaw": [
+            "Thomas's confession, obtained after hours of interrogation, including an unrecorded period.",
+            "The prosecution argued that Thomas spontaneously confessed during a break."
+        ],
+        "trialDefenderNotes": "Dorsey Corbin challenged the confession as coerced and argued against its admissibility. She highlighted inconsistencies and lack of corroborating evidence. She also raised the issue of the Miranda waiver, particularly given Thomas's age and understanding.",
+        "keyEvidenceExonerationRaw": [
+            "The Arkansas Supreme Court ruled that Thomas did not knowingly and intelligently waive his Miranda rights because the detective's explanation of a waiver was misleading and inaccurate.",
+            "Amicus brief from the Center on Wrongful Convictions highlighting the vulnerabilities of juveniles and the problems with false confessions.",
+            "Lack of corroborating evidence for Thomas's confession (DNA on measuring tape was not Thomas's).",
+            "Medical examiner findings (levidity timing) contradicted the timeline suggested in Thomas's confession."
+        ],
+        "actualPerpetratorDetails": "Unknown. The transcript states no one else has ever been charged with Kaylee's murder. The DNA on the measuring tape belonged to another male, but this was not pursued further in the podcast."
+    },
+    "keyQuotesRaw": [
+        "Detective: \"That's the only way it can be, boy. You or your mother. That's the only way it can be, boy. There ain't no other way.\"",
+        "Thomas (during breakdown): \"Does that nobody came in? So I didn't do it. So I said, oh, well, she wanted to do it. Mom wouldn't do this. She loves her daughter, doesn't she? She loves me. I didn't do it. That's the bottom line, but they don't believe me. Help. I'm scared. Help. Help.\"",
+        "Thomas to his mother: \"Don't worry, just go along with it. He didn't really do it and they won't find his fingerprints on the bag.\"",
+        "Detective's misleading explanation of waiver: \"well, this simply states that what you were doing, you were doing of your own free will.\""
+    ],
+    "systemicIssuesRaw": [
+        "Coercive interrogation tactics used on juveniles.",
+        "Lack of legal protection for juveniles during interrogations (no mandatory presence of a lawyer or parent).",
+        "The problem of false confessions, especially from vulnerable populations.",
+        "Tunnel vision in police investigations, focusing on a suspect prematurely and ignoring other possibilities.",
+        "The power of confessions in court, even when they are unreliable.",
+        "Lack of mandatory recording of entire interrogations."
+    ],
+    "policyRecommendationsRaw": [
+        "Law requiring lawyers in the interrogation room for juveniles.",
+        "Reforms to interrogation practices to prevent coercive tactics and false confessions.",
+        "Mandatory recording of entire interrogations, not just parts."
+    ],
+    "personalNarrativeRaw": [
+        "Thomas was a quiet, intelligent, and responsible 12-year-old who was deeply traumatized by the interrogation and wrongful conviction.  Despite his ordeal, he maintained his innocence and even in custody, tried to reassure his mother. After release, he wanted to pursue his dreams of becoming an astronomer and start anew where people didn't know his story, indicating a desire to overcome the stigma and trauma of his wrongful conviction and rebuild his life."
+    ],
+    "additionalResourcesRaw": [
+        "Brendan Dassey's case is mentioned as another case the hosts were involved in.",
+        "Mention of wrongfulconvictionpodcast.com for more information on the show.",
+        "Social media handles for the hosts and podcast are provided for further engagement."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Kaylee",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Thomas's mother",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Detective",
+                "role_guess": "Police Officer",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Miranda rights waiver issue",
+            "Inconsistencies in confession",
+            "Lack of corroborating evidence",
+            "Tunnel vision in police investigations",
+            "Lack of mandatory recording of entire interrogations"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "False Confessions",
+                "Juvenile Justice",
+                "Police Interrogation Tactics",
+                "Legal Reforms"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

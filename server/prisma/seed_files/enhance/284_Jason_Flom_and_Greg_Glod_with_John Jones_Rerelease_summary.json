@@ -1,0 +1,131 @@
+{
+    "sourceFileName": "284_Jason_Flom_and_Greg_Glod_with_John Jones_Rerelease_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "Lava for Good Podcasts and Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, specifically shaken baby syndrome, junk science, criminal justice reform.",
+        "keyStats": "-   John Jones was 17 when his daughter died and was wrongfully convicted of murder based on shaken baby syndrome.\n-   Shaken baby syndrome diagnoses are considered \"junk science\" in this context, with numerous other medical conditions potentially causing similar symptoms.\n-   Ohio, and specifically Akron, Ohio, is an \"epicenter\" for shaken baby syndrome cases.\n-   Over 200 shaken baby syndrome cases have been overturned.\n-   A study showed cognitive bias amongst medical examiners, with race and familial status influencing homicide rulings in head trauma cases.\n-   John Jones was sentenced to 15 years to life.\n-   John Jones will be eligible for parole in 2025.",
+        "itemNumber": "284",
+        "itemTitle": "Jason Flom and Greg Glod with John Jones Rerelease",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom highlights the case of John Jones, wrongfully convicted of murdering his six-month-old daughter, Jada, based on the now-discredited \"shaken baby syndrome\" diagnosis.  John, only 17 at the time, was raising three children with his girlfriend and faced accusations after Jada became unresponsive.  The podcast features experts who debunk shaken baby syndrome as reliable evidence for abuse, explaining that various medical conditions can mimic its symptoms.  Despite consistent accounts of innocence and evolving scientific understanding, John remains incarcerated.  The episode criticizes the reliance on \"junk science\" in the legal system and the disproportionate impact on young, minority parents.  It calls for justice for John Jones, urging listeners to support the Ohio Innocence Project and advocate for criminal justice reform, emphasizing the need for informed juries and a focus on scientific accuracy in legal proceedings."
+    },
+    "featuredIndividual": {
+        "fullName": "John Jones",
+        "caseLocation": "Akron, Ohio, USA",
+        "convictionYear": "2011",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "Murder (related to shaken baby syndrome)",
+        "sentence": "15 years to life",
+        "timeServed": "Approximately 13 years (as of podcast recording)",
+        "contributingFactorsRaw": [
+            "Junk science of shaken baby syndrome diagnosis.",
+            "Misinterpretation of medical findings (retinal hemorrhage, subdural hematoma, brain swelling, fractures).",
+            "Lack of thorough investigation into alternative medical explanations.",
+            "Potential bias in medical and legal systems."
+        ],
+        "status": "Incarcerated, seeking exoneration through the Ohio Innocence Project.",
+        "organizationsInvolvedRaw": [
+            "Ohio Innocence Project, Center for Integrity and Forensic Sciences, Americans for Prosperity."
+        ],
+        "innocenceLawyersRaw": [
+            "Donald Castor, staff attorney at the Ohio Innocence Project, representing John Jones."
+        ],
+        "crossReference": "Not specified if in exoneree database, but likely relevant for such databases.",
+        "narrativeOriginalCrime": "John Jones was accused of violently shaking his six-month-old daughter, Jada, leading to her death.  The prosecution argued that John was alone with Jada in the hours before she became unresponsive and that the medical findings were conclusive evidence of abusive shaking.",
+        "keyEvidenceProsecutionRaw": [
+            "Medical testimony from doctors (Dr. Paul McPherson, Dr. Paul Bessunder, Dr. Lisa Kohler) diagnosing shaken baby syndrome based on retinal hemorrhaging, subdural hemorrhaging, brain swelling, and fractures.",
+            "Testimony suggesting Jada drank milk after 8 a.m., implying the injuries occurred while in John's sole care between 8 a.m. and 9:40 a.m."
+        ],
+        "trialDefenderNotes": "-   Defense expert witness, Dr. John Arden, a forensic pathologist, testified that the injuries could have been from abuse or other causes and that the timing could not be determined with specificity.\n-   Dr. Arden stated that subdural hemorrhaging does not typically cause immediate incapacitation, undermining the prosecution's timeline.\n-   John Jones testified to his innocence and consistent account of events.",
+        "keyEvidenceExonerationRaw": [
+            "Evolving scientific understanding of shaken baby syndrome, now considered \"junk science\" in many contexts.",
+            "Recognition that numerous medical conditions and accidental trauma can mimic shaken baby syndrome symptoms.",
+            "The original hypothesis creator, Dr. Norman Guthkeltz, now critical of shaken baby syndrome diagnoses.",
+            "Post-conviction litigation being prepared by the Ohio Innocence Project based on the changed scientific landscape."
+        ],
+        "actualPerpetratorDetails": "Not applicable, as the podcast argues for John Jones's innocence and suggests other potential medical causes or accidental injury, not another perpetrator."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"This is his story of how a grieving father's loss was compounded by his wrongful conviction.\"",
+        "Kate Judson: \"The debate is really whether shaking reliably explains the findings that are often attributed to it, whether shaking can be diagnosed as the cause of those findings.\"",
+        "John Jones: \"That was the scariest moment of my life. That was the worst day of my life. I didn't know what to do in that moment. She wasn't breathing. She wasn't moving. She was responsible at all.\"",
+        "Donald Castor: \"A defendant has a right not to be convicted on the basis of unreliable quasi-scientific evidence, and that's what happened in John's case...\"",
+        "Dr. Norman Guthkeltz (quoted): \"I think we need to go back to the drawing board and make a more thorough assessment of these fatal cases and I'm going to bet that we are going to bind in every or at least the large majority of cases that the child had another severe illness of some sort, which was missed until too late end quote.\"",
+        "John Jones (closing argument): \"I just want to sign light on my situation. I want people to realize what I'm going to. And I'm not even only person calling to this, possibly being accused of causing that there were children, dudes are trying science, like something that's not even legit.\""
+    ],
+    "systemicIssuesRaw": [
+        "Use of \"junk science\" (shaken baby syndrome) in convictions.",
+        "Cognitive bias in medical examiners and the legal system.",
+        "Disproportionate impact on young, minority, and low-income parents.",
+        "Difficulty in overturning wrongful convictions based on outdated scientific theories.",
+        "Aggressive prosecution and diagnostic biases in certain jurisdictions (e.g., Ohio, Akron).",
+        "Lack of access to pre-filing discovery to obtain comprehensive medical records."
+    ],
+    "policyRecommendationsRaw": [
+        "Write letters to the Ohio parole board in support of John Jones and others wrongfully convicted based on shaken baby syndrome.",
+        "Support organizations like the Ohio Innocence Project through donations.",
+        "Be informed about junk science in the legal system.",
+        "Exercise jury duty and critically evaluate evidence, especially scientific testimony.",
+        "Advocate for criminal justice reform to address systemic issues in wrongful conviction cases.",
+        "Need for easier discovery processes to access crucial evidence like medical records in post-conviction cases."
+    ],
+    "personalNarrativeRaw": [
+        "John Jones describes the profound grief of losing his daughter compounded by the trauma of wrongful conviction.",
+        "He expresses the struggle of being incarcerated as a young man and the personal growth he has undergone in prison, while maintaining his innocence and love for his children.",
+        "He emphasizes the need for truth and closure for his family and his daughter's mother's family, beyond just his personal freedom, highlighting the ongoing pain and lack of healing.",
+        "His final thoughts are focused on justice for his daughter, Jada."
+    ],
+    "additionalResourcesRaw": [
+        "Ohio Innocence Project (suggested for donations and support)",
+        "Center for Integrity and Forensic Sciences (Kate Judson's organization)",
+        "Americans for Prosperity (Greg Glod's organization)",
+        "Mention of exoneree database (though not specified which one).",
+        "Reference to study on cognitive bias among medical examiners (no specific citation given)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Jada",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Greg Glod",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Kate Judson",
+                "role_guess": "Expert",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Dr. Norman Guthkeltz",
+                "role_guess": "Expert",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Lack of thorough investigation into alternative medical explanations.",
+            "Aggressive prosecution and diagnostic biases in certain jurisdictions (e.g., Ohio, Akron).",
+            "Lack of access to pre-filing discovery to obtain comprehensive medical records."
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": "case of John Jones",
+            "related_themes": [
+                "Wrongful Conviction",
+                "Junk Science",
+                "Criminal Justice Reform",
+                "Shaken Baby Syndrome"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

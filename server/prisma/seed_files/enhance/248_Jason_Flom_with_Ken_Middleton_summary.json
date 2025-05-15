@@ -1,0 +1,125 @@
+{
+    "sourceFileName": "248_Jason_Flom_with_Ken_Middleton_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Pham",
+        "releaseYear": "2022",
+        "network": "Lava for Good Podcasts in association with Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, ineffective assistance of counsel, prosecutorial misconduct, evidence tampering,  miscarriage of justice, legal battles, systemic issues.",
+        "keyStats": "Ken Middleton has been imprisoned for over 30 years for a crime he maintains he did not commit. His conviction was overturned in 2004, but jurisdictional technicalities have kept him in prison.",
+        "itemNumber": "248",
+        "itemTitle": "Jason Flom with Ken Middleton",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of the Wrongful Conviction podcast features the harrowing story of Ken Middleton, wrongfully convicted in 1991 for the murder of his wife, Kathy. The podcast details the events of February 12, 1990, where Kathy tragically died from a gunshot wound in their home. Ken maintains it was an accident, triggered by Kathy's distress over news of a past affair. Despite evidence suggesting an accidental shooting and significant mishandling of evidence by law enforcement - including a potentially altered gunshot residue test and a staged crime scene - Ken was convicted and sentenced to life plus 200 years.  The episode highlights egregious issues such as ineffective defense counsel, false expert testimony, prosecutorial conflicts of interest, and jurisdictional loopholes that have perpetuated Ken's unjust imprisonment even after his conviction was overturned in 2004.  Ken and his son Cliff join host Jason Pham to plead for public awareness and action, urging the current prosecutor to utilize a new Missouri statute to finally grant Ken his freedom after over three decades of wrongful incarceration."
+    },
+    "featuredIndividual": {
+        "fullName": "Ken Middleton",
+        "caseLocation": "Blue Springs, Missouri, USA",
+        "convictionYear": "1991",
+        "exonerationYear": "2004 (conviction overturned, but not fully exonerated due to jurisdictional issues)",
+        "crimeConvictedOf": "Murder of Kathy Middleton (wife)",
+        "sentence": "Life plus 200 years",
+        "timeServed": "Over 30 years (as of podcast recording in transcript)",
+        "contributingFactorsRaw": [
+            "Ineffective Assistance of Counsel (Bob Duncan)",
+            "False Expert Testimony (Blood Spatter Expert)",
+            "Evidence Tampering (Altered gunshot residue test document)",
+            "Incompetent Investigation (Mishandled crime scene, restaged photos, failure to properly collect and preserve evidence)",
+            "Prosecutorial Misconduct & Conflicts of Interest (Prosecutor's father's law firm involved in civil suit against Ken)",
+            "Tunnel Vision (Police immediately focused on Ken as suspect)"
+        ],
+        "status": "Conviction overturned in 2004, but still incarcerated due to jurisdictional technicality. Awaiting action from the current prosecutor to utilize a new Missouri law to resolve the issue and potentially grant release or new trial.",
+        "organizationsInvolvedRaw": [
+            "Silver Creek Entertainment (Larry Garrison - Newsbreaker who brought the case to the podcast)",
+            "AIG pro bono program (mentioned in podcast advertisement, not directly involved in Ken's case as per transcript)"
+        ],
+        "innocenceLawyersRaw": [],
+        "bob_duncan_(trial_attorney)": "Described as ineffective and unprepared. Failed to investigate evidence, didn't consult experts, didn't make opening statement, and was generally negligent in defending Ken. Later admitted to his failures in affidavits.",
+        "gerald_handley_(2915_appeal_attorney)": "Also ineffective, described as disinterested. Procedurally defaulted Ken's appeal issues by filing a deficient motion, preventing the merits of the case from being heard.",
+        "jonathan_lawrence_(post-conviction_attorney_after_2001)": "Effective attorney who took on the case after new law allowed for re-evaluation. Filed an 81-page motion, presented expert testimony (Chuck Gay, Bob Trestle), and secured the overturning of Ken's conviction in 2004.",
+        "narrativeOriginalCrime": "Ken was accused of intentionally shooting his wife, Kathy, during a domestic dispute. The prosecution argued Ken held Kathy against a wall and shot her at close range in the face.",
+        "keyEvidenceProsecutionRaw": [
+            "Blood spatter \"expert\" testimony claiming Kathy was shot at close range while against the wall, implying a struggle and intentional act by Ken.",
+            "Alleged boot print on the wall, claimed to be evidence of Ken holding Kathy against the wall (later shown to be impossible and pre-existing).",
+            "Implication that Ken was trying to wash away gunshot residue by splashing water on his face and touching a potted plant.",
+            "Sister of Kathy gave testimony suggesting Ken had secret assets in Arkansas as a motive (later proven false and sister admitted perjury)."
+        ],
+        "trialDefenderNotes": "- Bob Duncan was woefully inadequate. He failed to:\n- Investigate the physical evidence, including the gun and gunshot residue tests.\n- Consult with or present expert witnesses to counter the prosecution's claims.\n- Interview key witnesses.\n- Make an opening statement.\n- Address the altered gunshot residue document or conflicting evidence.\n- Effectively challenge the prosecution's narrative.",
+        "keyEvidenceExonerationRaw": [],
+        "ballistics_expert_testimony_(bob_trestle)": "Demonstrated that the prosecution's scenario of Ken shooting Kathy was physically impossible based on bullet trajectory and angles. Showed that a shooter in the position described by the prosecution would have to be \"under the table.\"",
+        "crime_scene_investigation_expert_testimony_(chuck_gay)": "Highlighted the gross mishandling of the crime scene by police, including restaging photos, improper evidence collection (unclothing Kathy at the scene), and the altered gunshot residue document.",
+        "analysis_of_altered_gunshot_residue_document": "Revealed clear evidence of tampering with the document, specifically \"white-out\" covering up the testing of Kathy's left hand, which would have been crucial evidence supporting accidental self-inflicted gunshot.",
+        "testimony_of_former_missouri_governor_joseph_p._tisdale": "Condemned the \"suspect conduct of the prosecutors\" and \"ineffective performance of the defense council,\" stating it was the worst case of constitutional violations he had witnessed and he would have pardoned Ken.",
+        "judge_messina's_2004_ruling": "Overturned Ken's conviction due to eight points of ineffective assistance of counsel by Bob Duncan, based on the evidence presented at the evidentiary hearing.",
+        "new_missouri_law_(2021)": "Removed jurisdictional barriers, allowing prosecutors to file motions to reconsider cases of wrongful conviction, even outside of the 2915 process. This law gives the current prosecutor, Gene Peters Baker, the ability to act in Ken's case.",
+        "actualPerpetratorDetails": "Not applicable. The defense argues Kathy's death was a tragic accident, a self-inflicted gunshot wound."
+    },
+    "keyQuotesRaw": [],
+    "jason_pham": "\"I don't even know where to start. When our friend Larry Garrison... told me and us here at wrongful conviction about the case of Ken Middleton, he had lived up to his nickname once again, I mean the newsbreaker, so I'll start by saying that Ken Middleton had been in prison for over 30 years for being present during what they may well have known all along was just a tragic accident...\"",
+    "cliff_middleton_(regarding_the_altered_gsr_document)": "\"You really have to see this to believe it and we're going to link pictures of this in our episode file because I'm looking at it right now and I still can't believe that I'm actually looking at what I'm looking at.\"",
+    "bob_trestle_(ballistics_expert)": "\"In order for someone to be directly in front of her if a shooter was the one that fired this weapon he would have to be under the table that makes no sense whatsoever.\"",
+    "former_governor_joseph_p._tisdale": "\"...this was the worst case of constitutional violations that he had ever witnessed in 41 years of practicing law and that he and this is a direct quote would clearly have pardoned Mr. Middleton of all wrong doing...\"",
+    "ken_middleton_(closing_argument)": "\"...all the people that's listening i would appreciate it more than words can explain anything they can do sign petition sign a letters to baker to get her to follow the statute anything anybody can do to help to clear and get the same justice that kevin strickland god I would appreciate it more than words can say.\"",
+    "systemicIssuesRaw": [
+        "Ineffective assistance of counsel is a significant contributor to wrongful convictions.",
+        "Prosecutorial misconduct, including conflicts of interest and potentially tampering with evidence, undermines the justice system.",
+        "Police incompetence and tunnel vision in investigations can lead to miscarriages of justice.",
+        "Jurisdictional technicalities can prolong wrongful imprisonment even after convictions are overturned.",
+        "Difficulty in achieving justice and freedom for wrongfully convicted individuals, even with compelling evidence of innocence."
+    ],
+    "policyRecommendationsRaw": [
+        "Public awareness and pressure on Prosecutor Gene Peters Baker to act on the new Missouri statute and file a motion conceding jurisdiction in Ken Middleton's case.",
+        "Sign the petition at free-kenmiddleton.com urging the prosecutor to act.",
+        "Support organizations working to combat wrongful convictions.",
+        "Advocate for reforms to address ineffective assistance of counsel and prosecutorial misconduct."
+    ],
+    "personalNarrativeRaw": [
+        "Ken Middleton's life has been stolen by wrongful imprisonment for over 30 years, impacting his health, family, and life opportunities.",
+        "Cliff Middleton's unwavering dedication and decades-long fight to free his father, highlighting the devastating impact on families.",
+        "The emotional toll and injustice experienced by Ken and his family are palpable throughout the podcast.",
+        "Ken's refusal of an Alford plea, even when it meant potential immediate release, underscores his steadfast claim of innocence and desire for full exoneration."
+    ],
+    "additionalResourcesRaw": [
+        "Website: [free-kenmiddleton.com](http://free-kenmiddleton.com) (Petition and case documents)",
+        "Silver Creek Entertainment:  Developing a film about Ken Middleton's case (mentioned in podcast).",
+        "Social Media: Wrongful Conviction Podcast on Instagram, Facebook, and Twitter (@wrongconviction, @lavaforgood). Jason Pham on TikTok and Instagram (@itsjasonflam)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Kathy",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Cliff",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Current Prosecutor",
+                "role_guess": "Prosecutor",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Jurisdictional loopholes",
+            "Police incompetence"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Injustice",
+                "Evidence Mishandling",
+                "Prosecutorial Misconduct",
+                "Ineffective Counsel"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

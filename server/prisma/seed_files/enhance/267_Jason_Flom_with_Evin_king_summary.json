@@ -1,0 +1,123 @@
+{
+    "sourceFileName": "267_Jason_Flom_with_Evin_king_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "Lava for Good podcasts in association with Signal Company No. 1",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system failures, exoneree stories",
+        "keyStats": "Evan King served almost 25 years for a crime he didn't commit. He is the 25th person exonerated by the Ohio Innocence Project.",
+        "itemNumber": "267",
+        "itemTitle": "Jason Flom with Evin king",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the story of Evan King, who was wrongfully convicted of the rape and murder of Crystal Hudson in 1994 and served almost 25 years in prison.  Despite DNA evidence excluding him and a lack of physical evidence linking him to the crime, he was convicted based on circumstantial presence at the scene and a premonition presented as evidence.  False testimony from the coroner's office regarding sperm deposition further misled the jury.  The Ohio Innocence Project eventually took on his case, and after years of legal battles and new DNA testing on fingernail scrapings that matched the semen DNA, prosecutors finally agreed to his release in 2017. The episode highlights the failures of the justice system, inadequate defense counsel, and the long fight for exoneration."
+    },
+    "featuredIndividual": {
+        "fullName": "Evan King",
+        "caseLocation": "East Cleveland, Cuyahoga County, Ohio, USA",
+        "convictionYear": "1994",
+        "exonerationYear": "2017",
+        "crimeConvictedOf": "Rape and Murder of Crystal Hudson",
+        "sentence": "15 years to life",
+        "timeServed": "Almost 25 years",
+        "contributingFactorsRaw": [
+            "False Testimony (Coroner's office on sperm deposition timing)",
+            "Ineffective Assistance of Counsel (Lawyer did not object, seemed unprepared)",
+            "\"Premonition\" presented as evidence",
+            "Initial dismissal of DNA evidence excluding King from sperm sample"
+        ],
+        "status": "Exonerated, Released",
+        "organizationsInvolvedRaw": [
+            "Ohio Innocence Project"
+        ],
+        "innocenceLawyersRaw": [
+            "Jennifer Bergeron of the Ohio Innocence Project was instrumental in his exoneration.  Carrie Wood, a former lawyer at the Public Defender's Office, also helped by getting an expert involved."
+        ],
+        "narrativeOriginalCrime": "Crystal Hudson was found dead in her apartment closet, having been raped and strangled. Evan King visited her apartment while her body was already there, unaware of her death.",
+        "keyEvidenceProsecutionRaw": [
+            "Evan King was present in the apartment where the body was found.",
+            "Crystal Hudson's mother's \"premonition\" that Evan would kill her daughter.",
+            "False testimony from the coroner's office suggesting the sperm DNA evidence could be unrelated to the murder, deposited days before."
+        ],
+        "trialDefenderNotes": "Rocco Russo, Evan King's court-appointed attorney, was described as ineffective. He did not object to evidence, appeared to be falling asleep in court, and presented no defense.",
+        "keyEvidenceExonerationRaw": [
+            "DNA testing on fingernail scrapings from Crystal Hudson matched the DNA from the rape kit (semen), confirming the rapist was also the murderer and it was not Evan King.",
+            "Expert testimony debunking the initial coroner's office testimony about sperm deposition timing, proving the sperm was deposited at the time of death.",
+            "The prosecutor's office eventually reviewed the case and agreed with the Ohio Innocence Project's findings, leading to Evan King's release."
+        ],
+        "actualPerpetratorDetails": "Not mentioned or identified in the transcript. DNA was uploaded to CODIS but no match found as of the time of the podcast."
+    },
+    "keyQuotesRaw": [
+        "Host: \"All the evidence was in plain sight, and his conviction was based on a freaking premonition that somebody had, I'm sorry, I have to laugh to keep from crying.\"",
+        "Evan King: \"You're sentencing an innocent man to prison while a guilty man walked the streets of Cleveland free. Point it to him and I said, one day I'll be back in this courtroom for you to send me free.\"",
+        "Jennifer Bergeron (regarding initial judge denying DNA evidence significance): \"Even though he'd explicitly said before that that's what he was looking for. But he denied it based on the expert testimony from the trial, that same expert testimony that we've been talking about that we know was just complete bogus nonsense.\"",
+        "Evan King (on release): \"Once we got outside, you know, just the air is different on this side of the fence. It's like you can breathe again. You know, to me, it's God's gift.\""
+    ],
+    "systemicIssuesRaw": [
+        "False/Misleading Expert Testimony",
+        "Ineffective Assistance of Counsel",
+        "Overreliance on circumstantial evidence and ignoring exculpatory DNA evidence",
+        "Tunnel vision by law enforcement focusing on a suspect without thorough investigation",
+        "Difficulty in overturning wrongful convictions even with strong evidence of innocence."
+    ],
+    "policyRecommendationsRaw": [
+        "Support for Innocence Projects (specifically Ohio Innocence Project mentioned).",
+        "Need for better standards for expert testimony in court.",
+        "Emphasis on thorough investigation and proper evaluation of DNA evidence.",
+        "Highlighting the need for competent defense counsel, especially in cases with serious charges."
+    ],
+    "personalNarrativeRaw": [
+        "Evan King lost almost 25 years of his life due to wrongful conviction, enduring harsh prison conditions and battling cancer while incarcerated.",
+        "He expressed faith and resilience throughout his ordeal and upon release.",
+        "He highlighted the importance of the Ohio Innocence Project and encouraged listeners to support them.",
+        "He mentioned overcoming drug addiction during his imprisonment, finding a positive outcome amidst the tragedy."
+    ],
+    "additionalResourcesRaw": [
+        "Ohio Innocence Project (link to be provided in podcast bio)",
+        "Website for clients Carl Willis and Wayne Bratty: freewayneandcarl.com"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Crystal Hudson",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Guilty man (unnamed)",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Initial judge (unnamed)",
+                "role_guess": "Judge",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Expert from the trial (unnamed)",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Overreliance on circumstantial evidence and ignoring exculpatory DNA evidence",
+            "Tunnel vision by law enforcement focusing on a suspect without thorough investigation",
+            "Difficulty in overturning wrongful convictions even with strong evidence of innocence."
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Failures of the justice system",
+                "Wrongful conviction",
+                "Exoneration",
+                "False testimony",
+                "Ineffective assistance of counsel"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

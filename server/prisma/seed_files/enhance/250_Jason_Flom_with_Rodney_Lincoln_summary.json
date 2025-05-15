@@ -1,0 +1,136 @@
+{
+    "sourceFileName": "250_Jason_Flom_with_Rodney_Lincoln_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Junk Science, Eyewitness Misidentification, Serial Killers",
+        "keyStats": "- Rodney Lincoln served over 36 years for a crime he did not commit.\n- Hair microscopy is junk science and has led to many wrongful convictions.\n- FBI admitted to giving bogus testimony in 96% of cases involving hair microscopy.\n- Tommy Lynn Sells confessed to scores of similar crimes and Melissa DeBore identified him as the actual attacker.",
+        "itemNumber": "250",
+        "itemTitle": "Jason Flom with Rodney Lincoln",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the story of Rodney Lincoln, who was wrongfully convicted of murder and sexual assault in 1983 and served over 36 years in prison.  The episode details the flawed investigation, including a suggestive lineup with a traumatized child witness, Melissa DeBore, and the use of dubious hair microscopy evidence.  Despite inconsistencies in Melissa's initial statements, her powerful testimony, combined with junk science, led to Lincoln's conviction.  Decades later, DNA evidence excluded Lincoln, and Melissa recanted her testimony after recognizing serial killer Tommy Lynn Sells as the likely perpetrator.  Despite these developments and daughter K. Lincoln's tireless advocacy, legal hurdles persisted until Governor Greitens commuted Lincoln's sentence in 2018.  The episode highlights systemic issues of eyewitness misidentification, junk science in court, and the immense personal impact of wrongful convictions, while celebrating the resilience of Rodney Lincoln and his daughter's fight for justice."
+    },
+    "featuredIndividual": {
+        "fullName": "Rodney Lincoln",
+        "caseLocation": "St. Louis, Missouri, USA",
+        "convictionYear": "1983",
+        "exonerationYear": "2018 (commuted sentence, not fully exonerated in transcript, but released)",
+        "crimeConvictedOf": "Murder and sexual assault of Joanne Tate",
+        "sentence": "Life in prison plus 15 years",
+        "timeServed": "Over 36 years",
+        "contributingFactorsRaw": [
+            "Eyewitness Misidentification (Melissa DeBore)",
+            "Suggestive Lineup",
+            "Junk Science (Hair Microscopy)",
+            "Tunnel Vision by investigators",
+            "Prior unrelated conviction"
+        ],
+        "status": "Sentence commuted to time served, released. Not fully pardoned or exonerated according to transcript.",
+        "organizationsInvolvedRaw": [
+            "St. Louis, Missouri Circuit Attorney's Office (Justice Project - initial review)",
+            "Midwest Innocence Project (MIP)",
+            "Columbia School of Journalism (Steve Weinberg and students)"
+        ],
+        "innocenceLawyersRaw": [
+            "Robert Hampi: Original trial attorney, mentioned for cross-examination challenges.",
+            "Not explicitly detailed in transcript beyond this point."
+        ],
+        "crossReference": "Not explicitly stated if in exoneree database in transcript.",
+        "narrativeOriginalCrime": "Joanne Tate was brutally stabbed and sexually assaulted in her apartment. Her two young daughters, Melissa and Renee, were also attacked but survived.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness testimony of Melissa DeBore (7 years old at the time of the crime, 9 at trial)",
+            "Hair microscopy evidence linking Rodney Lincoln to hair found at the crime scene.",
+            "Suggestive lineup identification."
+        ],
+        "trialDefenderNotes": "- Robert Hampi attempted to highlight inconsistencies in Melissa's statements.\n- Faced immense challenge in cross-examining a traumatized child.\n- Did not present evidence about fingerprint analysis that excluded Rodney Lincoln due to stipulation with prosecution.",
+        "keyEvidenceExonerationRaw": [
+            "DNA testing in 2010 excluded Rodney Lincoln.",
+            "Recantation of eyewitness testimony by Melissa DeBore in 2015 after seeing images of Tommy Lynn Sells.",
+            "Confession and MO of serial killer Tommy Lynn Sells fitting the crime.",
+            "Commutation of sentence by Governor Greitens in 2018."
+        ],
+        "actualPerpetratorDetails": "- Tommy Lynn Sells: Serial killer who confessed to scores of similar crimes.\n- MO matched the crime details (4 am attack, knife from kitchen, sexual assault).\n- Already known for other wrongful convictions."
+    },
+    "keyQuotesRaw": [
+        "*\"This case is so bad shit crazy.\"* - Host describing the Rodney Lincoln case.",
+        "Rodney Lincoln to his daughters: *\"I need you to know I didn't do this. I had nothing to do with this.\"*",
+        "Kay Lincoln: *\"You might be finished, but I'm not.\"* -  Regarding the Circuit Attorney's Office closing the review.",
+        "Melissa DeBore's recantation: *\"Rodney Lincoln did not kill my mom. He did not attempt to kill my sister and I. It was Tommy Lin cells... I have kept an innocent man in prison for 34 years.\"*",
+        "Rodney Lincoln to Melissa DeBore: *\"I have nothing to forgive you or you are completely blamed us. I thank you for your courage, but you only have my love, not any anger from me. I'm so sorry for you and for losing your mom.\"*",
+        "Governor to Rodney Lincoln: *\"Rodney, I want you to finish your time building a better community, making this a better country.\"*",
+        "Rodney Lincoln: *\"Just the fact that I could possibly help someone that was the same position that I was in. If I could do something today that makes me a better person or help someone else, it's been a good day.\"*"
+    ],
+    "systemicIssuesRaw": [
+        "Flawed eyewitness identification procedures (suggestive lineups).",
+        "Use of junk science in court (hair microscopy).",
+        "Tunnel vision in investigations, focusing on a suspect early and ignoring contradictory evidence.",
+        "Difficulty in overturning wrongful convictions even with new evidence like DNA and recantations.",
+        "Ineffectiveness of legal representation (potential failure to use exculpatory fingerprint evidence).",
+        "Re-traumatization of victims within the justice system."
+    ],
+    "policyRecommendationsRaw": [
+        "Record eyewitness identification procedures.",
+        "Re-evaluate and restrict the use of forensic methods lacking scientific validity.",
+        "Promote independent review boards for wrongful conviction cases.",
+        "Support organizations fighting for innocence and exonerees.",
+        "Donate to GoFundMe campaigns for Rodney Lincoln and Melissa DeBore (call to action in the podcast)."
+    ],
+    "personalNarrativeRaw": [
+        "Rodney Lincoln endured over 36 years of wrongful imprisonment, describing prison as a \"living nightmare\". Despite this, he expresses forgiveness towards Melissa and focuses on helping others post-release.  His resilience and positive outlook are highlighted, with a focus on making each day count by helping others and enjoying his newfound freedom.",
+        "Melissa DeBore suffered immense trauma as a child, then unknowingly contributed to a wrongful conviction.  Her recantation and meeting with Rodney show her courage and the heavy burden of guilt she carried. Her story underscores the long-lasting impact of crime and flawed justice on victims and the wrongfully accused alike."
+    ],
+    "additionalResourcesRaw": [
+        "Podcast: The Real Killer (12 episode series on the case).",
+        "GoFundMe campaigns for Rodney Lincoln and Melissa DeBore (links in podcast bio).",
+        "Book: \"Junk Science and the American Criminal Justice System\" by M. Chris Fabrikan (mentioned in podcast).",
+        "Midwest Innocence Project.",
+        "Illinois Innocence Project."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Tommy Lynn Sells",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "K. Lincoln",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Governor Greitens",
+                "role_guess": "Governor",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Melissa DeBore",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Difficulty in overturning wrongful convictions even with new evidence like DNA and recantations",
+            "Ineffectiveness of legal representation",
+            "Re-traumatization of victims within the justice system",
+            "Tunnel vision in investigations, focusing on a suspect early and ignoring contradictory evidence."
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Eyewitness misidentification",
+                "Junk Science in court",
+                "Systemic issues in wrongful convictions",
+                "Resilience in the face of injustice",
+                "Advocacy for justice"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

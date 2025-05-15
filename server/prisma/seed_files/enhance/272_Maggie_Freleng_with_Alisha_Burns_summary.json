@@ -1,0 +1,120 @@
+{
+    "sourceFileName": "272_Maggie_Freleng_with_Alisha_Burns_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Maggie Freeling",
+    "mediaItem": {
+        "hosts": "Maggie Freeling",
+        "releaseYear": "2022",
+        "network": "Lava for Good",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, child sex trafficking, coercion, criminalization of victims, foster care system failure.",
+        "keyStats": "- Alicia Burns was 15 when the crime occurred, trafficked by a 32-year-old man.\n- Alicia served 16 years in prison after pleading guilty to second-degree murder.\n- Alicia went through 36 foster care placements between ages 11 and 15.\n- Fingerprints found at the crime scene did not match Alicia, Kazmeric, Tommy, or anyone in the database at the time.\n- Alicia was initially charged as a co-defendant after refusing to testify against her trafficker.",
+        "itemNumber": "272",
+        "itemTitle": "Maggie Freleng with Alisha Burns",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Maggie Freeling\" tells the story of Alicia Burns, who at 15 years old, was a foster child and victim of sex trafficking.  She was manipulated by her trafficker, Stephen Kismeric, into participating in a robbery that resulted in the death of Pedro Villarreal. Despite her being a victim of trafficking and coercion, Alicia was charged as a co-defendant in the murder.  Due to manipulation and a lack of understanding of the legal system, she pleaded guilty to second-degree murder and served 16 years in prison. The podcast highlights systemic failures in the foster care system, the criminalization of trafficking victims, and the long-lasting impact of trauma and manipulation.  Alicia's case is now being re-examined, focusing on evidence suggesting another person may have been involved after Alicia and Kismeric left the scene and the fact that Alicia was a trafficking victim.  Alicia is now working to rebuild her life and advocate for other victims."
+    },
+    "featuredIndividual": {
+        "fullName": "Alicia Burns",
+        "caseLocation": "Las Vegas, Nevada",
+        "convictionYear": "2003",
+        "exonerationYear": "Not yet exonerated (currently appealing)",
+        "crimeConvictedOf": "Second-degree murder",
+        "sentence": "10 years to life",
+        "timeServed": "16 years",
+        "contributingFactorsRaw": [
+            "Victim of child sex trafficking and coercion.",
+            "Stockholm Syndrome/Trauma Bonding.",
+            "Youth and vulnerability due to foster care background and history of abuse and neglect.",
+            "Manipulation by trafficker to plead guilty.",
+            "Initial refusal of DA to see her as a victim, instead threatening co-defendant status."
+        ],
+        "status": "On lifetime parole, currently appealing conviction.",
+        "organizationsInvolvedRaw": [
+            "Project Mona's House (support and advocacy),  Attorney Tony Abitangelo (legal representation)."
+        ],
+        "innocenceLawyersRaw": [
+            "Tony Abitangelo, attorney in Las Vegas, working on Alicia's case for 5-6 years, focusing on inconsistencies in the crime scene evidence and victim status."
+        ],
+        "crossReference": "Not specified in transcript.",
+        "narrativeOriginalCrime": "Stephen Kismeric planned to rob Pedro Villarreal during a paid sexual encounter involving Alicia. The robbery went wrong, and Villarreal died. Alicia was present but claims she did not participate in the killing.",
+        "keyEvidenceProsecutionRaw": [
+            "Alicia was present at the scene and initially charged as a co-defendant. Pleaded guilty to second-degree murder as part of a deal."
+        ],
+        "trialDefenderNotes": "Public defender initially told DA Alicia wouldn't testify against Kismeric.  Details of defense strategy at the time of plea deal are not discussed in the transcript.",
+        "keyEvidenceExonerationRaw": [
+            "Chain on the door from the inside after Alicia and Kismeric left, suggesting someone else entered the apartment.",
+            "Unmatched fingerprints at the crime scene.",
+            "Emerging understanding of sex trafficking and victim criminalization since 2002, arguing Alicia should have been treated as a victim, not a perpetrator."
+        ],
+        "actualPerpetratorDetails": "Stephen Kismeric, Alicia's trafficker, was present and initiated the robbery and physical violence that led to Villarreal's death.  Tommy, an associate of Kismeric, was also present but details of his involvement in the death are not specified beyond being asked to help carry the body and clean up."
+    },
+    "keyQuotesRaw": [
+        "Alicia Burns: \"I was a foster child and I was trafficked when I was 15. My trafficker forced me to participate in a robbery that resulted in a death. And as a result of that, they made me his co-defendant in a murder charge.\"",
+        "Alicia Burns: \"July 1st, 2003 is the day that it became real to me... when that first gate was closed behind us, I just broke.\" (Describing the reality of prison).",
+        "DA's statement: \"well, if you don't want to be his victim, you can be his co-defendant.\" (Illustrating the criminalization of victims).",
+        "Kelly Diane Galluit: \"It is so incredibly hard for me to understand, believe, and even conceive the mindset of the prosecutors who brought charges against her knowing her situation.\" (Critique of the prosecution)."
+    ],
+    "systemicIssuesRaw": [
+        "Failure of the foster care system to protect vulnerable children.",
+        "Criminalization of victims of sex trafficking.",
+        "Lack of understanding of trauma bonding and Stockholm Syndrome in the legal system at the time of Alicia's case.",
+        "Potential for prosecutorial coercion and overcharging in cases involving vulnerable individuals."
+    ],
+    "policyRecommendationsRaw": [
+        "Increased awareness and training for law enforcement and prosecutors on sex trafficking and victim identification.",
+        "Decriminalization of victims of trafficking for crimes committed under coercion.",
+        "Re-evaluation of past cases where trafficking victims may have been wrongfully convicted.",
+        "Support services and trauma-informed approaches for trafficking survivors within the justice system.",
+        "Reform of parole systems, particularly lifetime parole, for victims of trafficking."
+    ],
+    "personalNarrativeRaw": [
+        "Alicia's narrative highlights the devastating impact of childhood trauma, trafficking, and wrongful conviction.  She describes feeling unloved and forgotten, making her vulnerable to manipulation.  Her time in prison led to further loss and trauma, including losing custody of her children.  Despite these hardships, Alicia demonstrates resilience and is now fighting for her exoneration and building a new life, hoping to provide a secure and loving environment for her unborn child and advocating for other victims. Her final thoughts are focused on creating a better future for her child, breaking the cycle of trauma."
+    ],
+    "additionalResourcesRaw": [
+        "Project Mona's House (organization supporting trafficking survivors).",
+        "GoFundMe.com/supportaliciaburns (fundraising for Alicia Burns).",
+        "Pulitzer Prize-winning podcast \"Suave\" (featured next week as related content on juvenile justice and incarceration)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Stephen Kismeric",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Pedro Villarreal",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Kelly Diane Galluit",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "DA",
+                "role_guess": "Prosecutor",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Lack of understanding of trauma bonding and Stockholm Syndrome in the legal system at the time of Alicia's case",
+            "Potential for prosecutorial coercion and overcharging in cases involving vulnerable individuals"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Sex Trafficking",
+                "Criminal Justice Reform",
+                "Foster Care System Failures",
+                "Victim Criminalization"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "sourceFileName": "515_Jason_Flom_with_Allan_Woodhouse_and_Brian_Anderson_summery.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2025",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, false confessions, police misconduct, systemic racism against Indigenous people in the Canadian justice system, post-conviction challenges, the work of innocence organizations.",
+        "keyStats": "-   George Dangerfield: Crown prosecutor responsible for the most wrongful convictions in Canadian history.\n-   False Confessions: Account for 29% of DNA exonerations (general statistic mentioned by host).\n-   Brian Anderson & Alan Woodhouse case involved 4 young Indigenous men convicted based solely on confessions.\n-   All forensic evidence collected (hair, fiber, fingerprints, blood tests) *excluded* the four accused men.",
+        "itemNumber": "515",
+        "itemTitle": "Jason Flom with Allan Woodhouse and Brian Anderson summery",
+        "itemMediaType": "PODCAST_EPISODE"
+    },
+    "featuredIndividual": {
+        "fullName": "Alan Woodhouse",
+        "caseLocation": "Winnipeg, Manitoba, Canada",
+        "convictionYear": "1974 (March 5)",
+        "exonerationYear": "Not Exonerated (Application for ministerial review pending as of podcast recording)",
+        "crimeConvictedOf": "Murder",
+        "sentence": "Life in prison",
+        "timeServed": "17 years (Released on parole in 1990)",
+        "contributingFactorsRaw": [
+            "False Confession (Coerced through physical violence/beating by police, signed statement told it would lead to release)",
+            "Police Misconduct (Targeting Indigenous men, violent interrogation, arrest based on mention in sequentially obtained confession)",
+            "Prosecutorial Misconduct (George Dangerfield proceeding despite lack of evidence beyond confessions, confession inconsistencies)",
+            "Systemic Racism (Targeting based on ethnicity, biased comments by judge)",
+            "Questionable Witness Identification (Initial witness description vague, potentially suggested Indigenous identity by police)",
+            "Judicial Misconduct (Judge interrupted mother's testimony during trial, displayed hostility)",
+            "Confession inconsistency (Statement mentioned stabbing victim in stomach; autopsy showed no such wounds)."
+        ],
+        "status": "Released on parole (since 1990, with parole revoked/reinstated via habeas corpus three times); subject to ongoing parole conditions; Application under Section 696.1 filed in 2020 pending with the Criminal Convictions Review Group (CCRG).",
+        "organizationsInvolvedRaw": [
+            "Innocence Canada (formerly AIDWYC), CCRG (reviewing application)."
+        ],
+        "innocenceLawyersRaw": [
+            "Bobbi-Jo Sody and Jerome Kennedy (Innocence Canada) filed the application in 2020 at the request of the CCRG, supplementary to Brian's. Alan became a \"jailhouse lawyer\" advocating for himself and others while incarcerated."
+        ],
+        "crossReference": "(Requires checking external database - cannot confirm from transcript alone)",
+        "narrativeOriginalCrime": "On July 17, 1973, Ting Fong Chan, a chef and father, was beaten and stabbed to death near a construction site while walking home from his night shift in Winnipeg.",
+        "keyEvidenceProsecutionRaw": [
+            "Alan Woodhouse's alleged confession, obtained after physical beating by police. Confessions of co-accused implicating him. No physical or forensic evidence linking him to the crime."
+        ],
+        "trialDefenderNotes": "Alan's mother attempted to provide alibi testimony but was interrupted and dismissed by the trial judge in a hostile manner before she could fully testify.",
+        "keyEvidenceExonerationRaw": [
+            "Lack of any physical/forensic evidence (all collected evidence excluded him), documented police brutality used to extract confession, confession obtained after sequential implication by co-accused, alibi witness (mother) prevented from fully testifying, confession details contradicted physical evidence (stab wounds described vs. autopsy), systemic issues pointing to bias."
+        ],
+        "actualPerpetratorDetails": "Not mentioned or identified in the transcript.\n\n---\n\n*(Note: Clarence Woodhouse and Russell Woodhouse were also wrongfully convicted in the same case but are not featured guests on the podcast episode)*",
+        "clarence_woodhouse": "Convicted of murder, sentenced to life.",
+        "russell_woodhouse": "Convicted of manslaughter, sentenced to 10 years. Both implicated through the same sequential, coerced confession process."
+    },
+    "keyQuotesRaw": [
+        "Bobbi-Jo Sody: \"We started off knowing that this was a 1973 case. It involved the Winnipeg police service for young indigenous men and George Dangerfield. And as far as Innocence Canada was concerned, that is a recipe for wrongful conviction.\"",
+        "Bobbi-Jo Sody on the confessions: \"All four of the confessions... start off with the exact same sentence. All four of them say on Monday night, I was.\"",
+        "Alan Woodhouse on interrogation: \"They were really rough. I mean, they were, they're hitting me. I mean, I was all bloody. So after about four hours, they wrote up the statement, told me to sign it. And then you can go. So I signed it... After they signed it, they called me.\"",
+        "Brian Anderson on signing confession: \"They got me to sign a piece of paper, which I did. And I didn't know that was the confession... What they do is they make you empty your pockets and then they put stuff aside and you have to sign for them. And that's what I thought it was.\"",
+        "Alan Woodhouse on confession inaccuracy: \"The statement said that I had stabbed this person in the stomach a couple of times but there was no stab wounds in the stomach at all.\"",
+        "Trial Judge sentencing comments (quoted by Bobbi-Jo): \"This is not a jungle where we live... We are not still taking it from wild people.\"",
+        "Brian Anderson on initial thoughts in prison: \"I thought it was just do away with myself, kill myself... I thought hey I can't be doing this. I'll be helping those buggers. That's what they're trying to do to me. They're trying to kill me. Then I promised myself that I would keep going and I'm still here.\"",
+        "Alan Woodhouse on parole decision: \"...they said you know he said we can't base our decision based on what you say. We have to base our decision based on the fact that you were convicted even if you are innocent.\"",
+        "Brian Anderson on parole officer: \"He told me he was an ex cop. He was really after me like any little thing... And then he had said well like you know what we say and what the courts say are two different things. Don't bet on it he told me.\"",
+        "Alan Woodhouse's final thought: \"Please be aware that there's a lot of injustice in this world and it's people that we always think it'll never happen to me but it does happen...\""
+    ],
+    "systemicIssuesRaw": [
+        "Systemic racism against Indigenous populations in the Canadian justice system (police targeting, judicial bias).",
+        "Police misconduct (coercive interrogation tactics, physical abuse, potentially fabricating sequential confessions, ignoring contradictory evidence/alibis).",
+        "False confessions (highlighting vulnerability due to language barriers, coercion, youth).",
+        "Prosecutorial misconduct (proceeding with weak cases based only on tainted confessions, notorious prosecutor involved).",
+        "Unreliability of certain forensic \"sciences\" (though in this case, even junk science excluded them).",
+        "Issues with judicial impartiality (judge's biased comments, interrupting defense witness).",
+        "Ineffective assistance of counsel.",
+        "Difficulties and injustices within the parole system (denial based on maintaining innocence, frequent revocations, racist parole officers, ongoing restrictions amounting to \"prison outside prison\").",
+        "Extreme delays in the post-conviction review process (50 years and still waiting for ministerial decision)."
+    ],
+    "policyRecommendationsRaw": [
+        "Support local and national innocence organizations (specifically mentions Innocence Canada). Financial contributions help provide resources needed to investigate cases.",
+        "Pay attention to and support policy matters related to wrongful convictions and criminal justice reform when opportunities arise.",
+        "Implicit call for faster, more effective post-conviction review mechanisms in Canada.",
+        "Implicit call for accountability for police and prosecutorial misconduct.",
+        "Implicit call for addressing systemic racism within the justice system."
+    ],
+    "personalNarrativeRaw": [
+        "Both Brian and Alan described the shock and disbelief of being convicted for a crime they didn't commit.",
+        "Brian contemplated suicide early in his sentence but resolved to survive and fight.",
+        "Alan found support from his co-accused in prison and became active in the Native Brotherhood and as a jailhouse lawyer, adopting a philosophy of \"letting the time serve you\" rather than just serving time.",
+        "Both pursued education and skills training in prison.",
+        "They detailed the immense difficulties of life on parole, including biased and hostile parole officers, multiple revocations (Alan used habeas corpus successfully three times), constant fear of re-incarceration, and restrictive conditions limiting freedom (\"leash,\" \"radius\").",
+        "They expressed frustration with the ongoing lack of freedom and control over their own lives, even decades after release.",
+        "The final thoughts emphasized the enduring psychological stress and drain of the unresolved injustice, the urgent need for a final decision to clear their names, and a warning to listeners that wrongful conviction can happen to anyone."
+    ],
+    "additionalResourcesRaw": [
+        "CTV News story: \"The Anderson Confession\" (aired sometime after 1982, related to Brian Anderson's case).",
+        "Innocence Canada (website likely linkable via show notes, mentioned as the primary organization).",
+        "Criminal Convictions Review Group (CCRG) of the Canadian Ministry of Justice (involved in the current review)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "George Dangerfield",
+                "role_guess": "Prosecutor",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Brian Anderson",
+                "role_guess": "Wrongfully Convicted",
+                "is_likely_wc_suggestion": true
+            },
+            {
+                "name": "Trial Judge",
+                "role_guess": "Judge",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Parole Officer",
+                "role_guess": "Parole Officer",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [
+            "Winnipeg police service"
+        ],
+        "llm_extracted_factors": [
+            "False confessions",
+            "Prosecutorial misconduct",
+            "Systemic racism",
+            "Judicial misconduct",
+            "Parole system issues",
+            "Police misconduct"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Police Misconduct",
+                "Injustice in the Canadian Justice System",
+                "Systemic Racism"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

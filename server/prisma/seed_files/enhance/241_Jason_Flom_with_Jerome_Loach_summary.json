@@ -1,0 +1,124 @@
+{
+    "sourceFileName": "241_Jason_Flom_with_Jerome_Loach_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2022",
+        "network": "lava for good podcasts and association with signal company number one.",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "investigative journalism, wrongful convictions, criminal justice system",
+        "keyStats": "Fabricated phone records used to convict; alibi witnesses ignored; ineffective counsel; prosecutorial misconduct.",
+        "itemNumber": "241",
+        "itemTitle": "Jason Flom with Jerome Loach",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features the story of Jerome Loach, wrongfully convicted in Philadelphia for a home invasion he did not commit.  Despite having a strong alibi of performing in a church play with over 100 witnesses, and the recantation of the co-defendant who initially implicated him under police pressure, Loach was convicted based on fabricated phone records presented by the prosecution.  His defense attorneys failed to present his alibi effectively and expose the fraudulent evidence.  After serving a decade in prison, Loach fought for his exoneration by uncovering the truth about the fabricated phone records himself, ultimately leading to his release and the dismissal of charges due to ineffective counsel and prosecutorial misconduct.  He is now seeking compensation for the injustice he suffered. The episode highlights the dangers of police coercion, prosecutorial misconduct, and ineffective legal counsel within the criminal justice system."
+    },
+    "featuredIndividual": {
+        "fullName": "Jerome Loach",
+        "caseLocation": "West Philadelphia, Pennsylvania, USA",
+        "convictionYear": "2011",
+        "exonerationYear": "2021",
+        "crimeConvictedOf": "Criminal Conspiracy (related to robbery, burglary, false imprisonment, terroristic threats, attempted theft - though acquitted on most charges, convicted of conspiracy)",
+        "sentence": "25 to 50 years",
+        "timeServed": "10 years",
+        "contributingFactorsRaw": [
+            "False accusation/identification by co-defendant under police pressure",
+            "Fabricated phone records presented by prosecution",
+            "Ineffective assistance of counsel (failure to present alibi and expose fake evidence)",
+            "Prosecutorial misconduct (using fabricated evidence, withholding exculpatory evidence)"
+        ],
+        "status": "Exonerated, charges dismissed",
+        "organizationsInvolvedRaw": [
+            "Not explicitly mentioned in transcript."
+        ],
+        "innocenceLawyersRaw": [
+            "Michael Pileggi - represented Jerome Loach after initial appeals and helped present evidence at the evidentiary hearing leading to vacated conviction."
+        ],
+        "crossReference": "Not specified if in exoneree database in transcript.",
+        "narrativeOriginalCrime": "Two men invaded a home with three women present, pretending to be pizza delivery. They asked for a boyfriend who was not there, and left without stealing anything or hurting anyone, almost apologetically. One victim mentioned a possible third man involved.",
+        "keyEvidenceProsecutionRaw": [
+            "Co-defendant Sophie Bat's (Fett) statement implicating Jerome Loach as the third man involved in planning and execution of the home invasion, claiming Loach was his employer and pressured him into it.",
+            "Fabricated phone records presented by Detective Ted Kelloix showing 25 calls and a text message between Higgins' phone and Loach's wife's phone around the time of the crime, suggesting coordination."
+        ],
+        "trialDefenderNotes": "-   First attorney failed to investigate alibi or give notice to court.\n-   Second attorney claimed inability to present alibi due to first attorney's error.\n-   Failed to effectively challenge the fabricated phone records.",
+        "keyEvidenceExonerationRaw": [
+            "Jerome Loach himself subpoenaed phone records from Sprint and AT&T, revealing that the phone attributed to Higgins was not his, and the records presented at trial were fabricated.",
+            "Sophie Bat recanted his accusation prior to trial, stating he lied under police pressure, and testified to this at trial.",
+            "Strong alibi with over 100 witnesses and playbill evidence placing Loach at a church play at the time of the crime.",
+            "Judge Tracy Roman Brandeis vacated conviction due to ineffective counsel and prosecutorial misconduct (Brady violation - withholding accurate phone records).",
+            "Prosecutors admitted insufficient evidence for retrial and dismissed charges."
+        ],
+        "actualPerpetratorDetails": "Jesse Higgins and Sophie Bat (Fett) were identified and arrested at the scene. Transcript does not discuss other potential perpetrators beyond these two for the home invasion itself."
+    },
+    "keyQuotesRaw": [
+        "Jason Flom: \"Today's episode would actually be better as a comedy if it wasn't so incredibly sinister and if the consequences weren't so terrible of this ridiculous frame job.\"",
+        "Jerome Loach describing his sentence: \"My soul was stripped when they gave me 50 years. I couldn't believe this. I said, I know my life ain't going in like this. Is y'all kidding me? Like wake me up. Is this a nightmare?\"",
+        "Jerome Loach on phone records: \"Phone records is so very important and if you don't understand how this goes, you need to start learning about phone records. They can be manipulated, they can be altered, changed. You got to make sure that when going in that courtroom, when a DA or your lawyer or whoever it is, talk about phone records, they have to authenticate those phone records.\""
+    ],
+    "systemicIssuesRaw": [
+        "Prosecutorial misconduct: Fabrication of evidence (phone records), withholding exculpatory evidence (actual phone records).",
+        "Police coercion and pressure leading to false accusations.",
+        "Ineffective assistance of counsel: Failure to investigate and present strong alibi, failure to challenge fraudulent evidence.",
+        "Overzealous prosecution to appear \"tough on crime\" (Seth Williams' motivation mentioned).",
+        "Lack of accountability for misconduct."
+    ],
+    "policyRecommendationsRaw": [
+        "Emphasis on verifying and authenticating phone records and digital evidence in court.",
+        "Need for better training and oversight for law enforcement and prosecutors regarding ethical conduct and evidence handling.",
+        "Importance of competent and effective legal representation for all defendants, especially in ensuring alibi defenses are properly investigated and presented.",
+        "Support for organizations fighting wrongful convictions.",
+        "Donations to Jerome Loach's GoFundMe to help him rebuild his life."
+    ],
+    "personalNarrativeRaw": [
+        "Jerome Loach experienced immense psychological and physical trauma during his decade of wrongful incarceration, including PTSD, severe anemia, and suicidal ideation.",
+        "He lost his business, finances, and time with family.",
+        "Despite the ordeal, he demonstrated resilience and fought for his own exoneration through self-education and legal efforts within prison.",
+        "His closing remarks emphasize the importance of understanding phone records in legal cases, highlighting his personal learning and advocacy from his experience."
+    ],
+    "additionalResourcesRaw": [
+        "GoFundMe link for Jerome Loach (mentioned in episode and to be included in episode bio).",
+        "Instagram: @wrongfulconviction",
+        "Facebook: wrongful conviction podcast",
+        "Twitter: @wrongconviction & @lavaforgood",
+        "TikTok & Instagram: @itsjasonflom"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Seth Williams",
+                "role_guess": "Prosecutor",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Co-defendant",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Defense attorneys",
+                "role_guess": "Lawyer",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Police coercion",
+            "Prosecutorial misconduct",
+            "Ineffective legal counsel"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Criminal Justice System Failures",
+                "Police Misconduct",
+                "Prosecutorial Misconduct",
+                "Ineffective Counsel",
+                "Fabricated Evidence"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

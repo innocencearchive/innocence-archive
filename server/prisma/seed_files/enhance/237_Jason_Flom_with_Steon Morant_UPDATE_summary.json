@@ -1,0 +1,111 @@
+{
+    "sourceFileName": "237_Jason_Flom_with_Steon Morant_UPDATE_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2021",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system, police misconduct, false confessions, incentivized witnesses.",
+        "keyStats": "- Stephon Morant and Scott Lewis served over 20 years for a crime they didn't commit.\n- Detective Vincent Rauchy is implicated in framing multiple individuals.\n- False confession and incentivized witness testimony were key factors in the wrongful conviction.\n- An FBI investigation and law students from Yale and Columbia University played a role in uncovering the truth.\n- Judge Charles Haight ruled that the prosecution withheld evidence regarding the key witness's initial denials of knowledge about the murders.\n- Stephon Morant received an absolute pardon in 2021.",
+        "itemNumber": "237",
+        "itemTitle": "Jason Flom with Steon Morant UPDATE",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction recounts the harrowing story of Stephon Morant, wrongfully convicted alongside his friend Scott Lewis for a double homicide in New Haven, Connecticut in 1990.  The narrative details how corrupt Detective Vincent Rauchy, at the behest of drug kingpin Frank Parisi, coerced Morant into a false confession and incentivized a mentally ill witness, Ovil Ruiz, to fabricate testimony implicating Morant and Lewis. Despite recanting his false statement quickly, Morant was convicted and sentenced to 70 years.  The podcast highlights the systemic failures, including ineffective defense counsel and prosecutorial misconduct, that perpetuated this injustice for over two decades.  Ultimately, through the efforts of law students, an FBI investigation, and the intervention of Detective Sweeney, who came forward with crucial information, Morant and Lewis's case was re-examined. Stephon Morant was eventually granted an absolute pardon, marking the end of a long fight for freedom and justice. The episode underscores themes of resilience, faith, and the ongoing struggle for exonerees to rebuild their lives after wrongful imprisonment."
+    },
+    "featuredIndividual": {
+        "fullName": "Scott Lewis",
+        "caseLocation": "New Haven, Connecticut, USA",
+        "convictionYear": "1994 (implied, same trial period as Morant)",
+        "exonerationYear": "2016 (mentioned as exonerated after initial release in 2014)",
+        "crimeConvictedOf": "Felony Murder (double homicide of Ricardo Turner and Lamont Fields)",
+        "sentence": "70 years (same as Morant)",
+        "timeServed": "20+ years",
+        "contributingFactorsRaw": [
+            "Incentivized witness testimony, police misconduct (Detective Rauchy), ineffective defense counsel."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Yale Law School students and Professor Brett Dignum, Columbia Law School students, FBI."
+        ],
+        "innocenceLawyersRaw": [
+            "Brett Dignum and law students from Yale and Columbia. Richard Emmanuel (mentioned alongside Brett Dignum)."
+        ],
+        "crossReference": "Not specified in transcript if in exoneree database, but highly likely.",
+        "narrativeOriginalCrime": "Same as Stephon Morant - double homicide of Ricardo Turner and Lamont Fields.",
+        "keyEvidenceProsecutionRaw": [
+            "Incentivized testimony from Ovil Ruiz claiming Morant and Lewis committed the murders."
+        ],
+        "trialDefenderNotes": "Not detailed in transcript, but implied to be insufficient as he was also convicted.",
+        "keyEvidenceExonerationRaw": [
+            "Judge Haight's ruling on withheld evidence (Ovil Ruiz's initial denials). FBI investigation."
+        ],
+        "actualPerpetratorDetails": "Unknown, not identified in the transcript. Mention of \"other suspects\" but no further details."
+    },
+    "keyQuotesRaw": [
+        "\"Rauchy pressured Stephon Morant to implicate Scott Lewis in a murder he knew nothing about, a false statement that Stephon recanted the very next day.\"",
+        "\"Detective Vincent Rauchy is believed to have pinned this double homicide on Scott Lewis at Frank Parisi's request.\"",
+        "\"I was just one of the reasons why we do this show because we want to tell people what to do. If they got forbidden, I've been a situation like yours.\" (Host, Jason Flom, highlighting the educational purpose of the podcast)",
+        "\"Son, you'll be all right... I got down on my knees and that bullpen and I prayed, and that was my peace. That was my sanctuary. That was my sanity.\" (Stephon Morant, describing his faith in prison)",
+        "\"A bunch of bricks, everything just fell off my shoulders. It was like, I'm free, you know...\" (Stephon Morant, describing the moment he received his absolute pardon)."
+    ],
+    "systemicIssuesRaw": [
+        "Police misconduct and corruption (Detective Rauchy framing individuals).",
+        "False confessions due to coercive interrogation tactics.",
+        "Use of incentivized and unreliable witnesses (Ovil Ruiz).",
+        "Prosecutorial misconduct (withholding evidence).",
+        "Ineffective assistance of counsel (original trial lawyers).",
+        "Difficulties in overturning wrongful convictions even with evidence of innocence."
+    ],
+    "policyRecommendationsRaw": [
+        "Call to action for listeners to serve on juries to help prevent wrongful convictions.",
+        "Implied need for criminal justice reform to address police misconduct, false confessions, and unreliable witness testimony.",
+        "Highlighting the importance of pro bono legal services and organizations fighting for justice."
+    ],
+    "personalNarrativeRaw": [
+        "Stephon Morant emphasizes the importance of faith and family support during his 21 years of wrongful imprisonment.",
+        "He describes the emotional toll of being separated from his children and the challenges in rebuilding relationships after release.",
+        "He expresses a desire to help others and is now working in halfway houses and mental health care.",
+        "The fear of re-incarceration and the constant need to document his whereabouts highlights the lasting psychological impact of wrongful conviction.",
+        "Stephon's positive attitude and resilience despite his ordeal are emphasized throughout the episode, showcasing his remarkable spirit."
+    ],
+    "additionalResourcesRaw": [
+        "Mention of exoneree databases (implied as a resource for further information on wrongful convictions).",
+        "AIG and Accenture's pro bono legal programs are mentioned as supporting criminal justice reform.",
+        "Yale and Columbia Law School clinics/programs working on wrongful conviction cases."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Ovil Ruiz",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Frank Parisi",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Detective Sweeney",
+                "role_guess": "Police Officer",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Difficulties in overturning wrongful convictions even with evidence of innocence"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": "case of Stephon Morant",
+            "related_themes": [
+                "resilience",
+                "faith",
+                "ongoing struggle for exonerees to rebuild their lives"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

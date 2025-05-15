@@ -1,0 +1,121 @@
+{
+    "sourceFileName": "131_False_Confessions_David_McCallum_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction: False Confessions",
+    "mediaItem": {
+        "hosts": "Laura Nirider, Steve Drizin",
+        "releaseYear": "2020",
+        "network": "Lava for Good podcasts, Signal Company No. 1",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "False confessions, wrongful convictions, legal battles for exoneration, systemic issues in the justice system.",
+        "keyStats": "-   David McCallum and Willie Stuckey were wrongfully convicted in 1986 based solely on confessions.\n-   DNA evidence from cigarette butts and fingerprints found in the victim's car excluded both McCallum and Stuckey.\n-   Reuben Hurricane Carter and DA Ken Thompson played crucial roles in McCallum's exoneration.\n-   McCallum served over 28 years in prison.\n-   Willie Stuckey died in prison in 2001.\n-   Ken Thompson exonerated 13-14 people as Brooklyn DA before his death.",
+        "itemNumber": "131",
+        "itemTitle": "False Confessions David McCallum",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction: False Confessions tells the story of David McCallum and Willie Stuckey, two teenagers wrongfully convicted of murder in 1986 based on coerced confessions.  Despite inconsistencies in their confessions and lack of other evidence, they were convicted and sentenced to 25 years to life.  The episode details David's decades-long fight for exoneration, aided by famous exoneree Reuben Hurricane Carter and lawyer Steve Drizin.  New DNA evidence and the efforts of reform-minded Brooklyn District Attorney Ken Thompson ultimately led to David's exoneration in 2014 and a posthumous exoneration for Willie Stuckey. The episode highlights the devastating impact of false confessions, the importance of conviction review units, and the power of perseverance and dedicated advocacy in the fight for justice.  The story emphasizes the grace and humanity shown by DA Thompson's office during David's release, contrasting with typical exoneration processes."
+    },
+    "featuredIndividual": {
+        "fullName": "Willie Stuckey",
+        "caseLocation": "Brooklyn, New York, USA",
+        "convictionYear": "1986",
+        "exonerationYear": "2014 (posthumous)",
+        "crimeConvictedOf": "Murder of Nathan Blender",
+        "sentence": "25 years to life",
+        "timeServed": "Died in prison in 2001 (approximately 15 years served)",
+        "contributingFactorsRaw": [
+            "False confession, ineffective counsel (implied)"
+        ],
+        "status": "Posthumously Exonerated",
+        "organizationsInvolvedRaw": [
+            "Center on Wrongful Convictions, Brooklyn DA's Conviction Review Unit"
+        ],
+        "innocenceLawyersRaw": [
+            "Same as David McCallum - Steve Drizin, Laura Cohen, Oscar Michelin"
+        ],
+        "crossReference": "Yes (exoneree database implied)",
+        "narrativeOriginalCrime": "Same as David McCallum - Murder of Nathan Blender during carjacking/kidnapping.",
+        "keyEvidenceProsecutionRaw": [
+            "Confessions of David McCallum and Willie Stuckey."
+        ],
+        "trialDefenderNotes": "Not detailed in the transcript, but implied to be inadequate.",
+        "keyEvidenceExonerationRaw": [
+            "Same as David McCallum - DNA and fingerprint evidence, false-fed fact, Reuben Carter's advocacy, Ken Thompson's review."
+        ],
+        "actualPerpetratorDetails": "Not identified in the transcript."
+    },
+    "keyQuotesRaw": [
+        "\"It was a look like, am I doing okay? Am I telling the story the way the story needs to be told? And I remember freeze framing that one frame of terror. And that suggested to me that what David was saying in terms of getting hit was probably true.\" - Steve Drizin, on David McCallum's confession tape.",
+        "\"My single regret in life is that David McCallum is still in prison.\" - Reuben Hurricane Carter's op-ed.",
+        "\"I've inherited a legacy of disgrace with respect to wrongful convictions. And at that moment, you knew his intention to change things, to write everything was going to be realized.\" - Host, on DA Ken Thompson's press conference.",
+        "\"Mr. Thompson didn't only give me my freedom. Mr. Thompson... gave me my father, old daughter, Quinn. Because he did what he promised he would do, I'm not sure who I would be right now.\" - David McCallum, at Ken Thompson's memorial."
+    ],
+    "systemicIssuesRaw": [
+        "False confessions, particularly from juveniles under coercive interrogation tactics.",
+        "Lack of recording of interrogations.",
+        "\"False-fed facts\" as indicators of coerced confessions.",
+        "Ineffective defense representation in the original trial.",
+        "Racial bias in the justice system (implied by descriptions of suspects and focus on young black men).",
+        "Difficulty in overturning wrongful convictions, even with new evidence."
+    ],
+    "policyRecommendationsRaw": [
+        "Recording of all interrogations.",
+        "Importance of conviction review units within DA's offices.",
+        "Need for thorough investigation of potential wrongful convictions.",
+        "Highlighting the need for compassion and humanity in the justice system, particularly during exonerations."
+    ],
+    "personalNarrativeRaw": [
+        "David McCallum's transformation in prison and his enduring hope for freedom. His joy and focus on family after exoneration.",
+        "Willie Stuckey's tragic death in prison while maintaining innocence. The emotional impact on his mother and posthumous vindication.",
+        "Reuben Hurricane Carter's dedication to fighting for the wrongfully convicted after his own exoneration, and his crucial role in David's case.",
+        "Ken Thompson's commitment to justice and reform as DA, and the profound impact of his actions on David's life and the broader issue of wrongful convictions."
+    ],
+    "additionalResourcesRaw": [
+        "Bob Dylan's song \"Hurricane\" about Reuben Carter.",
+        "Innocence International (Reuben Carter's organization).",
+        "Center on Wrongful Convictions (Northwestern University).",
+        "Wrongfulconvictionpodcast.com (podcast website).",
+        "Social media accounts for the podcast and hosts (Instagram, Twitter, Facebook)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Reuben Hurricane Carter",
+                "role_guess": "Activist",
+                "is_likely_wc_suggestion": true
+            },
+            {
+                "name": "Ken Thompson",
+                "role_guess": "District Attorney",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Quinn",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [
+            "Brooklyn District Attorney's office"
+        ],
+        "llm_extracted_factors": [
+            "Racial bias in the justice system",
+            "Lack of recording of interrogations",
+            "Ineffective defense representation"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "False confessions",
+                "Exoneration",
+                "Advocacy"
+            ],
+            "mentions_other_media": [
+                {
+                    "title": "op-ed",
+                    "type_guess": "article"
+                }
+            ]
+        }
+    }
+}

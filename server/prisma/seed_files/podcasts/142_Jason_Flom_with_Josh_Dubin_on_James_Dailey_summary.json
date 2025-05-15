@@ -1,0 +1,119 @@
+{
+    "sourceFileName": "142_Jason_Flom_with_Josh_Dubin_on_James_Dailey_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2020",
+        "network": "Lava for Good Podcasts, in association with signal company number one.",
+        "seriesType": "Episodic Series (based on the format and focus on a single case per episode)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Jailhouse Snitches, Junk Science, Legal System Issues.",
+        "keyStats": "- Florida has more death row exonerations than any other state in the country.\n- James Daly is potentially the 100th person to be executed by Florida or the 30th exonerated from death row.",
+        "itemNumber": "142",
+        "itemTitle": "Jason Flom with Josh Dubin on James Dailey",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction with Jason Flom features the case of James Daly, who was wrongfully convicted and sentenced to death in Florida for the 1985 murder of Shelly Bojillo. Daly's attorney, Josh Dubin, details how Daly's roommate, Jack Percy, initially implicated Daly but later confessed multiple times to committing the crime alone. Despite Percy's confessions and new evidence placing Percy alone with the victim during the time of death, the Florida courts have denied motions for a hearing. The episode highlights the use of a jailhouse snitch, Paul Scownick, whose fabricated testimony contributed to Daly's conviction, and criticizes the systemic issues within the Florida justice system that perpetuate wrongful convictions and ignore exculpatory evidence.  A call to action is made for listeners to sign a petition urging the governor to grant clemency to James Daly."
+    },
+    "featuredIndividual": {
+        "fullName": "James Daly",
+        "caseLocation": "Florida",
+        "convictionYear": "1987",
+        "exonerationYear": "Not yet exonerated",
+        "crimeConvictedOf": "Murder of Shelly Bojillo",
+        "sentence": "Death Row",
+        "timeServed": "Over 30 years (as of podcast release)",
+        "contributingFactorsRaw": [
+            "False Implication by Co-defendant (Jack Percy)",
+            "Jailhouse Snitch Testimony (Paul Scownick)",
+            "Wet Pants Misinterpretation"
+        ],
+        "status": "Wrongfully Convicted, on Death Row, seeking clemency and further legal review.",
+        "organizationsInvolvedRaw": [
+            "Innocence Project (through attorney Josh Dubin)"
+        ],
+        "innocenceLawyersRaw": [
+            "Josh Dubin is James Daly's attorney. He is described as pro bono counsel of great repute for the Innocence Project and a jury selection expert. He has worked on numerous wrongful conviction cases."
+        ],
+        "crossReference": "Appears in exoneree database (likely, given Innocence Project involvement, but not explicitly stated in transcript)",
+        "narrativeOriginalCrime": "14-year-old Shelly Bojillo was found choked, stabbed over 30 times, and drowned in the Florida Intercoastal Waterway on May 5th, 1985.",
+        "keyEvidenceProsecutionRaw": [
+            "Jack Percy's initial testimony implicating James Daly.",
+            "Testimony of jailhouse snitch, Paul Scownick, claiming Daly confessed to him.",
+            "Circumstantial evidence of James Daly's wet pants, interpreted as being related to the drowning."
+        ],
+        "trialDefenderNotes": "Not detailed in the transcript, but implied to be ineffective given the wrongful conviction. The focus of the podcast is on the post-conviction efforts.",
+        "keyEvidenceExonerationRaw": [
+            "Multiple confessions from Jack Percy admitting sole responsibility for the murder.",
+            "Jack Percy's deposition testimony placing himself alone with Shelly Bojillo during the established time frame of death, contradicting his previous statements and aligning with phone record evidence.",
+            "Evidence discrediting jailhouse snitch Paul Scownick as a known liar and incentivized witness."
+        ],
+        "actualPerpetratorDetails": "Jack Percy, roommate of James Daly, has confessed to the crime multiple times. He had a violent criminal past and initially implicated James Daly to shift blame."
+    },
+    "keyQuotesRaw": [
+        "Josh Dubin: \"It's really not about me. It's about the victim, Shelly Bojio, her family's fight for justice and closure and clearly innocent man that's been sitting on death row for more than three decades for a crime that has co-defendant is admitted he committed on his own. So yeah, it's troubling to say the least.\"",
+        "Josh Dubin (quoting Jack Percy): \"well, who admits to committing murder on their own? He said, I was trying to get the attention off of me.\"",
+        "Jason Flom: \"So Jack Piercy finally gave an admission that he couldn't wiggle out of. However, the court then won't allow it to be admitted as evidence, which is just fucking insane.\"",
+        "Josh Dubin: \"That is the truth catching up to the lie. That is the very first time Jack Piercey had ever under oath put himself square in the time frame that this murder is committed between 1 30 and 3 30 alone with the victim. And this should have been earth shattering to the courts. It certainly was earth shattering to me.\"",
+        "Josh Dubin's closing argument excerpt read at the end of the episode."
+    ],
+    "systemicIssuesRaw": [
+        "Use of unreliable jailhouse informants/snitches.",
+        "The Florida justice system's resistance to reconsidering cases even with compelling new evidence.",
+        "Legal technicalities preventing the admission of crucial evidence.",
+        "Potential flaws in the clemency process in Florida for death penalty prisoners.",
+        "Acceptance of \"junk science\" in forensic disciplines in courts."
+    ],
+    "policyRecommendationsRaw": [
+        "Sign the petition to the governor's office for clemency for James Daly.",
+        "Support the Innocence Project.",
+        "Increase awareness about wrongful convictions and systemic issues.",
+        "Scrutinize forensic evidence and expert testimony in jury duty."
+    ],
+    "personalNarrativeRaw": [
+        "James Daly has spent over 30 years on death row for a crime he did not commit, facing the constant threat of execution.",
+        "The case has taken a heavy emotional toll on Josh Dubin, highlighting the personal investment and frustration of innocence lawyers.",
+        "The Bojio family is also seeking justice and closure, which is hindered by the wrongful conviction and the possibility of executing an innocent man."
+    ],
+    "additionalResourcesRaw": [
+        "ProPublica/New York Times investigative piece by Pamela Coloff about jailhouse snitches in James Daly's case.",
+        "Innocence Project website (InnocenceProject.org).",
+        "Petition link in episode description (not provided in transcript, but mentioned).",
+        "Wrongful Conviction: Junk Science podcast series hosted by Josh Dubin (upcoming)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Shelly Bojillo",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Jack Percy",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Paul Scownick",
+                "role_guess": "Witness",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "The Governor",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": "case of James Daly",
+            "related_themes": [
+                "Wrongful Conviction",
+                "Justice System Failures",
+                "Exoneration"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

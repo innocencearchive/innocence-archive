@@ -1,0 +1,126 @@
+{
+    "sourceFileName": "065_Jason_Flom_with_Kerry_Porter_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2018",
+        "network": "Lava for Good Podcasts in association with Sate Though Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Convictions, criminal justice system failures, exoneree stories.",
+        "keyStats": "-   In Louisville in 1996, there were 68 murders.\n-   Kerry Porter served 14 years for a crime he did not commit.\n-   Estimate of 6% of people in US prisons are innocent (mentioned indirectly, as \"latest estimate\").",
+        "itemNumber": "065",
+        "itemTitle": "Jason Flom with Kerry Porter",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Kerry Porter, a man wrongfully convicted of murder in Louisville, Kentucky, and imprisoned for 14 years.  The episode unravels the complex case involving insurance fraud, mistaken witness identification, perjury, and a jailhouse snitch.  Porter describes the systemic failures, including police focusing on him despite clear alternative suspects and motivations connected to insurance money and other crimes.  The podcast highlights the devastating impact of wrongful conviction on Porter's life, including lost time with his son, and his eventual exoneration through the efforts of the Kentucky Innocence Project and new DNA evidence, coupled with the exposure of a fabricated jailhouse confession related to a false Baywatch detail.  Porter emphasizes the broken justice system and the urgent need for reform to prevent similar tragedies, while also showcasing his resilience and advocacy for others."
+    },
+    "featuredIndividual": {
+        "fullName": "Kerry Porter",
+        "caseLocation": "Louisville, Kentucky, USA",
+        "convictionYear": "1998 (trial began August 25, 1998, indicted February 20, 1997)",
+        "exonerationYear": "2012 (released December 19th, after approximately 14 years)",
+        "crimeConvictedOf": "1996 Murder of Tyrone Camp",
+        "sentence": "Not explicitly stated in transcript, but implied to be a lengthy sentence, referred to as \"60 years so basically life sentence.\"",
+        "timeServed": "14 years",
+        "contributingFactorsRaw": [
+            "Mistaken Witness Identification: Kenneth Brown initially unsure, later identified Porter.",
+            "Jailhouse Snitch: Greg Gully provided fabricated testimony.",
+            "Focus on weak motive: Jealousy over ex-girlfriend and son, based on a 5-year-old incident.",
+            "Police tunnel vision: Ignoring stronger leads and evidence pointing to other suspects.",
+            "Ineffective Trial Defense: Lawyer did not call all requested witnesses, alibi was mishandled due to family misunderstanding."
+        ],
+        "status": "Exonerated",
+        "organizationsInvolvedRaw": [
+            "Kentucky Innocence Project"
+        ],
+        "innocenceLawyersRaw": [
+            "Melanie Lowe, Gordon Raasch, Linda Smith, Alex Matthews (UK student), Danny Butler (Detective Co-case) -  Worked with Kentucky Innocence Project to secure exoneration."
+        ],
+        "crossReference": "Not explicitly stated whether he appears in exoneree database in the transcript.",
+        "narrativeOriginalCrime": "Tyrone Camp was murdered on December 27, 1996, at an active transportation company lot. He was in a relationship with Kerry Porter's ex-girlfriend, Cecilia Sanders, and was raising Porter's son.",
+        "keyEvidenceProsecutionRaw": [
+            "Eyewitness testimony from Kenneth Brown (later recanted/unsure).",
+            "Jailhouse snitch testimony from Greg Gully, claiming Porter confessed to the murder while watching Baywatch.",
+            "Alleged motive of jealousy due to Tyrone Camp's relationship with Cecilia Sanders and raising Porter's son, based on a past incident of Porter trashing Sanders' apartment in 1991."
+        ],
+        "trialDefenderNotes": "-   Alibi was presented but weakened by a misunderstanding from Porter's niece about the exact time.\n-   Lawyer did not call all witnesses Porter wanted.",
+        "keyEvidenceExonerationRaw": [
+            "DNA evidence from duct tape on a homemade silencer found at the crime scene, which did not match Kerry Porter's DNA.",
+            "Exposure of Greg Gully's false testimony, including the fabricated \"Baywatch confession\" detail that was proven false (Baywatch episode detail was incorrect).",
+            "Recantation or weakening of Kenneth Brown's identification.",
+            "Confession/information from Francois Cunningham (France Quire), who implicated Juan Sanders and Cecilia Sanders in setting up Porter and knowing about the crime, and revealed Juan Sanders offered him money to kill Porter."
+        ],
+        "actualPerpetratorDetails": "-   Not definitively named as convicted in the transcript, but strong implication towards Cecilia Sanders and Juan Sanders based on:\n-   Insurance money motive (Cecilia Sanders and Juan Sanders allegedly received a large sum of insurance money after Tyrone Camp's death).\n-   Cecilia Sanders' involvement as getaway driver in a later murder (Hemlock murder, June 13, 1997).\n-   Francois Cunningham's (France Quire) testimony implicating Juan Sanders in offering money to kill Tyrone Camp and framing Kerry Porter."
+    },
+    "keyQuotesRaw": [
+        "\"I'm not innocent to approve and guilty, I'm guilty until I approve my innocence and that's absolutely what happened to me.\" - Kerry Porter, highlighting the reversed burden of proof in wrongful conviction cases.",
+        "\"Our system, since I've been out 10 years, it's come a little ways, but it's still broken.\" - Kerry Porter, commenting on the justice system.",
+        "\"I totally lost trust in humanity after what happened to it.\" - Kerry Porter, expressing the profound personal impact of wrongful conviction.",
+        "\"Mr. Porter did not commit this offense.\" - Commonwealth's attorney statement during exoneration.",
+        "\"I knew that day god told me everything that I was going to be incarcerated for there was no stopping it... but god said in the end I will prevail and and my name will be glorified.\" - Kerry Porter, describing his mindset after seeing the case on TV.",
+        "\"Every day I want to every time I eat a meal it reminds you of penitentiary...\" - Kerry Porter, illustrating the lasting psychological impact of incarceration."
+    ],
+    "systemicIssuesRaw": [
+        "Police tunnel vision and focus on a suspect without sufficient evidence.",
+        "Use of unreliable eyewitness identification.",
+        "Reliance on jailhouse snitch testimony and incentives for false confessions.",
+        "Potential for corruption and cover-ups within law enforcement.",
+        "Lack of accountability for wrongful convictions.",
+        "Burden of proof unfairly shifted onto the accused to prove innocence."
+    ],
+    "policyRecommendationsRaw": [
+        "Implied call for justice in Tyrone Camp's murder case and further investigation into Cecilia and Juan Sanders.",
+        "Call for systemic reform to prevent wrongful convictions.",
+        "Support for organizations like the Innocence Project."
+    ],
+    "personalNarrativeRaw": [
+        "Kerry Porter describes losing 14 years of his life, including time with his son.",
+        "He expresses a loss of trust in humanity and the justice system.",
+        "Despite the trauma, he demonstrates remarkable resilience and a commitment to helping others and preventing wrongful convictions.",
+        "He mentions ongoing emotional and psychological impact, even years after exoneration, with everyday experiences triggering memories of prison.",
+        "Final thoughts emphasize the need to prevent wrongful convictions to avoid devastating family divisions and cycles of injustice."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Project (mentioned at the end of the podcast, innocenceproject.org).",
+        "Podcast \"Spotlight Snitch City\" (promoted during the podcast).",
+        "Talkspace (advertisement).",
+        "Walsh College (advertisement).",
+        "Podcast \"Math and Magic stories from the frontiers in marketing\" (advertisement)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Commonwealth's attorney",
+                "role_guess": "Prosecutor",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "God",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [
+            "law enforcement"
+        ],
+        "llm_extracted_factors": [
+            "insurance fraud",
+            "perjury",
+            "false Baywatch detail",
+            "corruption",
+            "cover-ups",
+            "incentives for false confessions"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "wrongful conviction",
+                "justice system reform",
+                "resilience",
+                "advocacy"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

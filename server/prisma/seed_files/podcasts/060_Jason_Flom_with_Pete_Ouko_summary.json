@@ -1,0 +1,116 @@
+{
+    "sourceFileName": "060_Jason_Flom_with_Pete_Ouko_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Jason Flom",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2018",
+        "network": "Lava for Good Podcast and Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful convictions, criminal justice system issues, exoneree stories.",
+        "keyStats": "- Pete Uco was sentenced to death in Kenya despite a unanimous jury verdict of innocence.\n- He served 18 years in prison before being released.\n- The Kenyan justice system at the time was described as corrupt, with judges taking bribes.\n- The initial investigation into his wife's murder was flawed and focused on him without evidence.\n- A key witness against him later admitted to being coerced by police.",
+        "itemNumber": "060",
+        "itemTitle": "Jason Flom with Pete Ouko",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction features Pete Uco, a Kenyan man wrongfully convicted of murdering his wife.  Despite a jury finding him innocent, a corrupt judge overruled the verdict and sentenced him to death. Pete recounts the horrific night his wife was murdered outside a police station and the subsequent flawed investigation that led to his arrest and conviction based on fabricated evidence and a coerced witness. He details the appalling conditions of Kenyan prisons, where he spent 18 years, and his journey of maintaining hope and faith.  Pete discusses the corruption within the Kenyan judicial system at the time and his eventual release after appealing to the President.  He now runs an organization, Youth Safety Awareness Initiative, dedicated to helping youth and formerly incarcerated individuals.  His story highlights systemic failures and individual resilience within a broken justice system."
+    },
+    "featuredIndividual": {
+        "fullName": "Pete Uco",
+        "caseLocation": "Nairobi, Kenya",
+        "convictionYear": "2001 (approximately, trial lasted until 2001)",
+        "exonerationYear": "2016 (released by presidential prerogative, not technically exonerated in court records based on transcript, but treated as such)",
+        "crimeConvictedOf": "Murder of his wife, Jennifer Uco",
+        "sentence": "Death by hanging",
+        "timeServed": "18 years",
+        "contributingFactorsRaw": [
+            "Corrupt judicial system and judge who accepted bribes.",
+            "Flawed police investigation and predetermined focus on Pete Uco as the suspect.",
+            "Fabricated witness testimony and coerced statement.",
+            "In-law animosity leading to initial suspicion and police involvement."
+        ],
+        "status": "Released by presidential prerogative/pardon (not full exoneration in court, but effectively released due to innocence and systemic failures).",
+        "organizationsInvolvedRaw": [
+            "African Prisons Project (assisted with legal studies and support in prison).",
+            "Youth Safety Awareness Initiative (Pete's own organization post-release)."
+        ],
+        "innocenceLawyersRaw": [
+            "George (last name not provided) - Pete's lawyer, described as honest and persistent, fought hard for Pete's case, knew the victim and was personally invested."
+        ],
+        "crossReference": "Not mentioned if he appears in a specific exoneree database, but likely should be considered for inclusion in databases focused on wrongful convictions globally.",
+        "narrativeOriginalCrime": "Pete's wife, Jennifer, was raped and murdered. Her body was found outside the fence of a police station in Nairobi. The post-mortem indicated she was strangled with handcuffs while handcuffed.",
+        "keyEvidenceProsecutionRaw": [
+            "Fabricated eyewitness testimony from a man who claimed to see Pete picking up Jennifer from work around the time of the murder. This witness later admitted to being coerced by police and his statements contradicted each other."
+        ],
+        "trialDefenderNotes": "- George, Pete's lawyer, persistently pushed for a trial and highlighted inconsistencies in the prosecution's case.\n- Alibi evidence: Pete was with friends and their family at the time he was alleged to be with Jennifer. This alibi was accepted but disregarded by the judge.\n- Client witness: Jennifer's last client testified that Jennifer was with her in the salon until 9 pm, contradicting the prosecution witness's timeline.",
+        "keyEvidenceExonerationRaw": [
+            "No new evidence for formal exoneration mentioned in the transcript. Pete's release was due to a presidential prerogative/pardon after he wrote to the President highlighting his innocence and requesting release to attend his son's graduation.  This was likely influenced by the evident flaws in his case and broader reforms in the Kenyan justice system."
+        ],
+        "actualPerpetratorDetails": "Actual perpetrator not identified or discussed in the transcript. The focus is on Pete's wrongful conviction and the systemic issues."
+    },
+    "keyQuotesRaw": [
+        "\"I've never been in trouble in my life. I didn't even have a parking ticket. I didn't, you know what I mean? I was brought up like cops are the good guys.\" - Pete Uco, highlighting his initial trust in the system.",
+        "\"I grew up trusting the systems. I grew up believing that every human thing should do the right thing. And that's why even though I knew I was dealing with corrupt people, I wasn't going to bribe anyone to get me out of prison because I wouldn't live with the fact that I bribed my way out of my wife's death.\" - Pete Uco, expressing his principles.",
+        "\"Our system, since I've been out 10 years, it's come a little ways, but it's still broken.\" - Pete Uco, reflecting on the justice system.",
+        "\"I totally lost trust in humanity after what happened to it.\" - Pete Uco, on the impact of his wrongful conviction.",
+        "Judge's sentence: \"You're guilty. You sentence today by hanging until certified date by a medical doctor.\" - Example of the harsh and unjust verdict."
+    ],
+    "systemicIssuesRaw": [
+        "Corruption within the Kenyan judicial system (judges taking bribes).",
+        "Flawed and biased police investigations.",
+        "Coercion of witnesses by police.",
+        "Lack of accountability and oversight in the justice system.",
+        "Inadequate legal representation and trial processes (extended trial times, delays, judge overruling jury without proper justification).",
+        "Harsh prison conditions and lack of rehabilitation focus historically in Kenyan prisons."
+    ],
+    "policyRecommendationsRaw": [
+        "Reform of judicial systems to combat corruption and ensure fair trials.",
+        "Improved police investigation practices and accountability to prevent coerced confessions and fabricated evidence.",
+        "Strengthening legal aid and defense for the accused, especially those who are indigent.",
+        "Prison reform focused on rehabilitation and humane treatment of inmates.",
+        "Support for organizations like the Innocence Project and Youth Safety Awareness Initiative that work to address wrongful convictions and support exonerees and at-risk youth."
+    ],
+    "personalNarrativeRaw": [
+        "Pete's wrongful conviction led to 18 years of imprisonment, including time on death row.",
+        "He endured horrific prison conditions and separation from his children.",
+        "His experience caused immense suffering to his family, especially his mother and children.",
+        "Despite the injustice, Pete maintained his innocence, faith, and principles.",
+        "He used his time in prison to educate himself, become a leader among inmates, and advocate for prison reform and justice.",
+        "Post-release, he dedicated his life to helping others through the Youth Safety Awareness Initiative, demonstrating remarkable resilience and a commitment to positive change. His final thoughts emphasize finding purpose and letting go of bitterness."
+    ],
+    "additionalResourcesRaw": [
+        "Spotlight Snitch City Podcast (promoted in the transcript) - Investigates police informant misconduct.",
+        "The Setup Podcast (promoted in the transcript) - Fictional podcast.",
+        "Look at Thought Our Radio Season 10 Podcast (promoted in the transcript) - Pop culture podcast.",
+        "Ultimaris (drug mentioned in advertisement) - Medication for atypical hemolytic uremic syndrome (a-huss).",
+        "Innocence Project (mentioned by Jason Flom and Pete Uco) - Organization working to exonerate the wrongfully convicted.",
+        "Youth Safety Awareness Initiative / Crimecpoir (Pete Uco's organization) - www.crimecpoir.org (website mentioned in transcript as crimecpoir, but likely meant crimecpoir.org, as .com is common)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Pete Uco's wife",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "President (Kenya)",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Systemic failures in the justice system",
+                "Individual resilience",
+                "Corruption",
+                "Wrongful conviction",
+                "Prison conditions"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

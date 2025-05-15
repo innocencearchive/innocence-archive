@@ -14,7 +14,7 @@ const DRY_RUN = false; // Set to true to enable dry run and conflict checks
 // !!! ----------------------------------------------------------------- !!!
 
 // Define the input directory containing the ENHANCED JSON files (from Phase 2)
-const inputJsonDir = 'C:/GitHub/innocencearchive/scripts/podcast_project/enhance'; // Adjust path as needed
+const inputJsonDir = './podcasts'; // Adjust path as needed
 
 // --- ANSI Color Codes ---
 const RESET = "\x1b[0m";

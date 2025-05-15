@@ -1,0 +1,131 @@
+{
+    "sourceFileName": "424_Maggie_Freleng_with_Odelia_and_Nerissa_Quewezance_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Maggie Freeling",
+    "mediaItem": {
+        "hosts": "Maggie Freeling",
+        "releaseYear": "2024",
+        "network": "Lava for Good",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Systemic Racism, Indigenous Peoples in Canada, False Confessions, Residential Schools",
+        "keyStats": "-   More than 50% of incarcerated women in Canada are indigenous.\n-   Indigenous people are historically more likely to be arrested for serious crimes, less likely to be tried by peers and more likely to be convicted.\n-   In 2020, more than 50 unmarked graves were discovered on the grounds of two residential schools near the Kieskhus Reserve.",
+        "itemNumber": "424",
+        "itemTitle": "Maggie Freleng with Odelia and Nerissa Quewezance",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Maggie Freeling\" tells the story of sisters Odilia and Narissa Qzonz, two Indigenous women wrongfully convicted of second-degree murder in Canada in 1994.  The sisters, victims of systemic racism and the residential school system, were interrogated for days without counsel and coerced into unrecorded confessions. Despite a confession from their cousin Jason Kishane, who admitted to being the sole perpetrator and testifying to their innocence at trial, they were convicted by an all-white jury.  They served nearly 30 years before being released on bail in 2023, awaiting ministerial review for potential exoneration. The podcast highlights the systemic issues faced by Indigenous people in the Canadian justice system, including false confessions, racism within the RCMP and parole system, and the lasting trauma of residential schools. The case underscores the urgent need for systemic reform and reconciliation."
+    },
+    "featuredIndividual": {
+        "fullName": "Narissa Qzonz",
+        "caseLocation": "Kamsak, Saskatchewan, Canada",
+        "convictionYear": "1994",
+        "exonerationYear": "Not yet exonerated, released on bail in 2023 awaiting ministerial review.",
+        "crimeConvictedOf": "Second-degree murder",
+        "sentence": "Life in prison with the possibility of parole in 10 years.",
+        "timeServed": "Approximately 30 years",
+        "contributingFactorsRaw": [
+            "False confession (coerced, unrecorded statements during interrogation without counsel)",
+            "Systemic racism (Indigenous women interrogated by white male officers)",
+            "Vulnerability due to residential school trauma",
+            "Ineffective legal defense at trial (semi-surrender defense, not challenging confession)",
+            "All-white jury"
+        ],
+        "status": "Released on bail, awaiting ministerial review for potential exoneration.",
+        "organizationsInvolvedRaw": [
+            "Innocence Canada, Congress of Aboriginal People of Canada (Kim Bowden)"
+        ],
+        "innocenceLawyersRaw": [
+            "James Lockyer, Innocence Canada's Council."
+        ],
+        "crossReference": "Not specified in transcript.",
+        "narrativeOriginalCrime": "Same as Odilia Qzonz - 70-year-old Joseph Dolph was found murdered in his home.",
+        "keyEvidenceProsecutionRaw": [
+            "Unrecorded alleged confessions from Narissa and Odilia stating they were involved in the killing."
+        ],
+        "trialDefenderNotes": "Defense focused on intoxication to argue for manslaughter, did not challenge the alleged confessions as false.",
+        "keyEvidenceExonerationRaw": [
+            "Retraction and confession of Jason Kishane, stating he was the sole perpetrator and the sisters were not involved.",
+            "Systemic racism and procedural errors in the police investigation (unrecorded interrogations, violation of judicial order to remand to jail).",
+            "Vulnerability of the sisters as Indigenous women and residential school survivors."
+        ],
+        "actualPerpetratorDetails": "Jason Kishane, cousin of Odilia and Narissa, confessed to the murder, pleaded guilty under the Young Offenders Act, and received a five-year sentence."
+    },
+    "keyQuotesRaw": [
+        "Odilia: \"I never actually knew my mother, but my dad, he was the best thing for me.\" (Shows family background)",
+        "Narissa: \"I became an addict in prison.\" (Highlights impact of incarceration)",
+        "James Lockyer: \"When I saw that they had been held in custody in the police station for five days, that in itself did it for me. I'd never heard of such a thing. Never.\" (Highlights the egregious nature of the police conduct)",
+        "Odilia: \"Prayer is powerful. That's all we have when you're in prison is prayer.\" (Personal narrative and coping mechanism)"
+    ],
+    "systemicIssuesRaw": [
+        "Systemic racism within the Canadian justice system, particularly towards Indigenous peoples.",
+        "Abuse and trauma caused by the Canadian residential school system.",
+        "Police misconduct: unrecorded interrogations, coercive tactics, ignoring judicial orders.",
+        "Ineffective legal representation for Indigenous defendants.",
+        "Racial bias in jury selection (all-white jury).",
+        "Parole system bias against Indigenous individuals.",
+        "High rates of incarceration for Indigenous women.",
+        "False confessions from vulnerable individuals."
+    ],
+    "policyRecommendationsRaw": [
+        "Systemic reform within the Canadian justice system to address racism and bias against Indigenous people.",
+        "Truth and reconciliation efforts regarding residential schools and their ongoing impact.",
+        "Police reform: mandatory recording of interrogations, improved training on vulnerable populations, adherence to judicial orders.",
+        "Legal aid and culturally competent defense for Indigenous defendants.",
+        "Parole system reform to address bias and improve reintegration for Indigenous individuals.",
+        "Support for innocence organizations and advocacy for the wrongfully convicted."
+    ],
+    "personalNarrativeRaw": [
+        "Odilia and Narissa's childhood trauma in residential schools and its lasting impact on their lives and vulnerability.",
+        "The sisters' close bond and mutual support throughout their ordeal.",
+        "The decades of life lost to wrongful imprisonment and the challenges of re-entry into society.",
+        "Their resilience, faith, and desire to advocate for others despite their own suffering.",
+        "The intergenerational trauma of residential schools and its contribution to systemic issues."
+    ],
+    "additionalResourcesRaw": [
+        "Innocence Canada (organization that assisted with their case).",
+        "Congress of Aboriginal Peoples of Canada (organization Kim Bowden is VP of, supporting Narissa).",
+        "Canada's office of the congressional investigator (mentioned in relation to statistics on Indigenous incarceration).",
+        "Lava for Good Plus on Apple Podcasts (for ad-free early access to podcasts).",
+        "don'tsleeponosa.com (mentioned in advertisement, unrelated to case).",
+        "tryfh.com (mentioned in advertisement, unrelated to case).",
+        "lifelock.com/iHeart (mentioned in advertisement, unrelated to case).",
+        "kisqai.com (mentioned in advertisement, unrelated to case)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Jason Kishane",
+                "role_guess": "Actual Perpetrator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Odilia",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": true
+            },
+            {
+                "name": "Narissa",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": true
+            }
+        ],
+        "llm_extracted_orgs": [
+            "RCMP"
+        ],
+        "llm_extracted_factors": [
+            "Ineffective legal representation for Indigenous defendants",
+            "Racial bias in jury selection (all-white jury)"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Systemic Racism",
+                "Indigenous Justice",
+                "Residential Schools",
+                "False Confessions"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

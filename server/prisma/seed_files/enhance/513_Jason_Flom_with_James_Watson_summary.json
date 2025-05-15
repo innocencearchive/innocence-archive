@@ -1,0 +1,130 @@
+{
+    "sourceFileName": "513_Jason_Flom_with_James_Watson_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2025",
+        "network": "Lava for Good Podcasts, Signal Company No. 1",
+        "seriesType": "Episodic Series (each episode is generally a standalone story, though this is a follow-up on a co-defendant's case)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction investigation, legal analysis, eyewitness misidentification, junk science (hypnosis), police/prosecutorial misconduct, personal narratives of exonerees.",
+        "keyStats": "*   Crime occurred November 16, 1979.\n*   James Watson was 20 years old at the time.\n*   Co-defendant Fred Clay was 16 years old.\n*   James Watson served over 41 years.\n*   Released April 16, 2020.\n*   Motion for New Trial allowed November 10, 2020.",
+        "itemNumber": "513",
+        "itemTitle": "Jason Flom with James Watson",
+        "itemMediaType": "PODCAST_EPISODE"
+    },
+    "featuredIndividual": {
+        "fullName": "Fred Clay (Co-defendant, discussed extensively but not the primary interviewee)",
+        "caseLocation": "Boston, Massachusetts, USA",
+        "convictionYear": "1981",
+        "exonerationYear": "2017 (Motion for New Trial allowed)",
+        "crimeConvictedOf": "First-degree murder, Robbery",
+        "sentence": "Life without parole (was a juvenile, 16, at the time of crime)",
+        "timeServed": "Approx. 38 years",
+        "contributingFactorsRaw": [
+            "Same as James Watson (Eyewitness Misidentification, Hypnosis, Witness Coercion/Incentives, Police/Prosecutorial Misconduct, Ineffective Assistance of Counsel, Tunnel Vision), plus Juvenile status."
+        ],
+        "status": "Exonerated (Released 2017)",
+        "organizationsInvolvedRaw": [
+            "Committee for Public Counsel Services Innocence Program"
+        ],
+        "innocenceLawyersRaw": [
+            "Jeffrey Harris (private counsel), Lisa Kavanaugh (CPCS Innocence Program)"
+        ],
+        "crossReference": "Yes (subject of a previous Wrongful Conviction episode mentioned in this podcast)",
+        "narrativeOriginalCrime": "Same as James Watson.",
+        "keyEvidenceProsecutionRaw": [
+            "Same as James Watson (Neil Sweatt ID, Richard Dwyer ID, Diane Moses testimony implication). Identified by Sweatt as the shooter."
+        ],
+        "trialDefenderNotes": "Same as James Watson. Additionally, failed to adequately leverage Clay's juvenile status or alibi evidence (he lived in a locked foster home).",
+        "keyEvidenceExonerationRaw": [
+            "Same foundational evidence as James Watson (hypnosis letter, Cooper brothers evidence, Diane Moses coercion), plus arguments related to Supreme Court rulings on juvenile life sentences (Miller/Montgomery)."
+        ],
+        "actualPerpetratorDetails": "Same as James Watson (Cooper Brothers)."
+    },
+    "keyQuotesRaw": [
+        "James Watson on facing the death penalty: \"I said, death penalty, what the, now I'm scared... I'm growing gray hairs at a very early age.\"",
+        "Barb Munro on the hypnosis evidence: \"So the hypnotism in itself is junk science. But the fact that the prosecutor we believe lied and we found evidence in the DA files that showed that he did is pretty problematic.\"",
+        "James Watson on meeting the victim's family: \"It blew me away because they apologized to me... I was like, you don't have to apologize to me... I told him that the government owes us an apology. They victimized us, me, Freddie, your family, and your brother.\"",
+        "James Watson on his nonprofit: \"We deal with is post incarceration syndrome... People don't know how serious it is... I don't want to see nobody go through what I went through.\"",
+        "James Watson's final thoughts: \"Man, don't be afraid to speak up. Somebody will believe you... I'm living proof. Somebody will listen to you.\""
+    ],
+    "systemicIssuesRaw": [
+        "Unreliability and suggestibility of eyewitness identification, especially cross-racial.",
+        "Use and misuse of junk science (hypnosis) in investigations and court.",
+        "Police coercion and threats to secure witness testimony.",
+        "Prosecutorial misconduct, including withholding exculpatory evidence (Brady violations).",
+        "Ineffective assistance of counsel.",
+        "Police tunnel vision ignoring alternative suspects.",
+        "The profound psychological impact of long-term incarceration (Post Incarceration Syndrome).",
+        "Lack of adequate support and compensation for exonerees upon release.",
+        "The injustice of juvenile life without parole sentences.",
+        "Influence of external pressure (cab driver union, company owner) on police investigations."
+    ],
+    "policyRecommendationsRaw": [
+        "Need for immediate and substantial compensation for wrongfully convicted individuals upon release.",
+        "Reform regarding prosecutorial immunity.",
+        "Increased awareness and resources to address Post Incarceration Syndrome.",
+        "Encouragement for listeners to get involved with innocence organizations (like New England Innocence Project) and support exonerees.",
+        "A call for individuals facing injustice to speak up and seek help."
+    ],
+    "personalNarrativeRaw": [
+        "James describes the terror of entering Walpole prison, the decades of feeling like waiting to die, the loss of raising his son, the overwhelming joy of freedom, reconnecting with his son and meeting grandchildren, the profound experience of meeting and being supported by the victim's family, and his dedication to helping others avoid similar fates through his nonprofit \"Confronting Injustice.\" He emphasizes the deep appreciation for freedom after losing it and the psychological reprogramming that occurs during long-term incarceration."
+    ],
+    "additionalResourcesRaw": [
+        "Erase PTSD Now (Sponsor)",
+        "Walsh College (Sponsor)",
+        "Confronting Injustice (James Watson's nonprofit) - YouTube channel hosted on BCAM TV.",
+        "New England Innocence Project",
+        "Previous Wrongful Conviction episode featuring Fred Clay.",
+        "Lava for Good Plus (Subscription service)"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Victim's family",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": "uncertain"
+            },
+            {
+                "name": "Prosecutor",
+                "role_guess": "Prosecutor",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Freddie",
+                "role_guess": "Co-defendant",
+                "is_likely_wc_suggestion": true
+            },
+            {
+                "name": "Victim's brother",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": "uncertain"
+            },
+            {
+                "name": "Cab driver union",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Company owner",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [
+            "DA files"
+        ],
+        "llm_extracted_factors": [],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Death penalty",
+                "Post Incarceration Syndrome",
+                "Apology from government"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

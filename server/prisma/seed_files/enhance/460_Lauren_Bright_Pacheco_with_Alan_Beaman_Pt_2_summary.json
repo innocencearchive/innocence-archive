@@ -1,0 +1,137 @@
+{
+    "sourceFileName": "460_Lauren_Bright_Pacheco_with_Alan_Beaman_Pt_2_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Lauren Bright-Pacheco",
+        "releaseYear": "2024",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction stories, injustice system, exoneree experiences",
+        "keyStats": "- Tens of thousands of people incarcerated in the US have been wrongfully convicted.\n- Alan Beeman served 13 years for a crime he did not commit.\n- It took years even with the Northwestern University Center on Wrongful Convictions involved to get a hearing.\n- In January 2015, the governor pardoned Alan based on actual innocence.\n- In March 2024, Alan settled a civil suit with the town of Normal for $5.4 million.",
+        "itemNumber": "460",
+        "itemTitle": "Lauren Bright Pacheco with Alan Beaman Pt 2",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction delves into the harrowing story of Alan Beeman, wrongfully convicted of murdering his ex-girlfriend and sentenced to 55 years to life despite having an alibi. The podcast details the immense challenges faced by Alan and his family, even with significant resources, as they navigated the complexities of the justice system. It highlights the emotional and psychological toll of wrongful imprisonment, Alan's survival in prison through anger and eventual spiritual awakening, and the tireless efforts of his parents and lawyers, including the Northwestern University Center on Wrongful Convictions.  Ultimately, after 13 years of incarceration, Alan's conviction was overturned, charges were dropped, and he was pardoned and received a certificate of innocence. The episode concludes with the long-term impacts of wrongful conviction, including PTSD and the ongoing fight for recognition and justice, even after release and a civil settlement."
+    },
+    "featuredIndividual": {
+        "fullName": "Alan Beeman",
+        "caseLocation": "Normal, Illinois, USA (McLean County)",
+        "convictionYear": "Not explicitly stated in the transcript, but implied to be around 1995 (senior year of college + time before sentencing mentioned).",
+        "exonerationYear": "2008 (conviction overturned May 22, 2008, released June 27, 2008).",
+        "crimeConvictedOf": "Murder of Jennifer (ex-girlfriend)",
+        "sentence": "55 years to life",
+        "timeServed": "13 years",
+        "contributingFactorsRaw": [
+            "Tunnel vision in investigation.",
+            "Withholding of exculpatory evidence by prosecution."
+        ],
+        "status": "Exonerated, Pardoned, Certificate of Innocence granted, Civil Settlement reached.",
+        "organizationsInvolvedRaw": [
+            "Northwestern University Center on Wrongful Convictions."
+        ],
+        "innocenceLawyersRaw": [
+            "Jeff Urdangen (private practice initially, then Northwestern University Center on Wrongful Convictions). Took the case pro bono after initial payments.",
+            "Karen Daniel and Chris Fabricant (Northwestern University Center on Wrongful Convictions)."
+        ],
+        "crossReference": "Not explicitly mentioned if in exoneree database, but likely given the nature of the podcast.",
+        "narrativeOriginalCrime": "Jennifer, Alan's ex-girlfriend, was murdered. Alan was accused of the crime.",
+        "keyEvidenceProsecutionRaw": [
+            "Not detailed in this podcast episode transcript, but previous episode mentioned \"overzealous investigation honed in\". This episode focuses on post-conviction."
+        ],
+        "trialDefenderNotes": "Had private representation and alibi, but it was not enough against \"tunnel vision\".",
+        "keyEvidenceExonerationRaw": [
+            "Prosecution withheld exculpatory evidence.",
+            "Illinois Supreme Court overturned conviction because of withheld evidence.",
+            "DNA testing (mentioned as something Alan fought for years to get tested, and likely played a role, though not explicitly detailed in this transcript excerpt)."
+        ],
+        "actualPerpetratorDetails": "Not mentioned or available in the provided transcript."
+    },
+    "keyQuotesRaw": [
+        "Alan Beeman: \"I was encouraged by a government employee to join a gang in prison in order to survive.\"",
+        "Alan Beeman on anger: \"It was never a constructive thing for me throughout the whole experience. It was the only acceptable emotion that a man can express in prison.\"",
+        "Carol Beeman on seeing Alan in prison after sentencing: \"The first time I saw her in Monarch Correctional Center, her hair was white.\"",
+        "Alan Beeman on finding faith: \"So I went to church because I had to pee. OK. And I sat in the chapel and I listened to the chaplain and he was talking to sense. So I kept going every week as crazy as it is. However, God is going to get a hold of you. That's how he's going to do it.\"",
+        "Gretchen Beeman on Alan's residual trauma: \"…beer bottle was left on the table and he's like my DNA's on that if somebody comes after me to the bar and gets in a fight and picks up that beer bottle and hits somebody over the head with them and kills them my fingerprint is on that.\""
+    ],
+    "systemicIssuesRaw": [
+        "Tunnel vision in law enforcement investigations.",
+        "Prosecutorial misconduct (withholding evidence).",
+        "Difficulties in post-conviction relief and appeals, even with strong legal support.",
+        "Lengthy time to get hearings and resolve wrongful conviction cases (years even with Northwestern).",
+        "The power of a police officer's and state's attorney's word even in the face of exonerating evidence.",
+        "Psychological trauma and PTSD experienced by exonerees post-release.",
+        "Difficulty in reintegrating into society and overcoming the stigma of wrongful conviction."
+    ],
+    "policyRecommendationsRaw": [
+        "Support local innocence organizations. (Mentioned at the end of the podcast).",
+        "Episode implicitly calls for justice system reform to prevent wrongful convictions and better support exonerees."
+    ],
+    "personalNarrativeRaw": [
+        "Alan's experience of going from shock and anger in prison to finding solace in faith and community. His struggle with anger as a survival mechanism and the long process of turning back on other emotions after release.",
+        "Carol and Barry Beeman's unwavering support for Alan, their activism fueled by anger, and the personal toll on their lives (Carol's hair turning white from stress, financial burden of phone calls and visits).",
+        "Gretchen Beeman's perspective as Alan's wife, highlighting the ongoing challenges and residual trauma of wrongful conviction on daily life and family."
+    ],
+    "additionalResourcesRaw": [
+        "Lava for Good podcasts and other podcasts on the network.",
+        "Local innocence organizations (suggested to support at the end).",
+        "Links in the episode description (suggested at the end)."
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Alan Beeman",
+                "role_guess": "Featured WC Person",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Alan's ex-girlfriend",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Alan's parents",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Carol Beeman",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Gretchen Beeman",
+                "role_guess": "Family Member",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "government employee",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "chaplain",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [
+            "Monarch Correctional Center"
+        ],
+        "llm_extracted_factors": [],
+        "llm_media_relationships": {
+            "part_number": 2,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Justice System Challenges",
+                "Emotional and Psychological Toll",
+                "Incarceration",
+                "Spiritual Awakening",
+                "Post-Release Trauma",
+                "Civil Settlements"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

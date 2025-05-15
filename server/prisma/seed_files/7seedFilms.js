@@ -22,7 +22,7 @@ const DRY_RUN = true; // <<<<< Set to false for actual database changes >>>>>
 
 // Define the input directory containing the REFINED FILM JSON files
 // *** ADJUST THIS PATH ***
-const inputJsonDir = 'C:/GitHub/ia/docs/media/film/enhanced'; // <--- CHANGE THIS
+const inputJsonDir = './films'; // <--- CHANGE THIS
 
 // --- ANSI Color Codes ---
 const RESET = "\x1b[0m";

@@ -1,0 +1,126 @@
+{
+    "sourceFileName": "357_Jason_Flom_with_Jennifer_Del_Prete_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction",
+    "mediaItem": {
+        "hosts": "Jason Flom",
+        "releaseYear": "2023",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful Conviction, Shaken Baby Syndrome, Junk Science, Forensic Science, Legal System Reform",
+        "keyStats": "- 99% of places that take credit cards nationwide accept Discover. (Advertiser mention at start, unrelated to main content)\n- 81 non-traumatic medical conditions can mimic symptoms attributed to shaken baby syndrome.\n- Head circumference of the infant IZ went from the 50th to the 90th percentile in 10 weeks, a potential sign of underlying issues missed by doctors.",
+        "itemNumber": "357",
+        "itemTitle": "Jason Flom with Jennifer Del Prete",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of Wrongful Conviction details the harrowing story of Jennifer Delprey, who was wrongfully convicted of first-degree murder in the death of a four-month-old infant under her care.  The prosecution relied on the now-discredited \"shaken baby syndrome\" (SBS) diagnosis, ignoring crucial medical evidence of pre-existing conditions and misinterpreting Jennifer's actions as abusive shaking.  Despite maintaining her innocence and presenting expert testimony challenging the SBS theory, Jennifer was convicted and spent over nine years in prison.  The case highlights the dangers of junk science in the courtroom, flawed interrogation tactics leading to misconstrued statements, and the arduous fight for exoneration.  Ultimately, through persistent legal efforts and the discovery of critical withheld evidence, Jennifer's conviction was overturned, and charges were dismissed, revealing a profound failure of the justice system and the devastating impact of wrongful convictions on individuals and families."
+    },
+    "featuredIndividual": {
+        "fullName": "Jennifer Delprey",
+        "caseLocation": "Romeoville, Illinois, USA",
+        "convictionYear": "2005",
+        "exonerationYear": "2022",
+        "crimeConvictedOf": "First-degree murder (originally aggravated battery of a child)",
+        "sentence": "20 years",
+        "timeServed": "9 years, 1 month, 26 days",
+        "contributingFactorsRaw": [
+            "Shaken Baby Syndrome (SBS) / Abusive Head Trauma (AHT) junk science",
+            "Misinterpretation of medical evidence (ignoring pre-existing conditions, focusing solely on bleeds as proof of shaking)",
+            "Flawed medical testimony (Dr. Flaherty providing inaccurate and incomplete information)",
+            "Confirmation bias from medical professionals and law enforcement",
+            "Interrogation tactics (deception, implying leniency for confession, misrepresenting \"slight shake\")"
+        ],
+        "status": "Exonerated, charges dismissed",
+        "organizationsInvolvedRaw": [
+            "Medill Innocence Project (Northwestern School of Journalism)",
+            "Blagan and Garvey (Law Firm - Appellate Counsel)",
+            "Center for Integrity and Forensic Sciences"
+        ],
+        "innocenceLawyersRaw": [],
+        "pat_blagan_(appellate_counsel,_blagan_and_garvey)": "Appellate lawyer who took on Jennifer's case in federal court, focused on Daubert standard and challenging SBS as junk science.",
+        "jody_garvey_(law_partner_and_wife_of_pat_blagan,_blagan_and_garvey)": "Specializes in appeals and post-conviction work, devised the strategy to argue \"actual innocence\" to get federal evidentiary hearing.",
+        "tom_bradstrader": "Previous appellate attorney who referred the case to Medill Innocence Project.",
+        "charles_brett": "Trial attorney for Jennifer Delprey.",
+        "crossReference": "Not explicitly stated whether Jennifer Delprey is in an exoneree database within the transcript.",
+        "narrativeOriginalCrime": "Infant IZ was in Jennifer Delprey's care at a daycare and became unresponsive.  Medical professionals initially diagnosed injuries as resulting from violent shaking by Jennifer, leading to charges of child battery and later murder after the child's death.",
+        "keyEvidenceProsecutionRaw": [
+            "Testimony of four state medical experts, primarily Dr. Emily Flaherty, who asserted the injuries were caused by violent shaking (SBS/AHT).",
+            "Detective Kenneth Kroll's testimony regarding Jennifer's interrogation and the interpretation of her statement about a \"slight shake\" as a confession.",
+            "Medical findings of acute and chronic brain bleeds and retinal hemorrhages, interpreted solely as evidence of abuse."
+        ],
+        "trialDefenderNotes": "- Chose a bench trial instead of a jury trial, believing a judge would better understand the medical complexities.\n- Presented expert witness Dr. Wayne Tucker, a pathologist and pediatrician, who challenged the SBS diagnosis, pointed to alternative causes like seizures possibly triggered by medication, and highlighted the lack of bruising expected in SBS cases.\n- Character witnesses from Jennifer's coworkers testified about IZ's pre-existing discomfort and crying.",
+        "keyEvidenceExonerationRaw": [],
+        "the_\"crow_letter\"": "A memo by Detective Crow revealing that Dr. Harky, the autopsy pathologist, initially doubted SBS and questioned the homicide determination, which was withheld from the defense (Brady violation).",
+        "medill_innocence_project_investigation": "Students uncovered the Crow letter and other crucial documents through a Freedom of Information Act request.",
+        "evidentiary_hearing_in_federal_court_(2012-2013)": "Defense experts (Dr. Patrick Barnes, Dr. Michael Prang, and others) testified against SBS, highlighting pre-existing conditions (chronic subdural hematoma, CVT), biomechanical impossibility of shaking causing the injuries without other trauma, and lack of bruising.",
+        "new_expert_report_(2022)": "State's new pathologist, Dr. Bennett, produced a report that was not confident in concluding homicide, weakening the prosecution's case.",
+        "actualPerpetratorDetails": "Not applicable. The exoneration was based on the conclusion that the infant's death was likely due to natural medical causes (undiagnosed conditions, potential seizures) rather than abuse by Jennifer Delprey."
+    },
+    "keyQuotesRaw": [
+        "Jennifer Delprey: \"I just cried. I said, finally, finally, I remember saying that.\" (Upon hearing charges were dropped)",
+        "Jennifer Delprey: \"And they were just sitting there laughing. So that was my March 4th.\" (Describing officers laughing after her sentencing and shock)",
+        "Pat Blagan: \"Don't let those thoughts overcome your logic and your sense of what's right and wrong when you're when you're looking at these shaking baby syndrome cases, you think you're not diagnosing murder. But when you're coming into court and you're saying these things which such certainty, that's what you're causing to happen here.\" (Critique of medical professionals in SBS cases)",
+        "Jennifer Delprey: \"And you're not innocent until proven guilty or guilty until proven innocent.\" (Reflecting on her experience with the justice system)",
+        "Jennifer Delprey's advice: \"I would advise to always have me on camera if you're taking care of someone's child. You have to get your own, get a nanny cam, your phone on, and just have the camera on all times because then you would never have to go through this if you had proof.\" (Call to action for daycare camera law)"
+    ],
+    "systemicIssuesRaw": [
+        "The use of \"shaken baby syndrome\" as junk science in convictions.",
+        "Confirmation bias and tunnel vision within the medical and legal systems when suspecting child abuse.",
+        "Flawed interrogation techniques leading to miscarriages of justice.",
+        "Difficulty and lengthy process of overturning wrongful convictions, even with compelling evidence of innocence.",
+        "Emotional impact on families of the wrongfully convicted, who also \"go to jail.\""
+    ],
+    "policyRecommendationsRaw": [
+        "Advocate for institutional changes to expedite exoneration processes for innocence claims.",
+        "Medical professionals should prioritize evidence-based science and avoid definitive diagnoses based on limited findings in SBS/AHT cases.",
+        "Consider legislation mandating or encouraging the use of cameras in daycare settings to provide evidence and prevent wrongful accusations."
+    ],
+    "personalNarrativeRaw": [
+        "Jennifer Delprey's life was devastated by wrongful conviction, losing nearly a decade of her life to prison and causing immense trauma to her and her family.",
+        "Her children suffered emotional and physical hardships due to her absence.",
+        "Jennifer found strength through family support, faith, and helping others in prison.",
+        "She plans to dedicate her life to advocating for justice reform and preventing similar wrongful convictions.",
+        "Expresses sadness for the infant IZ and her family but also hurt that they didn't believe in her innocence."
+    ],
+    "additionalResourcesRaw": [
+        "Center for Integrity and Forensic Sciences (mentioned as organization of Kay Judson, expert commentator)",
+        "Medill Innocence Project (Northwestern University) (organization that helped uncover key evidence)",
+        "Greenberg Traureg (Global Law Firm - underwriter mentioned, Pro Bono program focused on criminal justice reform and exonerations)"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Pat Blagan",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Dr. Flaherty",
+                "role_guess": "Other",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "four-month-old infant",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "pre-existing conditions",
+            "flawed interrogation tactics",
+            "withheld evidence"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "wrongful conviction",
+                "junk science",
+                "flawed interrogation",
+                "exoneration",
+                "impact on families"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}

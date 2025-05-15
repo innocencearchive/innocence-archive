@@ -1,0 +1,114 @@
+{
+    "sourceFileName": "277_Maggie_Freleng_with_Karen_Boes_summary.txt",
+    "mediaWorkTitle": "Wrongful Conviction with Maggie Freeling",
+    "mediaItem": {
+        "hosts": "Maggie Freeling",
+        "releaseYear": "2022",
+        "network": "Lava for Good Podcasts, Signal Company Number One",
+        "seriesType": "Episodic Series (each episode is generally a standalone story)",
+        "format": "Podcast",
+        "focusTheme_Work": "Wrongful conviction, arson investigation, forensic science, false confessions, justice system reform.",
+        "keyStats": "Fire investigation until approximately 15 years prior to the podcast was largely \"junk science.\" About a third of exonerations by the Michigan Innocence Clinic involved bad science.",
+        "itemNumber": "277",
+        "itemTitle": "Maggie Freleng with Karen Boes",
+        "itemMediaType": "PODCAST_EPISODE",
+        "summaryNotes": "This episode of \"Wrongful Conviction with Maggie Freeling\" tells the story of Karen Bose, wrongfully convicted of felony murder in the death of her daughter Robin in 2002.  Karen was accused of arson after a fire in her home, based on fire investigation that was later shown to be flawed and considered \"junk science.\"  Despite maintaining her innocence, Karen faced intense interrogation and made statements that were used against her as a confession.  Key evidence at trial relied on now-debunked fire investigation techniques and disregarded evidence suggesting the fire started in Robin's room, possibly by Robin herself.  Karen was convicted and sentenced to life without parole. The Michigan Innocence Clinic is currently working on her case, presenting new evidence and challenging the original investigation in hopes of exonerating her.  Karen expresses her deep grief, her struggle in prison, and her hope to be exonerated and visit her daughter's grave."
+    },
+    "featuredIndividual": {
+        "fullName": "Karen Bose",
+        "caseLocation": "Zealand, Michigan, USA",
+        "convictionYear": "2003",
+        "exonerationYear": "Not yet (as of podcast release, motion pending)",
+        "crimeConvictedOf": "First-degree felony murder of her daughter",
+        "sentence": "Life in prison without parole",
+        "timeServed": "Approximately 20 years (as of podcast release)",
+        "contributingFactorsRaw": [
+            "Bunk/Flawed Fire Science: Investigators used outdated and unreliable methods to conclude arson and determine the fire's origin.",
+            "False Confession:  Prolonged and psychologically manipulative interrogation tactics led to Karen making statements suggesting she might have blacked out or been in a dream, which were then used against her.",
+            "Misleading Expert Testimony: State experts presented fire evidence that has since been discredited."
+        ],
+        "status": "Convicted, currently seeking exoneration through the Michigan Innocence Clinic.",
+        "organizationsInvolvedRaw": [
+            "Michigan Innocence Clinic, AIG Pro Bono Program (sponsor of podcast mentioned)"
+        ],
+        "innocenceLawyersRaw": [
+            "David Moran, co-director of the Michigan Innocence Clinic at the University of Michigan Law School.  He has a background in particle physics and is experienced in cases involving flawed forensic science."
+        ],
+        "narrativeOriginalCrime": "A fire occurred at the Bose family home on July 30, 2002, resulting in the death of Karen's 14-year-old daughter, Robin Bose. Karen was home with Robin that morning before leaving to go shopping with a friend.  The fire was contained to the upstairs area, primarily Robin's bedroom and hallway.",
+        "keyEvidenceProsecutionRaw": [
+            "Fire investigators testified that the fire originated in the hallway outside Robin's room and was intentionally set using an accelerant, based on fire damage patterns.",
+            "Gasoline was found in Robin's room and on her clothes.",
+            "Karen was the last person known to be with Robin before the fire.",
+            "Karen's statements during interrogation, where she mentioned the possibility of blacking out or being in a dream state, were presented as a confession."
+        ],
+        "trialDefenderNotes": "-   Defense expert refuted the state's fire evidence, stating the fire started in Robin's room, not the hallway.\n-   No accelerant was found in the hallway.\n-   Robin's autopsy showed signs of being close to the fire source (scorched eyebrows and clothing), while Karen showed no such signs, suggesting Robin might have started the fire.\n-   Defense highlighted that police lied to Karen during interrogation, a legally permissible but ethically questionable tactic.",
+        "keyEvidenceExonerationRaw": [
+            "Re-evaluation of fire science: Current understanding of fire dynamics indicates the fire likely started in Robin's bedroom, not the hallway.",
+            "Discrediting of state's expert: One of the state's fire experts, John DeHaan, had been previously found to have violated ethical and professional standards in another case.",
+            "Lack of physical evidence against Karen: No accelerant on Karen's clothes or in her car.",
+            "False confession indicators: Interrogation tactics used on Karen are now recognized as likely to elicit false confessions from innocent individuals, including lying about evidence and minimizing the consequences of confessing."
+        ],
+        "actualPerpetratorDetails": "Not explicitly identified. The podcast raises the possibility that the fire may have been accidental or even started by Robin herself, given the evidence suggesting the fire's origin was in her room and her scorched clothing."
+    },
+    "keyQuotesRaw": [
+        "\"Fire investigation until really about 15 years ago was pretty much junk science nationwide.\" - David Moran, highlighting the outdated methods used in Karen's case.",
+        "Attorney David Zessin questioning investigator Eduardo Fernandez about lying: \"not only am I trained in that, I teach that end quote.\" - Revealing the accepted practice of police deception during interrogations.",
+        "Karen Bose during interrogation: \"In my conscious mind, I didn't do this. ... but I could have went temporarily insane.\" - Illustrating the coerced nature of her statements."
+    ],
+    "systemicIssuesRaw": [
+        "Use of outdated and unreliable forensic science in criminal investigations.",
+        "Coercive interrogation tactics that can lead to false confessions.",
+        "Legal allowance for police to lie during interrogations.",
+        "Potential for confirmation bias in investigations, focusing on a suspect early on and ignoring contradictory evidence."
+    ],
+    "policyRecommendationsRaw": [
+        "Support the exoneration of Karen Bose by visiting freecarenbose.com for more information.",
+        "Support local Innocence Organizations to help others who may be wrongfully convicted."
+    ],
+    "personalNarrativeRaw": [
+        "Karen Bose expresses profound grief over the loss of her daughter and the injustice of her wrongful conviction.",
+        "She describes the devastating impact on her family, including the loss of her husband's support and estrangement from her son.",
+        "Despite her long incarceration, Karen demonstrates resilience and hope for exoneration, driven by the desire to visit Robin's grave and connect with her grandchildren."
+    ],
+    "additionalResourcesRaw": [
+        "freecarenbose.com (website for Karen Bose's case)",
+        "Local Innocence Organizations (suggested for listener support)"
+    ],
+    "llm_analysis": {
+        "llm_extracted_persons": [
+            {
+                "name": "Robin",
+                "role_guess": "Victim",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "Eduardo Fernandez",
+                "role_guess": "Investigator",
+                "is_likely_wc_suggestion": false
+            },
+            {
+                "name": "David Zessin",
+                "role_guess": "Attorney",
+                "is_likely_wc_suggestion": false
+            }
+        ],
+        "llm_extracted_orgs": [],
+        "llm_extracted_factors": [
+            "Confirmation bias",
+            "Outdated and unreliable forensic science",
+            "Coercive interrogation tactics",
+            "Legal allowance for police to lie"
+        ],
+        "llm_media_relationships": {
+            "part_number": null,
+            "is_update_of": null,
+            "related_themes": [
+                "Wrongful Conviction",
+                "Flawed Forensics",
+                "False Confession",
+                "Grief and Injustice"
+            ],
+            "mentions_other_media": []
+        }
+    }
+}
