@@ -1,9 +1,9 @@
-// src/pages/ContributingFactorPage.jsx
+// src/pages/ContributingFactorsPage.jsx
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
 // --- Import Icons ---
-import { Users, List, ArrowLeft, AlertCircle, FileText, Building, UserCheck } from 'lucide-react';
+import { Users, List, ArrowLeft, AlertCircle, FileText, Building, UserCheck, Loader2 } from 'lucide-react'; // Added Loader2
 
 // --- Import Components ---
 // Assuming these components exist in ../components/
@@ -16,22 +16,23 @@ import OrganizationsMentionedList from '../components/OrganizationsMentionedList
 import PageNavigationButtons from '../components/PageNavigationButtons';
 
 // --- Import Theme Constants ---
-import { BRONZE_COLOR, BRONZE_BORDER } from '../components/themeConstants';
+// CORRECTED: Changed 'themeConstants' to 'themeconstants' (all lowercase)
+import { BRONZE_COLOR, BRONZE_BORDER } from '../components/themeconstants'; 
 import AIDisclaimer from '../components/AIDisclaimer';
 
-// --- Main ContributingFactorPage Component ---
-function ContributingFactorPage() {
+// --- Main ContributingFactorsPage Component ---
+function ContributingFactorsPage() { // Renamed from ContributingFactorPage to match filename convention
   const { id } = useParams();
   const navigate = useNavigate();
 
-  // State variables (remain the same)
+  // State variables
   const [factorData, setFactorData] = useState(null);
   const [relatedOIPs, setRelatedOIPs] = useState([]);
   const [relatedOrgs, setRelatedOrgs] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // --- Effect: Fetch All Data (remains the same as v4) ---
+  // --- Effect: Fetch All Data ---
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
@@ -45,13 +46,11 @@ function ContributingFactorPage() {
 
       try {
         const response = await apiClient.get(apiUrl);
-        if (!response.ok) {
-          const errorData = await response.json().catch(() => ({}));
-          throw new Error(`HTTP error! status: ${response.status} - ${errorData.message || 'Failed to fetch contributing factor data'}`);
-        }
+        // apiClient (axios instance) throws for non-2xx, so !response.ok check is not typical here
         const data = response.data;
 
         setFactorData(data);
+        // Ensure relatedPersons and relatedOrganizations are arrays, even if null/undefined from API
         setRelatedOIPs(data.relatedPersons ?? []);
         setRelatedOrgs(data.relatedOrganizations ?? []);
 
@@ -64,8 +63,17 @@ function ContributingFactorPage() {
         });
 
       } catch (err) {
-        console.error("Fetch error:", err);
-        setError(err.message);
+        console.error("Fetch error in ContributingFactorsPage:", err);
+        let errorMessage = "An unknown error occurred.";
+        if (err.response) { // Error from server (e.g., 404, 500)
+            errorMessage = err.response.data?.message || `Server error: ${err.response.status}`;
+        } else if (err.request) { // Request made but no response
+            errorMessage = "Network error or no response from server.";
+        } else { // Other errors (e.g., setup issue)
+            errorMessage = err.message;
+        }
+        setError(errorMessage);
+        // Ensure related states are empty on error
         setRelatedOIPs([]);
         setRelatedOrgs([]);
       } finally {
@@ -81,7 +89,7 @@ function ContributingFactorPage() {
     }
   }, [id]);
 
-  // --- Construct Breadcrumbs (remains the same) ---
+  // --- Construct Breadcrumbs ---
   const getBreadcrumbItems = () => {
       let items = [{ label: "Home", link: "/" }];
       if (loading) items.push({ label: "Loading Factor..." });
@@ -91,22 +99,25 @@ function ContributingFactorPage() {
       return items;
   };
 
-  // --- Render Loading State (remains the same) ---
+  // --- Render Loading State ---
   if (loading) {
        return (
           <>
-              <Breadcrumbs items={getBreadcrumbItems()} />
-              <div className="text-center py-20 text-gray-400">Loading contributing factor details...</div>
+              <div className="w-full px-4 md:px-8 py-4"><Breadcrumbs items={getBreadcrumbItems()} /></div>
+              <div className="text-center py-20 text-gray-400 min-h-screen flex flex-col justify-center items-center">
+                <Loader2 className="mx-auto h-12 w-12 animate-spin text-amber-500" />
+                <p className="mt-4 text-lg">Loading contributing factor details...</p>
+              </div>
           </>
       );
   }
 
-  // --- Render Error State (remains the same) ---
+  // --- Render Error State ---
   if (error) {
        return (
           <>
-              <Breadcrumbs items={getBreadcrumbItems()} />
-              <div className="text-center py-20 px-4 text-red-500 bg-black rounded-lg shadow-md max-w-4xl mx-auto mt-4">
+              <div className="w-full px-4 md:px-8 py-4"><Breadcrumbs items={getBreadcrumbItems()} /></div>
+              <div className="text-center py-20 px-4 text-red-500 bg-black rounded-lg shadow-md max-w-4xl mx-auto mt-4 min-h-screen flex flex-col justify-center items-center">
                   <AlertCircle className="mx-auto h-12 w-12 text-red-400 my-4" />
                   <h2 className="text-xl font-semibold mb-2">Error Loading Contributing Factor</h2>
                   <p className="text-sm">{error}</p>
@@ -121,12 +132,12 @@ function ContributingFactorPage() {
       );
   }
 
-   // --- Render Not Found State (remains the same) ---
+   // --- Render Not Found State ---
    if (!factorData) {
         return (
            <>
-               <Breadcrumbs items={getBreadcrumbItems()} />
-               <div className="text-center py-20 text-gray-400 bg-black rounded-lg shadow-md max-w-4xl mx-auto mt-4">
+               <div className="w-full px-4 md:px-8 py-4"><Breadcrumbs items={getBreadcrumbItems()} /></div>
+               <div className="text-center py-20 text-gray-400 bg-black rounded-lg shadow-md max-w-4xl mx-auto mt-4 min-h-screen flex flex-col justify-center items-center">
                    Contributing factor not found.
                </div>
            </>
@@ -134,15 +145,15 @@ function ContributingFactorPage() {
    }
 
 
-  // --- Render the ContributingFactor Page Content ---
+  // --- Render the ContributingFactorsPage Content ---
   return (
-    <>
+    <div className="bg-black text-gray-50 min-h-screen"> {/* Ensure full page background */}
       {/* Render breadcrumbs outside the main content blocks */}
-      <Breadcrumbs items={getBreadcrumbItems()} />
+      <div className="w-full px-4 md:px-8 py-4"><Breadcrumbs items={getBreadcrumbItems()} /></div>
 
       {/* === Block 1: Description & Related WC Cases === */}
       <div className="bg-black rounded-lg shadow-md max-w-6xl mx-auto p-6 md:p-8 mt-6 mb-8">
-        {/* Factor Header - UPDATED STYLING */}
+        {/* Factor Header */}
         <h1 className={`text-3xl md:text-4xl font-serif ${BRONZE_COLOR} text-center mb-8 uppercase`}>
           {factorData.name ?? 'Unnamed Factor'}
         </h1>
@@ -152,7 +163,6 @@ function ContributingFactorPage() {
 
           {/* Sidebar: Description */}
           <div className="md:col-span-1 p-6 bg-gray-800 rounded-md">
-            {/* Title for Description Section */}
             <h2 className={`text-xl font-semibold ${BRONZE_COLOR} mb-4 flex items-center`}>
               <FileText className="mr-2 h-5 w-5" /> Description
             </h2>
@@ -163,35 +173,24 @@ function ContributingFactorPage() {
 
           {/* Main Section: Related Wrongfully Convicted Cases */}
           <div className={`md:col-span-2 p-6 border ${BRONZE_BORDER} rounded-md bg-gray-900/30`}>
-             {/* REMOVED the H2 from here - WrongfullyConvictedList has its own title */}
-             {/* Use individualCases from factorData */}
             <WrongfullyConvictedList
               individuals={factorData.individualCases ?? []}
-              isLoading={loading}
-              error={error} // Pass error state down
+              isLoading={loading} // This loading is for the overall factorData
+              error={error}     // This error is for the overall factorData
               emptyMessage="No wrongfully convicted cases directly linked to this factor found."
             />
-			
-                            {/* *** ADDED AI DISCLAIMER HERE *** */}
-                            {/* Show disclaimer if aiGenerated is true (or null/undefined if using default) */}
-                            {/* Ensure individualData includes the 'aiGenerated' field from your API */}
-                            {factorData.aiGenerated !== false && <AIDisclaimer />}
-                            {/* Using !== false allows it to show if true OR if the field is missing (null/undefined) */}
+            {factorData.aiGenerated !== false && <AIDisclaimer />}
           </div>
         </div>
       </div> {/* End Block 1 */}
 
       {/* === Block 2: Learn More === */}
       <div className="bg-black rounded-lg shadow-md max-w-6xl mx-auto p-6 md:p-8 mt-6 mb-8">
-        {/* Title for the Learn More Block */}
         <h2 className={`text-2xl font-semibold ${BRONZE_COLOR} mb-6 text-center`}>
           Learn More
         </h2>
 
-        {/* Grid for Learn More Content */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-          {/* Related Media Items Container */}
           <div className="p-4 bg-gray-800 rounded-md">
              <RelatedMediaList
                 mediaItems={factorData.mediaItemMentions ?? []}
@@ -200,34 +199,28 @@ function ContributingFactorPage() {
                 emptyMessage="Not mentioned in any indexed media items."
              />
           </div>
-
-          {/* Related Other Involved Persons (OIPs) Container */}
           <div className="p-4 bg-gray-800 rounded-md">
              <OtherInvolvedPersonsList
-                persons={relatedOIPs}
-                isLoading={loading}
-                error={error}
+                persons={relatedOIPs} // Uses its own state
+                isLoading={loading} // Could use a specific loading state for OIPs if fetched separately
+                error={error}       // Could use a specific error state for OIPs
                 emptyMessage="No specific related people (experts, witnesses, etc.) linked to this factor."
              />
           </div>
-
-          {/* Related Organizations Container */}
           <div className="p-4 bg-gray-800 rounded-md">
             <OrganizationsMentionedList
-                organizations={relatedOrgs}
-                isLoading={loading}
-                error={error}
+                organizations={relatedOrgs} // Uses its own state
+                isLoading={loading} // Could use a specific loading state for Orgs if fetched separately
+                error={error}       // Could use a specific error state for Orgs
                 emptyMessage="No specific organizations linked to addressing this factor."
             />
           </div>
-
         </div> {/* End Learn More Grid */}
       </div> {/* End Block 2 */}
 
-      {/* Optional: Navigation Buttons at the bottom */}
       <PageNavigationButtons navigate={navigate} className="max-w-6xl mx-auto my-8" />
-    </>
+    </div>
   );
 }
 
-export default ContributingFactorPage;
+export default ContributingFactorsPage; // Renamed to match filename convention
