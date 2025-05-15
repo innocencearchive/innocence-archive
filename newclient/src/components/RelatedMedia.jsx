@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import getTypeIcon from './getTypeIcon';
 import { BookOpen } from 'lucide-react'; // Assuming lucide-react
-import { BRONZE_COLOR, BRONZE_BORDER, BRONZE_BG } from './themeConstants';
+import { BRONZE_COLOR, BRONZE_BORDER, BRONZE_BG } from './themeconstants';
 
 const RelatedMediaList = ({ items }) => {
     if (!items || items.length === 0) return null;

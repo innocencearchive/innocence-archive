@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link for internal navigation
 import { Building, ExternalLink } from 'lucide-react'; // Keep icons
 import ModuleCard from './ModuleCard'; // Assuming ModuleCard handles the seeMoreLink prop
-import { BRONZE_COLOR } from './themeConstants'; // If ModuleCard doesn't handle this itself
+import { BRONZE_COLOR } from './themeconstants'; // If ModuleCard doesn't handle this itself
 
 /**
  * FeaturedOrganizationModule Component

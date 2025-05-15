@@ -8,10 +8,10 @@ import FeaturedMediaModule from './FeaturedMediaModule';
 import ContributingFactorsModule from './ContributingFactorsModule';
 
 // Assuming theme constants are available, otherwise replace with hex codes
-// import { BRONZE_COLOR, DARK_BRONZE_COLOR, BRONZE_BORDER } from './themeConstants';
-const BRONZE_COLOR = 'text-[#af7a56]'; // Example
-const DARK_BRONZE_COLOR = 'text-[#8c6046]'; // Example
-const BRONZE_BORDER_COLOR = '#af7a56'; // Example hex code for outline
+import { BRONZE_COLOR, DARK_BRONZE_COLOR, BRONZE_BORDER } from './themeconstants';
+//const BRONZE_COLOR = 'text-[#af7a56]'; // Example
+//const DARK_BRONZE_COLOR = 'text-[#8c6046]'; // Example
+//const BRONZE_BORDER_COLOR = '#af7a56'; // Example hex code for outline
 
 /**
  * ExploreGrid Component

@@ -3,7 +3,7 @@ import React from 'react';
 // Removed unused ExternalLink import
 import { Link } from 'react-router-dom'; // Use Link for internal routing
 // Assuming theme constants are correctly imported
-import { BRONZE_COLOR } from './themeConstants';
+import { BRONZE_COLOR } from './themeconstants';
 
 /**
  * MediaCard Component

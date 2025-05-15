@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 // Removed unused import: import getTypeIcon from './getTypeIcon';
 // Removed unused import: import { BookOpen } from 'lucide-react';
-import { BRONZE_COLOR } from './themeConstants'; // Assuming this is used and defined
+import { BRONZE_COLOR } from './themeconstants'; // Assuming this is used and defined
 
 /**
  * Reusable component to display related lists (e.g., Individuals, Factors, MediaItems).

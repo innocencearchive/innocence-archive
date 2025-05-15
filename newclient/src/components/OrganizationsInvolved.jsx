@@ -5,7 +5,7 @@ import { Building } from 'lucide-react';
 // Import Link from react-router-dom for internal navigation
 import { Link } from 'react-router-dom';
 // Assuming theme constants are correctly imported
-import { BRONZE_COLOR } from './themeConstants';
+import { BRONZE_COLOR } from './themeconstants';
 
 /**
  * OrganizationsInvolved Component

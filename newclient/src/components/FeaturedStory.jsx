@@ -3,7 +3,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 // Make sure these imports point to your actual files/definitions
-import { BRONZE_COLOR, DARK_BRONZE_COLOR, BRONZE_BORDER } from './themeConstants'; // Or '../components/themeconstants'
+import { BRONZE_COLOR, DARK_BRONZE_COLOR, BRONZE_BORDER } from './themeconstants'; // Or '../components/themeconstants'
 
 const FeaturedStory = ({ story }) => {
 

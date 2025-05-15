@@ -2,7 +2,7 @@ import React from 'react';
 import { ExternalLink } from 'lucide-react'; // Import icon for external links
 
 // Assuming BRONZE_COLOR is defined elsewhere
-const BRONZE_COLOR = "text-amber-400"; // Example placeholder
+import { BRONZE_COLOR } from './themeconstants.js';
 
 // Helper function to display N/A for null/undefined/empty strings
 const displayValue = (value, suffix = '') => {
