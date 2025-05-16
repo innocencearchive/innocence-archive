@@ -36,7 +36,7 @@ const HeroSection = () => {
           className={`text-3xl sm:text-4xl lg:text-5xl xl:text-[4.25rem] ${LIGHT_BRONZE_COLOR} font-serif uppercase self-center md:self-start mb-6 md:mb-8`} // Added bottom margin
           style={{ lineHeight: '.9' }} // Keep line height for style
         >
-           Stories <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of the<br />&nbsp;&nbsp;Wrongfully<br /> &nbsp;&nbsp;&nbsp;&nbsp;Convicted<br />
+           Stories <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of the<br />&nbsp;Wrongfully<br /> &nbsp;&nbsp;&nbsp;&nbsp;Convicted<br />
         </h1>
         {/* Removed <br /><br /> */}
 
