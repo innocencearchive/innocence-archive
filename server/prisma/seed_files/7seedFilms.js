@@ -17,7 +17,7 @@ const glob = require('glob'); // Ensure installed: npm install glob
 // --- Configuration ---
 
 // !!! --- SET DRY_RUN TO true FOR SIMULATION, false FOR ACTUAL SEEDING --- !!!
-const DRY_RUN = true; // <<<<< Set to false for actual database changes >>>>>
+const DRY_RUN = false; // <<<<< Set to false for actual database changes >>>>>
 // !!! ----------------------------------------------------------------- !!!
 
 // Define the input directory containing the REFINED FILM JSON files
