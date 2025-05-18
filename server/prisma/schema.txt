@@ -93,9 +93,17 @@ enum OrganizationLinkType {
   OTHER
 }
 
+// --- NEW ENUM for Streaming Provider Type ---
+enum StreamingType {
+  SUBSCRIPTION
+  RENT
+  BUY
+  FREE
+  OTHER
+  UNKNOWN
+}
 
 // --- Core Models ---
-
 
 // --- IndividualGroup Model ---
 model IndividualGroup {
@@ -127,7 +135,7 @@ model MediaItemSourceLink {
   @@map("media_item_source_links")
 }
 
-// --- MediaWork Model ---
+// --- MediaWork Model (with new fields for external data and streaming) ---
 model MediaWork {
   id                       Int           @id @default(autoincrement())
   title                    String
@@ -136,19 +144,54 @@ model MediaWork {
   publicationOrReleaseYear Int?
   publisherOrNetwork       String?
   focusOrTheme             String?       @db.Text
-  summaryNotes             String?       @db.Text
-  availabilityNotes        String?       @db.Text
-  sourceUrl                String?
-  aiGenerated              Boolean       @default(true) // ADD THIS FIELD
+  summaryNotes             String?       @db.Text // General summary, can be populated from external sources
+  availabilityNotes        String?       @db.Text // General availability, e.g., "Out of print"
+  sourceUrl                String?       // General source URL, e.g., to a series homepage
+  aiGenerated              Boolean       @default(true)
   createdAt                DateTime      @default(now())
   updatedAt                DateTime      @updatedAt
 
+  // --- NEW Fields for Generic External API data ---
+  // For films, this would be the TMDB ID. For books, could be ISBN or OpenLibrary ID, etc.
+  externalId               String?       @unique
+  // Path to a primary image (e.g., poster for films, cover for books).
+  // This would be a relative path; the base URL (e.g., TMDB's image base URL) would be handled in application logic.
+  imagePath                String?
+  // Timestamp of when data from the external source (identified by externalId) was last fetched/updated for this work.
+  lastExternalFetch        DateTime?
+
   // --- Relationships ---
   items MediaItem[]
+  // NEW: Relationship to StreamingProvider (one MediaWork can have many streaming options)
+  streamingProviders StreamingProvider[]
 
   @@map("media_works")
-}0
-  
+}
+
+
+// --- NEW MODEL: StreamingProvider ---
+// Stores details about where a MediaWork (typically film/series) can be streamed, rented, or bought.
+// Data primarily sourced from Watchmode API, linked via MediaWork.externalId (TMDB ID for films).
+model StreamingProvider {
+  id                  Int           @id @default(autoincrement())
+  providerName        String        // e.g., "Netflix", "Amazon Prime Video", "iTunes"
+  watchmodeProviderId Int?          // Watchmode's unique ID for the provider (if available)
+  streamingType       StreamingType // e.g., SUBSCRIPTION, RENT, BUY
+  url                 String?       // Deeplink to the content on the provider's site/app
+  priceCurrency       String?       // e.g., "USD" (for RENT/BUY)
+  priceAmount         Float?        // e.g., 3.99 (for RENT/BUY)
+  presentationQuality String?       // e.g., "HD", "SD", "4K"
+  lastChecked         DateTime      // Timestamp of when this specific streaming option was last checked/updated
+  createdAt           DateTime      @default(now())
+  updatedAt           DateTime      @updatedAt
+
+  // --- Relationships ---
+  mediaWork   MediaWork @relation(fields: [mediaWorkId], references: [id], onDelete: Cascade)
+  mediaWorkId Int       // Foreign key back to the MediaWork
+
+  @@unique([mediaWorkId, providerName, streamingType, presentationQuality]) // Ensure uniqueness for a given film, provider, type, and quality
+  @@map("streaming_providers")
+}
 
 
 // --- MediaItem Model ---
@@ -163,7 +206,7 @@ model MediaItem {
   summaryNotes               String?              @db.Text
   keyQuotes                  String?              @db.Text
   sourceUrl                  String?
-  aiGenerated                Boolean              @default(true) // ADD THIS FIELD
+  aiGenerated                Boolean              @default(true)
   createdAt                  DateTime             @default(now())
   updatedAt                  DateTime             @updatedAt
 
@@ -188,9 +231,15 @@ model MediaItem {
 
 
 // --- IndividualSourceLink Model (Join Table) ---
+// Note: The @@unique([individualId, informationSourceId]) constraint has been removed
+// as per earlier discussions to allow multiple links from the same individual to the same source.
+// The @@unique([individualId, specificUrl]) from your schema.txt is retained.
 model IndividualSourceLink {
   id                  Int               @id @default(autoincrement())
   specificUrl         String            // The specific URL linking this individual to this source
+  // You might consider adding a field here to describe the context or reason for this specific link,
+  // especially now that multiple links between the same individual and source are allowed.
+  // For example: linkContext String? @db.Text
   createdAt           DateTime          @default(now())
   updatedAt           DateTime          @updatedAt
 
@@ -199,7 +248,8 @@ model IndividualSourceLink {
   individualId        Int
   informationSource   InformationSource @relation("SourceLinks", fields: [informationSourceId], references: [id], onDelete: Cascade)
   informationSourceId Int
-  @@unique([individualId, specificUrl])
+
+  @@unique([individualId, specificUrl]) // Retained from your schema.txt
   @@map("individual_source_links")
 }
 
@@ -229,7 +279,6 @@ model Individual {
   lastName                   String
   suffix                     String?
   nickname                   String?
-  // NEW FIELD for handling duplicates
   disambiguationTag          String?            // e.g., "NRE Case 123", "Witness", "b.1990", "From City X"
   status                     IndividualStatus?
   crimeDate                  DateTime?
@@ -242,7 +291,7 @@ model Individual {
   caseLocationState          String?
   caseLocationCountry        String             @default("USA")
   narrativeSummary           String?            @db.Text
-  aiGenerated                Boolean            @default(true) // ADD THIS FIELD
+  aiGenerated                Boolean            @default(true)
   createdAt                  DateTime           @default(now())
   updatedAt                  DateTime           @updatedAt
 
@@ -261,11 +310,7 @@ model Individual {
   sourceLinks                IndividualSourceLink[] @relation("IndividualLinks")
   groups                     IndividualGroup[]  @relation("IndividualGroupMembership")
 
-  // --- UPDATED UNIQUE CONSTRAINT ---
-  // Includes the new disambiguationTag.
-  // NULLs are treated as distinct, so only identical combinations including the tag (or lack thereof) will conflict.
   @@unique([firstName, middleName, lastName, suffix, disambiguationTag])
-
   @@map("individuals")
 }
 
@@ -279,7 +324,7 @@ model Organization {
   locationCountry      String               @default("USA")
   website              String?
   notes                String?              @db.Text // Used for Mission/Description
-  aiGenerated          Boolean              @default(true) // ADD THIS FIELD
+  aiGenerated          Boolean              @default(true)
   createdAt            DateTime             @default(now())
   updatedAt            DateTime             @updatedAt
 
@@ -300,7 +345,7 @@ model ContributingFactor {
   id                   Int              @id @default(autoincrement())
   name                 String           @unique
   description          String?          @db.Text
-  aiGenerated          Boolean          @default(true) // ADD THIS FIELD
+  aiGenerated          Boolean          @default(true)
   createdAt            DateTime         @default(now())
   updatedAt            DateTime         @updatedAt
 
@@ -330,13 +375,13 @@ model CrimeCategory {
 model InvolvedPerson { // Represents Other Involved Persons (OIPs) - non-WC
   id                Int                  @id @default(autoincrement())
   firstName         String
-  middleName        String?              // Added middleName field
+  middleName        String?
   lastName          String
-  suffix            String?              // Added suffix field
-  nickname          String?              // Added nickname field
+  suffix            String?
+  nickname          String?
   role              InvolvedPersonRole?
   notes             String?              @db.Text
-  aiGenerated       Boolean              @default(true) // ADD THIS FIELD
+  aiGenerated       Boolean              @default(true)
   createdAt         DateTime             @default(now())
   updatedAt         DateTime             @updatedAt
 
@@ -346,9 +391,7 @@ model InvolvedPerson { // Represents Other Involved Persons (OIPs) - non-WC
   affiliatedOrgs    Organization[]       @relation("PersonsAffiliatedWithOrganization")
   relatedFactors    ContributingFactor[] @relation("FactorRelatedPersons")
 
-  // --- Unique constraint for InvolvedPerson (without disambiguation tag) ---
   @@unique([firstName, middleName, lastName, suffix])
-
   @@map("involved_persons")
 }
 
@@ -369,8 +412,7 @@ model OrganizationLink {
   @@map("organization_links")
 }
 
-// In schema.prisma
-
+// --- FeaturedContentSetting Model ---
 model FeaturedContentSetting {
   id                  Int      @id @default(1) // Use a fixed ID for the single settings row
   featuredStoryId     Int?     // Store Individual ID

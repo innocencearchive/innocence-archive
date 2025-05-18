@@ -159,6 +159,8 @@ model MediaWork {
   imagePath                String?
   // Timestamp of when data from the external source (identified by externalId) was last fetched/updated for this work.
   lastExternalFetch        DateTime?
+  SourcingCredit           String? // NEWLY ADDED: To store sourcing credit, e.g., for TMDB
+
 
   // --- Relationships ---
   items MediaItem[]
