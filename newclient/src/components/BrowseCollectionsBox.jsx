@@ -8,7 +8,7 @@ const BrowseCollectionsBox = () => {
   const collections = [
     { name: 'Books', type: 'BOOK', icon: BookOpen, path: '/search?type=BOOK' },
     { name: 'Films', type: 'FILM', icon: FilmIcon, path: '/search?type=FILM' },
-    { name: 'Podcasts', type: 'PODCAST', icon: Microphone, path: '/search?type=PODCAST' },
+    { name: 'Podcasts', type: 'PODCAST_SERIES', icon: Microphone, path: '/search?type=PODCAST_SERIES' },
     // Future: Add PODCAST_SERIES, etc.
   ];
 
