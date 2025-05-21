@@ -1,15 +1,16 @@
 // src/pages/HomePage.jsx
-import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
+import apiClient from '../apiClient';
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'; // Import Link
-import { AlertCircle, Loader2, BookOpen, Clapperboard } from 'lucide-react'; // Import icons
+import { AlertCircle, Loader2 } from 'lucide-react'; 
+
 import ExploreGrid from '../components/ExploreGrid';
 import FeaturedStory from '../components/FeaturedStory';
 import HowToUse from '../components/HowToUse';
 import MissionStatement from '../components/MissionStatement';
 import RecentUpdates from '../components/RecentUpdates';
 import HeroSection from '../components/HeroSection';
-import { BRONZE_BG, BRONZE_COLOR } from '../components/themeconstants'; // Import theme constants
+// BrowseCollectionsBox is imported but will now be rendered *inside* HeroSection
+import BrowseCollectionsBox from '../components/BrowseCollectionsBox'; 
 
 const staticStats = [
   { id: 1, text: "Over 3,000 exonerations nationwide since 1989." },
@@ -160,8 +161,17 @@ const HomePage = () => {
 
   return (
     <>
-      <HeroSection />
-      <main className="bg-black py-16 md:py-20 lg:py-24 px-4 md:px-8">
+      {/* HeroSection will now be responsible for rendering BrowseCollectionsBox internally */}
+      <HeroSection /> 
+      
+      {/* --- REMOVED: Placeholder for BrowseCollectionsBox from here --- */}
+      {/* <div className="bg-black px-4 md:px-8 py-8 md:py-12"> 
+        <BrowseCollectionsBox />
+      </div> 
+      */}
+      {/* --- END OF REMOVED Placeholder --- */}
+
+      <main className="bg-black pt-8 md:pt-12 lg:pt-16 px-4 md:px-8 pb-16 md:pb-20 lg:pb-24">
         {error && (
             <div className="max-w-6xl mx-auto mb-10 p-3 rounded-md bg-red-900/50 text-red-300 flex items-center">
                <AlertCircle className="mr-2 h-5 w-5 flex-shrink-0" />
@@ -181,33 +191,6 @@ const HomePage = () => {
               factors={featuredFactors}
             />
         </div>
-
-        {/* --- SECTION FOR SPECIAL SEARCH LINKS (Simplified) --- */}
-        <div className="max-w-6xl mx-auto mb-16 md:mb-20 lg:mb-24 text-center">
-          <div className="space-y-4"> {/* Stacks children vertically with space */}
-            <p>
-              <Link
-                to="/search?type=BOOK"
-                className={`inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white ${BRONZE_BG} hover:bg-opacity-80 transition-colors w-full sm:w-auto`}
-              >
-                <BookOpen className="mr-2 h-5 w-5" />
-                List all the books on wrongful convictions
-              </Link>
-            </p>
-            
-            <p> {/* New p tag for the documentary link */}
-              <Link
-                to="/search?type=DOCUMENTARY"
-                className={`inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-sky-600 hover:bg-sky-700 transition-colors w-full sm:w-auto`}
-              >
-                <Clapperboard className="mr-2 h-5 w-5" />
-                List all the documentaries on wrongful convictions
-              </Link>
-            </p>
-            {/* You could add more links here, e.g., for FILMS (non-documentary) or PODCAST_SERIES */}
-          </div>
-        </div>
-        {/* --- END OF SECTION --- */}
 
         <div className="mb-16 md:mb-20 lg:mb-24">
            <HowToUse />
