@@ -13,9 +13,10 @@ import OrganizationInfoPage from './pages/OrganizationInfoPage';
 import MediaWorkPage from './pages/MediaWorkPage';
 import MediaItemPage from './pages/MediaItemPage';
 import ContributingFactorsPage from './pages/ContributingFactorsPage';
-import OtherIndividualProfilePage from './pages/OtherIndividualProfilePage'; 
+import OtherIndividualProfilePage from './pages/OtherIndividualProfilePage';
 import SearchResultsPage from './pages/SearchResultsPage'; // Adjust path if needed
 import CombinedMediaPage from './pages/CombinedMediaPage'; // Adjust path if needed
+import FilmPage from './pages/FilmPage'; // <-- NEW: Import FilmPage
 import AdminSettingsPage from './pages/AdminSettingsPage'; // Adjust path if needed
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
             {/* Main Content Area */}
             <main className="flex-grow">
                 <Routes>
-				  <Route path="/search" element={<SearchResultsPage />} />
+                  <Route path="/search" element={<SearchResultsPage />} />
                   {/* Route for the Home Page */}
                   <Route path="/" element={<HomePage />} />
 
@@ -44,11 +45,15 @@ function App() {
                   <Route path="/profile/:id" element={<IndividualProfilePage />} />
 
                   {/* Route for Other Involved Persons */}
-                  <Route path="/person/:id" element={<OtherIndividualProfilePage />} /> {/* <-- Add route for OIP */}
+                  <Route path="/person/:id" element={<OtherIndividualProfilePage />} />
 
                   {/* Routes for Media */}
+                  {/* NEW: Route for standalone Films/Documentaries */}
+                  <Route path="/film/:id" element={<FilmPage />} />
+                  {/* CombinedMediaPage will now primarily be for Books or other non-film/non-series media */}
                   <Route path="/combined/:id" element={<CombinedMediaPage />} />
-				  <Route path="/media/:id" element={<MediaWorkPage />} /> {/* Changed from /media/ to /work/ previously? Double check */}
+                  {/* MediaWorkPage is for series (Podcasts, Docuseries, TV Series) */}
+                  <Route path="/media/:id" element={<MediaWorkPage />} />
                   <Route path="/item/:id" element={<MediaItemPage />} />
 
                   {/* Route for Organizations */}
@@ -56,9 +61,11 @@ function App() {
 
                   {/* Route for Contributing Factors */}
                   <Route path="/factor/:id" element={<ContributingFactorsPage />} />
-                  {/* Route for Contributing Factors */}
+                  
+                  {/* Route for Admin Settings */}
                   <Route path="/adminsettings" element={<AdminSettingsPage />} />
-                  {/* TODO: Add routes for other pages (e.g., Search Results, About) */}
+                  
+                  {/* TODO: Add routes for other pages (e.g., About) */}
                 </Routes>
             </main>
 
