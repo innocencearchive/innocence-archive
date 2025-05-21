@@ -43,20 +43,20 @@ router.get('/:id', validateWorkId, async (req, res) => {
   const workIdInt = req.workIdInt; // Get validated ID from middleware
   console.log(`Request received for GET /api/mediaworks/${workIdInt}`);
 
-  // Check for include query parameters (e.g., ?include=items,streamingProviders)
-  // For simplicity, we'll explicitly include what FilmPage needs.
-  // A more dynamic approach could parse req.query.include if needed for other pages.
+  // Define what to include.
+  // We always want items and streamingProviders (if any).
+  // We also want bookPurchaseDetails if it's a book.
+  // For simplicity in this step, we'll try to include bookPurchaseDetails always.
+  // Prisma will return it as null if the relation doesn't exist or the work isn't a book
+  // with such details. Your frontend will need to handle the possibility of it being null.
   const includeRelations = {
-    items: { // Always include items
+    items: {
       orderBy: { itemNumber: 'asc' }
     },
-    // Conditionally include streamingProviders if the client requests it,
-    // or always include it if this route is heavily used by FilmPage.
-    // For FilmPage, it's requested in the URL, but we'll hardcode it here for clarity
-    // as the dynamic parsing of `?include=` is not implemented.
-    streamingProviders: { // MODIFIED: Explicitly include streamingProviders
-        orderBy: { providerName: 'asc' } // Optional: order them
-    }
+    streamingProviders: {
+        orderBy: { providerName: 'asc' }
+    },
+    bookPurchaseDetails: true // MODIFIED: Add this line to include book purchase details
   };
 
   try {
@@ -69,6 +69,8 @@ router.get('/:id', validateWorkId, async (req, res) => {
 
     if (singleMediaWork) {
       console.log(`Found media work with ID: ${workIdInt}`);
+      // The 'bookPurchaseDetails' field will be present in singleMediaWork if found,
+      // otherwise it will be null.
       res.json(singleMediaWork);
     } else {
       console.log(`Media work with ID: ${workIdInt} not found.`);
