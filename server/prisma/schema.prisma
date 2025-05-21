@@ -239,9 +239,11 @@ model MediaItem {
 model IndividualSourceLink {
   id                  Int               @id @default(autoincrement())
   specificUrl         String            // The specific URL linking this individual to this source
+  headline            String?           // NEW: The headline of the linked article/source
   // You might consider adding a field here to describe the context or reason for this specific link,
   // especially now that multiple links between the same individual and source are allowed.
   // For example: linkContext String? @db.Text
+  description         String?           @db.Text // Optional: Context or reason for this specific link (can be used if headline is not enough)
   createdAt           DateTime          @default(now())
   updatedAt           DateTime          @updatedAt
 
@@ -254,6 +256,7 @@ model IndividualSourceLink {
   @@unique([individualId, specificUrl]) // Retained from your schema.txt
   @@map("individual_source_links")
 }
+
 
 
 // --- InformationSource Model ---

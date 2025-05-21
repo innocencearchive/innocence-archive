@@ -1,3 +1,9 @@
+#This script is a good starting point but it has errors. it doesn't retrieve
+#the ID of the entry or the poster image properly.
+#if this gets uploaded to Gemini, it should prompt that it needs fixes for these items
+#the update.py in the same folder does those functions better.
+
+
 import requests
 import os
 import json
