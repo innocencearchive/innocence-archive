@@ -164,12 +164,46 @@ model MediaWork {
 
   // --- Relationships ---
   items MediaItem[]
-  // NEW: Relationship to StreamingProvider (one MediaWork can have many streaming options)
   streamingProviders StreamingProvider[]
+  bookPurchaseDetails      BookPurchaseDetails?
 
   @@map("media_works")
 }
 
+
+model BookPurchaseDetails {
+  id                      Int      @id @default(autoincrement())
+  mediaWorkId             Int      @unique // Foreign key to MediaWork
+  mediaWork               MediaWork @relation(fields: [mediaWorkId], references: [id], onDelete: Cascade)
+
+  // Fields from Google Books API
+  subtitle                String?
+  pageCount               Int?
+  googleBooksPreviewLink  String?  // volumeInfo.previewLink
+  googleBooksWebReaderLink String? // accessInfo.webReaderLink
+  googleBooksBuyLink      String?  // saleInfo.buyLink (from Google Play)
+  googleBooksCategories   String[] // list of categories/subjects
+
+  // Purchase info you might add/curate
+  amazonPurchaseUrl       String?
+  amazonPriceAmount       Float?
+  amazonPriceCurrency     String?
+  // You could add fields for other vendors too if desired
+
+  listPriceAmount         Float?   // from saleInfo.listPrice.amount
+  listPriceCurrency       String?  // from saleInfo.listPrice.currencyCode
+  retailPriceAmount       Float?   // from saleInfo.retailPrice.amount
+  retailPriceCurrency     String?  // from saleInfo.retailPrice.currencyCode
+  isEbookGoogle           Boolean? // from saleInfo.isEbook (Google Play)
+  saleabilityGoogle       String?  // from saleInfo.saleability (Google Play)
+  viewabilityGoogle       String?  // from accessInfo.viewability
+
+  lastApiCheck            DateTime @default(now())
+  createdAt               DateTime @default(now())
+  updatedAt               DateTime @updatedAt
+
+  @@map("book_purchase_details")
+}
 
 // --- NEW MODEL: StreamingProvider ---
 // Stores details about where a MediaWork (typically film/series) can be streamed, rented, or bought.
