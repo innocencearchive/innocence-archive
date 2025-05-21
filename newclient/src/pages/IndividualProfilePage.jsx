@@ -1,6 +1,7 @@
 /* ========================================================================== */
 /* --- File: src/pages/IndividualProfilePage.jsx (Disclaimer Added) ---     */
 /* --- MODIFIED: Updated error handling for apiClient (Axios) ---           */
+/* --- MODIFIED: Moved OtherSourcesList into Story section ---            */
 /* ========================================================================== */
 import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
 import React, { useEffect, useState, useMemo } from 'react';
@@ -42,35 +43,23 @@ function IndividualProfilePage() {
             const apiUrl = `/api/individuals/${id}`;
             console.log(`Fetching data from (using apiClient): ${apiUrl}`);
             try {
-                // Make the API call using your apiClient
                 const response = await apiClient.get(apiUrl);
-                
-                // With Axios, the actual data from a successful response is in response.data
                 const data = response.data;
                 console.log("Fetched individual data:", data);
                 setIndividualData(data);
 
             } catch (err) {
-                // Axios throws an error for non-2xx status codes.
-                // The error object (err) often contains more details.
                 console.error("Fetch error:", err);
                 
                 let errorMessage = "An unknown error occurred while fetching profile data.";
                 if (err.response) {
-                    // The request was made and the server responded with a status code
-                    // that falls out of the range of 2xx
                     console.error("Error response data:", err.response.data);
                     console.error("Error response status:", err.response.status);
-                    // Use the error message from the backend if available
                     errorMessage = err.response.data?.message || `Error: ${err.response.status} - ${err.response.statusText}`;
                 } else if (err.request) {
-                    // The request was made but no response was received
-                    // `err.request` is an instance of XMLHttpRequest in the browser and an instance of
-                    // http.ClientRequest in node.js
                     console.error("Error request:", err.request);
                     errorMessage = "No response received from server. Please check your network connection.";
                 } else {
-                    // Something happened in setting up the request that triggered an Error
                     console.error('Error message:', err.message);
                     errorMessage = err.message;
                 }
@@ -102,6 +91,21 @@ function IndividualProfilePage() {
         }
         return sections;
     }, [individualData]);
+    
+    // --- Prepare data for OtherSourcesList ---
+    const otherSourcesData = useMemo(() => {
+        if (!individualData || !individualData.sourceLinks || individualData.sourceLinks.length === 0) {
+            return [];
+        }
+        return individualData.sourceLinks.map(link => ({
+            id: link.id, // Using IndividualSourceLink id as key for the list item
+            sourceName: link.informationSource.name, // Name of the source (e.g., "The Innocence Project")
+            url: link.specificUrl, // The specific URL of the article
+            headline: link.headline, // The headline of the article
+            description: link.description // Optional: description from IndividualSourceLink
+        }));
+    }, [individualData]);
+
 
     // --- Prepare Combined List of Related Individuals ---
     const combinedRelatedIndividuals = useMemo(() => {
@@ -181,6 +185,22 @@ function IndividualProfilePage() {
                         {/* Story Narrative Container */}
                         <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg`}>
                             <StoryNarrative storySections={storySectionsForNarrative} />
+                            
+                            {/* MOVED: Other Sources List now here */}
+                            {otherSourcesData.length > 0 && (
+                                <div className="mt-6 pt-6 border-t border-gray-700"> {/* Added margin and top border for separation */}
+                                    <h3 className={`text-xl font-semibold mb-4 ${BRONZE_COLOR}`}>Other Sources</h3>
+                                    {/* Retaining inner div for consistent padding/styling if OtherSourcesList expects it or for direct styling */}
+                                    <div className={`p-0`}> {/* Adjusted padding, can be styled further in OtherSourcesList or here */}
+                                        <OtherSourcesList
+                                            sources={otherSourcesData}
+                                            isLoading={loading} //isLoading and error are for the whole page data
+                                            error={error}
+                                        />
+                                    </div>
+                                </div>
+                            )}
+
                             {individualData.aiGenerated !== false && <AIDisclaimer />}
                         </div>
                     </div>
@@ -231,22 +251,7 @@ function IndividualProfilePage() {
                                 error={error}
                             />
                         </div>
-                         {/* Other Sources */}
-                         {individualData.sourceLinks && individualData.sourceLinks.length > 0 && (
-                            <div className="md:col-span-2">
-                                <div className={`p-4 border ${BRONZE_BORDER} rounded-lg h-full overflow-y-auto max-h-96`}>
-                                    <OtherSourcesList
-                                        sources={individualData.sourceLinks.map(link => ({
-                                            id: link.informationSource.id,
-                                            name: link.informationSource.name,
-                                            url: link.specificUrl || link.informationSource.baseUrl
-                                        })) ?? []}
-                                        isLoading={loading}
-                                        error={error}
-                                    />
-                                </div>
-                            </div>
-                         )}
+                         {/* Other Sources section was here, now moved up */}
                     </div>
                 </div>
             </div>
