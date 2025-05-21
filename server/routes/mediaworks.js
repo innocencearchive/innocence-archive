@@ -6,7 +6,6 @@ const router = express.Router(); // Create an Express router instance
 const prisma = new PrismaClient(); // Initialize Prisma Client
 
 // --- Helper Function for ID Validation ---
-// (Assuming you might want this for consistency, optional)
 const validateWorkId = (req, res, next) => {
     const idString = req.params.id || req.params.workId; // Handle both :id and :workId params
     const idInt = parseInt(idString, 10);
@@ -16,7 +15,7 @@ const validateWorkId = (req, res, next) => {
         return res.status(400).json({ message: 'Invalid MediaWork ID format. ID must be an integer.' });
     }
     // Attach the validated integer ID to the request object
-    req.workIdInt = idInt; // Use a consistent name like workIdInt
+    req.workIdInt = idInt;
     next(); // Proceed
 };
 
@@ -38,22 +37,34 @@ router.get('/', async (req, res) => {
   }
 });
 
-// GET /api/mediaworks/:id  (Fetches a single media work by its ID, including its items)
-// Using validateWorkId middleware assuming :id refers to workId
+// GET /api/mediaworks/:id  (Fetches a single media work by its ID)
+// This route is used by FilmPage.jsx, CombinedMediaPage.jsx, and MediaWorkPage.jsx (for series)
 router.get('/:id', validateWorkId, async (req, res) => {
   const workIdInt = req.workIdInt; // Get validated ID from middleware
   console.log(`Request received for GET /api/mediaworks/${workIdInt}`);
+
+  // Check for include query parameters (e.g., ?include=items,streamingProviders)
+  // For simplicity, we'll explicitly include what FilmPage needs.
+  // A more dynamic approach could parse req.query.include if needed for other pages.
+  const includeRelations = {
+    items: { // Always include items
+      orderBy: { itemNumber: 'asc' }
+    },
+    // Conditionally include streamingProviders if the client requests it,
+    // or always include it if this route is heavily used by FilmPage.
+    // For FilmPage, it's requested in the URL, but we'll hardcode it here for clarity
+    // as the dynamic parsing of `?include=` is not implemented.
+    streamingProviders: { // MODIFIED: Explicitly include streamingProviders
+        orderBy: { providerName: 'asc' } // Optional: order them
+    }
+  };
 
   try {
     const singleMediaWork = await prisma.mediaWork.findUnique({
       where: {
         id: workIdInt
       },
-       include: {
-         items: { // Include related media items
-             orderBy: { itemNumber: 'asc' } // Order items if possible
-         }
-       }
+      include: includeRelations // Use the defined includes
     });
 
     if (singleMediaWork) {
@@ -69,10 +80,9 @@ router.get('/:id', validateWorkId, async (req, res) => {
   }
 });
 
-// --- Routes for related data ---
+// --- Routes for related data (used by various pages) ---
 
 // GET /api/mediaworks/:workId/individuals (Fetches individuals mentioned in items of a specific media work)
-// Using validateWorkId middleware
 router.get('/:workId/individuals', validateWorkId, async (req, res) => {
   const workIdInt = req.workIdInt;
   console.log(`Request received for GET /api/mediaworks/${workIdInt}/individuals`);
@@ -99,7 +109,6 @@ router.get('/:workId/individuals', validateWorkId, async (req, res) => {
 });
 
 // GET /api/mediaworks/:workId/involvedpersons (Fetches OIPs mentioned in items of a specific media work)
-// Using validateWorkId middleware
 router.get('/:workId/involvedpersons', validateWorkId, async (req, res) => {
   const workIdInt = req.workIdInt;
   console.log(`Request received for GET /api/mediaworks/${workIdInt}/involvedpersons`);
@@ -126,7 +135,6 @@ router.get('/:workId/involvedpersons', validateWorkId, async (req, res) => {
 });
 
 // GET /api/mediaworks/:workId/factors (Fetches factors mentioned in items of a specific media work)
-// Using validateWorkId middleware
 router.get('/:workId/factors', validateWorkId, async (req, res) => {
   const workIdInt = req.workIdInt;
   console.log(`Request received for GET /api/mediaworks/${workIdInt}/factors`);
@@ -152,34 +160,27 @@ router.get('/:workId/factors', validateWorkId, async (req, res) => {
   }
 });
 
-// *** NEW ROUTE ADDED ***
 // GET /api/mediaworks/:workId/organizations (Fetches organizations mentioned in items of a specific media work)
-// Using validateWorkId middleware
 router.get('/:workId/organizations', validateWorkId, async (req, res) => {
-    const workIdInt = req.workIdInt; // Get validated ID from middleware
+    const workIdInt = req.workIdInt;
     console.log(`Request received for GET /api/mediaworks/${workIdInt}/organizations`);
 
     try {
-        // Find all unique Organization records linked to any MediaItem associated with the given workIdInt
         const organizations = await prisma.organization.findMany({
             where: {
-                // Look at the 'mediaItemMentions' relation on the Organization model
                 mediaItemMentions: {
-                    // Check if 'some' (at least one) of the related MediaItems...
                     some: {
-                        // ...has a workId matching the one from the URL parameter
                         workId: workIdInt
                     }
                 }
             },
-            // Optional: Order the results
             orderBy: {
                 name: 'asc',
             }
         });
 
         console.log(`Found ${organizations.length} organizations related to MediaWork ID: ${workIdInt}`);
-        res.json(organizations); // Send the list of organizations back
+        res.json(organizations);
 
     } catch (error) {
         console.error(`Error fetching organizations for MediaWork ${workIdInt}:`, error);
@@ -188,6 +189,6 @@ router.get('/:workId/organizations', validateWorkId, async (req, res) => {
 });
 
 // --- TODO: Add routes for POST (create), PUT (update), DELETE ---
-// --- TODO: Add route for /api/mediaworks/:workId/othersources if needed ---
+// --- TODO: Add route for /api/mediaworks/:workId/othersources if needed (currently handled by mediaitems.js for item-specific sources) ---
 
-module.exports = router; // Export the router so server.js can use it
+module.exports = router;
