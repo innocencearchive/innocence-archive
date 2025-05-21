@@ -10,70 +10,48 @@ import Footer from './components/Footer'; // Ensure path is correct
 import HomePage from './pages/HomePage';
 import IndividualProfilePage from './pages/IndividualProfilePage';
 import OrganizationInfoPage from './pages/OrganizationInfoPage';
-import MediaWorkPage from './pages/MediaWorkPage';
-import MediaItemPage from './pages/MediaItemPage';
+import MediaWorkPage from './pages/MediaWorkPage'; // For Series
+import MediaItemPage from './pages/MediaItemPage'; // For Episodes/Chapters
 import ContributingFactorsPage from './pages/ContributingFactorsPage';
 import OtherIndividualProfilePage from './pages/OtherIndividualProfilePage';
-import SearchResultsPage from './pages/SearchResultsPage'; // Adjust path if needed
-import CombinedMediaPage from './pages/CombinedMediaPage'; // Adjust path if needed
-import FilmPage from './pages/FilmPage'; // <-- NEW: Import FilmPage
-import AdminSettingsPage from './pages/AdminSettingsPage'; // Adjust path if needed
+import SearchResultsPage from './pages/SearchResultsPage';
+import CombinedMediaPage from './pages/CombinedMediaPage'; // Might be deprecated or used for 'OTHER'
+import FilmPage from './pages/FilmPage';
+import BookPage from './pages/BookPage'; // <-- NEW: Import BookPage
+import AdminSettingsPage from './pages/AdminSettingsPage';
 
 function App() {
   const location = useLocation();
-  // Only render the standard header if not on the homepage
   const showHeader = location.pathname !== '/';
 
   return (
-    // Outermost container
     <div className="min-h-screen bg-gray-900 text-gray-50 font-sans flex flex-col py-8">
-
-        {/* Centered Content Container */}
         <div className="w-full max-w-[90%] mx-auto bg-black rounded-lg shadow-lg flex flex-col flex-grow overflow-hidden">
-
-            {/* Conditionally render Header */}
             {showHeader && <Header />}
-
-            {/* Main Content Area */}
             <main className="flex-grow">
                 <Routes>
                   <Route path="/search" element={<SearchResultsPage />} />
-                  {/* Route for the Home Page */}
                   <Route path="/" element={<HomePage />} />
-
-                  {/* Routes for Wrongfully Convicted Individuals */}
                   <Route path="/profile/:id" element={<IndividualProfilePage />} />
-
-                  {/* Route for Other Involved Persons */}
                   <Route path="/person/:id" element={<OtherIndividualProfilePage />} />
+                  
+                  {/* Media Routes */}
+                  <Route path="/film/:id" element={<FilmPage />} /> {/* For standalone Films/Documentaries */}
+                  <Route path="/book/:id" element={<BookPage />} /> {/* NEW: For Books */}
+                  <Route path="/media/:id" element={<MediaWorkPage />} /> {/* For Series (Podcast, Docuseries, TV Series) */}
+                  <Route path="/item/:id" element={<MediaItemPage />} /> {/* For individual episodes/items within a series */}
+                  
+                  {/* Fallback or specific use for CombinedMediaPage if still needed */}
+                  <Route path="/combined/:id" element={<CombinedMediaPage />} /> 
 
-                  {/* Routes for Media */}
-                  {/* NEW: Route for standalone Films/Documentaries */}
-                  <Route path="/film/:id" element={<FilmPage />} />
-                  {/* CombinedMediaPage will now primarily be for Books or other non-film/non-series media */}
-                  <Route path="/combined/:id" element={<CombinedMediaPage />} />
-                  {/* MediaWorkPage is for series (Podcasts, Docuseries, TV Series) */}
-                  <Route path="/media/:id" element={<MediaWorkPage />} />
-                  <Route path="/item/:id" element={<MediaItemPage />} />
-
-                  {/* Route for Organizations */}
                   <Route path="/organization/:id" element={<OrganizationInfoPage />} />
-
-                  {/* Route for Contributing Factors */}
                   <Route path="/factor/:id" element={<ContributingFactorsPage />} />
-                  
-                  {/* Route for Admin Settings */}
                   <Route path="/adminsettings" element={<AdminSettingsPage />} />
-                  
-                  {/* TODO: Add routes for other pages (e.g., About) */}
                 </Routes>
             </main>
-
-            {/* Footer */}
             <Footer />
-
-        </div> {/* End Centered Content Container */}
-    </div> // End Outermost Container
+        </div>
+    </div>
   );
 }
 
