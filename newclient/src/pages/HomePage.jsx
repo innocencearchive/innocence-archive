@@ -1,13 +1,15 @@
 // src/pages/HomePage.jsx
 import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
 import React, { useState, useEffect } from 'react';
-import { AlertCircle, Loader2 } from 'lucide-react';
+import { Link } from 'react-router-dom'; // Import Link
+import { AlertCircle, Loader2, BookOpen, Clapperboard } from 'lucide-react'; // Import icons
 import ExploreGrid from '../components/ExploreGrid';
 import FeaturedStory from '../components/FeaturedStory';
 import HowToUse from '../components/HowToUse';
 import MissionStatement from '../components/MissionStatement';
 import RecentUpdates from '../components/RecentUpdates';
 import HeroSection from '../components/HeroSection';
+import { BRONZE_BG, BRONZE_COLOR } from '../components/themeconstants'; // Import theme constants
 
 const staticStats = [
   { id: 1, text: "Over 3,000 exonerations nationwide since 1989." },
@@ -32,65 +34,47 @@ const HomePage = () => {
       console.log("Fetching homepage settings...");
 
       try {
-        // 1. Fetch the settings using apiClient
         const settingsResponse = await apiClient.get('/api/settings/featured');
-        // With Axios, data is in settingsResponse.data.
-        // Axios throws an error for non-2xx responses, so !settingsResponse.ok check is not standard here.
-        // The catch block below will handle HTTP errors.
         const settings = settingsResponse.data;
         console.log("Homepage settings fetched:", settings);
 
-        // 2. Prepare fetch promises based on settings IDs using apiClient
         const fetchPromises = [];
-
-        // Helper function to create a fetch promise with apiClient
         const createFetchPromise = (type, endpoint) => {
           console.log(`Fetching featured ${type} from: ${endpoint}`);
           return apiClient.get(endpoint)
-            .then(response => ({ type, data: response.data })) // Axios provides data directly
+            .then(response => ({ type, data: response.data }))
             .catch(err => {
-              // Construct a more informative error object for Promise.allSettled
               const errorMessage = err.response?.data?.message || err.message || `Failed to fetch ${type}`;
               console.error(`Error fetching ${type} from ${endpoint}:`, errorMessage, err.response || err);
               return Promise.reject({ type, error: new Error(errorMessage), originalError: err });
             });
         };
 
-        // --- Fetch Featured Story (Individual) ---
         if (settings.featuredStoryId) {
           fetchPromises.push(createFetchPromise('story', `/api/individuals/${settings.featuredStoryId}`));
         } else {
           fetchPromises.push(Promise.resolve({ type: 'story', data: null }));
         }
-
-        // --- Fetch Featured Media (Book, Podcast, Film - MediaWorks) ---
-        // Book
         if (settings.featuredBookId) {
           fetchPromises.push(createFetchPromise('book', `/api/mediaworks/${settings.featuredBookId}`));
         } else {
           fetchPromises.push(Promise.resolve({ type: 'book', data: null }));
         }
-        // Podcast
         if (settings.featuredPodcastId) {
           fetchPromises.push(createFetchPromise('podcast', `/api/mediaworks/${settings.featuredPodcastId}`));
         } else {
           fetchPromises.push(Promise.resolve({ type: 'podcast', data: null }));
         }
-        // Film/Doc
         if (settings.featuredFilmId) {
           fetchPromises.push(createFetchPromise('film', `/api/mediaworks/${settings.featuredFilmId}`));
         } else {
           fetchPromises.push(Promise.resolve({ type: 'film', data: null }));
         }
-
-        // --- Fetch Featured Organization ---
         if (settings.featuredOrgId) {
           fetchPromises.push(createFetchPromise('org', `/api/organizations/${settings.featuredOrgId}`));
         } else {
           fetchPromises.push(Promise.resolve({ type: 'org', data: null }));
         }
-
-        // --- Fetch Featured Factors ---
         if (Array.isArray(settings.featuredFactorIds) && settings.featuredFactorIds.length > 0) {
           const factorIdsQuery = settings.featuredFactorIds.join(',');
           fetchPromises.push(createFetchPromise('factors', `/api/factors?ids=${factorIdsQuery}`));
@@ -98,7 +82,6 @@ const HomePage = () => {
           fetchPromises.push(Promise.resolve({ type: 'factors', data: [] }));
         }
 
-        // 3. Execute all fetches concurrently and process results
         console.log(`Executing ${fetchPromises.length} fetches for featured content...`);
         const results = await Promise.allSettled(fetchPromises);
         console.log("Featured content fetch results:", results);
@@ -118,7 +101,7 @@ const HomePage = () => {
               case 'factors': setFeaturedFactors(data || []); break;
               default: break;
             }
-          } else { // result.status === 'rejected'
+          } else {
             console.error(`Failed to fetch data for type '${result.reason?.type || 'unknown'}':`, result.reason?.error?.message || result.reason);
             fetchErrorOccurred = true;
           }
@@ -130,7 +113,7 @@ const HomePage = () => {
           setError("Failed to load some homepage content. Please try again later.");
         }
 
-      } catch (err) { // This catch block is primarily for the initial settings fetch or unexpected errors
+      } catch (err) {
         console.error("Error in fetchHomepageData (likely settings fetch):", err);
         const errorMessage = err.response?.data?.message || err.message || "An unexpected error occurred loading homepage data.";
         setError(errorMessage);
@@ -179,7 +162,7 @@ const HomePage = () => {
     <>
       <HeroSection />
       <main className="bg-black py-16 md:py-20 lg:py-24 px-4 md:px-8">
-        {error && ( // Display inline error if some content failed but not all
+        {error && (
             <div className="max-w-6xl mx-auto mb-10 p-3 rounded-md bg-red-900/50 text-red-300 flex items-center">
                <AlertCircle className="mr-2 h-5 w-5 flex-shrink-0" />
                <span>Warning: {error} Some content might be missing.</span>
@@ -198,6 +181,34 @@ const HomePage = () => {
               factors={featuredFactors}
             />
         </div>
+
+        {/* --- SECTION FOR SPECIAL SEARCH LINKS (Simplified) --- */}
+        <div className="max-w-6xl mx-auto mb-16 md:mb-20 lg:mb-24 text-center">
+          <div className="space-y-4"> {/* Stacks children vertically with space */}
+            <p>
+              <Link
+                to="/search?type=BOOK"
+                className={`inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white ${BRONZE_BG} hover:bg-opacity-80 transition-colors w-full sm:w-auto`}
+              >
+                <BookOpen className="mr-2 h-5 w-5" />
+                List all the books on wrongful convictions
+              </Link>
+            </p>
+            
+            <p> {/* New p tag for the documentary link */}
+              <Link
+                to="/search?type=DOCUMENTARY"
+                className={`inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-sky-600 hover:bg-sky-700 transition-colors w-full sm:w-auto`}
+              >
+                <Clapperboard className="mr-2 h-5 w-5" />
+                List all the documentaries on wrongful convictions
+              </Link>
+            </p>
+            {/* You could add more links here, e.g., for FILMS (non-documentary) or PODCAST_SERIES */}
+          </div>
+        </div>
+        {/* --- END OF SECTION --- */}
+
         <div className="mb-16 md:mb-20 lg:mb-24">
            <HowToUse />
         </div>
