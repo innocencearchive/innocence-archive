@@ -295,7 +295,8 @@ function BookPage() {
                         <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg flex flex-col`}>
                             <div>
                                 <h2 className="text-2xl font-semibold text-amber-500 mb-4">Summary</h2>
-                                <ItemSummaryDisplay summaryText={workData.summaryNotes || workData.bookPurchaseDetails?.description_api} />
+                                {/* MODIFIED LINE BELOW */}
+                                <ItemSummaryDisplay summaryText={workData.bookPurchaseDetails?.description_api || workData.summaryNotes} />
                             </div>
 
                             <div className="mt-6 pt-6 border-t border-gray-700">
