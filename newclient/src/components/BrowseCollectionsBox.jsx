@@ -1,14 +1,14 @@
 // src/components/BrowseCollectionsBox.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, Film as FilmIcon, Clapperboard } from 'lucide-react'; // Using FilmIcon for "Films"
+import { BookOpen, Film as FilmIcon, Microphone } from 'lucide-react'; // Using FilmIcon for "Films"
 import { BRONZE_BORDER, BRONZE_COLOR } from './themeconstants'; // Assuming themeconstants.js is in the same components folder
 
 const BrowseCollectionsBox = () => {
   const collections = [
     { name: 'Books', type: 'BOOK', icon: BookOpen, path: '/search?type=BOOK' },
     { name: 'Films', type: 'FILM', icon: FilmIcon, path: '/search?type=FILM' },
-    { name: 'Podcasts', type: 'PODCAST', icon: Clapperboard, path: '/search?type=PODCAST' },
+    { name: 'Podcasts', type: 'PODCAST', icon: Microphone, path: '/search?type=PODCAST' },
     // Future: Add PODCAST_SERIES, etc.
   ];
 
