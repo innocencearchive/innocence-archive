@@ -17,8 +17,9 @@ const getMediaPath = (mediaObject, resultCategory) => { // resultCategory is 'me
     console.warn(`Search API: Missing workId for FILM/DOCUMENTARY type (${workType}) ID ${mediaObject.id}`);
     return '#';
   }
+  // MODIFIED LINE FOR MediaWork BOOK
   if (resultCategory === 'mediaWork' && workType === MediaWorkType.BOOK) {
-    if (workId) return `/combined/${workId}`;
+    if (workId) return `/book/${workId}`; // Changed from /combined/
     console.warn(`Search API: Missing workId for BOOK type (${workType}) ID ${mediaObject.id}`);
     return '#';
   }
@@ -27,9 +28,13 @@ const getMediaPath = (mediaObject, resultCategory) => { // resultCategory is 'me
     console.warn(`Search API: Missing parent workId for ${itemType} ID ${itemId}`);
     return itemId ? `/item/${itemId}` : '#';
   }
+  // MODIFIED LINE FOR MediaItem BOOK_CONTENT
    if (resultCategory === 'mediaItem' && itemType === MediaItemType.BOOK_CONTENT) {
-    if (workId) return `/combined/${workId}`;
+    if (workId) return `/book/${workId}`; // Changed from /combined/
     console.warn(`Search API: Missing parent workId for ${itemType} ID ${itemId}`);
+    // If for some reason a BOOK_CONTENT item doesn't have a workId,
+    // it's better to link to the item page itself or a placeholder than CombinedMediaPage.
+    // However, BOOK_CONTENT items should always have a parent work.
     return itemId ? `/item/${itemId}` : '#';
   }
   if (resultCategory === 'mediaItem' && itemId && itemType &&
@@ -109,7 +114,7 @@ router.get('/', async (req, res) => {
           // Ensure we don't proceed with a DB query for unsupported types
           mediaWorkPromise = Promise.resolve({ data: [], totalCount: 0 }); // Or appropriate promise
           // Skip further processing for this switch case
-          targetModel = null; 
+          targetModel = null;
           break;
       }
 
@@ -123,7 +128,7 @@ router.get('/', async (req, res) => {
 
     } else if (query) { // Only proceed with keyword search if query is not empty
       console.log(`Performing keyword search for: "${query}"`);
-      
+
       // --- Enhanced Individual Search Logic ---
       const individualOrConditions = [
         { narrativeSummary: { contains: query, mode: 'insensitive' } },
@@ -262,13 +267,13 @@ router.get('/', async (req, res) => {
       detail: org.notes ? org.notes.substring(0, 150) + '...' : `Type: ${formatTypeName(org.type)}`,
       path: `/organization/${org.id}`
     }));
-    
+
     let totalCountForResponse = 0;
     if (typeFilter) {
       // This assumes typeFilter primarily targets mediaWorks. Adapt if other types get paginated.
-      totalCountForResponse = mediaWorksResult.totalCount; 
+      totalCountForResponse = mediaWorksResult.totalCount;
     } else {
-      totalCountForResponse = combinedResults.length; 
+      totalCountForResponse = combinedResults.length;
     }
 
     console.log(`Returning ${combinedResults.length} results. Total count for pagination (if applicable): ${totalCountForResponse}`);
