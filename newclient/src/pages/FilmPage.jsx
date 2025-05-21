@@ -3,6 +3,7 @@
 /* --- Displays a dedicated view for standalone Films/Documentaries ---     */
 /* --- Features poster, TMDB summary, and streaming info placeholder ---    */
 /* --- MODIFIED: Made TMDB logo/attribution clickable ---                 */
+/* --- MODIFIED: Adjusted mobile order for image and summary ---          */
 /* ========================================================================== */
 import apiClient from '../apiClient';
 import React, { useEffect, useState } from 'react';
@@ -283,7 +284,8 @@ function FilmPage() {
                     </p>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
                         {/* Left Column: Poster and Film Details */}
-                        <div className="lg:col-span-1 order-last lg:order-first flex flex-col items-center">
+                        {/* MODIFIED: Removed order-last and lg:order-first to rely on natural DOM order for mobile */}
+                        <div className="lg:col-span-1 flex flex-col items-center">
                             <img
                                 src={posterUrl}
                                 alt={`Poster for ${workData.title}`}
