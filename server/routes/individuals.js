@@ -42,14 +42,12 @@ router.get('/', async (req, res) => {
 
 // GET /api/individuals/:id  (Fetches a single individual by its ID, including related data)
 router.get('/:id', async (req, res) => {
-  const idString = req.params.id; // Use the param directly as a string for logging
+  const idString = req.params.id; 
   console.log(`Request received for GET /api/individuals/${idString}`);
 
   try {
-    // Parse the ID to an integer for the database query
     const idInt = parseInt(idString, 10);
 
-    // Validate if the parsed ID is a valid number
     if (isNaN(idInt)) {
       console.warn(`Invalid ID format received: ${idString}`);
       return res.status(400).json({ message: 'Invalid ID format. ID must be an integer.' });
@@ -57,18 +55,15 @@ router.get('/:id', async (req, res) => {
 
     const singleIndividual = await prisma.individual.findUnique({
       where: {
-        id: idInt // Use the parsed integer ID
+        id: idInt 
       },
-      // --- UPDATED INCLUDE BLOCK ---
-      // Includes relations from your file AND adds groups, sourceLinks, relatedToIndividuals
       include: {
-        // Needed for RelatedMediaList
         mediaItemAppearances: {
-           select: { // Select only necessary fields if needed, or true for all
+           select: { 
             id: true,
             itemTitle: true,
             itemMediaType: true,
-            work: { // Include parent work details if useful
+            work: { 
               select: {
                 id: true,
                 title: true,
@@ -77,7 +72,6 @@ router.get('/:id', async (req, res) => {
             }
           }
         },
-        // Needed for OrganizationsInvolved component
         organizationsInvolved: {
            select: {
              id: true,
@@ -85,14 +79,12 @@ router.get('/:id', async (req, res) => {
              type: true
           }
         },
-        // Needed for ContributingFactorsList component
         contributingFactors: {
            select: {
              id: true,
              name: true
            }
         },
-        // Needed for OtherInvolvedPersonsList component (assuming this maps to involvedPersons)
         involvedPersons: {
            select: {
              id: true,
@@ -101,9 +93,7 @@ router.get('/:id', async (req, res) => {
              role: true
            }
         },
-        // Needed for KeyInfo component (potentially)
-        crimeCategory: true, // Include the full crime category object
-        // Needed for RelatedWrongfullyConvictedList component (assuming this maps to relatedIndividuals)
+        crimeCategory: true, 
         relatedIndividuals: {
            select: {
               id: true,
@@ -111,19 +101,20 @@ router.get('/:id', async (req, res) => {
               lastName: true
            }
         },
-        // --- ADDED/REINSTATED from previous version ---
-        relatedToIndividuals: { // The other side of the M2M relation
+        relatedToIndividuals: { 
             select: {
               id: true,
               firstName: true,
               lastName: true
             }
         },
-        // --- ADDED/REINSTATED from previous version ---
-        sourceLinks: { // Include the join table records for sources
+        sourceLinks: { 
           select: {
+            id: true, // Good to select the ID of the link itself
             specificUrl: true,
-            informationSource: { // Include details from the linked InformationSource
+            headline: true, // --- ADDED THIS LINE TO FETCH THE HEADLINE ---
+            description: true, // Also good to fetch description if available
+            informationSource: { 
               select: {
                 id: true,
                 name: true,
@@ -132,36 +123,30 @@ router.get('/:id', async (req, res) => {
             }
           }
         },
-        // --- NEWLY ADDED: Include the groups relationship ---
-        groups: { // Tells Prisma to fetch related IndividualGroup records
-            select: { // Select specific fields from the group
+        groups: { 
+            select: { 
                 id: true,
                 name: true,
-                description: true // Include description if available/needed
+                description: true 
             }
         }
       }
-      // --- END UPDATED INCLUDE BLOCK ---
     });
 
     if (singleIndividual) {
-      console.log(`Found individual with ID: ${idInt} including related data.`);
+      console.log(`Found individual with ID: ${idInt} including related data (with headlines).`);
       res.json(singleIndividual);
     } else {
       console.log(`Individual with ID: ${idInt} not found.`);
       res.status(404).json({ message: `Individual with ID ${idInt} not found` });
     }
   } catch (error) {
-    // Log the error on the server side
     console.error(`Error fetching individual ${idString}:`, error instanceof Error ? error.message : error);
-     if (error.code) { // Log Prisma specific error codes if available
+     if (error.code) { 
         console.error(`Prisma Error Code: ${error.code}`);
     }
-    // Send a generic error message to the client
     res.status(500).json({ message: 'Failed to fetch individual data', error: 'Internal server error' });
   }
 });
 
-// --- TODO: Add routes for POST (create), PUT (update), DELETE ---
-
-module.exports = router; // Export the router so server.js can use it
+module.exports = router;
