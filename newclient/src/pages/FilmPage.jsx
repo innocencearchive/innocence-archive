@@ -4,6 +4,7 @@
 /* --- Features poster, TMDB summary, and streaming info placeholder ---    */
 /* --- MODIFIED: Made TMDB logo/attribution clickable ---                 */
 /* --- MODIFIED: Adjusted mobile order for image and summary ---          */
+/* --- MODIFIED: AI Disclaimer logic and Summary Display Logic ---        */
 /* ========================================================================== */
 import apiClient from '../apiClient';
 import React, { useEffect, useState } from 'react';
@@ -284,7 +285,6 @@ function FilmPage() {
                     </p>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
                         {/* Left Column: Poster and Film Details */}
-                        {/* MODIFIED: Removed order-last and lg:order-first to rely on natural DOM order for mobile */}
                         <div className="lg:col-span-1 flex flex-col items-center">
                             <img
                                 src={posterUrl}
@@ -309,8 +309,8 @@ function FilmPage() {
                         {/* Right Column: Summary, How to Watch, Attribution */}
                         <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg flex flex-col`}>
                             <div>
-                    
-                                <ItemSummaryDisplay summaryText={workData.summaryNotes} />
+                                {/* --- CORRECTED SUMMARY DISPLAY LOGIC --- */}
+                                <ItemSummaryDisplay summaryText={workData.summaryNotes || itemData?.summaryNotes} />
                             </div>
 
                             <div className="mt-6 pt-6 border-t border-gray-700">
@@ -341,13 +341,14 @@ function FilmPage() {
                                         <img src={tmdbLogo} alt="TMDB Logo" className="h-5 w-auto mr-2" /> 
                                         <span>{workData.SourcingCredit}</span>
                                     </a>
-                                ) : workData.SourcingCredit ? ( // Fallback if link couldn't be generated but credit exists
+                                ) : workData.SourcingCredit ? ( 
                                     <div className="flex items-center">
                                         <img src={tmdbLogo} alt="TMDB Logo" className="h-5 w-auto mr-2" /> 
                                         <span>Data Sourced From: {workData.SourcingCredit}</span>
                                     </div>
                                 ) : (
-                                    (workData.aiGenerated !== false || itemData?.aiGenerated !== false) && <AIDisclaimer type="film data" />
+                                    /* --- CORRECTED AI DISCLAIMER LOGIC --- */
+                                    (workData.aiGenerated !== false && !workData.externalId) && <AIDisclaimer type="film data" />
                                 )}
                             </div>
                         </div>
