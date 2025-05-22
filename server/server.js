@@ -76,8 +76,6 @@ app.use('/api/updates', updateRoutes);
 app.use('/api/homepage', homepageRouter); // Mount at /api/homepage
 app.use('/api/search', searchRoutes);
 app.use('/api/settings', settingsRoutes); // Mount the routes
-// ...
-app.use('/api/settings', settingsRoutes); // Mount the routes
 app.use('/api/auth', authRoutes);         // <<< ADD THIS LINE
 
 
