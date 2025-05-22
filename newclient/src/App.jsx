@@ -22,6 +22,7 @@ import BookPage from './pages/BookPage'; // <-- NEW: Import BookPage
 import AdminSettingsPage from './pages/AdminSettingsPage';
 import LoginPage from './pages/LoginPage'; // <<< IMPORT
 import ProtectedRoute from './components/ProtectedRoute'; 
+import AdminDashboardPage from './pages/AdminDashboardPage';
 
 
 function App() {
@@ -51,13 +52,26 @@ function App() {
                   <Route path="/organization/:id" element={<OrganizationInfoPage />} />
                   <Route path="/factor/:id" element={<ContributingFactorsPage />} />
 				  <Route path="/login" element={<LoginPage />} /> {/* <<< ADD THIS */}
-                
-				<Route path="/adminsettings" element={
-						<ProtectedRoute>
-						  <AdminSettingsPage />
-						</ProtectedRoute>
-				}
-/>
+               {/* Authentication Route */}
+            <Route path="/login" element={<LoginPage />} />
+
+            {/* Admin Routes - Protected */}
+            <Route
+              path="/admin" // This is the path for the admin dashboard
+              element={
+                <ProtectedRoute>
+                  <AdminDashboardPage /> {/* <<< USING RENAMED COMPONENT */}
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              path="/adminsettings"
+              element={
+                <ProtectedRoute>
+                  <AdminSettingsPage />
+                </ProtectedRoute>
+              }
+            />
         
                 </Routes>
             </main>
