@@ -5,6 +5,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 // Import shared layout components
 import Header from './components/Header'; // Ensure path is correct
 import Footer from './components/Footer'; // Ensure path is correct
+import ScrollToTop from './components/ScrollToTop'; // Adjust path if needed
 
 // Import page components
 import HomePage from './pages/HomePage';
@@ -26,6 +27,8 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-900 text-gray-50 font-sans flex flex-col py-8">
+	<ScrollToTop /> {/* Add the ScrollToTop component here */}
+      
         <div className="w-full max-w-[90%] mx-auto bg-black rounded-lg shadow-lg flex flex-col flex-grow overflow-hidden">
             {showHeader && <Header />}
             <main className="flex-grow">
