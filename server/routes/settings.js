@@ -1,6 +1,7 @@
-// routes/settings.js
+// server/routes/settings.js
 const express = require('express');
 const { PrismaClient } = require('@prisma/client');
+const { authenticateToken, authorizeRole } = require('../middleware/authenticateToken'); // Import the middleware
 
 const router = express.Router();
 const prisma = new PrismaClient();
@@ -8,6 +9,7 @@ const prisma = new PrismaClient();
 const SETTINGS_ROW_ID = 1; // The fixed ID for the single row in the settings table
 
 // --- Helper to validate incoming IDs (ensure they are numbers or null) ---
+// This helper is good, no changes needed here.
 function validateId(id) {
     if (id === null || id === '' || typeof id === 'undefined') return null;
     const num = parseInt(id, 10);
@@ -16,8 +18,13 @@ function validateId(id) {
 
 // --- GET /api/settings/featured ---
 // Fetches the current featured content settings
-router.get('/featured', async (req, res) => {
-    console.log('Request received for GET /api/settings/featured');
+// Protected: Requires authentication. Any authenticated user can fetch.
+router.get(
+  '/featured',
+  authenticateToken, // Apply authentication middleware
+  async (req, res) => {
+    // Log now includes user info from the token
+    console.log(`Request received for GET /api/settings/featured by user: ${req.user.email} (Role: ${req.user.role})`);
     try {
         const settings = await prisma.featuredContentSetting.findUnique({
             where: { id: SETTINGS_ROW_ID },
@@ -43,12 +50,19 @@ router.get('/featured', async (req, res) => {
         console.error('Error fetching featured settings:', error.message);
         res.status(500).json({ message: 'Failed to fetch settings', error: error.message });
     }
-});
+  }
+);
 
 // --- PUT /api/settings/featured ---
 // Updates (or creates) the featured content settings
-router.put('/featured', async (req, res) => {
-    console.log('Request received for PUT /api/settings/featured');
+// Protected: Requires authentication AND 'ADMIN' or 'EDITOR' role.
+router.put(
+  '/featured',
+  authenticateToken, // First, ensure user is authenticated
+  authorizeRole(['ADMIN', 'EDITOR']), // Then, ensure user has ADMIN or EDITOR role
+  async (req, res) => {
+    // Log now includes user info from the token
+    console.log(`Request received for PUT /api/settings/featured by user: ${req.user.email} (Role: ${req.user.role})`);
     const {
         featuredStoryId,
         featuredBookId,
@@ -61,7 +75,7 @@ router.put('/featured', async (req, res) => {
     console.log('Received settings payload:', req.body);
 
     try {
-        // Basic validation/sanitization
+        // Basic validation/sanitization - your existing logic is good
         const validatedData = {
             featuredStoryId: validateId(featuredStoryId),
             featuredBookId: validateId(featuredBookId),
@@ -99,6 +113,7 @@ router.put('/featured', async (req, res) => {
              res.status(500).json({ message: 'Failed to save settings due to an internal error.', error: error.message });
         }
     }
-});
+  }
+);
 
 module.exports = router;

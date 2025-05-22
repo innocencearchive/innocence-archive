@@ -21,6 +21,7 @@ import FilmPage from './pages/FilmPage';
 import BookPage from './pages/BookPage'; // <-- NEW: Import BookPage
 import AdminSettingsPage from './pages/AdminSettingsPage';
 import LoginPage from './pages/LoginPage'; // <<< IMPORT
+import ProtectedRoute from './components/ProtectedRoute'; 
 
 
 function App() {
@@ -45,15 +46,18 @@ function App() {
                   <Route path="/book/:id" element={<BookPage />} /> {/* NEW: For Books */}
                   <Route path="/media/:id" element={<MediaWorkPage />} /> {/* For Series (Podcast, Docuseries, TV Series) */}
                   <Route path="/item/:id" element={<MediaItemPage />} /> {/* For individual episodes/items within a series */}
-                  
                   {/* Fallback or specific use for CombinedMediaPage if still needed */}
                   <Route path="/combined/:id" element={<CombinedMediaPage />} /> 
-
                   <Route path="/organization/:id" element={<OrganizationInfoPage />} />
                   <Route path="/factor/:id" element={<ContributingFactorsPage />} />
-                  <Route path="/adminsettings" element={<AdminSettingsPage />} />
 				  <Route path="/login" element={<LoginPage />} /> {/* <<< ADD THIS */}
                 
+				<Route path="/adminsettings" element={
+						<ProtectedRoute>
+						  <AdminSettingsPage />
+						</ProtectedRoute>
+				}
+/>
         
                 </Routes>
             </main>

@@ -11,6 +11,8 @@ export const AuthProvider = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true); // To check initial auth status
   const [authError, setAuthError] = useState(null);
   const navigate = useNavigate();
+  const location = useLocation(); // Get current location to access state passed by ProtectedRoute
+
 
   useEffect(() => {
     // This effect runs once on mount to check if there's a valid token
@@ -29,43 +31,36 @@ export const AuthProvider = ({ children }) => {
     setIsLoading(false);
   }, []);
 
-  const login = async (email, password) => {
-    setAuthError(null);
-    setIsLoading(true);
-    try {
-      const response = await apiClient.post('/auth/login', { email, password });
-      const { token: receivedToken, user: userData } = response.data;
+ // src/contexts/AuthContext.jsx
+// ...
+import { useNavigate, useLocation } from 'react-router-dom'; // Add useLocation
 
-      localStorage.setItem('authToken', receivedToken);
-      localStorage.setItem('authUser', JSON.stringify(userData));
+// ... inside AuthProvider
 
-      setToken(receivedToken);
-      setUser(userData);
 
-      // Set the token for all subsequent apiClient requests
-      apiClient.defaults.headers.common['Authorization'] = `Bearer ${receivedToken}`;
+const login = async (email, password) => {
+  // ... (existing login logic: try block)
+  try {
+    const response = await apiClient.post('/auth/login', { email, password });
+    const { token: receivedToken, user: userData } = response.data;
 
-      console.log('Login successful, user role:', userData.role);
-      // Navigate based on role or to a default admin page
-      // For now, let's assume admins go to /adminsettings
-      if (userData.role === 'ADMIN' || userData.role === 'EDITOR') {
-        navigate('/adminsettings'); // Or a general admin dashboard
-      } else {
-        navigate('/'); // Or a user-specific dashboard if you had one
-      }
-    } catch (error) {
-      console.error('Login failed:', error.response?.data?.message || error.message);
-      const errorMessage = error.response?.data?.message || 'Login failed. Please check your credentials.';
-      setAuthError(errorMessage);
-      setUser(null);
-      setToken(null);
-      localStorage.removeItem('authToken');
-      localStorage.removeItem('authUser');
-      delete apiClient.defaults.headers.common['Authorization'];
-    } finally {
-      setIsLoading(false);
-    }
-  };
+    // ... (store token and user data)
+
+    console.log('Login successful, user role:', userData.role);
+
+    // --- NEW: Redirect logic ---
+    const from = location.state?.from?.pathname || (userData.role === 'ADMIN' || userData.role === 'EDITOR' ? '/adminsettings' : '/');
+    // If 'from' state exists (passed by ProtectedRoute), redirect there.
+    // Otherwise, redirect based on role or to a default page.
+    navigate(from, { replace: true });
+
+  } catch (error) {
+    // ... (existing error handling)
+  } finally {
+    setIsLoading(false);
+  }
+};
+// ...
 
   const logout = () => {
     setUser(null);

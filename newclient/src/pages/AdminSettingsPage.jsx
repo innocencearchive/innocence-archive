@@ -57,12 +57,7 @@ function AdminSettingsPage() {
     }
   }, [isAuthenticated]); // Depend on isAuthenticated from useAuth
 
-  // Redirect to login if not authenticated and auth is not loading
-  useEffect(() => {
-    if (!authIsLoading && !isAuthenticated) {
-      navigate('/login', { state: { from: '/adminsettings' } }); // Redirect to login
-    }
-  }, [authIsLoading, isAuthenticated, navigate]);
+ 
 
   const handleSave = async (event) => {
     event.preventDefault();
