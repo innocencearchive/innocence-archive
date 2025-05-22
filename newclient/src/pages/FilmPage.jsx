@@ -309,7 +309,7 @@ function FilmPage() {
                         {/* Right Column: Summary, How to Watch, Attribution */}
                         <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg flex flex-col`}>
                             <div>
-                                <h2 className="text-2xl font-semibold text-amber-500 mb-4">Summary</h2>
+                    
                                 <ItemSummaryDisplay summaryText={workData.summaryNotes} />
                             </div>
 
@@ -339,7 +339,7 @@ function FilmPage() {
                                         className="flex items-center hover:text-amber-400 transition-colors"
                                     >
                                         <img src={tmdbLogo} alt="TMDB Logo" className="h-5 w-auto mr-2" /> 
-                                        <span>Data Sourced From: {workData.SourcingCredit}</span>
+                                        <span>{workData.SourcingCredit}</span>
                                     </a>
                                 ) : workData.SourcingCredit ? ( // Fallback if link couldn't be generated but credit exists
                                     <div className="flex items-center">

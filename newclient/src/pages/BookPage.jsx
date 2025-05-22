@@ -294,7 +294,7 @@ function BookPage() {
                         {/* Right Column: Summary and How to Read */}
                         <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg flex flex-col`}>
                             <div>
-                                <h2 className="text-2xl font-semibold text-amber-500 mb-4">Summary</h2>
+                                
                                 {/* MODIFIED LINE BELOW */}
                                 <ItemSummaryDisplay summaryText={workData.bookPurchaseDetails?.description_api || workData.summaryNotes} />
                             </div>
@@ -310,7 +310,7 @@ function BookPage() {
                             <div className="mt-auto pt-6 border-t border-gray-700 text-xs text-gray-500">
                                 {(workData.aiGenerated !== false || workData.bookPurchaseDetails?.aiGenerated !== false ) && <AIDisclaimer type="book data" />}
                                 {workData.SourcingCredit && ( // If you add sourcing credit for Google Books API
-                                     <p className="mt-2">Data sourced from: {workData.SourcingCredit}</p>
+                                     <p className="mt-2">{workData.SourcingCredit}</p>
                                 )}
                             </div>
                         </div>

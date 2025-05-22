@@ -1,7 +1,7 @@
 // src/pages/SearchResultsPage.jsx
 import apiClient from '../apiClient';
 import React, { useState, useEffect } from 'react';
-import { useSearchParams, Link, useNavigate } from 'react-router-dom';
+import { useSearchParams, Link } from 'react-router-dom'; // Removed useNavigate as it's not used
 import { Loader2, AlertCircle, User, FileText, Building, Link as LinkIcon, BookOpen, Clapperboard, Film, Mic, Tv } from 'lucide-react';
 import { BRONZE_COLOR } from '../components/themeconstants';
 
@@ -26,14 +26,11 @@ const getResultIcon = (result) => {
                     return <FileText className="w-5 h-5 mr-3 inline-block text-green-400 flex-shrink-0" />;
             }
         case 'mediaItem':
-            // You could further differentiate item icons based on item.itemMediaType or item.parentWorkType
             switch (result.itemMediaType) {
                 case 'PODCAST_EPISODE':
                     return <Mic className="w-5 h-5 mr-3 inline-block text-indigo-400 flex-shrink-0" />;
                 case 'TV_EPISODE':
                      return <Tv className="w-5 h-5 mr-3 inline-block text-pink-400 flex-shrink-0" />;
-                // For BOOK_CONTENT, FILM_CONTENT, DOCUMENTARY_CONTENT, they should ideally be filtered out
-                // by the backend if the parent MediaWork is shown. If they still appear, use a generic icon or parent's icon.
                 case 'BOOK_CONTENT':
                     return <BookOpen className="w-5 h-5 mr-3 inline-block text-orange-400 flex-shrink-0" />;
                 case 'FILM_CONTENT':
@@ -57,26 +54,33 @@ const formatTypeName = (type) => {
 
 function SearchResultsPage() {
     const [searchParams, setSearchParams] = useSearchParams();
-    const navigate = useNavigate();
+    
+    // query and typeFilter are derived directly from searchParams on each render
     const query = searchParams.get('q');
     const typeFilter = searchParams.get('type');
-    const page = parseInt(searchParams.get('page') || '1', 10);
-    const limit = 20; // Or make this configurable
-
+    
+    // currentPage state is primarily for UI display and client-side pagination logic
+    const [currentPage, setCurrentPage] = useState(parseInt(searchParams.get('page') || '1', 10));
+    
     const [results, setResults] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState(null);
-    const [currentPage, setCurrentPage] = useState(page);
     const [totalPages, setTotalPages] = useState(0);
     const [totalResults, setTotalResults] = useState(0);
+    const limit = 20; // Or make this configurable
 
+    // Effect to update currentPage state when the URL's page parameter changes
     useEffect(() => {
-        // Update currentPage state if page param changes
         setCurrentPage(parseInt(searchParams.get('page') || '1', 10));
     }, [searchParams]);
 
+    // Effect to fetch search results
     useEffect(() => {
-        const shouldFetch = query || typeFilter;
+        // Derive query and typeFilter directly from searchParams for this effect's logic
+        const currentQuery = searchParams.get('q');
+        const currentTypeFilter = searchParams.get('type');
+
+        const shouldFetch = currentQuery || currentTypeFilter;
         if (!shouldFetch) {
             setResults([]); setError(null); setIsLoading(false); setTotalPages(0); setTotalResults(0);
             return;
@@ -85,33 +89,38 @@ function SearchResultsPage() {
         const fetchResults = async () => {
             setIsLoading(true); setError(null);
 
+            // *** CRITICAL CHANGE: Get page number directly from searchParams for the API call ***
+            const pageForFetch = parseInt(searchParams.get('page') || '1', 10);
+
             let apiUrl = '/api/search?';
             const params = [];
-            if (query) params.push(`q=${encodeURIComponent(query)}`);
-            if (typeFilter) params.push(`type=${encodeURIComponent(typeFilter)}`);
+            if (currentQuery) params.push(`q=${encodeURIComponent(currentQuery)}`);
+            if (currentTypeFilter) params.push(`type=${encodeURIComponent(currentTypeFilter)}`);
             
-            // Only add page and limit for type-filtered searches, as keyword search pagination is client-side for now
-            if (typeFilter) {
-                params.push(`page=${currentPage}`);
+            // Only add page and limit for type-filtered (backend paginated) searches
+            if (currentTypeFilter) {
+                params.push(`page=${pageForFetch}`);
                 params.push(`limit=${limit}`);
             }
+            // For keyword searches, the backend sends all relevant results,
+            // and pagination is handled client-side. So, no page/limit sent for keyword search here.
+            
             apiUrl += params.join('&');
 
-            console.log(`Fetching search results from: ${apiUrl}`);
+            console.log(`Fetching search results from: ${apiUrl} (Page in URL for fetch: ${pageForFetch})`);
 
             try {
                 const response = await apiClient.get(apiUrl);
                 const data = response.data;
 
-                setResults(data.results || []); // API now returns { results: [], ... }
-                if (typeFilter) { // Only expect pagination data for type-filtered searches
+                setResults(data.results || []);
+                if (currentTypeFilter) { // Pagination data from backend for type-filtered searches
                     setTotalResults(data.totalCount || 0);
                     setTotalPages(Math.ceil((data.totalCount || 0) / limit));
-                } else { // For keyword searches, pagination is client-side based on fetched batch
-                    setTotalResults(data.results?.length || 0); // total is just what we got
-                    setTotalPages(1); // Only one "page" from backend for keyword search
+                } else { // For keyword searches, derive pagination from the fetched batch
+                    setTotalResults(data.results?.length || 0);
+                    setTotalPages(1); // All keyword results are fetched in one go from backend
                 }
-                console.log(`Received ${data.results?.length || 0} results. Total available (if type-filtered): ${data.totalCount}`);
             } catch (err) {
                 console.error("Fetch error:", err);
                 const errorMessage = err.response?.data?.message || err.message || "An error occurred.";
@@ -123,15 +132,17 @@ function SearchResultsPage() {
         };
 
         fetchResults();
-    }, [query, typeFilter, currentPage, limit, searchParams]); // Added searchParams to deps for page changes
+    // Dependencies: `searchParams` (covers changes in q, type, page) and `limit`.
+    // `query` and `typeFilter` (component-scope consts) are not needed here as we derive
+    // `currentQuery` and `currentTypeFilter` from `searchParams` inside the effect.
+    }, [searchParams, limit]);
 
     const handlePageChange = (newPage) => {
-        if (newPage >= 1 && newPage <= totalPages) {
-            // Update the URL search parameter, which will trigger the useEffect
+        const maxPages = typeFilter ? totalPages : Math.ceil(results.length / limit); // Use client-side total for keyword search
+        if (newPage >= 1 && newPage <= maxPages) {
             const newSearchParams = new URLSearchParams(searchParams);
             newSearchParams.set('page', newPage.toString());
-            setSearchParams(newSearchParams);
-            // setCurrentPage(newPage); // This will be set by useEffect watching searchParams
+            setSearchParams(newSearchParams); // This updates the URL and triggers effects
         }
     };
     
@@ -143,24 +154,19 @@ function SearchResultsPage() {
         : query ? `No results found for "${query}".` : "No search criteria provided.";
     const promptMessage = "Please enter a search term or select a category from the homepage.";
 
-
-    // Client-side pagination for keyword searches (if results exceed limit)
-    // For type-filtered searches, pagination is driven by totalPages from API
+    // Client-side pagination logic for keyword searches
     let paginatedResults = results;
-    let currentClientPage = 1; // Only for client-side pagination
-    let totalClientPages = 1;  // Only for client-side pagination
+    let displayTotalPages = totalPages; // This will be totalPages from backend for typeFilter
 
-    if (!typeFilter && query && results.length > limit) {
-        currentClientPage = currentPage; // Use currentPage for client-side as well
-        totalClientPages = Math.ceil(results.length / limit);
-        const startIndex = (currentClientPage - 1) * limit;
-        const endIndex = startIndex + limit;
-        paginatedResults = results.slice(startIndex, endIndex);
-    } else if (typeFilter) {
-        // Results are already paginated by the backend for type-filtered searches
-        paginatedResults = results;
+    if (!typeFilter && query && results.length > 0) { // Keyword search with results
+        displayTotalPages = Math.ceil(results.length / limit);
+        if (results.length > limit) {
+            const startIndex = (currentPage - 1) * limit; // currentPage state is fine here for slicing
+            const endIndex = startIndex + limit;
+            paginatedResults = results.slice(startIndex, endIndex);
+        }
     }
-
+    // For typeFilter, paginatedResults is already the correct page from the backend.
 
     return (
         <div className="p-4 md:p-8 bg-black text-gray-50 min-h-[calc(100vh-200px)]">
@@ -193,7 +199,7 @@ function SearchResultsPage() {
                         {paginatedResults.map((result) => (
                             <li key={`${result.type}-${result.id}`} className="bg-gray-800 p-4 rounded-lg shadow hover:shadow-md transition-shadow duration-200">
                                 <Link to={result.path} className="block hover:bg-gray-700/50 p-2 -m-2 rounded">
-                                    <div className="flex items-start mb-1"> {/* Changed to items-start for better icon alignment with multi-line text */}
+                                    <div className="flex items-start mb-1">
                                         {getResultIcon(result)}
                                         <div>
                                             <span className="font-semibold text-lg text-gray-100 mr-2">{result.name}</span>
@@ -208,14 +214,14 @@ function SearchResultsPage() {
                                             )}
                                         </div>
                                     </div>
-                                    <p className="text-sm text-gray-300 ml-8">{result.detail}</p> {/* Adjusted indent if icons are larger */}
+                                    <p className="text-sm text-gray-300 ml-8">{result.detail}</p>
                                 </Link>
                             </li>
                         ))}
                     </ul>
 
                     {/* Pagination Controls */}
-                    {((typeFilter && totalPages > 1) || (!typeFilter && query && totalClientPages > 1)) && (
+                    {(displayTotalPages > 1) && (
                         <div className="mt-8 flex justify-center items-center space-x-2">
                             <button
                                 onClick={() => handlePageChange(currentPage - 1)}
@@ -225,20 +231,20 @@ function SearchResultsPage() {
                                 Previous
                             </button>
                             <span className="text-gray-400">
-                                Page {currentPage} of {typeFilter ? totalPages : totalClientPages}
+                                Page {currentPage} of {displayTotalPages}
                             </span>
                             <button
                                 onClick={() => handlePageChange(currentPage + 1)}
-                                disabled={currentPage === (typeFilter ? totalPages : totalClientPages)}
+                                disabled={currentPage === displayTotalPages}
                                 className="px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded disabled:opacity-50 disabled:cursor-not-allowed"
                             >
                                 Next
                             </button>
                         </div>
                     )}
-                     {typeFilter && totalResults > 0 && (
+                     {totalResults > 0 && ( // Show total results count consistently
                         <p className="text-center text-sm text-gray-500 mt-4">
-                            Showing {paginatedResults.length} of {totalResults} total results.
+                            {typeFilter ? `Showing ${paginatedResults.length} of ${totalResults} total results.` : `Displaying ${paginatedResults.length} of ${totalResults} results found.`}
                         </p>
                     )}
                 </>
