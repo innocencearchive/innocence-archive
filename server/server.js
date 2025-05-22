@@ -18,9 +18,6 @@ const updateRoutes = require('./routes/updates');
 const homepageRouter = require('./routes/homepage'); // Import the new router
 const searchRoutes = require('./routes/search');
 const settingsRoutes = require('./routes/settings');
-// server.js
-// ... other requires
-const settingsRoutes = require('./routes/settings');
 const authRoutes = require('./routes/auth'); // <<< ADD THIS LINE
 
 

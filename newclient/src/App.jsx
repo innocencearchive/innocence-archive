@@ -20,6 +20,8 @@ import CombinedMediaPage from './pages/CombinedMediaPage'; // Might be deprecate
 import FilmPage from './pages/FilmPage';
 import BookPage from './pages/BookPage'; // <-- NEW: Import BookPage
 import AdminSettingsPage from './pages/AdminSettingsPage';
+import LoginPage from './pages/LoginPage'; // <<< IMPORT
+
 
 function App() {
   const location = useLocation();
@@ -50,6 +52,9 @@ function App() {
                   <Route path="/organization/:id" element={<OrganizationInfoPage />} />
                   <Route path="/factor/:id" element={<ContributingFactorsPage />} />
                   <Route path="/adminsettings" element={<AdminSettingsPage />} />
+				  <Route path="/login" element={<LoginPage />} /> {/* <<< ADD THIS */}
+                
+        
                 </Routes>
             </main>
             <Footer />
