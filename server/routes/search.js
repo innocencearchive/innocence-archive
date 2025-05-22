@@ -89,8 +89,8 @@ router.get('/', async (req, res) => {
       let queryOptions = {
         skip,
         take: limit,
-        orderBy: { title: 'asc' },
-        select: { id: true, title: true, workType: true, summaryNotes: true, imagePath: true }
+        orderBy: { title: 'asc' }, // Consider if 'title' is always the desired sort field for all types
+        select: { id: true, title: true, workType: true, summaryNotes: true, imagePath: true } // Default select for MediaWork
       };
       let countOptions = {};
       let targetModel = 'mediaWork'; // Default to mediaWork for type filters
@@ -108,23 +108,47 @@ router.get('/', async (req, res) => {
           queryOptions.where = { workType: MediaWorkType.DOCUMENTARY };
           countOptions.where = { workType: MediaWorkType.DOCUMENTARY };
           break;
+        case 'PODCAST_SERIES': // <<< --- ADDED THIS CASE
+          queryOptions.where = { workType: MediaWorkType.PODCAST_SERIES };
+          countOptions.where = { workType: MediaWorkType.PODCAST_SERIES };
+          break;
         // Add other type filters here if they target different models or have different base queries
+        // For example, if you add a type filter for 'INDIVIDUAL':
+        // case 'INDIVIDUAL':
+        //   targetModel = 'individual';
+        //   queryOptions = {
+        //     skip,
+        //     take: limit,
+        //     orderBy: { lastName: 'asc' }, // Example sort for individuals
+        //     select: { id: true, firstName: true, lastName: true, narrativeSummary: true } // Select fields for individuals
+        //   };
+        //   // No 'where' clause here if you want all individuals paginated,
+        //   // or add specific conditions if needed.
+        //   // countOptions would be {} or specific conditions for counting individuals.
+        //   break;
         default:
           console.log(`Unsupported type filter received: ${typeFilter}. Returning no results for this type.`);
           // Ensure we don't proceed with a DB query for unsupported types
-          mediaWorkPromise = Promise.resolve({ data: [], totalCount: 0 }); // Or appropriate promise
-          // Skip further processing for this switch case
-          targetModel = null;
+          // Reset relevant promise based on what default targetModel was
+          if (targetModel === 'mediaWork') mediaWorkPromise = Promise.resolve({ data: [], totalCount: 0 });
+          // else if (targetModel === 'individual') individualPromise = Promise.resolve({ data: [], totalCount: 0 });
+          // etc.
+          targetModel = null; // Prevent DB query
           break;
       }
 
-      if (targetModel === 'mediaWork' && queryOptions.where) { // Check if where clause was set
+      if (targetModel === 'mediaWork' && queryOptions.where) {
          mediaWorkPromise = Promise.all([
             prisma.mediaWork.findMany(queryOptions),
             prisma.mediaWork.count(countOptions)
           ]).then(([data, total]) => ({ data, totalCount: total }));
+      } else if (targetModel === 'individual') { // Example: if you added INDIVIDUAL case
+        // individualPromise = Promise.all([
+        //   prisma.individual.findMany(queryOptions),
+        //   prisma.individual.count(countOptions)
+        // ]).then(([data, total]) => ({ data, totalCount: total }));
       }
-      // Add similar blocks if typeFilter can target individuals, items, or orgs directly with pagination
+      // Add similar blocks if typeFilter can target other models directly with pagination
 
     } else if (query) { // Only proceed with keyword search if query is not empty
       console.log(`Performing keyword search for: "${query}"`);
