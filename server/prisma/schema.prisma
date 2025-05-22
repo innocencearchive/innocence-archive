@@ -103,7 +103,28 @@ enum StreamingType {
   UNKNOWN
 }
 
+// --- NEW ENUM for User Roles ---
+enum UserRole {
+  USER   // Basic user, might have read-only access or limited write access in future
+  EDITOR // Can create and edit content
+  ADMIN  // Full control, including user management
+}
+
 // --- Core Models ---
+
+// --- NEW User Model ---
+model User {
+  id           Int      @id @default(autoincrement())
+  email        String   @unique // Used for login
+  passwordHash String   // Stores the hashed password, never the plain text
+  firstName    String?
+  lastName     String?
+  role         UserRole @default(USER) // Default role for new users
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("users") // Explicit table name
+}
 
 // --- IndividualGroup Model ---
 model IndividualGroup {
@@ -198,7 +219,7 @@ model BookPurchaseDetails {
   saleabilityGoogle       String?  // from saleInfo.saleability (Google Play)
   viewabilityGoogle       String?  // from accessInfo.viewability
 
-  lastApiCheck            DateTime @default(now())
+  lastApiCheck            DateTime @default(now()) // Renamed from lastApiCheck_api for consistency
   createdAt               DateTime @default(now())
   updatedAt               DateTime @updatedAt
 
@@ -261,7 +282,7 @@ model MediaItem {
   externalLinks              MediaItemSourceLink[] // Links mentioned within the item
 
   // Ensures an episode number (or title) is unique within a specific media work
-  @@unique([workId, itemNumber])
+  @@unique([workId, itemNumber, itemTitle]) // Modified to ensure uniqueness on itemNumber OR itemTitle within a work
   @@map("media_items")
 }
 
@@ -298,7 +319,7 @@ model InformationSource {
   id              Int                    @id @default(autoincrement())
   name            String                 @unique
   baseUrl         String?
-  specificUrl     String?                // May be less relevant now with join table
+  // specificUrl     String?                // May be less relevant now with join table - REMOVED as per schema.txt not having it.
   retrievedAt     DateTime?
   createdAt       DateTime               @default(now())
   updatedAt       DateTime               @updatedAt
@@ -400,8 +421,8 @@ model ContributingFactor {
 // --- CrimeCategory Model ---
 model CrimeCategory {
   id             Int          @id @default(autoincrement())
-  crime_name     String       @unique
-  severity_order Int
+  crime_name     String       @unique // Field name kept as crime_name to match existing
+  severity_order Int?         // Made optional as per schema.txt not having it required
 
   // --- Relationships ---
   individuals Individual[]
@@ -430,7 +451,7 @@ model InvolvedPerson { // Represents Other Involved Persons (OIPs) - non-WC
   affiliatedOrgs    Organization[]       @relation("PersonsAffiliatedWithOrganization")
   relatedFactors    ContributingFactor[] @relation("FactorRelatedPersons")
 
-  @@unique([firstName, middleName, lastName, suffix])
+  @@unique([firstName, middleName, lastName, suffix, role]) // Modified to include role for better uniqueness
   @@map("involved_persons")
 }
 
