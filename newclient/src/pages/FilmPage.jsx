@@ -314,7 +314,7 @@ function FilmPage() {
                             </div>
 
                             <div className="mt-6 pt-6 border-t border-gray-700">
-                                <h2 className="text-2xl font-semibold text-amber-500 mb-4">How to Watch</h2>
+                                <h2 className="text-2xl font-semibold ${BRONZE_COLOR} mb-4">How to Watch</h2>
                                 {workData.streamingProviders && workData.streamingProviders.length > 0 ? (
                                     <div className="text-gray-300">
                                         {/* This will be replaced by StreamingProvidersComponent */}

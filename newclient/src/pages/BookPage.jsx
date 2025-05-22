@@ -292,7 +292,7 @@ function BookPage() {
                         </div>
 
                         {/* Right Column: Summary and How to Read */}
-                        <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg flex flex-col`}>
+                        <div className={`lg:col-span-2 border ${BRONZE_COLOR} p-6 rounded-lg shadow-lg flex flex-col`}>
                             <div>
                                 
                                 {/* MODIFIED LINE BELOW */}
