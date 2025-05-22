@@ -18,6 +18,10 @@ const updateRoutes = require('./routes/updates');
 const homepageRouter = require('./routes/homepage'); // Import the new router
 const searchRoutes = require('./routes/search');
 const settingsRoutes = require('./routes/settings');
+// server.js
+// ... other requires
+const settingsRoutes = require('./routes/settings');
+const authRoutes = require('./routes/auth'); // <<< ADD THIS LINE
 
 
 // --- Initialization ---
@@ -72,6 +76,9 @@ app.use('/api/updates', updateRoutes);
 app.use('/api/homepage', homepageRouter); // Mount at /api/homepage
 app.use('/api/search', searchRoutes);
 app.use('/api/settings', settingsRoutes); // Mount the routes
+// ...
+app.use('/api/settings', settingsRoutes); // Mount the routes
+app.use('/api/auth', authRoutes);         // <<< ADD THIS LINE
 
 
 
