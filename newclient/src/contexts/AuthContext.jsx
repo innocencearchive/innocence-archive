@@ -49,7 +49,7 @@ const login = async (email, password) => {
     console.log('Login successful, user role:', userData.role);
 
     // --- NEW: Redirect logic ---
-    const from = location.state?.from?.pathname || (userData.role === 'ADMIN' || userData.role === 'EDITOR' ? '/adminsettings' : '/');
+    const from = location.state?.from?.pathname || (userData.role === 'ADMIN' || userData.role === 'EDITOR' ? '/admin' : '/');
     // If 'from' state exists (passed by ProtectedRoute), redirect there.
     // Otherwise, redirect based on role or to a default page.
     navigate(from, { replace: true });
