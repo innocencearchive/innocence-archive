@@ -139,7 +139,7 @@ function CombinedMediaPage() {
         // Fetch lists related to the WORK
         const fetchWorkRelatedList = async (endpoint, setData, setLoading, setError, typeLabel) => {
             setLoading(true); setError(null); setData([]);
-            const apiUrl = `/api/mediaworks/${workId}/${endpoint}`;
+            const apiUrl = `/mediaworks/${workId}/${endpoint}`;
             console.log(`Fetching ${typeLabel} for Work ID ${workId} from (using apiClient): ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
@@ -161,7 +161,7 @@ function CombinedMediaPage() {
         // Fetch lists related to the ITEM
         const fetchItemRelatedList = async (endpoint, setData, setLoading, setError, typeLabel) => {
             setLoading(true); setError(null); setData([]);
-            const apiUrl = `/api/mediaitems/${itemId}/${endpoint}`;
+            const apiUrl = `/mediaitems/${itemId}/${endpoint}`;
             console.log(`Fetching ${typeLabel} for Item ID ${itemId} from (using apiClient): ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
