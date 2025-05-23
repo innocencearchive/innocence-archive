@@ -119,7 +119,7 @@ function OrganizationInfoPage() {
             setErrorState(null); 
             setData([]);
             
-            const apiUrl = `/api/organizations/${orgId}/${endpoint}`;
+            const apiUrl = `/organizations/${orgId}/${endpoint}`;
             console.log(`Fetching ${typeLabel} from (using apiClient): ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
