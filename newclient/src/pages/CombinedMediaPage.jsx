@@ -95,7 +95,7 @@ function CombinedMediaPage() {
             try {
                 // Use apiClient. The VITE_API_URL (e.g., http://localhost:3001 or https://your-api.onrender.com)
                 // will be prepended to '/api/mediaworks/...'
-                const workApiUrl = `/api/mediaworks/${workId}?include=items`;
+                const workApiUrl = `/mediaworks/${workId}?include=items`;
                 console.log(`Fetching work data from (using apiClient): ${workApiUrl}`);
                 const response = await apiClient.get(workApiUrl);
                 const fetchedWorkData = response.data; // Axios provides data directly
