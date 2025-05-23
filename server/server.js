@@ -1,98 +1,114 @@
-// server.js
-
-// Import necessary packages
-// Use require for standard Node.js CommonJS modules unless your package.json has "type": "module"
-require('dotenv').config(); // Load .env variables into process.env FIRST
+// server/routes/settings.js
 const express = require('express');
-const cors = require('cors');
 const { PrismaClient } = require('@prisma/client');
+const { authenticateToken, authorizeRole } = require('../middleware/authenticateToken'); // Import the middleware
 
-const individualRoutes = require('./routes/individuals'); // Add this line
-const mediaWorksRoutes = require('./routes/mediaworks');
-const mediaItemsRoutes = require('./routes/mediaitems');  
-const organizationRoutes = require('./routes/organizations'); // Add this line
-const contributingFactorRoutes = require('./routes/contributingfactors');
-const crimeCategoryRoutes = require('./routes/crimecategories');  
-const involvedPersonRoutes = require('./routes/involvedpersons');  
-const updateRoutes = require('./routes/updates');  
-const homepageRouter = require('./routes/homepage'); // Import the new router
-const searchRoutes = require('./routes/search');
-const settingsRoutes = require('./routes/settings');
-const authRoutes = require('./routes/auth'); // <<< ADD THIS LINE
+const router = express.Router();
+const prisma = new PrismaClient();
 
+const SETTINGS_ROW_ID = 1; // The fixed ID for the single row in the settings table
 
-// --- Initialization ---
-const app = express(); // Initialize Express application
-const prisma = new PrismaClient(); // Initialize Prisma Client
-const PORT = process.env.PORT || 3001; // Use port from .env or default to 3001
+// --- Helper to validate incoming IDs (ensure they are numbers or null) ---
+function validateId(id) {
+    if (id === null || id === '' || typeof id === 'undefined') return null;
+    const num = parseInt(id, 10);
+    return !isNaN(num) ? num : null; // Return number or null if invalid
+}
 
-// --- Middleware ---
-// Enable CORS for all origins (adjust in production later for security)
-app.use(cors());
-// Enable Express to parse JSON request bodies
-app.use(express.json());
+// --- GET /api/settings/featured ---
+// Fetches the current featured content settings
+// This route is now PUBLIC as it's needed for the homepage.
+router.get(
+  '/featured',
+  // authenticateToken, // <<< REMOVE THIS LINE for the GET request
+  async (req, res) => {
+    // If you REMOVE authenticateToken, req.user will not be available here.
+    // If you still want to log if a user *is* logged in, you'd need optional auth middleware,
+    // or just accept that this is a public endpoint.
+    console.log('Request received for GET /api/settings/featured');
+    try {
+        const settings = await prisma.featuredContentSetting.findUnique({
+            where: { id: SETTINGS_ROW_ID },
+        });
 
-// --- Routes ---
-
-// Basic root route to check if the server is running
-app.get('/', (req, res) => {
-  res.send('Hello from The Innocence Archive Backend!');
-});
-
-// Example API route to test database connection (AFTER running migrations)
-// This route attempts a simple count query on the 'organizations' table
-app.get('/api/test-db', async (req, res) => {
-  console.log('Received request for /api/test-db'); // Log request
-  try {
-    // Ensure the 'organization' table exists (run migrations first!)
-    const orgCount = await prisma.organization.count();
-    console.log(`Found ${orgCount} organizations.`); // Log success
-    res.json({
-      message: 'Database connection successful!',
-      organizationCount: orgCount
-    });
-  } catch (error) {
-    console.error('Database connection error:', error); // Log error details
-    res.status(500).json({
-      message: 'Database connection failed',
-      error: error.message // Send back error message
-    });
+        if (settings) {
+            console.log('Found featured settings:', settings);
+            res.json(settings);
+        } else {
+            console.log('No featured settings found, returning defaults.');
+            res.json({
+                id: SETTINGS_ROW_ID,
+                featuredStoryId: null,
+                featuredBookId: null,
+                featuredPodcastId: null,
+                featuredFilmId: null,
+                featuredOrgId: null,
+                featuredFactorIds: [],
+            });
+        }
+    } catch (error) {
+        console.error('Error fetching featured settings:', error.message);
+        res.status(500).json({ message: 'Failed to fetch settings', error: error.message });
+    }
   }
-});
+);
 
-// --- TODO: Add your actual API routes here later ---
-// --- API Routes ---
-app.use('/api/individuals', individualRoutes); 
-app.use('/api/mediaworks', mediaWorksRoutes);
-app.use('/api/mediaitems', mediaItemsRoutes);
-app.use('/api/organizations',organizationRoutes); 
-app.use('/api/contributingfactors',contributingFactorRoutes); 
-app.use('/api/crimecategories',crimeCategoryRoutes); 
-app.use('/api/persons',involvedPersonRoutes); 
-app.use('/api/updates', updateRoutes); 
-app.use('/api/homepage', homepageRouter); // Mount at /api/homepage
-app.use('/api/search', searchRoutes);
-app.use('/api/settings', settingsRoutes); // Mount the routes
-app.use('/api/auth', authRoutes);         // <<< ADD THIS LINE
+// --- PUT /api/settings/featured ---
+// Updates (or creates) the featured content settings
+// Protected: Requires authentication AND 'ADMIN' or 'EDITOR' role.
+router.put(
+  '/featured',
+  authenticateToken, // First, ensure user is authenticated
+  authorizeRole(['ADMIN', 'EDITOR']), // Then, ensure user has ADMIN or EDITOR role
+  async (req, res) => {
+    console.log(`Request received for PUT /api/settings/featured by user: ${req.user.email} (Role: ${req.user.role})`);
+    const {
+        featuredStoryId,
+        featuredBookId,
+        featuredPodcastId,
+        featuredFilmId,
+        featuredOrgId,
+        featuredFactorIds
+    } = req.body;
 
+    console.log('Received settings payload:', req.body);
 
+    try {
+        const validatedData = {
+            featuredStoryId: validateId(featuredStoryId),
+            featuredBookId: validateId(featuredBookId),
+            featuredPodcastId: validateId(featuredPodcastId),
+            featuredFilmId: validateId(featuredFilmId),
+            featuredOrgId: validateId(featuredOrgId),
+            featuredFactorIds: Array.isArray(featuredFactorIds)
+                ? featuredFactorIds.map(id => parseInt(id, 10)).filter(id => !isNaN(id))
+                : [],
+        };
 
-// --- Start Server ---
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
-  console.log(`API available at http://localhost:${PORT}`);
-});
+        console.log('Validated settings data for upsert:', validatedData);
 
-// --- Graceful Shutdown ---
-// Optional: Ensures Prisma disconnects cleanly when server stops
-process.on('SIGINT', async () => {
-  await prisma.$disconnect();
-  console.log('Prisma Client disconnected. Server shutting down.');
-  process.exit(0);
-});
+        const updatedSettings = await prisma.featuredContentSetting.upsert({
+            where: { id: SETTINGS_ROW_ID },
+            update: validatedData,
+            create: {
+                id: SETTINGS_ROW_ID,
+                ...validatedData,
+            },
+        });
 
-process.on('SIGTERM', async () => {
-  await prisma.$disconnect();
-  console.log('Prisma Client disconnected. Server shutting down.');
-  process.exit(0);
-});
+        console.log('Successfully saved/updated featured settings:', updatedSettings);
+        res.json({ message: 'Settings saved successfully!', settings: updatedSettings });
+
+    } catch (error) {
+        console.error('Error saving featured settings:', error.message);
+        if (error.code) {
+             console.error(`Prisma Error Code: ${error.code}`);
+             res.status(400).json({ message: 'Failed to save settings due to invalid data.', error: error.message });
+        } else {
+             res.status(500).json({ message: 'Failed to save settings due to an internal error.', error: error.message });
+        }
+    }
+  }
+);
+
+module.exports = router;
