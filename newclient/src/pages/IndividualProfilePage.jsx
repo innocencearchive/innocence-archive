@@ -40,7 +40,7 @@ function IndividualProfilePage() {
             setError(null); 
             setIndividualData(null);
             
-            const apiUrl = `/api/individuals/${id}`;
+            const apiUrl = `/individuals/${id}`;
             console.log(`Fetching data from (using apiClient): ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
