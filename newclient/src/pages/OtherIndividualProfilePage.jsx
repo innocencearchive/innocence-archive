@@ -50,7 +50,7 @@ function OtherIndividualProfilePage() {
       setOtherSources([]); // Reset these as they might depend on personData
       setRelatedPeople([]);  // Reset these as they might depend on personData
 
-      const apiUrl = `/api/persons/${id}`;
+      const apiUrl = `/persons/${id}`;
       console.log(`Fetching OIP data from (using apiClient): ${apiUrl}`);
 
       try {
