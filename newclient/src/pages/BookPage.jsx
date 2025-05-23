@@ -147,7 +147,7 @@ function BookPage() {
         // Fetch lists related to the MediaWork itself
         const fetchWorkRelatedList = async (endpoint, setData, setLoading, setError, typeLabel) => {
             setLoading(true); setError(null); setData([]);
-            const apiUrl = `/api/mediaworks/${workId}/${endpoint}`;
+            const apiUrl = `/mediaworks/${workId}/${endpoint}`;
             console.log(`BookPage: Fetching ${typeLabel} for Work ID ${workId} from: ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
@@ -166,7 +166,7 @@ function BookPage() {
             }
             const itemId = itemData.id;
             setLoading(true); setError(null); setData([]);
-            const apiUrl = `/api/mediaitems/${itemId}/${endpoint}`;
+            const apiUrl = `/mediaitems/${itemId}/${endpoint}`;
             console.log(`BookPage: Fetching ${typeLabel} for Item ID ${itemId} from: ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
