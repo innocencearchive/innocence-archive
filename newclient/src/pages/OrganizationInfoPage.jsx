@@ -73,7 +73,7 @@ function OrganizationInfoPage() {
             setRelatedOrganizationsData([]); setErrorOrgs(null);
             setExternalSourcesData([]); setErrorSources(null);
 
-            const apiUrl = `/api/organizations/${id}`;
+            const apiUrl = `/organizations/${id}`;
             console.log(`Fetching main organization data from (using apiClient): ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
