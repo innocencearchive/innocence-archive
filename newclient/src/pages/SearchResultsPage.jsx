@@ -92,7 +92,7 @@ function SearchResultsPage() {
             // *** CRITICAL CHANGE: Get page number directly from searchParams for the API call ***
             const pageForFetch = parseInt(searchParams.get('page') || '1', 10);
 
-            let apiUrl = '/api/search?';
+            let apiUrl = '/search?';
             const params = [];
             if (currentQuery) params.push(`q=${encodeURIComponent(currentQuery)}`);
             if (currentTypeFilter) params.push(`type=${encodeURIComponent(currentTypeFilter)}`);
