@@ -90,7 +90,7 @@ function MediaItemPage() {
             setExternalSources([]); setErrorSources(null);
             setRelatedMediaItems([]); setErrorMedia(null);
 
-            const apiUrl = `/api/mediaitems/${id}`;
+            const apiUrl = `/mediaitems/${id}`;
             console.log(`Fetching main item data from (using apiClient): ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
