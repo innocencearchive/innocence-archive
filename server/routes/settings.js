@@ -9,7 +9,6 @@ const prisma = new PrismaClient();
 const SETTINGS_ROW_ID = 1; // The fixed ID for the single row in the settings table
 
 // --- Helper to validate incoming IDs (ensure they are numbers or null) ---
-// This helper is good, no changes needed here.
 function validateId(id) {
     if (id === null || id === '' || typeof id === 'undefined') return null;
     const num = parseInt(id, 10);
@@ -18,13 +17,15 @@ function validateId(id) {
 
 // --- GET /api/settings/featured ---
 // Fetches the current featured content settings
-// Protected: Requires authentication. Any authenticated user can fetch.
+// This route is now PUBLIC as it's needed for the homepage.
 router.get(
   '/featured',
-  authenticateToken, // Apply authentication middleware
+  // authenticateToken, // <<< REMOVE THIS LINE for the GET request
   async (req, res) => {
-    // Log now includes user info from the token
-    console.log(`Request received for GET /api/settings/featured by user: ${req.user.email} (Role: ${req.user.role})`);
+    // If you REMOVE authenticateToken, req.user will not be available here.
+    // If you still want to log if a user *is* logged in, you'd need optional auth middleware,
+    // or just accept that this is a public endpoint.
+    console.log('Request received for GET /api/settings/featured');
     try {
         const settings = await prisma.featuredContentSetting.findUnique({
             where: { id: SETTINGS_ROW_ID },
@@ -35,7 +36,6 @@ router.get(
             res.json(settings);
         } else {
             console.log('No featured settings found, returning defaults.');
-            // Return default empty/null values if no settings row exists yet
             res.json({
                 id: SETTINGS_ROW_ID,
                 featuredStoryId: null,
@@ -61,7 +61,6 @@ router.put(
   authenticateToken, // First, ensure user is authenticated
   authorizeRole(['ADMIN', 'EDITOR']), // Then, ensure user has ADMIN or EDITOR role
   async (req, res) => {
-    // Log now includes user info from the token
     console.log(`Request received for PUT /api/settings/featured by user: ${req.user.email} (Role: ${req.user.role})`);
     const {
         featuredStoryId,
@@ -69,20 +68,18 @@ router.put(
         featuredPodcastId,
         featuredFilmId,
         featuredOrgId,
-        featuredFactorIds // Expecting an array of IDs from the frontend
+        featuredFactorIds
     } = req.body;
 
     console.log('Received settings payload:', req.body);
 
     try {
-        // Basic validation/sanitization - your existing logic is good
         const validatedData = {
             featuredStoryId: validateId(featuredStoryId),
             featuredBookId: validateId(featuredBookId),
             featuredPodcastId: validateId(featuredPodcastId),
             featuredFilmId: validateId(featuredFilmId),
             featuredOrgId: validateId(featuredOrgId),
-            // Ensure factor IDs are numbers and filter out any invalid ones
             featuredFactorIds: Array.isArray(featuredFactorIds)
                 ? featuredFactorIds.map(id => parseInt(id, 10)).filter(id => !isNaN(id))
                 : [],
@@ -90,12 +87,11 @@ router.put(
 
         console.log('Validated settings data for upsert:', validatedData);
 
-        // Use upsert: update if exists (ID=1), create if not
         const updatedSettings = await prisma.featuredContentSetting.upsert({
             where: { id: SETTINGS_ROW_ID },
             update: validatedData,
             create: {
-                id: SETTINGS_ROW_ID, // Explicitly set ID on create
+                id: SETTINGS_ROW_ID,
                 ...validatedData,
             },
         });
@@ -105,7 +101,6 @@ router.put(
 
     } catch (error) {
         console.error('Error saving featured settings:', error.message);
-        // Provide more detail if it's a Prisma validation error
         if (error.code) {
              console.error(`Prisma Error Code: ${error.code}`);
              res.status(400).json({ message: 'Failed to save settings due to invalid data.', error: error.message });
