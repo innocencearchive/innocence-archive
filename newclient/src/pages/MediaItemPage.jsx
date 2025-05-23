@@ -133,7 +133,7 @@ function MediaItemPage() {
             setErrorState(null); // Use the specific error setter passed for this related data type
             setData([]); 
             
-            const apiUrl = `/api/mediaitems/${itemId}/${endpoint}`;
+            const apiUrl = `/mediaitems/${itemId}/${endpoint}`;
             console.log(`Fetching ${typeLabel} from (using apiClient): ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
