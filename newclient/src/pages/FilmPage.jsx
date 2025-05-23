@@ -107,7 +107,7 @@ function FilmPage() {
             setLoadingPage(true); setErrorPage(null); setWorkData(null); setItemData(null);
             console.log(`FilmPage: Fetching data for Work ID: ${workId}`);
             try {
-                const workApiUrl = `/api/mediaworks/${workId}?include=items,streamingProviders`;
+                const workApiUrl = `/mediaworks/${workId}?include=items,streamingProviders`;
                 console.log(`FilmPage: Fetching work data from (using apiClient): ${workApiUrl}`);
                 const response = await apiClient.get(workApiUrl);
                 const fetchedWorkData = response.data;
