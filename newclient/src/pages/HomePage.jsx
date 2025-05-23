@@ -35,7 +35,7 @@ const HomePage = () => {
       console.log("Fetching homepage settings...");
 
       try {
-        const settingsResponse = await apiClient.get('/api/settings/featured');
+        const settingsResponse = await apiClient.get('/settings/featured');
         const settings = settingsResponse.data;
         console.log("Homepage settings fetched:", settings);
 
