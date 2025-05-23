@@ -153,7 +153,7 @@ function FilmPage() {
 
         const fetchWorkRelatedList = async (endpoint, setData, setLoading, setError, typeLabel) => {
             setLoading(true); setError(null); setData([]);
-            const apiUrl = `/api/mediaworks/${workId}/${endpoint}`;
+            const apiUrl = `/mediaworks/${workId}/${endpoint}`;
             console.log(`FilmPage: Fetching ${typeLabel} for Work ID ${workId} from: ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
@@ -180,7 +180,7 @@ function FilmPage() {
             }
             const itemId = itemData.id;
             setLoading(true); setError(null); setData([]);
-            const apiUrl = `/api/mediaitems/${itemId}/${endpoint}`;
+            const apiUrl = `/mediaitems/${itemId}/${endpoint}`;
             console.log(`FilmPage: Fetching ${typeLabel} for Item ID ${itemId} from: ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
