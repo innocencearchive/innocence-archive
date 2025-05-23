@@ -90,7 +90,7 @@ function BookPage() {
             console.log(`BookPage: Fetching data for Work ID: ${workId}`);
             try {
                 // The backend route /api/mediaworks/:id already includes bookPurchaseDetails
-                const workApiUrl = `/api/mediaworks/${workId}`;
+                const workApiUrl = `/mediaworks/${workId}`;
                 console.log(`BookPage: Fetching work data from (using apiClient): ${workApiUrl}`);
                 const response = await apiClient.get(workApiUrl);
                 const fetchedWorkData = response.data;
