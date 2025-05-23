@@ -19,7 +19,8 @@ const homepageRouter = require('./routes/homepage'); // Import the new router
 const searchRoutes = require('./routes/search');
 const settingsRoutes = require('./routes/settings');
 const authRoutes = require('./routes/auth'); // <<< ADD THIS LINE
-
+ const adminExternalApiRoutes = require('./routes/adminExternalApi'); // <<< ADD THIS LINE
+   
 
 // --- Initialization ---
 const app = express(); // Initialize Express application
@@ -73,7 +74,9 @@ app.use('/api/updates', updateRoutes);
 app.use('/api/homepage', homepageRouter); // Mount at /api/homepage
 app.use('/api/search', searchRoutes);
 app.use('/api/settings', settingsRoutes); // Mount the routes
-app.use('/api/auth', authRoutes);         // <<< ADD THIS LINE
+app.use('/api/auth', authRoutes);         
+app.use('/api/admin/external-search', adminExternalApiRoutes); // <<< ADD THIS LINE
+    
 
 
 
