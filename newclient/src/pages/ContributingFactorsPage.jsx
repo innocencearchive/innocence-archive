@@ -41,7 +41,7 @@ function ContributingFactorsPage() { // Renamed from ContributingFactorPage to m
       setRelatedOIPs([]);
       setRelatedOrgs([]);
 
-      const apiUrl = `/api/contributingfactors/${id}`;
+      const apiUrl = `/contributingfactors/${id}`;
       console.log(`Fetching contributing factor data (incl. relations) from: ${apiUrl}`);
 
       try {
