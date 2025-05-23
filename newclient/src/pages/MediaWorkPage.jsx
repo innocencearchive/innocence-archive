@@ -84,7 +84,7 @@ function MediaWorkPage() {
             setRelatedOrganizations([]); setErrorOrganizations(null);
             setOtherSources([]); setErrorSources(null);
 
-            const apiUrl = `/api/mediaworks/${id}?include=items`; // Ensure items are included
+            const apiUrl = `/mediaworks/${id}?include=items`; // Ensure items are included
             console.log(`Fetching main work data from (using apiClient): ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
