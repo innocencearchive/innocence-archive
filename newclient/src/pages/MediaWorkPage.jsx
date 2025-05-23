@@ -130,7 +130,7 @@ function MediaWorkPage() {
             setErrorState(null);
             setData([]); // Reset data before fetch
 
-            const apiUrl = `/api/mediaworks/${workId}/${endpoint}`;
+            const apiUrl = `/mediaworks/${workId}/${endpoint}`;
             console.log(`Fetching ${typeLabel} for Work ID ${workId} from (using apiClient): ${apiUrl}`);
             try {
                 const response = await apiClient.get(apiUrl);
