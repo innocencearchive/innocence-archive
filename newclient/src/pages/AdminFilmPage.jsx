@@ -1,7 +1,7 @@
 // src/pages/AdminFilmPage.jsx
 import React, { useState, useEffect } from 'react';
 import { useParams, useLocation, useNavigate }
-from 'react-router-dom'; // To determine mode (add/edit) and ID
+from 'react-router-dom';
 import { Search, Film, Save, XCircle, AlertTriangle, Loader2, Edit3, PlusSquare } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import apiClient from '../apiClient';
@@ -10,28 +10,26 @@ import { BRONZE_COLOR, BRONZE_BORDER } from '../components/themeconstants';
 function AdminFilmPage() {
   const { user } = useAuth();
   const navigate = useNavigate();
-  const params = useParams(); // To get :id if we are editing
-  const location = useLocation(); // To get query params or state to determine mode
+  const params = useParams();
+  const location = useLocation();
 
-  // Modes: 'search_tmdb', 'review_new_film', 'edit_existing_film', 'show_existing_film'
-  const [mode, setMode] = useState('search_tmdb'); // Default to search for adding a new film
-  const [filmId, setFilmId] = useState(null); // For editing an existing film by internal ID
+  const [mode, setMode] = useState('search_tmdb');
+  const [filmId, setFilmId] = useState(null);
 
-  const [searchTerm, setSearchTerm] = useState(''); // For TMDB search
-  const [tmdbResults, setTmdbResults] = useState([]); // Results from TMDB search
-  const [selectedTmdbFilm, setSelectedTmdbFilm] = useState(null); // Film selected from TMDB results
+  const [searchTerm, setSearchTerm] = useState('');
+  const [tmdbResults, setTmdbResults] = useState([]);
+  const [selectedTmdbFilm, setSelectedTmdbFilm] = useState(null);
 
-  const [filmData, setFilmData] = useState({ // Form data for the film
+  const [filmData, setFilmData] = useState({
     title: '',
-    workType: 'FILM', // Default for this page
-    creatorName: '', // Director
+    workType: 'FILM',
+    creatorName: '',
     publicationOrReleaseYear: '',
-    publisherOrNetwork: '', // Production Companies
+    publisherOrNetwork: '',
     focusOrTheme: '',
-    summaryNotes: '', // Overview/Plot
-    imagePath: '', // Poster path
-    externalId: '', // TMDB ID
-    // Streaming info will be handled separately or as part of a more complex object
+    summaryNotes: '',
+    imagePath: '',
+    externalId: '',
   });
 
   const [isLoading, setIsLoading] = useState(false);
@@ -39,81 +37,83 @@ function AdminFilmPage() {
   const [error, setError] = useState(null);
   const [successMessage, setSuccessMessage] = useState(null);
 
-  // Determine initial mode based on URL or state (simplified for now)
   useEffect(() => {
-    // Example: if location.pathname includes '/edit/' or if params.id exists
     if (location.pathname.includes('/edit/') && params.id) {
-      setMode('show_existing_film'); // Or 'edit_existing_film' directly
+      setMode('show_existing_film');
       setFilmId(params.id);
-      // TODO: Fetch existing film data from your DB
       console.log(`Editing film with internal ID: ${params.id}`);
+      // TODO: Fetch existing film data from your DB
+      // Example: fetchFilmFromDb(params.id);
     } else if (location.pathname.includes('/add')) {
       setMode('search_tmdb');
       console.log('Adding new film mode.');
     }
-    // More sophisticated mode detection can be added
   }, [location.pathname, params.id]);
-
 
   const handleTmdbSearch = async (e) => {
     e.preventDefault();
     if (!searchTerm.trim()) {
       setError('Please enter a film title or TMDB ID to search.');
+      setTmdbResults([]);
       return;
     }
     setIsLoading(true);
     setError(null);
     setTmdbResults([]);
     setSuccessMessage(null);
+    setSelectedTmdbFilm(null); // Clear previous selection
 
     try {
-      // This is where you'll call your backend endpoint that then calls TMDB
-      // For now, we'll simulate it.
-      // The backend endpoint would be something like: apiClient.post('/admin/search-external/film', { query: searchTerm })
-      console.log(`Searching TMDB for: ${searchTerm}`);
-      // SIMULATED API CALL
-      await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate network delay
-      const mockResults = [
-        { id: 'tmdb123', title: `${searchTerm} - Mock Result 1 (2023)`, overview: 'Overview for mock result 1...' },
-        { id: 'tmdb456', title: `${searchTerm} - Mock Result 2 (2022)`, overview: 'Overview for mock result 2...' },
-      ];
-      setTmdbResults(mockResults);
-      if (mockResults.length === 0) {
+      console.log(`Searching TMDB via backend for: ${searchTerm}`);
+      // Actual API call to your backend
+      // apiClient baseURL already includes /api, so path is relative to that
+      const response = await apiClient.post('/admin/external-search/film', { query: searchTerm.trim() });
+      
+      console.log('Backend TMDB search response:', response.data);
+      setTmdbResults(response.data || []); // Expecting an array from the backend
+
+      if (response.data && response.data.length === 0) {
         setSuccessMessage('No results found on TMDB for your query.');
+      } else if (response.data && response.data.length > 0) {
+        setSuccessMessage(`${response.data.length} result(s) found.`);
       }
     } catch (err) {
-      console.error('Error searching TMDB:', err);
-      setError(err.response?.data?.message || 'Failed to search TMDB.');
+      console.error('Error searching TMDB via backend:', err);
+      setError(err.response?.data?.message || 'Failed to search TMDB. Check server logs.');
+      setTmdbResults([]);
     } finally {
       setIsLoading(false);
     }
   };
 
-  const handleSelectTmdbFilm = async (tmdbFilm) => {
-    // This function would be called when a user selects a film from tmdbResults
-    // It would then fetch more detailed data for that film (including Watchmode if integrated)
-    // and populate filmData, then switch mode to 'review_new_film'.
-    console.log('Selected TMDB Film:', tmdbFilm);
+  const handleSelectTmdbFilm = async (tmdbFilmFromResult) => {
+    console.log('Selected TMDB Film from search results:', tmdbFilmFromResult);
     setIsLoading(true);
     setError(null);
-    setSelectedTmdbFilm(tmdbFilm); // Store the selected film for now
+    setSuccessMessage(null);
+    setSelectedTmdbFilm(tmdbFilmFromResult); // Store the selected film (which has id, title, overview, poster_path, release_date)
 
-    // SIMULATE fetching detailed data & pre-filling form
-    // In reality, another backend call: apiClient.get(`/admin/fetch-film-details/${tmdbFilm.id}`)
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    // TODO: Next step is to implement a backend endpoint to fetch FULL details from TMDB
+    // and streaming info from WatchMode using tmdbFilmFromResult.id (which is the TMDB ID).
+    // For now, we'll use the basic info we got from the search.
+    // Example: const detailedFilm = await apiClient.get(`/admin/fetch-film-details/${tmdbFilmFromResult.id}`);
+    // Then populate filmData with detailedFilm.data
+
+    // Using basic data from search result for now to pre-fill form:
     setFilmData({
-      title: tmdbFilm.title.split(' (')[0], // Basic parsing
+      title: tmdbFilmFromResult.title || '',
       workType: 'FILM',
-      creatorName: 'Mock Director',
-      publicationOrReleaseYear: tmdbFilm.title.match(/\((\d{4})\)/)?.[1] || '',
-      publisherOrNetwork: 'Mock Production Co.',
-      summaryNotes: tmdbFilm.overview,
-      imagePath: '/mock-poster.jpg', // Placeholder
-      externalId: tmdbFilm.id,
+      creatorName: '', // TMDB search doesn't usually give director directly, detail call needed
+      publicationOrReleaseYear: tmdbFilmFromResult.release_date ? tmdbFilmFromResult.release_date.substring(0, 4) : '',
+      publisherOrNetwork: '', // Detail call needed
+      summaryNotes: tmdbFilmFromResult.overview || '',
+      imagePath: tmdbFilmFromResult.poster_path ? tmdbFilmFromResult.poster_path.replace('https://image.tmdb.org/t/p/w92', '') : '', // Store relative path
+      externalId: tmdbFilmFromResult.id.toString(), // TMDB ID
     });
-    setMode('review_new_film'); // Switch to review/edit mode for the new film
-    setTmdbResults([]); // Clear search results
+    setMode('review_new_film');
+    setTmdbResults([]); // Clear search results from display
     setIsLoading(false);
+    setSuccessMessage(`Selected "${tmdbFilmFromResult.title}". Please review details.`);
   };
 
 
@@ -130,34 +130,41 @@ function AdminFilmPage() {
     console.log('Saving film data:', filmData);
 
     try {
-      // Determine if it's a new film (mode === 'review_new_film') or an existing one (mode === 'edit_existing_film')
       let response;
+      const payload = {
+        ...filmData,
+        workType: 'FILM', // Ensure workType is set
+        // Convert year to int if it's a string and not empty
+        publicationOrReleaseYear: filmData.publicationOrReleaseYear ? parseInt(filmData.publicationOrReleaseYear, 10) : null,
+      };
+
       if (mode === 'review_new_film') {
-        // Call backend to create new film: apiClient.post('/admin/media', { ...filmData, type: 'FILM' })
-        response = { data: { message: 'Film created successfully (simulated)!', film: {...filmData, id: 'db789'} } }; // Mock
+        console.log('Calling backend to create new film with payload:', payload);
+        // TODO: Replace with actual API call:
+        // response = await apiClient.post('/admin/media', payload);
+        await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate
+        response = { data: { message: 'Film created successfully (simulated)!', mediaWork: {...payload, id: 'db789'} } };
+        setSuccessMessage(response.data.message);
+        if (response.data.mediaWork) {
+          setFilmId(response.data.mediaWork.id);
+          setFilmData(response.data.mediaWork);
+          setMode('show_existing_film');
+        }
+
       } else if (mode === 'edit_existing_film' && filmId) {
-        // Call backend to update existing film: apiClient.put(`/admin/media/${filmId}`, { ...filmData, type: 'FILM' })
-        response = { data: { message: 'Film updated successfully (simulated)!', film: filmData } }; // Mock
+        console.log(`Calling backend to update film ID ${filmId} with payload:`, payload);
+        // TODO: Replace with actual API call:
+        // response = await apiClient.put(`/admin/media/${filmId}`, payload);
+        await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate
+        response = { data: { message: 'Film updated successfully (simulated)!', mediaWork: payload } };
+        setSuccessMessage(response.data.message);
+        if (response.data.mediaWork) {
+          setFilmData(response.data.mediaWork);
+          setMode('show_existing_film');
+        }
       } else {
         throw new Error("Invalid mode for saving.");
       }
-
-      // SIMULATED API CALL
-      await new Promise(resolve => setTimeout(resolve, 1500));
-
-      setSuccessMessage(response.data.message);
-      // Potentially navigate away or reset form
-      // navigate('/admin'); // Example: navigate back to dashboard
-      if (response.data.film && mode === 'review_new_film') {
-        // If creating, maybe switch to viewing/editing the newly created film
-        setFilmId(response.data.film.id); // Assuming backend returns the new DB ID
-        setFilmData(response.data.film);
-        setMode('show_existing_film'); // Or 'edit_existing_film'
-      } else if (response.data.film && mode === 'edit_existing_film') {
-        setFilmData(response.data.film);
-        setMode('show_existing_film');
-      }
-
     } catch (err) {
       console.error('Error saving film:', err);
       setError(err.response?.data?.message || 'Failed to save film.');
@@ -167,26 +174,26 @@ function AdminFilmPage() {
   };
 
   const handleCancel = () => {
-    // Reset state and navigate or change mode
     setSearchTerm('');
     setTmdbResults([]);
     setSelectedTmdbFilm(null);
     setFilmData({ title: '', workType: 'FILM', creatorName: '', publicationOrReleaseYear: '', publisherOrNetwork: '', focusOrTheme: '', summaryNotes: '', imagePath: '', externalId: '' });
     setError(null);
     setSuccessMessage(null);
-    if (mode === 'review_new_film' || mode === 'edit_existing_film') {
-        if (filmId && mode === 'edit_existing_film') { // If was editing an existing film, go back to showing it
-            setMode('show_existing_film');
-        } else { // Otherwise, go back to TMDB search for adding
+    if (mode === 'review_new_film' || mode === 'edit_existing_film' || mode === 'show_existing_film') {
+        if (filmId && (mode === 'edit_existing_film' || mode === 'show_existing_film')) {
+             // If was editing/showing an existing film, go back to TMDB search for now,
+             // or ideally fetch and show the film again.
+             // For simplicity, back to search.
+            setMode('search_tmdb');
+            setFilmId(null); // Clear filmId if going back to search mode
+        } else {
             setMode('search_tmdb');
         }
     } else {
-        navigate('/admin'); // Default cancel action
+        navigate('/admin');
     }
   };
-
-
-  // --- Render different UI based on mode ---
 
   const renderTmdbSearch = () => (
     <form onSubmit={handleTmdbSearch} className="mb-6">
@@ -208,7 +215,7 @@ function AdminFilmPage() {
           className={`py-2.5 px-5 bg-amber-600 hover:bg-amber-700 text-white font-semibold rounded-md flex items-center justify-center disabled:opacity-50 ${BRONZE_BORDER} border-2`}
         >
           {isLoading ? <Loader2 className="animate-spin h-5 w-5" /> : <Search size={20} />}
-          <span className="ml-2">Search TMDB</span>
+          <span className="ml-2 hidden sm:inline">Search TMDB</span>
         </button>
       </div>
     </form>
@@ -217,18 +224,24 @@ function AdminFilmPage() {
   const renderTmdbResults = () => (
     <div className="mt-6">
       <h3 className="text-lg font-semibold text-gray-300 mb-2">TMDB Search Results:</h3>
-      {tmdbResults.length === 0 && !isLoading && <p className="text-gray-400">No results found, or waiting for search.</p>}
-      <ul className="space-y-3">
+      {tmdbResults.length === 0 && !isLoading && !error && <p className="text-gray-400">No results found for "{searchTerm}", or waiting for search.</p>}
+      <ul className="space-y-3 max-h-96 overflow-y-auto pr-2">
         {tmdbResults.map(film => (
-          <li key={film.id} className="p-3 bg-gray-700 rounded-md hover:bg-gray-600 transition-colors">
-            <div className="flex justify-between items-center">
-              <div>
-                <p className="font-semibold text-amber-400">{film.title}</p>
-                <p className="text-xs text-gray-400 truncate max-w-md">{film.overview}</p>
+          <li key={film.id} className="p-3 bg-gray-700 rounded-md hover:bg-gray-600/70 transition-colors">
+            <div className="flex items-start space-x-3">
+              {film.poster_path && (
+                <img src={film.poster_path} alt="" className="w-12 h-auto rounded flex-shrink-0 bg-gray-600" />
+              )}
+              {!film.poster_path && (
+                <div className="w-12 h-[72px] rounded flex-shrink-0 bg-gray-600 flex items-center justify-center text-gray-400 text-xs"><Film size={24}/></div>
+              )}
+              <div className="flex-grow">
+                <p className="font-semibold text-amber-400">{film.title} {film.release_date ? `(${film.release_date.substring(0,4)})` : ''}</p>
+                <p className="text-xs text-gray-400 line-clamp-2">{film.overview}</p>
               </div>
               <button
                 onClick={() => handleSelectTmdbFilm(film)}
-                className="py-1.5 px-3 bg-sky-600 hover:bg-sky-700 text-white text-sm font-medium rounded-md"
+                className="py-1.5 px-3 bg-sky-600 hover:bg-sky-700 text-white text-sm font-medium rounded-md self-center flex-shrink-0"
               >
                 Select
               </button>
@@ -251,36 +264,34 @@ function AdminFilmPage() {
          <p className="text-sm text-gray-400 mb-3">Database ID: <strong className="text-amber-400">{filmId}</strong></p>
       )}
 
-      {/* Add form fields for filmData here, e.g.: */}
       <div>
         <label htmlFor="title" className="block text-sm font-medium text-gray-300">Title</label>
-        <input type="text" name="title" id="title" value={filmData.title} onChange={handleInputChange} className="mt-1 block w-full p-2 bg-gray-700 border border-gray-600 rounded-md text-white" />
+        <input type="text" name="title" id="title" value={filmData.title} onChange={handleInputChange} required className="mt-1 block w-full p-2 bg-gray-700 border border-gray-600 rounded-md text-white" />
       </div>
       <div>
         <label htmlFor="creatorName" className="block text-sm font-medium text-gray-300">Director(s)</label>
-        <input type="text" name="creatorName" id="creatorName" value={filmData.creatorName} onChange={handleInputChange} className="mt-1 block w-full p-2 bg-gray-700 border border-gray-600 rounded-md text-white" />
+        <input type="text" name="creatorName" id="creatorName" value={filmData.creatorName} onChange={handleInputChange} placeholder="e.g., Frank Darabont" className="mt-1 block w-full p-2 bg-gray-700 border border-gray-600 rounded-md text-white" />
       </div>
       <div>
         <label htmlFor="publicationOrReleaseYear" className="block text-sm font-medium text-gray-300">Release Year</label>
-        <input type="number" name="publicationOrReleaseYear" id="publicationOrReleaseYear" value={filmData.publicationOrReleaseYear} onChange={handleInputChange} className="mt-1 block w-full p-2 bg-gray-700 border border-gray-600 rounded-md text-white" />
+        <input type="number" name="publicationOrReleaseYear" id="publicationOrReleaseYear" value={filmData.publicationOrReleaseYear} onChange={handleInputChange} placeholder="e.g., 1994" className="mt-1 block w-full p-2 bg-gray-700 border border-gray-600 rounded-md text-white" />
       </div>
        <div>
-        <label htmlFor="publisherOrNetwork" className="block text-sm font-medium text-gray-300">Production Companies</label>
-        <input type="text" name="publisherOrNetwork" id="publisherOrNetwork" value={filmData.publisherOrNetwork} onChange={handleInputChange} className="mt-1 block w-full p-2 bg-gray-700 border border-gray-600 rounded-md text-white" />
+        <label htmlFor="publisherOrNetwork" className="block text-sm font-medium text-gray-300">Production Companies (comma-separated)</label>
+        <input type="text" name="publisherOrNetwork" id="publisherOrNetwork" value={filmData.publisherOrNetwork} onChange={handleInputChange} placeholder="e.g., Castle Rock Entertainment, Columbia Pictures" className="mt-1 block w-full p-2 bg-gray-700 border border-gray-600 rounded-md text-white" />
       </div>
       <div>
         <label htmlFor="summaryNotes" className="block text-sm font-medium text-gray-300">Overview/Plot</label>
         <textarea name="summaryNotes" id="summaryNotes" rows="4" value={filmData.summaryNotes} onChange={handleInputChange} className="mt-1 block w-full p-2 bg-gray-700 border border-gray-600 rounded-md text-white"></textarea>
       </div>
       <div>
-        <label htmlFor="imagePath" className="block text-sm font-medium text-gray-300">Poster Path (e.g., /abc.jpg)</label>
-        <input type="text" name="imagePath" id="imagePath" value={filmData.imagePath} onChange={handleInputChange} className="mt-1 block w-full p-2 bg-gray-700 border border-gray-600 rounded-md text-white" />
+        <label htmlFor="imagePath" className="block text-sm font-medium text-gray-300">Poster Path (relative, e.g., /q6y0Go1tsGEsmgIo6kdfV63nMui.jpg)</label>
+        <input type="text" name="imagePath" id="imagePath" value={filmData.imagePath} onChange={handleInputChange} placeholder="From TMDB, relative path like /q6y0Go1tsGEsmgIo6kdfV63nMui.jpg" className="mt-1 block w-full p-2 bg-gray-700 border border-gray-600 rounded-md text-white" />
       </div>
        <div>
         <label htmlFor="externalId" className="block text-sm font-medium text-gray-300">TMDB ID</label>
-        <input type="text" name="externalId" id="externalId" value={filmData.externalId} onChange={handleInputChange} readOnly={mode === 'review_new_film'} className="mt-1 block w-full p-2 bg-gray-600 border border-gray-500 rounded-md text-gray-300" />
+        <input type="text" name="externalId" id="externalId" value={filmData.externalId} readOnly className="mt-1 block w-full p-2 bg-gray-600 border border-gray-500 rounded-md text-gray-400 cursor-not-allowed" />
       </div>
-      {/* TODO: Add fields for streaming providers if fetched */}
 
       <div className="flex justify-end space-x-3 pt-4">
         <button
@@ -297,19 +308,16 @@ function AdminFilmPage() {
           className={`py-2 px-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-md flex items-center justify-center disabled:opacity-50 ${BRONZE_BORDER} border-2`}
         >
           {isSaving ? <Loader2 className="animate-spin h-5 w-5 mr-2" /> : <Save size={18} className="mr-2" />}
-          {isSaving ? 'Saving...' : 'Save Film'}
+          {isSaving ? 'Saving...' : (mode === 'review_new_film' ? 'Add Film to DB' : 'Save Changes')}
         </button>
       </div>
     </form>
   );
   
   const renderShowExistingFilm = () => (
-    // Similar to renderFilmForm but fields might be read-only initially, with an "Edit" button
-    // For now, let's just reuse the form and make it editable directly
-    // Or switch to 'edit_existing_film' mode if we want a distinct view vs edit state
-    renderFilmForm() // Simplified: directly show editable form
+    // For now, directly show editable form. Could be a read-only view later.
+    renderFilmForm()
   );
-
 
   return (
     <div className="min-h-screen bg-gray-900 p-4 md:p-8 text-gray-200">
@@ -337,6 +345,9 @@ function AdminFilmPage() {
             {renderTmdbSearch()}
             {isLoading && <div className="text-center py-4"><Loader2 className="animate-spin h-8 w-8 text-amber-500 mx-auto" /></div>}
             {!isLoading && tmdbResults.length > 0 && renderTmdbResults()}
+            {!isLoading && tmdbResults.length === 0 && searchTerm && !error && successMessage && /* Show "No results" only if a search was made */ (
+              <p className="text-gray-400 mt-4 text-center">{successMessage}</p>
+            )}
           </>
         )}
 
@@ -348,14 +359,9 @@ function AdminFilmPage() {
         )}
         
         {mode === 'show_existing_film' && !isLoading && (
-            // This mode would typically show read-only data with an edit button
-            // For now, it directly calls renderFilmForm which is editable.
-            // You could add a button here to switch to 'edit_existing_film' explicitly if needed.
             renderShowExistingFilm()
         )}
 
-
-        {/* Navigation back to dashboard */}
         <div className="mt-8 text-center">
             <button
                 onClick={() => navigate('/admin')}
@@ -364,7 +370,6 @@ function AdminFilmPage() {
                 &larr; Back to Admin Dashboard
             </button>
         </div>
-
       </div>
     </div>
   );
