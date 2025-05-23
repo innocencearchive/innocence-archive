@@ -52,33 +52,33 @@ const HomePage = () => {
         };
 
         if (settings.featuredStoryId) {
-          fetchPromises.push(createFetchPromise('story', `/api/individuals/${settings.featuredStoryId}`));
+          fetchPromises.push(createFetchPromise('story', `/individuals/${settings.featuredStoryId}`));
         } else {
           fetchPromises.push(Promise.resolve({ type: 'story', data: null }));
         }
         if (settings.featuredBookId) {
-          fetchPromises.push(createFetchPromise('book', `/api/mediaworks/${settings.featuredBookId}`));
+          fetchPromises.push(createFetchPromise('book', `/mediaworks/${settings.featuredBookId}`));
         } else {
           fetchPromises.push(Promise.resolve({ type: 'book', data: null }));
         }
         if (settings.featuredPodcastId) {
-          fetchPromises.push(createFetchPromise('podcast', `/api/mediaworks/${settings.featuredPodcastId}`));
+          fetchPromises.push(createFetchPromise('podcast', `/mediaworks/${settings.featuredPodcastId}`));
         } else {
           fetchPromises.push(Promise.resolve({ type: 'podcast', data: null }));
         }
         if (settings.featuredFilmId) {
-          fetchPromises.push(createFetchPromise('film', `/api/mediaworks/${settings.featuredFilmId}`));
+          fetchPromises.push(createFetchPromise('film', `/mediaworks/${settings.featuredFilmId}`));
         } else {
           fetchPromises.push(Promise.resolve({ type: 'film', data: null }));
         }
         if (settings.featuredOrgId) {
-          fetchPromises.push(createFetchPromise('org', `/api/organizations/${settings.featuredOrgId}`));
+          fetchPromises.push(createFetchPromise('org', `/organizations/${settings.featuredOrgId}`));
         } else {
           fetchPromises.push(Promise.resolve({ type: 'org', data: null }));
         }
         if (Array.isArray(settings.featuredFactorIds) && settings.featuredFactorIds.length > 0) {
           const factorIdsQuery = settings.featuredFactorIds.join(',');
-          fetchPromises.push(createFetchPromise('factors', `/api/factors?ids=${factorIdsQuery}`));
+          fetchPromises.push(createFetchPromise('factors', `/factors?ids=${factorIdsQuery}`));
         } else {
           fetchPromises.push(Promise.resolve({ type: 'factors', data: [] }));
         }
