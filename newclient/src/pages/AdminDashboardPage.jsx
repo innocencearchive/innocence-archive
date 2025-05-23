@@ -29,8 +29,8 @@ function AdminDashboardPage() {
   const boxTitleStyle = `text-xl font-semibold ${BRONZE_COLOR} mb-4 pb-2 border-b ${BRONZE_BORDER}`;
 
   const dataTypes = [
-    { name: 'Book', icon: BookOpen, live: true, addPath: '/admin/add/book', editPath: '/admin/edit/book' },
-    { name: 'Film', icon: Film, live: true, addPath: '/admin/add/film', editPath: '/admin/edit/film' },
+    { name: 'Book', icon: BookOpen, live: true, addPath: '/admin/book/add', editPath: '/admin/book/edit' },
+     { name: 'Film', icon: Film, live: true, addPath: '/admin/film/add', editPath: '/admin/film/edit' }, 
     { name: 'Podcast Series', icon: Radio, live: false, addPath: '#', editPath: '#' },
     { name: 'Podcast Episode', icon: Mic, live: false, addPath: '#', editPath: '#' },
     { name: 'News Story', icon: Newspaper, live: false, addPath: '#', editPath: '#' },

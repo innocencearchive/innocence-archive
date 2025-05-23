@@ -22,6 +22,7 @@ import BookPage from './pages/BookPage'; // <-- NEW: Import BookPage
 import AdminSettingsPage from './pages/AdminSettingsPage';
 import LoginPage from './pages/LoginPage'; // <<< IMPORT
 import ProtectedRoute from './components/ProtectedRoute'; 
+import AdminFilmPage from './pages/AdminFilmPage'; 
 import AdminDashboardPage from './pages/AdminDashboardPage';
 
 
@@ -72,7 +73,13 @@ function App() {
                 </ProtectedRoute>
               }
             />
-        
+			<Route path="/admin/film/add" // For adding a new film
+                    element={<ProtectedRoute><AdminFilmPage /></ProtectedRoute>}
+                  />
+                  <Route
+                    path="/admin/film/edit/:id" // For editing an existing film
+                    element={<ProtectedRoute><AdminFilmPage /></ProtectedRoute>}
+                  />
                 </Routes>
             </main>
             <Footer />
