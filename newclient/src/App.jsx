@@ -24,6 +24,7 @@ import LoginPage from './pages/LoginPage'; // <<< IMPORT
 import ProtectedRoute from './components/ProtectedRoute'; 
 import AdminFilmPage from './pages/AdminFilmPage'; 
 import AdminDashboardPage from './pages/AdminDashboardPage';
+import AdminResourcePage from './pages/AdminResourcePage';
 
 
 function App() {
@@ -79,6 +80,10 @@ function App() {
                   <Route
                     path="/admin/film/edit/:id" // For editing an existing film
                     element={<ProtectedRoute><AdminFilmPage /></ProtectedRoute>}
+                  />
+                  <Route
+                    path="/admin/manage/:resource"
+                    element={<ProtectedRoute><AdminResourcePage /></ProtectedRoute>}
                   />
                 </Routes>
             </main>
