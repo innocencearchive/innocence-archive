@@ -1,0 +1,138 @@
+================================================================================
+INNOCENCE ARCHIVE — SELECTABLE DATABASE FIELDS (FOR REVIEW)
+Source: server/prisma/schema.prisma
+================================================================================
+
+This file lists every database field that uses a controlled vocabulary (enum)
+or a selectable lookup table, so you can review, add, rename, or remove options
+before we generate the Prisma migration.
+
+--------------------------------------------------------------------------------
+1. FIXED ENUM FIELDS (Defined in schema.prisma)
+--------------------------------------------------------------------------------
+
+[1.1] Individual.status  (enum: IndividualStatus)
+  - EXONERATED                 (Fully cleared)
+  - RELEASED_ALFORD_PLEA       (Released, didn't admit guilt / maintains innocence)
+  - RELEASED_CLEMENCY          (Released via pardon/commutation; conviction may stand)
+  - RELEASED_TIME_SERVED       (Released after serving sentence or plea for time served)
+  - CONVICTION_OVERTURNED      (Overturned, awaiting retrial/dismissal)
+  - EXECUTED
+  - CONVICTED                  (Currently convicted/incarcerated)
+  - OTHER                      (Cases that don't fit neatly)
+  - UNKNOWN
+
+[1.2] Individual.claimStrength  (enum: InnocenceClaimStrength, default: UNASSESSED)
+  - FORMALLY_EXONERATED
+  - OFFICIAL_RELIEF_NO_EXONERATION
+  - STRONG_NEW_EVIDENCE
+  - CREDIBLE_CLAIM
+  - UNASSESSED
+
+[1.3] MediaWork.workType  (enum: MediaWorkType)
+  - BOOK
+  - FILM                       (Standalone film)
+  - DOCUMENTARY                (Standalone documentary)
+  - DOCUSERIES                 (Multi-part documentary series)
+  - PODCAST_SERIES
+  - TV_SERIES                  (e.g., 20/20, Dateline)
+  - ACADEMIC_PAPER
+  - NEWS_ARTICLE
+  - OTHER
+  - UNKNOWN
+
+[1.4] MediaItem.itemMediaType  (enum: MediaItemType)
+  - PODCAST_EPISODE
+  - TV_EPISODE
+  - BOOK_CONTENT               (Content of a standalone BOOK MediaWork)
+  - FILM_CONTENT               (Content of a standalone FILM MediaWork)
+  - DOCUMENTARY_CONTENT        (Content of a standalone DOCUMENTARY MediaWork)
+  - BOOK_CHAPTER
+  - ARTICLE
+  - ACADEMIC_PAPER
+  - OTHER
+  - UNKNOWN
+
+[1.5] Organization.type  (enum: OrganizationType)
+  - INNOCENCE_ORG              (e.g., Innocence Project, EJI)
+  - LEGAL_AID
+  - LAW_FIRM
+  - LAW_ENFORCEMENT            (e.g., Police Dept, DA Office)
+  - GOVERNMENT_AGENCY
+  - SUPPORT_GROUP              (e.g., After Innocence)
+  - MEDIA_ORG                  (e.g., Production Company, Network, Publisher)
+  - UNIVERSITY
+  - OTHER
+  - UNKNOWN
+
+[1.6] OrganizationLink.type  (enum: OrganizationLinkType)
+  - WEBSITE
+  - ARTICLE
+  - SOCIAL_MEDIA
+  - REPORT
+  - OTHER
+
+[1.7] InvolvedPerson.role  (enum: InvolvedPersonRole)
+  - LAWYER_DEFENSE
+  - LAWYER_PROSECUTION
+  - JUDGE
+  - WITNESS_EYEWITNESS
+  - WITNESS_ALIBI
+  - WITNESS_EXPERT
+  - WITNESS_INFORMANT          (Jailhouse informant, etc.)
+  - POLICE_DETECTIVE
+  - POLICE_OFFICER
+  - VICTIM
+  - FAMILY_MEMBER
+  - JOURNALIST
+  - AUTHOR
+  - DIRECTOR
+  - HOST
+  - ACTIVIST
+  - ACCUSER
+  - ACTUAL_PERPETRATOR
+  - CO_DEFENDANT
+  - SUBJECT_EXONEREE           (Main person wrongfully convicted in narrative)
+  - SUBJECT_OTHER              (Other central figures in narrative)
+  - OTHER
+  - UNKNOWN
+
+[1.8] StreamingProvider.streamingType  (enum: StreamingType)
+  - SUBSCRIPTION
+  - RENT
+  - BUY
+  - FREE
+  - OTHER
+  - UNKNOWN
+
+[1.9] VerificationStatus  (enum: VerificationStatus, default: UNVERIFIED)
+      Used on: Individual, MediaWork, MediaItem, Organization,
+               ContributingFactor, InvolvedPerson
+  - UNVERIFIED
+  - IN_REVIEW
+  - VERIFIED
+  - DISPUTED
+
+[1.10] User.role  (enum: UserRole, default: USER)
+  - USER
+  - EDITOR
+  - ADMIN
+
+
+--------------------------------------------------------------------------------
+2. LOOKUP / REFERENCE-TABLE SELECTABLE FIELDS
+   (Options are populated from database rows, not hardcoded enums)
+--------------------------------------------------------------------------------
+
+- Individual.crimeCategoryId        -> CrimeCategory (crime_categories.crime_name)
+- Individual.contributingFactors    -> ContributingFactor (contributing_factors.name)
+- Individual.organizationsInvolved  -> Organization (organizations.name)
+- Individual.groups                 -> IndividualGroup (individual_groups.name)
+- MediaItem.workId                  -> MediaWork (media_works.title)
+- MediaItem.contributingFactorsMentioned -> ContributingFactor (contributing_factors.name)
+- IndividualSourceLink.informationSourceId -> InformationSource (information_sources.name)
+- FeaturedContentSetting.*          -> Individual / MediaWork / Organization / ContributingFactor
+
+================================================================================
+END OF REVIEW LIST
+================================================================================

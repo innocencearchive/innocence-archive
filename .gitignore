@@ -2,3 +2,5 @@
 \server\backup\db_backup.backup
 scripts/**/*.mp3
 **/env.copy
+scripts/podcast_pipeline/state.json
+scripts/podcast_pipeline/staged/

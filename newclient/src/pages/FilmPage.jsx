@@ -256,7 +256,7 @@ function FilmPage() {
 
     // Construct TMDB link if possible
     let tmdbLink = null;
-    if (workData.SourcingCredit && workData.externalId && workData.title) {
+    if (workData.sourcingCredit && workData.externalId && workData.title) {
         const kebabTitle = toKebabCase(workData.title);
         if (kebabTitle) { // Ensure kebabTitle is not empty
             tmdbLink = `${TMDB_BASE_URL}${workData.externalId}-${kebabTitle}`;
@@ -331,7 +331,7 @@ function FilmPage() {
                             </div>
                             
                             <div className="mt-auto pt-6 border-t border-gray-700 text-xs text-gray-500">
-                                {workData.SourcingCredit && tmdbLink ? (
+                                {workData.sourcingCredit && tmdbLink ? (
                                     <a 
                                         href={tmdbLink} 
                                         target="_blank" 
@@ -339,16 +339,16 @@ function FilmPage() {
                                         className="flex items-center hover:text-amber-400 transition-colors"
                                     >
                                         <img src={tmdbLogo} alt="TMDB Logo" className="h-5 w-auto mr-2" /> 
-                                        <span>{workData.SourcingCredit}</span>
+                                        <span>{workData.sourcingCredit}</span>
                                     </a>
-                                ) : workData.SourcingCredit ? ( 
+                                ) : workData.sourcingCredit ? ( 
                                     <div className="flex items-center">
                                         <img src={tmdbLogo} alt="TMDB Logo" className="h-5 w-auto mr-2" /> 
-                                        <span>Data Sourced From: {workData.SourcingCredit}</span>
+                                        <span>Data Sourced From: {workData.sourcingCredit}</span>
                                     </div>
                                 ) : (
                                     /* --- CORRECTED AI DISCLAIMER LOGIC --- */
-                                    (workData.aiGenerated !== false && !workData.externalId) && <AIDisclaimer type="film data" />
+                                    (workData.aiGenerated !== false && workData.verificationStatus !== 'VERIFIED' && !workData.externalId) && <AIDisclaimer type="film data" />
                                 )}
                             </div>
                         </div>

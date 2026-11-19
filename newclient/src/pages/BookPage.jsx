@@ -309,9 +309,9 @@ function BookPage() {
                             
                             <div className="mt-auto pt-6 border-t border-gray-700 text-xs text-gray-500">
                                 {/* --- CORRECTED AI DISCLAIMER LOGIC --- */}
-                                {workData.aiGenerated !== false && <AIDisclaimer type="book data" />}
-                                {workData.SourcingCredit && ( // If you add sourcing credit for Google Books API
-                                     <p className="mt-2">{workData.SourcingCredit}</p>
+                                {workData.aiGenerated !== false && workData.verificationStatus !== 'VERIFIED' && <AIDisclaimer type="book data" />}
+                                {workData.sourcingCredit && ( // If you add sourcing credit for Google Books API
+                                     <p className="mt-2">{workData.sourcingCredit}</p>
                                 )}
                             </div>
                         </div>

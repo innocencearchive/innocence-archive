@@ -165,12 +165,18 @@ function AdminResourcePage() {
   };
 
   const handleToggleVerify = async (row) => {
-    const nextVerified = row.aiGenerated === true;
+    const nextVerified = row.verificationStatus !== 'VERIFIED';
     try {
       const res = await apiClient.patch(`/admin/verify/${resource}/${row.id}`, {
         verified: nextVerified,
       });
-      setRows((prev) => prev.map((r) => (r.id === row.id ? { ...r, aiGenerated: res.data.aiGenerated } : r)));
+      setRows((prev) =>
+        prev.map((r) =>
+          r.id === row.id
+            ? { ...r, verificationStatus: res.data.verificationStatus, verifiedAt: res.data.verifiedAt }
+            : r
+        )
+      );
     } catch (err) {
       alert(err.response?.data?.message || 'Failed to update verification status.');
     }
@@ -282,19 +288,21 @@ function AdminResourcePage() {
                         <button
                           onClick={() => handleToggleVerify(row)}
                           className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium transition ${
-                            row.aiGenerated
-                              ? 'bg-amber-900/60 text-amber-300 hover:bg-amber-800/80'
-                              : 'bg-emerald-900/60 text-emerald-300 hover:bg-emerald-800/80'
+                            row.verificationStatus === 'VERIFIED'
+                              ? 'bg-emerald-900/60 text-emerald-300 hover:bg-emerald-800/80'
+                              : row.verificationStatus === 'DISPUTED'
+                                ? 'bg-red-900/60 text-red-300 hover:bg-red-800/80'
+                                : 'bg-amber-900/60 text-amber-300 hover:bg-amber-800/80'
                           }`}
-                          title={row.aiGenerated ? 'Click to mark verified' : 'Click to mark unverified'}
+                          title={row.verificationStatus === 'VERIFIED' ? 'Click to mark unverified' : 'Click to mark verified'}
                         >
-                          {row.aiGenerated ? (
+                          {row.verificationStatus === 'VERIFIED' ? (
                             <>
-                              <AlertCircle size={13} /> Unverified
+                              <CheckCircle2 size={13} /> Verified
                             </>
                           ) : (
                             <>
-                              <CheckCircle2 size={13} /> Verified
+                              <AlertCircle size={13} /> {row.verificationStatus || 'UNVERIFIED'}
                             </>
                           )}
                         </button>

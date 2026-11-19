@@ -1,6 +1,19 @@
 // src/pages/adminResourceConfig.js
 // Declarative configuration for all Admin CRUD resources matching server/routes/admin.js
 
+const VERIFICATION_FIELDS = [
+  {
+    name: 'verificationStatus',
+    label: 'Verification Status',
+    type: 'select',
+    defaultValue: 'UNVERIFIED',
+    options: ['UNVERIFIED', 'IN_REVIEW', 'VERIFIED', 'DISPUTED'],
+  },
+  { name: 'verificationNotes', label: 'Verification Notes', type: 'textarea' },
+  { name: 'ingestionSource', label: 'Ingestion Source (e.g. manual, whisper_gemini, nre)', type: 'text' },
+  { name: 'aiGenerated', label: 'AI Assisted / Generated', type: 'checkbox', defaultValue: false },
+];
+
 export const ADMIN_RESOURCES = {
   individuals: {
     key: 'individuals',
@@ -12,6 +25,7 @@ export const ADMIN_RESOURCES = {
     columns: [
       { key: 'name', label: 'Name', render: (r) => [r.firstName, r.middleName, r.lastName, r.suffix].filter(Boolean).join(' ') },
       { key: 'status', label: 'Status', render: (r) => r.status || '—' },
+      { key: 'claimStrength', label: 'Claim Strength', render: (r) => r.claimStrength || 'UNASSESSED' },
       { key: 'location', label: 'Location', render: (r) => [r.caseLocationCity, r.caseLocationState].filter(Boolean).join(', ') || '—' },
       { key: 'years', label: 'Convicted / Exonerated', render: (r) => `${r.convictionYear || '?'} / ${r.exonerationOrReleaseYear || '?'}` },
     ],
@@ -22,6 +36,7 @@ export const ADMIN_RESOURCES = {
       { name: 'suffix', label: 'Suffix', type: 'text' },
       { name: 'nickname', label: 'Nickname', type: 'text' },
       { name: 'disambiguationTag', label: 'Disambiguation Tag', type: 'text' },
+      { name: 'canonicalKey', label: 'Canonical Key (optional unique slug)', type: 'text' },
       {
         name: 'status',
         label: 'Status',
@@ -38,6 +53,19 @@ export const ADMIN_RESOURCES = {
           'UNKNOWN',
         ],
       },
+      {
+        name: 'claimStrength',
+        label: 'Innocence Claim Strength',
+        type: 'select',
+        defaultValue: 'UNASSESSED',
+        options: [
+          'FORMALLY_EXONERATED',
+          'OFFICIAL_RELIEF_NO_EXONERATION',
+          'STRONG_NEW_EVIDENCE',
+          'CREDIBLE_CLAIM',
+          'UNASSESSED',
+        ],
+      },
       { name: 'crimeCategoryId', label: 'Crime Category', type: 'lookup', lookupKey: 'crimecategories', optionLabel: (o) => o.crime_name },
       { name: 'crimeDate', label: 'Crime Date', type: 'date' },
       { name: 'convictionYear', label: 'Conviction Year', type: 'number' },
@@ -49,13 +77,13 @@ export const ADMIN_RESOURCES = {
       { name: 'caseLocationState', label: 'State', type: 'text' },
       { name: 'caseLocationCountry', label: 'Country', type: 'text', defaultValue: 'USA' },
       { name: 'narrativeSummary', label: 'Narrative Summary', type: 'textarea' },
-      { name: 'aiGenerated', label: 'Unverified / AI Generated', type: 'checkbox', defaultValue: false },
+      ...VERIFICATION_FIELDS,
     ],
   },
 
   mediaworks: {
     key: 'mediaworks',
-    title: 'Media Works (Books, Films, Series)',
+    title: 'Media Works (Books, Films, Series, Papers)',
     singular: 'Media Work',
     endpoint: '/admin/mediaworks',
     verifiable: true,
@@ -75,7 +103,18 @@ export const ADMIN_RESOURCES = {
         type: 'select',
         required: true,
         defaultValue: 'BOOK',
-        options: ['BOOK', 'FILM', 'DOCUMENTARY', 'DOCUSERIES', 'PODCAST_SERIES', 'TV_SERIES', 'OTHER', 'UNKNOWN'],
+        options: [
+          'BOOK',
+          'FILM',
+          'DOCUMENTARY',
+          'DOCUSERIES',
+          'PODCAST_SERIES',
+          'TV_SERIES',
+          'ACADEMIC_PAPER',
+          'NEWS_ARTICLE',
+          'OTHER',
+          'UNKNOWN',
+        ],
       },
       { name: 'creatorName', label: 'Creator / Author / Director', type: 'text' },
       { name: 'publicationOrReleaseYear', label: 'Release / Publication Year', type: 'number' },
@@ -86,14 +125,14 @@ export const ADMIN_RESOURCES = {
       { name: 'sourceUrl', label: 'Source URL', type: 'text' },
       { name: 'externalId', label: 'External ID (TMDB / ISBN)', type: 'text' },
       { name: 'imagePath', label: 'Image Path', type: 'text' },
-      { name: 'SourcingCredit', label: 'Sourcing Credit', type: 'text' },
-      { name: 'aiGenerated', label: 'Unverified / AI Generated', type: 'checkbox', defaultValue: false },
+      { name: 'sourcingCredit', label: 'Sourcing Credit', type: 'text' },
+      ...VERIFICATION_FIELDS,
     ],
   },
 
   mediaitems: {
     key: 'mediaitems',
-    title: 'Media Items (Episodes, Chapters)',
+    title: 'Media Items (Episodes, Chapters, Articles)',
     singular: 'Media Item',
     endpoint: '/admin/mediaitems',
     verifiable: true,
@@ -114,15 +153,29 @@ export const ADMIN_RESOURCES = {
         type: 'select',
         required: true,
         defaultValue: 'PODCAST_EPISODE',
-        options: ['PODCAST_EPISODE', 'TV_EPISODE', 'BOOK_CONTENT', 'FILM_CONTENT', 'DOCUMENTARY_CONTENT', 'BOOK_CHAPTER', 'OTHER', 'UNKNOWN'],
+        options: [
+          'PODCAST_EPISODE',
+          'TV_EPISODE',
+          'BOOK_CONTENT',
+          'FILM_CONTENT',
+          'DOCUMENTARY_CONTENT',
+          'BOOK_CHAPTER',
+          'ARTICLE',
+          'ACADEMIC_PAPER',
+          'OTHER',
+          'UNKNOWN',
+        ],
       },
       { name: 'releaseDate', label: 'Release Date', type: 'date' },
+      { name: 'durationSeconds', label: 'Duration (seconds)', type: 'number' },
       { name: 'hostOrNarrator', label: 'Host / Narrator', type: 'text' },
       { name: 'focusOrTheme', label: 'Focus / Theme', type: 'textarea' },
       { name: 'summaryNotes', label: 'Summary Notes', type: 'textarea' },
       { name: 'keyQuotes', label: 'Key Quotes', type: 'textarea' },
+      { name: 'transcript', label: 'Transcript', type: 'textarea' },
       { name: 'sourceUrl', label: 'Source URL', type: 'text' },
-      { name: 'aiGenerated', label: 'Unverified / AI Generated', type: 'checkbox', defaultValue: false },
+      { name: 'canonicalKey', label: 'Canonical Key (optional unique slug)', type: 'text' },
+      ...VERIFICATION_FIELDS,
     ],
   },
 
@@ -151,7 +204,7 @@ export const ADMIN_RESOURCES = {
       { name: 'locationCountry', label: 'Country', type: 'text', defaultValue: 'USA' },
       { name: 'website', label: 'Website', type: 'text' },
       { name: 'notes', label: 'Mission / Notes', type: 'textarea' },
-      { name: 'aiGenerated', label: 'Unverified / AI Generated', type: 'checkbox', defaultValue: false },
+      ...VERIFICATION_FIELDS,
     ],
   },
 
@@ -172,6 +225,7 @@ export const ADMIN_RESOURCES = {
       { name: 'lastName', label: 'Last Name', type: 'text', required: true },
       { name: 'suffix', label: 'Suffix', type: 'text' },
       { name: 'nickname', label: 'Nickname', type: 'text' },
+      { name: 'canonicalKey', label: 'Canonical Key (optional unique slug)', type: 'text' },
       {
         name: 'role',
         label: 'Role',
@@ -203,7 +257,7 @@ export const ADMIN_RESOURCES = {
         ],
       },
       { name: 'notes', label: 'Notes', type: 'textarea' },
-      { name: 'aiGenerated', label: 'Unverified / AI Generated', type: 'checkbox', defaultValue: false },
+      ...VERIFICATION_FIELDS,
     ],
   },
 
@@ -221,7 +275,7 @@ export const ADMIN_RESOURCES = {
     fields: [
       { name: 'name', label: 'Name', type: 'text', required: true },
       { name: 'description', label: 'Description', type: 'textarea' },
-      { name: 'aiGenerated', label: 'Unverified / AI Generated', type: 'checkbox', defaultValue: false },
+      ...VERIFICATION_FIELDS,
     ],
   },
 

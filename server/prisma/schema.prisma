@@ -18,6 +18,8 @@ enum MediaWorkType {
   DOCUSERIES // Multi-part documentary series
   PODCAST_SERIES
   TV_SERIES // e.g., 20/20, Dateline
+  ACADEMIC_PAPER
+  NEWS_ARTICLE
   OTHER
   UNKNOWN
 }
@@ -29,6 +31,8 @@ enum MediaItemType {
   FILM_CONTENT      // Represents the content of a standalone FILM MediaWork
   DOCUMENTARY_CONTENT // Represents the content of a standalone DOCUMENTARY MediaWork
   BOOK_CHAPTER      // Future use: If breaking books down
+  ARTICLE
+  ACADEMIC_PAPER
   OTHER
   UNKNOWN
 }
@@ -110,6 +114,22 @@ enum UserRole {
   ADMIN  // Full control, including user management
 }
 
+// --- Human Verification & Claim Strength Enums ---
+enum VerificationStatus {
+  UNVERIFIED
+  IN_REVIEW
+  VERIFIED
+  DISPUTED
+}
+
+enum InnocenceClaimStrength {
+  FORMALLY_EXONERATED
+  OFFICIAL_RELIEF_NO_EXONERATION
+  STRONG_NEW_EVIDENCE
+  CREDIBLE_CLAIM
+  UNASSESSED
+}
+
 // --- Core Models ---
 
 // --- NEW User Model ---
@@ -122,6 +142,14 @@ model User {
   role         UserRole @default(USER) // Default role for new users
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
+
+  // --- Verification Audit Relations ---
+  verifiedIndividuals         Individual[]         @relation("IndividualVerifiedBy")
+  verifiedMediaWorks          MediaWork[]          @relation("MediaWorkVerifiedBy")
+  verifiedMediaItems          MediaItem[]          @relation("MediaItemVerifiedBy")
+  verifiedOrganizations       Organization[]       @relation("OrganizationVerifiedBy")
+  verifiedContributingFactors ContributingFactor[] @relation("FactorVerifiedBy")
+  verifiedInvolvedPersons     InvolvedPerson[]     @relation("PersonVerifiedBy")
 
   @@map("users") // Explicit table name
 }
@@ -180,14 +208,27 @@ model MediaWork {
   imagePath                String?
   // Timestamp of when data from the external source (identified by externalId) was last fetched/updated for this work.
   lastExternalFetch        DateTime?
-  SourcingCredit           String? // NEWLY ADDED: To store sourcing credit, e.g., for TMDB
+  sourcingCredit           String? @map("SourcingCredit") // To store sourcing credit, e.g., for TMDB
 
+  // --- Verification & Ingestion Tracking ---
+  verificationStatus       VerificationStatus @default(UNVERIFIED)
+  verifiedAt               DateTime?
+  verifiedById             Int?
+  verifiedBy               User?              @relation("MediaWorkVerifiedBy", fields: [verifiedById], references: [id], onDelete: SetNull)
+  verificationNotes        String?            @db.Text
+  ingestionSource          String?
+  importBatchId            String?
 
   // --- Relationships ---
   items MediaItem[]
   streamingProviders StreamingProvider[]
   bookPurchaseDetails      BookPurchaseDetails?
+  featuredAsBook           FeaturedContentSetting[] @relation("FeaturedBook")
+  featuredAsPodcast        FeaturedContentSetting[] @relation("FeaturedPodcast")
+  featuredAsFilm           FeaturedContentSetting[] @relation("FeaturedFilm")
 
+  @@index([workType])
+  @@index([verificationStatus])
   @@map("media_works")
 }
 
@@ -262,8 +303,18 @@ model MediaItem {
   focusOrTheme               String?              @db.Text
   summaryNotes               String?              @db.Text
   keyQuotes                  String?              @db.Text
+  transcript                 String?              @db.Text
+  durationSeconds            Int?
   sourceUrl                  String?
   aiGenerated                Boolean              @default(true)
+  verificationStatus         VerificationStatus   @default(UNVERIFIED)
+  verifiedAt                 DateTime?
+  verifiedById               Int?
+  verifiedBy                 User?                @relation("MediaItemVerifiedBy", fields: [verifiedById], references: [id], onDelete: SetNull)
+  verificationNotes          String?              @db.Text
+  ingestionSource            String?
+  importBatchId              String?
+  canonicalKey               String?              @unique
   createdAt                  DateTime             @default(now())
   updatedAt                  DateTime             @updatedAt
 
@@ -283,6 +334,8 @@ model MediaItem {
 
   // Ensures an episode number (or title) is unique within a specific media work
   @@unique([workId, itemNumber, itemTitle]) // Modified to ensure uniqueness on itemNumber OR itemTitle within a work
+  @@index([workId])
+  @@index([verificationStatus])
   @@map("media_items")
 }
 
@@ -340,7 +393,9 @@ model Individual {
   suffix                     String?
   nickname                   String?
   disambiguationTag          String?            // e.g., "NRE Case 123", "Witness", "b.1990", "From City X"
+  canonicalKey               String?            @unique
   status                     IndividualStatus?
+  claimStrength              InnocenceClaimStrength @default(UNASSESSED)
   crimeDate                  DateTime?
   convictionYear             Int?
   exonerationOrReleaseYear   Int?
@@ -352,6 +407,13 @@ model Individual {
   caseLocationCountry        String             @default("USA")
   narrativeSummary           String?            @db.Text
   aiGenerated                Boolean            @default(true)
+  verificationStatus         VerificationStatus @default(UNVERIFIED)
+  verifiedAt                 DateTime?
+  verifiedById               Int?
+  verifiedBy                 User?              @relation("IndividualVerifiedBy", fields: [verifiedById], references: [id], onDelete: SetNull)
+  verificationNotes          String?            @db.Text
+  ingestionSource            String?
+  importBatchId              String?
   createdAt                  DateTime           @default(now())
   updatedAt                  DateTime           @updatedAt
 
@@ -369,8 +431,14 @@ model Individual {
 
   sourceLinks                IndividualSourceLink[] @relation("IndividualLinks")
   groups                     IndividualGroup[]  @relation("IndividualGroupMembership")
+  featuredSettings           FeaturedContentSetting[] @relation("FeaturedStory")
 
   @@unique([firstName, middleName, lastName, suffix, disambiguationTag])
+  @@index([lastName])
+  @@index([status])
+  @@index([claimStrength])
+  @@index([caseLocationState])
+  @@index([verificationStatus])
   @@map("individuals")
 }
 
@@ -385,6 +453,13 @@ model Organization {
   website              String?
   notes                String?              @db.Text // Used for Mission/Description
   aiGenerated          Boolean              @default(true)
+  verificationStatus   VerificationStatus   @default(UNVERIFIED)
+  verifiedAt           DateTime?
+  verifiedById         Int?
+  verifiedBy           User?                @relation("OrganizationVerifiedBy", fields: [verifiedById], references: [id], onDelete: SetNull)
+  verificationNotes    String?              @db.Text
+  ingestionSource      String?
+  importBatchId        String?
   createdAt            DateTime             @default(now())
   updatedAt            DateTime             @updatedAt
 
@@ -396,18 +471,27 @@ model Organization {
   relatedOrganizations Organization[]       @relation("RelatedOrganizations")
   relatedToOrganizations Organization[]     @relation("RelatedOrganizations")
   factorsAddressed     ContributingFactor[] @relation("FactorRelatedOrganizations")
+  featuredSettings     FeaturedContentSetting[] @relation("FeaturedOrganization")
 
+  @@index([verificationStatus])
   @@map("organizations")
 }
 
 // --- ContributingFactor Model ---
 model ContributingFactor {
-  id                   Int              @id @default(autoincrement())
-  name                 String           @unique
-  description          String?          @db.Text
-  aiGenerated          Boolean          @default(true)
-  createdAt            DateTime         @default(now())
-  updatedAt            DateTime         @updatedAt
+  id                   Int                @id @default(autoincrement())
+  name                 String             @unique
+  description          String?            @db.Text
+  aiGenerated          Boolean            @default(true)
+  verificationStatus   VerificationStatus @default(UNVERIFIED)
+  verifiedAt           DateTime?
+  verifiedById         Int?
+  verifiedBy           User?              @relation("FactorVerifiedBy", fields: [verifiedById], references: [id], onDelete: SetNull)
+  verificationNotes    String?            @db.Text
+  ingestionSource      String?
+  importBatchId        String?
+  createdAt            DateTime           @default(now())
+  updatedAt            DateTime           @updatedAt
 
   // --- Relationships ---
   individualCases      Individual[]     @relation("FactorsInIndividualCase")
@@ -415,6 +499,7 @@ model ContributingFactor {
   relatedPersons       InvolvedPerson[] @relation("FactorRelatedPersons")
   relatedOrganizations Organization[]   @relation("FactorRelatedOrganizations")
 
+  @@index([verificationStatus])
   @@map("contributing_factors")
 }
 
@@ -441,7 +526,15 @@ model InvolvedPerson { // Represents Other Involved Persons (OIPs) - non-WC
   nickname          String?
   role              InvolvedPersonRole?
   notes             String?              @db.Text
+  canonicalKey      String?              @unique
   aiGenerated       Boolean              @default(true)
+  verificationStatus VerificationStatus  @default(UNVERIFIED)
+  verifiedAt        DateTime?
+  verifiedById      Int?
+  verifiedBy        User?                @relation("PersonVerifiedBy", fields: [verifiedById], references: [id], onDelete: SetNull)
+  verificationNotes String?              @db.Text
+  ingestionSource   String?
+  importBatchId     String?
   createdAt         DateTime             @default(now())
   updatedAt         DateTime             @updatedAt
 
@@ -452,6 +545,7 @@ model InvolvedPerson { // Represents Other Involved Persons (OIPs) - non-WC
   relatedFactors    ContributingFactor[] @relation("FactorRelatedPersons")
 
   @@unique([firstName, middleName, lastName, suffix, role]) // Modified to include role for better uniqueness
+  @@index([verificationStatus])
   @@map("involved_persons")
 }
 
@@ -474,14 +568,19 @@ model OrganizationLink {
 
 // --- FeaturedContentSetting Model ---
 model FeaturedContentSetting {
-  id                  Int      @id @default(1) // Use a fixed ID for the single settings row
-  featuredStoryId     Int?     // Store Individual ID
-  featuredBookId      Int?     // Store MediaWork ID
-  featuredPodcastId   Int?     // Store MediaWork ID
-  featuredFilmId      Int?     // Store MediaWork ID
-  featuredOrgId       Int?     // Store Organization ID
-  featuredFactorIds   Int[]    // Store array of ContributingFactor IDs
-  updatedAt           DateTime @updatedAt
+  id                  Int           @id @default(1) // Use a fixed ID for the single settings row
+  featuredStoryId     Int?          // Store Individual ID
+  featuredStory       Individual?   @relation("FeaturedStory", fields: [featuredStoryId], references: [id], onDelete: SetNull)
+  featuredBookId      Int?          // Store MediaWork ID
+  featuredBook        MediaWork?    @relation("FeaturedBook", fields: [featuredBookId], references: [id], onDelete: SetNull)
+  featuredPodcastId   Int?          // Store MediaWork ID
+  featuredPodcast     MediaWork?    @relation("FeaturedPodcast", fields: [featuredPodcastId], references: [id], onDelete: SetNull)
+  featuredFilmId      Int?          // Store MediaWork ID
+  featuredFilm        MediaWork?    @relation("FeaturedFilm", fields: [featuredFilmId], references: [id], onDelete: SetNull)
+  featuredOrgId       Int?          // Store Organization ID
+  featuredOrg         Organization? @relation("FeaturedOrganization", fields: [featuredOrgId], references: [id], onDelete: SetNull)
+  featuredFactorIds   Int[]         // Store array of ContributingFactor IDs
+  updatedAt           DateTime      @updatedAt
 
   @@map("featured_content_settings")
 }

@@ -6,8 +6,19 @@ const { authenticateToken, authorizeRole } = require('../middleware/authenticate
 const router = express.Router();
 const prisma = new PrismaClient();
 
-// All /api/admin/* routes require authenticated ADMIN or EDITOR
-router.use(authenticateToken, authorizeRole(['ADMIN', 'EDITOR']));
+// Allow automated ingest key on /podcast-ingest, or require JWT ADMIN/EDITOR for all /api/admin/* routes
+router.use((req, res, next) => {
+  const ingestKey = process.env.PODCAST_INGEST_KEY;
+  if (
+    req.path === '/podcast-ingest' &&
+    ingestKey &&
+    req.headers['x-ingest-key'] === ingestKey
+  ) {
+    req.user = { role: 'ADMIN', email: 'podcast-pipeline' };
+    return next();
+  }
+  return authenticateToken(req, res, () => authorizeRole(['ADMIN', 'EDITOR'])(req, res, next));
+});
 
 // --- Shared Helpers ---
 
@@ -57,9 +68,29 @@ function handlePrismaError(res, error, label) {
   return res.status(500).json({ message: `Failed to process ${label}.`, error: error.message });
 }
 
+function buildVerificationFields(body, userId) {
+  const status = body.verificationStatus || (body.aiGenerated === false ? 'VERIFIED' : 'UNVERIFIED');
+  const fields = {
+    aiGenerated: body.aiGenerated !== undefined ? Boolean(body.aiGenerated) : false,
+    verificationStatus: status,
+    verificationNotes: body.verificationNotes?.trim() || null,
+    ingestionSource: body.ingestionSource?.trim() || null,
+    importBatchId: body.importBatchId?.trim() || null,
+  };
+  if (status === 'VERIFIED') {
+    fields.verifiedAt = new Date();
+    if (userId) fields.verifiedById = userId;
+  } else {
+    fields.verifiedAt = null;
+    fields.verifiedById = null;
+  }
+  return fields;
+}
+
 // --- GET /api/admin/stats ---
-// Summary counts (total & unverified/aiGenerated) for the Admin Dashboard
+// Summary counts (total & unverified) for the Admin Dashboard
 router.get('/stats', async (req, res) => {
+  const unverifiedFilter = { where: { verificationStatus: { not: 'VERIFIED' } } };
   try {
     const [
       individualsTotal,
@@ -78,17 +109,17 @@ router.get('/stats', async (req, res) => {
       groupsTotal,
     ] = await Promise.all([
       prisma.individual.count(),
-      prisma.individual.count({ where: { aiGenerated: true } }),
+      prisma.individual.count(unverifiedFilter),
       prisma.mediaWork.count(),
-      prisma.mediaWork.count({ where: { aiGenerated: true } }),
+      prisma.mediaWork.count(unverifiedFilter),
       prisma.mediaItem.count(),
-      prisma.mediaItem.count({ where: { aiGenerated: true } }),
+      prisma.mediaItem.count(unverifiedFilter),
       prisma.organization.count(),
-      prisma.organization.count({ where: { aiGenerated: true } }),
+      prisma.organization.count(unverifiedFilter),
       prisma.contributingFactor.count(),
-      prisma.contributingFactor.count({ where: { aiGenerated: true } }),
+      prisma.contributingFactor.count(unverifiedFilter),
       prisma.involvedPerson.count(),
-      prisma.involvedPerson.count({ where: { aiGenerated: true } }),
+      prisma.involvedPerson.count(unverifiedFilter),
       prisma.crimeCategory.count(),
       prisma.individualGroup.count(),
     ]);
@@ -128,10 +159,18 @@ router.patch('/verify/:resource/:id', async (req, res) => {
   if (!id) return res.status(400).json({ message: 'Invalid ID.' });
 
   const verified = req.body.verified !== undefined ? Boolean(req.body.verified) : true;
+  const nextStatus = req.body.verificationStatus || (verified ? 'VERIFIED' : 'UNVERIFIED');
+  const isVerified = nextStatus === 'VERIFIED';
+
   try {
     const updated = await model.update({
       where: { id },
-      data: { aiGenerated: !verified },
+      data: {
+        verificationStatus: nextStatus,
+        verifiedAt: isVerified ? new Date() : null,
+        verifiedById: isVerified ? (req.user?.userId || null) : null,
+        ...(req.body.verificationNotes !== undefined ? { verificationNotes: req.body.verificationNotes } : {}),
+      },
     });
     res.json(updated);
   } catch (error) {
@@ -144,7 +183,7 @@ router.patch('/verify/:resource/:id', async (req, res) => {
 router.get('/individuals', async (req, res) => {
   const { search, unverifiedOnly } = req.query;
   const where = {};
-  if (unverifiedOnly === 'true') where.aiGenerated = true;
+  if (unverifiedOnly === 'true') where.verificationStatus = { not: 'VERIFIED' };
   if (search && search.trim()) {
     const q = search.trim();
     where.OR = [
@@ -166,7 +205,7 @@ router.get('/individuals', async (req, res) => {
   }
 });
 
-function buildIndividualData(body, isCreate) {
+function buildIndividualData(body, isCreate, userId) {
   const relWrap = isCreate ? relationConnect : relationSet;
   const data = {
     firstName: body.firstName?.trim(),
@@ -175,7 +214,9 @@ function buildIndividualData(body, isCreate) {
     suffix: body.suffix?.trim() || null,
     nickname: body.nickname?.trim() || null,
     disambiguationTag: body.disambiguationTag?.trim() || null,
+    canonicalKey: body.canonicalKey?.trim() || null,
     status: body.status || null,
+    claimStrength: body.claimStrength || 'UNASSESSED',
     crimeDate: parseDateOrNull(body.crimeDate),
     convictionYear: parseIntOrNull(body.convictionYear),
     exonerationOrReleaseYear: parseIntOrNull(body.exonerationOrReleaseYear),
@@ -186,8 +227,8 @@ function buildIndividualData(body, isCreate) {
     caseLocationState: body.caseLocationState?.trim() || null,
     caseLocationCountry: body.caseLocationCountry?.trim() || 'USA',
     narrativeSummary: body.narrativeSummary || null,
-    aiGenerated: body.aiGenerated !== undefined ? Boolean(body.aiGenerated) : false,
     crimeCategoryId: parseIntOrNull(body.crimeCategoryId),
+    ...buildVerificationFields(body, userId),
   };
 
   const factorsRel = relWrap(body.contributingFactorIds);
@@ -214,7 +255,7 @@ router.post('/individuals', async (req, res) => {
   }
   try {
     const created = await prisma.individual.create({
-      data: buildIndividualData(req.body, true),
+      data: buildIndividualData(req.body, true, req.user?.userId),
       include: {
         crimeCategory: true,
         contributingFactors: true,
@@ -238,7 +279,7 @@ router.put('/individuals/:id', async (req, res) => {
   try {
     const updated = await prisma.individual.update({
       where: { id },
-      data: buildIndividualData(req.body, false),
+      data: buildIndividualData(req.body, false, req.user?.userId),
       include: {
         crimeCategory: true,
         contributingFactors: true,
@@ -270,7 +311,7 @@ router.get('/mediaworks', async (req, res) => {
   const { search, workType, unverifiedOnly } = req.query;
   const where = {};
   if (workType) where.workType = workType;
-  if (unverifiedOnly === 'true') where.aiGenerated = true;
+  if (unverifiedOnly === 'true') where.verificationStatus = { not: 'VERIFIED' };
   if (search && search.trim()) {
     const q = search.trim();
     where.OR = [
@@ -291,7 +332,7 @@ router.get('/mediaworks', async (req, res) => {
   }
 });
 
-function buildMediaWorkData(body) {
+function buildMediaWorkData(body, userId) {
   return {
     title: body.title?.trim(),
     workType: body.workType || 'OTHER',
@@ -304,8 +345,8 @@ function buildMediaWorkData(body) {
     sourceUrl: body.sourceUrl?.trim() || null,
     externalId: body.externalId?.trim() || null,
     imagePath: body.imagePath?.trim() || null,
-    SourcingCredit: body.SourcingCredit?.trim() || null,
-    aiGenerated: body.aiGenerated !== undefined ? Boolean(body.aiGenerated) : false,
+    sourcingCredit: body.sourcingCredit?.trim() || null,
+    ...buildVerificationFields(body, userId),
   };
 }
 
@@ -315,7 +356,7 @@ router.post('/mediaworks', async (req, res) => {
   }
   try {
     const created = await prisma.mediaWork.create({
-      data: buildMediaWorkData(req.body),
+      data: buildMediaWorkData(req.body, req.user?.userId),
     });
     res.status(201).json(created);
   } catch (error) {
@@ -332,7 +373,7 @@ router.put('/mediaworks/:id', async (req, res) => {
   try {
     const updated = await prisma.mediaWork.update({
       where: { id },
-      data: buildMediaWorkData(req.body),
+      data: buildMediaWorkData(req.body, req.user?.userId),
     });
     res.json(updated);
   } catch (error) {
@@ -360,7 +401,7 @@ router.get('/mediaitems', async (req, res) => {
     const wId = parseId(workId);
     if (wId) where.workId = wId;
   }
-  if (unverifiedOnly === 'true') where.aiGenerated = true;
+  if (unverifiedOnly === 'true') where.verificationStatus = { not: 'VERIFIED' };
   if (search && search.trim()) {
     const q = search.trim();
     where.OR = [
@@ -380,7 +421,7 @@ router.get('/mediaitems', async (req, res) => {
   }
 });
 
-function buildMediaItemData(body, isCreate) {
+function buildMediaItemData(body, isCreate, userId) {
   const relWrap = isCreate ? relationConnect : relationSet;
   const data = {
     workId: parseInt(body.workId, 10),
@@ -392,8 +433,11 @@ function buildMediaItemData(body, isCreate) {
     focusOrTheme: body.focusOrTheme || null,
     summaryNotes: body.summaryNotes || null,
     keyQuotes: body.keyQuotes || null,
+    transcript: body.transcript || null,
+    durationSeconds: parseIntOrNull(body.durationSeconds),
     sourceUrl: body.sourceUrl?.trim() || null,
-    aiGenerated: body.aiGenerated !== undefined ? Boolean(body.aiGenerated) : false,
+    canonicalKey: body.canonicalKey?.trim() || null,
+    ...buildVerificationFields(body, userId),
   };
 
   const indRel = relWrap(body.individualIds);
@@ -417,7 +461,7 @@ router.post('/mediaitems', async (req, res) => {
   }
   try {
     const created = await prisma.mediaItem.create({
-      data: buildMediaItemData(req.body, true),
+      data: buildMediaItemData(req.body, true, req.user?.userId),
       include: { work: true },
     });
     res.status(201).json(created);
@@ -435,7 +479,7 @@ router.put('/mediaitems/:id', async (req, res) => {
   try {
     const updated = await prisma.mediaItem.update({
       where: { id },
-      data: buildMediaItemData(req.body, false),
+      data: buildMediaItemData(req.body, false, req.user?.userId),
       include: { work: true },
     });
     res.json(updated);
@@ -460,7 +504,7 @@ router.delete('/mediaitems/:id', async (req, res) => {
 router.get('/organizations', async (req, res) => {
   const { search, unverifiedOnly } = req.query;
   const where = {};
-  if (unverifiedOnly === 'true') where.aiGenerated = true;
+  if (unverifiedOnly === 'true') where.verificationStatus = { not: 'VERIFIED' };
   if (search && search.trim()) {
     const q = search.trim();
     where.OR = [
@@ -479,7 +523,7 @@ router.get('/organizations', async (req, res) => {
   }
 });
 
-function buildOrganizationData(body) {
+function buildOrganizationData(body, userId) {
   return {
     name: body.name?.trim(),
     type: body.type || null,
@@ -488,7 +532,7 @@ function buildOrganizationData(body) {
     locationCountry: body.locationCountry?.trim() || 'USA',
     website: body.website?.trim() || null,
     notes: body.notes || null,
-    aiGenerated: body.aiGenerated !== undefined ? Boolean(body.aiGenerated) : false,
+    ...buildVerificationFields(body, userId),
   };
 }
 
@@ -498,7 +542,7 @@ router.post('/organizations', async (req, res) => {
   }
   try {
     const created = await prisma.organization.create({
-      data: buildOrganizationData(req.body),
+      data: buildOrganizationData(req.body, req.user?.userId),
     });
     res.status(201).json(created);
   } catch (error) {
@@ -515,7 +559,7 @@ router.put('/organizations/:id', async (req, res) => {
   try {
     const updated = await prisma.organization.update({
       where: { id },
-      data: buildOrganizationData(req.body),
+      data: buildOrganizationData(req.body, req.user?.userId),
     });
     res.json(updated);
   } catch (error) {
@@ -539,7 +583,7 @@ router.delete('/organizations/:id', async (req, res) => {
 router.get('/involvedpersons', async (req, res) => {
   const { search, unverifiedOnly } = req.query;
   const where = {};
-  if (unverifiedOnly === 'true') where.aiGenerated = true;
+  if (unverifiedOnly === 'true') where.verificationStatus = { not: 'VERIFIED' };
   if (search && search.trim()) {
     const q = search.trim();
     where.OR = [
@@ -559,16 +603,17 @@ router.get('/involvedpersons', async (req, res) => {
   }
 });
 
-function buildInvolvedPersonData(body) {
+function buildInvolvedPersonData(body, userId) {
   return {
     firstName: body.firstName?.trim(),
     middleName: body.middleName?.trim() || null,
     lastName: body.lastName?.trim(),
     suffix: body.suffix?.trim() || null,
     nickname: body.nickname?.trim() || null,
+    canonicalKey: body.canonicalKey?.trim() || null,
     role: body.role || null,
     notes: body.notes || null,
-    aiGenerated: body.aiGenerated !== undefined ? Boolean(body.aiGenerated) : false,
+    ...buildVerificationFields(body, userId),
   };
 }
 
@@ -578,7 +623,7 @@ router.post('/involvedpersons', async (req, res) => {
   }
   try {
     const created = await prisma.involvedPerson.create({
-      data: buildInvolvedPersonData(req.body),
+      data: buildInvolvedPersonData(req.body, req.user?.userId),
     });
     res.status(201).json(created);
   } catch (error) {
@@ -595,7 +640,7 @@ router.put('/involvedpersons/:id', async (req, res) => {
   try {
     const updated = await prisma.involvedPerson.update({
       where: { id },
-      data: buildInvolvedPersonData(req.body),
+      data: buildInvolvedPersonData(req.body, req.user?.userId),
     });
     res.json(updated);
   } catch (error) {
@@ -618,7 +663,7 @@ router.delete('/involvedpersons/:id', async (req, res) => {
 
 router.get('/contributingfactors', async (req, res) => {
   const { unverifiedOnly } = req.query;
-  const where = unverifiedOnly === 'true' ? { aiGenerated: true } : {};
+  const where = unverifiedOnly === 'true' ? { verificationStatus: { not: 'VERIFIED' } } : {};
   try {
     const rows = await prisma.contributingFactor.findMany({
       where,
@@ -639,7 +684,7 @@ router.post('/contributingfactors', async (req, res) => {
       data: {
         name: req.body.name.trim(),
         description: req.body.description || null,
-        aiGenerated: req.body.aiGenerated !== undefined ? Boolean(req.body.aiGenerated) : false,
+        ...buildVerificationFields(req.body, req.user?.userId),
       },
     });
     res.status(201).json(created);
@@ -660,7 +705,7 @@ router.put('/contributingfactors/:id', async (req, res) => {
       data: {
         name: req.body.name.trim(),
         description: req.body.description || null,
-        aiGenerated: req.body.aiGenerated !== undefined ? Boolean(req.body.aiGenerated) : false,
+        ...buildVerificationFields(req.body, req.user?.userId),
       },
     });
     res.json(updated);
@@ -800,6 +845,226 @@ router.delete('/individualgroups/:id', async (req, res) => {
     res.json({ message: 'IndividualGroup deleted.', id });
   } catch (error) {
     handlePrismaError(res, error, 'IndividualGroup');
+  }
+});
+
+// --- POST /api/admin/podcast-ingest ---
+// Stages a newly captured podcast episode and all extracted entities as UNVERIFIED
+function normalizeKey(...parts) {
+  return parts
+    .map((p) => (p || '').toString().trim().toLowerCase().replace(/[^a-z0-9]+/g, '-'))
+    .filter(Boolean)
+    .join(':');
+}
+
+router.post('/podcast-ingest', async (req, res) => {
+  const {
+    podcastTitle,
+    publisherOrNetwork,
+    episodeTitle,
+    episodeNumber,
+    releaseDate,
+    durationSeconds,
+    hostOrNarrator,
+    focusOrTheme,
+    summaryNotes,
+    keyQuotes,
+    transcript,
+    sourceUrl,
+    canonicalKey,
+    importBatchId,
+    individuals = [],
+    organizations = [],
+    contributingFactors = [],
+    involvedPersons = [],
+    externalLinks = [],
+  } = req.body;
+
+  if (!podcastTitle?.trim() || !episodeTitle?.trim()) {
+    return res.status(400).json({ message: 'podcastTitle and episodeTitle are required.' });
+  }
+
+  const batchId = importBatchId || `podcast-${new Date().toISOString().slice(0, 10)}`;
+  const itemKey = canonicalKey?.trim() || normalizeKey('podcast', podcastTitle, episodeNumber || episodeTitle);
+
+  try {
+    const existing = await prisma.mediaItem.findUnique({ where: { canonicalKey: itemKey } });
+    if (existing) {
+      return res.json({ skipped: true, reason: 'already_exists', mediaItemId: existing.id });
+    }
+
+    const result = await prisma.$transaction(async (tx) => {
+      // 1. Find or create parent MediaWork (PODCAST_SERIES)
+      let work = await tx.mediaWork.findFirst({
+        where: { title: { equals: podcastTitle.trim(), mode: 'insensitive' }, workType: 'PODCAST_SERIES' },
+      });
+      if (!work) {
+        work = await tx.mediaWork.create({
+          data: {
+            title: podcastTitle.trim(),
+            workType: 'PODCAST_SERIES',
+            publisherOrNetwork: publisherOrNetwork?.trim() || null,
+            creatorName: hostOrNarrator?.trim() || null,
+            aiGenerated: true,
+            verificationStatus: 'UNVERIFIED',
+            ingestionSource: 'podcast_rss_gemini',
+            importBatchId: batchId,
+          },
+        });
+      }
+
+      // 2. Upsert/match Individuals
+      const individualIds = [];
+      for (const ind of individuals) {
+        if (!ind.firstName?.trim() || !ind.lastName?.trim()) continue;
+        const indKey = normalizeKey('ind', ind.firstName, ind.middleName, ind.lastName, ind.suffix);
+        let record = await tx.individual.findUnique({ where: { canonicalKey: indKey } });
+        if (!record) {
+          record = await tx.individual.findFirst({
+            where: {
+              firstName: { equals: ind.firstName.trim(), mode: 'insensitive' },
+              lastName: { equals: ind.lastName.trim(), mode: 'insensitive' },
+            },
+          });
+        }
+        if (!record) {
+          record = await tx.individual.create({
+            data: {
+              firstName: ind.firstName.trim(),
+              middleName: ind.middleName?.trim() || null,
+              lastName: ind.lastName.trim(),
+              suffix: ind.suffix?.trim() || null,
+              canonicalKey: indKey,
+              status: ind.status || 'UNKNOWN',
+              claimStrength: ind.claimStrength || 'UNASSESSED',
+              convictionYear: parseIntOrNull(ind.convictionYear),
+              exonerationOrReleaseYear: parseIntOrNull(ind.exonerationOrReleaseYear),
+              timeServed: ind.timeServed?.trim() || null,
+              sentence: ind.sentence?.trim() || null,
+              caseLocationCity: ind.caseLocationCity?.trim() || null,
+              caseLocationState: ind.caseLocationState?.trim() || null,
+              caseLocationCountry: ind.caseLocationCountry?.trim() || 'USA',
+              narrativeSummary: ind.narrativeSummary || null,
+              aiGenerated: true,
+              verificationStatus: 'UNVERIFIED',
+              ingestionSource: 'podcast_rss_gemini',
+              importBatchId: batchId,
+            },
+          });
+        }
+        individualIds.push({ id: record.id });
+      }
+
+      // 3. Upsert/match ContributingFactors
+      const factorIds = [];
+      for (const factorName of contributingFactors) {
+        const cleanName = (typeof factorName === 'string' ? factorName : factorName?.name)?.trim();
+        if (!cleanName) continue;
+        const factor = await tx.contributingFactor.upsert({
+          where: { name: cleanName },
+          update: {},
+          create: {
+            name: cleanName,
+            aiGenerated: true,
+            verificationStatus: 'UNVERIFIED',
+            ingestionSource: 'podcast_rss_gemini',
+            importBatchId: batchId,
+          },
+        });
+        factorIds.push({ id: factor.id });
+      }
+
+      // 4. Upsert/match Organizations
+      const orgIds = [];
+      for (const org of organizations) {
+        const orgName = (typeof org === 'string' ? org : org?.name)?.trim();
+        if (!orgName) continue;
+        const record = await tx.organization.upsert({
+          where: { name: orgName },
+          update: {},
+          create: {
+            name: orgName,
+            type: org?.type || 'OTHER',
+            aiGenerated: true,
+            verificationStatus: 'UNVERIFIED',
+            ingestionSource: 'podcast_rss_gemini',
+            importBatchId: batchId,
+          },
+        });
+        orgIds.push({ id: record.id });
+      }
+
+      // 5. Upsert/match InvolvedPersons
+      const personIds = [];
+      for (const person of involvedPersons) {
+        if (!person.firstName?.trim() || !person.lastName?.trim()) continue;
+        const pKey = normalizeKey('oip', person.firstName, person.lastName, person.role || 'OTHER');
+        let record = await tx.involvedPerson.findUnique({ where: { canonicalKey: pKey } });
+        if (!record) {
+          record = await tx.involvedPerson.create({
+            data: {
+              firstName: person.firstName.trim(),
+              lastName: person.lastName.trim(),
+              role: person.role || 'OTHER',
+              notes: person.notes || null,
+              canonicalKey: pKey,
+              aiGenerated: true,
+              verificationStatus: 'UNVERIFIED',
+              ingestionSource: 'podcast_rss_gemini',
+              importBatchId: batchId,
+            },
+          });
+        }
+        personIds.push({ id: record.id });
+      }
+
+      // 6. Create the MediaItem (PODCAST_EPISODE)
+      const mediaItem = await tx.mediaItem.create({
+        data: {
+          workId: work.id,
+          itemTitle: episodeTitle.trim(),
+          itemNumber: episodeNumber?.toString().trim() || null,
+          itemMediaType: 'PODCAST_EPISODE',
+          releaseDate: parseDateOrNull(releaseDate),
+          durationSeconds: parseIntOrNull(durationSeconds),
+          hostOrNarrator: hostOrNarrator?.trim() || null,
+          focusOrTheme: focusOrTheme || null,
+          summaryNotes: summaryNotes || null,
+          keyQuotes: keyQuotes || null,
+          transcript: transcript || null,
+          sourceUrl: sourceUrl?.trim() || null,
+          canonicalKey: itemKey,
+          aiGenerated: true,
+          verificationStatus: 'UNVERIFIED',
+          ingestionSource: 'podcast_rss_gemini',
+          importBatchId: batchId,
+          individualsFeatured: individualIds.length ? { connect: individualIds } : undefined,
+          contributingFactorsMentioned: factorIds.length ? { connect: factorIds } : undefined,
+          organizationsMentioned: orgIds.length ? { connect: orgIds } : undefined,
+          involvedPersonsMentioned: personIds.length ? { connect: personIds } : undefined,
+          externalLinks: Array.isArray(externalLinks) && externalLinks.length
+            ? {
+                create: externalLinks
+                  .filter((l) => l?.url?.trim())
+                  .map((l) => ({ url: l.url.trim(), description: l.description || null })),
+              }
+            : undefined,
+        },
+      });
+
+      return {
+        mediaItemId: mediaItem.id,
+        workId: work.id,
+        linkedIndividuals: individualIds.length,
+        linkedFactors: factorIds.length,
+        linkedOrganizations: orgIds.length,
+        linkedInvolvedPersons: personIds.length,
+      };
+    });
+
+    res.status(201).json({ skipped: false, ...result });
+  } catch (error) {
+    handlePrismaError(res, error, 'podcast-ingest');
   }
 });
 
