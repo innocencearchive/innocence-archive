@@ -20,6 +20,39 @@ router.use((req, res, next) => {
   return authenticateToken(req, res, () => authorizeRole(['ADMIN', 'EDITOR'])(req, res, next));
 });
 
+// --- Standard 16-item ContributingFactorCode Enum Map ---
+const CONTRIBUTING_FACTOR_LABELS = {
+  FALSE_CONFESSION: 'False Confession',
+  OFFICIAL_MISCONDUCT: 'Official Misconduct',
+  POLICE_MISCONDUCT: 'Police Misconduct',
+  PROSECUTORIAL_MISCONDUCT: 'Prosecutorial Misconduct',
+  WITHHELD_EXCULPATORY_EVIDENCE: 'Withheld Exculpatory Evidence (Brady Violation)',
+  MISTAKEN_EYEWITNESS_IDENTIFICATION: 'Mistaken Eyewitness Identification',
+  PERJURY_OR_FALSE_ACCUSATION: 'Perjury or False Accusation',
+  FALSE_OR_MISLEADING_FORENSIC_EVIDENCE: 'False or Misleading Forensic Evidence',
+  INADEQUATE_LEGAL_DEFENSE: 'Inadequate Legal Defense',
+  JAILHOUSE_INFORMANT: 'Jailhouse Informant',
+  TUNNEL_VISION_RUSH_TO_JUDGMENT: 'Tunnel Vision / Rush to Judgment',
+  RACIAL_BIAS: 'Racial Bias',
+  PREJUDICIAL_JOINDER_JOINT_TRIAL: 'Prejudicial Joinder / Joint Trial',
+  MEDIA_SENSATIONALISM: 'Media Sensationalism',
+  COERCED_PLEA: 'Coerced Plea',
+  UNRELIABLE_WITNESS: 'Unreliable Witness',
+};
+
+const CONTRIBUTING_FACTOR_NAME_TO_CODE = Object.fromEntries(
+  Object.entries(CONTRIBUTING_FACTOR_LABELS).map(([code, label]) => [label.toLowerCase(), code])
+);
+
+function resolveContributingFactorCode(raw) {
+  if (!raw) return null;
+  const val = (typeof raw === 'string' ? raw : raw?.code || raw?.name || '').trim();
+  if (!val) return null;
+  const upper = val.toUpperCase();
+  if (CONTRIBUTING_FACTOR_LABELS[upper]) return upper;
+  return CONTRIBUTING_FACTOR_NAME_TO_CODE[val.toLowerCase()] || null;
+}
+
 // --- Shared Helpers ---
 
 function parseId(raw) {
@@ -676,13 +709,19 @@ router.get('/contributingfactors', async (req, res) => {
 });
 
 router.post('/contributingfactors', async (req, res) => {
-  if (!req.body.name?.trim()) {
-    return res.status(400).json({ message: 'name is required.' });
+  const code = resolveContributingFactorCode(req.body.code || req.body.name);
+  if (!code) {
+    return res.status(400).json({
+      message: 'Valid ContributingFactorCode enum value is required.',
+      allowedCodes: Object.keys(CONTRIBUTING_FACTOR_LABELS),
+    });
   }
+  const name = req.body.name?.trim() || CONTRIBUTING_FACTOR_LABELS[code];
   try {
     const created = await prisma.contributingFactor.create({
       data: {
-        name: req.body.name.trim(),
+        code,
+        name,
         description: req.body.description || null,
         ...buildVerificationFields(req.body, req.user?.userId),
       },
@@ -696,14 +735,20 @@ router.post('/contributingfactors', async (req, res) => {
 router.put('/contributingfactors/:id', async (req, res) => {
   const id = parseId(req.params.id);
   if (!id) return res.status(400).json({ message: 'Invalid ContributingFactor ID.' });
-  if (!req.body.name?.trim()) {
-    return res.status(400).json({ message: 'name is required.' });
+  const code = resolveContributingFactorCode(req.body.code || req.body.name);
+  if (!code) {
+    return res.status(400).json({
+      message: 'Valid ContributingFactorCode enum value is required.',
+      allowedCodes: Object.keys(CONTRIBUTING_FACTOR_LABELS),
+    });
   }
+  const name = req.body.name?.trim() || CONTRIBUTING_FACTOR_LABELS[code];
   try {
     const updated = await prisma.contributingFactor.update({
       where: { id },
       data: {
-        name: req.body.name.trim(),
+        code,
+        name,
         description: req.body.description || null,
         ...buildVerificationFields(req.body, req.user?.userId),
       },
@@ -873,6 +918,7 @@ router.post('/podcast-ingest', async (req, res) => {
     sourceUrl,
     canonicalKey,
     importBatchId,
+    refreshExisting = false,
     individuals = [],
     organizations = [],
     contributingFactors = [],
@@ -889,7 +935,7 @@ router.post('/podcast-ingest', async (req, res) => {
 
   try {
     const existing = await prisma.mediaItem.findUnique({ where: { canonicalKey: itemKey } });
-    if (existing) {
+    if (existing && !refreshExisting) {
       return res.json({ skipped: true, reason: 'already_exists', mediaItemId: existing.id });
     }
 
@@ -913,8 +959,9 @@ router.post('/podcast-ingest', async (req, res) => {
         });
       }
 
-      // 2. Upsert/match Individuals
+      // 2. Upsert/match Individuals (never overwrites existing records)
       const individualIdSet = new Set();
+      let newIndividualsCreated = 0;
       for (const ind of individuals) {
         if (!ind.firstName?.trim() || !ind.lastName?.trim()) continue;
         const indKey = normalizeKey('ind', ind.firstName, ind.middleName, ind.lastName, ind.suffix);
@@ -951,36 +998,48 @@ router.post('/podcast-ingest', async (req, res) => {
               importBatchId: batchId,
             },
           });
+          newIndividualsCreated++;
         }
         individualIdSet.add(record.id);
       }
       const individualIds = [...individualIdSet].map((id) => ({ id }));
 
-      // 3. Upsert/match ContributingFactors (case-insensitive to prevent near-duplicates)
+      // 3. Upsert/match ContributingFactors strictly against the 16-item ContributingFactorCode enum
       const factorIdSet = new Set();
-      for (const factorName of contributingFactors) {
-        const cleanName = (typeof factorName === 'string' ? factorName : factorName?.name)?.trim();
-        if (!cleanName) continue;
-        let factor = await tx.contributingFactor.findFirst({
-          where: { name: { equals: cleanName, mode: 'insensitive' } },
+      for (const rawFactor of contributingFactors) {
+        const code = resolveContributingFactorCode(rawFactor);
+        if (!code) continue;
+        const factor = await tx.contributingFactor.upsert({
+          where: { code },
+          update: {},
+          create: {
+            code,
+            name: CONTRIBUTING_FACTOR_LABELS[code],
+            aiGenerated: false,
+            verificationStatus: 'VERIFIED',
+          },
         });
-        if (!factor) {
-          factor = await tx.contributingFactor.create({
-            data: {
-              name: cleanName,
-              aiGenerated: true,
-              verificationStatus: 'UNVERIFIED',
-              ingestionSource: 'podcast_rss_gemini',
-              importBatchId: batchId,
-            },
-          });
-        }
         factorIdSet.add(factor.id);
       }
       const factorIds = [...factorIdSet].map((id) => ({ id }));
 
+      // Link extracted contributing factors onto featured Individual(s) without overwriting other fields
+      if (factorIds.length && individualIds.length) {
+        for (const { id: indId } of individualIds) {
+          await tx.individual.update({
+            where: { id: indId },
+            data: {
+              contributingFactors: existing
+                ? { set: factorIds }
+                : { connect: factorIds },
+            },
+          });
+        }
+      }
+
       // 4. Upsert/match Organizations (case-insensitive to prevent near-duplicates)
       const orgIdSet = new Set();
+      let newOrganizationsCreated = 0;
       for (const org of organizations) {
         const orgName = (typeof org === 'string' ? org : org?.name)?.trim();
         if (!orgName) continue;
@@ -998,6 +1057,7 @@ router.post('/podcast-ingest', async (req, res) => {
               importBatchId: batchId,
             },
           });
+          newOrganizationsCreated++;
         }
         orgIdSet.add(record.id);
       }
@@ -1005,6 +1065,7 @@ router.post('/podcast-ingest', async (req, res) => {
 
       // 5. Upsert/match InvolvedPersons (match canonicalKey OR case-insensitive first+last to avoid role-drift duplicates)
       const personIdSet = new Set();
+      let newInvolvedPersonsCreated = 0;
       for (const person of involvedPersons) {
         if (!person.firstName?.trim() || !person.lastName?.trim()) continue;
         const pKey = normalizeKey('oip', person.firstName, person.lastName, person.role || 'OTHER');
@@ -1031,56 +1092,74 @@ router.post('/podcast-ingest', async (req, res) => {
               importBatchId: batchId,
             },
           });
+          newInvolvedPersonsCreated++;
         }
         personIdSet.add(record.id);
       }
       const personIds = [...personIdSet].map((id) => ({ id }));
 
-      // 6. Create the MediaItem (PODCAST_EPISODE)
-      const mediaItem = await tx.mediaItem.create({
-        data: {
-          workId: work.id,
-          itemTitle: episodeTitle.trim(),
-          itemNumber: episodeNumber?.toString().trim() || null,
-          itemMediaType: 'PODCAST_EPISODE',
-          releaseDate: parseDateOrNull(releaseDate),
-          durationSeconds: parseIntOrNull(durationSeconds),
-          hostOrNarrator: hostOrNarrator?.trim() || null,
-          focusOrTheme: focusOrTheme || null,
-          summaryNotes: summaryNotes || null,
-          keyQuotes: keyQuotes || null,
-          transcript: transcript || null,
-          sourceUrl: sourceUrl?.trim() || null,
-          canonicalKey: itemKey,
-          aiGenerated: true,
-          verificationStatus: 'UNVERIFIED',
-          ingestionSource: 'podcast_rss_gemini',
-          importBatchId: batchId,
-          individualsFeatured: individualIds.length ? { connect: individualIds } : undefined,
-          contributingFactorsMentioned: factorIds.length ? { connect: factorIds } : undefined,
-          organizationsMentioned: orgIds.length ? { connect: orgIds } : undefined,
-          involvedPersonsMentioned: personIds.length ? { connect: personIds } : undefined,
-          externalLinks: Array.isArray(externalLinks) && externalLinks.length
-            ? {
-                create: externalLinks
-                  .filter((l) => l?.url?.trim())
-                  .map((l) => ({ url: l.url.trim(), description: l.description || null })),
-              }
-            : undefined,
-        },
-      });
+      // 6. Refresh existing MediaItem relations (preserving all verified text/metadata) OR create new MediaItem
+      let mediaItem;
+      if (existing) {
+        mediaItem = await tx.mediaItem.update({
+          where: { id: existing.id },
+          data: {
+            contributingFactorsMentioned: { set: factorIds },
+            individualsFeatured: individualIds.length ? { connect: individualIds } : undefined,
+            organizationsMentioned: orgIds.length ? { connect: orgIds } : undefined,
+            involvedPersonsMentioned: personIds.length ? { connect: personIds } : undefined,
+          },
+        });
+      } else {
+        mediaItem = await tx.mediaItem.create({
+          data: {
+            workId: work.id,
+            itemTitle: episodeTitle.trim(),
+            itemNumber: episodeNumber?.toString().trim() || null,
+            itemMediaType: 'PODCAST_EPISODE',
+            releaseDate: parseDateOrNull(releaseDate),
+            durationSeconds: parseIntOrNull(durationSeconds),
+            hostOrNarrator: hostOrNarrator?.trim() || null,
+            focusOrTheme: focusOrTheme || null,
+            summaryNotes: summaryNotes || null,
+            keyQuotes: keyQuotes || null,
+            transcript: transcript || null,
+            sourceUrl: sourceUrl?.trim() || null,
+            canonicalKey: itemKey,
+            aiGenerated: true,
+            verificationStatus: 'UNVERIFIED',
+            ingestionSource: 'podcast_rss_gemini',
+            importBatchId: batchId,
+            individualsFeatured: individualIds.length ? { connect: individualIds } : undefined,
+            contributingFactorsMentioned: factorIds.length ? { connect: factorIds } : undefined,
+            organizationsMentioned: orgIds.length ? { connect: orgIds } : undefined,
+            involvedPersonsMentioned: personIds.length ? { connect: personIds } : undefined,
+            externalLinks: Array.isArray(externalLinks) && externalLinks.length
+              ? {
+                  create: externalLinks
+                    .filter((l) => l?.url?.trim())
+                    .map((l) => ({ url: l.url.trim(), description: l.description || null })),
+                }
+              : undefined,
+          },
+        });
+      }
 
       return {
+        refreshed: Boolean(existing),
         mediaItemId: mediaItem.id,
         workId: work.id,
         linkedIndividuals: individualIds.length,
+        newIndividualsCreated,
         linkedFactors: factorIds.length,
         linkedOrganizations: orgIds.length,
+        newOrganizationsCreated,
         linkedInvolvedPersons: personIds.length,
+        newInvolvedPersonsCreated,
       };
     });
 
-    res.status(201).json({ skipped: false, ...result });
+    res.status(existing ? 200 : 201).json({ skipped: false, ...result });
   } catch (error) {
     handlePrismaError(res, error, 'podcast-ingest');
   }

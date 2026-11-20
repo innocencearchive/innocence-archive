@@ -6,3 +6,5 @@ server/backup/
 scripts/podcast_pipeline/state.json
 scripts/podcast_pipeline/staged/
 scripts/podcast_pipeline/logs/
+**/__pycache__/
+*.pyc

@@ -16,6 +16,7 @@ import tempfile
 import time
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
+from enum import Enum
 from pathlib import Path
 from typing import List, Optional
 
@@ -95,6 +96,25 @@ class ExtractedLink(BaseModel):
     description: Optional[str] = None
 
 
+class ContributingFactorCode(str, Enum):
+    FALSE_CONFESSION = "FALSE_CONFESSION"
+    OFFICIAL_MISCONDUCT = "OFFICIAL_MISCONDUCT"
+    POLICE_MISCONDUCT = "POLICE_MISCONDUCT"
+    PROSECUTORIAL_MISCONDUCT = "PROSECUTORIAL_MISCONDUCT"
+    WITHHELD_EXCULPATORY_EVIDENCE = "WITHHELD_EXCULPATORY_EVIDENCE"
+    MISTAKEN_EYEWITNESS_IDENTIFICATION = "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+    PERJURY_OR_FALSE_ACCUSATION = "PERJURY_OR_FALSE_ACCUSATION"
+    FALSE_OR_MISLEADING_FORENSIC_EVIDENCE = "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+    INADEQUATE_LEGAL_DEFENSE = "INADEQUATE_LEGAL_DEFENSE"
+    JAILHOUSE_INFORMANT = "JAILHOUSE_INFORMANT"
+    TUNNEL_VISION_RUSH_TO_JUDGMENT = "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+    RACIAL_BIAS = "RACIAL_BIAS"
+    PREJUDICIAL_JOINDER_JOINT_TRIAL = "PREJUDICIAL_JOINDER_JOINT_TRIAL"
+    MEDIA_SENSATIONALISM = "MEDIA_SENSATIONALISM"
+    COERCED_PLEA = "COERCED_PLEA"
+    UNRELIABLE_WITNESS = "UNRELIABLE_WITNESS"
+
+
 class PodcastExtraction(BaseModel):
     episodeNumber: Optional[str] = None
     hostOrNarrator: Optional[str] = None
@@ -110,7 +130,10 @@ class PodcastExtraction(BaseModel):
         )
     )
     individuals: List[ExtractedIndividual] = Field(default_factory=list)
-    contributingFactors: List[str] = Field(default_factory=list)
+    contributingFactors: List[ContributingFactorCode] = Field(
+        default_factory=list,
+        description="Select all applicable standardized ContributingFactorCode enum values from the 16-item list.",
+    )
     organizations: List[ExtractedOrganization] = Field(default_factory=list)
     involvedPersons: List[ExtractedInvolvedPerson] = Field(default_factory=list)
     externalLinks: List[ExtractedLink] = Field(default_factory=list)
@@ -290,6 +313,7 @@ def process_episode(
     feed_link: str,
     entry,
     dry_run: bool,
+    refresh_existing: bool,
     api_base_url: str,
     ingest_key: str,
 ) -> dict:
@@ -302,7 +326,7 @@ def process_episode(
     guid = entry.get("id") or entry.get("link") or mp3_url
     canonical_key = "podcast:" + hashlib.sha256(f"{feed_cfg['podcastTitle']}::{guid}".encode()).hexdigest()[:24]
 
-    factors_hint = ", ".join(CANONICAL_CONTRIBUTING_FACTORS)
+    factors_hint = ", ".join(c.value for c in ContributingFactorCode)
     prompt = (
         f"You are a professional research assistant for The Innocence Archive.\n"
         f"Listen to the attached podcast audio and use the RSS metadata below to:\n"
@@ -319,8 +343,8 @@ def process_episode(
         f"judges, witnesses, journalists, investigators, family members). "
         f"Do NOT include podcast production crew or outro credits (producers, audio/sound engineers, editors, "
         f"researchers, or network staff) in involvedPersons.\n"
-        f"4. For contributingFactors, prefer these standardized canonical names whenever applicable: "
-        f"{factors_hint}. Only add a different concise factor name if none of those fit.\n"
+        f"4. For contributingFactors, select ONLY from these 16 standardized enum codes: "
+        f"{factors_hint}.\n"
         f"5. For organizations, use full official organization names (e.g. 'New York City Police Department' "
         f"rather than 'NYPD') and avoid abbreviations or duplicates.\n"
         f"Base all extracted facts strictly on the audio and RSS metadata.\n\n"
@@ -400,8 +424,9 @@ def process_episode(
         "sourceUrl": resolve_episode_url(feed_cfg, feed_link, entry, mp3_url),
         "canonicalKey": canonical_key,
         "importBatchId": f"podcast-{datetime.now(timezone.utc).strftime('%Y-%m-%d')}",
+        "refreshExisting": refresh_existing,
         "individuals": valid_individuals,
-        "contributingFactors": extracted.contributingFactors,
+        "contributingFactors": list(dict.fromkeys(f.value for f in extracted.contributingFactors)),
         "organizations": [o.model_dump() for o in extracted.organizations],
         "involvedPersons": valid_involved_persons,
         "externalLinks": [l.model_dump() for l in extracted.externalLinks],
@@ -435,6 +460,7 @@ def main():
     parser.add_argument("--limit", type=int, default=5, help="Max new episodes to process per run (default: 5).")
     parser.add_argument("--delay", type=int, default=15, help="Seconds to pause between episodes for Free Tier TPM safety (default: 15).")
     parser.add_argument("--dry-run", action="store_true", help="Save JSON locally to staged/ instead of posting to API.")
+    parser.add_argument("--refresh-existing", action="store_true", help="Allow refreshing already-ingested episodes (updates factors & tests dedup without overwriting verified fields).")
     args = parser.parse_args()
 
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -468,10 +494,10 @@ def main():
                 print(f"Reached --limit {args.limit}. Stopping.")
                 return
             guid = entry.get("id") or entry.get("link") or entry.get("title")
-            if not guid or guid in state["processed"]:
+            if not guid or (guid in state["processed"] and not args.refresh_existing):
                 continue
 
-            print(f"New episode found: {entry.get('title')}")
+            print(f"Processing episode: {entry.get('title')}")
             try:
                 res = process_episode(
                     client=client,
@@ -480,6 +506,7 @@ def main():
                     feed_link=parsed.feed.get("link", ""),
                     entry=entry,
                     dry_run=args.dry_run,
+                    refresh_existing=args.refresh_existing,
                     api_base_url=api_base_url,
                     ingest_key=ingest_key,
                 )
