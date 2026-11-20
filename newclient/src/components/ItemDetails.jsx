@@ -98,7 +98,9 @@ const ItemDetails = ({ item }) => {
         {/* Source URL */}
         {item.sourceUrl && (
           <div>
-            <dt className="font-semibold text-gray-400">Source Link:</dt>
+            <dt className="font-semibold text-gray-400">
+              {item.itemMediaType === 'PODCAST_EPISODE' ? 'Episode Link:' : 'Source Link:'}
+            </dt>
             <dd className="ml-1">
               <a
                 href={item.sourceUrl}
@@ -106,7 +108,7 @@ const ItemDetails = ({ item }) => {
                 rel="noopener noreferrer"
                 className={`inline-flex items-center ${BRONZE_COLOR} hover:underline break-all`} // Use bronze color for link
               >
-                <span>View Original Content</span>
+                <span>{item.itemMediaType === 'PODCAST_EPISODE' ? 'Listen to Episode' : 'View Original Content'}</span>
                 <ExternalLink className="ml-1.5 h-3.5 w-3.5" /> {/* Slightly larger icon */}
               </a>
             </dd>

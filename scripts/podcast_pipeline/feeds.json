@@ -1,23 +1,23 @@
 [
   {
     "podcastTitle": "Wrongful Conviction",
-    "publisherOrNetwork": "Lava for Good",
+    "publisherOrNetwork": "Lava for Good Podcasts",
     "defaultHost": "Jason Flom",
-    "rssUrl": "https://feeds.megaphone.fm/wrongfulconviction",
+    "rssUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/23a0c9c9-ef6b-4055-bbaa-af01014cdb05/54c728d2-3f3e-4e41-b507-af01014cdb13/podcast.rss",
     "active": true
   },
   {
     "podcastTitle": "Undisclosed",
     "publisherOrNetwork": "Undisclosed",
     "defaultHost": "Rabia Chaudry, Colin Miller, Susan Simpson",
-    "rssUrl": "https://feeds.megaphone.fm/undisclosed",
+    "rssUrl": "https://audioboom.com/channels/3709182.rss",
     "active": false
   },
   {
     "podcastTitle": "In the Dark",
     "publisherOrNetwork": "The New Yorker / APM Reports",
     "defaultHost": "Madeleine Baran",
-    "rssUrl": "https://feeds.megaphone.fm/in-the-dark",
+    "rssUrl": "https://feeds.megaphone.fm/CNE3915766304",
     "active": false
   }
 ]

@@ -11,6 +11,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import tempfile
 import time
 from datetime import datetime, timezone
@@ -102,7 +103,12 @@ class PodcastExtraction(BaseModel):
         description="Executive summary of the episode (1 paragraph, max 8 sentences) followed by key case details."
     )
     keyQuotes: Optional[str] = None
-    transcript: str = Field(description="Full verbatim transcript of the podcast episode audio.")
+    transcript: str = Field(
+        description=(
+            "Full verbatim transcript of the podcast episode content, omitting any "
+            "third-party sponsor advertisements, dynamic ad reads, and cross-promotions for other shows."
+        )
+    )
     individuals: List[ExtractedIndividual] = Field(default_factory=list)
     contributingFactors: List[str] = Field(default_factory=list)
     organizations: List[ExtractedOrganization] = Field(default_factory=list)
@@ -112,6 +118,25 @@ class PodcastExtraction(BaseModel):
 
 # --- Helpers ---
 
+INVALID_NAME_TOKENS = {
+    "unknown", "n/a", "na", "none", "unnamed", "anonymous",
+    "detective", "officer", "judge", "justice", "doctor", "dr", "dr.",
+    "mr", "mr.", "mrs", "mrs.", "ms", "ms.", "attorney", "prosecutor",
+    "sergeant", "sgt", "sgt.", "lieutenant", "lt", "lt.", "captain", "capt", "capt.",
+    "agent", "trooper", "deputy", "sheriff", "commissioner", "warden", "guard",
+}
+
+
+def has_valid_full_name(first_name: Optional[str], last_name: Optional[str]) -> bool:
+    f = (first_name or "").strip().lower()
+    l = (last_name or "").strip().lower()
+    if not f or not l:
+        return False
+    if f in INVALID_NAME_TOKENS or l in INVALID_NAME_TOKENS:
+        return False
+    return True
+
+
 def load_state() -> dict:
     if STATE_FILE.exists():
         return json.loads(STATE_FILE.read_text(encoding="utf-8"))
@@ -120,6 +145,57 @@ def load_state() -> dict:
 
 def save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state, indent=2), encoding="utf-8")
+
+
+def resolve_episode_url(feed_cfg: dict, feed_link: str, entry, mp3_url: str) -> str:
+    """Resolve the most specific episode web URL (preferring direct episode pages over generic show URLs)."""
+    entry_link = (entry.get("link") or "").strip()
+    generic_feed_link = (feed_link or "").strip().rstrip("/")
+
+    # 1. If RSS entry has a specific episode link (not just the generic show homepage), use it
+    if entry_link and entry_link.rstrip("/") != generic_feed_link:
+        return entry_link
+
+    # 2. If hosted on Omny Studio, fetch the official episode PublishedUrl from Omny's public clip API
+    clip_id = entry.get("omny_clipid")
+    rss_url = feed_cfg.get("rssUrl", "")
+    omny_match = re.search(r"omnycontent\.com/d/playlist/([0-9a-f-]{36})/", rss_url, re.IGNORECASE)
+    if clip_id and omny_match:
+        org_id = omny_match.group(1)
+        try:
+            r = requests.get(f"https://api.omny.fm/orgs/{org_id}/clips/{clip_id}", timeout=10)
+            if r.ok:
+                pub_url = (r.json().get("PublishedUrl") or "").strip()
+                if pub_url:
+                    return pub_url
+        except Exception:
+            pass
+
+    # 3. Try Apple Podcasts public Search API for an exact episode page match
+    ep_title = (entry.get("title") or "").strip()
+    if ep_title:
+        try:
+            r = requests.get(
+                "https://itunes.apple.com/search",
+                params={
+                    "media": "podcast",
+                    "entity": "podcastEpisode",
+                    "term": f"{feed_cfg['podcastTitle']} {ep_title}",
+                    "limit": 5,
+                },
+                timeout=10,
+            )
+            if r.ok:
+                norm_target = re.sub(r"\W+", "", ep_title.lower())
+                for item in r.json().get("results", []):
+                    track_name = item.get("trackName") or ""
+                    if re.sub(r"\W+", "", track_name.lower()) == norm_target and item.get("trackViewUrl"):
+                        return item["trackViewUrl"].split("&uo=")[0]
+        except Exception:
+            pass
+
+    # 4. Fallback to direct episode MP3 URL (or generic link if no MP3)
+    return mp3_url or entry_link
 
 
 def get_mp3_url(entry) -> Optional[str]:
@@ -159,7 +235,7 @@ def parse_duration_seconds(entry) -> Optional[int]:
 
 
 def download_temp_mp3(url: str) -> Path:
-    resp = requests.get(url, stream=True, timeout=120)
+    resp = requests.get(url, headers={"User-Agent": "InnocenceArchiveBot/1.0"}, stream=True, timeout=120)
     resp.raise_for_status()
     tmp = tempfile.NamedTemporaryFile(delete=False, suffix=".mp3")
     with tmp as f:
@@ -182,6 +258,7 @@ def process_episode(
     client: genai.Client,
     model_name: str,
     feed_cfg: dict,
+    feed_link: str,
     entry,
     dry_run: bool,
     api_base_url: str,
@@ -199,10 +276,17 @@ def process_episode(
     prompt = (
         f"You are a professional research assistant for The Innocence Archive.\n"
         f"Listen to the attached podcast audio and use the RSS metadata below to:\n"
-        f"1. Produce an accurate verbatim transcript.\n"
+        f"1. Produce an accurate verbatim transcript of the episode content ONLY "
+        f"(omit all third-party sponsor ads, dynamic ad reads, and promos for other podcasts).\n"
         f"2. Extract all structured case data (wrongfully convicted individuals, "
         f"contributing factors, organizations, other involved persons, key quotes, "
         f"executive summary, and any mentioned external links).\n"
+        f"3. For individuals and involvedPersons, ONLY include people whose actual first AND last names "
+        f"are explicitly stated. Do NOT invent or use placeholders like 'Unknown' or 'N/A', and NEVER put "
+        f"titles or ranks (e.g., 'Detective', 'Judge', 'Officer', 'Dr.', 'Attorney') in firstName or lastName. "
+        f"Do NOT include podcast production crew or outro credits (producers, audio/sound engineers, editors, "
+        f"researchers, or network staff) in involvedPersons — only include the main podcast host and people "
+        f"substantively connected to the legal case(s) discussed.\n"
         f"Base all extracted facts strictly on the audio and RSS metadata.\n\n"
         f"Podcast Series: {feed_cfg['podcastTitle']}\n"
         f"Default Host: {feed_cfg.get('defaultHost', '')}\n"
@@ -251,13 +335,19 @@ def process_episode(
         "summaryNotes": extracted.summaryNotes,
         "keyQuotes": extracted.keyQuotes,
         "transcript": extracted.transcript,
-        "sourceUrl": entry.get("link") or mp3_url,
+        "sourceUrl": resolve_episode_url(feed_cfg, feed_link, entry, mp3_url),
         "canonicalKey": canonical_key,
         "importBatchId": f"podcast-{datetime.now(timezone.utc).strftime('%Y-%m-%d')}",
-        "individuals": [i.model_dump() for i in extracted.individuals],
+        "individuals": [
+            i.model_dump() for i in extracted.individuals
+            if has_valid_full_name(i.firstName, i.lastName)
+        ],
         "contributingFactors": extracted.contributingFactors,
         "organizations": [o.model_dump() for o in extracted.organizations],
-        "involvedPersons": [p.model_dump() for p in extracted.involvedPersons],
+        "involvedPersons": [
+            p.model_dump() for p in extracted.involvedPersons
+            if has_valid_full_name(p.firstName, p.lastName)
+        ],
         "externalLinks": [l.model_dump() for l in extracted.externalLinks],
     }
 
@@ -266,6 +356,12 @@ def process_episode(
         out_path = STAGED_DIR / f"{canonical_key.replace(':', '_')}.json"
         out_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
         print(f"  [DRY RUN] Saved staged JSON to {out_path}")
+        preview = dict(payload)
+        t = payload.get("transcript") or ""
+        preview["transcript"] = f"<{len(t)} chars> {t[:400]}..." if len(t) > 400 else t
+        print("\n--- DRY RUN JSON OUTPUT (transcript abbreviated) ---")
+        print(json.dumps(preview, indent=2))
+        print("--- END DRY RUN JSON OUTPUT ---\n")
         return {"dry_run": True, "file": str(out_path)}
 
     headers = {"Content-Type": "application/json"}
@@ -301,7 +397,14 @@ def main():
         if not feed_cfg.get("active", True):
             continue
         print(f"Checking feed: {feed_cfg['podcastTitle']} ({feed_cfg['rssUrl']})")
-        parsed = feedparser.parse(feed_cfg["rssUrl"])
+        feed_resp = requests.get(feed_cfg["rssUrl"], headers={"User-Agent": "InnocenceArchiveBot/1.0"}, timeout=30)
+        if not feed_resp.ok:
+            print(f"  Warning: RSS fetch failed with HTTP {feed_resp.status_code} for {feed_cfg['rssUrl']}")
+            continue
+        parsed = feedparser.parse(feed_resp.content)
+        if not parsed.entries:
+            print(f"  Warning: 0 entries parsed from {feed_cfg['rssUrl']}")
+            continue
 
         for entry in parsed.entries:
             if processed_count >= args.limit:
@@ -317,6 +420,7 @@ def main():
                     client=client,
                     model_name=model_name,
                     feed_cfg=feed_cfg,
+                    feed_link=parsed.feed.get("link", ""),
                     entry=entry,
                     dry_run=args.dry_run,
                     api_base_url=api_base_url,
