@@ -1,0 +1,94 @@
+{
+  "sourceFileName": "32.closing_the_slaughterhouse.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Closing the Slaughterhouse: The Inside Story of Death Penalty Abolition in Virginia",
+    "workType": "BOOK",
+    "creatorName": "Dale M. Brumfield",
+    "publicationOrReleaseYear": 2022,
+    "publisherOrNetwork": "Abolition Press",
+    "focusOrTheme": "Chronicles Virginia's journey from being a leading executioner to becoming the first Southern state to abolish the death penalty in 2021",
+    "summaryNotes": "This book chronicles Virginia's history with capital punishment, from its first execution in 1608 to the abolition of the death penalty in 2021.  It details the deeply ingrained racism within the system and the 20-year effort by Virginians for Alternatives to the Death Penalty (VADP) to achieve abolition.  While not focused on specific wrongful convictions, the book highlights the risk of executing innocent people, using the case of Michael Graham and Albert Burrell as an example of systemic failures.",
+    "availabilityNotes": "Paperback, 366 pages",
+    "sourceUrl": "https://books.google.com/books?id=cswqzwEACAAJ&dq=intitle:Closing+the+Slaughterhouse:+The+Inside+Story+of+Death+Penalty+Abolition+in+Virginia&hl=&cd=1&source=gbs_api",
+    "externalId": "9780578286860",
+    "imagePath": "https://books.google.com/books/content?id=cswqzwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "The Inside Story of Death Penalty Abolition in Virginia",
+    "pageCount": 366,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=cswqzwEACAAJ&dq=intitle:Closing+the+Slaughterhouse:+The+Inside+Story+of+Death+Penalty+Abolition+in+Virginia&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=cswqzwEACAAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780578286860",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "NO_PAGES"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Closing the Slaughterhouse: The Inside Story of Death Penalty Abolition in Virginia",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Chronicles Virginia's journey from being a leading executioner to becoming the first Southern state to abolish the death penalty in 2021",
+    "summaryNotes": "This book chronicles Virginia's history with capital punishment, from its first execution in 1608 to the abolition of the death penalty in 2021.  It details the deeply ingrained racism within the system and the 20-year effort by Virginians for Alternatives to the Death Penalty (VADP) to achieve abolition.  While not focused on specific wrongful convictions, the book highlights the risk of executing innocent people, using the case of Michael Graham and Albert Burrell as an example of systemic failures.",
+    "contributingFactorCodes": [
+      "WITHHELD_EXCULPATORY_EVIDENCE",
+      "PERJURY_OR_FALSE_ACCUSATION",
+      "RACIAL_BIAS",
+      "PROSECUTORIAL_MISCONDUCT"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Michael",
+      "middleName": null,
+      "lastName": "Graham",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1987,
+      "exonerationOrReleaseYear": 2001,
+      "timeServed": "14 years",
+      "sentence": "Death Penalty",
+      "caseLocationCity": "Roanoke",
+      "caseLocationCounty": null,
+      "caseLocationState": "Virginia (wrongfully convicted in Louisiana)",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "The men were from Virginia but were wrongfully convicted in Louisiana.",
+      "contributingFactorCodes": [
+        "WITHHELD_EXCULPATORY_EVIDENCE",
+        "PERJURY_OR_FALSE_ACCUSATION"
+      ],
+      "organizations": [
+        {
+          "name": "Virginians for Alternatives to the Death Penalty (VADP)",
+          "type": "OTHER"
+        },
+        {
+          "name": "Death Penalty Action",
+          "type": "OTHER"
+        }
+      ],
+      "crossReferenceNotes": "Mentioned in the book and a separate article by the author."
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Dale",
+      "middleName": "M.",
+      "lastName": "Brumfield",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

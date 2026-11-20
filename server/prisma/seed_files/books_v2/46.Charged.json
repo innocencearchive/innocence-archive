@@ -1,0 +1,85 @@
+{
+  "sourceFileName": "46.Charged.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Charged: The New Movement to Transform American Prosecution and End Mass Incarceration",
+    "workType": "BOOK",
+    "creatorName": "Emily Bazelon",
+    "publicationOrReleaseYear": 2019,
+    "publisherOrNetwork": "Random House",
+    "focusOrTheme": "The enormous power of American prosecutors and its contribution to mass incarceration; a new movement of reform-minded prosecutors; challenges and limitations of prosecutorial reform.",
+    "summaryNotes": "\"Charged\" examines the enormous power of American prosecutors in the criminal justice system and how this power has contributed to mass incarceration. Emily Bazelon, a staff writer for The New York Times Magazine and lecturer at Yale Law School, argues that over the past 40 years, prosecutors have amassed more power than the system was designed for, largely using it to put more people in prison. The book follows two main case studies: Kevin, a young man from Brooklyn who was arrested for gun possession but given a second chance through a diversion program, and Noura, who was wrongfully convicted of murdering her mother and spent 11 years incarcerated before eventually being released. Through these stories, Bazelon illustrates both the destructive potential of prosecutorial power and the promise of reform-minded approaches.\n\nThe book also documents a new movement of reform-minded prosecutors who are working to transform the system by prioritizing diversion instead of jail or prison, minimizing the use of cash bail, and addressing racial disparities. Bazelon argues that electing reform-minded district attorneys represents one of the most promising paths to reducing mass incarceration, though she acknowledges the challenges and limitations of this approach.",
+    "availabilityNotes": null,
+    "sourceUrl": "https://books.google.com/books?id=n9KMDwAAQBAJ&printsec=frontcover&dq=intitle:Charged:+The+New+Movement+to+Transform+American+Prosecution+and+End+Mass+Incarceration&hl=&cd=1&source=gbs_api",
+    "externalId": "9780399590016",
+    "imagePath": "https://books.google.com/books/content?id=n9KMDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "The New Movement to Transform American Prosecution and End Mass Incarceration",
+    "pageCount": 449,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=n9KMDwAAQBAJ&printsec=frontcover&dq=intitle:Charged:+The+New+Movement+to+Transform+American+Prosecution+and+End+Mass+Incarceration&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=n9KMDwAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "Law"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780399590016",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Charged: The New Movement to Transform American Prosecution and End Mass Incarceration",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "The enormous power of American prosecutors and its contribution to mass incarceration; a new movement of reform-minded prosecutors; challenges and limitations of prosecutorial reform.",
+    "summaryNotes": "\"Charged\" examines the enormous power of American prosecutors in the criminal justice system and how this power has contributed to mass incarceration. Emily Bazelon, a staff writer for The New York Times Magazine and lecturer at Yale Law School, argues that over the past 40 years, prosecutors have amassed more power than the system was designed for, largely using it to put more people in prison. The book follows two main case studies: Kevin, a young man from Brooklyn who was arrested for gun possession but given a second chance through a diversion program, and Noura, who was wrongfully convicted of murdering her mother and spent 11 years incarcerated before eventually being released. Through these stories, Bazelon illustrates both the destructive potential of prosecutorial power and the promise of reform-minded approaches.\n\nThe book also documents a new movement of reform-minded prosecutors who are working to transform the system by prioritizing diversion instead of jail or prison, minimizing the use of cash bail, and addressing racial disparities. Bazelon argues that electing reform-minded district attorneys represents one of the most promising paths to reducing mass incarceration, though she acknowledges the challenges and limitations of this approach.",
+    "contributingFactorCodes": [
+      "PROSECUTORIAL_MISCONDUCT",
+      "WITHHELD_EXCULPATORY_EVIDENCE",
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Noura",
+      "middleName": null,
+      "lastName": "Jackson",
+      "suffix": null,
+      "status": "RELEASED_ALFORD_PLEA",
+      "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+      "crimeCategoryName": "Other",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServed": "11 years",
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Tennessee",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "PROSECUTORIAL_MISCONDUCT"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Emily",
+      "middleName": null,
+      "lastName": "Bazelon",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

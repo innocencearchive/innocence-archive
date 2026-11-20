@@ -1,0 +1,108 @@
+{
+  "sourceFileName": "09.drawn_to_injustice.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Drawn to Injustice: The Wrongful Conviction of Timothy Masters",
+    "workType": "BOOK",
+    "creatorName": "Timothy Masters and Steve Lehto",
+    "publicationOrReleaseYear": 2012,
+    "publisherOrNetwork": "Berkley Books (Penguin Publishing Group)",
+    "focusOrTheme": "Case study of Timothy Masters, wrongfully convicted based on his violent artwork and writings as a teenager",
+    "summaryNotes": "This book provides a first-person account of Timothy Masters' wrongful conviction, highlighting the misinterpretation of his artwork and writings, police tunnel vision, withheld evidence, and the eventual exoneration through DNA evidence. It offers insights into the psychological impact of wrongful conviction.",
+    "availabilityNotes": "Mass Market Paperback, 448 pages",
+    "sourceUrl": "https://books.google.com/books?id=YzhmV-iKG7QC&printsec=frontcover&dq=intitle:Drawn+to+Injustice:+The+Wrongful+Conviction+of+Timothy+Masters&hl=&cd=1&source=gbs_api",
+    "externalId": "9781101585122",
+    "imagePath": "https://books.google.com/books/content?id=YzhmV-iKG7QC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "The Wrongful Conviction of Timothy Masters",
+    "pageCount": 247,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=YzhmV-iKG7QC&printsec=frontcover&dq=intitle:Drawn+to+Injustice:+The+Wrongful+Conviction+of+Timothy+Masters&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=YzhmV-iKG7QC&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "True Crime"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781101585122",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Drawn to Injustice: The Wrongful Conviction of Timothy Masters",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Case study of Timothy Masters, wrongfully convicted based on his violent artwork and writings as a teenager",
+    "summaryNotes": "This book provides a first-person account of Timothy Masters' wrongful conviction, highlighting the misinterpretation of his artwork and writings, police tunnel vision, withheld evidence, and the eventual exoneration through DNA evidence. It offers insights into the psychological impact of wrongful conviction.",
+    "contributingFactorCodes": [
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "WITHHELD_EXCULPATORY_EVIDENCE",
+      "PROSECUTORIAL_MISCONDUCT",
+      "POLICE_MISCONDUCT",
+      "TUNNEL_VISION_RUSH_TO_JUDGMENT",
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Timothy",
+      "middleName": null,
+      "lastName": "Masters",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1999,
+      "exonerationOrReleaseYear": 2011,
+      "timeServed": "Nearly 10 years",
+      "sentence": "Life imprisonment without parole",
+      "caseLocationCity": "Fort Collins",
+      "caseLocationCounty": null,
+      "caseLocationState": "Colorado",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "WITHHELD_EXCULPATORY_EVIDENCE",
+        "PROSECUTORIAL_MISCONDUCT",
+        "POLICE_MISCONDUCT",
+        "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+      ],
+      "organizations": [
+        {
+          "name": "Special prosecutors assigned to the appeal",
+          "type": "LAW_ENFORCEMENT"
+        },
+        {
+          "name": "Defense attorneys who arranged for touch DNA testing",
+          "type": "OTHER"
+        }
+      ],
+      "crossReferenceNotes": "Not specified in research"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Timothy",
+      "middleName": null,
+      "lastName": "Masters",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Steve",
+      "middleName": null,
+      "lastName": "Lehto",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

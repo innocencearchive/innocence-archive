@@ -298,10 +298,14 @@ function AdminImportPage() {
                 <ShieldCheck size={20} className="mr-2" /> Batch Committed ({commitResult.batchId})
               </h2>
               <Link
-                to={`/admin/manage/${commitResult.targetType === 'ORGANIZATION' ? 'organizations' : 'individuals'}?unverified=true`}
+                to={
+                  commitResult.targetType === 'BOOK_BUNDLE'
+                    ? '/admin/verify'
+                    : `/admin/manage/${commitResult.targetType === 'ORGANIZATION' ? 'organizations' : 'individuals'}?unverified=true`
+                }
                 className="px-3 py-1.5 text-sm bg-green-700 hover:bg-green-600 text-white rounded-md font-medium"
               >
-                Open Unverified Queue →
+                Open Validation Queue →
               </Link>
             </div>
             <div className="flex flex-wrap gap-6 text-sm text-gray-200">
@@ -330,11 +334,20 @@ function AdminImportPage() {
               <label className="block text-xs text-gray-400 mb-1">Target Entity</label>
               <select
                 value={targetType}
-                onChange={(e) => setTargetType(e.target.value)}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setTargetType(val);
+                  if (val === 'BOOK_BUNDLE') {
+                    setInputType('JSON');
+                    setDefaultSourceName('Google Books');
+                    setIngestionSource('books_v2_bundle');
+                  }
+                }}
                 className="w-full p-2 bg-gray-700 border border-gray-600 rounded text-sm text-white"
               >
                 <option value="INDIVIDUAL">Individuals (NRE, Wikipedia, Generic CSV/JSON)</option>
                 <option value="ORGANIZATION">Organizations (CSV/JSON)</option>
+                <option value="BOOK_BUNDLE">Books Bundle (Merged v2 JSON + Google Books)</option>
               </select>
             </div>
 
@@ -625,7 +638,19 @@ function AdminImportPage() {
                         </select>
                       </td>
                       <td className="py-2.5 pr-3">
-                        {targetType === 'ORGANIZATION' ? (
+                        {targetType === 'BOOK_BUNDLE' ? (
+                          <div>
+                            <div className="font-semibold text-gray-100">{row.data.mediaWork?.title || '—'}</div>
+                            <div className="text-gray-400">
+                              {row.data.mediaWork?.creatorName || 'Unknown author'} ·{' '}
+                              {row.data.mediaWork?.publicationOrReleaseYear || '?'}
+                            </div>
+                            <div className="text-gray-500">
+                              {row.data.mediaWork?.externalId ? `ISBN-13: ${row.data.mediaWork.externalId}` : 'No ISBN-13'}
+                              {row.data.bookPurchaseDetails ? ' · Google Books ✓' : ''}
+                            </div>
+                          </div>
+                        ) : targetType === 'ORGANIZATION' ? (
                           <div>
                             <div className="font-semibold text-gray-100">{row.data.name || '—'}</div>
                             <div className="text-gray-400">
@@ -650,6 +675,23 @@ function AdminImportPage() {
                         )}
                       </td>
                       <td className="py-2.5 pr-3 space-y-1">
+                        {targetType === 'BOOK_BUNDLE' && (
+                          <>
+                            <div className="text-amber-300">
+                              {(row.data.featuredIndividuals || []).length} individual(s) ·{' '}
+                              {(row.data.involvedPersons || []).length} involved person(s)
+                            </div>
+                            {(row.data.mediaItem?.contributingFactorCodes || []).length > 0 && (
+                              <div className="flex flex-wrap gap-1">
+                                {row.data.mediaItem.contributingFactorCodes.map((c) => (
+                                  <span key={c} className="px-1.5 py-0.5 bg-gray-700 text-gray-200 rounded text-[10px]">
+                                    {c}
+                                  </span>
+                                ))}
+                              </div>
+                            )}
+                          </>
+                        )}
                         {targetType === 'INDIVIDUAL' && row.data.crimeCategoryName && (
                           <div className="text-amber-300">Crime: {row.data.crimeCategoryName}</div>
                         )}
@@ -662,15 +704,15 @@ function AdminImportPage() {
                             ))}
                           </div>
                         )}
-                        {row.data.sourceUrl ? (
+                        {row.data.sourceUrl || row.data.mediaWork?.sourceUrl ? (
                           <a
-                            href={row.data.sourceUrl}
+                            href={row.data.sourceUrl || row.data.mediaWork?.sourceUrl}
                             target="_blank"
                             rel="noreferrer"
                             className="block text-blue-400 hover:underline truncate max-w-xs"
                           >
                             {row.data.sourceName ? `[${row.data.sourceName}] ` : ''}
-                            {row.data.sourceUrl}
+                            {row.data.sourceUrl || row.data.mediaWork?.sourceUrl}
                           </a>
                         ) : row.data.website ? (
                           <a
@@ -690,7 +732,8 @@ function AdminImportPage() {
                           <div className="text-blue-300 flex items-center">
                             <GitMerge size={12} className="mr-1 shrink-0" />
                             Existing #{row.existingMatch.id}:{' '}
-                            {row.existingMatch.name ||
+                            {row.existingMatch.title ||
+                              row.existingMatch.name ||
                               `${row.existingMatch.firstName} ${row.existingMatch.lastName}`}{' '}
                             ({row.existingMatch.verificationStatus})
                           </div>

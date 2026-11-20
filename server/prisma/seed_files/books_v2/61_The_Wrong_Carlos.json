@@ -1,0 +1,110 @@
+{
+  "sourceFileName": "61_The_Wrong_Carlos.md",
+  "reviewWarnings": [
+    "Google Books row may be a third-party summary (Worth Books, 45p) — verify ISBN & description."
+  ],
+  "mediaWork": {
+    "title": "The Wrong Carlos: Anatomy of a Wrongful Execution",
+    "workType": "BOOK",
+    "creatorName": "James S. Liebman and the Columbia DeLuna Project",
+    "publicationOrReleaseYear": 2014,
+    "publisherOrNetwork": "Columbia University Press",
+    "focusOrTheme": "Wrongful execution, criminal justice system failures, death penalty critique, mistaken identity",
+    "summaryNotes": "This book details a six-year investigation into the wrongful execution of Carlos DeLuna.  It presents a meticulous compilation of evidence, including police and court files, crime scene photos, audiotapes, and witness interviews, to argue DeLuna's innocence. The book serves as both a case study and a critique of the US death penalty system, highlighting how systemic failures can lead to irreversible injustice.",
+    "availabilityNotes": "Hardcover and Paperback, 448 pages",
+    "sourceUrl": "https://books.google.com/books?id=Wn0IDgAAQBAJ&printsec=frontcover&dq=intitle:The+Wrong+Carlos:+Anatomy+of+a+Wrongful+Execution&hl=&cd=1&source=gbs_api",
+    "externalId": "9781504044110",
+    "imagePath": "https://books.google.com/books/content?id=Wn0IDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Based on the Book by James S. Liebman",
+    "pageCount": 45,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=Wn0IDgAAQBAJ&printsec=frontcover&dq=intitle:The+Wrong+Carlos:+Anatomy+of+a+Wrongful+Execution&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=Wn0IDgAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=Wn0IDgAAQBAJ&rdid=book-Wn0IDgAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Law"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781504044110",
+    "listPriceAmount": 3.5,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 3.5,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: The Wrong Carlos: Anatomy of a Wrongful Execution",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Wrongful execution, criminal justice system failures, death penalty critique, mistaken identity",
+    "summaryNotes": "This book details a six-year investigation into the wrongful execution of Carlos DeLuna.  It presents a meticulous compilation of evidence, including police and court files, crime scene photos, audiotapes, and witness interviews, to argue DeLuna's innocence. The book serves as both a case study and a critique of the US death penalty system, highlighting how systemic failures can lead to irreversible injustice.",
+    "contributingFactorCodes": [
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "INADEQUATE_LEGAL_DEFENSE",
+      "WITHHELD_EXCULPATORY_EVIDENCE",
+      "PROSECUTORIAL_MISCONDUCT",
+      "RACIAL_BIAS"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Carlos",
+      "middleName": null,
+      "lastName": "DeLuna",
+      "suffix": null,
+      "status": "EXECUTED",
+      "claimStrength": "UNASSESSED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1983,
+      "exonerationOrReleaseYear": 1989,
+      "timeServed": "6 years on death row",
+      "sentence": "Death",
+      "caseLocationCity": "Corpus Christi",
+      "caseLocationCounty": null,
+      "caseLocationState": "Texas",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "INADEQUATE_LEGAL_DEFENSE",
+        "WITHHELD_EXCULPATORY_EVIDENCE",
+        "PROSECUTORIAL_MISCONDUCT"
+      ],
+      "organizations": [
+        {
+          "name": "Columbia Law School",
+          "type": "OTHER"
+        },
+        {
+          "name": "Columbia Human Rights Law Review",
+          "type": "OTHER"
+        }
+      ],
+      "crossReferenceNotes": "Case was the subject of a documentary film \"The Phantom\" (2021)"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "James",
+      "middleName": "S.",
+      "lastName": "Liebman",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "the",
+      "middleName": "Columbia DeLuna",
+      "lastName": "Project",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

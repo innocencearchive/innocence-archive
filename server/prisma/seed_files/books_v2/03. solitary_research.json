@@ -1,0 +1,150 @@
+{
+  "sourceFileName": "03. solitary_research.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Solitary: A Biography",
+    "workType": "BOOK",
+    "creatorName": "Albert Woodfox",
+    "publicationOrReleaseYear": 2019,
+    "publisherOrNetwork": "Grove Press",
+    "focusOrTheme": "Wrongful conviction, solitary confinement, prison reform, racial justice",
+    "summaryNotes": "\"Solitary\" is Albert Woodfox's powerful memoir detailing his experience of being wrongfully convicted of murder and subsequently spending nearly 44 years in solitary confinement at Louisiana's notorious Angola Prison. The book chronicles Woodfox's early life, his political awakening as a member of the Black Panther Party, and his tireless fight for justice while enduring the psychological torture of extreme isolation.\n\nWoodfox, along with Herman Wallace and Robert King (collectively known as the \"Angola Three\"), was convicted of the 1972 murder of a prison guard based on flimsy evidence and false testimony. The book details how their political activism as Black Panthers made them targets within the prison system, leading to their wrongful convictions and extreme punishment.\n\nThroughout the memoir, Woodfox describes how he maintained his sanity and dignity during decades of solitary confinement, educating himself, organizing fellow prisoners, and never giving up hope for exoneration. His story is not only a personal account of survival but also a damning indictment of the American criminal justice system, particularly its treatment of Black men and its use of solitary confinement as punishment.",
+    "availabilityNotes": "Hardcover, paperback, e-book, audiobook",
+    "sourceUrl": "https://books.google.com/books?id=lBGCDwAAQBAJ&printsec=frontcover&dq=intitle:Solitary:+A+Biography&hl=&cd=1&source=gbs_api",
+    "externalId": "9780802146908",
+    "imagePath": "https://books.google.com/books/content?id=lBGCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": null,
+    "pageCount": 481,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=lBGCDwAAQBAJ&printsec=frontcover&dq=intitle:Solitary:+A+Biography&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=lBGCDwAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=lBGCDwAAQBAJ&rdid=book-lBGCDwAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Biography & Autobiography"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780802146908",
+    "listPriceAmount": 17.99,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 9.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Solitary: A Biography",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Wrongful conviction, solitary confinement, prison reform, racial justice",
+    "summaryNotes": "\"Solitary\" is Albert Woodfox's powerful memoir detailing his experience of being wrongfully convicted of murder and subsequently spending nearly 44 years in solitary confinement at Louisiana's notorious Angola Prison. The book chronicles Woodfox's early life, his political awakening as a member of the Black Panther Party, and his tireless fight for justice while enduring the psychological torture of extreme isolation.\n\nWoodfox, along with Herman Wallace and Robert King (collectively known as the \"Angola Three\"), was convicted of the 1972 murder of a prison guard based on flimsy evidence and false testimony. The book details how their political activism as Black Panthers made them targets within the prison system, leading to their wrongful convictions and extreme punishment.\n\nThroughout the memoir, Woodfox describes how he maintained his sanity and dignity during decades of solitary confinement, educating himself, organizing fellow prisoners, and never giving up hope for exoneration. His story is not only a personal account of survival but also a damning indictment of the American criminal justice system, particularly its treatment of Black men and its use of solitary confinement as punishment.",
+    "contributingFactorCodes": [
+      "RACIAL_BIAS",
+      "PERJURY_OR_FALSE_ACCUSATION",
+      "PROSECUTORIAL_MISCONDUCT",
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Albert",
+      "middleName": null,
+      "lastName": "Woodfox",
+      "suffix": null,
+      "status": "OTHER",
+      "claimStrength": "UNASSESSED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1972,
+      "exonerationOrReleaseYear": 2016,
+      "timeServed": "43 years and 10 months, mostly in solitary confinement",
+      "sentence": "Life imprisonment",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Louisiana",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Conviction was overturned multiple times but he remained imprisoned\n- Maintained his innocence throughout his incarceration\n- Became an activist for prison reform after his release\n- Died in 2022, six years after gaining freedom",
+      "contributingFactorCodes": [
+        "RACIAL_BIAS",
+        "PERJURY_OR_FALSE_ACCUSATION"
+      ],
+      "organizations": [
+        {
+          "name": "Amnesty International, International Coalition to Free the Angola Three",
+          "type": "OTHER"
+        }
+      ],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Herman",
+      "middleName": null,
+      "lastName": "Wallace",
+      "suffix": null,
+      "status": "CONVICTION_OVERTURNED",
+      "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1972,
+      "exonerationOrReleaseYear": 2013,
+      "timeServed": "41 years in solitary confinement",
+      "sentence": "Life imprisonment",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Louisiana",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Released just days before his death from liver cancer in 2013\n- Fellow member of the \"Angola Three\"\n- Maintained his innocence throughout his incarceration",
+      "contributingFactorCodes": [
+        "RACIAL_BIAS",
+        "PERJURY_OR_FALSE_ACCUSATION"
+      ],
+      "organizations": [
+        {
+          "name": "Amnesty International, International Coalition to Free the Angola Three",
+          "type": "OTHER"
+        }
+      ],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Robert",
+      "middleName": null,
+      "lastName": "King",
+      "suffix": null,
+      "status": "CONVICTION_OVERTURNED",
+      "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1973,
+      "exonerationOrReleaseYear": 2001,
+      "timeServed": "29 years in solitary confinement",
+      "sentence": "Life imprisonment",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Louisiana",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- First of the \"Angola Three\" to be released\n- Became an activist for prison reform and against solitary confinement\n- Has spoken internationally about his experience and prison reform",
+      "contributingFactorCodes": [
+        "RACIAL_BIAS",
+        "PERJURY_OR_FALSE_ACCUSATION"
+      ],
+      "organizations": [
+        {
+          "name": "Amnesty International, International Coalition to Free the Angola Three",
+          "type": "OTHER"
+        }
+      ],
+      "crossReferenceNotes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Albert",
+      "middleName": null,
+      "lastName": "Woodfox",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

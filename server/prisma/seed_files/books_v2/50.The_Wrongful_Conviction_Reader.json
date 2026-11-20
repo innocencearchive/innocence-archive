@@ -1,0 +1,69 @@
+{
+  "sourceFileName": "50.The_Wrongful_Conviction_Reader.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Wrongful Convictions Reader",
+    "workType": "BOOK",
+    "creatorName": "Russell D. Covey and Valena E. Beety (Editors)",
+    "publicationOrReleaseYear": 2023,
+    "publisherOrNetwork": "Carolina Academic Press",
+    "focusOrTheme": "Core contributing factors to wrongful convictions including false confessions, witness misidentifications, cognitive bias, junk science, police and prosecutorial misconduct",
+    "summaryNotes": "This book takes an interdisciplinary approach to the study of wrongful convictions, combining legal scholarship with social science research. It is designed as a comprehensive textbook for courses on wrongful convictions, with interactive elements and multimedia resources.  The book is structured around contributing factors to wrongful convictions (false confessions, witness misidentifications, cognitive bias, junk science, police and prosecutorial misconduct) rather than specific cases, though case studies are likely used to illustrate these factors. The 2023 edition has expanded to 728 pages.",
+    "availabilityNotes": "Paperback",
+    "sourceUrl": "https://books.google.com/books?id=H4x7zwEACAAJ&dq=intitle:The+Wrongful+Convictions+Reader&hl=&cd=1&source=gbs_api",
+    "externalId": "9781531023881",
+    "imagePath": null,
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": null,
+    "pageCount": null,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=H4x7zwEACAAJ&dq=intitle:The+Wrongful+Convictions+Reader&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=H4x7zwEACAAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "Law"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781531023881",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "NO_PAGES"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: The Wrongful Convictions Reader",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Core contributing factors to wrongful convictions including false confessions, witness misidentifications, cognitive bias, junk science, police and prosecutorial misconduct",
+    "summaryNotes": "This book takes an interdisciplinary approach to the study of wrongful convictions, combining legal scholarship with social science research. It is designed as a comprehensive textbook for courses on wrongful convictions, with interactive elements and multimedia resources.  The book is structured around contributing factors to wrongful convictions (false confessions, witness misidentifications, cognitive bias, junk science, police and prosecutorial misconduct) rather than specific cases, though case studies are likely used to illustrate these factors. The 2023 edition has expanded to 728 pages.",
+    "contributingFactorCodes": [
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "POLICE_MISCONDUCT",
+      "PROSECUTORIAL_MISCONDUCT",
+      "JAILHOUSE_INFORMANT"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [],
+  "involvedPersons": [
+    {
+      "firstName": "Russell",
+      "middleName": "D.",
+      "lastName": "Covey",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Valena",
+      "middleName": "E.",
+      "lastName": "Beety",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

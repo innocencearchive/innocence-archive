@@ -1,0 +1,177 @@
+{
+  "sourceFileName": "06. blind_injustice_research.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Blind Injustice: A Former Prosecutor Exposes the Psychology and Politics of Wrongful Convictions",
+    "workType": "BOOK",
+    "creatorName": "Mark Godsey",
+    "publicationOrReleaseYear": 2017,
+    "publisherOrNetwork": "University of California Press",
+    "focusOrTheme": "Psychological factors contributing to wrongful convictions, cognitive biases in the justice system",
+    "summaryNotes": "\"Blind Injustice\" examines the psychological and institutional factors that contribute to wrongful convictions. Drawing on his unique perspective as both a former prosecutor and later an innocence advocate, Mark Godsey explores how cognitive biases, institutional pressures, and psychological phenomena lead well-intentioned professionals in the criminal justice system to convict innocent people.\n\nThe book identifies several psychological factors that contribute to wrongful convictions, including tunnel vision, confirmation bias, memory malleability, administrative evil, and dehumanization. Godsey argues that these psychological factors affect all human beings, including judges, police officers, prosecutors, and jurors, making the system vulnerable to error despite good intentions.\n\nThrough case studies from his work with the Ohio Innocence Project and his own experiences as a prosecutor, Godsey illustrates how these psychological factors play out in real cases. He also proposes reforms to address these issues and reduce the likelihood of wrongful convictions.",
+    "availabilityNotes": "Hardcover, paperback, e-book",
+    "sourceUrl": "https://books.google.com/books?id=0rMuDwAAQBAJ&printsec=frontcover&dq=intitle:Blind+Injustice:+A+Former+Prosecutor+Exposes+the+Psychology+and+Politics+of+Wrongful+Convictions&hl=&cd=1&source=gbs_api",
+    "externalId": "9780520962958",
+    "imagePath": "https://books.google.com/books/content?id=0rMuDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "A Former Prosecutor Exposes the Psychology and Politics of Wrongful Convictions",
+    "pageCount": 264,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=0rMuDwAAQBAJ&printsec=frontcover&dq=intitle:Blind+Injustice:+A+Former+Prosecutor+Exposes+the+Psychology+and+Politics+of+Wrongful+Convictions&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=0rMuDwAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=0rMuDwAAQBAJ&rdid=book-0rMuDwAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Social Science"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780520962958",
+    "listPriceAmount": 14.95,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 14.95,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Blind Injustice: A Former Prosecutor Exposes the Psychology and Politics of Wrongful Convictions",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Psychological factors contributing to wrongful convictions, cognitive biases in the justice system",
+    "summaryNotes": "\"Blind Injustice\" examines the psychological and institutional factors that contribute to wrongful convictions. Drawing on his unique perspective as both a former prosecutor and later an innocence advocate, Mark Godsey explores how cognitive biases, institutional pressures, and psychological phenomena lead well-intentioned professionals in the criminal justice system to convict innocent people.\n\nThe book identifies several psychological factors that contribute to wrongful convictions, including tunnel vision, confirmation bias, memory malleability, administrative evil, and dehumanization. Godsey argues that these psychological factors affect all human beings, including judges, police officers, prosecutors, and jurors, making the system vulnerable to error despite good intentions.\n\nThrough case studies from his work with the Ohio Innocence Project and his own experiences as a prosecutor, Godsey illustrates how these psychological factors play out in real cases. He also proposes reforms to address these issues and reduce the likelihood of wrongful convictions.",
+    "contributingFactorCodes": [
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "TUNNEL_VISION_RUSH_TO_JUDGMENT",
+      "POLICE_MISCONDUCT",
+      "WITHHELD_EXCULPATORY_EVIDENCE",
+      "PERJURY_OR_FALSE_ACCUSATION"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Clarence",
+      "middleName": null,
+      "lastName": "Elkins",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1999,
+      "exonerationOrReleaseYear": 2005,
+      "timeServed": "7 years",
+      "sentence": "Life imprisonment",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Ohio",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Elkins collected DNA evidence from the actual perpetrator (another inmate) while in prison\n- Case demonstrates how tunnel vision can lead investigators to focus on the wrong suspect",
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+      ],
+      "organizations": [
+        {
+          "name": "Ohio Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Nancy",
+      "middleName": "Smith and Joseph",
+      "lastName": "Allen",
+      "suffix": null,
+      "status": "CONVICTION_OVERTURNED",
+      "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+      "crimeCategoryName": "Other",
+      "convictionYear": 1994,
+      "exonerationOrReleaseYear": 2009,
+      "timeServed": null,
+      "sentence": "Long prison terms",
+      "caseLocationCity": "Lorain",
+      "caseLocationCounty": null,
+      "caseLocationState": "Ohio",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Case similar to other daycare panic cases of the era\n- Demonstrates how children's memories can be influenced by suggestive questioning",
+      "contributingFactorCodes": [],
+      "organizations": [
+        {
+          "name": "Ohio Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Dean",
+      "middleName": null,
+      "lastName": "Gillispie",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Sexual Assault",
+      "convictionYear": 1991,
+      "exonerationOrReleaseYear": 2011,
+      "timeServed": "20 years",
+      "sentence": "22-56 years",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Ohio",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Police withheld exculpatory evidence that would have proven his innocence\n- Case demonstrates how tunnel vision can lead to misconduct",
+      "contributingFactorCodes": [
+        "POLICE_MISCONDUCT",
+        "WITHHELD_EXCULPATORY_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "Ohio Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "David",
+      "middleName": null,
+      "lastName": "Ayers",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 2000,
+      "exonerationOrReleaseYear": 2011,
+      "timeServed": "11 years",
+      "sentence": "Life imprisonment",
+      "caseLocationCity": "Cleveland",
+      "caseLocationCounty": null,
+      "caseLocationState": "Ohio",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Won a civil judgment against the city of Cleveland\n- Case demonstrates institutional resistance to acknowledging mistakes",
+      "contributingFactorCodes": [
+        "POLICE_MISCONDUCT",
+        "PERJURY_OR_FALSE_ACCUSATION"
+      ],
+      "organizations": [
+        {
+          "name": "Ohio Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Mark",
+      "middleName": null,
+      "lastName": "Godsey",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

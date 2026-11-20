@@ -1,0 +1,86 @@
+{
+  "sourceFileName": "37.smoke_but_no_fire.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Smoke But No Fire: Convicting the Innocent of Crimes That Never Happened",
+    "workType": "BOOK",
+    "creatorName": "Jessica S. Henry",
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "University of California Press",
+    "focusOrTheme": "No-crime wrongful convictions - cases where people are convicted of crimes that never actually happened",
+    "summaryNotes": "The book examines the various factors contributing to no-crime wrongful convictions, from forensic errors to systemic issues within the criminal justice system. It highlights how innocent people are convicted of crimes that never occurred due to official misconduct, aggressive policing, forensic errors, false accusations, inadequate defense, and judicial bias.  Approximately one-third of all exonerations involve no-crime wrongful convictions.",
+    "availabilityNotes": "Hardcover, Paperback, eBook",
+    "sourceUrl": "https://books.google.com/books?id=j5o2EAAAQBAJ&pg=PA126&dq=intitle:Smoke+But+No+Fire:+Convicting+the+Innocent+of+Crimes+That+Never+Happened&hl=&cd=1&source=gbs_api",
+    "externalId": "9780520385801",
+    "imagePath": "https://books.google.com/books/content?id=j5o2EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Convicting the Innocent of Crimes that Never Happened",
+    "pageCount": 264,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=j5o2EAAAQBAJ&pg=PA126&dq=intitle:Smoke+But+No+Fire:+Convicting+the+Innocent+of+Crimes+That+Never+Happened&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=j5o2EAAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "Law"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780520385801",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Smoke But No Fire: Convicting the Innocent of Crimes That Never Happened",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "No-crime wrongful convictions - cases where people are convicted of crimes that never actually happened",
+    "summaryNotes": "The book examines the various factors contributing to no-crime wrongful convictions, from forensic errors to systemic issues within the criminal justice system. It highlights how innocent people are convicted of crimes that never occurred due to official misconduct, aggressive policing, forensic errors, false accusations, inadequate defense, and judicial bias.  Approximately one-third of all exonerations involve no-crime wrongful convictions.",
+    "contributingFactorCodes": [
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "POLICE_MISCONDUCT",
+      "PROSECUTORIAL_MISCONDUCT",
+      "OFFICIAL_MISCONDUCT"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Rodricus",
+      "middleName": null,
+      "lastName": "Crawford",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServed": "Years on death row",
+      "sentence": "Death row",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Not specified in available sources",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": "Featured as an example of a no-crime wrongful conviction where a natural death was misclassified as murder"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Jessica",
+      "middleName": "S.",
+      "lastName": "Henry",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

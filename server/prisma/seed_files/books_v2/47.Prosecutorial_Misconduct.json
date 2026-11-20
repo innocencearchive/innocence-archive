@@ -1,0 +1,63 @@
+{
+  "sourceFileName": "47.Prosecutorial_Misconduct.md",
+  "reviewWarnings": [
+    "Matched Google Books row has no ISBN-13."
+  ],
+  "mediaWork": {
+    "title": "Prosecutorial Misconduct",
+    "workType": "BOOK",
+    "creatorName": "Bennett L. Gershman",
+    "publicationOrReleaseYear": 2001,
+    "publisherOrNetwork": "West Group/Thomson Reuters",
+    "focusOrTheme": "Prosecutorial misconduct and its contribution to wrongful convictions.",
+    "summaryNotes": "\"Prosecutorial Misconduct\" is a comprehensive legal treatise that establishes systematic guidelines on prosecutorial behavior, citing thousands of precedential cases. The book has become a preeminent resource for scholars and practitioners seeking guidance on wrongful convictions. It contains an extensive discussion of various types of prosecutorial misconduct and their relationship to wrongful convictions.\n\nThe book examines how prosecutors, who are constitutionally and ethically mandated to promote justice as \"Ministers of Justice,\" sometimes deviate from these rules and engage in conduct that distorts the fact-finding process and produces erroneous convictions. Gershman argues that when prosecutors are motivated to zealously win convictions by any means and engage in conduct that either intentionally or carelessly undermines the integrity of the fact-finding process, they inevitably contribute to the conviction of innocent defendants.\n\nThe treatise covers various forms of prosecutorial misconduct, including investigative misconduct, misconduct in the grand jury, abuse of the charging function, selective and vindictive prosecution, suppression of evidence, misconduct in the plea bargaining process, misconduct in the presentation of evidence, prosecutorial-provoked mistrials, double jeopardy, misconduct at sentencing, and sanctions for misconduct.",
+    "availabilityNotes": null,
+    "sourceUrl": "https://books.google.com/books?id=Ls1PAQAAIAAJ&q=intitle:Prosecutorial+Misconduct&dq=intitle:Prosecutorial+Misconduct&hl=&cd=1&source=gbs_api",
+    "externalId": null,
+    "imagePath": "https://books.google.com/books/content?id=Ls1PAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Law, Procedure, Forms",
+    "pageCount": 828,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=Ls1PAQAAIAAJ&q=intitle:Prosecutorial+Misconduct&dq=intitle:Prosecutorial+Misconduct&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=Ls1PAQAAIAAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "Law"
+    ],
+    "amazonPurchaseUrl": null,
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "NO_PAGES"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Prosecutorial Misconduct",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Prosecutorial ethics, abuse of power, evidentiary misconduct, systemic failures, and accountability mechanisms in the context of wrongful convictions.",
+    "summaryNotes": "\"Prosecutorial Misconduct\" is a comprehensive legal treatise that establishes systematic guidelines on prosecutorial behavior, citing thousands of precedential cases. The book has become a preeminent resource for scholars and practitioners seeking guidance on wrongful convictions. It contains an extensive discussion of various types of prosecutorial misconduct and their relationship to wrongful convictions.\n\nThe book examines how prosecutors, who are constitutionally and ethically mandated to promote justice as \"Ministers of Justice,\" sometimes deviate from these rules and engage in conduct that distorts the fact-finding process and produces erroneous convictions. Gershman argues that when prosecutors are motivated to zealously win convictions by any means and engage in conduct that either intentionally or carelessly undermines the integrity of the fact-finding process, they inevitably contribute to the conviction of innocent defendants.\n\nThe treatise covers various forms of prosecutorial misconduct, including investigative misconduct, misconduct in the grand jury, abuse of the charging function, selective and vindictive prosecution, suppression of evidence, misconduct in the plea bargaining process, misconduct in the presentation of evidence, prosecutorial-provoked mistrials, double jeopardy, misconduct at sentencing, and sanctions for misconduct.",
+    "contributingFactorCodes": [
+      "PROSECUTORIAL_MISCONDUCT",
+      "TUNNEL_VISION_RUSH_TO_JUDGMENT",
+      "WITHHELD_EXCULPATORY_EVIDENCE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [],
+  "involvedPersons": [
+    {
+      "firstName": "Bennett",
+      "middleName": "L.",
+      "lastName": "Gershman",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

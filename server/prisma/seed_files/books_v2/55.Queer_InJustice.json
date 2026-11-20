@@ -1,0 +1,73 @@
+{
+  "sourceFileName": "55.Queer_InJustice.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Queer (In)Justice: The Criminalization of LGBT People in the United States",
+    "workType": "BOOK",
+    "creatorName": "Joey L. Mogul, Andrea J. Ritchie, and Kay Whitlock",
+    "publicationOrReleaseYear": 2012,
+    "publisherOrNetwork": "Beacon Press",
+    "focusOrTheme": "Examination of how the criminal justice system criminalizes, polices, and punishes LGBTQ+ people; analysis of queer criminal archetypes and their impact",
+    "summaryNotes": "\"Queer (In)Justice\" provides a critical analysis of how the criminal justice system in the United States has historically and continues to criminalize LGBTQ+ people.  It examines how the entire system functions to police and punish queer identities and expressions, drawing on the authors' experience as attorneys, activists, and organizers. The book challenges mainstream LGBTQ+ rights movements, arguing for a more radical approach addressing the criminalization of LGBTQ+ people, particularly those marginalized due to race, class, and immigration status.  It reveals how criminal legal responses to LGBTQ+ people are deeply intertwined with systems of racial and economic oppression.",
+    "availabilityNotes": "Paperback, hardcover, eTextbook",
+    "sourceUrl": "https://books.google.com/books?id=1DUQvgAACAAJ&dq=intitle:Queer+(In)Justice:+The+Criminalization+of+LGBT+People+in+the+United+States&hl=&cd=1&source=gbs_api",
+    "externalId": "9780807051160",
+    "imagePath": "https://books.google.com/books/content?id=1DUQvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "The Criminalization of LGBT People in the United States",
+    "pageCount": null,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=1DUQvgAACAAJ&dq=intitle:Queer+(In)Justice:+The+Criminalization+of+LGBT+People+in+the+United+States&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=1DUQvgAACAAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "Gays"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780807051160",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "NO_PAGES"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Queer (In)Justice: The Criminalization of LGBT People in the United States",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Examination of how the criminal justice system criminalizes, polices, and punishes LGBTQ+ people; analysis of queer criminal archetypes and their impact",
+    "summaryNotes": "\"Queer (In)Justice\" provides a critical analysis of how the criminal justice system in the United States has historically and continues to criminalize LGBTQ+ people.  It examines how the entire system functions to police and punish queer identities and expressions, drawing on the authors' experience as attorneys, activists, and organizers. The book challenges mainstream LGBTQ+ rights movements, arguing for a more radical approach addressing the criminalization of LGBTQ+ people, particularly those marginalized due to race, class, and immigration status.  It reveals how criminal legal responses to LGBTQ+ people are deeply intertwined with systems of racial and economic oppression.",
+    "contributingFactorCodes": [
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [],
+  "involvedPersons": [
+    {
+      "firstName": "Joey",
+      "middleName": "L.",
+      "lastName": "Mogul",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Andrea",
+      "middleName": "J.",
+      "lastName": "Ritchie",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Kay",
+      "middleName": null,
+      "lastName": "Whitlock",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

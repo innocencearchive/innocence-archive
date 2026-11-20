@@ -1,0 +1,102 @@
+{
+  "sourceFileName": "33.marked_for_life.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Marked for Life: One Man's Fight for Justice From the Inside",
+    "workType": "BOOK",
+    "creatorName": "Isaac Wright Jr. with Jon Sternfeld",
+    "publicationOrReleaseYear": 2022,
+    "publisherOrNetwork": "St. Martin's Press",
+    "focusOrTheme": "Memoir of Isaac Wright Jr.'s wrongful conviction as a drug kingpin, his legal fight from prison, and his eventual exoneration",
+    "summaryNotes": "\"Marked for Life: One Man's Fight for Justice From the Inside\" is a powerful memoir by Isaac Wright Jr. with Jon Sternfeld that chronicles Wright's extraordinary journey from being wrongfully convicted as a drug kingpin to becoming a lawyer who fights for justice for others.  Published by St. Martin's Press on November 8, 2022, the 336-page hardcover book serves as the basis for the ABC television show \"For Life.\"\nIn 1989, Wright was arrested and accused of being the mastermind behind a $20 million-a-year cocaine distribution network in New Jersey. Despite having no physical evidence linking him to drug trafficking and maintaining his innocence throughout, Wright was convicted in 1991 largely based on testimony from co-defendants who had made deals with prosecutors. He was sentenced to life in prison with no possibility of parole for at least 30 years under New Jersey's drug kingpin statute.\nWhile incarcerated, he educated himself in law and began working as a prison paralegal, helping other inmates with their cases while simultaneously fighting his own conviction. Wright represented himself at trial and continued his legal battle from behind bars, eventually uncovering prosecutorial misconduct.  In 1995, his legal arguments led the New Jersey Appellate Division to vacate his conviction on the drug kingpin charge. He was released on bail in 1996, and after further hearings where prosecution witnesses recanted their testimony, all charges were dismissed in 1998.\nFollowing his exoneration, Wright earned his law degree and became an attorney. The book explores his case and broader systemic issues in the criminal justice system.",
+    "availabilityNotes": "Hardcover, 336 pages",
+    "sourceUrl": "https://books.google.com/books?id=MJRVEAAAQBAJ&printsec=frontcover&dq=intitle:Marked+for+Life:+One+Man%27s+Fight+for+Justice+From+the+Inside&hl=&cd=1&source=gbs_api",
+    "externalId": "9781250277497",
+    "imagePath": "https://books.google.com/books/content?id=MJRVEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "One Man's Fight for Justice from the Inside",
+    "pageCount": 216,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=MJRVEAAAQBAJ&printsec=frontcover&dq=intitle:Marked+for+Life:+One+Man%27s+Fight+for+Justice+From+the+Inside&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=MJRVEAAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=MJRVEAAAQBAJ&rdid=book-MJRVEAAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Social Science"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781250277497",
+    "listPriceAmount": 11.99,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 11.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Marked for Life: One Man's Fight for Justice From the Inside",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Memoir of Isaac Wright Jr.'s wrongful conviction as a drug kingpin, his legal fight from prison, and his eventual exoneration",
+    "summaryNotes": "\"Marked for Life: One Man's Fight for Justice From the Inside\" is a powerful memoir by Isaac Wright Jr. with Jon Sternfeld that chronicles Wright's extraordinary journey from being wrongfully convicted as a drug kingpin to becoming a lawyer who fights for justice for others.  Published by St. Martin's Press on November 8, 2022, the 336-page hardcover book serves as the basis for the ABC television show \"For Life.\"\nIn 1989, Wright was arrested and accused of being the mastermind behind a $20 million-a-year cocaine distribution network in New Jersey. Despite having no physical evidence linking him to drug trafficking and maintaining his innocence throughout, Wright was convicted in 1991 largely based on testimony from co-defendants who had made deals with prosecutors. He was sentenced to life in prison with no possibility of parole for at least 30 years under New Jersey's drug kingpin statute.\nWhile incarcerated, he educated himself in law and began working as a prison paralegal, helping other inmates with their cases while simultaneously fighting his own conviction. Wright represented himself at trial and continued his legal battle from behind bars, eventually uncovering prosecutorial misconduct.  In 1995, his legal arguments led the New Jersey Appellate Division to vacate his conviction on the drug kingpin charge. He was released on bail in 1996, and after further hearings where prosecution witnesses recanted their testimony, all charges were dismissed in 1998.\nFollowing his exoneration, Wright earned his law degree and became an attorney. The book explores his case and broader systemic issues in the criminal justice system.",
+    "contributingFactorCodes": [
+      "PERJURY_OR_FALSE_ACCUSATION",
+      "PROSECUTORIAL_MISCONDUCT",
+      "OFFICIAL_MISCONDUCT",
+      "RACIAL_BIAS",
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Isaac",
+      "middleName": null,
+      "lastName": "Wright",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Drug Possession or Sale",
+      "convictionYear": 1991,
+      "exonerationOrReleaseYear": 1998,
+      "timeServed": "7 years",
+      "sentence": "Life in prison with no possibility of parole for at least 30 years",
+      "caseLocationCity": null,
+      "caseLocationCounty": "Somerset County",
+      "caseLocationState": "New Jersey",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "After his exoneration, Wright went on to earn his law degree and become an attorney, returning to practice in the same courtroom where he was wrongfully convicted",
+      "contributingFactorCodes": [
+        "PERJURY_OR_FALSE_ACCUSATION",
+        "PROSECUTORIAL_MISCONDUCT",
+        "OFFICIAL_MISCONDUCT",
+        "RACIAL_BIAS"
+      ],
+      "organizations": [
+        {
+          "name": "National Registry of Exonerations",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": "Wright's story inspired the ABC television show \"For Life\""
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Isaac",
+      "middleName": null,
+      "lastName": "Wright",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Jon",
+      "middleName": null,
+      "lastName": "Sternfeld",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

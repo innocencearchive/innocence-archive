@@ -1,0 +1,160 @@
+{
+  "sourceFileName": "10. devils_knot.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Devil's Knot: The True Story of the West Memphis Three",
+    "workType": "BOOK",
+    "creatorName": "Mara Leveritt",
+    "publicationOrReleaseYear": 2002,
+    "publisherOrNetwork": "Atria Books (Simon & Schuster)",
+    "focusOrTheme": "Case study of the West Memphis Three, wrongfully convicted of murdering three eight-year-old boys in a supposed satanic ritual",
+    "summaryNotes": "A detailed account of the wrongful conviction of the West Memphis Three for the murder of three eight-year-old boys.  The book highlights the influence of satanic panic, lack of physical evidence, questionable confessions, and the justice system's reluctance to admit error. Published in 2002, it details the investigation, trials, and early appeals, before their release in 2011.",
+    "availabilityNotes": "Hardcover, paperback, 419 pages",
+    "sourceUrl": "https://books.google.com/books?id=dRE-AAAAQBAJ&printsec=frontcover&dq=intitle:Devil%27s+Knot:+The+True+Story+of+the+West+Memphis+Three&hl=&cd=1&source=gbs_api",
+    "externalId": "9781471131073",
+    "imagePath": "https://books.google.com/books/content?id=dRE-AAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": null,
+    "pageCount": 544,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=dRE-AAAAQBAJ&printsec=frontcover&dq=intitle:Devil%27s+Knot:+The+True+Story+of+the+West+Memphis+Three&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=dRE-AAAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "True Crime"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781471131073",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Devil's Knot: The True Story of the West Memphis Three",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Case study of the West Memphis Three, wrongfully convicted of murdering three eight-year-old boys in a supposed satanic ritual",
+    "summaryNotes": "A detailed account of the wrongful conviction of the West Memphis Three for the murder of three eight-year-old boys.  The book highlights the influence of satanic panic, lack of physical evidence, questionable confessions, and the justice system's reluctance to admit error. Published in 2002, it details the investigation, trials, and early appeals, before their release in 2011.",
+    "contributingFactorCodes": [
+      "MEDIA_SENSATIONALISM",
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "TUNNEL_VISION_RUSH_TO_JUDGMENT",
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Damien",
+      "middleName": null,
+      "lastName": "Echols",
+      "suffix": null,
+      "status": "RELEASED_ALFORD_PLEA",
+      "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1994,
+      "exonerationOrReleaseYear": 2011,
+      "timeServed": "18 years",
+      "sentence": "Death penalty",
+      "caseLocationCity": "West Memphis",
+      "caseLocationCounty": null,
+      "caseLocationState": "Arkansas",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "MEDIA_SENSATIONALISM",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "Various defense teams",
+          "type": "OTHER"
+        },
+        {
+          "name": "celebrity supporters including Metallica, Peter Jackson, and the Dixie Chicks",
+          "type": "SUPPORT_GROUP"
+        }
+      ],
+      "crossReferenceNotes": "Not specified in research"
+    },
+    {
+      "firstName": "Jason",
+      "middleName": null,
+      "lastName": "Baldwin",
+      "suffix": null,
+      "status": "RELEASED_ALFORD_PLEA",
+      "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1994,
+      "exonerationOrReleaseYear": 2011,
+      "timeServed": "18 years",
+      "sentence": "Life imprisonment",
+      "caseLocationCity": "West Memphis",
+      "caseLocationCounty": null,
+      "caseLocationState": "Arkansas",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "MEDIA_SENSATIONALISM"
+      ],
+      "organizations": [
+        {
+          "name": "Various defense teams",
+          "type": "OTHER"
+        },
+        {
+          "name": "celebrity supporters",
+          "type": "SUPPORT_GROUP"
+        }
+      ],
+      "crossReferenceNotes": "Not specified in research"
+    },
+    {
+      "firstName": "Jessie",
+      "middleName": null,
+      "lastName": "Misskelley Jr.",
+      "suffix": null,
+      "status": "RELEASED_ALFORD_PLEA",
+      "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1994,
+      "exonerationOrReleaseYear": 2011,
+      "timeServed": "18 years",
+      "sentence": "Life imprisonment plus two 20-year sentences",
+      "caseLocationCity": "West Memphis",
+      "caseLocationCounty": null,
+      "caseLocationState": "Arkansas",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "MEDIA_SENSATIONALISM"
+      ],
+      "organizations": [
+        {
+          "name": "Various defense teams",
+          "type": "OTHER"
+        },
+        {
+          "name": "celebrity supporters",
+          "type": "SUPPORT_GROUP"
+        }
+      ],
+      "crossReferenceNotes": "Not specified in research"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Mara",
+      "middleName": null,
+      "lastName": "Leveritt",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

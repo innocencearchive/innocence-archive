@@ -1,0 +1,68 @@
+{
+  "sourceFileName": "29.the_fear_of_too_much_justice.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Fear of Too Much Justice: Race, Poverty, and the Persistence of Inequality in the Criminal Courts",
+    "workType": "BOOK",
+    "creatorName": "Stephen B. Bright and James Kwak",
+    "publicationOrReleaseYear": 2023,
+    "publisherOrNetwork": "The New Press",
+    "focusOrTheme": "Examination of how the U.S. legal system fails to uphold constitutional rights of defendants, especially poor defendants and people of color",
+    "summaryNotes": "A comprehensive examination of the failures of the U.S. criminal justice system, particularly as they affect poor defendants and people of color.  It examines various aspects of the criminal justice system, from wrongful convictions and death penalty cases to the exploitation of poor defendants by private probation companies. The book not only identifies problems but also highlights solutions, offering examples from places around the country that are making progress toward justice.",
+    "availabilityNotes": "Hardcover (368 pages); Paperback edition released April 2025",
+    "sourceUrl": "https://books.google.com/books?id=WPt6EAAAQBAJ&pg=PT61&dq=intitle:The+Fear+of+Too+Much+Justice:+Race,+Poverty,+and+the+Persistence+of+Inequality+in+the+Criminal+Courts&hl=&cd=1&source=gbs_api",
+    "externalId": "9781620978047",
+    "imagePath": "https://books.google.com/books/content?id=WPt6EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Race, Poverty, and the Persistence of Inequality in the Criminal Courts",
+    "pageCount": 198,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=WPt6EAAAQBAJ&pg=PT61&dq=intitle:The+Fear+of+Too+Much+Justice:+Race,+Poverty,+and+the+Persistence+of+Inequality+in+the+Criminal+Courts&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=WPt6EAAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=WPt6EAAAQBAJ&rdid=book-WPt6EAAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Social Science"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781620978047",
+    "listPriceAmount": 20,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 9.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: The Fear of Too Much Justice: Race, Poverty, and the Persistence of Inequality in the Criminal Courts",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Examination of how the U.S. legal system fails to uphold constitutional rights of defendants, especially poor defendants and people of color",
+    "summaryNotes": "A comprehensive examination of the failures of the U.S. criminal justice system, particularly as they affect poor defendants and people of color.  It examines various aspects of the criminal justice system, from wrongful convictions and death penalty cases to the exploitation of poor defendants by private probation companies. The book not only identifies problems but also highlights solutions, offering examples from places around the country that are making progress toward justice.",
+    "contributingFactorCodes": [
+      "RACIAL_BIAS",
+      "INADEQUATE_LEGAL_DEFENSE",
+      "PROSECUTORIAL_MISCONDUCT"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [],
+  "involvedPersons": [
+    {
+      "firstName": "Stephen",
+      "middleName": "B.",
+      "lastName": "Bright",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "James",
+      "middleName": null,
+      "lastName": "Kwak",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

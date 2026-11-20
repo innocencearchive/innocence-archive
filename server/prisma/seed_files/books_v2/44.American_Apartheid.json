@@ -1,0 +1,66 @@
+{
+  "sourceFileName": "44.American_Apartheid.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "American Apartheid: Segregation and the Making of the Underclass",
+    "workType": "BOOK",
+    "creatorName": "Douglas S. Massey and Nancy A. Denton",
+    "publicationOrReleaseYear": 1998,
+    "publisherOrNetwork": "Harvard University Press",
+    "focusOrTheme": "Racial segregation, housing discrimination, urban poverty, creation of the underclass",
+    "summaryNotes": "This book examines how racial segregation in the United States creates conditions that lead to higher crime rates in predominantly Black neighborhoods, concentrated poverty, deterioration of community institutions, increased targeting by law enforcement, and systemic bias affecting perceptions of Black Americans in the criminal justice system.  It argues that structural racism in housing policy makes Black Americans more vulnerable to wrongful convictions.",
+    "availabilityNotes": "Paperback, eBook",
+    "sourceUrl": "https://books.google.com/books?id=uGslMsIBNBsC&printsec=frontcover&dq=intitle:American+Apartheid:+Segregation+and+the+Making+of+the+Underclass&hl=&cd=1&source=gbs_api",
+    "externalId": "9780674018211",
+    "imagePath": "https://books.google.com/books/content?id=uGslMsIBNBsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Segregation and the Making of the Underclass",
+    "pageCount": 312,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=uGslMsIBNBsC&printsec=frontcover&dq=intitle:American+Apartheid:+Segregation+and+the+Making+of+the+Underclass&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=uGslMsIBNBsC&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "History"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780674018211",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: American Apartheid: Segregation and the Making of the Underclass",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Racial segregation, housing discrimination, urban poverty, creation of the underclass",
+    "summaryNotes": "This book examines how racial segregation in the United States creates conditions that lead to higher crime rates in predominantly Black neighborhoods, concentrated poverty, deterioration of community institutions, increased targeting by law enforcement, and systemic bias affecting perceptions of Black Americans in the criminal justice system.  It argues that structural racism in housing policy makes Black Americans more vulnerable to wrongful convictions.",
+    "contributingFactorCodes": [
+      "RACIAL_BIAS"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [],
+  "involvedPersons": [
+    {
+      "firstName": "Douglas",
+      "middleName": "S.",
+      "lastName": "Massey",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Nancy",
+      "middleName": "A.",
+      "lastName": "Denton",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "sourceFileName": "38.forensic_science.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Forensic Science Under Siege: The Challenges of Forensic Laboratories and the Medico-Legal Death Investigation System",
+    "workType": "BOOK",
+    "creatorName": "Kelly M. Pyrek",
+    "publicationOrReleaseYear": 2007,
+    "publisherOrNetwork": "Academic Press/Elsevier",
+    "focusOrTheme": "Challenges and problematic trends in forensic science, including issues that contribute to wrongful convictions",
+    "summaryNotes": "The book is a comprehensive examination of the challenges facing forensic science, including issues that can lead to wrongful convictions.  While not exclusively focused on wrongful convictions, it addresses how problems in forensic science contribute to them, particularly in Chapter 11 discussing DNA's role in exonerations.  It examines forensic laboratories, expert testimony, and the medico-legal death investigation system, including interviews with leading experts and exploring potential solutions.",
+    "availabilityNotes": "Hardcover, Paperback, eBook",
+    "sourceUrl": "https://books.google.com/books?id=neqi1xH078EC&pg=PA216&dq=intitle:Forensic+Science+Under+Siege:+The+Challenges+of+Forensic+Laboratories+and+the+Medico-Legal+Death+Investigation+System&hl=&cd=1&source=gbs_api",
+    "externalId": "9780080471075",
+    "imagePath": "https://books.google.com/books/content?id=neqi1xH078EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "The Challenges of Forensic Laboratories and the Medico-Legal Investigation System",
+    "pageCount": 562,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=neqi1xH078EC&pg=PA216&dq=intitle:Forensic+Science+Under+Siege:+The+Challenges+of+Forensic+Laboratories+and+the+Medico-Legal+Death+Investigation+System&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=neqi1xH078EC&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=neqi1xH078EC&rdid=book-neqi1xH078EC&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Law"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780080471075",
+    "listPriceAmount": 72.95,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 58.36,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE_AND_RENTAL",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Forensic Science Under Siege: The Challenges of Forensic Laboratories and the Medico-Legal Death Investigation System",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Challenges and problematic trends in forensic science, including issues that contribute to wrongful convictions",
+    "summaryNotes": "The book is a comprehensive examination of the challenges facing forensic science, including issues that can lead to wrongful convictions.  While not exclusively focused on wrongful convictions, it addresses how problems in forensic science contribute to them, particularly in Chapter 11 discussing DNA's role in exonerations.  It examines forensic laboratories, expert testimony, and the medico-legal death investigation system, including interviews with leading experts and exploring potential solutions.",
+    "contributingFactorCodes": [
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "PERJURY_OR_FALSE_ACCUSATION"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [],
+  "involvedPersons": [
+    {
+      "firstName": "Kelly",
+      "middleName": "M.",
+      "lastName": "Pyrek",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "sourceFileName": "23.framed.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Framed: The Corruption and Cover-up Behind the Wrongful Conviction of William Michael Dillon and his Twenty-Seven Year Fight for Freedom",
+    "workType": "BOOK",
+    "creatorName": "William Dillon and Ellen Moscovitz",
+    "publicationOrReleaseYear": 2023,
+    "publisherOrNetwork": "Unknown (possibly self-published)",
+    "focusOrTheme": "Case study of William Michael Dillon's wrongful conviction, the corruption that led to it, and his 27-year fight for freedom",
+    "summaryNotes": "This book is a case study of William Michael Dillon's wrongful conviction and his 27-year fight for freedom.  It highlights systemic issues in the criminal justice system, including the use of fraudulent forensic evidence, witness intimidation, and the challenges faced by exonerees after release. Dillon's case involved flawed evidence such as fraudulent dog scent evidence, false testimony from a jailhouse informant, perjured eyewitness testimony, and unreliable identification.  His exoneration came through DNA testing in 2007.  After release, he received compensation and became an advocate for exonerees.",
+    "availabilityNotes": "Paperback, 370 pages",
+    "sourceUrl": "https://books.google.com/books?id=Jfpr0AEACAAJ&dq=intitle:Framed:+The+Corruption+and+Cover-up+Behind+the+Wrongful+Conviction+of+William+Michael+Dillon+and+his+Twenty-Seven+Year+Fight+for+Freedom&hl=&cd=1&source=gbs_api",
+    "externalId": "9781915930286",
+    "imagePath": "https://books.google.com/books/content?id=Jfpr0AEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "The Corruption and Cover-up Behind the Wrongful Conviction of William Michael Dillon and His Twenty Seven-year Fight for Freedom",
+    "pageCount": null,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=Jfpr0AEACAAJ&dq=intitle:Framed:+The+Corruption+and+Cover-up+Behind+the+Wrongful+Conviction+of+William+Michael+Dillon+and+his+Twenty-Seven+Year+Fight+for+Freedom&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=Jfpr0AEACAAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "Judicial error"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781915930286",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "NO_PAGES"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Framed: The Corruption and Cover-up Behind the Wrongful Conviction of William Michael Dillon and his Twenty-Seven Year Fight for Freedom",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Case study of William Michael Dillon's wrongful conviction, the corruption that led to it, and his 27-year fight for freedom",
+    "summaryNotes": "This book is a case study of William Michael Dillon's wrongful conviction and his 27-year fight for freedom.  It highlights systemic issues in the criminal justice system, including the use of fraudulent forensic evidence, witness intimidation, and the challenges faced by exonerees after release. Dillon's case involved flawed evidence such as fraudulent dog scent evidence, false testimony from a jailhouse informant, perjured eyewitness testimony, and unreliable identification.  His exoneration came through DNA testing in 2007.  After release, he received compensation and became an advocate for exonerees.",
+    "contributingFactorCodes": [
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "FALSE_CONFESSION",
+      "JAILHOUSE_INFORMANT",
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "PROSECUTORIAL_MISCONDUCT",
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "William",
+      "middleName": "Michael",
+      "lastName": "Dillon",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1981,
+      "exonerationOrReleaseYear": 2008,
+      "timeServed": "27 years and 8 months",
+      "sentence": "Life imprisonment",
+      "caseLocationCity": null,
+      "caseLocationCounty": "Brevard County",
+      "caseLocationState": "Florida",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Received $1.35 million in compensation from the Florida Legislature in 2012",
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "FALSE_CONFESSION",
+        "JAILHOUSE_INFORMANT",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "PROSECUTORIAL_MISCONDUCT"
+      ],
+      "organizations": [
+        {
+          "name": "Innocence Project of Florida",
+          "type": "INNOCENCE_ORG"
+        },
+        {
+          "name": "Florida courts",
+          "type": "GOVERNMENT_AGENCY"
+        }
+      ],
+      "crossReferenceNotes": "His case is documented in multiple wrongful conviction databases"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "William",
+      "middleName": null,
+      "lastName": "Dillon",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Ellen",
+      "middleName": null,
+      "lastName": "Moscovitz",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "sourceFileName": "22.the_exonerated.md",
+  "reviewWarnings": [
+    "No matching row found in bookdata_enhanced.csv (missing Google Books metadata/ISBN)."
+  ],
+  "mediaWork": {
+    "title": "The Exonerated",
+    "workType": "BOOK",
+    "creatorName": "Jessica Blank and Erik Jensen",
+    "publicationOrReleaseYear": 2002,
+    "publisherOrNetwork": "Dramatists Play Service, Inc.",
+    "focusOrTheme": "Collection of stories of exonerated individuals, death row experiences, wrongful convictions",
+    "summaryNotes": "This play is particularly significant in the study of wrongful convictions as it uses the actual words of exonerees to tell their stories, creating a powerful first-person narrative of the experience of being wrongfully convicted and sentenced to death. The play combines first-person monologues with scenes set in courtrooms and prisons, creating a comprehensive picture of the American criminal justice system's failures. The play has had significant cultural and political impact, including a special performance for Illinois Governor George Ryan in December 2002, shortly before he commuted all death sentences in Illinois to life imprisonment due to concerns about wrongful convictions. The original Off-Broadway production featured notable actors including Richard Dreyfuss, Jill Clayburgh, and Jay O. Sanders, and ran for over 600 performances.",
+    "availabilityNotes": "Play (later adapted into a film in 2005)",
+    "sourceUrl": null,
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": null,
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": null,
+  "mediaItem": {
+    "itemTitle": "Book Content: The Exonerated",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Collection of stories of exonerated individuals, death row experiences, wrongful convictions",
+    "summaryNotes": "This play is particularly significant in the study of wrongful convictions as it uses the actual words of exonerees to tell their stories, creating a powerful first-person narrative of the experience of being wrongfully convicted and sentenced to death. The play combines first-person monologues with scenes set in courtrooms and prisons, creating a comprehensive picture of the American criminal justice system's failures. The play has had significant cultural and political impact, including a special performance for Illinois Governor George Ryan in December 2002, shortly before he commuted all death sentences in Illinois to life imprisonment due to concerns about wrongful convictions. The original Off-Broadway production featured notable actors including Richard Dreyfuss, Jill Clayburgh, and Jay O. Sanders, and ran for over 600 performances.",
+    "contributingFactorCodes": [
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "RACIAL_BIAS",
+      "PROSECUTORIAL_MISCONDUCT",
+      "PERJURY_OR_FALSE_ACCUSATION",
+      "WITHHELD_EXCULPATORY_EVIDENCE",
+      "FALSE_CONFESSION",
+      "POLICE_MISCONDUCT",
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Delbert",
+      "middleName": null,
+      "lastName": "Tibbs",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1974,
+      "exonerationOrReleaseYear": 1977,
+      "timeServed": "2-3 years on death row",
+      "sentence": "Death",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Florida",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "After exoneration, Tibbs became a writer and anti-death penalty activist until his death in 2013",
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "RACIAL_BIAS"
+      ],
+      "organizations": [
+        {
+          "name": "Florida Supreme Court (overturned his conviction in a 5-4 decision)",
+          "type": "GOVERNMENT_AGENCY"
+        }
+      ],
+      "crossReferenceNotes": "His story is featured in multiple wrongful conviction resources"
+    },
+    {
+      "firstName": "Kerry",
+      "middleName": "Max",
+      "lastName": "Cook",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1978,
+      "exonerationOrReleaseYear": 2016,
+      "timeServed": "20 years on death row",
+      "sentence": "Death",
+      "caseLocationCity": "Tyler",
+      "caseLocationCounty": null,
+      "caseLocationState": "Texas",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Described as \"a sensitive Texan brutalized on death row for twenty-two years before being exonerated by DNA evidence\"",
+      "contributingFactorCodes": [
+        "PROSECUTORIAL_MISCONDUCT",
+        "PERJURY_OR_FALSE_ACCUSATION",
+        "WITHHELD_EXCULPATORY_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "Texas Court of Criminal Appeals",
+          "type": "GOVERNMENT_AGENCY"
+        }
+      ],
+      "crossReferenceNotes": "His case is well-documented in wrongful conviction literature"
+    },
+    {
+      "firstName": "Gary",
+      "middleName": null,
+      "lastName": "Gauger",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServed": "Several years on death row",
+      "sentence": "Death",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Illinois",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Described as \"a Midwestern organic farmer condemned for the murder of his own parents\"",
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION",
+        "POLICE_MISCONDUCT"
+      ],
+      "organizations": [
+        {
+          "name": "Illinois courts",
+          "type": "GOVERNMENT_AGENCY"
+        }
+      ],
+      "crossReferenceNotes": "His case is documented in wrongful conviction resources"
+    },
+    {
+      "firstName": "David",
+      "middleName": null,
+      "lastName": "Keaton",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServed": "Several years on death row",
+      "sentence": "Death",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Florida",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Described as \"a shy man with aspirations to the ministry, bullied into confessing at eighteen to a robbery/murder he had nothing to do with, scarred from a youth spent in prison and struggling to regain his faith\"",
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION"
+      ],
+      "organizations": [
+        {
+          "name": "Florida courts",
+          "type": "GOVERNMENT_AGENCY"
+        }
+      ],
+      "crossReferenceNotes": "His case appears in wrongful conviction databases"
+    },
+    {
+      "firstName": "Robert",
+      "middleName": "Earl",
+      "lastName": "Hayes",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServed": "7 years on death row",
+      "sentence": "Death",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Florida",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Described as \"an African-American horse groomer who spent seven years on death row for the murder of a white woman\"",
+      "contributingFactorCodes": [
+        "RACIAL_BIAS",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "Florida courts",
+          "type": "GOVERNMENT_AGENCY"
+        }
+      ],
+      "crossReferenceNotes": "His case is documented in wrongful conviction resources"
+    },
+    {
+      "firstName": "Sonia",
+      "middleName": "Sunny",
+      "lastName": "Jacobs",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1976,
+      "exonerationOrReleaseYear": 1992,
+      "timeServed": "17 years in prison (5 years on death row)",
+      "sentence": "Death (later commuted to life)",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Florida",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "After exoneration, she founded the Sunny Center, a sanctuary for the wrongfully convicted. Her husband, Jesse Tafero, was executed for the same crime in 1990 before evidence of their innocence came to light.",
+      "contributingFactorCodes": [
+        "PERJURY_OR_FALSE_ACCUSATION",
+        "PROSECUTORIAL_MISCONDUCT"
+      ],
+      "organizations": [
+        {
+          "name": "Florida courts",
+          "type": "GOVERNMENT_AGENCY"
+        }
+      ],
+      "crossReferenceNotes": "Her case is well-documented in wrongful conviction literature"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Jessica",
+      "middleName": null,
+      "lastName": "Blank",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Erik",
+      "middleName": null,
+      "lastName": "Jensen",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

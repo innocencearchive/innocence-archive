@@ -1,0 +1,150 @@
+{
+  "sourceFileName": "05. just_mercy_research.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Just Mercy: A Story of Justice and Redemption",
+    "workType": "BOOK",
+    "creatorName": "Bryan Stevenson",
+    "publicationOrReleaseYear": 2014,
+    "publisherOrNetwork": "Spiegel & Grau",
+    "focusOrTheme": "Wrongful convictions, racial injustice, death penalty, juvenile justice",
+    "summaryNotes": "\"Just Mercy\" is a memoir that documents Bryan Stevenson's career as a lawyer defending disadvantaged clients, particularly those on death row. The book primarily focuses on the case of Walter McMillian, a Black man who was wrongfully convicted and sentenced to death for the murder of a young white woman in Monroeville, Alabama. Through McMillian's case and others, Stevenson illustrates the deep-rooted problems in the American criminal justice system, including racial bias, prosecutorial misconduct, and the flawed application of the death penalty.\n\nThe book alternates between McMillian's story and other cases Stevenson has worked on, including those involving juveniles sentenced to life without parole, mentally ill prisoners, and women who have suffered abuse. Throughout, Stevenson argues for compassion and mercy in the justice system.",
+    "availabilityNotes": "Hardcover, paperback, e-book, audiobook",
+    "sourceUrl": "https://books.google.com/books?id=PnfaCwAAQBAJ&printsec=frontcover&dq=intitle:Just+Mercy:+A+Story+of+Justice+and+Redemption&hl=&cd=1&source=gbs_api",
+    "externalId": "9780812984965",
+    "imagePath": "https://books.google.com/books/content?id=PnfaCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "A Story of Justice and Redemption",
+    "pageCount": 385,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=PnfaCwAAQBAJ&printsec=frontcover&dq=intitle:Just+Mercy:+A+Story+of+Justice+and+Redemption&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=PnfaCwAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "Law"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780812984965",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Just Mercy: A Story of Justice and Redemption",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Wrongful convictions, racial injustice, death penalty, juvenile justice",
+    "summaryNotes": "\"Just Mercy\" is a memoir that documents Bryan Stevenson's career as a lawyer defending disadvantaged clients, particularly those on death row. The book primarily focuses on the case of Walter McMillian, a Black man who was wrongfully convicted and sentenced to death for the murder of a young white woman in Monroeville, Alabama. Through McMillian's case and others, Stevenson illustrates the deep-rooted problems in the American criminal justice system, including racial bias, prosecutorial misconduct, and the flawed application of the death penalty.\n\nThe book alternates between McMillian's story and other cases Stevenson has worked on, including those involving juveniles sentenced to life without parole, mentally ill prisoners, and women who have suffered abuse. Throughout, Stevenson argues for compassion and mercy in the justice system.",
+    "contributingFactorCodes": [
+      "PROSECUTORIAL_MISCONDUCT",
+      "RACIAL_BIAS",
+      "WITHHELD_EXCULPATORY_EVIDENCE",
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Walter",
+      "middleName": null,
+      "lastName": "McMillian",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1988,
+      "exonerationOrReleaseYear": 1993,
+      "timeServed": "6 years on death row",
+      "sentence": "Death sentence",
+      "caseLocationCity": "Monroeville",
+      "caseLocationCounty": null,
+      "caseLocationState": "Alabama",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- McMillian was placed on death row before his trial even began\n- Multiple witnesses provided alibis placing him at a fish fry during the time of the murder\n- The key witness against him later recanted and admitted to lying under pressure from police\n- The case took place in the same town where Harper Lee set \"To Kill a Mockingbird\"",
+      "contributingFactorCodes": [
+        "PROSECUTORIAL_MISCONDUCT",
+        "RACIAL_BIAS",
+        "WITHHELD_EXCULPATORY_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "Equal Justice Initiative",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": "Listed in National Registry of Exonerations; also mentioned in \"Actual Innocence\" book"
+    },
+    {
+      "firstName": "Anthony",
+      "middleName": "Ray",
+      "lastName": "Hinton",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1986,
+      "exonerationOrReleaseYear": 2015,
+      "timeServed": "28 years on death row",
+      "sentence": "Death sentence",
+      "caseLocationCity": "Birmingham",
+      "caseLocationCounty": null,
+      "caseLocationState": "Alabama",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Case went to the U.S. Supreme Court\n- Ballistics evidence that convicted him was proven to be false\n- Hinton later wrote his own memoir, \"The Sun Does Shine\"",
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "INADEQUATE_LEGAL_DEFENSE",
+        "RACIAL_BIAS"
+      ],
+      "organizations": [
+        {
+          "name": "Equal Justice Initiative",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": "Listed in National Registry of Exonerations"
+    },
+    {
+      "firstName": "Trina",
+      "middleName": null,
+      "lastName": "Garnett",
+      "suffix": null,
+      "status": "CONVICTED",
+      "claimStrength": "UNASSESSED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1976,
+      "exonerationOrReleaseYear": null,
+      "timeServed": null,
+      "sentence": "Life without parole as a juvenile",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Pennsylvania",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Suffered severe abuse and neglect as a child\n- Mentally disabled\n- Case used to highlight issues with juvenile life sentences",
+      "contributingFactorCodes": [],
+      "organizations": [
+        {
+          "name": "Equal Justice Initiative",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Bryan",
+      "middleName": null,
+      "lastName": "Stevenson",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

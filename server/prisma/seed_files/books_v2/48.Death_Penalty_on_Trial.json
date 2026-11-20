@@ -1,0 +1,63 @@
+{
+  "sourceFileName": "48.Death_Penalty_on_Trial.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Death Penalty on Trial: Crisis in American Justice",
+    "workType": "BOOK",
+    "creatorName": "Bill Kurtis",
+    "publicationOrReleaseYear": 2004,
+    "publisherOrNetwork": "PublicAffairs",
+    "focusOrTheme": "The flaws in the American justice system that lead to wrongful convictions and the death penalty.",
+    "summaryNotes": "\"The Death Penalty on Trial\" chronicles Bill Kurtis's journey from being a supporter of capital punishment to becoming an opponent. After observing the justice system for thirty years and examining cases where innocent people were sent to death row, Kurtis came to the realization that the criminal justice system is too error-prone to justify the death penalty. The book frames its argument around two detailed case studies of wrongful convictions that led to death sentences, reconstructing the crimes, the investigations, the trials, and the eventual exonerations. Kurtis identifies eight main reasons why innocent people are condemned to death, including overzealous prosecutors, dishonest prosecutors, corrupt policemen, unreliable witnesses, expert witnesses, incompetent defense attorneys, biased judges, and jailhouse informants.",
+    "availabilityNotes": null,
+    "sourceUrl": "https://books.google.com/books?id=8VfLdj2STk0C&printsec=frontcover&dq=intitle:The+Death+Penalty+on+Trial:+Crisis+in+American+Justice&hl=&cd=1&source=gbs_api",
+    "externalId": "9780786734030",
+    "imagePath": "https://books.google.com/books/content?id=8VfLdj2STk0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Crisis in American Justice",
+    "pageCount": 226,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=8VfLdj2STk0C&printsec=frontcover&dq=intitle:The+Death+Penalty+on+Trial:+Crisis+in+American+Justice&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=8VfLdj2STk0C&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=8VfLdj2STk0C&rdid=book-8VfLdj2STk0C&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Social Science"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780786734030",
+    "listPriceAmount": 9.99,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 9.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: The Death Penalty on Trial: Crisis in American Justice",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "The flaws in the American justice system that lead to wrongful convictions and the death penalty.",
+    "summaryNotes": "\"The Death Penalty on Trial\" chronicles Bill Kurtis's journey from being a supporter of capital punishment to becoming an opponent. After observing the justice system for thirty years and examining cases where innocent people were sent to death row, Kurtis came to the realization that the criminal justice system is too error-prone to justify the death penalty. The book frames its argument around two detailed case studies of wrongful convictions that led to death sentences, reconstructing the crimes, the investigations, the trials, and the eventual exonerations. Kurtis identifies eight main reasons why innocent people are condemned to death, including overzealous prosecutors, dishonest prosecutors, corrupt policemen, unreliable witnesses, expert witnesses, incompetent defense attorneys, biased judges, and jailhouse informants.",
+    "contributingFactorCodes": [
+      "JAILHOUSE_INFORMANT",
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "PROSECUTORIAL_MISCONDUCT",
+      "INADEQUATE_LEGAL_DEFENSE",
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [],
+  "involvedPersons": [
+    {
+      "firstName": "Bill",
+      "middleName": null,
+      "lastName": "Kurtis",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

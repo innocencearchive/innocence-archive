@@ -1,0 +1,126 @@
+{
+  "sourceFileName": "59_No_Justice_No_Victory.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "No Justice: No Victory, the Death Penalty in Texas",
+    "workType": "BOOK",
+    "creatorName": "Susan Lee Campbell Solar",
+    "publicationOrReleaseYear": 2004,
+    "publisherOrNetwork": "Plain View Press",
+    "focusOrTheme": "Capital punishment in Texas, wrongful executions, systemic injustice in the death penalty system",
+    "summaryNotes": "Because state sponsored murder adds more anguish to society than it redresses, because people of color who are poor are over represented on death row, because our court systems are flawed and resources for defense are unevenly available, because healing for individuals and society comes not from retaliation, but from forgiveness, No Justice: No Victory is a welcome addition to the increasing body of abolitionist work which is turning American opinion against capital punishment.--Sister Helen Prejean, author of Dead Man Walking. Through keen and compassionate eyes, Susan Lee Campbell Solar helps us see why Texas leads the country in executions. The information she presents is grounded in scholarly research and compellingly written. Her insight into the corrosive effects of the death penalty on everyone, including the families of murder victims, should renew our courage to end this war against our own.Richard Burr, death penalty defense attorneyHaving to live your life as a family member of someone on death row is like being there yourself. Every pain they feel, you feel. In the case of an innocent man serving time, not only does it destroy the life of the accused, it also wipes out the hopes and dreams of a whole family and in the end, everyone loses: no justice, no victory. --Arthur Curry, brother of Anthony Graves, Texas death row inmate",
+    "availabilityNotes": "Paperback, 326 pages",
+    "sourceUrl": "https://books.google.com/books?id=GUnvrQEACAAJ&dq=intitle:No+Justice:+No+Victory,+the+Death+Penalty+in+Texas&hl=&cd=1&source=gbs_api",
+    "externalId": "9781632100061",
+    "imagePath": "https://books.google.com/books/content?id=GUnvrQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "The Death Penalty in Texas",
+    "pageCount": null,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=GUnvrQEACAAJ&dq=intitle:No+Justice:+No+Victory,+the+Death+Penalty+in+Texas&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=GUnvrQEACAAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781632100061",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "NO_PAGES"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: No Justice: No Victory, the Death Penalty in Texas",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Capital punishment in Texas, wrongful executions, systemic injustice in the death penalty system",
+    "summaryNotes": null,
+    "contributingFactorCodes": [
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "INADEQUATE_LEGAL_DEFENSE",
+      "PERJURY_OR_FALSE_ACCUSATION"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Gary",
+      "middleName": "Graham / Shaka",
+      "lastName": "Sankofa",
+      "suffix": null,
+      "status": "EXECUTED",
+      "claimStrength": "UNASSESSED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1981,
+      "exonerationOrReleaseYear": null,
+      "timeServed": "19 years on death row",
+      "sentence": "Death",
+      "caseLocationCity": "Houston",
+      "caseLocationCounty": null,
+      "caseLocationState": "Texas",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "INADEQUATE_LEGAL_DEFENSE",
+        "PERJURY_OR_FALSE_ACCUSATION"
+      ],
+      "organizations": [
+        {
+          "name": "Amnesty International",
+          "type": "OTHER"
+        },
+        {
+          "name": "Various human rights organizations that advocated for his case",
+          "type": "OTHER"
+        }
+      ],
+      "crossReferenceNotes": "His case received international attention and protests"
+    },
+    {
+      "firstName": "Odell",
+      "middleName": "Barnes",
+      "lastName": "Jr.",
+      "suffix": null,
+      "status": "EXECUTED",
+      "claimStrength": "UNASSESSED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServed": "Approximately 9 years on death row",
+      "sentence": "Death",
+      "caseLocationCity": "Wichita Falls",
+      "caseLocationCounty": null,
+      "caseLocationState": "Texas",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "INADEQUATE_LEGAL_DEFENSE"
+      ],
+      "organizations": [
+        {
+          "name": "Amnesty International",
+          "type": "OTHER"
+        },
+        {
+          "name": "Justice Denied (advocacy organization)",
+          "type": "OTHER"
+        }
+      ],
+      "crossReferenceNotes": "When asked for his last meal, he reportedly requested \"justice\""
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Susan",
+      "middleName": "Lee Campbell",
+      "lastName": "Solar",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

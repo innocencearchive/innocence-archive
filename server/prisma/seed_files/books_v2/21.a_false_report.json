@@ -1,0 +1,118 @@
+{
+  "sourceFileName": "21.a_false_report.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "A False Report: A True Story of Rape in America",
+    "workType": "BOOK",
+    "creatorName": "T. Christian Miller and Ken Armstrong",
+    "publicationOrReleaseYear": 2018,
+    "publisherOrNetwork": "Crown",
+    "focusOrTheme": "Investigation of false rape accusations, victim credibility, police investigation methods",
+    "summaryNotes": "The book follows two parallel narratives: Marie Adler's experience being disbelieved and charged with filing a false report after being raped, and the later investigation by two female detectives in Colorado who connected multiple rape cases and eventually identified Marc O'Leary as the serial rapist responsible.  While not a traditional wrongful conviction case, it highlights similar systemic issues such as skepticism toward certain types of witnesses, pressure to close cases quickly, and the devastating impact of being disbelieved by the justice system. The book was expanded from a Pulitzer Prize-winning ProPublica/Marshall Project article.",
+    "availabilityNotes": "Hardcover, 304 pages",
+    "sourceUrl": "https://books.google.com/books?id=UOZFDwAAQBAJ&pg=PA88&dq=intitle:A+False+Report:+A+True+Story+of+Rape+in+America&hl=&cd=1&source=gbs_api",
+    "externalId": "9781524759933",
+    "imagePath": "https://books.google.com/books/content?id=UOZFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "A True Story of Rape in America",
+    "pageCount": 306,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=UOZFDwAAQBAJ&pg=PA88&dq=intitle:A+False+Report:+A+True+Story+of+Rape+in+America&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=UOZFDwAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "Social Science"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781524759933",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: A False Report: A True Story of Rape in America",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Investigation of false rape accusations, victim credibility, police investigation methods",
+    "summaryNotes": "The book follows two parallel narratives: Marie Adler's experience being disbelieved and charged with filing a false report after being raped, and the later investigation by two female detectives in Colorado who connected multiple rape cases and eventually identified Marc O'Leary as the serial rapist responsible.  While not a traditional wrongful conviction case, it highlights similar systemic issues such as skepticism toward certain types of witnesses, pressure to close cases quickly, and the devastating impact of being disbelieved by the justice system. The book was expanded from a Pulitzer Prize-winning ProPublica/Marshall Project article.",
+    "contributingFactorCodes": [
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Marie",
+      "middleName": null,
+      "lastName": "Adler",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Other",
+      "convictionYear": 2008,
+      "exonerationOrReleaseYear": 2011,
+      "timeServed": "N/A (received probation)",
+      "sentence": "Probation, court fees, and mandatory counseling",
+      "caseLocationCity": "Lynnwood",
+      "caseLocationCounty": null,
+      "caseLocationState": "Washington",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "18-year-old at the time of the incident.",
+      "contributingFactorCodes": [],
+      "organizations": [
+        {
+          "name": "Lynnwood Police Department (initial investigation)",
+          "type": "LAW_ENFORCEMENT"
+        },
+        {
+          "name": "Colorado detectives who solved the case",
+          "type": "OTHER"
+        }
+      ],
+      "crossReferenceNotes": "This case was later adapted into the Netflix series \"Unbelievable\""
+    },
+    {
+      "firstName": "Marc",
+      "middleName": null,
+      "lastName": "O'Leary",
+      "suffix": null,
+      "status": "CONVICTED",
+      "claimStrength": "UNASSESSED",
+      "crimeCategoryName": "Other",
+      "convictionYear": 2011,
+      "exonerationOrReleaseYear": null,
+      "timeServed": null,
+      "sentence": "327.5 years in prison",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Washington and Colorado",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Army veteran",
+      "contributingFactorCodes": [],
+      "organizations": [],
+      "crossReferenceNotes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "T.",
+      "middleName": "Christian",
+      "lastName": "Miller",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Ken",
+      "middleName": null,
+      "lastName": "Armstrong",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

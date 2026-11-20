@@ -1,0 +1,81 @@
+{
+  "sourceFileName": "43.Policing_the_Black_Man.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Policing the Black Man: Arrest, Prosecution, and Imprisonment in America",
+    "workType": "BOOK",
+    "creatorName": "Edited by Angela J. Davis with contributions from Bryan Stevenson, Sherrilyn Ifill, Jeremy Travis, and others",
+    "publicationOrReleaseYear": 2017,
+    "publisherOrNetwork": "Pantheon Books, a division of Penguin Random House LLC",
+    "focusOrTheme": "Racial bias in criminal justice, police brutality, mass incarceration, wrongful convictions of Black men",
+    "summaryNotes": "This book examines the systemic issues contributing to wrongful convictions of Black men in America, focusing on racial profiling, prosecutorial misconduct, implicit bias, and mass incarceration.  While not detailing specific individual cases, it provides analysis of how racial bias operates throughout the criminal justice process, offers expert perspectives, and provides historical context.",
+    "availabilityNotes": "Hardcover, Paperback, Ebook",
+    "sourceUrl": "https://books.google.com/books?id=qEcsDwAAQBAJ&printsec=frontcover&dq=intitle:Policing+the+Black+Man:+Arrest,+Prosecution,+and+Imprisonment+in+America&hl=&cd=1&source=gbs_api",
+    "externalId": "9781101871270",
+    "imagePath": "https://books.google.com/books/content?id=qEcsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Arrest, Prosecution, and Imprisonment",
+    "pageCount": 353,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=qEcsDwAAQBAJ&printsec=frontcover&dq=intitle:Policing+the+Black+Man:+Arrest,+Prosecution,+and+Imprisonment+in+America&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=qEcsDwAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "History"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781101871270",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Policing the Black Man: Arrest, Prosecution, and Imprisonment in America",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Racial bias in criminal justice, police brutality, mass incarceration, wrongful convictions of Black men",
+    "summaryNotes": "This book examines the systemic issues contributing to wrongful convictions of Black men in America, focusing on racial profiling, prosecutorial misconduct, implicit bias, and mass incarceration.  While not detailing specific individual cases, it provides analysis of how racial bias operates throughout the criminal justice process, offers expert perspectives, and provides historical context.",
+    "contributingFactorCodes": [
+      "RACIAL_BIAS",
+      "PROSECUTORIAL_MISCONDUCT"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [],
+  "involvedPersons": [
+    {
+      "firstName": "Angela",
+      "middleName": "J.",
+      "lastName": "Davis",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Bryan",
+      "middleName": null,
+      "lastName": "Stevenson",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Sherrilyn",
+      "middleName": null,
+      "lastName": "Ifill",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Jeremy",
+      "middleName": null,
+      "lastName": "Travis",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

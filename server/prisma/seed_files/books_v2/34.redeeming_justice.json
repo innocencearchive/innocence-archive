@@ -1,0 +1,145 @@
+{
+  "sourceFileName": "34.redeeming_justice.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Redeeming Justice: From Defendant to Defender, My Fight for Equity on Both Sides of a Broken System",
+    "workType": "BOOK",
+    "creatorName": "Jarrett Adams",
+    "publicationOrReleaseYear": 2021,
+    "publisherOrNetwork": "Convergent Books",
+    "focusOrTheme": "Wrongful conviction, personal memoir, criminal justice reform, racial bias in the justice system",
+    "summaryNotes": "The book is a personal memoir by Jarrett Adams, recounting his wrongful conviction and subsequent fight for justice.  It details the systemic issues within the American criminal justice system, particularly racial bias, inadequate legal representation, and the challenges faced by exonerees after release. Adams' journey from defendant to defender is highlighted, along with his work to prevent future wrongful convictions.",
+    "availabilityNotes": "Hardcover, 304 pages",
+    "sourceUrl": "https://books.google.com/books?id=sozwDwAAQBAJ&pg=PA15&dq=intitle:Redeeming+Justice:+From+Defendant+to+Defender,+My+Fight+for+Equity+on+Both+Sides+of+a+Broken+System&hl=&cd=1&source=gbs_api",
+    "externalId": "9780593137826",
+    "imagePath": "https://books.google.com/books/content?id=sozwDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "From Defendant to Defender, My Fight for Equity on Both Sides of a Broken System",
+    "pageCount": 305,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=sozwDwAAQBAJ&pg=PA15&dq=intitle:Redeeming+Justice:+From+Defendant+to+Defender,+My+Fight+for+Equity+on+Both+Sides+of+a+Broken+System&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=sozwDwAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=sozwDwAAQBAJ&rdid=book-sozwDwAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Biography & Autobiography"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780593137826",
+    "listPriceAmount": 13.99,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 13.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Redeeming Justice: From Defendant to Defender, My Fight for Equity on Both Sides of a Broken System",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Wrongful conviction, personal memoir, criminal justice reform, racial bias in the justice system",
+    "summaryNotes": "The book is a personal memoir by Jarrett Adams, recounting his wrongful conviction and subsequent fight for justice.  It details the systemic issues within the American criminal justice system, particularly racial bias, inadequate legal representation, and the challenges faced by exonerees after release. Adams' journey from defendant to defender is highlighted, along with his work to prevent future wrongful convictions.",
+    "contributingFactorCodes": [
+      "PERJURY_OR_FALSE_ACCUSATION",
+      "INADEQUATE_LEGAL_DEFENSE",
+      "RACIAL_BIAS",
+      "PROSECUTORIAL_MISCONDUCT"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Jarrett",
+      "middleName": "M.",
+      "lastName": "Adams",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Sexual Assault",
+      "convictionYear": 2000,
+      "exonerationOrReleaseYear": 2007,
+      "timeServed": "Nearly 10 years (released January 28, 2007)",
+      "sentence": "28 years",
+      "caseLocationCity": "Whitewater",
+      "caseLocationCounty": null,
+      "caseLocationState": "Wisconsin (Jefferson County)",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "PERJURY_OR_FALSE_ACCUSATION",
+        "INADEQUATE_LEGAL_DEFENSE",
+        "RACIAL_BIAS"
+      ],
+      "organizations": [
+        {
+          "name": "Wisconsin Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": "Listed in the National Registry of Exonerations"
+    },
+    {
+      "firstName": "Dimitri",
+      "middleName": null,
+      "lastName": "Henley",
+      "suffix": null,
+      "status": "UNKNOWN",
+      "claimStrength": "UNASSESSED",
+      "crimeCategoryName": "Sexual Assault",
+      "convictionYear": 2000,
+      "exonerationOrReleaseYear": null,
+      "timeServed": "Information not fully available",
+      "sentence": "20 years",
+      "caseLocationCity": "Whitewater",
+      "caseLocationCounty": null,
+      "caseLocationState": "Wisconsin",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [],
+      "organizations": [
+        {
+          "name": "Wisconsin Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": "Mentioned in National Registry of Exonerations"
+    },
+    {
+      "firstName": "Richard",
+      "middleName": null,
+      "lastName": "Beranek",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": null,
+      "convictionYear": null,
+      "exonerationOrReleaseYear": 2018,
+      "timeServed": null,
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Wisconsin",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [],
+      "organizations": [
+        {
+          "name": "Jarrett Adams was part of his legal team",
+          "type": "OTHER"
+        }
+      ],
+      "crossReferenceNotes": "Mentioned in National Registry of Exonerations"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Jarrett",
+      "middleName": null,
+      "lastName": "Adams",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

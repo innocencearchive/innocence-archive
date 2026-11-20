@@ -1,0 +1,210 @@
+{
+  "sourceFileName": "24.the_sing_sing_files.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Sing Sing Files: One Journalist, Six Innocent Men, and a Twenty-Year Fight for Justice",
+    "workType": "BOOK",
+    "creatorName": "Dan Slepian",
+    "publicationOrReleaseYear": 2024,
+    "publisherOrNetwork": "Celadon Books (Macmillan)",
+    "focusOrTheme": "A journalist's two-decade journey investigating and helping to free six innocent men wrongfully convicted of murder in New York",
+    "summaryNotes": "This book documents Dan Slepian's two-decade journey investigating and helping to free six wrongfully convicted men in New York.  His investigation, starting in 2002, revealed systemic issues like unreliable eyewitness testimony, false confessions, and police misconduct. The book highlights the challenges of addressing wrongful convictions in NYC and offers policy recommendations for reform.",
+    "availabilityNotes": "Hardcover, eBook, Audio (224 pages)",
+    "sourceUrl": "https://books.google.com/books?id=IMvpEAAAQBAJ&pg=PT74&dq=intitle:The+Sing+Sing+Files:+One+Journalist,+Six+Innocent+Men,+and+a+Twenty-Year+Fight+for+Justice&hl=&cd=1&source=gbs_api",
+    "externalId": "9781250897718",
+    "imagePath": "https://books.google.com/books/content?id=IMvpEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "One Journalist, Six Innocent Men, and a Twenty-Year Fight for Justice",
+    "pageCount": 171,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=IMvpEAAAQBAJ&pg=PT74&dq=intitle:The+Sing+Sing+Files:+One+Journalist,+Six+Innocent+Men,+and+a+Twenty-Year+Fight+for+Justice&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=IMvpEAAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=IMvpEAAAQBAJ&rdid=book-IMvpEAAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Biography & Autobiography"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781250897718",
+    "listPriceAmount": 15.99,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 15.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: The Sing Sing Files: One Journalist, Six Innocent Men, and a Twenty-Year Fight for Justice",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "A journalist's two-decade journey investigating and helping to free six innocent men wrongfully convicted of murder in New York",
+    "summaryNotes": "This book documents Dan Slepian's two-decade journey investigating and helping to free six wrongfully convicted men in New York.  His investigation, starting in 2002, revealed systemic issues like unreliable eyewitness testimony, false confessions, and police misconduct. The book highlights the challenges of addressing wrongful convictions in NYC and offers policy recommendations for reform.",
+    "contributingFactorCodes": [
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "PROSECUTORIAL_MISCONDUCT",
+      "PERJURY_OR_FALSE_ACCUSATION",
+      "POLICE_MISCONDUCT",
+      "FALSE_CONFESSION",
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Jon-Adrian",
+      "middleName": "JJ",
+      "lastName": "Velazquez",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1998,
+      "exonerationOrReleaseYear": 2024,
+      "timeServed": "Nearly 24 years",
+      "sentence": "25 years to life",
+      "caseLocationCity": "Harlem",
+      "caseLocationCounty": null,
+      "caseLocationState": "New York",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Velazquez directed Slepian to other innocent men from his cell at Sing Sing; received clemency in 2021 but remained on parole until his full exoneration",
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "PROSECUTORIAL_MISCONDUCT",
+        "PERJURY_OR_FALSE_ACCUSATION"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "David",
+      "middleName": null,
+      "lastName": "Lemus",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1990,
+      "exonerationOrReleaseYear": 2005,
+      "timeServed": "15 years",
+      "sentence": "25 years to life",
+      "caseLocationCity": "Manhattan",
+      "caseLocationCounty": null,
+      "caseLocationState": "New York",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Slepian's investigation began when a Bronx detective confided that he knew Lemus and Hidalgo were innocent because he knew who the real killers were",
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "PROSECUTORIAL_MISCONDUCT"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Olmedo",
+      "middleName": null,
+      "lastName": "Hidalgo",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1990,
+      "exonerationOrReleaseYear": 2005,
+      "timeServed": "15 years",
+      "sentence": "25 years to life",
+      "caseLocationCity": "Manhattan",
+      "caseLocationCounty": null,
+      "caseLocationState": "New York",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Slepian interviewed the actual gunman, which caused key eyewitnesses to acknowledge they were wrong",
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "PROSECUTORIAL_MISCONDUCT"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Eric",
+      "middleName": null,
+      "lastName": "Glisson",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1995,
+      "exonerationOrReleaseYear": 2013,
+      "timeServed": "Nearly 18 years",
+      "sentence": "25 years to life",
+      "caseLocationCity": "Bronx",
+      "caseLocationCounty": null,
+      "caseLocationState": "New York",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "His case contributed to broader debates about police reform and the integrity of criminal investigations",
+      "contributingFactorCodes": [
+        "POLICE_MISCONDUCT"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Johnny",
+      "middleName": null,
+      "lastName": "Hincapie",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1990,
+      "exonerationOrReleaseYear": 2015,
+      "timeServed": "25 years",
+      "sentence": "25 years to life",
+      "caseLocationCity": "Manhattan",
+      "caseLocationCounty": null,
+      "caseLocationState": "New York",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "His case highlights the particular vulnerability of juveniles to coercive interrogation techniques",
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Richard",
+      "middleName": null,
+      "lastName": "Rosario",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1996,
+      "exonerationOrReleaseYear": 2016,
+      "timeServed": "20 years",
+      "sentence": "25 years to life",
+      "caseLocationCity": "Bronx",
+      "caseLocationCounty": null,
+      "caseLocationState": "New York",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "His alibi witnesses included a police officer, a federal corrections officer, and a pastor, but authorities and his trial attorneys didn't follow up with them",
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "INADEQUATE_LEGAL_DEFENSE"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Dan",
+      "middleName": null,
+      "lastName": "Slepian",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "sourceFileName": "31.shattered_justice.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Shattered Justice: Crime Victims' Experiences with Wrongful Convictions and Exonerations",
+    "workType": "BOOK",
+    "creatorName": "Kimberly J. Cook",
+    "publicationOrReleaseYear": 2022,
+    "publisherOrNetwork": "Rutgers University Press",
+    "focusOrTheme": "Examines the experiences of crime victims and their family members when the person convicted of the crime is later exonerated",
+    "summaryNotes": "\"Shattered Justice: Crime Victims' Experiences with Wrongful Convictions and Exonerations\" by Kimberly J. Cook offers a unique perspective by focusing on the experiences of original crime victims and their families in cases with wrongful convictions and later exonerations.  The book, based on interviews with 21 crime victims, details the primary (original crime), secondary (investigations and trials), and tertiary (exoneration) trauma experienced. It explores themes of grief, loss, healing, and repair, advocating for restorative justice practices and policy reforms to prevent and mitigate the harms of wrongful convictions.",
+    "availabilityNotes": "Paperback (224 pages), Hardcover, EPUB, PDF",
+    "sourceUrl": "https://books.google.com/books?id=2T-DEAAAQBAJ&printsec=frontcover&dq=intitle:Shattered+Justice:+Crime+Victims%27+Experiences+with+Wrongful+Convictions+and+Exonerations&hl=&cd=1&source=gbs_api",
+    "externalId": "9781978820357",
+    "imagePath": "https://books.google.com/books/content?id=2T-DEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Crime Victims' Experiences with Wrongful Convictions and Exonerations",
+    "pageCount": 225,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=2T-DEAAAQBAJ&printsec=frontcover&dq=intitle:Shattered+Justice:+Crime+Victims%27+Experiences+with+Wrongful+Convictions+and+Exonerations&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=2T-DEAAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "Law"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781978820357",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Shattered Justice: Crime Victims' Experiences with Wrongful Convictions and Exonerations",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Examines the experiences of crime victims and their family members when the person convicted of the crime is later exonerated",
+    "summaryNotes": "\"Shattered Justice: Crime Victims' Experiences with Wrongful Convictions and Exonerations\" by Kimberly J. Cook offers a unique perspective by focusing on the experiences of original crime victims and their families in cases with wrongful convictions and later exonerations.  The book, based on interviews with 21 crime victims, details the primary (original crime), secondary (investigations and trials), and tertiary (exoneration) trauma experienced. It explores themes of grief, loss, healing, and repair, advocating for restorative justice practices and policy reforms to prevent and mitigate the harms of wrongful convictions.",
+    "contributingFactorCodes": [],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [],
+  "involvedPersons": [
+    {
+      "firstName": "Kimberly",
+      "middleName": "J.",
+      "lastName": "Cook",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

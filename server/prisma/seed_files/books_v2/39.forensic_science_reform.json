@@ -1,0 +1,134 @@
+{
+  "sourceFileName": "39.forensic_science_reform.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Forensic Science Reform: Protecting the Innocent",
+    "workType": "BOOK",
+    "creatorName": "Wendy J. Koen and C. Michael Bowers (Editors)",
+    "publicationOrReleaseYear": 2017,
+    "publisherOrNetwork": "Academic Press (Elsevier)",
+    "focusOrTheme": "Examination of flawed forensic science practices that contribute to wrongful convictions and reforms needed to protect innocent people",
+    "summaryNotes": "This book examines flawed forensic science practices contributing to wrongful convictions and proposes reforms. It simplifies complex scientific information for non-scientists, using case studies to illustrate problems and solutions.  The book is a resource for legal professionals, innocence projects, and educational institutions.",
+    "availabilityNotes": "Hardcover, eBook",
+    "sourceUrl": "https://books.google.com/books?id=kkhAvgAACAAJ&dq=intitle:Forensic+Science+Reform:+Protecting+the+Innocent&hl=&cd=1&source=gbs_api",
+    "externalId": "9780128027196",
+    "imagePath": "https://books.google.com/books/content?id=kkhAvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Protecting the Innocent",
+    "pageCount": null,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=kkhAvgAACAAJ&dq=intitle:Forensic+Science+Reform:+Protecting+the+Innocent&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=kkhAvgAACAAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "Law"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780128027196",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "NO_PAGES"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Forensic Science Reform: Protecting the Innocent",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Examination of flawed forensic science practices that contribute to wrongful convictions and reforms needed to protect innocent people",
+    "summaryNotes": "This book examines flawed forensic science practices contributing to wrongful convictions and proposes reforms. It simplifies complex scientific information for non-scientists, using case studies to illustrate problems and solutions.  The book is a resource for legal professionals, innocence projects, and educational institutions.",
+    "contributingFactorCodes": [
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Brandon",
+      "middleName": null,
+      "lastName": "Mayfield",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Other",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServed": null,
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": null,
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Illustrates how fingerprint identification can go completely wrong even when conducted by highly trusted practitioners",
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": "Chapter 11"
+    },
+    {
+      "firstName": "Lana",
+      "middleName": null,
+      "lastName": "Canen",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServed": "8 years",
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": null,
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Case demonstrates the injustice that follows when unqualified fingerprint \"experts\" give evidence",
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": "Chapter 11"
+    },
+    {
+      "firstName": "David",
+      "middleName": null,
+      "lastName": "Camm",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Other",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServed": null,
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": null,
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Case used to illustrate problems with bloodstain pattern analysis evidence",
+      "contributingFactorCodes": [],
+      "organizations": [],
+      "crossReferenceNotes": "Chapter 9"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Wendy",
+      "middleName": "J.",
+      "lastName": "Koen",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "C.",
+      "middleName": "Michael",
+      "lastName": "Bowers",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

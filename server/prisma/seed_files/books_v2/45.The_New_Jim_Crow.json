@@ -1,0 +1,66 @@
+{
+  "sourceFileName": "45.The_New_Jim_Crow.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The New Jim Crow: Mass Incarceration in the Age of Colorblindness",
+    "workType": "BOOK",
+    "creatorName": "Michelle Alexander (with foreword by Cornel West in anniversary edition)",
+    "publicationOrReleaseYear": 2010,
+    "publisherOrNetwork": "The New Press",
+    "focusOrTheme": "Mass incarceration as a system of racial control, War on Drugs, racial disparities in criminal justice system, systemic racism",
+    "summaryNotes": "This book, while not focused specifically on individual wrongful conviction cases, provides essential context for understanding the systemic factors that contribute to wrongful convictions. Alexander argues that the criminal justice system operates more like a caste system than a system of crime control, which creates conditions where wrongful convictions are more likely to occur and less likely to be addressed, particularly for people of color.  The book has been highly influential in criminal justice reform movements and has been cited in judicial decisions. It provides a framework for understanding how racial bias operates within seemingly race-neutral policies and practices in the criminal justice system.",
+    "availabilityNotes": "Hardcover, paperback, e-book, audiobook",
+    "sourceUrl": "https://books.google.com/books?id=reDzBZ3pXqsC&printsec=frontcover&dq=intitle:The+New+Jim+Crow:+Mass+Incarceration+in+the+Age+of+Colorblindness&hl=&cd=1&source=gbs_api",
+    "externalId": "9781595588197",
+    "imagePath": "https://books.google.com/books/content?id=reDzBZ3pXqsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": null,
+    "pageCount": 337,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=reDzBZ3pXqsC&printsec=frontcover&dq=intitle:The+New+Jim+Crow:+Mass+Incarceration+in+the+Age+of+Colorblindness&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=reDzBZ3pXqsC&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "Social Science"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781595588197",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: The New Jim Crow: Mass Incarceration in the Age of Colorblindness",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Mass incarceration as a system of racial control, War on Drugs, racial disparities in criminal justice system, systemic racism",
+    "summaryNotes": "This book, while not focused specifically on individual wrongful conviction cases, provides essential context for understanding the systemic factors that contribute to wrongful convictions. Alexander argues that the criminal justice system operates more like a caste system than a system of crime control, which creates conditions where wrongful convictions are more likely to occur and less likely to be addressed, particularly for people of color.  The book has been highly influential in criminal justice reform movements and has been cited in judicial decisions. It provides a framework for understanding how racial bias operates within seemingly race-neutral policies and practices in the criminal justice system.",
+    "contributingFactorCodes": [
+      "RACIAL_BIAS"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [],
+  "involvedPersons": [
+    {
+      "firstName": "Michelle",
+      "middleName": null,
+      "lastName": "Alexander",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Cornel",
+      "middleName": null,
+      "lastName": "West",
+      "suffix": null,
+      "role": "OTHER"
+    }
+  ]
+}

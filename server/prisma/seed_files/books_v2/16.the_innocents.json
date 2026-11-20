@@ -1,0 +1,122 @@
+{
+  "sourceFileName": "16.the_innocents.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Innocents",
+    "workType": "BOOK",
+    "creatorName": "Taryn Simon",
+    "publicationOrReleaseYear": 2022,
+    "publisherOrNetwork": "MoMA Publications (2022 reissue)",
+    "focusOrTheme": "Photography's role in wrongful convictions, particularly through eyewitness misidentification",
+    "summaryNotes": "This photography book documents 46 cases of wrongful conviction, focusing on the role of photography and eyewitness misidentification in these cases.  It features photographs of each individual at a significant site related to their case, alongside narratives of their experiences. The book highlights systemic issues within the criminal justice system and offers policy recommendations for reform.",
+    "availabilityNotes": "Photography book with text",
+    "sourceUrl": "https://books.google.com/books?id=9kg_9fHi6roC&printsec=frontcover&dq=intitle:The+Innocents&hl=&cd=1&source=gbs_api",
+    "externalId": "9781565128736",
+    "imagePath": "https://books.google.com/books/content?id=9kg_9fHi6roC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "A Novel",
+    "pageCount": 301,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=9kg_9fHi6roC&printsec=frontcover&dq=intitle:The+Innocents&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=9kg_9fHi6roC&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=9kg_9fHi6roC&rdid=book-9kg_9fHi6roC&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Fiction"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781565128736",
+    "listPriceAmount": 11.99,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 11.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: The Innocents",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Photography's role in wrongful convictions, particularly through eyewitness misidentification",
+    "summaryNotes": "This photography book documents 46 cases of wrongful conviction, focusing on the role of photography and eyewitness misidentification in these cases.  It features photographs of each individual at a significant site related to their case, alongside narratives of their experiences. The book highlights systemic issues within the criminal justice system and offers policy recommendations for reform.",
+    "contributingFactorCodes": [
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "RACIAL_BIAS",
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Troy",
+      "middleName": null,
+      "lastName": "Webb",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Other",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServed": "7 years",
+      "sentence": "47-year sentence",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": null,
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "RACIAL_BIAS",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "The Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Charles",
+      "middleName": "Irvin",
+      "lastName": "Fain",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Other",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServed": "18 years",
+      "sentence": "Death sentence",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": null,
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "RACIAL_BIAS",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "The Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Taryn",
+      "middleName": null,
+      "lastName": "Simon",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

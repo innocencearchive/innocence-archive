@@ -1,0 +1,99 @@
+{
+  "sourceFileName": "51. Justice_Failed.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Justice Failed: How \"Legal Ethics\" Kept Me in Prison for 26 Years",
+    "workType": "BOOK",
+    "creatorName": "Alton Logan and Berl Falbaum",
+    "publicationOrReleaseYear": 2017,
+    "publisherOrNetwork": "Counterpoint",
+    "focusOrTheme": "Wrongful conviction, attorney-client privilege, legal ethics, criminal justice system failures",
+    "summaryNotes": "This book tells the extraordinary story of Alton Logan, who was wrongfully convicted of murdering Lloyd Wickliffe at a Chicago McDonald's in 1982. The true killer, Andrew Wilson, confessed to his attorneys Dale Coventry and Jamie Kunz shortly after Logan's conviction.  Bound by attorney-client privilege, they couldn't disclose this information, instead creating a signed affidavit to be revealed after Wilson's death. Wilson died in 2007, leading to Logan's exoneration in 2008 after 26 years. The book explores the ethical dilemma faced by the attorneys and questions the balance between attorney-client privilege and justice.",
+    "availabilityNotes": "Hardcover, paperback, e-book",
+    "sourceUrl": "https://books.google.com/books?id=geAREAAAQBAJ&printsec=frontcover&dq=intitle:Justice+Failed:+How+%22Legal+Ethics%22+Kept+Me+in+Prison+for+26+Years&hl=&cd=1&source=gbs_api",
+    "externalId": "9781619029941",
+    "imagePath": "https://books.google.com/books/content?id=geAREAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "How \"Legal Ethics\" Kept Me in Prison for 26 Years",
+    "pageCount": 178,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=geAREAAAQBAJ&printsec=frontcover&dq=intitle:Justice+Failed:+How+%22Legal+Ethics%22+Kept+Me+in+Prison+for+26+Years&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=geAREAAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=geAREAAAQBAJ&rdid=book-geAREAAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Social Science"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781619029941",
+    "listPriceAmount": 11.99,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 11.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Justice Failed: How \"Legal Ethics\" Kept Me in Prison for 26 Years",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Wrongful conviction, attorney-client privilege, legal ethics, criminal justice system failures",
+    "summaryNotes": "This book tells the extraordinary story of Alton Logan, who was wrongfully convicted of murdering Lloyd Wickliffe at a Chicago McDonald's in 1982. The true killer, Andrew Wilson, confessed to his attorneys Dale Coventry and Jamie Kunz shortly after Logan's conviction.  Bound by attorney-client privilege, they couldn't disclose this information, instead creating a signed affidavit to be revealed after Wilson's death. Wilson died in 2007, leading to Logan's exoneration in 2008 after 26 years. The book explores the ethical dilemma faced by the attorneys and questions the balance between attorney-client privilege and justice.",
+    "contributingFactorCodes": [
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "WITHHELD_EXCULPATORY_EVIDENCE",
+      "RACIAL_BIAS"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Alton",
+      "middleName": null,
+      "lastName": "Logan",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1983,
+      "exonerationOrReleaseYear": 2008,
+      "timeServed": "26 years",
+      "sentence": "Life imprisonment",
+      "caseLocationCity": "Chicago",
+      "caseLocationCounty": null,
+      "caseLocationState": "Illinois",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "Northwestern University Law School's Center on Wrongful Convictions",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": "Yes, appears in the National Registry of Exonerations"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Alton",
+      "middleName": null,
+      "lastName": "Logan",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Berl",
+      "middleName": null,
+      "lastName": "Falbaum",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

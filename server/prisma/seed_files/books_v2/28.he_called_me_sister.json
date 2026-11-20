@@ -1,0 +1,97 @@
+{
+  "sourceFileName": "28.he_called_me_sister.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "He Called Me Sister: A True Story of Finding Humanity on Death Row",
+    "workType": "BOOK",
+    "creatorName": "Suzanne Craig Robertson (with foreword by Sister Helen Prejean and preface by Bill Moyers)",
+    "publicationOrReleaseYear": 2023,
+    "publisherOrNetwork": "Morehouse Publishing",
+    "focusOrTheme": "A memoir about the author's 15-year friendship with Cecil Johnson, a man on death row, and how their relationship transcended barriers of race, privilege, and circumstance",
+    "summaryNotes": "\"He Called Me Sister: A True Story of Finding Humanity on Death Row\" is not primarily focused on wrongful conviction or claims of innocence, but rather on the personal relationship that developed between the author and Cecil Johnson, a man on death row. The book offers a unique perspective on death row by focusing on the human connections that can form even in such difficult circumstances.\n\nThe story begins when the author's husband, Alan Robertson, signed up through a church program to visit Cecil Johnson on death row, offering friendship and compassion. Initially, Suzanne had no intention of being involved, but gradually, through phone calls and letters, she began to empathize with and understand Johnson. Over time, they developed a close friendship that transcended differences of race, privilege, and circumstance.\n\nThe book recounts their fifteen-year friendship and how trust and compassion were forged despite the difficult circumstances. Interestingly, the author notes that Cecil ended up ministering more to her family than they did to him, highlighting his capacity for care and compassion despite his situation.\n\nWhile the book does not appear to make explicit claims about Johnson's innocence or argue that he was wrongfully convicted, it does mention that his conviction was based on eyewitness testimony without physical evidence, murder weapon, or recovered robbery proceeds. Eyewitness misidentification is known to be a leading cause of wrongful convictions, which raises questions about the reliability of the evidence in his case.\n\nThe book serves as a reminder of the humanity of people on death row and challenges readers to look beyond labels and circumstances to see the person beneath. It also implicitly raises questions about the death penalty system and its impact on all involved, including the families of those executed and the families of victims.",
+    "availabilityNotes": "Hardcover, 240 pages",
+    "sourceUrl": "https://books.google.com/books?id=p-c5zwEACAAJ&dq=intitle:He+Called+Me+Sister:+A+True+Story+of+Finding+Humanity+on+Death+Row&hl=&cd=1&source=gbs_api",
+    "externalId": "9781640655959",
+    "imagePath": "https://books.google.com/books/content?id=p-c5zwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "A True Story of Finding Humanity on Death Row",
+    "pageCount": 240,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=p-c5zwEACAAJ&dq=intitle:He+Called+Me+Sister:+A+True+Story+of+Finding+Humanity+on+Death+Row&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=p-c5zwEACAAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781640655959",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "NO_PAGES"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: He Called Me Sister: A True Story of Finding Humanity on Death Row",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "A memoir about the author's 15-year friendship with Cecil Johnson, a man on death row, and how their relationship transcended barriers of race, privilege, and circumstance",
+    "summaryNotes": "\"He Called Me Sister: A True Story of Finding Humanity on Death Row\" is not primarily focused on wrongful conviction or claims of innocence, but rather on the personal relationship that developed between the author and Cecil Johnson, a man on death row. The book offers a unique perspective on death row by focusing on the human connections that can form even in such difficult circumstances.\n\nThe story begins when the author's husband, Alan Robertson, signed up through a church program to visit Cecil Johnson on death row, offering friendship and compassion. Initially, Suzanne had no intention of being involved, but gradually, through phone calls and letters, she began to empathize with and understand Johnson. Over time, they developed a close friendship that transcended differences of race, privilege, and circumstance.\n\nThe book recounts their fifteen-year friendship and how trust and compassion were forged despite the difficult circumstances. Interestingly, the author notes that Cecil ended up ministering more to her family than they did to him, highlighting his capacity for care and compassion despite his situation.\n\nWhile the book does not appear to make explicit claims about Johnson's innocence or argue that he was wrongfully convicted, it does mention that his conviction was based on eyewitness testimony without physical evidence, murder weapon, or recovered robbery proceeds. Eyewitness misidentification is known to be a leading cause of wrongful convictions, which raises questions about the reliability of the evidence in his case.\n\nThe book serves as a reminder of the humanity of people on death row and challenges readers to look beyond labels and circumstances to see the person beneath. It also implicitly raises questions about the death penalty system and its impact on all involved, including the families of those executed and the families of victims.",
+    "contributingFactorCodes": [
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "RACIAL_BIAS"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Cecil",
+      "middleName": null,
+      "lastName": "Johnson",
+      "suffix": null,
+      "status": "EXECUTED",
+      "claimStrength": "UNASSESSED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1981,
+      "exonerationOrReleaseYear": 2009,
+      "timeServed": "29 years on death row",
+      "sentence": "Death penalty",
+      "caseLocationCity": "Nashville",
+      "caseLocationCounty": null,
+      "caseLocationState": "Tennessee",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "While the book does not primarily focus on claims of innocence or wrongful conviction, it does highlight the humanity of a person on death row and the relationships he formed",
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "RACIAL_BIAS"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": "His case has been documented in Tennessee death penalty literature"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Suzanne",
+      "middleName": "Craig",
+      "lastName": "Robertson",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Sister",
+      "middleName": "Helen",
+      "lastName": "Prejean",
+      "suffix": null,
+      "role": "OTHER"
+    },
+    {
+      "firstName": "Bill",
+      "middleName": null,
+      "lastName": "Moyers",
+      "suffix": null,
+      "role": "OTHER"
+    }
+  ]
+}

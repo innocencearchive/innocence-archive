@@ -1,0 +1,59 @@
+{
+  "sourceFileName": "14.duped.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Duped: Why Innocent People Confess — and Why We Believe Their Confessions",
+    "workType": "BOOK",
+    "creatorName": "Saul M. Kassin, Ph.D.",
+    "publicationOrReleaseYear": 2022,
+    "publisherOrNetwork": "Prometheus Books",
+    "focusOrTheme": "Analysis of false confessions, why innocent people confess to crimes they didn't commit, and why others believe these false confessions",
+    "summaryNotes": "This book examines the psychological mechanisms behind false confessions, exploring how police interrogation techniques, psychological pressure, and manipulation lead innocent individuals to confess.  It also analyzes why these confessions are often believed despite contradictory evidence, and connects false confessions to wrongful convictions.  The book offers science-based recommendations for reducing false confessions.",
+    "availabilityNotes": "Hardcover, ebook, 368 pages",
+    "sourceUrl": "https://books.google.com/books?id=qllZEAAAQBAJ&printsec=frontcover&dq=intitle:Duped:+Why+Innocent+People+Confess+%E2%80%94+and+Why+We+Believe+Their+Confessions&hl=&cd=1&source=gbs_api",
+    "externalId": "9781633888098",
+    "imagePath": "https://books.google.com/books/content?id=qllZEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Why Innocent People Confess – and Why We Believe Their Confessions",
+    "pageCount": 421,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=qllZEAAAQBAJ&printsec=frontcover&dq=intitle:Duped:+Why+Innocent+People+Confess+%E2%80%94+and+Why+We+Believe+Their+Confessions&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=qllZEAAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=qllZEAAAQBAJ&rdid=book-qllZEAAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Psychology"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781633888098",
+    "listPriceAmount": 28.5,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 28.5,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Duped: Why Innocent People Confess — and Why We Believe Their Confessions",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Analysis of false confessions, why innocent people confess to crimes they didn't commit, and why others believe these false confessions",
+    "summaryNotes": "This book examines the psychological mechanisms behind false confessions, exploring how police interrogation techniques, psychological pressure, and manipulation lead innocent individuals to confess.  It also analyzes why these confessions are often believed despite contradictory evidence, and connects false confessions to wrongful convictions.  The book offers science-based recommendations for reducing false confessions.",
+    "contributingFactorCodes": [
+      "FALSE_CONFESSION"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [],
+  "involvedPersons": [
+    {
+      "firstName": "Saul",
+      "middleName": "M.",
+      "lastName": "Kassin",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

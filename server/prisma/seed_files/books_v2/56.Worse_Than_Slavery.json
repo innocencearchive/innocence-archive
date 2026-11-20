@@ -1,0 +1,117 @@
+{
+  "sourceFileName": "56.Worse_Than_Slavery.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Worse Than Slavery: Parchman Farm And The Ordeal Of Jim Crow Justice",
+    "workType": "BOOK",
+    "creatorName": "David M. Oshinsky",
+    "publicationOrReleaseYear": 1996,
+    "publisherOrNetwork": "Free Press",
+    "focusOrTheme": "The history of Parchman Farm penitentiary in Mississippi and how the criminal justice system was used to maintain racial control after slavery",
+    "summaryNotes": "\"Worse Than Slavery\" provides a comprehensive historical account of how the criminal justice system in the post-Civil War South, particularly in Mississippi, was designed to maintain racial control after the formal abolition of slavery.  The book focuses on Parchman Farm, its notorious state penitentiary, modeled after a slave plantation and synonymous with cruelty and inhumanity. Oshinsky documents how the system was weaponized against Black Americans through Black Codes and convict leasing, effectively circumventing the 13th Amendment.  While not focused on wrongful convictions, it provides context for understanding how the system was designed to control and exploit Black Americans, explaining the environment for later wrongful convictions. The book highlights the continuity between historical injustices and contemporary failures, exemplified by the cases of Levon Brooks and Kennedy Brewer.",
+    "availabilityNotes": "Hardcover, paperback",
+    "sourceUrl": "https://books.google.com/books?id=lgRYuftJ6wQC&printsec=frontcover&dq=intitle:Worse+Than+Slavery:+Parchman+Farm+And+The+Ordeal+Of+Jim+Crow+Justice&hl=&cd=1&source=gbs_api",
+    "externalId": "9781439107744",
+    "imagePath": "https://books.google.com/books/content?id=lgRYuftJ6wQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": null,
+    "pageCount": 324,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=lgRYuftJ6wQC&printsec=frontcover&dq=intitle:Worse+Than+Slavery:+Parchman+Farm+And+The+Ordeal+Of+Jim+Crow+Justice&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=lgRYuftJ6wQC&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=lgRYuftJ6wQC&rdid=book-lgRYuftJ6wQC&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Social Science"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781439107744",
+    "listPriceAmount": 15.99,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 15.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Worse Than Slavery: Parchman Farm And The Ordeal Of Jim Crow Justice",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "The history of Parchman Farm penitentiary in Mississippi and how the criminal justice system was used to maintain racial control after slavery",
+    "summaryNotes": "\"Worse Than Slavery\" provides a comprehensive historical account of how the criminal justice system in the post-Civil War South, particularly in Mississippi, was designed to maintain racial control after the formal abolition of slavery.  The book focuses on Parchman Farm, its notorious state penitentiary, modeled after a slave plantation and synonymous with cruelty and inhumanity. Oshinsky documents how the system was weaponized against Black Americans through Black Codes and convict leasing, effectively circumventing the 13th Amendment.  While not focused on wrongful convictions, it provides context for understanding how the system was designed to control and exploit Black Americans, explaining the environment for later wrongful convictions. The book highlights the continuity between historical injustices and contemporary failures, exemplified by the cases of Levon Brooks and Kennedy Brewer.",
+    "contributingFactorCodes": [
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "RACIAL_BIAS"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Levon",
+      "middleName": null,
+      "lastName": "Brooks",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1992,
+      "exonerationOrReleaseYear": 2008,
+      "timeServed": "16 years",
+      "sentence": "Life in prison",
+      "caseLocationCity": null,
+      "caseLocationCounty": "Noxubee County",
+      "caseLocationState": "Mississippi",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "The Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Kennedy",
+      "middleName": null,
+      "lastName": "Brewer",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1995,
+      "exonerationOrReleaseYear": 2008,
+      "timeServed": "13 years (7 on death row)",
+      "sentence": "Death row",
+      "caseLocationCity": null,
+      "caseLocationCounty": "Noxubee County",
+      "caseLocationState": "Mississippi",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "The Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "David",
+      "middleName": "M.",
+      "lastName": "Oshinsky",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

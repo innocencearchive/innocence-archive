@@ -1,0 +1,103 @@
+{
+  "sourceFileName": "57_Grace_and_Justice_on_Death_Row.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Grace and Justice on Death Row: The Race against Time and Texas to Free an Innocent Man",
+    "workType": "BOOK",
+    "creatorName": "Brian W. Stolarz",
+    "publicationOrReleaseYear": 2016,
+    "publisherOrNetwork": "Skyhorse Publishing",
+    "focusOrTheme": "Wrongful conviction, death penalty, prosecutorial misconduct, attorney-client relationship",
+    "summaryNotes": "The book details the legal battle to free Alfred Dewayne Brown from death row, exploring the attorney-client relationship that evolved into a deep brotherhood. It provides a firsthand account of flaws in the criminal justice system, offering a story of hope and redemption.  The foreword is by Sister Helen Prejean.  The book highlights Brown's wrongful conviction for capital murder, focusing on prosecutorial misconduct, withheld evidence, and coerced witness testimony.",
+    "availabilityNotes": "Hardcover, 228 pages",
+    "sourceUrl": "https://books.google.com/books?id=CEN1EAAAQBAJ&pg=PT220&dq=intitle:Grace+and+Justice+on+Death+Row:+The+Race+against+Time+and+Texas+to+Free+an+Innocent+Man&hl=&cd=1&source=gbs_api",
+    "externalId": "9781510715127",
+    "imagePath": "https://books.google.com/books/content?id=CEN1EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "The Race against Time and Texas to Free an Innocent Man",
+    "pageCount": 307,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=CEN1EAAAQBAJ&pg=PT220&dq=intitle:Grace+and+Justice+on+Death+Row:+The+Race+against+Time+and+Texas+to+Free+an+Innocent+Man&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=CEN1EAAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=CEN1EAAAQBAJ&rdid=book-CEN1EAAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Law"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781510715127",
+    "listPriceAmount": 16.99,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 16.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Grace and Justice on Death Row: The Race against Time and Texas to Free an Innocent Man",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Wrongful conviction, death penalty, prosecutorial misconduct, attorney-client relationship",
+    "summaryNotes": "The book details the legal battle to free Alfred Dewayne Brown from death row, exploring the attorney-client relationship that evolved into a deep brotherhood. It provides a firsthand account of flaws in the criminal justice system, offering a story of hope and redemption.  The foreword is by Sister Helen Prejean.  The book highlights Brown's wrongful conviction for capital murder, focusing on prosecutorial misconduct, withheld evidence, and coerced witness testimony.",
+    "contributingFactorCodes": [
+      "PERJURY_OR_FALSE_ACCUSATION",
+      "WITHHELD_EXCULPATORY_EVIDENCE",
+      "OFFICIAL_MISCONDUCT",
+      "PROSECUTORIAL_MISCONDUCT",
+      "INADEQUATE_LEGAL_DEFENSE",
+      "RACIAL_BIAS"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Alfred",
+      "middleName": "Dewayne",
+      "lastName": "Brown",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 2005,
+      "exonerationOrReleaseYear": 2015,
+      "timeServed": "Approximately 12 years (10 on death row)",
+      "sentence": "Death",
+      "caseLocationCity": "Houston",
+      "caseLocationCounty": null,
+      "caseLocationState": "Texas",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "PERJURY_OR_FALSE_ACCUSATION",
+        "WITHHELD_EXCULPATORY_EVIDENCE",
+        "OFFICIAL_MISCONDUCT"
+      ],
+      "organizations": [
+        {
+          "name": "Brian Stolarz and his legal team",
+          "type": "OTHER"
+        },
+        {
+          "name": "Texas Court of Criminal Appeals",
+          "type": "GOVERNMENT_AGENCY"
+        },
+        {
+          "name": "Harris County District Attorney's Office",
+          "type": "LAW_ENFORCEMENT"
+        }
+      ],
+      "crossReferenceNotes": "Listed in the National Registry of Exonerations"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Brian",
+      "middleName": "W.",
+      "lastName": "Stolarz",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

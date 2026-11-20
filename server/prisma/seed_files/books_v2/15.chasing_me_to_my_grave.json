@@ -1,0 +1,92 @@
+{
+  "sourceFileName": "15.chasing_me_to_my_grave.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Chasing Me to My Grave: An Artist's Memoir of the Jim Crow South",
+    "workType": "BOOK",
+    "creatorName": "Winfred Rembert with Erin I. Kelly",
+    "publicationOrReleaseYear": 2021,
+    "publisherOrNetwork": "Bloomsbury Publishing",
+    "focusOrTheme": "Memoir of survival and artistry during the Jim Crow era, including wrongful arrest and incarceration",
+    "summaryNotes": "A memoir combining prose and painted leather, this book recounts the author's survival and artistic journey during the Jim Crow era.  It details his wrongful arrest and incarceration, highlighting systemic racism and lack of due process within the legal system. The book offers a first-person account of enduring an unjust system,  combining personal narrative with visual art to process trauma and historical injustice.",
+    "availabilityNotes": "Hardcover, paperback, ebook, 304 pages with 4-color images throughout",
+    "sourceUrl": "https://books.google.com/books?id=Ka0aEAAAQBAJ&printsec=frontcover&dq=intitle:Chasing+Me+to+My+Grave:+An+Artist%27s+Memoir+of+the+Jim+Crow+South&hl=&cd=1&source=gbs_api",
+    "externalId": "9781635576603",
+    "imagePath": "https://books.google.com/books/content?id=Ka0aEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "An Artist's Memoir of the Jim Crow South",
+    "pageCount": 330,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=Ka0aEAAAQBAJ&printsec=frontcover&dq=intitle:Chasing+Me+to+My+Grave:+An+Artist%27s+Memoir+of+the+Jim+Crow+South&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=Ka0aEAAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=Ka0aEAAAQBAJ&rdid=book-Ka0aEAAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Biography & Autobiography"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781635576603",
+    "listPriceAmount": 18.39,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 9.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Chasing Me to My Grave: An Artist's Memoir of the Jim Crow South",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Memoir of survival and artistry during the Jim Crow era, including wrongful arrest and incarceration",
+    "summaryNotes": "A memoir combining prose and painted leather, this book recounts the author's survival and artistic journey during the Jim Crow era.  It details his wrongful arrest and incarceration, highlighting systemic racism and lack of due process within the legal system. The book offers a first-person account of enduring an unjust system,  combining personal narrative with visual art to process trauma and historical injustice.",
+    "contributingFactorCodes": [
+      "RACIAL_BIAS",
+      "POLICE_MISCONDUCT"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Winfred",
+      "middleName": null,
+      "lastName": "Rembert",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Other",
+      "convictionYear": 1960,
+      "exonerationOrReleaseYear": null,
+      "timeServed": "More than a year",
+      "sentence": "Illegally detained for more than a year without charges",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Georgia",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "RACIAL_BIAS",
+        "POLICE_MISCONDUCT"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Winfred",
+      "middleName": null,
+      "lastName": "Rembert",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Erin",
+      "middleName": "I.",
+      "lastName": "Kelly",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

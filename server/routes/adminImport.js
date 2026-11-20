@@ -298,6 +298,81 @@ router.post('/preview', async (req, res) => {
   const batchId = `import_${targetType.toLowerCase()}_${Date.now()}`;
 
   try {
+    if (targetType === 'BOOK_BUNDLE') {
+      const existingBooks = await prisma.mediaWork.findMany({
+        where: { workType: 'BOOK' },
+        select: { id: true, title: true, externalId: true, verificationStatus: true },
+      });
+      const byTitle = new Map(existingBooks.map((b) => [normStr(b.title), b]));
+      const byIsbn = new Map(
+        existingBooks.filter((b) => b.externalId).map((b) => [normStr(b.externalId), b])
+      );
+
+      const previewRows = rawRecords.map((rec, idx) => {
+        const mw = rec.mediaWork || rec.media_work || {};
+        const mi = rec.mediaItem || rec.media_item || {};
+        const bpd = rec.bookPurchaseDetails || null;
+        const featuredIndividuals = rec.featuredIndividuals || rec.featured_individuals || [];
+        const involvedPersons = rec.involvedPersons || rec.involved_persons || [];
+        const title = (mw.title || '').trim();
+        const externalId = mw.externalId ? String(mw.externalId).trim() : null;
+        const warnings = Array.isArray(rec.reviewWarnings) ? [...rec.reviewWarnings] : [];
+
+        let matchStatus = 'NEW';
+        let existingMatch = null;
+        let action = 'CREATE';
+
+        if (!title) {
+          matchStatus = 'INVALID';
+          action = 'SKIP';
+          warnings.push('Missing book title.');
+        } else {
+          const exact =
+            (externalId && byIsbn.get(normStr(externalId))) || byTitle.get(normStr(title)) || null;
+          if (exact) {
+            matchStatus = 'EXACT_MATCH';
+            existingMatch = exact;
+            action = 'MERGE';
+          }
+        }
+
+        return {
+          rowIndex: idx + 1,
+          matchStatus,
+          action,
+          existingMatch,
+          warnings,
+          data: {
+            sourceFileName: rec.sourceFileName || null,
+            mediaWork: {
+              ...mw,
+              title,
+              workType: 'BOOK',
+              externalId,
+            },
+            bookPurchaseDetails: bpd,
+            mediaItem: {
+              ...mi,
+              itemTitle: mi.itemTitle || `Book Content: ${title}`,
+              itemMediaType: 'BOOK_CONTENT',
+            },
+            featuredIndividuals,
+            involvedPersons,
+          },
+        };
+      });
+
+      const summary = {
+        total: previewRows.length,
+        new: previewRows.filter((r) => r.matchStatus === 'NEW').length,
+        exactMatch: previewRows.filter((r) => r.matchStatus === 'EXACT_MATCH').length,
+        fuzzyDuplicate: 0,
+        invalid: previewRows.filter((r) => r.matchStatus === 'INVALID').length,
+      };
+
+      return res.json({ batchId, targetType: 'BOOK_BUNDLE', summary, rows: previewRows });
+    }
+
     if (targetType === 'ORGANIZATION') {
       const existingOrgs = await prisma.organization.findMany({
         select: { id: true, name: true, type: true, locationState: true, verificationStatus: true },
@@ -594,6 +669,286 @@ router.post('/commit', async (req, res) => {
   const errors = [];
 
   try {
+    if (targetType === 'BOOK_BUNDLE') {
+      const [allCrimes, allFactors] = await Promise.all([
+        prisma.crimeCategory.findMany(),
+        prisma.contributingFactor.findMany(),
+      ]);
+      const crimeIdByName = new Map(allCrimes.map((c) => [normStr(c.crime_name), c.id]));
+      const factorIdByCode = new Map(allFactors.map((f) => [f.code, f.id]));
+
+      for (const row of rows) {
+        if (row.action === 'SKIP') {
+          skipped++;
+          continue;
+        }
+        const d = row.data || {};
+        const mw = d.mediaWork || {};
+        const mi = d.mediaItem || {};
+        const bpd = d.bookPurchaseDetails || null;
+        const featuredIndividuals = Array.isArray(d.featuredIndividuals) ? d.featuredIndividuals : [];
+        const involvedPersons = Array.isArray(d.involvedPersons) ? d.involvedPersons : [];
+
+        try {
+          let work = null;
+          const workFields = {
+            title: mw.title?.trim(),
+            workType: 'BOOK',
+            creatorName: mw.creatorName || null,
+            publicationOrReleaseYear: parseIntOrNull(mw.publicationOrReleaseYear),
+            publisherOrNetwork: mw.publisherOrNetwork || null,
+            focusOrTheme: mw.focusOrTheme || null,
+            summaryNotes: mw.summaryNotes || null,
+            availabilityNotes: mw.availabilityNotes || null,
+            sourceUrl: mw.sourceUrl || null,
+            externalId: mw.externalId || null,
+            imagePath: mw.imagePath || null,
+            sourcingCredit: mw.sourcingCredit || null,
+            lastExternalFetch: bpd ? new Date() : null,
+            aiGenerated: mw.aiGenerated !== undefined ? Boolean(mw.aiGenerated) : Boolean(aiGenerated),
+            verificationStatus: safeStatus,
+            ...verifiedFields,
+            ingestionSource,
+            importBatchId: batchId,
+          };
+
+          if (row.action === 'MERGE' && row.existingMatch?.id) {
+            const existing = await prisma.mediaWork.findUnique({ where: { id: row.existingMatch.id } });
+            if (!existing) {
+              errors.push({ rowIndex: row.rowIndex, name: mw.title, error: `Existing Book #${row.existingMatch.id} not found.` });
+              continue;
+            }
+            work = await prisma.mediaWork.update({
+              where: { id: existing.id },
+              data: {
+                creatorName: existing.creatorName || workFields.creatorName,
+                publicationOrReleaseYear: existing.publicationOrReleaseYear ?? workFields.publicationOrReleaseYear,
+                publisherOrNetwork: existing.publisherOrNetwork || workFields.publisherOrNetwork,
+                focusOrTheme: existing.focusOrTheme || workFields.focusOrTheme,
+                summaryNotes: existing.summaryNotes || workFields.summaryNotes,
+                availabilityNotes: existing.availabilityNotes || workFields.availabilityNotes,
+                sourceUrl: existing.sourceUrl || workFields.sourceUrl,
+                externalId: existing.externalId || workFields.externalId,
+                imagePath: existing.imagePath || workFields.imagePath,
+                sourcingCredit: existing.sourcingCredit || workFields.sourcingCredit,
+                lastExternalFetch: bpd ? new Date() : existing.lastExternalFetch,
+              },
+            });
+            merged++;
+          } else {
+            if (!workFields.title) {
+              errors.push({ rowIndex: row.rowIndex, error: 'Book title is required.' });
+              continue;
+            }
+            work = await prisma.mediaWork.create({ data: workFields });
+            created++;
+          }
+
+          if (bpd) {
+            const bpdData = {
+              subtitle: bpd.subtitle || null,
+              pageCount: parseIntOrNull(bpd.pageCount),
+              googleBooksPreviewLink: bpd.googleBooksPreviewLink || null,
+              googleBooksWebReaderLink: bpd.googleBooksWebReaderLink || null,
+              googleBooksBuyLink: bpd.googleBooksBuyLink || null,
+              googleBooksCategories: Array.isArray(bpd.googleBooksCategories) ? bpd.googleBooksCategories : [],
+              amazonPurchaseUrl: bpd.amazonPurchaseUrl || null,
+              listPriceAmount: bpd.listPriceAmount !== null && bpd.listPriceAmount !== undefined ? Number(bpd.listPriceAmount) : null,
+              listPriceCurrency: bpd.listPriceCurrency || null,
+              retailPriceAmount: bpd.retailPriceAmount !== null && bpd.retailPriceAmount !== undefined ? Number(bpd.retailPriceAmount) : null,
+              retailPriceCurrency: bpd.retailPriceCurrency || null,
+              isEbookGoogle: Boolean(bpd.isEbookGoogle),
+              saleabilityGoogle: bpd.saleabilityGoogle || null,
+              viewabilityGoogle: bpd.viewabilityGoogle || null,
+              lastApiCheck: new Date(),
+            };
+            await prisma.bookPurchaseDetails.upsert({
+              where: { mediaWorkId: work.id },
+              update: bpdData,
+              create: { mediaWorkId: work.id, ...bpdData },
+            });
+          }
+
+          const itemTitle = (mi.itemTitle || `Book Content: ${work.title}`).trim();
+          const itemFactorIds = (mi.contributingFactorCodes || [])
+            .map((code) => factorIdByCode.get(code))
+            .filter(Boolean)
+            .map((id) => ({ id }));
+
+          let mediaItem = await prisma.mediaItem.findFirst({
+            where: { workId: work.id, itemMediaType: 'BOOK_CONTENT' },
+          });
+          if (!mediaItem) {
+            mediaItem = await prisma.mediaItem.create({
+              data: {
+                workId: work.id,
+                itemTitle,
+                itemMediaType: 'BOOK_CONTENT',
+                focusOrTheme: mi.focusOrTheme || work.focusOrTheme || null,
+                summaryNotes: mi.summaryNotes || null,
+                aiGenerated: true,
+                verificationStatus: safeStatus,
+                ...verifiedFields,
+                ingestionSource,
+                importBatchId: batchId,
+                ...(itemFactorIds.length > 0 ? { contributingFactorsMentioned: { connect: itemFactorIds } } : {}),
+              },
+            });
+          } else if (itemFactorIds.length > 0) {
+            await prisma.mediaItem.update({
+              where: { id: mediaItem.id },
+              data: { contributingFactorsMentioned: { connect: itemFactorIds } },
+            });
+          }
+
+          const itemIndividualIds = [];
+          const itemOrgIds = new Set();
+
+          for (const ind of featuredIndividuals) {
+            if (!ind.firstName || !ind.lastName || ind.firstName === 'Unknown' || ind.lastName === 'Unknown') continue;
+            const indFactorIds = (ind.contributingFactorCodes || [])
+              .map((code) => factorIdByCode.get(code))
+              .filter(Boolean)
+              .map((id) => ({ id }));
+            const crimeCategoryId = ind.crimeCategoryName
+              ? crimeIdByName.get(normStr(ind.crimeCategoryName)) || null
+              : null;
+
+            const indOrgIds = [];
+            for (const orgObj of ind.organizations || []) {
+              const orgName = (typeof orgObj === 'string' ? orgObj : orgObj?.name || '').trim();
+              if (!orgName) continue;
+              const orgType = VALID_ORG_TYPES.has(orgObj?.type) ? orgObj.type : 'OTHER';
+              const orgRecord = await prisma.organization.upsert({
+                where: { name: orgName },
+                update: {},
+                create: {
+                  name: orgName,
+                  type: orgType,
+                  aiGenerated: true,
+                  verificationStatus: safeStatus,
+                  ...verifiedFields,
+                  ingestionSource,
+                  importBatchId: batchId,
+                },
+              });
+              indOrgIds.push({ id: orgRecord.id });
+              itemOrgIds.add(orgRecord.id);
+            }
+
+            let existingInd = await prisma.individual.findFirst({
+              where: {
+                firstName: { equals: ind.firstName.trim(), mode: 'insensitive' },
+                lastName: { equals: ind.lastName.trim(), mode: 'insensitive' },
+              },
+            });
+
+            if (existingInd) {
+              await prisma.individual.update({
+                where: { id: existingInd.id },
+                data: {
+                  status: existingInd.status || (VALID_INDIVIDUAL_STATUSES.has(ind.status) ? ind.status : null),
+                  claimStrength:
+                    existingInd.claimStrength && existingInd.claimStrength !== 'UNASSESSED'
+                      ? existingInd.claimStrength
+                      : VALID_CLAIM_STRENGTHS.has(ind.claimStrength)
+                        ? ind.claimStrength
+                        : 'UNASSESSED',
+                  crimeCategoryId: existingInd.crimeCategoryId || crimeCategoryId,
+                  convictionYear: existingInd.convictionYear ?? parseIntOrNull(ind.convictionYear),
+                  exonerationOrReleaseYear:
+                    existingInd.exonerationOrReleaseYear ?? parseIntOrNull(ind.exonerationOrReleaseYear),
+                  timeServed: existingInd.timeServed || ind.timeServed || null,
+                  sentence: existingInd.sentence || ind.sentence || null,
+                  caseLocationCity: existingInd.caseLocationCity || ind.caseLocationCity || null,
+                  caseLocationCounty: existingInd.caseLocationCounty || ind.caseLocationCounty || null,
+                  caseLocationState: existingInd.caseLocationState || ind.caseLocationState || null,
+                  narrativeSummary: existingInd.narrativeSummary || ind.narrativeSummary || null,
+                  ...(indFactorIds.length > 0 ? { contributingFactors: { connect: indFactorIds } } : {}),
+                  ...(indOrgIds.length > 0 ? { organizationsInvolved: { connect: indOrgIds } } : {}),
+                },
+              });
+            } else {
+              existingInd = await prisma.individual.create({
+                data: {
+                  firstName: ind.firstName.trim(),
+                  middleName: ind.middleName?.trim() || null,
+                  lastName: ind.lastName.trim(),
+                  suffix: ind.suffix?.trim() || null,
+                  status: VALID_INDIVIDUAL_STATUSES.has(ind.status) ? ind.status : null,
+                  claimStrength: VALID_CLAIM_STRENGTHS.has(ind.claimStrength) ? ind.claimStrength : 'UNASSESSED',
+                  crimeCategoryId,
+                  convictionYear: parseIntOrNull(ind.convictionYear),
+                  exonerationOrReleaseYear: parseIntOrNull(ind.exonerationOrReleaseYear),
+                  timeServed: ind.timeServed || null,
+                  sentence: ind.sentence || null,
+                  caseLocationCity: ind.caseLocationCity || null,
+                  caseLocationCounty: ind.caseLocationCounty || null,
+                  caseLocationState: ind.caseLocationState || null,
+                  caseLocationCountry: ind.caseLocationCountry || 'USA',
+                  narrativeSummary: ind.narrativeSummary || null,
+                  aiGenerated: true,
+                  verificationStatus: safeStatus,
+                  ...verifiedFields,
+                  ingestionSource,
+                  importBatchId: batchId,
+                  ...(indFactorIds.length > 0 ? { contributingFactors: { connect: indFactorIds } } : {}),
+                  ...(indOrgIds.length > 0 ? { organizationsInvolved: { connect: indOrgIds } } : {}),
+                },
+              });
+            }
+            itemIndividualIds.push({ id: existingInd.id });
+          }
+
+          const itemPersonIds = [];
+          for (const p of involvedPersons) {
+            if (!p.firstName || !p.lastName || p.firstName === 'Unknown' || p.lastName === 'Unknown') continue;
+            const role = p.role || 'OTHER';
+            let person = await prisma.involvedPerson.findFirst({
+              where: {
+                firstName: { equals: p.firstName.trim(), mode: 'insensitive' },
+                lastName: { equals: p.lastName.trim(), mode: 'insensitive' },
+                role,
+              },
+            });
+            if (!person) {
+              person = await prisma.involvedPerson.create({
+                data: {
+                  firstName: p.firstName.trim(),
+                  middleName: p.middleName?.trim() || null,
+                  lastName: p.lastName.trim(),
+                  suffix: p.suffix?.trim() || null,
+                  role,
+                  aiGenerated: true,
+                  verificationStatus: safeStatus,
+                  ...verifiedFields,
+                  ingestionSource,
+                  importBatchId: batchId,
+                },
+              });
+            }
+            itemPersonIds.push({ id: person.id });
+          }
+
+          if (itemIndividualIds.length > 0 || itemOrgIds.size > 0 || itemPersonIds.length > 0) {
+            await prisma.mediaItem.update({
+              where: { id: mediaItem.id },
+              data: {
+                ...(itemIndividualIds.length > 0 ? { individualsFeatured: { connect: itemIndividualIds } } : {}),
+                ...(itemOrgIds.size > 0 ? { organizationsMentioned: { connect: Array.from(itemOrgIds).map((id) => ({ id })) } } : {}),
+                ...(itemPersonIds.length > 0 ? { involvedPersonsMentioned: { connect: itemPersonIds } } : {}),
+              },
+            });
+            linksAdded += itemIndividualIds.length + itemOrgIds.size + itemPersonIds.length;
+          }
+        } catch (err) {
+          errors.push({ rowIndex: row.rowIndex, name: mw.title, error: err.message });
+        }
+      }
+
+      return res.json({ batchId, targetType: 'BOOK_BUNDLE', created, merged, skipped, linksAdded, errors });
+    }
+
     if (targetType === 'ORGANIZATION') {
       for (const row of rows) {
         if (row.action === 'SKIP') {

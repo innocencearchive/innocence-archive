@@ -1,0 +1,104 @@
+{
+  "sourceFileName": "17.picking_cotton.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Picking Cotton: Our Memoir of Injustice and Redemption",
+    "workType": "BOOK",
+    "creatorName": "Jennifer Thompson-Cannino, Ronald Cotton, with Erin Torneo",
+    "publicationOrReleaseYear": 2009,
+    "publisherOrNetwork": "St. Martin's Press",
+    "focusOrTheme": "Eyewitness misidentification, wrongful conviction, forgiveness, and reconciliation",
+    "summaryNotes": "This memoir offers a dual perspective on a wrongful conviction case, detailing the experience of both the wrongfully convicted individual, Ronald Cotton, and the victim who misidentified him, Jennifer Thompson-Cannino. It explores the impact of eyewitness misidentification, the exoneration process through DNA evidence, and the subsequent reconciliation between the two individuals.  The book highlights systemic issues within the criminal justice system and offers policy recommendations for reform.",
+    "availabilityNotes": "Memoir",
+    "sourceUrl": "https://books.google.com/books?id=2Bp3JMdp_MgC&printsec=frontcover&dq=intitle:Picking+Cotton:+Our+Memoir+of+Injustice+and+Redemption&hl=&cd=1&source=gbs_api",
+    "externalId": "9781429962155",
+    "imagePath": "https://books.google.com/books/content?id=2Bp3JMdp_MgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Our Memoir of Injustice and Redemption",
+    "pageCount": 305,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=2Bp3JMdp_MgC&printsec=frontcover&dq=intitle:Picking+Cotton:+Our+Memoir+of+Injustice+and+Redemption&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=2Bp3JMdp_MgC&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=2Bp3JMdp_MgC&rdid=book-2Bp3JMdp_MgC&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Biography & Autobiography"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781429962155",
+    "listPriceAmount": 12.99,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 12.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Picking Cotton: Our Memoir of Injustice and Redemption",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Eyewitness misidentification, wrongful conviction, forgiveness, and reconciliation",
+    "summaryNotes": "This memoir offers a dual perspective on a wrongful conviction case, detailing the experience of both the wrongfully convicted individual, Ronald Cotton, and the victim who misidentified him, Jennifer Thompson-Cannino. It explores the impact of eyewitness misidentification, the exoneration process through DNA evidence, and the subsequent reconciliation between the two individuals.  The book highlights systemic issues within the criminal justice system and offers policy recommendations for reform.",
+    "contributingFactorCodes": [
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "RACIAL_BIAS"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Ronald",
+      "middleName": null,
+      "lastName": "Cotton",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Sexual Assault",
+      "convictionYear": 1985,
+      "exonerationOrReleaseYear": 1995,
+      "timeServed": "11 years",
+      "sentence": "Life plus 54 years",
+      "caseLocationCity": "Burlington",
+      "caseLocationCounty": null,
+      "caseLocationState": "North Carolina",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "RACIAL_BIAS"
+      ],
+      "organizations": [
+        {
+          "name": "The Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": "Book 16: \"The Innocents\" by Taryn Simon (features cases of eyewitness misidentification)"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Jennifer",
+      "middleName": null,
+      "lastName": "Thompson-Cannino",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Ronald",
+      "middleName": null,
+      "lastName": "Cotton",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Erin",
+      "middleName": null,
+      "lastName": "Torneo",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

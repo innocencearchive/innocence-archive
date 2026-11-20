@@ -1,0 +1,97 @@
+{
+  "sourceFileName": "18.the_innocent_man.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Innocent Man: Murder and Injustice in a Small Town",
+    "workType": "BOOK",
+    "creatorName": "John Grisham",
+    "publicationOrReleaseYear": 2006,
+    "publisherOrNetwork": "Doubleday",
+    "focusOrTheme": "Wrongful conviction, death penalty, flawed criminal justice system",
+    "summaryNotes": "John Grisham's non-fiction account of the wrongful conviction of Ron Williamson for rape and murder in Ada, Oklahoma.  The book details multiple systemic failures, including flawed forensic evidence, false confessions, and inadequate legal representation, contributing to Williamson's 11 years on death row before exoneration by DNA evidence.  It also explores the broader issue of wrongful convictions within the Ada justice system and examines the psychological impact of wrongful incarceration.  The book concludes with the eventual conviction of the real perpetrator, Glen Gore, and Williamson's later death.",
+    "availabilityNotes": "Non-fiction book",
+    "sourceUrl": "https://books.google.com/books?id=rrxJMOVVay0C&printsec=frontcover&dq=intitle:The+Innocent+Man:+Murder+and+Injustice+in+a+Small+Town&hl=&cd=1&source=gbs_api",
+    "externalId": "9780440243830",
+    "imagePath": "https://books.google.com/books/content?id=rrxJMOVVay0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Murder and Injustice in a Small Town",
+    "pageCount": 458,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=rrxJMOVVay0C&printsec=frontcover&dq=intitle:The+Innocent+Man:+Murder+and+Injustice+in+a+Small+Town&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=rrxJMOVVay0C&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "Social Science"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780440243830",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: The Innocent Man: Murder and Injustice in a Small Town",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Wrongful conviction, death penalty, flawed criminal justice system",
+    "summaryNotes": "John Grisham's non-fiction account of the wrongful conviction of Ron Williamson for rape and murder in Ada, Oklahoma.  The book details multiple systemic failures, including flawed forensic evidence, false confessions, and inadequate legal representation, contributing to Williamson's 11 years on death row before exoneration by DNA evidence.  It also explores the broader issue of wrongful convictions within the Ada justice system and examines the psychological impact of wrongful incarceration.  The book concludes with the eventual conviction of the real perpetrator, Glen Gore, and Williamson's later death.",
+    "contributingFactorCodes": [
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "FALSE_CONFESSION",
+      "JAILHOUSE_INFORMANT",
+      "OFFICIAL_MISCONDUCT",
+      "INADEQUATE_LEGAL_DEFENSE",
+      "PROSECUTORIAL_MISCONDUCT"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Ronald",
+      "middleName": "Ron",
+      "lastName": "Williamson",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1988,
+      "exonerationOrReleaseYear": 1999,
+      "timeServed": "11 years on death row",
+      "sentence": "Death penalty",
+      "caseLocationCity": "Ada",
+      "caseLocationCounty": null,
+      "caseLocationState": "Oklahoma",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "Williamson and Fritz sued and won a settlement of $500,000 in 2003 from the City of Ada, and an undisclosed settlement from the State of Oklahoma. Williamson died on December 4, 2004, in a nursing home in Broken Arrow, Oklahoma, after being diagnosed with cirrhosis of the liver due to decades of alcohol abuse.",
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "FALSE_CONFESSION",
+        "JAILHOUSE_INFORMANT",
+        "OFFICIAL_MISCONDUCT",
+        "INADEQUATE_LEGAL_DEFENSE"
+      ],
+      "organizations": [
+        {
+          "name": "The Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": "Dennis Fritz (co-defendant who was also wrongfully convicted and sentenced to life in prison)"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "John",
+      "middleName": null,
+      "lastName": "Grisham",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

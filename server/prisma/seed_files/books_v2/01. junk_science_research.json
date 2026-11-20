@@ -1,0 +1,204 @@
+{
+  "sourceFileName": "01. junk_science_research.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Junk Science and the American Criminal Justice System",
+    "workType": "BOOK",
+    "creatorName": "M. Chris Fabricant",
+    "publicationOrReleaseYear": 2022,
+    "publisherOrNetwork": "Akashic Books",
+    "focusOrTheme": "Forensic science misconduct, pseudoscience in courtrooms, wrongful convictions",
+    "summaryNotes": "\"Junk Science and the American Criminal Justice System\" examines how unreliable and unvalidated forensic techniques have been used to convict innocent people. The book focuses particularly on bite mark analysis, a now-discredited forensic technique that has contributed to numerous wrongful convictions. Fabricant provides an insider's view of the fight to overturn these convictions and to reform the use of forensic science in the American criminal justice system.\n\nThe book details specific cases where junk science led to wrongful convictions, the legal battles to overturn these convictions, and the broader efforts to reform forensic science practices in the United States. It also explores the racial disparities in how these flawed techniques have been applied, with a disproportionate impact on people of color.",
+    "availabilityNotes": "Hardcover, paperback, e-book",
+    "sourceUrl": "https://books.google.com/books?id=WUpSEAAAQBAJ&printsec=frontcover&dq=intitle:Junk+Science+and+the+American+Criminal+Justice+System&hl=&cd=1&source=gbs_api",
+    "externalId": "9781636140384",
+    "imagePath": "https://books.google.com/books/content?id=WUpSEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": null,
+    "pageCount": 349,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=WUpSEAAAQBAJ&printsec=frontcover&dq=intitle:Junk+Science+and+the+American+Criminal+Justice+System&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=WUpSEAAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=WUpSEAAAQBAJ&rdid=book-WUpSEAAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "True Crime"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781636140384",
+    "listPriceAmount": 17.48,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 17.48,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Junk Science and the American Criminal Justice System",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Forensic science misconduct, pseudoscience in courtrooms, wrongful convictions",
+    "summaryNotes": "\"Junk Science and the American Criminal Justice System\" examines how unreliable and unvalidated forensic techniques have been used to convict innocent people. The book focuses particularly on bite mark analysis, a now-discredited forensic technique that has contributed to numerous wrongful convictions. Fabricant provides an insider's view of the fight to overturn these convictions and to reform the use of forensic science in the American criminal justice system.\n\nThe book details specific cases where junk science led to wrongful convictions, the legal battles to overturn these convictions, and the broader efforts to reform forensic science practices in the United States. It also explores the racial disparities in how these flawed techniques have been applied, with a disproportionate impact on people of color.",
+    "contributingFactorCodes": [
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "INADEQUATE_LEGAL_DEFENSE",
+      "RACIAL_BIAS"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Keith",
+      "middleName": "Allen",
+      "lastName": "Harward",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1982,
+      "exonerationOrReleaseYear": 2016,
+      "timeServed": "33 years",
+      "sentence": "Life imprisonment",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Virginia",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Convicted primarily based on bite mark evidence that was later discredited\n- DNA testing eventually identified the actual perpetrator",
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+      ],
+      "organizations": [
+        {
+          "name": "Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": "Also mentioned in \"Wrongful Conviction with Jason Flom\" podcast (episode #506)"
+    },
+    {
+      "firstName": "Steven",
+      "middleName": "Mark",
+      "lastName": "Chaney",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1987,
+      "exonerationOrReleaseYear": 2018,
+      "timeServed": "28 years",
+      "sentence": "Life imprisonment",
+      "caseLocationCity": "Dallas",
+      "caseLocationCounty": null,
+      "caseLocationState": "Texas",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Case led to Texas forensic science reforms\n- Conviction was based on bite mark evidence that experts now reject as scientifically invalid",
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Robert",
+      "middleName": "Lee",
+      "lastName": "Stinson",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1985,
+      "exonerationOrReleaseYear": 2009,
+      "timeServed": "23 years",
+      "sentence": "Life imprisonment",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Wisconsin",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Convicted based solely on bite mark evidence\n- DNA testing not only excluded him but identified the actual perpetrator",
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "Wisconsin Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": "Listed in National Registry of Exonerations"
+    },
+    {
+      "firstName": "Kennedy",
+      "middleName": null,
+      "lastName": "Brewer",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1995,
+      "exonerationOrReleaseYear": 2008,
+      "timeServed": "13 years",
+      "sentence": "Death sentence",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Mississippi",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Spent 7 years on death row\n- Same forensic odontologist who testified against Levon Brooks in a similar case\n- DNA testing identified the actual perpetrator, Justin Albert Johnson",
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": "Listed in National Registry of Exonerations"
+    },
+    {
+      "firstName": "Levon",
+      "middleName": null,
+      "lastName": "Brooks",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1992,
+      "exonerationOrReleaseYear": 2008,
+      "timeServed": "16 years",
+      "sentence": "Life imprisonment",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Mississippi",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Case similar to Kennedy Brewer's\n- Same perpetrator (Justin Albert Johnson) was responsible for both crimes\n- Same forensic odontologist testified in both cases",
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": "Listed in National Registry of Exonerations"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "M.",
+      "middleName": "Chris",
+      "lastName": "Fabricant",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

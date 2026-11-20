@@ -1,0 +1,101 @@
+{
+  "sourceFileName": "58_Infinite_Hope.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Infinite Hope: How Wrongful Conviction, Solitary Confinement, and 12 Years on Death Row Failed to Kill My Soul",
+    "workType": "BOOK",
+    "creatorName": "Anthony Graves",
+    "publicationOrReleaseYear": 2018,
+    "publisherOrNetwork": "Beacon Press",
+    "focusOrTheme": "Wrongful conviction, death penalty, solitary confinement, resilience, criminal justice reform",
+    "summaryNotes": "\"Infinite Hope\" is a powerful first-person account of Anthony Graves' journey through wrongful conviction, death row, and eventual exoneration. The book not only details the legal battle for his freedom but also explores how he maintained his dignity, sanity, and hope during nearly two decades of wrongful imprisonment. After his exoneration, Graves has become a prominent advocate for criminal justice reform. He received $1.45 million in restitution for his wrongful conviction and has used his platform to raise awareness about flaws in the criminal justice system. The book serves as both a personal memoir and a call to action for systemic reform. The title \"Infinite Hope\" reflects Graves' enduring belief in the possibility of justice despite overwhelming odds. His story highlights both the profound failures of the criminal justice system and the resilience of the human spirit in the face of extreme adversity.",
+    "availabilityNotes": "Hardcover, 6 x 9 inches",
+    "sourceUrl": "https://books.google.com/books?id=TYsnDwAAQBAJ&pg=PA133&dq=intitle:Infinite+Hope:+How+Wrongful+Conviction,+Solitary+Confinement,+and+12+Years+on+Death+Row+Failed+to+Kill+My+Soul&hl=&cd=1&source=gbs_api",
+    "externalId": "9780807062548",
+    "imagePath": "https://books.google.com/books/content?id=TYsnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "How Wrongful Conviction, Solitary Confinement, and 12 Years on Death Row Failed to Kill My Soul",
+    "pageCount": 218,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=TYsnDwAAQBAJ&pg=PA133&dq=intitle:Infinite+Hope:+How+Wrongful+Conviction,+Solitary+Confinement,+and+12+Years+on+Death+Row+Failed+to+Kill+My+Soul&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=TYsnDwAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=TYsnDwAAQBAJ&rdid=book-TYsnDwAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Biography & Autobiography"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780807062548",
+    "listPriceAmount": 12.99,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 12.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Infinite Hope: How Wrongful Conviction, Solitary Confinement, and 12 Years on Death Row Failed to Kill My Soul",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Wrongful conviction, death penalty, solitary confinement, resilience, criminal justice reform",
+    "summaryNotes": "\"Infinite Hope\" is a powerful first-person account of Anthony Graves' journey through wrongful conviction, death row, and eventual exoneration. The book not only details the legal battle for his freedom but also explores how he maintained his dignity, sanity, and hope during nearly two decades of wrongful imprisonment. After his exoneration, Graves has become a prominent advocate for criminal justice reform. He received $1.45 million in restitution for his wrongful conviction and has used his platform to raise awareness about flaws in the criminal justice system. The book serves as both a personal memoir and a call to action for systemic reform. The title \"Infinite Hope\" reflects Graves' enduring belief in the possibility of justice despite overwhelming odds. His story highlights both the profound failures of the criminal justice system and the resilience of the human spirit in the face of extreme adversity.",
+    "contributingFactorCodes": [
+      "PERJURY_OR_FALSE_ACCUSATION",
+      "PROSECUTORIAL_MISCONDUCT",
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "OFFICIAL_MISCONDUCT",
+      "WITHHELD_EXCULPATORY_EVIDENCE",
+      "RACIAL_BIAS",
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Anthony",
+      "middleName": null,
+      "lastName": "Graves",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1994,
+      "exonerationOrReleaseYear": 2010,
+      "timeServed": "18 years, 2 months, 4 days (including 16 years in solitary confinement and 12 years on death row)",
+      "sentence": "Death",
+      "caseLocationCity": "Somerville",
+      "caseLocationCounty": null,
+      "caseLocationState": "Texas",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "PERJURY_OR_FALSE_ACCUSATION",
+        "PROSECUTORIAL_MISCONDUCT",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "OFFICIAL_MISCONDUCT"
+      ],
+      "organizations": [
+        {
+          "name": "U.S. Court of Appeals for the Fifth Circuit (vacated conviction in 2006)",
+          "type": "GOVERNMENT_AGENCY"
+        },
+        {
+          "name": "Washington-Burleson County District Attorney's Office (dismissed charges in 2010)",
+          "type": "LAW_ENFORCEMENT"
+        }
+      ],
+      "crossReferenceNotes": "Listed in the National Registry of Exonerations"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Anthony",
+      "middleName": null,
+      "lastName": "Graves",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

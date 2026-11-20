@@ -1,0 +1,133 @@
+{
+  "sourceFileName": "08.tested.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Tested: How Twelve Wrongly Imprisoned Men Held Onto Hope",
+    "workType": "BOOK",
+    "creatorName": "Peyton Budd and Dorothy Budd",
+    "publicationOrReleaseYear": 2010,
+    "publisherOrNetwork": "Brown Books Publishing Group (Dallas, TX)",
+    "focusOrTheme": "Psychological resilience of wrongfully convicted individuals, personal journeys of hope, faith, and redemption",
+    "summaryNotes": "This book profiles twelve men wrongfully imprisoned in Texas, focusing on their psychological resilience and journeys of hope and redemption. It highlights systemic issues leading to wrongful convictions and advocates for improved justice system practices.",
+    "availabilityNotes": "Hardcover, Paperback (130 pages)",
+    "sourceUrl": "https://books.google.com/books?id=vnTnDwAAQBAJ&printsec=frontcover&dq=intitle:Tested:+How+Twelve+Wrongly+Imprisoned+Men+Held+Onto+Hope&hl=&cd=1&source=gbs_api",
+    "externalId": "9781612540092",
+    "imagePath": "https://books.google.com/books/content?id=vnTnDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "How Twelve Wrongly Imprisoned Men Held Onto Hope",
+    "pageCount": 181,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=vnTnDwAAQBAJ&printsec=frontcover&dq=intitle:Tested:+How+Twelve+Wrongly+Imprisoned+Men+Held+Onto+Hope&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=vnTnDwAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=vnTnDwAAQBAJ&rdid=book-vnTnDwAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Social Science"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781612540092",
+    "listPriceAmount": 17.99,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 17.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Tested: How Twelve Wrongly Imprisoned Men Held Onto Hope",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Psychological resilience of wrongfully convicted individuals, personal journeys of hope, faith, and redemption",
+    "summaryNotes": "This book profiles twelve men wrongfully imprisoned in Texas, focusing on their psychological resilience and journeys of hope and redemption. It highlights systemic issues leading to wrongful convictions and advocates for improved justice system practices.",
+    "contributingFactorCodes": [
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "RACIAL_BIAS",
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Christopher",
+      "middleName": null,
+      "lastName": "Scott",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1997,
+      "exonerationOrReleaseYear": 2009,
+      "timeServed": "12-13 years",
+      "sentence": null,
+      "caseLocationCity": "Dallas",
+      "caseLocationCounty": null,
+      "caseLocationState": "Texas",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+      ],
+      "organizations": [
+        {
+          "name": "Dallas County Public Defender's Office",
+          "type": "LEGAL_AID"
+        },
+        {
+          "name": "Actual Innocence Clinic at UT Austin",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Claude",
+      "middleName": null,
+      "lastName": "Simmons Jr.",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1997,
+      "exonerationOrReleaseYear": 2009,
+      "timeServed": "12 years",
+      "sentence": null,
+      "caseLocationCity": "Dallas",
+      "caseLocationCounty": null,
+      "caseLocationState": "Texas",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+      ],
+      "organizations": [
+        {
+          "name": "Actual Innocence Clinic at UT Austin",
+          "type": "INNOCENCE_ORG"
+        },
+        {
+          "name": "University of Texas at Arlington's Innocence Network",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Peyton",
+      "middleName": null,
+      "lastName": "Budd",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Dorothy",
+      "middleName": null,
+      "lastName": "Budd",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "sourceFileName": "12. that_bird_has_my_wings_research.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "That Bird Has My Wings: The Autobiography of an Innocent Man on Death Row",
+    "workType": "BOOK",
+    "creatorName": "Jarvis Jay Masters",
+    "publicationOrReleaseYear": 2009,
+    "publisherOrNetwork": "HarperOne",
+    "focusOrTheme": "Memoir, wrongful conviction, Buddhism, personal transformation",
+    "summaryNotes": "\"That Bird Has My Wings\" is Jarvis Jay Masters' memoir chronicling his difficult childhood, his path to incarceration, and his spiritual transformation while on death row at San Quentin. The book begins with Masters' early years, marked by poverty, foster care, abuse, and neglect after his mother's drug addiction led to the separation of their family. He recounts his experiences in various foster homes and juvenile detention facilities, where he experienced further abuse and began a path toward criminal behavior.\n\nThe memoir details Masters' eventual incarceration at San Quentin for armed robbery at age 19, and his subsequent conviction for participating in the 1985 murder of a prison guard, Sergeant Howell Burchfield—a crime for which he maintains his innocence. Masters describes how he was in his cell at the time of the murder but was implicated and sentenced to death.\n\nThe book also explores Masters' spiritual journey and his embrace of Buddhism while in prison, which helped him find meaning and purpose despite his circumstances. Through his practice and writing, Masters transformed his life within the confines of death row, developing compassion and mindfulness that allowed him to transcend his surroundings.",
+    "availabilityNotes": "Hardcover, paperback, e-book, audiobook",
+    "sourceUrl": "https://books.google.com/books?id=NqQ-Q9RbEOQC&printsec=frontcover&dq=intitle:That+Bird+Has+My+Wings:+The+Autobiography+of+an+Innocent+Man+on+Death+Row&hl=&cd=1&source=gbs_api",
+    "externalId": "9780061937378",
+    "imagePath": "https://books.google.com/books/content?id=NqQ-Q9RbEOQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "An Oprah's Book Club Pick",
+    "pageCount": 321,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=NqQ-Q9RbEOQC&printsec=frontcover&dq=intitle:That+Bird+Has+My+Wings:+The+Autobiography+of+an+Innocent+Man+on+Death+Row&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=NqQ-Q9RbEOQC&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=NqQ-Q9RbEOQC&rdid=book-NqQ-Q9RbEOQC&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Philosophy"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780061937378",
+    "listPriceAmount": 14.99,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 14.99,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: That Bird Has My Wings: The Autobiography of an Innocent Man on Death Row",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Memoir, wrongful conviction, Buddhism, personal transformation",
+    "summaryNotes": "\"That Bird Has My Wings\" is Jarvis Jay Masters' memoir chronicling his difficult childhood, his path to incarceration, and his spiritual transformation while on death row at San Quentin. The book begins with Masters' early years, marked by poverty, foster care, abuse, and neglect after his mother's drug addiction led to the separation of their family. He recounts his experiences in various foster homes and juvenile detention facilities, where he experienced further abuse and began a path toward criminal behavior.\n\nThe memoir details Masters' eventual incarceration at San Quentin for armed robbery at age 19, and his subsequent conviction for participating in the 1985 murder of a prison guard, Sergeant Howell Burchfield—a crime for which he maintains his innocence. Masters describes how he was in his cell at the time of the murder but was implicated and sentenced to death.\n\nThe book also explores Masters' spiritual journey and his embrace of Buddhism while in prison, which helped him find meaning and purpose despite his circumstances. Through his practice and writing, Masters transformed his life within the confines of death row, developing compassion and mindfulness that allowed him to transcend his surroundings.",
+    "contributingFactorCodes": [
+      "JAILHOUSE_INFORMANT",
+      "RACIAL_BIAS",
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Jarvis",
+      "middleName": "Jay",
+      "lastName": "Masters",
+      "suffix": null,
+      "status": "CONVICTED",
+      "claimStrength": "UNASSESSED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1990,
+      "exonerationOrReleaseYear": null,
+      "timeServed": "Over 30 years on death row (as of 2022)",
+      "sentence": "Death sentence",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "California",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Masters maintains he was in his cell at the time of the murder\n- No physical evidence linked him to the crime\n- Case relied heavily on testimony from jailhouse informants who received benefits for their testimony\n- Has gained significant support from Buddhist leaders, including Pema Chödrön\n- His case has received renewed attention after Oprah selected his book for her book club",
+      "contributingFactorCodes": [
+        "JAILHOUSE_INFORMANT"
+      ],
+      "organizations": [
+        {
+          "name": "Free Jarvis campaign, Buddhist Peace Fellowship",
+          "type": "OTHER"
+        }
+      ],
+      "crossReferenceNotes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Jarvis",
+      "middleName": "Jay",
+      "lastName": "Masters",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

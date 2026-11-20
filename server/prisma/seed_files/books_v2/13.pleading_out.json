@@ -1,0 +1,55 @@
+{
+  "sourceFileName": "13.pleading_out.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Pleading Out: How Plea Bargaining Creates a Permanent Criminal Class",
+    "workType": "BOOK",
+    "creatorName": "Dan Canon",
+    "publicationOrReleaseYear": 2022,
+    "publisherOrNetwork": "Basic Books",
+    "focusOrTheme": "Analysis of how plea bargaining contributes to wrongful convictions and creates a permanent criminal class",
+    "summaryNotes": "This book examines the systemic issue of plea bargaining and its contribution to wrongful convictions.  It analyzes how innocent individuals are pressured to plead guilty, the disproportionate impact on marginalized communities, the creation of a permanent criminal class through mass incarceration, and the prioritization of efficiency over justice within the legal system.",
+    "availabilityNotes": "Hardcover, paperback, ebook, 336 pages",
+    "sourceUrl": "https://books.google.com/books?id=qiSAzgEACAAJ&dq=intitle:Pleading+Out:+How+Plea+Bargaining+Creates+a+Permanent+Criminal+Class&hl=&cd=1&source=gbs_api",
+    "externalId": "9781541674677",
+    "imagePath": "https://books.google.com/books/content?id=qiSAzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "How Plea Bargaining Creates a Permanent Criminal Class",
+    "pageCount": 352,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=qiSAzgEACAAJ&dq=intitle:Pleading+Out:+How+Plea+Bargaining+Creates+a+Permanent+Criminal+Class&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=qiSAzgEACAAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9781541674677",
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "NO_PAGES"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Pleading Out: How Plea Bargaining Creates a Permanent Criminal Class",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Analysis of how plea bargaining contributes to wrongful convictions and creates a permanent criminal class",
+    "summaryNotes": "This book examines the systemic issue of plea bargaining and its contribution to wrongful convictions.  It analyzes how innocent individuals are pressured to plead guilty, the disproportionate impact on marginalized communities, the creation of a permanent criminal class through mass incarceration, and the prioritization of efficiency over justice within the legal system.",
+    "contributingFactorCodes": [],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [],
+  "involvedPersons": [
+    {
+      "firstName": "Dan",
+      "middleName": null,
+      "lastName": "Canon",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

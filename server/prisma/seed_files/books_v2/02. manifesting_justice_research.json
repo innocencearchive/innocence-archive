@@ -1,0 +1,186 @@
+{
+  "sourceFileName": "02. manifesting_justice_research.md",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Manifesting Justice: Wrongly Convicted Women Reclaim Their Rights",
+    "workType": "BOOK",
+    "creatorName": "Valena Beety",
+    "publicationOrReleaseYear": 2022,
+    "publisherOrNetwork": "Kensington",
+    "focusOrTheme": "Wrongful convictions of women and LGBTQ+ individuals, gender and sexuality bias in the justice system",
+    "summaryNotes": "\"Manifesting Justice\" examines the unique challenges and biases that women and LGBTQ+ individuals face in the criminal justice system, particularly in wrongful conviction cases. The book centers on the case of Leigh Stubbs and Tami Vance, two queer women who were wrongfully convicted in Mississippi based on junk science and homophobia. Through their story and others, Beety explores how gender, sexuality, and other intersecting identities can influence criminal investigations, prosecutions, and convictions.\n\nThe book reveals how biases against women and LGBTQ+ people can lead to wrongful convictions, and how these individuals face additional barriers in seeking exoneration. Beety also discusses the role of flawed forensic science, particularly bite mark analysis, in these cases, and advocates for reforms to address these systemic issues.",
+    "availabilityNotes": "Hardcover, paperback, e-book",
+    "sourceUrl": "https://books.google.com/books?id=wQhBEAAAQBAJ&printsec=frontcover&dq=intitle:Manifesting+Justice:+Wrongly+Convicted+Women+Reclaim+Their+Rights&hl=&cd=1&source=gbs_api",
+    "externalId": "9780806541532",
+    "imagePath": "https://books.google.com/books/content?id=wQhBEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Wrongly Convicted Women Reclaim Their Rights",
+    "pageCount": 354,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=wQhBEAAAQBAJ&printsec=frontcover&dq=intitle:Manifesting+Justice:+Wrongly+Convicted+Women+Reclaim+Their+Rights&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=wQhBEAAAQBAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": "https://play.google.com/store/books/details?id=wQhBEAAAQBAJ&rdid=book-wQhBEAAAQBAJ&rdot=1&source=gbs_api",
+    "googleBooksCategories": [
+      "Political Science"
+    ],
+    "amazonPurchaseUrl": "https://www.amazon.com/dp/9780806541532",
+    "listPriceAmount": 23.8,
+    "listPriceCurrency": "USD",
+    "retailPriceAmount": 14.28,
+    "retailPriceCurrency": "USD",
+    "isEbookGoogle": true,
+    "saleabilityGoogle": "FOR_SALE",
+    "viewabilityGoogle": "PARTIAL"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Manifesting Justice: Wrongly Convicted Women Reclaim Their Rights",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "Wrongful convictions of women and LGBTQ+ individuals, gender and sexuality bias in the justice system",
+    "summaryNotes": "\"Manifesting Justice\" examines the unique challenges and biases that women and LGBTQ+ individuals face in the criminal justice system, particularly in wrongful conviction cases. The book centers on the case of Leigh Stubbs and Tami Vance, two queer women who were wrongfully convicted in Mississippi based on junk science and homophobia. Through their story and others, Beety explores how gender, sexuality, and other intersecting identities can influence criminal investigations, prosecutions, and convictions.\n\nThe book reveals how biases against women and LGBTQ+ people can lead to wrongful convictions, and how these individuals face additional barriers in seeking exoneration. Beety also discusses the role of flawed forensic science, particularly bite mark analysis, in these cases, and advocates for reforms to address these systemic issues.",
+    "contributingFactorCodes": [
+      "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+      "RACIAL_BIAS",
+      "PROSECUTORIAL_MISCONDUCT",
+      "INADEQUATE_LEGAL_DEFENSE"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Leigh",
+      "middleName": null,
+      "lastName": "Stubbs",
+      "suffix": null,
+      "status": "OTHER",
+      "claimStrength": "UNASSESSED",
+      "crimeCategoryName": "Assault",
+      "convictionYear": 2001,
+      "exonerationOrReleaseYear": null,
+      "timeServed": null,
+      "sentence": "44 years in prison",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Mississippi",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Queer woman recovering from substance use disorder\n- Case was heavily influenced by anti-LGBTQ bias\n- Convicted based on discredited bite mark analysis\n- No actual evidence a crime had occurred",
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "Mississippi Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Tami",
+      "middleName": null,
+      "lastName": "Vance",
+      "suffix": null,
+      "status": "OTHER",
+      "claimStrength": "UNASSESSED",
+      "crimeCategoryName": "Assault",
+      "convictionYear": 2001,
+      "exonerationOrReleaseYear": null,
+      "timeServed": null,
+      "sentence": "44 years in prison",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Mississippi",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Co-defendant with Leigh Stubbs\n- Queer woman recovering from substance use disorder\n- Case was heavily influenced by anti-LGBTQ bias\n- Convicted based on discredited bite mark analysis",
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [
+        {
+          "name": "Mississippi Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Kimberly",
+      "middleName": "Williams",
+      "lastName": "Haddix",
+      "suffix": null,
+      "status": "UNKNOWN",
+      "claimStrength": "UNASSESSED",
+      "crimeCategoryName": "Drug Possession or Sale",
+      "convictionYear": 2001,
+      "exonerationOrReleaseYear": null,
+      "timeServed": null,
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Mississippi",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Friend of Stubbs and Vance who was with them during the alleged incident\n- Was the alleged victim in the assault case against Stubbs and Vance\n- Later testified that no assault occurred",
+      "contributingFactorCodes": [],
+      "organizations": [],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Tammy",
+      "middleName": "Vance (different from Tami Vance",
+      "lastName": "above)",
+      "suffix": null,
+      "status": "UNKNOWN",
+      "claimStrength": "UNASSESSED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": null,
+      "exonerationOrReleaseYear": null,
+      "timeServed": null,
+      "sentence": null,
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "West Virginia",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Case involved allegations of Shaken Baby Syndrome, a controversial diagnosis\n- Beety represented her through the West Virginia Innocence Project",
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": null
+    },
+    {
+      "firstName": "Sabrina",
+      "middleName": null,
+      "lastName": "Butler",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Murder",
+      "convictionYear": 1990,
+      "exonerationOrReleaseYear": 1995,
+      "timeServed": "5 years",
+      "sentence": "Death sentence",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "Mississippi",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": "- Only woman exonerated from death row in the United States\n- Child actually died from a kidney condition\n- Her attempts to resuscitate her child were misinterpreted as abuse",
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "organizations": [],
+      "crossReferenceNotes": null
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Valena",
+      "middleName": null,
+      "lastName": "Beety",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}

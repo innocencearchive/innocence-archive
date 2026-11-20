@@ -1,0 +1,113 @@
+{
+  "sourceFileName": "41.eyewitness_testimony.md",
+  "reviewWarnings": [
+    "Matched Google Books row has no ISBN-13."
+  ],
+  "mediaWork": {
+    "title": "Eyewitness Testimony: Civil and Criminal",
+    "workType": "BOOK",
+    "creatorName": "Elizabeth F. Loftus, James M. Doyle, Jennifer E. Dysart, Karen A. Newirth (latest edition)",
+    "publicationOrReleaseYear": 1987,
+    "publisherOrNetwork": "LexisNexis/Lexis Publishing",
+    "focusOrTheme": "The psychology of eyewitness testimony and its impact on legal proceedings, both civil and criminal",
+    "summaryNotes": "This book examines the psychology of eyewitness testimony and its impact on legal proceedings. It uses scientific research to explain how and why eyewitness testimony can be unreliable, leading to wrongful convictions.  The book bridges psychological research and legal practice, offering practical guidance for legal professionals while explaining the scientific basis for concerns about eyewitness testimony. It has influenced legal reforms regarding the use of eyewitness testimony and is considered a foundational text in the field.",
+    "availabilityNotes": "Hardcover, paperback, e-book",
+    "sourceUrl": "https://books.google.com/books?id=WgcsAQAAMAAJ&q=intitle:Eyewitness+Testimony:+Civil+and+Criminal&dq=intitle:Eyewitness+Testimony:+Civil+and+Criminal&hl=&cd=1&source=gbs_api",
+    "externalId": null,
+    "imagePath": "https://books.google.com/books/content?id=WgcsAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api&h=600",
+    "sourcingCredit": "Data from Google Books",
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "bookPurchaseDetails": {
+    "subtitle": "Civil and Criminal",
+    "pageCount": 492,
+    "googleBooksPreviewLink": "https://books.google.com/books?id=WgcsAQAAMAAJ&q=intitle:Eyewitness+Testimony:+Civil+and+Criminal&dq=intitle:Eyewitness+Testimony:+Civil+and+Criminal&hl=&cd=1&source=gbs_api",
+    "googleBooksWebReaderLink": "https://play.google.com/books/reader?id=WgcsAQAAMAAJ&hl=&source=gbs_api",
+    "googleBooksBuyLink": null,
+    "googleBooksCategories": [
+      "Law"
+    ],
+    "amazonPurchaseUrl": null,
+    "listPriceAmount": null,
+    "listPriceCurrency": null,
+    "retailPriceAmount": null,
+    "retailPriceCurrency": null,
+    "isEbookGoogle": false,
+    "saleabilityGoogle": "NOT_FOR_SALE",
+    "viewabilityGoogle": "NO_PAGES"
+  },
+  "mediaItem": {
+    "itemTitle": "Book Content: Eyewitness Testimony: Civil and Criminal",
+    "itemMediaType": "BOOK_CONTENT",
+    "focusOrTheme": "The psychology of eyewitness testimony and its impact on legal proceedings, both civil and criminal",
+    "summaryNotes": "This book examines the psychology of eyewitness testimony and its impact on legal proceedings. It uses scientific research to explain how and why eyewitness testimony can be unreliable, leading to wrongful convictions.  The book bridges psychological research and legal practice, offering practical guidance for legal professionals while explaining the scientific basis for concerns about eyewitness testimony. It has influenced legal reforms regarding the use of eyewitness testimony and is considered a foundational text in the field.",
+    "contributingFactorCodes": [
+      "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+      "RACIAL_BIAS"
+    ],
+    "aiGenerated": true,
+    "verificationStatus": "UNVERIFIED"
+  },
+  "featuredIndividuals": [
+    {
+      "firstName": "Ronald",
+      "middleName": null,
+      "lastName": "Cotton",
+      "suffix": null,
+      "status": "EXONERATED",
+      "claimStrength": "FORMALLY_EXONERATED",
+      "crimeCategoryName": "Sexual Assault",
+      "convictionYear": 1985,
+      "exonerationOrReleaseYear": 1995,
+      "timeServed": "10.5 years",
+      "sentence": "Life imprisonment",
+      "caseLocationCity": null,
+      "caseLocationCounty": null,
+      "caseLocationState": "North Carolina",
+      "caseLocationCountry": "USA",
+      "narrativeSummary": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "RACIAL_BIAS"
+      ],
+      "organizations": [
+        {
+          "name": "Innocence Project",
+          "type": "INNOCENCE_ORG"
+        }
+      ],
+      "crossReferenceNotes": "This case is well-documented in the book \"Picking Cotton\" by Jennifer Thompson-Cannino (the victim who misidentified Cotton) and Ronald Cotton"
+    }
+  ],
+  "involvedPersons": [
+    {
+      "firstName": "Elizabeth",
+      "middleName": "F.",
+      "lastName": "Loftus",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "James",
+      "middleName": "M.",
+      "lastName": "Doyle",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Jennifer",
+      "middleName": "E.",
+      "lastName": "Dysart",
+      "suffix": null,
+      "role": "AUTHOR"
+    },
+    {
+      "firstName": "Karen",
+      "middleName": "A.",
+      "lastName": "Newirth (latest edition)",
+      "suffix": null,
+      "role": "AUTHOR"
+    }
+  ]
+}
