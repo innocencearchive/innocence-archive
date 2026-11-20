@@ -27,6 +27,10 @@ import AdminFilmPage from './pages/AdminFilmPage';
 import AdminDashboardPage from './pages/AdminDashboardPage';
 import AdminResourcePage from './pages/AdminResourcePage';
 import AdminImportPage from './pages/AdminImportPage';
+import AdminVerifyPage from './pages/AdminVerifyPage';
+import AdminBatchesPage from './pages/AdminBatchesPage';
+import AdminAuditPage from './pages/AdminAuditPage';
+import AdminPodcastsPage from './pages/AdminPodcastsPage';
 
 
 function App() {
@@ -92,6 +96,22 @@ function App() {
                   <Route
                     path="/admin/import"
                     element={<ProtectedRoute><AdminImportPage /></ProtectedRoute>}
+                  />
+                  <Route
+                    path="/admin/verify"
+                    element={<ProtectedRoute><AdminVerifyPage /></ProtectedRoute>}
+                  />
+                  <Route
+                    path="/admin/batches"
+                    element={<ProtectedRoute><AdminBatchesPage /></ProtectedRoute>}
+                  />
+                  <Route
+                    path="/admin/audit"
+                    element={<ProtectedRoute><AdminAuditPage /></ProtectedRoute>}
+                  />
+                  <Route
+                    path="/admin/podcasts"
+                    element={<ProtectedRoute><AdminPodcastsPage /></ProtectedRoute>}
                   />
                 </Routes>
             </main>

@@ -22,6 +22,8 @@ function buildInitialForm(fields, row = null, presetDefaults = {}) {
     if (row && row[field.name] !== undefined && row[field.name] !== null) {
       if (field.type === 'date') {
         form[field.name] = String(row[field.name]).slice(0, 10);
+      } else if (field.type === 'multiselect') {
+        form[field.name] = Array.isArray(row[field.name]) ? row[field.name].map(Number) : [];
       } else {
         form[field.name] = row[field.name];
       }
@@ -31,6 +33,8 @@ function buildInitialForm(fields, row = null, presetDefaults = {}) {
       form[field.name] = field.defaultValue;
     } else if (field.type === 'checkbox') {
       form[field.name] = false;
+    } else if (field.type === 'multiselect') {
+      form[field.name] = [];
     } else {
       form[field.name] = '';
     }
@@ -68,16 +72,17 @@ function AdminResourcePage() {
 
   const fetchLookups = useCallback(async () => {
     if (!config) return;
-    const lookupFields = config.fields.filter((f) => f.type === 'lookup');
+    const lookupFields = config.fields.filter((f) => f.type === 'lookup' || f.type === 'multiselect');
     if (lookupFields.length === 0) return;
 
+    const uniqueKeys = Array.from(new Set(lookupFields.map((f) => f.lookupKey)));
     const entries = await Promise.all(
-      lookupFields.map(async (f) => {
+      uniqueKeys.map(async (key) => {
         try {
-          const res = await apiClient.get(`/admin/${f.lookupKey}`);
-          return [f.lookupKey, res.data];
+          const res = await apiClient.get(`/admin/${key}`);
+          return [key, res.data];
         } catch {
-          return [f.lookupKey, []];
+          return [key, []];
         }
       })
     );
@@ -449,6 +454,36 @@ function AdminResourcePage() {
                             </option>
                           ))}
                         </select>
+                      ) : field.type === 'multiselect' ? (
+                        <div className="bg-gray-900 border border-gray-700 rounded-md p-2 max-h-40 overflow-y-auto space-y-1">
+                          {(lookups[field.lookupKey] || []).length === 0 ? (
+                            <p className="text-xs text-gray-500 italic">No options available yet.</p>
+                          ) : (
+                            (lookups[field.lookupKey] || []).map((opt) => {
+                              const selectedIds = Array.isArray(formData[field.name]) ? formData[field.name] : [];
+                              const checked = selectedIds.includes(opt.id);
+                              return (
+                                <label
+                                  key={opt.id}
+                                  className="flex items-center gap-2 text-xs text-gray-200 cursor-pointer hover:bg-gray-800 px-1.5 py-1 rounded"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    checked={checked}
+                                    onChange={(e) => {
+                                      const next = e.target.checked
+                                        ? [...selectedIds, opt.id]
+                                        : selectedIds.filter((id) => id !== opt.id);
+                                      setFormData({ ...formData, [field.name]: next });
+                                    }}
+                                    className="rounded border-gray-600 bg-gray-800 text-amber-500"
+                                  />
+                                  <span>{field.optionLabel(opt)}</span>
+                                </label>
+                              );
+                            })
+                          )}
+                        </div>
                       ) : field.type === 'lookup' ? (
                         <select
                           required={field.required}

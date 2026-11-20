@@ -22,6 +22,7 @@ const authRoutes = require('./routes/auth'); // <<< ADD THIS LINE
 const adminExternalApiRoutes = require('./routes/adminExternalApi'); // <<< ADD THIS LINE
 const adminRoutes = require('./routes/admin');
 const adminImportRoutes = require('./routes/adminImport');
+const adminToolsRoutes = require('./routes/adminTools');
    
 
 // --- Initialization ---
@@ -79,6 +80,7 @@ app.use('/api/settings', settingsRoutes); // Mount the routes
 app.use('/api/auth', authRoutes);         
 app.use('/api/admin/external-search', adminExternalApiRoutes); // <<< ADD THIS LINE
 app.use('/api/admin/import', adminImportRoutes);
+app.use('/api/admin/tools', adminToolsRoutes);
 app.use('/api/admin', adminRoutes);
     
 

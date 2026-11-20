@@ -17,8 +17,8 @@
   - [x] Wire real `POST` / `PUT` calls to `/api/admin/mediaworks` (replaced simulated saves).
   - [x] Load existing film data from the DB when opening `/admin/film/edit/:id`.
   - [x] Persist `StreamingProvider` entries alongside `MediaWork`.
-- [x] **Source Provenance in Admin CRUD**: Added `Information Sources` management (`/admin/manage/informationsources`) and inline Primary Source Links (view/add/delete `IndividualSourceLink`) inside the Individual edit modal.
-- [ ] **Podcast Pipeline Review Workflow**: Confirm staged episodes from `scripts/podcast_pipeline` flow smoothly into the `/admin` unverified queue for review, cross-linking, and approval.
+- [x] **Source Provenance & Cross-Linking in Admin CRUD**: Added `Information Sources` management (`/admin/manage/informationsources`), inline Primary Source Links inside the Individual edit modal, and multi-select relation pickers (Contributing Factors, Organizations, Groups, Featured Individuals) on Individuals and Media Items.
+- [x] **Unified Validation Queue, Data Health Audit, Batch Rollback & Podcast Monitor**: Added `/admin/verify`, `/admin/audit` (with safe transactional Duplicate Individual Merger), `/admin/batches` (bulk-verify & rollback), `/admin/podcasts`, and a reworked 4-stage workflow navigation bar (`1. Ingest → 2. Verify → 3. Audit → 4. Configure`).
 
 ---
 

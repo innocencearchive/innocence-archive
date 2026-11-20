@@ -232,10 +232,21 @@ router.get('/individuals', async (req, res) => {
   try {
     const rows = await prisma.individual.findMany({
       where,
-      include: { crimeCategory: true },
+      include: {
+        crimeCategory: true,
+        contributingFactors: { select: { id: true } },
+        organizationsInvolved: { select: { id: true } },
+        groups: { select: { id: true } },
+      },
       orderBy: [{ updatedAt: 'desc' }],
     });
-    res.json(rows);
+    const shaped = rows.map((r) => ({
+      ...r,
+      contributingFactorIds: r.contributingFactors.map((f) => f.id),
+      organizationIds: r.organizationsInvolved.map((o) => o.id),
+      groupIds: r.groups.map((g) => g.id),
+    }));
+    res.json(shaped);
   } catch (error) {
     handlePrismaError(res, error, 'Individual');
   }
@@ -530,10 +541,21 @@ router.get('/mediaitems', async (req, res) => {
   try {
     const rows = await prisma.mediaItem.findMany({
       where,
-      include: { work: { select: { id: true, title: true, workType: true } } },
+      include: {
+        work: { select: { id: true, title: true, workType: true } },
+        individualsFeatured: { select: { id: true } },
+        organizationsMentioned: { select: { id: true } },
+        contributingFactorsMentioned: { select: { id: true } },
+      },
       orderBy: [{ updatedAt: 'desc' }],
     });
-    res.json(rows);
+    const shaped = rows.map((r) => ({
+      ...r,
+      individualIds: r.individualsFeatured.map((i) => i.id),
+      organizationIds: r.organizationsMentioned.map((o) => o.id),
+      contributingFactorIds: r.contributingFactorsMentioned.map((f) => f.id),
+    }));
+    res.json(shaped);
   } catch (error) {
     handlePrismaError(res, error, 'MediaItem');
   }
