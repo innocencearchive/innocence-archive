@@ -58,6 +58,14 @@ function AdminResourcePage() {
   const [saving, setSaving] = useState(false);
   const [formError, setFormError] = useState(null);
 
+  // Source Provenance Links (for Individuals edit modal)
+  const [sourceLinks, setSourceLinks] = useState([]);
+  const [infoSources, setInfoSources] = useState([]);
+  const [newLinkSourceId, setNewLinkSourceId] = useState('');
+  const [newLinkUrl, setNewLinkUrl] = useState('');
+  const [newLinkHeadline, setNewLinkHeadline] = useState('');
+  const [addingLink, setAddingLink] = useState(false);
+
   const fetchLookups = useCallback(async () => {
     if (!config) return;
     const lookupFields = config.fields.filter((f) => f.type === 'lookup');
@@ -133,6 +141,55 @@ function AdminResourcePage() {
     setFormData(buildInitialForm(config.fields, row));
     setFormError(null);
     setModalOpen(true);
+
+    if (resource === 'individuals' && row?.id) {
+      setSourceLinks([]);
+      setNewLinkUrl('');
+      setNewLinkHeadline('');
+      Promise.all([
+        apiClient.get(`/admin/individuals/${row.id}/sourcelinks`),
+        apiClient.get('/admin/informationsources'),
+      ])
+        .then(([linksRes, sourcesRes]) => {
+          setSourceLinks(linksRes.data || []);
+          const srcs = sourcesRes.data || [];
+          setInfoSources(srcs);
+          if (srcs.length > 0 && !newLinkSourceId) {
+            setNewLinkSourceId(String(srcs[0].id));
+          }
+        })
+        .catch((err) => console.error('Failed to load source links:', err));
+    }
+  };
+
+  const handleAddSourceLink = async () => {
+    if (!editingRow?.id || !newLinkUrl.trim() || !newLinkSourceId) return;
+    setAddingLink(true);
+    setFormError(null);
+    try {
+      const res = await apiClient.post(`/admin/individuals/${editingRow.id}/sourcelinks`, {
+        informationSourceId: parseInt(newLinkSourceId, 10),
+        specificUrl: newLinkUrl.trim(),
+        headline: newLinkHeadline.trim() || null,
+      });
+      setSourceLinks((prev) => [res.data, ...prev]);
+      setNewLinkUrl('');
+      setNewLinkHeadline('');
+    } catch (err) {
+      setFormError(err.response?.data?.message || 'Failed to add source link.');
+    } finally {
+      setAddingLink(false);
+    }
+  };
+
+  const handleDeleteSourceLink = async (linkId) => {
+    if (!editingRow?.id) return;
+    try {
+      await apiClient.delete(`/admin/individuals/${editingRow.id}/sourcelinks/${linkId}`);
+      setSourceLinks((prev) => prev.filter((l) => l.id !== linkId));
+    } catch (err) {
+      setFormError(err.response?.data?.message || 'Failed to delete source link.');
+    }
   };
 
   const handleSave = async (e) => {
@@ -419,6 +476,90 @@ function AdminResourcePage() {
                   )}
                 </div>
               ))}
+
+              {resource === 'individuals' && editingRow && (
+                <div className="pt-4 border-t border-gray-700 space-y-3">
+                  <h3 className="text-sm font-semibold text-amber-400">
+                    Primary Source Links (Provenance)
+                  </h3>
+                  {sourceLinks.length === 0 ? (
+                    <p className="text-xs text-gray-500 italic">No source citations attached yet.</p>
+                  ) : (
+                    <ul className="space-y-1.5">
+                      {sourceLinks.map((link) => (
+                        <li
+                          key={link.id}
+                          className="flex items-center justify-between gap-2 bg-gray-900 border border-gray-700 rounded px-3 py-2 text-xs"
+                        >
+                          <div className="min-w-0">
+                            <span className="text-amber-300 font-medium">
+                              {link.informationSource?.name || 'Source'}
+                            </span>
+                            {link.headline && (
+                              <span className="text-gray-300 ml-2">— {link.headline}</span>
+                            )}
+                            <a
+                              href={link.specificUrl}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="block text-blue-400 hover:underline truncate"
+                            >
+                              {link.specificUrl}
+                            </a>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={() => handleDeleteSourceLink(link.id)}
+                            className="p-1 text-red-400 hover:text-red-300 shrink-0"
+                            title="Remove source link"
+                          >
+                            <Trash2 size={14} />
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-2 pt-1">
+                    <select
+                      value={newLinkSourceId}
+                      onChange={(e) => setNewLinkSourceId(e.target.value)}
+                      className="px-2 py-1.5 bg-gray-900 border border-gray-700 rounded text-xs text-gray-100"
+                    >
+                      <option value="">-- Source --</option>
+                      {infoSources.map((s) => (
+                        <option key={s.id} value={s.id}>
+                          {s.name}
+                        </option>
+                      ))}
+                    </select>
+                    <input
+                      type="url"
+                      value={newLinkUrl}
+                      onChange={(e) => setNewLinkUrl(e.target.value)}
+                      placeholder="https://... (specific URL)"
+                      className="px-2 py-1.5 bg-gray-900 border border-gray-700 rounded text-xs text-gray-100"
+                    />
+                    <div className="flex gap-2">
+                      <input
+                        type="text"
+                        value={newLinkHeadline}
+                        onChange={(e) => setNewLinkHeadline(e.target.value)}
+                        placeholder="Headline (optional)"
+                        className="flex-1 px-2 py-1.5 bg-gray-900 border border-gray-700 rounded text-xs text-gray-100"
+                      />
+                      <button
+                        type="button"
+                        disabled={addingLink || !newLinkUrl.trim() || !newLinkSourceId}
+                        onClick={handleAddSourceLink}
+                        className="px-3 py-1.5 bg-amber-600 hover:bg-amber-700 disabled:opacity-40 text-white rounded text-xs font-medium shrink-0"
+                      >
+                        {addingLink ? '...' : '+ Add'}
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              )}
 
               <div className="flex justify-end gap-3 pt-4 border-t border-gray-700">
                 <button

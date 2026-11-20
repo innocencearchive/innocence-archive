@@ -49,15 +49,44 @@ function AdminFilmPage() {
 
   useEffect(() => {
     if (location.pathname.includes('/edit/') && params.id) {
-      setMode('show_existing_film'); // Or 'edit_existing_film' to go straight to edit
       setFilmId(params.id);
-      console.log(`AdminFilmPage: Editing film with internal DB ID: ${params.id}`);
-      // TODO: Fetch existing film data from your DB using params.id
-      // and populate filmData, setFullPosterUrl.
-      // Example: fetchAndSetFilmFromDb(params.id);
+      setIsFetchingDetails(true);
+      setError(null);
+      apiClient
+        .get(`/admin/mediaworks/${params.id}`)
+        .then((res) => {
+          const w = res.data;
+          setFilmData({
+            title: w.title || '',
+            workType: w.workType || 'FILM',
+            creatorName: w.creatorName || '',
+            publicationOrReleaseYear: w.publicationOrReleaseYear?.toString() || '',
+            publisherOrNetwork: w.publisherOrNetwork || '',
+            focusOrTheme: w.focusOrTheme || '',
+            summaryNotes: w.summaryNotes || '',
+            imagePath: w.imagePath || '',
+            externalId: w.externalId || '',
+            imdb_id: '',
+            tagline: '',
+            runtime: '',
+            streaming_providers: w.streamingProviders || [],
+          });
+          if (w.imagePath) {
+            setFullPosterUrl(
+              w.imagePath.startsWith('http') ? w.imagePath : `${TMDB_IMAGE_BASE_URL}w342${w.imagePath}`
+            );
+          } else {
+            setFullPosterUrl('');
+          }
+          setMode('show_existing_film');
+        })
+        .catch((err) => {
+          console.error('AdminFilmPage: Failed to load existing film:', err);
+          setError(err.response?.data?.message || 'Failed to load existing film from database.');
+        })
+        .finally(() => setIsFetchingDetails(false));
     } else if (location.pathname.includes('/add')) {
       setMode('search_tmdb');
-      console.log('AdminFilmPage: Adding new film mode.');
     }
   }, [location.pathname, params.id]);
 
@@ -159,70 +188,58 @@ function AdminFilmPage() {
     
     const payload = {
       title: filmData.title,
-      workType: 'FILM',
+      workType: filmData.workType || 'FILM',
       creatorName: filmData.creatorName,
       publicationOrReleaseYear: filmData.publicationOrReleaseYear ? parseInt(filmData.publicationOrReleaseYear, 10) : null,
       publisherOrNetwork: filmData.publisherOrNetwork,
       focusOrTheme: filmData.focusOrTheme,
       summaryNotes: filmData.summaryNotes,
-      imagePath: filmData.imagePath, // This is the relative path
-      externalId: filmData.externalId, // TMDB ID
-      // IMDb ID, tagline, runtime are not directly in MediaWork, but could be in a FilmDetails table or notes.
-      // For now, we are not saving them directly into separate DB fields beyond MediaWork.
-      // Streaming providers will need special handling to save to the StreamingProvider table.
-      // imdb_id: filmData.imdb_id, // Example if you add this to MediaWork or a related table
-      // tagline: filmData.tagline,
-      // runtime: filmData.runtime ? parseInt(filmData.runtime) : null
+      imagePath: filmData.imagePath,
+      externalId: filmData.externalId,
+      sourcingCredit: 'Information sourced from TMDB, but not endorsed or certified by TMDB.',
+      ingestionSource: 'admin_film_tmdb',
+      aiGenerated: false,
+      verificationStatus: 'UNVERIFIED',
+      streamingProviders: filmData.streaming_providers || [],
     };
-    // Add streaming_providers to payload if your backend /api/admin/media endpoint is ready for it
-    // payload.streaming_providers = filmData.streaming_providers;
-
-
-    console.log('AdminFilmPage: Saving film data (payload for MediaWork):', payload);
-    console.log('AdminFilmPage: Raw streaming providers from form state:', filmData.streaming_providers);
-
 
     try {
       let response;
       if (mode === 'review_new_film') {
-        console.log('AdminFilmPage: Calling backend to create new film with payload:', payload);
-        // TODO: Replace with actual API call to POST /api/admin/media or /api/admin/films
-        // This endpoint needs to handle creating MediaWork AND related StreamingProvider entries.
-        await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate
-        response = { data: { message: 'Film created successfully (simulated)!', mediaWork: {...payload, id: 'db_new_123', streaming_providers: filmData.streaming_providers} } };
-        setSuccessMessage(response.data.message);
-        if (response.data.mediaWork) {
-          setFilmId(response.data.mediaWork.id);
-          // Repopulate form with potentially processed/saved data
-          setFilmData(prev => ({
-            ...prev, // Keep existing form data
-            ...response.data.mediaWork, // Override with saved data
-            publicationOrReleaseYear: response.data.mediaWork.publicationOrReleaseYear?.toString() || '',
-            runtime: response.data.mediaWork.runtime?.toString() || '',
-            // If backend returns processed streaming_providers, update here
-          }));
-          if(response.data.mediaWork.imagePath) setFullPosterUrl(`${TMDB_IMAGE_BASE_URL}w342${response.data.mediaWork.imagePath}`);
-          setMode('show_existing_film');
+        response = await apiClient.post('/admin/mediaworks', payload);
+        const saved = response.data;
+        setSuccessMessage(`Film "${saved.title}" created successfully (ID #${saved.id}).`);
+        setFilmId(saved.id);
+        setFilmData((prev) => ({
+          ...prev,
+          ...saved,
+          publicationOrReleaseYear: saved.publicationOrReleaseYear?.toString() || '',
+          streaming_providers: saved.streamingProviders || prev.streaming_providers || [],
+        }));
+        if (saved.imagePath) {
+          setFullPosterUrl(
+            saved.imagePath.startsWith('http') ? saved.imagePath : `${TMDB_IMAGE_BASE_URL}w342${saved.imagePath}`
+          );
         }
+        setMode('show_existing_film');
       } else if (mode === 'edit_existing_film' && filmId) {
-        console.log(`AdminFilmPage: Calling backend to update film ID ${filmId} with payload:`, payload);
-        // TODO: Replace with actual API call to PUT /api/admin/media/:filmId or /api/admin/films/:filmId
-        // This endpoint also needs to handle updates to MediaWork AND related StreamingProvider entries.
-        await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate
-        response = { data: { message: 'Film updated successfully (simulated)!', mediaWork: payload } };
-        setSuccessMessage(response.data.message);
-        if (response.data.mediaWork) {
-           setFilmData(prev => ({
-            ...prev,
-            ...response.data.mediaWork,
-            publicationOrReleaseYear: response.data.mediaWork.publicationOrReleaseYear?.toString() || '',
-            runtime: response.data.mediaWork.runtime?.toString() || '',
-          }));
-          if(response.data.mediaWork.imagePath) setFullPosterUrl(`${TMDB_IMAGE_BASE_URL}w342${response.data.mediaWork.imagePath}`);
-          setMode('show_existing_film');
+        response = await apiClient.put(`/admin/mediaworks/${filmId}`, payload);
+        const saved = response.data;
+        setSuccessMessage(`Film "${saved.title}" updated successfully.`);
+        setFilmData((prev) => ({
+          ...prev,
+          ...saved,
+          publicationOrReleaseYear: saved.publicationOrReleaseYear?.toString() || '',
+          streaming_providers: saved.streamingProviders || prev.streaming_providers || [],
+        }));
+        if (saved.imagePath) {
+          setFullPosterUrl(
+            saved.imagePath.startsWith('http') ? saved.imagePath : `${TMDB_IMAGE_BASE_URL}w342${saved.imagePath}`
+          );
         }
+        setMode('show_existing_film');
       } else {
-        throw new Error("Invalid mode for saving.");
+        throw new Error('Invalid mode for saving.');
       }
     } catch (err) {
       console.error('AdminFilmPage: Error saving film:', err);

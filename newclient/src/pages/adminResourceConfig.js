@@ -337,4 +337,23 @@ export const ADMIN_RESOURCES = {
       { name: 'description', label: 'Description', type: 'textarea' },
     ],
   },
+
+  informationsources: {
+    key: 'informationsources',
+    title: 'Information Sources (Provenance)',
+    singular: 'Information Source',
+    endpoint: '/admin/informationsources',
+    verifiable: false,
+    searchable: false,
+    columns: [
+      { key: 'name', label: 'Source Name', render: (r) => r.name },
+      { key: 'baseUrl', label: 'Base URL', render: (r) => r.baseUrl || '—' },
+      { key: 'links', label: 'Citations', render: (r) => r._count?.individualLinks ?? '—' },
+    ],
+    fields: [
+      { name: 'name', label: 'Source Name', type: 'text', required: true },
+      { name: 'baseUrl', label: 'Base URL', type: 'text' },
+      { name: 'retrievedAt', label: 'Last Retrieved Date', type: 'date' },
+    ],
+  },
 };

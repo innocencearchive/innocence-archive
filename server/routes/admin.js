@@ -140,6 +140,7 @@ router.get('/stats', async (req, res) => {
       personsUnverified,
       crimeCategoriesTotal,
       groupsTotal,
+      informationSourcesTotal,
     ] = await Promise.all([
       prisma.individual.count(),
       prisma.individual.count(unverifiedFilter),
@@ -155,6 +156,7 @@ router.get('/stats', async (req, res) => {
       prisma.involvedPerson.count(unverifiedFilter),
       prisma.crimeCategory.count(),
       prisma.individualGroup.count(),
+      prisma.informationSource.count(),
     ]);
 
     res.json({
@@ -166,6 +168,7 @@ router.get('/stats', async (req, res) => {
       involvedPersons: { total: personsTotal, unverified: personsUnverified },
       crimeCategories: { total: crimeCategoriesTotal },
       individualGroups: { total: groupsTotal },
+      informationSources: { total: informationSourcesTotal },
     });
   } catch (error) {
     handlePrismaError(res, error, 'stats');
@@ -383,13 +386,81 @@ function buildMediaWorkData(body, userId) {
   };
 }
 
+const VALID_STREAMING_TYPES = new Set(['SUBSCRIPTION', 'RENT', 'BUY', 'FREE', 'OTHER', 'UNKNOWN']);
+
+function mapStreamingType(raw) {
+  if (!raw) return 'UNKNOWN';
+  const upper = String(raw).trim().toUpperCase();
+  if (VALID_STREAMING_TYPES.has(upper)) return upper;
+  if (upper === 'FLATRATE' || upper === 'SUB') return 'SUBSCRIPTION';
+  if (upper === 'ADS' || upper === 'AVOD') return 'FREE';
+  return 'OTHER';
+}
+
+function normalizeStreamingProviders(rawList) {
+  if (!Array.isArray(rawList)) return [];
+  const dedup = new Map();
+  const now = new Date();
+  for (const p of rawList) {
+    const providerName = (p.providerName || p.provider_name || p.name || '').trim();
+    if (!providerName) continue;
+    const streamingType = mapStreamingType(p.streamingType || p.type);
+    const presentationQuality = (p.presentationQuality || p.format || 'HD').trim();
+    const key = `${providerName}|${streamingType}|${presentationQuality}`;
+    if (!dedup.has(key)) {
+      dedup.set(key, {
+        providerName,
+        watchmodeProviderId: parseIntOrNull(p.watchmodeProviderId || p.source_id),
+        streamingType,
+        url: (p.url || p.web_url || '').trim() || null,
+        priceCurrency: (p.priceCurrency || p.currency || '').trim() || null,
+        priceAmount:
+          p.priceAmount !== undefined && p.priceAmount !== null && p.priceAmount !== ''
+            ? parseFloat(p.priceAmount)
+            : p.price !== undefined && p.price !== null && p.price !== ''
+              ? parseFloat(p.price)
+              : null,
+        presentationQuality,
+        lastChecked: now,
+      });
+    }
+  }
+  return Array.from(dedup.values());
+}
+
+router.get('/mediaworks/:id', async (req, res) => {
+  const id = parseId(req.params.id);
+  if (!id) return res.status(400).json({ message: 'Invalid MediaWork ID.' });
+  try {
+    const work = await prisma.mediaWork.findUnique({
+      where: { id },
+      include: {
+        streamingProviders: true,
+        bookPurchaseDetails: true,
+        _count: { select: { items: true } },
+      },
+    });
+    if (!work) return res.status(404).json({ message: 'MediaWork not found.' });
+    res.json(work);
+  } catch (error) {
+    handlePrismaError(res, error, 'MediaWork');
+  }
+});
+
 router.post('/mediaworks', async (req, res) => {
   if (!req.body.title?.trim() || !req.body.workType) {
     return res.status(400).json({ message: 'title and workType are required.' });
   }
   try {
+    const providers = normalizeStreamingProviders(
+      req.body.streamingProviders || req.body.streaming_providers
+    );
     const created = await prisma.mediaWork.create({
-      data: buildMediaWorkData(req.body, req.user?.userId),
+      data: {
+        ...buildMediaWorkData(req.body, req.user?.userId),
+        ...(providers.length > 0 ? { streamingProviders: { create: providers } } : {}),
+      },
+      include: { streamingProviders: true },
     });
     res.status(201).json(created);
   } catch (error) {
@@ -404,9 +475,23 @@ router.put('/mediaworks/:id', async (req, res) => {
     return res.status(400).json({ message: 'title and workType are required.' });
   }
   try {
+    const rawProviders = req.body.streamingProviders ?? req.body.streaming_providers;
+    const providers = Array.isArray(rawProviders) ? normalizeStreamingProviders(rawProviders) : null;
+
     const updated = await prisma.mediaWork.update({
       where: { id },
-      data: buildMediaWorkData(req.body, req.user?.userId),
+      data: {
+        ...buildMediaWorkData(req.body, req.user?.userId),
+        ...(providers !== null
+          ? {
+              streamingProviders: {
+                deleteMany: {},
+                ...(providers.length > 0 ? { create: providers } : {}),
+              },
+            }
+          : {}),
+      },
+      include: { streamingProviders: true },
     });
     res.json(updated);
   } catch (error) {
@@ -890,6 +975,137 @@ router.delete('/individualgroups/:id', async (req, res) => {
     res.json({ message: 'IndividualGroup deleted.', id });
   } catch (error) {
     handlePrismaError(res, error, 'IndividualGroup');
+  }
+});
+
+// --- InformationSources (Source Provenance Catalog) ---
+
+router.get('/informationsources', async (req, res) => {
+  try {
+    const rows = await prisma.informationSource.findMany({
+      include: { _count: { select: { individualLinks: true } } },
+      orderBy: { name: 'asc' },
+    });
+    res.json(rows);
+  } catch (error) {
+    handlePrismaError(res, error, 'InformationSource');
+  }
+});
+
+router.post('/informationsources', async (req, res) => {
+  if (!req.body.name?.trim()) {
+    return res.status(400).json({ message: 'name is required.' });
+  }
+  try {
+    const created = await prisma.informationSource.create({
+      data: {
+        name: req.body.name.trim(),
+        baseUrl: req.body.baseUrl?.trim() || null,
+        retrievedAt: parseDateOrNull(req.body.retrievedAt),
+      },
+    });
+    res.status(201).json(created);
+  } catch (error) {
+    handlePrismaError(res, error, 'InformationSource');
+  }
+});
+
+router.put('/informationsources/:id', async (req, res) => {
+  const id = parseId(req.params.id);
+  if (!id) return res.status(400).json({ message: 'Invalid InformationSource ID.' });
+  if (!req.body.name?.trim()) {
+    return res.status(400).json({ message: 'name is required.' });
+  }
+  try {
+    const updated = await prisma.informationSource.update({
+      where: { id },
+      data: {
+        name: req.body.name.trim(),
+        baseUrl: req.body.baseUrl?.trim() || null,
+        retrievedAt: parseDateOrNull(req.body.retrievedAt),
+      },
+    });
+    res.json(updated);
+  } catch (error) {
+    handlePrismaError(res, error, 'InformationSource');
+  }
+});
+
+router.delete('/informationsources/:id', async (req, res) => {
+  const id = parseId(req.params.id);
+  if (!id) return res.status(400).json({ message: 'Invalid InformationSource ID.' });
+  try {
+    await prisma.informationSource.delete({ where: { id } });
+    res.json({ message: 'InformationSource deleted.', id });
+  } catch (error) {
+    handlePrismaError(res, error, 'InformationSource');
+  }
+});
+
+// --- Individual Source Links (Provenance per Individual) ---
+
+router.get('/individuals/:id/sourcelinks', async (req, res) => {
+  const id = parseId(req.params.id);
+  if (!id) return res.status(400).json({ message: 'Invalid Individual ID.' });
+  try {
+    const links = await prisma.individualSourceLink.findMany({
+      where: { individualId: id },
+      include: { informationSource: true },
+      orderBy: { createdAt: 'desc' },
+    });
+    res.json(links);
+  } catch (error) {
+    handlePrismaError(res, error, 'IndividualSourceLink');
+  }
+});
+
+router.post('/individuals/:id/sourcelinks', async (req, res) => {
+  const id = parseId(req.params.id);
+  if (!id) return res.status(400).json({ message: 'Invalid Individual ID.' });
+  const specificUrl = req.body.specificUrl?.trim();
+  if (!specificUrl) {
+    return res.status(400).json({ message: 'specificUrl is required.' });
+  }
+
+  try {
+    let infoSourceId = parseId(req.body.informationSourceId);
+    if (!infoSourceId && req.body.informationSourceName?.trim()) {
+      const src = await prisma.informationSource.upsert({
+        where: { name: req.body.informationSourceName.trim() },
+        update: {},
+        create: { name: req.body.informationSourceName.trim() },
+      });
+      infoSourceId = src.id;
+    }
+    if (!infoSourceId) {
+      return res.status(400).json({ message: 'informationSourceId or informationSourceName is required.' });
+    }
+
+    const created = await prisma.individualSourceLink.create({
+      data: {
+        individualId: id,
+        informationSourceId: infoSourceId,
+        specificUrl,
+        headline: req.body.headline?.trim() || null,
+        description: req.body.description?.trim() || null,
+      },
+      include: { informationSource: true },
+    });
+    res.status(201).json(created);
+  } catch (error) {
+    handlePrismaError(res, error, 'IndividualSourceLink');
+  }
+});
+
+router.delete('/individuals/:id/sourcelinks/:linkId', async (req, res) => {
+  const id = parseId(req.params.id);
+  const linkId = parseId(req.params.linkId);
+  if (!id || !linkId) return res.status(400).json({ message: 'Invalid ID.' });
+  try {
+    await prisma.individualSourceLink.delete({ where: { id: linkId } });
+    res.json({ message: 'Source link deleted.', id: linkId });
+  } catch (error) {
+    handlePrismaError(res, error, 'IndividualSourceLink');
   }
 });
 

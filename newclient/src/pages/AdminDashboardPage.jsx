@@ -19,6 +19,10 @@ import {
   Layers,
   LayoutDashboard,
   LogOut,
+  FileSpreadsheet,
+  Link2,
+  ShieldCheck,
+  Wrench,
 } from 'lucide-react';
 import { BRONZE_COLOR, BRONZE_BORDER } from '../components/themeconstants';
 
@@ -47,6 +51,7 @@ function AdminDashboardPage() {
     { name: 'Contributing Factors', resource: 'contributingfactors', statsKey: 'contributingFactors', icon: AlertTriangle },
     { name: 'Crime Categories', resource: 'crimecategories', statsKey: 'crimeCategories', icon: Tags },
     { name: 'Individual Groups', resource: 'individualgroups', statsKey: 'individualGroups', icon: Layers },
+    { name: 'Information Sources', resource: 'informationsources', statsKey: 'informationSources', icon: Link2 },
   ];
 
   const quickAddActions = [
@@ -56,6 +61,50 @@ function AdminDashboardPage() {
     { name: 'Media Item / Episode', icon: Mic, path: '/admin/manage/mediaitems?action=add' },
     { name: 'Organization', icon: Building2, path: '/admin/manage/organizations?action=add' },
     { name: 'Individual', icon: Users, path: '/admin/manage/individuals?action=add' },
+  ];
+
+  const totalUnverified =
+    (stats?.individuals?.unverified || 0) +
+    (stats?.mediaWorks?.unverified || 0) +
+    (stats?.mediaItems?.unverified || 0) +
+    (stats?.organizations?.unverified || 0) +
+    (stats?.involvedPersons?.unverified || 0);
+
+  const adminTools = [
+    {
+      name: 'Import Staging Queue',
+      description: 'Initialize core lookup tables, preview CSV/JSON uploads, check duplicates, and commit batches.',
+      path: '/admin/import',
+      icon: FileSpreadsheet,
+    },
+    {
+      name: 'Validation Queue',
+      description:
+        totalUnverified > 0
+          ? `${totalUnverified} unverified record(s) waiting for review and approval.`
+          : 'Review and verify newly imported or AI-assisted records.',
+      path: '/admin/manage/individuals?unverified=true',
+      icon: ShieldCheck,
+      badge: totalUnverified > 0 ? `${totalUnverified} pending` : null,
+    },
+    {
+      name: 'Homepage Settings',
+      description: 'Configure featured story, book, podcast, film, organization, and contributing factors.',
+      path: '/adminsettings',
+      icon: Settings,
+    },
+    {
+      name: 'TMDB Film Importer',
+      description: 'Search TMDB for films/documentaries, pull metadata & streaming providers, and save to DB.',
+      path: '/admin/film/add',
+      icon: Film,
+    },
+    {
+      name: 'Source Provenance Catalog',
+      description: 'Manage Information Sources (NRE, Innocence Project, Wikipedia, etc.) used for citations.',
+      path: '/admin/manage/informationsources',
+      icon: Link2,
+    },
   ];
 
   return (
@@ -72,24 +121,42 @@ function AdminDashboardPage() {
               </p>
             )}
           </div>
-          <div className="flex items-center space-x-3">
-            <Link
-              to="/adminsettings"
-              className="py-2 px-4 text-sm bg-gray-700 hover:bg-gray-600 text-amber-400 font-semibold rounded-md transition duration-150 ease-in-out flex items-center"
-              title="Site Settings"
-            >
-              <Settings size={16} className="mr-1.5" /> Settings
-            </Link>
-            <button
-              onClick={logout}
-              className="py-2 px-4 text-sm bg-red-700 hover:bg-red-800 text-white font-semibold rounded-md transition duration-150 ease-in-out flex items-center"
-              aria-label="Logout"
-              title="Logout"
-            >
-              <LogOut size={16} className="mr-1.5" /> Logout
-            </button>
-          </div>
         </div>
+
+        {/* Admin Tools Menu */}
+        <section className="mb-12">
+          <h2 className={boxTitleStyle}>
+            <Wrench size={24} className="mr-2 inline-block" /> Admin Tools
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {adminTools.map((tool) => {
+              const IconComponent = tool.icon;
+              return (
+                <Link
+                  key={tool.name}
+                  to={tool.path}
+                  className="flex flex-col justify-between p-5 bg-gray-800 hover:bg-gray-700 border border-gray-700 hover:border-amber-500/60 rounded-lg transition-colors"
+                >
+                  <div>
+                    <div className="flex items-center justify-between mb-2">
+                      <div className="flex items-center text-amber-400 font-semibold">
+                        <IconComponent size={20} className="mr-2" />
+                        <span>{tool.name}</span>
+                      </div>
+                      {tool.badge && (
+                        <span className="px-2 py-0.5 text-xs rounded-full bg-amber-900/80 text-amber-200 font-medium">
+                          {tool.badge}
+                        </span>
+                      )}
+                    </div>
+                    <p className="text-xs text-gray-400 leading-relaxed">{tool.description}</p>
+                  </div>
+                  <span className="text-xs text-amber-400 mt-3 font-medium">Open tool →</span>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
 
         {/* Manage, Verify & Edit Existing Data */}
         <section className="mb-12">

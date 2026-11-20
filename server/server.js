@@ -19,8 +19,9 @@ const homepageRouter = require('./routes/homepage'); // Import the new router
 const searchRoutes = require('./routes/search');
 const settingsRoutes = require('./routes/settings');
 const authRoutes = require('./routes/auth'); // <<< ADD THIS LINE
- const adminExternalApiRoutes = require('./routes/adminExternalApi'); // <<< ADD THIS LINE
+const adminExternalApiRoutes = require('./routes/adminExternalApi'); // <<< ADD THIS LINE
 const adminRoutes = require('./routes/admin');
+const adminImportRoutes = require('./routes/adminImport');
    
 
 // --- Initialization ---
@@ -31,8 +32,8 @@ const PORT = process.env.PORT || 3001; // Use port from .env or default to 3001
 // --- Middleware ---
 // Enable CORS for all origins (adjust in production later for security)
 app.use(cors());
-// Enable Express to parse JSON request bodies
-app.use(express.json());
+// Enable Express to parse JSON request bodies (15mb limit for admin CSV/JSON import batches)
+app.use(express.json({ limit: '15mb' }));
 
 // --- Routes ---
 
@@ -77,6 +78,7 @@ app.use('/api/search', searchRoutes);
 app.use('/api/settings', settingsRoutes); // Mount the routes
 app.use('/api/auth', authRoutes);         
 app.use('/api/admin/external-search', adminExternalApiRoutes); // <<< ADD THIS LINE
+app.use('/api/admin/import', adminImportRoutes);
 app.use('/api/admin', adminRoutes);
     
 

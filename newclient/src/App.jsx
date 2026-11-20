@@ -6,6 +6,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import Header from './components/Header'; // Ensure path is correct
 import Footer from './components/Footer'; // Ensure path is correct
 import ScrollToTop from './components/ScrollToTop'; // Adjust path if needed
+import AdminNavBar from './components/AdminNavBar';
 
 // Import page components
 import HomePage from './pages/HomePage';
@@ -25,11 +26,13 @@ import ProtectedRoute from './components/ProtectedRoute';
 import AdminFilmPage from './pages/AdminFilmPage'; 
 import AdminDashboardPage from './pages/AdminDashboardPage';
 import AdminResourcePage from './pages/AdminResourcePage';
+import AdminImportPage from './pages/AdminImportPage';
 
 
 function App() {
   const location = useLocation();
   const showHeader = location.pathname !== '/';
+  const isAdminRoute = location.pathname.startsWith('/admin');
 
   return (
     <div className="min-h-screen bg-gray-900 text-gray-50 font-sans flex flex-col py-8">
@@ -37,6 +40,7 @@ function App() {
       
         <div className="w-full max-w-[90%] mx-auto bg-black rounded-lg shadow-lg flex flex-col flex-grow overflow-hidden">
             {showHeader && <Header />}
+            {isAdminRoute && <AdminNavBar />}
             <main className="flex-grow">
                 <Routes>
                   <Route path="/search" element={<SearchResultsPage />} />
@@ -53,8 +57,8 @@ function App() {
                   <Route path="/combined/:id" element={<CombinedMediaPage />} /> 
                   <Route path="/organization/:id" element={<OrganizationInfoPage />} />
                   <Route path="/factor/:id" element={<ContributingFactorsPage />} />
-				  <Route path="/login" element={<LoginPage />} /> {/* <<< ADD THIS */}
-               {/* Authentication Route */}
+
+            {/* Authentication Route */}
             <Route path="/login" element={<LoginPage />} />
 
             {/* Admin Routes - Protected */}
@@ -84,6 +88,10 @@ function App() {
                   <Route
                     path="/admin/manage/:resource"
                     element={<ProtectedRoute><AdminResourcePage /></ProtectedRoute>}
+                  />
+                  <Route
+                    path="/admin/import"
+                    element={<ProtectedRoute><AdminImportPage /></ProtectedRoute>}
                   />
                 </Routes>
             </main>

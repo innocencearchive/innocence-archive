@@ -1,0 +1,814 @@
+// server/routes/adminImport.js
+// Protected Admin Import Staging & Validation Queue API
+// Mounted at /api/admin/import
+
+const express = require('express');
+const { PrismaClient } = require('@prisma/client');
+const { parse } = require('csv-parse/sync');
+const humanparser = require('humanparser');
+const { authenticateToken, authorizeRole } = require('../middleware/authenticateToken');
+const {
+  CONTRIBUTING_FACTOR_CATALOG,
+  CANONICAL_CRIME_CATEGORIES,
+  CORE_INFORMATION_SOURCES,
+  resolveContributingFactorCodes,
+  resolveCrimeCategoryName,
+} = require('../utils/canonicalCatalog');
+
+const router = express.Router();
+const prisma = new PrismaClient();
+
+// Require ADMIN or EDITOR JWT for all import routes
+router.use((req, res, next) =>
+  authenticateToken(req, res, () => authorizeRole(['ADMIN', 'EDITOR'])(req, res, next))
+);
+
+const VALID_INDIVIDUAL_STATUSES = new Set([
+  'EXONERATED',
+  'RELEASED_ALFORD_PLEA',
+  'RELEASED_CLEMENCY',
+  'RELEASED_TIME_SERVED',
+  'CONVICTION_OVERTURNED',
+  'EXECUTED',
+  'CONVICTED',
+  'OTHER',
+  'UNKNOWN',
+]);
+
+const VALID_CLAIM_STRENGTHS = new Set([
+  'FORMALLY_EXONERATED',
+  'OFFICIAL_RELIEF_NO_EXONERATION',
+  'STRONG_NEW_EVIDENCE',
+  'CREDIBLE_CLAIM',
+  'UNASSESSED',
+]);
+
+const VALID_ORG_TYPES = new Set([
+  'INNOCENCE_ORG',
+  'LEGAL_AID',
+  'LAW_FIRM',
+  'LAW_ENFORCEMENT',
+  'GOVERNMENT_AGENCY',
+  'SUPPORT_GROUP',
+  'MEDIA_ORG',
+  'UNIVERSITY',
+  'OTHER',
+  'UNKNOWN',
+]);
+
+const VALID_VERIFICATION_STATUSES = new Set(['UNVERIFIED', 'IN_REVIEW', 'VERIFIED', 'DISPUTED']);
+
+function parseIntOrNull(val) {
+  if (val === null || val === undefined || val === '') return null;
+  const n = parseInt(String(val).trim(), 10);
+  return Number.isNaN(n) ? null : n;
+}
+
+function normStr(val) {
+  if (val === null || val === undefined) return '';
+  return String(val).trim().toLowerCase();
+}
+
+function getField(record, candidates) {
+  for (const key of candidates) {
+    if (record[key] !== undefined && record[key] !== null && String(record[key]).trim() !== '') {
+      return String(record[key]).trim();
+    }
+  }
+  // Case-insensitive fallback
+  const lowerMap = Object.fromEntries(
+    Object.entries(record).map(([k, v]) => [k.toLowerCase().trim(), v])
+  );
+  for (const key of candidates) {
+    const v = lowerMap[key.toLowerCase()];
+    if (v !== undefined && v !== null && String(v).trim() !== '') {
+      return String(v).trim();
+    }
+  }
+  return null;
+}
+
+function parseLocationString(loc) {
+  if (!loc) return { city: null, county: null, state: null };
+  const parts = loc.split(',').map((p) => p.trim()).filter(Boolean);
+  if (parts.length >= 3) return { city: parts[0], county: parts[1], state: parts[2] };
+  if (parts.length === 2) return { city: parts[0], county: null, state: parts[1] };
+  if (parts.length === 1) return { city: null, county: null, state: parts[0] };
+  return { city: null, county: null, state: null };
+}
+
+function mapStatusString(raw) {
+  if (!raw) return null;
+  const upper = raw.trim().toUpperCase().replace(/[\s-]+/g, '_');
+  if (VALID_INDIVIDUAL_STATUSES.has(upper)) return upper;
+  const lower = raw.trim().toLowerCase();
+  if (lower === 'yes' || lower.includes('exonerat')) return 'EXONERATED';
+  if (lower.includes('alford')) return 'RELEASED_ALFORD_PLEA';
+  if (lower.includes('pardon') || lower.includes('clemency') || lower.includes('commut')) return 'RELEASED_CLEMENCY';
+  if (lower.includes('time served')) return 'RELEASED_TIME_SERVED';
+  if (lower.includes('overturned') || lower.includes('vacated')) return 'CONVICTION_OVERTURNED';
+  if (lower.includes('executed')) return 'EXECUTED';
+  if (lower.includes('convicted') || lower.includes('incarcerated')) return 'CONVICTED';
+  return 'UNKNOWN';
+}
+
+function mapOrgTypeString(raw) {
+  if (!raw) return 'UNKNOWN';
+  const upper = raw.trim().toUpperCase().replace(/[\s-]+/g, '_');
+  if (VALID_ORG_TYPES.has(upper)) return upper;
+  const lower = raw.trim().toLowerCase();
+  if (lower.includes('innocence')) return 'INNOCENCE_ORG';
+  if (lower.includes('legal aid') || lower.includes('public defender')) return 'LEGAL_AID';
+  if (lower.includes('law firm') || lower.includes('llp')) return 'LAW_FIRM';
+  if (lower.includes('police') || lower.includes('sheriff') || lower.includes('district attorney') || lower.includes('prosecut')) return 'LAW_ENFORCEMENT';
+  if (lower.includes('university') || lower.includes('college') || lower.includes('school of law')) return 'UNIVERSITY';
+  if (lower.includes('support') || lower.includes('reentry')) return 'SUPPORT_GROUP';
+  if (lower.includes('media') || lower.includes('news') || lower.includes('podcast') || lower.includes('film')) return 'MEDIA_ORG';
+  if (lower.includes('government') || lower.includes('department of') || lower.includes('commission')) return 'GOVERNMENT_AGENCY';
+  return 'OTHER';
+}
+
+function parseNameFields(record) {
+  let firstName = getField(record, ['firstName', 'first_name', 'First Name']);
+  let middleName = getField(record, ['middleName', 'middle_name', 'Middle Name']);
+  let lastName = getField(record, ['lastName', 'last_name', 'Last Name']);
+  let suffix = getField(record, ['suffix', 'Suffix']);
+  let nickname = getField(record, ['nickname', 'Nickname']);
+
+  if (!firstName || !lastName) {
+    const fullName = getField(record, ['Name', 'fullName', 'full_name', 'IndividualName', 'Individual']);
+    if (fullName) {
+      let cleaned = fullName;
+      const nickMatch = cleaned.match(/"([^"]+)"/);
+      if (nickMatch) {
+        if (!nickname) nickname = nickMatch[1].trim();
+        cleaned = cleaned.replace(/"[^"]+"/, ' ').replace(/\s+/g, ' ').trim();
+      }
+      const parsed = humanparser.parseName(cleaned);
+      if (!firstName && parsed.firstName) firstName = parsed.firstName.trim();
+      if (!middleName && parsed.middleName) middleName = parsed.middleName.trim();
+      if (!lastName && parsed.lastName) lastName = parsed.lastName.trim();
+      if (!suffix && parsed.suffix) suffix = parsed.suffix.trim();
+    }
+  }
+  return { firstName, middleName, lastName, suffix, nickname };
+}
+
+// --- 1. Core Lookup Tables Status & One-Click Seed ---
+
+router.get('/core-status', async (req, res) => {
+  try {
+    const [contributingFactors, crimeCategories, informationSources] = await Promise.all([
+      prisma.contributingFactor.count(),
+      prisma.crimeCategory.count(),
+      prisma.informationSource.findMany({ orderBy: { name: 'asc' } }),
+    ]);
+
+    res.json({
+      contributingFactors: {
+        count: contributingFactors,
+        expected: CONTRIBUTING_FACTOR_CATALOG.length,
+        ready: contributingFactors >= CONTRIBUTING_FACTOR_CATALOG.length,
+      },
+      crimeCategories: {
+        count: crimeCategories,
+        expected: CANONICAL_CRIME_CATEGORIES.length,
+        ready: crimeCategories >= CANONICAL_CRIME_CATEGORIES.length,
+      },
+      informationSources: {
+        count: informationSources.length,
+        expected: CORE_INFORMATION_SOURCES.length,
+        ready: informationSources.length >= CORE_INFORMATION_SOURCES.length,
+        items: informationSources,
+      },
+    });
+  } catch (error) {
+    console.error('Error fetching core lookup status:', error);
+    res.status(500).json({ message: 'Failed to check core lookup status.', error: error.message });
+  }
+});
+
+router.post('/seed-core', async (req, res) => {
+  try {
+    let factorsUpserted = 0;
+    for (const factor of CONTRIBUTING_FACTOR_CATALOG) {
+      await prisma.contributingFactor.upsert({
+        where: { code: factor.code },
+        update: {
+          name: factor.name,
+          description: factor.description,
+          aiGenerated: false,
+          verificationStatus: 'VERIFIED',
+        },
+        create: {
+          code: factor.code,
+          name: factor.name,
+          description: factor.description,
+          aiGenerated: false,
+          verificationStatus: 'VERIFIED',
+          ingestionSource: 'admin_seed_core',
+        },
+      });
+      factorsUpserted++;
+    }
+
+    let crimesUpserted = 0;
+    for (const crime of CANONICAL_CRIME_CATEGORIES) {
+      await prisma.crimeCategory.upsert({
+        where: { crime_name: crime.crime_name },
+        update: { severity_order: crime.severity_order },
+        create: {
+          crime_name: crime.crime_name,
+          severity_order: crime.severity_order,
+        },
+      });
+      crimesUpserted++;
+    }
+
+    let sourcesUpserted = 0;
+    for (const source of CORE_INFORMATION_SOURCES) {
+      await prisma.informationSource.upsert({
+        where: { name: source.name },
+        update: { baseUrl: source.baseUrl },
+        create: {
+          name: source.name,
+          baseUrl: source.baseUrl,
+        },
+      });
+      sourcesUpserted++;
+    }
+
+    res.json({
+      message: 'Core reference tables initialized successfully.',
+      factorsUpserted,
+      crimesUpserted,
+      sourcesUpserted,
+    });
+  } catch (error) {
+    console.error('Error seeding core lookup tables:', error);
+    res.status(500).json({ message: 'Failed to initialize core lookup tables.', error: error.message });
+  }
+});
+
+// --- 2. Preview & Validate Import Batch (Zero DB Writes) ---
+
+router.post('/preview', async (req, res) => {
+  const {
+    targetType = 'INDIVIDUAL',
+    inputType = 'CSV',
+    rawText = '',
+    defaultSourceName = '',
+    defaultSourceUrl = '',
+    defaultStatus = '',
+    defaultClaimStrength = 'UNASSESSED',
+  } = req.body || {};
+
+  if (!rawText || !rawText.trim()) {
+    return res.status(400).json({ message: 'Please provide CSV or JSON content to preview.' });
+  }
+
+  let rawRecords = [];
+  try {
+    if (inputType.toUpperCase() === 'JSON') {
+      const parsed = JSON.parse(rawText);
+      rawRecords = Array.isArray(parsed)
+        ? parsed
+        : Array.isArray(parsed.records)
+          ? parsed.records
+          : [parsed];
+    } else {
+      rawRecords = parse(rawText, {
+        columns: true,
+        skip_empty_lines: true,
+        trim: true,
+        bom: true,
+        relax_column_count: true,
+      });
+    }
+  } catch (parseErr) {
+    return res.status(400).json({
+      message: `Failed to parse ${inputType} input: ${parseErr.message}`,
+    });
+  }
+
+  if (rawRecords.length === 0) {
+    return res.status(400).json({ message: 'No rows found in uploaded data.' });
+  }
+
+  const batchId = `import_${targetType.toLowerCase()}_${Date.now()}`;
+
+  try {
+    if (targetType === 'ORGANIZATION') {
+      const existingOrgs = await prisma.organization.findMany({
+        select: { id: true, name: true, type: true, locationState: true, verificationStatus: true },
+      });
+
+      const byExactName = new Map(existingOrgs.map((o) => [normStr(o.name), o]));
+
+      const previewRows = rawRecords.map((rec, idx) => {
+        const name = getField(rec, ['name', 'Name', 'Organization', 'organizationName']);
+        const rawType = getField(rec, ['type', 'Type', 'organizationType']);
+        const type = mapOrgTypeString(rawType);
+        const locationCity = getField(rec, ['locationCity', 'city', 'City']);
+        const locationState = getField(rec, ['locationState', 'state', 'State']);
+        const locationCountry = getField(rec, ['locationCountry', 'country', 'Country']) || 'USA';
+        const website = getField(rec, ['website', 'Website', 'url', 'URL', 'Link']);
+        const notes = getField(rec, ['notes', 'Notes', 'description', 'Description', 'mission', 'Mission']);
+
+        const warnings = [];
+        let matchStatus = 'NEW';
+        let existingMatch = null;
+        let action = 'CREATE';
+
+        if (!name) {
+          matchStatus = 'INVALID';
+          action = 'SKIP';
+          warnings.push('Missing required organization name.');
+        } else {
+          const exact = byExactName.get(normStr(name));
+          if (exact) {
+            matchStatus = 'EXACT_MATCH';
+            existingMatch = exact;
+            action = 'MERGE';
+          } else {
+            const lower = normStr(name);
+            const fuzzy = existingOrgs.find(
+              (o) =>
+                (lower.length >= 5 && normStr(o.name).includes(lower)) ||
+                (normStr(o.name).length >= 5 && lower.includes(normStr(o.name)))
+            );
+            if (fuzzy) {
+              matchStatus = 'FUZZY_DUPLICATE';
+              existingMatch = fuzzy;
+              action = 'SKIP';
+              warnings.push(`Similar existing organization found: "${fuzzy.name}" (ID #${fuzzy.id}).`);
+            }
+          }
+        }
+
+        if (!website) warnings.push('No website/source URL provided.');
+
+        return {
+          rowIndex: idx + 1,
+          matchStatus,
+          action,
+          existingMatch,
+          warnings,
+          data: {
+            name: name || '',
+            type,
+            locationCity,
+            locationState,
+            locationCountry,
+            website,
+            notes,
+          },
+        };
+      });
+
+      const summary = {
+        total: previewRows.length,
+        new: previewRows.filter((r) => r.matchStatus === 'NEW').length,
+        exactMatch: previewRows.filter((r) => r.matchStatus === 'EXACT_MATCH').length,
+        fuzzyDuplicate: previewRows.filter((r) => r.matchStatus === 'FUZZY_DUPLICATE').length,
+        invalid: previewRows.filter((r) => r.matchStatus === 'INVALID').length,
+      };
+
+      return res.json({ batchId, targetType, summary, rows: previewRows });
+    }
+
+    // Default: INDIVIDUAL preview
+    const existingIndividuals = await prisma.individual.findMany({
+      select: {
+        id: true,
+        firstName: true,
+        middleName: true,
+        lastName: true,
+        suffix: true,
+        disambiguationTag: true,
+        caseLocationState: true,
+        convictionYear: true,
+        exonerationOrReleaseYear: true,
+        verificationStatus: true,
+      },
+    });
+
+    const exactKey = (i) =>
+      [
+        normStr(i.firstName),
+        normStr(i.middleName),
+        normStr(i.lastName),
+        normStr(i.suffix),
+        normStr(i.disambiguationTag),
+      ].join('|');
+
+    const byExact = new Map();
+    const byLastName = new Map();
+    for (const ind of existingIndividuals) {
+      byExact.set(exactKey(ind), ind);
+      const ln = normStr(ind.lastName);
+      if (!byLastName.has(ln)) byLastName.set(ln, []);
+      byLastName.get(ln).push(ind);
+    }
+
+    const previewRows = rawRecords.map((rec, idx) => {
+      const { firstName, middleName, lastName, suffix, nickname } = parseNameFields(rec);
+      const disambiguationTag = getField(rec, ['disambiguationTag', 'Disambigulation', 'Disambiguation']);
+
+      const rawLocation = getField(rec, ['Location', 'location']);
+      const parsedLoc = parseLocationString(rawLocation);
+      const caseLocationCity = getField(rec, ['caseLocationCity', 'City', 'city']) || parsedLoc.city;
+      const caseLocationCounty = getField(rec, ['caseLocationCounty', 'County', 'county']) || parsedLoc.county;
+      const caseLocationState = getField(rec, ['caseLocationState', 'State', 'state']) || parsedLoc.state;
+      const caseLocationCountry = getField(rec, ['caseLocationCountry', 'Country', 'country']) || 'USA';
+
+      const convictionYear = parseIntOrNull(getField(rec, ['convictionYear', 'ConvictedYear', 'Convicted']));
+      const exonerationOrReleaseYear = parseIntOrNull(
+        getField(rec, ['exonerationOrReleaseYear', 'ExoneratedYear', 'Exonerated'])
+      );
+      const timeServed = getField(rec, ['timeServed', 'Time Served']);
+      const sentence = getField(rec, ['sentence', 'Sentence']);
+      const narrativeSummary = getField(rec, ['narrativeSummary', 'Summary', 'summary', 'Notes']);
+
+      const rawCrime = getField(rec, ['crimeCategory', 'Crime', 'crime', 'Worst Crime Display']);
+      const canonicalCrimeName = resolveCrimeCategoryName(rawCrime);
+
+      const rawStatus = getField(rec, ['status', 'Status', 'Status of Exoneration']);
+      const status = mapStatusString(rawStatus) || (VALID_INDIVIDUAL_STATUSES.has(defaultStatus) ? defaultStatus : null);
+
+      const rawClaim = getField(rec, ['claimStrength', 'claim_strength']);
+      let claimStrength = VALID_CLAIM_STRENGTHS.has(rawClaim) ? rawClaim : defaultClaimStrength;
+      if (!VALID_CLAIM_STRENGTHS.has(claimStrength)) claimStrength = 'UNASSESSED';
+      if (status === 'EXONERATED' && claimStrength === 'UNASSESSED') {
+        claimStrength = 'FORMALLY_EXONERATED';
+      }
+
+      // Contributing factors (array or delimited string)
+      const rawFactorsField = rec.contributingFactors ?? rec.contributing_factors ?? rec['Contributing Factors'] ?? rec['Factors'];
+      const rawFactorsList = Array.isArray(rawFactorsField)
+        ? rawFactorsField
+        : typeof rawFactorsField === 'string' && rawFactorsField.trim()
+          ? rawFactorsField.split(/[;|,]/).map((s) => s.trim()).filter(Boolean)
+          : [];
+
+      const factorCodesSet = new Set();
+      const unmappedFactors = [];
+      for (const rf of rawFactorsList) {
+        const resolved = resolveContributingFactorCodes(rf);
+        if (resolved.length > 0) {
+          resolved.forEach((c) => factorCodesSet.add(c));
+        } else {
+          unmappedFactors.push(rf);
+        }
+      }
+
+      const sourceUrl = getField(rec, ['sourceUrl', 'Link', 'link', 'URL', 'url', 'specificUrl']) || defaultSourceUrl || null;
+      const sourceName = getField(rec, ['sourceName', 'Source', 'Source of Information']) || defaultSourceName || null;
+      const sourceHeadline = getField(rec, ['headline', 'Headline', 'articleTitle']);
+
+      const warnings = [];
+      if (rawCrime && canonicalCrimeName && normStr(rawCrime) !== normStr(canonicalCrimeName)) {
+        warnings.push(`Crime "${rawCrime}" mapped to canonical "${canonicalCrimeName}".`);
+      }
+      if (unmappedFactors.length > 0) {
+        warnings.push(`Unmapped factor(s): ${unmappedFactors.join(', ')}`);
+      }
+      if (!sourceUrl) {
+        warnings.push('No source URL provided — consider attaching a primary source link.');
+      }
+
+      let matchStatus = 'NEW';
+      let existingMatch = null;
+      let action = 'CREATE';
+
+      if (!firstName || !lastName) {
+        matchStatus = 'INVALID';
+        action = 'SKIP';
+        warnings.push('Could not determine both First Name and Last Name.');
+      } else {
+        const key = exactKey({ firstName, middleName, lastName, suffix, disambiguationTag });
+        const exact = byExact.get(key);
+        if (exact) {
+          matchStatus = 'EXACT_MATCH';
+          existingMatch = exact;
+          action = 'MERGE';
+        } else {
+          const sameLast = byLastName.get(normStr(lastName)) || [];
+          const fuzzy = sameLast.find((cand) => {
+            const fnA = normStr(firstName);
+            const fnB = normStr(cand.firstName);
+            const firstMatch = fnA === fnB || (fnA.length >= 3 && fnB.startsWith(fnA.slice(0, 3)));
+            const stateMatch =
+              caseLocationState &&
+              cand.caseLocationState &&
+              normStr(caseLocationState) === normStr(cand.caseLocationState);
+            const yearMatch = convictionYear && cand.convictionYear && convictionYear === cand.convictionYear;
+            return firstMatch || (stateMatch && yearMatch);
+          });
+          if (fuzzy) {
+            matchStatus = 'FUZZY_DUPLICATE';
+            existingMatch = fuzzy;
+            action = 'SKIP';
+            warnings.push(
+              `Possible duplicate of #${fuzzy.id} ${fuzzy.firstName} ${fuzzy.lastName} (${fuzzy.caseLocationState || '?'}, ${fuzzy.convictionYear || '?'}).`
+            );
+          }
+        }
+      }
+
+      return {
+        rowIndex: idx + 1,
+        matchStatus,
+        action,
+        existingMatch,
+        warnings,
+        data: {
+          firstName: firstName || '',
+          middleName,
+          lastName: lastName || '',
+          suffix,
+          nickname,
+          disambiguationTag,
+          status,
+          claimStrength,
+          crimeCategoryName: canonicalCrimeName,
+          convictionYear,
+          exonerationOrReleaseYear,
+          timeServed,
+          sentence,
+          caseLocationCity,
+          caseLocationCounty,
+          caseLocationState,
+          caseLocationCountry,
+          narrativeSummary,
+          contributingFactorCodes: Array.from(factorCodesSet),
+          sourceName,
+          sourceUrl,
+          sourceHeadline,
+        },
+      };
+    });
+
+    const summary = {
+      total: previewRows.length,
+      new: previewRows.filter((r) => r.matchStatus === 'NEW').length,
+      exactMatch: previewRows.filter((r) => r.matchStatus === 'EXACT_MATCH').length,
+      fuzzyDuplicate: previewRows.filter((r) => r.matchStatus === 'FUZZY_DUPLICATE').length,
+      invalid: previewRows.filter((r) => r.matchStatus === 'INVALID').length,
+    };
+
+    return res.json({ batchId, targetType: 'INDIVIDUAL', summary, rows: previewRows });
+  } catch (error) {
+    console.error('Error previewing import batch:', error);
+    return res.status(500).json({ message: 'Failed to preview import batch.', error: error.message });
+  }
+});
+
+// --- 3. Commit Reviewed & Approved Rows ---
+
+router.post('/commit', async (req, res) => {
+  const {
+    targetType = 'INDIVIDUAL',
+    batchId = `import_${Date.now()}`,
+    ingestionSource = 'admin_import_queue',
+    defaultSourceName = 'Manual Import',
+    verificationStatus = 'UNVERIFIED',
+    aiGenerated = false,
+    rows = [],
+  } = req.body || {};
+
+  if (!Array.isArray(rows) || rows.length === 0) {
+    return res.status(400).json({ message: 'No rows provided to commit.' });
+  }
+
+  const safeStatus = VALID_VERIFICATION_STATUSES.has(verificationStatus) ? verificationStatus : 'UNVERIFIED';
+  const verifiedFields =
+    safeStatus === 'VERIFIED'
+      ? { verifiedAt: new Date(), verifiedById: req.user?.userId || null }
+      : { verifiedAt: null, verifiedById: null };
+
+  let created = 0;
+  let merged = 0;
+  let skipped = 0;
+  let linksAdded = 0;
+  const errors = [];
+
+  try {
+    if (targetType === 'ORGANIZATION') {
+      for (const row of rows) {
+        if (row.action === 'SKIP') {
+          skipped++;
+          continue;
+        }
+        const d = row.data || {};
+        try {
+          if (row.action === 'MERGE' && row.existingMatch?.id) {
+            const existing = await prisma.organization.findUnique({ where: { id: row.existingMatch.id } });
+            if (!existing) {
+              errors.push({ rowIndex: row.rowIndex, error: `Existing Organization #${row.existingMatch.id} not found.` });
+              continue;
+            }
+            await prisma.organization.update({
+              where: { id: existing.id },
+              data: {
+                type: existing.type || d.type || 'UNKNOWN',
+                locationCity: existing.locationCity || d.locationCity || null,
+                locationState: existing.locationState || d.locationState || null,
+                website: existing.website || d.website || null,
+                notes: existing.notes || d.notes || null,
+              },
+            });
+            merged++;
+          } else if (row.action === 'CREATE') {
+            if (!d.name?.trim()) {
+              errors.push({ rowIndex: row.rowIndex, error: 'Organization name is required.' });
+              continue;
+            }
+            await prisma.organization.create({
+              data: {
+                name: d.name.trim(),
+                type: VALID_ORG_TYPES.has(d.type) ? d.type : 'UNKNOWN',
+                locationCity: d.locationCity || null,
+                locationState: d.locationState || null,
+                locationCountry: d.locationCountry || 'USA',
+                website: d.website || null,
+                notes: d.notes || null,
+                aiGenerated: Boolean(aiGenerated),
+                verificationStatus: safeStatus,
+                ...verifiedFields,
+                ingestionSource,
+                importBatchId: batchId,
+              },
+            });
+            created++;
+          }
+        } catch (err) {
+          errors.push({ rowIndex: row.rowIndex, name: d.name, error: err.message });
+        }
+      }
+
+      return res.json({ batchId, targetType, created, merged, skipped, linksAdded, errors });
+    }
+
+    // Preload CrimeCategories and ContributingFactors once for fast lookup
+    const [allCrimes, allFactors] = await Promise.all([
+      prisma.crimeCategory.findMany(),
+      prisma.contributingFactor.findMany(),
+    ]);
+    const crimeIdByName = new Map(allCrimes.map((c) => [normStr(c.crime_name), c.id]));
+    const factorIdByCode = new Map(allFactors.map((f) => [f.code, f.id]));
+
+    // Cache InformationSources by name
+    const sourceCache = new Map();
+    async function ensureInformationSource(name) {
+      const cleanName = (name || defaultSourceName || 'Manual Import').trim();
+      if (sourceCache.has(cleanName)) return sourceCache.get(cleanName);
+      const src = await prisma.informationSource.upsert({
+        where: { name: cleanName },
+        update: {},
+        create: { name: cleanName },
+      });
+      sourceCache.set(cleanName, src.id);
+      return src.id;
+    }
+
+    for (const row of rows) {
+      if (row.action === 'SKIP') {
+        skipped++;
+        continue;
+      }
+
+      const d = row.data || {};
+      try {
+        const crimeCategoryId = d.crimeCategoryName
+          ? crimeIdByName.get(normStr(d.crimeCategoryName)) || null
+          : null;
+
+        const factorConnectIds = (d.contributingFactorCodes || [])
+          .map((code) => factorIdByCode.get(code))
+          .filter(Boolean)
+          .map((id) => ({ id }));
+
+        let targetIndividualId = null;
+
+        if (row.action === 'MERGE' && row.existingMatch?.id) {
+          const existing = await prisma.individual.findUnique({ where: { id: row.existingMatch.id } });
+          if (!existing) {
+            errors.push({ rowIndex: row.rowIndex, error: `Existing Individual #${row.existingMatch.id} not found.` });
+            continue;
+          }
+
+          await prisma.individual.update({
+            where: { id: existing.id },
+            data: {
+              middleName: existing.middleName || d.middleName || null,
+              suffix: existing.suffix || d.suffix || null,
+              nickname: existing.nickname || d.nickname || null,
+              status: existing.status || d.status || null,
+              claimStrength:
+                existing.claimStrength && existing.claimStrength !== 'UNASSESSED'
+                  ? existing.claimStrength
+                  : d.claimStrength || 'UNASSESSED',
+              crimeCategoryId: existing.crimeCategoryId || crimeCategoryId,
+              convictionYear: existing.convictionYear ?? parseIntOrNull(d.convictionYear),
+              exonerationOrReleaseYear:
+                existing.exonerationOrReleaseYear ?? parseIntOrNull(d.exonerationOrReleaseYear),
+              timeServed: existing.timeServed || d.timeServed || null,
+              sentence: existing.sentence || d.sentence || null,
+              caseLocationCity: existing.caseLocationCity || d.caseLocationCity || null,
+              caseLocationCounty: existing.caseLocationCounty || d.caseLocationCounty || null,
+              caseLocationState: existing.caseLocationState || d.caseLocationState || null,
+              narrativeSummary: existing.narrativeSummary || d.narrativeSummary || null,
+              ...(factorConnectIds.length > 0
+                ? { contributingFactors: { connect: factorConnectIds } }
+                : {}),
+            },
+          });
+          targetIndividualId = existing.id;
+          merged++;
+        } else if (row.action === 'CREATE') {
+          if (!d.firstName?.trim() || !d.lastName?.trim()) {
+            errors.push({ rowIndex: row.rowIndex, error: 'firstName and lastName are required.' });
+            continue;
+          }
+          const createdInd = await prisma.individual.create({
+            data: {
+              firstName: d.firstName.trim(),
+              middleName: d.middleName?.trim() || null,
+              lastName: d.lastName.trim(),
+              suffix: d.suffix?.trim() || null,
+              nickname: d.nickname?.trim() || null,
+              disambiguationTag: d.disambiguationTag?.trim() || null,
+              status: VALID_INDIVIDUAL_STATUSES.has(d.status) ? d.status : null,
+              claimStrength: VALID_CLAIM_STRENGTHS.has(d.claimStrength) ? d.claimStrength : 'UNASSESSED',
+              crimeCategoryId,
+              convictionYear: parseIntOrNull(d.convictionYear),
+              exonerationOrReleaseYear: parseIntOrNull(d.exonerationOrReleaseYear),
+              timeServed: d.timeServed?.trim() || null,
+              sentence: d.sentence?.trim() || null,
+              caseLocationCity: d.caseLocationCity?.trim() || null,
+              caseLocationCounty: d.caseLocationCounty?.trim() || null,
+              caseLocationState: d.caseLocationState?.trim() || null,
+              caseLocationCountry: d.caseLocationCountry?.trim() || 'USA',
+              narrativeSummary: d.narrativeSummary?.trim() || null,
+              aiGenerated: Boolean(aiGenerated),
+              verificationStatus: safeStatus,
+              ...verifiedFields,
+              ingestionSource,
+              importBatchId: batchId,
+              ...(factorConnectIds.length > 0
+                ? { contributingFactors: { connect: factorConnectIds } }
+                : {}),
+            },
+          });
+          targetIndividualId = createdInd.id;
+          created++;
+        }
+
+        // Attach primary source link if provided
+        if (targetIndividualId && d.sourceUrl && d.sourceUrl.trim()) {
+          const infoSourceId = await ensureInformationSource(d.sourceName);
+          try {
+            await prisma.individualSourceLink.upsert({
+              where: {
+                individualId_specificUrl: {
+                  individualId: targetIndividualId,
+                  specificUrl: d.sourceUrl.trim(),
+                },
+              },
+              update: {
+                headline: d.sourceHeadline?.trim() || undefined,
+              },
+              create: {
+                individualId: targetIndividualId,
+                informationSourceId: infoSourceId,
+                specificUrl: d.sourceUrl.trim(),
+                headline: d.sourceHeadline?.trim() || null,
+              },
+            });
+            linksAdded++;
+          } catch (linkErr) {
+            errors.push({
+              rowIndex: row.rowIndex,
+              name: `${d.firstName} ${d.lastName}`,
+              error: `Record saved, but source link failed: ${linkErr.message}`,
+            });
+          }
+        }
+      } catch (err) {
+        errors.push({
+          rowIndex: row.rowIndex,
+          name: `${d.firstName || ''} ${d.lastName || ''}`.trim(),
+          error: err.message,
+        });
+      }
+    }
+
+    return res.json({ batchId, targetType, created, merged, skipped, linksAdded, errors });
+  } catch (error) {
+    console.error('Error committing import batch:', error);
+    return res.status(500).json({ message: 'Failed to commit import batch.', error: error.message });
+  }
+});
+
+module.exports = router;
