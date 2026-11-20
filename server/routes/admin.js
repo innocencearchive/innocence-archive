@@ -914,7 +914,7 @@ router.post('/podcast-ingest', async (req, res) => {
       }
 
       // 2. Upsert/match Individuals
-      const individualIds = [];
+      const individualIdSet = new Set();
       for (const ind of individuals) {
         if (!ind.firstName?.trim() || !ind.lastName?.trim()) continue;
         const indKey = normalizeKey('ind', ind.firstName, ind.middleName, ind.lastName, ind.suffix);
@@ -952,54 +952,71 @@ router.post('/podcast-ingest', async (req, res) => {
             },
           });
         }
-        individualIds.push({ id: record.id });
+        individualIdSet.add(record.id);
       }
+      const individualIds = [...individualIdSet].map((id) => ({ id }));
 
-      // 3. Upsert/match ContributingFactors
-      const factorIds = [];
+      // 3. Upsert/match ContributingFactors (case-insensitive to prevent near-duplicates)
+      const factorIdSet = new Set();
       for (const factorName of contributingFactors) {
         const cleanName = (typeof factorName === 'string' ? factorName : factorName?.name)?.trim();
         if (!cleanName) continue;
-        const factor = await tx.contributingFactor.upsert({
-          where: { name: cleanName },
-          update: {},
-          create: {
-            name: cleanName,
-            aiGenerated: true,
-            verificationStatus: 'UNVERIFIED',
-            ingestionSource: 'podcast_rss_gemini',
-            importBatchId: batchId,
-          },
+        let factor = await tx.contributingFactor.findFirst({
+          where: { name: { equals: cleanName, mode: 'insensitive' } },
         });
-        factorIds.push({ id: factor.id });
+        if (!factor) {
+          factor = await tx.contributingFactor.create({
+            data: {
+              name: cleanName,
+              aiGenerated: true,
+              verificationStatus: 'UNVERIFIED',
+              ingestionSource: 'podcast_rss_gemini',
+              importBatchId: batchId,
+            },
+          });
+        }
+        factorIdSet.add(factor.id);
       }
+      const factorIds = [...factorIdSet].map((id) => ({ id }));
 
-      // 4. Upsert/match Organizations
-      const orgIds = [];
+      // 4. Upsert/match Organizations (case-insensitive to prevent near-duplicates)
+      const orgIdSet = new Set();
       for (const org of organizations) {
         const orgName = (typeof org === 'string' ? org : org?.name)?.trim();
         if (!orgName) continue;
-        const record = await tx.organization.upsert({
-          where: { name: orgName },
-          update: {},
-          create: {
-            name: orgName,
-            type: org?.type || 'OTHER',
-            aiGenerated: true,
-            verificationStatus: 'UNVERIFIED',
-            ingestionSource: 'podcast_rss_gemini',
-            importBatchId: batchId,
-          },
+        let record = await tx.organization.findFirst({
+          where: { name: { equals: orgName, mode: 'insensitive' } },
         });
-        orgIds.push({ id: record.id });
+        if (!record) {
+          record = await tx.organization.create({
+            data: {
+              name: orgName,
+              type: org?.type || 'OTHER',
+              aiGenerated: true,
+              verificationStatus: 'UNVERIFIED',
+              ingestionSource: 'podcast_rss_gemini',
+              importBatchId: batchId,
+            },
+          });
+        }
+        orgIdSet.add(record.id);
       }
+      const orgIds = [...orgIdSet].map((id) => ({ id }));
 
-      // 5. Upsert/match InvolvedPersons
-      const personIds = [];
+      // 5. Upsert/match InvolvedPersons (match canonicalKey OR case-insensitive first+last to avoid role-drift duplicates)
+      const personIdSet = new Set();
       for (const person of involvedPersons) {
         if (!person.firstName?.trim() || !person.lastName?.trim()) continue;
         const pKey = normalizeKey('oip', person.firstName, person.lastName, person.role || 'OTHER');
         let record = await tx.involvedPerson.findUnique({ where: { canonicalKey: pKey } });
+        if (!record) {
+          record = await tx.involvedPerson.findFirst({
+            where: {
+              firstName: { equals: person.firstName.trim(), mode: 'insensitive' },
+              lastName: { equals: person.lastName.trim(), mode: 'insensitive' },
+            },
+          });
+        }
         if (!record) {
           record = await tx.involvedPerson.create({
             data: {
@@ -1015,8 +1032,9 @@ router.post('/podcast-ingest', async (req, res) => {
             },
           });
         }
-        personIds.push({ id: record.id });
+        personIdSet.add(record.id);
       }
+      const personIds = [...personIdSet].map((id) => ({ id }));
 
       // 6. Create the MediaItem (PODCAST_EPISODE)
       const mediaItem = await tx.mediaItem.create({

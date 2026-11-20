@@ -137,6 +137,35 @@ def has_valid_full_name(first_name: Optional[str], last_name: Optional[str]) -> 
     return True
 
 
+CANONICAL_CONTRIBUTING_FACTORS = [
+    "False Confession",
+    "Official Misconduct",
+    "Police Misconduct",
+    "Prosecutorial Misconduct",
+    "Withheld Exculpatory Evidence (Brady Violation)",
+    "Mistaken Eyewitness Identification",
+    "Perjury or False Accusation",
+    "False or Misleading Forensic Evidence",
+    "Inadequate Legal Defense",
+    "Jailhouse Informant",
+    "Tunnel Vision / Rush to Judgment",
+    "Racial Bias",
+    "Prejudicial Joinder / Joint Trial",
+    "Media Sensationalism",
+    "Coerced Plea",
+    "Unreliable Witness",
+]
+
+
+class QuotaExhaustedError(RuntimeError):
+    """Raised when Gemini API returns persistent 429 / RESOURCE_EXHAUSTED quota limits."""
+
+
+def is_rate_limit_error(err: Exception) -> bool:
+    msg = str(err).upper()
+    return "429" in msg or "RESOURCE_EXHAUSTED" in msg or "QUOTA" in msg
+
+
 def load_state() -> dict:
     if STATE_FILE.exists():
         return json.loads(STATE_FILE.read_text(encoding="utf-8"))
@@ -273,6 +302,7 @@ def process_episode(
     guid = entry.get("id") or entry.get("link") or mp3_url
     canonical_key = "podcast:" + hashlib.sha256(f"{feed_cfg['podcastTitle']}::{guid}".encode()).hexdigest()[:24]
 
+    factors_hint = ", ".join(CANONICAL_CONTRIBUTING_FACTORS)
     prompt = (
         f"You are a professional research assistant for The Innocence Archive.\n"
         f"Listen to the attached podcast audio and use the RSS metadata below to:\n"
@@ -284,9 +314,15 @@ def process_episode(
         f"3. For individuals and involvedPersons, ONLY include people whose actual first AND last names "
         f"are explicitly stated. Do NOT invent or use placeholders like 'Unknown' or 'N/A', and NEVER put "
         f"titles or ranks (e.g., 'Detective', 'Judge', 'Officer', 'Dr.', 'Attorney') in firstName or lastName. "
+        f"Do NOT repeat the wrongfully convicted individual(s) from `individuals` inside `involvedPersons` — "
+        f"keep `involvedPersons` strictly for OTHER people (hosts, victims, detectives, prosecutors, defense lawyers, "
+        f"judges, witnesses, journalists, investigators, family members). "
         f"Do NOT include podcast production crew or outro credits (producers, audio/sound engineers, editors, "
-        f"researchers, or network staff) in involvedPersons — only include the main podcast host and people "
-        f"substantively connected to the legal case(s) discussed.\n"
+        f"researchers, or network staff) in involvedPersons.\n"
+        f"4. For contributingFactors, prefer these standardized canonical names whenever applicable: "
+        f"{factors_hint}. Only add a different concise factor name if none of those fit.\n"
+        f"5. For organizations, use full official organization names (e.g. 'New York City Police Department' "
+        f"rather than 'NYPD') and avoid abbreviations or duplicates.\n"
         f"Base all extracted facts strictly on the audio and RSS metadata.\n\n"
         f"Podcast Series: {feed_cfg['podcastTitle']}\n"
         f"Default Host: {feed_cfg.get('defaultHost', '')}\n"
@@ -305,14 +341,26 @@ def process_episode(
         uploaded_file = wait_for_gemini_file(client, uploaded_file)
 
         print(f"  Transcribing & extracting with {model_name}...")
-        response = client.models.generate_content(
-            model=model_name,
-            contents=[uploaded_file, prompt],
-            config=types.GenerateContentConfig(
-                response_mime_type="application/json",
-                response_schema=PodcastExtraction,
-            ),
-        )
+        response = None
+        for attempt in range(2):
+            try:
+                response = client.models.generate_content(
+                    model=model_name,
+                    contents=[uploaded_file, prompt],
+                    config=types.GenerateContentConfig(
+                        response_mime_type="application/json",
+                        response_schema=PodcastExtraction,
+                    ),
+                )
+                break
+            except Exception as gen_err:
+                if is_rate_limit_error(gen_err):
+                    if attempt == 0:
+                        print("  Hit Gemini rate limit (429). Waiting 65s before one retry...")
+                        time.sleep(65)
+                        continue
+                    raise QuotaExhaustedError(f"Gemini quota/rate limit reached: {gen_err}") from gen_err
+                raise
         extracted = PodcastExtraction.model_validate_json(response.text)
     finally:
         if uploaded_file is not None:
@@ -322,6 +370,20 @@ def process_episode(
                 print(f"  Warning: failed to delete Gemini file: {cleanup_err}")
         if temp_mp3 is not None and temp_mp3.exists():
             temp_mp3.unlink(missing_ok=True)
+
+    valid_individuals = [
+        i.model_dump() for i in extracted.individuals
+        if has_valid_full_name(i.firstName, i.lastName)
+    ]
+    individual_name_keys = {
+        (i["firstName"].strip().lower(), i["lastName"].strip().lower())
+        for i in valid_individuals
+    }
+    valid_involved_persons = [
+        p.model_dump() for p in extracted.involvedPersons
+        if has_valid_full_name(p.firstName, p.lastName)
+        and (p.firstName.strip().lower(), p.lastName.strip().lower()) not in individual_name_keys
+    ]
 
     payload = {
         "podcastTitle": feed_cfg["podcastTitle"],
@@ -338,16 +400,10 @@ def process_episode(
         "sourceUrl": resolve_episode_url(feed_cfg, feed_link, entry, mp3_url),
         "canonicalKey": canonical_key,
         "importBatchId": f"podcast-{datetime.now(timezone.utc).strftime('%Y-%m-%d')}",
-        "individuals": [
-            i.model_dump() for i in extracted.individuals
-            if has_valid_full_name(i.firstName, i.lastName)
-        ],
+        "individuals": valid_individuals,
         "contributingFactors": extracted.contributingFactors,
         "organizations": [o.model_dump() for o in extracted.organizations],
-        "involvedPersons": [
-            p.model_dump() for p in extracted.involvedPersons
-            if has_valid_full_name(p.firstName, p.lastName)
-        ],
+        "involvedPersons": valid_involved_persons,
         "externalLinks": [l.model_dump() for l in extracted.externalLinks],
     }
 
@@ -376,7 +432,8 @@ def process_episode(
 def main():
     load_dotenv(BASE_DIR / ".env")
     parser = argparse.ArgumentParser(description="Daily podcast capture & Gemini extraction.")
-    parser.add_argument("--limit", type=int, default=3, help="Max new episodes to process per run (default: 3).")
+    parser.add_argument("--limit", type=int, default=5, help="Max new episodes to process per run (default: 5).")
+    parser.add_argument("--delay", type=int, default=15, help="Seconds to pause between episodes for Free Tier TPM safety (default: 15).")
     parser.add_argument("--dry-run", action="store_true", help="Save JSON locally to staged/ instead of posting to API.")
     args = parser.parse_args()
 
@@ -435,6 +492,12 @@ def main():
                     }
                     save_state(state)
                 processed_count += 1
+                if processed_count < args.limit and args.delay > 0:
+                    print(f"  Pausing {args.delay}s before next episode...")
+                    time.sleep(args.delay)
+            except QuotaExhaustedError as qerr:
+                print(f"  Stopping run cleanly due to Gemini quota limit: {qerr}")
+                return
             except Exception as err:
                 print(f"  Error processing '{entry.get('title')}': {err}")
 
