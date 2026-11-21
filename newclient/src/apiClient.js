@@ -49,14 +49,17 @@ apiClient.interceptors.response.use(
     // Handle errors globally
     console.error('API call error in response interceptor:', error.response || error.message || error);
 
-    // You might want to add specific error handling here, e.g., for 401 Unauthorized
     if (error.response && error.response.status === 401) {
-      // Potentially trigger a logout or redirect to login if the token is invalid/expired
-      // This logic is often best handled within AuthContext or the component making the call,
-      // but you can log it or perform some basic action here.
-      console.warn('API call returned 401 Unauthorized. Token might be invalid or expired.');
-      // Example: localStorage.removeItem('authToken'); localStorage.removeItem('authUser');
-      // Example: window.location.href = '/login'; // Force redirect, but usually better handled in AuthContext
+      const requestUrl = error.config?.url || '';
+      const isLoginAttempt = requestUrl.includes('/auth/login');
+      if (!isLoginAttempt) {
+        console.warn('API call returned 401 Unauthorized. Clearing expired session and redirecting to /login.');
+        localStorage.removeItem('authToken');
+        localStorage.removeItem('authUser');
+        if (window.location.pathname !== '/login') {
+          window.location.assign('/login');
+        }
+      }
     }
 
     // It's important to return a rejected promise so that the calling code's .catch() still works

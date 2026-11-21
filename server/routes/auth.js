@@ -53,7 +53,7 @@ router.post('/login', async (req, res) => {
     const token = jwt.sign(
       tokenPayload,
       jwtSecret,
-      { expiresIn: '1h' } // Token expiration time (e.g., 1 hour, 7d for 7 days)
+      { expiresIn: '4h' }
     );
 
     console.log(`User ${user.email} logged in successfully. Role: ${user.role}`);
