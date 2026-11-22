@@ -76,6 +76,29 @@ function normStr(val) {
   return String(val).trim().toLowerCase();
 }
 
+const US_STATE_ABBR_TO_NAME = {
+  al: 'alabama', ak: 'alaska', az: 'arizona', ar: 'arkansas', ca: 'california',
+  co: 'colorado', ct: 'connecticut', de: 'delaware', dc: 'district of columbia',
+  fl: 'florida', ga: 'georgia', hi: 'hawaii', id: 'idaho', il: 'illinois',
+  in: 'indiana', ia: 'iowa', ks: 'kansas', ky: 'kentucky', la: 'louisiana',
+  me: 'maine', md: 'maryland', ma: 'massachusetts', mi: 'michigan', mn: 'minnesota',
+  ms: 'mississippi', mo: 'missouri', mt: 'montana', ne: 'nebraska', nv: 'nevada',
+  nh: 'new hampshire', nj: 'new jersey', nm: 'new mexico', ny: 'new york',
+  nc: 'north carolina', nd: 'north dakota', oh: 'ohio', ok: 'oklahoma', or: 'oregon',
+  pa: 'pennsylvania', pr: 'puerto rico', ri: 'rhode island', sc: 'south carolina',
+  sd: 'south dakota', tn: 'tennessee', tx: 'texas', ut: 'utah', vt: 'vermont',
+  va: 'virginia', wa: 'washington', wv: 'west virginia', wi: 'wisconsin', wy: 'wyoming',
+  gu: 'guam',
+};
+
+function normBaseState(val) {
+  let s = normStr(val);
+  if (!s) return '';
+  if (s.startsWith('fed-')) s = s.slice(4).trim();
+  if (US_STATE_ABBR_TO_NAME[s]) return US_STATE_ABBR_TO_NAME[s];
+  return s;
+}
+
 function getField(record, candidates) {
   for (const key of candidates) {
     if (record[key] !== undefined && record[key] !== null && String(record[key]).trim() !== '') {
@@ -618,20 +641,25 @@ router.post('/preview', async (req, res) => {
     }
 
     // Default: INDIVIDUAL preview
-    const existingIndividuals = await prisma.individual.findMany({
-      select: {
-        id: true,
-        firstName: true,
-        middleName: true,
-        lastName: true,
-        suffix: true,
-        disambiguationTag: true,
-        caseLocationState: true,
-        convictionYear: true,
-        exonerationOrReleaseYear: true,
-        verificationStatus: true,
-      },
-    });
+    const [existingIndividuals, existingSourceLinks] = await Promise.all([
+      prisma.individual.findMany({
+        select: {
+          id: true,
+          firstName: true,
+          middleName: true,
+          lastName: true,
+          suffix: true,
+          disambiguationTag: true,
+          caseLocationState: true,
+          convictionYear: true,
+          exonerationOrReleaseYear: true,
+          verificationStatus: true,
+        },
+      }),
+      prisma.individualSourceLink.findMany({
+        select: { individualId: true, specificUrl: true },
+      }),
+    ]);
 
     const exactKey = (i) =>
       [
@@ -641,6 +669,14 @@ router.post('/preview', async (req, res) => {
         normStr(i.suffix),
         normStr(i.disambiguationTag),
       ].join('|');
+
+    const byId = new Map(existingIndividuals.map((i) => [i.id, i]));
+    const bySourceUrl = new Map();
+    for (const sl of existingSourceLinks) {
+      if (sl.specificUrl && byId.has(sl.individualId)) {
+        bySourceUrl.set(normStr(sl.specificUrl), byId.get(sl.individualId));
+      }
+    }
 
     const byExact = new Map();
     const byLastName = new Map();
@@ -705,53 +741,129 @@ router.post('/preview', async (req, res) => {
       const sourceUrl = getField(rec, ['sourceUrl', 'Link', 'link', 'URL', 'url', 'specificUrl']) || defaultSourceUrl || null;
       const sourceName = getField(rec, ['sourceName', 'Source', 'Source of Information']) || defaultSourceName || null;
       const sourceHeadline = getField(rec, ['headline', 'Headline', 'articleTitle']);
+      const rawSourceLinks = Array.isArray(rec.sourceLinks) ? rec.sourceLinks : [];
+      const sourceLinks = rawSourceLinks
+        .map((sl) => ({
+          sourceName: (sl.sourceName || sourceName || defaultSourceName || 'Manual Import').trim(),
+          sourceUrl: (sl.sourceUrl || sl.specificUrl || sl.url || '').trim(),
+          headline: (sl.headline || '').trim() || null,
+        }))
+        .filter((sl) => sl.sourceUrl);
+      if (sourceLinks.length === 0 && sourceUrl) {
+        sourceLinks.push({
+          sourceName: sourceName || defaultSourceName || 'Manual Import',
+          sourceUrl,
+          headline: sourceHeadline || null,
+        });
+      }
 
-      const warnings = [];
+      const warnings = Array.isArray(rec.reviewWarnings) ? [...rec.reviewWarnings] : [];
       if (rawCrime && canonicalCrimeName && normStr(rawCrime) !== normStr(canonicalCrimeName)) {
         warnings.push(`Crime "${rawCrime}" mapped to canonical "${canonicalCrimeName}".`);
       }
       if (unmappedFactors.length > 0) {
         warnings.push(`Unmapped factor(s): ${unmappedFactors.join(', ')}`);
       }
-      if (!sourceUrl) {
+      if (sourceLinks.length === 0) {
         warnings.push('No source URL provided — consider attaching a primary source link.');
       }
 
       let matchStatus = 'NEW';
       let existingMatch = null;
-      let action = 'CREATE';
+      let action = rec.recommendedAction === 'SKIP' ? 'SKIP' : 'CREATE';
+
+      const statesCompatible = (s1, s2) => {
+        const b1 = normBaseState(s1);
+        const b2 = normBaseState(s2);
+        if (!b1 || !b2) return true;
+        return b1 === b2;
+      };
+      const statesStronglyConflict = (s1, s2) => {
+        const b1 = normBaseState(s1);
+        const b2 = normBaseState(s2);
+        return Boolean(b1 && b2 && b1 !== b2);
+      };
+      const yearsCompatible = (y1, y2) => {
+        if (!y1 || !y2) return true;
+        return Math.abs(y1 - y2) <= 6;
+      };
 
       if (!firstName || !lastName) {
         matchStatus = 'INVALID';
         action = 'SKIP';
         warnings.push('Could not determine both First Name and Last Name.');
       } else {
-        const key = exactKey({ firstName, middleName, lastName, suffix, disambiguationTag });
-        const exact = byExact.get(key);
-        if (exact) {
+        // 1. Exact match by existing source URL (e.g. NRE case URL already attached)
+        let urlMatch = null;
+        for (const sl of sourceLinks) {
+          const hit = bySourceUrl.get(normStr(sl.sourceUrl));
+          if (hit) {
+            urlMatch = hit;
+            break;
+          }
+        }
+
+        if (urlMatch) {
           matchStatus = 'EXACT_MATCH';
-          existingMatch = exact;
-          action = 'MERGE';
+          existingMatch = urlMatch;
+          action = rec.recommendedAction === 'SKIP' ? 'SKIP' : 'MERGE';
         } else {
-          const sameLast = byLastName.get(normStr(lastName)) || [];
-          const fuzzy = sameLast.find((cand) => {
+          const key = exactKey({ firstName, middleName, lastName, suffix, disambiguationTag });
+          const exact = byExact.get(key);
+          if (
+            exact &&
+            !statesStronglyConflict(caseLocationState, exact.caseLocationState) &&
+            yearsCompatible(convictionYear, exact.convictionYear)
+          ) {
+            matchStatus = 'EXACT_MATCH';
+            existingMatch = exact;
+            action = rec.recommendedAction === 'SKIP' ? 'SKIP' : 'MERGE';
+          } else {
+            const sameLast = byLastName.get(normStr(lastName)) || [];
             const fnA = normStr(firstName);
-            const fnB = normStr(cand.firstName);
-            const firstMatch = fnA === fnB || (fnA.length >= 3 && fnB.startsWith(fnA.slice(0, 3)));
-            const stateMatch =
-              caseLocationState &&
-              cand.caseLocationState &&
-              normStr(caseLocationState) === normStr(cand.caseLocationState);
-            const yearMatch = convictionYear && cand.convictionYear && convictionYear === cand.convictionYear;
-            return firstMatch || (stateMatch && yearMatch);
-          });
-          if (fuzzy) {
-            matchStatus = 'FUZZY_DUPLICATE';
-            existingMatch = fuzzy;
-            action = 'SKIP';
-            warnings.push(
-              `Possible duplicate of #${fuzzy.id} ${fuzzy.firstName} ${fuzzy.lastName} (${fuzzy.caseLocationState || '?'}, ${fuzzy.convictionYear || '?'}).`
-            );
+
+            // 2. Same first+last (middle/suffix may differ) WITH compatible state & years -> safe MERGE
+            const strongNameMatch = sameLast.find((cand) => {
+              if (normStr(cand.firstName) !== fnA) return false;
+              if (statesStronglyConflict(caseLocationState, cand.caseLocationState)) return false;
+              if (!yearsCompatible(convictionYear, cand.convictionYear)) return false;
+              const stateConfirmed =
+                Boolean(normBaseState(caseLocationState)) &&
+                normBaseState(caseLocationState) === normBaseState(cand.caseLocationState);
+              const yearConfirmed =
+                Boolean(convictionYear && cand.convictionYear) &&
+                Math.abs(convictionYear - cand.convictionYear) <= 4;
+              return stateConfirmed || yearConfirmed || (!cand.caseLocationState && !cand.convictionYear);
+            });
+
+            if (strongNameMatch) {
+              matchStatus = 'EXACT_MATCH';
+              existingMatch = strongNameMatch;
+              action = rec.recommendedAction === 'SKIP' ? 'SKIP' : 'MERGE';
+            } else {
+              // 3. Possible fuzzy duplicate (only if first name prefix matches AND state/years don't contradict)
+              const fuzzy = sameLast.find((cand) => {
+                const fnB = normStr(cand.firstName);
+                const firstPrefix = fnA === fnB || (fnA.length >= 3 && fnB.length >= 3 && (fnB.startsWith(fnA.slice(0, 3)) || fnA.startsWith(fnB.slice(0, 3))));
+                if (!firstPrefix) return false;
+                if (statesStronglyConflict(caseLocationState, cand.caseLocationState)) return false;
+                const stateConfirmed =
+                  Boolean(normBaseState(caseLocationState)) &&
+                  normBaseState(caseLocationState) === normBaseState(cand.caseLocationState);
+                const yearConfirmed =
+                  Boolean(convictionYear && cand.convictionYear) &&
+                  Math.abs(convictionYear - cand.convictionYear) <= 4;
+                return (stateConfirmed && yearsCompatible(convictionYear, cand.convictionYear)) || yearConfirmed;
+              });
+              if (fuzzy) {
+                matchStatus = 'FUZZY_DUPLICATE';
+                existingMatch = fuzzy;
+                action = 'SKIP';
+                warnings.push(
+                  `Possible duplicate of #${fuzzy.id} ${fuzzy.firstName} ${fuzzy.lastName} (${fuzzy.caseLocationState || '?'}, ${fuzzy.convictionYear || '?'}).`
+                );
+              }
+            }
           }
         }
       }
@@ -783,8 +895,9 @@ router.post('/preview', async (req, res) => {
           narrativeSummary,
           contributingFactorCodes: Array.from(factorCodesSet),
           sourceName,
-          sourceUrl,
-          sourceHeadline,
+          sourceUrl: sourceLinks[0]?.sourceUrl || sourceUrl,
+          sourceHeadline: sourceLinks[0]?.headline || sourceHeadline,
+          sourceLinks,
         },
       };
     });
@@ -1703,34 +1816,45 @@ router.post('/commit', async (req, res) => {
           created++;
         }
 
-        // Attach primary source link if provided
-        if (targetIndividualId && d.sourceUrl && d.sourceUrl.trim()) {
-          const infoSourceId = await ensureInformationSource(d.sourceName);
-          try {
-            await prisma.individualSourceLink.upsert({
-              where: {
-                individualId_specificUrl: {
-                  individualId: targetIndividualId,
-                  specificUrl: d.sourceUrl.trim(),
+        // Attach all source links (supports multi-case NRE individuals via sourceLinks[] or legacy single sourceUrl)
+        const linksToAttach =
+          Array.isArray(d.sourceLinks) && d.sourceLinks.length > 0
+            ? d.sourceLinks
+            : d.sourceUrl && d.sourceUrl.trim()
+              ? [{ sourceName: d.sourceName, sourceUrl: d.sourceUrl.trim(), headline: d.sourceHeadline }]
+              : [];
+
+        if (targetIndividualId && linksToAttach.length > 0) {
+          for (const sl of linksToAttach) {
+            const url = (sl.sourceUrl || '').trim();
+            if (!url) continue;
+            const infoSourceId = await ensureInformationSource(sl.sourceName || d.sourceName);
+            try {
+              await prisma.individualSourceLink.upsert({
+                where: {
+                  individualId_specificUrl: {
+                    individualId: targetIndividualId,
+                    specificUrl: url,
+                  },
                 },
-              },
-              update: {
-                headline: d.sourceHeadline?.trim() || undefined,
-              },
-              create: {
-                individualId: targetIndividualId,
-                informationSourceId: infoSourceId,
-                specificUrl: d.sourceUrl.trim(),
-                headline: d.sourceHeadline?.trim() || null,
-              },
-            });
-            linksAdded++;
-          } catch (linkErr) {
-            errors.push({
-              rowIndex: row.rowIndex,
-              name: `${d.firstName} ${d.lastName}`,
-              error: `Record saved, but source link failed: ${linkErr.message}`,
-            });
+                update: {
+                  headline: sl.headline?.trim() || undefined,
+                },
+                create: {
+                  individualId: targetIndividualId,
+                  informationSourceId: infoSourceId,
+                  specificUrl: url,
+                  headline: sl.headline?.trim() || null,
+                },
+              });
+              linksAdded++;
+            } catch (linkErr) {
+              errors.push({
+                rowIndex: row.rowIndex,
+                name: `${d.firstName} ${d.lastName}`,
+                error: `Record saved, but source link failed (${url}): ${linkErr.message}`,
+              });
+            }
           }
         }
       } catch (err) {

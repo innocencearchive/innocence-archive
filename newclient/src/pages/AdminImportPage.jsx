@@ -20,7 +20,7 @@ import apiClient from '../apiClient';
 import { BRONZE_COLOR, BRONZE_BORDER } from '../components/themeconstants';
 
 const PAGE_SIZE = 100;
-const COMMIT_CHUNK_SIZE = 250;
+const COMMIT_CHUNK_SIZE = 100;
 
 const MATCH_BADGE_STYLES = {
   NEW: 'bg-green-900/70 text-green-300 border-green-700',
@@ -730,10 +730,22 @@ function AdminImportPage() {
                           </div>
                         ) : (
                           <div>
-                            <div className="font-semibold text-gray-100">
-                              {[row.data.firstName, row.data.middleName, row.data.lastName, row.data.suffix]
-                                .filter(Boolean)
-                                .join(' ') || '—'}
+                            <div className="font-semibold text-gray-100 flex items-center gap-1.5 flex-wrap">
+                              <span>
+                                {[row.data.firstName, row.data.middleName, row.data.lastName, row.data.suffix]
+                                  .filter(Boolean)
+                                  .join(' ') || '—'}
+                              </span>
+                              {row.data.disambiguationTag && (
+                                <span className="px-1.5 py-0.5 bg-gray-700 text-gray-300 rounded text-[10px]">
+                                  {row.data.disambiguationTag}
+                                </span>
+                              )}
+                              {row.data.sourceLinks?.length > 1 && (
+                                <span className="px-1.5 py-0.5 bg-amber-900/70 text-amber-300 rounded text-[10px]">
+                                  {row.data.sourceLinks.length} NRE cases
+                                </span>
+                              )}
                             </div>
                             <div className="text-gray-400">
                               {[row.data.caseLocationCity, row.data.caseLocationState].filter(Boolean).join(', ') || 'No state'} ·{' '}
