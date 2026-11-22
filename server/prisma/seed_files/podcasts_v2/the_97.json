@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#35)"
+  ],
+  "category": "HALLUCINATION_OR_ERROR",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "LIKELY AI HALLUCINATION (default SKIP): No UK wrongful-conviction podcast called \"The 97%\" exists; Benjamin Fitton actually hosts \"They Walk Among Us\"."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": null,
+    "appleCollectionName": null,
+    "appleArtistName": null,
+    "appleTrackCount": null,
+    "rssFeedUrl": null,
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "The 97%",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Benjamin Fitton (unverified)",
+    "publicationOrReleaseYear": null,
+    "publisherOrNetwork": null,
+    "focusOrTheme": "Claimed in template #35 to be a UK wrongful conviction podcast hosted by Benjamin Fitton.",
+    "summaryNotes": "AI HALLUCINATION / UNVERIFIED: No UK wrongful-conviction podcast named \"The 97%\" hosted by Benjamin Fitton exists. Benjamin Fitton is actually the co-creator of the UK true-crime podcast \"They Walk Among Us\".",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": "Repository Podcast Lists",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

@@ -1,0 +1,39 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/Wrongful Conviction_ False Confessions_research.md",
+    "docs/media/podcasts/podcast_list_template.md (#11)",
+    "docs/media/podcasts/podcast_list_template.md (#18 duplicate: \"False Confessions with Laura Nirider & Steve Drizin\")",
+    "server/prisma/seed_files/podcasts/ (44 legacy episode JSONs)"
+  ],
+  "category": "SUB_SERIES",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "SUB-SERIES FEED OVERLAP (default SKIP): Distributed inside the main \"Wrongful Conviction\" RSS feed (Apple ID #1151670380) rather than as a separate Apple Podcasts feed. Switch to CREATE if you want it listed as its own distinct series alongside \"Wrongful Conviction\".",
+    "Deduplicated template #18 (\"False Confessions with Laura Nirider & Steve Drizin\") into this entry."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": null,
+    "appleCollectionName": null,
+    "appleArtistName": null,
+    "appleTrackCount": null,
+    "rssFeedUrl": null,
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Wrongful Conviction: False Confessions",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Laura Nirider, Steve Drizin",
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "Lava for Good Podcasts",
+    "focusOrTheme": "Sub-series of Wrongful Conviction analyzing real police interrogation audio and how innocent people are pressured into false confessions.",
+    "summaryNotes": "Hosted by Northwestern Center on Wrongful Convictions co-directors Laura Nirider and Steve Drizin (Lava for Good). Uses real interrogation audio to dissect cases like the Norfolk Four, Matt Livers, Robert Davis, and Tommy Ward & Karl Fontenot.",
+    "availabilityNotes": null,
+    "sourceUrl": "https://lavaforgood.com/podcast/wrongful-conviction-false-confessions/",
+    "externalId": null,
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9c/46/65/9c466535-314f-4b62-b85e-b3152fb88c0c/mza_13392233490305813538.jpg/600x600bb.jpg",
+    "sourcingCredit": "Repository Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

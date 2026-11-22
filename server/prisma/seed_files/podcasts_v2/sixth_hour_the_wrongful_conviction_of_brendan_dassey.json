@@ -1,0 +1,33 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#14)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "podcastMeta": {
+    "appleCollectionId": 1512638999,
+    "appleCollectionName": "SIXTH HOUR: The Wrongful Conviction of Brendan Dassey",
+    "appleArtistName": "Tracy Keogh",
+    "appleTrackCount": 18,
+    "rssFeedUrl": "https://feed.podbean.com/sixthhourthewrongfulconvictionofbrendandassey/feed.xml",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "SIXTH HOUR: The Wrongful Conviction of Brendan Dassey",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Tracy Keogh",
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "Tracy Keogh",
+    "focusOrTheme": "In-depth examination of the juvenile interrogation, coerced confession, and wrongful conviction of Brendan Dassey in Manitowoc County, Wisconsin.",
+    "summaryNotes": "Limited investigative series (18 episodes) examining the 2006 interrogation, trial, and post-conviction appeals of Brendan Dassey, focusing on juvenile false confession dynamics and legal failures highlighted after Making a Murderer.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~18 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/sixth-hour-the-wrongful-conviction-of-brendan-dassey/id1512638999",
+    "externalId": "apple-podcast:1512638999",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/0e/b1/74/0eb17460-3971-4b0d-604f-d71af7e1da37/mza_16903916062891542213.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

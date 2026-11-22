@@ -1,0 +1,34 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/Criminal Injustice_research.md",
+    "docs/media/podcasts/podcast_list_template.md (#16)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "podcastMeta": {
+    "appleCollectionId": 1094352910,
+    "appleCollectionName": "Criminal (In)justice",
+    "appleArtistName": "David Harris",
+    "appleTrackCount": 187,
+    "rssFeedUrl": "https://feeds.redcircle.com/645bd797-7612-428c-a86c-7eac1f849042",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Criminal (In)justice",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "David Harris",
+    "publicationOrReleaseYear": 2015,
+    "publisherOrNetwork": "David Harris (initially WESA Pittsburgh)",
+    "focusOrTheme": "Academic and legal interviews examining wrongful convictions, flawed forensics, public defense, policing, and U.S. criminal justice reform.",
+    "summaryNotes": "Interview-based podcast hosted by University of Pittsburgh law professor David Harris (2015–2022, 187 episodes). Features legal scholars, forensic scientists, advocates, and exonerees examining DNA exonerations, flawed forensic testimony, sentinel event reviews, and post-exoneration reentry.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~187 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/criminal-in-justice/id1094352910",
+    "externalId": "apple-podcast:1094352910",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/13/25/2b/13252b18-9771-0c0d-53e4-752f31db8192/mza_3168247304045941376.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

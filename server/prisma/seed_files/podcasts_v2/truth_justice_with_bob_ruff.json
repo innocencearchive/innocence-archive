@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/Truth & Justice with Bob Ruff_research.md",
+    "docs/media/podcasts/podcast_list_template.md (#9)",
+    "docs/media/media_sources (1).md (#2)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "podcastMeta": {
+    "appleCollectionId": 990753230,
+    "appleCollectionName": "Truth & Justice with Bob Ruff",
+    "appleArtistName": "NBI Studios",
+    "appleTrackCount": 1115,
+    "rssFeedUrl": "https://audioboom.com/channels/4384694.rss",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Truth & Justice with Bob Ruff",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Bob Ruff",
+    "publicationOrReleaseYear": 2015,
+    "publisherOrNetwork": "NBI Studios",
+    "focusOrTheme": "Crowdsourced, multi-season investigations into potential wrongful convictions and questionable criminal verdicts.",
+    "summaryNotes": "Long-running, listener-driven investigative podcast hosted by Bob Ruff. Each season focuses on a disputed conviction or cold case (including Adnan Syed, Ed Ates, Sandy Melgar, the West Memphis Three, Jodi Hill, and others), mobilizing public records requests and crowdsourced analysis to uncover new evidence.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~1115 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/truth-justice-with-bob-ruff/id990753230",
+    "externalId": "apple-podcast:990753230",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9c/ba/49/9cba4990-e6f5-8762-3089-e29c781627cb/mza_2542859268457037768.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

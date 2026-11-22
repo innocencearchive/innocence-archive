@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#22)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Originally released via Panoply in 2018; now distributed on Apple Podcasts under Steve Fishman's umbrella feed \"The Burden\" (id1734312219, Orbit Media)."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1734312219,
+    "appleCollectionName": "The Burden",
+    "appleArtistName": "Orbit Media",
+    "appleTrackCount": 105,
+    "rssFeedUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a34ac700-7a71-45e5-a347-b116013d11cd/195bffc8-97df-468e-8b55-b11601450591/podcast.rss",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Empire on Blood",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Steve Fishman",
+    "publicationOrReleaseYear": 2018,
+    "publisherOrNetwork": "Panoply / Orbit Media",
+    "focusOrTheme": "Seven-year investigation into the 1992 Bronx double-homicide conviction and eventual exoneration of Calvin Buari.",
+    "summaryNotes": "Investigative series hosted by journalist Steve Fishman examining the 1992 Bronx double murder for which Calvin Buari spent 22 years in prison before his conviction was vacated days before the podcast's 2018 premiere. Later re-released with new follow-up episodes as Season 2 of \"The Burden\" (Orbit Media).",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~105 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/the-burden/id1734312219",
+    "externalId": "apple-podcast:1734312219",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1a/b1/b2/1ab1b240-e60f-b8d6-5f09-41294b2a65f4/mza_3197426364973584685.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

@@ -1,0 +1,33 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#30)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "podcastMeta": {
+    "appleCollectionId": 1463081342,
+    "appleCollectionName": "13 Alibis",
+    "appleArtistName": "NBC News",
+    "appleTrackCount": 10,
+    "rssFeedUrl": "https://podcastfeeds.nbcnews.com/1GllG_AQ",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "13 Alibis",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Dan Slepian",
+    "publicationOrReleaseYear": 2019,
+    "publisherOrNetwork": "Dateline NBC / NBC News",
+    "focusOrTheme": "Investigates the wrongful murder conviction of Richard Rosario despite 13 alibi witnesses placing him in Florida.",
+    "summaryNotes": "Dateline NBC original investigative podcast reported by producer Dan Slepian following the 20-year fight to free Richard Rosario, who was convicted of a 1996 Bronx murder despite 13 witnesses placing him 1,000 miles away in Florida, leading to the 2016 vacatur of his conviction.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~10 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/13-alibis/id1463081342",
+    "externalId": "apple-podcast:1463081342",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ea/ea/a0/eaeaa023-7066-7f59-bbf5-a46c87dccc92/mza_1319400998504548807.jpeg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

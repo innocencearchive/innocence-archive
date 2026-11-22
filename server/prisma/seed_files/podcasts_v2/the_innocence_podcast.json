@@ -1,0 +1,37 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/The Innocence Project Podcast_research.md",
+    "docs/media/podcasts/podcast_list_template.md (#20)",
+    "docs/media/media_sources (1).md (#4)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Normalized title from \"The Innocence Project Podcast\" (filename/list #20) to its true title \"The Innocence Podcast\" — this is the UK Manchester Innocence Project show (innocence.fm), NOT the U.S. Innocence Project."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1615808386,
+    "appleCollectionName": "The Innocence Podcast",
+    "appleArtistName": "The Innocence Podcast",
+    "appleTrackCount": 33,
+    "rssFeedUrl": "https://www.innocence.fm/episodes?format=rss",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "The Innocence Podcast",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Kylie Pentelow, Claire McGourlay",
+    "publicationOrReleaseYear": 2022,
+    "publisherOrNetwork": "The Manchester Innocence Project",
+    "focusOrTheme": "UK and international wrongful conviction cases, appeals, and the work of university innocence projects.",
+    "summaryNotes": "Produced by the Manchester Innocence Project (University of Manchester, UK), hosted by journalist Kylie Pentelow with Executive Producer Professor Claire McGourlay. Features conversations with exonerees (such as Brian Banks), innocence pioneers (such as Barry Scheck), and UK criminal appeal lawyers.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~33 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/the-innocence-podcast/id1615808386",
+    "externalId": "apple-podcast:1615808386",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/ea/72/54/ea72547b-4f6e-a427-c144-e64e7a730500/mza_14546037421625039409.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

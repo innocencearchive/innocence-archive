@@ -1,0 +1,36 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#26)"
+  ],
+  "category": "BROAD_SCOPE",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "Editorial check (default SKIP): Primarily a cold-case / missing-persons podcast; only Seasons 5–6 involve flawed-conviction angles. Switch to CREATE if you want it included.",
+    "Normalized title from \"Someone Knows Something (Seasons 5 & 6)\" to parent series \"Someone Knows Something\"."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1089216339,
+    "appleCollectionName": "Someone Knows Something",
+    "appleArtistName": "CBC",
+    "appleTrackCount": 110,
+    "rssFeedUrl": "https://www.cbc.ca/podcasting/includes/sks.xml",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Someone Knows Something",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "David Ridgen",
+    "publicationOrReleaseYear": 2016,
+    "publisherOrNetwork": "CBC",
+    "focusOrTheme": "Canadian cold-case investigative podcast; Seasons 5 and 6 examine flawed investigations and potential wrongful convictions.",
+    "summaryNotes": "Acclaimed CBC investigative series hosted by filmmaker David Ridgen primarily investigating unsolved cold cases and missing persons across Canada and the U.S., with Seasons 5 and 6 touching on potential wrongful convictions and investigative failures.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~110 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/someone-knows-something/id1089216339",
+    "externalId": "apple-podcast:1089216339",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/fe/88/73/fe8873a4-1e13-3f4f-4baa-9b122e980292/mza_198116530583839230.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

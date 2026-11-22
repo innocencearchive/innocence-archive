@@ -1,0 +1,38 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#1)",
+    "docs/media/media_sources (1).md (#1)",
+    "scripts/podcast_pipeline/feeds.json",
+    "server/prisma/seed_files/podcasts/ (520 legacy episode JSONs)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Already exists in live DB (MediaWork #1 with Episode #600). MERGE will fill blank artwork, launch year, summary, focus, externalId, and Apple URL without touching existing episodes."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1151670380,
+    "appleCollectionName": "Wrongful Conviction",
+    "appleArtistName": "Lava for Good Podcasts",
+    "appleTrackCount": 623,
+    "rssFeedUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/23a0c9c9-ef6b-4055-bbaa-af01014cdb05/54c728d2-3f3e-4e41-b507-af01014cdb13/podcast.rss",
+    "inDailyPipeline": true,
+    "dailyPipelineActive": true
+  },
+  "mediaWork": {
+    "title": "Wrongful Conviction",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Jason Flom",
+    "publicationOrReleaseYear": 2016,
+    "publisherOrNetwork": "Lava for Good Podcasts",
+    "focusOrTheme": "First-hand interviews with exonerees, wrongfully convicted individuals, and innocence advocates examining how innocent people end up behind bars.",
+    "summaryNotes": "Flagship Lava for Good interview series hosted by Jason Flom (with occasional guest hosts and thematic sub-series) sharing personal stories of wrongful conviction, legal battles for exoneration, and criminal justice reform.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~623 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/wrongful-conviction/id1151670380",
+    "externalId": "apple-podcast:1151670380",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9c/46/65/9c466535-314f-4b62-b85e-b3152fb88c0c/mza_13392233490305813538.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

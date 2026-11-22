@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#38)"
+  ],
+  "category": "HALLUCINATION_OR_ERROR",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "NOT A PODCAST (BOOK MISCLASSIFIED — default SKIP): \"Rectify: The Power of Restorative Justice After Wrongful Conviction\" is a 2018 book by Lara Bazelon, not a podcast series."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": null,
+    "appleCollectionName": null,
+    "appleArtistName": null,
+    "appleTrackCount": null,
+    "rssFeedUrl": null,
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Rectify: The Power of Restorative Justice",
+    "workType": "PODCAST_SERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": null,
+    "publisherOrNetwork": null,
+    "focusOrTheme": "Post-exoneration experiences and restorative justice (listed in template #38).",
+    "summaryNotes": "NOT A PODCAST: \"Rectify: The Power of Restorative Justice After Wrongful Conviction\" is a 2018 book by legal scholar Lara Bazelon, mistakenly entered into the podcast brainstorming list.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": "Repository Podcast Lists",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

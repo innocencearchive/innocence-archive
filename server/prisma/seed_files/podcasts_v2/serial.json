@@ -1,0 +1,36 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/Serial (Season 1)_research.md",
+    "docs/media/podcasts/podcast_list_template.md (#10)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Normalized title from \"Serial (Season 1)\" to parent series \"Serial\" (Season 1 focuses on Adnan Syed's disputed conviction; later seasons cover other criminal justice and journalism topics)."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 917918570,
+    "appleCollectionName": "Serial",
+    "appleArtistName": "Serial Productions & The New York Times",
+    "appleTrackCount": 128,
+    "rssFeedUrl": "https://feeds.simplecast.com/PpzWFGhg",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Serial",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Sarah Koenig",
+    "publicationOrReleaseYear": 2014,
+    "publisherOrNetwork": "Serial Productions & The New York Times",
+    "focusOrTheme": "Serialized investigative audio journalism examining criminal justice cases and disputed convictions (notably Season 1 on Adnan Syed).",
+    "summaryNotes": "Landmark Peabody Award-winning investigative podcast hosted by Sarah Koenig (Serial Productions / The New York Times). Season 1 reinvestigated the 1999 murder of Hae Min Lee in Baltimore and the conviction of Adnan Syed, examining alibi witnesses, cell-tower evidence, and witness credibility.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~128 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/serial/id917918570",
+    "externalId": "apple-podcast:917918570",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/fb/87/9afb8760-0e05-2b3e-24a2-7e14cce74570/mza_14816055607064169808.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

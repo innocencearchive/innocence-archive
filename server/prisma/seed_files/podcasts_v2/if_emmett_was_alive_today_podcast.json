@@ -1,0 +1,33 @@
+{
+  "sourceFiles": [
+    "docs/media/new podcasts.txt"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "podcastMeta": {
+    "appleCollectionId": 1487054857,
+    "appleCollectionName": "If Emmett Was Alive Today Podcast",
+    "appleArtistName": "Daphine Priscilla Brown Jack",
+    "appleTrackCount": 21,
+    "rssFeedUrl": "https://anchor.fm/s/bf05a2c/podcast/rss",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "If Emmett Was Alive Today Podcast",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Daphine Priscilla Brown Jack",
+    "publicationOrReleaseYear": 2019,
+    "publisherOrNetwork": "Daphine Priscilla Brown Jack / Sol-Caritas",
+    "focusOrTheme": "Criminal justice reform, racial justice, and interviews with Texas death-row exonerees including Christopher Scott and Anthony Graves.",
+    "summaryNotes": "Hosted by veteran parole officer and criminal justice advocate Daphine Jack (21 episodes), exploring systemic flaws in the criminal justice system and featuring in-depth interviews with Texas exonerees Christopher Scott and Anthony Graves.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~21 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/if-emmett-was-alive-today-podcast/id1487054857",
+    "externalId": "apple-podcast:1487054857",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ea/5f/64/ea5f645c-b95e-d8bf-1da1-861ef29984fa/mza_5149837719774314225.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#25)"
+  ],
+  "category": "HALLUCINATION_OR_ERROR",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "UNVERIFIED / LIKELY AI CONFUSION (default SKIP): No Australian wrongful-conviction podcast called \"Lawless\" exists (may have been confused with Missouri's \"The Lawless Files\" about exoneree Josh Kezer)."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": null,
+    "appleCollectionName": null,
+    "appleArtistName": null,
+    "appleTrackCount": null,
+    "rssFeedUrl": null,
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Lawless",
+    "workType": "PODCAST_SERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": null,
+    "publisherOrNetwork": null,
+    "focusOrTheme": "Claimed in template #25 to be an Australian podcast on miscarriages of justice.",
+    "summaryNotes": "AI CONFUSION / WRONG DESCRIPTION: No Australian wrongful-conviction podcast titled \"Lawless\" exists. Likely confused with \"The Lawless Files\" (Missouri podcast about the 1992 Mischelle Lawless murder and exoneree Josh Kezer, Apple ID 1594448298) or WORLD Radio's drug-war podcast \"Lawless\".",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": "Repository Podcast Lists",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

@@ -1,0 +1,33 @@
+{
+  "sourceFiles": [
+    "docs/media/new podcasts.txt"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "podcastMeta": {
+    "appleCollectionId": 1436700030,
+    "appleCollectionName": "Dead Man Talking",
+    "appleArtistName": "Audioboom Studios & Dead Man Talking™",
+    "appleTrackCount": 19,
+    "rssFeedUrl": "https://audioboom.com/channels/4973755.rss",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Dead Man Talking",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Alex Hannaford",
+    "publicationOrReleaseYear": 2018,
+    "publisherOrNetwork": "Audioboom Studios",
+    "focusOrTheme": "Investigates death-row confessions of \"Railroad Killer\" Ángel Maturino Reséndiz and whether innocent people—including Andres Mascorro—were wrongfully convicted of his crimes.",
+    "summaryNotes": "Investigative podcast hosted by journalist Alex Hannaford (Audioboom Studios, 19 episodes) following Reséndiz's confessions to additional murders and working alongside investigators and the Innocence Project of Texas to examine the wrongful conviction claim of Andres Mascorro.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~19 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/dead-man-talking/id1436700030",
+    "externalId": "apple-podcast:1436700030",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/f8/11/de/f811deec-a172-6e1c-c9d4-84033244fb08/mza_3602724408991377515.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

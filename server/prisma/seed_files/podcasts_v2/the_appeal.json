@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#32)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Editorial note: Covers broader criminal justice policy and reform in addition to wrongful convictions."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1392667248,
+    "appleCollectionName": "The Appeal",
+    "appleArtistName": "The Appeal",
+    "appleTrackCount": 65,
+    "rssFeedUrl": "https://rss.libsyn.com/shows/122449/destinations/719829.xml",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "The Appeal",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "The Appeal",
+    "publicationOrReleaseYear": 2018,
+    "publisherOrNetwork": "The Appeal",
+    "focusOrTheme": "Criminal justice journalism covering prosecutorial misconduct, wrongful convictions, cash bail, and systemic reform.",
+    "summaryNotes": "News and interview podcast produced by nonprofit criminal-justice outlet The Appeal (65 episodes), examining systemic drivers of wrongful conviction, prosecutorial accountability, and criminal legal reform.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~65 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/the-appeal/id1392667248",
+    "externalId": "apple-podcast:1392667248",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ea/ed/a1/eaeda1ff-b29f-c5c3-5d9a-42d9727be36b/mza_5153019578419738506.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

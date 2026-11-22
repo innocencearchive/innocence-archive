@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#19)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Trimmed trailing keywords (\", Exonerated, Mass Exoneration\") from template #19 to match the official Apple Podcasts series title."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1521492486,
+    "appleCollectionName": "Choppin' It Up With Jimmie C. -- Life After Wrongful Conviction",
+    "appleArtistName": "Jimmie C. Gardner",
+    "appleTrackCount": 14,
+    "rssFeedUrl": "https://rss.buzzsprout.com/1191503.rss",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Choppin' It Up With Jimmie C. -- Life After Wrongful Conviction",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Jimmie C. Gardner",
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "Jimmie C. Gardner",
+    "focusOrTheme": "Exoneree-hosted conversations about surviving wrongful imprisonment, rebuilding life after release, and mass exoneration advocacy.",
+    "summaryNotes": "Hosted by exoneree Jimmie C. Gardner, who spent 27 years wrongfully imprisoned in West Virginia before his release. Features candid conversations with fellow exonerees and advocates about reentry, healing, and criminal justice reform.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~14 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/choppin-it-up-with-jimmie-c-life-after-wrongful-conviction/id1521492486",
+    "externalId": "apple-podcast:1521492486",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4c/41/02/4c410298-c024-68f6-a73a-24f196626f77/mza_2421561082751506180.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

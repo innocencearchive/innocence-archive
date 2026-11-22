@@ -1,0 +1,36 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#31)"
+  ],
+  "category": "BROAD_SCOPE",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "Editorial check (default SKIP): Primarily an unsolved-murder / cold-case series (only Season 2 touches a disputed conviction). Switch to CREATE if desired.",
+    "Normalized title from \"Hell and Gone (Season 2)\" to parent series \"Hell and Gone\"."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1437808691,
+    "appleCollectionName": "Hell and Gone: Murder Line",
+    "appleArtistName": "iHeartPodcasts",
+    "appleTrackCount": 225,
+    "rssFeedUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/7383da56-ef74-4bd2-8c6c-ae31004732de/9c1c6292-6cad-433b-80ed-ae31004732e7/podcast.rss",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Hell and Gone",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Catherine Townsend",
+    "publicationOrReleaseYear": 2018,
+    "publisherOrNetwork": "iHeartPodcasts / School of Humans",
+    "focusOrTheme": "True-crime cold-case investigations; Season 2 examines a disputed conviction.",
+    "summaryNotes": "Investigative podcast hosted by private investigator and writer Catherine Townsend (currently titled \"Hell and Gone: Murder Line\" on Apple Podcasts) primarily investigating unsolved murders, with Season 2 examining questions surrounding a disputed conviction.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~225 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/hell-and-gone-murder-line/id1437808691",
+    "externalId": "apple-podcast:1437808691",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/4a/ff/f34afffc-b6ac-75dc-435d-3d491f86f5ea/mza_3615398063292280014.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

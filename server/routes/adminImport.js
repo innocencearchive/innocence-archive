@@ -472,6 +472,72 @@ router.post('/preview', async (req, res) => {
       return res.json({ batchId, targetType: 'FILM_BUNDLE', summary, rows: previewRows });
     }
 
+    if (targetType === 'PODCAST_SERIES_BUNDLE') {
+      const existingPodcasts = await prisma.mediaWork.findMany({
+        where: { workType: 'PODCAST_SERIES' },
+        select: { id: true, title: true, externalId: true, verificationStatus: true },
+      });
+      const byTitle = new Map(existingPodcasts.map((w) => [normStr(w.title), w]));
+      const byExtId = new Map(
+        existingPodcasts.filter((w) => w.externalId).map((w) => [normStr(w.externalId), w])
+      );
+
+      const previewRows = rawRecords.map((rec, idx) => {
+        const mw = rec.mediaWork || rec.media_work || rec || {};
+        const podcastMeta = rec.podcastMeta || {};
+        const title = (mw.title || '').trim();
+        const externalId = mw.externalId ? String(mw.externalId).trim() : null;
+        const warnings = Array.isArray(rec.reviewWarnings) ? [...rec.reviewWarnings] : [];
+
+        let matchStatus = 'NEW';
+        let existingMatch = null;
+        let action = rec.recommendedAction === 'SKIP' ? 'SKIP' : 'CREATE';
+
+        if (!title) {
+          matchStatus = 'INVALID';
+          action = 'SKIP';
+          warnings.push('Missing podcast series title.');
+        } else {
+          const exact =
+            (externalId && byExtId.get(normStr(externalId))) || byTitle.get(normStr(title)) || null;
+          if (exact) {
+            matchStatus = 'EXACT_MATCH';
+            existingMatch = exact;
+            action = rec.recommendedAction === 'SKIP' ? 'SKIP' : 'MERGE';
+          }
+        }
+
+        return {
+          rowIndex: idx + 1,
+          matchStatus,
+          action,
+          existingMatch,
+          warnings,
+          data: {
+            sourceFiles: rec.sourceFiles || [],
+            category: rec.category || null,
+            podcastMeta,
+            mediaWork: {
+              ...mw,
+              title,
+              workType: 'PODCAST_SERIES',
+              externalId,
+            },
+          },
+        };
+      });
+
+      const summary = {
+        total: previewRows.length,
+        new: previewRows.filter((r) => r.matchStatus === 'NEW').length,
+        exactMatch: previewRows.filter((r) => r.matchStatus === 'EXACT_MATCH').length,
+        fuzzyDuplicate: 0,
+        invalid: previewRows.filter((r) => r.matchStatus === 'INVALID').length,
+      };
+
+      return res.json({ batchId, targetType: 'PODCAST_SERIES_BUNDLE', summary, rows: previewRows });
+    }
+
     if (targetType === 'ORGANIZATION') {
       const existingOrgs = await prisma.organization.findMany({
         select: { id: true, name: true, type: true, locationState: true, verificationStatus: true },
@@ -1379,6 +1445,91 @@ router.post('/commit', async (req, res) => {
       }
 
       return res.json({ batchId, targetType: 'FILM_BUNDLE', created, merged, skipped, linksAdded, errors });
+    }
+
+    if (targetType === 'PODCAST_SERIES_BUNDLE') {
+      // Series metadata ONLY — intentionally creates/merges MediaWork (PODCAST_SERIES) with zero episodes.
+      for (const row of rows) {
+        if (row.action === 'SKIP') {
+          skipped++;
+          continue;
+        }
+        const d = row.data || {};
+        const mw = d.mediaWork || {};
+
+        try {
+          const externalId = mw.externalId ? String(mw.externalId).trim() : null;
+          const workFields = {
+            title: mw.title?.trim(),
+            workType: 'PODCAST_SERIES',
+            creatorName: mw.creatorName || null,
+            publicationOrReleaseYear: parseIntOrNull(mw.publicationOrReleaseYear),
+            publisherOrNetwork: mw.publisherOrNetwork || null,
+            focusOrTheme: mw.focusOrTheme || null,
+            summaryNotes: mw.summaryNotes || null,
+            availabilityNotes: mw.availabilityNotes || null,
+            sourceUrl: mw.sourceUrl || null,
+            externalId,
+            imagePath: mw.imagePath || null,
+            sourcingCredit: mw.sourcingCredit || null,
+            lastExternalFetch: externalId ? new Date() : null,
+            aiGenerated: mw.aiGenerated !== undefined ? Boolean(mw.aiGenerated) : Boolean(aiGenerated),
+            verificationStatus: safeStatus,
+            ...verifiedFields,
+            ingestionSource,
+            importBatchId: batchId,
+          };
+
+          if (row.action === 'MERGE' && row.existingMatch?.id) {
+            const existing = await prisma.mediaWork.findUnique({ where: { id: row.existingMatch.id } });
+            if (!existing) {
+              errors.push({
+                rowIndex: row.rowIndex,
+                name: mw.title,
+                error: `Existing Podcast Series #${row.existingMatch.id} not found.`,
+              });
+              continue;
+            }
+            await prisma.mediaWork.update({
+              where: { id: existing.id },
+              data: {
+                creatorName: existing.creatorName || workFields.creatorName,
+                publicationOrReleaseYear:
+                  existing.publicationOrReleaseYear ?? workFields.publicationOrReleaseYear,
+                publisherOrNetwork: existing.publisherOrNetwork || workFields.publisherOrNetwork,
+                focusOrTheme: existing.focusOrTheme || workFields.focusOrTheme,
+                summaryNotes: existing.summaryNotes || workFields.summaryNotes,
+                availabilityNotes: existing.availabilityNotes || workFields.availabilityNotes,
+                sourceUrl: existing.sourceUrl || workFields.sourceUrl,
+                externalId: existing.externalId || workFields.externalId,
+                imagePath: existing.imagePath || workFields.imagePath,
+                sourcingCredit: existing.sourcingCredit || workFields.sourcingCredit,
+                lastExternalFetch: workFields.externalId ? new Date() : existing.lastExternalFetch,
+              },
+            });
+            merged++;
+          } else {
+            if (!workFields.title) {
+              errors.push({ rowIndex: row.rowIndex, error: 'Podcast series title is required.' });
+              continue;
+            }
+            await prisma.mediaWork.create({ data: workFields });
+            created++;
+          }
+        } catch (err) {
+          errors.push({ rowIndex: row.rowIndex, name: mw.title, error: err.message });
+        }
+      }
+
+      return res.json({
+        batchId,
+        targetType: 'PODCAST_SERIES_BUNDLE',
+        created,
+        merged,
+        skipped,
+        linksAdded,
+        errors,
+      });
     }
 
     if (targetType === 'ORGANIZATION') {

@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#37)"
+  ],
+  "category": "BROAD_SCOPE",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "Editorial check (default SKIP): Acclaimed prison-life podcast, but NOT specifically focused on wrongful convictions. Switch to CREATE if you want broader incarceration media included."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1240841298,
+    "appleCollectionName": "Ear Hustle",
+    "appleArtistName": "Ear Hustle & Radiotopia",
+    "appleTrackCount": 238,
+    "rssFeedUrl": "https://feeds.earhustlesq.com/earhustlesq",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Ear Hustle",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Earlonne Woods, Nigel Poor",
+    "publicationOrReleaseYear": 2017,
+    "publisherOrNetwork": "Ear Hustle & Radiotopia",
+    "focusOrTheme": "Daily realities of life inside San Quentin State Prison and post-incarceration reentry, occasionally featuring claims of innocence.",
+    "summaryNotes": "Pulitzer Prize-finalist podcast co-created inside San Quentin State Prison by Earlonne Woods and Nigel Poor (Radiotopia) exploring everyday life behind bars and reentry after prison.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~238 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/ear-hustle/id1240841298",
+    "externalId": "apple-podcast:1240841298",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e8/94/86/e8948649-c36e-a0d8-3dca-555d1410987e/mza_1316723170820495850.png/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

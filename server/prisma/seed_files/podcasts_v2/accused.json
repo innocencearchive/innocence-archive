@@ -1,0 +1,33 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#27)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "podcastMeta": {
+    "appleCollectionId": 1145990861,
+    "appleCollectionName": "Accused",
+    "appleArtistName": "Cincinnati Enquirer",
+    "appleTrackCount": 52,
+    "rssFeedUrl": "https://rss.art19.com/accused",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Accused",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Amber Hunt",
+    "publicationOrReleaseYear": 2016,
+    "publisherOrNetwork": "Cincinnati Enquirer / USA Today Network",
+    "focusOrTheme": "Multi-season investigative journalism examining questionable convictions, flawed police investigations, and unsolved murders.",
+    "summaryNotes": "Investigative podcast from The Cincinnati Enquirer hosted by reporter Amber Hunt (52 episodes). Several seasons—including Season 2 (William Virgil, exonerated after 28 years in Kentucky) and Season 4 (Elwood Jones)—directly investigate wrongful or deeply disputed convictions.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~52 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/accused/id1145990861",
+    "externalId": "apple-podcast:1145990861",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/9d/56/73/9d5673e0-09e4-f2b9-3d7a-882e395af4dc/mza_8939903676108071688.jpeg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

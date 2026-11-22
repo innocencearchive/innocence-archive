@@ -299,7 +299,9 @@ function AdminImportPage() {
               </h2>
               <Link
                 to={
-                  commitResult.targetType === 'BOOK_BUNDLE' || commitResult.targetType === 'FILM_BUNDLE'
+                  commitResult.targetType === 'BOOK_BUNDLE' ||
+                  commitResult.targetType === 'FILM_BUNDLE' ||
+                  commitResult.targetType === 'PODCAST_SERIES_BUNDLE'
                     ? '/admin/verify'
                     : `/admin/manage/${commitResult.targetType === 'ORGANIZATION' ? 'organizations' : 'individuals'}?unverified=true`
                 }
@@ -345,6 +347,10 @@ function AdminImportPage() {
                     setInputType('JSON');
                     setDefaultSourceName('TMDB');
                     setIngestionSource('films_v2_bundle');
+                  } else if (val === 'PODCAST_SERIES_BUNDLE') {
+                    setInputType('JSON');
+                    setDefaultSourceName('Apple Podcasts');
+                    setIngestionSource('podcasts_v2_series_bundle');
                   }
                 }}
                 className="w-full p-2 bg-gray-700 border border-gray-600 rounded text-sm text-white"
@@ -353,6 +359,7 @@ function AdminImportPage() {
                 <option value="ORGANIZATION">Organizations (CSV/JSON)</option>
                 <option value="BOOK_BUNDLE">Books Bundle (Merged v2 JSON + Google Books)</option>
                 <option value="FILM_BUNDLE">Films &amp; Series Bundle (Merged v2 JSON + TMDB + Streaming)</option>
+                <option value="PODCAST_SERIES_BUNDLE">Podcast Series Bundle (Series Metadata Only — No Episodes)</option>
               </select>
             </div>
 
@@ -643,7 +650,46 @@ function AdminImportPage() {
                         </select>
                       </td>
                       <td className="py-2.5 pr-3">
-                        {targetType === 'FILM_BUNDLE' ? (
+                        {targetType === 'PODCAST_SERIES_BUNDLE' ? (
+                          <div className="flex items-start gap-2.5">
+                            {row.data.mediaWork?.imagePath && (
+                              <img
+                                src={row.data.mediaWork.imagePath}
+                                alt=""
+                                className="w-10 h-10 rounded object-cover shrink-0 border border-gray-700"
+                              />
+                            )}
+                            <div>
+                              <div className="font-semibold text-gray-100 flex items-center gap-2 flex-wrap">
+                                <span>{row.data.mediaWork?.title || '—'}</span>
+                                {row.data.category && (
+                                  <span
+                                    className={`px-1.5 py-0.5 rounded text-[10px] ${
+                                      row.data.category === 'CORE'
+                                        ? 'bg-emerald-900/70 text-emerald-300'
+                                        : row.data.category === 'HALLUCINATION_OR_ERROR'
+                                          ? 'bg-red-900/70 text-red-300'
+                                          : 'bg-amber-900/70 text-amber-300'
+                                    }`}
+                                  >
+                                    {row.data.category}
+                                  </span>
+                                )}
+                              </div>
+                              <div className="text-gray-400">
+                                {row.data.mediaWork?.creatorName || 'Unknown host'} ·{' '}
+                                {row.data.mediaWork?.publicationOrReleaseYear || '?'}
+                              </div>
+                              <div className="text-gray-500">
+                                {row.data.podcastMeta?.appleCollectionId
+                                  ? `Apple #${row.data.podcastMeta.appleCollectionId}`
+                                  : 'No Apple ID'}
+                                {row.data.mediaWork?.imagePath ? ' · Artwork ✓' : ' · No artwork'}
+                                {row.data.podcastMeta?.rssFeedUrl ? ' · RSS ✓' : ''}
+                              </div>
+                            </div>
+                          </div>
+                        ) : targetType === 'FILM_BUNDLE' ? (
                           <div>
                             <div className="font-semibold text-gray-100 flex items-center gap-2 flex-wrap">
                               <span>{row.data.mediaWork?.title || '—'}</span>
@@ -700,6 +746,21 @@ function AdminImportPage() {
                         )}
                       </td>
                       <td className="py-2.5 pr-3 space-y-1">
+                        {targetType === 'PODCAST_SERIES_BUNDLE' && (
+                          <>
+                            <div className="text-amber-300">
+                              {row.data.mediaWork?.publisherOrNetwork || 'Independent / Unknown network'}
+                              {row.data.podcastMeta?.appleTrackCount
+                                ? ` · ~${row.data.podcastMeta.appleTrackCount} eps (series only)`
+                                : ' · Series metadata only'}
+                            </div>
+                            {row.data.mediaWork?.focusOrTheme && (
+                              <div className="text-gray-400 line-clamp-2 max-w-xs">
+                                {row.data.mediaWork.focusOrTheme}
+                              </div>
+                            )}
+                          </>
+                        )}
                         {targetType === 'FILM_BUNDLE' && (
                           <>
                             <div className="text-amber-300">

@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#28)"
+  ],
+  "category": "BROAD_SCOPE",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "Editorial check (default SKIP): Unsolved cold-case / citizen-sleuth show — NOT a wrongful-conviction podcast, and canceled/removed from Apple Podcasts in 2022."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": null,
+    "appleCollectionName": null,
+    "appleArtistName": null,
+    "appleTrackCount": null,
+    "rssFeedUrl": null,
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Jensen & Holes: The Murder Squad",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Paul Holes, Billy Jensen",
+    "publicationOrReleaseYear": 2019,
+    "publisherOrNetwork": "Exactly Right",
+    "focusOrTheme": "Unsolved cold cases, missing persons, and citizen-sleuthing (2019–2022).",
+    "summaryNotes": "Defunct true-crime podcast (2019–2022) hosted by retired investigator Paul Holes and Billy Jensen focused on solving unsolved murders and identifying Jane/John Does via crowdsourcing.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": "Repository Podcast Lists",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

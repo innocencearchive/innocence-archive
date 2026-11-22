@@ -1,0 +1,36 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/Bone Valley_research.md",
+    "docs/media/podcasts/podcast_list_template.md (#4)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Updated summary from 2022 research file: Leo Schofield was granted parole and released from prison on April 30, 2024 (research markdown still stated he remained incarcerated)."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1643974551,
+    "appleCollectionName": "Bone Valley",
+    "appleArtistName": "Lava for Good Podcasts",
+    "appleTrackCount": 146,
+    "rssFeedUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/2b18f6f0-09c0-471e-b663-aeed010410fa/da6eda02-def2-4de4-a1c2-aeed010456a1/podcast.rss",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Bone Valley",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Gilbert King",
+    "publicationOrReleaseYear": 2022,
+    "publisherOrNetwork": "Lava for Good Podcasts",
+    "focusOrTheme": "Investigative journalism examining the wrongful conviction of Leo Schofield for the 1987 murder of his wife Michelle in Polk County, Florida.",
+    "summaryNotes": "Hosted by Pulitzer Prize-winning author Gilbert King and produced by Lava for Good. Investigates Leo Schofield's 1989 murder conviction in Lakeland, Florida, uncovering fingerprint evidence and repeated confessions from another man, Jeremy Scott. Following the series, Schofield was granted parole and released in April 2024 after 36 years in prison while continuing to seek full exoneration.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~146 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/bone-valley/id1643974551",
+    "externalId": "apple-podcast:1643974551",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/aa/72/2f/aa722ff2-7e96-dfbd-fd98-d23d36d035b3/mza_9383434172737455327.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

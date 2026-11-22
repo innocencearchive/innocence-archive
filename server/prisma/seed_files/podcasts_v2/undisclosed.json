@@ -1,0 +1,39 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/Undisclosed_final.md",
+    "docs/media/podcasts/Undisclosed_research.md (deduplicated)",
+    "docs/media/podcasts/podcast_list_template.md (#2)",
+    "docs/media/media_sources (1).md (#3)",
+    "scripts/podcast_pipeline/feeds.json"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Deduplicated Undisclosed_final.md and Undisclosed_research.md into a single series record. Apple Podcasts currently lists the feed under \"Undisclosed: Toward Justice\"."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 984987791,
+    "appleCollectionName": "Undisclosed: Toward Justice",
+    "appleArtistName": "Undisclosed",
+    "appleTrackCount": 562,
+    "rssFeedUrl": "https://audioboom.com/channels/3709182.rss",
+    "inDailyPipeline": true,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Undisclosed",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Rabia Chaudry, Susan Simpson, Colin Miller",
+    "publicationOrReleaseYear": 2015,
+    "publisherOrNetwork": "Undisclosed, LLC / Audioboom",
+    "focusOrTheme": "In-depth legal investigations of wrongful convictions and systemic failures in the U.S. criminal justice system.",
+    "summaryNotes": "Investigative podcast hosted by attorneys Rabia Chaudry, Susan Simpson, and Colin Miller. Spanning 24+ seasons (starting with Adnan Syed, Joey Watkins, Shaurn Thomas, Willie Veasy, Terrance Lewis, Chester Holman III, Ronnie Long, Dennis Perry, and more), the series examines trials, police files, and newly uncovered evidence; relaunched in 2025 as \"Undisclosed: Toward Justice.\"",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~562 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/undisclosed-toward-justice/id984987791",
+    "externalId": "apple-podcast:984987791",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a9/b3/77/a9b37710-7b96-6142-17de-2bf7ce7caa5a/mza_8725957857716441910.png/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

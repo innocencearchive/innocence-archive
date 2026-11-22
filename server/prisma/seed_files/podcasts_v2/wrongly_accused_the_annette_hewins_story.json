@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#33)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Normalized title from \"Wrongly Accused: The Annette Hewins case\" to official BBC/Apple title \"Wrongly Accused: The Annette Hewins Story\"."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1733285319,
+    "appleCollectionName": "Wrongly Accused: The Annette Hewins Story",
+    "appleArtistName": "BBC Radio Wales",
+    "appleTrackCount": 10,
+    "rssFeedUrl": "https://podcasts.files.bbci.co.uk/p0hfclj7.rss",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Wrongly Accused: The Annette Hewins Story",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "BBC Radio Wales",
+    "publicationOrReleaseYear": 2024,
+    "publisherOrNetwork": "BBC Radio Wales",
+    "focusOrTheme": "Investigates the 1996 wrongful arson-murder conviction and subsequent exoneration of Annette Hewins in Wales.",
+    "summaryNotes": "Ten-part BBC Radio Wales investigative podcast examining the 1995 Merthyr Tydfil arson attack and the miscarriage of justice that led to Annette Hewins's wrongful conviction, her overturned verdict in 1999, and the lasting impact on her family.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~10 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/wrongly-accused-the-annette-hewins-story/id1733285319",
+    "externalId": "apple-podcast:1733285319",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/bc/4a/a5/bc4aa52b-24e9-a106-2b28-51fc179e8cdf/mza_17364609596804486994.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

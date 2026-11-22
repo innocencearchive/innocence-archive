@@ -1,0 +1,34 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/Proof_ A True Crime Podcast_research.md",
+    "docs/media/podcasts/podcast_list_template.md (#17)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "podcastMeta": {
+    "appleCollectionId": 1611647977,
+    "appleCollectionName": "Proof: A True Crime Podcast",
+    "appleArtistName": "Red Marble Media",
+    "appleTrackCount": 103,
+    "rssFeedUrl": "https://feeds.megaphone.fm/GLSS1066319486",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Proof: A True Crime Podcast",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Susan Simpson, Jacinda Davis",
+    "publicationOrReleaseYear": 2022,
+    "publisherOrNetwork": "Red Marble Media",
+    "focusOrTheme": "Case-per-season investigative reporting into potential wrongful convictions.",
+    "summaryNotes": "Hosted by attorney Susan Simpson (Undisclosed) and investigative producer Jacinda Davis. Season 1 (\"A Murder at the Warehouse\" / Brian Bowling case) uncovered evidence that directly contributed to the December 2022 exonerations of Lee Clark and Joshua Cain Storey after 25 years in prison; subsequent seasons investigate additional disputed convictions.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~103 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/proof-a-true-crime-podcast/id1611647977",
+    "externalId": "apple-podcast:1611647977",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/cf/b1/d2/cfb1d2b9-1d87-a818-e6e8-35cd34755936/mza_7715493772773746534.jpeg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

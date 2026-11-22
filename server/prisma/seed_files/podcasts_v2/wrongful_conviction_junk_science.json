@@ -1,0 +1,36 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#15)",
+    "server/prisma/seed_files/podcasts/ (24 legacy episode JSONs)"
+  ],
+  "category": "SUB_SERIES",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "SUB-SERIES FEED OVERLAP (default SKIP): Distributed inside the main \"Wrongful Conviction\" RSS feed (Apple ID #1151670380) rather than as a separate Apple Podcasts feed. Switch to CREATE if you want it listed as its own distinct series alongside \"Wrongful Conviction\"."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": null,
+    "appleCollectionName": null,
+    "appleArtistName": null,
+    "appleTrackCount": null,
+    "rssFeedUrl": null,
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Wrongful Conviction: Junk Science",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Josh Dubin",
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "Lava for Good Podcasts",
+    "focusOrTheme": "Sub-series of Wrongful Conviction dissecting discredited forensic methods (bite marks, arson, hair microscopy, bloodstain patterns, footwear) that caused wrongful convictions.",
+    "summaryNotes": "Hosted by civil rights attorney and innocence advocate Josh Dubin (Lava for Good), examining how unvalidated forensic disciplines led to wrongful convictions across the United States.",
+    "availabilityNotes": null,
+    "sourceUrl": "https://lavaforgood.com/podcast/wrongful-conviction-junk-science/",
+    "externalId": null,
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9c/46/65/9c466535-314f-4b62-b85e-b3152fb88c0c/mza_13392233490305813538.jpg/600x600bb.jpg",
+    "sourcingCredit": "Repository Podcast Lists",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

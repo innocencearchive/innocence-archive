@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/media_sources (1).md (#5)"
+  ],
+  "category": "BROAD_SCOPE",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "Editorial check (default SKIP): General true-crime / courtroom podcast covering mostly guilty verdicts and trials, only occasionally wrongful convictions. Switch to CREATE if desired."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1144137857,
+    "appleCollectionName": "Court Junkie",
+    "appleArtistName": "PodcastOne",
+    "appleTrackCount": 407,
+    "rssFeedUrl": "https://rss.art19.com/court-junkie",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Court Junkie",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Jillian Jalali",
+    "publicationOrReleaseYear": 2016,
+    "publisherOrNetwork": "PodcastOne",
+    "focusOrTheme": "General true-crime courtroom coverage using trial audio and court documents, occasionally featuring wrongful convictions.",
+    "summaryNotes": "Long-running true-crime podcast hosted by Jillian Jalali (400+ episodes) focusing on criminal trials, judicial proceedings, and courtroom audio across a wide range of criminal cases.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~407 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/court-junkie/id1144137857",
+    "externalId": "apple-podcast:1144137857",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e8/70/bc/e870bc43-f38c-93af-fbe3-2d8f4f5d6eca/mza_12106334235278312442.jpeg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

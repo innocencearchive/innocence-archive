@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#29)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Normalized title from \"Wrongful Conviction with Jason Flom: Righteous Convictions\" to its official standalone Apple Podcasts title \"Righteous Convictions with Jason Flom\"."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1557315056,
+    "appleCollectionName": "Righteous Convictions with Jason Flom",
+    "appleArtistName": "Lava for Good Podcasts",
+    "appleTrackCount": 43,
+    "rssFeedUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/f5ffb995-925b-4e99-b725-af01014cf0cc/e0357c1f-7f3c-4ce0-bcf4-af01014cf0e8/podcast.rss",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Righteous Convictions with Jason Flom",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Jason Flom",
+    "publicationOrReleaseYear": 2021,
+    "publisherOrNetwork": "Lava for Good Podcasts",
+    "focusOrTheme": "Profiles of reform-minded prosecutors, Conviction Integrity Unit leaders, defense attorneys, and activists fighting wrongful convictions.",
+    "summaryNotes": "Lava for Good companion series hosted by Jason Flom (43 episodes) spotlighting legal professionals, justice reformers, and advocates working inside and outside the system to overturn wrongful convictions and prevent miscarriages of justice.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~43 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/righteous-convictions-with-jason-flom/id1557315056",
+    "externalId": "apple-podcast:1557315056",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/27/6e/41/276e4196-6d0f-55d7-76ff-bbff2f868fe4/mza_18203837937630576692.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

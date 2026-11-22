@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#23)"
+  ],
+  "category": "BROAD_SCOPE",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "Editorial check (default SKIP): General Canadian legal/policy commentary podcast rather than a dedicated wrongful-conviction series. Switch to CREATE if desired."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 873244552,
+    "appleCollectionName": "The Docket",
+    "appleArtistName": "Michael Spratt, Emilie Taman",
+    "appleTrackCount": 114,
+    "rssFeedUrl": "https://feeds.simplecast.com/1FXKhGjf",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "The Docket",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Michael Spratt, Emilie Taman",
+    "publicationOrReleaseYear": 2014,
+    "publisherOrNetwork": "Michael Spratt, Emilie Taman",
+    "focusOrTheme": "Canadian criminal law, legal policy, and court commentary that occasionally discusses wrongful convictions.",
+    "summaryNotes": "Canadian legal commentary podcast hosted by defense lawyer Michael Spratt and former prosecutor Emilie Taman covering Canadian Supreme Court decisions, criminal justice policy, and occasional miscarriage-of-justice cases.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~114 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/the-docket/id873244552",
+    "externalId": "apple-podcast:873244552",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/55/70/49/55704959-1289-9d77-d61a-c2e6607243f4/mza_15706465366726948495.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

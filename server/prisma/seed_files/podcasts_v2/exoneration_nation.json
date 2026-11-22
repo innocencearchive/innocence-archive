@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/new podcasts.txt"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Verified via Acast / TCADP, but no active Apple Podcasts listing found (no Apple cover artwork URL)."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": null,
+    "appleCollectionName": null,
+    "appleArtistName": null,
+    "appleTrackCount": null,
+    "rssFeedUrl": null,
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Exoneration Nation",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Christopher Scott",
+    "publicationOrReleaseYear": 2019,
+    "publisherOrNetwork": "House of Renewed Hope / Acast",
+    "focusOrTheme": "Texas exoneree Christopher Scott interviews fellow exonerees and innocence advocates about wrongful imprisonment and life after exoneration.",
+    "summaryNotes": "Hosted by Texas exoneree and House of Renewed Hope co-founder Christopher Scott (wrongfully convicted of capital murder in 1997, exonerated in 2009), sharing personal stories of fellow exonerees and wrongful conviction investigations.",
+    "availabilityNotes": "Acast / Spotify",
+    "sourceUrl": "https://shows.acast.com/exoneration-nation",
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": "Repository Podcast Lists",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

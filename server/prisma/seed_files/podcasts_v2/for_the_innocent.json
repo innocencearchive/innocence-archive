@@ -1,0 +1,33 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#3)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "podcastMeta": {
+    "appleCollectionId": 1665246294,
+    "appleCollectionName": "For the Innocent",
+    "appleArtistName": "Legal Talk Network",
+    "appleTrackCount": 37,
+    "rssFeedUrl": "https://feeds.megaphone.fm/cipp",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "For the Innocent",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Michael Semanchik",
+    "publicationOrReleaseYear": 2023,
+    "publisherOrNetwork": "Legal Talk Network / The Innocence Center",
+    "focusOrTheme": "Stories of exonerees, innocence litigation, and systemic causes of wrongful conviction from The Innocence Center.",
+    "summaryNotes": "Hosted by Michael Semanchik (Executive Director of The Innocence Center and former Managing Attorney of the California Innocence Project) on the Legal Talk Network. Features interviews with exonerees, attorneys, and forensic experts dissecting wrongful convictions and criminal justice reform.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~37 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/for-the-innocent/id1665246294",
+    "externalId": "apple-podcast:1665246294",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/42/fe/af/42feaf03-7b6c-736d-9396-c7cc477c4870/mza_6960263383553719716.jpeg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#24)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Gimlet/Spotify Original podcast — not indexed on Apple Podcasts Lookup API (no Apple cover artwork URL)."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": null,
+    "appleCollectionName": null,
+    "appleArtistName": null,
+    "appleTrackCount": null,
+    "rssFeedUrl": null,
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Conviction",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Saki Knafo, Gimlet Media",
+    "publicationOrReleaseYear": 2019,
+    "publisherOrNetwork": "Gimlet Media / Spotify",
+    "focusOrTheme": "Anthology investigative podcast covering wrongful arrests, police misconduct (Season 1: Pedro Hernandez), and 1980s Satanic Panic wrongful convictions (Season 2: American Panic).",
+    "summaryNotes": "Investigative anthology series from Gimlet Media / Spotify. Season 1 (hosted by Saki Knafo) follows Bronx teenager Pedro Hernandez's fight against a flawed shooting prosecution; Season 2 (\"American Panic\") investigates how 1980s Satanic Panic hysteria led to wrongful convictions.",
+    "availabilityNotes": "Spotify",
+    "sourceUrl": "https://open.spotify.com/show/2V4a1fJ7iM2u1m4W2g8g5a",
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": "Repository Podcast Lists",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

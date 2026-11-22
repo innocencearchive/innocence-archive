@@ -1,0 +1,37 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/In the Dark (Season 2)_research.md",
+    "docs/media/podcasts/podcast_list_template.md (#12)",
+    "scripts/podcast_pipeline/feeds.json"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Normalized title from \"In the Dark (Season 2)\" to parent series \"In the Dark\" (Season 2 covers Curtis Flowers; Season 1 covers Jacob Wetterling; Season 3 covers Haditha)."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1148175292,
+    "appleCollectionName": "In The Dark",
+    "appleArtistName": "The New Yorker",
+    "appleTrackCount": 78,
+    "rssFeedUrl": "https://feeds.megaphone.fm/CNE3915766304",
+    "inDailyPipeline": true,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "In the Dark",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Madeleine Baran",
+    "publicationOrReleaseYear": 2016,
+    "publisherOrNetwork": "The New Yorker / APM Reports",
+    "focusOrTheme": "Long-form investigative journalism into prosecutorial misconduct, flawed investigations, and wrongful convictions (notably Season 2 on Curtis Flowers).",
+    "summaryNotes": "Peabody Award-winning investigative journalism podcast hosted by Madeleine Baran (originally APM Reports, now The New Yorker). Season 2 deeply investigated the six trials of Curtis Flowers in Winona, Mississippi—uncovering racial jury discrimination and recanted jailhouse-informant testimony that helped lead to a U.S. Supreme Court ruling and Flowers's eventual exoneration.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~78 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/in-the-dark/id1148175292",
+    "externalId": "apple-podcast:1148175292",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/67/d5/37/67d537b9-b27e-240b-b9a2-43c13bdfd7fb/mza_4163719876671560348.jpeg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

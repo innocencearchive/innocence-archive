@@ -1,0 +1,36 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/Unjust & Unsolved_research.md",
+    "docs/media/podcasts/podcast_list_template.md (#13)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Apple Podcasts feed (id1527777879) currently lists only 3 remaining tracks from the original 22-episode 2020–2021 run; some older episodes may be archived or behind Patreon."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": 1527777879,
+    "appleCollectionName": "Unjust & Unsolved",
+    "appleArtistName": "Daisy",
+    "appleTrackCount": 3,
+    "rssFeedUrl": "https://anchor.fm/s/10049cc34/podcast/rss",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Unjust & Unsolved",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Maggie Freleng",
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "Daisy / Obsessed Network",
+    "focusOrTheme": "Weekly deep dives into cases of people claiming wrongful conviction while the underlying crimes remain unresolved.",
+    "summaryNotes": "Investigative series hosted by Pulitzer Prize-winning journalist Maggie Freleng profiling potentially wrongfully convicted individuals (including Brandon Spencer, Cheri Hayden, Andre Brown, Ralph Trent Stokes, and others) and examining the unsolved crimes behind their convictions.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~3 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/unjust-unsolved/id1527777879",
+    "externalId": "apple-podcast:1527777879",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/07/fd/8f/07fd8fa2-f653-bb50-4cad-52a0377cdcd0/mza_3584607706507364639.png/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

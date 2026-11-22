@@ -1,0 +1,36 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#34)",
+    "server/prisma/seed_files/podcasts/ (60 legacy episode JSONs on main feed)"
+  ],
+  "category": "SUB_SERIES",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "LIKELY DUPLICATE / MISNAMED (default SKIP): No standalone podcast titled \"Wrongly Convicted with Maggie Freleng\" exists — Maggie Freleng hosted episodes on the main \"Wrongful Conviction\" feed (#1151670380) and hosted the separate podcast \"Unjust & Unsolved\" (included above)."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": null,
+    "appleCollectionName": null,
+    "appleArtistName": null,
+    "appleTrackCount": null,
+    "rssFeedUrl": null,
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Wrongly Convicted with Maggie Freleng",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Maggie Freleng",
+    "publicationOrReleaseYear": 2021,
+    "publisherOrNetwork": "Lava for Good Podcasts",
+    "focusOrTheme": "Misnamed duplicate of Maggie Freleng's co-hosted episodes on the main \"Wrongful Conviction\" feed.",
+    "summaryNotes": "Listed in podcast_list_template.md (#34) as \"Wrongly Convicted with Maggie Freleng\", but Maggie Freleng hosted episodes under \"Wrongful Conviction with Maggie Freleng\" inside the main Lava for Good \"Wrongful Conviction\" feed (and separately hosted \"Unjust & Unsolved\").",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": "Repository Podcast Lists",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

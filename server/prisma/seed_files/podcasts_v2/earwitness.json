@@ -1,0 +1,34 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/Earwitness_research.md",
+    "docs/media/podcasts/podcast_list_template.md (#5)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "podcastMeta": {
+    "appleCollectionId": 1707026865,
+    "appleCollectionName": "Earwitness",
+    "appleArtistName": "Lava for Good Podcasts",
+    "appleTrackCount": 13,
+    "rssFeedUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/6ccd97d6-01c3-4258-8308-b0650104ad10/f639ee68-6872-403e-931a-b065010564d6/podcast.rss",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Earwitness",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Beth Shelburne",
+    "publicationOrReleaseYear": 2023,
+    "publisherOrNetwork": "Lava for Good Podcasts",
+    "focusOrTheme": "Investigates the wrongful conviction and death sentence of Toforest Johnson in Alabama based on an uncorroborated \"earwitness\" account.",
+    "summaryNotes": "Eight-part investigative series hosted by journalist Beth Shelburne (from the Lava for Good team behind Bone Valley) examining the 1998 murder conviction and death sentence of Toforest Johnson for the killing of Deputy Sheriff William G. Hardy in Birmingham, Alabama, despite multiple alibi witnesses and a secret reward paid to the sole \"earwitness.\"",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~13 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/earwitness/id1707026865",
+    "externalId": "apple-podcast:1707026865",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/ed/d4/d2/edd4d26e-1581-b54a-4d6d-5db88dec0eee/mza_14513052045777525061.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

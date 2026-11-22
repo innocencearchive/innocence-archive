@@ -1,0 +1,36 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/California Innocence Project Podcast_research.md",
+    "docs/media/podcasts/podcast_list_template.md (#8)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "No active Apple Podcasts listing found (2018 13-episode limited series archived on Podchaser/CIP; no official Apple cover artwork URL)."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": null,
+    "appleCollectionName": null,
+    "appleArtistName": null,
+    "appleTrackCount": null,
+    "rssFeedUrl": null,
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "California Innocence Project Podcast",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "California Innocence Project",
+    "publicationOrReleaseYear": 2018,
+    "publisherOrNetwork": "California Innocence Project",
+    "focusOrTheme": "Case studies of California wrongful convictions handled by the California Innocence Project, including flawed arson science, eyewitness misidentification, and compensation laws.",
+    "summaryNotes": "Limited 13-episode 2018 podcast series produced by the California Innocence Project detailing individual wrongful conviction cases (including Rodney Gupton, JoAnn Parks, and Horace Roberts) and exoneree compensation reform. Later succeeded by Michael Semanchik's \"For the Innocent\" on Legal Talk Network.",
+    "availabilityNotes": "Podchaser / Archive",
+    "sourceUrl": "https://californiainnocenceproject.org/",
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": "Repository Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

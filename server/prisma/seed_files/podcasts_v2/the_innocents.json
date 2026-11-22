@@ -1,0 +1,35 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#36)"
+  ],
+  "category": "HALLUCINATION_OR_ERROR",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "UNVERIFIABLE / LIKELY AI HALLUCINATION (default SKIP): No wrongful-conviction podcast titled \"The Innocents\" was found on Apple Podcasts or web directories."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": null,
+    "appleCollectionName": null,
+    "appleArtistName": null,
+    "appleTrackCount": null,
+    "rssFeedUrl": null,
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "The Innocents",
+    "workType": "PODCAST_SERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": null,
+    "publisherOrNetwork": null,
+    "focusOrTheme": "Claimed in template #36 to focus on personal stories of wrongfully convicted individuals.",
+    "summaryNotes": "UNVERIFIABLE / LIKELY AI HALLUCINATION: No wrongful-conviction podcast series named \"The Innocents\" exists on Apple Podcasts or major podcast directories.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": "Repository Podcast Lists",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

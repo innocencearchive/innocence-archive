@@ -1,0 +1,36 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/Aggravating Circumstances_research.md",
+    "docs/media/podcasts/podcast_list_template.md (#6)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Verified on Podchaser, but no active Apple Podcasts feed/ID found (no official Apple cover artwork URL available)."
+  ],
+  "podcastMeta": {
+    "appleCollectionId": null,
+    "appleCollectionName": null,
+    "appleArtistName": null,
+    "appleTrackCount": null,
+    "rssFeedUrl": null,
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Aggravating Circumstances",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Laura Szeremi",
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "Independent",
+    "focusOrTheme": "Investigative podcast examining cases of alleged wrongful conviction, hidden evidence, and unintended consequences in the criminal justice system.",
+    "summaryNotes": "Multi-season independent investigative podcast hosted by Laura Szeremi. Season 1 examines the conviction of Destry Cord McKinney; Season 2 examines a disputed Florida self-defense case; Season 3 investigates the conviction of Tommy Hall.",
+    "availabilityNotes": "Podchaser",
+    "sourceUrl": "https://www.podchaser.com/podcasts/aggravating-circumstances-1158367",
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": "Repository Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}

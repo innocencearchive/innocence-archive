@@ -1,0 +1,33 @@
+{
+  "sourceFiles": [
+    "docs/media/podcasts/podcast_list_template.md (#21)"
+  ],
+  "category": "CORE",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "podcastMeta": {
+    "appleCollectionId": 1102237078,
+    "appleCollectionName": "Actual Innocence",
+    "appleArtistName": "BEP",
+    "appleTrackCount": 72,
+    "rssFeedUrl": "https://audioboom.com/channels/4728027.rss",
+    "inDailyPipeline": false,
+    "dailyPipelineActive": false
+  },
+  "mediaWork": {
+    "title": "Actual Innocence",
+    "workType": "PODCAST_SERIES",
+    "creatorName": "Brooke Gittings",
+    "publicationOrReleaseYear": 2016,
+    "publisherOrNetwork": "BEP",
+    "focusOrTheme": "Direct first-person interviews with exonerees and wrongful conviction advocates.",
+    "summaryNotes": "Interview-driven podcast hosted by Brooke Gittings (72 episodes) giving wrongfully convicted and exonerated individuals a platform to tell their own stories of arrest, trial, incarceration, and life after exoneration.",
+    "availabilityNotes": "Apple Podcasts · Public RSS feed verified · ~72 episodes on Apple Podcasts",
+    "sourceUrl": "https://podcasts.apple.com/us/podcast/actual-innocence/id1102237078",
+    "externalId": "apple-podcast:1102237078",
+    "imagePath": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/00/7a/e9/007ae9a2-d3f7-e005-1161-8ae081474654/mza_7097104733012801165.jpg/600x600bb.jpg",
+    "sourcingCredit": "Apple Podcasts / Research Files",
+    "aiGenerated": false
+  },
+  "mediaItems": []
+}
