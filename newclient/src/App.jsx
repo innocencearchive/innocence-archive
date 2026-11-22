@@ -1,4 +1,4 @@
-// src/App.jsx
+// src/App.jsx — The Innocence Archive React Frontend
 import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 

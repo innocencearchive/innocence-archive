@@ -1,4 +1,4 @@
-// server.js
+// server.js — The Innocence Archive Backend API
 
 // Import necessary packages
 // Use require for standard Node.js CommonJS modules unless your package.json has "type": "module"
