@@ -1,0 +1,42 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Exonerated",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Bob Balaban",
+    "publicationOrReleaseYear": 2005,
+    "publisherOrNetwork": "Court TV, The Exonerated Productions",
+    "focusOrTheme": null,
+    "summaryNotes": "Six wrongly convicted people who were sentenced to death row, and later exonerated, tell their stories in their own words.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "243462",
+    "imagePath": "https://image.tmdb.org/t/p/w500/r79HQKs7lhonFQfAjqpagQ5UFTM.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "The Exonerated (Documentary)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2005-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "Six wrongly convicted people who were sentenced to death row, and later exonerated, tell their stories in their own words.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

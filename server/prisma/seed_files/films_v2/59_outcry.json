@@ -1,0 +1,70 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Outcry",
+    "workType": "DOCUSERIES",
+    "creatorName": "Pat Kondelis",
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "Showtime",
+    "focusOrTheme": null,
+    "summaryNotes": "A five-part documentary series examining the story of Texas high school football star Greg Kelley, who was arrested, convicted and jailed for sexual assault of a 4-year-old boy, and his subsequent fight for exoneration.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "103050",
+    "imagePath": "https://image.tmdb.org/t/p/w500/d3ReaxwpkwkROl1BaK4rUeXqOyP.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "fuboTV",
+      "watchmodeProviderId": 539890,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.fubo.tv/welcome/series/116034810/outcry/?irmp=1993008&irad=599307",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Spectrum On Demand",
+      "watchmodeProviderId": 539890,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://ondemand.spectrum.net/tv/paramount-with-showtime/17998634/outcry/",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Paramount+ with Showtime",
+      "watchmodeProviderId": 539890,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.paramountplus.com/shows/outcry/video/6vCq6s2DorWR0eKSAePyqJpkSPgt9BJ9/outcry-101",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "Outcry (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2020-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "A five-part documentary series examining the story of Texas high school football star Greg Kelley, who was arrested, convicted and jailed for sexual assault of a 4-year-old boy, and his subsequent fight for exoneration.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

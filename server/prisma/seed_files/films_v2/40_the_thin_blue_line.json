@@ -1,0 +1,119 @@
+{
+  "sourceFiles": [
+    "9.5.thin_blue_line.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Thin Blue Line",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Errol Morris",
+    "publicationOrReleaseYear": 1988,
+    "publisherOrNetwork": "American Playhouse, Third Floor Productions, Miramax",
+    "focusOrTheme": "Wrongful conviction, murder case investigation, reliability of testimony, impact of filmmaking on justice.",
+    "summaryNotes": "Errol Morris's unique documentary dramatically re-enacts the crime scene and investigation of a Dallas police officer's murder. It successfully argues that a man was wrongly convicted for the crime by a corrupt justice system in Dallas County, Texas.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "14285",
+    "imagePath": "https://image.tmdb.org/t/p/w500/4w4BJk3l8y9gYwPPLRs6uPHOmGL.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Kanopy",
+      "watchmodeProviderId": 1423069,
+      "streamingType": "FREE",
+      "url": "https://www.kanopy.com/en/product/13784896?vp=hclib",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "AMC+",
+      "watchmodeProviderId": 1423069,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.amcplus.com/movies/the-thin-blue-line--1026922",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "The Criterion Channel",
+      "watchmodeProviderId": 1423069,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.criterionchannel.com/the-thin-blue-line",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Netflix",
+      "watchmodeProviderId": 1423069,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.netflix.com/title/60034937",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.5.thin_blue_line.json",
+      "itemTitle": "The Thin Blue Line",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful conviction, murder case investigation, reliability of testimony, impact of filmmaking on justice.",
+      "summaryNotes": "Errol Morris's documentary deconstructs the case against Randall Dale Adams, who was convicted based on the testimony of David Ray Harris. The film exposed contradictions and unreliable witnesses, leading to Adams's exoneration.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "PROSECUTORIAL_MISCONDUCT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Randall",
+          "middleName": "Dale",
+          "lastName": "Adams",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1977,
+          "exonerationOrReleaseYear": 1989,
+          "timeServed": "~12 years",
+          "sentence": "Death Penalty (later commuted to Life)",
+          "caseLocationCity": "Dallas",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of capital murder based on perjured testimony and flawed eyewitness identifications. Served approximately 12 years before his conviction was overturned. He was later exonerated after the film exposed issues with his case.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "PROSECUTORIAL_MISCONDUCT"
+          ],
+          "organizations": [
+            {
+              "name": "N/A (Filmmaker Errol Morris's investigation was key)",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Errol",
+          "middleName": null,
+          "lastName": "Morris",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

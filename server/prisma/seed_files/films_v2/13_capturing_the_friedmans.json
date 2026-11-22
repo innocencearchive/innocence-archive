@@ -1,0 +1,135 @@
+{
+  "sourceFiles": [
+    "9.34.capturing_the_friedmans.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Capturing the Friedmans",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Andrew Jarecki",
+    "publicationOrReleaseYear": 2003,
+    "publisherOrNetwork": "HBO Documentary Films, Fortissimo Films",
+    "focusOrTheme": "Explores the investigation and prosecution of Arnold Friedman and his son Jesse Friedman for child sexual abuse in Great Neck, New York, during the 1980s. Uses extensive family home video footage to present a complex, ambiguous portrait of the family and the case, raising questions about guilt, innocence, memory, and investigative methods.",
+    "summaryNotes": "The intimate story of a seemingly typical, suburban family whose world is shattered when the father and youngest son are arrested and charged with shocking and horrible crimes.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "2260",
+    "imagePath": "https://image.tmdb.org/t/p/w500/qWdMQj0HN7QxKxEkm0tk04nuAQ2.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "MAX",
+      "watchmodeProviderId": 167217,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://play.max.com/show/89f21e68-5cdf-4be2-9ff7-ae45e6e53ba3?utm_source=universal_search",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.34.capturing_the_friedmans.json",
+      "itemTitle": "Capturing the Friedmans",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Explores the investigation and prosecution of Arnold Friedman and his son Jesse Friedman for child sexual abuse in Great Neck, New York, during the 1980s. Uses extensive family home video footage to present a complex, ambiguous portrait of the family and the case, raising questions about guilt, innocence, memory, and investigative methods.",
+      "summaryNotes": "The documentary uses extensive home video footage and interviews to explore the ambiguous circumstances surrounding the case. Jesse Friedman claims his confession was coerced. The film raises questions about guilt, innocence, memory, and investigative methods.",
+      "keyQuotes": "Extensive use of the Friedman family's home videos, providing intimate and often unsettling glimpses into their lives before and during the investigation.\n\nInterviews with family members (including Arnold, Jesse, mother Elaine, brothers David and Seth), alleged victims, investigators, and lawyers, presenting conflicting perspectives.\n\nThe ambiguity surrounding the events and confessions is central.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION",
+        "MEDIA_SENSATIONALISM",
+        "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Jesse",
+          "middleName": null,
+          "lastName": "Friedman",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Child Sex Abuse",
+          "convictionYear": 1988,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "approx. 13 years",
+          "sentence": "13 years",
+          "caseLocationCity": "Great Neck",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of child sexual abuse in 1988 after pleading guilty, although he later maintained his confession was coerced. He served approximately 13 years in prison. He continues to seek exoneration.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION",
+            "MEDIA_SENSATIONALISM",
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Nassau County District Attorney's Office",
+              "type": "LAW_ENFORCEMENT"
+            },
+            {
+              "name": "defense attorneys",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Arnold",
+          "middleName": null,
+          "lastName": "Friedman",
+          "suffix": null,
+          "status": "CONVICTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Child Sex Abuse",
+          "convictionYear": 1988,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "approx. 7 years",
+          "sentence": "Died in prison",
+          "caseLocationCity": "Great Neck",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of child sexual abuse in 1988 and died in prison approximately 7 years later. He pled guilty and was also accused of possessing child pornography. The case remains controversial with questions raised about the investigation and confessions.",
+          "contributingFactorCodes": [
+            "MEDIA_SENSATIONALISM",
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Nassau County District Attorney's Office",
+              "type": "LAW_ENFORCEMENT"
+            },
+            {
+              "name": "defense attorneys",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Andrew",
+          "middleName": null,
+          "lastName": "Jarecki",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://freejesse.net",
+          "description": "Jesse Friedman's website"
+        }
+      ]
+    }
+  ]
+}

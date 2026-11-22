@@ -1,0 +1,52 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Paradise Lost: The Child Murders at Robin Hood Hills",
+    "workType": "FILM",
+    "creatorName": "Joe Berlinger, Bruce Sinofsky",
+    "publicationOrReleaseYear": 1996,
+    "publisherOrNetwork": "HBO, Actual Films",
+    "focusOrTheme": null,
+    "summaryNotes": "A horrific triple child murder leads to an indictment and trial of three alienated teenagers, based on the thinnest of evidence. This film is a chilling look at a modern-day witch-hunt.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "17204",
+    "imagePath": "https://image.tmdb.org/t/p/w500/h65fwEQTv9zRNyEuExE1wAk5CQ2.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Hoopla",
+      "watchmodeProviderId": 1294863,
+      "streamingType": "FREE",
+      "url": "https://www.hoopladigital.com/title/11054162?utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "Paradise Lost: The Child Murders at Robin Hood Hills (Film)",
+      "itemNumber": null,
+      "itemMediaType": "FILM_CONTENT",
+      "releaseDate": "1996-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "A horrific triple child murder leads to an indictment and trial of three alienated teenagers, based on the thinnest of evidence. This film is a chilling look at a modern-day witch-hunt.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

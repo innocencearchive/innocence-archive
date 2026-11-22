@@ -1,0 +1,55 @@
+{
+  "sourceFiles": [
+    "9.7.frank_serpico.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Filename says \"frank_serpico\" (2017 doc, TMDB #454192) but JSON describes the 1973 Sidney Lumet film \"Serpico\". Did not attach 2017 TMDB data — verify which film you want.",
+    "0 wrongfully convicted individuals linked — verify whether this is a broader criminal-justice title or needs case links added."
+  ],
+  "mediaWork": {
+    "title": "Serpico",
+    "workType": "FILM",
+    "creatorName": "Sidney Lumet",
+    "publicationOrReleaseYear": 1973,
+    "publisherOrNetwork": "Produzioni Europee Associate",
+    "focusOrTheme": "Police corruption in NYPD, whistleblowing, integrity vs. systemic pressure.",
+    "summaryNotes": "Based on the real-life story of NYPD detective Frank Serpico.",
+    "availabilityNotes": "Available via Hulu, Amazon.",
+    "sourceUrl": null,
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": null,
+    "aiGenerated": true
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.7.frank_serpico.json",
+      "itemTitle": "Serpico",
+      "itemNumber": null,
+      "itemMediaType": "FILM_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Police corruption in NYPD, whistleblowing, integrity vs. systemic pressure.",
+      "summaryNotes": "The film tells the true story of Frank Serpico's efforts to expose corruption within the NYPD in the 1960s and 70s. While it indicts police misconduct, the narrative centers on Serpico's personal battle rather than specific wrongful convictions.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "POLICE_MISCONDUCT"
+      ],
+      "featuredIndividuals": [],
+      "involvedPersons": [
+        {
+          "firstName": "Sidney",
+          "middleName": null,
+          "lastName": "Lumet",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "sourceFiles": [
+    "9.39.crime_on_bayou.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "A Crime on the Bayou",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Nancy Buirski",
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "Augusta Films, Get Lifted Film Company, Artemis Rising Foundation (Distributed by Shout! Studios)",
+    "focusOrTheme": "Tells the story of Gary Duncan, a Black teenager arrested in 1966 in Plaquemines Parish, Louisiana, for touching a white youth's arm while trying to de-escalate a confrontation. Chronicles his challenge against the segregated justice system, aided by young Jewish attorney Richard Sobol, leading to the landmark Supreme Court case *Duncan v. Louisiana*.",
+    "summaryNotes": "A Black teenager bravely challenges the most powerful white supremacist in 1960s Louisiana with the help of a young Jewish attorney. Systemic racism and the confederate statues are explored.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "763040",
+    "imagePath": "https://image.tmdb.org/t/p/w500/cq8icdIzX7arjWXylnvX6C2GpTK.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.39.crime_on_bayou.json",
+      "itemTitle": "A Crime on the Bayou",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Tells the story of Gary Duncan, a Black teenager arrested in 1966 in Plaquemines Parish, Louisiana, for touching a white youth's arm while trying to de-escalate a confrontation. Chronicles his challenge against the segregated justice system, aided by young Jewish attorney Richard Sobol, leading to the landmark Supreme Court case *Duncan v. Louisiana*.",
+      "summaryNotes": "Documentary about Gary Duncan, a Black teenager arrested in 1966 for touching a white youth's arm. It chronicles his challenge against the segregated justice system, leading to the Supreme Court case *Duncan v. Louisiana*.",
+      "keyQuotes": "Interviews with Gary Duncan and potentially Richard Sobol (or archival), detailing the events of the arrest\n\nthe atmosphere of hostility and racism in Plaquemines Parish under Leander Perez\n\nthe legal strategy challenging the denial of a jury trial\n\nand the significance of the Supreme Court victory.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "RACIAL_BIAS"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Gary",
+          "middleName": null,
+          "lastName": "Duncan",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Other",
+          "convictionYear": 1966,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "*Unclear if sentence was served before/during appeals.*",
+          "sentence": "60 days in jail and $150 fine.",
+          "caseLocationCity": "Plaquemines Parish",
+          "caseLocationCounty": null,
+          "caseLocationState": "Louisiana",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Gary Duncan was wrongfully prosecuted and initially convicted of simple battery. His fight led to the landmark Supreme Court ruling in *Duncan v. Louisiana*, guaranteeing the right to a jury trial in state courts for serious crimes. It is unclear if his sentence was served before or during appeals.",
+          "contributingFactorCodes": [
+            "RACIAL_BIAS"
+          ],
+          "organizations": [
+            {
+              "name": "Lawyers' Constitutional Defense Committee (Richard Sobol volunteered).",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Nancy",
+          "middleName": null,
+          "lastName": "Buirski",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

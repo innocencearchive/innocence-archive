@@ -1,0 +1,159 @@
+{
+  "sourceFiles": [
+    "9.15.trials_darryl_hunt.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Trials of Darryl Hunt",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Ricki Stern & Annie Sundberg",
+    "publicationOrReleaseYear": 2006,
+    "publisherOrNetwork": "HBO Documentary Films",
+    "focusOrTheme": "Wrongful conviction, racial bias, DNA exoneration after long struggle, flaws in criminal justice system.",
+    "summaryNotes": "The 20-year ordeal of Darryl Hunt, a black man wrongly convicted of the 1984 rape and murder of a white newspaper editor in Winston-Salem, N.C.",
+    "availabilityNotes": "Available via HBO Max, Amazon Prime, DVD.",
+    "sourceUrl": null,
+    "externalId": "37985",
+    "imagePath": "https://image.tmdb.org/t/p/w500/tidsyiDMAUPgGK9Sq2xO5nUZfuY.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Tubi TV",
+      "watchmodeProviderId": 1424269,
+      "streamingType": "FREE",
+      "url": "https://tubitv.com/movies/499678",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Pluto TV",
+      "watchmodeProviderId": 1424269,
+      "streamingType": "FREE",
+      "url": "https://pluto.tv/on-demand/movies/the-trials-of-darryl-hunt-2005-1-1?utm_medium=deeplink&utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Shout! Factory TV",
+      "watchmodeProviderId": 1424269,
+      "streamingType": "FREE",
+      "url": "https://watch.shout-tv.com/interstitial/611241",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Amazon Freevee",
+      "watchmodeProviderId": 1424269,
+      "streamingType": "FREE",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.08b72e46-d551-0d87-dc4f-d9e382d4445a",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Peacock",
+      "watchmodeProviderId": 1424269,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.peacocktv.com/watch/asset/movies/the-trials-of-darryl-hunt/c24e8619-ca7a-31a1-888e-88421691c14c",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Peacock Premium",
+      "watchmodeProviderId": 1424269,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.peacocktv.com/watch/asset/movies/the-trials-of-darryl-hunt/c24e8619-ca7a-31a1-888e-88421691c14c",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Prime Video",
+      "watchmodeProviderId": 1424269,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.08b72e46-d551-0d87-dc4f-d9e382d4445a",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.15.trials_darryl_hunt.json",
+      "itemTitle": "The Trials of Darryl Hunt",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful conviction, racial bias, DNA exoneration after long struggle, flaws in criminal justice system.",
+      "summaryNotes": "This documentary provides an in-depth chronicle of Darryl Hunt's case, from his initial arrest and trials marred by racial bias and questionable evidence, through the decade-long fight by his attorney Mark Rabil to get DNA testing, the initial DNA exclusion that didn't free him, and the eventual DNA match that identified the true perpetrator and led to Hunt's exoneration after 19 years. It highlights systemic failures and the immense personal toll of wrongful conviction.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "JAILHOUSE_INFORMANT",
+        "RACIAL_BIAS"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Darryl",
+          "middleName": null,
+          "lastName": "Hunt",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1985,
+          "exonerationOrReleaseYear": 2004,
+          "timeServed": "19 years",
+          "sentence": "Life",
+          "caseLocationCity": "Winston-Salem",
+          "caseLocationCounty": null,
+          "caseLocationState": "North Carolina",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Darryl Hunt was wrongfully convicted of the rape and murder of Deborah Sykes in 1984. He was convicted in 1985 and again in 1990 and eventually exonerated by DNA evidence in 2004 after serving 19 years. Hunt died in 2016.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "JAILHOUSE_INFORMANT",
+            "RACIAL_BIAS"
+          ],
+          "organizations": [
+            {
+              "name": "Long-term defense attorney Mark Rabil",
+              "type": "OTHER"
+            },
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Ricki",
+          "middleName": null,
+          "lastName": "Stern",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "Annie",
+          "middleName": null,
+          "lastName": "Sundberg",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

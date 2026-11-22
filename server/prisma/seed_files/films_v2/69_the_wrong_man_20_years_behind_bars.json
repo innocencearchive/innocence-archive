@@ -1,0 +1,45 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "Missing TMDB poster and possible duplicate of \"The Wrong Man: 17 Years Behind Bars\" (#1294456).",
+    "No TMDB poster imagePath in CSV."
+  ],
+  "mediaWork": {
+    "title": "The Wrong Man? 20 Years Behind Bars",
+    "workType": "DOCUMENTARY",
+    "creatorName": null,
+    "publicationOrReleaseYear": 2025,
+    "publisherOrNetwork": null,
+    "focusOrTheme": null,
+    "summaryNotes": "How Paul Denham, convicted of first-degree murder, fights to clear his name in the US.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "1423329",
+    "imagePath": null,
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "The Wrong Man? 20 Years Behind Bars (Documentary)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2025-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "How Paul Denham, convicted of first-degree murder, fights to clear his name in the US.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

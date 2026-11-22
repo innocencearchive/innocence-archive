@@ -1,0 +1,665 @@
+{
+  "sourceFiles": [
+    "4.1.carrollton_plot.json",
+    "4.10.bronx_tale.json",
+    "4.2.conviction.json",
+    "4.3.the_wrong_man.json",
+    "4.4.state_of_texas.json",
+    "4.5.girl_with_blue_mustang.json",
+    "4.6the_confession.json",
+    "4.7.twisted.json",
+    "4.8.window_of_hope.json",
+    "4.9.shadow_of_justice.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Normalized parenthetical series title from legacy JSON (\"The Carrollton Plot (Dateline NBC)\" -> \"Dateline NBC\").",
+    "Skipped placeholder/invalid individual \"Various individuals\" from 4.3.the_wrong_man.json."
+  ],
+  "mediaWork": {
+    "title": "Dateline NBC",
+    "workType": "TV_SERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": 1992,
+    "publisherOrNetwork": "NBC News",
+    "focusOrTheme": "Disputed forensic evidence (blood spatter), potential staging of crime scene, possible financial motive in a murder case",
+    "summaryNotes": "Dateline NBC is a weekly American television newsmagazine/reality legal show that is broadcast on NBC. It was formerly the network's flagship newsmagazine, but now focuses mainly on true crime stories with only occasional editions that focus on other topics.",
+    "availabilityNotes": "Available via NBC/Peacock.",
+    "sourceUrl": null,
+    "externalId": "78",
+    "imagePath": "https://image.tmdb.org/t/p/w500/3u8DWut5yApVXTDTaDtiCpeca43.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Pluto TV",
+      "watchmodeProviderId": 328381,
+      "streamingType": "FREE",
+      "url": "https://pluto.tv/on-demand/series/dateline-ptv3/season/27/episode/at-the-edge-of-town-2024-27-49?utm_medium=deeplink&utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "The Roku Channel",
+      "watchmodeProviderId": 328381,
+      "streamingType": "FREE",
+      "url": "https://therokuchannel.roku.com/watch/381a29f6dda15c4684e706e1494f25ef?source=google",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Peacock Premium",
+      "watchmodeProviderId": 328381,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://imp.i305175.net/c/1963504/846885/11640?utm_campaign=20200715takeflight&cid=20200715takeflight&u=https%3A%2F%2Fwww.peacocktv.com%2Fwatch%2Fasset%2Ftv%2Fdateline%2F9060582955933764112%2Fseasons%2F26%2Fepisodes%2Fblack-friday-episode-8%2F50bb6a09-fbcc-3674-b5c1-b2a13a41f781",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "fuboTV",
+      "watchmodeProviderId": 328381,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.fubo.tv/welcome/series/115898088/dateline-nbc/?irmp=1206980&irad=599307&season=32",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Peacock",
+      "watchmodeProviderId": 328381,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.peacocktv.com/watch/asset/tv/dateline/9060582955933764112/seasons/19/episodes/in-plain-sight-episode-3/b8932c9f-f03e-3654-a1b7-b50ad039ee69",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "4.1.carrollton_plot.json",
+      "itemTitle": "The Carrollton Plot",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Disputed forensic evidence (blood spatter), potential staging of crime scene, possible financial motive in a murder case",
+      "summaryNotes": "The Darlie Routier case has received significant media coverage. Key points of contention include the interpretation of forensic evidence like blood spatter, the plausibility of the intruder story versus staging, and the debated financial motive. Ongoing DNA testing highlights the persistent questions surrounding the case.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Darlie",
+          "middleName": null,
+          "lastName": "Routier",
+          "suffix": null,
+          "status": "CONVICTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "~27 years (as of 2024)",
+          "sentence": "Death Penalty",
+          "caseLocationCity": "Rowlett",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted in 1997 for the capital murder of her son Damon and charged in the death of her son Devon, Darlie Routier remains on death row. The case hinges on the interpretation of blood spatter evidence, the plausibility of the intruder story, and an alleged financial motive. Appeals have been denied, but DNA testing has been ordered multiple times since 2018, with results still pending.",
+          "contributingFactorCodes": [
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+          ],
+          "organizations": [
+            {
+              "name": "Various advocacy groups (\"Darlie's Army\")",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "4.10.bronx_tale.json",
+      "itemTitle": "In the Shadow of Justice: A Bronx Tale",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": "2016-01-24",
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful conviction based on unreliable eyewitness testimony",
+      "summaryNotes": "This episode focuses on Eric Glisson and five others convicted for a 1995 murder in the Bronx. The convictions rested heavily on a single eyewitness who was later deemed unreliable, leading to the exonerations after nearly two decades. Dateline followed the story, including Glisson's life after release.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "UNRELIABLE_WITNESS",
+        "PERJURY_OR_FALSE_ACCUSATION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Eric",
+          "middleName": null,
+          "lastName": "Glisson",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2012,
+          "timeServed": "18 years",
+          "sentence": "25 years to life",
+          "caseLocationCity": "The Bronx",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York City",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Eric Glisson was wrongfully convicted of the murder of Baithe Diop in 1997 and sentenced to 25 years to life. He served 18 years before being exonerated in 2012 after the sole eyewitness was deemed unreliable. He pursued a civil lawsuit after his release.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "UNRELIABLE_WITNESS",
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        },
+        {
+          "firstName": "Michael",
+          "middleName": null,
+          "lastName": "Cosme",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2012,
+          "timeServed": "18 years",
+          "sentence": "25 years to life",
+          "caseLocationCity": "The Bronx",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York City",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Michael Cosme was wrongfully convicted of the murder of Baithe Diop in 1997 and sentenced to 25 years to life. He served 18 years before being exonerated in 2012 after the sole eyewitness was deemed unreliable. He pursued a civil lawsuit after his release.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "UNRELIABLE_WITNESS",
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        },
+        {
+          "firstName": "Carlos",
+          "middleName": null,
+          "lastName": "Perez",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2012,
+          "timeServed": "18 years",
+          "sentence": "25 years to life",
+          "caseLocationCity": "The Bronx",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York City",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Carlos Perez was wrongfully convicted of the murder of Baithe Diop in 1997 and sentenced to 25 years to life. He served 18 years before being exonerated in 2012 after the sole eyewitness was deemed unreliable. He pursued a civil lawsuit after his release.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "UNRELIABLE_WITNESS",
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        },
+        {
+          "firstName": "Devon",
+          "middleName": null,
+          "lastName": "Ayers",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2012,
+          "timeServed": "18 years",
+          "sentence": "25 years to life",
+          "caseLocationCity": "The Bronx",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York City",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Devon Ayers was wrongfully convicted of the murder of Baithe Diop in 1997 and sentenced to 25 years to life. He served 18 years before being exonerated in 2012 after the sole eyewitness was deemed unreliable. He pursued a civil lawsuit after his release.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "UNRELIABLE_WITNESS",
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "4.2.conviction.json",
+      "itemTitle": "Appears to be a multi-part series or recurring segment theme",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Reinvestigation of cases involving potential wrongful convictions; following fights for exoneration.",
+      "summaryNotes": "\"Conviction\" is a Dateline series focusing on wrongful conviction investigations. A prominent multi-part series from 2016 focused on Richard Rosario. Other cases, like Christopher Tapp's, have been featured under different episode titles but fit the overall theme.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "FALSE_CONFESSION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Richard",
+          "middleName": null,
+          "lastName": "Rosario",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1998,
+          "exonerationOrReleaseYear": 2016,
+          "timeServed": "20 years",
+          "sentence": "25 years to life",
+          "caseLocationCity": "New York City",
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Richard Rosario was wrongfully convicted of murder in 1998 and exonerated in 2016 after serving 20 years. His conviction was vacated and later dismissed. Disregarded alibi witnesses and potential eyewitness misidentification were contributing factors.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+          ],
+          "organizations": []
+        },
+        {
+          "firstName": "Christopher",
+          "middleName": null,
+          "lastName": "Tapp",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2019,
+          "timeServed": "~20 years",
+          "sentence": "Life (Originally 30 years to life)",
+          "caseLocationCity": "Idaho Falls",
+          "caseLocationCounty": null,
+          "caseLocationState": "Idaho",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Christopher Tapp was wrongfully convicted of the rape and murder of Angie Dodge in 1997 and exonerated in 2019. He served approximately 20 years. A coerced false confession and DNA evidence excluding him contributed to his wrongful conviction.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION"
+          ],
+          "organizations": [
+            {
+              "name": "Idaho Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "4.3.the_wrong_man.json",
+      "itemTitle": "Information Unavailable",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Mistaken identity cases leading to wrongful convictions",
+      "summaryNotes": "Examines psychological factors behind mistaken identifications and consequences. Searches for a specific Dateline NBC episode titled \"The Wrong Man\" focusing on mistaken identity yielded no results. The title is generic and may have been used multiple times or inaccurately recorded in the list. No specific cases could be identified for this entry based on the searches.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "4.4.state_of_texas.json",
+      "itemTitle": "Information Unavailable",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "In-depth reinvestigation of Darlie Routier case, new evidence/forensic analysis",
+      "summaryNotes": "A multi-hour special examining new evidence and forensic analysis in the Darlie Routier case. Ongoing, court-ordered DNA testing on key pieces of evidence, the results of which are still pending.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Darlie",
+          "middleName": null,
+          "lastName": "Routier",
+          "suffix": null,
+          "status": "CONVICTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "~27 years (as of 2024)",
+          "sentence": "Death Penalty",
+          "caseLocationCity": "Rowlett",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of capital murder in 1997 and sentenced to death. The case focuses on the re-analysis of disputed forensic evidence, with results of court-ordered DNA testing still pending as of 2024.",
+          "contributingFactorCodes": [
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+          ],
+          "organizations": [
+            {
+              "name": "Legal teams pursuing appeals and DNA testing",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "4.5.girl_with_blue_mustang.json",
+      "itemTitle": "The Girl with the Blue Mustang",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful conviction based on recanted testimony, lack of physical evidence.",
+      "summaryNotes": "The case hinged on Charles Erickson's testimony, which he later recanted. Ferguson's conviction was ultimately overturned due to the prosecution withholding evidence (Brady violation).",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "PERJURY_OR_FALSE_ACCUSATION",
+        "WITHHELD_EXCULPATORY_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Ryan",
+          "middleName": null,
+          "lastName": "Ferguson",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 2004,
+          "exonerationOrReleaseYear": 2013,
+          "timeServed": "Nearly 10 years",
+          "sentence": "40 years",
+          "caseLocationCity": "Columbia",
+          "caseLocationCounty": null,
+          "caseLocationState": "Missouri",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted in 2004 for the murder of Kent Heitholt and sentenced to 40 years. His conviction was vacated in 2013, and he was released after serving nearly 10 years. The case hinged on recanted testimony and a Brady violation.",
+          "contributingFactorCodes": [
+            "PERJURY_OR_FALSE_ACCUSATION",
+            "WITHHELD_EXCULPATORY_EVIDENCE"
+          ],
+          "organizations": [
+            {
+              "name": "Legal team led by Kathleen Zellner",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Charles",
+          "middleName": null,
+          "lastName": "Erickson",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 2004,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "Ongoing (subject to parole/review)",
+          "sentence": "25 years",
+          "caseLocationCity": "Columbia",
+          "caseLocationCounty": null,
+          "caseLocationState": "Missouri",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Plead guilty to murder around 2004 and sentenced to 25 years. His testimony was primary evidence against Ferguson, which he later recanted. He is currently serving his sentence based on a plea deal.",
+          "contributingFactorCodes": [
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "4.6the_confession.json",
+      "itemTitle": "In the Shadow of Justice: The Confession",
+      "itemNumber": "Season 24, Episode 6",
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": "2015-10-16",
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful conviction, multiple trials, exoneration after lengthy imprisonment.",
+      "summaryNotes": "The Dateline episode covers the complex legal battle of David Camm, a former Indiana trooper, spanning over a decade. Key issues included shifting timelines, disputed forensic evidence (especially blood spatter), and the eventual identification of Charles Boney via DNA found on a sweatshirt at the scene.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "David",
+          "middleName": null,
+          "lastName": "Camm",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 2002,
+          "exonerationOrReleaseYear": 2013,
+          "timeServed": "13 years",
+          "sentence": "Originally life without parole",
+          "caseLocationCity": "Georgetown",
+          "caseLocationCounty": null,
+          "caseLocationState": "Indiana",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "David Camm, a former Indiana trooper, was wrongfully convicted of the murder of his family. He was convicted twice before being acquitted at a third trial in 2013 after evidence pointed to the actual perpetrator. He served 13 years in prison before being exonerated.",
+          "contributingFactorCodes": [
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "4.7.twisted.json",
+      "itemTitle": "Twisted",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful conviction (rape/murder), DNA exoneration, racial dynamics, jailhouse informants, eyewitness misidentification",
+      "summaryNotes": "Darryl Hunt's case is a significant wrongful conviction story involving racial bias, flawed eyewitness accounts, jailhouse informants, and ultimately, exoneration through DNA after nearly two decades. Dateline likely covered this high-profile case.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "JAILHOUSE_INFORMANT",
+        "PERJURY_OR_FALSE_ACCUSATION",
+        "RACIAL_BIAS"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Darryl",
+          "middleName": null,
+          "lastName": "Hunt",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1985,
+          "exonerationOrReleaseYear": 2004,
+          "timeServed": "19 years",
+          "sentence": "Life in prison",
+          "caseLocationCity": "Winston-Salem",
+          "caseLocationCounty": null,
+          "caseLocationState": "North Carolina",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Darryl Hunt was wrongfully convicted of the rape and murder of Deborah Sykes in Winston-Salem, North Carolina. He was convicted in 1985 and exonerated in 2004 after serving 19 years in prison. DNA evidence identified the actual perpetrator, Willard E. Brown.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "JAILHOUSE_INFORMANT",
+            "PERJURY_OR_FALSE_ACCUSATION",
+            "RACIAL_BIAS"
+          ],
+          "organizations": [
+            {
+              "name": "Darryl Hunt Project for Freedom and Justice (founded by him)",
+              "type": "OTHER"
+            },
+            {
+              "name": "Innocence Project (assisted with DNA efforts)",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "4.8.window_of_hope.json",
+      "itemTitle": "Window of Hope",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Cold case DNA testing leading to exoneration, eyewitness misidentification",
+      "summaryNotes": "Dennis Maher was exonerated after 19 years due to DNA testing of evidence thought to be lost. The New England Innocence Project took his case. His conviction was based on misidentifications and allegations of police misconduct.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "WITHHELD_EXCULPATORY_EVIDENCE",
+        "POLICE_MISCONDUCT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Dennis",
+          "middleName": null,
+          "lastName": "Maher",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1984,
+          "exonerationOrReleaseYear": 2003,
+          "timeServed": "19+ years",
+          "sentence": "Life",
+          "caseLocationCity": "Lowell / Ayer",
+          "caseLocationCounty": null,
+          "caseLocationState": "Middlesex County, Massachusetts",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted in 1984 for rape and assault and sentenced to life. Exonerated in 2003 based on DNA evidence after 19+ years of imprisonment. His case involved mistaken eyewitness identification and allegations of police misconduct.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "WITHHELD_EXCULPATORY_EVIDENCE",
+            "POLICE_MISCONDUCT"
+          ],
+          "organizations": [
+            {
+              "name": "New England Innocence Project (NEIP)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Innocence Project (initial contact)",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "4.9.shadow_of_justice.json",
+      "itemTitle": "In the Shadow of Justice: The Confession",
+      "itemNumber": "S24.E6",
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": "2015-10-16",
+      "hostOrNarrator": null,
+      "focusOrTheme": "Potential wrongful conviction, false confession.",
+      "summaryNotes": "This Dateline NBC episode focuses on the case of Daniel Villegas, who confessed as a teenager to a double murder he maintained he didn't commit. He was eventually acquitted after years of effort by supporters.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Daniel",
+          "middleName": null,
+          "lastName": "Villegas",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1995,
+          "exonerationOrReleaseYear": 2018,
+          "timeServed": "~18+ years",
+          "sentence": "Life",
+          "caseLocationCity": "El Paso",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Daniel Villegas confessed at age 16 to a double murder he maintained he didn't commit. He was wrongfully convicted and served over 18 years before his conviction was overturned and he was acquitted at retrial.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION"
+          ],
+          "organizations": [
+            {
+              "name": "Supporter John Mimbella heavily involved in freeing him",
+              "type": "SUPPORT_GROUP"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

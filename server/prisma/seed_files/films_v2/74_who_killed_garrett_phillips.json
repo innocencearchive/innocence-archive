@@ -1,0 +1,42 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Who Killed Garrett Phillips?",
+    "workType": "DOCUSERIES",
+    "creatorName": "Liz Garbus, Dan Cogan",
+    "publicationOrReleaseYear": 2019,
+    "publisherOrNetwork": "HBO Documentary Films, Story Syndicate",
+    "focusOrTheme": null,
+    "summaryNotes": "A two-part documentary series exploring the case of 12-year-old Garrett Phillips, who was murdered in 2011, and the subsequent trial of Oral \"Nick\" Hillary, a black man living in a mostly white community.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "91514",
+    "imagePath": "https://image.tmdb.org/t/p/w500/5514E6S44pF430rs1fpBBhvDV68.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "Who Killed Garrett Phillips? (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2019-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "A two-part documentary series exploring the case of 12-year-old Garrett Phillips, who was murdered in 2011, and the subsequent trial of Oral \"Nick\" Hillary, a black man living in a mostly white community.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

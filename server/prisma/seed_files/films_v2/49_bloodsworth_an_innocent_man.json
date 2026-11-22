@@ -1,0 +1,42 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Bloodsworth: An Innocent Man",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Gregory Bayne",
+    "publicationOrReleaseYear": 2015,
+    "publisherOrNetwork": "LovelyMachine",
+    "focusOrTheme": null,
+    "summaryNotes": "Charged. Convicted. Sentenced to Death. Innocent. Follows the 1st death row inmate exonerated by DNA in the US.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "411945",
+    "imagePath": "https://image.tmdb.org/t/p/w500/siQyw9mylgHSlyB8pQjwjCAXaOO.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "Bloodsworth: An Innocent Man (Documentary)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2015-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "Charged. Convicted. Sentenced to Death. Innocent. Follows the 1st death row inmate exonerated by DNA in the US.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

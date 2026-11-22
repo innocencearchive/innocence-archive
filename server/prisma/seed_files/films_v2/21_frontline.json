@@ -1,0 +1,684 @@
+{
+  "sourceFiles": [
+    "2.1.the_plea.json",
+    "2.2.the_confessions.json",
+    "2.3.death_by_fire.json",
+    "2.4.burden_of_innocence.json",
+    "2.5.what_jennifer_saw.json",
+    "2.6.the_case_for_innocence.json",
+    "2.7.the_confessions_revisited.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "FRONTLINE",
+    "workType": "TV_SERIES",
+    "creatorName": "Ofra Bikel",
+    "publicationOrReleaseYear": 1983,
+    "publisherOrNetwork": "FRONTLINE, WGBH, Ofra Bikel Productions",
+    "focusOrTheme": "Plea bargaining system, innocent defendants pleading guilty, prosecutorial pressure, inadequate defense counsel, impact of poverty on justice outcomes.",
+    "summaryNotes": "Since 1983, FRONTLINE has served as American public television's flagship public affairs series. Hailed for its thoughtful, making, and trustworthy journalism, FRONTLINE has produced more than 570 films on the air and online.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "4384",
+    "imagePath": "https://image.tmdb.org/t/p/w500/m4kZVMJC9P9BI7T0F5fUMWyelcA.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "PBS",
+      "watchmodeProviderId": 344408,
+      "streamingType": "FREE",
+      "url": "https://www.pbs.org/video/putins-war-at-home-qwluix/",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "AppleTV+",
+      "watchmodeProviderId": 344408,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://tv.apple.com/us/episode/umc.cmc.5w0hbkpyxotwkn19l48op6xxd?itsct=&itscg=30200&at=1010layx",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Hoopla",
+      "watchmodeProviderId": 344408,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.hoopladigital.com/title/13570134?episode=13570052",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "2.1.the_plea.json",
+      "itemTitle": "The Plea",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Plea bargaining system, innocent defendants pleading guilty, prosecutorial pressure, inadequate defense counsel, impact of poverty on justice outcomes.",
+      "summaryNotes": "The episode examines the plea bargaining system through cases in Hearne, Texas, focusing on Erma Faye Stewart and Regina Kelly, who were wrongly implicated in a drug sweep. It highlights the pressures of the plea system, inadequate counsel, and unreliable informants.",
+      "keyQuotes": "Stewart describing the pressure to take the plea to care for her children\n\nKelly discussing the inadequate time/advice from court-appointed counsel\n\nDiscussion of the informant's unreliability coming out later.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "COERCED_PLEA",
+        "INADEQUATE_LEGAL_DEFENSE",
+        "RACIAL_BIAS",
+        "JAILHOUSE_INFORMANT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Erma",
+          "middleName": "Faye",
+          "lastName": "Stewart",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Drug Possession or Sale",
+          "convictionYear": 2000,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "approx. 1 month (pre-plea jail)",
+          "sentence": "10 years probation, fines",
+          "caseLocationCity": "Hearne",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Erma Faye Stewart was wrongfully implicated in a Hearne, Texas drug sweep. She pleaded guilty to felony drug distribution to get out of jail and care for her children, despite maintaining her innocence. Her conviction stood and she faced collateral consequences.",
+          "contributingFactorCodes": [
+            "INADEQUATE_LEGAL_DEFENSE",
+            "JAILHOUSE_INFORMANT"
+          ],
+          "organizations": [
+            {
+              "name": "ACLU (represented co-defendant Kelly in subsequent lawsuit)",
+              "type": "LEGAL_AID"
+            }
+          ]
+        },
+        {
+          "firstName": "Regina",
+          "middleName": null,
+          "lastName": "Kelly",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Drug Possession or Sale",
+          "convictionYear": null,
+          "exonerationOrReleaseYear": 2001,
+          "timeServed": "approx. 3 weeks (pre-trial jail)",
+          "sentence": null,
+          "caseLocationCity": "Hearne",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Regina Kelly was wrongfully implicated in a Hearne, Texas drug sweep. She refused to plead guilty and the charges against her were eventually dismissed. She was the lead plaintiff in an ACLU class-action lawsuit.",
+          "contributingFactorCodes": [
+            "JAILHOUSE_INFORMANT",
+            "RACIAL_BIAS"
+          ],
+          "organizations": [
+            {
+              "name": "ACLU",
+              "type": "LEGAL_AID"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Ofra",
+          "middleName": null,
+          "lastName": "Bikel",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.pbs.org/wgbh/pages/frontline/shows/plea/etc/synopsis.html",
+          "description": "FRONTLINE Synopsis"
+        },
+        {
+          "url": "https://www.pbs.org/wgbh/pages/frontline/shows/plea/four/stewart.html",
+          "description": "Story of Stewart and Kelly"
+        }
+      ]
+    },
+    {
+      "sourceFileName": "2.2.the_confessions.json",
+      "itemTitle": "The Confessions",
+      "itemNumber": "Season Unknown, Episode Unknown",
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "False confessions; Coercive police interrogation tactics; Tunnel vision.",
+      "summaryNotes": "Documentary focusing on the Norfolk Four case, highlighting how psychological coercion in police interrogations led to false confessions and the failure to investigate contradictory evidence. It implicitly calls for reforms in police interrogation techniques, mandatory recording of interrogations, and better judicial scrutiny of confession evidence.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "PROSECUTORIAL_MISCONDUCT",
+        "TUNNEL_VISION_RUSH_TO_JUDGMENT",
+        "INADEQUATE_LEGAL_DEFENSE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Danial",
+          "middleName": null,
+          "lastName": "Williams",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1998,
+          "exonerationOrReleaseYear": 2017,
+          "timeServed": "Varied significantly among the four.",
+          "sentence": "Varied, including life sentences.",
+          "caseLocationCity": "Norfolk",
+          "caseLocationCounty": null,
+          "caseLocationState": "Virginia",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "One of the Norfolk Four, wrongfully convicted of the rape and murder of Michelle Moore-Bosko. His conviction was based on a coerced false confession resulting from lengthy, high-pressure police interrogations. He was eventually pardoned in 2017.",
+          "contributingFactorCodes": [
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Various pro bono attorneys and law firms",
+              "type": "LAW_FIRM"
+            }
+          ]
+        },
+        {
+          "firstName": "Joseph",
+          "middleName": null,
+          "lastName": "Dick Jr.",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1998,
+          "exonerationOrReleaseYear": 2017,
+          "timeServed": "Varied significantly among the four.",
+          "sentence": "Varied, including life sentences.",
+          "caseLocationCity": "Norfolk",
+          "caseLocationCounty": null,
+          "caseLocationState": "Virginia",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "One of the Norfolk Four, wrongfully convicted of the rape and murder of Michelle Moore-Bosko. His conviction was based on a coerced false confession resulting from lengthy, high-pressure police interrogations. He was eventually pardoned in 2017.",
+          "contributingFactorCodes": [
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Various pro bono attorneys and law firms",
+              "type": "LAW_FIRM"
+            }
+          ]
+        },
+        {
+          "firstName": "Derek",
+          "middleName": null,
+          "lastName": "Tice",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1998,
+          "exonerationOrReleaseYear": 2017,
+          "timeServed": "Varied significantly among the four.",
+          "sentence": "Varied, including life sentences.",
+          "caseLocationCity": "Norfolk",
+          "caseLocationCounty": null,
+          "caseLocationState": "Virginia",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "One of the Norfolk Four, wrongfully convicted of the rape and murder of Michelle Moore-Bosko. His conviction was based on a coerced false confession resulting from lengthy, high-pressure police interrogations. He was eventually pardoned in 2017.",
+          "contributingFactorCodes": [
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Various pro bono attorneys and law firms",
+              "type": "LAW_FIRM"
+            }
+          ]
+        },
+        {
+          "firstName": "Eric",
+          "middleName": null,
+          "lastName": "Wilson",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 2000,
+          "exonerationOrReleaseYear": 2017,
+          "timeServed": "Varied significantly among the four.",
+          "sentence": "Varied, including life sentences.",
+          "caseLocationCity": "Norfolk",
+          "caseLocationCounty": null,
+          "caseLocationState": "Virginia",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "One of the Norfolk Four, wrongfully convicted of the rape and murder of Michelle Moore-Bosko. His conviction was based on a coerced false confession resulting from lengthy, high-pressure police interrogations. He was eventually pardoned in 2017.",
+          "contributingFactorCodes": [
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Various pro bono attorneys and law firms",
+              "type": "LAW_FIRM"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": [
+        {
+          "url": "https://www.pbs.org/wgbh/pages/frontline/website",
+          "description": "PBS FRONTLINE website"
+        }
+      ]
+    },
+    {
+      "sourceFileName": "2.3.death_by_fire.json",
+      "itemTitle": "Death by Fire",
+      "itemNumber": "Season Unknown, Episode Unknown",
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Flawed arson science; Questionable forensic evidence; Potential wrongful execution.",
+      "summaryNotes": "Documentary focusing on the case of Cameron Todd Willingham and the flawed arson science used in his conviction. It highlights the unreliability of forensic science, jailhouse informant testimony, and the risk of executing innocent individuals.",
+      "keyQuotes": "Mention of informant Johnny Webb questioning if the statute of limitations had run out on perjury.\n\nThe conflict between original investigators defending their findings and later expert reports debunking the arson science used.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "JAILHOUSE_INFORMANT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Cameron",
+          "middleName": "Todd",
+          "lastName": "Willingham",
+          "suffix": null,
+          "status": "EXECUTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1992,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "Approx. 12 years",
+          "sentence": "Death",
+          "caseLocationCity": "Corsicana",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of murder by arson in 1992 and executed in 2004. His case is highly disputed, with significant doubt raised posthumously about his guilt due to flawed arson science and contested jailhouse informant testimony.",
+          "contributingFactorCodes": [
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+            "JAILHOUSE_INFORMANT"
+          ],
+          "organizations": [
+            {
+              "name": "Texas Forensic Science Commission (investigated case post-execution)",
+              "type": "GOVERNMENT_AGENCY"
+            },
+            {
+              "name": "Innocence Project (involved in posthumous investigation)",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cameron_Todd_Willingham",
+          "description": "Cameron Todd Willingham - Wikipedia"
+        }
+      ]
+    },
+    {
+      "sourceFileName": "2.4.burden_of_innocence.json",
+      "itemTitle": "Burden of Innocence",
+      "itemNumber": "Season Unknown, Episode Unknown",
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Life after exoneration; Lack of support, compensation, and difficulties reintegrating into society.",
+      "summaryNotes": "Documentary focusing on the difficulties faced by exonerees after release, including psychological trauma, housing/employment challenges, and the lack of state compensation and support services. It implicitly calls for better post-exoneration support systems and compensation for the wrongly convicted.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [
+        {
+          "firstName": "Ofra",
+          "middleName": null,
+          "lastName": "Bikel",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.pbs.org/wgbh/frontline/wgbh/pages/frontline/shows/burden/etc/credits.html",
+          "description": "FRONTLINE: Burden of Innocence Credits"
+        }
+      ]
+    },
+    {
+      "sourceFileName": "2.5.what_jennifer_saw.json",
+      "itemTitle": "What Jennifer Saw",
+      "itemNumber": "Season Unknown, Episode Unknown",
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Reliability of eyewitness testimony, specifically Jennifer Thompson's misidentification of Ronald Cotton",
+      "summaryNotes": "The documentary explores the well-known Cotton/Thompson case, highlighting the fallibility of eyewitness memory and Thompson's journey post-realization. Thompson later became an advocate.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Ronald",
+          "middleName": null,
+          "lastName": "Cotton",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1985,
+          "exonerationOrReleaseYear": 1995,
+          "timeServed": "~11 years",
+          "sentence": "Life plus 50+ years",
+          "caseLocationCity": "Burlington",
+          "caseLocationCounty": null,
+          "caseLocationState": "North Carolina",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Ronald Cotton was wrongfully convicted of rape and burglary in Burlington, North Carolina, in 1985. He was exonerated in 1995 after serving approximately 11 years, due to DNA evidence that proved his innocence. His case highlights the dangers of eyewitness misidentification.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+          ],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Information",
+          "middleName": null,
+          "lastName": "Unavailable",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "2.6.the_case_for_innocence.json",
+      "itemTitle": "The Case for Innocence",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "DNA exonerations, resistance to overturning convictions, Innocence Project work",
+      "summaryNotes": "Focuses on the challenges faced in overturning convictions even with new DNA evidence, featuring cases of Clyde Charles and Roy Criner.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [
+        {
+          "firstName": "Clyde",
+          "middleName": null,
+          "lastName": "Charles",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": null,
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Featured in 'The Case for Innocence', his case highlights resistance to overturning convictions even with DNA evidence. Specific details of his case are unavailable.",
+          "contributingFactorCodes": [],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        },
+        {
+          "firstName": "Roy",
+          "middleName": null,
+          "lastName": "Criner",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": null,
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Featured in 'The Case for Innocence', his case highlights resistance to overturning convictions even with DNA evidence. Specific details of his case are unavailable.",
+          "contributingFactorCodes": [],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Ofra",
+          "middleName": null,
+          "lastName": "Bikel",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "2.7.the_confessions_revisited.json",
+      "itemTitle": "The Confessions Revisited",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Update on the Norfolk Four case, false confessions",
+      "summaryNotes": "While specific production details for a \"Revisited\" episode weren't found, extensive information confirms the significant developments in the Norfolk Four case after the original documentary, culminating in full pardons in 2017. A \"Revisited\" episode would likely cover these events. FRONTLINE did feature the case again in 2013.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "COERCED_PLEA",
+        "WITHHELD_EXCULPATORY_EVIDENCE",
+        "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Derek",
+          "middleName": null,
+          "lastName": "Tice",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2017,
+          "timeServed": "Varied, significant prison time",
+          "sentence": "Varied, included life sentences",
+          "caseLocationCity": "Norfolk",
+          "caseLocationCounty": null,
+          "caseLocationState": "Virginia",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of rape and murder in 1997 based on a coerced false confession. Received a conditional pardon in 2009, conviction vacated later, and a full pardon in 2017. Served significant prison time.",
+          "contributingFactorCodes": [
+            "COERCED_PLEA",
+            "WITHHELD_EXCULPATORY_EVIDENCE",
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Mid-Atlantic Innocence Project (MAIP)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Skadden Arps",
+              "type": "OTHER"
+            },
+            {
+              "name": "Squire Sanders",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Danial",
+          "middleName": null,
+          "lastName": "Williams",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2017,
+          "timeServed": "Varied, significant prison time",
+          "sentence": "Varied, included life sentences",
+          "caseLocationCity": "Norfolk",
+          "caseLocationCounty": null,
+          "caseLocationState": "Virginia",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of rape and murder in 1997 based on a coerced false confession. Received a conditional pardon in 2009, conviction vacated in 2016, and a full pardon in 2017. Served significant prison time.",
+          "contributingFactorCodes": [
+            "COERCED_PLEA",
+            "WITHHELD_EXCULPATORY_EVIDENCE",
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Mid-Atlantic Innocence Project (MAIP)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Skadden Arps",
+              "type": "OTHER"
+            },
+            {
+              "name": "Squire Sanders",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Joseph",
+          "middleName": null,
+          "lastName": "Dick",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2017,
+          "timeServed": "Varied, significant prison time",
+          "sentence": "Varied, included life sentences",
+          "caseLocationCity": "Norfolk",
+          "caseLocationCounty": null,
+          "caseLocationState": "Virginia",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of rape and murder in 1997 based on a coerced false confession. Received a conditional pardon in 2009, conviction vacated in 2016, and a full pardon in 2017. Served significant prison time.",
+          "contributingFactorCodes": [
+            "COERCED_PLEA",
+            "WITHHELD_EXCULPATORY_EVIDENCE",
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Mid-Atlantic Innocence Project (MAIP)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Skadden Arps",
+              "type": "OTHER"
+            },
+            {
+              "name": "Squire Sanders",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Eric",
+          "middleName": null,
+          "lastName": "Wilson",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2017,
+          "timeServed": "Varied, served full sentence",
+          "sentence": "Varied, included life sentences",
+          "caseLocationCity": "Norfolk",
+          "caseLocationCounty": null,
+          "caseLocationState": "Virginia",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of rape and murder in 1997 based on a coerced false confession. Had served his full sentence when he received a full pardon in 2017.",
+          "contributingFactorCodes": [
+            "COERCED_PLEA",
+            "WITHHELD_EXCULPATORY_EVIDENCE",
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Mid-Atlantic Innocence Project (MAIP)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Skadden Arps",
+              "type": "OTHER"
+            },
+            {
+              "name": "Squire Sanders",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

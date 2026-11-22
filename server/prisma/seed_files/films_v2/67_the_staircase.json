@@ -1,0 +1,52 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Staircase",
+    "workType": "DOCUSERIES",
+    "creatorName": "Jean-Xavier de Lestrade",
+    "publicationOrReleaseYear": 2004,
+    "publisherOrNetwork": "Canal+, Maha Productions, HBO Max, Annapurna Television, What's Up Films",
+    "focusOrTheme": null,
+    "summaryNotes": "A gripping true-crime limited series that follows the mysterious death of Kathleen Peterson and the subsequent murder trial of her husband, Michael Peterson.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "21421",
+    "imagePath": "https://image.tmdb.org/t/p/w500/djPx89ayJ9rmVXRMDCaBlGQkzkv.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Netflix",
+      "watchmodeProviderId": 520244,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.netflix.com/watch/80237090",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "The Staircase (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2004-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "A gripping true-crime limited series that follows the mysterious death of Kathleen Peterson and the subsequent murder trial of her husband, Michael Peterson.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

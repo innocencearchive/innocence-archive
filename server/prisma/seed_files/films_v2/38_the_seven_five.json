@@ -1,0 +1,83 @@
+{
+  "sourceFiles": [
+    "9.31.seven_five.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "0 wrongfully convicted individuals linked — verify whether this is a broader criminal-justice title or needs case links added."
+  ],
+  "mediaWork": {
+    "title": "The Seven Five",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Tiller Russell",
+    "publicationOrReleaseYear": 2014,
+    "publisherOrNetwork": "All Rites Reserved, Motto Pictures, Passion Pictures",
+    "focusOrTheme": "Focuses on rampant police corruption within New York City's 75th precinct during the 1980s and early 1990s, centered around officer Michael Dowd and his crew. Explores how their criminal activities (drug dealing, robbery, etc.) undermined justice.",
+    "summaryNotes": "Meet the dirtiest cop in New York City history. In the 1980s, Michael Dowd and his partner headed a crew of corrupt cops in the 75th Precinct, a crime-ridden slum in East New York.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "320882",
+    "imagePath": "https://image.tmdb.org/t/p/w500/2pNbYbnoABDJC4Q8IPGXxUWIv86.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Kanopy",
+      "watchmodeProviderId": 1418416,
+      "streamingType": "FREE",
+      "url": "https://www.kanopy.com/product/seven-five",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "AMC+",
+      "watchmodeProviderId": 1418416,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.amcplus.com/movies/the-seven-five--1026772",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "fuboTV",
+      "watchmodeProviderId": 1418416,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.fubo.tv/welcome/program/MV007300150000?irmp=1206980&irad=599309",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Paramount+ with Showtime",
+      "watchmodeProviderId": 1418416,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.paramountplus.com/movies/seven-five/iitcxL3EbHLzN_DsUbvZYCh8tl_z_fOC?searchReferral=publisher&source=search-feeds",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.31.seven_five.json",
+      "itemTitle": "The Seven Five",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Focuses on rampant police corruption within New York City's 75th precinct during the 1980s and early 1990s, centered around officer Michael Dowd and his crew. Explores how their criminal activities (drug dealing, robbery, etc.) undermined justice.",
+      "summaryNotes": "Details the extensive criminal enterprise run by Dowd and other officers within the NYPD. The film implies that their corruption inevitably led to wrongful arrests and convictions, but it doesn't focus on tracking those specific cases.",
+      "keyQuotes": "Features extensive interviews with Michael Dowd and other key figures involved in the corruption scandal.\n\nDepicts the brazen nature of the crimes committed by the officers.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "POLICE_MISCONDUCT"
+      ],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

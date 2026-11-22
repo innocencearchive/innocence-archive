@@ -1,0 +1,287 @@
+{
+  "sourceFiles": [
+    "9.12.san_antonio_four.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Southwest of Salem: The Story of the San Antonio Four",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Deborah S. Esquenazi",
+    "publicationOrReleaseYear": 2016,
+    "publisherOrNetwork": "Sam Tabot Pictures, Naked Edge Films, Motto Pictures, Chicken & Egg Pictures",
+    "focusOrTheme": "Wrongful conviction, \"Satanic Panic,\" homophobia, unreliable child testimony, flawed forensic evidence.",
+    "summaryNotes": "The story of four Latina lesbians wrongfully convicted of gang-raping two young girls in San Antonio, Texas, during the 'Satanic Panic' of the 1990s.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "390766",
+    "imagePath": "https://image.tmdb.org/t/p/w500/pewfnkwtvB7lx4OZnxR6LGCY4UD.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "The Roku Channel",
+      "watchmodeProviderId": 1356337,
+      "streamingType": "FREE",
+      "url": "https://therokuchannel.roku.com/details/5ae6f3895f1d5ddf9853635b349e3591/southwest-of-salem-the-story-of-the-san-antonio-four?source=bing",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Hoopla",
+      "watchmodeProviderId": 1356337,
+      "streamingType": "FREE",
+      "url": "https://www.hoopladigital.com/title/12003683?utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "VUDU",
+      "watchmodeProviderId": 1356337,
+      "streamingType": "FREE",
+      "url": "https://athome.fandango.com/content/browse/details/Southwest-of-Salem-The-Story-of-the-San-Antonio-Four/838546",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Tubi TV",
+      "watchmodeProviderId": 1356337,
+      "streamingType": "FREE",
+      "url": "https://tubitv.com/movies/449534",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Kanopy",
+      "watchmodeProviderId": 1356337,
+      "streamingType": "FREE",
+      "url": "https://www.kanopy.com/product/southwest-salem",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Pluto TV",
+      "watchmodeProviderId": 1356337,
+      "streamingType": "FREE",
+      "url": "https://pluto.tv/on-demand/movies/southwest-of-salem-the-story-of-the-san-antonio-four-2016-1-1?utm_medium=deeplink&utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Amazon Freevee",
+      "watchmodeProviderId": 1356337,
+      "streamingType": "FREE",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.38acc793-0e05-a227-16d7-506278c75403",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Fawesome",
+      "watchmodeProviderId": 1356337,
+      "streamingType": "FREE",
+      "url": "https://fawesome.tv/movies/10278983/southwest-of-salem-the-story-of-the-san-antonio-four?utm_source=Reelgood&utm_medium=RG",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Prime Video",
+      "watchmodeProviderId": 1356337,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.38acc793-0e05-a227-16d7-506278c75403",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Peacock",
+      "watchmodeProviderId": 1356337,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.peacocktv.com/watch/asset/movies/southwest-of-salem-the-story-of-the-san-antonio-four/d39a0ab9-6134-374f-8b8b-05a830e70501",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Peacock Premium",
+      "watchmodeProviderId": 1356337,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.peacocktv.com/watch/asset/movies/southwest-of-salem-the-story-of-the-san-antonio-four/d39a0ab9-6134-374f-8b8b-05a830e70501",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.12.san_antonio_four.json",
+      "itemTitle": "Southwest of Salem: The Story of the San Antonio Four",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful conviction, \"Satanic Panic,\" homophobia, unreliable child testimony, flawed forensic evidence.",
+      "summaryNotes": "Chronicles the decades-long fight of four women convicted based on unfounded accusations during the \"Satanic Panic\". Exposes how homophobia and flawed medical/child forensic interview practices contributed to their wrongful convictions. The film itself played a role in raising awareness and contributing to their eventual exoneration.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MEDIA_SENSATIONALISM",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "PERJURY_OR_FALSE_ACCUSATION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Elizabeth",
+          "middleName": null,
+          "lastName": "Ramirez",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2016,
+          "timeServed": "approx. 16 years (before release on bond)",
+          "sentence": "37.5 years",
+          "caseLocationCity": "San Antonio",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted of aggravated sexual assault of her nieces based on allegations arising during the \"Satanic Panic\" era, homophobic bias, coerced accusations, and flawed medical evidence. She served the longest time of the four women before being released on bond. She was fully exonerated in 2016.",
+          "contributingFactorCodes": [
+            "MEDIA_SENSATIONALISM",
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project of Texas",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Pro-bono legal teams",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Cassandra",
+          "middleName": null,
+          "lastName": "Rivera",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2016,
+          "timeServed": "Varied",
+          "sentence": "37.5 years",
+          "caseLocationCity": "San Antonio",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted of aggravated sexual assault of her nieces based on allegations arising during the \"Satanic Panic\" era, homophobic bias, coerced accusations, and flawed medical evidence. She was fully exonerated in 2016.",
+          "contributingFactorCodes": [
+            "MEDIA_SENSATIONALISM",
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project of Texas",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Pro-bono legal teams",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Kristie",
+          "middleName": null,
+          "lastName": "Mayhugh",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2016,
+          "timeServed": "Varied",
+          "sentence": "15 years",
+          "caseLocationCity": "San Antonio",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted of aggravated sexual assault of her nieces based on allegations arising during the \"Satanic Panic\" era, homophobic bias, coerced accusations, and flawed medical evidence. She was fully exonerated in 2016.",
+          "contributingFactorCodes": [
+            "MEDIA_SENSATIONALISM",
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project of Texas",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Pro-bono legal teams",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Anna",
+          "middleName": null,
+          "lastName": "Vasquez",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2016,
+          "timeServed": "Varied",
+          "sentence": "15 years",
+          "caseLocationCity": "San Antonio",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted of aggravated sexual assault of her nieces based on allegations arising during the \"Satanic Panic\" era, homophobic bias, coerced accusations, and flawed medical evidence. She was fully exonerated in 2016.",
+          "contributingFactorCodes": [
+            "MEDIA_SENSATIONALISM",
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project of Texas",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Pro-bono legal teams",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Deborah",
+          "middleName": "S.",
+          "lastName": "Esquenazi",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Trial by Media",
+    "workType": "DOCUSERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "Netflix, Supper Club, Smokehouse Pictures",
+    "focusOrTheme": null,
+    "summaryNotes": "A true crime series that examines some of the most dramatic and memorable trials in recent history through the lens of the media. Did the media's coverage of these cases influence the legal proceedings and public opinion?",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "102901",
+    "imagePath": "https://image.tmdb.org/t/p/w500/7AhMUw8JbGKi7MfILtBaHauS8Q8.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Netflix",
+      "watchmodeProviderId": 3169121,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.netflix.com/watch/81025112",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "Trial by Media (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2020-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "A true crime series that examines some of the most dramatic and memorable trials in recent history through the lens of the media. Did the media's coverage of these cases influence the legal proceedings and public opinion?",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

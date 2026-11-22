@@ -1,0 +1,61 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Frank Serpico",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Antonino D'Ambrosio",
+    "publicationOrReleaseYear": 2017,
+    "publisherOrNetwork": "Gigantic Pictures, Brown Sugar Films",
+    "focusOrTheme": null,
+    "summaryNotes": "In the early 1970s, an NYPD officer fighting corruption couldn't find an honest cop to back him up. He was shot in the face and left for dead. Frank Serpico, for the first time, tells his story.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "454192",
+    "imagePath": "https://image.tmdb.org/t/p/w500/kNM5vawOrDxvtCS4qvYCDCHqSuQ.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Kanopy",
+      "watchmodeProviderId": 1139189,
+      "streamingType": "FREE",
+      "url": "https://www.kanopy.com/product/frank-serpico",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "AMC+",
+      "watchmodeProviderId": 1139189,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.amcplus.com/movies/frank-serpico--1026955",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "Frank Serpico (Documentary)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2017-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "In the early 1970s, an NYPD officer fighting corruption couldn't find an honest cop to back him up. He was shot in the face and left for dead. Frank Serpico, for the first time, tells his story.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

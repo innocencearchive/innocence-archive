@@ -1,0 +1,69 @@
+{
+  "sourceFiles": [
+    "9.3.art_of_confession.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "No TMDB match in tmdb_data.csv — missing poster/TMDB ID (can enrich via /admin/film/add or TMDB lookup)."
+  ],
+  "mediaWork": {
+    "title": "The Art of the Confession",
+    "workType": "DOCUMENTARY",
+    "creatorName": null,
+    "publicationOrReleaseYear": null,
+    "publisherOrNetwork": null,
+    "focusOrTheme": "False confessions, psychological manipulation during interrogation.",
+    "summaryNotes": "Examines psychological and interrogation techniques leading to false confessions; features interviews with exonerees and experts. Searches did not identify a documentary matching this title and description, suggesting it might be obscure or have limited distribution.",
+    "availabilityNotes": "Available via Kanopy, Educational distribution.",
+    "sourceUrl": null,
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": null,
+    "aiGenerated": true
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.3.art_of_confession.json",
+      "itemTitle": "The Art of the Confession",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "False confessions, psychological manipulation during interrogation.",
+      "summaryNotes": "Examines psychological and interrogation techniques leading to false confessions; features interviews with exonerees and experts. Searches did not identify a documentary matching this title and description, suggesting it might be obscure or have limited distribution.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Multiple",
+          "middleName": null,
+          "lastName": "exonerees who falsely confessed",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": null,
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Multiple exonerees are featured in the documentary, sharing their experiences of falsely confessing to crimes they did not commit. The confessions were obtained through psychological manipulation and coercive interrogation techniques.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION"
+          ],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "sourceFiles": [
+    "9.2.long_shot.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Long Shot",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Jacob LaMendola",
+    "publicationOrReleaseYear": 2017,
+    "publisherOrNetwork": "Netflix",
+    "focusOrTheme": "Wrongful accusation, securing an alibi through unlikely means (TV show footage).",
+    "summaryNotes": "When Juan Catalan is arrested for a murder he swears he didn't commit, he builds his case for innocence around raw footage from a popular TV show, \"Curb Your Enthusiasm.\"",
+    "availabilityNotes": "Available via Netflix.",
+    "sourceUrl": null,
+    "externalId": "477331",
+    "imagePath": "https://image.tmdb.org/t/p/w500/8LDeHrG8RBluJ7IkPgBaOMkU3fl.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Netflix",
+      "watchmodeProviderId": 465455,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.netflix.com/title/80182115",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.2.long_shot.json",
+      "itemTitle": "Long Shot",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful accusation, securing an alibi through unlikely means (TV show footage).",
+      "summaryNotes": "This short documentary focuses on the unique way Juan Catalan's lawyer proved his client's alibi, using footage from \"Curb Your Enthusiasm.\" Catalan claimed he was at a Dodgers game during the time of the murder he was accused of, and the lawyer discovered the footage, which corroborated Catalan's alibi and led to the charges being dropped.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [
+        {
+          "firstName": "Juan",
+          "middleName": null,
+          "lastName": "Catalan",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": null,
+          "exonerationOrReleaseYear": 2003,
+          "timeServed": "~5-6 months in jail pre-trial",
+          "sentence": null,
+          "caseLocationCity": "Los Angeles",
+          "caseLocationCounty": null,
+          "caseLocationState": "California",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Juan Catalan was wrongfully accused of the murder of Martha Puebla. He was arrested and jailed pre-trial, but the charges were dismissed after his alibi was confirmed by HBO footage showing him at a Dodgers game.",
+          "contributingFactorCodes": [],
+          "organizations": [
+            {
+              "name": "Defense lawyer (Todd Melnik prominently featured).",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Jacob",
+          "middleName": null,
+          "lastName": "LaMendola",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

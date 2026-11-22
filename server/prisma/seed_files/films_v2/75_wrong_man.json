@@ -1,0 +1,97 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Wrong Man",
+    "workType": "DOCUSERIES",
+    "creatorName": "Joe Berlinger",
+    "publicationOrReleaseYear": 2018,
+    "publisherOrNetwork": "Starz",
+    "focusOrTheme": null,
+    "summaryNotes": "A six-episode documentary series that re-investigates the cases of three inmates who have been incarcerated for decades and claim they are innocent.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "79471",
+    "imagePath": "https://image.tmdb.org/t/p/w500/tOzC0aKzoKPIWIz8VPuAFpJAakx.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "The Roku Channel",
+      "watchmodeProviderId": 3145644,
+      "streamingType": "FREE",
+      "url": "https://therokuchannel.roku.com/watch/85ff1e85a7f85f8ca3064d420a5cdc46?source=google",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Prime Video",
+      "watchmodeProviderId": 3145644,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5ca78d08-95e0-4f4a-9cdc-e69b08a35581?tag=&autoplay=1",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Hulu",
+      "watchmodeProviderId": 3145644,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.hulu.com/watch/18157763-87a3-4702-808b-2269f5b61d19",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "STARZ (Via Amazon Prime)",
+      "watchmodeProviderId": 3145644,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.edb0bd38-6af4-4310-9f37-f350a7b84c27?tag=&autoplay=1",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "STARZ (Via Hulu)",
+      "watchmodeProviderId": 3145644,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.hulu.com/watch/ac8bf770-c221-4e6b-b60d-6a2d8f63fe11",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "STARZ",
+      "watchmodeProviderId": 3145644,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.starz.com/us/en/play/57343",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "Wrong Man (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2018-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "A six-episode documentary series that re-investigates the cases of three inmates who have been incarcerated for decades and claim they are innocent.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "sourceFiles": [
+    "9.16.true_justice.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "True Justice: Bryan Stevenson's Fight for Equality",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Peter Kunhardt",
+    "publicationOrReleaseYear": 2019,
+    "publisherOrNetwork": "Kunhardt Films, HBO Documentary Films",
+    "focusOrTheme": "Work of lawyer Bryan Stevenson and the Equal Justice Initiative (EJI), racial injustice in the US legal system, death penalty litigation, wrongful convictions.",
+    "summaryNotes": "An intimate portrait of Alabama public interest attorney Bryan Stevenson, founder and executive director of the Equal Justice Initiative, who has dedicated his life to fighting for the poor, the incarcerated and the condemned.",
+    "availabilityNotes": "Available via HBO Max.",
+    "sourceUrl": null,
+    "externalId": "604920",
+    "imagePath": "https://image.tmdb.org/t/p/w500/1hVh17C9sScxpC9MVkE4sKDwrh7.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "MAX",
+      "watchmodeProviderId": 4144841,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://play.max.com/show/16950125-403f-4fd0-bc5b-f394a56d2ed2?utm_source=universal_search",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "HBO (Via Hulu)",
+      "watchmodeProviderId": 4144841,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.hulu.com/watch/8a3fb954-7bf0-49f6-9d38-c3327c0218c4",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.16.true_justice.json",
+      "itemTitle": "True Justice: Bryan Stevenson's Fight for Equality",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Work of lawyer Bryan Stevenson and the Equal Justice Initiative (EJI), racial injustice in the US legal system, death penalty litigation, wrongful convictions.",
+      "summaryNotes": "Profiles Bryan Stevenson and EJI's mission, likely using several cases EJI handled, with Walter McMillian's case being a cornerstone example of their work fighting wrongful convictions on death row in the racially biased Southern justice system. The film contextualizes individual cases within the broader history of racial inequality in America.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "RACIAL_BIAS",
+        "WITHHELD_EXCULPATORY_EVIDENCE",
+        "PROSECUTORIAL_MISCONDUCT",
+        "PERJURY_OR_FALSE_ACCUSATION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Walter",
+          "middleName": null,
+          "lastName": "McMillian",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1988,
+          "exonerationOrReleaseYear": 1993,
+          "timeServed": "~6 years on death row",
+          "sentence": "Death Penalty",
+          "caseLocationCity": "Monroeville",
+          "caseLocationCounty": null,
+          "caseLocationState": "Alabama",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted of murder and sentenced to death. He served approximately 6 years on death row before being exonerated when his conviction was overturned, and charges were dropped. His case highlights racial bias and police/prosecutorial misconduct.",
+          "contributingFactorCodes": [
+            "RACIAL_BIAS",
+            "WITHHELD_EXCULPATORY_EVIDENCE",
+            "PROSECUTORIAL_MISCONDUCT",
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Equal Justice Initiative (EJI)",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        },
+        {
+          "firstName": "Multiple",
+          "middleName": "other EJI",
+          "lastName": "clients",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": null,
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Likely featured briefly or referenced but not identified in searches.",
+          "contributingFactorCodes": [],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Peter",
+          "middleName": null,
+          "lastName": "Kunhardt",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "George",
+          "middleName": null,
+          "lastName": "Kunhardt",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "Teddy",
+          "middleName": null,
+          "lastName": "Kunhardt",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

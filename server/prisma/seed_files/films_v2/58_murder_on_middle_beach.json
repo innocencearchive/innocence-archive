@@ -1,0 +1,61 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Murder on Middle Beach",
+    "workType": "DOCUSERIES",
+    "creatorName": "Madison Hamburg",
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "HBO Documentary Films, Jigsaw Productions, Polygram Entertainment",
+    "focusOrTheme": null,
+    "summaryNotes": "A four-part documentary series directed by first-time filmmaker Madison Hamburg, about the unsolved murder of his mother, Barbara Hamburg, and his journey to find answers.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "112111",
+    "imagePath": "https://image.tmdb.org/t/p/w500/j1VQYGEK8GZgqgGT0RrHTjk8NpG.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "MAX",
+      "watchmodeProviderId": 540770,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://max.prf.hn/click/camref:1011l3DxTc/destination:https%3a%2f%2fplay.max.com%2fvideo%2fwatch%2fc81eb43e-0b5d-4a38-8fde-ff55273f0591%2fc920df4a-7e68-444e-9ac7-d2dc40885e71",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "HBO (Via Hulu)",
+      "watchmodeProviderId": 540770,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.hulu.com/watch/8c7930b6-f859-49f8-ab8a-dfcc6424e8e8",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "Murder on Middle Beach (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2020-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "A four-part documentary series directed by first-time filmmaker Madison Hamburg, about the unsolved murder of his mother, Barbara Hamburg, and his journey to find answers.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

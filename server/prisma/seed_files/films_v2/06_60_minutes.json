@@ -1,0 +1,661 @@
+{
+  "sourceFiles": [
+    "1.1.eyewitness_testimony.json",
+    "1.2.pot_plot.json",
+    "1.3.28_years.json",
+    "1.4.prosecutorial_misconduct.json",
+    "1.5.false_confessions.json",
+    "1.6.forced_confession.json",
+    "1.7.shon_hopwood.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Skipped placeholder/invalid individual \"Unknown Prisoner\" from 1.7.shon_hopwood.json."
+  ],
+  "mediaWork": {
+    "title": "60 Minutes",
+    "workType": "TV_SERIES",
+    "creatorName": "Don Hewitt",
+    "publicationOrReleaseYear": 1968,
+    "publisherOrNetwork": "CBS News",
+    "focusOrTheme": "Reliability of eyewitness testimony in wrongful convictions; flaws in eyewitness identification procedures; the impact of wrongful convictions on victims as well as the exonerated.",
+    "summaryNotes": "America's popular television News Magazine in which an ever changing team of CBS News correspondents contribute segments ranging from hard news coverage to politics to lifestyle and pop culture.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "651",
+    "imagePath": "https://image.tmdb.org/t/p/w500/qDSKxeHoN9pvVChXXc2YZN4KwBJ.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "CBS News",
+      "watchmodeProviderId": 31768,
+      "streamingType": "FREE",
+      "url": "https://www.cbsnews.com/video/60minutes-2021-07-11/",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Pluto TV",
+      "watchmodeProviderId": 31768,
+      "streamingType": "FREE",
+      "url": "https://pluto.tv/on-demand/series/60-minutes-on-pluto-tv/season/57/episode/9222024-scourge-of-our-time-the-trustbuster-inside-the-archives-57-2?utm_medium=deeplink&utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "CBS",
+      "watchmodeProviderId": 31768,
+      "streamingType": "FREE",
+      "url": "https://www.cbs.com/shows/60_minutes/video/7azl92PEd9hImWKzssC9bQWh3Ig6oJXi/4-13-2025-zelenskyy-greenland-banana-ball",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Paramount Plus",
+      "watchmodeProviderId": 31768,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://paramountplus.qflm.net/5bbABo?u=https%3A%2F%2Fwww.paramountplus.com%2Fshows%2F60_minutes%2Fvideo%2Fgau7OtPeg71_mWCQjxbLwQqVxn_7psBx%2F2-6-2022-death-in-training-breaking-point-canada-s-unmarked-graves",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "fuboTV",
+      "watchmodeProviderId": 31768,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.fubo.tv/welcome/series/115996424/60-minutes/?irmp=1206980&irad=599307&season=57",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "1.1.eyewitness_testimony.json",
+      "itemTitle": "Eyewitness Testimony",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": "Lesley Stahl",
+      "focusOrTheme": "Reliability of eyewitness testimony, flaws in eyewitness identification, impact of wrongful convictions.",
+      "summaryNotes": "This segment highlights the unreliability of eyewitness testimony and flawed lineup procedures, featuring the case of Ronald Cotton and Jennifer Thompson. It addresses the justice system's failures and the widespread impact of wrongful convictions.",
+      "keyQuotes": "Jennifer Thompson describing the \"suffocating, debilitating shame\" after learning of her mistake.\n\nJennifer Thompson: \"A wrongful conviction doesn't hurt like a person... I think it's hundreds of people, for every single wrongful conviction case, that are hurt\".\n\nThe segment highlights Cotton's exoneration via DNA after 10.5-11 years in prison.\n\nFeatures Thompson and Cotton speaking together about their experience and advocating for reform.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "WITHHELD_EXCULPATORY_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Ronald",
+          "middleName": null,
+          "lastName": "Cotton",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1985,
+          "exonerationOrReleaseYear": 1995,
+          "timeServed": "10.5 years",
+          "sentence": "Life plus 54 years",
+          "caseLocationCity": "Burlington",
+          "caseLocationCounty": null,
+          "caseLocationState": "North Carolina",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Ronald Cotton was wrongfully convicted of rape and burglary in Burlington, NC. He was initially convicted in 1985, with a retrial in 1987, and exonerated in 1995 based on DNA evidence after serving 10.5 years.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "WITHHELD_EXCULPATORY_EVIDENCE"
+          ],
+          "organizations": [
+            {
+              "name": "Defense attorneys",
+              "type": "OTHER"
+            },
+            {
+              "name": "Appellate defenders mentioned in PBS summary",
+              "type": "LEGAL_AID"
+            }
+          ]
+        },
+        {
+          "firstName": "Jennifer",
+          "middleName": null,
+          "lastName": "Thompson",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": "Burlington",
+          "caseLocationCounty": null,
+          "caseLocationState": "North Carolina",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Jennifer Thompson misidentified Ronald Cotton as her attacker, leading to his wrongful conviction. She later became an advocate for criminal justice reform alongside Cotton after his exoneration.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+          ],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": [
+        {
+          "url": "https://www.pbs.org/wgbh/pages/frontline/shows/dna/cotton/summary.html",
+          "description": "The FRONTLINE documentary \"What Jennifer Saw\" provides an in-depth look at the same case."
+        },
+        {
+          "url": "https://www.cbsnews.com/news/crime-victims-form-unlikely-bonds-with-wrongfully-convicted-60-minutes-transcript/",
+          "description": "CBS News articles like \"Crime victims form unlikely bonds with wrongfully convicted men\" and archives contain information on the segments."
+        }
+      ]
+    },
+    {
+      "sourceFileName": "1.2.pot_plot.json",
+      "itemTitle": "The Pot Plot",
+      "itemNumber": "1.2",
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Extreme sentencing in non-violent drug cases; Clemency process",
+      "summaryNotes": "Focuses on extreme sentencing in non-violent drug cases and the clemency process, highlighting the case of Clarence Aaron.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [
+        {
+          "firstName": "Clarence",
+          "middleName": null,
+          "lastName": "Aaron",
+          "suffix": null,
+          "status": "RELEASED_CLEMENCY",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Drug Possession or Sale",
+          "convictionYear": null,
+          "exonerationOrReleaseYear": 2014,
+          "timeServed": "Approx. 20 years",
+          "sentence": "Three concurrent life sentences without parole",
+          "caseLocationCity": null,
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Clarence Aaron was sentenced to three concurrent life sentences without parole for a non-violent drug conspiracy. His sentence was commuted in 2013, and he was released in 2014 after serving approximately 20 years. The case highlighted extreme sentencing laws and issues with the clemency process.",
+          "contributingFactorCodes": [],
+          "organizations": [
+            {
+              "name": "Advocacy reported by ProPublica, Washington Post",
+              "type": "OTHER"
+            },
+            {
+              "name": "Presidential commutation process",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Clarence_Aaron",
+          "description": "Clarence Aaron - Wikipedia"
+        }
+      ]
+    },
+    {
+      "sourceFileName": "1.3.28_years.json",
+      "itemTitle": "28 Years",
+      "itemNumber": "1.3",
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "DNA exoneration after decades of imprisonment; Eyewitness misidentification.",
+      "summaryNotes": "This 60 Minutes segment focuses on Cornelius Dupree Jr.'s wrongful conviction and exoneration after serving 30 years. It highlights the issues of eyewitness misidentification and the impact of wrongful convictions on individuals and their families.",
+      "keyQuotes": "Cornelius Dupree: \"words really won't make up for what I lost... I lost both my parents uh I just feel that you know the system need to be fixed...\"\n\nHighlighting that Dupree refused parole because it required admitting guilt/registering as a sex offender.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Cornelius",
+          "middleName": null,
+          "lastName": "Dupree",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1980,
+          "exonerationOrReleaseYear": 2011,
+          "timeServed": "30 years",
+          "sentence": "75 years",
+          "caseLocationCity": "Dallas",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Cornelius Dupree Jr. was wrongfully convicted of aggravated robbery in 1980 and sentenced to 75 years. He was exonerated by DNA evidence in 2011 after serving 30 years. The case highlights eyewitness misidentification as a contributing factor to his wrongful conviction.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Dallas County District Attorney's Conviction Integrity Unit",
+              "type": "LAW_ENFORCEMENT"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Cornelius_Dupree",
+          "description": "Cornelius Dupree - Wikipedia"
+        },
+        {
+          "url": "https://innocenceproject.org/",
+          "description": "Innocence Project Case Profile (Specific Dupree link not in results, but mentioned)"
+        }
+      ]
+    },
+    {
+      "sourceFileName": "1.4.prosecutorial_misconduct.json",
+      "itemTitle": "Segment \"Prosecutorial Misconduct\"",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": "Lara Logan",
+      "focusOrTheme": "Prosecutorial misconduct, withholding exculpatory evidence",
+      "summaryNotes": "This 60 Minutes segment reported by Lara Logan highlights the impact of prosecutorial misconduct and withheld evidence on a wrongful conviction.",
+      "keyQuotes": "Morton emphasizing \"accountability works\" over revenge\n\nArchival footage of Anderson mocking Morton's tears during the original trial.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "PROSECUTORIAL_MISCONDUCT",
+        "WITHHELD_EXCULPATORY_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Michael",
+          "middleName": null,
+          "lastName": "Morton",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1987,
+          "exonerationOrReleaseYear": 2011,
+          "timeServed": "25 years",
+          "sentence": "Life in prison",
+          "caseLocationCity": "Williamson County",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Michael Morton was wrongfully convicted of the murder of his wife in 1987 and spent 25 years in prison. He was exonerated by DNA evidence in 2011 and later received state compensation.",
+          "contributingFactorCodes": [
+            "WITHHELD_EXCULPATORY_EVIDENCE",
+            "PROSECUTORIAL_MISCONDUCT"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project (instrumental in DNA testing and uncovering withheld evidence).",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        },
+        {
+          "firstName": "Ken",
+          "middleName": null,
+          "lastName": "Anderson",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Other",
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": "Williamson County",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Ken Anderson was the prosecutor in Michael Morton's case. He faced investigation and potential criminal charges for his role in Morton's wrongful conviction for allegedly withholding exculpatory evidence.",
+          "contributingFactorCodes": [
+            "WITHHELD_EXCULPATORY_EVIDENCE"
+          ],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": [
+        {
+          "url": "https://www.texastribune.org/2012/03/26/60-minutes-exoneree-seeks-accountability-not-reven/",
+          "description": "Accountability Works,\" Morton Tells \"60 Minutes\" - The Texas Tribune"
+        }
+      ]
+    },
+    {
+      "sourceFileName": "1.5.false_confessions.json",
+      "itemTitle": "The False Confession Capital",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": "2012-12-09",
+      "hostOrNarrator": "Byron Pitts",
+      "focusOrTheme": "False confessions, police interrogation techniques, juvenile suspects, wrongful convictions in Chicago.",
+      "summaryNotes": "This 60 Minutes segment focuses on false confessions, police interrogation techniques, and wrongful convictions, particularly in Chicago. It highlights the psychological vulnerability of suspects during interrogation and the potential for police tactics to induce false confessions.",
+      "keyQuotes": "Interviews with exonerated individuals describing interrogation experiences\n\nPsychologist Saul Kassin explaining the psychology of false confessions\n\nCook County State's Attorney Anita Alvarez defending police actions at the time",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION",
+        "POLICE_MISCONDUCT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Terrill",
+          "middleName": null,
+          "lastName": "Swift",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1995,
+          "exonerationOrReleaseYear": 2012,
+          "timeServed": "Approximately 15 years",
+          "sentence": "30 years",
+          "caseLocationCity": "Chicago",
+          "caseLocationCounty": null,
+          "caseLocationState": "IL",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Terrill Swift, part of the \"Englewood Four\", was wrongfully convicted of rape and murder in Chicago. He was exonerated in 2012 after serving approximately 15 years. His false confession, given as a juvenile after a lengthy interrogation, was a contributing factor.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION"
+          ],
+          "organizations": [
+            {
+              "name": "People's Law Office",
+              "type": "OTHER"
+            },
+            {
+              "name": "MacArthur Justice Center",
+              "type": "OTHER"
+            },
+            {
+              "name": "Northwestern University School of Law",
+              "type": "UNIVERSITY"
+            },
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        },
+        {
+          "firstName": "Jonathan",
+          "middleName": null,
+          "lastName": "Barr",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1991,
+          "exonerationOrReleaseYear": 2011,
+          "timeServed": "Approximately 20 years",
+          "sentence": "85 years",
+          "caseLocationCity": "Dixmoor/Chicago",
+          "caseLocationCounty": null,
+          "caseLocationState": "IL",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Jonathan Barr, part of the \"Dixmoor Five\", was wrongfully convicted of rape and murder in Dixmoor/Chicago. He was exonerated in 2011 after serving approximately 20 years. His coerced/fabricated false confession, given as a juvenile, was a contributing factor.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION",
+            "POLICE_MISCONDUCT"
+          ],
+          "organizations": [
+            {
+              "name": "People's Law Office",
+              "type": "OTHER"
+            },
+            {
+              "name": "Neufeld Scheck & Brustin",
+              "type": "OTHER"
+            },
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        },
+        {
+          "firstName": "Michael",
+          "middleName": null,
+          "lastName": "Saunders",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": "Chicago",
+          "caseLocationCounty": null,
+          "caseLocationState": "IL",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Michael Saunders was mentioned as part of the Englewood Four. Details regarding his conviction and exoneration status are not specified in the document.",
+          "contributingFactorCodes": [],
+          "organizations": []
+        },
+        {
+          "firstName": "Vincent",
+          "middleName": null,
+          "lastName": "Thames",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": "Chicago",
+          "caseLocationCounty": null,
+          "caseLocationState": "IL",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Vincent Thames was mentioned as part of the Englewood Four. Details regarding his conviction and exoneration status are not specified in the document.",
+          "contributingFactorCodes": [],
+          "organizations": []
+        },
+        {
+          "firstName": "Harold",
+          "middleName": null,
+          "lastName": "Richardson",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": "Chicago",
+          "caseLocationCounty": null,
+          "caseLocationState": "IL",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Harold Richardson was mentioned as part of the Englewood Four. Details regarding his conviction and exoneration status are not specified in the document.",
+          "contributingFactorCodes": [],
+          "organizations": []
+        },
+        {
+          "firstName": "James",
+          "middleName": null,
+          "lastName": "Harden",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": "Dixmoor/Chicago",
+          "caseLocationCounty": null,
+          "caseLocationState": "IL",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "James Harden was mentioned as part of the Dixmoor Five. Details regarding his conviction and exoneration status are not specified in the document.",
+          "contributingFactorCodes": [],
+          "organizations": []
+        },
+        {
+          "firstName": "Robert",
+          "middleName": null,
+          "lastName": "Taylor",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": "Dixmoor/Chicago",
+          "caseLocationCounty": null,
+          "caseLocationState": "IL",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Robert Taylor was mentioned as part of the Dixmoor Five. Details regarding his conviction and exoneration status are not specified in the document.",
+          "contributingFactorCodes": [],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": [
+        {
+          "url": "https://www.cbsnews.com/news/chicago-the-false-confession-capital/",
+          "description": "CBS News article on the segment"
+        },
+        {
+          "url": "https://peopleslawoffice.com/60-minutes-features-clients-wrongfully-convicted-based-on-false-confession/",
+          "description": "People's Law Office summary"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt2569360/",
+          "description": "IMDb Episode Page"
+        }
+      ]
+    },
+    {
+      "sourceFileName": "1.6.forced_confession.json",
+      "itemTitle": "Forced Confession",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Coerced false confessions, police interrogation techniques, impact on families.",
+      "summaryNotes": "The segment focuses on the case of Kevin Fox, who was wrongly accused of murdering his daughter. It highlights the coercive interrogation techniques used by police and the impact on Fox and his family.",
+      "keyQuotes": "Likely includes interviews with Kevin and Melissa Fox discussing the interrogation and ordeal.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "TUNNEL_VISION_RUSH_TO_JUDGMENT",
+        "FALSE_CONFESSION",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Kevin",
+          "middleName": null,
+          "lastName": "Fox",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Other",
+          "convictionYear": null,
+          "exonerationOrReleaseYear": 2005,
+          "timeServed": "8 months in jail.",
+          "sentence": "Faced potential death penalty.",
+          "caseLocationCity": "Wilmington",
+          "caseLocationCounty": null,
+          "caseLocationState": "Will County, Illinois",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Kevin Fox was wrongly accused of murdering his daughter. He was subjected to a lengthy and coercive interrogation, leading to a false confession. Charges were dropped after DNA evidence excluded him as the perpetrator, and he later won a civil rights lawsuit.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION",
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+          ],
+          "organizations": [
+            {
+              "name": "Information Unavailable from search results.",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": [
+        {
+          "url": "https://caselaw.findlaw.com/court/us-7th-circuit/1520903.html",
+          "description": "FindLaw case summary of civil suit FOX v. HAYES (Provides detailed background)."
+        }
+      ]
+    },
+    {
+      "sourceFileName": "1.7.shon_hopwood.json",
+      "itemTitle": "From bank robber to law professor",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": "2017-10-15",
+      "hostOrNarrator": "Steve Kroft",
+      "focusOrTheme": "Redemption, prison education, legal self-advocacy, systemic barriers after incarceration.",
+      "summaryNotes": "This 60 Minutes segment profiles Shon Hopwood, who developed exceptional legal skills while incarcerated and successfully petitioned the Supreme Court on behalf of another inmate. It examines his journey from bank robber to law professor.",
+      "keyQuotes": "Hopwood attributing his success to \"people that helped, that went out of their way to provide grace\"\n\nSeth Waxman discussing his surprise at the quality of Hopwood's legal writing from prison.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [
+        {
+          "firstName": "Shon",
+          "middleName": null,
+          "lastName": "Hopwood",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Robbery",
+          "convictionYear": 1999,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "Approximately 11 years",
+          "sentence": "Approximately 12 years",
+          "caseLocationCity": null,
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of armed bank robbery and sentenced to approximately 12 years. He developed legal skills while incarcerated, became a lawyer and law professor after completing his sentence. His case is not one of wrongful conviction.",
+          "contributingFactorCodes": [],
+          "organizations": [
+            {
+              "name": "N/A (for his own case)",
+              "type": "OTHER"
+            },
+            {
+              "name": "later worked with legal clinics/organizations.",
+              "type": "UNIVERSITY"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": [
+        {
+          "url": "https://www.cbsnews.com/news/from-bank-robber-to-law-professor-a-story-of-redemption/",
+          "description": "CBS News article about the segment"
+        }
+      ]
+    }
+  ]
+}

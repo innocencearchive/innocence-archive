@@ -1,0 +1,27 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "Missing TMDB externalId in tmdb_data.csv — verify TMDB ID before committing."
+  ],
+  "mediaWork": {
+    "title": "Rectify",
+    "workType": "TV_SERIES",
+    "creatorName": "Ray McKinnon",
+    "publicationOrReleaseYear": 2013,
+    "publisherOrNetwork": "SundanceTV, Gran Via Productions, Zip Works",
+    "focusOrTheme": null,
+    "summaryNotes": "Daniel Holden must put his life back together after serving 19 years on Georgia's Death Row before DNA evidence calls his conviction into question.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": null,
+    "imagePath": "https://image.tmdb.org/t/p/w500/tm9nQe9165cyjnTz8NB50izwcpJ.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": []
+}

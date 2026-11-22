@@ -1,0 +1,62 @@
+{
+  "sourceFiles": [
+    "9.4.crime_plus_punishment.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "0 wrongfully convicted individuals linked — verify whether this is a broader criminal-justice title or needs case links added."
+  ],
+  "mediaWork": {
+    "title": "Crime + Punishment",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Stephen Maing",
+    "publicationOrReleaseYear": 2018,
+    "publisherOrNetwork": "Roco Films",
+    "focusOrTheme": "Illegal arrest/summons quotas in NYPD, whistleblower officers, impact on minority communities, wrongful stops/arrests.",
+    "summaryNotes": "A group of brave NYPD officers risk their careers and safety to expose systemic corruption and the harmful impact of discriminatory policing practices.",
+    "availabilityNotes": "Available via Hulu.",
+    "sourceUrl": null,
+    "externalId": "489983",
+    "imagePath": "https://image.tmdb.org/t/p/w500/rmo6102cLdrAHsxPi3CkLqaRulW.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Hulu",
+      "watchmodeProviderId": 184182,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.hulu.com/watch/f141e4b4-b89c-4bbd-a938-6728ce6a7fdc",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.4.crime_plus_punishment.json",
+      "itemTitle": "Crime + Punishment",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2018-08-24",
+      "hostOrNarrator": null,
+      "focusOrTheme": "Illegal arrest/summons quotas in NYPD, whistleblower officers, impact on minority communities, wrongful stops/arrests.",
+      "summaryNotes": "Explores how NYPD quotas directly lead to wrongful arrests and prosecutions, particularly in minority communities. The documentary provides significant insight into the systemic issue of policing quotas and their consequences. It follows active-duty NYPD officers who risked their careers to expose the practice through a class-action lawsuit.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [
+        {
+          "firstName": "Stephen",
+          "middleName": null,
+          "lastName": "Maing",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

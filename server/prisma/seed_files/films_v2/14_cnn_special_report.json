@@ -1,0 +1,124 @@
+{
+  "sourceFiles": [
+    "7.1.sole_survivor.json",
+    "7.2.the_wrong_man.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Normalized parenthetical series title from legacy JSON (\"Sole Survivor (CNN Special Report)\" -> \"CNN Special Report\")."
+  ],
+  "mediaWork": {
+    "title": "CNN Special Report",
+    "workType": "TV_SERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": null,
+    "publisherOrNetwork": "CNN / WarnerMedia",
+    "focusOrTheme": "First US death row exoneration by DNA, wrongful conviction, advocacy against death penalty.",
+    "summaryNotes": "First DNA exoneration from death row in the US.",
+    "availabilityNotes": "Available via CNN/Max.",
+    "sourceUrl": null,
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": null,
+    "aiGenerated": true
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "7.1.sole_survivor.json",
+      "itemTitle": "Sole Survivor",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "First US death row exoneration by DNA, wrongful conviction, advocacy against death penalty.",
+      "summaryNotes": "Kirk Bloodsworth's case is landmark as the first US death row DNA exoneration. He was convicted based on eyewitness accounts despite lack of physical evidence, had his first conviction overturned due to prosecutorial misconduct, was reconvicted, and finally freed by DNA testing in 1993. His journey includes becoming an advocate for criminal justice reform. While a specific CNN Special Report titled \"Sole Survivor\" wasn't confirmed, his story has been widely covered, including in the 2015 documentary \"Bloodsworth: An Innocent Man\".",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "WITHHELD_EXCULPATORY_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Kirk",
+          "middleName": "Noble",
+          "lastName": "Bloodsworth",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1985,
+          "exonerationOrReleaseYear": 1993,
+          "timeServed": "Nearly 9 years (mostly on death row)",
+          "sentence": "Death Penalty (first trial), Two Life Terms (second trial)",
+          "caseLocationCity": "Baltimore County",
+          "caseLocationCounty": null,
+          "caseLocationState": "Maryland",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Kirk Bloodsworth was wrongfully convicted of the rape and murder of Dawn Hamilton in 1984. He was convicted based on eyewitness misidentification and served nearly 9 years, mostly on death row. He was exonerated by DNA evidence in 1993 and pardoned, and the actual perpetrator was identified via DNA in 2003.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "WITHHELD_EXCULPATORY_EVIDENCE"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project (assisted with DNA)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Witness to Innocence",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "7.2.the_wrong_man.json",
+      "itemTitle": "The Wrong Man",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful conviction through witness misidentification, specifically cross-racial identification errors.",
+      "summaryNotes": "Examines how cross-racial identification errors led to Thomas Webb's wrongful conviction and 13-year imprisonment. Searches did not confirm a CNN Special Report with this title featuring Thomas Webb. It's possible the name or title is inaccurate, or the special is difficult to find via search.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "RACIAL_BIAS"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Thomas",
+          "middleName": null,
+          "lastName": "Webb",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "13 years",
+          "sentence": null,
+          "caseLocationCity": null,
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted of rape due to eyewitness misidentification, specifically cross-racial identification errors. He served 13 years.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "RACIAL_BIAS"
+          ],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

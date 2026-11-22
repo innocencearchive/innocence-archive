@@ -1,0 +1,259 @@
+{
+  "sourceFiles": [
+    "9.10.central_park_five.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Central Park Five",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Ken Burns, Sarah Burns, David McMahon",
+    "publicationOrReleaseYear": 2012,
+    "publisherOrNetwork": "Florentine Films",
+    "focusOrTheme": "Wrongful conviction, coerced false confessions, juvenile suspects, racial bias, media frenzy, DNA exoneration.",
+    "summaryNotes": "The story of the five black and Latino teenagers who were wrongly convicted of the 1989 rape of a white woman in Central Park.",
+    "availabilityNotes": "Available via PBS, Amazon, DVD.",
+    "sourceUrl": null,
+    "externalId": "124067",
+    "imagePath": "https://image.tmdb.org/t/p/w500/aKlQ8Sjr07OkCLuYkRYtpVSMm3e.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Kanopy",
+      "watchmodeProviderId": 1382901,
+      "streamingType": "FREE",
+      "url": "https://www.kanopy.com/product/ken-burns-central-park-five",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Hoopla",
+      "watchmodeProviderId": 1382901,
+      "streamingType": "FREE",
+      "url": "https://www.hoopladigital.com/title/11169006?utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.10.central_park_five.json",
+      "itemTitle": "The Central Park Five",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful conviction, coerced false confessions, juvenile suspects, racial bias, media frenzy, DNA exoneration.",
+      "summaryNotes": "Provides a detailed account of the wrongful conviction of five teenagers in the high-profile \"Central Park Jogger\" case. It highlights the intense pressure, coercive interrogation tactics, and racial undertones that led to false confessions and convictions despite a lack of physical evidence connecting them. Their exoneration came years later when the actual perpetrator confessed and DNA confirmed his guilt. The case became a symbol of systemic flaws in the justice system, particularly regarding treatment of minority youth and reliance on confessions.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "POLICE_MISCONDUCT",
+        "PROSECUTORIAL_MISCONDUCT",
+        "RACIAL_BIAS",
+        "MEDIA_SENSATIONALISM"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Antron",
+          "middleName": null,
+          "lastName": "McCray",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1990,
+          "exonerationOrReleaseYear": 2002,
+          "timeServed": "Between ~6 and ~13 years",
+          "sentence": "5-10 years",
+          "caseLocationCity": "New York City",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted in 1990 for the 1989 attack on Trisha Meili, and exonerated in 2002 after serving between 6 and 13 years. His conviction was based on a coerced false confession obtained after lengthy interrogations without adequate counsel or parental presence. Received a settlement from NYC.",
+          "contributingFactorCodes": [
+            "POLICE_MISCONDUCT",
+            "PROSECUTORIAL_MISCONDUCT",
+            "RACIAL_BIAS",
+            "MEDIA_SENSATIONALISM"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project (involved in later stages/advocacy)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Legal teams representing the five",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Kevin",
+          "middleName": null,
+          "lastName": "Richardson",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1990,
+          "exonerationOrReleaseYear": 2002,
+          "timeServed": "Between ~6 and ~13 years",
+          "sentence": "5-10 years",
+          "caseLocationCity": "New York City",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted in 1990 for the 1989 attack on Trisha Meili, and exonerated in 2002 after serving between 6 and 13 years. His conviction was based on a coerced false confession obtained after lengthy interrogations without adequate counsel or parental presence. Received a settlement from NYC.",
+          "contributingFactorCodes": [
+            "POLICE_MISCONDUCT",
+            "PROSECUTORIAL_MISCONDUCT",
+            "RACIAL_BIAS",
+            "MEDIA_SENSATIONALISM"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project (involved in later stages/advocacy)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Legal teams representing the five",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Yusef",
+          "middleName": null,
+          "lastName": "Salaam",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1990,
+          "exonerationOrReleaseYear": 2002,
+          "timeServed": "Between ~6 and ~13 years",
+          "sentence": "5-10 years",
+          "caseLocationCity": "New York City",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted in 1990 for the 1989 attack on Trisha Meili, and exonerated in 2002 after serving between 6 and 13 years. His conviction was based on a coerced false confession obtained after lengthy interrogations without adequate counsel or parental presence. Received a settlement from NYC.",
+          "contributingFactorCodes": [
+            "POLICE_MISCONDUCT",
+            "PROSECUTORIAL_MISCONDUCT",
+            "RACIAL_BIAS",
+            "MEDIA_SENSATIONALISM"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project (involved in later stages/advocacy)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Legal teams representing the five",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Raymond",
+          "middleName": null,
+          "lastName": "Santana",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1990,
+          "exonerationOrReleaseYear": 2002,
+          "timeServed": "Between ~6 and ~13 years",
+          "sentence": "5-10 years",
+          "caseLocationCity": "New York City",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted in 1990 for the 1989 attack on Trisha Meili, and exonerated in 2002 after serving between 6 and 13 years. His conviction was based on a coerced false confession obtained after lengthy interrogations without adequate counsel or parental presence. Received a settlement from NYC.",
+          "contributingFactorCodes": [
+            "POLICE_MISCONDUCT",
+            "PROSECUTORIAL_MISCONDUCT",
+            "RACIAL_BIAS",
+            "MEDIA_SENSATIONALISM"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project (involved in later stages/advocacy)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Legal teams representing the five",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Korey",
+          "middleName": null,
+          "lastName": "Wise",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1990,
+          "exonerationOrReleaseYear": 2002,
+          "timeServed": "Between ~6 and ~13 years",
+          "sentence": "5-15 years",
+          "caseLocationCity": "New York City",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted in 1990 for the 1989 attack on Trisha Meili, and exonerated in 2002 after serving between 6 and 13 years. Tried as an adult, his conviction was based on a coerced false confession obtained after lengthy interrogations without adequate counsel or parental presence. Received a settlement from NYC.",
+          "contributingFactorCodes": [
+            "POLICE_MISCONDUCT",
+            "PROSECUTORIAL_MISCONDUCT",
+            "RACIAL_BIAS",
+            "MEDIA_SENSATIONALISM"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project (involved in later stages/advocacy)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Legal teams representing the five",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Ken",
+          "middleName": null,
+          "lastName": "Burns",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "Sarah",
+          "middleName": null,
+          "lastName": "Burns",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "David",
+          "middleName": null,
+          "lastName": "McMahon",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

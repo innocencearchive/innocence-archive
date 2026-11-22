@@ -1,0 +1,100 @@
+{
+  "sourceFiles": [
+    "9.36.dream_killer.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Dream/Killer",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Andrew Jenks",
+    "publicationOrReleaseYear": 2015,
+    "publisherOrNetwork": null,
+    "focusOrTheme": "Chronicles the wrongful conviction of Ryan Ferguson for a murder he did not commit and the decade-long fight led by his father, Bill Ferguson, to prove his innocence and secure his release.",
+    "summaryNotes": "A father's epic struggle to save his son from a lifetime in prison following a wrongful conviction.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "333099",
+    "imagePath": "https://image.tmdb.org/t/p/w500/fOWN2sbHbZ2oWcnTUe5XM8HcAA1.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Hoopla",
+      "watchmodeProviderId": 1110787,
+      "streamingType": "FREE",
+      "url": "https://www.hoopladigital.com/title/11524547?utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.36.dream_killer.json",
+      "itemTitle": "Dream/Killer",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Chronicles the wrongful conviction of Ryan Ferguson for a murder he did not commit and the decade-long fight led by his father, Bill Ferguson, to prove his innocence and secure his release.",
+      "summaryNotes": "The documentary examines the recanted testimonies, the emotional toll on the family, and highlights the extraordinary efforts of a father fighting for his son's freedom.",
+      "keyQuotes": "Likely features interviews with Ryan and Bill Ferguson, footage from the trials and appeals, examination of the recanted testimonies, and the emotional toll on the family. Highlights the extraordinary efforts of a father fighting for his son's freedom.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "PERJURY_OR_FALSE_ACCUSATION",
+        "WITHHELD_EXCULPATORY_EVIDENCE",
+        "PROSECUTORIAL_MISCONDUCT",
+        "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Ryan",
+          "middleName": null,
+          "lastName": "Ferguson",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 2005,
+          "exonerationOrReleaseYear": 2013,
+          "timeServed": "Nearly 10 years.",
+          "sentence": "40 years.",
+          "caseLocationCity": "Columbia",
+          "caseLocationCounty": null,
+          "caseLocationState": "Missouri",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Ryan Ferguson was wrongfully convicted of murder and robbery based on false testimony and alleged prosecutorial misconduct. He spent nearly 10 years in prison before his conviction was vacated in 2013. The documentary chronicles his father's fight to prove his innocence and secure his release.",
+          "contributingFactorCodes": [
+            "PERJURY_OR_FALSE_ACCUSATION",
+            "WITHHELD_EXCULPATORY_EVIDENCE",
+            "PROSECUTORIAL_MISCONDUCT",
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Bill Ferguson",
+              "type": "OTHER"
+            },
+            {
+              "name": "Kathleen Zellner",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Andrew",
+          "middleName": null,
+          "lastName": "Jenks",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

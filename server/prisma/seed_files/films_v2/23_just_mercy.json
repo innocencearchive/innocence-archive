@@ -1,0 +1,192 @@
+{
+  "sourceFiles": [
+    "9.30.just_mercy.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Just Mercy",
+    "workType": "FILM",
+    "creatorName": "Destin Daniel Cretton",
+    "publicationOrReleaseYear": 2019,
+    "publisherOrNetwork": "Participant, Outlier Society Productions, Netter Productions, MACRO (Distributed by Warner Bros. Pictures)",
+    "focusOrTheme": "Based on the work of lawyer Bryan Stevenson and the Equal Justice Initiative (EJI), focusing primarily on the case of Walter McMillian (\"Johnny D.\"), a Black man wrongfully convicted and sentenced to death in Alabama for the murder of a white woman. Explores racial injustice, poverty, and the death penalty in the South.",
+    "summaryNotes": "The powerful true story of Harvard-educated lawyer Bryan Stevenson, who goes to Alabama to defend the disenfranchised and wrongly condemned — including Walter McMillian, a man sentenced to death despite evidence proving his innocence.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "522212",
+    "imagePath": "https://image.tmdb.org/t/p/w500/2bDZl3PzFLFWe4gaFUQnnaslqT3.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "AppleTV",
+      "watchmodeProviderId": 1196086,
+      "streamingType": "RENT",
+      "url": "https://tv.apple.com/us/movie/just-mercy/umc.cmc.18g6eu15orgsvcbm39ur1dd5d?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1490719646",
+      "priceAmount": 3.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Amazon",
+      "watchmodeProviderId": 1196086,
+      "streamingType": "RENT",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.9ab792c9-d158-dbcc-452d-232a8e14f6a0",
+      "priceAmount": 3.79,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "YouTube",
+      "watchmodeProviderId": 1196086,
+      "streamingType": "RENT",
+      "url": "https://www.youtube.com/results?search_query=Just+Mercy%2Bmovie",
+      "priceAmount": 3.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "VUDU",
+      "watchmodeProviderId": 1196086,
+      "streamingType": "RENT",
+      "url": "https://athome.fandango.com/content/browse/details/Just-Mercy/1317631",
+      "priceAmount": 3.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Windows Store",
+      "watchmodeProviderId": 1196086,
+      "streamingType": "RENT",
+      "url": "https://www.microsoft.com/en-us/p/Just%20Mercy%20%20Bonus/8D6KGWXN1JCB",
+      "priceAmount": 3.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Plex",
+      "watchmodeProviderId": 1196086,
+      "streamingType": "RENT",
+      "url": "https://watch.plex.tv/movie/just-mercy?utm_content=5d777049ad5437001f81e3ed&utm_medium=deeplink&utm_source=",
+      "priceAmount": 3.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "AppleTV",
+      "watchmodeProviderId": 1196086,
+      "streamingType": "BUY",
+      "url": "https://tv.apple.com/us/movie/just-mercy/umc.cmc.18g6eu15orgsvcbm39ur1dd5d?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1490719646",
+      "priceAmount": 12.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Amazon",
+      "watchmodeProviderId": 1196086,
+      "streamingType": "BUY",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.9ab792c9-d158-dbcc-452d-232a8e14f6a0",
+      "priceAmount": 7.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "YouTube",
+      "watchmodeProviderId": 1196086,
+      "streamingType": "BUY",
+      "url": "https://www.youtube.com/results?search_query=Just+Mercy%2Bmovie",
+      "priceAmount": 12.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "VUDU",
+      "watchmodeProviderId": 1196086,
+      "streamingType": "BUY",
+      "url": "https://athome.fandango.com/content/browse/details/Just-Mercy/1317631",
+      "priceAmount": 14.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Windows Store",
+      "watchmodeProviderId": 1196086,
+      "streamingType": "BUY",
+      "url": "https://www.microsoft.com/en-us/p/Just%20Mercy%20%20Bonus/8D6KGWXN1JCB",
+      "priceAmount": 7.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.30.just_mercy.json",
+      "itemTitle": "Just Mercy",
+      "itemNumber": null,
+      "itemMediaType": "FILM_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Based on the work of lawyer Bryan Stevenson and the Equal Justice Initiative (EJI), focusing primarily on the case of Walter McMillian (\"Johnny D.\"), a Black man wrongfully convicted and sentenced to death in Alabama for the murder of a white woman. Explores racial injustice, poverty, and the death penalty in the South.",
+      "summaryNotes": "The film depicts Bryan Stevenson's initial meetings with McMillian on death row, the investigation uncovering suppressed evidence and coerced testimony, courtroom battles challenging the conviction, and Stevenson's arguments about racial bias and justice. It highlights themes of racial bias, the importance of proximity to the condemned, and fighting injustice.",
+      "keyQuotes": "Scenes depicting Bryan Stevenson's initial meetings with McMillian on death row\n\nThe investigation uncovering suppressed evidence and coerced testimony\n\nCourtroom battles challenging the conviction\n\nInteractions with other death row inmates\n\nStevenson's arguments about racial bias and justice\n\nKey themes from Stevenson's work: \"Each of us is more than the worst thing we've ever done,\" the importance of proximity to the condemned and marginalized, fighting injustice even when odds seem insurmountable.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "RACIAL_BIAS",
+        "JAILHOUSE_INFORMANT",
+        "PROSECUTORIAL_MISCONDUCT",
+        "POLICE_MISCONDUCT",
+        "INADEQUATE_LEGAL_DEFENSE",
+        "WITHHELD_EXCULPATORY_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Walter",
+          "middleName": null,
+          "lastName": "McMillian",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1988,
+          "exonerationOrReleaseYear": 1993,
+          "timeServed": "Nearly 6 years on death row.",
+          "sentence": "Death (Judge overrode jury's life sentence recommendation)",
+          "caseLocationCity": "Monroeville",
+          "caseLocationCounty": null,
+          "caseLocationState": "Alabama",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Walter McMillian was wrongfully convicted of the murder of Ronda Morrison and sentenced to death. He was exonerated in 1993 after serving nearly 6 years on death row. His case was marked by pervasive racial bias, police and prosecutorial misconduct, and reliance on perjured testimony.",
+          "contributingFactorCodes": [
+            "RACIAL_BIAS",
+            "WITHHELD_EXCULPATORY_EVIDENCE",
+            "PROSECUTORIAL_MISCONDUCT"
+          ],
+          "organizations": [
+            {
+              "name": "Equal Justice Initiative (EJI)",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Destin",
+          "middleName": "Daniel",
+          "lastName": "Cretton",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://eji.org",
+          "description": "Equal Justice Initiative (EJI) website"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "sourceFiles": [
+    "5.1.reasonable_doubt.json",
+    "5.2.blame.json",
+    "5.3last_chance.json",
+    "5.4.guilt_by_association.json",
+    "5.5.curtis_flowers.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Normalized parenthetical series title from legacy JSON (\"Reasonable Doubt (48 Hours)\" -> \"48 Hours\")."
+  ],
+  "mediaWork": {
+    "title": "48 Hours",
+    "workType": "TV_SERIES",
+    "creatorName": "Judy Tygard",
+    "publicationOrReleaseYear": 1988,
+    "publisherOrNetwork": "CBS News",
+    "focusOrTheme": "Questionable spousal murder conviction, prosecutorial misconduct, overturned conviction followed by reconviction.",
+    "summaryNotes": "This newsmagazine series investigates intriguing crime and justice cases that touch on all aspects of the human experience. Over its long run, the show has helped exonerate wrongly convicted people, driven the reopening — and resolution — of cold cases, and changed numerous lives. CBS News correspondents offer an in-depth look into each story, with the emphasis on solving the mystery at its heart.",
+    "availabilityNotes": "Available via CBS/Paramount+.",
+    "sourceUrl": null,
+    "externalId": "3719",
+    "imagePath": "https://image.tmdb.org/t/p/w500/ujfzfq0w5M20Cu9B40MNzMHyiuE.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Pluto TV",
+      "watchmodeProviderId": 31561,
+      "streamingType": "FREE",
+      "url": "https://pluto.tv/on-demand/series/48-hours-ptv2/season/26/episode/pain-and-gain-2014-26-25?utm_medium=deeplink&utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "CBS News",
+      "watchmodeProviderId": 31561,
+      "streamingType": "FREE",
+      "url": "https://www.cbsnews.com/video/watch/?id=50157921n",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "The Roku Channel",
+      "watchmodeProviderId": 31561,
+      "streamingType": "FREE",
+      "url": "https://therokuchannel.roku.com/details/10ba4e0d2c4f5cf49c6ee2503a5aab33/linas-heart?source=bing",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "CBS",
+      "watchmodeProviderId": 31561,
+      "streamingType": "FREE",
+      "url": "https://www.cbs.com/shows/48_hours/video/6rSxSK1t3_LVCZn9q0Y2dAydu_hA1oxE/the-day-my-mother-never-came-home",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Paramount Plus",
+      "watchmodeProviderId": 31561,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://paramountplus.qflm.net/5bbABo?u=https%3A%2F%2Fwww.paramountplus.com%2Fshows%2F48_hours%2Fvideo%2Fi4cfN7zVBAWNCiL5RSrbsCKNfe_3vak3%2Fthe-case-against-nicole-addimando",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "fuboTV",
+      "watchmodeProviderId": 31561,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.fubo.tv/welcome/series/116018637/48-hours/?irmp=1206980&irad=599307&season=37",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Prime Video",
+      "watchmodeProviderId": 31561,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.83f2cc5a-28fe-43a1-b2f4-95a98c5b261e?tag=&autoplay=1",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "5.1.reasonable_doubt.json",
+      "itemTitle": "Reasonable Doubt",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Questionable spousal murder conviction, prosecutorial misconduct, overturned conviction followed by reconviction.",
+      "summaryNotes": "Investigation into the controversial conviction that was later overturned due to prosecutorial misconduct, though Temple was later reconvicted at a new trial. The details accurately reflect his well-known case involving the murder of his wife, an overturned conviction due to prosecutorial misconduct (withholding evidence), and a subsequent reconviction in a later trial.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "WITHHELD_EXCULPATORY_EVIDENCE",
+        "PROSECUTORIAL_MISCONDUCT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "David",
+          "middleName": null,
+          "lastName": "Temple",
+          "suffix": null,
+          "status": "CONVICTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 2019,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "Served ~9 years before first conviction overturned; currently incarcerated since 2019 reconviction.",
+          "sentence": "Life in prison (both times)",
+          "caseLocationCity": "Katy",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of the murder of his wife, Belinda Temple, in 1999. His first conviction was overturned in 2016 due to prosecutorial misconduct, but he was reconvicted in 2019 and is currently serving a life sentence.",
+          "contributingFactorCodes": [
+            "WITHHELD_EXCULPATORY_EVIDENCE",
+            "PROSECUTORIAL_MISCONDUCT"
+          ],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "5.2.blame.json",
+      "itemTitle": "Blame",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful murder conviction due to flawed evidence and investigative tunnel vision.",
+      "summaryNotes": "Examines how tunnel vision led investigators to focus on Jason Parson despite evidence pointing elsewhere. Searches did not confirm an episode with this title and individual, details are based solely on the `film_list.txt` entry.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Jason",
+          "middleName": null,
+          "lastName": "Parson",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": null,
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Potentially wrongfully convicted of murder due to flawed evidence and investigative tunnel vision. The existence or involvement of Jason Parson in such a case is unconfirmed by search.",
+          "contributingFactorCodes": [
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "5.3last_chance.json",
+      "itemTitle": "Guilty Until Proven Innocent",
+      "itemNumber": "Season 30, Episode 24",
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": "2017-02-04",
+      "hostOrNarrator": null,
+      "focusOrTheme": "DNA exoneration after decades, innovative DNA testing (distinguishing mixtures)",
+      "summaryNotes": "Details the conviction of Pinkins and Roosevelt Glenn for a 1989 rape based on questionable identification and clothing evidence. Advanced DNA testing excluded both men and led to their exonerations, highlighting advancements in DNA technology.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Darryl",
+          "middleName": null,
+          "lastName": "Pinkins",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1991,
+          "exonerationOrReleaseYear": 2016,
+          "timeServed": "25 years",
+          "sentence": "65 years",
+          "caseLocationCity": "Hammond",
+          "caseLocationCounty": null,
+          "caseLocationState": "Lake County, Indiana",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of rape, robbery, and burglary in 1991 and sentenced to 65 years. He was exonerated in 2016 after serving 25 years, based on advanced DNA testing. His case highlights issues with eyewitness misidentification and flawed forensic comparison.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "The Wrong Man (book/advocacy)",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Roosevelt",
+          "middleName": null,
+          "lastName": "Glenn",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1991,
+          "exonerationOrReleaseYear": 2009,
+          "timeServed": "~17 years",
+          "sentence": "35 years (Pleaded guilty mid-trial)",
+          "caseLocationCity": "Hammond",
+          "caseLocationCounty": null,
+          "caseLocationState": "Lake County, Indiana",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of rape, robbery, and burglary in 1991 and sentenced to 35 years after pleading guilty mid-trial. He was released on parole in 2009, after serving approximately 17 years, and later exonerated alongside Pinkins based on DNA evidence.",
+          "contributingFactorCodes": [],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "The Wrong Man (book/advocacy)",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "5.4.guilt_by_association.json",
+      "itemTitle": "Guilt by Association",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful conviction despite alibis, DNA exoneration after long imprisonment, coerced confession.",
+      "summaryNotes": "Anthony Wright was convicted based on a coerced confession for a 1991 rape/murder in Philadelphia and served nearly 25 years before DNA proved his innocence, leading to acquittal at a 2016 retrial. The case gained further notoriety when detectives involved faced perjury charges related to their testimony at the retrial.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION",
+        "POLICE_MISCONDUCT",
+        "PERJURY_OR_FALSE_ACCUSATION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Anthony",
+          "middleName": null,
+          "lastName": "Wright",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1993,
+          "exonerationOrReleaseYear": 2016,
+          "timeServed": "Nearly 25 years",
+          "sentence": "Life without parole",
+          "caseLocationCity": "Philadelphia",
+          "caseLocationCounty": null,
+          "caseLocationState": "Pennsylvania",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Anthony Wright was wrongfully convicted of rape and murder in Philadelphia in 1993 and served nearly 25 years. His conviction was based on a coerced false confession, and he was later exonerated in 2016 after DNA evidence proved his innocence. Detectives involved in the case later faced perjury charges.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION",
+            "POLICE_MISCONDUCT",
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "5.5.curtis_flowers.json",
+      "itemTitle": "The Trials of Curtis Flowers",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Multiple trials for the same crime, prosecutorial misconduct (racial bias in jury selection), impact of investigative journalism (podcast).",
+      "summaryNotes": "Curtis Flowers' case is exceptionally well-known due to the six trials, the Supreme Court ruling on racial bias in jury selection (*Flowers v. Mississippi*), and the critical role of the \"In the Dark\" podcast in exposing flaws. It is highly likely 48 Hours covered this case, focusing on the repeated trials and eventual release.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "PROSECUTORIAL_MISCONDUCT",
+        "JAILHOUSE_INFORMANT",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Curtis",
+          "middleName": null,
+          "lastName": "Flowers",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1997,
+          "exonerationOrReleaseYear": 2020,
+          "timeServed": "Nearly 23 years (incarcerated from 1997-2020, mostly on death row)",
+          "sentence": "Death Penalty (in trials resulting in conviction)",
+          "caseLocationCity": "Winona",
+          "caseLocationCounty": null,
+          "caseLocationState": "Mississippi",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Curtis Flowers was tried six times for capital murder between 1997 and 2010, with multiple convictions overturned. He was exonerated in 2020 after serving nearly 23 years. His case was marked by persistent prosecutorial misconduct and was investigated by the \"In the Dark\" podcast.",
+          "contributingFactorCodes": [
+            "PROSECUTORIAL_MISCONDUCT",
+            "JAILHOUSE_INFORMANT",
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+          ],
+          "organizations": [
+            {
+              "name": "NAACP Legal Defense Fund",
+              "type": "LEGAL_AID"
+            },
+            {
+              "name": "Hogan Lovells (pro bono)",
+              "type": "OTHER"
+            },
+            {
+              "name": "Cornell Law School clinic",
+              "type": "UNIVERSITY"
+            },
+            {
+              "name": "APM Reports (\"In the Dark\")",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

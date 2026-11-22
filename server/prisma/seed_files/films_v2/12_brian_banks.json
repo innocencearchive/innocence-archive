@@ -1,0 +1,119 @@
+{
+  "sourceFiles": [
+    "9.24.brian_banks.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Brian Banks",
+    "workType": "FILM",
+    "creatorName": "Tom Shadyac",
+    "publicationOrReleaseYear": 2019,
+    "publisherOrNetwork": "ShivHans Pictures, Gidden Media (Distributed by Bleecker Street)",
+    "focusOrTheme": "The true story of Brian Banks, a promising high school football player whose life was upended by a wrongful conviction for rape, and his long fight for exoneration with the help of the California Innocence Project.",
+    "summaryNotes": "An All-American football star's dreams to play in the NFL are halted when he is falsely accused of rape and sent to prison. Years later, he fights to clear his name within an unjust system.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "535845",
+    "imagePath": "https://image.tmdb.org/t/p/w500/4MnCFcFHYAEMG4NBTUKvjhf5AhU.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Kanopy",
+      "watchmodeProviderId": 1522986,
+      "streamingType": "FREE",
+      "url": "https://www.kanopy.com/product/brian-banks",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Hoopla",
+      "watchmodeProviderId": 1522986,
+      "streamingType": "FREE",
+      "url": "https://www.hoopladigital.com/title/15128446?utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "MAX",
+      "watchmodeProviderId": 1522986,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://play.max.com/show/60916c34-2791-4e60-8bcf-605699b865fc?utm_source=universal_search",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "HBO (Via Hulu)",
+      "watchmodeProviderId": 1522986,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.hulu.com/watch/fae60290-4b61-4fec-a6d7-9df1a25e0bbd",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.24.brian_banks.json",
+      "itemTitle": "Brian Banks",
+      "itemNumber": null,
+      "itemMediaType": "FILM_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "The true story of Brian Banks, a promising high school football player whose life was upended by a wrongful conviction for rape, and his long fight for exoneration with the help of the California Innocence Project.",
+      "summaryNotes": "The film depicts the initial accusation against Brian Banks, his decision to take a plea deal, his struggles during incarceration and parole, the accuser's recantation, the legal battle led by the California Innocence Project, and his eventual exoneration and attempt to reclaim his life.",
+      "keyQuotes": "Specific quotes not found in search results.\n\nKey moments likely include the depiction of the initial accusation, the agonizing decision to take the plea deal, Banks's struggles while incarcerated and on parole, the accuser's recantation, the legal battle fought by the California Innocence Project, and Banks's eventual exoneration and attempt to reclaim his life/football career.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "PERJURY_OR_FALSE_ACCUSATION",
+        "INADEQUATE_LEGAL_DEFENSE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Brian",
+          "middleName": null,
+          "lastName": "Banks",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 2002,
+          "exonerationOrReleaseYear": 2012,
+          "timeServed": "Over 5 years in prison, plus 5 years on parole.",
+          "sentence": "Six years imprisonment (served ~5 years plus 5 years parole)",
+          "caseLocationCity": "Long Beach",
+          "caseLocationCounty": null,
+          "caseLocationState": "California",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Brian Banks was wrongfully convicted of kidnapping and rape in 2002 and exonerated in 2012. He served over 5 years in prison and 5 years on parole. His conviction was overturned due to a false accusation and pressure to accept a plea deal.",
+          "contributingFactorCodes": [
+            "PERJURY_OR_FALSE_ACCUSATION",
+            "INADEQUATE_LEGAL_DEFENSE"
+          ],
+          "organizations": [
+            {
+              "name": "California Innocence Project (CIP).",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Tom",
+          "middleName": null,
+          "lastName": "Shadyac",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

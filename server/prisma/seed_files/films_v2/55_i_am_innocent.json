@@ -1,0 +1,44 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "No TMDB poster imagePath in CSV."
+  ],
+  "mediaWork": {
+    "title": "I Am Innocent",
+    "workType": "DOCUSERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": 2017,
+    "publisherOrNetwork": "TVNZ, Warner Bros. International Television Production New Zealand",
+    "focusOrTheme": null,
+    "summaryNotes": "A New Zealand series that tells the stories of people who were wrongly convicted of crimes they did not commit.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "116525",
+    "imagePath": null,
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "I Am Innocent (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2017-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "A New Zealand series that tells the stories of people who were wrongly convicted of crimes they did not commit.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

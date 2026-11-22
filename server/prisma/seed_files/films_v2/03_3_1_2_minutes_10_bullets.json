@@ -1,0 +1,82 @@
+{
+  "sourceFiles": [
+    "9.33.three_half_minutes.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "0 wrongfully convicted individuals linked — verify whether this is a broader criminal-justice title or needs case links added."
+  ],
+  "mediaWork": {
+    "title": "3 ½ Minutes, 10 Bullets",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Marc Silver",
+    "publicationOrReleaseYear": 2015,
+    "publisherOrNetwork": "Participant Media/HBO",
+    "focusOrTheme": "Examines the 2012 shooting death of 17-year-old Jordan Davis by Michael Dunn, exploring the trial, \"Stand Your Ground\" law, and racial bias.",
+    "summaryNotes": "On Black Friday 2012, four boys in a red SUV rolled into a gas station after a day at the mall. A man with his fiancé, Michael Dunn, pulled up beside them. An altercation over loud music escalated into a tragedy.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "320349",
+    "imagePath": "https://image.tmdb.org/t/p/w500/x260Ft36AcquuEslxPfcZWCw3KV.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Kanopy",
+      "watchmodeProviderId": 13545,
+      "streamingType": "FREE",
+      "url": "https://www.kanopy.com/product/3-12-minutes-ten-bullets-0",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "MAX",
+      "watchmodeProviderId": 13545,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://play.max.com/show/4883cbaa-6c56-4123-ad08-ce47cb9dab75?utm_source=universal_search",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "HBO (Via Hulu)",
+      "watchmodeProviderId": 13545,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.hulu.com/watch/4c07dbb1-76d2-4b67-a6bb-3be2ec8b92b5",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.33.three_half_minutes.json",
+      "itemTitle": "3 ½ Minutes, 10 Bullets",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Examines the 2012 shooting death of 17-year-old Jordan Davis by Michael Dunn, exploring the trial, \"Stand Your Ground\" law, and racial bias.",
+      "summaryNotes": "Documentary examining the shooting death of Jordan Davis and the subsequent trial of Michael Dunn, highlighting issues of self-defense laws and racial bias.",
+      "keyQuotes": "Courtroom footage from Michael Dunn's trials\n\nInterviews with Jordan Davis's parents\n\nAnalysis of the \"Stand Your Ground\" law\n\nRecordings of Dunn's phone calls from jail",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "RACIAL_BIAS"
+      ],
+      "featuredIndividuals": [],
+      "involvedPersons": [
+        {
+          "firstName": "Marc",
+          "middleName": null,
+          "lastName": "Silver",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

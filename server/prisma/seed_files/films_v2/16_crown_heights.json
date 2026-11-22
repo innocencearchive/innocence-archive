@@ -1,0 +1,108 @@
+{
+  "sourceFiles": [
+    "9.14.crown_heights.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Crown Heights",
+    "workType": "FILM",
+    "creatorName": "Matt Ruskin",
+    "publicationOrReleaseYear": 2017,
+    "publisherOrNetwork": "Amazon Studios/IFC Films",
+    "focusOrTheme": "Wrongful conviction, perseverance of friendship/advocacy, flaws in eyewitness testimony.",
+    "summaryNotes": "In 1980, a teenager is gunned down in the streets of Flatbush, Brooklyn. The police pressure a child witness to identify a suspect. As a result, Colin Warner, an 18-year-old kid from nearby Crown Heights, is wrongfully convicted.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "425507",
+    "imagePath": "https://image.tmdb.org/t/p/w500/ksTHqOb8bPPdbIsZXHnWX3NrgfH.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Hoopla",
+      "watchmodeProviderId": 185025,
+      "streamingType": "FREE",
+      "url": "https://www.hoopladigital.com/title/12010718?utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Prime Video",
+      "watchmodeProviderId": 185025,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.d4b0150b-007d-66d5-182a-18ac6a4a6bbd",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.14.crown_heights.json",
+      "itemTitle": "Crown Heights",
+      "itemNumber": null,
+      "itemMediaType": "FILM_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful conviction, perseverance of friendship/advocacy, flaws in eyewitness testimony.",
+      "summaryNotes": "This film dramatizes the true story of Colin Warner's wrongful conviction based largely on faulty eyewitness testimony. It particularly highlights the extraordinary dedication of his friend, Carl King, who spent years learning the legal system, tracking down witnesses, and fighting to prove Warner's innocence, eventually succeeding.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "PERJURY_OR_FALSE_ACCUSATION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Colin",
+          "middleName": null,
+          "lastName": "Warner",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1982,
+          "exonerationOrReleaseYear": 2001,
+          "timeServed": "21 years",
+          "sentence": "15 years to life",
+          "caseLocationCity": "Crown Heights",
+          "caseLocationCounty": null,
+          "caseLocationState": "Brooklyn, New York",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted of murder in 1982 and exonerated in 2001 after serving 21 years. His conviction was vacated after a key witness recanted. The case occurred in Crown Heights, Brooklyn, New York.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Advocacy by Carl King",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Matt",
+          "middleName": null,
+          "lastName": "Ruskin",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "Carl",
+          "middleName": null,
+          "lastName": "King",
+          "suffix": null,
+          "role": "OTHER"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

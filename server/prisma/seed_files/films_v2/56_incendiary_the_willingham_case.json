@@ -1,0 +1,44 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "No TMDB poster imagePath in CSV."
+  ],
+  "mediaWork": {
+    "title": "Incendiary: The Willingham Case",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Steve Mims, Joe Bailey Jr.",
+    "publicationOrReleaseYear": 2011,
+    "publisherOrNetwork": null,
+    "focusOrTheme": null,
+    "summaryNotes": "In 1991, Cameron Todd Willingham's three daughters died in a Corsicana, Texas house fire. Tried and convicted for their arson murders, Willingham was executed in 2004 despite overwhelming evidence of his innocence.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "76801",
+    "imagePath": null,
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "Incendiary: The Willingham Case (Documentary)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2011-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "In 1991, Cameron Todd Willingham's three daughters died in a Corsicana, Texas house fire. Tried and convicted for their arson murders, Willingham was executed in 2004 despite overwhelming evidence of his innocence.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

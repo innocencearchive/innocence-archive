@@ -1,0 +1,28 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "WRONG TMDB MATCH: TMDB #67464 (\"Love, lust, murder, mystery, suspense...\") is NOT the MTV/Ryan Ferguson \"Unlocking the Truth\" docuseries, and has no poster.",
+    "No TMDB poster imagePath in CSV."
+  ],
+  "mediaWork": {
+    "title": "Unlocking the Truth",
+    "workType": "TV_SERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": 2016,
+    "publisherOrNetwork": "MTV, Embassy Row",
+    "focusOrTheme": null,
+    "summaryNotes": "Love, lust, murder, mystery, suspense...all the makings of a great dramatic story. The catch? It’s not a fictional story. It’s real life. This serialized documentary series follows the journey of alleged wrongfully convicted prisoners fighting for their freedom. We will navigate these cases in an effort to uncover the truth with the highest possible stakes – the lives and freedom of innocent people locked up for life, and the duty to honor the lives of those lost. This series takes an in-depth look into three criminal cases through the unique POV of Ryan Ferguson, who at 19 years old was convicted of a murder he didn’t commit",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "67464",
+    "imagePath": null,
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": []
+}

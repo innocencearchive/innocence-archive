@@ -1,0 +1,154 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "Editorial check: \"Forensic Files\" is a general true-crime forensics series (not wrongful-conviction focused)."
+  ],
+  "mediaWork": {
+    "title": "Forensic Files",
+    "workType": "TV_SERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": 1996,
+    "publisherOrNetwork": "Medstar Television",
+    "focusOrTheme": null,
+    "summaryNotes": "A series featuring real-life cases of how forensic science helps solve violent crimes, mysterious accidents, and outbreaks of illness.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "11105",
+    "imagePath": "https://image.tmdb.org/t/p/w500/k7zrsnodHEe3UUdwHG207rjdbrB.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Crackle",
+      "watchmodeProviderId": 343242,
+      "streamingType": "FREE",
+      "url": "https://www.crackle.com/watch/1a0f308c-cacf-42f7-b674-43bf90766857/forensic-files/best-foot-forward",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Peacock",
+      "watchmodeProviderId": 343242,
+      "streamingType": "FREE",
+      "url": "https://imp.i305175.net/c/1963504/846885/11640?utm_campaign=20200715takeflight&cid=20200715takeflight&u=https%3A%2F%2Fwww.peacocktv.com%2Fwatch%2Fasset%2Ftv%2Fforensic-files%2F7235452358594508112%2Fseasons%2F13%2Fepisodes%2Fbest-foot-forward-episode-50%2Fff381548-e577-3ed2-a389-a59801a20155",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Pluto TV",
+      "watchmodeProviderId": 343242,
+      "streamingType": "FREE",
+      "url": "https://pluto.tv/on-demand/series/forensic-files-las/season/13/episode/el-mejor-pie-adelante-2010-13-50-ptv1?utm_medium=deeplink&utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Tubi TV",
+      "watchmodeProviderId": 343242,
+      "streamingType": "FREE",
+      "url": "https://tubitv.com/tv-shows/626520",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "The Roku Channel",
+      "watchmodeProviderId": 343242,
+      "streamingType": "FREE",
+      "url": "https://therokuchannel.roku.com/watch/c1911dff284c59c086266c03428d0421?source=google",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Plex",
+      "watchmodeProviderId": 343242,
+      "streamingType": "FREE",
+      "url": "https://watch.plex.tv/show/forensic-files/season/13/episode/49?utm_source=&utm_medium=deeplink",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Amazon Freevee",
+      "watchmodeProviderId": 343242,
+      "streamingType": "FREE",
+      "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6eaa6a20-423b-6504-88c4-70396312247f?tag=&autoplay=1",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "The CW",
+      "watchmodeProviderId": 343242,
+      "streamingType": "FREE",
+      "url": "https://www.cwtv.com/shows/forensic-files/frozen-assets/?play=0b7a697e-2a82-49b0-998a-30774682d92f",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Hoopla",
+      "watchmodeProviderId": 343242,
+      "streamingType": "FREE",
+      "url": "https://www.hoopladigital.com/title/18027289?utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Fawesome",
+      "watchmodeProviderId": 343242,
+      "streamingType": "FREE",
+      "url": "https://fawesome.tv/tv-shows/10253336/season-14-episode-20-expert-witness?utm_source=Reelgood&utm_medium=RG",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Peacock Premium",
+      "watchmodeProviderId": 343242,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://imp.i305175.net/c/1963504/846885/11640?utm_campaign=20200715takeflight&cid=20200715takeflight&u=https%3A%2F%2Fwww.peacocktv.com%2Fwatch%2Fasset%2Ftv%2Fforensic-files%2F7235452358594508112%2Fseasons%2F13%2Fepisodes%2Fbest-foot-forward-episode-50%2Fff381548-e577-3ed2-a389-a59801a20155",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "fuboTV",
+      "watchmodeProviderId": 343242,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.fubo.tv/welcome/series/116034909/forensic-files/?irmp=1993008&irad=599307",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Prime Video",
+      "watchmodeProviderId": 343242,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.90aabda8-6458-960a-53a6-13cba0d3c8d0?tag=&autoplay=1",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Hulu",
+      "watchmodeProviderId": 343242,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.hulu.com/watch/ced2b67a-3fb9-4f8b-b2b1-f95c9024f581",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": []
+}

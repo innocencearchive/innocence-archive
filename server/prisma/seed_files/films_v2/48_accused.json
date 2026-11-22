@@ -1,0 +1,27 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "Editorial check: \"Accused\" (2010) is a fictional UK anthology drama rather than a real wrongful-conviction case."
+  ],
+  "mediaWork": {
+    "title": "Accused",
+    "workType": "TV_SERIES",
+    "creatorName": "Jimmy McGovern",
+    "publicationOrReleaseYear": 2010,
+    "publisherOrNetwork": "BBC",
+    "focusOrTheme": null,
+    "summaryNotes": "A series of standalone contemporary dramas, each episode focusing on a different character on trial in court, and telling the story of how they got there.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "32940",
+    "imagePath": "https://image.tmdb.org/t/p/w500/cNTmeTD26zh3IGmWbiByHdsk8Ky.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": []
+}

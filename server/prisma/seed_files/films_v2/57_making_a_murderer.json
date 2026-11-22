@@ -1,0 +1,52 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Making a Murderer",
+    "workType": "DOCUSERIES",
+    "creatorName": "Laura Ricciardi, Moira Demos",
+    "publicationOrReleaseYear": 2015,
+    "publisherOrNetwork": "Netflix",
+    "focusOrTheme": null,
+    "summaryNotes": "Filmed over 10 years, this real-life thriller follows a DNA exoneree who, while exposing corruption in local law enforcement, finds himself the prime suspect in a grisly new crime.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "64439",
+    "imagePath": "https://image.tmdb.org/t/p/w500/sy2nV3rCcJQaRK5M0NWvvTU7CBx.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Netflix",
+      "watchmodeProviderId": 374814,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.netflix.com/watch/80245013",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "Making a Murderer (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2015-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "Filmed over 10 years, this real-life thriller follows a DNA exoneree who, while exposing corruption in local law enforcement, finds himself the prime suspect in a grisly new crime.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Confession Tapes",
+    "workType": "DOCUSERIES",
+    "creatorName": "Kelly Loudenberg",
+    "publicationOrReleaseYear": 2017,
+    "publisherOrNetwork": "Netflix",
+    "focusOrTheme": null,
+    "summaryNotes": "A critical look into true crime cases where American law enforcement have conducted interrogations which have produced false confessions.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "73792",
+    "imagePath": "https://image.tmdb.org/t/p/w500/58y40dOqbUfUsurN2W12oZpGer4.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Netflix",
+      "watchmodeProviderId": 3120813,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.netflix.com/watch/81015041",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "The Confession Tapes (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2017-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "A critical look into true crime cases where American law enforcement have conducted interrogations which have produced false confessions.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

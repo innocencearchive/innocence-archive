@@ -1,0 +1,232 @@
+{
+  "sourceFiles": [
+    "9.1.the_farm.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Farm: Angola, USA",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Liz Garbus, Wilbert Rideau, Jonathan Stack",
+    "publicationOrReleaseYear": 1998,
+    "publisherOrNetwork": "Gabriel Films",
+    "focusOrTheme": "Life and death inside Louisiana State Penitentiary (Angola), perspectives of inmates serving long sentences (including life).",
+    "summaryNotes": "A look at the day-to-day lives of prisoners and guards at the Louisiana State Penitentiary, a former slave plantation with a violent past.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "113284",
+    "imagePath": "https://image.tmdb.org/t/p/w500/z45FQIGF6zPlTcmY2KIb1tPPxMI.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "AppleTV",
+      "watchmodeProviderId": 1390651,
+      "streamingType": "RENT",
+      "url": "https://tv.apple.com/us/movie/the-farm-angola-usa/umc.cmc.2hmgetw111dlq6g02bbzgn61d?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1005886804",
+      "priceAmount": 3.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "AppleTV",
+      "watchmodeProviderId": 1390651,
+      "streamingType": "BUY",
+      "url": "https://tv.apple.com/us/movie/the-farm-angola-usa/umc.cmc.2hmgetw111dlq6g02bbzgn61d?at=1000l3V2&ct=app_tv&itscg=30200&itsct=&playableId=tvs.sbd.9001%3A1005886804",
+      "priceAmount": 9.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.1.the_farm.json",
+      "itemTitle": "The Farm: Angola, USA",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Life and death inside Louisiana State Penitentiary (Angola), perspectives of inmates serving long sentences (including life).",
+      "summaryNotes": "This highly regarded documentary offers a powerful look inside Angola. While the theme of potential innocence exists (particularly with Vincent Simmons), the film is more broadly about the human experience within the prison, covering parole hearings, the prison hospice, the execution process, and daily life.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "INADEQUATE_LEGAL_DEFENSE",
+        "RACIAL_BIAS",
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "George",
+          "middleName": null,
+          "lastName": "Crawford",
+          "suffix": null,
+          "status": "CONVICTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1977,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "47+ years",
+          "sentence": "100 years without parole",
+          "caseLocationCity": "Louisiana",
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Featured in 'The Farm: Angola, USA'. Convicted of Aggravated Rape in 1977 and sentenced to 100 years without parole. Remained incarcerated as of recent reports.",
+          "contributingFactorCodes": [
+            "INADEQUATE_LEGAL_DEFENSE",
+            "RACIAL_BIAS",
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+          ],
+          "organizations": []
+        },
+        {
+          "firstName": "Ashanti",
+          "middleName": null,
+          "lastName": "Witherspoon",
+          "suffix": null,
+          "status": "CONVICTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1977,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "47+ years",
+          "sentence": "100 years without parole",
+          "caseLocationCity": "Louisiana",
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Featured in 'The Farm: Angola, USA'. Convicted of Aggravated Rape in 1977 and sentenced to 100 years without parole. Remained incarcerated as of recent reports.",
+          "contributingFactorCodes": [
+            "INADEQUATE_LEGAL_DEFENSE",
+            "RACIAL_BIAS",
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+          ],
+          "organizations": []
+        },
+        {
+          "firstName": "Bishop",
+          "middleName": "Eugene",
+          "lastName": "Tanniehill",
+          "suffix": null,
+          "status": "CONVICTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1977,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "47+ years",
+          "sentence": "100 years without parole",
+          "caseLocationCity": "Louisiana",
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Featured in 'The Farm: Angola, USA'. Convicted of Aggravated Rape in 1977 and sentenced to 100 years without parole. Remained incarcerated as of recent reports.",
+          "contributingFactorCodes": [
+            "INADEQUATE_LEGAL_DEFENSE",
+            "RACIAL_BIAS",
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+          ],
+          "organizations": []
+        },
+        {
+          "firstName": "John",
+          "middleName": null,
+          "lastName": "Brown",
+          "suffix": null,
+          "status": "CONVICTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1977,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "47+ years",
+          "sentence": "100 years without parole",
+          "caseLocationCity": "Louisiana",
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Featured in 'The Farm: Angola, USA'. Convicted of Aggravated Rape in 1977 and sentenced to 100 years without parole. Remained incarcerated as of recent reports.",
+          "contributingFactorCodes": [
+            "INADEQUATE_LEGAL_DEFENSE",
+            "RACIAL_BIAS",
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+          ],
+          "organizations": []
+        },
+        {
+          "firstName": "Vincent",
+          "middleName": null,
+          "lastName": "Simmons",
+          "suffix": null,
+          "status": "CONVICTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1977,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "47+ years",
+          "sentence": "100 years without parole",
+          "caseLocationCity": "Louisiana",
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Featured in 'The Farm: Angola, USA'. Convicted of Aggravated Rape in 1977 and sentenced to 100 years without parole. Maintains his innocence and alleges inadequate defense, racial bias, and flawed identification procedures. Remained incarcerated as of recent reports.",
+          "contributingFactorCodes": [
+            "INADEQUATE_LEGAL_DEFENSE",
+            "RACIAL_BIAS",
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+          ],
+          "organizations": []
+        },
+        {
+          "firstName": "Logan",
+          "middleName": null,
+          "lastName": "McGuinness",
+          "suffix": null,
+          "status": "CONVICTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Sexual Assault",
+          "convictionYear": 1977,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "47+ years",
+          "sentence": "100 years without parole",
+          "caseLocationCity": "Louisiana",
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Featured in 'The Farm: Angola, USA'. Convicted of Aggravated Rape in 1977 and sentenced to 100 years without parole. Remained incarcerated as of recent reports.",
+          "contributingFactorCodes": [
+            "INADEQUATE_LEGAL_DEFENSE",
+            "RACIAL_BIAS",
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+          ],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Liz",
+          "middleName": null,
+          "lastName": "Garbus",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "Jonathan",
+          "middleName": null,
+          "lastName": "Stack",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "Wilbert",
+          "middleName": null,
+          "lastName": "Rideau",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

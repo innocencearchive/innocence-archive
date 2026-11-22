@@ -1,0 +1,86 @@
+{
+  "sourceFiles": [
+    "9.13.time_simply_passes.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Time Simply Passes",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Ty Flowers",
+    "publicationOrReleaseYear": 2015,
+    "publisherOrNetwork": null,
+    "focusOrTheme": "Wrongful conviction, racial injustice in the Jim Crow South, prosecutorial misconduct.",
+    "summaryNotes": "The story of James Joseph Richardson, a Florida man who spent 21 years in prison for the 1967 poisoning deaths of his seven children, a crime for which he was later exonerated.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "566329",
+    "imagePath": "https://image.tmdb.org/t/p/w500/7fgvL5zU3lRPhNtVX5Hn3rJJfRO.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.13.time_simply_passes.json",
+      "itemTitle": "Time Simply Passes",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful conviction, racial injustice in the Jim Crow South, prosecutorial misconduct.",
+      "summaryNotes": "The film covers the tragic case of James Richardson, convicted of killing his children based on flimsy evidence in racially charged 1960s Florida. His conviction was thrown out decades later when evidence withheld by the prosecution came to light, strongly suggesting a neighbor was responsible. Despite widespread belief in his innocence, he was never formally exonerated by the state.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "RACIAL_BIAS",
+        "JAILHOUSE_INFORMANT",
+        "WITHHELD_EXCULPATORY_EVIDENCE",
+        "PROSECUTORIAL_MISCONDUCT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "James",
+          "middleName": "Joseph",
+          "lastName": "Richardson",
+          "suffix": null,
+          "status": "CONVICTION_OVERTURNED",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1968,
+          "exonerationOrReleaseYear": 1989,
+          "timeServed": "21 years",
+          "sentence": "Death Penalty (later commuted to Life)",
+          "caseLocationCity": "Arcadia",
+          "caseLocationCounty": null,
+          "caseLocationState": "DeSoto County, Florida",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "James Joseph Richardson was wrongfully convicted of poisoning his seven children and spent 21 years in prison. His conviction was overturned due to withheld evidence, but he was never formally exonerated. The case highlights racial bias and prosecutorial misconduct.",
+          "contributingFactorCodes": [
+            "RACIAL_BIAS",
+            "JAILHOUSE_INFORMANT",
+            "WITHHELD_EXCULPATORY_EVIDENCE",
+            "PROSECUTORIAL_MISCONDUCT"
+          ],
+          "organizations": [
+            {
+              "name": "Legal team led by Mark Lane (post-conviction).",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Ty",
+          "middleName": null,
+          "lastName": "Flowers",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

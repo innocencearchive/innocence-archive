@@ -1,0 +1,42 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Exhibit A",
+    "workType": "DOCUSERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": 2019,
+    "publisherOrNetwork": "Netflix, Trilogy Films",
+    "focusOrTheme": null,
+    "summaryNotes": "This true crime series shows how innocent people have been convicted with dubious forensic techniques and tools such as touch DNA and cadaver dogs.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "90725",
+    "imagePath": "https://image.tmdb.org/t/p/w500/wCsmw3zXm6omNhGRCEGoRhCd4iu.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "Exhibit A (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2019-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "This true crime series shows how innocent people have been convicted with dubious forensic techniques and tools such as touch DNA and cadaver dogs.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

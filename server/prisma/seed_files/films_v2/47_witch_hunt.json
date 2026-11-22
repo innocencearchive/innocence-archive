@@ -1,0 +1,266 @@
+{
+  "sourceFiles": [
+    "9.35.witch_hunt.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Witch Hunt",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Dana Nachman, Don Hardy",
+    "publicationOrReleaseYear": 2008,
+    "publisherOrNetwork": "KTF Films",
+    "focusOrTheme": "Examines the Bakersfield/Kern County child abuse cases of the 1980s, where dozens of people (mostly parents and daycare workers) were accused and convicted of bizarre ritualistic abuse amid the \"Satanic Panic.\" Narrated by Sean Penn, it highlights the mass hysteria and resulting wrongful convictions.",
+    "summaryNotes": "A look at the hysteria that occurred in Bakersfield, California in the 1980s, where dozens of people were accused of child molestation and ritual abuse, leading to numerous wrongful convictions.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "43734",
+    "imagePath": "https://image.tmdb.org/t/p/w500/d48eaPyxqVrFgHgI35GF0SkSFxF.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Amazon",
+      "watchmodeProviderId": 1470381,
+      "streamingType": "RENT",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.20a9f756-4ed8-27e2-b490-1a8007f3f145",
+      "priceAmount": 3.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Amazon",
+      "watchmodeProviderId": 1470381,
+      "streamingType": "BUY",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.20a9f756-4ed8-27e2-b490-1a8007f3f145",
+      "priceAmount": 19.98,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.35.witch_hunt.json",
+      "itemTitle": "Witch Hunt",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": "Sean Penn",
+      "focusOrTheme": "Examines the Bakersfield/Kern County child abuse cases of the 1980s, where dozens of people (mostly parents and daycare workers) were accused and convicted of bizarre ritualistic abuse amid the \"Satanic Panic.\"",
+      "summaryNotes": "The documentary features interviews with wrongfully convicted individuals and their families, archival footage from the era, analysis of flawed investigative techniques, and commentary on the \"Satanic Panic\" phenomenon. It explores the mass hysteria and resulting wrongful convictions in Bakersfield/Kern County.",
+      "keyQuotes": "Likely features interviews with the wrongfully convicted individuals and their families, archival footage from the era, analysis of the flawed investigative techniques, and commentary on the \"Satanic Panic\" phenomenon. Sean Penn's narration provides context.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MEDIA_SENSATIONALISM",
+        "UNRELIABLE_WITNESS",
+        "PROSECUTORIAL_MISCONDUCT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Multiple",
+          "middleName": null,
+          "lastName": "individuals wrongfully convicted in the Kern County cases",
+          "suffix": null,
+          "status": "CONVICTION_OVERTURNED",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Child Sex Abuse",
+          "convictionYear": 1984,
+          "exonerationOrReleaseYear": 1996,
+          "timeServed": "Many served years, sometimes over a decade, in prison.",
+          "sentence": "Extremely long sentences initially imposed.",
+          "caseLocationCity": "Kern County (Bakersfield area)",
+          "caseLocationCounty": null,
+          "caseLocationState": "California",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Multiple individuals were wrongfully convicted in Kern County in the mid-1980s, primarily for child sexual abuse based on flawed investigations and mass hysteria.  Many convictions were overturned in the mid-1990s after years of imprisonment. The cases highlight the dangers of moral panic and unreliable child testimony.",
+          "contributingFactorCodes": [
+            "MEDIA_SENSATIONALISM",
+            "UNRELIABLE_WITNESS",
+            "PROSECUTORIAL_MISCONDUCT"
+          ],
+          "organizations": [
+            {
+              "name": "Various defense attorneys",
+              "type": "OTHER"
+            },
+            {
+              "name": "Appellate courts",
+              "type": "GOVERNMENT_AGENCY"
+            }
+          ]
+        },
+        {
+          "firstName": "Alvin",
+          "middleName": null,
+          "lastName": "McCuan",
+          "suffix": null,
+          "status": "CONVICTION_OVERTURNED",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Child Sex Abuse",
+          "convictionYear": 1984,
+          "exonerationOrReleaseYear": 1996,
+          "timeServed": "Many served years, sometimes over a decade, in prison.",
+          "sentence": "Extremely long sentences initially imposed.",
+          "caseLocationCity": "Kern County (Bakersfield area)",
+          "caseLocationCounty": null,
+          "caseLocationState": "California",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Alvin McCuan was wrongfully convicted of child sexual abuse in Kern County in 1984, amidst the \"Satanic Panic\".  He served time in prison before his conviction was overturned in 1996. The case highlights the dangers of mass hysteria and flawed investigation techniques.",
+          "contributingFactorCodes": [
+            "MEDIA_SENSATIONALISM",
+            "UNRELIABLE_WITNESS",
+            "PROSECUTORIAL_MISCONDUCT"
+          ],
+          "organizations": [
+            {
+              "name": "Various defense attorneys",
+              "type": "OTHER"
+            },
+            {
+              "name": "Appellate courts",
+              "type": "GOVERNMENT_AGENCY"
+            }
+          ]
+        },
+        {
+          "firstName": "Debbie",
+          "middleName": null,
+          "lastName": "McCuan",
+          "suffix": null,
+          "status": "CONVICTION_OVERTURNED",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Child Sex Abuse",
+          "convictionYear": 1984,
+          "exonerationOrReleaseYear": 1996,
+          "timeServed": "Many served years, sometimes over a decade, in prison.",
+          "sentence": "Extremely long sentences initially imposed.",
+          "caseLocationCity": "Kern County (Bakersfield area)",
+          "caseLocationCounty": null,
+          "caseLocationState": "California",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Debbie McCuan was wrongfully convicted of child sexual abuse in Kern County in 1984, amidst the \"Satanic Panic\". She served time in prison before her conviction was overturned in 1996. The case highlights the dangers of mass hysteria and flawed investigation techniques.",
+          "contributingFactorCodes": [
+            "MEDIA_SENSATIONALISM",
+            "UNRELIABLE_WITNESS",
+            "PROSECUTORIAL_MISCONDUCT"
+          ],
+          "organizations": [
+            {
+              "name": "Various defense attorneys",
+              "type": "OTHER"
+            },
+            {
+              "name": "Appellate courts",
+              "type": "GOVERNMENT_AGENCY"
+            }
+          ]
+        },
+        {
+          "firstName": "Scott",
+          "middleName": null,
+          "lastName": "Kniffen",
+          "suffix": null,
+          "status": "CONVICTION_OVERTURNED",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Child Sex Abuse",
+          "convictionYear": 1984,
+          "exonerationOrReleaseYear": 1996,
+          "timeServed": "Many served years, sometimes over a decade, in prison.",
+          "sentence": "Extremely long sentences initially imposed.",
+          "caseLocationCity": "Kern County (Bakersfield area)",
+          "caseLocationCounty": null,
+          "caseLocationState": "California",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Scott Kniffen was wrongfully convicted of child sexual abuse in Kern County in 1984, amidst the \"Satanic Panic\". He served time in prison before his conviction was overturned in 1996. The case highlights the dangers of mass hysteria and flawed investigation techniques.",
+          "contributingFactorCodes": [
+            "MEDIA_SENSATIONALISM",
+            "UNRELIABLE_WITNESS",
+            "PROSECUTORIAL_MISCONDUCT"
+          ],
+          "organizations": [
+            {
+              "name": "Various defense attorneys",
+              "type": "OTHER"
+            },
+            {
+              "name": "Appellate courts",
+              "type": "GOVERNMENT_AGENCY"
+            }
+          ]
+        },
+        {
+          "firstName": "Brenda",
+          "middleName": null,
+          "lastName": "Kniffen",
+          "suffix": null,
+          "status": "CONVICTION_OVERTURNED",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Child Sex Abuse",
+          "convictionYear": 1984,
+          "exonerationOrReleaseYear": 1996,
+          "timeServed": "Many served years, sometimes over a decade, in prison.",
+          "sentence": "Extremely long sentences initially imposed.",
+          "caseLocationCity": "Kern County (Bakersfield area)",
+          "caseLocationCounty": null,
+          "caseLocationState": "California",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Brenda Kniffen was wrongfully convicted of child sexual abuse in Kern County in 1984, amidst the \"Satanic Panic\". She served time in prison before her conviction was overturned in 1996. The case highlights the dangers of mass hysteria and flawed investigation techniques.",
+          "contributingFactorCodes": [
+            "MEDIA_SENSATIONALISM",
+            "UNRELIABLE_WITNESS",
+            "PROSECUTORIAL_MISCONDUCT"
+          ],
+          "organizations": [
+            {
+              "name": "Various defense attorneys",
+              "type": "OTHER"
+            },
+            {
+              "name": "Appellate courts",
+              "type": "GOVERNMENT_AGENCY"
+            }
+          ]
+        },
+        {
+          "firstName": "potentially",
+          "middleName": null,
+          "lastName": "others featured in the documentary",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": null,
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Potentially, other individuals were featured in the documentary.",
+          "contributingFactorCodes": [],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Don",
+          "middleName": null,
+          "lastName": "Hardy",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "Dana",
+          "middleName": null,
+          "lastName": "Nachman",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

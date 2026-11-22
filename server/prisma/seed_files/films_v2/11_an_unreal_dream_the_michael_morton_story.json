@@ -1,0 +1,117 @@
+{
+  "sourceFiles": [
+    "9.28.michael_morton.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "An Unreal Dream: The Michael Morton Story",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Al Reinert",
+    "publicationOrReleaseYear": 2013,
+    "publisherOrNetwork": "Blue Bandana Productions, Glass House Productions, La Sonrisa Productions Inc. (A CNN Films documentary)",
+    "focusOrTheme": "The wrongful conviction of Michael Morton for the 1986 murder of his wife, Christine, in Texas. Chronicles his nearly 25 years in prison and his eventual exoneration through DNA testing, highlighting severe prosecutorial misconduct.",
+    "summaryNotes": "The story of Michael Morton, who was wrongfully convicted in 1987 for the murder of his wife and served 25 years in prison.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "173192",
+    "imagePath": "https://image.tmdb.org/t/p/w500/tuuse3PuibyIwDUx6xeoZRa4GbZ.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Kanopy",
+      "watchmodeProviderId": 127471,
+      "streamingType": "FREE",
+      "url": "https://www.kanopy.com/product/unreal-dream-michael-morton-story",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.28.michael_morton.json",
+      "itemTitle": "An Unreal Dream: The Michael Morton Story",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "The wrongful conviction of Michael Morton for the 1986 murder of his wife, Christine, in Texas. Chronicles his nearly 25 years in prison and his eventual exoneration through DNA testing, highlighting severe prosecutorial misconduct.",
+      "summaryNotes": "Chronicles Michael Morton's wrongful conviction for the murder of his wife, his nearly 25 years in prison, and his eventual exoneration through DNA testing. The documentary highlights severe prosecutorial misconduct and the impact on Morton's relationship with his son.",
+      "keyQuotes": "Interviews with Michael Morton reflecting on his experience\n\nAttorney John Raley discussing the legal fight\n\nDetails of the withheld evidence\n\nThe moment of exoneration\n\nDiscussion of the impact on Morton's relationship with his son\n\nQuote often associated with the title/case (from Judge Learned Hand): \"'Our procedure has been always haunted by the ghost of the innocent man convicted. It is an unreal dream.'\"",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "WITHHELD_EXCULPATORY_EVIDENCE",
+        "PROSECUTORIAL_MISCONDUCT",
+        "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Michael",
+          "middleName": null,
+          "lastName": "Morton",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1987,
+          "exonerationOrReleaseYear": 2011,
+          "timeServed": "Nearly 25 years",
+          "sentence": "Life imprisonment",
+          "caseLocationCity": "Williamson County",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted of the murder of his wife, Christine Morton, in Williamson County, Texas. He served nearly 25 years in prison before being exonerated in 2011 through DNA testing. The case involved prosecutorial misconduct and flawed investigation.",
+          "contributingFactorCodes": [
+            "WITHHELD_EXCULPATORY_EVIDENCE",
+            "PROSECUTORIAL_MISCONDUCT",
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project (New York)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Houston attorney John Raley",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Al",
+          "middleName": null,
+          "lastName": "Reinert",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "John",
+          "middleName": null,
+          "lastName": "Dean",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "Nellie",
+          "middleName": null,
+          "lastName": "Gonzalez",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.innocenceproject.org/",
+          "description": "The Innocence Project website."
+        }
+      ]
+    }
+  ]
+}

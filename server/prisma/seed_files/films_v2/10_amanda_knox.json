@@ -1,0 +1,107 @@
+{
+  "sourceFiles": [
+    "9.25.amanda_knox.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Amanda Knox",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Rod Blackhurst, Brian McGinn",
+    "publicationOrReleaseYear": 2016,
+    "publisherOrNetwork": "Plus Pictures (Distributed by Netflix)",
+    "focusOrTheme": "The case of Amanda Knox, an American student accused, convicted, and ultimately exonerated for the 2007 murder of her roommate Meredith Kercher in Perugia, Italy. Explores the intense media scrutiny, controversial evidence, and complexities of the Italian justice system.",
+    "summaryNotes": "Twice convicted and twice acquitted by Italian courts for the 2007 murder of her British roommate Meredith Kercher, Amanda Knox became the subject of global speculation as non-stop media attention fed the public's fascination.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "411009",
+    "imagePath": "https://image.tmdb.org/t/p/w500/he85BGyoCi42KWtwkC2sXlqdkWQ.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Netflix",
+      "watchmodeProviderId": 124666,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.netflix.com/title/80081155",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.25.amanda_knox.json",
+      "itemTitle": "Amanda Knox",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "The case of Amanda Knox, an American student accused, convicted, and ultimately exonerated for the 2007 murder of her roommate Meredith Kercher in Perugia, Italy. Explores the intense media scrutiny, controversial evidence, and complexities of the Italian justice system.",
+      "summaryNotes": "Documentary about Amanda Knox, an American student accused, convicted, and ultimately exonerated for the murder of Meredith Kercher in Italy. Explores media scrutiny, controversial evidence, and the Italian justice system.",
+      "keyQuotes": "Likely features interviews with Knox, co-defendant Raffaele Sollecito, prosecutors, journalists, and archival footage of the media frenzy and trials.\n\nKnox reflecting on being seen as either a \"psychopath in sheep's clothing\" or \"you.\"",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MEDIA_SENSATIONALISM",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "PROSECUTORIAL_MISCONDUCT",
+        "TUNNEL_VISION_RUSH_TO_JUDGMENT",
+        "FALSE_CONFESSION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Amanda",
+          "middleName": null,
+          "lastName": "Knox",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 2009,
+          "exonerationOrReleaseYear": 2015,
+          "timeServed": "Nearly 4 years.",
+          "sentence": "Initially 26 years.",
+          "caseLocationCity": "Perugia",
+          "caseLocationCounty": null,
+          "caseLocationState": "Italy",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Amanda Knox was convicted of the murder of Meredith Kercher in Perugia, Italy, in 2009. Her conviction was overturned in 2011, reinstated in 2014, and definitively overturned in 2015. She spent nearly 4 years in prison before her final exoneration.",
+          "contributingFactorCodes": [
+            "MEDIA_SENSATIONALISM",
+            "FALSE_CONFESSION",
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project (Knox is now affiliated)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Various legal teams in Italy and supporters in the US",
+              "type": "SUPPORT_GROUP"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Rod",
+          "middleName": null,
+          "lastName": "Blackhurst",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "Brian",
+          "middleName": null,
+          "lastName": "McGinn",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "sourceFiles": [
+    "9.37.west_of_memphis.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "West of Memphis",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Amy Berg",
+    "publicationOrReleaseYear": 2012,
+    "publisherOrNetwork": "WingNut Films, Disarming Films",
+    "focusOrTheme": "An in-depth investigation into the case of the West Memphis Three (Damien Echols, Jason Baldwin, Jessie Misskelley Jr.), arguing their innocence in the 1993 murders of three young boys in West Memphis, Arkansas. Presents new evidence and theories about the actual killer, going beyond the scope of the earlier \"Paradise Lost\" trilogy. Produced by Peter Jackson and Fran Walsh, who funded further investigation into the case.",
+    "summaryNotes": "An examination of a failure of justice in the case of Damien Echols, Jason Baldwin, and Jessie Misskelley Jr. - three young men who were arrested for the 1993 murders of three children in West Memphis, Arkansas.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "84351",
+    "imagePath": "https://image.tmdb.org/t/p/w500/468k7zjR95COOXcMLxE5GbXjerQ.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Tubi TV",
+      "watchmodeProviderId": 1465001,
+      "streamingType": "FREE",
+      "url": "https://tubitv.com/movies/663432",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.37.west_of_memphis.json",
+      "itemTitle": "West of Memphis",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "An in-depth investigation into the case of the West Memphis Three (Damien Echols, Jason Baldwin, Jessie Misskelley Jr.), arguing their innocence in the 1993 murders of three young boys in West Memphis, Arkansas. Presents new evidence and theories about the actual killer, going beyond the scope of the earlier \"Paradise Lost\" trilogy. Produced by Peter Jackson and Fran Walsh, who funded further investigation into the case.",
+      "summaryNotes": "The documentary investigates the wrongful convictions of Damien Echols, Jason Baldwin, and Jessie Misskelley Jr., known as the West Memphis Three, for the 1993 murders of three young boys. It presents new evidence and theories, contrasting with the initial trials and the 'Paradise Lost' films.",
+      "keyQuotes": "Likely features interviews with Echols, Baldwin, Misskelley Jr., their families, lawyers, supporters (like Peter Jackson, Eddie Vedder), forensic experts.\n\nPresentation of new DNA evidence found at the scene (not matching the WM3) and evidence pointing towards Terry Hobbs (stepfather of one victim) as a potential suspect.\n\nContrasts with the narrative presented in the initial trials and the \"Paradise Lost\" films.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MEDIA_SENSATIONALISM",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "PROSECUTORIAL_MISCONDUCT",
+        "INADEQUATE_LEGAL_DEFENSE",
+        "COERCED_PLEA",
+        "FALSE_CONFESSION",
+        "POLICE_MISCONDUCT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Damien",
+          "middleName": null,
+          "lastName": "Echols",
+          "suffix": null,
+          "status": "RELEASED_ALFORD_PLEA",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1994,
+          "exonerationOrReleaseYear": 2011,
+          "timeServed": "Over 18 years.",
+          "sentence": "Death",
+          "caseLocationCity": "West Memphis",
+          "caseLocationCounty": null,
+          "caseLocationState": "Arkansas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of capital murder in 1994 and sentenced to death, he was released in 2011 after serving over 18 years via an Alford Plea. The case was influenced by 'Satanic Panic' and alleged misconduct. Supporters and legal teams, funded by Peter Jackson & Fran Walsh, contributed to new investigations.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION",
+            "MEDIA_SENSATIONALISM",
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+            "PROSECUTORIAL_MISCONDUCT",
+            "POLICE_MISCONDUCT",
+            "INADEQUATE_LEGAL_DEFENSE"
+          ],
+          "organizations": [
+            {
+              "name": "Numerous supporters and legal teams over the years",
+              "type": "SUPPORT_GROUP"
+            },
+            {
+              "name": "Efforts funded by Peter Jackson & Fran Walsh significantly contributed to new investigations presented in the film.",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Jason",
+          "middleName": null,
+          "lastName": "Baldwin",
+          "suffix": null,
+          "status": "RELEASED_ALFORD_PLEA",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1994,
+          "exonerationOrReleaseYear": 2011,
+          "timeServed": "Over 18 years.",
+          "sentence": "Life imprisonment",
+          "caseLocationCity": "West Memphis",
+          "caseLocationCounty": null,
+          "caseLocationState": "Arkansas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of first-degree murder in 1994 and sentenced to life imprisonment, he was released in 2011 after serving over 18 years via an Alford Plea. The case was influenced by 'Satanic Panic' and alleged misconduct. Supporters and legal teams, funded by Peter Jackson & Fran Walsh, contributed to new investigations.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION",
+            "MEDIA_SENSATIONALISM",
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+            "PROSECUTORIAL_MISCONDUCT",
+            "POLICE_MISCONDUCT",
+            "INADEQUATE_LEGAL_DEFENSE"
+          ],
+          "organizations": [
+            {
+              "name": "Numerous supporters and legal teams over the years",
+              "type": "SUPPORT_GROUP"
+            },
+            {
+              "name": "Efforts funded by Peter Jackson & Fran Walsh significantly contributed to new investigations presented in the film.",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Jessie",
+          "middleName": null,
+          "lastName": "Misskelley",
+          "suffix": null,
+          "status": "RELEASED_ALFORD_PLEA",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1994,
+          "exonerationOrReleaseYear": 2011,
+          "timeServed": "Over 18 years.",
+          "sentence": "Life imprisonment",
+          "caseLocationCity": "West Memphis",
+          "caseLocationCounty": null,
+          "caseLocationState": "Arkansas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of first-degree murder in 1994 and sentenced to life imprisonment, he was released in 2011 after serving over 18 years via an Alford Plea. The case was influenced by 'Satanic Panic' and alleged misconduct. Supporters and legal teams, funded by Peter Jackson & Fran Walsh, contributed to new investigations.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION",
+            "MEDIA_SENSATIONALISM",
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+            "PROSECUTORIAL_MISCONDUCT",
+            "POLICE_MISCONDUCT",
+            "INADEQUATE_LEGAL_DEFENSE"
+          ],
+          "organizations": [
+            {
+              "name": "Numerous supporters and legal teams over the years",
+              "type": "SUPPORT_GROUP"
+            },
+            {
+              "name": "Efforts funded by Peter Jackson & Fran Walsh significantly contributed to new investigations presented in the film.",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Amy",
+          "middleName": null,
+          "lastName": "Berg",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

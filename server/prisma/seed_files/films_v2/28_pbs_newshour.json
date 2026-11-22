@@ -1,0 +1,99 @@
+{
+  "sourceFiles": [
+    "8.1.broken_justice.json",
+    "8.2.life_after_exoneration.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Normalized parenthetical series title from legacy JSON (\"Broken Justice (PBS NewsHour Report)\" -> \"PBS NewsHour\").",
+    "Skipped placeholder/invalid individual \"Various exonerees\" from 8.1.broken_justice.json."
+  ],
+  "mediaWork": {
+    "title": "PBS NewsHour",
+    "workType": "TV_SERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": 1975,
+    "publisherOrNetwork": "NewsHour Productions LLC",
+    "focusOrTheme": "Structural flaws in the US criminal justice system leading to wrongful convictions (underfunded defense, prosecutorial misconduct, flawed forensics).",
+    "summaryNotes": "America's first hour-long nightly news broadcast. Delivers in-depth analysis of current events with a news summary, live interviews, and discussions of domestic and international issues.",
+    "availabilityNotes": "Available via PBS.",
+    "sourceUrl": null,
+    "externalId": "1655",
+    "imagePath": "https://image.tmdb.org/t/p/w500/rhd0rmg0dd4foBJJxiPzFKLon89.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "8.1.broken_justice.json",
+      "itemTitle": "Information Unavailable",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Structural flaws in the US criminal justice system leading to wrongful convictions (underfunded defense, prosecutorial misconduct, flawed forensics).",
+      "summaryNotes": "This multi-part series examines various systemic aspects contributing to wrongful convictions. Searches did not identify a specific PBS NewsHour series titled \"Broken Justice\" covering wrongful convictions, but PBS NewsHour covers criminal justice issues frequently.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [
+        {
+          "firstName": "Information",
+          "middleName": null,
+          "lastName": "Unavailable",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "8.2.life_after_exoneration.json",
+      "itemTitle": "Life After Exoneration",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Challenges faced by exonerees after release (reintegration, lack of support/compensation, psychological impact).",
+      "summaryNotes": "Searches did not identify specific PBS NewsHour segments titled \"Life After Exoneration\" featuring multiple exonerees discussing reintegration. While NewsHour has certainly covered the topic of post-exoneration challenges, this specific segment title wasn't confirmed. Details rely on the `film_list.txt` entry and explores lack of support systems and difficulties exonerees face rebuilding lives.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [
+        {
+          "firstName": "Multiple",
+          "middleName": null,
+          "lastName": "exonerees",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": null,
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "The segment features multiple exonerees. Their cases and time served are not specified in the provided research notes. The focus is on their post-exoneration challenges.",
+          "contributingFactorCodes": [],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Information",
+          "middleName": null,
+          "lastName": "Unavailable",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "Editorial check: \"Stephen\" (2021) is a UK drama about the Stephen Lawrence murder investigation, not a wrongful conviction."
+  ],
+  "mediaWork": {
+    "title": "Stephen",
+    "workType": "TV_SERIES",
+    "creatorName": "Alrick Riley",
+    "publicationOrReleaseYear": 2021,
+    "publisherOrNetwork": "ITV Studios, Hat Trick Mercurio Productions, Baby Cow Productions",
+    "focusOrTheme": null,
+    "summaryNotes": "Follows the ongoing struggle by Doreen and Neville Lawrence to achieve justice and how a detective, DCI Clive Driscoll - working closely with the Lawrences - puts together an investigation that finally - more than 18 years after his death - secures the convictions of two of the gang who committed the murder of Stephen.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "132378",
+    "imagePath": "https://image.tmdb.org/t/p/w500/30OTnJgOzmY4vEqr5H12TpPGPAD.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Acorn TV",
+      "watchmodeProviderId": 542654,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://acorn.tv/conviction?season_id=conviction01&episode_id=AMD1102003",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Acorn TV (Via Amazon Prime)",
+      "watchmodeProviderId": 542654,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.14acc1a9-423b-4905-9661-0f957e9c93c1?tag=&autoplay=1",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Hoopla",
+      "watchmodeProviderId": 542654,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.hoopladigital.com/title/15325113?episode=15325113",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Britbox",
+      "watchmodeProviderId": 542654,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.britbox.com/us/watch/The_Conviction_The_Case_of_Stephen_Lawrence_S1_E1_p0hd24vw",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Britbox (Via Amazon Prime)",
+      "watchmodeProviderId": 542654,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.dba6c81a-7b66-4066-80e6-de11c1b2b6c4?tag=&autoplay=1",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Spectrum On Demand",
+      "watchmodeProviderId": 542654,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://ondemand.spectrum.net/tv/acorn-tv/20535407/conviction-the-case-of-stephen-lawrence/",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": []
+}

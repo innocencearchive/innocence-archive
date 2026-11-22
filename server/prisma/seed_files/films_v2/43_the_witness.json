@@ -1,0 +1,132 @@
+{
+  "sourceFiles": [
+    "9.22.witness.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "0 wrongfully convicted individuals linked — verify whether this is a broader criminal-justice title or needs case links added."
+  ],
+  "mediaWork": {
+    "title": "The Witness",
+    "workType": "DOCUMENTARY",
+    "creatorName": "James Solomon",
+    "publicationOrReleaseYear": 2015,
+    "publisherOrNetwork": "The Witnesses LLC",
+    "focusOrTheme": "Follows Bill Genovese, brother of murder victim Kitty Genovese, as he investigates her 1964 murder decades later. Critically re-examines the famous \"38 witnesses watched and did nothing\" narrative (the bystander effect) popularized by The New York Times. Explores the lasting trauma on the victim's family and the search for truth behind a crime myth.",
+    "summaryNotes": "In 1964, Kitty Genovese was repeatedly stabbed on a street in Queens, New York. Soon after, the media reported that 38 witnesses watched her murder and did nothing to help. This film follows the efforts of Kitty’s brother to uncover the truth.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "356332",
+    "imagePath": "https://image.tmdb.org/t/p/w500/6dtcCLAsIfQaqrjtLoO3qjF3sDK.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Kanopy",
+      "watchmodeProviderId": 1428274,
+      "streamingType": "FREE",
+      "url": "https://www.kanopy.com/product/witness-0",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Amazon Freevee",
+      "watchmodeProviderId": 1428274,
+      "streamingType": "FREE",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.ad6e430d-5951-409a-90d0-8a4783e4927c",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "VUDU",
+      "watchmodeProviderId": 1428274,
+      "streamingType": "FREE",
+      "url": "https://athome.fandango.com/content/browse/details/The-Witness/789732",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Hoopla",
+      "watchmodeProviderId": 1428274,
+      "streamingType": "FREE",
+      "url": "https://www.hoopladigital.com/title/12003798?utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Pluto TV",
+      "watchmodeProviderId": 1428274,
+      "streamingType": "FREE",
+      "url": "https://pluto.tv/on-demand/movies/the-witness-2016-1-1?utm_medium=deeplink&utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Peacock",
+      "watchmodeProviderId": 1428274,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.peacocktv.com/watch/asset/movies/the-witness/4cfa3142-c05a-3a86-b995-2c33d664ce21",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Peacock Premium",
+      "watchmodeProviderId": 1428274,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.peacocktv.com/watch/asset/movies/the-witness/4cfa3142-c05a-3a86-b995-2c33d664ce21",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Prime Video",
+      "watchmodeProviderId": 1428274,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.ad6e430d-5951-409a-90d0-8a4783e4927c",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.22.witness.json",
+      "itemTitle": "The Witness",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Follows Bill Genovese, brother of murder victim Kitty Genovese, as he investigates her 1964 murder decades later. Critically re-examines the famous \"38 witnesses watched and did nothing\" narrative (the bystander effect) popularized by The New York Times. Explores the lasting trauma on the victim's family and the search for truth behind a crime myth.",
+      "summaryNotes": "The film follows Bill Genovese, brother of murder victim Kitty Genovese, as he investigates her 1964 murder. It re-examines the narrative of 38 witnesses doing nothing and explores the trauma on the victim's family.",
+      "keyQuotes": "Specific quotes not found in search results.\n\nLikely includes interviews with surviving witnesses, former officials, journalists (like A.M. Rosenthal who wrote the original NYT piece), and Bill Genovese's reflections on his decades-long quest for truth.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MEDIA_SENSATIONALISM"
+      ],
+      "featuredIndividuals": [],
+      "involvedPersons": [
+        {
+          "firstName": "James",
+          "middleName": null,
+          "lastName": "Solomon",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.pbs.org/independentlens/documentaries/witness/",
+          "description": "PBS Independent Lens page for The Witness"
+        }
+      ]
+    }
+  ]
+}

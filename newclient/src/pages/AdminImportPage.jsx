@@ -299,7 +299,7 @@ function AdminImportPage() {
               </h2>
               <Link
                 to={
-                  commitResult.targetType === 'BOOK_BUNDLE'
+                  commitResult.targetType === 'BOOK_BUNDLE' || commitResult.targetType === 'FILM_BUNDLE'
                     ? '/admin/verify'
                     : `/admin/manage/${commitResult.targetType === 'ORGANIZATION' ? 'organizations' : 'individuals'}?unverified=true`
                 }
@@ -341,6 +341,10 @@ function AdminImportPage() {
                     setInputType('JSON');
                     setDefaultSourceName('Google Books');
                     setIngestionSource('books_v2_bundle');
+                  } else if (val === 'FILM_BUNDLE') {
+                    setInputType('JSON');
+                    setDefaultSourceName('TMDB');
+                    setIngestionSource('films_v2_bundle');
                   }
                 }}
                 className="w-full p-2 bg-gray-700 border border-gray-600 rounded text-sm text-white"
@@ -348,6 +352,7 @@ function AdminImportPage() {
                 <option value="INDIVIDUAL">Individuals (NRE, Wikipedia, Generic CSV/JSON)</option>
                 <option value="ORGANIZATION">Organizations (CSV/JSON)</option>
                 <option value="BOOK_BUNDLE">Books Bundle (Merged v2 JSON + Google Books)</option>
+                <option value="FILM_BUNDLE">Films &amp; Series Bundle (Merged v2 JSON + TMDB + Streaming)</option>
               </select>
             </div>
 
@@ -638,7 +643,27 @@ function AdminImportPage() {
                         </select>
                       </td>
                       <td className="py-2.5 pr-3">
-                        {targetType === 'BOOK_BUNDLE' ? (
+                        {targetType === 'FILM_BUNDLE' ? (
+                          <div>
+                            <div className="font-semibold text-gray-100 flex items-center gap-2 flex-wrap">
+                              <span>{row.data.mediaWork?.title || '—'}</span>
+                              <span className="px-1.5 py-0.5 bg-gray-700 text-amber-300 rounded text-[10px]">
+                                {row.data.mediaWork?.workType}
+                              </span>
+                            </div>
+                            <div className="text-gray-400">
+                              {row.data.mediaWork?.creatorName || 'Unknown creator'} ·{' '}
+                              {row.data.mediaWork?.publicationOrReleaseYear || '?'}
+                            </div>
+                            <div className="text-gray-500">
+                              {row.data.mediaWork?.externalId ? `TMDB #${row.data.mediaWork.externalId}` : 'No TMDB ID'}
+                              {row.data.mediaWork?.imagePath ? ' · Poster ✓' : ' · No poster'}
+                              {row.data._previewStats?.streamingCount > 0
+                                ? ` · ${row.data._previewStats.streamingCount} streaming`
+                                : ''}
+                            </div>
+                          </div>
+                        ) : targetType === 'BOOK_BUNDLE' ? (
                           <div>
                             <div className="font-semibold text-gray-100">{row.data.mediaWork?.title || '—'}</div>
                             <div className="text-gray-400">
@@ -675,6 +700,24 @@ function AdminImportPage() {
                         )}
                       </td>
                       <td className="py-2.5 pr-3 space-y-1">
+                        {targetType === 'FILM_BUNDLE' && (
+                          <>
+                            <div className="text-amber-300">
+                              {row.data._previewStats?.episodeCount || 0} item(s) ·{' '}
+                              {row.data._previewStats?.individualCount || 0} individual(s) ·{' '}
+                              {row.data._previewStats?.involvedPersonCount || 0} involved
+                            </div>
+                            {(row.data._previewStats?.contributingFactorCodes || []).length > 0 && (
+                              <div className="flex flex-wrap gap-1">
+                                {row.data._previewStats.contributingFactorCodes.map((c) => (
+                                  <span key={c} className="px-1.5 py-0.5 bg-gray-700 text-gray-200 rounded text-[10px]">
+                                    {c}
+                                  </span>
+                                ))}
+                              </div>
+                            )}
+                          </>
+                        )}
                         {targetType === 'BOOK_BUNDLE' && (
                           <>
                             <div className="text-amber-300">

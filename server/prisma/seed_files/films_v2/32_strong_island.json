@@ -1,0 +1,64 @@
+{
+  "sourceFiles": [
+    "9.32.strong_island.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "0 wrongfully convicted individuals linked — verify whether this is a broader criminal-justice title or needs case links added."
+  ],
+  "mediaWork": {
+    "title": "Strong Island",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Yance Ford",
+    "publicationOrReleaseYear": 2017,
+    "publisherOrNetwork": "Netflix Original",
+    "focusOrTheme": "Director Yance Ford investigates the 1992 murder of his older brother, William Ford Jr., a young Black man, and the failure of the justice system (an all-white grand jury) to indict the white man who shot him, Mark Reilly, despite evidence suggesting a lack of justification for self-defense. Explores themes of race, grief, trauma, and injustice within the legal system.",
+    "summaryNotes": "Filmmaker Yance Ford investigates the 1992 murder of his brother, William Ford Jr., and the judicial system that allowed his killer to go free.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "428612",
+    "imagePath": "https://image.tmdb.org/t/p/w500/qGq7WCNv9S8GBbP8DfIchiaodWn.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Netflix",
+      "watchmodeProviderId": 1362779,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.netflix.com/title/80168230",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.32.strong_island.json",
+      "itemTitle": "Strong Island",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Director Yance Ford investigates the 1992 murder of his older brother, William Ford Jr., a young Black man, and the failure of the justice system (an all-white grand jury) to indict the white man who shot him, Mark Reilly, despite evidence suggesting a lack of justification for self-defense. Explores themes of race, grief, trauma, and injustice within the legal system.",
+      "summaryNotes": "The film investigates the failure to indict the shooter of William Ford Jr., exploring systemic issues and racial bias that may have prevented accountability. The central figure is the victim, William Ford Jr., and the family seeking answers.",
+      "keyQuotes": "Deeply personal narration and interviews conducted by Yance Ford with family members.\n\nExamination of case files and evidence.\n\nConfronts the silence and lack of accountability surrounding William Ford Jr.'s death.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "RACIAL_BIAS"
+      ],
+      "featuredIndividuals": [],
+      "involvedPersons": [
+        {
+          "firstName": "Yance",
+          "middleName": null,
+          "lastName": "Ford",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

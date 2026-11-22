@@ -1,0 +1,105 @@
+{
+  "sourceFiles": [
+    "9.6.case_against_adnan_syed.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Case Against Adnan Syed",
+    "workType": "DOCUSERIES",
+    "creatorName": "Amy Berg",
+    "publicationOrReleaseYear": 2019,
+    "publisherOrNetwork": "HBO Documentary Films production",
+    "focusOrTheme": "Re-examination of Adnan Syed case (post-\"Serial\"), new evidence, witness interviews, legal appeals, potential cultural bias.",
+    "summaryNotes": "A four-part documentary series exploring the 1999 murder of Hae Min Lee and the subsequent conviction of her ex-boyfriend, Adnan Syed, a case brought to global attention by the \"Serial\" podcast.",
+    "availabilityNotes": "Available via HBO Max.",
+    "sourceUrl": null,
+    "externalId": "86598",
+    "imagePath": "https://image.tmdb.org/t/p/w500/9ofrnp1aml6uRH9Jsx58aSHITug.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "MAX",
+      "watchmodeProviderId": 536941,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://max.prf.hn/click/camref:1011l3DxTc/destination:https%3a%2f%2fplay.max.com%2fvideo%2fwatch%2f42573109-2847-492f-978e-9be2fcb67345%2ffb27bcd7-f5e0-4f6f-9ff7-3f4d727f9adf",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "HBO (Via Hulu)",
+      "watchmodeProviderId": 536941,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.hulu.com/watch/2f7ed62f-ffa0-4309-9db0-ba01008266b7",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.6.case_against_adnan_syed.json",
+      "itemTitle": "The Case Against Adnan Syed",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Re-examination of Adnan Syed case (post-\"Serial\"), new evidence, witness interviews, legal appeals, potential cultural bias.",
+      "summaryNotes": "This HBO docuseries delves deeper into the evidence and appeals process following the \"Serial\" podcast. It includes access to Syed and his family, examines potential flaws in the state's case, and covers developments leading to his release in 2022. A follow-up episode covering events post-release is reportedly in production.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "INADEQUATE_LEGAL_DEFENSE",
+        "WITHHELD_EXCULPATORY_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Adnan",
+          "middleName": null,
+          "lastName": "Syed",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 2000,
+          "exonerationOrReleaseYear": 2022,
+          "timeServed": "~22 years",
+          "sentence": "Life plus 30 years",
+          "caseLocationCity": "Baltimore County",
+          "caseLocationCounty": null,
+          "caseLocationState": "Maryland",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Adnan Syed was convicted of the murder of Hae Min Lee in 2000 and sentenced to life plus 30 years. He was released in 2022 after serving approximately 22 years, though his conviction was later reinstated. He is currently free pending further appeals.",
+          "contributingFactorCodes": [
+            "INADEQUATE_LEGAL_DEFENSE",
+            "WITHHELD_EXCULPATORY_EVIDENCE"
+          ],
+          "organizations": [
+            {
+              "name": "University of Baltimore Innocence Project Clinic",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Support from advocates like Rabia Chaudry",
+              "type": "SUPPORT_GROUP"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Amy",
+          "middleName": null,
+          "lastName": "Berg",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

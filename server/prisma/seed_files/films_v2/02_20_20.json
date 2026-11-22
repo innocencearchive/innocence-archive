@@ -1,0 +1,511 @@
+{
+  "sourceFiles": [
+    "3.1.the_wrong_man.json",
+    "3.2.innocence_lost.json",
+    "3.3confession_at_gunpoint.json",
+    "3.4.my_fathers_killer.json",
+    "3.5.last_chance.json",
+    "3.6.stolen_years.json",
+    "3.7.execution_in_doubt.json",
+    "3.8.perfect_lie.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Normalized parenthetical series title from legacy JSON (\"Wrong Man (20/20)\" -> \"20/20\")."
+  ],
+  "mediaWork": {
+    "title": "20/20",
+    "workType": "TV_SERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": 1978,
+    "publisherOrNetwork": "ABC News",
+    "focusOrTheme": "DNA exoneration in murder case; Misidentification",
+    "summaryNotes": "An American television newsmagazine that has been broadcast on ABC since June 6, 1978. Created by ABC News executive Roone Arledge, the show was designed similarly to CBS's 60 Minutes but focuses more on human interest stories.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "2035",
+    "imagePath": "https://image.tmdb.org/t/p/w500/cmqmilQ6l9zAWImNCvRLtXlvQ3Q.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "ABC",
+      "watchmodeProviderId": 3952,
+      "streamingType": "FREE",
+      "url": "https://abc.com/shows/2020/episode-guide/2024-11/22-meet-the-other-me",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Hulu",
+      "watchmodeProviderId": 3952,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.hulu.com/watch/35d16d49-b6a0-4b2a-8538-6da6c33353a6",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "fuboTV",
+      "watchmodeProviderId": 3952,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.fubo.tv/welcome/series/115931993/20-20/?irmp=1206980&irad=599307&season=0",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Disney+",
+      "watchmodeProviderId": 3952,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.disneyplus.com/play/17d6cc3d-45de-45a0-99cd-0b0bfda41a7a",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "3.1.the_wrong_man.json",
+      "itemTitle": "Information Unavailable",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "DNA exoneration in murder case; Misidentification",
+      "summaryNotes": "A 20/20 episode focusing on a wrongful conviction case involving DNA exoneration and misidentification. Due to the generic title, specific details are difficult to confirm, but information is primarily based on the case of Ray Krone.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Ray",
+          "middleName": null,
+          "lastName": "Krone",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1992,
+          "exonerationOrReleaseYear": 2002,
+          "timeServed": "~10 years",
+          "sentence": "Death penalty initially, later life",
+          "caseLocationCity": "Arizona",
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Ray Krone was wrongfully convicted of murder in Arizona in 1992 and sentenced to death, later life imprisonment. His conviction was based on bite mark analysis and eyewitness testimony, but he was exonerated by DNA evidence in 2002 after serving approximately 10 years.",
+          "contributingFactorCodes": [
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION"
+          ],
+          "organizations": []
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "3.2.innocence_lost.json",
+      "itemTitle": "Innocence Lost",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "West Memphis Three case, \"Satanic Panic,\" questionable evidence, Alford plea",
+      "summaryNotes": "Covers the controversial West Memphis Three case, mentioning \"Satanic Panic\" and questionable evidence. The subjects were released via Alford plea after public attention.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "MEDIA_SENSATIONALISM"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Damien",
+          "middleName": null,
+          "lastName": "Echols",
+          "suffix": null,
+          "status": "RELEASED_ALFORD_PLEA",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1994,
+          "exonerationOrReleaseYear": 2011,
+          "timeServed": "~18 years",
+          "sentence": "Death Penalty",
+          "caseLocationCity": "West Memphis",
+          "caseLocationCounty": null,
+          "caseLocationState": "Arkansas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of murder in 1994 and sentenced to death. Released via Alford Plea in 2011 after serving ~18 years. The case involved alleged coerced confessions, questionable forensic evidence, and \"Satanic Panic\".",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION",
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+            "MEDIA_SENSATIONALISM"
+          ],
+          "organizations": [
+            {
+              "name": "Numerous supporters",
+              "type": "SUPPORT_GROUP"
+            },
+            {
+              "name": "legal teams",
+              "type": "OTHER"
+            },
+            {
+              "name": "documentary filmmakers",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Jason",
+          "middleName": null,
+          "lastName": "Baldwin",
+          "suffix": null,
+          "status": "RELEASED_ALFORD_PLEA",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1994,
+          "exonerationOrReleaseYear": 2011,
+          "timeServed": "~18 years",
+          "sentence": "Life without parole",
+          "caseLocationCity": "West Memphis",
+          "caseLocationCounty": null,
+          "caseLocationState": "Arkansas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of murder in 1994 and sentenced to life without parole. Released via Alford Plea in 2011 after serving ~18 years. Contributing factors were similar to Echols' case.",
+          "contributingFactorCodes": [],
+          "organizations": [
+            {
+              "name": "See Echols.",
+              "type": "OTHER"
+            }
+          ]
+        },
+        {
+          "firstName": "Jessie",
+          "middleName": "Misskelley",
+          "lastName": "Jr.",
+          "suffix": null,
+          "status": "RELEASED_ALFORD_PLEA",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1994,
+          "exonerationOrReleaseYear": 2011,
+          "timeServed": "~18 years",
+          "sentence": "Life plus 40 years",
+          "caseLocationCity": "West Memphis",
+          "caseLocationCounty": null,
+          "caseLocationState": "Arkansas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted of murder in 1994 and sentenced to life plus 40 years. Released via Alford Plea in 2011 after serving ~18 years. The primary evidence against him was a coerced/false confession, and he had limited mental capacity.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION"
+          ],
+          "organizations": [
+            {
+              "name": "See Echols.",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "3.3confession_at_gunpoint.json",
+      "itemTitle": "Confession at Gunpoint",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Coerced false confessions, juvenile suspects, DNA exoneration",
+      "summaryNotes": "The episode explores Jeffrey Deskovic's case, who falsely confessed after a lengthy interrogation as a teen and was exonerated by DNA after 16 years. The case highlights conviction despite pre-trial DNA exclusion and is a prominent example of a coerced false confession from a juvenile, despite exculpatory DNA evidence.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION",
+        "WITHHELD_EXCULPATORY_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Jeffrey",
+          "middleName": null,
+          "lastName": "Deskovic",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1990,
+          "exonerationOrReleaseYear": 2006,
+          "timeServed": "Nearly 16 years",
+          "sentence": "15 years to life",
+          "caseLocationCity": "Peekskill",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Jeffrey Deskovic was wrongfully convicted of rape and murder in 1990. He was interrogated at 16 for over 6 hours without a parent or lawyer and coerced into a false confession. He was exonerated by DNA evidence in 2006 after serving nearly 16 years.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION",
+            "WITHHELD_EXCULPATORY_EVIDENCE"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Jeffrey Deskovic Foundation for Justice",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "3.4.my_fathers_killer.json",
+      "itemTitle": "My Father's Killer",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful arson conviction, flawed fire science, death penalty case",
+      "summaryNotes": "The program investigates Madison Hobley's conviction, which was based on discredited fire investigation techniques. He was sentenced to death before receiving a pardon.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION",
+        "POLICE_MISCONDUCT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Madison",
+          "middleName": null,
+          "lastName": "Hobley",
+          "suffix": null,
+          "status": "RELEASED_CLEMENCY",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1990,
+          "exonerationOrReleaseYear": 2003,
+          "timeServed": "~13 years on death row",
+          "sentence": "Death Penalty",
+          "caseLocationCity": "Chicago",
+          "caseLocationCounty": null,
+          "caseLocationState": "Illinois",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Madison Hobley was wrongfully convicted of arson and the murder of his wife and son in a 1987 fire. His conviction was based on discredited fire investigation techniques. He was sentenced to death but later pardoned based on innocence by Gov. George Ryan.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION",
+            "POLICE_MISCONDUCT"
+          ],
+          "organizations": [
+            {
+              "name": "Center on Wrongful Convictions (Northwestern Law)",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "3.5.last_chance.json",
+      "itemTitle": "New DNA Analysis in a Murder",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Post-conviction DNA testing leading to exoneration.",
+      "summaryNotes": "This episode potentially focuses on a 1985 murder case where post-conviction DNA testing led to a man's exoneration. It highlights the challenges in obtaining post-conviction DNA testing and the role of the Innocence Project.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [
+        {
+          "firstName": "Man",
+          "middleName": null,
+          "lastName": "convicted",
+          "suffix": null,
+          "status": "CONVICTION_OVERTURNED",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Other",
+          "convictionYear": 1985,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": null,
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted in 1985 for murdering his girlfriend's parents. His conviction was later overturned due to post-conviction DNA testing.",
+          "contributingFactorCodes": [],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "3.6.stolen_years.json",
+      "itemTitle": "Stolen Years",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful murder conviction, systemic resistance to acknowledging innocence despite DNA",
+      "summaryNotes": "This 20/20 episode investigates how Juan Rivera was convicted three times despite DNA evidence pointing to another individual, exploring systemic resistance to acknowledging innocence. The case is a stark example of repeated convictions despite exculpatory DNA.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "PROSECUTORIAL_MISCONDUCT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Juan",
+          "middleName": null,
+          "lastName": "Rivera",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1993,
+          "exonerationOrReleaseYear": 2011,
+          "timeServed": "Nearly 20 years",
+          "sentence": "Life in prison (received in third trial)",
+          "caseLocationCity": "Waukegan",
+          "caseLocationCounty": null,
+          "caseLocationState": "Lake County, Illinois",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Juan Rivera was wrongfully convicted of the rape and murder of Holly Staker and served nearly 20 years in prison. He was convicted three times despite DNA evidence excluding him. His conviction was overturned on appeal and he won a civil rights lawsuit.",
+          "contributingFactorCodes": [
+            "PROSECUTORIAL_MISCONDUCT"
+          ],
+          "organizations": [
+            {
+              "name": "Center on Wrongful Convictions (Northwestern Law)",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "3.7.execution_in_doubt.json",
+      "itemTitle": "An Execution in Doubt",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Possible wrongful execution due to flawed forensic hair analysis; post-execution DNA testing revealed the hair belonged to the victim, not the executed individual.",
+      "summaryNotes": "This episode examines the case of Claude Howard Jones, who was executed. Post-execution DNA testing, requested by the Innocence Project, revealed that a key piece of evidence – a hair found at the crime scene – belonged to the victim, casting serious doubt on Jones' guilt.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Claude",
+          "middleName": "Howard",
+          "lastName": "Jones",
+          "suffix": null,
+          "status": "EXECUTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1990,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "~10 years on death row",
+          "sentence": "Death Penalty",
+          "caseLocationCity": "San Jacinto County",
+          "caseLocationCounty": null,
+          "caseLocationState": "Texas",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Claude Howard Jones was convicted of murder and executed. Post-execution DNA testing revealed that a key piece of evidence (a hair) belonged to the victim, casting significant doubt on his guilt.",
+          "contributingFactorCodes": [
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project (sought post-execution DNA testing)",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "3.8.perfect_lie.json",
+      "itemTitle": "The Perfect Lie",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "False confession induced by police deception/fabrication in the Martin Tankleff case.",
+      "summaryNotes": "Examines how police convinced Martin Tankleff his father implicated him (a fabrication), leading to a false confession. The police tactic of lying about evidence to secure a confession is the central element.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION",
+        "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Martin",
+          "middleName": "Marty",
+          "lastName": "Tankleff",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1990,
+          "exonerationOrReleaseYear": 2008,
+          "timeServed": "17+ years",
+          "sentence": "50 years to life",
+          "caseLocationCity": "Long Island",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted of murdering his parents based on a coerced false confession. Police falsely claimed his father implicated him before dying. He was exonerated after serving over 17 years and settled a civil lawsuit.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION",
+            "TUNNEL_VISION_RUSH_TO_JUDGMENT"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project (involved in later stages)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Pro bono legal teams",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "sourceFiles": [
+    "9.20.suspect.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "TMDB #157062 (\"The Suspect\" 2022 UK thriller) was a WRONG match and blocked. Needs correct TMDB lookup/poster for Amar Wala's documentary on Hassan Diab."
+  ],
+  "mediaWork": {
+    "title": "The Suspect",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Amar Wala",
+    "publicationOrReleaseYear": null,
+    "publisherOrNetwork": null,
+    "focusOrTheme": "The case of Hassan Diab, a Canadian citizen extradited to France for a 1980 bombing he maintains he did not commit; issues with extradition law; anti-terrorism prosecutions; potential wrongful accusation/conviction.",
+    "summaryNotes": "Diab spent over 3 years in French prison without charge before being released in 2018 due to lack of evidence, only to be convicted in absentia in 2023 based on allegedly flawed evidence.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": null,
+    "imagePath": null,
+    "sourcingCredit": null,
+    "aiGenerated": true
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.20.suspect.json",
+      "itemTitle": "The Suspect",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "The case of Hassan Diab, a Canadian citizen extradited to France for a 1980 bombing he maintains he did not commit; issues with extradition law; anti-terrorism prosecutions; potential wrongful accusation/conviction.",
+      "summaryNotes": "The documentary focuses on Hassan Diab, a Canadian citizen extradited to France for a 1980 bombing he maintains he did not commit. He spent over 3 years in French prison before being released due to lack of evidence, only to be convicted in absentia in 2023 based on allegedly flawed evidence. The film explores issues with extradition law and anti-terrorism prosecutions.",
+      "keyQuotes": "Specific quotes not found in search results. Key moments likely cover Diab's extradition hearing in Canada, his imprisonment in France, his release in 2018, the controversial 2023 in absentia trial, and the ongoing advocacy efforts.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [
+        {
+          "firstName": "Hassan",
+          "middleName": null,
+          "lastName": "Diab",
+          "suffix": null,
+          "status": "CONVICTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Supporting Terrorism",
+          "convictionYear": 2023,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "Over 3 years pre-trial detention in France (approx. 2014-2018).",
+          "sentence": "Sentence details for the 2023 conviction not found in provided search results.",
+          "caseLocationCity": "Paris",
+          "caseLocationCounty": null,
+          "caseLocationState": "France",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Dr. Hassan Diab was convicted in absentia in France in 2023 for the 1980 Rue Copernic synagogue bombing after spending over 3 years in pre-trial detention and being released due to lack of evidence. His extradition from Canada and subsequent conviction are controversial. Advocacy groups urge Canada to refuse any second extradition request.",
+          "contributingFactorCodes": [],
+          "organizations": [
+            {
+              "name": "Hassan Diab Support Committee",
+              "type": "SUPPORT_GROUP"
+            },
+            {
+              "name": "Amnesty International",
+              "type": "OTHER"
+            },
+            {
+              "name": "BC Civil Liberties Association",
+              "type": "OTHER"
+            },
+            {
+              "name": "Canadian Muslim Public Affairs Council (CMPAC)",
+              "type": "OTHER"
+            },
+            {
+              "name": "Others advocating against his extradition/conviction",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Amar",
+          "middleName": null,
+          "lastName": "Wala",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://www.justiceforhassandiab.org/",
+          "description": "Hassan Diab Support Committee website"
+        },
+        {
+          "url": "https://amnesty.ca/human-rights-news/hassan-diab-must-not-be-extradited-to-france/",
+          "description": "Amnesty International reports on the case"
+        }
+      ]
+    }
+  ]
+}

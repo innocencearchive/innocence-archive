@@ -1,0 +1,95 @@
+{
+  "sourceFiles": [
+    "9.17.david_and_me.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "David & Me",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Ray Klonsky, Marc Lamy",
+    "publicationOrReleaseYear": 2014,
+    "publisherOrNetwork": "Markham Street Films",
+    "focusOrTheme": "Wrongful conviction, juvenile conviction, friendship between filmmaker and inmate, advocacy leading to exoneration.",
+    "summaryNotes": "A young man befriends a prison inmate who has been serving a life sentence for 28 years, and becomes convinced of his innocence.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "266770",
+    "imagePath": "https://image.tmdb.org/t/p/w500/gfkVghLk8gPNjA3CaqdthXgbDWe.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.17.david_and_me.json",
+      "itemTitle": "David & Me",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Wrongful conviction, juvenile conviction, friendship between filmmaker and inmate, advocacy leading to exoneration.",
+      "summaryNotes": "The documentary follows Ray Klonsky's journey, documenting his friendship with David McCallum and their efforts to investigate McCallum's wrongful conviction. It highlights coerced confessions and weak evidence, culminating in McCallum's exoneration in 2014.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "David",
+          "middleName": null,
+          "lastName": "McCallum",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1986,
+          "exonerationOrReleaseYear": 2014,
+          "timeServed": "29 years",
+          "sentence": "25 years to life",
+          "caseLocationCity": "Queens",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York City",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "David McCallum was wrongfully convicted of kidnapping and murder in Queens, New York City. He was convicted in 1986 and exonerated in 2014 after serving 29 years. His conviction was based on a coerced false confession and inconsistent evidence, with advocacy highlighting the case flaws.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION"
+          ],
+          "organizations": [
+            {
+              "name": "Filmmakers Ray Klonsky & Marc Lamy",
+              "type": "OTHER"
+            },
+            {
+              "name": "Pro-bono legal team",
+              "type": "OTHER"
+            },
+            {
+              "name": "Rubin \"Hurricane\" Carter (advocate)",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Ray",
+          "middleName": null,
+          "lastName": "Klonsky",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "Marc",
+          "middleName": null,
+          "lastName": "Lamy",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

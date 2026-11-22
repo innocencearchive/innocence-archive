@@ -1,0 +1,52 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Innocence Files",
+    "workType": "DOCUSERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "Netflix",
+    "focusOrTheme": null,
+    "summaryNotes": "A nine-part documentary series that shines a light on the untold personal stories behind eight cases of wrongful conviction that the Innocence Project and organizations within the Innocence Network have worked to highlight and overturn.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "100379",
+    "imagePath": "https://image.tmdb.org/t/p/w500/summ8ctaf2Ho8qpmpqkFNtw5KZg.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Netflix",
+      "watchmodeProviderId": 3168833,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.netflix.com/watch/80214636",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "The Innocence Files (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2020-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "A nine-part documentary series that shines a light on the untold personal stories behind eight cases of wrongful conviction that the Innocence Project and organizations within the Innocence Network have worked to highlight and overturn.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

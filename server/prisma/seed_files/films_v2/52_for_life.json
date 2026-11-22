@@ -1,0 +1,44 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "For Life",
+    "workType": "TV_SERIES",
+    "creatorName": "Hank Steinberg",
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "ABC Signature, Sony Pictures Television Studios, Channel Road Productions, Doug Robinson Productions, G-Unit Film & Television",
+    "focusOrTheme": null,
+    "summaryNotes": "A prisoner becomes a lawyer and fights to overturn his life sentence for a crime he didn't commit.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "92053",
+    "imagePath": "https://image.tmdb.org/t/p/w500/2WeCMpWSrOOJNXoruq5bq8qmKEx.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Hulu",
+      "watchmodeProviderId": 3164102,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.hulu.com/watch/6e333701-524d-4419-ab89-366cd71967e8",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Acorn TV (Via Amazon Prime)",
+      "watchmodeProviderId": 3164102,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.f7e194fa-6ab8-4e86-be08-ef71fb92799b",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": []
+}

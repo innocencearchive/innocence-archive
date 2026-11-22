@@ -1,0 +1,186 @@
+{
+  "sourceFiles": [
+    "9.26.murder_on_sunday.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Murder on a Sunday Morning (Un coupable idéal)",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Jean-Xavier de Lestrade",
+    "publicationOrReleaseYear": 2001,
+    "publisherOrNetwork": "Maha Productions (and others, potentially including HBO/Canal+)",
+    "focusOrTheme": "The wrongful arrest and trial of 15-year-old Brenton Butler for the murder of a tourist in Jacksonville, Florida, in 2000. Focuses on his defense by public defenders and the exposure of a coerced false confession.",
+    "summaryNotes": "A gripping look at a Florida murder case in which a 15-year-old African-American boy was wrongly accused of killing a tourist.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "51391",
+    "imagePath": "https://image.tmdb.org/t/p/w500/w8mv377RrR9OAUbvp9v9YGm15B3.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Hoopla",
+      "watchmodeProviderId": 1264056,
+      "streamingType": "FREE",
+      "url": "https://www.hoopladigital.com/title/11053345?utm_source=",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Tubi TV",
+      "watchmodeProviderId": 1264056,
+      "streamingType": "FREE",
+      "url": "https://tubitv.com/movies/694887",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Plex",
+      "watchmodeProviderId": 1264056,
+      "streamingType": "FREE",
+      "url": "https://watch.plex.tv/movie/murder-on-a-sunday-morning?utm_source=&utm_medium=deeplink",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Amazon Freevee",
+      "watchmodeProviderId": 1264056,
+      "streamingType": "FREE",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.48a9f768-d320-c047-20b9-002b3b4d93ff",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Kanopy",
+      "watchmodeProviderId": 1264056,
+      "streamingType": "FREE",
+      "url": "https://www.kanopy.com/product/murder-sunday-morning",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Fawesome",
+      "watchmodeProviderId": 1264056,
+      "streamingType": "FREE",
+      "url": "https://fawesome.tv/movies/10619500/murder-on-a-sunday-morning?utm_source=Reelgood&utm_medium=RG",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Fandor (Via Amazon Prime)",
+      "watchmodeProviderId": 1264056,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.48a9f768-d320-c047-20b9-002b3b4d93ff?tag=&autoplay=1",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Fandor",
+      "watchmodeProviderId": 1264056,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.fandor.com/details-movie/6239188c550dad5105855be3/murder-on-a-sunday-morning",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Peacock",
+      "watchmodeProviderId": 1264056,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.peacocktv.com/watch/asset/movies/murder-on-a-sunday-morning/54357acd-1ab4-38a4-955b-c704ba682b0a",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Peacock Premium",
+      "watchmodeProviderId": 1264056,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.peacocktv.com/watch/asset/movies/murder-on-a-sunday-morning/54357acd-1ab4-38a4-955b-c704ba682b0a",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Prime Video",
+      "watchmodeProviderId": 1264056,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://watch.amazon.com/detail?gti=amzn1.dv.gti.48a9f768-d320-c047-20b9-002b3b4d93ff",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.26.murder_on_sunday.json",
+      "itemTitle": "Murder on a Sunday Morning (Un coupable idéal)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "The wrongful arrest and trial of 15-year-old Brenton Butler for the murder of a tourist in Jacksonville, Florida, in 2000. Focuses on his defense by public defenders and the exposure of a coerced false confession.",
+      "summaryNotes": "Documentary about the wrongful arrest and trial of Brenton Butler for murder. It highlights the coerced confession and the work of the public defenders in securing his acquittal.",
+      "keyQuotes": "Courtroom footage showing the defense dismantling the prosecution's case\n\nButler's testimony describing the interrogation and coercion\n\nInterviews with the defense attorneys Patrick McGuinness and Ann Finnell",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION",
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "RACIAL_BIAS",
+        "POLICE_MISCONDUCT"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Brenton",
+          "middleName": null,
+          "lastName": "Butler",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "Time in pre-trial detention",
+          "sentence": null,
+          "caseLocationCity": "Jacksonville",
+          "caseLocationCounty": null,
+          "caseLocationState": "Florida",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Brenton Butler was wrongfully arrested and charged with murder. He was acquitted at trial after his defense demonstrated that his confession was coerced.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION",
+            "POLICE_MISCONDUCT",
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "RACIAL_BIAS"
+          ],
+          "organizations": [
+            {
+              "name": "Duval County Public Defender's Office (specifically Patrick McGuinness and Ann Finnell who defended him)",
+              "type": "LEGAL_AID"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Jean-Xavier",
+          "middleName": "de",
+          "lastName": "Lestrade",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

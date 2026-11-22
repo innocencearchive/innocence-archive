@@ -1,0 +1,52 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Time: The Kalief Browder Story",
+    "workType": "DOCUSERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": 2017,
+    "publisherOrNetwork": "Spike",
+    "focusOrTheme": null,
+    "summaryNotes": "A documentary series about a 16-year-old student from the Bronx who spent three years on Rikers Island without being convicted of a crime.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "70490",
+    "imagePath": "https://image.tmdb.org/t/p/w500/2uJWtcLq231IkwwiUonS7QhZtMk.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Netflix",
+      "watchmodeProviderId": 517845,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.netflix.com/watch/80187145",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "Time: The Kalief Browder Story (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2017-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "A documentary series about a 16-year-old student from the Bronx who spent three years on Rikers Island without being convicted of a crime.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

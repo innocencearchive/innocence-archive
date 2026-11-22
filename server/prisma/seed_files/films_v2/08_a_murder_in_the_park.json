@@ -1,0 +1,135 @@
+{
+  "sourceFiles": [
+    "9.21.murder_in_the_park.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "A Murder in the Park",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Shawn Rech, Brandon Kimber",
+    "publicationOrReleaseYear": 2014,
+    "publisherOrNetwork": "Transition Studios, Whole Truth Films",
+    "focusOrTheme": "Argues that Anthony Porter, famously exonerated from death row in Illinois, was actually guilty, and that Alstory Simon was wrongfully coerced into confessing to the crime by journalism professor David Protess, PI Paul Ciolino, and Northwestern University students, leading to Simon's wrongful conviction. Investigates potential \"wrongful exoneration.\"",
+    "summaryNotes": "Just hours before his execution, convicted murderer Anthony Porter's life was saved by a Northwestern University journalism class, whose investigation helped prove his innocence. But is this the real story?",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "343880",
+    "imagePath": "https://image.tmdb.org/t/p/w500/g0wME5TyTTdvUXtp2Qsp4kF7XCC.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Kanopy",
+      "watchmodeProviderId": 19537,
+      "streamingType": "FREE",
+      "url": "https://www.kanopy.com/product/murder-park",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "AMC+",
+      "watchmodeProviderId": 19537,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.amcplus.com/movies/a-murder-in-the-park--1027107",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "fuboTV",
+      "watchmodeProviderId": 19537,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.fubo.tv/welcome/program/MV007566020000?irmp=1206980&irad=599309",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "Paramount+ with Showtime",
+      "watchmodeProviderId": 19537,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.paramountplus.com/movies/a-murder-in-the-park/R2eW9UN3rWHg9NVoKEL_hpBN_sqjBOWx?searchReferral=publisher&source=search-feeds",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.21.murder_in_the_park.json",
+      "itemTitle": "A Murder in the Park",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Argues that Anthony Porter, famously exonerated from death row in Illinois, was actually guilty, and that Alstory Simon was wrongfully coerced into confessing to the crime by journalism professor David Protess, PI Paul Ciolino, and Northwestern University students, leading to Simon's wrongful conviction. Investigates potential \"wrongful exoneration.\"",
+      "summaryNotes": "The film depicts the original 1982 crime, the methods used by Protess's team to investigate Porter's case, the videotaped confession obtained from Simon, Simon's eventual exoneration, and interviews detailing the alleged ethical breaches.",
+      "keyQuotes": "Specific quotes not found in search results.\n\nKey moments include the depiction of the original 1982 crime\n\nthe methods used by Protess's team to investigate Porter's case\n\nthe videotaped confession obtained from Simon\n\nSimon's eventual exoneration\n\nand interviews detailing the alleged ethical breaches.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION",
+        "INADEQUATE_LEGAL_DEFENSE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Alstory",
+          "middleName": null,
+          "lastName": "Simon",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1999,
+          "exonerationOrReleaseYear": 2014,
+          "timeServed": "Approximately 15 years",
+          "sentence": "37 years",
+          "caseLocationCity": "Chicago",
+          "caseLocationCounty": null,
+          "caseLocationState": "Illinois",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Alstory Simon was convicted of double murder in 1999 and sentenced to 37 years. He served approximately 15 years before his conviction was vacated in 2014. The film argues he was wrongfully coerced into confessing to the crime.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION",
+            "INADEQUATE_LEGAL_DEFENSE"
+          ],
+          "organizations": [
+            {
+              "name": "Northwestern University's Medill Innocence Project (implicated in wrongdoing)",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Cook County State's Attorney's Office (involved in both Porter's release and Simon's exoneration).",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Christopher",
+          "middleName": "S.",
+          "lastName": "Rech",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "Brandon",
+          "middleName": null,
+          "lastName": "Kimber",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://casetext.com/case/simon-v-nw-univ-10",
+          "description": "Legal documents from Simon v. Nw. Univ."
+        }
+      ]
+    }
+  ]
+}

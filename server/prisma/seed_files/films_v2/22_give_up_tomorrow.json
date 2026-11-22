@@ -1,0 +1,94 @@
+{
+  "sourceFiles": [
+    "9.19.give_up_tomorrow.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Give Up Tomorrow",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Michael Collins",
+    "publicationOrReleaseYear": 2011,
+    "publisherOrNetwork": "First Run Features",
+    "focusOrTheme": "The controversial conviction of Paco Larrañaga in the Philippines for the kidnapping, rape, and murder of the Chiong sisters; judicial corruption; flaws in the justice system; the death penalty.",
+    "summaryNotes": "A young man from a prominent political family in the Philippines is accused of a double murder, despite evidence he was hundreds of miles away. This film traces a Kafkaesque miscarriage of justice.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "115166",
+    "imagePath": "https://image.tmdb.org/t/p/w500/A1UVu8uWMGxyDH7LvXv5XBZDbua.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "GuideDoc",
+      "watchmodeProviderId": 1148712,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://guidedoc.tv/documentary/give-up-tomorrow-documentary-film/",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.19.give_up_tomorrow.json",
+      "itemTitle": "Give Up Tomorrow",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "The controversial conviction of Paco Larrañaga in the Philippines for the kidnapping, rape, and murder of the Chiong sisters; judicial corruption; flaws in the justice system; the death penalty.",
+      "summaryNotes": "This documentary focuses on the conviction of Paco Larrañaga in the Philippines, highlighting issues of judicial corruption, flawed justice systems, and the death penalty. It examines the alibi evidence presented and the controversial testimony of a key witness.",
+      "keyQuotes": "Specific quotes not found in search results.\n\nKey moments likely include the presentation of Larrañaga's alibi\n\nThe controversial testimony of Davidson Rusia\n\nThe Supreme Court's death penalty imposition\n\nHis transfer to Spain.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "PROSECUTORIAL_MISCONDUCT",
+        "MEDIA_SENSATIONALISM"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Francisco",
+          "middleName": "Juan \"Paco\"",
+          "lastName": "Larrañaga",
+          "suffix": null,
+          "status": "CONVICTED",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1999,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "1997-Present",
+          "sentence": "Death penalty (later commuted to life imprisonment)",
+          "caseLocationCity": "Cebu City",
+          "caseLocationCounty": null,
+          "caseLocationState": "Philippines",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Francisco Juan \"Paco\" Larrañaga was convicted in the Philippines for the kidnapping, rape, and murder of the Chiong sisters. He maintains his innocence and presented alibi evidence. He is currently serving his sentence in Spain.",
+          "contributingFactorCodes": [],
+          "organizations": [
+            {
+              "name": "Likely human rights organizations and Spanish diplomatic efforts involved in his transfer.",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Michael",
+          "middleName": null,
+          "lastName": "Collins",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://en.wikipedia.org/wiki/Chiong_murder_case",
+          "description": "Wikipedia page on the Chiong murder case"
+        }
+      ]
+    }
+  ]
+}

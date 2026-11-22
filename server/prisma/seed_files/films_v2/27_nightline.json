@@ -1,0 +1,181 @@
+{
+  "sourceFiles": [
+    "6.1.conviction.json",
+    "6.2.wrongfully_convicted.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [
+    "Normalized parenthetical series title from legacy JSON (\"Conviction (Nightline)\" -> \"Nightline\")."
+  ],
+  "mediaWork": {
+    "title": "Nightline",
+    "workType": "TV_SERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": 1980,
+    "publisherOrNetwork": "ABC News",
+    "focusOrTheme": "Adnan Syed case, investigation popularized by \"Serial\" podcast, questions about original conviction.",
+    "summaryNotes": "Nightline is a late-night news program that has been broadcast on ABC since 1980. It was created by Roone Arledge and is currently anchored by Byron Pitts and Juju Chang.",
+    "availabilityNotes": "Available via ABC/Hulu.",
+    "sourceUrl": null,
+    "externalId": "278",
+    "imagePath": "https://image.tmdb.org/t/p/w500/sdQo5ytP06WW5No3b33PTVS1yHC.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "6.1.conviction.json",
+      "itemTitle": "Conviction",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Adnan Syed case, investigation popularized by \"Serial\" podcast, questions about original conviction.",
+      "summaryNotes": "Examines weaknesses in the case against Adnan Syed, popularized by the \"Serial\" podcast. The case involves significant debate about the evidence, alibi witnesses, and legal procedures, leading to Syed's release in 2022 followed by ongoing legal complexities.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "INADEQUATE_LEGAL_DEFENSE",
+        "WITHHELD_EXCULPATORY_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Adnan",
+          "middleName": null,
+          "lastName": "Syed",
+          "suffix": null,
+          "status": "OTHER",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 2000,
+          "exonerationOrReleaseYear": 2022,
+          "timeServed": "~22 years",
+          "sentence": "Life plus 30 years",
+          "caseLocationCity": "Baltimore County",
+          "caseLocationCounty": null,
+          "caseLocationState": "Maryland",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Convicted in 2000 for the murder of Hae Min Lee. His conviction was vacated in 2022, but later reinstated by an appellate court. He is currently free pending further appeals.",
+          "contributingFactorCodes": [
+            "INADEQUATE_LEGAL_DEFENSE",
+            "WITHHELD_EXCULPATORY_EVIDENCE"
+          ],
+          "organizations": [
+            {
+              "name": "University of Baltimore Innocence Project Clinic",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Undisclosed LLC (Serial/Rabia Chaudry)",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    },
+    {
+      "sourceFileName": "6.2.wrongfully_convicted.json",
+      "itemTitle": "Wrongfully Convicted",
+      "itemNumber": null,
+      "itemMediaType": "TV_EPISODE",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Exoneration after decades based on recanted witness testimony.",
+      "summaryNotes": "Profiles the case of three men spending a combined 100+ years in prison based on false testimony from a 12-year-old who later recanted. Focuses on the exonerations of Ricky Jackson, Wiley Bridgeman, and Kwame Ajamu in Cleveland after Eddie Vernon recanted his testimony.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "PERJURY_OR_FALSE_ACCUSATION"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Ricky",
+          "middleName": null,
+          "lastName": "Jackson",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1975,
+          "exonerationOrReleaseYear": 2014,
+          "timeServed": "Nearly 39 years",
+          "sentence": "Death Penalty (later commuted to life)",
+          "caseLocationCity": "Cleveland",
+          "caseLocationCounty": null,
+          "caseLocationState": "Ohio",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted of murder in 1975 and sentenced to death (later commuted to life). Served nearly 39 years before being exonerated in 2014. His conviction was based on false witness testimony from a 12-year-old who later recanted.",
+          "contributingFactorCodes": [
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Ohio Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        },
+        {
+          "firstName": "Wiley",
+          "middleName": null,
+          "lastName": "Bridgeman",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1975,
+          "exonerationOrReleaseYear": 2014,
+          "timeServed": "Nearly 39 years (released briefly 2002-2003 due to appeal issue)",
+          "sentence": "Death Penalty (later commuted to life)",
+          "caseLocationCity": "Cleveland",
+          "caseLocationCounty": null,
+          "caseLocationState": "Ohio",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted of murder in 1975 and sentenced to death (later commuted to life). Served nearly 39 years before being exonerated in 2014. His conviction was based on false witness testimony.",
+          "contributingFactorCodes": [
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Ohio Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        },
+        {
+          "firstName": "Kwame",
+          "middleName": null,
+          "lastName": "Ajamu",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1975,
+          "exonerationOrReleaseYear": 2014,
+          "timeServed": "~27 years (in prison)",
+          "sentence": "Death Penalty (later commuted to life)",
+          "caseLocationCity": "Cleveland",
+          "caseLocationCounty": null,
+          "caseLocationState": "Ohio",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Wrongfully convicted of murder in 1975 and sentenced to death (later commuted to life). Served ~27 years before being exonerated in 2014. His conviction was based on false witness testimony.",
+          "contributingFactorCodes": [
+            "PERJURY_OR_FALSE_ACCUSATION"
+          ],
+          "organizations": [
+            {
+              "name": "Ohio Innocence Project",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

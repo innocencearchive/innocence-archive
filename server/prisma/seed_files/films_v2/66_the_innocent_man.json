@@ -1,0 +1,52 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Innocent Man",
+    "workType": "DOCUSERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": 2018,
+    "publisherOrNetwork": "Netflix",
+    "focusOrTheme": null,
+    "summaryNotes": "Two murders, four convictions, and a town full of secrets. Based on John Grisham's only true crime book, this series explores two murder cases in Ada, Oklahoma, in the 1980s.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "84651",
+    "imagePath": "https://image.tmdb.org/t/p/w500/lXEZI5Huh5xY48mGqgcthl76k4g.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Netflix",
+      "watchmodeProviderId": 1506447,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.netflix.com/watch/80187137",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "The Innocent Man (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2018-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "Two murders, four convictions, and a town full of secrets. Based on John Grisham's only true crime book, this series explores two murder cases in Ada, Oklahoma, in the 1980s.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

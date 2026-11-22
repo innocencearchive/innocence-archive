@@ -1,0 +1,122 @@
+{
+  "sourceFiles": [
+    "9.18.fear_of_13.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "The Fear of 13",
+    "workType": "DOCUMENTARY",
+    "creatorName": "David Sington",
+    "publicationOrReleaseYear": 2015,
+    "publisherOrNetwork": "Dox Productions",
+    "focusOrTheme": "The life story of Nick Yarris, focusing on his wrongful conviction, 21-22 years spent on death row in Pennsylvania, his eventual exoneration through DNA evidence, and reflections on the art of storytelling.",
+    "summaryNotes": "A convicted murderer who has spent 20 years on Death Row tells his story. This is Nick, and he's not like other killers. Is he telling the truth?",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "367215",
+    "imagePath": "https://image.tmdb.org/t/p/w500/n87Rk9b3DeOMvYAHZPGnsRZCK0R.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "AppleTV",
+      "watchmodeProviderId": 1390814,
+      "streamingType": "RENT",
+      "url": "https://tv.apple.com/us/movie/umc.cmc.2hjh19hgihbbetcmje1j27ozx?itsct=&itscg=30200&at=1010layx",
+      "priceAmount": 3.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "AppleTV",
+      "watchmodeProviderId": 1390814,
+      "streamingType": "BUY",
+      "url": "https://tv.apple.com/us/movie/umc.cmc.2hjh19hgihbbetcmje1j27ozx?itsct=&itscg=30200&at=1010layx",
+      "priceAmount": 8.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.18.fear_of_13.json",
+      "itemTitle": "The Fear of 13",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "The life story of Nick Yarris, focusing on his wrongful conviction, 21-22 years spent on death row in Pennsylvania, his eventual exoneration through DNA evidence, and reflections on the art of storytelling.",
+      "summaryNotes": "The film follows Nick Yarris, who spent over two decades on death row before being exonerated by DNA evidence. It explores his life, wrongful conviction, and reflections on storytelling and truth.",
+      "keyQuotes": "The film features only Nick Yarris speaking directly to the camera, narrating his life and experiences in a compelling, non-linear monologue format.\n\nIt's a strange phenomenon when you felt good for their leaving because you knew all along you had stole a lot of their life away.\n\n...they do this not because they, like me, were wronged; they do it because it is the right thing to do—and it simply astounds me.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+        "JAILHOUSE_INFORMANT",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+        "PERJURY_OR_FALSE_ACCUSATION",
+        "OFFICIAL_MISCONDUCT",
+        "INADEQUATE_LEGAL_DEFENSE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Nicholas",
+          "middleName": null,
+          "lastName": "Yarris",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 1982,
+          "exonerationOrReleaseYear": 2003,
+          "timeServed": "Approximately 21-22 years",
+          "sentence": "Death",
+          "caseLocationCity": "Delaware County",
+          "caseLocationCounty": null,
+          "caseLocationState": "Pennsylvania",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Nicholas Yarris was wrongfully convicted of murder, rape, and kidnapping in 1982 and sentenced to death. He spent approximately 21-22 years on death row before his conviction was vacated in 2003 due to DNA evidence. He was released in 2004.",
+          "contributingFactorCodes": [
+            "MISTAKEN_EYEWITNESS_IDENTIFICATION",
+            "JAILHOUSE_INFORMANT",
+            "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE",
+            "PERJURY_OR_FALSE_ACCUSATION",
+            "OFFICIAL_MISCONDUCT",
+            "INADEQUATE_LEGAL_DEFENSE"
+          ],
+          "organizations": [
+            {
+              "name": "Innocence Project",
+              "type": "INNOCENCE_ORG"
+            },
+            {
+              "name": "Dr. Edward Blake",
+              "type": "OTHER"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "David",
+          "middleName": null,
+          "lastName": "Sington",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": [
+        {
+          "url": "https://innocenceproject.org/cases/nicholas-yarris/",
+          "description": "Innocence Project"
+        },
+        {
+          "url": "https://www.law.umich.edu/special/exoneration/Pages/casedetail.aspx?caseid=3771",
+          "description": "National Registry of Exonerations"
+        }
+      ]
+    }
+  ]
+}

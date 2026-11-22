@@ -1,0 +1,176 @@
+{
+  "sourceFiles": [
+    "9.23.13th.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "13th",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Ava DuVernay",
+    "publicationOrReleaseYear": 2016,
+    "publisherOrNetwork": "Kandoo Films (Distributed by Netflix)",
+    "focusOrTheme": "Analyzes the intersection of race, justice, and mass incarceration in the United States. Argues that the 13th Amendment's loophole (abolishing slavery *except* as punishment for crime) has been used to perpetuate racial control through systems like convict leasing, Jim Crow laws, the War on Drugs, and the modern prison-industrial complex.",
+    "summaryNotes": "An in-depth look at the prison system in the United States and how it reveals the nation's history of racial inequality.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "407806",
+    "imagePath": "https://image.tmdb.org/t/p/w500/tcKNWD6IFPPsvkpvyZ548naz0is.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Netflix",
+      "watchmodeProviderId": 11497,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.netflix.com/title/80091741",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.23.13th.json",
+      "itemTitle": "13th",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Analyzes the intersection of race, justice, and mass incarceration in the United States. Argues that the 13th Amendment's loophole (abolishing slavery *except* as punishment for crime) has been used to perpetuate racial control through systems like convict leasing, Jim Crow laws, the War on Drugs, and the modern prison-industrial complex.",
+      "summaryNotes": "The documentary explores the intersection of race, justice, and mass incarceration in the United States, arguing that the 13th Amendment's loophole has perpetuated racial control. It highlights the dramatic increase in the US prison population and features interviews with activists and scholars.",
+      "keyQuotes": "Bryan Stevenson: \"People say all the time, 'well, I don't understand how people could have tolerated slavery? ... How could people have gone to a lynching...? ... And the truth is we are living in this time, and we are tolerating it.”\n\nJohn Ehrlichman (Nixon aide): \"We knew we couldn't make it illegal to be either against the war or black. But by getting the public to associate the hippies with marijuana and blacks with heroin and then criminalizing both heavily, we could disrupt their communities.”\n\nMichelle Alexander: “So many aspects of the old Jim Crow are suddenly legal again once you've been branded a felon. And so it seems that in America we haven't so much ended racial caste, but simply redesigned it.”\n\nBarack Obama: “The United States is home to 5% of the world's population, but 25% of the world's prisoners. Think about that.”",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "RACIAL_BIAS",
+        "COERCED_PLEA"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Angela",
+          "middleName": null,
+          "lastName": "Davis",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": "USA (Systemic focus)",
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Angela Davis is an activist and scholar interviewed in the film, which focuses on systemic issues within the US justice system.",
+          "contributingFactorCodes": [
+            "RACIAL_BIAS",
+            "COERCED_PLEA"
+          ],
+          "organizations": [
+            {
+              "name": "Features experts/activists associated with Equal Justice Initiative, The Sentencing Project, etc.",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        },
+        {
+          "firstName": "Bryan",
+          "middleName": null,
+          "lastName": "Stevenson",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": "USA (Systemic focus)",
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Bryan Stevenson is an activist and scholar interviewed in the film, which focuses on systemic issues within the US justice system.",
+          "contributingFactorCodes": [
+            "RACIAL_BIAS",
+            "COERCED_PLEA"
+          ],
+          "organizations": [
+            {
+              "name": "Features experts/activists associated with Equal Justice Initiative, The Sentencing Project, etc.",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        },
+        {
+          "firstName": "Michelle",
+          "middleName": null,
+          "lastName": "Alexander",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": "USA (Systemic focus)",
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Michelle Alexander is an activist and scholar interviewed in the film, which focuses on systemic issues within the US justice system.",
+          "contributingFactorCodes": [
+            "RACIAL_BIAS",
+            "COERCED_PLEA"
+          ],
+          "organizations": [
+            {
+              "name": "Features experts/activists associated with Equal Justice Initiative, The Sentencing Project, etc.",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        },
+        {
+          "firstName": "Kalief",
+          "middleName": null,
+          "lastName": "Browder",
+          "suffix": null,
+          "status": "UNKNOWN",
+          "claimStrength": "UNASSESSED",
+          "crimeCategoryName": null,
+          "convictionYear": null,
+          "exonerationOrReleaseYear": null,
+          "timeServed": null,
+          "sentence": null,
+          "caseLocationCity": "USA (Systemic focus)",
+          "caseLocationCounty": null,
+          "caseLocationState": null,
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Kalief Browder's case is highlighted in the film as an example of pre-trial detention issues and systemic biases.",
+          "contributingFactorCodes": [
+            "RACIAL_BIAS",
+            "COERCED_PLEA"
+          ],
+          "organizations": [
+            {
+              "name": "Features experts/activists associated with Equal Justice Initiative, The Sentencing Project, etc.",
+              "type": "INNOCENCE_ORG"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Ava",
+          "middleName": null,
+          "lastName": "DuVernay",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

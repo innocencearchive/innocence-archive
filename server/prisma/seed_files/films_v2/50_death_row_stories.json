@@ -1,0 +1,61 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Death Row Stories",
+    "workType": "DOCUSERIES",
+    "creatorName": null,
+    "publicationOrReleaseYear": 2014,
+    "publisherOrNetwork": "CNN, Jigsaw Productions, Sundance Productions",
+    "focusOrTheme": null,
+    "summaryNotes": "A non-fiction series that explores capital murder cases. Each episode attempts to unravel the truth behind a different murder, including cases where the convicted individual maintains their innocence.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "68520",
+    "imagePath": "https://image.tmdb.org/t/p/w500/6XkOQOccTJY4tjuHZFxpSCIcOu5.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Amazon",
+      "watchmodeProviderId": 3163372,
+      "streamingType": "BUY",
+      "url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.599634d4-9123-4b8e-a3f8-519b7508f7b1?tag=",
+      "priceAmount": 2.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    },
+    {
+      "providerName": "VUDU",
+      "watchmodeProviderId": 3163372,
+      "streamingType": "BUY",
+      "url": "https://www.vudu.com/content/movies/details/content/1066742",
+      "priceAmount": 2.99,
+      "priceCurrency": "USD",
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "Death Row Stories (Docuseries)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2014-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": "A non-fiction series that explores capital murder cases. Each episode attempts to unravel the truth behind a different murder, including cases where the convicted individual maintains their innocence.",
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "sourceFiles": [
+    "9.38.cyntoia_brown.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Murder to Mercy: The Cyntoia Brown Story",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Daniel H. Birman",
+    "publicationOrReleaseYear": 2020,
+    "publisherOrNetwork": "Daniel H. Birman Productions (Distributed by Netflix)",
+    "focusOrTheme": "Chronicles the case of Cyntoia Brown, who was sentenced to life in prison at age 16 for killing a man in 2004. Explores her claims of self-defense and history as a victim of sex trafficking, the controversy around trying juveniles as adults, and her fight for clemency.",
+    "summaryNotes": "After 16-year-old Cyntoia Brown is sentenced to life in prison, questions about her past, physiology and the law itself call her guilt into question.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "690596",
+    "imagePath": "https://image.tmdb.org/t/p/w500/3td2LcbqYrQCSWjIhJjQfOsxrkJ.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [
+    {
+      "providerName": "Netflix",
+      "watchmodeProviderId": 1608874,
+      "streamingType": "SUBSCRIPTION",
+      "url": "https://www.netflix.com/title/81074065",
+      "priceAmount": null,
+      "priceCurrency": null,
+      "presentationQuality": "HD"
+    }
+  ],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.38.cyntoia_brown.json",
+      "itemTitle": "Murder to Mercy: The Cyntoia Brown Story",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Chronicles the case of Cyntoia Brown, who was sentenced to life in prison at age 16 for killing a man in 2004. Explores her claims of self-defense and history as a victim of sex trafficking, the controversy around trying juveniles as adults, and her fight for clemency.",
+      "summaryNotes": "Documentary about Cyntoia Brown, sentenced to life in prison at 16 for killing a man in 2004. It explores her claims of self-defense, history as a sex trafficking victim, and fight for clemency.",
+      "keyQuotes": "Interviews with Cyntoia Brown over many years (building on earlier documentary work by the same director)\n\nLegal experts discussing juvenile sentencing\n\nDetails of her troubled upbringing and trafficking experience\n\nThe public campaign for clemency\n\nGovernor Haslam's clemency decision.",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "RACIAL_BIAS"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Cyntoia",
+          "middleName": "Brown",
+          "lastName": "Long",
+          "suffix": null,
+          "status": "RELEASED_CLEMENCY",
+          "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 2006,
+          "exonerationOrReleaseYear": null,
+          "timeServed": "15 years.",
+          "sentence": "Life imprisonment (with parole eligibility after 51 years).",
+          "caseLocationCity": "Nashville",
+          "caseLocationCounty": null,
+          "caseLocationState": "Tennessee",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Cyntoia Brown Long was sentenced to life in prison at 16 for the murder of Johnny Michael Allen. She was later granted clemency and released after serving 15 years. Her case highlights juvenile sentencing and the intersection of sex trafficking with criminal culpability.",
+          "contributingFactorCodes": [],
+          "organizations": [
+            {
+              "name": "Legal teams advocating for juvenile justice reform",
+              "type": "OTHER"
+            },
+            {
+              "name": "Numerous public figures and advocates who supported her clemency campaign.",
+              "type": "SUPPORT_GROUP"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Daniel",
+          "middleName": "H.",
+          "lastName": "Birman",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}

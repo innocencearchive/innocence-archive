@@ -1,0 +1,44 @@
+{
+  "sourceFiles": [
+    "tmdb_data.csv"
+  ],
+  "sourceType": "TMDB_ONLY",
+  "recommendedAction": "SKIP",
+  "reviewWarnings": [
+    "Incomplete TMDB metadata (blank summary) and possible duplicate of \"The Wrong Man? 20 Years Behind Bars\" (#1423329)."
+  ],
+  "mediaWork": {
+    "title": "The Wrong Man: 17 Years Behind Bars",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Jemma Gander, Fran Robertson",
+    "publicationOrReleaseYear": 2024,
+    "publisherOrNetwork": "Fighting to prove his innocence, Andrew Malkinson tells the shocking story of how he was convicted and sentenced to life in prison for a horrific crime he didn’t commit.",
+    "focusOrTheme": null,
+    "summaryNotes": null,
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "1294456",
+    "imagePath": "https://image.tmdb.org/t/p/w500/qGF0GZlbbXpDQPYghUkcxb75vJx.jpg",
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "tmdb_data.csv",
+      "itemTitle": "The Wrong Man: 17 Years Behind Bars (Documentary)",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": "2024-01-01",
+      "hostOrNarrator": null,
+      "focusOrTheme": null,
+      "summaryNotes": null,
+      "keyQuotes": null,
+      "sourceUrl": null,
+      "contributingFactorCodes": [],
+      "featuredIndividuals": [],
+      "involvedPersons": [],
+      "externalLinks": []
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "sourceFiles": [
+    "9.29.scenes_of_crime.json"
+  ],
+  "sourceType": "RESEARCH_JSON_MERGED",
+  "recommendedAction": "CREATE",
+  "reviewWarnings": [],
+  "mediaWork": {
+    "title": "Scenes of a Crime",
+    "workType": "DOCUMENTARY",
+    "creatorName": "Grover Babcock, Blue Hadaegh",
+    "publicationOrReleaseYear": 2011,
+    "publisherOrNetwork": "Tangled Bank Studios",
+    "focusOrTheme": "Examines the lengthy police interrogation of Adrian Thomas in Troy, New York, which resulted in a disputed confession regarding the death of his infant son. Critiques interrogation techniques and explores the phenomenon of false confessions.",
+    "summaryNotes": "A father is interrogated for 11 hours until he confesses to a crime he says he didn't commit. This documentary explores the science of interrogation and false confessions.",
+    "availabilityNotes": null,
+    "sourceUrl": null,
+    "externalId": "97969",
+    "imagePath": null,
+    "sourcingCredit": "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    "aiGenerated": false
+  },
+  "streamingProviders": [],
+  "mediaItems": [
+    {
+      "sourceFileName": "9.29.scenes_of_crime.json",
+      "itemTitle": "Scenes of a Crime",
+      "itemNumber": null,
+      "itemMediaType": "DOCUMENTARY_CONTENT",
+      "releaseDate": null,
+      "hostOrNarrator": null,
+      "focusOrTheme": "Examines the lengthy police interrogation of Adrian Thomas in Troy, New York, which resulted in a disputed confession regarding the death of his infant son. Critiques interrogation techniques and explores the phenomenon of false confessions.",
+      "summaryNotes": "The documentary features extensive footage from Adrian Thomas's actual videotaped interrogation, interviews with Thomas, his family, lawyers, and jurors. It analyzes the specific techniques used by police during the 10-hour questioning.",
+      "keyQuotes": "Extensive footage from Adrian Thomas's actual videotaped interrogation\n\nInterviews with Thomas, his family, lawyers, jurors, and potentially interrogation experts\n\nAnalysis of the specific techniques used by police during the 10-hour questioning",
+      "sourceUrl": null,
+      "contributingFactorCodes": [
+        "FALSE_CONFESSION",
+        "FALSE_OR_MISLEADING_FORENSIC_EVIDENCE"
+      ],
+      "featuredIndividuals": [
+        {
+          "firstName": "Adrian",
+          "middleName": "P.",
+          "lastName": "Thomas",
+          "suffix": null,
+          "status": "EXONERATED",
+          "claimStrength": "FORMALLY_EXONERATED",
+          "crimeCategoryName": "Murder",
+          "convictionYear": 2009,
+          "exonerationOrReleaseYear": 2014,
+          "timeServed": "Approximately 5-6 years",
+          "sentence": "25 years to life",
+          "caseLocationCity": "Troy",
+          "caseLocationCounty": null,
+          "caseLocationState": "New York",
+          "caseLocationCountry": "USA",
+          "narrativeSummary": "Adrian Thomas was wrongfully convicted of second-degree murder in the death of his infant son. His conviction was based on a false confession obtained through coercive interrogation techniques. He was exonerated in 2014 after his confession was suppressed and his conviction was overturned.",
+          "contributingFactorCodes": [
+            "FALSE_CONFESSION"
+          ],
+          "organizations": [
+            {
+              "name": "New York State Defenders Association",
+              "type": "LEGAL_AID"
+            },
+            {
+              "name": "Lawyers",
+              "type": "OTHER"
+            },
+            {
+              "name": "Potentially false confession experts (like Richard Ofshe or Saul Kassin, though not explicitly named in provided search snippets)",
+              "type": "OTHER"
+            },
+            {
+              "name": "APA filed amicus brief supporting admissibility of expert testimony",
+              "type": "SUPPORT_GROUP"
+            }
+          ]
+        }
+      ],
+      "involvedPersons": [
+        {
+          "firstName": "Grover",
+          "middleName": null,
+          "lastName": "Babcock",
+          "suffix": null,
+          "role": "DIRECTOR"
+        },
+        {
+          "firstName": "Blue",
+          "middleName": null,
+          "lastName": "Hadaegh",
+          "suffix": null,
+          "role": "DIRECTOR"
+        }
+      ],
+      "externalLinks": []
+    }
+  ]
+}
