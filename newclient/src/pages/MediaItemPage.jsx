@@ -244,23 +244,26 @@ function MediaItemPage() {
                         <div className="lg:col-span-1 order-last lg:order-first p-6 rounded-lg shadow-inner bg-gray-800">
                             <ItemDetails item={itemData} />
                         </div>
-                        <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg`}>
-                            <ItemSummaryDisplay summaryText={itemData.summaryNotes} />
-                            {itemData.aiGenerated !== false && <AIDisclaimer />}
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg flex flex-col`}>
+                            <div>
+                                <ItemSummaryDisplay summaryText={itemData.summaryNotes} />
+                            </div>
 
-            {/* === BLOCK 1.5: Wrongfully Convicted Individuals Mentioned === */}
-             <div className="flex flex-col items-center justify-start px-4 md:px-8 py-8">
-                <div className="w-full">
-                     <div className={`p-4 border ${BRONZE_BORDER} rounded-lg h-full overflow-y-auto max-h-96`}>
-                        <WrongfullyConvictedList
-                            individuals={wrongfullyConvicted}
-                            isLoading={loadingWC}
-                            error={errorWC}
-                        />
+                            <div className="mt-6 pt-6 border-t border-gray-700 max-h-80 overflow-y-auto">
+                                <WrongfullyConvictedList
+                                    individuals={wrongfullyConvicted}
+                                    isLoading={loadingWC}
+                                    error={errorWC}
+                                    title="Linked Cases"
+                                />
+                            </div>
+
+                            {itemData.aiGenerated !== false && itemData.verificationStatus !== 'VERIFIED' && (
+                                <div className="mt-auto pt-6 border-t border-gray-700">
+                                    <AIDisclaimer />
+                                </div>
+                            )}
+                        </div>
                     </div>
                 </div>
             </div>

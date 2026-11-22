@@ -13,11 +13,18 @@ const BookPurchaseInfo = ({ details, externalId }) => {
     // Construct WorldCat link if ISBN (externalId) is available
     const worldcatUrl = externalId ? `https://www.worldcat.org/isbn/${externalId}` : null;
 
-    // Placeholder for Amazon URL construction.
-    // You might store a direct amazonPurchaseUrl in 'details' from your seeding process,
-    // or construct it if you have a consistent rule.
-    const amazonUrl = details?.amazonPurchaseUrl_api || (externalId ? `https://www.amazon.com/s?k=${externalId}&i=stripbooks` : null);
-    // A more direct link if you know it's an ISBN: `https://www.amazon.com/dp/${externalId}`
+    const amazonUrl =
+        details?.amazonPurchaseUrl ||
+        details?.amazonPurchaseUrl_api ||
+        (externalId ? `https://www.amazon.com/s?k=${externalId}&i=stripbooks` : null);
+
+    const previewLink = details?.googleBooksPreviewLink || details?.googleBooksPreviewLink_api || null;
+    const rawRetailAmt = details?.retailPriceAmount ?? details?.retailPriceAmount_api;
+    const rawRetailCur = details?.retailPriceCurrency || details?.retailPriceCurrency_api;
+    const rawListAmt = details?.listPriceAmount ?? details?.listPriceAmount_api;
+    const rawListCur = details?.listPriceCurrency || details?.listPriceCurrency_api;
+    const saleability = details?.saleabilityGoogle || details?.saleabilityGoogle_api || null;
+    const isEbook = details?.isEbookGoogle ?? details?.isEbookGoogle_api;
 
     const formatPrice = (amount, currency) => {
         if (amount === null || amount === undefined || !currency) return 'N/A';
@@ -25,15 +32,15 @@ const BookPurchaseInfo = ({ details, externalId }) => {
             return new Intl.NumberFormat('en-US', { style: 'currency', currency: currency }).format(amount);
         } catch (e) {
             console.warn("Price formatting error:", e);
-            return `${amount} ${currency}`; // Fallback
+            return `${amount} ${currency}`;
         }
     };
     
-    const retailPrice = details?.retailPriceAmount_api !== null && details?.retailPriceAmount_api !== undefined 
-                        ? formatPrice(details.retailPriceAmount_api, details.retailPriceCurrency_api)
+    const retailPrice = rawRetailAmt !== null && rawRetailAmt !== undefined
+                        ? formatPrice(rawRetailAmt, rawRetailCur)
                         : null;
-    const listPrice = details?.listPriceAmount_api !== null && details?.listPriceAmount_api !== undefined
-                      ? formatPrice(details.listPriceAmount_api, details.listPriceCurrency_api)
+    const listPrice = rawListAmt !== null && rawListAmt !== undefined
+                      ? formatPrice(rawListAmt, rawListCur)
                       : null;
 
     return (
@@ -46,9 +53,9 @@ const BookPurchaseInfo = ({ details, externalId }) => {
                 </p>
             )}
 
-            {details?.googleBooksPreviewLink_api && (
+            {previewLink && (
                 <a
-                    href={details.googleBooksPreviewLink_api}
+                    href={previewLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center text-amber-500 hover:text-amber-400 transition-colors"
@@ -103,10 +110,10 @@ const BookPurchaseInfo = ({ details, externalId }) => {
                 </div>
             )}
 
-            {details?.saleabilityGoogle_api && (
+            {saleability && (
                  <p className="text-xs text-gray-500 mt-3">
-                    Availability on Google Play: {details.saleabilityGoogle_api.replace(/_/g, ' ').toLowerCase()}
-                    {details.isEbookGoogle_api ? ' (eBook available)' : ''}
+                    Availability on Google Play: {saleability.replace(/_/g, ' ').toLowerCase()}
+                    {isEbook ? ' (eBook available)' : ''}
                 </p>
             )}
         </div>

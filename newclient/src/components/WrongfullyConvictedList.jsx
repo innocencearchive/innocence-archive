@@ -30,17 +30,25 @@ const formatStatus = (status) => {
  * - isLoading: Boolean indicating if data is loading.
  * - error: String containing error message, or null/undefined if no error.
  */
-const WrongfullyConvictedList = ({ individuals, isLoading, error }) => {
-  // Updated title for clarity
-  const title = "Wrongfully Convicted Individuals Mentioned";
-  const linkPrefix = "/profile"; // Links to the full WC profile page
+const WrongfullyConvictedList = ({
+  individuals,
+  isLoading,
+  error,
+  title = 'Wrongfully Convicted Individuals Mentioned',
+}) => {
+  const linkPrefix = '/profile'; // Links to the full WC profile page
 
   return (
     <div>
       {/* List Heading */}
       <h3 className={`text-xl font-semibold ${BRONZE_COLOR} mb-3 flex items-center`}>
         <Users className="mr-2 flex-shrink-0" size={20} />
-        {title}
+        <span>{title}</span>
+        {!isLoading && !error && Array.isArray(individuals) && individuals.length > 0 && (
+          <span className="ml-2 text-xs font-medium px-2 py-0.5 rounded-full bg-gray-800 border border-gray-700 text-gray-300">
+            {individuals.length}
+          </span>
+        )}
       </h3>
 
       {/* Loading State */}

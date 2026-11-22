@@ -226,23 +226,64 @@ function MediaWorkPage() {
                         <div className="lg:col-span-1 order-last lg:order-first bg-gray-800 p-6 rounded-lg shadow-lg">
                             <WorkDetails work={workData} />
                         </div>
-                        <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg`}>
-                            <WorkSummaryDisplay summaryText={workData.summaryNotes} />
-                            {workData.aiGenerated !== false && <AIDisclaimer />}
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg flex flex-col`}>
+                            <div>
+                                <WorkSummaryDisplay summaryText={workData.summaryNotes} />
+                            </div>
 
-            {/* === BLOCK 1.5: Wrongfully Convicted Individuals Mentioned === */}
-            <div className="flex flex-col items-center justify-start px-4 md:px-8 py-8">
-                <div className="w-full">
-                     <div className={`p-4 border ${BRONZE_BORDER} rounded-lg h-full overflow-y-auto max-h-96`}>
-                        <WrongfullyConvictedList
-                            individuals={wrongfullyConvicted}
-                            isLoading={loadingWC}
-                            error={errorWC}
-                        />
+                            <div className={`mt-6 pt-6 border-t border-gray-700 ${workData.streamingProviders?.length > 0 ? 'grid grid-cols-1 md:grid-cols-2 gap-6' : ''}`}>
+                                {workData.streamingProviders && workData.streamingProviders.length > 0 && (
+                                    <div>
+                                        <h2 className={`text-xl font-semibold ${BRONZE_COLOR} mb-3`}>How to Watch</h2>
+                                        <ul className="space-y-2 text-sm text-gray-200 max-h-72 overflow-y-auto pr-1">
+                                            {workData.streamingProviders.map((provider) => {
+                                                const typeLabel = provider.streamingType
+                                                    ? provider.streamingType.charAt(0) + provider.streamingType.slice(1).toLowerCase()
+                                                    : '';
+                                                const priceLabel =
+                                                    provider.priceAmount != null
+                                                        ? ` ($${Number(provider.priceAmount).toFixed(2)})`
+                                                        : '';
+                                                const content = (
+                                                    <div className="flex items-center justify-between gap-2 px-3 py-2 rounded-lg bg-gray-800/80 border border-gray-700 hover:border-[#af7a56] transition-colors">
+                                                        <span className="font-medium truncate">{provider.providerName}</span>
+                                                        <span className="text-xs px-2 py-0.5 rounded-full bg-black/60 border border-[#af7a56]/45 text-[#edc4a3] whitespace-nowrap">
+                                                            {typeLabel}{priceLabel}
+                                                        </span>
+                                                    </div>
+                                                );
+                                                return (
+                                                    <li key={provider.id || `${provider.providerName}-${provider.streamingType}`}>
+                                                        {provider.url ? (
+                                                            <a href={provider.url} target="_blank" rel="noopener noreferrer" className="block">
+                                                                {content}
+                                                            </a>
+                                                        ) : (
+                                                            content
+                                                        )}
+                                                    </li>
+                                                );
+                                            })}
+                                        </ul>
+                                    </div>
+                                )}
+
+                                <div className={`${workData.streamingProviders?.length > 0 ? 'md:border-l md:border-gray-700 md:pl-6' : ''} max-h-80 overflow-y-auto`}>
+                                    <WrongfullyConvictedList
+                                        individuals={wrongfullyConvicted}
+                                        isLoading={loadingWC}
+                                        error={errorWC}
+                                        title="Linked Cases"
+                                    />
+                                </div>
+                            </div>
+
+                            {workData.aiGenerated !== false && workData.verificationStatus !== 'VERIFIED' && (
+                                <div className="mt-auto pt-6 border-t border-gray-700">
+                                    <AIDisclaimer />
+                                </div>
+                            )}
+                        </div>
                     </div>
                 </div>
             </div>

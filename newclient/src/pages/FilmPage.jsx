@@ -313,21 +313,53 @@ function FilmPage() {
                                 <ItemSummaryDisplay summaryText={workData.summaryNotes || itemData?.summaryNotes} />
                             </div>
 
-                            <div className="mt-6 pt-6 border-t border-gray-700">
-                                <h2 className="text-2xl font-semibold ${BRONZE_COLOR} mb-4">How to Watch</h2>
-                                {workData.streamingProviders && workData.streamingProviders.length > 0 ? (
-                                    <div className="text-gray-300">
-                                        {/* This will be replaced by StreamingProvidersComponent */}
-                                        <p>Streaming information will be displayed here.</p>
-                                        <ul>
-                                            {workData.streamingProviders.map(provider => (
-                                                <li key={provider.id}>{provider.providerName} - {provider.streamingType}</li>
-                                            ))}
+                            <div className="mt-6 pt-6 border-t border-gray-700 grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <h2 className={`text-xl font-semibold ${BRONZE_COLOR} mb-3`}>How to Watch</h2>
+                                    {workData.streamingProviders && workData.streamingProviders.length > 0 ? (
+                                        <ul className="space-y-2 text-sm text-gray-200 max-h-72 overflow-y-auto pr-1">
+                                            {workData.streamingProviders.map((provider) => {
+                                                const typeLabel = provider.streamingType
+                                                    ? provider.streamingType.charAt(0) + provider.streamingType.slice(1).toLowerCase()
+                                                    : '';
+                                                const priceLabel =
+                                                    provider.priceAmount != null
+                                                        ? ` ($${Number(provider.priceAmount).toFixed(2)})`
+                                                        : '';
+                                                const content = (
+                                                    <div className="flex items-center justify-between gap-2 px-3 py-2 rounded-lg bg-gray-800/80 border border-gray-700 hover:border-[#af7a56] transition-colors">
+                                                        <span className="font-medium truncate">{provider.providerName}</span>
+                                                        <span className="text-xs px-2 py-0.5 rounded-full bg-black/60 border border-[#af7a56]/45 text-[#edc4a3] whitespace-nowrap">
+                                                            {typeLabel}{priceLabel}
+                                                        </span>
+                                                    </div>
+                                                );
+                                                return (
+                                                    <li key={provider.id || `${provider.providerName}-${provider.streamingType}`}>
+                                                        {provider.url ? (
+                                                            <a href={provider.url} target="_blank" rel="noopener noreferrer" className="block">
+                                                                {content}
+                                                            </a>
+                                                        ) : (
+                                                            content
+                                                        )}
+                                                    </li>
+                                                );
+                                            })}
                                         </ul>
-                                    </div>
-                                ) : (
-                                    <p className="text-gray-400">Streaming information is currently unavailable for this title.</p>
-                                )}
+                                    ) : (
+                                        <p className="text-sm text-gray-400 italic">Streaming information is currently unavailable for this title.</p>
+                                    )}
+                                </div>
+
+                                <div className="md:border-l md:border-gray-700 md:pl-6 max-h-80 overflow-y-auto">
+                                    <WrongfullyConvictedList
+                                        individuals={wrongfullyConvicted}
+                                        isLoading={loadingWC}
+                                        error={errorWC}
+                                        title="Linked Cases"
+                                    />
+                                </div>
                             </div>
                             
                             <div className="mt-auto pt-6 border-t border-gray-700 text-xs text-gray-500">
@@ -355,17 +387,6 @@ function FilmPage() {
                     </div>
                 </div>
             </div>
-
-            {/* === BLOCK 1.5: Wrongfully Convicted Individuals === */}
-            {(loadingWC || wrongfullyConvicted.length > 0 || errorWC) && (
-                <div className="flex flex-col items-center justify-start px-4 md:px-8 py-8">
-                    <div className="w-full max-w-6xl mx-auto">
-                        <div className={`p-4 border ${BRONZE_BORDER} rounded-lg h-full overflow-y-auto max-h-96`}>
-                            <WrongfullyConvictedList individuals={wrongfullyConvicted} isLoading={loadingWC} error={errorWC} />
-                        </div>
-                    </div>
-                </div>
-            )}
 
             {/* === BLOCK 2: Learn More (Related Lists) === */}
             <div className="flex flex-col items-center justify-start px-4 md:px-8 pt-8 pb-16">

@@ -256,9 +256,9 @@ function BookPage() {
                     <h1 className={`text-4xl md:text-5xl ${BRONZE_COLOR} mb-4 text-center font-serif font-bold tracking-wider uppercase`}>
                         {workData.title}
                     </h1>
-                    {workData.bookPurchaseDetails?.subtitle_api && (
+                    {(workData.bookPurchaseDetails?.subtitle || workData.bookPurchaseDetails?.subtitle_api) && (
                         <h2 className="text-2xl text-gray-400 mb-4 text-center font-serif">
-                            {workData.bookPurchaseDetails.subtitle_api}
+                            {workData.bookPurchaseDetails.subtitle || workData.bookPurchaseDetails.subtitle_api}
                         </h2>
                     )}
                     <p className="text-center text-lg text-gray-400 mb-12">
@@ -285,32 +285,40 @@ function BookPage() {
                                 {workData.publisherOrNetwork && ( // Assuming publisherOrNetwork is Publisher
                                     <p className="mb-2 flex items-center"><Building size={16} className="mr-2 text-gray-400" /> <strong className="text-gray-300">Publisher:</strong> <span className="ml-1">{workData.publisherOrNetwork}</span></p>
                                 )}
-                                {workData.bookPurchaseDetails?.pageCount_api && (
-                                    <p className="mb-2 flex items-center"><FileText size={16} className="mr-2 text-gray-400" /> <strong className="text-gray-300">Pages:</strong> <span className="ml-1">{workData.bookPurchaseDetails.pageCount_api}</span></p>
+                                {(workData.bookPurchaseDetails?.pageCount || workData.bookPurchaseDetails?.pageCount_api) && (
+                                    <p className="mb-2 flex items-center"><FileText size={16} className="mr-2 text-gray-400" /> <strong className="text-gray-300">Pages:</strong> <span className="ml-1">{workData.bookPurchaseDetails.pageCount || workData.bookPurchaseDetails.pageCount_api}</span></p>
                                 )}
                             </div>
                         </div>
 
-                        {/* Right Column: Summary and How to Read */}
-                        <div className={`lg:col-span-2 border ${BRONZE_COLOR} p-6 rounded-lg shadow-lg flex flex-col`}>
+                        {/* Right Column: Summary, plus 2-column How to Read & Linked Cases */}
+                        <div className={`lg:col-span-2 border ${BRONZE_BORDER} p-6 rounded-lg shadow-lg flex flex-col`}>
                             <div>
-                                
-                                {/* MODIFIED LINE BELOW */}
                                 <ItemSummaryDisplay summaryText={workData.bookPurchaseDetails?.description_api || workData.summaryNotes} />
                             </div>
 
-                            <div className="mt-6 pt-6 border-t border-gray-700">
-                                <h2 className="text-2xl font-semibold text-amber-500 mb-4">How to Read</h2>
-                                <BookPurchaseInfo
-                                    details={workData.bookPurchaseDetails}
-                                    externalId={workData.externalId} // Assuming this will be ISBN-13
-                                />
+                            <div className="mt-6 pt-6 border-t border-gray-700 grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <h2 className={`text-xl font-semibold ${BRONZE_COLOR} mb-3`}>How to Read</h2>
+                                    <BookPurchaseInfo
+                                        details={workData.bookPurchaseDetails}
+                                        externalId={workData.externalId}
+                                    />
+                                </div>
+
+                                <div className="md:border-l md:border-gray-700 md:pl-6 max-h-80 overflow-y-auto">
+                                    <WrongfullyConvictedList
+                                        individuals={wrongfullyConvicted}
+                                        isLoading={loadingWC}
+                                        error={errorWC}
+                                        title="Linked Cases"
+                                    />
+                                </div>
                             </div>
                             
                             <div className="mt-auto pt-6 border-t border-gray-700 text-xs text-gray-500">
-                                {/* --- CORRECTED AI DISCLAIMER LOGIC --- */}
                                 {workData.aiGenerated !== false && workData.verificationStatus !== 'VERIFIED' && <AIDisclaimer type="book data" />}
-                                {workData.sourcingCredit && ( // If you add sourcing credit for Google Books API
+                                {workData.sourcingCredit && (
                                      <p className="mt-2">{workData.sourcingCredit}</p>
                                 )}
                             </div>
@@ -318,18 +326,6 @@ function BookPage() {
                     </div>
                 </div>
             </div>
-
-            {/* === BLOCK 1.5: Wrongfully Convicted Individuals (if applicable to this book) === */}
-            {(loadingWC || wrongfullyConvicted.length > 0 || errorWC) && (
-                <div className="flex flex-col items-center justify-start px-4 md:px-8 py-8">
-                    <div className="w-full max-w-6xl mx-auto">
-                         <h2 className={`text-3xl md:text-4xl font-semibold mb-6 text-center ${BRONZE_COLOR}`}>Individuals Mentioned</h2>
-                        <div className={`p-4 border ${BRONZE_BORDER} rounded-lg h-full overflow-y-auto max-h-96`}>
-                            <WrongfullyConvictedList individuals={wrongfullyConvicted} isLoading={loadingWC} error={errorWC} />
-                        </div>
-                    </div>
-                </div>
-            )}
 
             {/* === BLOCK 2: Learn More (Related Lists) === */}
             <div className="flex flex-col items-center justify-start px-4 md:px-8 pt-8 pb-16">
