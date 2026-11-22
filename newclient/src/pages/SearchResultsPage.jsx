@@ -106,7 +106,7 @@ function SearchResultsPage() {
   const query = searchParams.get('q') || '';
   const typeFilter = (searchParams.get('type') || '').toUpperCase();
   const factorFilter = searchParams.get('factor') || '';
-  const sortParam = searchParams.get('sort') || 'title';
+  const sortParam = searchParams.get('sort') || 'newest';
   const currentPage = Math.max(1, parseInt(searchParams.get('page') || '1', 10));
 
   const isMediaCollection = Boolean(typeFilter && MEDIA_COLLECTION_META[typeFilter]);
@@ -150,7 +150,7 @@ function SearchResultsPage() {
     const currentQuery = searchParams.get('q') || '';
     const currentTypeFilter = (searchParams.get('type') || '').toUpperCase();
     const currentFactor = searchParams.get('factor') || '';
-    const currentSort = searchParams.get('sort') || 'title';
+    const currentSort = searchParams.get('sort') || 'newest';
     const pageForFetch = Math.max(1, parseInt(searchParams.get('page') || '1', 10));
     const effectiveLimit = MEDIA_COLLECTION_META[currentTypeFilter] ? 8 : 20;
 
@@ -257,7 +257,7 @@ function SearchResultsPage() {
         ? `Search Results for: "${query}"`
         : 'Search Results';
 
-  const hasActiveFilters = Boolean(query || factorFilter || sortParam !== 'title');
+  const hasActiveFilters = Boolean(query || factorFilter || sortParam !== 'newest');
 
   // Split global keyword results so mediaWork entries still get editorial cards
   const globalMediaWorks = !isMediaCollection
@@ -314,9 +314,10 @@ function SearchResultsPage() {
               {/* Sort Dropdown */}
               <select
                 value={sortParam}
-                onChange={(e) => updateFilterParam('sort', e.target.value === 'title' ? '' : e.target.value)}
+                onChange={(e) => updateFilterParam('sort', e.target.value === 'newest' ? '' : e.target.value)}
                 className="px-3.5 py-2 text-xs font-medium rounded-lg bg-black border border-gray-700 text-gray-200 focus:outline-none focus:border-[#af7a56]"
               >
+                <option value="newest">Sort: Newest → Oldest</option>
                 <option value="title">Sort: Title (A–Z)</option>
                 <option value="creator">{collectionMeta.creatorSortLabel}</option>
                 <option value="cases">Sort: Most Linked Cases</option>

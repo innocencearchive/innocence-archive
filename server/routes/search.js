@@ -65,11 +65,13 @@ const MEDIA_WORK_CARD_SELECT = {
   title: true,
   workType: true,
   creatorName: true,
+  publicationOrReleaseYear: true,
   summaryNotes: true,
   imagePath: true,
   items: {
     select: {
       id: true,
+      releaseDate: true,
       summaryNotes: true,
       individualsFeatured: {
         select: { id: true },
@@ -85,10 +87,17 @@ function formatMediaWorkCard(work) {
   const factorMap = new Map();
   const individualIdSet = new Set();
   let itemSummaryFallback = '';
+  let latestItemTimestamp = 0;
 
   for (const item of work.items || []) {
     if (!itemSummaryFallback && item.summaryNotes?.trim()) {
       itemSummaryFallback = item.summaryNotes.trim();
+    }
+    if (item.releaseDate) {
+      const ts = new Date(item.releaseDate).getTime();
+      if (!Number.isNaN(ts) && ts > latestItemTimestamp) {
+        latestItemTimestamp = ts;
+      }
     }
     for (const ind of item.individualsFeatured || []) {
       individualIdSet.add(ind.id);
@@ -107,12 +116,18 @@ function formatMediaWorkCard(work) {
       : rawSummary
     : '';
 
+  const sortDateScore = work.publicationOrReleaseYear
+    ? Date.UTC(work.publicationOrReleaseYear, 0, 1)
+    : latestItemTimestamp;
+
   return {
     id: work.id,
     type: 'mediaWork',
     name: work.title,
     workType: work.workType,
     creatorName: work.creatorName || null,
+    publicationOrReleaseYear: work.publicationOrReleaseYear || null,
+    _sortDateScore: sortDateScore,
     imagePath: work.imagePath || null,
     detail,
     contributingFactors: Array.from(factorMap.values()),
@@ -147,12 +162,12 @@ function getWorkTypeWhere(typeFilter) {
   }
 }
 
-// GET /api/search?q=<query>&type=<type>&factor=<code|name>&sort=<title|creator|cases>&page=<page>&limit=<limit>
+// GET /api/search?q=<query>&type=<type>&factor=<code|name>&sort=<newest|title|creator|cases>&page=<page>&limit=<limit>
 router.get('/', async (req, res) => {
   const query = req.query.q?.trim() || '';
   const typeFilter = req.query.type?.toUpperCase() || '';
   const factorFilter = req.query.factor?.trim() || '';
-  const sortParam = (req.query.sort || 'title').toLowerCase();
+  const sortParam = (req.query.sort || 'newest').toLowerCase();
   const page = Math.max(1, parseInt(req.query.page, 10) || 1);
   const limit = Math.min(100, Math.max(1, parseInt(req.query.limit, 10) || (typeFilter ? 8 : 20)));
   const skip = (page - 1) * limit;
@@ -246,8 +261,11 @@ router.get('/', async (req, res) => {
         );
       }
 
-      // Sort
+      // Sort (default: newest -> oldest by publicationOrReleaseYear / latest item releaseDate)
       filtered.sort((a, b) => {
+        if (sortParam === 'title') {
+          return a.name.localeCompare(b.name);
+        }
         if (sortParam === 'creator') {
           const ca = (a.creatorName || 'zzzz').toLowerCase();
           const cb = (b.creatorName || 'zzzz').toLowerCase();
@@ -256,11 +274,17 @@ router.get('/', async (req, res) => {
         if (sortParam === 'cases') {
           return b.linkedCasesCount - a.linkedCasesCount || a.name.localeCompare(b.name);
         }
+        // Default: 'newest' (undated works sorted to the bottom)
+        const da = a._sortDateScore || 0;
+        const db = b._sortDateScore || 0;
+        if (db !== da) return db - da;
         return a.name.localeCompare(b.name);
       });
 
       const totalCount = filtered.length;
-      const pagedResults = filtered.slice(skip, skip + limit);
+      const pagedResults = filtered
+        .slice(skip, skip + limit)
+        .map(({ _sortDateScore, ...card }) => card);
 
       return res.json({
         results: pagedResults,
@@ -363,7 +387,8 @@ router.get('/', async (req, res) => {
     );
 
     mediaWorks.forEach((work) => {
-      combinedResults.push(formatMediaWorkCard(work));
+      const { _sortDateScore, ...card } = formatMediaWorkCard(work);
+      combinedResults.push(card);
       if (
         work.workType === MediaWorkType.BOOK ||
         work.workType === MediaWorkType.FILM ||
