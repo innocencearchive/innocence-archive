@@ -11,6 +11,7 @@ import {
   ExternalLink,
   RefreshCw,
   Edit3,
+  Trash2,
 } from 'lucide-react';
 import apiClient from '../apiClient';
 import { BRONZE_COLOR } from '../components/themeconstants';
@@ -63,6 +64,24 @@ function AdminVerifyPage() {
       await loadQueue();
     } catch (err) {
       setError(err.response?.data?.message || 'Failed to update status.');
+    } finally {
+      setBusyKey(null);
+    }
+  };
+
+  const handleDelete = async (item) => {
+    const confirmed = window.confirm(
+      `Permanently delete ${item.entityLabel} #${item.id} ("${item.title}")?\n\nThis removes the record from the database and cannot be undone.`
+    );
+    if (!confirmed) return;
+
+    const key = `${item.resource}-${item.id}`;
+    setBusyKey(key);
+    try {
+      await apiClient.delete(`/admin/${item.resource}/${item.id}`);
+      await loadQueue();
+    } catch (err) {
+      setError(err.response?.data?.message || 'Failed to delete record.');
     } finally {
       setBusyKey(null);
     }
@@ -218,6 +237,15 @@ function AdminVerifyPage() {
                       >
                         <Edit3 size={14} className="mr-1" /> Full Edit
                       </Link>
+                      <button
+                        type="button"
+                        disabled={isBusy}
+                        onClick={() => handleDelete(item)}
+                        title="Permanently delete this record"
+                        className="inline-flex items-center px-2.5 py-1.5 rounded bg-red-950/90 hover:bg-red-900 border border-red-700/70 disabled:opacity-40 text-red-200 text-xs font-medium"
+                      >
+                        <Trash2 size={14} className="mr-1" /> Delete
+                      </button>
                     </div>
                   </div>
 
