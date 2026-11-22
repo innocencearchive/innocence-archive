@@ -1,0 +1,74 @@
+name: Auto-Deploy to Render
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  detect-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      server: ${{ steps.filter.outputs.server }}
+      client: ${{ steps.filter.outputs.client }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Check changed paths
+        id: filter
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "server=true" >> "$GITHUB_OUTPUT"
+            echo "client=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          CHANGED=$(git diff --name-only HEAD~1 HEAD || true)
+          echo "Changed files:"
+          echo "$CHANGED"
+          if echo "$CHANGED" | grep -qE '^server/'; then
+            echo "server=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "server=false" >> "$GITHUB_OUTPUT"
+          fi
+          if echo "$CHANGED" | grep -qE '^newclient/'; then
+            echo "client=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "client=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  deploy-api:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.server == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Render API Deploy Hook
+        env:
+          HOOK_URL: ${{ secrets.RENDER_API_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK_URL" ]; then
+            echo "::error::Missing GitHub secret RENDER_API_DEPLOY_HOOK"
+            exit 1
+          fi
+          curl -fsSL -X POST "$HOOK_URL"
+          echo ""
+          echo "Triggered innocence-archive-api deploy!"
+
+  deploy-client:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.client == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Render Client Deploy Hook
+        env:
+          HOOK_URL: ${{ secrets.RENDER_CLIENT_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK_URL" ]; then
+            echo "::error::Missing GitHub secret RENDER_CLIENT_DEPLOY_HOOK"
+            exit 1
+          fi
+          curl -fsSL -X POST "$HOOK_URL"
+          echo ""
+          echo "Triggered innocence-archive-client deploy!"

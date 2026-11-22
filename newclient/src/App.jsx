@@ -1,5 +1,4 @@
 // src/App.jsx
-// Render auto-deploy connectivity check: 2026-11-22
 import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 
