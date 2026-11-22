@@ -1,4 +1,5 @@
 // server.js
+// Render auto-deploy connectivity check: 2026-11-22
 
 // Import necessary packages
 // Use require for standard Node.js CommonJS modules unless your package.json has "type": "module"
