@@ -780,10 +780,23 @@ router.post('/preview', async (req, res) => {
       ].join('|');
 
     const byId = new Map(existingIndividuals.map((i) => [i.id, i]));
-    const bySourceUrl = new Map();
+    // Track how many distinct individuals share each URL so shared list/article URLs
+    // (e.g. Wikipedia's list page or multi-defendant news articles) never trigger false URL matches
+    const urlOwners = new Map();
     for (const sl of existingSourceLinks) {
       if (sl.specificUrl && byId.has(sl.individualId)) {
-        bySourceUrl.set(normStr(sl.specificUrl), byId.get(sl.individualId));
+        const uKey = normStr(sl.specificUrl);
+        if (!urlOwners.has(uKey)) urlOwners.set(uKey, new Set());
+        urlOwners.get(uKey).add(sl.individualId);
+      }
+    }
+    const isSharedListUrl = (u) =>
+      /wikipedia\.org\/wiki\/list_of_wrongful_convictions/i.test(u || '');
+    const bySourceUrl = new Map();
+    for (const [uKey, ownerIds] of urlOwners.entries()) {
+      if (ownerIds.size === 1 && !isSharedListUrl(uKey)) {
+        const onlyId = Array.from(ownerIds)[0];
+        bySourceUrl.set(uKey, byId.get(onlyId));
       }
     }
 
@@ -902,11 +915,13 @@ router.post('/preview', async (req, res) => {
         action = 'SKIP';
         warnings.push('Could not determine both First Name and Last Name.');
       } else {
-        // 1. Exact match by existing source URL (e.g. NRE case URL already attached)
+        // 1. Exact match by unique person-specific source URL (e.g. NRE case URL),
+        //    requiring compatible lastName so shared multi-defendant articles never collide
         let urlMatch = null;
         for (const sl of sourceLinks) {
+          if (isSharedListUrl(sl.sourceUrl)) continue;
           const hit = bySourceUrl.get(normStr(sl.sourceUrl));
-          if (hit) {
+          if (hit && normStr(hit.lastName) === normStr(lastName)) {
             urlMatch = hit;
             break;
           }
