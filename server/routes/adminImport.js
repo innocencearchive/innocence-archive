@@ -1943,6 +1943,22 @@ router.post('/commit', async (req, res) => {
 
         let targetIndividualId = null;
 
+        const incomingLinksCheck =
+          Array.isArray(d.sourceLinks) && d.sourceLinks.length > 0
+            ? d.sourceLinks
+            : d.sourceUrl && d.sourceUrl.trim()
+              ? [{ sourceName: d.sourceName || defaultSourceName }]
+              : [];
+        const incomingSourceNames = incomingLinksCheck
+          .map((sl) => (sl.sourceName || defaultSourceName || '').trim().toLowerCase())
+          .filter(Boolean);
+        const incomingIsOnlyNre =
+          incomingSourceNames.length > 0 &&
+          incomingSourceNames.every((n) => n === 'national registry of exonerations');
+        const incomingHasNonNre = incomingSourceNames.some(
+          (n) => n !== 'national registry of exonerations'
+        );
+
         if (row.action === 'MERGE' && row.existingMatch?.id) {
           const existing = await prisma.individual.findUnique({ where: { id: row.existingMatch.id } });
           if (!existing) {
@@ -1971,6 +1987,8 @@ router.post('/commit', async (req, res) => {
               caseLocationCounty: existing.caseLocationCounty || d.caseLocationCounty || null,
               caseLocationState: existing.caseLocationState || d.caseLocationState || null,
               narrativeSummary: existing.narrativeSummary || d.narrativeSummary || null,
+              // If a non-NRE source is being merged onto an NRE-only record, auto-promote to published!
+              ...(incomingHasNonNre ? { nreOnly: false, isPublished: true } : {}),
               ...(factorConnectIds.length > 0
                 ? { contributingFactors: { connect: factorConnectIds } }
                 : {}),
@@ -2008,6 +2026,8 @@ router.post('/commit', async (req, res) => {
               ...verifiedFields,
               ingestionSource,
               importBatchId: batchId,
+              nreOnly: incomingIsOnlyNre,
+              isPublished: !incomingIsOnlyNre,
               ...(factorConnectIds.length > 0
                 ? { contributingFactors: { connect: factorConnectIds } }
                 : {}),

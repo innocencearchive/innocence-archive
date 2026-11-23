@@ -346,7 +346,7 @@ router.get('/', async (req, res) => {
 
     const [individuals, mediaWorks, mediaItems, organizations] = await Promise.all([
       prisma.individual.findMany({
-        where: { OR: individualOrConditions },
+        where: { isPublished: true, OR: individualOrConditions },
         select: { id: true, firstName: true, lastName: true, narrativeSummary: true },
         take: KEYWORD_SEARCH_LIMIT_PER_ENTITY,
       }),

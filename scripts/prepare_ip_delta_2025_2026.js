@@ -182,7 +182,7 @@ async function main() {
       artKw: 'brian-boles-and-charles-collins',
     },
     {
-      firstName: 'Scott', middleName: null, lastName: 'Minton',
+      firstName: 'Samuel', middleName: 'Scott', lastName: 'Minton', nickname: 'Scott',
       status: 'EXONERATED', claimStrength: 'FORMALLY_EXONERATED',
       exonerationOrReleaseYear: 2025, timeServed: '30+ years', caseLocationState: 'Tennessee',
       narrativeSummary: 'Exonerated in Tennessee in January 2025 after three decades of wrongful conviction.',
@@ -196,7 +196,7 @@ async function main() {
       artKw: 'jimmie-chris-duncan-is-released',
     },
     {
-      firstName: 'Jermal', middleName: null, lastName: 'Shuler',
+      firstName: 'Jermel', middleName: null, lastName: 'Shuler',
       status: 'EXONERATED', claimStrength: 'FORMALLY_EXONERATED',
       exonerationOrReleaseYear: 2026, timeServed: '28 years', caseLocationCity: 'Philadelphia', caseLocationState: 'Pennsylvania',
       narrativeSummary: 'One of three men exonerated in Philadelphia in May 2026 after 28 years of wrongful conviction.',

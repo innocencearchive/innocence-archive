@@ -1,6 +1,7 @@
 // src/pages/HomePage.jsx
 import apiClient from '../apiClient';
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { AlertCircle, Loader2 } from 'lucide-react'; 
 
 import ExploreGrid from '../components/ExploreGrid';
@@ -190,6 +191,31 @@ const HomePage = () => {
               stats={stats}
               factors={featuredFactors}
             />
+        </div>
+
+        {/* Stories Yet to Be Told Callout */}
+        <div className="max-w-6xl mx-auto mb-16 md:mb-20 lg:mb-24">
+          <div className="bg-gradient-to-r from-gray-900 via-gray-900 to-amber-950/30 border border-amber-700/40 rounded-lg p-6 md:p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+            <div className="space-y-2 max-w-2xl">
+              <p className="text-xs uppercase tracking-[0.2em] text-amber-500 font-semibold">
+                For Journalists, Filmmakers &amp; Researchers
+              </p>
+              <h2 className="text-2xl md:text-3xl font-serif font-bold text-amber-400">
+                Stories Yet to Be Told
+              </h2>
+              <p className="text-sm text-gray-300 leading-relaxed">
+                Thousands of wrongfully convicted Americans have never been featured in a book,
+                documentary, podcast, or news profile. Browse the index of names and years lost
+                still waiting to be brought into the public light.
+              </p>
+            </div>
+            <Link
+              to="/untold-stories"
+              className="shrink-0 px-6 py-3 bg-amber-600 hover:bg-amber-700 text-white font-semibold rounded-md text-sm transition-colors"
+            >
+              Explore Untold Stories →
+            </Link>
+          </div>
         </div>
 
         <div className="mb-16 md:mb-20 lg:mb-24">

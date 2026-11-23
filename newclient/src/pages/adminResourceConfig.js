@@ -28,6 +28,11 @@ export const ADMIN_RESOURCES = {
       { key: 'claimStrength', label: 'Claim Strength', render: (r) => r.claimStrength || 'UNASSESSED' },
       { key: 'location', label: 'Location', render: (r) => [r.caseLocationCity, r.caseLocationState].filter(Boolean).join(', ') || '—' },
       { key: 'years', label: 'Convicted / Exonerated', render: (r) => `${r.convictionYear || '?'} / ${r.exonerationOrReleaseYear || '?'}` },
+      {
+        key: 'visibility',
+        label: 'Visibility',
+        render: (r) => (r.isPublished === false ? (r.nreOnly ? 'Unpublished (NRE-only)' : 'Unpublished') : 'Published'),
+      },
     ],
     fields: [
       { name: 'firstName', label: 'First Name', type: 'text', required: true },
@@ -80,6 +85,8 @@ export const ADMIN_RESOURCES = {
       { name: 'contributingFactorIds', label: 'Contributing Factors', type: 'multiselect', lookupKey: 'contributingfactors', optionLabel: (o) => o.name },
       { name: 'organizationIds', label: 'Organizations Involved', type: 'multiselect', lookupKey: 'organizations', optionLabel: (o) => o.name },
       { name: 'groupIds', label: 'Individual Groups', type: 'multiselect', lookupKey: 'individualgroups', optionLabel: (o) => o.name },
+      { name: 'isPublished', label: 'Published (Public Profile Visible)', type: 'checkbox', defaultValue: true },
+      { name: 'nreOnly', label: 'NRE-Only Source Flag (Unpublished until non-NRE source added)', type: 'checkbox', defaultValue: false },
       ...VERIFICATION_FIELDS,
     ],
   },

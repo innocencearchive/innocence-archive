@@ -175,11 +175,11 @@
     ]
   },
   {
-    "firstName": "Scott",
-    "middleName": null,
+    "firstName": "Samuel",
+    "middleName": "Scott",
     "lastName": "Minton",
     "suffix": null,
-    "nickname": null,
+    "nickname": "Scott",
     "disambiguationTag": null,
     "status": "EXONERATED",
     "claimStrength": "FORMALLY_EXONERATED",
@@ -225,7 +225,7 @@
     ]
   },
   {
-    "firstName": "Jermal",
+    "firstName": "Jermel",
     "middleName": null,
     "lastName": "Shuler",
     "suffix": null,

@@ -20,6 +20,7 @@ import SearchResultsPage from './pages/SearchResultsPage';
 import CombinedMediaPage from './pages/CombinedMediaPage'; // Might be deprecated or used for 'OTHER'
 import FilmPage from './pages/FilmPage';
 import BookPage from './pages/BookPage'; // <-- NEW: Import BookPage
+import UntoldStoriesPage from './pages/UntoldStoriesPage';
 import AdminSettingsPage from './pages/AdminSettingsPage';
 import LoginPage from './pages/LoginPage'; // <<< IMPORT
 import ProtectedRoute from './components/ProtectedRoute'; 
@@ -64,6 +65,7 @@ function App() {
                   <Route path="/combined/:id" element={<CombinedMediaPage />} /> 
                   <Route path="/organization/:id" element={<OrganizationInfoPage />} />
                   <Route path="/factor/:id" element={<ContributingFactorsPage />} />
+                  <Route path="/untold-stories" element={<UntoldStoriesPage />} />
 
             {/* Authentication Route */}
             <Route path="/login" element={<LoginPage />} />

@@ -435,12 +435,20 @@ router.get('/audit', async (req, res) => {
       missingStateCount,
       missingFactorsCount,
       unlinkedMediaItemsCount,
+      nreOnlyCount,
+      unpublishedCount,
+      untoldStoriesCount,
     ] = await Promise.all([
       prisma.individual.count({ where: { sourceLinks: { none: {} } } }),
       prisma.individual.count({ where: { crimeCategoryId: null } }),
       prisma.individual.count({ where: { OR: [{ caseLocationState: null }, { caseLocationState: '' }] } }),
       prisma.individual.count({ where: { contributingFactors: { none: {} } } }),
       prisma.mediaItem.count({ where: { individualsFeatured: { none: {} } } }),
+      prisma.individual.count({ where: { nreOnly: true } }),
+      prisma.individual.count({ where: { isPublished: false } }),
+      prisma.individual.count({
+        where: { mediaItemAppearances: { none: {} }, newsArticles: { none: {} } },
+      }),
     ]);
 
     res.json({
@@ -452,6 +460,9 @@ router.get('/audit', async (req, res) => {
         missingFactors: missingFactorsCount,
         unlinkedMediaItems: unlinkedMediaItemsCount,
         potentialDuplicates: duplicatePairs.length,
+        nreOnly: nreOnlyCount,
+        unpublished: unpublishedCount,
+        untoldStories: untoldStoriesCount,
       },
       samples: {
         missingSources,
@@ -465,6 +476,83 @@ router.get('/audit', async (req, res) => {
   } catch (error) {
     console.error('Audit error:', error);
     res.status(500).json({ message: 'Failed to run data health audit.', error: error.message });
+  }
+});
+
+// Recalculate NRE-only license compliance & publishing status across all Individuals
+router.post('/sync-nre-visibility', async (req, res) => {
+  try {
+    const all = await prisma.individual.findMany({
+      select: {
+        id: true,
+        nreOnly: true,
+        isPublished: true,
+        _count: {
+          select: {
+            mediaItemAppearances: true,
+            newsArticles: true,
+          },
+        },
+        sourceLinks: {
+          select: {
+            informationSource: { select: { name: true } },
+          },
+        },
+      },
+    });
+
+    const toUnpublishIds = [];
+    const toPublishIds = [];
+
+    for (const ind of all) {
+      const hasMedia = ind._count.mediaItemAppearances > 0;
+      const hasNews = ind._count.newsArticles > 0;
+      const sourceNames = ind.sourceLinks
+        .map((sl) => (sl.informationSource?.name || '').trim().toLowerCase())
+        .filter(Boolean);
+      const hasNreSource = sourceNames.includes('national registry of exonerations');
+      const hasNonNreSource = sourceNames.some((n) => n !== 'national registry of exonerations');
+
+      const isNreOnly = !hasMedia && !hasNews && hasNreSource && !hasNonNreSource;
+      if (isNreOnly) {
+        if (!ind.nreOnly || ind.isPublished) toUnpublishIds.push(ind.id);
+      } else {
+        if (ind.nreOnly || !ind.isPublished) toPublishIds.push(ind.id);
+      }
+    }
+
+    if (toUnpublishIds.length > 0) {
+      await prisma.individual.updateMany({
+        where: { id: { in: toUnpublishIds } },
+        data: { nreOnly: true, isPublished: false },
+      });
+    }
+    if (toPublishIds.length > 0) {
+      await prisma.individual.updateMany({
+        where: { id: { in: toPublishIds } },
+        data: { nreOnly: false, isPublished: true },
+      });
+    }
+
+    const [nreOnlyTotal, publishedTotal, untoldStoriesTotal] = await Promise.all([
+      prisma.individual.count({ where: { nreOnly: true } }),
+      prisma.individual.count({ where: { isPublished: true } }),
+      prisma.individual.count({ where: { mediaItemAppearances: { none: {} }, newsArticles: { none: {} } } }),
+    ]);
+
+    res.json({
+      message: `Visibility synced: ${toUnpublishIds.length} marked NRE-only/unpublished, ${toPublishIds.length} promoted to published.`,
+      newlyUnpublished: toUnpublishIds.length,
+      newlyPublished: toPublishIds.length,
+      totals: {
+        nreOnly: nreOnlyTotal,
+        published: publishedTotal,
+        untoldStories: untoldStoriesTotal,
+      },
+    });
+  } catch (error) {
+    console.error('Sync NRE visibility error:', error);
+    res.status(500).json({ message: 'Failed to sync NRE visibility.', error: error.message });
   }
 });
 

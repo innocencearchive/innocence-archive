@@ -22,21 +22,118 @@ router.get('/', async (req, res) => {
     let individuals;
     if (latestCount && !isNaN(latestCount) && latestCount > 0) {
       individuals = await prisma.individual.findMany({
+        where: { isPublished: true },
         orderBy: { id: 'desc' },
         take: latestCount
-        // include: { crimeCategory: true } // Example if needed
       });
-      console.log(`Found ${individuals.length} latest individual(s).`);
+      console.log(`Found ${individuals.length} latest published individual(s).`);
     } else {
       individuals = await prisma.individual.findMany({
-         // orderBy: { lastName: 'asc' } // Uncomment if you want default sorting
+        where: { isPublished: true },
       });
-      console.log(`Found ${individuals.length} total individuals.`);
+      console.log(`Found ${individuals.length} total published individuals.`);
     }
     res.json(individuals);
   } catch (error) {
     console.error('Error fetching individuals:', error);
     res.status(500).json({ message: 'Failed to fetch individuals', error: error.message });
+  }
+});
+
+// GET /api/individuals/untold-stories
+// Lists minimal factual info (name, state, years, time served) for individuals in the database
+// who do NOT yet appear in any documented media (books, films, podcasts) or news coverage.
+// Automatically removes anyone once linked to a MediaItem or NewsArticle.
+router.get('/untold-stories', async (req, res) => {
+  const q = (req.query.q || '').trim();
+  const state = (req.query.state || '').trim();
+  const sort = (req.query.sort || 'years_desc').toLowerCase();
+  const page = Math.max(1, parseInt(req.query.page, 10) || 1);
+  const limit = Math.min(200, Math.max(10, parseInt(req.query.limit, 10) || 50));
+  const skip = (page - 1) * limit;
+
+  const where = {
+    mediaItemAppearances: { none: {} },
+    newsArticles: { none: {} },
+  };
+
+  if (state) {
+    where.caseLocationState = { equals: state, mode: 'insensitive' };
+  }
+  if (q) {
+    where.OR = [
+      { firstName: { contains: q, mode: 'insensitive' } },
+      { lastName: { contains: q, mode: 'insensitive' } },
+      { caseLocationState: { contains: q, mode: 'insensitive' } },
+    ];
+  }
+
+  let orderBy = [{ lastName: 'asc' }, { firstName: 'asc' }];
+  if (sort === 'convicted_asc') orderBy = [{ convictionYear: 'asc' }, { lastName: 'asc' }];
+  else if (sort === 'convicted_desc') orderBy = [{ convictionYear: 'desc' }, { lastName: 'asc' }];
+  else if (sort === 'exonerated_desc') orderBy = [{ exonerationOrReleaseYear: 'desc' }, { lastName: 'asc' }];
+  else if (sort === 'name_asc') orderBy = [{ lastName: 'asc' }, { firstName: 'asc' }];
+
+  try {
+    const [totalCount, rows, statesRaw] = await Promise.all([
+      prisma.individual.count({ where }),
+      prisma.individual.findMany({
+        where,
+        select: {
+          id: true,
+          firstName: true,
+          middleName: true,
+          lastName: true,
+          suffix: true,
+          convictionYear: true,
+          exonerationOrReleaseYear: true,
+          timeServed: true,
+          caseLocationState: true,
+          isPublished: true,
+        },
+        orderBy,
+        skip,
+        take: limit,
+      }),
+      prisma.individual.findMany({
+        where: {
+          mediaItemAppearances: { none: {} },
+          newsArticles: { none: {} },
+          caseLocationState: { not: null },
+        },
+        distinct: ['caseLocationState'],
+        select: { caseLocationState: true },
+        orderBy: { caseLocationState: 'asc' },
+      }),
+    ]);
+
+    const items = rows.map((r) => {
+      const yearsCalculated =
+        r.convictionYear && r.exonerationOrReleaseYear && r.exonerationOrReleaseYear >= r.convictionYear
+          ? r.exonerationOrReleaseYear - r.convictionYear
+          : null;
+      return {
+        id: r.id,
+        fullName: [r.firstName, r.middleName, r.lastName, r.suffix].filter(Boolean).join(' '),
+        caseLocationState: r.caseLocationState,
+        convictionYear: r.convictionYear,
+        exonerationOrReleaseYear: r.exonerationOrReleaseYear,
+        timeServed: r.timeServed || (yearsCalculated !== null ? `${yearsCalculated} yrs` : null),
+        isPublished: r.isPublished,
+      };
+    });
+
+    res.json({
+      totalCount,
+      page,
+      limit,
+      totalPages: Math.max(1, Math.ceil(totalCount / limit)),
+      availableStates: statesRaw.map((s) => s.caseLocationState).filter(Boolean),
+      items,
+    });
+  } catch (error) {
+    console.error('Error fetching untold stories:', error);
+    res.status(500).json({ message: 'Failed to load Stories Yet to Be Told.', error: error.message });
   }
 });
 
@@ -152,11 +249,11 @@ router.get('/:id', async (req, res) => {
       }
     });
 
-    if (singleIndividual) {
-      console.log(`Found individual with ID: ${idInt} including related data (with headlines).`);
+    if (singleIndividual && singleIndividual.isPublished) {
+      console.log(`Found published individual with ID: ${idInt} including related data (with headlines).`);
       res.json(singleIndividual);
     } else {
-      console.log(`Individual with ID: ${idInt} not found.`);
+      console.log(`Individual with ID: ${idInt} not found or unpublished.`);
       res.status(404).json({ message: `Individual with ID ${idInt} not found` });
     }
   } catch (error) {

@@ -275,6 +275,8 @@ function buildIndividualData(body, isCreate, userId) {
     caseLocationCountry: body.caseLocationCountry?.trim() || 'USA',
     narrativeSummary: body.narrativeSummary || null,
     crimeCategoryId: parseIntOrNull(body.crimeCategoryId),
+    ...(body.nreOnly !== undefined ? { nreOnly: Boolean(body.nreOnly) } : {}),
+    ...(body.isPublished !== undefined ? { isPublished: Boolean(body.isPublished) } : {}),
     ...buildVerificationFields(body, userId),
   };
 

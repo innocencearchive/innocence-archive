@@ -19,8 +19,24 @@ function AdminAuditPage() {
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState('duplicatePairs');
   const [mergingKey, setMergingKey] = useState(null);
+  const [syncingVisibility, setSyncingVisibility] = useState(false);
   const [message, setMessage] = useState(null);
   const [error, setError] = useState(null);
+
+  const handleSyncNreVisibility = async () => {
+    setSyncingVisibility(true);
+    setMessage(null);
+    setError(null);
+    try {
+      const res = await apiClient.post('/admin/tools/sync-nre-visibility');
+      setMessage(res.data.message);
+      await loadAudit();
+    } catch (err) {
+      setError(err.response?.data?.message || 'Failed to sync NRE visibility.');
+    } finally {
+      setSyncingVisibility(false);
+    }
+  };
 
   const loadAudit = async () => {
     setLoading(true);
@@ -106,6 +122,44 @@ function AdminAuditPage() {
             {error}
           </div>
         )}
+
+        {/* NRE License Compliance & Untold Stories Sync Card */}
+        <section className="bg-gray-800 border border-amber-700/50 rounded-lg p-5 flex flex-wrap items-center justify-between gap-4">
+          <div className="space-y-1">
+            <h2 className="text-base font-semibold text-amber-400">
+              NRE License Compliance &amp; Public Visibility
+            </h2>
+            <p className="text-xs text-gray-300 max-w-2xl">
+              Keeps NRE-exclusive individuals in the database while automatically unpublishing their
+              full profiles until a book, film, podcast, news article, or independent source is linked.
+              Individuals with no media/news appear on{' '}
+              <Link to="/untold-stories" className="text-amber-400 hover:underline">
+                Stories Yet to Be Told
+              </Link>.
+            </p>
+            {!loading && audit && (
+              <div className="flex flex-wrap gap-5 pt-1 text-xs text-gray-300">
+                <span>
+                  NRE-Only Flagged: <strong className="text-amber-300">{t.nreOnly ?? 0}</strong>
+                </span>
+                <span>
+                  Unpublished Profiles: <strong className="text-amber-300">{t.unpublished ?? 0}</strong>
+                </span>
+                <span>
+                  Stories Yet to Be Told: <strong className="text-green-300">{t.untoldStories ?? 0}</strong>
+                </span>
+              </div>
+            )}
+          </div>
+          <button
+            type="button"
+            onClick={handleSyncNreVisibility}
+            disabled={syncingVisibility}
+            className="px-4 py-2 bg-amber-600 hover:bg-amber-700 disabled:opacity-50 text-white rounded-md text-xs font-semibold shrink-0"
+          >
+            {syncingVisibility ? 'Recalculating...' : 'Recalculate & Enforce NRE-Only Policy'}
+          </button>
+        </section>
 
         {/* Scorecard Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
