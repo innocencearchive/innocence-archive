@@ -26,6 +26,7 @@ const HeroSection = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [newsItems, setNewsItems] = useState([]);
   const [newsLoading, setNewsLoading] = useState(true);
+  const [scopeStats, setScopeStats] = useState(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -41,10 +42,24 @@ const HeroSection = () => {
       .finally(() => {
         if (active) setNewsLoading(false);
       });
+
+    apiClient
+      .get('/homepage/stats')
+      .then((res) => {
+        if (active) setScopeStats(res.data || null);
+      })
+      .catch((err) => {
+        console.error('HeroSection: Failed to fetch homepage stats:', err);
+      });
+
     return () => {
       active = false;
     };
   }, []);
+
+  const searchPlaceholder = scopeStats
+    ? `Search ${scopeStats.publishedIndividuals.toLocaleString()} individuals, ${(scopeStats.mediaItems || scopeStats.mediaWorks || 0).toLocaleString()} media items...`
+    : 'Search individuals, books, films...';
 
   const handleSearchSubmit = (event) => {
     event.preventDefault();
@@ -83,14 +98,14 @@ const HeroSection = () => {
           {/* Search Form */}
           <form
             onSubmit={handleSearchSubmit}
-            className={`w-full max-w-md bg-black rounded-full p-2 flex items-center border-2 ${BRONZE_BORDER} relative mb-5`}
+            className={`w-full max-w-md bg-black rounded-full p-2 flex items-center border-2 ${BRONZE_BORDER} relative ${scopeStats ? 'mb-2.5' : 'mb-5'}`}
           >
             <span className="absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none">
               <Search className={`w-5 h-5 ${BRONZE_COLOR}`} />
             </span>
             <input
               type="search"
-              placeholder="Search individuals, books, films..."
+              placeholder={searchPlaceholder}
               aria-label="Search the Innocence Archive"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
@@ -100,6 +115,34 @@ const HeroSection = () => {
               Search
             </button>
           </form>
+
+          {scopeStats && (
+            <p className="w-full max-w-md text-[11px] text-gray-400 mb-5 px-2 leading-relaxed">
+              <span className="text-gray-300 font-medium">
+                {scopeStats.publishedIndividuals.toLocaleString()}
+              </span>{' '}
+              profiles ·{' '}
+              <span className="text-gray-300 font-medium">
+                {scopeStats.mediaWorks.toLocaleString()}
+              </span>{' '}
+              media works ·{' '}
+              <span className="text-gray-300 font-medium">
+                {scopeStats.newsArticles.toLocaleString()}
+              </span>{' '}
+              news articles
+              {scopeStats.untoldStories > 0 && (
+                <>
+                  {' · '}
+                  <Link
+                    to="/untold-stories"
+                    className="text-amber-400 hover:text-amber-300 hover:underline"
+                  >
+                    {scopeStats.untoldStories.toLocaleString()} untold stories →
+                  </Link>
+                </>
+              )}
+            </p>
+          )}
 
           {/* Compact Browse Collection Pills */}
           <div className="w-full max-w-md">

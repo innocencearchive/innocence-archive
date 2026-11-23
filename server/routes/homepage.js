@@ -61,7 +61,34 @@ router.get('/featured-media', async (req, res) => {
   }
 });
 
-// --- TODO: Add other homepage-specific routes if needed ---
-// Example: Could create a GET /api/homepage/all that fetches everything (story, media, org, updates, factors)
+// GET /api/homepage/stats (Live public scope counts for Hero search placeholder & stats)
+router.get('/stats', async (req, res) => {
+  try {
+    const [publishedIndividuals, mediaWorks, mediaItems, newsArticles, untoldStories] =
+      await Promise.all([
+        prisma.individual.count({ where: { isPublished: true } }),
+        prisma.mediaWork.count(),
+        prisma.mediaItem.count(),
+        prisma.newsArticle.count({ where: { status: 'PUBLISHED' } }),
+        prisma.individual.count({
+          where: {
+            mediaItemAppearances: { none: {} },
+            newsArticles: { none: {} },
+          },
+        }),
+      ]);
+
+    res.json({
+      publishedIndividuals,
+      mediaWorks,
+      mediaItems,
+      newsArticles,
+      untoldStories,
+    });
+  } catch (error) {
+    console.error('Error fetching homepage stats:', error);
+    res.status(500).json({ message: 'Failed to fetch homepage stats', error: error.message });
+  }
+});
 
 module.exports = router; // Export the router so server.js can use it
