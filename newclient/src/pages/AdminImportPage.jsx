@@ -351,6 +351,10 @@ function AdminImportPage() {
                     setInputType('JSON');
                     setDefaultSourceName('Apple Podcasts');
                     setIngestionSource('podcasts_v2_series_bundle');
+                  } else if (val === 'GROUPS_AND_LINKS') {
+                    setInputType('JSON');
+                    setDefaultSourceName('Curated Groups');
+                    setIngestionSource('groups_v2_bundle');
                   }
                 }}
                 className="w-full p-2 bg-gray-700 border border-gray-600 rounded text-sm text-white"
@@ -360,6 +364,7 @@ function AdminImportPage() {
                 <option value="BOOK_BUNDLE">Books Bundle (Merged v2 JSON + Google Books)</option>
                 <option value="FILM_BUNDLE">Films &amp; Series Bundle (Merged v2 JSON + TMDB + Streaming)</option>
                 <option value="PODCAST_SERIES_BUNDLE">Podcast Series Bundle (Series Metadata Only — No Episodes)</option>
+                <option value="GROUPS_AND_LINKS">Groups &amp; Co-Defendant Links (groups_v2 JSON)</option>
               </select>
             </div>
 
@@ -720,6 +725,23 @@ function AdminImportPage() {
                               {row.data.mediaWork?.externalId ? `ISBN-13: ${row.data.mediaWork.externalId}` : 'No ISBN-13'}
                               {row.data.bookPurchaseDetails ? ' · Google Books ✓' : ''}
                             </div>
+                          </div>
+                        ) : targetType === 'GROUPS_AND_LINKS' ? (
+                          <div>
+                            <div className="font-semibold text-gray-100 flex items-center gap-2">
+                              <span>{row.data.name || row.data.label || '—'}</span>
+                              <span className="px-1.5 py-0.5 bg-gray-700 text-amber-300 rounded text-[10px]">
+                                {row.data.kind}
+                              </span>
+                            </div>
+                            <div className="text-gray-400">
+                              Matched in DB: {(row.data.matchedMembers || []).length} · Missing: {(row.data.missingMembers || []).length}
+                            </div>
+                            {(row.data.matchedMembers || []).length > 0 && (
+                              <div className="text-gray-500 truncate max-w-sm">
+                                {row.data.matchedMembers.map((m) => m.name).join(', ')}
+                              </div>
+                            )}
                           </div>
                         ) : targetType === 'ORGANIZATION' ? (
                           <div>

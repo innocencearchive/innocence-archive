@@ -561,6 +561,115 @@ router.post('/preview', async (req, res) => {
       return res.json({ batchId, targetType: 'PODCAST_SERIES_BUNDLE', summary, rows: previewRows });
     }
 
+    if (targetType === 'GROUPS_AND_LINKS') {
+      const bundleObj = Array.isArray(rawRecords) && rawRecords.length === 1 ? rawRecords[0] : rawRecords;
+      const groupsIn = Array.isArray(bundleObj?.groups) ? bundleObj.groups : [];
+      const relsIn = Array.isArray(bundleObj?.relationships) ? bundleObj.relationships : [];
+
+      const [existingGroups, existingIndividuals] = await Promise.all([
+        prisma.individualGroup.findMany({ select: { id: true, name: true } }),
+        prisma.individual.findMany({
+          select: { id: true, firstName: true, middleName: true, lastName: true, nickname: true },
+        }),
+      ]);
+
+      const groupByName = new Map(existingGroups.map((g) => [normStr(g.name), g]));
+      const indByFL = new Map();
+      for (const ind of existingIndividuals) {
+        const k = `${normStr(ind.firstName)}|${normStr(ind.lastName)}`;
+        if (!indByFL.has(k)) indByFL.set(k, ind);
+        if (ind.nickname) {
+          const kn = `${normStr(ind.nickname)}|${normStr(ind.lastName)}`;
+          if (!indByFL.has(kn)) indByFL.set(kn, ind);
+        }
+      }
+
+      const resolveMembers = (members) => {
+        const matched = [];
+        const missing = [];
+        const seenIds = new Set();
+        for (const m of members || []) {
+          const k = `${normStr(m.firstName)}|${normStr(m.lastName)}`;
+          const found = indByFL.get(k) || (m.nickname ? indByFL.get(`${normStr(m.nickname)}|${normStr(m.lastName)}`) : null);
+          if (found) {
+            if (!seenIds.has(found.id)) {
+              seenIds.add(found.id);
+              matched.push({ id: found.id, name: `${found.firstName} ${found.lastName}` });
+            }
+          } else {
+            missing.push(m.fullName || `${m.firstName || ''} ${m.lastName || ''}`.trim());
+          }
+        }
+        return { matched, missing };
+      };
+
+      const previewRows = [];
+      let rowIdx = 1;
+
+      for (const g of groupsIn) {
+        const { matched, missing } = resolveMembers(g.members);
+        const existingMatch = groupByName.get(normStr(g.name)) || null;
+        const warnings = [];
+        if (missing.length > 0) {
+          warnings.push(`${missing.length} member(s) not yet in DB (will be skipped until added): ${missing.slice(0, 6).join(', ')}${missing.length > 6 ? '…' : ''}`);
+        }
+        if (matched.length === 0) {
+          warnings.push('No members currently exist in DB — import Individuals first or stage group shell.');
+        }
+
+        previewRows.push({
+          rowIndex: rowIdx++,
+          matchStatus: existingMatch ? 'EXACT_MATCH' : 'NEW',
+          action: existingMatch ? 'MERGE' : 'CREATE',
+          existingMatch,
+          warnings,
+          data: {
+            kind: 'GROUP',
+            name: g.name,
+            description: g.description || null,
+            linkCoDefendants: Boolean(g.linkCoDefendants),
+            matchedMembers: matched,
+            missingMembers: missing,
+          },
+        });
+      }
+
+      for (const rel of relsIn) {
+        const { matched, missing } = resolveMembers(rel.members);
+        const warnings = [];
+        if (missing.length > 0) {
+          warnings.push(`Missing from DB: ${missing.join(', ')}`);
+        }
+        if (matched.length < 2) {
+          warnings.push('Fewer than 2 matched members in DB — skipping co-defendant link.');
+        }
+
+        previewRows.push({
+          rowIndex: rowIdx++,
+          matchStatus: matched.length >= 2 ? 'NEW' : 'INVALID',
+          action: matched.length >= 2 ? 'CREATE' : 'SKIP',
+          existingMatch: null,
+          warnings,
+          data: {
+            kind: 'RELATIONSHIP',
+            label: rel.label,
+            matchedMembers: matched,
+            missingMembers: missing,
+          },
+        });
+      }
+
+      const summary = {
+        total: previewRows.length,
+        new: previewRows.filter((r) => r.matchStatus === 'NEW').length,
+        exactMatch: previewRows.filter((r) => r.matchStatus === 'EXACT_MATCH').length,
+        fuzzyDuplicate: 0,
+        invalid: previewRows.filter((r) => r.matchStatus === 'INVALID').length,
+      };
+
+      return res.json({ batchId, targetType: 'GROUPS_AND_LINKS', summary, rows: previewRows });
+    }
+
     if (targetType === 'ORGANIZATION') {
       const existingOrgs = await prisma.organization.findMany({
         select: { id: true, name: true, type: true, locationState: true, verificationStatus: true },
@@ -1637,6 +1746,83 @@ router.post('/commit', async (req, res) => {
       return res.json({
         batchId,
         targetType: 'PODCAST_SERIES_BUNDLE',
+        created,
+        merged,
+        skipped,
+        linksAdded,
+        errors,
+      });
+    }
+
+    if (targetType === 'GROUPS_AND_LINKS') {
+      async function linkAllPairs(ids) {
+        let pairLinks = 0;
+        for (let i = 0; i < ids.length; i++) {
+          const others = ids.filter((id) => id !== ids[i]).map((id) => ({ id }));
+          if (others.length === 0) continue;
+          await prisma.individual.update({
+            where: { id: ids[i] },
+            data: { relatedIndividuals: { connect: others } },
+          });
+          pairLinks += others.length;
+        }
+        return pairLinks;
+      }
+
+      for (const row of rows) {
+        if (row.action === 'SKIP') {
+          skipped++;
+          continue;
+        }
+        const d = row.data || {};
+        const memberIds = (d.matchedMembers || []).map((m) => m.id).filter(Boolean);
+
+        try {
+          if (d.kind === 'GROUP') {
+            if (!d.name?.trim()) {
+              errors.push({ rowIndex: row.rowIndex, error: 'Group name is required.' });
+              continue;
+            }
+            const existing = await prisma.individualGroup.findUnique({ where: { name: d.name.trim() } });
+            if (existing) {
+              await prisma.individualGroup.update({
+                where: { id: existing.id },
+                data: {
+                  description: existing.description || d.description || null,
+                  ...(memberIds.length > 0 ? { members: { connect: memberIds.map((id) => ({ id })) } } : {}),
+                },
+              });
+              merged++;
+            } else {
+              await prisma.individualGroup.create({
+                data: {
+                  name: d.name.trim(),
+                  description: d.description || null,
+                  ...(memberIds.length > 0 ? { members: { connect: memberIds.map((id) => ({ id })) } } : {}),
+                },
+              });
+              created++;
+            }
+            linksAdded += memberIds.length;
+            if (d.linkCoDefendants && memberIds.length >= 2 && memberIds.length <= 10) {
+              linksAdded += await linkAllPairs(memberIds);
+            }
+          } else if (d.kind === 'RELATIONSHIP') {
+            if (memberIds.length < 2) {
+              skipped++;
+              continue;
+            }
+            linksAdded += await linkAllPairs(memberIds);
+            merged++;
+          }
+        } catch (err) {
+          errors.push({ rowIndex: row.rowIndex, name: d.name || d.label, error: err.message });
+        }
+      }
+
+      return res.json({
+        batchId,
+        targetType: 'GROUPS_AND_LINKS',
         created,
         merged,
         skipped,

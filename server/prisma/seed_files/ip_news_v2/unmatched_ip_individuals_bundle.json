@@ -1,0 +1,4218 @@
+[
+  {
+    "firstName": "Rodney",
+    "middleName": null,
+    "lastName": "Reed",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXECUTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Texas",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 32 Innocence Project news article(s). Primary headline: \"Texas Court of Criminal Appeals Rejects Rodney Reed Petitions Despite Strong Innocence, Prosecutorial Misconduct Claims\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/texas-court-of-criminal-appeals-rejects-rodney-reed-petitions-despite-strong-innocence-prosecutorial-misconduct-claims/",
+    "headline": "Texas Court of Criminal Appeals Rejects Rodney Reed Petitions Despite Strong Innocence, Prosecutorial Misconduct Claims",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/texas-court-of-criminal-appeals-rejects-rodney-reed-petitions-despite-strong-innocence-prosecutorial-misconduct-claims/",
+        "headline": "Texas Court of Criminal Appeals Rejects Rodney Reed Petitions Despite Strong Innocence, Prosecutorial Misconduct Claims"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/on-mothers-day-rodney-reeds-mom-keeps-up-the-fight-for-justice/",
+        "headline": "On Mother’s Day, Rodney Reed’s Mom Keeps Up the Fight for Justice"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/the-u-s-supreme-court-rules-6-3-in-favor-of-rodney-reed/",
+        "headline": "The U.S. Supreme Court Rules 6-3 in Favor of Rodney Reed"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/statement-supreme-court-grants-cert-in-rodney-reeds-case/",
+        "headline": "Statement: Supreme Court Grants Cert in Rodney Reed's Case"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/judge-at-rodney-reeds-innocence-hearing-abandoned-his-duty-as-a-neutral-fact-finder/",
+        "headline": "Judge at Rodney Reed’s Innocence Hearing Abandoned His Duty as Neutral, Thoughtful Fact Finder"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 32 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 32
+    }
+  },
+  {
+    "firstName": "Troy",
+    "middleName": null,
+    "lastName": "Davis",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXECUTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Georgia",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 28 Innocence Project news article(s). Primary headline: \"Wish Georgia death row inmate a happy birthday\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/wish-georgia-death-row-inmate-a-happy-birthday/",
+    "headline": "Wish Georgia death row inmate a happy birthday",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/wish-georgia-death-row-inmate-a-happy-birthday/",
+        "headline": "Wish Georgia death row inmate a happy birthday"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/troy-davis-pervis-payne-race-death-penalty/",
+        "headline": "Nine Years After the Execution of Troy Davis, Innocent Black Men Are Still Being Sentenced to Death"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/world-day-against-the-death-penalty-and-the-impact-of-troy-davis/",
+        "headline": "World Day Against the Death Penalty and the Impact of Troy Davis"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/remembering-troy-davis/",
+        "headline": "Remembering Troy Davis"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/lawmakers-to-consider-eyewitness-identification-reforms-in-wake-of-troy-davis-execution/",
+        "headline": "Lawmakers to Consider Eyewitness Identification Reforms in Wake of Troy Davis Execution"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 28 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 28
+    }
+  },
+  {
+    "firstName": "Melissa",
+    "middleName": null,
+    "lastName": "Lucio",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "RELEASED_CLEMENCY",
+    "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Texas",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 21 Innocence Project news article(s). Primary headline: \"Trial Court Recommends Melissa Lucio’s Conviction and Death Sentence Be Overturned\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/trial-court-recommends-melissa-lucios-conviction-and-death-sentence-be-overturned/",
+    "headline": "Trial Court Recommends Melissa Lucio’s Conviction and Death Sentence Be Overturned",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/trial-court-recommends-melissa-lucios-conviction-and-death-sentence-be-overturned/",
+        "headline": "Trial Court Recommends Melissa Lucio’s Conviction and Death Sentence Be Overturned"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/case-update-texas-trial-court-recommends-melissa-lucios-conviction-and-death-sentence-be-overturned/",
+        "headline": "Case Update: Texas Trial Court Recommends Melissa Lucio’s Conviction and Death Sentence Be Overturned"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/whats-next-for-melissa-lucio-texas-woman-on-death-row/",
+        "headline": "What’s Next for Melissa Lucio, Texas Woman on Death Row"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/melissa-lucio-granted-stay-execution-texas-court-criminal-appeals/",
+        "headline": "Melissa Lucio Granted Stay of Execution by Texas Court of Criminal Appeals"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/watch-moms-who-are-exonerees-activists-and-influencers-speak-out-against-melissa-lucios-april-27-execution/",
+        "headline": "WATCH: Exoneree and Activist Moms Speak Out Against Melissa Lucio’s April 27 Execution"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 21 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 21
+    }
+  },
+  {
+    "firstName": "Robert",
+    "middleName": null,
+    "lastName": "Roberson",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXECUTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Texas",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 16 Innocence Project news article(s). Primary headline: \"Rebuttal from Robert Roberson’s Legal Team to 10.23.2024 Statement from Office of Attorney General (OAG)\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/rebuttal-from-robert-robersons-legal-team-to-10-23-2024-statement-from-office-of-attorney-general-oag/",
+    "headline": "Rebuttal from Robert Roberson’s Legal Team to 10.23.2024 Statement from Office of Attorney General (OAG)",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/rebuttal-from-robert-robersons-legal-team-to-10-23-2024-statement-from-office-of-attorney-general-oag/",
+        "headline": "Rebuttal from Robert Roberson’s Legal Team to 10.23.2024 Statement from Office of Attorney General (OAG)"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/robert-roberson-will-not-be-executed-in-texas-tonight/",
+        "headline": "Robert Roberson Will Not Be Executed in Texas Tonight"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/robert-robersons-attorneys-respond-to-denial-of-clemency-request-by-texas-board-of-pardons-and-paroles/",
+        "headline": "Robert Roberson's Attorneys Respond to Denial of Clemency Request by Texas Board of Pardons And Paroles"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/texas-lawmakers-ask-texas-court-of-criminal-appeals-to-stay-robert-robersons-execution-and-consider-evidence-proving-no-crime-occurred-in-his-case/",
+        "headline": "Texas Lawmakers Ask Texas Court of Criminal Appeals to Stay Robert Roberson's Execution and Consider Evidence Proving No Crime Occurred in His Case"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/roberson-attorney-statement-court-rejects-robert-robersons-motion-to-vacate-execution-warrant-and-remove-biased-judge/",
+        "headline": "Attorney Statement: Court Rejects Robert Roberson’s Motion to Vacate Execution Warrant and Remove Biased Judge"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 16 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 16
+    }
+  },
+  {
+    "firstName": "William",
+    "middleName": "G.",
+    "lastName": "Osborne",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "RELEASED_CLEMENCY",
+    "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Alaska",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 14 Innocence Project news article(s). Primary headline: \"The Constitutional Right to DNA Testing: Resources in the Osborne Case\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/the-constitutional-right-to-dna-testing-resources-in-the-osborne-case/",
+    "headline": "The Constitutional Right to DNA Testing: Resources in the Osborne Case",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/the-constitutional-right-to-dna-testing-resources-in-the-osborne-case/",
+        "headline": "The Constitutional Right to DNA Testing: Resources in the Osborne Case"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/osborne-transcript/",
+        "headline": "Osborne Transcript"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/sotomayor-and-the-osborne-case/",
+        "headline": "Sotomayor and the Osborne Case"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-representing-alaska-man-in-u-s-supreme-court-case-says-constitution-allows-post-conviction-dna-tests/",
+        "headline": "Innocence Project, Representing Alaska Man in U.S. Supreme Court Case, Says Constitution Allows Post-Conviction DNA Tests"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/federal-court-alaska-inmate-has-the-right-to-dna-testing/",
+        "headline": "Federal court: Alaska inmate has the right to DNA testing"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 14 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 14
+    }
+  },
+  {
+    "firstName": "Thomas",
+    "middleName": null,
+    "lastName": "Arthur",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Alabama",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 13 Innocence Project news article(s). Primary headline: \"Alabama authorities can't find evidence in Arthur case\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/alabama-authorities-cant-find-evidence-in-arthur-case/",
+    "headline": "Alabama authorities can't find evidence in Arthur case",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/alabama-authorities-cant-find-evidence-in-arthur-case/",
+        "headline": "Alabama authorities can't find evidence in Arthur case"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/six-men-sentenced-to-die-but-later-exonerated-by-dna-urge-gov-riley-to-order-dna-testing-for-thomas-arthur/",
+        "headline": "Six Men Sentenced To Die - but Later Exonerated by DNA - Urge Gov. Riley to Order DNA Testing for Thomas Arthur"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/alabama-governors-45-day-stay-of-execution-for-thomas-arthur-should-immediately-lead-to-dna-testing-innocence-project-says/",
+        "headline": "Alabama Governor's 45-Day Stay of Execution for Thomas Arthur Should Immediately Lead to DNA Testing, Innocence Project Says"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/alabama-man-to-be-executed-despite-innocence-claims/",
+        "headline": "Alabama Man to be Executed Despite Innocence Claims"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/alabama-man-still-pursuing-evidence-for-dna-testing/",
+        "headline": "Alabama Man Still Pursuing Evidence for DNA Testing"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 13 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 13
+    }
+  },
+  {
+    "firstName": "Clay",
+    "middleName": null,
+    "lastName": "Chabot",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Texas",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 10 Innocence Project news article(s). Primary headline: \"Clay Chabot shares what it means to be a veteran who was later wrongly convicted\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/clay-chabot-veterans-day-2018/",
+    "headline": "Clay Chabot shares what it means to be a veteran who was later wrongly convicted",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/clay-chabot-veterans-day-2018/",
+        "headline": "Clay Chabot shares what it means to be a veteran who was later wrongly convicted"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/guilty-plea-series-the-case-of-clay-chabot/",
+        "headline": "Guilty Plea Series: The Case of Clay Chabot"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/texas-judge-calls-for-retrial-for-clay-chabot-due-to-prosecutorial-misconduct/",
+        "headline": "Texas judge calls for retrial for Clay Chabot due to prosecutorial misconduct"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/dispatch-from-dallas-the-waiting-continues-for-clay-chabot/",
+        "headline": "Dispatch from Dallas: The waiting continues for Clay Chabot"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/update-dallas-judge-approves-vacating-clay-chabots-sentence-sets-bail-hearing-for-oct-26/",
+        "headline": "UPDATE: Dallas judge approves vacating Clay Chabot's sentence, sets bail hearing for Oct. 26"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 10 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 10
+    }
+  },
+  {
+    "firstName": "Hank",
+    "middleName": null,
+    "lastName": "Skinner",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Texas",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 10 Innocence Project news article(s). Primary headline: \"Hank Skinner's Fight for DNA Testing Continues\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/hank-skinners-fight-for-dna-testing-continues/",
+    "headline": "Hank Skinner's Fight for DNA Testing Continues",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/hank-skinners-fight-for-dna-testing-continues/",
+        "headline": "Hank Skinner's Fight for DNA Testing Continues"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/hank-skinners-continued-fight-for-dna-testing/",
+        "headline": "Hank Skinner's Continued Fight for DNA Testing"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/hank-skinner-deserves-dna-tests/",
+        "headline": "Hank Skinner Deserves DNA Tests"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/thanks-for-taking-action-on-behalf-of-hank-skinner/",
+        "headline": "Thanks for Taking Action on behalf of Hank Skinner"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/call-for-dna-testing-for-hank-skinner/",
+        "headline": "Call for DNA Testing for Hank Skinner"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 10 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 10
+    }
+  },
+  {
+    "firstName": "Ledell",
+    "middleName": null,
+    "lastName": "Lee",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXECUTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Arkansas",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 9 Innocence Project news article(s). Primary headline: \"During Black History Month, Ledell Lee’s Family Pursues the Truth With Renewed Urgency\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/black-history-month-ledell-lee-arkansas/",
+    "headline": "During Black History Month, Ledell Lee’s Family Pursues the Truth With Renewed Urgency",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/black-history-month-ledell-lee-arkansas/",
+        "headline": "During Black History Month, Ledell Lee’s Family Pursues the Truth With Renewed Urgency"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/arkansas-agrees-dna-testing-ledell-lee/",
+        "headline": "Arkansas Officials Agree to Test the DNA and Fingerprint Evidence in Ledell Lee's Case"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/ledell-lee-what-you-should-know-about-his-case-and-execution/",
+        "headline": "Ledell Lee: What You Should Know About His Case and Execution"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/aclu-innocence-project-demand-dna-fingerprint-tests-that-could-exonerate-ledell-lee-executed-by-arkansas-in-2017/",
+        "headline": "ACLU, Innocence Project Demand DNA, Fingerprint Tests That Could Exonerate Ledell Lee, Executed by Arkansas in 2017"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/ledell-lee-execution-aftermath/",
+        "headline": "Ledell Lee: 'My life on death row is like Twilight Zone'"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 9 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 9
+    }
+  },
+  {
+    "firstName": "Joseph",
+    "middleName": null,
+    "lastName": "Buffey",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Virginia",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 7 Innocence Project news article(s). Primary headline: \"Wish Joseph Buffey Well on His 34th Birthday, and on the Eve of His New Trial\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/joseph-buffey-birthday/",
+    "headline": "Wish Joseph Buffey Well on His 34th Birthday, and on the Eve of His New Trial",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/joseph-buffey-birthday/",
+        "headline": "Wish Joseph Buffey Well on His 34th Birthday, and on the Eve of His New Trial"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-client-joseph-buffey-to-be-released-on-bond-after-serving-nearly-14-years-in-prison/",
+        "headline": "Innocence Project Client Joseph Buffey To Be Released on Bond After Serving Nearly 14 Years in Prison"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/in-joseph-buffey-case-wv-supreme-court-of-appeals-issues-precedent-setting-ruling-around-prosecutions-obligation-to-disclose-exculpatory-evidence-during-plea-negotiations/",
+        "headline": "In Joseph Buffey Case, WV Supreme Court of Appeals Issues Precedent-Setting Ruling around Prosecution’s Obligation to Disclose Exculpatory Evidence During Plea Negotiations"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/the-next-step-in-the-fight-to-prove-joseph-buffeys-innocence/",
+        "headline": "The Next Step in the Fight to Prove Joseph Buffey’s Innocence"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/prosecutors-urge-west-virginia-supreme-court-to-reverse-conviction-of-joseph-buffey/",
+        "headline": "Prosecutors Urge West Virginia Supreme Court to Reverse Conviction of Joseph Buffey"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 7 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 7
+    }
+  },
+  {
+    "firstName": "Sedley",
+    "middleName": null,
+    "lastName": "Alley",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXECUTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Tennessee",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 6 Innocence Project news article(s). Primary headline: \"10 Key Facts About Sedley Alley, Denied DNA Testing Before Execution\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/9-key-facts-about-sedley-alley-denied-dna-testing-before-execution/",
+    "headline": "10 Key Facts About Sedley Alley, Denied DNA Testing Before Execution",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/9-key-facts-about-sedley-alley-denied-dna-testing-before-execution/",
+        "headline": "10 Key Facts About Sedley Alley, Denied DNA Testing Before Execution"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-responds-to-shelby-judge-denying-dna-testing-in-sedley-alley-case/",
+        "headline": "Innocence Project responds to Shelby County Judge denying DNA testing in Sedley Alley Case"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/this-fathers-day-stand-with-sedley-alley-and-the-quest-for-truth/",
+        "headline": "This Father's Day, honor Sedley Alley and the Quest for Truth"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/family-of-sedley-alley-executed-in-2006-petitions-court-for-dna-testing-of-evidence-in-tennessee-case/",
+        "headline": "Family of Sedley Alley, Executed in 2006, Petitions Court for DNA Testing of Evidence in Tennessee Case"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-lawyer-barry-scheck-and-april-alley-to-seek-dna-testing-in-the-sedley-alley-case/",
+        "headline": "Innocence Project Lawyer Barry Scheck and April Alley to Seek DNA Testing in the Sedley Alley Case"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 6 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 6
+    }
+  },
+  {
+    "firstName": "Darrell",
+    "middleName": null,
+    "lastName": "Edwards",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 5 Innocence Project news article(s). Primary headline: \"Remembering Darrell Edwards on His Birthday\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/remembering-darrell-edwards-on-his-birthday/",
+    "headline": "Remembering Darrell Edwards on His Birthday",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/remembering-darrell-edwards-on-his-birthday/",
+        "headline": "Remembering Darrell Edwards on His Birthday"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/philadelphia-editorial-give-darrell-edwards-a-new-trial/",
+        "headline": "Philadelphia editorial: Give Darrell Edwards a new trial"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/darrell-edwards-update-judge-delays-decision/",
+        "headline": "Darrell Edwards update: judge delays decision"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/hearing-tomorrow-in-nj-darrell-edwards-should-get-a-new-trial/",
+        "headline": "Hearing tomorrow in NJ: Darrell Edwards should get a new trial"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/newark-mans-conviction-for-1995-murder-should-be-tossed-based-on-dna-testing-and-other-new-evidence/",
+        "headline": "Newark Man's Conviction for 1995 Murder Should Be Tossed Based on DNA Testing and Other New Evidence"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 5 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 5
+    }
+  },
+  {
+    "firstName": "Larry",
+    "middleName": null,
+    "lastName": "Swearingen",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Texas",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 5 Innocence Project news article(s). Primary headline: \"Innocence Project remembers Larry Swearingen's sense of humor, artistry, and optimism\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/innocence-project-remembers-larry-swearingens-sense-of-humor-artistry-and-optimism/",
+    "headline": "Innocence Project remembers Larry Swearingen's sense of humor, artistry, and optimism",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-remembers-larry-swearingens-sense-of-humor-artistry-and-optimism/",
+        "headline": "Innocence Project remembers Larry Swearingen's sense of humor, artistry, and optimism"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/state-of-texas-executes-innocence-project-client-larry-swearingen-after-u-s-supreme-court-denies-stay/",
+        "headline": "State of Texas executes Innocence Project client Larry Swearingen after U.S. Supreme Court denies stay"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-co-director-barry-scheck-responds-to-montgomery-county-district-attorneys-flawed-proposal-for-dna-testing-for-larry-swearingen/",
+        "headline": "Innocence Project Co-Director Barry Scheck Responds to  Montgomery County District Attorney's Flawed Proposal for DNA Testing for Larry Swearingen"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-seeks-dna-testing-for-texas-death-row-inmate-larry-swearingen-who-is-facing-a-february-27-execution-date/",
+        "headline": "Innocence Project Seeks DNA Testing For Texas Death Row Inmate Larry Swearingen Who Is Facing A February 27 Execution Date"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/with-execution-set-for-tuesday-texas-prisoner-seeks-dna-tests/",
+        "headline": "With Execution Set for Tuesday, Texas Prisoner Seeks DNA Tests"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 5 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 5
+    }
+  },
+  {
+    "firstName": "Philip",
+    "middleName": null,
+    "lastName": "Barnett",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXONERATED",
+    "claimStrength": "FORMALLY_EXONERATED",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 5 Innocence Project news article(s). Primary headline: \"Murder Charges Against Philip Barnett Dismissed, Ending 13-Year Fight for Justice\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/murder-charges-against-philip-barnett-dismissed-ending-13-year-fight-for-justice/",
+    "headline": "Murder Charges Against Philip Barnett Dismissed, Ending 13-Year Fight for Justice",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/murder-charges-against-philip-barnett-dismissed-ending-13-year-fight-for-justice/",
+        "headline": "Murder Charges Against Philip Barnett Dismissed, Ending 13-Year Fight for Justice"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-client-philip-barnetts-first-week-of-freedom/",
+        "headline": "Innocence Project Client Philip Barnett's First Week of Freedom"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-client-philip-barnett-released-from-prison-after-serving-10-years-for-a-murder-dna-proves-he-didnt-commit/",
+        "headline": "Innocence Project Client Philip Barnett Released from Prison After Serving 10 Years for a Murder DNA Proves He Didn’t Commit"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/new-dna-test-results-exclude-philip-barnett-and-identify-alternate-suspect/",
+        "headline": "New DNA Test Results Exclude Innocence Project Client Philip Barnett and Identify Alternate Suspect in 2002 Murder Case"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-blog-mothers-day-series-tammy-philip-barnett/",
+        "headline": "Innocence Blog Mother’s Day Series: Tammy and Philip Barnett"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 5 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 5
+    }
+  },
+  {
+    "firstName": "Belynda",
+    "middleName": "F.",
+    "lastName": "Goff",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "RELEASED_CLEMENCY",
+    "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Arkansas",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 4 Innocence Project news article(s). Primary headline: \"Son of Innocence Project Client Speaks Out About Mother’s Wrongful Conviction\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/mark-goff-speaks-out-about-mothers-wrongful-conviction/",
+    "headline": "Son of Innocence Project Client Speaks Out About Mother’s Wrongful Conviction",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/mark-goff-speaks-out-about-mothers-wrongful-conviction/",
+        "headline": "Son of Innocence Project Client Speaks Out About Mother’s Wrongful Conviction"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/send-innocence-project-client-belynda-goff-message-support-mothers-day/",
+        "headline": "Send Innocence Project Client Belynda Goff a Message of Support for Mother’s Day"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/belynda-goff-is-deserving-of-clemency/",
+        "headline": "Belynda Goff is ‘Deserving of Clemency’"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/arkansas-woman-seeks-clemency-from-governor-beebe/",
+        "headline": "Arkansas Woman Seeks Clemency From Governor Beebe"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 4 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 4
+    }
+  },
+  {
+    "firstName": "Brendan",
+    "middleName": null,
+    "lastName": "Dassey",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 4 Innocence Project news article(s). Primary headline: \"Brendan Dassey Case Brings National Attention to Problem of Coerced Confessions\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/brendan-dassey-case-brings-attention-to-coerced-confessions/",
+    "headline": "Brendan Dassey Case Brings National Attention to Problem of Coerced Confessions",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/brendan-dassey-case-brings-attention-to-coerced-confessions/",
+        "headline": "Brendan Dassey Case Brings National Attention to Problem of Coerced Confessions"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/four-things-that-you-need-to-know-about-the-brendan-dassey-case/",
+        "headline": "Four Things that You Need to Know about the Brendan Dassey Case"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/brendan-dasseys-confession-highlights-importance-of-recording-interrogations/",
+        "headline": "Brendan Dassey’s Confession Highlights Importance of Recording Interrogations"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/faq-steven-avery-and-brendan-dassey-cases-and-making-a-murderer/",
+        "headline": "FAQ: Steven Avery and Brendan Dassey Cases and \"Making a Murderer\""
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 4 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 4
+    }
+  },
+  {
+    "firstName": "Julius",
+    "middleName": null,
+    "lastName": "Jones",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "RELEASED_CLEMENCY",
+    "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Oklahoma",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 4 Innocence Project news article(s). Primary headline: \"Innocence Project Statement: Gov. Stitt Grants Clemency for Julius Jones\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/innocence-project-statement-gov-stitt-grants-clemency-for-julius-jones/",
+    "headline": "Innocence Project Statement: Gov. Stitt Grants Clemency for Julius Jones",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-statement-gov-stitt-grants-clemency-for-julius-jones/",
+        "headline": "Innocence Project Statement: Gov. Stitt Grants Clemency for Julius Jones"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/julius-jones-should-not-be-executed/",
+        "headline": "Julius Jones Should Not Be Executed"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/julius-jones-death-row-oklahoma-what-to-know/",
+        "headline": "Gov. Stitt Grants Julius Jones Clemency — 8 Facts You Need to Know About his Case"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/congressional-black-caucus-urges-governor-to-review-innocence-claim/",
+        "headline": "Congressional Black Caucus Urges Governor Fallin to Review Innocence Claim of Man on Oklahoma's Death Row"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 4 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 4
+    }
+  },
+  {
+    "firstName": "Richard",
+    "middleName": null,
+    "lastName": "Glossip",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Oklahoma",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 4 Innocence Project news article(s). Primary headline: \"Richard Glossip: Facing Execution in Oklahoma Despite Strong Innocence Claim\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/richard-glossip-facing-execution-in-oklahoma-despite-strong-innocence-claim/",
+    "headline": "Richard Glossip: Facing Execution in Oklahoma Despite Strong Innocence Claim",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/richard-glossip-facing-execution-in-oklahoma-despite-strong-innocence-claim/",
+        "headline": "Richard Glossip: Facing Execution in Oklahoma Despite Strong Innocence Claim"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/temporary-stay-issued-for-richard-glossip/",
+        "headline": "Temporary Stay Issued for Richard Glossip"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/will-oklahoma-spare-richard-glossips-life-in-light-of-mounting-doubt-over-his-guilt/",
+        "headline": "Will Oklahoma Spare Richard Glossip’s Life in Light of Mounting Doubt over his Guilt?"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/barry-scheck-urges-oklahoma-governor-to-stay-glossip-execution/",
+        "headline": "Barry Scheck Urges Oklahoma Governor to Stay Glossip Execution"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 4 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 4
+    }
+  },
+  {
+    "firstName": "Darrell",
+    "middleName": null,
+    "lastName": "Grayson",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXECUTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Alabama",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 3 Innocence Project news article(s). Primary headline: \"Darrell Grayson executed in Alabama without a DNA test\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/darrell-grayson-executed-in-alabama-without-a-dna-test/",
+    "headline": "Darrell Grayson executed in Alabama without a DNA test",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/darrell-grayson-executed-in-alabama-without-a-dna-test/",
+        "headline": "Darrell Grayson executed in Alabama without a DNA test"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/will-alabama-execute-darrell-grayson-without-a-dna-test/",
+        "headline": "Will Alabama execute Darrell Grayson without a DNA test?"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/alabama-execution-scheduled-for-thursday-despite-inmates-pleas-for-a-dna-test/",
+        "headline": "Alabama execution scheduled for Thursday despite inmate's pleas for a DNA test"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 3 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 3
+    }
+  },
+  {
+    "firstName": "Douglas",
+    "middleName": null,
+    "lastName": "Prade",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Ohio",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 3 Innocence Project news article(s). Primary headline: \"DNA Evidence Points Toward Ohio Man's Innocence\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/dna-evidence-points-toward-ohio-mans-innocence/",
+    "headline": "DNA Evidence Points Toward Ohio Man's Innocence",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/dna-evidence-points-toward-ohio-mans-innocence/",
+        "headline": "DNA Evidence Points Toward Ohio Man's Innocence"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/prade-continues-fight-to-clear-his-name/",
+        "headline": "Prade Continues Fight to Clear His Name"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/prosecutors-want-prade-jailed-after-appellate-ruling/",
+        "headline": "Prosecutors Want Prade Jailed after Appellate Ruling"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 3 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 3
+    }
+  },
+  {
+    "firstName": "John",
+    "middleName": null,
+    "lastName": "Kunco",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Pennsylvania",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 3 Innocence Project news article(s). Primary headline: \"John Kunco Reflects on Fatherhood and Father's Day After Spending 28 Years in Prison for a Crime He Didn't Commit\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/john-kunco-reflects-on-fatherhood-and-fathers-day-2018/",
+    "headline": "John Kunco Reflects on Fatherhood and Father's Day After Spending 28 Years in Prison for a Crime He Didn't Commit",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/john-kunco-reflects-on-fatherhood-and-fathers-day-2018/",
+        "headline": "John Kunco Reflects on Fatherhood and Father's Day After Spending 28 Years in Prison for a Crime He Didn't Commit"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/emotional-photos-of-john-kuncos-first-moments-of-freedom/",
+        "headline": "See These Emotional Photos of John Kunco's First Moments of Freedom in 28 Years!"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/bite-mark-experts-recant-in-kunco-rape-case/",
+        "headline": "Bite Mark Evidence Used to Convict Pennsylvania Man of Rape Is Called into Question"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 3 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 3
+    }
+  },
+  {
+    "firstName": "Jonathan",
+    "middleName": "D.",
+    "lastName": "Smith",
+    "suffix": "Sr.",
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Maryland",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 3 Innocence Project news article(s). Primary headline: \"Maryland Judge Agrees to Evaluate New Evidence in Smith and Faulkner Cases\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/maryland-judge-agrees-to-evaluate-new-evidence-in-smith-and-faulkner-cases/",
+    "headline": "Maryland Judge Agrees to Evaluate New Evidence in Smith and Faulkner Cases",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/maryland-judge-agrees-to-evaluate-new-evidence-in-smith-and-faulkner-cases/",
+        "headline": "Maryland Judge Agrees to Evaluate New Evidence in Smith and Faulkner Cases"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/jonathan-smith-shares-the-moment-he-saw-his-sons-upon-his-release/",
+        "headline": "Jonathan Smith Shares the Moment He Saw His Sons Upon His Release"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/jonathan-smith-walks-free-after-21-years-of-wrongful-imprisonment-in-maryland/",
+        "headline": "Jonathan Smith Walks Free After 21 Years of Wrongful Imprisonment"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 3 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 3
+    }
+  },
+  {
+    "firstName": "Raymond",
+    "middleName": "D.",
+    "lastName": "Tempest",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Rhode Island",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 3 Innocence Project news article(s). Primary headline: \"Raymond D. Tempest, Jr., Released from Prison on Bail\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/raymond-d-tempest-jr-released-from-prison-on-bail/",
+    "headline": "Raymond D. Tempest, Jr., Released from Prison on Bail",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/raymond-d-tempest-jr-released-from-prison-on-bail/",
+        "headline": "Raymond D. Tempest, Jr., Released from Prison on Bail"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/guilty-plea-series-the-case-of-raymond-tempest/",
+        "headline": "Guilty Plea Series: The Case of Raymond Tempest"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/rhode-island-supreme-court-agrees-raymond-tempest-entitled-new-trial/",
+        "headline": "Rhode Island Supreme Court Agrees Raymond Tempest Entitled to New Trial"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 3 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 3
+    }
+  },
+  {
+    "firstName": "Stacey",
+    "middleName": "Eugene",
+    "lastName": "Johnson",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXECUTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Arkansas",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 3 Innocence Project news article(s). Primary headline: \"Arkansas Supreme Court Issues Stay of Execution for Stacey Johnson for DNA Testing\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/arkansas-supreme-court-issues-stay-execution-stacey-johnson-dna-testing/",
+    "headline": "Arkansas Supreme Court Issues Stay of Execution for Stacey Johnson for DNA Testing",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/arkansas-supreme-court-issues-stay-execution-stacey-johnson-dna-testing/",
+        "headline": "Arkansas Supreme Court Issues Stay of Execution for Stacey Johnson for DNA Testing"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/juctice-for-stacey-johnson/",
+        "headline": "Innocence Project Urges Arkansas Supreme Court to Stay Execution of Stacey Johnson and Grant DNA Testing that Could Prove Innocence"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocenceproject-asks-dna-testing-deathrow/",
+        "headline": "Innocence Project Asks Court to Grant DNA Testing in Case of Arkansas Man Scheduled to Be Executed on April 20, 2017"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 3 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 3
+    }
+  },
+  {
+    "firstName": "Adnan",
+    "middleName": null,
+    "lastName": "Syed",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 3 Innocence Project news article(s). Primary headline: \"DA Drops Charges Against Adnan Syed of \"Serial\" After 23 Years in Prison\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/statement-adnan-syeds-conviction-is-vacated/",
+    "headline": "DA Drops Charges Against Adnan Syed of \"Serial\" After 23 Years in Prison",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/statement-adnan-syeds-conviction-is-vacated/",
+        "headline": "DA Drops Charges Against Adnan Syed of \"Serial\" After 23 Years in Prison"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/adnan-syed-seeks-release/",
+        "headline": "Adnan Syed of Serial Seeks Release on Bail"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/serial-rabia-chaudry-book-adnan-syed/",
+        "headline": "The Woman Behind Season One of Serial: Rabia Chaudry Releases New Book on the Untold Story of Adnan Syed and the Murder Case that Captivated Millions"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 3 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 3
+    }
+  },
+  {
+    "firstName": "Barry",
+    "middleName": null,
+    "lastName": "Jones",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "New York",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 3 Innocence Project news article(s). Primary headline: \"Innocence Project Responds to Release of Barry Jones After 29 Years on Death Row\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/innocence-project-responds-to-release-of-barry-jones-after-29-years-on-death-row/",
+    "headline": "Innocence Project Responds to Release of Barry Jones After 29 Years on Death Row",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-responds-to-release-of-barry-jones-after-29-years-on-death-row/",
+        "headline": "Innocence Project Responds to Release of Barry Jones After 29 Years on Death Row"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-statement-from-executive-director-christina-swarns-on-shinn-v-ramirez-and-jones-2/",
+        "headline": "Innocence Project Statement From Executive Director Christina Swarns on Shinn v. Ramirez and Jones"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/christina-swarns-new-york-times-opinion-shinn-v-ramirez/",
+        "headline": "Christina Swarns Exposes Risk of A Right to Fair Trial in New York Times on SCOTUS Case Shinn v. Ramirez and Jones"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 3 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 3
+    }
+  },
+  {
+    "firstName": "Kalief",
+    "middleName": null,
+    "lastName": "Browder",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 3 Innocence Project news article(s). Primary headline: \"Documentary Series on Kalief Browder to Premiere on Spike\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/documentary-series-kalief-browder-premiere-spike/",
+    "headline": "Documentary Series on Kalief Browder to Premiere on Spike",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/documentary-series-kalief-browder-premiere-spike/",
+        "headline": "Documentary Series on Kalief Browder to Premiere on Spike"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/remembering-kalief-browder-year-suicide-rikers-island-shutdown/",
+        "headline": "Remembering Kalief Browder a Year After his Suicide and Why Rikers Island Should be Shut Down"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/interview-akeem-browder-brother-kalief-didnt-go-not-fair/",
+        "headline": "Akeem Browder Remembers His Brother: “Kalief didn’t have to go through any of this. It’s not fair.”"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 3 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 3
+    }
+  },
+  {
+    "firstName": "Paul",
+    "middleName": null,
+    "lastName": "Hildwin",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Florida",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 3 Innocence Project news article(s). Primary headline: \"Paul Hildwin Set Free After 35-Year Struggle for Justice\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/paul-hildwin-set-free-after-35-year-struggle-for-justice/",
+    "headline": "Paul Hildwin Set Free After 35-Year Struggle for Justice",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/paul-hildwin-set-free-after-35-year-struggle-for-justice/",
+        "headline": "Paul Hildwin Set Free After 35-Year Struggle for Justice"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/paul-hildwin-to-be-retried-despite-affirmative-evidence-of-his-innocence/",
+        "headline": "Paul Hildwin to be Retried Despite Affirmative Evidence of His Innocence"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/florida-death-row-prisoner-fights-to-overturn-conviction/",
+        "headline": "Florida Death Row Prisoner Fights to Overturn Conviction"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 3 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 3
+    }
+  },
+  {
+    "firstName": "Rickie",
+    "middleName": null,
+    "lastName": "Johnson",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Louisiana",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 3 Innocence Project news article(s). Primary headline: \"Exoneree Anniversary: Rickie Johnson\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/exoneree-anniversary-rickie-johnson/",
+    "headline": "Exoneree Anniversary: Rickie Johnson",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/exoneree-anniversary-rickie-johnson/",
+        "headline": "Exoneree Anniversary: Rickie Johnson"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/video-rickie-johnson-opens-his-shop/",
+        "headline": "Video: Rickie Johnson Opens His Shop"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/after-26-years-dna-testing-exonerates-rickie-johnson-in-sabine-parish-louisiana-rape-johnson-will-be-released-today-and-speak-at-a-press-conference-in-baton-rouge-tuesday/",
+        "headline": "After 26 Years, DNA Testing Exonerates Rickie Johnson in Sabine Parish, Louisiana, Rape; Johnson Will be Released Today and Speak at a Press Conference in Baton Rouge Tuesday"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 3 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 3
+    }
+  },
+  {
+    "firstName": "Carlos",
+    "middleName": null,
+    "lastName": "Sanchez",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"Election Day 2018: Carlos Sanchez Receives Voting Pardon and Will be Voting for the First Time in his Life\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/carlos-sanchez-voting-for-first-time-ever/",
+    "headline": "Election Day 2018: Carlos Sanchez Receives Voting Pardon and Will be Voting for the First Time in his Life",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/carlos-sanchez-voting-for-first-time-ever/",
+        "headline": "Election Day 2018: Carlos Sanchez Receives Voting Pardon and Will be Voting for the First Time in his Life"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/national-poetry-month-poems-carlos-sanchez/",
+        "headline": "National Poetry Month: Poems of Carlos Sanchez"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Ivan",
+    "middleName": null,
+    "lastName": "Henry",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "Canada",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"Undisclosed Evidence May be a Turning Point in Ivan Henry’s Wrongful Conviction Lawsuit\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/undisclosed-evidence-may-be-a-turning-point-in-ivan-henrys-wrongful-conviction-lawsuit/",
+    "headline": "Undisclosed Evidence May be a Turning Point in Ivan Henry’s Wrongful Conviction Lawsuit",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/undisclosed-evidence-may-be-a-turning-point-in-ivan-henrys-wrongful-conviction-lawsuit/",
+        "headline": "Undisclosed Evidence May be a Turning Point in Ivan Henry’s Wrongful Conviction Lawsuit"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/after-27-years-in-prison-canadian-man-is-cleared/",
+        "headline": "After 27 Years in Prison, Canadian Man Is Cleared"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "Non-USA case (Canada) — confirm whether to include in US-focused archive."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Jeffrey",
+    "middleName": null,
+    "lastName": "MacDonald",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "North Carolina",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"Innocence Project Applauds Federal Appeals Court Ruling in Jeffrey MacDonald Case Saying Court Must Consider All Evidence of Innocence When Considering Innocence Claims\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/innocence-project-applauds-federal-appeals-court-ruling-in-jeffrey-macdonald-case-saying-court-must-consider-all-evidence-of-innocence-when-considering-innocence-claims/",
+    "headline": "Innocence Project Applauds Federal Appeals Court Ruling in Jeffrey MacDonald Case Saying Court Must Consider All Evidence of Innocence When Considering Innocence Claims",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-applauds-federal-appeals-court-ruling-in-jeffrey-macdonald-case-saying-court-must-consider-all-evidence-of-innocence-when-considering-innocence-claims/",
+        "headline": "Innocence Project Applauds Federal Appeals Court Ruling in Jeffrey MacDonald Case Saying Court Must Consider All Evidence of Innocence When Considering Innocence Claims"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/macdonald-fights-murder-conviction/",
+        "headline": "North Carolina Man Continues to Fight his 1979 Murder Conviction"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Kalvin",
+    "middleName": "Michael",
+    "lastName": "Smith",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "North Carolina",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"North Carolina Man Still Fighting for Justice after 20 Years\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/north-carolina-man-still-fighting-for-justice/",
+    "headline": "North Carolina Man Still Fighting for Justice after 20 Years",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/north-carolina-man-still-fighting-for-justice/",
+        "headline": "North Carolina Man Still Fighting for Justice after 20 Years"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/north-carolina-man-released-20-years-prison/",
+        "headline": "North Carolina Man Released After 20 Years in Prison"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Kevin",
+    "middleName": null,
+    "lastName": "Brinkley",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"Philadelphia Inquirer: Was Kevin Brinkley Misidentified for Murder 40 Years Ago?\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/kevin-brinkley-misidentified-for-murder-40-years-ago/",
+    "headline": "Philadelphia Inquirer: Was Kevin Brinkley Misidentified for Murder 40 Years Ago?",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/kevin-brinkley-misidentified-for-murder-40-years-ago/",
+        "headline": "Philadelphia Inquirer: Was Kevin Brinkley Misidentified for Murder 40 Years Ago?"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/former-prosecutor-asks-forgiveness-for-wrongful-conviction/",
+        "headline": "Former Prosecutor Asks for Forgiveness for Philadelphia Man’s Wrongful Conviction"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Kevin",
+    "middleName": null,
+    "lastName": "Keith",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Ohio",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"Governor Removes Ohio Man From Death Row, Reduces Sentence (Updated)\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/governor-removes-ohio-man-from-death-row-reduces-sentence-updated/",
+    "headline": "Governor Removes Ohio Man From Death Row, Reduces Sentence (Updated)",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/governor-removes-ohio-man-from-death-row-reduces-sentence-updated/",
+        "headline": "Governor Removes Ohio Man From Death Row, Reduces Sentence (Updated)"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/execution-date-nears-for-ohio-man-despite-evidence-of-innocence/",
+        "headline": "Execution Date Nears for Ohio Man, Despite Evidence of Innocence"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Nathaniel",
+    "middleName": null,
+    "lastName": "Epps",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"Deceased Innocence Project Client Nathaniel Epps Garners National Media Attention\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/nathaniel-epps-garners-national-media/",
+    "headline": "Deceased Innocence Project Client Nathaniel Epps Garners National Media Attention",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/nathaniel-epps-garners-national-media/",
+        "headline": "Deceased Innocence Project Client Nathaniel Epps Garners National Media Attention"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/ip-client-nathaniel-epps-dies-in-prison/",
+        "headline": "Innocence Project Client Nathaniel Epps Dies in Prison"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Pamela",
+    "middleName": null,
+    "lastName": "Jacobazzi",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "RELEASED_CLEMENCY",
+    "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Illinois",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"Illinois Woman Denied New Trial in Shaken Baby Syndrome Case\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/illinois-woman-denied-new-trial-in-shaken-baby-syndrome-case/",
+    "headline": "Illinois Woman Denied New Trial in Shaken Baby Syndrome Case",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/illinois-woman-denied-new-trial-in-shaken-baby-syndrome-case/",
+        "headline": "Illinois Woman Denied New Trial in Shaken Baby Syndrome Case"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/illinois-woman-asks-for-clemency-in-shaken-baby-syndrome-case/",
+        "headline": "Illinois Woman Asks for Clemency in Shaken Baby Syndrome Case"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Robert",
+    "middleName": null,
+    "lastName": "Breest",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "New Hampshire",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"New Hampshire man to get another round of DNA testing\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/new-hampshire-man-to-get-another-round-of-dna-testing/",
+    "headline": "New Hampshire man to get another round of DNA testing",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/new-hampshire-man-to-get-another-round-of-dna-testing/",
+        "headline": "New Hampshire man to get another round of DNA testing"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/new-hampshire-man-requests-4th-round-of-dna-testing/",
+        "headline": "New Hampshire man requests 4th round of DNA testing"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Sharif",
+    "middleName": null,
+    "lastName": "Abdur-Raqeeb",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "New Jersey",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"NJ Man Continues His Search for Evidence\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/nj-man-continues-his-search-for-evidence/",
+    "headline": "NJ Man Continues His Search for Evidence",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/nj-man-continues-his-search-for-evidence/",
+        "headline": "NJ Man Continues His Search for Evidence"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-seeks-thorough-search-for-evidence-that-could-prove-new-jersey-man-innocent-in-1985-rape/",
+        "headline": "Innocence Project Seeks Thorough Search for Evidence That  Could Prove New Jersey Man Innocent in 1985 Rape"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "William",
+    "middleName": null,
+    "lastName": "Macumber",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Arizona",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"Arizona Man Remains in Prison Despite Evidence of Innocence\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/arizona-man-remains-in-prison-despite-evidence-of-innocence/",
+    "headline": "Arizona Man Remains in Prison Despite Evidence of Innocence",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/arizona-man-remains-in-prison-despite-evidence-of-innocence/",
+        "headline": "Arizona Man Remains in Prison Despite Evidence of Innocence"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/arizona-man-freed-after-nearly-40-years/",
+        "headline": "Arizona Man Freed After Nearly 40 Years"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Greg",
+    "middleName": null,
+    "lastName": "Taylor",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "North Carolina",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"One Man Seeks Freedom, and Another Adjusts to It\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/one-man-seeks-freedom-and-another-adjusts-to-it/",
+    "headline": "One Man Seeks Freedom, and Another Adjusts to It",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/one-man-seeks-freedom-and-another-adjusts-to-it/",
+        "headline": "One Man Seeks Freedom, and Another Adjusts to It"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/north-carolina-man-freed-after-17-years/",
+        "headline": "North Carolina Man Freed After 17 Years"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Rickey",
+    "middleName": null,
+    "lastName": "Jackson",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"360-Degree Video Transports Viewers into the Life of Exoneree Rickey Jackson\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/360-degree-video-life-of-exoneree-rickey-jackson/",
+    "headline": "360-Degree Video Transports Viewers into the Life of Exoneree Rickey Jackson",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/360-degree-video-life-of-exoneree-rickey-jackson/",
+        "headline": "360-Degree Video Transports Viewers into the Life of Exoneree Rickey Jackson"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/exoneree-speaks-about-wrongful-conviction-death-sentence/",
+        "headline": "VIDEO: Exoneree Speaks About His Wrongful Conviction and Death Sentence"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Sherman",
+    "middleName": null,
+    "lastName": "Brown",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"Important Update in the Case of Sherman Brown\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/case-update-sherman-brown/",
+    "headline": "Important Update in the Case of Sherman Brown",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/case-update-sherman-brown/",
+        "headline": "Important Update in the Case of Sherman Brown"
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/dna-reveals-sherman-brown-innocence/",
+        "headline": "Sherman Brown’s 46-Year-Old Case Goes Back to Court"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Toforest",
+    "middleName": null,
+    "lastName": "Johnson",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Alabama",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 2 Innocence Project news article(s). Primary headline: \"Toforest Johnson Is Facing Execution After A Witness Was Paid To Testify Against Him. Here’s How You Can Help Him Get a New Trial.\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/toforest-johnson-is-facing-execution-after-a-witness-was-paid-to-testify-against-him-heres-how-you-can-help-him-get-a-new-trial/",
+    "headline": "Toforest Johnson Is Facing Execution After A Witness Was Paid To Testify Against Him. Here’s How You Can Help Him Get a New Trial.",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/toforest-johnson-is-facing-execution-after-a-witness-was-paid-to-testify-against-him-heres-how-you-can-help-him-get-a-new-trial/",
+        "headline": "Toforest Johnson Is Facing Execution After A Witness Was Paid To Testify Against Him. Here’s How You Can Help Him Get a New Trial."
+      },
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/toforest-johnson-has-spent-more-than-25-years-on-alabamas-death-row-now-the-prosecutor-who-put-him-there-is-calling-for-a-new-trial/",
+        "headline": "Toforest Johnson Has Spent More Than 25 Years on Alabama’s Death Row. Now The Prosecutor Who Put Him There Is Calling for a New Trial."
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 2 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 2
+    }
+  },
+  {
+    "firstName": "Andre",
+    "middleName": null,
+    "lastName": "Gonzales",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Miami Man Regains His Freedom After 12 Years in Prison\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/miami-man-regains-freedom-after-12-years/",
+    "headline": "Miami Man Regains His Freedom After 12 Years in Prison",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/miami-man-regains-freedom-after-12-years/",
+        "headline": "Miami Man Regains His Freedom After 12 Years in Prison"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Andrew",
+    "middleName": null,
+    "lastName": "Wright",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXONERATED",
+    "claimStrength": "FORMALLY_EXONERATED",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Scottsboro Boys to Receive Posthumous Pardon\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/scottsboro-boys-to-receive-posthumous-pardon/",
+    "headline": "Scottsboro Boys to Receive Posthumous Pardon",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/scottsboro-boys-to-receive-posthumous-pardon/",
+        "headline": "Scottsboro Boys to Receive Posthumous Pardon"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Anthony",
+    "middleName": null,
+    "lastName": "Murray",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Chicago Man to be Set Free After 14 Years in Alford Plea\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/chicago-man-to-be-set-free-after-14-years-in-alford-plea/",
+    "headline": "Chicago Man to be Set Free After 14 Years in Alford Plea",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/chicago-man-to-be-set-free-after-14-years-in-alford-plea/",
+        "headline": "Chicago Man to be Set Free After 14 Years in Alford Plea"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Billy",
+    "middleName": null,
+    "lastName": "Glaze",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"The Fight to Prove Billy Glaze’s Innocence Continues\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/the-fight-to-prove-billy-glazes-innocence-continues/",
+    "headline": "The Fight to Prove Billy Glaze’s Innocence Continues",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/the-fight-to-prove-billy-glazes-innocence-continues/",
+        "headline": "The Fight to Prove Billy Glaze’s Innocence Continues"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Booker",
+    "middleName": null,
+    "lastName": "Diggins",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Louisiana",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Blood Tests Prove Louisiana Man's Innocence\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/blood-tests-prove-louisiana-mans-innocence/",
+    "headline": "Blood Tests Prove Louisiana Man's Innocence",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/blood-tests-prove-louisiana-mans-innocence/",
+        "headline": "Blood Tests Prove Louisiana Man's Innocence"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Charles",
+    "middleName": null,
+    "lastName": "McCrory",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Alabama",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Charles McCrory Is an Innocent Man Incarcerated for Over 35 Years in Alabama — Here’s What You Need to Know\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/charles-mccrory-innocent-incarcerated-35-years-in-alabama/",
+    "headline": "Charles McCrory Is an Innocent Man Incarcerated for Over 35 Years in Alabama — Here’s What You Need to Know",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/charles-mccrory-innocent-incarcerated-35-years-in-alabama/",
+        "headline": "Charles McCrory Is an Innocent Man Incarcerated for Over 35 Years in Alabama — Here’s What You Need to Know"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Chris",
+    "middleName": null,
+    "lastName": "Conover",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Chris Conover, Remembered\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/chris-conover-remembered/",
+    "headline": "Chris Conover, Remembered",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/chris-conover-remembered/",
+        "headline": "Chris Conover, Remembered"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Clayton",
+    "middleName": null,
+    "lastName": "Price",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Missouri",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Wrongful Conviction Overturned for Missouri Man\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/wrongful-conviction-overturned-for-missouri-man/",
+    "headline": "Wrongful Conviction Overturned for Missouri Man",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/wrongful-conviction-overturned-for-missouri-man/",
+        "headline": "Wrongful Conviction Overturned for Missouri Man"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Cody",
+    "middleName": null,
+    "lastName": "Vandenberg",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Wisconsin",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"New Evidence, Testimony Points to Wisconsin Man's Innocence\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/new-evidence-testimony-points-to-wisconsin-mans-innocence/",
+    "headline": "New Evidence, Testimony Points to Wisconsin Man's Innocence",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/new-evidence-testimony-points-to-wisconsin-mans-innocence/",
+        "headline": "New Evidence, Testimony Points to Wisconsin Man's Innocence"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "David",
+    "middleName": "L.",
+    "lastName": "Scott",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Indiana",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Indiana man freed 23 years after wrongful conviction\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/indiana-man-freed-23-years-after-wrongful-conviction/",
+    "headline": "Indiana man freed 23 years after wrongful conviction",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/indiana-man-freed-23-years-after-wrongful-conviction/",
+        "headline": "Indiana man freed 23 years after wrongful conviction"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Dinesh",
+    "middleName": null,
+    "lastName": "Kumar",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Toronto Man to be Cleared in Shaken Baby Case\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/toronto-man-to-be-cleared-in-shaken-baby-case/",
+    "headline": "Toronto Man to be Cleared in Shaken Baby Case",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/toronto-man-to-be-cleared-in-shaken-baby-case/",
+        "headline": "Toronto Man to be Cleared in Shaken Baby Case"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Frank",
+    "middleName": null,
+    "lastName": "McKithen",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "New York",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Federal judge: New York man has the right to DNA testing\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/federal-judge-new-york-man-has-the-right-to-dna-testing/",
+    "headline": "Federal judge: New York man has the right to DNA testing",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/federal-judge-new-york-man-has-the-right-to-dna-testing/",
+        "headline": "Federal judge: New York man has the right to DNA testing"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Frank",
+    "middleName": null,
+    "lastName": "Robinson",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Kansas",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Kansas Man's 2009 Murder Conviction Overturned Due to Ineffective Counsel\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/kansas-mans-2009-murder-conviction-overturned/",
+    "headline": "Kansas Man's 2009 Murder Conviction Overturned Due to Ineffective Counsel",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/kansas-mans-2009-murder-conviction-overturned/",
+        "headline": "Kansas Man's 2009 Murder Conviction Overturned Due to Ineffective Counsel"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Fred",
+    "middleName": null,
+    "lastName": "Freeman",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Michigan",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"What You Should Know About Fred Freeman, Wrongfully Convicted in Michigan\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/fred-freeman-temujin-kensu-what-to-know/",
+    "headline": "What You Should Know About Fred Freeman, Wrongfully Convicted in Michigan",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/fred-freeman-temujin-kensu-what-to-know/",
+        "headline": "What You Should Know About Fred Freeman, Wrongfully Convicted in Michigan"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Gary",
+    "middleName": "Alvin",
+    "lastName": "Richard",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Houston Man Freed After 22 Years\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/houston-man-freed-after-22-years/",
+    "headline": "Houston Man Freed After 22 Years",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/houston-man-freed-after-22-years/",
+        "headline": "Houston Man Freed After 22 Years"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Gerald",
+    "middleName": null,
+    "lastName": "Manning",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"At Age 59, IPNO Client Gerald Manning Experiences Freedom for the First Time in his Adult Life\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/ipno-client-gerald-manning-free/",
+    "headline": "At Age 59, IPNO Client Gerald Manning Experiences Freedom for the First Time in his Adult Life",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/ipno-client-gerald-manning-free/",
+        "headline": "At Age 59, IPNO Client Gerald Manning Experiences Freedom for the First Time in his Adult Life"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "James",
+    "middleName": null,
+    "lastName": "Dailey",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"James Dailey’s Execution Stay Is About to Expire — Here’s How You Can Help\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/how-to-help-james-dailey-death-row/",
+    "headline": "James Dailey’s Execution Stay Is About to Expire — Here’s How You Can Help",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/how-to-help-james-dailey-death-row/",
+        "headline": "James Dailey’s Execution Stay Is About to Expire — Here’s How You Can Help"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Jerry",
+    "middleName": null,
+    "lastName": "Johnson",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Texas",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"DNA proves Texas man innocent nine years after he died in prison\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/dna-proves-texas-man-innocent-nine-years-after-he-died-in-prison/",
+    "headline": "DNA proves Texas man innocent nine years after he died in prison",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/dna-proves-texas-man-innocent-nine-years-after-he-died-in-prison/",
+        "headline": "DNA proves Texas man innocent nine years after he died in prison"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Jessica",
+    "middleName": null,
+    "lastName": "Jauch",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Mississippi",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Mississippi Woman Jailed for Three Months on False Drug Charges\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/ms-woman-wrongfully-jailed-3-months/",
+    "headline": "Mississippi Woman Jailed for Three Months on False Drug Charges",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/ms-woman-wrongfully-jailed-3-months/",
+        "headline": "Mississippi Woman Jailed for Three Months on False Drug Charges"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Jimmie",
+    "middleName": null,
+    "lastName": "Duncan",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "RELEASED_CLEMENCY",
+    "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Louisiana",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"The Innocence Project Withdraws Jimmie Duncan's Clemency Petition in Louisiana\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/the-innocence-project-withdraws-jimmie-duncans-clemency-petition-in-louisiana/",
+    "headline": "The Innocence Project Withdraws Jimmie Duncan's Clemency Petition in Louisiana",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/the-innocence-project-withdraws-jimmie-duncans-clemency-petition-in-louisiana/",
+        "headline": "The Innocence Project Withdraws Jimmie Duncan's Clemency Petition in Louisiana"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Jocelyn",
+    "middleName": null,
+    "lastName": "McLean",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Mississippi",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Wrongfully Accused Mother Pursues Civil Rights Lawsuit Against Mississippi Officials\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/wrongfully-accused-mother-pursues-civil-rights-lawsuit-against-mississippi-officials/",
+    "headline": "Wrongfully Accused Mother Pursues Civil Rights Lawsuit Against Mississippi Officials",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/wrongfully-accused-mother-pursues-civil-rights-lawsuit-against-mississippi-officials/",
+        "headline": "Wrongfully Accused Mother Pursues Civil Rights Lawsuit Against Mississippi Officials"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Jordan",
+    "middleName": null,
+    "lastName": "Brown",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Jordan Brown, Arrested at Age 11, Exonerated of 2009 Murder\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/jordan-brown-exonerated-of-2009-murder/",
+    "headline": "Jordan Brown, Arrested at Age 11, Exonerated of 2009 Murder",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/jordan-brown-exonerated-of-2009-murder/",
+        "headline": "Jordan Brown, Arrested at Age 11, Exonerated of 2009 Murder"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Ken",
+    "middleName": null,
+    "lastName": "Haddock",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Kansas",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"A Kansas Family Fights to Prove Father's Innocence\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/a-kansas-family-fights-to-prove-fathers-innocence/",
+    "headline": "A Kansas Family Fights to Prove Father's Innocence",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/a-kansas-family-fights-to-prove-fathers-innocence/",
+        "headline": "A Kansas Family Fights to Prove Father's Innocence"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Kenneth",
+    "middleName": null,
+    "lastName": "Hovland",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"For This Wrongly Convicted Man, Making Jewelry ‘Takes Away From the Hardness That Prison Created’\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/wrongly-convicted-jewelry-making/",
+    "headline": "For This Wrongly Convicted Man, Making Jewelry ‘Takes Away From the Hardness That Prison Created’",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/wrongly-convicted-jewelry-making/",
+        "headline": "For This Wrongly Convicted Man, Making Jewelry ‘Takes Away From the Hardness That Prison Created’"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Lebrew",
+    "middleName": null,
+    "lastName": "Jones",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "New York",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"New York man continues his fight for exoneration after two decades\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/new-york-man-continues-his-fight-for-exoneration-after-two-decades/",
+    "headline": "New York man continues his fight for exoneration after two decades",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/new-york-man-continues-his-fight-for-exoneration-after-two-decades/",
+        "headline": "New York man continues his fight for exoneration after two decades"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Lee",
+    "middleName": "Wayne",
+    "lastName": "Hunt",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "North Carolina",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"North Carolina man is denied a new trial\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/north-carolina-man-is-denied-a-new-trial/",
+    "headline": "North Carolina man is denied a new trial",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/north-carolina-man-is-denied-a-new-trial/",
+        "headline": "North Carolina man is denied a new trial"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Leonard",
+    "middleName": null,
+    "lastName": "Taylor",
+    "suffix": null,
+    "nickname": "Raheem",
+    "disambiguationTag": null,
+    "status": "EXECUTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Innocence Project Statement on the Execution of Leonard ‘Raheem’ Taylor\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/innocence-project-statement-on-the-execution-of-leonard-raheem-taylor/",
+    "headline": "Innocence Project Statement on the Execution of Leonard ‘Raheem’ Taylor",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/innocence-project-statement-on-the-execution-of-leonard-raheem-taylor/",
+        "headline": "Innocence Project Statement on the Execution of Leonard ‘Raheem’ Taylor"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Lourdes",
+    "middleName": null,
+    "lastName": "Torres",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXONERATED",
+    "claimStrength": "FORMALLY_EXONERATED",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "New York",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Charges dropped in NYC case after DNA proves woman's confession was false\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/charges-dropped-in-nyc-case-after-dna-proves-womans-confession-was-false/",
+    "headline": "Charges dropped in NYC case after DNA proves woman's confession was false",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/charges-dropped-in-nyc-case-after-dna-proves-womans-confession-was-false/",
+        "headline": "Charges dropped in NYC case after DNA proves woman's confession was false"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Max",
+    "middleName": null,
+    "lastName": "Soffar",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Would Max Soffar Be on Death Row If Police Had Recorded His Interrogation?\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/would-max-soffar-be-on-death-row-if-police-had-recorded-his-interrogation/",
+    "headline": "Would Max Soffar Be on Death Row If Police Had Recorded His Interrogation?",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/would-max-soffar-be-on-death-row-if-police-had-recorded-his-interrogation/",
+        "headline": "Would Max Soffar Be on Death Row If Police Had Recorded His Interrogation?"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Merrill",
+    "middleName": null,
+    "lastName": "Andrews",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Kansas",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Kansas Man Granted Hearing on DNA Tests\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/kansas-man-granted-hearing-on-dna-tests/",
+    "headline": "Kansas Man Granted Hearing on DNA Tests",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/kansas-man-granted-hearing-on-dna-tests/",
+        "headline": "Kansas Man Granted Hearing on DNA Tests"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Michael",
+    "middleName": null,
+    "lastName": "Walker",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "California",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Supreme Court Upholds the Right to Sue Los Angeles Police for Concealing Evidence in Walker Case\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/supreme-court-upholds-the-right-to-sue-los-angeles-police-for-concealing-evidence-in-walker-case/",
+    "headline": "Supreme Court Upholds the Right to Sue Los Angeles Police for Concealing Evidence in Walker Case",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/supreme-court-upholds-the-right-to-sue-los-angeles-police-for-concealing-evidence-in-walker-case/",
+        "headline": "Supreme Court Upholds the Right to Sue Los Angeles Police for Concealing Evidence in Walker Case"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Monica",
+    "middleName": null,
+    "lastName": "Jones",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Monica Jones and the Problem of \"Walking While Trans\"\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/monica-jones-walking-while-trans/",
+    "headline": "Monica Jones and the Problem of \"Walking While Trans\"",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/monica-jones-walking-while-trans/",
+        "headline": "Monica Jones and the Problem of \"Walking While Trans\""
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Montez",
+    "middleName": null,
+    "lastName": "Spradley",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Radley Balko Brings the Case of Montez Spradley to Light\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/radley-balko-brings-the-case-of-montez-spradley-to-light/",
+    "headline": "Radley Balko Brings the Case of Montez Spradley to Light",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/radley-balko-brings-the-case-of-montez-spradley-to-light/",
+        "headline": "Radley Balko Brings the Case of Montez Spradley to Light"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Myon",
+    "middleName": null,
+    "lastName": "Burrell",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Minnesota",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Independent Panel of Legal Experts Call on New Minnesota CRU to Investigate Myon Burrell’s 2002 Conviction\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/independent-panel-of-legal-experts-call-on-new-minnesota-cru-to-investigate-myon-burrells-2002-conviction/",
+    "headline": "Independent Panel of Legal Experts Call on New Minnesota CRU to Investigate Myon Burrell’s 2002 Conviction",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/independent-panel-of-legal-experts-call-on-new-minnesota-cru-to-investigate-myon-burrells-2002-conviction/",
+        "headline": "Independent Panel of Legal Experts Call on New Minnesota CRU to Investigate Myon Burrell’s 2002 Conviction"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Nico",
+    "middleName": null,
+    "lastName": "LeGrand",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "New York",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Court orders new trial for New York man\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/court-orders-new-trial-for-new-york-man/",
+    "headline": "Court orders new trial for New York man",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/court-orders-new-trial-for-new-york-man/",
+        "headline": "Court orders new trial for New York man"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Paco",
+    "middleName": null,
+    "lastName": "Larranaga",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "Philippines",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Free Paco Now\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/free-paco-now/",
+    "headline": "Free Paco Now",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/free-paco-now/",
+        "headline": "Free Paco Now"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "Non-USA case (Philippines) — confirm whether to include in US-focused archive."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Ralph",
+    "middleName": null,
+    "lastName": "Wright",
+    "suffix": "Jr.",
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Florida",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Florida Man Exonerated of Murder and Released from Death Row\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/florida-man-exonerated-and-released-from-death-row/",
+    "headline": "Florida Man Exonerated of Murder and Released from Death Row",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/florida-man-exonerated-and-released-from-death-row/",
+        "headline": "Florida Man Exonerated of Murder and Released from Death Row"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Richard",
+    "middleName": null,
+    "lastName": "LaFuente",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "RELEASED_CLEMENCY",
+    "claimStrength": "OFFICIAL_RELIEF_NO_EXONERATION",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "North Dakota",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Clemency Bid for Texas Man Convicted of a North Dakota Murder\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/clemency-bid-for-texas-man-convicted-of-a-north-dakota-murder/",
+    "headline": "Clemency Bid for Texas Man Convicted of a North Dakota Murder",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/clemency-bid-for-texas-man-convicted-of-a-north-dakota-murder/",
+        "headline": "Clemency Bid for Texas Man Convicted of a North Dakota Murder"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Robert",
+    "middleName": null,
+    "lastName": "Baltovich",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "Canada",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Canadian man is cleared, and the public calls for an official investigation\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/canadian-man-is-cleared-and-the-public-calls-for-an-official-investigation/",
+    "headline": "Canadian man is cleared, and the public calls for an official investigation",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/canadian-man-is-cleared-and-the-public-calls-for-an-official-investigation/",
+        "headline": "Canadian man is cleared, and the public calls for an official investigation"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "Non-USA case (Canada) — confirm whether to include in US-focused archive."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Robert",
+    "middleName": null,
+    "lastName": "Caulley",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Ohio",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"DNA tests point to Ohio man's innocence\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/dna-tests-point-to-ohio-mans-innocence/",
+    "headline": "DNA tests point to Ohio man's innocence",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/dna-tests-point-to-ohio-mans-innocence/",
+        "headline": "DNA tests point to Ohio man's innocence"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Ruben",
+    "middleName": "Cardenas",
+    "lastName": "Ramirez",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Ruben Cardenas Ramirez Is Scheduled for Execution in November, but He May be Innocent\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/ruben-cardenas-ramirez-scheduled-execution-november-may-innocent/",
+    "headline": "Ruben Cardenas Ramirez Is Scheduled for Execution in November, but He May be Innocent",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/ruben-cardenas-ramirez-scheduled-execution-november-may-innocent/",
+        "headline": "Ruben Cardenas Ramirez Is Scheduled for Execution in November, but He May be Innocent"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Rudolph",
+    "middleName": null,
+    "lastName": "Powers",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Tennessee",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Tennessee Supreme Court Grants DNA Testing to Man Who Claims He Has Been Wrongfully Imprisoned for 30 Years\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/tennessee-supreme-court-grants-dna-testing-to-man-who-claims-he-has-been-wrongfully-imprisoned-for-30-years/",
+    "headline": "Tennessee Supreme Court Grants DNA Testing to Man Who Claims He Has Been Wrongfully Imprisoned for 30 Years",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/tennessee-supreme-court-grants-dna-testing-to-man-who-claims-he-has-been-wrongfully-imprisoned-for-30-years/",
+        "headline": "Tennessee Supreme Court Grants DNA Testing to Man Who Claims He Has Been Wrongfully Imprisoned for 30 Years"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Sammy",
+    "middleName": null,
+    "lastName": "Swift",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "New York",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"DNA tests lead to new trial for NY man\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/dna-tests-lead-to-new-trial-for-ny-man/",
+    "headline": "DNA tests lead to new trial for NY man",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/dna-tests-lead-to-new-trial-for-ny-man/",
+        "headline": "DNA tests lead to new trial for NY man"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Scott",
+    "middleName": null,
+    "lastName": "Peterson",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "California",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Statement on Developments in the Scott Peterson Case in California\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/statement-on-developments-in-the-scott-peterson-case-california/",
+    "headline": "Statement on Developments in the Scott Peterson Case in California",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/statement-on-developments-in-the-scott-peterson-case-california/",
+        "headline": "Statement on Developments in the Scott Peterson Case in California"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Sherry",
+    "middleName": null,
+    "lastName": "Sherret-Robinson",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "Canada",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"A Canadian Mother Is Cleared in Her Son's Death\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/a-canadian-mother-is-cleared-in-her-sons-death/",
+    "headline": "A Canadian Mother Is Cleared in Her Son's Death",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/a-canadian-mother-is-cleared-in-her-sons-death/",
+        "headline": "A Canadian Mother Is Cleared in Her Son's Death"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "Non-USA case (Canada) — confirm whether to include in US-focused archive."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Su",
+    "middleName": null,
+    "lastName": "Ping-kun",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "Taiwan",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Taiwan Innocence Project Client Exonerated After Fighting 32 Years to Prove Innocence\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/taiwan-innocence-project-client-exonerated/",
+    "headline": "Taiwan Innocence Project Client Exonerated After Fighting 32 Years to Prove Innocence",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/taiwan-innocence-project-client-exonerated/",
+        "headline": "Taiwan Innocence Project Client Exonerated After Fighting 32 Years to Prove Innocence"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "Non-USA case (Taiwan) — confirm whether to include in US-focused archive."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Teresa",
+    "middleName": null,
+    "lastName": "Culpepper",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Georgia",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Atlanta Wrongfully Incarcerates Woman Who Shares the Same Name as the Suspect\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/atlanta-wrongfully-incarcerates-woman-who-shares-the-same-name-as-the-suspect/",
+    "headline": "Atlanta Wrongfully Incarcerates Woman Who Shares the Same Name as the Suspect",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/atlanta-wrongfully-incarcerates-woman-who-shares-the-same-name-as-the-suspect/",
+        "headline": "Atlanta Wrongfully Incarcerates Woman Who Shares the Same Name as the Suspect"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Terry",
+    "middleName": null,
+    "lastName": "Olson",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Terry Olson Goes Home After 10 Years in Prison Based on Another Man’s False Confession\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/terry-olson-granted-relief/",
+    "headline": "Terry Olson Goes Home After 10 Years in Prison Based on Another Man’s False Confession",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/terry-olson-granted-relief/",
+        "headline": "Terry Olson Goes Home After 10 Years in Prison Based on Another Man’s False Confession"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Vance",
+    "middleName": null,
+    "lastName": "Haskell",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "New York",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"New York Man’s Conviction Overturned Due to Prosecutorial Misconduct\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/new-york-mans-conviction-overturned-prosecutorial-misconduct/",
+    "headline": "New York Man’s Conviction Overturned Due to Prosecutorial Misconduct",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/new-york-mans-conviction-overturned-prosecutorial-misconduct/",
+        "headline": "New York Man’s Conviction Overturned Due to Prosecutorial Misconduct"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Walter",
+    "middleName": null,
+    "lastName": "Barton",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXECUTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Walter Barton Was Executed — 6 Facts You Should Know About His Case\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/walter-barton-innocent-stay-execution-missouri/",
+    "headline": "Walter Barton Was Executed — 6 Facts You Should Know About His Case",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/walter-barton-innocent-stay-execution-missouri/",
+        "headline": "Walter Barton Was Executed — 6 Facts You Should Know About His Case"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Willard",
+    "middleName": null,
+    "lastName": "O’Neal",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Oklahoma",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Oklahoma Innocence Project Files for Post-Conviction Relief for Tulsa Man\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/oklahoma-innocence-project-files-for-post-conviction-relief-for-tulsa-man/",
+    "headline": "Oklahoma Innocence Project Files for Post-Conviction Relief for Tulsa Man",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/oklahoma-innocence-project-files-for-post-conviction-relief-for-tulsa-man/",
+        "headline": "Oklahoma Innocence Project Files for Post-Conviction Relief for Tulsa Man"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "William",
+    "middleName": "H.",
+    "lastName": "Ray",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Maryland",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Missing Evidence Means No DNA Testing for Maryland Man\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/missing-evidence-means-no-dna-testing-for-maryland-man/",
+    "headline": "Missing Evidence Means No DNA Testing for Maryland Man",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/missing-evidence-means-no-dna-testing-for-maryland-man/",
+        "headline": "Missing Evidence Means No DNA Testing for Maryland Man"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Kevin",
+    "middleName": null,
+    "lastName": "Smith",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Louisiana",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"New Orleans Man Ordered Released After More Than Seven Years Awaiting Trial\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/nola-man-ordered-released-after-7-years-in-jail-awaiting-trial/",
+    "headline": "New Orleans Man Ordered Released After More Than Seven Years Awaiting Trial",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/nola-man-ordered-released-after-7-years-in-jail-awaiting-trial/",
+        "headline": "New Orleans Man Ordered Released After More Than Seven Years Awaiting Trial"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Amanda",
+    "middleName": null,
+    "lastName": "Knox",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "Italy",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Italian High Court Condemns Amanda Knox Acquittal\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/italian-high-court-condemns-amanda-knox-acquittal/",
+    "headline": "Italian High Court Condemns Amanda Knox Acquittal",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/italian-high-court-condemns-amanda-knox-acquittal/",
+        "headline": "Italian High Court Condemns Amanda Knox Acquittal"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "Non-USA case (Italy) — confirm whether to include in US-focused archive."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Angel",
+    "middleName": null,
+    "lastName": "Cordero",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Q&A with Angel Cordero, Star of Wrongful Conviction Documentary Coming Home\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/qa-with-angel-cordero-star-of-wrongful-conviction-documentary-coming-home/",
+    "headline": "Q&A with Angel Cordero, Star of Wrongful Conviction Documentary Coming Home",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/qa-with-angel-cordero-star-of-wrongful-conviction-documentary-coming-home/",
+        "headline": "Q&A with Angel Cordero, Star of Wrongful Conviction Documentary Coming Home"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Angela",
+    "middleName": null,
+    "lastName": "Garcia",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Guilty Plea Series: The Case of Angela Garcia\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/guilty-plea-series-the-case-of-angela-garcia/",
+    "headline": "Guilty Plea Series: The Case of Angela Garcia",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/guilty-plea-series-the-case-of-angela-garcia/",
+        "headline": "Guilty Plea Series: The Case of Angela Garcia"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Antoine",
+    "middleName": null,
+    "lastName": "Day",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Exoneree Band Performs in Salt Lake City\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/exoneree-band-performs-in-salt-lake-city/",
+    "headline": "Exoneree Band Performs in Salt Lake City",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/exoneree-band-performs-in-salt-lake-city/",
+        "headline": "Exoneree Band Performs in Salt Lake City"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Charlie",
+    "middleName": null,
+    "lastName": "Weems",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXONERATED",
+    "claimStrength": "FORMALLY_EXONERATED",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Scottsboro Boys to Receive Posthumous Pardon\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/scottsboro-boys-to-receive-posthumous-pardon/",
+    "headline": "Scottsboro Boys to Receive Posthumous Pardon",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/scottsboro-boys-to-receive-posthumous-pardon/",
+        "headline": "Scottsboro Boys to Receive Posthumous Pardon"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Corey",
+    "middleName": null,
+    "lastName": "Williams",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Freedom at a Cost: The Devastating Case of Corey Williams\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/freedom-at-a-cost-the-case-of-corey-williams/",
+    "headline": "Freedom at a Cost: The Devastating Case of Corey Williams",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/freedom-at-a-cost-the-case-of-corey-williams/",
+        "headline": "Freedom at a Cost: The Devastating Case of Corey Williams"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Floyd",
+    "middleName": null,
+    "lastName": "Brown",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "North Carolina",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"NC man, held without trial for 14 years, is finally released\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/nc-man-held-without-trial-for-14-years-is-finally-released/",
+    "headline": "NC man, held without trial for 14 years, is finally released",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/nc-man-held-without-trial-for-14-years-is-finally-released/",
+        "headline": "NC man, held without trial for 14 years, is finally released"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Ha’im",
+    "middleName": "Al Matin",
+    "lastName": "Sharif",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Nevada",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Nevada Man Released from Death Row After Evidence Reveals Innocence of 1988 Murder\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/nevada-man-released-from-death-row/",
+    "headline": "Nevada Man Released from Death Row After Evidence Reveals Innocence of 1988 Murder",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/nevada-man-released-from-death-row/",
+        "headline": "Nevada Man Released from Death Row After Evidence Reveals Innocence of 1988 Murder"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Habib",
+    "middleName": "Wahir",
+    "lastName": "Abdal",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "New York",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Eighth anniversary of NY man's exoneration\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/eighth-anniversary-of-ny-mans-exoneration/",
+    "headline": "Eighth anniversary of NY man's exoneration",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/eighth-anniversary-of-ny-mans-exoneration/",
+        "headline": "Eighth anniversary of NY man's exoneration"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Haywood",
+    "middleName": null,
+    "lastName": "Patterson",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXONERATED",
+    "claimStrength": "FORMALLY_EXONERATED",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Scottsboro Boys to Receive Posthumous Pardon\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/scottsboro-boys-to-receive-posthumous-pardon/",
+    "headline": "Scottsboro Boys to Receive Posthumous Pardon",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/scottsboro-boys-to-receive-posthumous-pardon/",
+        "headline": "Scottsboro Boys to Receive Posthumous Pardon"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Jerry",
+    "middleName": null,
+    "lastName": "Hobbs",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Illinois",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"After Five Years in Jail, Illinois Man Is Freed\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/after-five-years-in-jail-illinois-man-is-freed/",
+    "headline": "After Five Years in Jail, Illinois Man Is Freed",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/after-five-years-in-jail-illinois-man-is-freed/",
+        "headline": "After Five Years in Jail, Illinois Man Is Freed"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Kevin",
+    "middleName": null,
+    "lastName": "Cooper",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "California",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Astonishing New York Times Op-Ed Illuminates Innocence Claim of Man on California’s Death Row\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/astonishing-new-york-times-op-ed-illuminates-innocence-claim-of-man-on-californias-death-row/",
+    "headline": "Astonishing New York Times Op-Ed Illuminates Innocence Claim of Man on California’s Death Row",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/astonishing-new-york-times-op-ed-illuminates-innocence-claim-of-man-on-californias-death-row/",
+        "headline": "Astonishing New York Times Op-Ed Illuminates Innocence Claim of Man on California’s Death Row"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Kevin",
+    "middleName": null,
+    "lastName": "Fox",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Illinois",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Illinois Man Cleared in His Child's Murder, Real Perpetrator Pleads Guilty\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/illinois-man-cleared-in-his-childs-murder-real-perpetrator-pleads-guilty/",
+    "headline": "Illinois Man Cleared in His Child's Murder, Real Perpetrator Pleads Guilty",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/illinois-man-cleared-in-his-childs-murder-real-perpetrator-pleads-guilty/",
+        "headline": "Illinois Man Cleared in His Child's Murder, Real Perpetrator Pleads Guilty"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Laquanda",
+    "middleName": null,
+    "lastName": "Jacobs",
+    "suffix": null,
+    "nickname": "Faye",
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Midwest Innocence Project Client Laquanda “Faye” Jacobs Released After 26 Years of Wrongful Incarceration\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/midwest-innocence-project-client-released-after-26-years/",
+    "headline": "Midwest Innocence Project Client Laquanda “Faye” Jacobs Released After 26 Years of Wrongful Incarceration",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/midwest-innocence-project-client-released-after-26-years/",
+        "headline": "Midwest Innocence Project Client Laquanda “Faye” Jacobs Released After 26 Years of Wrongful Incarceration"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Rodney",
+    "middleName": "Lee",
+    "lastName": "Lincoln",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "UNKNOWN",
+    "claimStrength": "CREDIBLE_CLAIM",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": "Missouri",
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Will DNA Set a Missouri Man Free?\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/will-dna-set-a-missouri-man-free/",
+    "headline": "Will DNA Set a Missouri Man Free?",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/will-dna-set-a-missouri-man-free/",
+        "headline": "Will DNA Set a Missouri Man Free?"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Roy",
+    "middleName": null,
+    "lastName": "Wright",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "EXONERATED",
+    "claimStrength": "FORMALLY_EXONERATED",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Scottsboro Boys to Receive Posthumous Pardon\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/scottsboro-boys-to-receive-posthumous-pardon/",
+    "headline": "Scottsboro Boys to Receive Posthumous Pardon",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/scottsboro-boys-to-receive-posthumous-pardon/",
+        "headline": "Scottsboro Boys to Receive Posthumous Pardon"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  },
+  {
+    "firstName": "Sheila",
+    "middleName": null,
+    "lastName": "Denton",
+    "suffix": null,
+    "nickname": null,
+    "disambiguationTag": null,
+    "status": "CONVICTION_OVERTURNED",
+    "claimStrength": "STRONG_NEW_EVIDENCE",
+    "crimeCategory": null,
+    "convictionYear": null,
+    "exonerationOrReleaseYear": null,
+    "caseLocationState": null,
+    "caseLocationCountry": "USA",
+    "narrativeSummary": "Featured in 1 Innocence Project news article(s). Primary headline: \"Sheila Denton is Freed After 15 Years of Wrongful Imprisonment\"",
+    "sourceName": "Innocence Project",
+    "sourceUrl": "https://innocenceproject.org/news/sheila-denton-is-freed-after-15-years-of-wrongful-imprisonment/",
+    "headline": "Sheila Denton is Freed After 15 Years of Wrongful Imprisonment",
+    "sourceLinks": [
+      {
+        "sourceName": "Innocence Project",
+        "sourceUrl": "https://innocenceproject.org/news/sheila-denton-is-freed-after-15-years-of-wrongful-imprisonment/",
+        "headline": "Sheila Denton is Freed After 15 Years of Wrongful Imprisonment"
+      }
+    ],
+    "reviewWarnings": [
+      "Auto-extracted from 1 Innocence Project news article(s) — verify status, years, and crime category before marking VERIFIED.",
+      "State not detected from headlines — please fill in during review."
+    ],
+    "_auditMeta": {
+      "articleCount": 1
+    }
+  }
+]
