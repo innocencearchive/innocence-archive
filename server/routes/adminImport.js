@@ -76,6 +76,71 @@ function normStr(val) {
   return String(val).trim().toLowerCase();
 }
 
+const VALID_SUMMARY_POLICIES = new Set(['SMART', 'FILL_EMPTY', 'OVERWRITE']);
+
+function getSummarySourceTier(sourceHint) {
+  const s = normStr(sourceHint);
+  if (!s) return 1;
+  if (s.includes('national registry') || s.includes('nre')) return 1;
+  if (s.includes('wikipedia') || s.includes('wiki')) return 2;
+  // Innocence Project, Legal Orgs, Books, Podcasts, Films, Manual editorial bios
+  return 3;
+}
+
+function hasSpacingGlitch(text) {
+  if (!text) return false;
+  if (/[a-z][.?!,:;][A-Z]/.test(text)) return true;
+  const cleaned = text.replace(/\b(?:Mc|Mac|De|La|Le|Di|Van|Du|St)[A-Z][a-z]+/g, '');
+  return /[a-z][A-Z][a-z]/.test(cleaned);
+}
+
+/**
+ * Decide which narrativeSummary to keep when merging an incoming record onto an existing Individual.
+ * Returns { value, replaced }.
+ */
+function chooseNarrativeSummary(existing, incomingRaw, incomingSourceHint, policy = 'SMART') {
+  const cur = (existing?.narrativeSummary || '').trim() || null;
+  const inc = (incomingRaw || '').trim() || null;
+
+  if (!inc) return { value: cur, replaced: false };
+  if (!cur) return { value: inc, replaced: true };
+  if (cur === inc) return { value: cur, replaced: false };
+
+  const safePolicy = VALID_SUMMARY_POLICIES.has(policy) ? policy : 'SMART';
+  if (safePolicy === 'FILL_EMPTY') {
+    return { value: cur, replaced: false };
+  }
+  if (safePolicy === 'OVERWRITE') {
+    return { value: inc, replaced: true };
+  }
+
+  // SMART policy:
+  // 1. Protect human-verified summaries from automatic overwrite
+  if (existing?.verificationStatus === 'VERIFIED') {
+    return { value: cur, replaced: false };
+  }
+
+  // 2. Compare source editorial tier
+  const existingTier = getSummarySourceTier(existing?.ingestionSource);
+  const incomingTier = getSummarySourceTier(incomingSourceHint);
+
+  if (incomingTier > existingTier && inc.length >= 60) {
+    return { value: inc, replaced: true };
+  }
+
+  // 3. Same tier: upgrade if incoming is meaningfully richer (>= 40% longer) or fixes spacing glitches
+  if (incomingTier === existingTier) {
+    if (inc.length >= Math.round(cur.length * 1.4)) {
+      return { value: inc, replaced: true };
+    }
+    if (hasSpacingGlitch(cur) && !hasSpacingGlitch(inc)) {
+      return { value: inc, replaced: true };
+    }
+  }
+
+  return { value: cur, replaced: false };
+}
+
 const US_STATE_ABBR_TO_NAME = {
   al: 'alabama', ak: 'alaska', az: 'arizona', ar: 'arkansas', ca: 'california',
   co: 'colorado', ct: 'connecticut', de: 'delaware', dc: 'district of columbia',
@@ -1051,6 +1116,7 @@ router.post('/commit', async (req, res) => {
     defaultSourceName = 'Manual Import',
     verificationStatus = 'UNVERIFIED',
     aiGenerated = false,
+    summaryMergePolicy = 'SMART',
     rows = [],
   } = req.body || {};
 
@@ -1058,6 +1124,7 @@ router.post('/commit', async (req, res) => {
     return res.status(400).json({ message: 'No rows provided to commit.' });
   }
 
+  const safeSummaryPolicy = VALID_SUMMARY_POLICIES.has(summaryMergePolicy) ? summaryMergePolicy : 'SMART';
   const safeStatus = VALID_VERIFICATION_STATUSES.has(verificationStatus) ? verificationStatus : 'UNVERIFIED';
   const verifiedFields =
     safeStatus === 'VERIFIED'
@@ -1068,6 +1135,7 @@ router.post('/commit', async (req, res) => {
   let merged = 0;
   let skipped = 0;
   let linksAdded = 0;
+  let summariesUpdated = 0;
   const errors = [];
 
   try {
@@ -1265,7 +1333,11 @@ router.post('/commit', async (req, res) => {
                   caseLocationCity: existingInd.caseLocationCity || ind.caseLocationCity || null,
                   caseLocationCounty: existingInd.caseLocationCounty || ind.caseLocationCounty || null,
                   caseLocationState: existingInd.caseLocationState || ind.caseLocationState || null,
-                  narrativeSummary: existingInd.narrativeSummary || ind.narrativeSummary || null,
+                  narrativeSummary: (() => {
+                    const pick = chooseNarrativeSummary(existingInd, ind.narrativeSummary, defaultSourceName || 'Book Bundle', safeSummaryPolicy);
+                    if (pick.replaced) summariesUpdated++;
+                    return pick.value;
+                  })(),
                   ...(indFactorIds.length > 0 ? { contributingFactors: { connect: indFactorIds } } : {}),
                   ...(indOrgIds.length > 0 ? { organizationsInvolved: { connect: indOrgIds } } : {}),
                 },
@@ -1598,7 +1670,11 @@ router.post('/commit', async (req, res) => {
                     caseLocationCity: existingInd.caseLocationCity || ind.caseLocationCity || null,
                     caseLocationCounty: existingInd.caseLocationCounty || ind.caseLocationCounty || null,
                     caseLocationState: existingInd.caseLocationState || ind.caseLocationState || null,
-                    narrativeSummary: existingInd.narrativeSummary || ind.narrativeSummary || null,
+                    narrativeSummary: (() => {
+                      const pick = chooseNarrativeSummary(existingInd, ind.narrativeSummary, defaultSourceName || targetType, safeSummaryPolicy);
+                      if (pick.replaced) summariesUpdated++;
+                      return pick.value;
+                    })(),
                     ...(indFactorIds.length > 0 ? { contributingFactors: { connect: indFactorIds } } : {}),
                     ...(indOrgIds.length > 0 ? { organizationsInvolved: { connect: indOrgIds } } : {}),
                   },
@@ -1899,7 +1975,7 @@ router.post('/commit', async (req, res) => {
         }
       }
 
-      return res.json({ batchId, targetType, created, merged, skipped, linksAdded, errors });
+      return res.json({ batchId, targetType, created, merged, skipped, linksAdded, summariesUpdated, errors });
     }
 
     // Preload CrimeCategories and ContributingFactors once for fast lookup
@@ -1986,7 +2062,16 @@ router.post('/commit', async (req, res) => {
               caseLocationCity: existing.caseLocationCity || d.caseLocationCity || null,
               caseLocationCounty: existing.caseLocationCounty || d.caseLocationCounty || null,
               caseLocationState: existing.caseLocationState || d.caseLocationState || null,
-              narrativeSummary: existing.narrativeSummary || d.narrativeSummary || null,
+              narrativeSummary: (() => {
+                const pick = chooseNarrativeSummary(
+                  existing,
+                  d.narrativeSummary,
+                  d.sourceName || defaultSourceName || ingestionSource,
+                  safeSummaryPolicy
+                );
+                if (pick.replaced) summariesUpdated++;
+                return pick.value;
+              })(),
               // If a non-NRE source is being merged onto an NRE-only record, auto-promote to published!
               ...(incomingHasNonNre ? { nreOnly: false, isPublished: true } : {}),
               ...(factorConnectIds.length > 0
@@ -2087,7 +2172,7 @@ router.post('/commit', async (req, res) => {
       }
     }
 
-    return res.json({ batchId, targetType, created, merged, skipped, linksAdded, errors });
+    return res.json({ batchId, targetType, created, merged, skipped, linksAdded, summariesUpdated, errors });
   } catch (error) {
     console.error('Error committing import batch:', error);
     return res.status(500).json({ message: 'Failed to commit import batch.', error: error.message });

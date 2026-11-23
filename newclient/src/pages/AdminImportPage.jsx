@@ -59,6 +59,7 @@ function AdminImportPage() {
   const [committing, setCommitting] = useState(false);
   const [commitProgress, setCommitProgress] = useState('');
   const [commitResult, setCommitResult] = useState(null);
+  const [summaryMergePolicy, setSummaryMergePolicy] = useState('SMART');
 
   const loadCoreStatus = async () => {
     try {
@@ -195,6 +196,7 @@ function AdminImportPage() {
       merged: 0,
       skipped: counts.toSkip,
       linksAdded: 0,
+      summariesUpdated: 0,
       errors: [],
     };
 
@@ -210,12 +212,14 @@ function AdminImportPage() {
           ingestionSource,
           defaultSourceName,
           verificationStatus,
+          summaryMergePolicy,
           aiGenerated: false,
           rows: chunk,
         });
         totals.created += res.data.created || 0;
         totals.merged += res.data.merged || 0;
         totals.linksAdded += res.data.linksAdded || 0;
+        totals.summariesUpdated += res.data.summariesUpdated || 0;
         if (Array.isArray(res.data.errors)) {
           totals.errors.push(...res.data.errors);
         }
@@ -313,6 +317,7 @@ function AdminImportPage() {
             <div className="flex flex-wrap gap-6 text-sm text-gray-200">
               <span>Created: <strong className="text-green-300">{commitResult.created}</strong></span>
               <span>Merged: <strong className="text-blue-300">{commitResult.merged}</strong></span>
+              <span>Summaries Updated: <strong className="text-emerald-300">{commitResult.summariesUpdated || 0}</strong></span>
               <span>Skipped: <strong className="text-gray-400">{commitResult.skipped}</strong></span>
               <span>Source Links Added: <strong className="text-amber-300">{commitResult.linksAdded}</strong></span>
               <span>Errors: <strong className={commitResult.errors.length ? 'text-red-400' : 'text-gray-400'}>{commitResult.errors.length}</strong></span>
@@ -458,7 +463,7 @@ function AdminImportPage() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
               <label className="block text-xs text-gray-400 mb-1">Ingestion Source Tag (audit trail)</label>
               <input
@@ -483,6 +488,21 @@ function AdminImportPage() {
                   <option value="OFFICIAL_RELIEF_NO_EXONERATION">OFFICIAL_RELIEF_NO_EXONERATION</option>
                   <option value="STRONG_NEW_EVIDENCE">STRONG_NEW_EVIDENCE</option>
                   <option value="CREDIBLE_CLAIM">CREDIBLE_CLAIM</option>
+                </select>
+              </div>
+            )}
+
+            {targetType !== 'ORGANIZATION' && targetType !== 'GROUPS_AND_LINKS' && (
+              <div>
+                <label className="block text-xs text-gray-400 mb-1">Summary Merge Policy (on MERGE)</label>
+                <select
+                  value={summaryMergePolicy}
+                  onChange={(e) => setSummaryMergePolicy(e.target.value)}
+                  className="w-full p-2 bg-gray-700 border border-gray-600 rounded text-sm text-white"
+                >
+                  <option value="SMART">Smart — upgrade if richer/cleaner (protect VERIFIED)</option>
+                  <option value="FILL_EMPTY">Only fill if empty</option>
+                  <option value="OVERWRITE">Overwrite existing summaries (cleanup patches)</option>
                 </select>
               </div>
             )}
