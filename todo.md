@@ -52,6 +52,10 @@
 ## Priority 3: Ongoing Research & Content Expansion (Via `/admin`)
 *Once the baseline database is rebuilt and validated, grow the archive using the on-site tools.*
 
+- [ ] **Spring 2025 → Nov 2026 Source Gap Analysis & Delta Sync**: Compare original Spring 2025 snapshots against current live sources to capture ~18 months of new exonerations, updates, and news:
+  - [ ] **National Registry of Exonerations (NRE):** Diff fresh NRE export/listing against `nre_v2/all_nre_individuals_bundle.json` (4,084 individuals) to stage all 2025–2026 additions and updated case fields into `/admin/import`.
+  - [ ] **Wikipedia (`List of wrongful convictions in the United States`):** Fetch current Wikipedia table via MediaWiki API and diff against `wikipedia_v2/all_wikipedia_individuals_bundle.json` (339 entries) to capture newly added cases and changed exoneration statuses.
+  - [ ] **Innocence Project News & Cases:** Backfill the Spring 2025 → Nov 2026 gap via the Innocence Project WordPress REST API (`/wp-json/wp/v2/news` or paginated RSS) so every article between the 2025 CSV cutoff and the latest live RSS feed is captured and linked.
 - [ ] **Podcasts**:
   - [ ] Review and verify daily staged episodes from *Wrongful Conviction* in `/admin`.
   - [ ] Activate *Undisclosed* and *In the Dark* in `scripts/podcast_pipeline/feeds.json` when ready.
