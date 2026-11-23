@@ -32,7 +32,7 @@ const HeroSection = () => {
   useEffect(() => {
     let active = true;
     apiClient
-      .get('/news/homepage?limit=4')
+      .get('/news/homepage?limit=3')
       .then((res) => {
         if (active) setNewsItems(res.data?.items || []);
       })
@@ -81,8 +81,8 @@ const HeroSection = () => {
   return (
     <section className="w-full bg-black px-4 md:px-8 lg:px-12 py-12 md:py-16 lg:py-20 border-b border-[#af7a56]/25">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
-        {/* LEFT COLUMN (4 cols): Title, Search, Compact Browse Chips */}
-        <div className="lg:col-span-4 flex flex-col items-center lg:items-start text-center lg:text-left order-2 lg:order-1">
+        {/* LEFT COLUMN (5 cols): Title, Search, Compact Browse Chips */}
+        <div className="lg:col-span-5 flex flex-col items-center lg:items-start text-center lg:text-left order-2 lg:order-1">
           <h1
             className={`text-3xl sm:text-4xl xl:text-[3.35rem] ${LIGHT_BRONZE_COLOR} font-serif uppercase mb-6`}
             style={{ lineHeight: '.92' }}
@@ -98,7 +98,7 @@ const HeroSection = () => {
           {/* Search Form */}
           <form
             onSubmit={handleSearchSubmit}
-            className={`w-full max-w-md bg-black rounded-full p-2 flex items-center border-2 ${BRONZE_BORDER} relative ${scopeStats ? 'mb-2.5' : 'mb-5'}`}
+            className={`w-full max-w-lg bg-black rounded-full p-2 flex items-center border-2 ${BRONZE_BORDER} relative ${scopeStats ? 'mb-2.5' : 'mb-5'}`}
           >
             <span className="absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none">
               <Search className={`w-5 h-5 ${BRONZE_COLOR}`} />
@@ -117,7 +117,7 @@ const HeroSection = () => {
           </form>
 
           {scopeStats && (
-            <p className="w-full max-w-md text-[11px] text-gray-400 mb-5 px-2 leading-relaxed">
+            <p className="w-full max-w-lg text-[11px] text-gray-400 mb-5 px-2 leading-relaxed">
               <span className="text-gray-300 font-medium">
                 {scopeStats.publishedIndividuals.toLocaleString()}
               </span>{' '}
@@ -145,7 +145,7 @@ const HeroSection = () => {
           )}
 
           {/* Compact Browse Collection Pills */}
-          <div className="w-full max-w-md">
+          <div className="w-full max-w-lg">
             <p className="text-[11px] uppercase tracking-widest text-gray-500 mb-2.5 font-semibold">
               Browse Collections
             </p>
@@ -179,36 +179,36 @@ const HeroSection = () => {
           />
         </div>
 
-        {/* RIGHT COLUMN (5 cols): Prominent Recent News Rail */}
-        <div className="lg:col-span-5 order-3">
-          <div className="rounded-xl border border-[#af7a56]/35 bg-gradient-to-b from-gray-900/95 to-gray-950 p-5 shadow-2xl">
+        {/* RIGHT COLUMN (4 cols): Compact Recent News Rail */}
+        <div className="lg:col-span-4 order-3">
+          <div className="rounded-xl border border-[#af7a56]/25 bg-gray-950/80 p-3.5 shadow-lg">
             {/* Rail Header */}
-            <div className="flex items-center justify-between pb-3 mb-3.5 border-b border-[#af7a56]/25">
+            <div className="flex items-center justify-between pb-2 mb-2.5 border-b border-[#af7a56]/20">
               <div className="flex items-center gap-2">
-                <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 shadow-[0_0_8px_#34d399]" />
-                <h2 className={`text-sm font-bold uppercase tracking-widest ${LIGHT_BRONZE_COLOR}`}>
+                <span className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400 shadow-[0_0_6px_#34d399]" />
+                <h2 className={`text-xs font-bold uppercase tracking-widest ${LIGHT_BRONZE_COLOR}`}>
                   Recent News
                 </h2>
               </div>
               <Link
                 to="/news"
-                className={`inline-flex items-center gap-1 text-xs font-semibold ${LIGHT_BRONZE_COLOR} hover:text-white transition-colors`}
+                className={`inline-flex items-center gap-1 text-[11px] font-semibold ${LIGHT_BRONZE_COLOR} hover:text-white transition-colors`}
               >
-                News Hub <ArrowRight className="w-3.5 h-3.5" />
+                All News <ArrowRight className="w-3 h-3" />
               </Link>
             </div>
 
             {newsLoading ? (
-              <div className="py-10 text-center text-xs text-gray-500">Loading latest news...</div>
+              <div className="py-6 text-center text-xs text-gray-500">Loading latest news...</div>
             ) : !leadStory ? (
-              <div className="py-8 text-center space-y-2">
-                <p className="text-sm text-gray-400">No news stories published yet.</p>
+              <div className="py-6 text-center space-y-1.5">
+                <p className="text-xs text-gray-400">No news stories published yet.</p>
                 <Link to="/news" className={`text-xs ${LIGHT_BRONZE_COLOR} hover:underline`}>
                   Visit News Hub →
                 </Link>
               </div>
             ) : (
-              <div className="space-y-3">
+              <div className="space-y-2">
                 {/* Lead Story Card */}
                 {(() => {
                   const cat = getNewsCategoryMeta(leadStory.category);
@@ -217,19 +217,19 @@ const HeroSection = () => {
                   const isCta = leadStory.category === 'CALL_FOR_ACTION';
                   return (
                     <article
-                      className={`rounded-lg p-3.5 border-l-4 ${
+                      className={`rounded-lg p-2.5 border-l-2 ${
                         isCta
-                          ? 'bg-orange-950/25 border border-orange-500/40 border-l-orange-500'
-                          : 'bg-[#af7a56]/10 border border-[#af7a56]/30 border-l-[#af7a56]'
+                          ? 'bg-orange-950/20 border border-orange-500/35 border-l-orange-500'
+                          : 'bg-[#af7a56]/8 border border-[#af7a56]/20 border-l-[#af7a56]'
                       }`}
                     >
-                      <div className="flex items-center gap-2 flex-wrap text-[11px] text-gray-400 mb-1.5">
-                        <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full border text-[10px] font-bold uppercase tracking-wider ${cat.badgeClass}`}>
-                          {isCta && <Megaphone className="w-3 h-3" />}
+                      <div className="flex items-center gap-1.5 flex-wrap text-[10px] text-gray-400 mb-1">
+                        <span className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full border text-[9px] font-bold uppercase tracking-wider ${cat.badgeClass}`}>
+                          {isCta && <Megaphone className="w-2.5 h-2.5" />}
                           {cat.label}
                         </span>
                         {(leadStory.source?.name || leadStory.sourceName) && (
-                          <span className="text-gray-300 font-medium">
+                          <span className="text-gray-300 font-medium truncate max-w-[130px]">
                             {leadStory.source?.name || leadStory.sourceName}
                           </span>
                         )}
@@ -241,82 +241,84 @@ const HeroSection = () => {
                           href={leadStory.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="group block text-[15px] font-semibold text-white hover:text-[#edc4a3] leading-snug transition-colors"
+                          className="group block text-[13px] font-semibold text-gray-100 hover:text-[#edc4a3] leading-snug line-clamp-2 transition-colors"
                         >
                           {leadStory.headline}
-                          <ExternalLink className="inline w-3.5 h-3.5 ml-1.5 text-gray-400 group-hover:text-[#edc4a3]" />
+                          <ExternalLink className="inline w-3 h-3 ml-1 text-gray-500 group-hover:text-[#edc4a3]" />
                         </a>
                       ) : mediaPath ? (
                         <Link
                           to={mediaPath}
-                          className="block text-[15px] font-semibold text-white hover:text-[#edc4a3] leading-snug transition-colors"
+                          className="block text-[13px] font-semibold text-gray-100 hover:text-[#edc4a3] leading-snug line-clamp-2 transition-colors"
                         >
                           {leadStory.headline}
                         </Link>
                       ) : (
-                        <h3 className="text-[15px] font-semibold text-white leading-snug">
+                        <h3 className="text-[13px] font-semibold text-gray-100 leading-snug line-clamp-2">
                           {leadStory.headline}
                         </h3>
                       )}
 
                       {leadStory.summary && (
-                        <p className="text-xs text-gray-300 mt-1.5 line-clamp-2 leading-relaxed">
+                        <p className="text-[11px] text-gray-400 mt-1 line-clamp-1 leading-relaxed">
                           {leadStory.summary}
                         </p>
                       )}
 
-                      <div className="flex items-center flex-wrap gap-2 mt-2.5">
-                        {(leadStory.individuals || []).slice(0, 2).map((ind) => (
-                          <Link
-                            key={ind.id}
-                            to={`/profile/${ind.id}`}
-                            className="inline-flex items-center gap-1 text-[11px] px-2 py-0.5 rounded-full bg-[#af7a56]/15 border border-[#af7a56]/40 text-[#edc4a3] hover:bg-[#af7a56]/30 transition-colors"
-                          >
-                            <User className="w-3 h-3" />
-                            {ind.firstName} {ind.lastName}
-                          </Link>
-                        ))}
-                        {mediaPath && (
-                          <Link
-                            to={mediaPath}
-                            className="inline-flex items-center gap-1 text-[11px] px-2 py-0.5 rounded-full bg-amber-950/60 border border-amber-600/40 text-amber-300 hover:bg-amber-900/60 transition-colors"
-                          >
-                            {leadStory.mediaWork.title} →
-                          </Link>
-                        )}
-                        {leadStory.actionUrl && (
-                          <a
-                            href={leadStory.actionUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="ml-auto inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-1 rounded-md bg-orange-600 hover:bg-orange-500 text-white transition-colors"
-                          >
-                            <Megaphone className="w-3 h-3" />
-                            {leadStory.actionLabel || 'Take Action'}
-                          </a>
-                        )}
-                      </div>
+                      {(leadStory.individuals?.length > 0 || mediaPath || leadStory.actionUrl) && (
+                        <div className="flex items-center flex-wrap gap-1.5 mt-2">
+                          {(leadStory.individuals || []).slice(0, 2).map((ind) => (
+                            <Link
+                              key={ind.id}
+                              to={`/profile/${ind.id}`}
+                              className="inline-flex items-center gap-1 text-[10px] px-1.5 py-0.5 rounded-full bg-[#af7a56]/15 border border-[#af7a56]/35 text-[#edc4a3] hover:bg-[#af7a56]/30 transition-colors"
+                            >
+                              <User className="w-2.5 h-2.5" />
+                              {ind.firstName} {ind.lastName}
+                            </Link>
+                          ))}
+                          {mediaPath && (
+                            <Link
+                              to={mediaPath}
+                              className="inline-flex items-center gap-1 text-[10px] px-1.5 py-0.5 rounded-full bg-amber-950/60 border border-amber-600/40 text-amber-300 hover:bg-amber-900/60 transition-colors"
+                            >
+                              {leadStory.mediaWork.title} →
+                            </Link>
+                          )}
+                          {leadStory.actionUrl && (
+                            <a
+                              href={leadStory.actionUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="ml-auto inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded bg-orange-600 hover:bg-orange-500 text-white transition-colors"
+                            >
+                              <Megaphone className="w-2.5 h-2.5" />
+                              {leadStory.actionLabel || 'Take Action'}
+                            </a>
+                          )}
+                        </div>
+                      )}
                     </article>
                   );
                 })()}
 
                 {/* Secondary News Rows */}
                 {secondaryStories.length > 0 && (
-                  <div className="divide-y divide-gray-800/80">
+                  <div className="divide-y divide-gray-800/70">
                     {secondaryStories.map((story) => {
                       const cat = getNewsCategoryMeta(story.category);
                       const dateLabel = formatNewsDate(story.publishedAt || story.createdAt);
                       const mediaPath = getMediaWorkPath(story.mediaWork);
                       const isCta = story.category === 'CALL_FOR_ACTION';
                       return (
-                        <article key={story.id} className="py-2.5 first:pt-1 last:pb-0">
-                          <div className="flex items-center gap-2 flex-wrap text-[11px] text-gray-500 mb-1">
-                            <span className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full border text-[9.5px] font-bold uppercase tracking-wider ${cat.badgeClass}`}>
+                        <article key={story.id} className="py-2 first:pt-1 last:pb-0">
+                          <div className="flex items-center gap-1.5 flex-wrap text-[10px] text-gray-500 mb-0.5">
+                            <span className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full border text-[9px] font-bold uppercase tracking-wider ${cat.badgeClass}`}>
                               {isCta && <Megaphone className="w-2.5 h-2.5" />}
                               {cat.label}
                             </span>
                             {(story.source?.name || story.sourceName) && (
-                              <span className="text-gray-400">
+                              <span className="text-gray-400 truncate max-w-[120px]">
                                 {story.source?.name || story.sourceName}
                               </span>
                             )}
@@ -329,19 +331,19 @@ const HeroSection = () => {
                                 href={story.url}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-xs sm:text-[13px] font-medium text-gray-200 hover:text-[#edc4a3] leading-snug line-clamp-2 transition-colors"
+                                className="text-xs font-medium text-gray-300 hover:text-[#edc4a3] leading-snug line-clamp-2 transition-colors"
                               >
                                 {story.headline}
                               </a>
                             ) : mediaPath ? (
                               <Link
                                 to={mediaPath}
-                                className="text-xs sm:text-[13px] font-medium text-gray-200 hover:text-[#edc4a3] leading-snug line-clamp-2 transition-colors"
+                                className="text-xs font-medium text-gray-300 hover:text-[#edc4a3] leading-snug line-clamp-2 transition-colors"
                               >
                                 {story.headline}
                               </Link>
                             ) : (
-                              <span className="text-xs sm:text-[13px] font-medium text-gray-200 leading-snug line-clamp-2">
+                              <span className="text-xs font-medium text-gray-300 leading-snug line-clamp-2">
                                 {story.headline}
                               </span>
                             )}
@@ -351,7 +353,7 @@ const HeroSection = () => {
                                 href={story.actionUrl}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="shrink-0 inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded bg-orange-600 hover:bg-orange-500 text-white"
+                                className="shrink-0 inline-flex items-center gap-1 text-[9.5px] font-bold px-1.5 py-0.5 rounded bg-orange-600 hover:bg-orange-500 text-white"
                               >
                                 {story.actionLabel || 'Act'}
                               </a>
@@ -359,12 +361,12 @@ const HeroSection = () => {
                           </div>
 
                           {story.individuals?.length > 0 && (
-                            <div className="flex flex-wrap gap-1.5 mt-1">
+                            <div className="flex flex-wrap gap-1.5 mt-0.5">
                               {story.individuals.slice(0, 2).map((ind) => (
                                 <Link
                                   key={ind.id}
                                   to={`/profile/${ind.id}`}
-                                  className="text-[10.5px] text-[#edc4a3]/90 hover:text-[#edc4a3] hover:underline"
+                                  className="text-[10px] text-[#edc4a3]/85 hover:text-[#edc4a3] hover:underline"
                                 >
                                   {ind.firstName} {ind.lastName}
                                 </Link>
