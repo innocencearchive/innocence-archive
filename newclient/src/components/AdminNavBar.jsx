@@ -15,6 +15,7 @@ import {
   Settings,
   Link2,
   LogOut,
+  Newspaper,
 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import apiClient from '../apiClient';
@@ -82,6 +83,12 @@ function AdminNavBar() {
           to: '/admin/podcasts',
           icon: Radio,
           active: location.pathname.startsWith('/admin/podcasts'),
+        },
+        {
+          label: 'News',
+          to: '/admin/news',
+          icon: Newspaper,
+          active: location.pathname.startsWith('/admin/news'),
         },
       ],
     },

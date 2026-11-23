@@ -1,8 +1,8 @@
 // src/pages/AdminSettingsPage.jsx
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext'; // Import useAuth
-import { Save, AlertCircle, CheckCircle, RefreshCw, LogOut, UserCircle } from 'lucide-react';
+import { Save, AlertCircle, CheckCircle, RefreshCw, LogOut, UserCircle, Newspaper, ArrowRight } from 'lucide-react';
 import { BRONZE_COLOR, BRONZE_BORDER } from '../components/themeconstants';
 import apiClient from '../apiClient';
 
@@ -165,6 +165,24 @@ function AdminSettingsPage() {
                 <LogOut size={16} className="mr-1.5" /> Logout
             </button>
           </div>
+        </div>
+
+        {/* Shortcut to Homepage Recent News & RSS Feeds Manager */}
+        <div className={`mb-6 p-4 rounded-lg bg-gray-900/80 border ${BRONZE_BORDER} flex flex-wrap items-center justify-between gap-4`}>
+          <div>
+            <h2 className="text-base font-semibold text-amber-300 flex items-center gap-2">
+              <Newspaper size={18} /> Homepage Recent News &amp; Feed Manager
+            </h2>
+            <p className="text-xs text-gray-400 mt-0.5">
+              Pin exonerations, Calls for Action, case updates, or new media announcements to the Homepage Hero rail, or check live RSS feeds.
+            </p>
+          </div>
+          <Link
+            to="/admin/news"
+            className="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-semibold rounded-md bg-amber-600 hover:bg-amber-700 text-white"
+          >
+            Manage News <ArrowRight size={14} />
+          </Link>
         </div>
 
         {isFetchingSettings && (

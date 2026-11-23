@@ -27,6 +27,7 @@ import {
   Activity,
   History,
   Wrench,
+  Newspaper,
 } from 'lucide-react';
 import { BRONZE_COLOR, BRONZE_BORDER } from '../components/themeconstants';
 
@@ -74,6 +75,12 @@ function AdminDashboardPage() {
           description: 'Monitor automated RSS feeds and review newly captured podcast episodes.',
           path: '/admin/podcasts',
           icon: Radio,
+        },
+        {
+          name: 'News & RSS Feed Manager',
+          description: 'Check Innocence Project & partner RSS feeds, post Calls for Action or New Media, and pin stories to Homepage.',
+          path: '/admin/news',
+          icon: Newspaper,
         },
       ],
     },

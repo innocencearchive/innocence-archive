@@ -129,6 +129,25 @@ router.get('/:id', async (req, res) => {
                 name: true,
                 description: true 
             }
+        },
+        newsArticles: {
+            where: { status: 'PUBLISHED' },
+            orderBy: [
+                { publishedAt: { sort: 'desc', nulls: 'last' } },
+                { createdAt: 'desc' }
+            ],
+            select: {
+                id: true,
+                headline: true,
+                url: true,
+                summary: true,
+                publishedAt: true,
+                category: true,
+                actionUrl: true,
+                actionLabel: true,
+                sourceName: true,
+                source: { select: { id: true, name: true, websiteUrl: true } }
+            }
         }
       }
     });

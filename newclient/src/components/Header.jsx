@@ -1,7 +1,7 @@
 // src/components/Header.jsx
 import React, { useState } from 'react'; // Import useState
 import { Link, useNavigate } from 'react-router-dom'; // Import useNavigate
-import { Search } from 'lucide-react';
+import { Search, Newspaper } from 'lucide-react';
 
 // Import the logo image
 import smallLogo from '../assets/small_logo.png'; // Ensure this path is correct
@@ -60,25 +60,34 @@ const Header = () => {
                     </span>
                 </Link>
 
-                {/* Search Form Area */}
-                {/* Wrap input in a form for onSubmit handling */}
-                <form onSubmit={handleSearchSubmit} className="flex items-center relative">
-                    <span className="absolute left-3 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                        {/* Search Icon */}
-                        <Search className={`w-5 h-5 ${BRONZE_COLOR}`} />
-                    </span>
-                    <input
-                        type="search"
-                        placeholder="Search..."
-                        aria-label="Search site"
-                        value={searchTerm} // Control the input value
-                        onChange={(e) => setSearchTerm(e.target.value)} // Update state on change
-                        // Styling remains largely the same
-                        className={`w-48 md:w-64 bg-gray-800 border border-gray-700 ${BRONZE_COLOR} placeholder-gray-500 text-sm rounded-full py-2 pl-10 pr-4 focus:outline-none focus:ring-1 focus:ring-[${ruleColor}] focus:border-transparent`}
-                    />
-                    {/* Hidden submit button for accessibility/enter key submission, or add a visible button */}
-                    <button type="submit" className="hidden">Search</button>
-                </form>
+                {/* Nav Links & Search Form Area */}
+                <div className="flex items-center gap-4">
+                    <Link
+                        to="/news"
+                        className={`inline-flex items-center gap-1.5 text-sm font-medium ${LIGHT_BRONZE_COLOR} hover:text-white transition-colors`}
+                    >
+                        <Newspaper className="w-4 h-4" />
+                        <span className="hidden sm:inline">News</span>
+                    </Link>
+
+                    <form onSubmit={handleSearchSubmit} className="flex items-center relative">
+                        <span className="absolute left-3 top-1/2 transform -translate-y-1/2 pointer-events-none">
+                            {/* Search Icon */}
+                            <Search className={`w-5 h-5 ${BRONZE_COLOR}`} />
+                        </span>
+                        <input
+                            type="search"
+                            placeholder="Search..."
+                            aria-label="Search site"
+                            value={searchTerm} // Control the input value
+                            onChange={(e) => setSearchTerm(e.target.value)} // Update state on change
+                            // Styling remains largely the same
+                            className={`w-44 md:w-64 bg-gray-800 border border-gray-700 ${BRONZE_COLOR} placeholder-gray-500 text-sm rounded-full py-2 pl-10 pr-4 focus:outline-none focus:ring-1 focus:ring-[${ruleColor}] focus:border-transparent`}
+                        />
+                        {/* Hidden submit button for accessibility/enter key submission, or add a visible button */}
+                        <button type="submit" className="hidden">Search</button>
+                    </form>
+                </div>
             </div>
 
             {/* Bronze Rule */}

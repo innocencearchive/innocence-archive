@@ -6,8 +6,9 @@
 import apiClient from '../apiClient'; // Adjust the path if apiClient.js is elsewhere
 import React, { useEffect, useState, useMemo } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, AlertCircle, Loader2 } from 'lucide-react'; // Added Loader2 for consistency
-import { BRONZE_BORDER, BRONZE_COLOR } from '../components/themeconstants';
+import { ArrowLeft, AlertCircle, Loader2, Newspaper, ExternalLink, Megaphone } from 'lucide-react'; // Added Loader2 for consistency
+import { BRONZE_BORDER, BRONZE_COLOR, LIGHT_BRONZE_COLOR } from '../components/themeconstants';
+import { getNewsCategoryMeta, formatNewsDate } from '../components/newsConstants';
 import Breadcrumbs from '../components/Breadcrumbs';
 import KeyInfo from '../components/KeyInfo';
 import StoryNarrative from '../components/StoryNarrative';
@@ -217,6 +218,86 @@ function IndividualProfilePage() {
                                 isLoading={loading} 
                                 error={error}
                             />
+                        </div>
+                    </div>
+                </div>
+            )}
+
+            {/* === BLOCK 1.75: Separate "In the News" Section === */}
+            {Array.isArray(individualData.newsArticles) && individualData.newsArticles.length > 0 && (
+                <div className="flex flex-col items-center justify-start px-4 md:px-8 py-6">
+                    <div className="w-full">
+                        <div className={`p-6 border ${BRONZE_BORDER} rounded-lg bg-gray-950/90 shadow-lg`}>
+                            <div className="flex items-center justify-between flex-wrap gap-2 mb-4 pb-3 border-b border-gray-800">
+                                <h2 className={`text-2xl font-serif font-semibold ${LIGHT_BRONZE_COLOR} flex items-center gap-2.5`}>
+                                    <Newspaper className={`w-6 h-6 ${BRONZE_COLOR}`} />
+                                    In the News ({individualData.newsArticles.length})
+                                </h2>
+                                <span className="text-xs text-gray-400">
+                                    News coverage &amp; case updates (separate from Books, Films &amp; Podcasts)
+                                </span>
+                            </div>
+
+                            <div className="divide-y divide-gray-800/80 max-h-[420px] overflow-y-auto pr-1">
+                                {individualData.newsArticles.map((art) => {
+                                    const cat = getNewsCategoryMeta(art.category);
+                                    const dateLabel = formatNewsDate(art.publishedAt);
+                                    const isCta = art.category === 'CALL_FOR_ACTION';
+                                    return (
+                                        <article key={art.id} className="py-3 first:pt-1 last:pb-1">
+                                            <div className="flex items-center gap-2 flex-wrap text-xs text-gray-400 mb-1">
+                                                <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full border text-[10px] font-bold uppercase tracking-wider ${cat.badgeClass}`}>
+                                                    {isCta && <Megaphone className="w-3 h-3" />}
+                                                    {cat.label}
+                                                </span>
+                                                {(art.source?.name || art.sourceName) && (
+                                                    <span className="text-gray-300 font-medium">
+                                                        {art.source?.name || art.sourceName}
+                                                    </span>
+                                                )}
+                                                {dateLabel && <span>· {dateLabel}</span>}
+                                            </div>
+
+                                            <div className="flex items-start justify-between gap-3">
+                                                <div>
+                                                    {art.url ? (
+                                                        <a
+                                                            href={art.url}
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            className="group text-sm md:text-base font-medium text-gray-100 hover:text-[#edc4a3] transition-colors"
+                                                        >
+                                                            {art.headline}
+                                                            <ExternalLink className="inline w-3.5 h-3.5 ml-1.5 text-gray-500 group-hover:text-[#edc4a3]" />
+                                                        </a>
+                                                    ) : (
+                                                        <span className="text-sm md:text-base font-medium text-gray-100">
+                                                            {art.headline}
+                                                        </span>
+                                                    )}
+                                                    {art.summary && (
+                                                        <p className="text-xs text-gray-400 mt-1 line-clamp-2">
+                                                            {art.summary}
+                                                        </p>
+                                                    )}
+                                                </div>
+
+                                                {art.actionUrl && (
+                                                    <a
+                                                        href={art.actionUrl}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="shrink-0 inline-flex items-center gap-1.5 text-xs font-bold px-3 py-1.5 rounded-md bg-orange-600 hover:bg-orange-500 text-white"
+                                                    >
+                                                        <Megaphone className="w-3.5 h-3.5" />
+                                                        {art.actionLabel || 'Take Action'}
+                                                    </a>
+                                                )}
+                                            </div>
+                                        </article>
+                                    );
+                                })}
+                            </div>
                         </div>
                     </div>
                 </div>

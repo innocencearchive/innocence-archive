@@ -23,6 +23,7 @@ const adminExternalApiRoutes = require('./routes/adminExternalApi'); // <<< ADD 
 const adminRoutes = require('./routes/admin');
 const adminImportRoutes = require('./routes/adminImport');
 const adminToolsRoutes = require('./routes/adminTools');
+const newsRoutes = require('./routes/news');
    
 
 // --- Initialization ---
@@ -81,6 +82,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/admin/external-search', adminExternalApiRoutes); // <<< ADD THIS LINE
 app.use('/api/admin/import', adminImportRoutes);
 app.use('/api/admin/tools', adminToolsRoutes);
+app.use('/api/news', newsRoutes);
 app.use('/api/admin', adminRoutes);
     
 

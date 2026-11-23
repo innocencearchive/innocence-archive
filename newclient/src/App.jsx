@@ -31,6 +31,8 @@ import AdminVerifyPage from './pages/AdminVerifyPage';
 import AdminBatchesPage from './pages/AdminBatchesPage';
 import AdminAuditPage from './pages/AdminAuditPage';
 import AdminPodcastsPage from './pages/AdminPodcastsPage';
+import NewsHubPage from './pages/NewsHubPage';
+import AdminNewsPage from './pages/AdminNewsPage';
 
 
 function App() {
@@ -48,6 +50,7 @@ function App() {
             <main className="flex-grow">
                 <Routes>
                   <Route path="/search" element={<SearchResultsPage />} />
+                  <Route path="/news" element={<NewsHubPage />} />
                   <Route path="/" element={<HomePage />} />
                   <Route path="/profile/:id" element={<IndividualProfilePage />} />
                   <Route path="/person/:id" element={<OtherIndividualProfilePage />} />
@@ -112,6 +115,10 @@ function App() {
                   <Route
                     path="/admin/podcasts"
                     element={<ProtectedRoute><AdminPodcastsPage /></ProtectedRoute>}
+                  />
+                  <Route
+                    path="/admin/news"
+                    element={<ProtectedRoute><AdminNewsPage /></ProtectedRoute>}
                   />
                 </Routes>
             </main>

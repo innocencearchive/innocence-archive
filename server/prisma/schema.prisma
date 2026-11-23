@@ -149,6 +149,22 @@ enum ContributingFactorCode {
   UNRELIABLE_WITNESS
 }
 
+enum NewsCategory {
+  EXONERATION
+  CASE_UPDATE
+  CASE_SETBACK
+  CALL_FOR_ACTION
+  NEW_MEDIA
+  POLICY
+  GENERAL
+}
+
+enum NewsStatus {
+  PUBLISHED
+  DRAFT
+  ARCHIVED
+}
+
 // --- Core Models ---
 
 // --- NEW User Model ---
@@ -245,6 +261,7 @@ model MediaWork {
   featuredAsBook           FeaturedContentSetting[] @relation("FeaturedBook")
   featuredAsPodcast        FeaturedContentSetting[] @relation("FeaturedPodcast")
   featuredAsFilm           FeaturedContentSetting[] @relation("FeaturedFilm")
+  newsArticles             NewsArticle[]            @relation("NewsArticleMediaWork")
 
   @@index([workType])
   @@index([verificationStatus])
@@ -451,6 +468,7 @@ model Individual {
   sourceLinks                IndividualSourceLink[] @relation("IndividualLinks")
   groups                     IndividualGroup[]  @relation("IndividualGroupMembership")
   featuredSettings           FeaturedContentSetting[] @relation("FeaturedStory")
+  newsArticles               NewsArticle[]      @relation("NewsArticleIndividuals")
 
   @@unique([firstName, middleName, lastName, suffix, disambiguationTag])
   @@index([lastName])
@@ -603,4 +621,50 @@ model FeaturedContentSetting {
   updatedAt           DateTime      @updatedAt
 
   @@map("featured_content_settings")
+}
+
+// --- News Source Model (RSS/Atom Feeds & Editorial Outlets) ---
+model NewsSource {
+  id            Int           @id @default(autoincrement())
+  name          String        @unique
+  feedUrl       String?       @unique
+  websiteUrl    String?
+  isActive      Boolean       @default(true)
+  lastCheckedAt DateTime?
+  notes         String?       @db.Text
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  articles      NewsArticle[]
+
+  @@map("news_sources")
+}
+
+// --- News Article Model (Separate from MediaWork/MediaItem & NRE Primary Links) ---
+model NewsArticle {
+  id             Int          @id @default(autoincrement())
+  headline       String
+  url            String?      @unique
+  summary        String?      @db.Text
+  publishedAt    DateTime?
+  category       NewsCategory @default(GENERAL)
+  status         NewsStatus   @default(PUBLISHED)
+  showOnHomepage Boolean      @default(false)
+  isPinned       Boolean      @default(false)
+  actionUrl      String?
+  actionLabel    String?
+  sourceName     String?
+  sourceId       Int?
+  source         NewsSource?  @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+  mediaWorkId    Int?
+  mediaWork      MediaWork?   @relation("NewsArticleMediaWork", fields: [mediaWorkId], references: [id], onDelete: SetNull)
+  individuals    Individual[] @relation("NewsArticleIndividuals")
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  @@index([category])
+  @@index([status])
+  @@index([showOnHomepage])
+  @@index([publishedAt])
+  @@map("news_articles")
 }
