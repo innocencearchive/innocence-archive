@@ -152,6 +152,149 @@ function escapeRegExp(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
+function stripNameSuffix(lastName) {
+  return String(lastName || '')
+    .trim()
+    .replace(/,?\s+(?:jr\.?|sr\.?|ii|iii|iv|v)$/i, '')
+    .trim();
+}
+
+/**
+ * Enrich candidate news articles (from RSS or Bulk JSON upload) by:
+ *  - Checking existing URLs in news_articles
+ *  - Resolving sourceName -> NewsSource.id when sourceId is absent
+ *  - Auto-matching mentioned Individuals by full name (with optional middle name/initial or nickname)
+ */
+async function enrichNewsItems(rawItems, defaultSource = null) {
+  const normalized = (rawItems || []).map((item) => ({
+    headline: String(item.headline || item.title || '').trim(),
+    url: item.url ? String(item.url).trim() : null,
+    summary: item.summary ? String(item.summary).trim() : null,
+    publishedAt: item.publishedAt || null,
+    category: item.category || null,
+    status: item.status || null,
+    showOnHomepage: Boolean(item.showOnHomepage),
+    isPinned: Boolean(item.isPinned),
+    actionUrl: item.actionUrl ? String(item.actionUrl).trim() : null,
+    actionLabel: item.actionLabel ? String(item.actionLabel).trim() : null,
+    sourceId: item.sourceId ? parseInt(item.sourceId, 10) : null,
+    sourceName: item.sourceName ? String(item.sourceName).trim() : null,
+  })).filter((it) => it.headline.length > 0);
+
+  const candidateUrls = normalized.map((i) => i.url).filter(Boolean);
+  const [existingArticles, allSources, allIndividuals] = await Promise.all([
+    candidateUrls.length
+      ? prisma.newsArticle.findMany({
+          where: { url: { in: candidateUrls } },
+          select: { url: true },
+        })
+      : Promise.resolve([]),
+    prisma.newsSource.findMany({ select: { id: true, name: true } }),
+    prisma.individual.findMany({
+      select: { id: true, firstName: true, lastName: true, nickname: true, caseLocationState: true },
+    }),
+  ]);
+
+  const existingUrlSet = new Set(existingArticles.map((a) => a.url));
+  const sourcesByNameLower = new Map(
+    allSources.map((s) => [s.name.trim().toLowerCase(), s])
+  );
+
+  // Build quick lookup by base lastName (skipping 1-2 char last names to prevent noise)
+  const indsByLastLower = new Map();
+  for (const ind of allIndividuals) {
+    const baseLast = stripNameSuffix(ind.lastName);
+    const ln = baseLast.toLowerCase();
+    const fn = (ind.firstName || '').trim();
+    if (ln.length < 3 || fn.length < 2) continue;
+    const entry = { ind, baseLast };
+    if (!indsByLastLower.has(ln)) indsByLastLower.set(ln, []);
+    indsByLastLower.get(ln).push(entry);
+  }
+
+  const items = normalized.map((item, idx) => {
+    const combinedText = `${item.headline} ${item.summary || ''}`;
+    const lowerText = combinedText.toLowerCase();
+    const matchedIndividuals = [];
+    const seenIndIds = new Set();
+
+    const words = new Set(lowerText.match(/[a-z'-]{3,}/g) || []);
+    for (const word of words) {
+      const cands = indsByLastLower.get(word);
+      if (!cands) continue;
+      for (const { ind, baseLast } of cands) {
+        if (seenIndIds.has(ind.id)) continue;
+        const firstName = (ind.firstName || '').trim();
+        const firstToken = firstName.split(/\s+/)[0];
+        const lastEsc = escapeRegExp(baseLast);
+
+        const patterns = [
+          // Exact firstName + optional middle initial or middle word + lastName
+          new RegExp(`(?<![A-Z][a-z]+\\s)\\b${escapeRegExp(firstName)}\\s+(?:[A-Z]\\.\\s+|[A-Z][a-z]+\\s+)?${lastEsc}\\b`),
+        ];
+        // If firstName has multiple words (e.g. "Tommy Lee" or "Samuel Scott"), also match "Tommy Walker" / "Samuel Minton"
+        if (firstToken !== firstName && firstToken.length >= 3) {
+          patterns.push(
+            new RegExp(`(?<![A-Z][a-z]+\\s)\\b${escapeRegExp(firstToken)}\\s+(?:[A-Z]\\.\\s+|[A-Z][a-z]+\\s+)?${lastEsc}\\b`)
+          );
+        }
+        if (ind.nickname && ind.nickname.trim().length >= 2) {
+          patterns.push(
+            new RegExp(`(?<![A-Z][a-z]+\\s)\\b${escapeRegExp(ind.nickname.trim())}\\s+${lastEsc}\\b`)
+          );
+        }
+
+        if (patterns.some((re) => re.test(combinedText))) {
+          seenIndIds.add(ind.id);
+          matchedIndividuals.push({
+            id: ind.id,
+            name: `${ind.firstName} ${ind.lastName}`,
+            state: ind.caseLocationState,
+          });
+        }
+      }
+    }
+
+    let resolvedSourceId = item.sourceId || defaultSource?.id || null;
+    let resolvedSourceName = item.sourceName || defaultSource?.name || null;
+    if (!resolvedSourceId && resolvedSourceName) {
+      const foundSource = sourcesByNameLower.get(resolvedSourceName.toLowerCase());
+      if (foundSource) {
+        resolvedSourceId = foundSource.id;
+        resolvedSourceName = foundSource.name;
+      }
+    }
+
+    return {
+      tempIndex: idx + 1,
+      headline: item.headline,
+      url: item.url,
+      summary: item.summary,
+      publishedAt: item.publishedAt,
+      alreadyImported: Boolean(item.url && existingUrlSet.has(item.url)),
+      suggestedCategory: VALID_CATEGORIES.has(item.category)
+        ? item.category
+        : suggestCategory(item.headline, item.summary),
+      status: VALID_STATUSES.has(item.status) ? item.status : 'PUBLISHED',
+      showOnHomepage: item.showOnHomepage,
+      isPinned: item.isPinned,
+      actionUrl: item.actionUrl,
+      actionLabel: item.actionLabel,
+      matchedIndividuals: matchedIndividuals.slice(0, 8),
+      sourceId: resolvedSourceId,
+      sourceName: resolvedSourceName,
+    };
+  });
+
+  return {
+    totalFetched: items.length,
+    newCount: items.filter((e) => !e.alreadyImported).length,
+    matchedArticleCount: items.filter((e) => e.matchedIndividuals.length > 0).length,
+    totalIndividualsChecked: allIndividuals.length,
+    items,
+  };
+}
+
 // ============================================================================
 // PUBLIC ROUTES
 // ============================================================================
@@ -472,7 +615,38 @@ router.delete('/admin/articles/:id', requireAdmin, async (req, res) => {
   }
 });
 
-// POST /api/news/admin/articles/bulk-import — Commit selected RSS feed articles
+// POST /api/news/admin/articles/bulk-preview — Preview uploaded JSON articles with duplicate detection & Individual auto-matching
+router.post('/admin/articles/bulk-preview', requireAdmin, async (req, res) => {
+  try {
+    const rawBody = req.body;
+    const rawItems = Array.isArray(rawBody)
+      ? rawBody
+      : Array.isArray(rawBody?.items)
+        ? rawBody.items
+        : Array.isArray(rawBody?.articles)
+          ? rawBody.articles
+          : [];
+    const fileName = !Array.isArray(rawBody) && rawBody?.fileName ? String(rawBody.fileName) : 'Uploaded JSON';
+
+    if (rawItems.length === 0) {
+      return res.status(400).json({ message: 'No articles found in JSON. Expected an array of news objects.' });
+    }
+    if (rawItems.length > 500) {
+      return res.status(400).json({ message: 'Please upload at most 500 articles per batch.' });
+    }
+
+    const enriched = await enrichNewsItems(rawItems, null);
+    res.json({
+      source: { id: null, name: fileName, feedUrl: null },
+      ...enriched,
+    });
+  } catch (error) {
+    console.error('Error previewing bulk news:', error);
+    res.status(500).json({ message: 'Bulk preview failed.', error: error.message });
+  }
+});
+
+// POST /api/news/admin/articles/bulk-import — Commit selected RSS feed or bulk-uploaded articles
 router.post('/admin/articles/bulk-import', requireAdmin, async (req, res) => {
   try {
     const { items = [] } = req.body || {};
@@ -480,8 +654,14 @@ router.post('/admin/articles/bulk-import', requireAdmin, async (req, res) => {
       return res.status(400).json({ message: 'No articles provided.' });
     }
 
+    const allSources = await prisma.newsSource.findMany({ select: { id: true, name: true } });
+    const sourcesByNameLower = new Map(
+      allSources.map((s) => [s.name.trim().toLowerCase(), s])
+    );
+
     let created = 0;
     let skipped = 0;
+    let linkedCount = 0;
     const errors = [];
 
     for (const item of items) {
@@ -503,8 +683,18 @@ router.post('/admin/articles/bulk-import', requireAdmin, async (req, res) => {
         const parsedDate = item.publishedAt ? new Date(item.publishedAt) : new Date();
         const validDate = !Number.isNaN(parsedDate.getTime()) ? parsedDate : new Date();
         const connectIndIds = Array.isArray(item.individualIds)
-          ? item.individualIds.map((n) => parseInt(n, 10)).filter((n) => !Number.isNaN(n)).map((id) => ({ id }))
+          ? [...new Set(item.individualIds.map((n) => parseInt(n, 10)).filter((n) => !Number.isNaN(n)))].map((id) => ({ id }))
           : [];
+
+        let resolvedSourceId = item.sourceId ? parseInt(item.sourceId, 10) : null;
+        let resolvedSourceName = item.sourceName ? String(item.sourceName).trim() : null;
+        if (!resolvedSourceId && resolvedSourceName) {
+          const foundSource = sourcesByNameLower.get(resolvedSourceName.toLowerCase());
+          if (foundSource) {
+            resolvedSourceId = foundSource.id;
+            resolvedSourceName = foundSource.name;
+          }
+        }
 
         await prisma.newsArticle.create({
           data: {
@@ -518,18 +708,19 @@ router.post('/admin/articles/bulk-import', requireAdmin, async (req, res) => {
             isPinned: Boolean(item.isPinned),
             actionUrl: item.actionUrl ? String(item.actionUrl).trim() : null,
             actionLabel: item.actionLabel ? String(item.actionLabel).trim() : null,
-            sourceId: item.sourceId ? parseInt(item.sourceId, 10) : null,
-            sourceName: item.sourceName ? String(item.sourceName).trim() : null,
+            sourceId: resolvedSourceId,
+            sourceName: resolvedSourceName,
             ...(connectIndIds.length > 0 ? { individuals: { connect: connectIndIds } } : {}),
           },
         });
         created++;
+        linkedCount += connectIndIds.length;
       } catch (err) {
         errors.push({ headline, error: err.message });
       }
     }
 
-    res.json({ created, skipped, errors });
+    res.json({ created, skipped, linkedCount, errors });
   } catch (error) {
     console.error('Error bulk importing news:', error);
     res.status(500).json({ message: 'Bulk import failed.', error: error.message });
@@ -634,73 +825,7 @@ router.post('/admin/sources/:id/check', requireAdmin, async (req, res) => {
     });
 
     const parsedItems = parseRssOrAtom(response.data).slice(0, 40);
-
-    // Check which URLs already exist in news_articles
-    const candidateUrls = parsedItems.map((i) => i.url).filter(Boolean);
-    const existingArticles = candidateUrls.length
-      ? await prisma.newsArticle.findMany({
-          where: { url: { in: candidateUrls } },
-          select: { url: true },
-        })
-      : [];
-    const existingUrlSet = new Set(existingArticles.map((a) => a.url));
-
-    // Load Individuals for fast exact full-name auto-matching
-    const allIndividuals = await prisma.individual.findMany({
-      select: { id: true, firstName: true, lastName: true, nickname: true, caseLocationState: true },
-    });
-
-    // Build quick lookup by lastName (skipping 1-2 char last names to prevent noise)
-    const indsByLastLower = new Map();
-    for (const ind of allIndividuals) {
-      const ln = (ind.lastName || '').trim().toLowerCase();
-      const fn = (ind.firstName || '').trim();
-      if (ln.length < 3 || fn.length < 2) continue;
-      if (!indsByLastLower.has(ln)) indsByLastLower.set(ln, []);
-      indsByLastLower.get(ln).push(ind);
-    }
-
-    const enriched = parsedItems.map((item, idx) => {
-      const combinedText = `${item.headline} ${item.summary || ''}`;
-      const lowerText = combinedText.toLowerCase();
-      const matchedIndividuals = [];
-      const seenIndIds = new Set();
-
-      // Tokenize words in text and check candidate lastNames
-      const words = new Set(lowerText.match(/[a-z'-]{3,}/g) || []);
-      for (const word of words) {
-        const cands = indsByLastLower.get(word);
-        if (!cands) continue;
-        for (const ind of cands) {
-          if (seenIndIds.has(ind.id)) continue;
-          const fullRe = new RegExp(`(?<![A-Z][a-z]+\\s)\\b${escapeRegExp(ind.firstName)}\\s+(?:[A-Z]\\.\\s+)?${escapeRegExp(ind.lastName)}\\b`);
-          const nickRe = ind.nickname
-            ? new RegExp(`(?<![A-Z][a-z]+\\s)\\b${escapeRegExp(ind.nickname)}\\s+${escapeRegExp(ind.lastName)}\\b`)
-            : null;
-          if (fullRe.test(combinedText) || (nickRe && nickRe.test(combinedText))) {
-            seenIndIds.add(ind.id);
-            matchedIndividuals.push({
-              id: ind.id,
-              name: `${ind.firstName} ${ind.lastName}`,
-              state: ind.caseLocationState,
-            });
-          }
-        }
-      }
-
-      return {
-        tempIndex: idx + 1,
-        headline: item.headline,
-        url: item.url,
-        summary: item.summary,
-        publishedAt: item.publishedAt,
-        alreadyImported: existingUrlSet.has(item.url),
-        suggestedCategory: suggestCategory(item.headline, item.summary),
-        matchedIndividuals: matchedIndividuals.slice(0, 6),
-        sourceId: source.id,
-        sourceName: source.name,
-      };
-    });
+    const enriched = await enrichNewsItems(parsedItems, source);
 
     await prisma.newsSource.update({
       where: { id: source.id },
@@ -709,9 +834,7 @@ router.post('/admin/sources/:id/check', requireAdmin, async (req, res) => {
 
     res.json({
       source: { id: source.id, name: source.name, feedUrl: source.feedUrl },
-      totalFetched: enriched.length,
-      newCount: enriched.filter((e) => !e.alreadyImported).length,
-      items: enriched,
+      ...enriched,
     });
   } catch (error) {
     console.error('Error checking RSS feed:', error);

@@ -25,6 +25,7 @@ import {
   User,
   BookOpen,
   Loader2,
+  Upload,
 } from 'lucide-react';
 import apiClient from '../apiClient';
 import { BRONZE_COLOR, BRONZE_BORDER } from '../components/themeconstants';
@@ -73,10 +74,11 @@ function AdminNewsPage() {
   const [mediaSearch, setMediaSearch] = useState('');
   const [mediaResults, setMediaResults] = useState([]);
 
-  // --- Tab 3: RSS Feeds ---
+  // --- Tab 3: RSS Feeds & Bulk JSON Upload ---
   const [newSource, setNewSource] = useState({ name: '', feedUrl: '', websiteUrl: '', notes: '' });
   const [addingSource, setAddingSource] = useState(false);
   const [checkingSourceId, setCheckingSourceId] = useState(null);
+  const [uploadingJson, setUploadingJson] = useState(false);
   const [feedPreview, setFeedPreview] = useState(null); // { source, items: [...] }
   const [importingFeed, setImportingFeed] = useState(false);
 
@@ -287,6 +289,73 @@ function AdminNewsPage() {
     );
   };
 
+  const toggleMatchedIndividual = (tempIndex, indId) => {
+    setFeedPreview((prev) =>
+      prev
+        ? {
+            ...prev,
+            items: prev.items.map((it) => {
+              if (it.tempIndex !== tempIndex) return it;
+              const current = it.selectedIndIds || [];
+              const next = current.includes(indId)
+                ? current.filter((id) => id !== indId)
+                : [...current, indId];
+              return { ...it, selectedIndIds: next };
+            }),
+          }
+        : prev
+    );
+  };
+
+  const handleBulkJsonFileChange = async (e) => {
+    const file = e.target.files?.[0];
+    e.target.value = '';
+    if (!file) return;
+
+    setUploadingJson(true);
+    setFeedPreview(null);
+    setBanner(null);
+    try {
+      const text = await file.text();
+      const parsed = JSON.parse(text);
+      const rawItems = Array.isArray(parsed)
+        ? parsed
+        : Array.isArray(parsed?.items)
+          ? parsed.items
+          : Array.isArray(parsed?.articles)
+            ? parsed.articles
+            : null;
+      if (!rawItems || rawItems.length === 0) {
+        setBanner({
+          type: 'error',
+          text: 'JSON file must contain an array of news articles (e.g., delta_news_2025_2026_bulk.json).',
+        });
+        return;
+      }
+
+      const res = await apiClient.post('/news/admin/articles/bulk-preview', {
+        fileName: file.name,
+        items: rawItems,
+      });
+      const items = (res.data?.items || []).map((it) => ({
+        ...it,
+        selected: !it.alreadyImported,
+        category: it.suggestedCategory || 'GENERAL',
+        showOnHomepage: Boolean(it.showOnHomepage),
+        isPinned: Boolean(it.isPinned),
+        selectedIndIds: (it.matchedIndividuals || []).map((m) => m.id),
+      }));
+      setFeedPreview({ ...res.data, items });
+    } catch (err) {
+      setBanner({
+        type: 'error',
+        text: err.response?.data?.message || err.message || 'Failed to parse or preview bulk news JSON.',
+      });
+    } finally {
+      setUploadingJson(false);
+    }
+  };
+
   const handleImportSelectedFeedItems = async () => {
     if (!feedPreview) return;
     const chosen = feedPreview.items.filter((it) => it.selected && !it.alreadyImported);
@@ -303,17 +372,20 @@ function AdminNewsPage() {
         summary: it.summary,
         publishedAt: it.publishedAt,
         category: it.category,
-        status: 'PUBLISHED',
+        status: it.status || 'PUBLISHED',
         showOnHomepage: it.showOnHomepage,
         isPinned: it.isPinned,
+        actionUrl: it.actionUrl,
+        actionLabel: it.actionLabel,
         sourceId: it.sourceId,
         sourceName: it.sourceName,
         individualIds: it.selectedIndIds,
       }));
       const res = await apiClient.post('/news/admin/articles/bulk-import', { items: payloadItems });
+      const linkedMsg = res.data.linkedCount ? ` and linked ${res.data.linkedCount} individual mention(s)` : '';
       setBanner({
         type: 'success',
-        text: `Imported ${res.data.created} new story/stories (${res.data.skipped} skipped).`,
+        text: `Imported ${res.data.created} new story/stories (${res.data.skipped} skipped)${linkedMsg}.`,
       });
       // Mark imported in current preview
       const importedUrls = new Set(chosen.map((c) => c.url));
@@ -386,7 +458,7 @@ function AdminNewsPage() {
         <div className="flex flex-wrap gap-2.5">
           {tabBtn('manage', `Manage & Homepage (${articlesTotal})`, Newspaper)}
           {tabBtn('compose', form.id ? 'Edit News Story' : 'Add News Story', PlusCircle)}
-          {tabBtn('feeds', `News Feeds (${sources.length})`, Rss)}
+          {tabBtn('feeds', `Feeds & Bulk Import (${sources.length})`, Rss)}
         </div>
 
         {/* Status Banner */}
@@ -944,9 +1016,39 @@ function AdminNewsPage() {
           </form>
         )}
 
-        {/* ===================== TAB 3: RSS NEWS FEEDS ===================== */}
+        {/* ===================== TAB 3: RSS NEWS FEEDS & BULK JSON IMPORT ===================== */}
         {activeTab === 'feeds' && (
           <div className="space-y-6">
+            {/* Bulk JSON Upload Card */}
+            <div className="bg-gray-800 border border-gray-700 rounded-xl p-5 flex flex-col md:flex-row md:items-center justify-between gap-4">
+              <div className="space-y-1">
+                <h2 className="text-lg font-semibold text-amber-300 flex items-center gap-2">
+                  <Upload className="w-5 h-5" /> Bulk Import News from JSON
+                </h2>
+                <p className="text-xs text-gray-400">
+                  Upload a news array JSON file (such as <code className="text-amber-200/90">delta_news_2025_2026_bulk.json</code>) to preview duplicates, auto-match mentioned individuals in your archive, and commit in one click.
+                </p>
+              </div>
+              <label className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-amber-600 hover:bg-amber-700 text-white text-xs font-semibold cursor-pointer shrink-0 transition-colors">
+                {uploadingJson ? (
+                  <>
+                    <Loader2 className="w-4 h-4 animate-spin" /> Matching Stories...
+                  </>
+                ) : (
+                  <>
+                    <Upload className="w-4 h-4" /> Choose JSON File
+                  </>
+                )}
+                <input
+                  type="file"
+                  accept=".json,application/json"
+                  disabled={uploadingJson}
+                  onChange={handleBulkJsonFileChange}
+                  className="hidden"
+                />
+              </label>
+            </div>
+
             {/* Existing Sources Table */}
             <div className="bg-gray-800 border border-gray-700 rounded-xl p-5 space-y-4">
               <h2 className="text-lg font-semibold text-amber-300 flex items-center gap-2">
@@ -1000,11 +1102,17 @@ function AdminNewsPage() {
                 <div className="flex flex-wrap items-center justify-between gap-3">
                   <div>
                     <h3 className="text-base font-semibold text-white">
-                      Feed Results: {feedPreview.source?.name}
+                      Preview Results: {feedPreview.source?.name}
                     </h3>
                     <p className="text-xs text-gray-400">
-                      Fetched {feedPreview.totalFetched} latest stories ·{' '}
-                      <strong className="text-emerald-300">{feedPreview.newCount} new</strong> (auto-matched against your 4,151 individuals)
+                      Loaded {feedPreview.totalFetched} stories ·{' '}
+                      <strong className="text-emerald-300">{feedPreview.newCount} new</strong>
+                      {typeof feedPreview.matchedArticleCount === 'number' && (
+                        <>
+                          {' '}· <strong className="text-amber-300">{feedPreview.matchedArticleCount} linked to individuals</strong>
+                        </>
+                      )}{' '}
+                      (auto-matched against {feedPreview.totalIndividualsChecked ? feedPreview.totalIndividualsChecked.toLocaleString() : 'your archive’s'} individuals)
                     </p>
                   </div>
                   <div className="flex items-center gap-2">
@@ -1083,13 +1191,36 @@ function AdminNewsPage() {
                           )}
                         </div>
                         {it.summary && <p className="text-gray-400 line-clamp-2">{it.summary}</p>}
-                        <div className="flex items-center flex-wrap gap-2 text-[11px] text-gray-500">
+                        <div className="flex items-center flex-wrap gap-1.5 text-[11px] text-gray-500">
                           <span>{formatNewsDate(it.publishedAt) || 'No date'}</span>
+                          {it.sourceName && (
+                            <span className="text-gray-400">· {it.sourceName}</span>
+                          )}
                           {it.matchedIndividuals?.length > 0 && (
-                            <span className="text-amber-300">
-                              Matched:{' '}
-                              {it.matchedIndividuals.map((m) => `${m.name}${m.state ? ` (${m.state})` : ''}`).join(', ')}
-                            </span>
+                            <div className="flex items-center flex-wrap gap-1.5 ml-1">
+                              <span className="text-amber-300/90 font-medium">Matched:</span>
+                              {it.matchedIndividuals.map((m) => {
+                                const isLinked = (it.selectedIndIds || []).includes(m.id);
+                                return (
+                                  <button
+                                    key={m.id}
+                                    type="button"
+                                    disabled={it.alreadyImported}
+                                    onClick={() => toggleMatchedIndividual(it.tempIndex, m.id)}
+                                    title={isLinked ? 'Click to unlink this individual' : 'Click to link this individual'}
+                                    className={`inline-flex items-center gap-1 px-1.5 py-0.5 rounded border text-[10.5px] transition-colors ${
+                                      isLinked
+                                        ? 'bg-amber-950/70 border-amber-600/70 text-amber-200 hover:bg-amber-900/70'
+                                        : 'bg-gray-800 border-gray-700 text-gray-500 line-through hover:text-gray-300'
+                                    }`}
+                                  >
+                                    <User className="w-2.5 h-2.5" />
+                                    {m.name}
+                                    {m.state ? ` (${m.state})` : ''}
+                                  </button>
+                                );
+                              })}
+                            </div>
                           )}
                         </div>
                       </div>
