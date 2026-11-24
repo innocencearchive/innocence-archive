@@ -29,7 +29,10 @@ function normStr(v) {
 // --- 1. Unified Validation Queue ---
 
 router.get('/validation-queue', async (req, res) => {
-  const { status = 'PENDING', type = 'ALL' } = req.query;
+  const { status = 'PENDING', type = 'ALL', q = '' } = req.query;
+  const search = String(q || '').trim();
+  const searchParts = search.split(/\s+/).filter(Boolean);
+  const numericId = /^\d+$/.test(search) ? parseInt(search, 10) : null;
 
   let statusFilter;
   if (status === 'PENDING') {
@@ -40,13 +43,128 @@ router.get('/validation-queue', async (req, res) => {
     statusFilter = { not: 'VERIFIED' };
   }
 
-  const where = { verificationStatus: statusFilter };
+  const baseWhere = { verificationStatus: statusFilter };
+
+  // Build per-entity search filters so server-side search finds records beyond the 100-row cap
+  const indWhere = { ...baseWhere };
+  if (search) {
+    const orClauses = [
+      { firstName: { contains: search, mode: 'insensitive' } },
+      { lastName: { contains: search, mode: 'insensitive' } },
+      { nickname: { contains: search, mode: 'insensitive' } },
+      { caseLocationState: { contains: search, mode: 'insensitive' } },
+      { narrativeSummary: { contains: search, mode: 'insensitive' } },
+      { ingestionSource: { contains: search, mode: 'insensitive' } },
+      { importBatchId: { contains: search, mode: 'insensitive' } },
+    ];
+    if (numericId) orClauses.push({ id: numericId });
+    if (searchParts.length >= 2) {
+      orClauses.push({
+        AND: [
+          {
+            OR: [
+              { firstName: { contains: searchParts[0], mode: 'insensitive' } },
+              { nickname: { contains: searchParts[0], mode: 'insensitive' } },
+            ],
+          },
+          { lastName: { contains: searchParts[searchParts.length - 1], mode: 'insensitive' } },
+        ],
+      });
+    }
+    indWhere.OR = orClauses;
+  }
+
+  const mediaItemWhere = { ...baseWhere };
+  if (search) {
+    const orClauses = [
+      { itemTitle: { contains: search, mode: 'insensitive' } },
+      { summaryNotes: { contains: search, mode: 'insensitive' } },
+      { hostOrNarrator: { contains: search, mode: 'insensitive' } },
+      { ingestionSource: { contains: search, mode: 'insensitive' } },
+      { importBatchId: { contains: search, mode: 'insensitive' } },
+      { work: { title: { contains: search, mode: 'insensitive' } } },
+      {
+        individualsFeatured: {
+          some: {
+            OR: [
+              { firstName: { contains: search, mode: 'insensitive' } },
+              { lastName: { contains: search, mode: 'insensitive' } },
+            ],
+          },
+        },
+      },
+    ];
+    if (numericId) orClauses.push({ id: numericId });
+    mediaItemWhere.OR = orClauses;
+  }
+
+  const mediaWorkWhere = { ...baseWhere };
+  if (search) {
+    const orClauses = [
+      { title: { contains: search, mode: 'insensitive' } },
+      { creatorName: { contains: search, mode: 'insensitive' } },
+      { publisherOrNetwork: { contains: search, mode: 'insensitive' } },
+      { summaryNotes: { contains: search, mode: 'insensitive' } },
+      { ingestionSource: { contains: search, mode: 'insensitive' } },
+      { importBatchId: { contains: search, mode: 'insensitive' } },
+    ];
+    if (numericId) orClauses.push({ id: numericId });
+    mediaWorkWhere.OR = orClauses;
+  }
+
+  const orgWhere = { ...baseWhere };
+  if (search) {
+    const orClauses = [
+      { name: { contains: search, mode: 'insensitive' } },
+      { locationState: { contains: search, mode: 'insensitive' } },
+      { notes: { contains: search, mode: 'insensitive' } },
+      { ingestionSource: { contains: search, mode: 'insensitive' } },
+    ];
+    if (numericId) orClauses.push({ id: numericId });
+    orgWhere.OR = orClauses;
+  }
+
+  const personWhere = { ...baseWhere };
+  if (search) {
+    const orClauses = [
+      { firstName: { contains: search, mode: 'insensitive' } },
+      { lastName: { contains: search, mode: 'insensitive' } },
+      { notes: { contains: search, mode: 'insensitive' } },
+      { ingestionSource: { contains: search, mode: 'insensitive' } },
+    ];
+    if (numericId) orClauses.push({ id: numericId });
+    if (searchParts.length >= 2) {
+      orClauses.push({
+        AND: [
+          { firstName: { contains: searchParts[0], mode: 'insensitive' } },
+          { lastName: { contains: searchParts[searchParts.length - 1], mode: 'insensitive' } },
+        ],
+      });
+    }
+    personWhere.OR = orClauses;
+  }
 
   try {
-    const [individuals, mediaItems, mediaWorks, organizations, involvedPersons] = await Promise.all([
+    const [
+      indCount,
+      mediaItemCount,
+      mediaWorkCount,
+      orgCount,
+      personCount,
+      individuals,
+      mediaItems,
+      mediaWorks,
+      organizations,
+      involvedPersons,
+    ] = await Promise.all([
+      prisma.individual.count({ where: indWhere }),
+      prisma.mediaItem.count({ where: mediaItemWhere }),
+      prisma.mediaWork.count({ where: mediaWorkWhere }),
+      prisma.organization.count({ where: orgWhere }),
+      prisma.involvedPerson.count({ where: personWhere }),
       type === 'ALL' || type === 'individuals'
         ? prisma.individual.findMany({
-            where,
+            where: indWhere,
             take: 100,
             orderBy: { updatedAt: 'desc' },
             include: {
@@ -58,7 +176,7 @@ router.get('/validation-queue', async (req, res) => {
         : [],
       type === 'ALL' || type === 'mediaitems'
         ? prisma.mediaItem.findMany({
-            where,
+            where: mediaItemWhere,
             take: 100,
             orderBy: { updatedAt: 'desc' },
             include: {
@@ -70,21 +188,21 @@ router.get('/validation-queue', async (req, res) => {
         : [],
       type === 'ALL' || type === 'mediaworks'
         ? prisma.mediaWork.findMany({
-            where,
+            where: mediaWorkWhere,
             take: 100,
             orderBy: { updatedAt: 'desc' },
           })
         : [],
       type === 'ALL' || type === 'organizations'
         ? prisma.organization.findMany({
-            where,
+            where: orgWhere,
             take: 100,
             orderBy: { updatedAt: 'desc' },
           })
         : [],
       type === 'ALL' || type === 'involvedpersons'
         ? prisma.involvedPerson.findMany({
-            where,
+            where: personWhere,
             take: 100,
             orderBy: { updatedAt: 'desc' },
           })
@@ -190,12 +308,12 @@ router.get('/validation-queue', async (req, res) => {
 
     res.json({
       counts: {
-        all: items.length,
-        individuals: individuals.length,
-        mediaitems: mediaItems.length,
-        mediaworks: mediaWorks.length,
-        organizations: organizations.length,
-        involvedpersons: involvedPersons.length,
+        all: indCount + mediaItemCount + mediaWorkCount + orgCount + personCount,
+        individuals: indCount,
+        mediaitems: mediaItemCount,
+        mediaworks: mediaWorkCount,
+        organizations: orgCount,
+        involvedpersons: personCount,
       },
       items,
     });

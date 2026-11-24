@@ -13,6 +13,8 @@ import {
   Edit3,
   Trash2,
   Eye,
+  Search,
+  X,
 } from 'lucide-react';
 import apiClient from '../apiClient';
 import { BRONZE_COLOR } from '../components/themeconstants';
@@ -28,6 +30,8 @@ const STATUS_BADGE = {
 function AdminVerifyPage() {
   const [statusFilter, setStatusFilter] = useState('PENDING');
   const [typeFilter, setTypeFilter] = useState('ALL');
+  const [searchInput, setSearchInput] = useState('');
+  const [appliedSearch, setAppliedSearch] = useState('');
   const [data, setData] = useState({ counts: {}, items: [] });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -47,16 +51,16 @@ function AdminVerifyPage() {
     setLoading(true);
     setError(null);
     try {
-      const res = await apiClient.get('/admin/tools/validation-queue', {
-        params: { status: statusFilter, type: typeFilter },
-      });
+      const params = { status: statusFilter, type: typeFilter };
+      if (appliedSearch.trim()) params.q = appliedSearch.trim();
+      const res = await apiClient.get('/admin/tools/validation-queue', { params });
       setData(res.data || { counts: {}, items: [] });
     } catch (err) {
       setError(err.response?.data?.message || err.message || 'Failed to load validation queue.');
     } finally {
       setLoading(false);
     }
-  }, [statusFilter, typeFilter]);
+  }, [statusFilter, typeFilter, appliedSearch]);
 
   useEffect(() => {
     loadQueue();
@@ -99,13 +103,16 @@ function AdminVerifyPage() {
   };
 
   const typeTabs = [
-    { key: 'ALL', label: `All (${data.counts?.all ?? 0})` },
-    { key: 'individuals', label: `Individuals (${data.counts?.individuals ?? 0})` },
-    { key: 'mediaitems', label: `Media Items (${data.counts?.mediaitems ?? 0})` },
-    { key: 'mediaworks', label: `Media Works (${data.counts?.mediaworks ?? 0})` },
-    { key: 'organizations', label: `Organizations (${data.counts?.organizations ?? 0})` },
-    { key: 'involvedpersons', label: `Involved Persons (${data.counts?.involvedpersons ?? 0})` },
+    { key: 'ALL', label: `All (${(data.counts?.all ?? 0).toLocaleString()})` },
+    { key: 'individuals', label: `Individuals (${(data.counts?.individuals ?? 0).toLocaleString()})` },
+    { key: 'mediaitems', label: `Media Items (${(data.counts?.mediaitems ?? 0).toLocaleString()})` },
+    { key: 'mediaworks', label: `Media Works (${(data.counts?.mediaworks ?? 0).toLocaleString()})` },
+    { key: 'organizations', label: `Organizations (${(data.counts?.organizations ?? 0).toLocaleString()})` },
+    { key: 'involvedpersons', label: `Involved Persons (${(data.counts?.involvedpersons ?? 0).toLocaleString()})` },
   ];
+
+  const activeTotalCount =
+    typeFilter === 'ALL' ? (data.counts?.all ?? 0) : (data.counts?.[typeFilter] ?? 0);
 
   return (
     <div className="min-h-screen bg-gray-900 p-4 md:p-8 text-gray-200">
@@ -141,23 +148,70 @@ function AdminVerifyPage() {
           </div>
         </div>
 
-        {/* Entity Filter Tabs */}
-        <div className="flex flex-wrap gap-2 text-xs">
-          {typeTabs.map((tab) => (
+        {/* Entity Filter Tabs + Search Bar */}
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3">
+          <div className="flex flex-wrap gap-2 text-xs">
+            {typeTabs.map((tab) => (
+              <button
+                key={tab.key}
+                type="button"
+                onClick={() => setTypeFilter(tab.key)}
+                className={`px-3 py-1.5 rounded-full border font-medium ${
+                  typeFilter === tab.key
+                    ? 'bg-amber-600 text-white border-amber-500'
+                    : 'bg-gray-800 text-gray-300 border-gray-700 hover:bg-gray-700'
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              setAppliedSearch(searchInput.trim());
+            }}
+            className="flex items-center gap-2 w-full lg:w-auto"
+          >
+            <div className="relative flex-1 lg:w-72">
+              <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+              <input
+                type="text"
+                value={searchInput}
+                onChange={(e) => setSearchInput(e.target.value)}
+                placeholder="Search name, title, #ID, state, batch..."
+                className="w-full pl-8 pr-7 py-1.5 bg-gray-800 border border-gray-700 rounded-md text-xs text-gray-100 placeholder-gray-500 focus:outline-none focus:border-amber-500"
+              />
+              {(searchInput || appliedSearch) && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSearchInput('');
+                    setAppliedSearch('');
+                  }}
+                  title="Clear search"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white"
+                >
+                  <X size={13} />
+                </button>
+              )}
+            </div>
             <button
-              key={tab.key}
-              type="button"
-              onClick={() => setTypeFilter(tab.key)}
-              className={`px-3 py-1.5 rounded-full border font-medium ${
-                typeFilter === tab.key
-                  ? 'bg-amber-600 text-white border-amber-500'
-                  : 'bg-gray-800 text-gray-300 border-gray-700 hover:bg-gray-700'
-              }`}
+              type="submit"
+              className="px-3 py-1.5 rounded-md bg-amber-600 hover:bg-amber-700 text-white text-xs font-medium shrink-0"
             >
-              {tab.label}
+              Search
             </button>
-          ))}
+          </form>
         </div>
+
+        {!loading && activeTotalCount > data.items.length && (
+          <p className="text-xs text-gray-400">
+            Showing the <strong className="text-gray-200">{data.items.length.toLocaleString()}</strong> most recently updated of{' '}
+            <strong className="text-amber-300">{activeTotalCount.toLocaleString()}</strong> matching records — use the search bar above to jump directly to any entry.
+          </p>
+        )}
 
         {error && (
           <div className="p-3 bg-red-950/70 border border-red-700 rounded text-sm text-red-300">{error}</div>
