@@ -710,4 +710,130 @@ router.get('/podcasts', async (req, res) => {
   }
 });
 
+// --- 6. Full Record Inspector (for Preview & Inline Edit in Validation Queue) ---
+router.get('/record/:resource/:id', async (req, res) => {
+  const { resource } = req.params;
+  const id = parseInt(req.params.id, 10);
+  if (Number.isNaN(id) || id <= 0) {
+    return res.status(400).json({ message: 'Invalid record ID.' });
+  }
+
+  try {
+    if (resource === 'individuals') {
+      const record = await prisma.individual.findUnique({
+        where: { id },
+        include: {
+          crimeCategory: true,
+          contributingFactors: { select: { id: true, code: true, name: true } },
+          organizationsInvolved: { select: { id: true, name: true, type: true } },
+          involvedPersons: { select: { id: true, firstName: true, lastName: true, role: true } },
+          groups: { select: { id: true, name: true } },
+          sourceLinks: {
+            include: { informationSource: { select: { id: true, name: true } } },
+            orderBy: { id: 'asc' },
+          },
+          mediaItemAppearances: {
+            select: {
+              id: true,
+              itemTitle: true,
+              itemMediaType: true,
+              work: { select: { id: true, title: true, workType: true } },
+            },
+            take: 25,
+          },
+          newsArticles: {
+            select: { id: true, headline: true, url: true, publishedAt: true, sourceName: true },
+            orderBy: { publishedAt: 'desc' },
+            take: 15,
+          },
+        },
+      });
+      if (!record) return res.status(404).json({ message: 'Individual not found.' });
+      return res.json({
+        ...record,
+        contributingFactorIds: (record.contributingFactors || []).map((f) => f.id),
+        organizationIds: (record.organizationsInvolved || []).map((o) => o.id),
+        involvedPersonIds: (record.involvedPersons || []).map((p) => p.id),
+        groupIds: (record.groups || []).map((g) => g.id),
+      });
+    }
+
+    if (resource === 'mediaworks') {
+      const record = await prisma.mediaWork.findUnique({
+        where: { id },
+        include: {
+          items: {
+            select: { id: true, itemTitle: true, itemNumber: true, itemMediaType: true, releaseDate: true },
+            orderBy: { id: 'asc' },
+            take: 30,
+          },
+          streamingProviders: true,
+          bookPurchaseDetails: true,
+        },
+      });
+      if (!record) return res.status(404).json({ message: 'Media Work not found.' });
+      return res.json(record);
+    }
+
+    if (resource === 'mediaitems') {
+      const record = await prisma.mediaItem.findUnique({
+        where: { id },
+        include: {
+          work: { select: { id: true, title: true, workType: true } },
+          individualsFeatured: { select: { id: true, firstName: true, lastName: true } },
+          contributingFactorsMentioned: { select: { id: true, code: true, name: true } },
+          organizationsMentioned: { select: { id: true, name: true } },
+          involvedPersonsMentioned: { select: { id: true, firstName: true, lastName: true, role: true } },
+          sourceLinks: true,
+        },
+      });
+      if (!record) return res.status(404).json({ message: 'Media Item not found.' });
+      return res.json({
+        ...record,
+        individualIds: (record.individualsFeatured || []).map((i) => i.id),
+        contributingFactorIds: (record.contributingFactorsMentioned || []).map((f) => f.id),
+        organizationIds: (record.organizationsMentioned || []).map((o) => o.id),
+      });
+    }
+
+    if (resource === 'organizations') {
+      const record = await prisma.organization.findUnique({
+        where: { id },
+        include: {
+          individualsAssisted: {
+            select: { id: true, firstName: true, lastName: true, caseLocationState: true },
+            take: 25,
+          },
+          _count: { select: { individualsAssisted: true, mediaItemsMentioning: true } },
+        },
+      });
+      if (!record) return res.status(404).json({ message: 'Organization not found.' });
+      return res.json(record);
+    }
+
+    if (resource === 'involvedpersons') {
+      const record = await prisma.involvedPerson.findUnique({
+        where: { id },
+        include: {
+          relatedIndividuals: {
+            select: { id: true, firstName: true, lastName: true },
+            take: 25,
+          },
+          mediaItemsMentionedIn: {
+            select: { id: true, itemTitle: true, work: { select: { title: true } } },
+            take: 20,
+          },
+        },
+      });
+      if (!record) return res.status(404).json({ message: 'Involved Person not found.' });
+      return res.json(record);
+    }
+
+    return res.status(400).json({ message: `Unsupported resource: ${resource}` });
+  } catch (error) {
+    console.error(`Error fetching full record ${resource}/${id}:`, error);
+    return res.status(500).json({ message: 'Failed to load full record.', error: error.message });
+  }
+});
+
 module.exports = router;

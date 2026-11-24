@@ -12,9 +12,11 @@ import {
   RefreshCw,
   Edit3,
   Trash2,
+  Eye,
 } from 'lucide-react';
 import apiClient from '../apiClient';
 import { BRONZE_COLOR } from '../components/themeconstants';
+import AdminRecordInspectorModal from '../components/AdminRecordInspectorModal';
 
 const STATUS_BADGE = {
   UNVERIFIED: 'bg-amber-900/70 text-amber-300 border-amber-700',
@@ -31,6 +33,15 @@ function AdminVerifyPage() {
   const [error, setError] = useState(null);
   const [notesByKey, setNotesByKey] = useState({});
   const [busyKey, setBusyKey] = useState(null);
+  const [inspector, setInspector] = useState(null); // { item, mode: 'preview' | 'edit' }
+
+  const openInspector = (item, mode = 'preview') => {
+    setInspector({ item, mode });
+  };
+
+  const inspectedIdx = inspector
+    ? data.items.findIndex((x) => x.resource === inspector.item.resource && x.id === inspector.item.id)
+    : -1;
 
   const loadQueue = useCallback(async () => {
     setLoading(true);
@@ -202,11 +213,31 @@ function AdminVerifyPage() {
                         )}
                       </div>
 
-                      <h3 className="text-base font-semibold text-gray-100">{item.title}</h3>
+                      <button
+                        type="button"
+                        onClick={() => openInspector(item, 'preview')}
+                        className="text-left text-base font-semibold text-gray-100 hover:text-amber-300 transition-colors"
+                      >
+                        {item.title}
+                      </button>
                       {item.subtitle && <p className="text-xs text-gray-400">{item.subtitle}</p>}
                     </div>
 
                     <div className="flex flex-wrap items-center gap-2 shrink-0">
+                      <button
+                        type="button"
+                        onClick={() => openInspector(item, 'preview')}
+                        className="inline-flex items-center px-2.5 py-1.5 rounded bg-amber-600/90 hover:bg-amber-600 text-white text-xs font-medium"
+                      >
+                        <Eye size={14} className="mr-1" /> Preview
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => openInspector(item, 'edit')}
+                        className="inline-flex items-center px-2.5 py-1.5 rounded bg-gray-700 hover:bg-gray-600 text-gray-200 text-xs font-medium"
+                      >
+                        <Edit3 size={14} className="mr-1" /> Edit
+                      </button>
                       <button
                         type="button"
                         disabled={isBusy}
@@ -231,12 +262,6 @@ function AdminVerifyPage() {
                       >
                         <AlertOctagon size={14} className="mr-1" /> Dispute
                       </button>
-                      <Link
-                        to={`/admin/manage/${item.resource}`}
-                        className="inline-flex items-center px-2.5 py-1.5 rounded bg-gray-700 hover:bg-gray-600 text-gray-200 text-xs font-medium"
-                      >
-                        <Edit3 size={14} className="mr-1" /> Full Edit
-                      </Link>
                       <button
                         type="button"
                         disabled={isBusy}
@@ -302,6 +327,27 @@ function AdminVerifyPage() {
           </div>
         )}
       </div>
+
+      {inspector && (
+        <AdminRecordInspectorModal
+          item={inspector.item}
+          initialMode={inspector.mode}
+          onClose={() => setInspector(null)}
+          onUpdated={loadQueue}
+          hasPrev={inspectedIdx > 0}
+          hasNext={inspectedIdx >= 0 && inspectedIdx < data.items.length - 1}
+          onPrev={() => {
+            if (inspectedIdx > 0) {
+              setInspector({ item: data.items[inspectedIdx - 1], mode: 'preview' });
+            }
+          }}
+          onNext={() => {
+            if (inspectedIdx >= 0 && inspectedIdx < data.items.length - 1) {
+              setInspector({ item: data.items[inspectedIdx + 1], mode: 'preview' });
+            }
+          }}
+        />
+      )}
     </div>
   );
 }
