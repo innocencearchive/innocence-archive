@@ -784,7 +784,7 @@ router.get('/record/:resource/:id', async (req, res) => {
           contributingFactorsMentioned: { select: { id: true, code: true, name: true } },
           organizationsMentioned: { select: { id: true, name: true } },
           involvedPersonsMentioned: { select: { id: true, firstName: true, lastName: true, role: true } },
-          sourceLinks: true,
+          externalLinks: true,
         },
       });
       if (!record) return res.status(404).json({ message: 'Media Item not found.' });
@@ -800,11 +800,11 @@ router.get('/record/:resource/:id', async (req, res) => {
       const record = await prisma.organization.findUnique({
         where: { id },
         include: {
-          individualsAssisted: {
+          involvedCases: {
             select: { id: true, firstName: true, lastName: true, caseLocationState: true },
             take: 25,
           },
-          _count: { select: { individualsAssisted: true, mediaItemsMentioning: true } },
+          _count: { select: { involvedCases: true, mediaItemMentions: true } },
         },
       });
       if (!record) return res.status(404).json({ message: 'Organization not found.' });
@@ -815,11 +815,11 @@ router.get('/record/:resource/:id', async (req, res) => {
       const record = await prisma.involvedPerson.findUnique({
         where: { id },
         include: {
-          relatedIndividuals: {
+          involvedCases: {
             select: { id: true, firstName: true, lastName: true },
             take: 25,
           },
-          mediaItemsMentionedIn: {
+          mediaItemMentions: {
             select: { id: true, itemTitle: true, work: { select: { title: true } } },
             take: 20,
           },
