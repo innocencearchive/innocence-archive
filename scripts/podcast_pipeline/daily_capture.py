@@ -191,7 +191,10 @@ def is_rate_limit_error(err: Exception) -> bool:
 
 def is_transient_unavailable_error(err: Exception) -> bool:
     msg = str(err).upper()
-    return "503" in msg or "UNAVAILABLE" in msg or "OVERLOADED" in msg or "HIGH DEMAND" in msg
+    return any(
+        tok in msg
+        for tok in ("503", "UNAVAILABLE", "OVERLOADED", "HIGH DEMAND", "TIMEOUT", "TIMED OUT", "DEADLINE", "10053", "10054")
+    )
 
 
 def load_state() -> dict:
@@ -529,7 +532,10 @@ def main():
     remote_canonical_keys, remote_title_keys = (
         (set(), set()) if args.refresh_existing else fetch_remote_processed(api_base_url, ingest_key)
     )
-    client = genai.Client(api_key=api_key)
+    client = genai.Client(
+        api_key=api_key,
+        http_options=types.HttpOptions(timeout=240_000),
+    )
 
     processed_count = 0
     for feed_cfg in feeds:
