@@ -6,11 +6,11 @@ const { authenticateToken, authorizeRole } = require('../middleware/authenticate
 const router = express.Router();
 const prisma = new PrismaClient();
 
-// Allow automated ingest key on /podcast-ingest, or require JWT ADMIN/EDITOR for all /api/admin/* routes
+// Allow automated ingest key on /podcast-ingest*, or require JWT ADMIN/EDITOR for all /api/admin/* routes
 router.use((req, res, next) => {
   const ingestKey = process.env.PODCAST_INGEST_KEY;
   if (
-    req.path === '/podcast-ingest' &&
+    (req.path === '/podcast-ingest' || req.path === '/podcast-ingest/processed') &&
     ingestKey &&
     req.headers['x-ingest-key'] === ingestKey
   ) {
@@ -1130,6 +1130,34 @@ router.delete('/individuals/:id/sourcelinks/:linkId', async (req, res) => {
     res.json({ message: 'Source link deleted.', id: linkId });
   } catch (error) {
     handlePrismaError(res, error, 'IndividualSourceLink');
+  }
+});
+
+// --- GET /api/admin/podcast-ingest/processed ---
+// Returns canonicalKeys and normalized podcast+title keys of all PODCAST_EPISODE MediaItems
+// already in the live database so any machine running daily_capture.py skips them automatically.
+router.get('/podcast-ingest/processed', async (req, res) => {
+  try {
+    const items = await prisma.mediaItem.findMany({
+      where: { itemMediaType: 'PODCAST_EPISODE' },
+      select: {
+        canonicalKey: true,
+        itemTitle: true,
+        work: { select: { title: true } },
+      },
+    });
+    const canonicalKeys = items.map((i) => i.canonicalKey).filter(Boolean);
+    const titleKeys = items
+      .filter((i) => i.work?.title && i.itemTitle)
+      .map((i) => `${i.work.title.trim().toLowerCase()}::${i.itemTitle.trim().toLowerCase()}`);
+
+    res.json({
+      total: items.length,
+      canonicalKeys,
+      titleKeys,
+    });
+  } catch (error) {
+    handlePrismaError(res, error, 'podcast-ingest/processed');
   }
 });
 

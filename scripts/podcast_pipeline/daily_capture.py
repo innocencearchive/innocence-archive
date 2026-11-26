@@ -306,6 +306,32 @@ def wait_for_gemini_file(client: genai.Client, file_obj):
     return file_obj
 
 
+def compute_canonical_key(podcast_title: str, entry) -> str:
+    mp3_url = get_mp3_url(entry) or ""
+    guid = entry.get("id") or entry.get("link") or mp3_url or entry.get("title") or ""
+    return "podcast:" + hashlib.sha256(f"{podcast_title}::{guid}".encode()).hexdigest()[:24]
+
+
+def fetch_remote_processed(api_base_url: str, ingest_key: str) -> tuple[set, set]:
+    """Fetch canonicalKeys and podcast::title keys already stored in the live database."""
+    url = f"{api_base_url.rstrip('/')}/admin/podcast-ingest/processed"
+    headers = {}
+    if ingest_key:
+        headers["X-Ingest-Key"] = ingest_key
+    try:
+        resp = requests.get(url, headers=headers, timeout=20)
+        if resp.ok:
+            data = resp.json()
+            c_keys = set(data.get("canonicalKeys") or [])
+            t_keys = set(data.get("titleKeys") or [])
+            print(f"Synced {data.get('total', len(c_keys))} already-processed episode(s) from live database.")
+            return c_keys, t_keys
+        print(f"Warning: could not fetch remote processed list (HTTP {resp.status_code}); falling back to local state.json.")
+    except Exception as err:
+        print(f"Warning: remote processed sync failed ({err}); falling back to local state.json.")
+    return set(), set()
+
+
 def process_episode(
     client: genai.Client,
     model_name: str,
@@ -323,8 +349,7 @@ def process_episode(
     if not mp3_url:
         raise ValueError(f"No MP3 enclosure found for episode: {title}")
 
-    guid = entry.get("id") or entry.get("link") or mp3_url
-    canonical_key = "podcast:" + hashlib.sha256(f"{feed_cfg['podcastTitle']}::{guid}".encode()).hexdigest()[:24]
+    canonical_key = compute_canonical_key(feed_cfg["podcastTitle"], entry)
 
     factors_hint = ", ".join(c.value for c in ContributingFactorCode)
     prompt = (
@@ -473,6 +498,9 @@ def main():
 
     feeds = json.loads(FEEDS_FILE.read_text(encoding="utf-8"))
     state = load_state()
+    remote_canonical_keys, remote_title_keys = (
+        (set(), set()) if args.refresh_existing else fetch_remote_processed(api_base_url, ingest_key)
+    )
     client = genai.Client(api_key=api_key)
 
     processed_count = 0
@@ -494,7 +522,17 @@ def main():
                 print(f"Reached --limit {args.limit}. Stopping.")
                 return
             guid = entry.get("id") or entry.get("link") or entry.get("title")
-            if not guid or (guid in state["processed"] and not args.refresh_existing):
+            if not guid:
+                continue
+            ep_title = (entry.get("title") or "").strip()
+            canonical_key = compute_canonical_key(feed_cfg["podcastTitle"], entry)
+            title_key = f"{feed_cfg['podcastTitle'].strip().lower()}::{ep_title.lower()}"
+
+            if not args.refresh_existing and (
+                guid in state["processed"]
+                or canonical_key in remote_canonical_keys
+                or title_key in remote_title_keys
+            ):
                 continue
 
             print(f"Processing episode: {entry.get('title')}")
