@@ -28,9 +28,63 @@ from google.genai import types
 from pydantic import BaseModel, Field
 
 BASE_DIR = Path(__file__).resolve().parent
+REPO_ROOT = BASE_DIR.parent.parent
 FEEDS_FILE = BASE_DIR / "feeds.json"
 STATE_FILE = BASE_DIR / "state.json"
 STAGED_DIR = BASE_DIR / "staged"
+PROMO_RESEARCH_MD = REPO_ROOT / "docs" / "media" / "podcasts" / "future_research_promos.md"
+
+PROMO_TITLE_RE = re.compile(
+    r"(?:^\s*(?:introducing|trailer|teaser|preview|sneak\s+peek|bonus\s+preview)\b"
+    r"|\b(?:trailer|sneak\s+peek)\b"
+    r"|:\s*preview\s*$)",
+    re.IGNORECASE,
+)
+
+
+def is_promo_or_preview_episode(title: str) -> bool:
+    return bool(PROMO_TITLE_RE.search(title or ""))
+
+
+def log_promo_for_future_research(podcast_title: str, ep_title: str, published: str, link: str) -> None:
+    """Append skipped promo/preview episodes to docs/media/podcasts/future_research_promos.md (deduplicated)."""
+    try:
+        PROMO_RESEARCH_MD.parent.mkdir(parents=True, exist_ok=True)
+        if not PROMO_RESEARCH_MD.exists():
+            PROMO_RESEARCH_MD.write_text(
+                "# Future Research: Podcast Cross-Promos & Previews\n\n"
+                "| Date Logged | Source Feed | Episode Title | Published | Link / Notes |\n"
+                "|---|---|---|---|---|\n",
+                encoding="utf-8",
+            )
+        existing = PROMO_RESEARCH_MD.read_text(encoding="utf-8")
+        safe_title = ep_title.replace("|", "-").strip()
+        if safe_title.lower() in existing.lower():
+            return
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        pub_short = (published or "")[:16]
+        link_cell = f"[Listen / Info]({link})" if link else "—"
+        line = f"| {today} | {podcast_title} | {safe_title} | {pub_short} | {link_cell} |\n"
+        with PROMO_RESEARCH_MD.open("a", encoding="utf-8") as f:
+            f.write(line)
+    except Exception as err:
+        print(f"  Warning: failed to log promo to {PROMO_RESEARCH_MD}: {err}")
+
+
+def is_network_offline_error(err: Exception) -> bool:
+    msg = str(err).lower()
+    return any(
+        tok in msg
+        for tok in (
+            "getaddrinfo failed",
+            "nameresolutionerror",
+            "failed to resolve",
+            "connection aborted",
+            "winerror 10053",
+            "winerror 10054",
+            "network is unreachable",
+        )
+    )
 
 
 # --- Structured Output Schema for Gemini ---
@@ -538,6 +592,7 @@ def main():
     )
 
     processed_count = 0
+    consecutive_network_errors = 0
     for feed_cfg in feeds:
         if not feed_cfg.get("active", True):
             continue
@@ -569,6 +624,24 @@ def main():
             ):
                 continue
 
+            if is_promo_or_preview_episode(ep_title):
+                print(f"Skipping promo/preview episode (logged to future_research_promos.md): {ep_title}")
+                log_promo_for_future_research(
+                    podcast_title=feed_cfg["podcastTitle"],
+                    ep_title=ep_title,
+                    published=entry.get("published") or "",
+                    link=entry.get("link") or get_mp3_url(entry) or "",
+                )
+                if not args.dry_run:
+                    state["processed"][guid] = {
+                        "podcast": feed_cfg["podcastTitle"],
+                        "title": ep_title,
+                        "skippedPromo": True,
+                        "processedAt": datetime.now(timezone.utc).isoformat(),
+                    }
+                    save_state(state)
+                continue
+
             print(f"Processing episode: {entry.get('title')}")
             try:
                 res = process_episode(
@@ -584,6 +657,7 @@ def main():
                     ingest_key=ingest_key,
                 )
                 print(f"  Result: {res}")
+                consecutive_network_errors = 0
                 if not args.dry_run:
                     state["processed"][guid] = {
                         "podcast": feed_cfg["podcastTitle"],
@@ -600,6 +674,13 @@ def main():
                 return
             except Exception as err:
                 print(f"  Error processing '{entry.get('title')}': {err}")
+                if is_network_offline_error(err):
+                    consecutive_network_errors += 1
+                    if consecutive_network_errors >= 3:
+                        print("  Aborting run cleanly after 3 consecutive network/offline errors.")
+                        return
+                else:
+                    consecutive_network_errors = 0
 
 
 if __name__ == "__main__":
