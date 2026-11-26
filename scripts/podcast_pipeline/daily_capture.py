@@ -189,6 +189,11 @@ def is_rate_limit_error(err: Exception) -> bool:
     return "429" in msg or "RESOURCE_EXHAUSTED" in msg or "QUOTA" in msg
 
 
+def is_transient_unavailable_error(err: Exception) -> bool:
+    msg = str(err).upper()
+    return "503" in msg or "UNAVAILABLE" in msg or "OVERLOADED" in msg or "HIGH DEMAND" in msg
+
+
 def load_state() -> dict:
     if STATE_FILE.exists():
         return json.loads(STATE_FILE.read_text(encoding="utf-8"))
@@ -335,6 +340,7 @@ def fetch_remote_processed(api_base_url: str, ingest_key: str) -> tuple[set, set
 def process_episode(
     client: genai.Client,
     model_name: str,
+    fallback_model: Optional[str],
     feed_cfg: dict,
     feed_link: str,
     entry,
@@ -389,27 +395,48 @@ def process_episode(
         uploaded_file = client.files.upload(file=str(temp_mp3))
         uploaded_file = wait_for_gemini_file(client, uploaded_file)
 
-        print(f"  Transcribing & extracting with {model_name}...")
+        models_to_try = [model_name]
+        if fallback_model and fallback_model != model_name:
+            models_to_try.append(fallback_model)
+
         response = None
-        for attempt in range(2):
-            try:
-                response = client.models.generate_content(
-                    model=model_name,
-                    contents=[uploaded_file, prompt],
-                    config=types.GenerateContentConfig(
-                        response_mime_type="application/json",
-                        response_schema=PodcastExtraction,
-                    ),
-                )
+        last_err = None
+        for candidate_model in models_to_try:
+            print(f"  Transcribing & extracting with {candidate_model}...")
+            backoff_503 = [20, 45]
+            for attempt in range(3):
+                try:
+                    response = client.models.generate_content(
+                        model=candidate_model,
+                        contents=[uploaded_file, prompt],
+                        config=types.GenerateContentConfig(
+                            response_mime_type="application/json",
+                            response_schema=PodcastExtraction,
+                        ),
+                    )
+                    break
+                except Exception as gen_err:
+                    last_err = gen_err
+                    if is_rate_limit_error(gen_err):
+                        if attempt == 0:
+                            print("  Hit Gemini rate limit (429). Waiting 65s before one retry...")
+                            time.sleep(65)
+                            continue
+                        raise QuotaExhaustedError(f"Gemini quota/rate limit reached: {gen_err}") from gen_err
+                    if is_transient_unavailable_error(gen_err):
+                        if attempt < len(backoff_503):
+                            wait_s = backoff_503[attempt]
+                            print(f"  {candidate_model} busy (503 UNAVAILABLE). Retrying in {wait_s}s...")
+                            time.sleep(wait_s)
+                            continue
+                        print(f"  {candidate_model} still unavailable (503) after retries.")
+                        break
+                    raise
+            if response is not None:
                 break
-            except Exception as gen_err:
-                if is_rate_limit_error(gen_err):
-                    if attempt == 0:
-                        print("  Hit Gemini rate limit (429). Waiting 65s before one retry...")
-                        time.sleep(65)
-                        continue
-                    raise QuotaExhaustedError(f"Gemini quota/rate limit reached: {gen_err}") from gen_err
-                raise
+
+        if response is None:
+            raise RuntimeError(f"All configured Gemini models ({', '.join(models_to_try)}) unavailable: {last_err}")
         extracted = PodcastExtraction.model_validate_json(response.text)
     finally:
         if uploaded_file is not None:
@@ -493,6 +520,7 @@ def main():
         raise RuntimeError("GEMINI_API_KEY is required in scripts/podcast_pipeline/.env")
 
     model_name = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
+    fallback_model = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-3.7-flash").strip() or None
     api_base_url = os.environ.get("API_BASE_URL", "http://localhost:3001/api")
     ingest_key = os.environ.get("PODCAST_INGEST_KEY", "")
 
@@ -540,6 +568,7 @@ def main():
                 res = process_episode(
                     client=client,
                     model_name=model_name,
+                    fallback_model=fallback_model,
                     feed_cfg=feed_cfg,
                     feed_link=parsed.feed.get("link", ""),
                     entry=entry,
