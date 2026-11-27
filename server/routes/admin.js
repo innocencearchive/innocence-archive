@@ -1134,6 +1134,24 @@ router.delete('/individuals/:id/sourcelinks/:linkId', async (req, res) => {
 });
 
 // --- GET /api/admin/podcast-ingest/processed ---
+const VALID_INDIVIDUAL_STATUSES = new Set([
+  'EXONERATED', 'RELEASED_ALFORD_PLEA', 'RELEASED_CLEMENCY', 'RELEASED_TIME_SERVED',
+  'CONVICTION_OVERTURNED', 'EXECUTED', 'CONVICTED', 'OTHER', 'UNKNOWN',
+]);
+const VALID_CLAIM_STRENGTHS = new Set([
+  'FORMALLY_EXONERATED', 'OFFICIAL_RELIEF_NO_EXONERATION', 'STRONG_NEW_EVIDENCE',
+  'CREDIBLE_CLAIM', 'UNASSESSED',
+]);
+const VALID_ORG_TYPES = new Set([
+  'INNOCENCE_ORG', 'LEGAL_AID', 'LAW_FIRM', 'LAW_ENFORCEMENT', 'GOVERNMENT_AGENCY',
+  'SUPPORT_GROUP', 'MEDIA_ORG', 'UNIVERSITY', 'OTHER', 'UNKNOWN',
+]);
+const VALID_INVOLVED_ROLES = new Set([
+  'LAWYER_DEFENSE', 'LAWYER_PROSECUTION', 'JUDGE', 'WITNESS_EYEWITNESS', 'WITNESS_ALIBI',
+  'WITNESS_EXPERT', 'WITNESS_INFORMANT', 'POLICE_DETECTIVE', 'POLICE_OFFICER', 'VICTIM',
+  'FAMILY_MEMBER', 'JOURNALIST', 'AUTHOR', 'DIRECTOR', 'HOST', 'ACTIVIST', 'ACCUSER',
+  'ACTUAL_PERPETRATOR', 'CO_DEFENDANT', 'SUBJECT_EXONEREE', 'SUBJECT_OTHER', 'OTHER', 'UNKNOWN',
+]);
 // Returns canonicalKeys and normalized podcast+title keys of all PODCAST_EPISODE MediaItems
 // already in the live database so any machine running daily_capture.py skips them automatically.
 router.get('/podcast-ingest/processed', async (req, res) => {
@@ -1250,8 +1268,8 @@ router.post('/podcast-ingest', async (req, res) => {
               lastName: ind.lastName.trim(),
               suffix: ind.suffix?.trim() || null,
               canonicalKey: indKey,
-              status: ind.status || 'UNKNOWN',
-              claimStrength: ind.claimStrength || 'UNASSESSED',
+              status: VALID_INDIVIDUAL_STATUSES.has(ind.status) ? ind.status : 'UNKNOWN',
+              claimStrength: VALID_CLAIM_STRENGTHS.has(ind.claimStrength) ? ind.claimStrength : 'UNASSESSED',
               convictionYear: parseIntOrNull(ind.convictionYear),
               exonerationOrReleaseYear: parseIntOrNull(ind.exonerationOrReleaseYear),
               timeServed: ind.timeServed?.trim() || null,
@@ -1260,6 +1278,8 @@ router.post('/podcast-ingest', async (req, res) => {
               caseLocationState: ind.caseLocationState?.trim() || null,
               caseLocationCountry: ind.caseLocationCountry?.trim() || 'USA',
               narrativeSummary: ind.narrativeSummary || null,
+              nreOnly: false,
+              isPublished: true,
               aiGenerated: true,
               verificationStatus: 'UNVERIFIED',
               ingestionSource: 'podcast_rss_gemini',
@@ -1291,15 +1311,21 @@ router.post('/podcast-ingest', async (req, res) => {
       }
       const factorIds = [...factorIdSet].map((id) => ({ id }));
 
-      // Link extracted contributing factors onto featured Individual(s) without overwriting other fields
-      if (factorIds.length && individualIds.length) {
+      // Link extracted contributing factors onto featured Individual(s) and promote NRE-only profiles to published
+      if (individualIds.length) {
         for (const { id: indId } of individualIds) {
           await tx.individual.update({
             where: { id: indId },
             data: {
-              contributingFactors: existing
-                ? { set: factorIds }
-                : { connect: factorIds },
+              nreOnly: false,
+              isPublished: true,
+              ...(factorIds.length
+                ? {
+                    contributingFactors: existing
+                      ? { set: factorIds }
+                      : { connect: factorIds },
+                  }
+                : {}),
             },
           });
         }
@@ -1318,7 +1344,7 @@ router.post('/podcast-ingest', async (req, res) => {
           record = await tx.organization.create({
             data: {
               name: orgName,
-              type: org?.type || 'OTHER',
+              type: VALID_ORG_TYPES.has(org?.type) ? org.type : 'OTHER',
               aiGenerated: true,
               verificationStatus: 'UNVERIFIED',
               ingestionSource: 'podcast_rss_gemini',
@@ -1351,7 +1377,7 @@ router.post('/podcast-ingest', async (req, res) => {
             data: {
               firstName: person.firstName.trim(),
               lastName: person.lastName.trim(),
-              role: person.role || 'OTHER',
+              role: VALID_INVOLVED_ROLES.has(person.role) ? person.role : 'OTHER',
               notes: person.notes || null,
               canonicalKey: pKey,
               aiGenerated: true,
@@ -1425,7 +1451,7 @@ router.post('/podcast-ingest', async (req, res) => {
         linkedInvolvedPersons: personIds.length,
         newInvolvedPersonsCreated,
       };
-    });
+    }, { maxWait: 15000, timeout: 45000 });
 
     res.status(existing ? 200 : 201).json({ skipped: false, ...result });
   } catch (error) {

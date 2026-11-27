@@ -576,8 +576,13 @@ def process_episode(
     if ingest_key:
         headers["X-Ingest-Key"] = ingest_key
     ingest_url = f"{api_base_url.rstrip('/')}/admin/podcast-ingest"
-    resp = requests.post(ingest_url, json=payload, headers=headers, timeout=60)
-    resp.raise_for_status()
+    resp = requests.post(ingest_url, json=payload, headers=headers, timeout=90)
+    if not resp.ok:
+        STAGED_DIR.mkdir(parents=True, exist_ok=True)
+        failed_path = STAGED_DIR / f"{canonical_key.replace(':', '_')}_failed.json"
+        failed_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+        print(f"  Saved failed-upload JSON to {failed_path} (HTTP {resp.status_code}: {resp.text[:300]})")
+        resp.raise_for_status()
     return resp.json()
 
 
