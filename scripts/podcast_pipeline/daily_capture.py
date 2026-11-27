@@ -238,6 +238,10 @@ class QuotaExhaustedError(RuntimeError):
     """Raised when Gemini API returns persistent 429 / RESOURCE_EXHAUSTED quota limits."""
 
 
+class ServiceUnavailableError(RuntimeError):
+    """Raised when Gemini API returns persistent 503 UNAVAILABLE errors."""
+
+
 def is_rate_limit_error(err: Exception) -> bool:
     msg = str(err).upper()
     return "429" in msg or "RESOURCE_EXHAUSTED" in msg or "QUOTA" in msg
@@ -396,8 +400,8 @@ def fetch_remote_processed(api_base_url: str, ingest_key: str) -> tuple[set, set
 
 def process_episode(
     client: genai.Client,
-    model_name: str,
-    fallback_model: Optional[str],
+    models_to_try: List[str],
+    exhausted_models: set,
     feed_cfg: dict,
     feed_link: str,
     entry,
@@ -452,16 +456,17 @@ def process_episode(
         uploaded_file = client.files.upload(file=str(temp_mp3))
         uploaded_file = wait_for_gemini_file(client, uploaded_file)
 
-        models_to_try = [model_name]
-        if fallback_model and fallback_model != model_name:
-            models_to_try.append(fallback_model)
+        active_models = [m for m in models_to_try if m not in exhausted_models]
+        if not active_models:
+            raise QuotaExhaustedError(f"All configured models exhausted for today: {', '.join(models_to_try)}")
 
         response = None
         last_err = None
-        for candidate_model in models_to_try:
+        all_quota_exhausted = True
+        for candidate_model in active_models:
             print(f"  Transcribing & extracting with {candidate_model}...")
-            backoff_503 = [20, 45]
-            for attempt in range(3):
+            backoff_503 = [20]
+            for attempt in range(2):
                 try:
                     response = client.models.generate_content(
                         model=candidate_model,
@@ -475,25 +480,38 @@ def process_episode(
                 except Exception as gen_err:
                     last_err = gen_err
                     if is_rate_limit_error(gen_err):
+                        if "PERDAY" in str(gen_err).upper() or "PER DAY" in str(gen_err).upper():
+                            print(f"  {candidate_model} hit daily quota cap (429). Rotating to next model if available...")
+                            exhausted_models.add(candidate_model)
+                            break
                         if attempt == 0:
-                            print("  Hit Gemini rate limit (429). Waiting 65s before one retry...")
+                            print(f"  {candidate_model} hit rate limit (429). Waiting 65s before one retry...")
                             time.sleep(65)
                             continue
-                        raise QuotaExhaustedError(f"Gemini quota/rate limit reached: {gen_err}") from gen_err
+                        print(f"  {candidate_model} still rate-limited (429). Marking exhausted for this run.")
+                        exhausted_models.add(candidate_model)
+                        break
                     if is_transient_unavailable_error(gen_err):
+                        all_quota_exhausted = False
                         if attempt < len(backoff_503):
                             wait_s = backoff_503[attempt]
-                            print(f"  {candidate_model} busy (503 UNAVAILABLE). Retrying in {wait_s}s...")
+                            print(f"  {candidate_model} busy (503/timeout). Retrying once in {wait_s}s...")
                             time.sleep(wait_s)
                             continue
-                        print(f"  {candidate_model} still unavailable (503) after retries.")
+                        print(f"  {candidate_model} still unavailable after retry.")
                         break
                     raise
             if response is not None:
                 break
 
         if response is None:
-            raise RuntimeError(f"All configured Gemini models ({', '.join(models_to_try)}) unavailable: {last_err}")
+            if all_quota_exhausted or all(m in exhausted_models for m in models_to_try):
+                raise QuotaExhaustedError(
+                    f"All configured Gemini models ({', '.join(models_to_try)}) hit quota limits: {last_err}"
+                )
+            raise ServiceUnavailableError(
+                f"All configured Gemini models ({', '.join(models_to_try)}) unavailable: {last_err}"
+            )
         extracted = PodcastExtraction.model_validate_json(response.text)
     finally:
         if uploaded_file is not None:
@@ -568,6 +586,7 @@ def main():
     parser = argparse.ArgumentParser(description="Daily podcast capture & Gemini extraction.")
     parser.add_argument("--limit", type=int, default=5, help="Max new episodes to process per run (default: 5).")
     parser.add_argument("--delay", type=int, default=15, help="Seconds to pause between episodes for Free Tier TPM safety (default: 15).")
+    parser.add_argument("--model", type=str, default="", help="Override GEMINI_MODEL for this run (disables fallback when explicitly set).")
     parser.add_argument("--dry-run", action="store_true", help="Save JSON locally to staged/ instead of posting to API.")
     parser.add_argument("--refresh-existing", action="store_true", help="Allow refreshing already-ingested episodes (updates factors & tests dedup without overwriting verified fields).")
     args = parser.parse_args()
@@ -576,8 +595,16 @@ def main():
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY is required in scripts/podcast_pipeline/.env")
 
-    model_name = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
-    fallback_model = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-3.7-flash").strip() or None
+    if args.model.strip():
+        models_to_try = [args.model.strip()]
+    else:
+        primary_model = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash").strip()
+        fallback_raw = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-3.6-flash").strip()
+        models_to_try = [m for m in [primary_model, fallback_raw] if m]
+        # Preserve order, deduplicate
+        models_to_try = list(dict.fromkeys(models_to_try))
+    exhausted_models: set = set()
+    print(f"Model rotation order: {' -> '.join(models_to_try)}")
     api_base_url = os.environ.get("API_BASE_URL", "http://localhost:3001/api")
     ingest_key = os.environ.get("PODCAST_INGEST_KEY", "")
 
@@ -593,6 +620,7 @@ def main():
 
     processed_count = 0
     consecutive_network_errors = 0
+    consecutive_503_errors = 0
     for feed_cfg in feeds:
         if not feed_cfg.get("active", True):
             continue
@@ -646,8 +674,8 @@ def main():
             try:
                 res = process_episode(
                     client=client,
-                    model_name=model_name,
-                    fallback_model=fallback_model,
+                    models_to_try=models_to_try,
+                    exhausted_models=exhausted_models,
                     feed_cfg=feed_cfg,
                     feed_link=parsed.feed.get("link", ""),
                     entry=entry,
@@ -658,6 +686,7 @@ def main():
                 )
                 print(f"  Result: {res}")
                 consecutive_network_errors = 0
+                consecutive_503_errors = 0
                 if not args.dry_run:
                     state["processed"][guid] = {
                         "podcast": feed_cfg["podcastTitle"],
@@ -672,6 +701,12 @@ def main():
             except QuotaExhaustedError as qerr:
                 print(f"  Stopping run cleanly due to Gemini quota limit: {qerr}")
                 return
+            except ServiceUnavailableError as serr:
+                print(f"  Error processing '{entry.get('title')}': {serr}")
+                consecutive_503_errors += 1
+                if consecutive_503_errors >= 2:
+                    print("  Aborting run cleanly after 2 consecutive 503/unavailable episodes to preserve daily quota.")
+                    return
             except Exception as err:
                 print(f"  Error processing '{entry.get('title')}': {err}")
                 if is_network_offline_error(err):
